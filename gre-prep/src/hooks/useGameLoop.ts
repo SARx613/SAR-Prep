@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
-import { saveCloudProgress, getCurrentUser } from '../lib/cloudStorage';
+import { saveCloudProgress } from '../lib/cloudStorage';
 
 export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
 
@@ -18,12 +18,6 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     streak: 0,
   });
 
-  // Track auth status once on mount
-  const isAuthRef = useRef<boolean>(false);
-  useEffect(() => {
-    getCurrentUser().then(u => { isAuthRef.current = !!u; });
-  }, []);
-
   // Init: load from localStorage immediately
   useEffect(() => {
     if (words.length === 0) return;
@@ -35,16 +29,14 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words]);
 
-  // On every progress change: save localStorage immediately + fire Supabase immediately
+  // On every progress change: save to localStorage AND Supabase immediately
   useEffect(() => {
     if (!progress) return;
-    // 1. Save to localStorage — instant, always works
+    // 1. Save to localStorage — instant, always works offline too
     saveProgress(progress);
-    // 2. Save to Supabase — immediate, fire-and-forget (no debounce, no delay)
-    //    This fires BEFORE the user can navigate away
-    if (isAuthRef.current) {
-      saveCloudProgress(progress); // intentionally no await, no catch — it's fire-and-forget
-    }
+    // 2. Attempt Supabase save — fires immediately, handles auth internally
+    //    If not logged in, saveCloudProgress returns early silently
+    saveCloudProgress(progress);
   }, [progress]);
 
   const nextQuestion = useCallback((currentQueue: Word[], currentProgress: UserProgress) => {
