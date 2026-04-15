@@ -2,7 +2,9 @@ import { useState, useEffect, useCallback } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
 
-export function useGameLoop(words: Word[]) {
+export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
+
+export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [queue, setQueue] = useState<Word[]>([]);
   const [state, setState] = useState<GameState>({
@@ -34,15 +36,16 @@ export function useGameLoop(words: Word[]) {
 
   const nextQuestion = useCallback((currentQueue: Word[], currentProgress: UserProgress) => {
     if (currentQueue.length === 0) return;
-    
-    // Pick the first word in the queue
+
     const word = currentQueue[0];
-    
-    // Randomize mode
-    const r = Math.random();
-    let mode: GameMode = 'mcq';
-    if (r > 0.8) mode = 'flashcard';
-    else if (r > 0.5) mode = 'typing';
+
+    // Pick mode based on playMode param
+    let mode: GameMode;
+    if (playMode === 'mix') {
+      mode = Math.random() > 0.4 ? 'mcq' : 'typing';
+    } else {
+      mode = playMode as GameMode;
+    }
 
     setState(prev => ({
       ...prev,
@@ -53,7 +56,7 @@ export function useGameLoop(words: Word[]) {
       isCorrect: null,
       flipped: false,
     }));
-  }, [words]);
+  }, [words, playMode]);
 
   const handleAnswer = useCallback((answer: string | boolean) => {
     if (!state.currentWord || state.answered || !progress) return;
@@ -104,15 +107,15 @@ export function useGameLoop(words: Word[]) {
 
   const nextTurn = useCallback(() => {
     if (!progress || queue.length === 0) return;
-    
+
     let newQueue = [...queue];
-    const finishedWord = newQueue.shift(); // Remove the current word
+    const finishedWord = newQueue.shift();
 
     // If it was missed, put it back in the queue relatively soon
     if (state.isCorrect === false && finishedWord) {
-        newQueue.splice(Math.min(5, newQueue.length), 0, finishedWord);
+      newQueue.splice(Math.min(5, newQueue.length), 0, finishedWord);
     }
-    
+
     // If queue is empty, regenerate it
     if (newQueue.length === 0) {
       newQueue = getQueue(words, progress);
