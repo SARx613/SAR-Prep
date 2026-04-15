@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
+import { saveCloudProgress } from '../lib/cloudStorage';
 
 export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
 
@@ -31,6 +32,8 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
   useEffect(() => {
     if (progress) {
       saveProgress(progress);
+      // Non-blocking cloud sync — silently ignored if user is not signed in
+      saveCloudProgress(progress).catch(() => {});
     }
   }, [progress]);
 
