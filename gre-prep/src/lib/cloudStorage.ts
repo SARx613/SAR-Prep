@@ -112,12 +112,17 @@ export async function mergeProgressOnSignIn(): Promise<UserProgress | null> {
     return cloudProgress;
   }
 
+  // Cloud is completely empty! Let's populate it with the pending or local data.
   if (pendingRaw) {
-    // First-ever sign-in with local data → upload to cloud
-    const localProgress = JSON.parse(pendingRaw) as UserProgress;
-    await saveCloudProgress(localProgress);
-    return localProgress;
+    const local = JSON.parse(pendingRaw) as UserProgress;
+    await saveCloudProgress(local);
+    return local;
   }
 
-  return loadProgress();
+  // Push existing local storage to the newly created empty cloud
+  if (localProgress && localProgress.totalSeen > 0) {
+    await saveCloudProgress(localProgress);
+  }
+  
+  return localProgress;
 }
