@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd gre-prep && npm install && npm run build",
+  "outputDirectory": "gre-prep/.next",
+  "installCommand": "cd gre-prep && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "gre-prep"
+}
