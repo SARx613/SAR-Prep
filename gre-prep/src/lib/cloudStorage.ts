@@ -52,7 +52,7 @@ export async function saveCloudProgress(progress: UserProgress): Promise<void> {
     },
     { onConflict: 'user_id' }
   );
-  if (error) console.error("Could not save to cloud:", error);
+  if (error) alert("Supabase DB Save Error: " + error.message);
 }
 
 /**
@@ -77,8 +77,13 @@ export async function signInWithGoogle(localProgress?: UserProgress): Promise<vo
 
 /** Sign out the current user */
 export async function signOut(): Promise<void> {
-  const supabase = createClient();
-  await supabase.auth.signOut();
+  try {
+    const supabase = createClient();
+    const { error } = await supabase.auth.signOut();
+    if (error) alert("Signout DB Error: " + error.message);
+  } catch (err: any) {
+    alert("Signout Fatal Error: " + err.message);
+  }
 }
 
 /**
