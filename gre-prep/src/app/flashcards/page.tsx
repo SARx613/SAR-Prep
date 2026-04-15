@@ -46,7 +46,7 @@ export default function FlashcardsPage() {
 
           {/* Back + Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
-            <Link
+            <a
               href="/"
               style={{
                 display: 'flex', alignItems: 'center', gap: '0.4rem',
@@ -60,7 +60,7 @@ export default function FlashcardsPage() {
               onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-muted)'; e.currentTarget.style.borderColor = 'var(--border)'; }}
             >
               <ArrowLeft size={14} /> Dashboard
-            </Link>
+            </a>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
               <Layers size={22} color="var(--violet)" />
               <span style={{ fontWeight: 800, fontSize: '1.05rem', color: '#fff' }}>Flashcards</span>
