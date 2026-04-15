@@ -34,11 +34,11 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
       saveProgress(progress);
       
       // Debounce the non-blocking cloud sync by 2 seconds to avoid API throttling
-      const timeoutId = setTimeout(() => {
+      // We explicitly DO NOT clear this timeout on unmount, so the final save 
+      // always reaches Supabase even if the user navigates away to the Dashboard!
+      setTimeout(() => {
         saveCloudProgress(progress).catch(() => {});
       }, 2000);
-      
-      return () => clearTimeout(timeoutId);
     }
   }, [progress]);
 
