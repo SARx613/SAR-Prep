@@ -103,8 +103,15 @@ export default function Home() {
     } catch (e) {
       console.log("Supabase forced timeout or error, clearing locally...");
     } finally {
-      // Always forcefully clear all local state to guarantee logout
-      localStorage.removeItem('sb-' + process.env.NEXT_PUBLIC_SUPABASE_URL?.split('//')[1].split('.')[0] + '-auth-token');
+      // Always forcefully clear all local state and cookies to guarantee logout
+      try {
+        const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
+        if (projectId) {
+            document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+            document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+            document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+        }
+      } catch (err) {}
       localStorage.clear();
       sessionStorage.clear();
       window.location.href = '/';
