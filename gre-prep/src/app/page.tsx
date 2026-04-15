@@ -94,8 +94,21 @@ export default function Home() {
   };
 
   const handleSignOut = async () => {
-    await signOut();
-    window.location.reload();
+    try {
+      // Force logout to complete within 1.5 seconds maximum, ignoring deadlocks
+      await Promise.race([
+        signOut(),
+        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 1500))
+      ]);
+    } catch (e) {
+      console.log("Supabase forced timeout or error, clearing locally...");
+    } finally {
+      // Always forcefully clear all local state to guarantee logout
+      localStorage.removeItem('sb-' + process.env.NEXT_PUBLIC_SUPABASE_URL?.split('//')[1].split('.')[0] + '-auth-token');
+      localStorage.clear();
+      sessionStorage.clear();
+      window.location.href = '/';
+    }
   };
 
   // ── Derived stats ─────────────────────────────────────────────────────────
