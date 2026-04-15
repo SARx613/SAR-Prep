@@ -172,3 +172,75 @@
 
 .animate-float { animation: float 6s ease-in-out infinite; }
 .animate-fade-up { animation: fadeSlideUp 0.4s ease forwards; }
+
+/* ── Responsive Mobile ──────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+
+  /* Dashboard: stats en 2x2 au lieu de 4 colonnes */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Dashboard: header en colonne */
+  .dashboard-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+  }
+
+  .dashboard-header-actions {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+
+  /* Dashboard: cartes de navigation en 1 colonne */
+  .nav-cards-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Game: header en 2 lignes */
+  .game-header {
+    flex-wrap: wrap !important;
+    gap: 0.75rem !important;
+  }
+
+  .game-header-left {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  .game-mode-toggle button {
+    padding: 0.4rem 0.8rem !important;
+    font-size: 0.78rem !important;
+  }
+
+  /* Titre hero plus petit sur mobile */
+  .hero-title {
+    font-size: 1.5rem !important;
+  }
+
+  /* Padding réduit */
+  .page-padding {
+    padding: 0 1rem !important;
+  }
+
+  /* QCM: 2 colonnes restent mais plus compact */
+  .mcq-grid {
+    gap: 0.6rem !important;
+  }
+
+  /* Auth button: masquer le nom, garder avatar */
+  .auth-username {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .hero-title {
+    font-size: 1.3rem !important;
+  }
+}
