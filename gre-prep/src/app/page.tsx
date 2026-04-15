@@ -44,13 +44,16 @@ export default function Home() {
   useEffect(() => {
     const supabase = createClient();
 
-    // Initial session check
-    supabase.auth.getUser().then(({ data: { user: u } }) => {
+    supabase.auth.getUser().then(async ({ data: { user: u } }) => {
       setUser(u);
       setAuthLoading(false);
       if (!u) {
         // Not signed in — use localStorage
         setProgress(loadProgress());
+      } else {
+        // Signed in — load from cloud
+        const merged = await mergeProgressOnSignIn();
+        if (merged) setProgress(merged);
       }
     });
 
