@@ -95,6 +95,7 @@ export default function Home() {
 
   const handleSignOut = async () => {
     await signOut();
+    window.location.reload();
   };
 
   // ── Derived stats ─────────────────────────────────────────────────────────
