@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
 import { saveCloudProgress, getCurrentUser } from '../lib/cloudStorage';
@@ -18,7 +18,13 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     streak: 0,
   });
 
-  // Init: always load from localStorage immediately
+  // Track auth status once on mount
+  const isAuthRef = useRef<boolean>(false);
+  useEffect(() => {
+    getCurrentUser().then(u => { isAuthRef.current = !!u; });
+  }, []);
+
+  // Init: load from localStorage immediately
   useEffect(() => {
     if (words.length === 0) return;
     const p = loadProgress();
@@ -29,35 +35,27 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words]);
 
-  // Save to localStorage immediately on every change, and sync to cloud after 3s idle
+  // On every progress change: save localStorage immediately + fire Supabase immediately
   useEffect(() => {
     if (!progress) return;
-    
-    // Always save locally immediately — this is what the dashboard reads
+    // 1. Save to localStorage — instant, always works
     saveProgress(progress);
-
-    // Try to push to cloud in background (non-blocking, 3 second debounce)
-    const timer = setTimeout(() => {
-      getCurrentUser().then(user => {
-        if (user) saveCloudProgress(progress).catch(() => {});
-      });
-    }, 3000);
-
-    return () => clearTimeout(timer);
+    // 2. Save to Supabase — immediate, fire-and-forget (no debounce, no delay)
+    //    This fires BEFORE the user can navigate away
+    if (isAuthRef.current) {
+      saveCloudProgress(progress); // intentionally no await, no catch — it's fire-and-forget
+    }
   }, [progress]);
 
   const nextQuestion = useCallback((currentQueue: Word[], currentProgress: UserProgress) => {
     if (currentQueue.length === 0) return;
-
     const word = currentQueue[0];
-
     let mode: GameMode;
     if (playMode === 'mix') {
       mode = Math.random() > 0.4 ? 'mcq' : 'typing';
     } else {
       mode = playMode as GameMode;
     }
-
     setState(prev => ({
       ...prev,
       currentWord: word,
@@ -73,7 +71,6 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     if (!state.currentWord || state.answered || !progress) return;
 
     let isCorrect = false;
-
     if (state.mode === 'mcq' || state.mode === 'typing') {
       if (typeof answer === 'string') {
         isCorrect = normalizeAnswer(answer) === normalizeAnswer(state.currentWord.word);
@@ -96,7 +93,6 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
       if (!prev) return prev;
       const newMastered = new Set(prev.masteredIds);
       const newReview = new Set(prev.reviewIds);
-
       if (isCorrect) {
         newReview.delete(state.currentWord!.id);
         newMastered.add(state.currentWord!.id);
@@ -104,7 +100,6 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
         newMastered.delete(state.currentWord!.id);
         newReview.add(state.currentWord!.id);
       }
-
       return {
         ...prev,
         masteredIds: Array.from(newMastered),
@@ -118,18 +113,12 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
 
   const nextTurn = useCallback(() => {
     if (!progress || queue.length === 0) return;
-
     let newQueue = [...queue];
     const finishedWord = newQueue.shift();
-
     if (state.isCorrect === false && finishedWord) {
       newQueue.splice(Math.min(5, newQueue.length), 0, finishedWord);
     }
-
-    if (newQueue.length === 0) {
-      newQueue = getQueue(words, progress);
-    }
-
+    if (newQueue.length === 0) newQueue = getQueue(words, progress);
     setQueue(newQueue);
     nextQuestion(newQueue, progress);
   }, [progress, queue, state.isCorrect, words, nextQuestion]);
@@ -140,12 +129,5 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     }
   }, [state.mode, state.flipped]);
 
-  return {
-    progress,
-    state,
-    queueSize: queue.length,
-    handleAnswer,
-    nextTurn,
-    flipCard
-  };
+  return { progress, state, queueSize: queue.length, handleAnswer, nextTurn, flipCard };
 }
