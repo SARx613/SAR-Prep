@@ -89,12 +89,20 @@ export async function signOut(): Promise<void> {
  */
 export async function mergeProgressOnSignIn(): Promise<UserProgress | null> {
   const cloudProgress = await loadCloudProgress();
+  const localProgress = loadProgress();
 
   const pendingRaw = sessionStorage.getItem('pending-local-progress');
   sessionStorage.removeItem('pending-local-progress');
 
   if (cloudProgress) {
-    // Cloud progress exists — sync it to localStorage and return it
+    // Prevent the cloud (if stuck at 0 due to API failures) from wiping local progress
+    if (localProgress && localProgress.totalSeen > cloudProgress.totalSeen) {
+      console.log("Local progress is ahead of cloud. Uploading local to cloud...");
+      await saveCloudProgress(localProgress);
+      return localProgress;
+    }
+    
+    // Cloud progress exists and is up-to-date — sync it to localStorage
     saveProgress(cloudProgress);
     return cloudProgress;
   }
