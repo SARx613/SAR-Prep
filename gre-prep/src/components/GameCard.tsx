@@ -169,7 +169,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
 
             {/* Multiple Choice Mode */}
             {mode === 'mcq' && (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
                 {options.map((option, i) => {
                   let className = "glass-hover answer-neutral";
 
