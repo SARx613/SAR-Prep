@@ -44,20 +44,27 @@ export default function Home() {
   useEffect(() => {
     const supabase = createClient();
 
-    supabase.auth.getUser().then(async ({ data: { user: u } }) => {
+    // Step 1: Show local progress IMMEDIATELY — no waiting for the network
+    setProgress(loadProgress());
+
+    // Step 2: Check who's logged in, then silently update from cloud
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
+      const u = session?.user ?? null;
       setUser(u);
       setAuthLoading(false);
-      if (!u) {
-        // Not signed in — use localStorage
-        setProgress(loadProgress());
-      } else {
-        // Signed in — load from cloud
-        const merged = await mergeProgressOnSignIn();
-        if (merged) setProgress(merged);
+
+      if (u) {
+        // Signed in — quietly fetch cloud and take the best of local+cloud
+        try {
+          const merged = await mergeProgressOnSignIn();
+          if (merged) setProgress(merged);
+        } catch (e) {
+          // Cloud failed — local progress already showing, no problem
+        }
       }
     });
 
-    // Listen for auth state changes (sign-in / sign-out)
+    // Listen for sign-in / sign-out events
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
         const u = session?.user ?? null;
@@ -65,15 +72,13 @@ export default function Home() {
         setAuthLoading(false);
 
         if (event === 'SIGNED_IN' && u) {
-          // Merge local → cloud and use the resulting progress
-          const merged = await mergeProgressOnSignIn();
-          if (merged) setProgress(merged);
+          try {
+            const merged = await mergeProgressOnSignIn();
+            if (merged) setProgress(merged);
+          } catch (e) {}
         } else if (event === 'SIGNED_OUT') {
+          // Don't clear progress — just show what's in localStorage
           setProgress(loadProgress());
-        } else if (event === 'INITIAL_SESSION' && u) {
-          // Already signed in on page load → load from cloud
-          const merged = await mergeProgressOnSignIn();
-          if (merged) setProgress(merged);
         }
       }
     );
@@ -95,24 +100,22 @@ export default function Home() {
 
   const handleSignOut = async () => {
     try {
-      // Force logout to complete within 1.5 seconds maximum, ignoring deadlocks
       await Promise.race([
         signOut(),
-        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 1500))
+        new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 1500))
       ]);
-    } catch (e) {
-      console.log("Supabase forced timeout or error, clearing locally...");
-    } finally {
-      // Always forcefully clear all local state and cookies to guarantee logout
+    } catch (e) {}
+    finally {
+      // Only wipe auth cookies — NEVER wipe game progress!
       try {
         const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
         if (projectId) {
-            document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-            document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-            document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+          document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+          document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+          document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
         }
       } catch (err) {}
-      localStorage.clear();
+      // Only clear session (OAuth), NOT localStorage (game progress lives there!)
       sessionStorage.clear();
       window.location.href = '/';
     }
