@@ -2,23 +2,23 @@ import { createClient } from '@/utils/supabase/client';
 import { UserProgress } from '@/types';
 import { loadProgress, saveProgress } from './storage';
 
-/** Fetch the current authenticated user (or null) */
+/** Get current user from local session (fast, no network) */
 export async function getCurrentUser() {
   const supabase = createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  return user;
+  const { data: { session } } = await supabase.auth.getSession();
+  return session?.user ?? null;
 }
 
-/** Load progress from Supabase for the current user */
+/** Load progress row from Supabase for the current user */
 export async function loadCloudProgress(): Promise<UserProgress | null> {
   const supabase = createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user) return null;
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.user) return null;
 
   const { data, error } = await supabase
     .from('users_progress')
     .select('*')
-    .eq('user_id', user.id)
+    .eq('user_id', session.user.id)
     .single();
 
   if (error || !data) return null;
@@ -32,17 +32,15 @@ export async function loadCloudProgress(): Promise<UserProgress | null> {
   };
 }
 
-/** Save / upsert progress to Supabase — silently fails if not authenticated */
+/** Save progress to Supabase — silently fails if not authenticated */
 export async function saveCloudProgress(progress: UserProgress): Promise<void> {
   const supabase = createClient();
-  // Using getSession is fast and local, compared to getUser which hits the API
   const { data: { session } } = await supabase.auth.getSession();
-  const user = session?.user;
-  if (!user) return;
+  if (!session?.user) return;
 
-  const { error } = await supabase.from('users_progress').upsert(
+  await supabase.from('users_progress').upsert(
     {
-      user_id: user.id,
+      user_id: session.user.id,
       mastered_ids: progress.masteredIds,
       review_ids: progress.reviewIds,
       session_score: progress.sessionScore,
@@ -52,83 +50,50 @@ export async function saveCloudProgress(progress: UserProgress): Promise<void> {
     },
     { onConflict: 'user_id' }
   );
-  if (error) alert("Supabase DB Save Error: " + error.message);
 }
 
-/**
- * Trigger Google OAuth sign-in.
- * Stores local progress in sessionStorage so we can merge after redirect.
- */
-export async function signInWithGoogle(localProgress?: UserProgress): Promise<void> {
+/** Trigger Google OAuth sign-in */
+export async function signInWithGoogle(): Promise<void> {
   const supabase = createClient();
-
-  // Persist local progress across the OAuth redirect
-  if (localProgress && (localProgress.masteredIds.length > 0 || localProgress.totalSeen > 0)) {
-    sessionStorage.setItem('pending-local-progress', JSON.stringify(localProgress));
-  }
-
   await supabase.auth.signInWithOAuth({
     provider: 'google',
-    options: {
-      redirectTo: `${window.location.origin}/auth/callback`,
-    },
+    options: { redirectTo: `${window.location.origin}/auth/callback` },
   });
 }
 
-/** Sign out the current user */
+/** Sign out */
 export async function signOut(): Promise<void> {
-  try {
-    const supabase = createClient();
-    const { error } = await supabase.auth.signOut();
-    if (error) alert("Signout DB Error: " + error.message);
-  } catch (err: any) {
-    alert("Signout Fatal Error: " + err.message);
-  }
+  const supabase = createClient();
+  await supabase.auth.signOut();
 }
 
 /**
- * Called after a SIGNED_IN event.
- * - If cloud progress exists → use it (cloud is authoritative)
- * - If not → upload the pending local progress
- * Returns the resolved progress to set as state.
+ * Called on sign-in: merge local + cloud progress, keep best values.
+ * Always shows something — never zeros out.
  */
-export async function mergeProgressOnSignIn(): Promise<UserProgress | null> {
-  const cloudProgress = await loadCloudProgress();
-  const localProgress = loadProgress();
+export async function mergeProgressOnSignIn(): Promise<UserProgress> {
+  const local = loadProgress();
+  const cloud = await loadCloudProgress();
 
-  const pendingRaw = sessionStorage.getItem('pending-local-progress');
-  sessionStorage.removeItem('pending-local-progress');
-
-  if (cloudProgress) {
-    // True Merge Strategy: NEVER overwrite or lose data.
-    // We combine exactly what the user has done locally and in the cloud.
-    const merged: UserProgress = {
-      masteredIds: Array.from(new Set([...(localProgress?.masteredIds || []), ...cloudProgress.masteredIds])),
-      reviewIds: Array.from(new Set([...(localProgress?.reviewIds || []), ...cloudProgress.reviewIds])),
-      sessionScore: Math.max(localProgress?.sessionScore || 0, cloudProgress.sessionScore),
-      lives: Math.min(localProgress?.lives ?? 5, cloudProgress.lives),
-      totalSeen: Math.max(localProgress?.totalSeen || 0, cloudProgress.totalSeen),
-    };
-    
-    // Attempt to sync the mathematically perfect data back to the cloud
-    await saveCloudProgress(merged).catch(() => {});
-    
-    // Always commit the perfect data to Local Storage
-    saveProgress(merged);
-    return merged;
-  }
-
-  // Cloud is completely empty! Let's populate it with the pending or local data.
-  if (pendingRaw) {
-    const local = JSON.parse(pendingRaw) as UserProgress;
-    await saveCloudProgress(local);
+  if (!cloud) {
+    // Cloud has no row or user not logged in — just use local
+    // (trigger should have created the row; try uploading local data)
+    await saveCloudProgress(local).catch(() => {});
     return local;
   }
 
-  // Push existing local storage to the newly created empty cloud
-  if (localProgress && localProgress.totalSeen > 0) {
-    await saveCloudProgress(localProgress);
-  }
-  
-  return localProgress;
+  // Merge: take the union of mastered/review IDs, and max numeric values
+  const merged: UserProgress = {
+    masteredIds: Array.from(new Set([...local.masteredIds, ...cloud.masteredIds])),
+    reviewIds: Array.from(new Set([...local.reviewIds, ...cloud.reviewIds])),
+    sessionScore: Math.max(local.sessionScore, cloud.sessionScore),
+    lives: Math.min(local.lives, cloud.lives),
+    totalSeen: Math.max(local.totalSeen, cloud.totalSeen),
+  };
+
+  // Save merged result to both localStorage and cloud
+  saveProgress(merged);
+  await saveCloudProgress(merged).catch(() => {});
+
+  return merged;
 }

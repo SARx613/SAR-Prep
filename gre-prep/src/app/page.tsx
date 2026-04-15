@@ -11,7 +11,6 @@ import {
   Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2,
 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
 
 // ── Google "G" SVG logo ──────────────────────────────────────────────────────
 function GoogleLogo({ size = 18 }: { size?: number }) {
@@ -30,7 +29,6 @@ export default function Home() {
   const [totalWords, setTotalWords] = useState(0);
   const [user, setUser] = useState<User | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
-  const router = useRouter();
 
   // ── Load words count ─────────────────────────────────────────────────────
   useEffect(() => {
@@ -44,27 +42,27 @@ export default function Home() {
   useEffect(() => {
     const supabase = createClient();
 
-    // Step 1: Show local progress IMMEDIATELY — no waiting for the network
+    // STEP 1: Show localStorage immediately — no waiting for network
     setProgress(loadProgress());
 
-    // Step 2: Check who's logged in, then silently update from cloud
+    // STEP 2: Check auth session (local, fast)
     supabase.auth.getSession().then(async ({ data: { session } }) => {
       const u = session?.user ?? null;
       setUser(u);
       setAuthLoading(false);
 
       if (u) {
-        // Signed in — quietly fetch cloud and take the best of local+cloud
+        // User is logged in — merge local with cloud silently
         try {
           const merged = await mergeProgressOnSignIn();
-          if (merged) setProgress(merged);
-        } catch (e) {
-          // Cloud failed — local progress already showing, no problem
+          setProgress(merged);
+        } catch {
+          // Cloud failed — keep showing localStorage data
         }
       }
     });
 
-    // Listen for sign-in / sign-out events
+    // STEP 3: Listen for auth events (sign-in after OAuth redirect, sign-out)
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
         const u = session?.user ?? null;
@@ -74,10 +72,9 @@ export default function Home() {
         if (event === 'SIGNED_IN' && u) {
           try {
             const merged = await mergeProgressOnSignIn();
-            if (merged) setProgress(merged);
-          } catch (e) {}
+            setProgress(merged);
+          } catch {}
         } else if (event === 'SIGNED_OUT') {
-          // Don't clear progress — just show what's in localStorage
           setProgress(loadProgress());
         }
       }
@@ -95,30 +92,28 @@ export default function Home() {
   };
 
   const handleSignIn = async () => {
-    await signInWithGoogle(progress ?? undefined);
+    await signInWithGoogle();
   };
 
   const handleSignOut = async () => {
     try {
       await Promise.race([
         signOut(),
-        new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 1500))
+        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 1500))
       ]);
-    } catch (e) {}
-    finally {
-      // Only wipe auth cookies — NEVER wipe game progress!
-      try {
-        const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
-        if (projectId) {
-          document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-          document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-          document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-        }
-      } catch (err) {}
-      // Only clear session (OAuth), NOT localStorage (game progress lives there!)
-      sessionStorage.clear();
-      window.location.href = '/';
-    }
+    } catch {}
+    // Always clear cookies and storage regardless
+    try {
+      const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
+      if (projectId) {
+        document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+        document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+        document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+      }
+    } catch {}
+    localStorage.clear();
+    sessionStorage.clear();
+    window.location.href = '/';
   };
 
   // ── Derived stats ─────────────────────────────────────────────────────────
@@ -365,14 +360,14 @@ export default function Home() {
           {navCards.map((card) => {
             const Icon = card.icon;
             return (
-              <motion.button
+              <motion.a
                 key={card.href}
+                href={card.href}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: card.delay }}
-                onClick={() => router.push(card.href)}
                 className="glass card-depth"
-                style={{ borderRadius: 28, padding: '2.5rem', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden' }}
+                style={{ borderRadius: 28, padding: '2.5rem', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden', textDecoration: 'none', display: 'block' }}
                 whileHover={{ y: -4, boxShadow: `0 20px 50px rgba(0,0,0,0.4)` }}
                 whileTap={{ scale: 0.98 }}
               >
@@ -385,7 +380,7 @@ export default function Home() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: card.color, fontWeight: 700, fontSize: '0.9rem' }}>
                   {card.cta} <ChevronRight size={18} />
                 </div>
-              </motion.button>
+              </motion.a>
             );
           })}
         </div>
