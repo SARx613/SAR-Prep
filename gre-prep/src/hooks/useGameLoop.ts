@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
-import { saveCloudProgress } from '../lib/cloudStorage';
+import { saveCloudProgress, getCurrentUser } from '../lib/cloudStorage';
 
 export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
 
@@ -18,7 +18,7 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     streak: 0,
   });
 
-  // Init
+  // Init: always load from localStorage immediately
   useEffect(() => {
     if (words.length === 0) return;
     const p = loadProgress();
@@ -29,17 +29,21 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words]);
 
+  // Save to localStorage immediately on every change, and sync to cloud after 3s idle
   useEffect(() => {
-    if (progress) {
-      saveProgress(progress);
-      
-      // Debounce the non-blocking cloud sync by 2 seconds to avoid API throttling
-      // We explicitly DO NOT clear this timeout on unmount, so the final save 
-      // always reaches Supabase even if the user navigates away to the Dashboard!
-      setTimeout(() => {
-        saveCloudProgress(progress).catch(() => {});
-      }, 2000);
-    }
+    if (!progress) return;
+    
+    // Always save locally immediately — this is what the dashboard reads
+    saveProgress(progress);
+
+    // Try to push to cloud in background (non-blocking, 3 second debounce)
+    const timer = setTimeout(() => {
+      getCurrentUser().then(user => {
+        if (user) saveCloudProgress(progress).catch(() => {});
+      });
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, [progress]);
 
   const nextQuestion = useCallback((currentQueue: Word[], currentProgress: UserProgress) => {
@@ -47,7 +51,6 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
 
     const word = currentQueue[0];
 
-    // Pick mode based on playMode param
     let mode: GameMode;
     if (playMode === 'mix') {
       mode = Math.random() > 0.4 ? 'mcq' : 'typing';
@@ -119,12 +122,10 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     let newQueue = [...queue];
     const finishedWord = newQueue.shift();
 
-    // If it was missed, put it back in the queue relatively soon
     if (state.isCorrect === false && finishedWord) {
       newQueue.splice(Math.min(5, newQueue.length), 0, finishedWord);
     }
 
-    // If queue is empty, regenerate it
     if (newQueue.length === 0) {
       newQueue = getQueue(words, progress);
     }
