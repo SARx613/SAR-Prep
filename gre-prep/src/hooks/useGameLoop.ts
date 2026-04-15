@@ -32,8 +32,13 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
   useEffect(() => {
     if (progress) {
       saveProgress(progress);
-      // Non-blocking cloud sync — silently ignored if user is not signed in
-      saveCloudProgress(progress).catch(() => {});
+      
+      // Debounce the non-blocking cloud sync by 2 seconds to avoid API throttling
+      const timeoutId = setTimeout(() => {
+        saveCloudProgress(progress).catch(() => {});
+      }, 2000);
+      
+      return () => clearTimeout(timeoutId);
     }
   }, [progress]);
 

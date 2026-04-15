@@ -35,10 +35,12 @@ export async function loadCloudProgress(): Promise<UserProgress | null> {
 /** Save / upsert progress to Supabase — silently fails if not authenticated */
 export async function saveCloudProgress(progress: UserProgress): Promise<void> {
   const supabase = createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  // Using getSession is fast and local, compared to getUser which hits the API
+  const { data: { session } } = await supabase.auth.getSession();
+  const user = session?.user;
   if (!user) return;
 
-  await supabase.from('users_progress').upsert(
+  const { error } = await supabase.from('users_progress').upsert(
     {
       user_id: user.id,
       mastered_ids: progress.masteredIds,
@@ -50,6 +52,7 @@ export async function saveCloudProgress(progress: UserProgress): Promise<void> {
     },
     { onConflict: 'user_id' }
   );
+  if (error) console.error("Could not save to cloud:", error);
 }
 
 /**
