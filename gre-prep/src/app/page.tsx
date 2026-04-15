@@ -182,7 +182,7 @@ export default function Home() {
       <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 1.5rem' }}>
 
         {/* ── Header ──────────────────────────────────────────────────────── */}
-        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }} className="animate-fade-up">
+        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }} className="animate-fade-up dashboard-header">
 
           {/* Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -190,7 +190,7 @@ export default function Home() {
               <BrainCircuit color="#fff" size={32} />
             </div>
             <div>
-              <h1 className="text-gradient-hero" style={{ fontSize: '2rem', fontWeight: 900, letterSpacing: '-0.02em', margin: 0 }}>
+              <h1 className="text-gradient-hero hero-title" style={{ fontSize: '2rem', fontWeight: 900, letterSpacing: '-0.02em', margin: 0 }}>
                 GRE Mastery
               </h1>
               <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.15em', margin: '0.2rem 0 0 0' }}>
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
 
           {/* Actions */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }} className="dashboard-header-actions">
 
             {/* Reset button */}
             <button
@@ -240,7 +240,7 @@ export default function Home() {
                     </span>
                   </div>
                 )}
-                <span style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--text-secondary)', maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                <span className="auth-username" style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--text-secondary)', maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                   {user.user_metadata?.full_name ?? user.email}
                 </span>
                 <button
@@ -296,7 +296,7 @@ export default function Home() {
         )}
 
         {/* ── Stats Grid ───────────────────────────────────────────────────── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+        <div className="stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
           {stats.map((stat, i) => {
             const Icon = stat.icon;
             return (
@@ -356,7 +356,7 @@ export default function Home() {
         </motion.div>
 
         {/* ── Navigation Cards ─────────────────────────────────────────────── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
+        <div className="nav-cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
           {navCards.map((card) => {
             const Icon = card.icon;
             return (
