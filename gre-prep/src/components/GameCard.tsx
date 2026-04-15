@@ -1,6 +1,6 @@
 import { Word, GameState } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShieldAlert, Lightbulb, Type, HelpCircle } from 'lucide-react';
+import { ShieldAlert, Lightbulb, Type, HelpCircle, ArrowRight } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 
 interface GameCardProps {
@@ -31,67 +31,80 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
     }
   };
 
+  const getModeLabel = () => {
+    switch(mode) {
+      case 'mcq': return 'Multiple Choice';
+      case 'typing': return 'Typing Challenge';
+      case 'flashcard': return 'Flashcard';
+      default: return '';
+    }
+  };
+
   return (
-    <div className="w-full max-w-2xl mx-auto px-4">
+    <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', padding: '0 1.5rem' }}>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentWord.id + mode}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, x: -50 }}
-          className="bg-white dark:bg-neutral-900 rounded-3xl shadow-xl overflow-hidden border border-neutral-100 dark:border-neutral-800"
+          initial={{ opacity: 0, y: 30, scale: 0.98 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          exit={{ opacity: 0, x: -50, filter: 'blur(5px)' }}
+          transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+          className="glass card-depth"
+          style={{ borderRadius: 32, overflow: 'hidden', position: 'relative' }}
         >
-          {/* Card Header (Hints) */}
-          <div className="p-8 pb-6 border-b border-neutral-100 dark:border-neutral-800">
-            <div className="flex items-center gap-3 text-emerald-500 mb-4 font-medium uppercase tracking-wider text-sm">
-              <Lightbulb size={20} />
-              <span>Definition</span>
+          {/* Accent glow on top edge */}
+          <div style={{ position: 'absolute', top: 0, left: '20%', right: '20%', height: 1, background: 'linear-gradient(90deg, transparent, rgba(16,185,129,0.5), transparent)' }} />
+
+          {/* Header Area */}
+          <div style={{ padding: '2.5rem 2.5rem 1.5rem', borderBottom: '1px solid var(--border)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
+                 <Lightbulb size={16} />
+                 <span>Definition</span>
+               </div>
+               <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: '0.4rem 0.8rem', borderRadius: 99, border: '1px solid var(--border)' }}>
+                  {getModeLabel()}
+               </div>
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-100 mb-6 leading-tight">
+
+            <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem' }}>
               {currentWord.definition}
             </h2>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-2">
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
                {currentWord.synonyms && currentWord.synonyms.length > 0 && (
-                <div className="flex-1 bg-violet-50 dark:bg-violet-900/20 rounded-2xl p-4">
-                  <div className="text-violet-600 dark:text-violet-400 text-xs font-bold uppercase mb-2">Synonyms</div>
-                  <div className="flex flex-wrap gap-2">
-                    {currentWord.synonyms.map((syn, i) => (
-                      <span key={i} className="bg-white dark:bg-violet-900/40 text-violet-700 dark:text-violet-300 px-3 py-1 rounded-full text-sm font-medium shadow-sm border border-violet-100 dark:border-violet-800/50">
+                <div style={{ flex: '1 1 200px', background: 'rgba(139,92,246,0.05)', border: '1px solid rgba(139,92,246,0.1)', borderRadius: 20, padding: '1rem' }}>
+                  <div style={{ color: 'var(--violet)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>Synonyms</div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                    {currentWord.synonyms.slice(0,4).map((syn, i) => (
+                      <span key={i} style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.05)', padding: '0.3rem 0.8rem', borderRadius: 99, fontSize: '0.8rem', fontWeight: 500, color: '#d1d5db' }}>
                         {syn}
                       </span>
                     ))}
                   </div>
                 </div>
                )}
-               <div className="flex-1 bg-amber-50 dark:bg-amber-900/20 rounded-2xl p-4">
-                  <div className="text-amber-600 dark:text-amber-400 text-xs font-bold uppercase mb-2">Français</div>
-                  <div className="text-amber-800 dark:text-amber-200 font-medium">{currentWord.french}</div>
+               <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                  <div style={{ color: 'var(--amber)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.5rem' }}>Français</div>
+                  <div style={{ fontSize: '1rem', fontWeight: 600, color: '#fcd34d' }}>{currentWord.french}</div>
                </div>
             </div>
           </div>
 
           {/* Interaction Area */}
-          <div className="p-8 bg-neutral-50 dark:bg-neutral-950/50">
+          <div style={{ padding: '2.5rem', background: 'rgba(0,0,0,0.2)' }}>
+            
             {/* Multiple Choice Mode */}
             {mode === 'mcq' && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
                 {options.map((option, i) => {
-                  let btnClass = "relative overflow-hidden group bg-white dark:bg-neutral-800 border-2 rounded-2xl p-4 text-center font-bold text-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-emerald-500/20";
-                  let isSelectedCorrect = false;
-                  let isSelectedWrong = false;
-
-                  if (!answered) {
-                    btnClass += " border-neutral-200 dark:border-neutral-700 hover:border-emerald-500 dark:hover:border-emerald-400 text-neutral-700 dark:text-neutral-200 hover:text-emerald-600 dark:hover:text-emerald-400 hover:shadow-md hover:-translate-y-1";
-                  } else {
+                  let className = "glass-hover answer-neutral";
+                  
+                  if (answered) {
                     if (option.id === currentWord.id) {
-                      isSelectedCorrect = true;
-                      btnClass += " border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400";
+                      className = "answer-correct glow-emerald";
                     } else if (isCorrect === false) {
-                       // We don't know exactly which they clicked without tracking, but we highlight all wrong as faded, correct as brilliant
-                       btnClass += " border-neutral-200 dark:border-neutral-700 opacity-50 dark:opacity-40 text-neutral-400";
-                    } else {
-                       btnClass += " border-neutral-200 dark:border-neutral-700 opacity-50 dark:opacity-40 text-neutral-400";
+                      className = "answer-neutral";
                     }
                   }
 
@@ -100,7 +113,18 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                       key={option.id + i}
                       disabled={answered}
                       onClick={() => onAnswer(option.word)}
-                      className={btnClass}
+                      className={className}
+                      style={{
+                        padding: '1.25rem',
+                        borderRadius: 20,
+                        fontSize: '1.1rem',
+                        fontWeight: 700,
+                        color: answered && option.id !== currentWord.id ? 'var(--text-muted)' : '#fff',
+                        cursor: answered ? 'default' : 'pointer',
+                        transition: 'all 0.3s ease',
+                        width: '100%',
+                        opacity: answered && option.id !== currentWord.id ? 0.5 : 1
+                      }}
                     >
                       {option.word}
                     </button>
@@ -111,10 +135,10 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
 
             {/* Typing Mode */}
             {mode === 'typing' && (
-              <form onSubmit={handleSubmitTyping} className="w-full max-w-md mx-auto">
-                 <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                      <Type className="h-5 w-5 text-neutral-400" />
+              <form onSubmit={handleSubmitTyping} style={{ width: '100%', maxWidth: 400, margin: '0 auto' }}>
+                 <div style={{ position: 'relative' }}>
+                    <div style={{ position: 'absolute', top: 0, bottom: 0, left: '1.25rem', display: 'flex', alignItems: 'center', pointerEvents: 'none' }}>
+                      <Type size={20} color="var(--text-muted)" />
                     </div>
                     <input
                       ref={inputRef}
@@ -122,31 +146,50 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                       value={inputValue}
                       onChange={(e) => setInputValue(e.target.value)}
                       disabled={answered}
-                      placeholder="Type the English word..."
-                      className={`w-full pl-12 pr-4 py-4 text-xl font-bold bg-white dark:bg-neutral-800 border-2 rounded-2xl focus:outline-none focus:ring-4 focus:ring-emerald-500/20 transition-all ${
-                        !answered 
-                          ? 'border-neutral-300 dark:border-neutral-700 focus:border-emerald-500 dark:focus:border-emerald-400 text-neutral-800 dark:text-neutral-100'
-                          : isCorrect
-                            ? 'border-emerald-500 text-emerald-600 bg-emerald-50 dark:bg-emerald-900/20'
-                            : 'border-rose-500 text-rose-600 bg-rose-50 dark:bg-rose-900/20'
-                      }`}
+                      placeholder="Type the word..."
+                      style={{
+                        width: '100%',
+                        padding: '1.25rem 1.25rem 1.25rem 3.5rem',
+                        fontSize: '1.25rem',
+                        fontWeight: 800,
+                        background: 'rgba(255,255,255,0.03)',
+                        border: '2px solid',
+                        borderColor: answered ? (isCorrect ? 'var(--emerald)' : 'var(--rose)') : 'var(--border)',
+                        color: '#fff',
+                        borderRadius: 20,
+                        outline: 'none',
+                        transition: 'all 0.3s',
+                        boxShadow: answered && isCorrect ? '0 0 20px rgba(16,185,129,0.2)' : 'none'
+                      }}
                       autoComplete="off"
-                      autoCorrect="off"
                       spellCheck="false"
                     />
                  </div>
+                 
                  {answered && !isCorrect && (
-                   <div className="mt-4 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800 flex items-center gap-3">
-                     <ShieldAlert className="text-emerald-500 shrink-0" />
+                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ marginTop: '1.5rem', padding: '1rem 1.5rem', background: 'rgba(16,185,129,0.1)', border: '1px solid rgba(16,185,129,0.3)', borderRadius: 16, display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                     <ShieldAlert color="var(--emerald)" size={24} />
                      <div>
-                       <div className="text-sm text-emerald-600 font-medium">Correct answer:</div>
-                       <div className="text-xl font-bold text-emerald-700 dark:text-emerald-400">{currentWord.word}</div>
+                       <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--emerald)' }}>Correct Answer</div>
+                       <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#fff' }}>{currentWord.word}</div>
                      </div>
-                   </div>
+                   </motion.div>
                  )}
+
                  {!answered && (
-                   <button type="submit" disabled={!inputValue.trim()} className="mt-4 w-full bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-bold py-4 rounded-xl hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity">
-                     Check Answer
+                   <button 
+                     type="submit" 
+                     disabled={!inputValue.trim()} 
+                     style={{
+                        marginTop: '1.5rem', width: '100%', padding: '1.25rem',
+                        background: inputValue.trim() ? '#fff' : 'rgba(255,255,255,0.05)',
+                        color: inputValue.trim() ? '#000' : 'var(--text-muted)',
+                        fontWeight: 800, fontSize: '1rem', borderRadius: 20,
+                        border: 'none', cursor: inputValue.trim() ? 'pointer' : 'not-allowed',
+                        transition: 'all 0.3s'
+                     }}
+                   >
+                     Submit Answer
                    </button>
                  )}
               </form>
@@ -154,37 +197,67 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
 
             {/* Flashcard Mode */}
             {mode === 'flashcard' && (
-              <div className="flex flex-col items-center justify-center">
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: 200 }}>
                 {!flipped ? (
                   <button 
                     onClick={onFlip}
-                    className="w-full max-w-xs h-32 bg-white dark:bg-neutral-800 border-2 border-dashed border-neutral-300 dark:border-neutral-700 rounded-3xl flex flex-col items-center justify-center gap-2 text-neutral-500 dark:text-neutral-400 hover:border-emerald-500 hover:text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-900/10 transition-all cursor-pointer"
+                    className="glass-hover"
+                    style={{
+                      width: '100%', maxWidth: 300, height: 160,
+                      background: 'rgba(255,255,255,0.02)',
+                      border: '2px dashed rgba(255,255,255,0.1)',
+                      borderRadius: 32,
+                      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem',
+                      color: 'var(--text-secondary)', cursor: 'pointer',
+                      transition: 'all 0.3s'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = 'var(--emerald)';
+                      e.currentTarget.style.color = 'var(--emerald)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                      e.currentTarget.style.color = 'var(--text-secondary)';
+                    }}
                   >
                     <HelpCircle size={32} />
-                    <span className="font-medium">Reveal Word</span>
+                    <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>Reveal Word</span>
                   </button>
                 ) : (
-                  <div className="w-full flex flex-col items-center animate-in fade-in zoom-in duration-300">
-                    <div className="text-5xl font-black text-neutral-800 dark:text-neutral-100 mb-8 tracking-tight">
+                  <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', textAlign: 'center' }}>
+                    <div className="text-gradient-hero" style={{ fontSize: '4rem', fontWeight: 900, letterSpacing: '-0.03em', marginBottom: '2.5rem' }}>
                       {currentWord.word}
                     </div>
                     {!answered && (
-                      <div className="w-full grid grid-cols-2 gap-4">
+                      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
                         <button 
                           onClick={() => onAnswer(false)}
-                          className="bg-white dark:bg-neutral-800 border-2 border-rose-200 dark:border-rose-900 text-rose-600 dark:text-rose-400 py-4 rounded-2xl font-bold text-lg hover:bg-rose-50 dark:hover:bg-rose-900/20 transition-colors"
+                          style={{
+                             padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                             background: 'rgba(244,63,94,0.1)', border: '1px solid rgba(244,63,94,0.3)', color: '#fda4af',
+                             cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
+                          }}
+                          onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.2)'}
+                          onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.1)'}
                         >
-                          I didn't know it
+                          Didn't know it
                         </button>
                         <button 
                           onClick={() => onAnswer(true)}
-                          className="bg-emerald-500 text-white dark:bg-emerald-600 dark:text-emerald-50 py-4 rounded-2xl font-bold text-lg hover:bg-emerald-600 dark:hover:bg-emerald-500 shadow-lg shadow-emerald-500/30 transition-all hover:-translate-y-1"
+                          className="glow-emerald"
+                          style={{
+                             padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                             background: 'var(--emerald)', border: 'none', color: '#000',
+                             cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
+                          }}
+                          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+                          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                         >
                           I knew it!
                         </button>
                       </div>
                     )}
-                  </div>
+                  </motion.div>
                 )}
               </div>
             )}
@@ -192,16 +265,24 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
             {/* Next Button Overlay */}
             {answered && (
               <motion.div 
-                initial={{ opacity: 0, y: 10 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-8 flex justify-end"
+                style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'flex-end' }}
               >
                 <button
                   onClick={onNextTurn}
                   autoFocus
-                  className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:-translate-y-1 transition-all"
+                  style={{
+                     display: 'flex', alignItems: 'center', gap: '0.75rem',
+                     background: '#fff', color: '#000', padding: '1rem 2rem',
+                     borderRadius: 99, fontSize: '1.1rem', fontWeight: 800, border: 'none',
+                     cursor: 'pointer', transition: 'transform 0.2s'
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px) scale(1.05)'}
+                  onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0) scale(1)'}
                 >
-                  Continuar →
+                  Continue
+                  <ArrowRight size={20} />
                 </button>
               </motion.div>
             )}

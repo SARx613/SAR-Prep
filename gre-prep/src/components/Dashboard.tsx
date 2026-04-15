@@ -1,85 +1,144 @@
 import { UserProgress } from '../types';
-import { Target, Zap, LayoutList, Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Trophy, Target, Zap, BookOpen } from 'lucide-react';
 
 interface DashboardProps {
   progress: UserProgress;
   totalWords: number;
+  streak: number;
 }
 
-export function Dashboard({ progress, totalWords }: DashboardProps) {
-  const masteryPercentage = totalWords > 0 ? (progress.masteredIds.length / totalWords) * 100 : 0;
+const stats = [
+  {
+    key: 'mastered' as const,
+    label: 'Mastered',
+    icon: Trophy,
+    color: '#10b981',
+    bg: 'rgba(16,185,129,0.12)',
+    border: 'rgba(16,185,129,0.25)',
+  },
+  {
+    key: 'review' as const,
+    label: 'To Review',
+    icon: Target,
+    color: '#f43f5e',
+    bg: 'rgba(244,63,94,0.1)',
+    border: 'rgba(244,63,94,0.2)',
+  },
+  {
+    key: 'streak' as const,
+    label: 'Streak',
+    icon: Zap,
+    color: '#f59e0b',
+    bg: 'rgba(245,158,11,0.1)',
+    border: 'rgba(245,158,11,0.2)',
+  },
+  {
+    key: 'score' as const,
+    label: 'Score',
+    icon: BookOpen,
+    color: '#8b5cf6',
+    bg: 'rgba(139,92,246,0.1)',
+    border: 'rgba(139,92,246,0.2)',
+  },
+];
+
+export function Dashboard({ progress, totalWords, streak }: DashboardProps) {
+  const mastery = totalWords > 0 ? (progress.masteredIds.length / totalWords) * 100 : 0;
+
+  const values: Record<string, number> = {
+    mastered: progress.masteredIds.length,
+    review: progress.reviewIds.length,
+    streak,
+    score: progress.sessionScore,
+  };
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 mb-8">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        
-        {/* Mastery */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
-          className="bg-white dark:bg-neutral-900 p-5 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-sm flex flex-col items-center justify-center text-center"
-        >
-          <div className="bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 p-3 rounded-2xl mb-3">
-            <Trophy size={24} />
-          </div>
-          <div className="text-3xl font-black text-neutral-800 dark:text-neutral-100">{progress.masteredIds.length}</div>
-          <div className="text-xs text-neutral-500 font-medium uppercase tracking-wider mt-1">Mastered / {totalWords}</div>
-        </motion.div>
+    <div style={{ width: '100%', maxWidth: 900, margin: '0 auto', padding: '0 1.5rem 2rem' }}>
 
-        {/* To Review */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
-          className="bg-white dark:bg-neutral-900 p-5 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-sm flex flex-col items-center justify-center text-center"
-        >
-          <div className="bg-rose-100 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400 p-3 rounded-2xl mb-3">
-            <Target size={24} />
-          </div>
-          <div className="text-3xl font-black text-neutral-800 dark:text-neutral-100">{progress.reviewIds.length}</div>
-          <div className="text-xs text-neutral-500 font-medium uppercase tracking-wider mt-1">To Review</div>
-        </motion.div>
-
-        {/* Seen */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
-          className="bg-white dark:bg-neutral-900 p-5 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-sm flex flex-col items-center justify-center text-center"
-        >
-          <div className="bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 p-3 rounded-2xl mb-3">
-            <LayoutList size={24} />
-          </div>
-          <div className="text-3xl font-black text-neutral-800 dark:text-neutral-100">{progress.totalSeen}</div>
-          <div className="text-xs text-neutral-500 font-medium uppercase tracking-wider mt-1">Times Played</div>
-        </motion.div>
-
-        {/* Score */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
-          className="bg-white dark:bg-neutral-900 p-5 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-sm flex flex-col items-center justify-center text-center relative overflow-hidden"
-        >
-          <div className="absolute -right-4 -top-4 opacity-5 bg-amber-500 rounded-full w-24 h-24 blur-xl"></div>
-          <div className="bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 p-3 rounded-2xl mb-3 relative z-10">
-            <Zap size={24} />
-          </div>
-          <div className="text-3xl font-black text-neutral-800 dark:text-neutral-100 relative z-10">{progress.sessionScore}</div>
-          <div className="text-xs text-neutral-500 font-medium uppercase tracking-wider mt-1 relative z-10">Score</div>
-        </motion.div>
-
+      {/* Stats row */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+        {stats.map((stat, i) => {
+          const Icon = stat.icon;
+          return (
+            <motion.div
+              key={stat.key}
+              initial={{ opacity: 0, y: -16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.08 }}
+              className="glass card-depth"
+              style={{
+                borderRadius: 20,
+                padding: '1.25rem',
+                background: stat.bg,
+                borderColor: stat.border,
+                position: 'relative',
+                overflow: 'hidden',
+              }}
+            >
+              {/* Glow bg */}
+              <div style={{
+                position: 'absolute', top: -20, right: -20,
+                width: 80, height: 80,
+                background: stat.color,
+                borderRadius: '50%',
+                opacity: 0.07,
+                filter: 'blur(20px)',
+              }} />
+              <div style={{
+                display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                width: 40, height: 40, borderRadius: 12,
+                background: stat.bg, border: `1px solid ${stat.border}`,
+                marginBottom: '0.75rem',
+              }}>
+                <Icon size={20} color={stat.color} />
+              </div>
+              <div style={{
+                fontSize: '1.875rem', fontWeight: 900,
+                color: stat.color, lineHeight: 1,
+                marginBottom: '0.25rem',
+              }}>
+                {values[stat.key].toLocaleString()}
+              </div>
+              <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                {stat.label}
+              </div>
+            </motion.div>
+          );
+        })}
       </div>
 
-      {/* Progress Bar */}
-      <div className="mt-6 bg-white dark:bg-neutral-900 p-4 rounded-3xl border border-neutral-100 dark:border-neutral-800 shadow-sm">
-        <div className="flex justify-between text-sm font-bold mb-2">
-          <span className="text-neutral-500">Progress to 1000</span>
-          <span className="text-emerald-600 dark:text-emerald-400">{masteryPercentage.toFixed(1)}%</span>
+      {/* Progress bar */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4 }}
+        className="glass card-depth"
+        style={{ borderRadius: 20, padding: '1.25rem 1.5rem' }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
+          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+            Path to mastery
+          </span>
+          <span style={{ fontSize: '0.875rem', fontWeight: 800 }} className="text-gradient-emerald">
+            {progress.masteredIds.length} / {totalWords}
+          </span>
         </div>
-        <div className="w-full bg-neutral-100 dark:bg-neutral-800 h-4 rounded-full overflow-hidden">
-          <motion.div 
+        <div style={{ width: '100%', height: 10, background: 'rgba(255,255,255,0.05)', borderRadius: 99, overflow: 'hidden' }}>
+          <motion.div
             initial={{ width: 0 }}
-            animate={{ width: `${masteryPercentage}%` }}
-            transition={{ duration: 1, delay: 0.5 }}
-            className="h-full bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"
+            animate={{ width: `${mastery}%` }}
+            transition={{ duration: 1.2, delay: 0.6, ease: 'easeOut' }}
+            className="progress-shine"
+            style={{ height: '100%', borderRadius: 99 }}
           />
         </div>
-      </div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.5rem' }}>
+          <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>0</span>
+          <span style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--emerald)' }}>{mastery.toFixed(1)}%</span>
+          <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>{totalWords}</span>
+        </div>
+      </motion.div>
     </div>
   );
 }
