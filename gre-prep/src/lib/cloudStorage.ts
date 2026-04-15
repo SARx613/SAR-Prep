@@ -100,16 +100,22 @@ export async function mergeProgressOnSignIn(): Promise<UserProgress | null> {
   sessionStorage.removeItem('pending-local-progress');
 
   if (cloudProgress) {
-    // Prevent the cloud (if stuck at 0 due to API failures) from wiping local progress
-    if (localProgress && localProgress.totalSeen > cloudProgress.totalSeen) {
-      console.log("Local progress is ahead of cloud. Uploading local to cloud...");
-      await saveCloudProgress(localProgress);
-      return localProgress;
-    }
+    // True Merge Strategy: NEVER overwrite or lose data.
+    // We combine exactly what the user has done locally and in the cloud.
+    const merged: UserProgress = {
+      masteredIds: Array.from(new Set([...(localProgress?.masteredIds || []), ...cloudProgress.masteredIds])),
+      reviewIds: Array.from(new Set([...(localProgress?.reviewIds || []), ...cloudProgress.reviewIds])),
+      sessionScore: Math.max(localProgress?.sessionScore || 0, cloudProgress.sessionScore),
+      lives: Math.min(localProgress?.lives ?? 5, cloudProgress.lives),
+      totalSeen: Math.max(localProgress?.totalSeen || 0, cloudProgress.totalSeen),
+    };
     
-    // Cloud progress exists and is up-to-date — sync it to localStorage
-    saveProgress(cloudProgress);
-    return cloudProgress;
+    // Attempt to sync the mathematically perfect data back to the cloud
+    await saveCloudProgress(merged).catch(() => {});
+    
+    // Always commit the perfect data to Local Storage
+    saveProgress(merged);
+    return merged;
   }
 
   // Cloud is completely empty! Let's populate it with the pending or local data.
