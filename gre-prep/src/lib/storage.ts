@@ -33,10 +33,10 @@ export function resetProgress(): void {
 
 export function getQueue(words: Word[], progress: UserProgress): Word[] {
   const mastered = new Set(progress.masteredIds);
-  // Prioritize review words, then unseen words
+  // Prioritize review words, then unseen words — both shuffled for random order
   const reviewWords = words.filter(w => progress.reviewIds.includes(w.id));
   const unseenWords = words.filter(w => !mastered.has(w.id) && !progress.reviewIds.includes(w.id));
-  return [...reviewWords, ...unseenWords];
+  return [...shuffleArray(reviewWords), ...shuffleArray(unseenWords)];
 }
 
 export function shuffleArray<T>(arr: T[]): T[] {
