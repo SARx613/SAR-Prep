@@ -35,7 +35,7 @@ export default function Home() {
     fetch('/words.json')
       .then(r => r.json())
       .then((data: unknown[]) => setTotalWords(data.length))
-      .catch(() => {});
+      .catch(() => { });
   }, []);
 
   // ── Auth + progress init ─────────────────────────────────────────────────
@@ -73,7 +73,7 @@ export default function Home() {
           try {
             const merged = await mergeProgressOnSignIn();
             setProgress(merged);
-          } catch {}
+          } catch { }
         } else if (event === 'SIGNED_OUT') {
           setProgress(loadProgress());
         }
@@ -101,7 +101,7 @@ export default function Home() {
         signOut(),
         new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 1500))
       ]);
-    } catch {}
+    } catch { }
     // Always clear cookies and storage regardless
     try {
       const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
@@ -110,7 +110,7 @@ export default function Home() {
         document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
         document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
       }
-    } catch {}
+    } catch { }
     localStorage.clear();
     sessionStorage.clear();
     window.location.href = '/';
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className="text-gradient-hero hero-title" style={{ fontSize: '2rem', fontWeight: 900, letterSpacing: '-0.02em', margin: 0 }}>
-                GRE Mastery
+                SAR Prep
               </h1>
               <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.15em', margin: '0.2rem 0 0 0' }}>
                 Tableau de bord
