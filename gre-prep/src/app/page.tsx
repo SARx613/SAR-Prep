@@ -8,7 +8,7 @@ import { signInWithGoogle, signOut, mergeProgressOnSignIn } from '@/lib/cloudSto
 import { createClient } from '@/utils/supabase/client';
 import {
   BrainCircuit, Trophy, Target, BookOpen, Layers,
-  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2,
+  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2, BookMarked,
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -170,37 +170,49 @@ export default function Home() {
       href: '/games',
       delay: 0.6,
     },
+    {
+      title: 'Glossaire',
+      description: 'Les 995 mots et leurs définitions, de A à Z. Navigation rapide par lettre et mélange aléatoire.',
+      icon: BookMarked,
+      color: 'var(--amber)',
+      bg: 'rgba(245,158,11,0.08)',
+      accentBg: 'rgba(245,158,11,0.18)',
+      accentBorder: 'rgba(245,158,11,0.35)',
+      cta: 'Consulter',
+      href: '/glossary',
+      delay: 0.7,
+    },
   ];
 
   return (
-    <main style={{ minHeight: '100vh', paddingTop: '3rem', paddingBottom: '6rem', position: 'relative' }}>
+    <main style={{ minHeight: '100vh', paddingTop: 'clamp(1.5rem, 5vw, 3rem)', paddingBottom: '5rem', position: 'relative' }}>
 
       {/* Ambient orbs */}
       <div style={{ position: 'fixed', top: '10%', left: '5%', width: '30vh', height: '30vh', background: 'var(--emerald)', borderRadius: '50%', filter: 'blur(120px)', opacity: 0.1, zIndex: -1 }} className="animate-float" />
       <div style={{ position: 'fixed', bottom: '10%', right: '5%', width: '40vh', height: '40vh', background: 'var(--violet)', borderRadius: '50%', filter: 'blur(150px)', opacity: 0.08, zIndex: -1, animationDelay: '-3s' }} className="animate-float" />
 
-      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 1.5rem' }}>
+      <div className="page-shell">
 
         {/* ── Header ──────────────────────────────────────────────────────── */}
         <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }} className="animate-fade-up dashboard-header">
 
           {/* Logo */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <div className="glow-emerald" style={{ width: 56, height: 56, background: 'var(--emerald)', borderRadius: 20, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <BrainCircuit color="#fff" size={32} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', minWidth: 0 }}>
+            <div className="glow-emerald" style={{ width: 'clamp(44px, 12vw, 56px)', height: 'clamp(44px, 12vw, 56px)', background: 'var(--emerald)', borderRadius: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+              <BrainCircuit color="#fff" size={28} />
             </div>
-            <div>
-              <h1 className="text-gradient-hero hero-title" style={{ fontSize: '2rem', fontWeight: 900, letterSpacing: '-0.02em', margin: 0 }}>
+            <div style={{ minWidth: 0 }}>
+              <h1 className="text-gradient-hero hero-title" style={{ fontSize: 'clamp(1.5rem, 6vw, 2rem)', fontWeight: 900, letterSpacing: '-0.02em', margin: 0, whiteSpace: 'nowrap' }}>
                 SAR Prep
               </h1>
-              <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.15em', margin: '0.2rem 0 0 0' }}>
+              <p style={{ fontSize: '0.72rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.14em', margin: '0.2rem 0 0 0' }}>
                 Tableau de bord
               </p>
             </div>
           </div>
 
           {/* Actions */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }} className="dashboard-header-actions">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }} className="dashboard-header-actions">
 
             {/* Reset button */}
             <button
@@ -209,7 +221,7 @@ export default function Home() {
                 display: 'flex', alignItems: 'center', gap: '0.5rem',
                 color: 'var(--text-muted)', background: 'transparent',
                 border: '1px solid var(--border)', borderRadius: 99,
-                padding: '0.5rem 1rem', cursor: 'pointer',
+                padding: '0.55rem 1rem', cursor: 'pointer', whiteSpace: 'nowrap',
                 fontSize: '0.8rem', fontWeight: 600, transition: 'all 0.2s',
               }}
               onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--rose)'; e.currentTarget.style.color = 'var(--rose)'; }}
@@ -250,7 +262,7 @@ export default function Home() {
                     display: 'flex', alignItems: 'center', gap: '0.3rem',
                     color: 'var(--text-muted)', background: 'transparent',
                     border: '1px solid var(--border)', borderRadius: 99,
-                    padding: '0.4rem 0.75rem', cursor: 'pointer',
+                    padding: '0.5rem 0.8rem', cursor: 'pointer', whiteSpace: 'nowrap',
                     fontSize: '0.78rem', fontWeight: 600, transition: 'all 0.2s',
                   }}
                   onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--rose)'; e.currentTarget.style.borderColor = 'var(--rose)'; }}
@@ -266,7 +278,7 @@ export default function Home() {
                 className="glass"
                 style={{
                   display: 'flex', alignItems: 'center', gap: '0.6rem',
-                  padding: '0.5rem 1.1rem', borderRadius: 99,
+                  padding: '0.6rem 1.1rem', borderRadius: 99, whiteSpace: 'nowrap',
                   border: '1px solid rgba(255,255,255,0.1)',
                   cursor: 'pointer', fontSize: '0.85rem', fontWeight: 700,
                   color: '#fff', transition: 'all 0.2s', background: 'rgba(255,255,255,0.04)',
@@ -275,7 +287,7 @@ export default function Home() {
                 onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.04)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}
               >
                 <GoogleLogo size={17} />
-                Continuer avec Google
+                <span className="google-label-long">Continuer avec&nbsp;</span>Google
               </button>
             )}
           </div>
@@ -305,17 +317,17 @@ export default function Home() {
                 initial={{ opacity: 0, y: -16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.08 }}
-                className="glass card-depth"
-                style={{ borderRadius: 20, padding: '1.25rem', background: stat.bg, borderColor: stat.border, position: 'relative', overflow: 'hidden' }}
+                className="glass card-depth stat-card"
+                style={{ borderRadius: 20, padding: '1.25rem', background: stat.bg, borderColor: stat.border, position: 'relative', overflow: 'hidden', minWidth: 0 }}
               >
                 <div style={{ position: 'absolute', top: -20, right: -20, width: 80, height: 80, background: stat.color, borderRadius: '50%', opacity: 0.07, filter: 'blur(20px)' }} />
-                <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 40, height: 40, borderRadius: 12, background: stat.bg, border: `1px solid ${stat.border}`, marginBottom: '0.75rem' }}>
-                  <Icon size={20} color={stat.color} />
+                <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 36, height: 36, borderRadius: 12, background: stat.bg, border: `1px solid ${stat.border}`, marginBottom: '0.6rem' }}>
+                  <Icon size={18} color={stat.color} />
                 </div>
-                <div style={{ fontSize: '1.875rem', fontWeight: 900, color: stat.color, lineHeight: 1, marginBottom: '0.25rem' }}>
+                <div className="stat-value" style={{ fontSize: '1.875rem', fontWeight: 900, color: stat.color, lineHeight: 1, marginBottom: '0.25rem' }}>
                   {stat.value.toLocaleString()}
                 </div>
-                <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+                <div style={{ fontSize: '0.68rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                   {stat.label}
                 </div>
               </motion.div>
@@ -329,10 +341,10 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
           className="glass card-depth"
-          style={{ borderRadius: 20, padding: '1.25rem 1.5rem', marginBottom: '2.5rem' }}
+          style={{ borderRadius: 20, padding: '1.25rem clamp(1rem, 4vw, 1.5rem)', marginBottom: 'clamp(1.75rem, 5vw, 2.5rem)' }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
-            <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+            <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
               Progression globale
             </span>
             <span style={{ fontSize: '0.875rem', fontWeight: 800 }} className="text-gradient-emerald">
@@ -356,7 +368,7 @@ export default function Home() {
         </motion.div>
 
         {/* ── Navigation Cards ─────────────────────────────────────────────── */}
-        <div className="nav-cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
+        <div className="nav-cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'clamp(1rem, 3vw, 1.5rem)' }}>
           {navCards.map((card) => {
             const Icon = card.icon;
             return (
@@ -366,17 +378,17 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: card.delay }}
-                className="glass card-depth"
-                style={{ borderRadius: 28, padding: '2.5rem', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden', textDecoration: 'none', display: 'block' }}
+                className="glass card-depth nav-card"
+                style={{ borderRadius: 26, padding: 'clamp(1.5rem, 3.5vw, 2.25rem)', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden', textDecoration: 'none', display: 'block' }}
                 whileHover={{ y: -4, boxShadow: `0 20px 50px rgba(0,0,0,0.4)` }}
                 whileTap={{ scale: 0.98 }}
               >
                 <div style={{ position: 'absolute', top: -40, right: -40, width: 150, height: 150, background: card.color, borderRadius: '50%', opacity: 0.1, filter: 'blur(40px)', pointerEvents: 'none' }} />
-                <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 60, height: 60, borderRadius: 18, background: card.accentBg, border: `1px solid ${card.accentBorder}`, marginBottom: '1.5rem' }}>
-                  <Icon size={30} color={card.color} />
+                <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 52, height: 52, borderRadius: 16, background: card.accentBg, border: `1px solid ${card.accentBorder}`, marginBottom: '1.15rem' }}>
+                  <Icon size={26} color={card.color} />
                 </div>
-                <div style={{ fontSize: '1.6rem', fontWeight: 900, color: '#fff', marginBottom: '0.6rem' }}>{card.title}</div>
-                <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.75rem' }}>{card.description}</div>
+                <div style={{ fontSize: 'clamp(1.25rem, 3.2vw, 1.5rem)', fontWeight: 900, color: '#fff', marginBottom: '0.5rem' }}>{card.title}</div>
+                <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: '1.35rem' }}>{card.description}</div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: card.color, fontWeight: 700, fontSize: '0.9rem' }}>
                   {card.cta} <ChevronRight size={18} />
                 </div>

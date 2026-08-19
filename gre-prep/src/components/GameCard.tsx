@@ -51,7 +51,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
   };
 
   return (
-    <div style={{ width: '100%', maxWidth: 900, margin: '0 auto', padding: '0 1.5rem' }}>
+    <div style={{ width: '100%', maxWidth: 900, margin: '0 auto' }}>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentWord.id + mode}
@@ -60,13 +60,13 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           exit={{ opacity: 0, x: -50, filter: 'blur(5px)' }}
           transition={{ type: 'spring', stiffness: 300, damping: 25 }}
           className="glass card-depth"
-          style={{ borderRadius: 32, overflow: 'hidden', position: 'relative' }}
+          style={{ borderRadius: 'clamp(20px, 5vw, 32px)', overflow: 'hidden', position: 'relative' }}
         >
           {/* Accent glow on top edge */}
           <div style={{ position: 'absolute', top: 0, left: '20%', right: '20%', height: 1, background: 'linear-gradient(90deg, transparent, rgba(16,185,129,0.5), transparent)' }} />
 
           {/* Header Area */}
-          <div style={{ padding: '2.5rem 2.5rem 1.5rem', borderBottom: '1px solid var(--border)' }}>
+          <div className="game-card-header" style={{ padding: 'clamp(1.25rem, 4vw, 2.5rem) clamp(1.15rem, 4vw, 2.5rem) 1.5rem', borderBottom: '1px solid var(--border)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
                 <Lightbulb size={16} />
@@ -77,7 +77,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               </div>
             </div>
 
-            <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.15rem, 4.2vw, 1.75rem)', fontWeight: 800, color: '#fff', lineHeight: 1.35, marginBottom: 'clamp(1.25rem, 4vw, 2rem)' }}>
               {currentWord.definition}
             </h2>
 
@@ -86,7 +86,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
 
               {/* Synonyms */}
               {currentWord.synonyms && currentWord.synonyms.length > 0 && (
-                <div style={{ flex: '1 1 200px', background: 'rgba(139,92,246,0.05)', border: '1px solid rgba(139,92,246,0.1)', borderRadius: 20, padding: '1rem' }}>
+                <div style={{ flex: '1 1 180px', minWidth: 0, background: 'rgba(139,92,246,0.05)', border: '1px solid rgba(139,92,246,0.1)', borderRadius: 20, padding: '1rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
                     <div style={{ color: 'var(--violet)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                       Synonymes
@@ -127,7 +127,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               )}
 
               {/* French translation */}
-              <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              <div style={{ flex: '1 1 180px', minWidth: 0, background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                   <div style={{ color: 'var(--amber)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                     Français
@@ -165,11 +165,11 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           </div>
 
           {/* Interaction Area */}
-          <div style={{ padding: '2.5rem', background: 'rgba(0,0,0,0.2)' }}>
+          <div className="game-card-body" style={{ padding: 'clamp(1.15rem, 4vw, 2.5rem)', background: 'rgba(0,0,0,0.2)' }}>
 
             {/* Multiple Choice Mode */}
             {mode === 'mcq' && (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+              <div className="mcq-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
                 {options.map((option, i) => {
                   let className = "glass-hover answer-neutral";
 
@@ -188,10 +188,12 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                       onClick={() => onAnswer(option.word)}
                       className={className}
                       style={{
-                        padding: '1.25rem',
-                        borderRadius: 20,
-                        fontSize: '1.1rem',
+                        padding: 'clamp(0.9rem, 3vw, 1.25rem)',
+                        borderRadius: 18,
+                        fontSize: 'clamp(0.95rem, 3.4vw, 1.1rem)',
                         fontWeight: 700,
+                        minHeight: 56,
+                        border: '1px solid rgba(255,255,255,0.08)',
                         color: answered && option.id !== currentWord.id ? 'var(--text-muted)' : '#fff',
                         cursor: answered ? 'default' : 'pointer',
                         transition: 'all 0.3s ease',
@@ -222,8 +224,8 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                     placeholder="Tape le mot..."
                     style={{
                       width: '100%',
-                      padding: '1.25rem 1.25rem 1.25rem 3.5rem',
-                      fontSize: '1.25rem',
+                      padding: '1.1rem 1rem 1.1rem 3.25rem',
+                      fontSize: 'clamp(1rem, 3.6vw, 1.25rem)',
                       fontWeight: 800,
                       background: 'rgba(255,255,255,0.03)',
                       border: '2px solid',
@@ -276,7 +278,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                     onClick={onFlip}
                     className="glass-hover"
                     style={{
-                      width: '100%', maxWidth: 300, height: 160,
+                      width: '100%', maxWidth: 300, minHeight: 140, padding: '1.5rem',
                       background: 'rgba(255,255,255,0.02)',
                       border: '2px dashed rgba(255,255,255,0.1)',
                       borderRadius: 32,
@@ -298,17 +300,17 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                   </button>
                 ) : (
                   <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', textAlign: 'center' }}>
-                    <div className="text-gradient-hero" style={{ fontSize: '4rem', fontWeight: 900, letterSpacing: '-0.03em', marginBottom: '2.5rem' }}>
+                    <div className="text-gradient-hero" style={{ fontSize: 'clamp(2rem, 11vw, 4rem)', fontWeight: 900, letterSpacing: '-0.03em', marginBottom: 'clamp(1.5rem, 6vw, 2.5rem)', lineHeight: 1.1, overflowWrap: 'anywhere' }}>
                       {currentWord.word}
                     </div>
                     {!answered && (
-                      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+                      <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <button
                           onClick={() => onAnswer(false)}
                           style={{
-                            padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                            padding: 'clamp(0.9rem, 3vw, 1.25rem) 1.25rem', borderRadius: 18, fontSize: 'clamp(0.9rem, 3.2vw, 1.1rem)', fontWeight: 700,
                             background: 'rgba(244,63,94,0.1)', border: '1px solid rgba(244,63,94,0.3)', color: '#fda4af',
-                            cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
+                            cursor: 'pointer', transition: 'all 0.2s', flex: '1 1 140px', minHeight: 56, maxWidth: 200
                           }}
                           onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.2)'}
                           onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.1)'}
@@ -319,9 +321,9 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           onClick={() => onAnswer(true)}
                           className="glow-emerald"
                           style={{
-                            padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                            padding: 'clamp(0.9rem, 3vw, 1.25rem) 1.25rem', borderRadius: 18, fontSize: 'clamp(0.9rem, 3.2vw, 1.1rem)', fontWeight: 700,
                             background: 'var(--emerald)', border: 'none', color: '#000',
-                            cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
+                            cursor: 'pointer', transition: 'all 0.2s', flex: '1 1 140px', minHeight: 56, maxWidth: 200
                           }}
                           onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-2px)')}
                           onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
@@ -340,16 +342,17 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               <motion.div
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'flex-end' }}
+                style={{ marginTop: 'clamp(1.5rem, 5vw, 2.5rem)', display: 'flex', justifyContent: 'flex-end' }}
               >
                 <button
                   onClick={onNextTurn}
                   autoFocus
+                  className="btn-block-mobile"
                   style={{
                     display: 'flex', alignItems: 'center', gap: '0.75rem',
                     background: '#fff', color: '#000', padding: '1rem 2rem',
-                    borderRadius: 99, fontSize: '1.1rem', fontWeight: 800, border: 'none',
-                    cursor: 'pointer', transition: 'transform 0.2s'
+                    borderRadius: 99, fontSize: '1.05rem', fontWeight: 800, border: 'none',
+                    cursor: 'pointer', transition: 'transform 0.2s', minHeight: 56
                   }}
                   onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-2px) scale(1.05)')}
                   onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0) scale(1)')}

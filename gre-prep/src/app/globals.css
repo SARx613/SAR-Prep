@@ -21,12 +21,22 @@
     --text-primary:   #f0f4ff;
     --text-secondary: #8892a4;
     --text-muted:     #4a5468;
+
+    /* Gouttière horizontale unique — sert de source de vérité pour toutes
+       les pages afin d'éviter les paddings imbriqués qui compressaient
+       le contenu au centre. */
+    --gutter: 1.5rem;
+    /* Largeur du rail alphabétique du glossaire */
+    --rail-width: 1.75rem;
   }
 
   html {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* Empêche iOS d'agrandir le texte en paysage */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   body {
@@ -37,15 +47,40 @@
     background-attachment: fixed;
     color: var(--text-primary);
     min-height: 100vh;
+    /* Aucun débordement horizontal possible, quel que soit l'écran */
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Les mots anglais longs (« incontrovertible ») ne doivent jamais
+     dépasser de leur carte sur un écran étroit. */
+  h1, h2, h3, p, span, button, a, li, div {
+    overflow-wrap: break-word;
+  }
+
+  img, svg, video { max-width: 100%; }
+
+  /* Cible tactile confortable : jamais moins de 44px de haut sur mobile */
+  button, a, input, select, textarea {
+    font-family: inherit;
   }
 
   /* Smooth scrollbar */
-  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: var(--text-muted); border-radius: 3px; }
 }
 
 @layer utilities {
+  /* ── Conteneur de page unique ─────────────────────────────────────────── */
+  .page-shell {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+  }
+
   /* Glassmorphism */
   .glass {
     background: var(--bg-glass);
@@ -56,11 +91,6 @@
 
   .glass-hover {
     transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
-  }
-
-  .glass-hover:hover {
-    background: rgba(255,255,255,0.05);
-    border-color: rgba(255,255,255,0.12);
   }
 
   /* Glowing accents */
@@ -141,11 +171,20 @@
     border-color: rgba(255,255,255,0.08);
   }
 
-  .answer-neutral:hover {
-    background: rgba(255,255,255,0.06);
-    border-color: rgba(16,185,129,0.4);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  /* Les effets de survol ne s'appliquent qu'aux vrais pointeurs :
+     sur mobile ils restaient « collés » après un tap. */
+  @media (hover: hover) and (pointer: fine) {
+    .glass-hover:hover {
+      background: rgba(255,255,255,0.05);
+      border-color: rgba(255,255,255,0.12);
+    }
+
+    .answer-neutral:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(16,185,129,0.4);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
   }
 }
 
@@ -170,48 +209,120 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
 .animate-float { animation: float 6s ease-in-out infinite; }
 .animate-fade-up { animation: fadeSlideUp 0.4s ease forwards; }
 
-/* ── Responsive Mobile ──────────────────────────────────────────────────── */
-@media (max-width: 640px) {
+/* ── Glossaire ──────────────────────────────────────────────────────────── */
+/* Laisse la place au rail alphabétique fixé à droite */
+.glossary-shell {
+  padding-right: calc(var(--gutter) + var(--rail-width) + 0.75rem);
+}
 
-  /* Dashboard: stats en 2x2 au lieu de 4 colonnes */
-  .stats-grid {
+.glossary-toolbar {
+  /* Le fond doit être opaque : la liste défile derrière */
+  background: rgba(11, 15, 25, 0.88) !important;
+}
+
+.glossary-entry {
+  transition: border-color 0.2s, background 0.2s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .glossary-entry:hover {
+    border-color: rgba(245,158,11,0.28);
+  }
+}
+
+/* ── Responsive : tablette ──────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  :root { --gutter: 1.25rem; }
+
+  .nav-cards-grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+}
 
-  /* Dashboard: header en colonne */
+/* ── Responsive : mobile ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  :root {
+    --gutter: 1rem;
+    --rail-width: 1.5rem;
+  }
+
+  /* Dashboard : stats en 2x2 au lieu de 4 colonnes */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.7rem !important;
+  }
+
+  .stat-card {
+    padding: 0.9rem !important;
+    border-radius: 16px !important;
+  }
+
+  .stat-value { font-size: 1.5rem !important; }
+
+  /* Dashboard : header en colonne */
   .dashboard-header {
     flex-direction: column !important;
-    align-items: flex-start !important;
+    align-items: stretch !important;
     gap: 1rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .dashboard-header-actions {
     width: 100%;
-    justify-content: space-between !important;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
   }
 
-  /* Dashboard: cartes de navigation en 1 colonne */
+  /* Dashboard : cartes de navigation en 1 colonne */
   .nav-cards-grid {
     grid-template-columns: 1fr !important;
+    gap: 1rem !important;
   }
 
-  /* Game: header en 2 lignes */
+  .nav-card {
+    padding: 1.5rem !important;
+    border-radius: 22px !important;
+  }
+
+  /* Header de jeu : empilé, plus de chevauchement */
   .game-header {
     flex-wrap: wrap !important;
     gap: 0.75rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .game-header-left {
-    flex: 1 !important;
+    flex: 1 1 100% !important;
     min-width: 0 !important;
   }
 
+  .game-mode-toggle {
+    flex: 1 1 auto !important;
+    justify-content: space-between !important;
+  }
+
   .game-mode-toggle button {
-    padding: 0.4rem 0.8rem !important;
-    font-size: 0.78rem !important;
+    flex: 1 !important;
+    padding: 0.55rem 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  /* Carte de jeu : paddings raisonnables */
+  .game-card-header { padding: 1.25rem 1.15rem 1.15rem !important; }
+  .game-card-body   { padding: 1.15rem !important; }
+
+  /* QCM : une seule colonne — les mots longs ne débordent plus */
+  .mcq-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.6rem !important;
   }
 
   /* Titre hero plus petit sur mobile */
@@ -219,28 +330,28 @@
     font-size: 1.5rem !important;
   }
 
-  /* Padding réduit */
-  .page-padding {
-    padding: 0 1rem !important;
-  }
-
-  /* QCM: 2 colonnes restent mais plus compact */
-  .mcq-grid {
-    gap: 0.6rem !important;
-  }
-
-  /* Auth button: masquer le nom, garder avatar */
+  /* Auth : masquer le nom, garder l'avatar */
   .auth-username {
     display: none !important;
+  }
+
+  /* « Continuer avec Google » → « Google » : les deux boutons d'en-tête
+     tiennent alors sur une seule ligne. */
+  .google-label-long {
+    display: none !important;
+  }
+
+  /* Boutons pleine largeur sur mobile */
+  .btn-block-mobile {
+    width: 100% !important;
+    justify-content: center !important;
   }
 }
 
 @media (max-width: 400px) {
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+  .hero-title {
+    font-size: 1.25rem !important;
   }
 
-  .hero-title {
-    font-size: 1.3rem !important;
-  }
+  .stat-value { font-size: 1.35rem !important; }
 }
