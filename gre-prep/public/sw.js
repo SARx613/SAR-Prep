@@ -38,13 +38,18 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-/** Requests that must always hit the network, never the cache. */
+/**
+ * Requests that must always hit the network, never the cache.
+ *
+ * Cross-origin covers Supabase, which is a different host. The /auth/ guard
+ * matters most: the OAuth callback is a navigation carrying a single-use
+ * ?code=, and caching it would let a reload replay a spent code.
+ */
 function isBypassed(url) {
   return (
     url.origin !== self.location.origin ||
     url.pathname.startsWith('/auth/') ||
-    url.pathname.startsWith('/api/') ||
-    url.hostname.includes('supabase')
+    url.pathname.startsWith('/api/')
   );
 }
 
