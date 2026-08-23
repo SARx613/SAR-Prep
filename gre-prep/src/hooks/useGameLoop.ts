@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Word, GameState, UserProgress, GameMode } from '../types';
 import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer } from '../lib/storage';
-import { saveCloudProgress } from '../lib/cloudStorage';
+import { saveProgress as saveCloudProgress } from '../app/actions/progress';
 
 export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
 
@@ -29,14 +29,28 @@ export function useGameLoop(words: Word[], playMode: PlayMode = 'mix') {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words]);
 
-  // On every progress change: save to localStorage AND Supabase immediately
+  const cloudTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // On every progress change: localStorage right away, cloud shortly after.
   useEffect(() => {
     if (!progress) return;
-    // 1. Save to localStorage — instant, always works offline too
+
+    // 1. localStorage — instant, and the source of truth when offline.
     saveProgress(progress);
-    // 2. Attempt Supabase save — fires immediately, handles auth internally
-    //    If not logged in, saveCloudProgress returns early silently
-    saveCloudProgress(progress);
+
+    // 2. Cloud — debounced. Every answer used to fire its own request; as a
+    //    Server Action that is a round trip per keystroke-speed answer, so
+    //    coalesce bursts into one write. The action no-ops when signed out.
+    if (cloudTimer.current) clearTimeout(cloudTimer.current);
+    cloudTimer.current = setTimeout(() => {
+      saveCloudProgress(progress).catch(() => {
+        // Offline or signed out — localStorage already holds the truth.
+      });
+    }, 1200);
+
+    return () => {
+      if (cloudTimer.current) clearTimeout(cloudTimer.current);
+    };
   }, [progress]);
 
   const nextQuestion = useCallback((currentQueue: Word[], currentProgress: UserProgress) => {

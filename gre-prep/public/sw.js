@@ -2,8 +2,8 @@
  * SAR Prep service worker.
  *
  * Strategy is deliberately conservative: only same-origin GET navigations and
- * static assets are cached. Anything that carries progress (Supabase, /auth/*)
- * is never intercepted, so a stale cache can never shadow real progress data.
+ * static assets are cached. Anything that carries auth or progress is never
+ * intercepted, so a stale cache can never shadow real progress data.
  */
 
 const VERSION = 'sar-prep-v1';
@@ -41,15 +41,14 @@ self.addEventListener('activate', (event) => {
 /**
  * Requests that must always hit the network, never the cache.
  *
- * Cross-origin covers Supabase, which is a different host. The /auth/ guard
- * matters most: the OAuth callback is a navigation carrying a single-use
- * ?code=, and caching it would let a reload replay a spent code.
+ * The /api/ guard covers Auth.js, which serves its whole OAuth flow under
+ * /api/auth/* — including the callback, a navigation carrying a single-use
+ * ?code= that must never be replayed from cache. Server Actions POST to page
+ * routes, but only GET is intercepted at all, so progress writes are untouched.
  */
 function isBypassed(url) {
   return (
-    url.origin !== self.location.origin ||
-    url.pathname.startsWith('/auth/') ||
-    url.pathname.startsWith('/api/')
+    url.origin !== self.location.origin || url.pathname.startsWith('/api/')
   );
 }
 

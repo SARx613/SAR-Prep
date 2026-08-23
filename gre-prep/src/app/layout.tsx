@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SessionProvider } from "next-auth/react";
 import PWAProvider from "@/components/PWAProvider";
 import "./globals.css";
 
@@ -40,8 +41,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body>
-        <PWAProvider />
-        {children}
+        <SessionProvider>
+          <PWAProvider />
+          {children}
+        </SessionProvider>
       </body>
     </html>
   );
