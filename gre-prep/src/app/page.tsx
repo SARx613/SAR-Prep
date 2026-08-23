@@ -1,11 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { User } from '@supabase/supabase-js';
+import { useSession, signIn, signOut } from 'next-auth/react';
 import { UserProgress } from '@/types';
-import { loadProgress, resetProgress } from '@/lib/storage';
-import { signInWithGoogle, signOut, mergeProgressOnSignIn } from '@/lib/cloudStorage';
-import { createClient } from '@/utils/supabase/client';
+import { loadProgress, saveProgress, resetProgress } from '@/lib/storage';
+import { mergeProgress } from '@/app/actions/progress';
 import {
   BrainCircuit, Trophy, Target, BookOpen, Layers,
   Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2,
@@ -27,8 +26,9 @@ function GoogleLogo({ size = 18 }: { size?: number }) {
 export default function Home() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
   const [totalWords, setTotalWords] = useState(0);
-  const [user, setUser] = useState<User | null>(null);
-  const [authLoading, setAuthLoading] = useState(true);
+  const { data: session, status } = useSession();
+  const user = session?.user ?? null;
+  const authLoading = status === 'loading';
 
   // ── Load words count ─────────────────────────────────────────────────────
   useEffect(() => {
@@ -38,50 +38,30 @@ export default function Home() {
       .catch(() => { });
   }, []);
 
-  // ── Auth + progress init ─────────────────────────────────────────────────
+  // ── Show local progress immediately — never wait on the network ──────────
   useEffect(() => {
-    const supabase = createClient();
-
-    // STEP 1: Show localStorage immediately — no waiting for network
     setProgress(loadProgress());
-
-    // STEP 2: Check auth session (local, fast)
-    supabase.auth.getSession().then(async ({ data: { session } }) => {
-      const u = session?.user ?? null;
-      setUser(u);
-      setAuthLoading(false);
-
-      if (u) {
-        // User is logged in — merge local with cloud silently
-        try {
-          const merged = await mergeProgressOnSignIn();
-          setProgress(merged);
-        } catch {
-          // Cloud failed — keep showing localStorage data
-        }
-      }
-    });
-
-    // STEP 3: Listen for auth events (sign-in after OAuth redirect, sign-out)
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      async (event, session) => {
-        const u = session?.user ?? null;
-        setUser(u);
-        setAuthLoading(false);
-
-        if (event === 'SIGNED_IN' && u) {
-          try {
-            const merged = await mergeProgressOnSignIn();
-            setProgress(merged);
-          } catch { }
-        } else if (event === 'SIGNED_OUT') {
-          setProgress(loadProgress());
-        }
-      }
-    );
-
-    return () => subscription.unsubscribe();
   }, []);
+
+  // ── Once signed in, merge local into cloud and adopt the result ──────────
+  useEffect(() => {
+    if (status !== 'authenticated') return;
+    let cancelled = false;
+
+    mergeProgress(loadProgress())
+      .then(merged => {
+        if (cancelled) return;
+        // Keep localStorage in step so a later offline load starts from the
+        // merged state rather than the stale pre-sign-in one.
+        saveProgress(merged);
+        setProgress(merged);
+      })
+      .catch(() => {
+        // Cloud unreachable — the local view stays valid.
+      });
+
+    return () => { cancelled = true; };
+  }, [status]);
 
   // ── Handlers ─────────────────────────────────────────────────────────────
   const handleReset = () => {
@@ -92,28 +72,14 @@ export default function Home() {
   };
 
   const handleSignIn = async () => {
-    await signInWithGoogle();
+    await signIn('google');
   };
 
   const handleSignOut = async () => {
-    try {
-      await Promise.race([
-        signOut(),
-        new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 1500))
-      ]);
-    } catch { }
-    // Always clear cookies and storage regardless
-    try {
-      const projectId = process.env.NEXT_PUBLIC_SUPABASE_URL?.match(/:\/\/([^.]+)\./)?.[1] || '';
-      if (projectId) {
-        document.cookie = `sb-${projectId}-auth-token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-        document.cookie = `sb-${projectId}-auth-token.0=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-        document.cookie = `sb-${projectId}-auth-token.1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-      }
-    } catch { }
-    localStorage.clear();
-    sessionStorage.clear();
-    window.location.href = '/';
+    // Auth.js clears its own cookie server-side, so the manual cookie
+    // teardown the Supabase flow needed is gone — and with it the
+    // localStorage.clear() that used to wipe local progress on sign-out.
+    await signOut({ redirectTo: '/' });
   };
 
   // ── Derived stats ─────────────────────────────────────────────────────────
@@ -226,22 +192,22 @@ export default function Home() {
             ) : user ? (
               /* ── Signed in: avatar + sign-out ── */
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                {user.user_metadata?.avatar_url ? (
+                {user.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
-                    src={user.user_metadata.avatar_url}
-                    alt={user.user_metadata?.full_name ?? 'Avatar'}
+                    src={user.image}
+                    alt={user.name ?? 'Avatar'}
                     style={{ width: 34, height: 34, borderRadius: '50%', border: '2px solid var(--emerald)', objectFit: 'cover' }}
                   />
                 ) : (
                   <div style={{ width: 34, height: 34, borderRadius: '50%', background: 'var(--emerald)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <span style={{ fontSize: '0.85rem', fontWeight: 800, color: '#000' }}>
-                      {(user.user_metadata?.full_name ?? user.email ?? '?')[0].toUpperCase()}
+                      {(user.name ?? user.email ?? '?')[0].toUpperCase()}
                     </span>
                   </div>
                 )}
                 <span className="auth-username" style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--text-secondary)', maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                  {user.user_metadata?.full_name ?? user.email}
+                  {user.name ?? user.email}
                 </span>
                 <button
                   onClick={handleSignOut}
