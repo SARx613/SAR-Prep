@@ -139,13 +139,13 @@ export default function Home() {
   ];
 
   return (
-    <main style={{ minHeight: '100vh', paddingTop: '3rem', paddingBottom: '6rem', position: 'relative' }}>
+    <main style={{ minHeight: '100vh', paddingTop: 'calc(1.5rem + var(--sat))', paddingBottom: 'calc(6rem + var(--sab))', position: 'relative' }}>
 
       {/* Ambient orbs */}
       <div style={{ position: 'fixed', top: '10%', left: '5%', width: '30vh', height: '30vh', background: 'var(--emerald)', borderRadius: '50%', filter: 'blur(120px)', opacity: 0.1, zIndex: -1 }} className="animate-float" />
       <div style={{ position: 'fixed', bottom: '10%', right: '5%', width: '40vh', height: '40vh', background: 'var(--violet)', borderRadius: '50%', filter: 'blur(150px)', opacity: 0.08, zIndex: -1, animationDelay: '-3s' }} className="animate-float" />
 
-      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 1.5rem' }}>
+      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 max(1.5rem, var(--sar)) 0 max(1.5rem, var(--sal))' }}>
 
         {/* ── Header ──────────────────────────────────────────────────────── */}
         <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }} className="animate-fade-up dashboard-header">
@@ -236,6 +236,7 @@ export default function Home() {
                   border: '1px solid rgba(255,255,255,0.1)',
                   cursor: 'pointer', fontSize: '0.85rem', fontWeight: 700,
                   color: '#fff', transition: 'all 0.2s', background: 'rgba(255,255,255,0.04)',
+                  whiteSpace: 'nowrap', flexShrink: 0,
                 }}
                 onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.09)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.04)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}
@@ -262,7 +263,7 @@ export default function Home() {
         )}
 
         {/* ── Stats Grid ───────────────────────────────────────────────────── */}
-        <div className="stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+        <div className="stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '0.6rem', marginBottom: '1.5rem' }}>
           {stats.map((stat, i) => {
             const Icon = stat.icon;
             return (
@@ -271,19 +272,19 @@ export default function Home() {
                 initial={{ opacity: 0, y: -16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.08 }}
-                className="glass card-depth"
-                style={{ borderRadius: 20, padding: '1.25rem', background: stat.bg, borderColor: stat.border, position: 'relative', overflow: 'hidden' }}
+                className="glass card-depth stat-pill"
+                style={{ borderRadius: 14, background: stat.bg, borderColor: stat.border, position: 'relative', overflow: 'hidden' }}
               >
-                <div style={{ position: 'absolute', top: -20, right: -20, width: 80, height: 80, background: stat.color, borderRadius: '50%', opacity: 0.07, filter: 'blur(20px)' }} />
-                <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 40, height: 40, borderRadius: 12, background: stat.bg, border: `1px solid ${stat.border}`, marginBottom: '0.75rem' }}>
-                  <Icon size={20} color={stat.color} />
-                </div>
-                <div style={{ fontSize: '1.875rem', fontWeight: 900, color: stat.color, lineHeight: 1, marginBottom: '0.25rem' }}>
-                  {stat.value.toLocaleString()}
-                </div>
-                <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-                  {stat.label}
-                </div>
+                <div style={{ position: 'absolute', top: -20, right: -20, width: 60, height: 60, background: stat.color, borderRadius: '50%', opacity: 0.07, filter: 'blur(20px)' }} />
+                <span className="stat-pill-icon" style={{ background: stat.bg, border: `1px solid ${stat.border}` }}>
+                  <Icon size={15} color={stat.color} />
+                </span>
+                <span className="stat-pill-text">
+                  <span className="stat-pill-value" style={{ color: stat.color }}>
+                    {stat.value.toLocaleString()}
+                  </span>
+                  <span className="stat-pill-label">{stat.label}</span>
+                </span>
               </motion.div>
             );
           })}
@@ -333,7 +334,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: card.delay }}
                 className="glass card-depth"
-                style={{ borderRadius: 28, padding: '2.5rem', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden', textDecoration: 'none', display: 'block' }}
+                style={{ borderRadius: 28, padding: 'clamp(1.4rem, 5vw, 2.5rem)', textAlign: 'left', cursor: 'pointer', border: '1px solid var(--border)', background: card.bg, position: 'relative', overflow: 'hidden', textDecoration: 'none', display: 'block' }}
                 whileHover={{ y: -4, boxShadow: `0 20px 50px rgba(0,0,0,0.4)` }}
                 whileTap={{ scale: 0.98 }}
               >

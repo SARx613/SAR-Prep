@@ -33,16 +33,16 @@ export default function FlashcardsPage() {
   }
 
   return (
-    <main style={{ minHeight: '100vh', paddingTop: '2rem', paddingBottom: '6rem', position: 'relative' }}>
+    <main style={{ minHeight: '100vh', paddingTop: 'calc(1.25rem + var(--sat))', paddingBottom: 'calc(6rem + var(--sab))', position: 'relative' }}>
 
       {/* Background orbs */}
       <div style={{ position: 'fixed', top: '10%', right: '5%', width: '35vh', height: '35vh', background: 'var(--violet)', borderRadius: '50%', filter: 'blur(130px)', opacity: 0.1, zIndex: -1 }} className="animate-float" />
       <div style={{ position: 'fixed', bottom: '15%', left: '8%', width: '30vh', height: '30vh', background: 'var(--emerald)', borderRadius: '50%', filter: 'blur(120px)', opacity: 0.07, zIndex: -1, animationDelay: '-2s' }} className="animate-float" />
 
-      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 1.5rem' }}>
+      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 max(1.5rem, var(--sar)) 0 max(1.5rem, var(--sal))' }}>
 
         {/* Header */}
-        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2.5rem' }} className="animate-fade-up">
+        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2.5rem', flexWrap: 'wrap', gap: '0.75rem' }} className="animate-fade-up page-header">
 
           {/* Back + Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
@@ -61,15 +61,15 @@ export default function FlashcardsPage() {
             >
               <ArrowLeft size={14} /> Dashboard
             </a>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-              <Layers size={22} color="var(--violet)" />
-              <span style={{ fontWeight: 800, fontSize: '1.05rem', color: '#fff' }}>Flashcards</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', minWidth: 0 }}>
+              <Layers size={22} color="var(--violet)" style={{ flexShrink: 0 }} />
+              <span style={{ fontWeight: 800, fontSize: '1.05rem', color: '#fff', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>Flashcards</span>
             </div>
           </div>
 
           {/* Queue counter */}
           {progress && (
-            <div className="glass" style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', padding: '0.5rem 1.15rem', borderRadius: 99 }}>
+            <div className="glass queue-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 0.9rem', borderRadius: 99, flexShrink: 0, whiteSpace: 'nowrap' }}>
               <span style={{ width: 7, height: 7, background: 'var(--violet)', borderRadius: '50%', boxShadow: '0 0 10px var(--violet)', display: 'inline-block' }} />
               <span style={{ fontSize: '0.88rem', fontWeight: 800, color: '#fff' }}>
                 {queueSize} <span style={{ color: 'var(--text-muted)', fontWeight: 600 }}>en file</span>
