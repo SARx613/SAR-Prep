@@ -48,7 +48,7 @@ export default function GamesPage() {
       <div style={{ position: 'fixed', top: '10%', left: '5%', width: '30vh', height: '30vh', background: 'var(--emerald)', borderRadius: '50%', filter: 'blur(120px)', opacity: 0.1, zIndex: -1 }} className="animate-float" />
       <div style={{ position: 'fixed', bottom: '10%', right: '5%', width: '40vh', height: '40vh', background: 'var(--violet)', borderRadius: '50%', filter: 'blur(150px)', opacity: 0.08, zIndex: -1, animationDelay: '-3s' }} className="animate-float" />
 
-      <div className="page-padding" style={{ maxWidth: 1000, margin: '0 auto', padding: '0 max(1.5rem, var(--sar)) 0 max(1.5rem, var(--sal))' }}>
+      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 max(1.5rem, var(--sar)) 0 max(1.5rem, var(--sal))' }}>
 
         {/* Header */}
         <header className="game-header page-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2.5rem', flexWrap: 'wrap', gap: '0.75rem' }} >
