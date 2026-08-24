@@ -556,4 +556,22 @@ export const SE_FRAMES: SEFrame[] = [
     difficulty: 4,
     tags: ['result-clause'],
   },
+  {
+    text: 'Asked about the casualties, the minister gave a {{1}} reply that his own party found impossible to defend.',
+    pair: ['flippant', 'facetious'],
+    distractors: ['solemn', 'measured', 'evasive', 'contrite'],
+    rationale:
+      'A reply about casualties that even allies cannot defend treats a grave subject lightly. "Flippant" and "facetious" both mean unseriously dismissive and are interchangeable here. "Solemn" and "measured" describe exactly the gravity the answer lacked; "evasive" would mean dodging the question rather than making light of it.',
+    difficulty: 4,
+    tags: ['inference', 'tone'],
+  },
+  {
+    text: 'The forgery was so {{1}} that the dealer had signed his own name to the certificate of authenticity.',
+    pair: ['brazen', 'audacious'],
+    distractors: ['furtive', 'meticulous', 'inept', 'lucrative'],
+    rationale:
+      'Signing one\'s own name to a forged certificate is shameless boldness rather than concealment. "Brazen" and "audacious" both mean openly defiant of propriety and are interchangeable. "Furtive" means stealthy, the opposite of an act done in the open; "inept" would concern skill rather than nerve.',
+    difficulty: 4,
+    tags: ['example-as-clue'],
+  },
 ];

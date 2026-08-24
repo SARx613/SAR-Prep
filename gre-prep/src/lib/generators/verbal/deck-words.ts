@@ -120,6 +120,7 @@ export const DECK_WORDS: ReadonlySet<string> = new Set([
   "bonhomie",
   "boor",
   "brandish",
+  "brazen",
   "brook",
   "bucolic",
   "buffer",
@@ -367,6 +368,7 @@ export const DECK_WORDS: ReadonlySet<string> = new Set([
   "flag",
   "fledgling",
   "fleeting",
+  "flippant",
   "florid",
   "flout",
   "fluke",
@@ -1003,4 +1005,4 @@ export const DECK_WORDS: ReadonlySet<string> = new Set([
   "zenith",
 ]);
 
-export const DECK_SIZE = 995;
+export const DECK_SIZE = 997;

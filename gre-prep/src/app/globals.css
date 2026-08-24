@@ -198,6 +198,10 @@
   .dashboard-header-actions {
     width: 100%;
     justify-content: space-between !important;
+    /* The sign-in button cannot shrink (its label is nowrap), so on a narrow
+       phone it would otherwise spill past the gutter and be clipped by the
+       body's overflow-x. Wrapping drops it onto its own line instead. */
+    flex-wrap: wrap;
   }
 
   /* Dashboard: cartes de navigation en 1 colonne */
@@ -248,6 +252,31 @@
 }
 
 @layer components {
+  /* ── Page shell ────────────────────────────────────────────────────────
+     Every route uses these two classes instead of restating the same
+     padding inline. Safe-area handling lives here, once: when the app is
+     installed with viewport-fit=cover the page paints under the notch, so
+     the top padding must clear it and the side gutters must never fall
+     below the left/right insets in landscape.
+
+     A page that omits `.page` loses its notch clearance — which is how the
+     back link on a new route ends up hidden under the Dynamic Island. */
+  .page {
+    min-height: 100vh;
+    padding-top: calc(1.5rem + var(--sat));
+    padding-bottom: calc(6rem + var(--sab));
+    position: relative;
+  }
+
+  /* Holds the page's own gutter. Nested boxes must not add one of their
+     own, or their edges sit inboard of everything else on the page. */
+  .page-container {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-left: max(1.5rem, var(--sal));
+    padding-right: max(1.5rem, var(--sar));
+  }
+
   /* ── Compact stat pills ────────────────────────────────────────────────
      Icon, value and label sit on one row so four stats fit a phone width
      without stacking into four tall cards. */

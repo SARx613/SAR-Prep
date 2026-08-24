@@ -107,8 +107,8 @@ export default function PracticePage() {
 
   if (quiz) {
     return (
-      <main className="min-h-screen px-4 py-6 pb-16">
-        <div className="max-w-3xl mx-auto mb-6">
+      <main className="page">
+        <div className="page-container max-w-3xl mb-6">
           <button
             onClick={() => setQuiz(null)}
             className="inline-flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-white transition"
@@ -117,14 +117,16 @@ export default function PracticePage() {
             Quitter la session
           </button>
         </div>
-        <PracticeSession quiz={quiz} onRestart={() => setQuiz(null)} />
+        <div className="page-container">
+          <PracticeSession quiz={quiz} onRestart={() => setQuiz(null)} />
+        </div>
       </main>
     );
   }
 
   return (
-    <main className="min-h-screen px-4 py-6 pb-16">
-      <div className="max-w-2xl mx-auto space-y-8">
+    <main className="page">
+      <div className="page-container max-w-2xl space-y-8">
         <div>
           <Link
             href="/"
@@ -221,7 +223,7 @@ export default function PracticePage() {
           <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">
             Nombre de questions
           </h2>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             {LENGTHS.map((n) => (
               <button
                 key={n}
@@ -242,7 +244,7 @@ export default function PracticePage() {
         {/* Difficulty */}
         <section className="space-y-3">
           <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">Difficulté</h2>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             {([
               { id: 'all', label: 'Tous niveaux' },
               { id: 'easy', label: 'Plus facile (1–3)' },
