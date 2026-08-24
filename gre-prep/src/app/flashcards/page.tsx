@@ -33,13 +33,13 @@ export default function FlashcardsPage() {
   }
 
   return (
-    <main style={{ minHeight: '100vh', paddingTop: 'calc(1.25rem + var(--sat))', paddingBottom: 'calc(6rem + var(--sab))', position: 'relative' }}>
+    <main className="page">
 
       {/* Background orbs */}
       <div style={{ position: 'fixed', top: '10%', right: '5%', width: '35vh', height: '35vh', background: 'var(--violet)', borderRadius: '50%', filter: 'blur(130px)', opacity: 0.1, zIndex: -1 }} className="animate-float" />
       <div style={{ position: 'fixed', bottom: '15%', left: '8%', width: '30vh', height: '30vh', background: 'var(--emerald)', borderRadius: '50%', filter: 'blur(120px)', opacity: 0.07, zIndex: -1, animationDelay: '-2s' }} className="animate-float" />
 
-      <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 max(1.5rem, var(--sar)) 0 max(1.5rem, var(--sal))' }}>
+      <div className="page-container">
 
         {/* Header */}
         <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2.5rem', flexWrap: 'wrap', gap: '0.75rem' }} className="animate-fade-up page-header">

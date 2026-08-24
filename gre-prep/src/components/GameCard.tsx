@@ -50,8 +50,11 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
     }
   };
 
+  // No side padding on the wrapper: the card is rendered inside
+  // .page-container, which already supplies the page gutter. A second one
+  // here would inset the card from everything else on the page.
   return (
-    <div style={{ width: '100%', maxWidth: 900, margin: '0 auto', padding: '0 1.5rem' }}>
+    <div style={{ width: '100%', maxWidth: 900, margin: '0 auto' }}>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentWord.id + mode}
