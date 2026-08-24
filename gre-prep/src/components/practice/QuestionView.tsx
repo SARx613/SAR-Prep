@@ -120,7 +120,10 @@ function BlankedText({ text, fills }: { text: string; fills: (string | null)[] }
                 : 'bg-white/[0.04] border border-dashed border-white/25 text-white/30'
             )}
           >
-            {filled ?? `blanc ${m[1]}`}
+            {/* An unfilled blank shows a rule, as the exam does, rather
+                than a word — the sentence is English and a French label
+                inside it reads as part of the text. */}
+            {filled ?? '\u2014\u2014\u2014'}
           </span>
         );
       })}

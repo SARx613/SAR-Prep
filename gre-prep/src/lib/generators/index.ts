@@ -13,10 +13,9 @@ import { arithmeticTemplates } from './arithmetic';
 import { algebraTemplates } from './algebra';
 import { dataTemplates } from './data';
 import { geometryTemplates } from './geometry';
-import { PASSAGES, buildRC } from './reading';
 import { Rng, hashSeed } from './rng';
 import type { GeneratedQuestion, Template } from './types';
-import { buildAllVerbal } from './verbal';
+import { ALL_PASSAGES, buildReading, buildShortVerbal } from './verbal/index';
 
 export const QUANT_TEMPLATES: Template[] = [
   ...arithmeticTemplates,
@@ -134,7 +133,7 @@ export interface BankOptions {
 
 export interface Bank {
   questions: GeneratedQuestion[];
-  passages: { spec: (typeof PASSAGES)[number]; questions: GeneratedQuestion[] }[];
+  passages: { spec: (typeof ALL_PASSAGES)[number]; questions: GeneratedQuestion[] }[];
   stats: {
     generated: number;
     rejected: number;
@@ -189,14 +188,14 @@ export function generateBank(options: BankOptions = {}): Bank {
   }
 
   // Verbal: frames are fixed content, so each yields exactly one item.
+  // Only the order of the choices varies with the seed.
   const verbalRng = new Rng(hashSeed(`${seed}:verbal`));
-  for (const q of buildAllVerbal(verbalRng)) record(q);
+  for (const q of buildShortVerbal(verbalRng)) record(q);
 
   // Reading: passages carry their own question sets.
-  const passages = PASSAGES.map((spec) => {
-    const rng = new Rng(hashSeed(`${seed}:rc:${spec.title}`));
-    const built = buildRC(rng, spec);
-    const kept = built.questions.filter((q) => {
+  const readingRng = new Rng(hashSeed(`${seed}:rc`));
+  const passages = buildReading(readingRng).map(({ spec, questions: qs }) => {
+    const kept = qs.filter((q) => {
       const errs = validate(q);
       if (errs.length) {
         rejected++;
