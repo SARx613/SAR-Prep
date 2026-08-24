@@ -227,9 +227,8 @@
   }
 
   /* Padding réduit */
-  .page-padding {
-    padding: 0 1rem !important;
-  }
+  /* Page containers share one gutter; the games page used to override it
+     to 1rem, which read as a different margin from the other pages. */
 
   /* QCM: 2 colonnes restent mais plus compact */
   .mcq-grid {

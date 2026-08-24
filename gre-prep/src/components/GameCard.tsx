@@ -66,7 +66,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           <div style={{ position: 'absolute', top: 0, left: '20%', right: '20%', height: 1, background: 'linear-gradient(90deg, transparent, rgba(16,185,129,0.5), transparent)' }} />
 
           {/* Header Area */}
-          <div style={{ padding: 'clamp(1.25rem, 5vw, 2.5rem) clamp(1.1rem, 5vw, 2.5rem) 1.5rem', borderBottom: '1px solid var(--border)' }}>
+          <div style={{ padding: 'clamp(1.1rem, 4vw, 2.5rem) clamp(0.9rem, 3vw, 2.5rem) 1.35rem', borderBottom: '1px solid var(--border)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
                 <Lightbulb size={16} />
@@ -165,7 +165,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           </div>
 
           {/* Interaction Area */}
-          <div style={{ padding: 'clamp(1.25rem, 5vw, 2.5rem)', background: 'rgba(0,0,0,0.2)' }}>
+          <div style={{ padding: 'clamp(1.1rem, 4vw, 2.5rem) clamp(0.9rem, 3vw, 2.5rem)', background: 'rgba(0,0,0,0.2)' }}>
 
             {/* Multiple Choice Mode */}
             {mode === 'mcq' && (
