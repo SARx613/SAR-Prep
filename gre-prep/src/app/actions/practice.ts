@@ -214,3 +214,101 @@ export async function getVerbalCategories() {
       n: r.n,
     }));
 }
+
+/* ── Progress ─────────────────────────────────────────────────────────────
+ * Mirrors the vocabulary dashboard, but for questions.
+ *
+ * `attempts` is append-only, so a question's CURRENT state is its most
+ * recent attempt — not a tally of every pass at it. A question answered
+ * wrong in March and right in August counts as mastered, while the attempt
+ * history still shows the earlier miss. That distinction is why `mastered`
+ * and `review` come from a latest-attempt-per-question subquery, and why
+ * accuracy (which does look at the whole history) is reported separately.
+ */
+
+export interface ProgressRow {
+  section: string;
+  type: string;
+  topic: string;
+  subtopic: string | null;
+  /** Questions of this kind in the bank. */
+  total: number;
+  /** Distinct questions the user has attempted at least once. */
+  attempted: number;
+  /** Attempted, and correct on the most recent attempt. */
+  mastered: number;
+  /** Attempted, and wrong on the most recent attempt. */
+  review: number;
+  /** Every attempt ever, and how many were correct. */
+  attempts: number;
+  correct: number;
+}
+
+export async function getQuestionProgress(): Promise<ProgressRow[]> {
+  const session = await auth();
+  const userId = session?.user?.id;
+
+  // Signed out: no attempt history exists, but the bank totals still do, so
+  // the page can show what is available rather than nothing at all.
+  const rows = await db.execute(sql`
+    with latest as (
+      select distinct on (question_id) question_id, is_correct
+      from attempts
+      where user_id = ${userId ?? null}
+      order by question_id, created_at desc
+    ),
+    tally as (
+      select question_id,
+             count(*)::int as n,
+             count(*) filter (where is_correct)::int as ok
+      from attempts
+      where user_id = ${userId ?? null}
+      group by question_id
+    )
+    select
+      q.section,
+      q.type,
+      q.topic,
+      q.subtopic,
+      count(*)::int                                            as total,
+      count(l.question_id)::int                                as attempted,
+      count(*) filter (where l.is_correct)::int                as mastered,
+      count(*) filter (where l.is_correct = false)::int        as review,
+      coalesce(sum(t.n), 0)::int                               as attempts,
+      coalesce(sum(t.ok), 0)::int                              as correct
+    from questions q
+    left join latest l on l.question_id = q.id
+    left join tally  t on t.question_id = q.id
+    group by q.section, q.type, q.topic, q.subtopic
+    order by q.section, q.type, q.topic, q.subtopic
+  `);
+
+  return (rows.rows ?? rows) as unknown as ProgressRow[];
+}
+
+/** Recent sessions, so the page can show activity over time. */
+export interface RecentDay {
+  day: string;
+  attempts: number;
+  correct: number;
+}
+
+export async function getRecentActivity(days = 30): Promise<RecentDay[]> {
+  const session = await auth();
+  const userId = session?.user?.id;
+  if (!userId) return [];
+
+  const rows = await db.execute(sql`
+    select
+      to_char(date_trunc('day', created_at), 'YYYY-MM-DD') as day,
+      count(*)::int                             as attempts,
+      count(*) filter (where is_correct)::int   as correct
+    from attempts
+    where user_id = ${userId}
+      and created_at >= now() - (${days} || ' days')::interval
+    group by 1
+    order by 1
+  `);
+
+  return (rows.rows ?? rows) as unknown as RecentDay[];
+}
