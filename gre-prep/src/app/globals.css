@@ -21,6 +21,14 @@
     --text-primary:   #f0f4ff;
     --text-secondary: #8892a4;
     --text-muted:     #4a5468;
+
+    /* Safe-area insets. Zero in a browser; on an installed PWA with
+       viewport-fit=cover these carry the notch / Dynamic Island and the
+       home-indicator heights. */
+    --sat: env(safe-area-inset-top, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+    --sar: env(safe-area-inset-right, 0px);
   }
 
   html {
@@ -37,6 +45,8 @@
     background-attachment: fixed;
     color: var(--text-primary);
     min-height: 100vh;
+    /* The layout is full-bleed under the notch; never let it scroll sideways. */
+    overflow-x: hidden;
   }
 
   /* Smooth scrollbar */
@@ -176,10 +186,7 @@
 /* ── Responsive Mobile ──────────────────────────────────────────────────── */
 @media (max-width: 640px) {
 
-  /* Dashboard: stats en 2x2 au lieu de 4 colonnes */
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
+  /* stats-grid is auto-fit now; it reflows on its own. */
 
   /* Dashboard: header en colonne */
   .dashboard-header {
@@ -236,11 +243,66 @@
 }
 
 @media (max-width: 400px) {
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-
   .hero-title {
     font-size: 1.3rem !important;
+  }
+}
+
+@layer components {
+  /* ── Compact stat pills ────────────────────────────────────────────────
+     Icon, value and label sit on one row so four stats fit a phone width
+     without stacking into four tall cards. */
+  .stat-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 0.75rem;
+    min-width: 0;
+  }
+
+  .stat-pill-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 9px;
+    flex-shrink: 0;
+  }
+
+  .stat-pill-text {
+    display: flex;
+    flex-direction: column;
+    /* Takes the remaining width so value and label start at the same x
+       in every pill, regardless of how long the label is. */
+    flex: 1 1 auto;
+    min-width: 0;
+    line-height: 1.15;
+  }
+
+  .stat-pill-value {
+    font-size: 1.15rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+
+  .stat-pill-label {
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    /* Long labels shrink rather than push the pill wider. */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Page headers (flashcards / games): keep the title row and the queue
+     badge on one line down to narrow phones by letting the title block
+     shrink instead of pushing the badge onto its own row. */
+  .page-header > div:first-child {
+    min-width: 0;
+    flex: 1 1 auto;
   }
 }

@@ -66,7 +66,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           <div style={{ position: 'absolute', top: 0, left: '20%', right: '20%', height: 1, background: 'linear-gradient(90deg, transparent, rgba(16,185,129,0.5), transparent)' }} />
 
           {/* Header Area */}
-          <div style={{ padding: '2.5rem 2.5rem 1.5rem', borderBottom: '1px solid var(--border)' }}>
+          <div style={{ padding: 'clamp(1.25rem, 5vw, 2.5rem) clamp(1.1rem, 5vw, 2.5rem) 1.5rem', borderBottom: '1px solid var(--border)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
                 <Lightbulb size={16} />
@@ -77,7 +77,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               </div>
             </div>
 
-            <h2 style={{ fontSize: '1.75rem', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.25rem, 5.5vw, 1.75rem)', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem', overflowWrap: 'anywhere' }}>
               {currentWord.definition}
             </h2>
 
@@ -165,7 +165,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           </div>
 
           {/* Interaction Area */}
-          <div style={{ padding: '2.5rem', background: 'rgba(0,0,0,0.2)' }}>
+          <div style={{ padding: 'clamp(1.25rem, 5vw, 2.5rem)', background: 'rgba(0,0,0,0.2)' }}>
 
             {/* Multiple Choice Mode */}
             {mode === 'mcq' && (
@@ -298,7 +298,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                   </button>
                 ) : (
                   <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', textAlign: 'center' }}>
-                    <div className="text-gradient-hero" style={{ fontSize: '4rem', fontWeight: 900, letterSpacing: '-0.03em', marginBottom: '2.5rem' }}>
+                    <div className="text-gradient-hero" style={{ fontSize: 'clamp(2rem, 11vw, 4rem)', fontWeight: 900, letterSpacing: '-0.03em', marginBottom: '2.5rem', overflowWrap: 'anywhere', lineHeight: 1.1 }}>
                       {currentWord.word}
                     </div>
                     {!answered && (
@@ -306,7 +306,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                         <button
                           onClick={() => onAnswer(false)}
                           style={{
-                            padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                            padding: 'clamp(0.9rem, 3.5vw, 1.25rem) clamp(0.75rem, 3vw, 2rem)', borderRadius: 20, fontSize: 'clamp(0.9rem, 3.6vw, 1.1rem)', fontWeight: 700, whiteSpace: 'nowrap',
                             background: 'rgba(244,63,94,0.1)', border: '1px solid rgba(244,63,94,0.3)', color: '#fda4af',
                             cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
                           }}
@@ -319,7 +319,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           onClick={() => onAnswer(true)}
                           className="glow-emerald"
                           style={{
-                            padding: '1.25rem 2rem', borderRadius: 20, fontSize: '1.1rem', fontWeight: 700,
+                            padding: 'clamp(0.9rem, 3.5vw, 1.25rem) clamp(0.75rem, 3vw, 2rem)', borderRadius: 20, fontSize: 'clamp(0.9rem, 3.6vw, 1.1rem)', fontWeight: 700, whiteSpace: 'nowrap',
                             background: 'var(--emerald)', border: 'none', color: '#000',
                             cursor: 'pointer', transition: 'all 0.2s', flex: 1, maxWidth: 200
                           }}
