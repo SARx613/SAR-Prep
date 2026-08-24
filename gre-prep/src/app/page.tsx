@@ -7,7 +7,7 @@ import { loadProgress, saveProgress, resetProgress } from '@/lib/storage';
 import { mergeProgress } from '@/app/actions/progress';
 import {
   BrainCircuit, Trophy, Target, BookOpen, Layers,
-  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2, ClipboardList,
+  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2, ClipboardList, BarChart3,
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -147,6 +147,18 @@ export default function Home() {
       cta: "S'entraîner",
       href: '/practice',
       delay: 0.7,
+    },
+    {
+      title: 'Progression',
+      description: 'Ton avancement par section et par type de question, verbal et quantitatif.',
+      icon: BarChart3,
+      color: 'var(--violet)',
+      bg: 'rgba(139,92,246,0.08)',
+      accentBg: 'rgba(139,92,246,0.18)',
+      accentBorder: 'rgba(139,92,246,0.35)',
+      cta: 'Consulter',
+      href: '/progress',
+      delay: 0.8,
     },
   ];
 
