@@ -1,25 +1,53 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calculator, BookText, Shuffle, Loader2, Play } from 'lucide-react';
-import { getQuiz, getBankSummary, type Quiz } from '@/app/actions/practice';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  ArrowLeft, Calculator, BookText, Shuffle, Loader2, Play,
+} from 'lucide-react';
+import {
+  getQuiz, getBankSummary, getVerbalCategories, type Quiz,
+} from '@/app/actions/practice';
 import { PracticeSession } from '@/components/practice/PracticeSession';
 import type { Section } from '@/types/questions';
 
 /* Practice setup, then the session itself.
  *
- * The setup screen only offers filters the bank can actually satisfy, so a
- * user cannot start a run that would come back empty. */
+ * The verbal picker mirrors the taxonomy the bank is organised by, so a
+ * session can drill one skill — inference, say, or three-blank Text
+ * Completion — rather than whatever the bank happens to hand out. Counts
+ * come from the database, and a category the bank cannot fill is disabled
+ * rather than silently returning nothing. */
 
-type Choice = 'mixed' | Section;
+type SectionChoice = 'mixed' | Section;
 
 const LENGTHS = [5, 10, 20];
 
+/** Display order and labels for the verbal taxonomy. */
+const SHORT_VERBAL: { id: string; label: string }[] = [
+  { id: 'tc-1-blank', label: 'Text Completion — 1 blanc' },
+  { id: 'tc-2-blank', label: 'Text Completion — 2 blancs' },
+  { id: 'tc-3-blank', label: 'Text Completion — 3 blancs' },
+  { id: 'sentence-equivalence', label: 'Sentence Equivalence' },
+];
+
+const READING: { id: string; label: string }[] = [
+  { id: 'reasoning', label: 'Reasoning' },
+  { id: 'inference', label: 'Inference' },
+  { id: 'detail', label: 'Detail' },
+  { id: 'global', label: 'Global' },
+  { id: 'contextual-function', label: 'Contextual Function' },
+  { id: 'other', label: 'Other' },
+];
+
 export default function PracticePage() {
   const [summary, setSummary] = useState<{ section: string; type: string; n: number }[]>([]);
-  const [section, setSection] = useState<Choice>('mixed');
+  const [categories, setCategories] = useState<
+    { subtopic: string; group: 'short' | 'reading'; n: number }[]
+  >([]);
+  const [section, setSection] = useState<SectionChoice>('mixed');
+  const [subtopics, setSubtopics] = useState<Set<string>>(new Set());
   const [count, setCount] = useState(10);
   const [difficulty, setDifficulty] = useState<'all' | 'easy' | 'hard'>('all');
   const [quiz, setQuiz] = useState<Quiz | null>(null);
@@ -27,12 +55,38 @@ export default function PracticePage() {
 
   useEffect(() => {
     getBankSummary().then(setSummary).catch(() => {});
+    getVerbalCategories().then(setCategories).catch(() => {});
   }, []);
 
-  const available = (s: Choice): number =>
-    summary
-      .filter((r) => s === 'mixed' || r.section === s)
-      .reduce((a, r) => a + r.n, 0);
+  const countOf = useCallback(
+    (id: string) => categories.find((c) => c.subtopic === id)?.n ?? 0,
+    [categories]
+  );
+
+  const available = (s: SectionChoice): number =>
+    summary.filter((r) => s === 'mixed' || r.section === s).reduce((a, r) => a + r.n, 0);
+
+  // Selecting categories only makes sense within the verbal section; leaving
+  // that section clears them so a stale filter cannot empty a quant session.
+  const chooseSection = (next: SectionChoice) => {
+    setSection(next);
+    if (next !== 'verbal') setSubtopics(new Set());
+  };
+
+  const toggle = (id: string) =>
+    setSubtopics((prev) => {
+      const s = new Set(prev);
+      if (s.has(id)) s.delete(id);
+      else s.add(id);
+      return s;
+    });
+
+  const selectedTotal = useMemo(
+    () => [...subtopics].reduce((a, id) => a + countOf(id), 0),
+    [subtopics, countOf]
+  );
+
+  const total = section === 'verbal' && subtopics.size ? selectedTotal : available(section);
 
   const start = useCallback(async () => {
     setLoading(true);
@@ -41,6 +95,7 @@ export default function PracticePage() {
         difficulty === 'easy' ? [1, 2, 3] : difficulty === 'hard' ? [3, 4, 5] : undefined;
       const q = await getQuiz({
         section: section === 'mixed' ? undefined : section,
+        subtopics: subtopics.size ? [...subtopics] : undefined,
         difficulties,
         count,
       });
@@ -48,7 +103,7 @@ export default function PracticePage() {
     } finally {
       setLoading(false);
     }
-  }, [section, count, difficulty]);
+  }, [section, subtopics, count, difficulty]);
 
   if (quiz) {
     return (
@@ -67,10 +122,8 @@ export default function PracticePage() {
     );
   }
 
-  const total = available(section);
-
   return (
-    <main className="min-h-screen px-4 py-6">
+    <main className="min-h-screen px-4 py-6 pb-16">
       <div className="max-w-2xl mx-auto space-y-8">
         <div>
           <Link
@@ -82,10 +135,9 @@ export default function PracticePage() {
           </Link>
           <h1 className="text-3xl font-bold mb-2">Questions GRE</h1>
           <p className="text-[var(--text-secondary)]">
-            Questions originales rédigées d'après les spécifications officielles du
-            GRE — Text Completion, Sentence Equivalence, Reading Comprehension,
-            Quantitative Comparison, Problem Solving, Numeric Entry et Data
-            Interpretation. Les énoncés sont en anglais, comme à l'examen.
+            Questions originales rédigées d&apos;après les spécifications officielles du
+            GRE, avec le vocabulaire de tes flashcards. Les énoncés sont en anglais,
+            comme à l&apos;examen.
           </p>
         </div>
 
@@ -100,7 +152,7 @@ export default function PracticePage() {
             ] as const).map(({ id, label, icon: Icon }) => (
               <button
                 key={id}
-                onClick={() => setSection(id)}
+                onClick={() => chooseSection(id)}
                 className={`px-4 py-4 rounded-xl border text-left transition ${
                   section === id
                     ? 'border-violet-400/60 bg-violet-500/10'
@@ -109,15 +161,66 @@ export default function PracticePage() {
               >
                 <Icon className="w-5 h-5 mb-2 text-violet-300" />
                 <p className="font-medium">{label}</p>
-                <p className="text-xs text-[var(--text-muted)]">{available(id)} disponibles</p>
+                <p className="text-xs text-[var(--text-muted)]">
+                  {available(id)} disponibles
+                </p>
               </button>
             ))}
           </div>
         </section>
 
+        {/* Verbal categories */}
+        <AnimatePresence>
+          {section === 'verbal' && (
+            <motion.section
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="space-y-4 overflow-hidden"
+            >
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">
+                  Types de questions
+                </h2>
+                {subtopics.size > 0 && (
+                  <button
+                    onClick={() => setSubtopics(new Set())}
+                    className="text-xs text-[var(--text-secondary)] hover:text-white transition"
+                  >
+                    Tout effacer
+                  </button>
+                )}
+              </div>
+
+              <CategoryGroup
+                title="Short Verbal"
+                items={SHORT_VERBAL}
+                countOf={countOf}
+                selected={subtopics}
+                onToggle={toggle}
+              />
+              <CategoryGroup
+                title="Reading Comprehension"
+                items={READING}
+                countOf={countOf}
+                selected={subtopics}
+                onToggle={toggle}
+              />
+
+              <p className="text-xs text-[var(--text-muted)]">
+                {subtopics.size === 0
+                  ? 'Aucun filtre : toutes les questions verbales.'
+                  : `${selectedTotal} question${selectedTotal > 1 ? 's' : ''} dans la sélection.`}
+              </p>
+            </motion.section>
+          )}
+        </AnimatePresence>
+
         {/* Length */}
         <section className="space-y-3">
-          <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">Nombre de questions</h2>
+          <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">
+            Nombre de questions
+          </h2>
           <div className="flex gap-3">
             {LENGTHS.map((n) => (
               <button
@@ -180,5 +283,60 @@ export default function PracticePage() {
         </motion.button>
       </div>
     </main>
+  );
+}
+
+function CategoryGroup({
+  title,
+  items,
+  countOf,
+  selected,
+  onToggle,
+}: {
+  title: string;
+  items: { id: string; label: string }[];
+  countOf: (id: string) => number;
+  selected: Set<string>;
+  onToggle: (id: string) => void;
+}) {
+  const total = items.reduce((a, i) => a + countOf(i.id), 0);
+
+  return (
+    <div className="rounded-xl border border-white/10 overflow-hidden">
+      <div className="px-4 py-2.5 bg-white/[0.03] border-b border-white/10 flex items-center justify-between">
+        <span className="text-sm font-medium">{title}</span>
+        <span className="text-xs text-[var(--text-muted)]">[{total}]</span>
+      </div>
+      <div className="divide-y divide-white/5">
+        {items.map((item) => {
+          const n = countOf(item.id);
+          const on = selected.has(item.id);
+          return (
+            <button
+              key={item.id}
+              onClick={() => onToggle(item.id)}
+              disabled={n === 0}
+              className={`w-full px-4 py-2.5 flex items-center gap-3 text-left transition disabled:opacity-30 ${
+                on ? 'bg-violet-500/10' : 'hover:bg-white/[0.03]'
+              }`}
+            >
+              <span
+                className={`w-4 h-4 rounded border grid place-items-center shrink-0 ${
+                  on ? 'bg-violet-500 border-violet-400' : 'border-white/25'
+                }`}
+              >
+                {on && (
+                  <svg viewBox="0 0 12 12" className="w-3 h-3" fill="none">
+                    <path d="M2.5 6.5l2.5 2.5 4.5-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                )}
+              </span>
+              <span className="text-sm flex-1">{item.label}</span>
+              <span className="text-xs text-[var(--text-muted)]">[{n}]</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }

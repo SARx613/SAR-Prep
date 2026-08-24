@@ -29,6 +29,8 @@ export interface QuizFilters {
   section?: Section;
   types?: string[];
   topics?: string[];
+  /** Verbal taxonomy: tc-1-blank, sentence-equivalence, inference, … */
+  subtopics?: string[];
   difficulties?: number[];
   count?: number;
 }
@@ -40,6 +42,8 @@ export async function getQuiz(filters: QuizFilters = {}): Promise<Quiz> {
   if (filters.section) conditions.push(eq(questions.section, filters.section));
   if (filters.types?.length) conditions.push(inArray(questions.type, filters.types));
   if (filters.topics?.length) conditions.push(inArray(questions.topic, filters.topics));
+  if (filters.subtopics?.length)
+    conditions.push(inArray(questions.subtopic, filters.subtopics));
   if (filters.difficulties?.length)
     conditions.push(inArray(questions.difficulty, filters.difficulties));
 
@@ -182,4 +186,31 @@ export async function getBankSummary() {
     .from(questions)
     .groupBy(questions.section, questions.type);
   return rows;
+}
+
+/**
+ * Counts per verbal subtopic, for the category picker.
+ *
+ * Returns the taxonomy the bank is organised by — the four short-verbal
+ * kinds and the six reading-comprehension categories — so the picker can
+ * show real counts and disable categories the bank cannot fill.
+ */
+export async function getVerbalCategories() {
+  const rows = await db
+    .select({
+      subtopic: questions.subtopic,
+      type: questions.type,
+      n: sql<number>`count(*)::int`,
+    })
+    .from(questions)
+    .where(eq(questions.section, 'verbal'))
+    .groupBy(questions.subtopic, questions.type);
+
+  return rows
+    .filter((r): r is typeof r & { subtopic: string } => r.subtopic !== null)
+    .map((r) => ({
+      subtopic: r.subtopic,
+      group: r.type === 'RC' ? ('reading' as const) : ('short' as const),
+      n: r.n,
+    }));
 }
