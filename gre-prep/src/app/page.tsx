@@ -7,7 +7,7 @@ import { loadProgress, saveProgress, resetProgress } from '@/lib/storage';
 import { mergeProgress } from '@/app/actions/progress';
 import {
   BrainCircuit, Trophy, Target, BookOpen, Layers,
-  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2,
+  Gamepad2, ChevronRight, RefreshCcw, Eye, LogOut, Loader2, ClipboardList,
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -135,6 +135,18 @@ export default function Home() {
       cta: 'Jouer',
       href: '/games',
       delay: 0.6,
+    },
+    {
+      title: 'Questions GRE',
+      description: "Questions d'entraînement originales : verbal et quantitatif, au format officiel.",
+      icon: ClipboardList,
+      color: 'var(--amber)',
+      bg: 'rgba(245,158,11,0.08)',
+      accentBg: 'rgba(245,158,11,0.18)',
+      accentBorder: 'rgba(245,158,11,0.35)',
+      cta: "S'entraîner",
+      href: '/practice',
+      delay: 0.7,
     },
   ];
 
