@@ -1,6 +1,6 @@
 import { Word, UserProgress } from '@/types';
 
-const STORAGE_KEY = 'gre-prep-progress';
+export const PROGRESS_KEY = 'gre-prep-progress';
 
 export const defaultProgress: UserProgress = {
   masteredIds: [],
@@ -10,12 +10,21 @@ export const defaultProgress: UserProgress = {
   totalSeen: 0,
 };
 
+/** Split out from loadProgress so a hook can parse a snapshot it already
+ *  holds without touching storage again. */
+export function parseProgress(raw: string | null): UserProgress {
+  if (!raw) return defaultProgress;
+  try {
+    return { ...defaultProgress, ...JSON.parse(raw) };
+  } catch {
+    return defaultProgress;
+  }
+}
+
 export function loadProgress(): UserProgress {
   if (typeof window === 'undefined') return defaultProgress;
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return defaultProgress;
-    return { ...defaultProgress, ...JSON.parse(raw) };
+    return parseProgress(localStorage.getItem(PROGRESS_KEY));
   } catch {
     return defaultProgress;
   }
@@ -23,12 +32,12 @@ export function loadProgress(): UserProgress {
 
 export function saveProgress(progress: UserProgress): void {
   if (typeof window === 'undefined') return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
 }
 
 export function resetProgress(): void {
   if (typeof window === 'undefined') return;
-  localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem(PROGRESS_KEY);
 }
 
 export function getQueue(words: Word[], progress: UserProgress): Word[] {

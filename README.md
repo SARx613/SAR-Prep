@@ -11,9 +11,11 @@
 | Feature | Description |
 |---------|-------------|
 | **995 GRE Words** | Complete curated dataset with definitions, synonyms, and French translations |
+| **Themed Series** | The deck is cut into 66 short series (10–20 words) grouped by meaning — praise, deceit, caution… — so a session has an end and can be replayed |
 | **Adaptive Queue** | Words you miss come back sooner, mastered words are deprioritized |
 | **3 Game Modes** | QCM (multiple choice), Typing, and Mix (randomized) |
 | **Flashcards** | Classic flip cards with blur-to-reveal for synonyms and translations |
+| **Series Recap** | Every run ends on a score, the list of missed words, and one click to replay the series or just the misses |
 | **Progress Dashboard** | Real-time stats: Mastered, To Review, Seen, Score, Global Progress % |
 | **Google Authentication** | One-click sign-in with your Google account via Supabase Auth |
 | **Cloud Sync** | Progress saved to Supabase instantly on every answer |
@@ -33,8 +35,10 @@ sar-prep.vercel.app (Vercel Edge Network)
 │                   Next.js 15 App Router                 │
 │                                                         │
 │  /                    → Dashboard (stats, nav cards)    │
-│  /games               → Training game (QCM / Typing)   │
-│  /flashcards          → Flip card review mode           │
+│  /games               → Series list (QCM / Typing)      │
+│  /games/[serie]       → One training series             │
+│  /flashcards          → Series list (flip cards)        │
+│  /flashcards/[serie]  → One flashcard series            │
 │  /auth/callback       → OAuth redirect handler          │
 │                                                         │
 │  middleware.ts        → Session refresh (SSR cookies)   │
@@ -63,20 +67,27 @@ gre-prep/
 │   │   ├── layout.tsx              # Root layout + fonts
 │   │   ├── globals.css             # Design system + mobile CSS
 │   │   ├── games/
-│   │   │   └── page.tsx            # Training game page
+│   │   │   ├── page.tsx            # Series list (practice)
+│   │   │   └── [serie]/page.tsx    # One practice series
 │   │   ├── flashcards/
-│   │   │   └── page.tsx            # Flashcard review page
+│   │   │   ├── page.tsx            # Series list (flashcards)
+│   │   │   └── [serie]/page.tsx    # One flashcard series
 │   │   └── auth/
 │   │       └── callback/
 │   │           └── route.ts        # OAuth callback handler
 │   │
 │   ├── components/
-│   │   └── GameCard.tsx            # Universal game card (QCM / Typing / Flashcard)
+│   │   ├── GameCard.tsx            # Universal game card (QCM / Typing / Flashcard)
+│   │   └── series/
+│   │       ├── SeriesPicker.tsx    # Series grid + progress per series
+│   │       └── SeriesSession.tsx   # One series run + end-of-series recap
 │   │
 │   ├── hooks/
 │   │   └── useGameLoop.ts          # Game state machine + answer logic
 │   │
 │   ├── lib/
+│   │   ├── series.ts               # Series lookup, per-series history
+│   │   ├── series-data.ts          # Generated: the themed series themselves
 │   │   ├── storage.ts              # localStorage read/write
 │   │   └── cloudStorage.ts         # Supabase read/write + merge logic
 │   │
