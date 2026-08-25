@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { UserProgress } from '@/types';
 import { loadProgress, saveProgress, resetProgress } from '@/lib/storage';
+import { resetSeriesStats } from '@/lib/series';
 import { mergeProgress } from '@/app/actions/progress';
 import {
   BrainCircuit, Trophy, Target, BookOpen, Layers,
@@ -67,6 +68,9 @@ export default function Home() {
   const handleReset = () => {
     if (confirm('Réinitialiser toute la progression ?')) {
       resetProgress();
+      // The per-series run counts are progress too; leaving them behind would
+      // show "×4 tours" on a series with nothing mastered.
+      resetSeriesStats();
       setProgress(loadProgress());
     }
   };
@@ -114,7 +118,7 @@ export default function Home() {
   const navCards = [
     {
       title: 'Flashcards',
-      description: 'Révise les mots un par un avec des cartes à retourner. Idéal pour mémoriser.',
+      description: 'Des séries courtes groupées par thème : tu en finis une, tu la refais. Idéal pour mémoriser.',
       icon: Layers,
       color: 'var(--violet)',
       bg: 'rgba(139,92,246,0.08)',
@@ -126,7 +130,7 @@ export default function Home() {
     },
     {
       title: "S'entraîner",
-      description: 'QCM, frappe au clavier ou mix des deux pour tester tes connaissances.',
+      description: 'Les mêmes séries en QCM ou en frappe au clavier, pour vérifier ce qui est vraiment acquis.',
       icon: Gamepad2,
       color: 'var(--emerald)',
       bg: 'rgba(16,185,129,0.08)',
