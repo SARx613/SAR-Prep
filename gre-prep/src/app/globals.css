@@ -239,6 +239,17 @@
     gap: 0.6rem !important;
   }
 
+  /* Series: two per row on a phone. Auto-fit would drop to one column at
+     this width, and a 66-item list of full-width cards is a long scroll. */
+  .series-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.6rem !important;
+  }
+
+  .series-card {
+    padding: 0.85rem 0.9rem !important;
+  }
+
   /* Auth button: masquer le nom, garder avatar */
   .auth-username {
     display: none !important;
@@ -332,5 +343,82 @@
   .page-header > div:first-child {
     min-width: 0;
     flex: 1 1 auto;
+  }
+
+  /* The "← Dashboard" / "← Séries" pill, which every inner page carries. */
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 0.4rem 0.9rem;
+    white-space: nowrap;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .back-link:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* ── Series picker ─────────────────────────────────────────────────────
+     Auto-fit rather than a fixed column count: the same grid holds three
+     cards on a desktop and one on a phone without a media query. */
+  .series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  /* Filter chips sit on their own row and wrap; each carries its own border
+     so a wrapped row does not look like a broken pill. */
+  .filter-chip {
+    padding: 0.45rem 1rem;
+    border-radius: 99px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+  }
+
+  .filter-chip:hover {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .series-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 18px;
+    padding: 1rem 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Recap actions: same shape whether the control is a button or a link. */
+  .recap-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 99px;
+    font-size: 0.92rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .recap-button:hover {
+    transform: translateY(-2px);
   }
 }
