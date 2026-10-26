@@ -613,10 +613,10 @@
   "stem": "The interior angles of a pentagon are in the ratio $2:3:4:5:6$. What is the measure of the largest interior angle?",
   "explanation": "The angles add up to $(5-2)\\cdot180=540^\\circ$. The ratio has $2+3+4+5+6=20$ parts, so one part is $540\\div20=27^\\circ$. The largest angle is $6\\cdot27=162^\\circ$.",
   "choiceExplanations": {
-   "A": "$108^\\circ$ is the angle of a regular pentagon; these angles are not equal.",
-   "B": "$126^\\circ$ is $4$ parts of $31.5$, from dividing $540$ by $17$; the ratio terms add to $20$.",
-   "C": "$135^\\circ$ is $5$ parts of $27$, the second largest angle.",
-   "E": "$180^\\circ$ would be a straight angle; it comes from dividing $540$ by $18$ instead of $20$, which gives $30$ per part."
+   "A": "This uses $360$ instead of $540$ (one part $18^\\circ$, largest $6\\cdot18$); a pentagon's angles add to $(5-2)\\cdot180=540$.",
+   "B": "$135^\\circ$ is $5$ parts of $27$, the second-largest angle, not the largest.",
+   "D": "$180^\\circ$ is the angle sum of a single triangle; it is not one of the five angles.",
+   "E": "This uses the hexagon sum $720$ (one part $36^\\circ$, largest $6\\cdot36$); a pentagon has $(5-2)\\cdot180=540$."
   },
   "estSeconds": 90,
   "skills": [
@@ -637,25 +637,25 @@
     },
     {
      "id": "B",
-     "text": "$126^\\circ$"
-    },
-    {
-     "id": "C",
      "text": "$135^\\circ$"
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "$162^\\circ$"
     },
     {
-     "id": "E",
+     "id": "D",
      "text": "$180^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$216^\\circ$"
     }
    ]
   },
   "answer": {
    "choices": [
-    "D"
+    "C"
    ]
   }
  },

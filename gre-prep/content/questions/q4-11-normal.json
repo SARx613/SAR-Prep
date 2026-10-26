@@ -506,5 +506,334 @@
   "answer": {
    "choice": "C"
   }
+ },
+ {
+  "id": "q4-11-normal-13",
+  "lessonId": "q4-11-normal",
+  "difficulty": 1,
+  "stem": "A set of data is approximately normally distributed with a mean of 30 and a standard deviation of 4. About what fraction of the data are less than 26?",
+  "explanation": "26 is 1 SD below the mean ($30 - 4$). About $\\frac23$ of the data lie within 1 SD, so $\\frac13$ lie outside, split evenly between the two tails: $\\frac16$ below 26.",
+  "choiceExplanations": {
+   "A": "Less than 26 is the tail beyond 1 SD, which is about one-sixth, not one-twelfth.",
+   "C": "$\\frac13$ is about the share between 26 and 30.",
+   "D": "$\\frac12$ is the share below the mean, 30.",
+   "E": "$\\frac23$ is about the share between 26 and 34."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "normal-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{1}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{2}{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-11-normal-14",
+  "lessonId": "q4-11-normal",
+  "difficulty": 2,
+  "stem": "For the distribution shown, approximately what fraction of the data lie between 105 and 120?",
+  "explanation": "105 is 1 SD below the mean 120. About $\\frac23$ of the data lie within 1 SD of the mean, and by symmetry half of that, $\\frac13$, lies between 105 and 120.",
+  "choiceExplanations": {
+   "A": "$\\frac16$ is about the share above 135 (or below 105).",
+   "C": "$\\frac12$ is the share below (or above) the mean.",
+   "D": "$\\frac23$ is about the share between 105 and 135, on both sides of the mean.",
+   "E": "$\\frac56$ is about the share above 105."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "normal-distribution"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "A normal distribution",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 215\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"25\" y1=\"170\" x2=\"495\" y2=\"170\" stroke=\"currentColor\"/><polyline points=\"26.0,169.8 32.5,169.7 39.0,169.6 45.5,169.4 52.0,169.2 58.5,168.9 65.0,168.6 71.5,168.1 78.0,167.4 84.5,166.6 91.0,165.6 97.5,164.3 104.0,162.7 110.5,160.8 117.0,158.4 123.5,155.7 130.0,152.4 136.5,148.6 143.0,144.3 149.5,139.4 156.0,133.9 162.5,127.8 169.0,121.2 175.5,114.2 182.0,106.7 188.5,99.0 195.0,91.2 201.5,83.3 208.0,75.6 214.5,68.2 221.0,61.4 227.5,55.3 234.0,50.0 240.5,45.7 247.0,42.6 253.5,40.6 260.0,40.0 266.5,40.6 273.0,42.6 279.5,45.7 286.0,50.0 292.5,55.3 299.0,61.4 305.5,68.2 312.0,75.6 318.5,83.3 325.0,91.2 331.5,99.0 338.0,106.7 344.5,114.2 351.0,121.2 357.5,127.8 364.0,133.9 370.5,139.4 377.0,144.3 383.5,148.6 390.0,152.4 396.5,155.7 403.0,158.4 409.5,160.8 416.0,162.7 422.5,164.3 429.0,165.6 435.5,166.6 442.0,167.4 448.5,168.1 455.0,168.6 461.5,168.9 468.0,169.2 474.5,169.4 481.0,169.6 487.5,169.7 494.0,169.8 500.5,169.9 507.0,169.9 513.5,169.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"40\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"65\" y1=\"170\" x2=\"65\" y2=\"176\" stroke=\"currentColor\"/><text x=\"65\" y=\"193\" text-anchor=\"middle\">75</text><line x1=\"130\" y1=\"170\" x2=\"130\" y2=\"176\" stroke=\"currentColor\"/><text x=\"130\" y=\"193\" text-anchor=\"middle\">90</text><line x1=\"195\" y1=\"170\" x2=\"195\" y2=\"176\" stroke=\"currentColor\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\">105</text><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"176\" stroke=\"currentColor\"/><text x=\"260\" y=\"193\" text-anchor=\"middle\">120</text><line x1=\"325\" y1=\"170\" x2=\"325\" y2=\"176\" stroke=\"currentColor\"/><text x=\"325\" y=\"193\" text-anchor=\"middle\">135</text><line x1=\"390\" y1=\"170\" x2=\"390\" y2=\"176\" stroke=\"currentColor\"/><text x=\"390\" y=\"193\" text-anchor=\"middle\">150</text><line x1=\"455\" y1=\"170\" x2=\"455\" y2=\"176\" stroke=\"currentColor\"/><text x=\"455\" y=\"193\" text-anchor=\"middle\">165</text><text x=\"260\" y=\"32\" text-anchor=\"middle\">mean</text></svg>",
+    "alt": "Bell-shaped normal curve, symmetric about the mean, which is marked with a dashed line. Tick marks on the horizontal axis at 75, 90, 105, 120, 135, 150 and 165, one standard deviation apart."
+   },
+   "notes": "The mean of the distribution is 120 and the standard deviation is 15. Tick marks are one standard deviation apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac16$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac13$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac12$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac23$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac56$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-11-normal-15",
+  "lessonId": "q4-11-normal",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "25 is 1 SD below the mean ($30 - 5$) and 35 is 1 SD above it. By symmetry the two tails are equal, each about $\\frac16$. The quantities are equal.",
+  "estSeconds": 70,
+  "skills": [
+   "normal-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$P(X < 25)$",
+   "quantityB": "$P(X > 35)$",
+   "common": "$X$ is normally distributed with a mean of 30 and a standard deviation of 5."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-11-normal-16",
+  "lessonId": "q4-11-normal",
+  "difficulty": 3,
+  "stem": "For the distribution shown, which of the following is the best estimate of the fraction of the data that are greater than 105?",
+  "explanation": "The data above 105 are the half above the mean, $\\frac12$, plus the part between 105 and 120, about $\\frac13$: $\\frac12 + \\frac13 = \\frac56$. (Equivalently, $1 - \\frac16$, since only the lower tail is excluded.)",
+  "choiceExplanations": {
+   "A": "$\\frac16$ is the share above 135, or below 105.",
+   "B": "$\\frac13$ is the share between 105 and 120.",
+   "C": "$\\frac12$ is the share above the mean only.",
+   "D": "$\\frac23$ is the share between 105 and 135."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "normal-distribution"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "A normal distribution",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 215\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"25\" y1=\"170\" x2=\"495\" y2=\"170\" stroke=\"currentColor\"/><polyline points=\"26.0,169.8 32.5,169.7 39.0,169.6 45.5,169.4 52.0,169.2 58.5,168.9 65.0,168.6 71.5,168.1 78.0,167.4 84.5,166.6 91.0,165.6 97.5,164.3 104.0,162.7 110.5,160.8 117.0,158.4 123.5,155.7 130.0,152.4 136.5,148.6 143.0,144.3 149.5,139.4 156.0,133.9 162.5,127.8 169.0,121.2 175.5,114.2 182.0,106.7 188.5,99.0 195.0,91.2 201.5,83.3 208.0,75.6 214.5,68.2 221.0,61.4 227.5,55.3 234.0,50.0 240.5,45.7 247.0,42.6 253.5,40.6 260.0,40.0 266.5,40.6 273.0,42.6 279.5,45.7 286.0,50.0 292.5,55.3 299.0,61.4 305.5,68.2 312.0,75.6 318.5,83.3 325.0,91.2 331.5,99.0 338.0,106.7 344.5,114.2 351.0,121.2 357.5,127.8 364.0,133.9 370.5,139.4 377.0,144.3 383.5,148.6 390.0,152.4 396.5,155.7 403.0,158.4 409.5,160.8 416.0,162.7 422.5,164.3 429.0,165.6 435.5,166.6 442.0,167.4 448.5,168.1 455.0,168.6 461.5,168.9 468.0,169.2 474.5,169.4 481.0,169.6 487.5,169.7 494.0,169.8 500.5,169.9 507.0,169.9 513.5,169.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"40\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"65\" y1=\"170\" x2=\"65\" y2=\"176\" stroke=\"currentColor\"/><text x=\"65\" y=\"193\" text-anchor=\"middle\">75</text><line x1=\"130\" y1=\"170\" x2=\"130\" y2=\"176\" stroke=\"currentColor\"/><text x=\"130\" y=\"193\" text-anchor=\"middle\">90</text><line x1=\"195\" y1=\"170\" x2=\"195\" y2=\"176\" stroke=\"currentColor\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\">105</text><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"176\" stroke=\"currentColor\"/><text x=\"260\" y=\"193\" text-anchor=\"middle\">120</text><line x1=\"325\" y1=\"170\" x2=\"325\" y2=\"176\" stroke=\"currentColor\"/><text x=\"325\" y=\"193\" text-anchor=\"middle\">135</text><line x1=\"390\" y1=\"170\" x2=\"390\" y2=\"176\" stroke=\"currentColor\"/><text x=\"390\" y=\"193\" text-anchor=\"middle\">150</text><line x1=\"455\" y1=\"170\" x2=\"455\" y2=\"176\" stroke=\"currentColor\"/><text x=\"455\" y=\"193\" text-anchor=\"middle\">165</text><text x=\"260\" y=\"32\" text-anchor=\"middle\">mean</text></svg>",
+    "alt": "Bell-shaped normal curve, symmetric about the mean, which is marked with a dashed line. Tick marks on the horizontal axis at 75, 90, 105, 120, 135, 150 and 165, one standard deviation apart."
+   },
+   "notes": "The mean of the distribution is 120 and the standard deviation is 15. Tick marks are one standard deviation apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac16$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac13$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac12$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac23$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac56$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q4-11-normal-17",
+  "lessonId": "q4-11-normal",
+  "difficulty": 3,
+  "stem": "A set of 1,200 measurements is approximately normally distributed with a mean of 50 and a standard deviation of 4. About how many of the measurements are greater than 54?",
+  "explanation": "54 is 1 SD above the mean ($50 + 4$). About $\\frac16$ of the data lie above that point: $\\frac16 \\times 1200 = 200$.",
+  "estSeconds": 80,
+  "skills": [
+   "normal-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 200
+  }
+ },
+ {
+  "id": "q4-11-normal-18",
+  "lessonId": "q4-11-normal",
+  "difficulty": 4,
+  "stem": "In a normal distribution, the value 38 is 1.5 standard deviations below the mean and the value 59 is 2 standard deviations above the mean. What is the mean of the distribution?",
+  "explanation": "The gap from 38 to 59 is $21$, and it spans $1.5 + 2 = 3.5$ standard deviations. So one SD is $\\frac{21}{3.5} = 6$. Then the mean is $38 + 1.5 \\times 6 = 47$. (Check: $47 + 2 \\times 6 = 59$.)",
+  "estSeconds": 100,
+  "skills": [
+   "standardization"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 47
+  }
+ },
+ {
+  "id": "q4-11-normal-19",
+  "lessonId": "q4-11-normal",
+  "difficulty": 4,
+  "stem": "Which of the following statements about the distribution shown are supported by the figure and its notes? Indicate all such statements.",
+  "explanation": "135 is 1 SD above the mean 120. About $\\frac13$ lies between 120 and 135 (half of the central $\\frac23$), and about $\\frac16$ lies above 135. Between 105 and 120 the share is about $\\frac13$, not $\\frac16$. The data can have values beyond $\\pm 3$ SDs, although they are rare.",
+  "choiceExplanations": {
+   "B": "The share between 105 and 120 is about one-third; one-sixth is only the tail below 105.",
+   "D": "\"Almost all\" of the data lie within 2 SDs of the mean, but that does not rule out values further out: the normal curve never forbids a value."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "normal-distribution"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "A normal distribution",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 215\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"25\" y1=\"170\" x2=\"495\" y2=\"170\" stroke=\"currentColor\"/><polyline points=\"26.0,169.8 32.5,169.7 39.0,169.6 45.5,169.4 52.0,169.2 58.5,168.9 65.0,168.6 71.5,168.1 78.0,167.4 84.5,166.6 91.0,165.6 97.5,164.3 104.0,162.7 110.5,160.8 117.0,158.4 123.5,155.7 130.0,152.4 136.5,148.6 143.0,144.3 149.5,139.4 156.0,133.9 162.5,127.8 169.0,121.2 175.5,114.2 182.0,106.7 188.5,99.0 195.0,91.2 201.5,83.3 208.0,75.6 214.5,68.2 221.0,61.4 227.5,55.3 234.0,50.0 240.5,45.7 247.0,42.6 253.5,40.6 260.0,40.0 266.5,40.6 273.0,42.6 279.5,45.7 286.0,50.0 292.5,55.3 299.0,61.4 305.5,68.2 312.0,75.6 318.5,83.3 325.0,91.2 331.5,99.0 338.0,106.7 344.5,114.2 351.0,121.2 357.5,127.8 364.0,133.9 370.5,139.4 377.0,144.3 383.5,148.6 390.0,152.4 396.5,155.7 403.0,158.4 409.5,160.8 416.0,162.7 422.5,164.3 429.0,165.6 435.5,166.6 442.0,167.4 448.5,168.1 455.0,168.6 461.5,168.9 468.0,169.2 474.5,169.4 481.0,169.6 487.5,169.7 494.0,169.8 500.5,169.9 507.0,169.9 513.5,169.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"40\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"/><line x1=\"65\" y1=\"170\" x2=\"65\" y2=\"176\" stroke=\"currentColor\"/><text x=\"65\" y=\"193\" text-anchor=\"middle\">75</text><line x1=\"130\" y1=\"170\" x2=\"130\" y2=\"176\" stroke=\"currentColor\"/><text x=\"130\" y=\"193\" text-anchor=\"middle\">90</text><line x1=\"195\" y1=\"170\" x2=\"195\" y2=\"176\" stroke=\"currentColor\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\">105</text><line x1=\"260\" y1=\"170\" x2=\"260\" y2=\"176\" stroke=\"currentColor\"/><text x=\"260\" y=\"193\" text-anchor=\"middle\">120</text><line x1=\"325\" y1=\"170\" x2=\"325\" y2=\"176\" stroke=\"currentColor\"/><text x=\"325\" y=\"193\" text-anchor=\"middle\">135</text><line x1=\"390\" y1=\"170\" x2=\"390\" y2=\"176\" stroke=\"currentColor\"/><text x=\"390\" y=\"193\" text-anchor=\"middle\">150</text><line x1=\"455\" y1=\"170\" x2=\"455\" y2=\"176\" stroke=\"currentColor\"/><text x=\"455\" y=\"193\" text-anchor=\"middle\">165</text><text x=\"260\" y=\"32\" text-anchor=\"middle\">mean</text></svg>",
+    "alt": "Bell-shaped normal curve, symmetric about the mean, which is marked with a dashed line. Tick marks on the horizontal axis at 75, 90, 105, 120, 135, 150 and 165, one standard deviation apart."
+   },
+   "notes": "The mean of the distribution is 120 and the standard deviation is 15. Tick marks are one standard deviation apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "About one-third of the data lie between 120 and 135."
+    },
+    {
+     "id": "B",
+     "text": "About one-sixth of the data lie between 105 and 120."
+    },
+    {
+     "id": "C",
+     "text": "About one-sixth of the data are greater than 135."
+    },
+    {
+     "id": "D",
+     "text": "Every value in the data lies between 75 and 165."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-11-normal-20",
+  "lessonId": "q4-11-normal",
+  "difficulty": 5,
+  "stem": "A set of data is approximately normally distributed with a mean of 80. About one-third of the data lie between 80 and 92. The value 110 is how many standard deviations above the mean?",
+  "explanation": "About $\\frac13$ of the data lie between the mean and 1 SD above it, so $92$ is 1 SD above the mean and the SD is $92 - 80 = 12$. Then $\\frac{110 - 80}{12} = 2.5$.",
+  "estSeconds": 100,
+  "skills": [
+   "normal-distribution",
+   "standardization"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 2.5
+  }
  }
 ]
