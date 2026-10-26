@@ -528,18 +528,15 @@
   "id": "q4-07-counting-principles-15",
   "lessonId": "q4-07-counting-principles",
   "difficulty": 2,
-  "stem": "In how many different ways can a team of 3 people be chosen from a group of 9 people?",
-  "explanation": "Order does not matter: $\\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$.",
+  "stem": "In how many different ways can a team of 4 people be chosen from a group of 8 people?",
+  "explanation": "Order does not matter: $\\binom{8}{4} = \\frac{8 \\times 7 \\times 6 \\times 5}{4 \\times 3 \\times 2 \\times 1} = 70$.",
   "estSeconds": 60,
   "skills": [
    "combinations"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -547,7 +544,7 @@
    "format": "integer"
   },
   "answer": {
-   "value": 84
+   "value": 70
   }
  },
  {
@@ -582,18 +579,15 @@
   "id": "q4-07-counting-principles-17",
   "lessonId": "q4-07-counting-principles",
   "difficulty": 3,
-  "stem": "A password has 4 characters: a letter of the alphabet (26 possibilities) followed by three digits (0 through 9) that are all different from one another. How many different passwords are possible?",
-  "explanation": "Letter: 26 options. First digit: 10 options, second: 9, third: 8. Total $= 26 \\times 10 \\times 9 \\times 8 = 18{,}720$.",
+  "stem": "A locker code consists of 2 different letters of the alphabet (26 possibilities) followed by 2 digits (0 through 9), where the digits may repeat. How many different locker codes are possible?",
+  "explanation": "First letter: 26 options; second letter, different from the first: 25 options. Each digit: 10 options. Total $= 26 \\times 25 \\times 10 \\times 10 = 65{,}000$.",
   "estSeconds": 80,
   "skills": [
    "multiplication-principle"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -601,7 +595,7 @@
    "format": "integer"
   },
   "answer": {
-   "value": 18720
+   "value": 65000
   }
  },
  {

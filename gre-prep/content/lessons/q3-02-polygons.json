@@ -2,7 +2,7 @@
  "id": "q3-02-polygons",
  "status": "published",
  "why": "Interior-angle sums and regular polygons are tested directly, and the same facts hide inside figures built from several shapes.",
- "rule": "A **polygon** (the GRE means a convex one) is a closed figure of straight sides meeting at vertices. Its **perimeter** is the sum of the side lengths. Names by number of sides: quadrilateral 4, pentagon 5, hexagon 6, octagon 8, decagon 10.\n\nDrawing diagonals from one vertex cuts an $n$-sided polygon into $n-2$ triangles, so the interior angles add up to\n$$(n-2)\\cdot180^\\circ .$$\n\nIn a **regular** polygon all sides are equal and all angles are equal, so each angle is $\\frac{(n-2)\\cdot180^\\circ}{n}$ and the perimeter is $n$ times one side.",
+ "rule": "A **polygon** (the GRE means a convex one) is a closed figure of straight sides meeting at vertices. Its **perimeter** is the sum of the side lengths. Names by number of sides: quadrilateral 4, pentagon 5, hexagon 6, octagon 8, decagon 10.\n\nDrawing diagonals from one vertex cuts an $n$-sided polygon into $n-2$ triangles, so the interior angles add up to\n$$(n-2)\\cdot180^\\circ .$$\n\nIn a triangle with two equal sides, the angles opposite those sides are equal.\n\nIn a **regular** polygon all sides are equal and all angles are equal, so each angle is $\\frac{(n-2)\\cdot180^\\circ}{n}$ and the perimeter is $n$ times one side.",
  "examples": [
   {
    "prompt": "What is the sum of the interior angles of a nonagon (9 sides)? If it is regular, how large is each angle?",

@@ -935,18 +935,15 @@
   "id": "q4-09-independent-conditional-20",
   "lessonId": "q4-09-independent-conditional",
   "difficulty": 5,
-  "stem": "A box contains 5 red disks, 4 white disks and 3 blue disks. Three disks are drawn at random without replacement. What is the probability that the three disks are three different colors?",
-  "explanation": "One disk of each color can come out in $3! = 6$ different orders. For one order, say red, white, blue: $\\frac{5}{12} \\times \\frac{4}{11} \\times \\frac{3}{10} = \\frac{60}{1320}$. Multiply by 6: $\\frac{360}{1320} = \\frac{3}{11}$.",
+  "stem": "A bag holds 6 red marbles, 4 green marbles and 2 yellow marbles. Three marbles are drawn at random without replacement. What is the probability that all three colors appear?",
+  "explanation": "One marble of each color can come out in $3! = 6$ different orders. For one order, say red, green, yellow: $\\frac{6}{12} \\times \\frac{4}{11} \\times \\frac{2}{10} = \\frac{48}{1320}$. Multiply by 6: $\\frac{288}{1320} = \\frac{12}{55}$.",
   "estSeconds": 150,
   "skills": [
    "without-replacement"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -954,10 +951,10 @@
    "format": "fraction"
   },
   "answer": {
-   "value": 0.2727272727272727,
+   "value": 0.21818181818181817,
    "fraction": {
-    "numerator": 3,
-    "denominator": 11
+    "numerator": 12,
+    "denominator": 55
    }
   }
  }

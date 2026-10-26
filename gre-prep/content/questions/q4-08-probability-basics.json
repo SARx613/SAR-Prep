@@ -728,7 +728,7 @@
   "id": "q4-08-probability-basics-20",
   "lessonId": "q4-08-probability-basics",
   "difficulty": 5,
-  "stem": "Two fair six-sided dice are rolled. What is the probability that the larger of the two numbers is 4 or the sum of the two numbers is 6?",
+  "stem": "Two fair six-sided dice are rolled. What is the probability that the larger of the two numbers (or their common value, if they are equal) is 4 or the sum of the two numbers is 6?",
   "explanation": "Larger number is 4: (1,4), (2,4), (3,4), (4,4), (4,3), (4,2), (4,1), so 7 outcomes. Sum is 6: (1,5), (2,4), (3,3), (4,2), (5,1), so 5 outcomes. Both: (2,4) and (4,2), so 2 outcomes. Together $7 + 5 - 2 = 10$ outcomes, and $\\frac{10}{36} = \\frac{5}{18}$.",
   "estSeconds": 150,
   "skills": [
@@ -737,10 +737,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
