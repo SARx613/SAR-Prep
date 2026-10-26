@@ -824,5 +824,507 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-12-di-examples-13",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 1,
+  "stem": "How many dollars per month are spent on Food?",
+  "explanation": "Food is 22% of 4,800 dollars: $0.22 \\times 4800 = 1056$.",
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Monthly household spending by category",
+   "data": {
+    "slices": [
+     {
+      "label": "Housing",
+      "value": 34
+     },
+     {
+      "label": "Food",
+      "value": 22
+     },
+     {
+      "label": "Transport",
+      "value": 15
+     },
+     {
+      "label": "Savings",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 17
+     }
+    ]
+   },
+   "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 1056
+  }
+ },
+ {
+  "id": "q4-12-di-examples-14",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 2,
+  "stem": "By how many dollars per month is spending on Housing greater than spending on Other?",
+  "explanation": "Housing minus Other is $34\\% - 17\\% = 17\\%$ of the total, and $0.17 \\times 4800 = 816$ dollars.",
+  "choiceExplanations": {
+   "A": "17 is the difference in percentage points, not in dollars.",
+   "B": "408 is half of the gap; nothing in the problem asks you to halve.",
+   "D": "1,632 is the amount spent on Housing alone ($0.34 \\times 4800$).",
+   "E": "2,448 is the amount spent on Housing and Other together ($0.51 \\times 4800$), not the gap."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Monthly household spending by category",
+   "data": {
+    "slices": [
+     {
+      "label": "Housing",
+      "value": 34
+     },
+     {
+      "label": "Food",
+      "value": 22
+     },
+     {
+      "label": "Transport",
+      "value": 15
+     },
+     {
+      "label": "Savings",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 17
+     }
+    ]
+   },
+   "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$17$"
+    },
+    {
+     "id": "B",
+     "text": "$408$"
+    },
+    {
+     "id": "C",
+     "text": "$816$"
+    },
+    {
+     "id": "D",
+     "text": "$1{,}632$"
+    },
+    {
+     "id": "E",
+     "text": "$2{,}448$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-12-di-examples-15",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 2,
+  "stem": "How many student tickets were sold in 2022?",
+  "explanation": "Student tickets in 2022: $30\\%$ of 15,000 visitors $= 0.30 \\times 15000 = 4500$.",
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Museum visitors by ticket type",
+   "data": {
+    "columns": [
+     "Ticket type",
+     "2021",
+     "2022"
+    ],
+    "rows": [
+     [
+      "Adult",
+      "45%",
+      "40%"
+     ],
+     [
+      "Student",
+      "25%",
+      "30%"
+     ],
+     [
+      "Senior",
+      "20%",
+      "18%"
+     ],
+     [
+      "Child",
+      "10%",
+      "12%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Total visitors",
+      "12,000",
+      "15,000"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 4500
+  }
+ },
+ {
+  "id": "q4-12-di-examples-16",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 3,
+  "stem": "By what percent did the number of student tickets increase from 2021 to 2022?",
+  "explanation": "2021: $0.25 \\times 12000 = 3000$. 2022: $0.30 \\times 15000 = 4500$. Percent increase $= \\frac{4500 - 3000}{3000} = 0.50 = 50\\%$. (The percent share rose only 5 percentage points.)",
+  "estSeconds": 90,
+  "skills": [
+   "tables",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Museum visitors by ticket type",
+   "data": {
+    "columns": [
+     "Ticket type",
+     "2021",
+     "2022"
+    ],
+    "rows": [
+     [
+      "Adult",
+      "45%",
+      "40%"
+     ],
+     [
+      "Student",
+      "25%",
+      "30%"
+     ],
+     [
+      "Senior",
+      "20%",
+      "18%"
+     ],
+     [
+      "Child",
+      "10%",
+      "12%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Total visitors",
+      "12,000",
+      "15,000"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 50
+  }
+ },
+ {
+  "id": "q4-12-di-examples-17",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 3,
+  "stem": "Of the employees surveyed who use the bus, what fraction also use the train?",
+  "explanation": "The Bus circle holds 90 employees in all, and 35 of them are also in the Train circle. $\\frac{35}{90} = \\frac{7}{18}$.",
+  "estSeconds": 80,
+  "skills": [
+   "venn",
+   "conditional"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Commuting methods of 250 employees surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Train: 120 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Bus: 90 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">35</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 250</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 250 employees surveyed. The Train circle has 120 employees in all, the Bus circle has 90 in all, and 35 employees are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.3888888888888889,
+   "fraction": {
+    "numerator": 7,
+    "denominator": 18
+   }
+  }
+ },
+ {
+  "id": "q4-12-di-examples-18",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 4,
+  "stem": "This month's Transport spending is 25 percent less than last month's Transport spending. What was last month's Transport spending, in dollars?",
+  "explanation": "This month: $0.15 \\times 4800 = 720$ dollars. If last month's amount was $x$, then $0.75x = 720$, so $x = \\frac{720}{0.75} = 960$. (Taking 25% more of 720 would give 900, the wrong base.)",
+  "estSeconds": 110,
+  "skills": [
+   "circle-graphs",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Monthly household spending by category",
+   "data": {
+    "slices": [
+     {
+      "label": "Housing",
+      "value": 34
+     },
+     {
+      "label": "Food",
+      "value": 22
+     },
+     {
+      "label": "Transport",
+      "value": 15
+     },
+     {
+      "label": "Savings",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 17
+     }
+    ]
+   },
+   "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 960
+  }
+ },
+ {
+  "id": "q4-12-di-examples-19",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 4,
+  "stem": "Of the employees surveyed who use at least one of the two commuting methods, what percent use both? Give your answer as a whole number.",
+  "explanation": "At least one: $120 + 90 - 35 = 175$ employees. Both: 35. $\\frac{35}{175} = 0.20 = 20\\%$.",
+  "estSeconds": 100,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Commuting methods of 250 employees surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Train: 120 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Bus: 90 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">35</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 250</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 250 employees surveyed. The Train circle has 120 employees in all, the Bus circle has 90 in all, and 35 employees are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q4-12-di-examples-20",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the museum table? Indicate all such statements.",
+  "explanation": "Counts: adult 5,400 in 2021 and 6,000 in 2022, although the percent fell from 45% to 40%. Senior: $0.20 \\times 12000 = 2400$ and $0.18 \\times 15000 = 2700$, an increase of $\\frac{300}{2400} = 12.5\\%$. Student 2022 is 4,500, below 5,400. Adult plus student in 2022 is exactly 70%.",
+  "choiceExplanations": {
+   "C": "The counts are 4,500 and 5,400, so student tickets in 2022 were fewer.",
+   "D": "$40\\% + 30\\% = 70\\%$ exactly, which is not more than 70 percent."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "tables",
+   "percent-of-total",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Museum visitors by ticket type",
+   "data": {
+    "columns": [
+     "Ticket type",
+     "2021",
+     "2022"
+    ],
+    "rows": [
+     [
+      "Adult",
+      "45%",
+      "40%"
+     ],
+     [
+      "Student",
+      "25%",
+      "30%"
+     ],
+     [
+      "Senior",
+      "20%",
+      "18%"
+     ],
+     [
+      "Child",
+      "10%",
+      "12%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Total visitors",
+      "12,000",
+      "15,000"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The number of adult tickets sold was greater in 2022 than in 2021."
+    },
+    {
+     "id": "B",
+     "text": "The number of senior tickets sold increased by more than 10 percent from 2021 to 2022."
+    },
+    {
+     "id": "C",
+     "text": "The number of student tickets sold in 2022 was greater than the number of adult tickets sold in 2021."
+    },
+    {
+     "id": "D",
+     "text": "In 2022, adult and student tickets together made up more than 70 percent of all tickets."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
  }
 ]

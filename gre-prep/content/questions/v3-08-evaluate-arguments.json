@@ -581,5 +581,387 @@
     "A"
    ]
   }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-13",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 1,
+  "stem": "Select the sentence that gives a reason to doubt that the findings merely reflect workers' resistance to change.",
+  "explanation": "The sentence reports the managers' objection and then answers it: the studies took place months after the move, long enough for novelty and irritation to fade.",
+  "estSeconds": 60,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-open-plan",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Some managers dismiss these findings as the product of workers' resistance to change, but the studies were carried out months after the move, long enough for novelty and irritation to have faded."
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-14",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 2,
+  "stem": "Which of the following, if true, would most weaken the author's claim that in cold climates the winter penalty of a white roof can cancel its summer savings?",
+  "explanation": "If snow covers the roof all winter, the color underneath makes little difference, so a white roof loses little winter warmth and the penalty could not cancel the summer savings. The alternatives strengthen the claim or address something else.",
+  "choiceExplanations": {
+   "A": "This is already stated in the passage and bears on pedestrians, not on heating bills.",
+   "C": "A larger heating bill makes the winter penalty weigh more, which supports the claim.",
+   "D": "This shrinks the summer savings, so it helps the claim rather than weakening it.",
+   "E": "Purchase price is a different issue from the balance of heating and cooling costs."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The cooling effect of white roofs at street level is small."
+    },
+    {
+     "id": "B",
+     "text": "In cold climates, roofs are usually covered by snow throughout the heating season."
+    },
+    {
+     "id": "C",
+     "text": "Heating a home in a cold climate costs more than cooling a home in a hot one."
+    },
+    {
+     "id": "D",
+     "text": "Air conditioning is installed in few homes in cold climates."
+    },
+    {
+     "id": "E",
+     "text": "White paint costs more than dark paint."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-15",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 2,
+  "stem": "Which of the following, if true, would most weaken the author's claim that clients' ability to retaliate keeps cleaners honest?",
+  "explanation": "If cleaners are equally honest whether or not clients punish them, punishment cannot be what keeps them honest. The other options are on the topic but do not touch the link between retaliation and honesty.",
+  "choiceExplanations": {
+   "A": "A fact about location with no bearing on the claim.",
+   "B": "The passage already says this; it explains the temptation to cheat, not the effect of retaliation.",
+   "C": "Nothing here bears on whether retaliation affects the cleaners' behavior.",
+   "E": "Size is unrelated to whether the threat of retaliation keeps cleaners honest."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-cleaner-fish",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cleaning stations are found mostly in warm, shallow water."
+    },
+    {
+     "id": "B",
+     "text": "Mucus is more nutritious to cleaners than parasites are."
+    },
+    {
+     "id": "C",
+     "text": "Some clients visit more than one cleaning station."
+    },
+    {
+     "id": "D",
+     "text": "Cleaners at stations where clients seldom chase them are just as honest as cleaners at stations where clients chase them often."
+    },
+    {
+     "id": "E",
+     "text": "Cleaners that bite mucus are, on average, larger than those that do not."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-16",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following, if true, would weaken the author's judgment that noise-based imaging 'deserves serious attention'?",
+  "explanation": "The first finding casts doubt on the method's reliability. The second means the evenly spread sources the method needs would rarely exist. Existing stations make the method cheaper, which strengthens the author's view.",
+  "choiceExplanations": {
+   "A": "This lowers the cost of using the method, so it supports the author's judgment."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-ocean-noise",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Many seismic stations that could record ocean noise are already installed."
+    },
+    {
+     "id": "B",
+     "text": "Structures reconstructed from ocean noise have repeatedly disagreed with those found by other methods in the same region."
+    },
+    {
+     "id": "C",
+     "text": "In most regions, ocean noise is dominated year-round by a few intense, localized sources."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-17",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 3,
+  "stem": "Which of the following, if true, would most weaken the author's suggestion that these associations may fade as migrants disperse into cities?",
+  "explanation": "The author's reasoning is that dispersal weakens the ties that enforce reputation. If dispersed migrants still pass news of defaults quickly, the enforcement survives and the associations need not fade.",
+  "choiceExplanations": {
+   "A": "This fits the claim that reputation works in close-knit places and says nothing about cities.",
+   "B": "Where associations are found does not bear on whether dispersal weakens them.",
+   "C": "This would support the suggestion that the associations fade.",
+   "D": "Already part of the description; irrelevant to dispersal."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-savings-circles",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Defaults in village-based associations are extremely rare."
+    },
+    {
+     "id": "B",
+     "text": "Economists have documented such associations on several continents."
+    },
+    {
+     "id": "C",
+     "text": "Reputation matters less to residents of large cities than to villagers."
+    },
+    {
+     "id": "D",
+     "text": "Most such associations require every member to contribute the same sum each month."
+    },
+    {
+     "id": "E",
+     "text": "Migrants who disperse across a city generally stay in touch through networks that quickly spread news of any member's default."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-18",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Which of the following, if true, would most weaken the author's view that the more dramatic claims about fungal networks have outrun the evidence?",
+  "explanation": "The author says that the missing evidence is whether connected seedlings do better. A field experiment showing they do would fill that gap and weaken the view. The other options are granted facts, irrelevant, or supportive of the author.",
+  "choiceExplanations": {
+   "B": "Also granted; the gap is between transfer and benefit.",
+   "C": "This fits the author's suggestion that fungi act for their own ends, so it would strengthen rather than weaken the view.",
+   "D": "A fact about cost, irrelevant to the strength of the evidence.",
+   "E": "Already granted in the passage; it does not show that the transfers benefit trees."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-fungal-networks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A field experiment found that seedlings joined to a mature tree by fungi survive at markedly higher rates than comparable unconnected seedlings."
+    },
+    {
+     "id": "B",
+     "text": "Carbon supplied to one tree has been found in the tissues of its neighbors."
+    },
+    {
+     "id": "C",
+     "text": "Fungi receive sugars from the trees whose roots they colonize."
+    },
+    {
+     "id": "D",
+     "text": "Greenhouse experiments cost less than field experiments."
+    },
+    {
+     "id": "E",
+     "text": "Fungi colonize the roots of most species of trees."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-19",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following, if true, would weaken the author's claim that the entries in which the landless poor appear can reveal what the authorities feared or tolerated?",
+  "explanation": "If the entries follow fixed forms, or the prosecutions were random, they would not reflect what authorities feared or tolerated. Illiteracy explains the thin record but leaves the claim untouched.",
+  "choiceExplanations": {
+   "B": "This explains why they left few records but does not affect whether the entries that exist reveal the authorities' concerns."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Authorities brought the landless poor to court at random, without regard to any particular fear or concern."
+    },
+    {
+     "id": "B",
+     "text": "Many landless people could not sign their names."
+    },
+    {
+     "id": "C",
+     "text": "Entries about landless defendants were copied from standard forms that did not vary with any concern of the authorities."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-20",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "Which of the following, if true, would most weaken the inference that free evenings mainly attract people who would have visited anyway?",
+  "explanation": "If the surveyed group was skewed toward early arrivals who differ from later ones, the survey's finding may not describe free-evening visitors as a whole. The other options leave the inference intact.",
+  "choiceExplanations": {
+   "B": "The passage already says attendance is impressive; this says nothing about who attends.",
+   "C": "This bears on the author's suggestion about outreach, not on the inference from the survey.",
+   "D": "This does not show that the surveyed sample misrepresents free-evening visitors.",
+   "E": "A scheduling detail that says nothing about who the visitors are or whether the sample is fair."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The survey was handed out only during the first hour of free evenings, and visitors arriving later were disproportionately from lower-income households."
+    },
+    {
+     "id": "B",
+     "text": "Attendance on free evenings is higher than on paying days."
+    },
+    {
+     "id": "C",
+     "text": "Outreach programs in other cities have raised attendance among infrequent visitors."
+    },
+    {
+     "id": "D",
+     "text": "The museum's paying visitors have even higher incomes than its free-evening visitors."
+    },
+    {
+     "id": "E",
+     "text": "The free evening is held on the same weekday each week."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  }
 ]

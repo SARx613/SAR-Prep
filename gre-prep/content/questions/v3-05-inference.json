@@ -614,5 +614,377 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "v3-05-inference-13",
+  "lessonId": "v3-05-inference",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Typists 'can keep up with the speaker', and copying verbatim 'demands little thought', which implies little decision about what matters. Nothing says handwritten notes are always more accurate.",
+  "choiceExplanations": {
+   "C": "Not stated; the passage compares memory of the lecture, not accuracy, and 'always' is too strong."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-note-taking",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A typist can record a speaker's words nearly as fast as they are spoken."
+    },
+    {
+     "id": "B",
+     "text": "A note-taker who copies sentences word for word does little selecting of what matters."
+    },
+    {
+     "id": "C",
+     "text": "Handwritten notes are always more accurate than typed notes."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-14",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "Select the sentence from which it can be inferred that a dark roof gives a building some advantage in winter.",
+  "explanation": "Only this sentence speaks of winter. It says a reflective roof forgoes warmth that a dark roof would have captured, which implies that the dark roof holds an advantage in the cold season.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "In winter, when the sun is low and heating is needed, the same reflective surface forgoes warmth that a dark roof would have captured, and in cold climates this can raise heating bills enough to cancel the summer savings."
+  }
+ },
+ {
+  "id": "v3-05-inference-15",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "The passage implies that before photography arrived, painters were",
+  "explanation": "Painters were 'freed from the obligation to document', which implies they had been under such an obligation before the camera.",
+  "choiceExplanations": {
+   "A": "Outside the passage; it says nothing about what painters knew.",
+   "B": "Unsupported; the passage speaks of 'representational painting' as the earlier practice.",
+   "C": "Unsupported; landscapes later became records of a painter's perception, but nothing is said about earlier disinterest.",
+   "E": "Too extreme; the passage mentions no rules against expressive color."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-camera-and-brush",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unaware that scenes could be recorded mechanically"
+    },
+    {
+     "id": "B",
+     "text": "mostly occupied with abstract subjects"
+    },
+    {
+     "id": "C",
+     "text": "uninterested in the appearance of landscapes"
+    },
+    {
+     "id": "D",
+     "text": "generally expected to record what they depicted"
+    },
+    {
+     "id": "E",
+     "text": "forbidden by guilds from using color expressively"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-16",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "The noise 'rises and falls with ocean storms', so more storms mean more noise. The method depends on sources being spread fairly evenly, so one dominant source is a problem. The third choice reverses what the passage says about depth.",
+  "choiceExplanations": {
+   "C": "Reversed: the passage says it resolves shallow structure better than deep."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-ocean-noise",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Microseismic noise would be expected to grow stronger during a period of frequent ocean storms."
+    },
+    {
+     "id": "B",
+     "text": "Noise-based imaging would be expected to work poorly where nearly all the noise arrives from a single direction."
+    },
+    {
+     "id": "C",
+     "text": "Noise-based imaging reveals deep structure better than it reveals shallow structure."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-17",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "It can be inferred from the passage that bats locate their prey in part by",
+  "explanation": "The first sentence says bats use calls 'to locate food', and the second hypothesis speaks of the 'returning echo' that the bat uses to judge position. Together these imply that bats read the echoes of their own calls.",
+  "choiceExplanations": {
+   "A": "The calls are the bats'; the moth's clicks are described as a response that may interfere, not as the way bats find prey.",
+   "B": "This is one researchers' hypothesis, not something the passage establishes about how bats locate prey.",
+   "D": "Outside knowledge; the passage never mentions heat.",
+   "E": "Too extreme; hearing lets a moth dive, but the passage does not say it ensures escape."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "listening for sounds that the prey itself makes"
+    },
+    {
+     "id": "B",
+     "text": "learning to avoid prey that click"
+    },
+    {
+     "id": "C",
+     "text": "interpreting the echoes of their own calls"
+    },
+    {
+     "id": "D",
+     "text": "sensing the heat given off by the prey's body"
+    },
+    {
+     "id": "E",
+     "text": "never succeeding against moths that can hear them"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-18",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "The passage implies that fluency in a minority language among schoolchildren",
+  "explanation": "Pupils became fluent yet used the majority language with friends, and the author calls schooling 'necessary but not sufficient'. So fluency alone does not ensure use outside school. One distractor reverses a conditional.",
+  "choiceExplanations": {
+   "A": "Contradicted: schools create 'the pool of speakers on which revival depends'.",
+   "B": "Contradicted: immersion pupils 'became fluent' in several regions.",
+   "D": "Reverses the logic: public settings are said to be needed for success, not to make fluency sufficient.",
+   "E": "Outside knowledge; the passage does not compare children with adults."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "is unnecessary for the revival of the language"
+    },
+    {
+     "id": "B",
+     "text": "is seldom reached through immersion schooling"
+    },
+    {
+     "id": "C",
+     "text": "does not by itself guarantee that the language will be used outside school"
+    },
+    {
+     "id": "D",
+     "text": "is enough to bring about revival wherever public settings for the language exist"
+    },
+    {
+     "id": "E",
+     "text": "is more easily gained by children than by adults"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-19",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "It can be inferred from the passage that a rise in the average lifetime revenue per customer after a firm switches to subscriptions",
+  "explanation": "The passage says the average 'may reflect the kinds of customers who remain', so the average can rise because some customers left, without anyone paying more.",
+  "choiceExplanations": {
+   "A": "Too extreme; the passage says only that some customers who disliked the terms have gone.",
+   "C": "Contradicted: those who found the terms unattractive have left, so the figure may reflect who remains.",
+   "D": "Reversed: subscriptions are said to make income more predictable.",
+   "E": "The passage does not judge the convenience explanation false, only incomplete."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "means that the firm has lost most of its customers"
+    },
+    {
+     "id": "B",
+     "text": "would not by itself show that any individual customer pays more than before"
+    },
+    {
+     "id": "C",
+     "text": "shows that customers like subscriptions better than purchases"
+    },
+    {
+     "id": "D",
+     "text": "occurs only when the firm's income becomes less predictable"
+    },
+    {
+     "id": "E",
+     "text": "proves that the convenience explanation of the change is false"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-20",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Because outsiders may be hired only when the firm is already healthy, their faster growth could partly reflect the firm's condition. And since heirs 'should not be excluded', an heir can fit some firms. The third choice turns 'may' into 'every'.",
+  "choiceExplanations": {
+   "C": "Too strong; the passage says heirs 'may' value it this way."
+  },
+  "estSeconds": 115,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The faster growth found under outside managers does not by itself show that outsiders lead better than heirs."
+    },
+    {
+     "id": "B",
+     "text": "An heir may be a suitable leader for some firms at some times."
+    },
+    {
+     "id": "C",
+     "text": "Every heir who leads a family firm values it mainly as a possession to be preserved."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
  }
 ]

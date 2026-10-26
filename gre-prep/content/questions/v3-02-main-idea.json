@@ -588,5 +588,397 @@
     "B"
    ]
   }
+ },
+ {
+  "id": "v3-02-main-idea-13",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 1,
+  "stem": "Which of the following best states the main point of the passage?",
+  "explanation": "The passage opens with a prediction that painting would lose its purpose, says 'the reverse happened', and concludes that photography made painters ask what only painting could offer.",
+  "choiceExplanations": {
+   "B": "Outside the passage; no hostility is mentioned.",
+   "C": "Reversed: the passage says the expected decline did not happen.",
+   "D": "A true detail, but only one example of the larger change the passage describes.",
+   "E": "Not stated; the passage says portraiture shifted in style, not that it earned more."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-camera-and-brush",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Photography pushed painters toward what only painting could do instead of making painting obsolete."
+    },
+    {
+     "id": "B",
+     "text": "Nineteenth-century painters resented cameras and tried to ban them."
+    },
+    {
+     "id": "C",
+     "text": "Photography eventually replaced painting as the chief means of recording scenes."
+    },
+    {
+     "id": "D",
+     "text": "Painters began to leave their brushstrokes visible."
+    },
+    {
+     "id": "E",
+     "text": "Portrait painters earned more money after photography arrived."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-14",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 2,
+  "stem": "Select the sentence that states the author's main conclusion.",
+  "explanation": "'Therefore' marks the conclusion drawn from the evidence about mucus, flinching and punishment: the relationship is an uneasy bargain, not altruism.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-cleaner-fish",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The relationship is therefore best understood not as altruism but as an uneasy bargain, kept in place by each side's capacity to retaliate or leave."
+  }
+ },
+ {
+  "id": "v3-02-main-idea-15",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 2,
+  "stem": "Which of the following best summarizes the passage?",
+  "explanation": "The passage presents the usual argument (savings), then moves to what the author calls the less obvious benefit, which is social. The key covers both parts with the author's hedge.",
+  "choiceExplanations": {
+   "B": "No such comparison is made.",
+   "C": "Prices are mentioned only to say that even low prices could not match the social effect.",
+   "D": "The figure is an illustration for one purchase, not a yearly total, and the passage goes beyond savings.",
+   "E": "A premise behind tool libraries, not the passage's point."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-tool-library",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Besides saving households money, tool libraries may offer a less obvious benefit: closer ties among neighbors."
+    },
+    {
+     "id": "B",
+     "text": "Volunteers at tool libraries are more knowledgeable than hardware store staff."
+    },
+    {
+     "id": "C",
+     "text": "Hardware stores cannot compete with tool libraries on price."
+    },
+    {
+     "id": "D",
+     "text": "Tool libraries save households several hundred dollars a year."
+    },
+    {
+     "id": "E",
+     "text": "Most people use a given tool for only a few hours a year."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-16",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 3,
+  "stem": "Which of the following best states the main point of the passage?",
+  "explanation": "The passage moves from the old view of the noise as a nuisance, to its present use for imaging, to the limits of the technique, and ends by calling the method worth attention. Only the key covers that arc with the right strength.",
+  "choiceExplanations": {
+   "B": "Reversed: the passage says that attitude 'has changed'.",
+   "C": "Too extreme; the passage links the noise to storms but never says storms are the only source.",
+   "D": "A true detail about the cause of the noise, but only a supporting point, not the passage's main claim.",
+   "E": "Beyond the passage, which says only that the method deserves attention."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-ocean-noise",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Vibration that seismologists once filtered out as interference has become a useful, though limited, tool for imaging the crust."
+    },
+    {
+     "id": "B",
+     "text": "Seismologists still regard microseismic noise chiefly as a nuisance to be removed."
+    },
+    {
+     "id": "C",
+     "text": "Ocean storms are the only source of the vibrations that seismometers record."
+    },
+    {
+     "id": "D",
+     "text": "Colliding ocean waves press on the sea floor and send energy into the crust."
+    },
+    {
+     "id": "E",
+     "text": "Imaging the crust with ocean noise has largely replaced the study of earthquake signals."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-17",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 3,
+  "stem": "Which of the following best expresses the main idea of the passage?",
+  "explanation": "The author sets the advocates' claim and the critics' reaction aside and offers a middle view: schools are necessary, but not sufficient without places where the language is used.",
+  "choiceExplanations": {
+   "A": "This is the critics' reaction, which the author calls 'too hasty'.",
+   "B": "Too extreme; the passage says revival can succeed under certain conditions.",
+   "C": "A supporting detail, too narrow to be the main idea.",
+   "E": "This is the advocates' claim, which the passage qualifies."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Immersion schooling has failed to save minority languages and should be abandoned."
+    },
+    {
+     "id": "B",
+     "text": "Majority languages inevitably displace minority languages in the end."
+    },
+    {
+     "id": "C",
+     "text": "Pupils in immersion programs tend to speak the majority language with friends."
+    },
+    {
+     "id": "D",
+     "text": "Immersion schooling is a necessary but insufficient part of reviving a minority language, which also needs settings in which the language is used."
+    },
+    {
+     "id": "E",
+     "text": "Children who study in a minority language will speak it at home and save it."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-18",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 4,
+  "stem": "Which of the following best states the main point of the passage?",
+  "explanation": "The first paragraph reports the popular account, the second shows why the evidence falls short, and the third says the claims have outrun the evidence without denying that the networks matter.",
+  "choiceExplanations": {
+   "B": "A supporting criticism, and stronger than the passage's wording.",
+   "C": "Too extreme and reversed: the author grants that fungi colonize most trees' roots.",
+   "D": "This is the claim reported at the start, not the author's point.",
+   "E": "This is the popular view the author questions."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-fungal-networks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Popular claims that forest trees cooperate through fungal networks have gone beyond the evidence, although the networks may still matter."
+    },
+    {
+     "id": "B",
+     "text": "Studies done in greenhouses on potted seedlings cannot be trusted."
+    },
+    {
+     "id": "C",
+     "text": "Fungal networks do not exist in most forests."
+    },
+    {
+     "id": "D",
+     "text": "Old trees nurse their seedlings through underground fungal networks."
+    },
+    {
+     "id": "E",
+     "text": "Carbon transfers between trees through fungi show that trees cooperate."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-19",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following statements reflects a central point of the passage?",
+  "explanation": "The passage is built around revenue effects (steadier income, easier exit) and the caution that revenue figures cannot show that products are better. The convenience explanation is the view it sets aside.",
+  "choiceExplanations": {
+   "B": "This is the usual explanation the passage reports in its first sentence before saying the real effect is 'subtler'."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Higher revenue per customer after a switch does not by itself show that the product has improved."
+    },
+    {
+     "id": "B",
+     "text": "Software firms adopted subscriptions mainly because customers asked for convenience."
+    },
+    {
+     "id": "C",
+     "text": "Subscription pricing changes both the pattern of a firm's revenue and a customer's freedom to leave."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-20",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 5,
+  "stem": "The author mentions the occasions on which the landless poor do appear in the records primarily in order to",
+  "explanation": "After rejecting the inference that the poor did not matter, the author says the few entries are informative about authorities' fears and tolerance. Their role is to show the thin record still teaches something.",
+  "choiceExplanations": {
+   "A": "No such ranking of records appears.",
+   "B": "Reversed: the first paragraph says the records served institutions' own purposes.",
+   "C": "Reversed: the passage calls that inference mistaken.",
+   "E": "No comparison with other groups is made."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "argue that charity records are more reliable than court registers"
+    },
+    {
+     "id": "B",
+     "text": "suggest that records were kept chiefly for the benefit of the poor"
+    },
+    {
+     "id": "C",
+     "text": "prove that the authorities regarded the landless poor as unimportant"
+    },
+    {
+     "id": "D",
+     "text": "show that the scarcity of references does not leave historians with nothing to learn"
+    },
+    {
+     "id": "E",
+     "text": "demonstrate that the landless poor were treated more harshly than other groups"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  }
 ]

@@ -551,5 +551,347 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "v3-03-major-minor-13",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author attribute to others rather than assert as the author's own view?",
+  "explanation": "The first view is the theory behind open plans ('adopted ... on the theory'). The second belongs to 'some managers'. The decline in face-to-face contact is reported as observed fact.",
+  "choiceExplanations": {
+   "C": "The author reports this as a finding of the studies and treats it as fact."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-open-plan",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The studies' findings result from workers' resistance to change."
+    },
+    {
+     "id": "B",
+     "text": "Removing walls would encourage spontaneous conversation and innovation."
+    },
+    {
+     "id": "C",
+     "text": "Face-to-face interaction fell after the move to open layouts."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-14",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 2,
+  "stem": "Select the sentence in which the author states a prediction as a likelihood rather than a certainty.",
+  "explanation": "'It seems likely' and 'will increasingly need' mark a hedged prediction. The sentences that describe thawing or give the recommendation are stated flatly.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-permafrost-footings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "It seems likely that foundations will increasingly need to be built to cool the ground rather than merely rest on it, for example by using thermal pipes that carry heat away, though the long-term performance of such devices remains untested."
+  }
+ },
+ {
+  "id": "v3-03-major-minor-15",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 2,
+  "stem": "Which of the following does the author present as a possibility rather than as an established conclusion?",
+  "explanation": "'May therefore lie' marks the explanation as a possibility; the author then adds that no study has directly tested it. The other statements are asserted flatly.",
+  "choiceExplanations": {
+   "A": "Reported as a finding without hedging.",
+   "B": "Stated as a flat generalization about the practice ('demands little thought').",
+   "C": "Stated as fact.",
+   "D": "Stated as fact."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-note-taking",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Students who take notes by hand tend to remember lectures better than those who type."
+    },
+    {
+     "id": "B",
+     "text": "A typist who copies sentences verbatim does little thinking."
+    },
+    {
+     "id": "C",
+     "text": "Typists can keep up with the speaker."
+    },
+    {
+     "id": "D",
+     "text": "Handwriting is slower than typing."
+    },
+    {
+     "id": "E",
+     "text": "The advantage of handwriting lies in the thinking it forces rather than in the pen itself."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-16",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 3,
+  "stem": "Select the sentence in which the author states a tentative view of the author's own.",
+  "explanation": "'I suspect it will prove' marks a hedged personal view. The sentences that say 'some hold' and 'others suggest' report the views of other researchers.",
+  "estSeconds": 80,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The second proposal has been tested less, and I suspect it will prove the more important, since startle responses fade quickly when a predator meets the same signal again and again."
+  }
+ },
+ {
+  "id": "v3-03-major-minor-17",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author present as a view held by others rather than as the author's own?",
+  "explanation": "The first is what translators 'are often told', and the second is what 'some critics' declare; the author rejects the second and treats the first as a false picture. The third is the author's proposal.",
+  "choiceExplanations": {
+   "B": "The author advances this as the author's own view ('is better seen')."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Translators must choose between fidelity to meaning and fidelity to sound."
+    },
+    {
+     "id": "B",
+     "text": "A good translation is better seen as an interpretation."
+    },
+    {
+     "id": "C",
+     "text": "Poetry is what is lost in translation."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-18",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 4,
+  "stem": "Which of the following does the author present in the second paragraph as a possibility rather than as an established point?",
+  "explanation": "'Fungi may well be moving carbon for their own reasons' is hedged with 'may'. Everything else in the paragraph is asserted flatly or reported as a finding.",
+  "choiceExplanations": {
+   "A": "Stated as the reviewer's finding, not as a possibility.",
+   "B": "Stated as fact; it is the source of the evidence, not a speculation.",
+   "C": "Stated as the author's own firm judgment.",
+   "E": "Stated as fact."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-fungal-networks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Few published studies have shown that transferred carbon benefits the receiving tree."
+    },
+    {
+     "id": "B",
+     "text": "A reviewer examined the published studies."
+    },
+    {
+     "id": "C",
+     "text": "The step from carbon transfers to cooperation is a long one."
+    },
+    {
+     "id": "D",
+     "text": "Fungi move carbon for their own purposes rather than for the trees' welfare."
+    },
+    {
+     "id": "E",
+     "text": "Many measurements were made on potted seedlings in greenhouses."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-19",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author report as a view held by others rather than assert as the author's own?",
+  "explanation": "The first view belongs to advocates ('usually argue') and the second to critics ('Critics conclude'). The third is the author's own claim.",
+  "choiceExplanations": {
+   "B": "This is the author's own conclusion, stated in the final sentence."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Children educated in a minority language will go on to use it at home."
+    },
+    {
+     "id": "B",
+     "text": "Revival depends on public settings in which speakers have reason to use the language."
+    },
+    {
+     "id": "C",
+     "text": "Schooling is irrelevant to the revival of a minority language."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-20",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 5,
+  "stem": "Which of the following does the author acknowledge as a possible benefit of free evenings that the survey could not confirm?",
+  "explanation": "The author says a free evening 'can still introduce first-time visitors who later return', and the survey 'did not follow anyone long enough to say whether that happens'. The other choices are established findings or a different suggestion.",
+  "choiceExplanations": {
+   "A": "This is the author's tentative suggestion about what might be added to free evenings, not a benefit of free evenings that the survey could not confirm.",
+   "C": "This is reported as established ('attendance figures ... are impressive').",
+   "D": "This is what the survey found, not a possible benefit it failed to confirm.",
+   "E": "The survey found many would have paid, but that is a reported result, not an unconfirmed benefit."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Bringing outreach programs into neighborhoods where the museum is little known"
+    },
+    {
+     "id": "B",
+     "text": "Introducing first-time visitors who later return on paying days"
+    },
+    {
+     "id": "C",
+     "text": "Drawing large crowds on the free evenings"
+    },
+    {
+     "id": "D",
+     "text": "Reaching households with above-median incomes"
+    },
+    {
+     "id": "E",
+     "text": "Saving money for visitors who would otherwise have paid"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  }
 ]

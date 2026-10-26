@@ -595,5 +595,397 @@
   "answer": {
    "sentence": "This may be right, but it concedes the point at issue: if listeners must discount, then the compliment has already ceased to carry the message it appears to carry."
   }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-13",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 1,
+  "stem": "The author's attitude toward statistical adjustment of poll results is best described as",
+  "explanation": "The adjustment is called 'helpful' but limited to measured traits. That is approval with reservations.",
+  "choiceExplanations": {
+   "A": "The author calls the adjustment 'helpful'.",
+   "C": "The author says the adjustment 'cannot be a complete cure', so the approval is not wholehearted.",
+   "D": "The author weighs its benefit and its limits carefully.",
+   "E": "The tone is measured; there is no sign of alarm."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-poll-nonresponse",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "complete dismissal"
+    },
+    {
+     "id": "B",
+     "text": "approving, but with reservations"
+    },
+    {
+     "id": "C",
+     "text": "wholehearted endorsement"
+    },
+    {
+     "id": "D",
+     "text": "indifference"
+    },
+    {
+     "id": "E",
+     "text": "alarm"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-14",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 2,
+  "stem": "The author's attitude toward imaging the crust with ocean noise is best described as",
+  "explanation": "The author praises the method (free, tireless, deserving attention) yet notes its limits with 'still'. That mixture is cautious approval.",
+  "choiceExplanations": {
+   "A": "The author is positive about the method, not resigned to it.",
+   "B": "Nothing in the passage faults the method; the limits are noted as limits.",
+   "C": "The author gives a verdict ('deserves serious attention'), so the tone is not neutral.",
+   "D": "The author lists real limits, so the approval is not unreserved."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-ocean-noise",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "resigned acceptance"
+    },
+    {
+     "id": "B",
+     "text": "mild disapproval"
+    },
+    {
+     "id": "C",
+     "text": "detached neutrality"
+    },
+    {
+     "id": "D",
+     "text": "unreserved enthusiasm"
+    },
+    {
+     "id": "E",
+     "text": "cautious approval"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-15",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 2,
+  "stem": "Select the sentence in which the author most clearly signals a view of the author's own, as distinct from what proponents emphasize.",
+  "explanation": "'May be social' follows the proponents' emphasis on savings and introduces the author's own, hedged view that another benefit matters.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-tool-library",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The less obvious benefit may be social."
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-16",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The author's reasoning in the last sentence assumes which of the following?",
+  "explanation": "The argument says startle fades with repetition, so it favors the scrambling account only if bats do meet the signal repeatedly and scrambling does not fade as well. Negate either and the reasoning fails. The third choice is not needed.",
+  "choiceExplanations": {
+   "A": "Too strong; the reasoning concerns which explanation matters more, not whether clicking always works."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Moths that click are never captured by bats."
+    },
+    {
+     "id": "B",
+     "text": "A bat is likely to meet the same clicking signal many times."
+    },
+    {
+     "id": "C",
+     "text": "An echo-scrambling effect would not fade with repetition the way a startle response does."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-17",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 3,
+  "stem": "The author's suggestion that a paraphrasing typist 'should do as well' assumes which of the following?",
+  "explanation": "If typing carried some other drawback, a paraphrasing typist might still do worse. The prediction holds only if the one disadvantage of typing is the pull toward transcription.",
+  "choiceExplanations": {
+   "A": "Too strong and not needed for the argument.",
+   "B": "Contradicted: typists 'often copy sentences nearly verbatim'.",
+   "D": "The passage says typists can keep up; the suggestion does not need a claim about every student.",
+   "E": "Contradicted: the author knows of no study testing this."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-note-taking",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Students who write by hand never copy sentences word for word."
+    },
+    {
+     "id": "B",
+     "text": "Most typists already paraphrase what they hear."
+    },
+    {
+     "id": "C",
+     "text": "Nothing about typing, apart from the temptation to transcribe, impairs learning."
+    },
+    {
+     "id": "D",
+     "text": "Handwriting is slower than typing for every student."
+    },
+    {
+     "id": "E",
+     "text": "A study has already confirmed that paraphrasing helps typists."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-18",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 4,
+  "stem": "The author's final sentence assumes which of the following?",
+  "explanation": "The sentence says revenue figures cannot show whether a product is better 'rather than merely more profitable'. That holds only if revenue can increase without any gain in quality.",
+  "choiceExplanations": {
+   "A": "Not needed; the sentence is about what revenue can show about quality.",
+   "B": "Too strong; the author says the question cannot be settled by revenue figures, not that the answer is no.",
+   "C": "The author's point concerns what revenue figures show, not what customers can judge.",
+   "E": "Extreme; the passage treats revenue as important."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Firms earned less before they switched to subscriptions."
+    },
+    {
+     "id": "B",
+     "text": "Subscription pricing has not made products better."
+    },
+    {
+     "id": "C",
+     "text": "Customers are unable to judge the quality of software."
+    },
+    {
+     "id": "D",
+     "text": "A firm's revenue can rise without any improvement in the product it sells."
+    },
+    {
+     "id": "E",
+     "text": "Revenue is of no importance to software firms."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-19",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 4,
+  "stem": "The author's comparison of translation to the performance of a score assumes which of the following?",
+  "explanation": "The argument is that performance cannot reproduce a score, yet no one calls music unplayable, so translation's inability to reproduce the original should not make it worthless. That requires the assumption that exact reproduction is not what gives value.",
+  "choiceExplanations": {
+   "A": "Not needed; the comparison relies on both being imperfect, not on one being easier.",
+   "B": "The passage says translations open a poem to readers who could not otherwise read it, not that they are preferred.",
+   "D": "Skill is never discussed; the comparison concerns imperfection.",
+   "E": "An attack on the critics' background, which the argument does not need."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Music is easier to render faithfully than poetry."
+    },
+    {
+     "id": "B",
+     "text": "Readers prefer interpretations to the poems they interpret."
+    },
+    {
+     "id": "C",
+     "text": "The value of a rendering does not depend on its reproducing the original exactly."
+    },
+    {
+     "id": "D",
+     "text": "Translators are as skilled as performing musicians."
+    },
+    {
+     "id": "E",
+     "text": "Critics of translation are unfamiliar with music."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-20",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 5,
+  "stem": "The author's concluding recommendation depends on which of the following assumptions?",
+  "explanation": "The family is told to ask at 'each handover' what 'the firm now needs'. That advice makes sense only if what the firm needs differs between handovers.",
+  "choiceExplanations": {
+   "A": "The passage says families 'may' do so, and the recommendation does not depend on it.",
+   "B": "Not needed; the recommendation concerns heirs versus outsiders.",
+   "C": "Too extreme; the author calls the comparison 'imperfect', not worthless.",
+   "E": "Contradicted by the recommendation not to exclude heirs."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Families hire outsiders only when the firm is healthy."
+    },
+    {
+     "id": "B",
+     "text": "Founders make better leaders than either heirs or outsiders."
+    },
+    {
+     "id": "C",
+     "text": "Studies comparing heirs with outside managers are worthless."
+    },
+    {
+     "id": "D",
+     "text": "The kind of leadership that suits a firm can change from one time to another."
+    },
+    {
+     "id": "E",
+     "text": "Heirs are less capable than outside managers as a rule."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  }
 ]

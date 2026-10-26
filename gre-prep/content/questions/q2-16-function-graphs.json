@@ -522,5 +522,319 @@
   "answer": {
    "value": 10
   }
+ },
+ {
+  "id": "q2-16-function-graphs-13",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 1,
+  "stem": "The graph of $y=2x^2$ is obtained from the graph of $y=x^2$ by",
+  "explanation": "Multiplying the whole function by $c=2>1$ doubles every output, so the graph is stretched vertically. A shift would add or subtract a number, or change the input.",
+  "choiceExplanations": {
+   "A": "Shifting up 2 gives $y=x^2+2$, which adds 2 to each output instead of doubling it.",
+   "B": "Shifting right 2 gives $y=(x-2)^2$, which changes the input.",
+   "C": "Shifting left 2 gives $y=(x+2)^2$, which changes the input.",
+   "E": "Reflection in the $x$-axis gives $y=-x^2$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "shifting it up 2 units"
+    },
+    {
+     "id": "B",
+     "text": "shifting it right 2 units"
+    },
+    {
+     "id": "C",
+     "text": "shifting it left 2 units"
+    },
+    {
+     "id": "D",
+     "text": "stretching it vertically, so that every $y$-value is doubled"
+    },
+    {
+     "id": "E",
+     "text": "reflecting it in the $x$-axis"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-14",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 2,
+  "stem": "If $h(x)=|2x-7|+1$, what is $h(-3)$?",
+  "explanation": "Substitute $x=-3$: $|2(-3)-7|+1=|-13|+1=13+1=14$.",
+  "estSeconds": 60,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-15",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 2,
+  "stem": "What is the greatest value of the function $g(x)=4-(x-1)^2$?",
+  "explanation": "Write $g(x)=-(x-1)^2+4$: the graph of $y=x^2$ reflected in the $x$-axis, shifted right 1 and up 4. It opens downward, so its highest point is the vertex $(1,4)$ and the greatest value is $4$.",
+  "choiceExplanations": {
+   "A": "The graph opens downward, so it has a greatest value, and it is above the $x$-axis at its vertex.",
+   "B": "$1$ is the $x$-coordinate of the vertex, not the greatest value of the function.",
+   "C": "$3$ is $g(0)$; the graph is higher at the vertex, where $x=1$.",
+   "E": "The square $(x-1)^2$ is never negative, so $4-(x-1)^2$ cannot exceed $4$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-4$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-16",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Reflection gives $-x^2$, shifting right 2 gives $-(x-2)^2$, and up 1 gives $g(x)=-(x-2)^2+1$. Then $g(0)=-4+1=-3$ and $g(3)=-1+1=0$. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$g(0)$",
+   "quantityB": "$g(3)$",
+   "common": "The graph of $g$ is the graph of $y=x^2$ reflected in the $x$-axis, then shifted 2 units right and 1 unit up."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-17",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 3,
+  "stem": "The graph of $y=f(x)$ shown is the graph of $y=x^2$ shifted to a new position. The vertex and one other point are labeled. What is $f(5)$?",
+  "explanation": "The vertex is $(2,-3)$, so the graph of $x^2$ was moved right 2 and down 3: $f(x)=(x-2)^2-3$. (Check: $f(4)=4-3=1$.) Then $f(5)=3^2-3=6$.",
+  "choiceExplanations": {
+   "A": "This is $5-2$; the square and the downward shift were not applied.",
+   "C": "This is $(5-2)^2$; the downward shift of 3 was forgotten.",
+   "D": "This is $5^2-3$; the right shift of 2 was forgotten.",
+   "E": "This is $(5+2)^2-3$; a vertex at $x=2$ means a shift right, so the input is $x-2$, not $x+2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3$"
+    },
+    {
+     "id": "B",
+     "text": "$6$"
+    },
+    {
+     "id": "C",
+     "text": "$9$"
+    },
+    {
+     "id": "D",
+     "text": "$22$"
+    },
+    {
+     "id": "E",
+     "text": "$46$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 180 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"156\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"156\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"156\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"156\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"156\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"156\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"156\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"156\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"156\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"90\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"112\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"134\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"40\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"40\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"40\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"40\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"40\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"40\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"40\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"40\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"164\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"56\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polyline points=\"31.8,24.0 34.7,39.0 37.6,53.3 40.5,66.7 43.4,79.4 46.4,91.4 49.3,102.5 52.2,112.9 55.1,122.6 58.0,131.4 60.9,139.5 63.8,146.8 66.7,153.4 69.6,159.1 72.5,164.1 75.5,168.4 78.4,171.8 81.3,174.5 84.2,176.5 87.1,177.6 90.0,178.0 92.9,177.6 95.8,176.5 98.7,174.5 101.6,171.8 104.5,168.4 107.5,164.1 110.4,159.1 113.3,153.4 116.2,146.8 119.1,139.5 122.0,131.4 124.9,122.6 127.8,112.9 130.7,102.5 133.6,91.4 136.6,79.4 139.5,66.7 142.4,53.3 145.3,39.0 148.2,24.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"97\" y=\"194\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(2, -3)</text><circle cx=\"134\" cy=\"90\" r=\"3.2\" fill=\"currentColor\"/><text x=\"141\" y=\"84\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(4, 1)</text></svg>",
+    "alt": "A U-shaped parabola opening upward in the coordinate plane. Its lowest point (vertex) is labeled (2, -3), and it passes through the labeled point (4, 1) and through (0, 1)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-18",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 4,
+  "stem": "The graph of $g$ is the graph of $f(x)=x^2$ shifted 1 unit left and 2 units up. The graph of $g$ and the line $y=3x+5$ intersect at two points. What is the sum of the $y$-coordinates of these two points?",
+  "explanation": "Shifting left 1 and up 2 gives $g(x)=(x+1)^2+2=x^2+2x+3$. Intersections: $x^2+2x+3=3x+5$, so $x^2-x-2=(x-2)(x+1)=0$ and $x=2$ or $x=-1$. On the line, $y=11$ and $y=2$. Sum: $13$.",
+  "estSeconds": 130,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-19",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 4,
+  "stem": "Each of the following transformations is applied to the graph of $y=x^2$. Which of the resulting graphs pass through the point $(4,7)$? Indicate all such graphs.",
+  "explanation": "Write each new function and evaluate it at $x=4$. Down 9: $x^2-9\\to 7$. Right 3, up 6: $(x-3)^2+6\\to 1+6=7$. Left 1, down 18: $(x+1)^2-18\\to 25-18=7$.",
+  "choiceExplanations": {
+   "B": "Right 1, up 7 gives $(x-1)^2+7$, and at $x=4$ this is $9+7=16$.",
+   "E": "Left 3, up 6 gives $(x+3)^2+6$, and at $x=4$ this is $49+6=55$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "shifted down 9 units"
+    },
+    {
+     "id": "B",
+     "text": "shifted right 1 unit and up 7 units"
+    },
+    {
+     "id": "C",
+     "text": "shifted right 3 units and up 6 units"
+    },
+    {
+     "id": "D",
+     "text": "shifted left 1 unit and down 18 units"
+    },
+    {
+     "id": "E",
+     "text": "shifted left 3 units and up 6 units"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-16-function-graphs-20",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 5,
+  "stem": "The graph of $y=a|x-h|+k$ has its vertex at $(3,-2)$ and passes through the point $(-1,6)$. What is the $y$-intercept of the graph?",
+  "explanation": "The vertex gives $h=3$ and $k=-2$, so $y=a|x-3|-2$. Through $(-1,6)$: $6=a\\cdot 4-2$, so $a=2$. At $x=0$: $y=2\\cdot|0-3|-2=4$.",
+  "estSeconds": 130,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  }
  }
 ]

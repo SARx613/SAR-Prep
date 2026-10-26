@@ -563,5 +563,338 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "v3-06-structure-13",
+  "lessonId": "v3-06-structure",
+  "difficulty": 1,
+  "stem": "Select the sentence that draws a practical recommendation from the preceding discussion.",
+  "explanation": "The closing sentence turns the discussion into advice ('the safest course is to monitor ground temperature'). Earlier sentences state the old rule, describe the damage, report a view or predict a change.",
+  "estSeconds": 60,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-permafrost-footings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "For now, the safest course is to monitor ground temperature before any building is designed."
+  }
+ },
+ {
+  "id": "v3-06-structure-14",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "Select the sentence that marks the point where the passage turns from a common view to a complication of it.",
+  "explanation": "The first sentence gives the familiar story. 'The picture is incomplete' is the turn; everything after it supplies the complications.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-cleaner-fish",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The picture is incomplete."
+  }
+ },
+ {
+  "id": "v3-06-structure-15",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Paragraph 1 describes the practice, gives the economists' explanation, and raises a problem ('would not last a year'). Paragraph 2 offers reputation as what holds groups together.",
+  "choiceExplanations": {
+   "A": "No cases are tested; the passage is explanatory.",
+   "C": "The reputation explanation is the author's, not one of two equals.",
+   "D": "Only one practice is discussed, and it is not a series of examples.",
+   "E": "The passage is not chronological."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-savings-circles",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A theory is stated, tested against several cases, and then revised."
+    },
+    {
+     "id": "B",
+     "text": "A practice and a common explanation of its appeal are presented, a difficulty with that explanation is raised, and another factor is then offered to resolve it."
+    },
+    {
+     "id": "C",
+     "text": "Two competing explanations are described and given equal weight."
+    },
+    {
+     "id": "D",
+     "text": "A general principle is illustrated with a series of examples."
+    },
+    {
+     "id": "E",
+     "text": "A historical development is traced from its origins to the present."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-16",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "The third paragraph is related to the second in that it",
+  "explanation": "The second paragraph gives the criticisms. The third says they do not make the networks unimportant, only that claims outran evidence, and it names a field experiment that would help.",
+  "choiceExplanations": {
+   "A": "The third paragraph discusses claims and tests, not an example of a transfer.",
+   "B": "No new evidence appears; the paragraph calls for experiments not yet done.",
+   "C": "It continues the same topic, the strength of the evidence.",
+   "E": "The third paragraph does not endorse the popular account."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-fungal-networks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "gives an example of the transfers criticized in the second paragraph"
+    },
+    {
+     "id": "B",
+     "text": "offers new evidence that answers the second paragraph's criticisms"
+    },
+    {
+     "id": "C",
+     "text": "introduces a topic unrelated to the second paragraph"
+    },
+    {
+     "id": "D",
+     "text": "draws a measured conclusion from the criticisms and says how the question could be settled"
+    },
+    {
+     "id": "E",
+     "text": "restates the popular account that the second paragraph questions"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-17",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "The author notes that families may hire outsiders 'only when the firm is already healthy enough to attract capable candidates' primarily in order to",
+  "explanation": "The sentence begins with 'Yet' and calls the comparison imperfect. The firm's prior health could explain the growth, so the sentence qualifies the evidence for outsiders.",
+  "choiceExplanations": {
+   "B": "The conclusion explicitly does not exclude any kind of leader.",
+   "C": "The downturn point is made in the first sentence and is unrelated.",
+   "D": "The author does not conclude that heirs are better; the sentence only qualifies the comparison.",
+   "E": "The sentence concerns hiring outsiders, not founders."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "suggest another possible explanation for the faster growth attributed to outside managers"
+    },
+    {
+     "id": "B",
+     "text": "argue that families should never hire outside managers"
+    },
+    {
+     "id": "C",
+     "text": "explain why family firms outlast their rivals in downturns"
+    },
+    {
+     "id": "D",
+     "text": "show that heirs are better leaders than outsiders"
+    },
+    {
+     "id": "E",
+     "text": "give an example of a founder's attachment to the firm"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-18",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes what the sentence 'Critics conclude from such cases that schooling is irrelevant to revival.' does in the passage?",
+  "explanation": "The sentence reports what critics infer from the earlier cases ('such cases') and is rejected in the next sentence ('too hasty'). It is not evidence for the author's view.",
+  "choiceExplanations": {
+   "C": "The author's conclusion rests on the argument about purpose outside school, and the author calls the critics' conclusion hasty."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It reports a view that the author goes on to reject."
+    },
+    {
+     "id": "B",
+     "text": "It draws a conclusion from the cases described in the preceding sentence."
+    },
+    {
+     "id": "C",
+     "text": "It supplies the evidence on which the author's own conclusion rests."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-19",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "In the second paragraph, select the sentence that concedes a limitation of a method while affirming its value.",
+  "explanation": "The final sentence concedes that the method is laborious and its results partial ('but'), and then affirms that it restores muffled voices.",
+  "estSeconds": 90,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "The method is laborious and its results are partial, but it restores voices that the archive has otherwise muffled."
+  }
+ },
+ {
+  "id": "v3-06-structure-20",
+  "lessonId": "v3-06-structure",
+  "difficulty": 5,
+  "stem": "The author states that the survey 'did not follow anyone long enough to say whether that happens' primarily in order to",
+  "explanation": "The clause follows the possibility that first-time visitors return, and it admits the survey cannot say whether that happens. Its function is to mark a limit on what the survey shows.",
+  "choiceExplanations": {
+   "A": "That claim is a survey finding; this clause concerns what the survey did not measure.",
+   "B": "Too extreme; the author goes on to use the survey's findings.",
+   "C": "The recommendation comes in the following sentence and rests on the survey's findings.",
+   "E": "Reversed: the sentence says the policy is not shown to be pointless."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "support the claim that many visitors would have paid"
+    },
+    {
+     "id": "B",
+     "text": "criticize the survey as useless for any purpose"
+    },
+    {
+     "id": "C",
+     "text": "introduce a recommendation for outreach"
+    },
+    {
+     "id": "D",
+     "text": "acknowledge that the survey cannot rule out a benefit that the author has just described"
+    },
+    {
+     "id": "E",
+     "text": "show that free evenings have been proved ineffective"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  }
 ]

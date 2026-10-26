@@ -544,5 +544,347 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "v3-01-formats-13",
+  "lessonId": "v3-01-formats",
+  "difficulty": 1,
+  "stem": "According to the passage, pollsters are chiefly concerned about whether",
+  "explanation": "The first sentence says pollsters worry less about how many decline than about whether decliners differ from responders. The other choices are not given as the worry.",
+  "choiceExplanations": {
+   "A": "Nothing in the passage questions the age of census figures.",
+   "C": "The passage says a ten percent rate can still yield an accurate portrait.",
+   "D": "Weighting is described as helpful, not as a worry.",
+   "E": "Dishonesty is never mentioned."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-poll-nonresponse",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "census figures are too old to be used for weighting"
+    },
+    {
+     "id": "B",
+     "text": "people who decline to answer differ from those who respond"
+    },
+    {
+     "id": "C",
+     "text": "the response rate has fallen below ten percent"
+    },
+    {
+     "id": "D",
+     "text": "a poll has been adjusted by weighting at all"
+    },
+    {
+     "id": "E",
+     "text": "respondents deliberately give false answers"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-14",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Select the sentence that describes what happens to buildings when ice-rich ground thaws.",
+  "explanation": "This sentence names the effect on buildings: the ground subsides unevenly and houses that were level begin to lean. The others state a rule, an attribution, a prediction or a recommendation.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-permafrost-footings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Where ice-rich permafrost thaws, the ground subsides unevenly, and houses that once stood level now lean."
+  }
+ },
+ {
+  "id": "v3-01-formats-15",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of subscription pricing compared with outright sale?",
+  "explanation": "The passage says a subscription 'steadies income' and that a dissatisfied customer can leave 'at any time' rather than only after the next upgrade. It makes no claim about satisfaction.",
+  "choiceExplanations": {
+   "A": "The passage says the higher revenue 'may reflect the kinds of customers who remain', not that they are more satisfied."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It leaves the remaining customers more satisfied with the product."
+    },
+    {
+     "id": "B",
+     "text": "It spreads a firm's revenue more evenly over time."
+    },
+    {
+     "id": "C",
+     "text": "It lets a dissatisfied customer stop paying sooner."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-16",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "According to the passage, a reflective roof in a cold climate may",
+  "explanation": "The passage says that in cold climates the forgone winter warmth 'can raise heating bills enough to cancel the summer savings'. The other choices reverse the winter effect or add a comparison the passage never makes.",
+  "choiceExplanations": {
+   "A": "Reversed: the reflective surface forgoes warmth that a dark roof would have captured.",
+   "C": "Returning sunlight to the sky is what costs the building winter warmth; it does not reduce heating needs.",
+   "D": "Reversed: a pale roof absorbs less energy in summer, so the air above it stays cooler.",
+   "E": "The passage makes no such comparison; it says the street-level effect is modest."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "absorb more winter sunlight than a dark roof would"
+    },
+    {
+     "id": "B",
+     "text": "raise heating costs by enough to offset what it saves in summer"
+    },
+    {
+     "id": "C",
+     "text": "remove the need for heating by returning sunlight to the sky"
+    },
+    {
+     "id": "D",
+     "text": "make the building hotter during summer afternoons"
+    },
+    {
+     "id": "E",
+     "text": "cool the air at street level more than it does in hot regions"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-17",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of the survey of free-evening visitors?",
+  "explanation": "The survey found most visitors were from above-median households and many would have paid. It did not track later visits.",
+  "choiceExplanations": {
+   "C": "The passage says the survey did not follow anyone long enough to tell."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Many respondents said they would have paid for admission without a free evening."
+    },
+    {
+     "id": "B",
+     "text": "Most respondents came from households with above-median incomes."
+    },
+    {
+     "id": "C",
+     "text": "It followed visitors to see whether they later returned on paying days."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-18",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "Select the sentence that contrasts an older picture of moths with more recent findings.",
+  "explanation": "Only the opening sentence sets a long-held description ('helpless prey') against what several species have since evolved. Later sentences describe responses or report hypotheses.",
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Moths have long been described as the helpless prey of bats, but several species have evolved ears tuned to the ultrasonic calls that bats use to locate food."
+  }
+ },
+ {
+  "id": "v3-01-formats-19",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true?",
+  "explanation": "The first sentence says family firms often outlast rivals, and the passage reports that comparison studies generally find outsiders deliver faster growth. The third choice swaps founders and heirs.",
+  "choiceExplanations": {
+   "A": "Reversed: the passage says heirs, not founders, may value it chiefly as a possession."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Founders tend to value the firm chiefly as a family possession to be preserved."
+    },
+    {
+     "id": "B",
+     "text": "Family-owned firms often outlast their rivals through downturns."
+    },
+    {
+     "id": "C",
+     "text": "Studies generally find faster growth under outside managers than under heirs."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-20",
+  "lessonId": "v3-01-formats",
+  "difficulty": 5,
+  "stem": "Which of the following best describes the author's evaluation of the method described in the second paragraph?",
+  "explanation": "The final sentence concedes that the method is laborious and partial, 'but' says it restores muffled voices. The author therefore values it with open acknowledgment of its limits.",
+  "choiceExplanations": {
+   "B": "Too strong; the results are called partial and the method laborious.",
+   "C": "The author concedes limits but does not call the method unreliable or speculative.",
+   "D": "Nothing in the passage says it should be limited to such cases.",
+   "E": "The passage describes the method as one a historian 'can' use and gives no hint it is untried."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It is worth using despite being laborious and yielding only partial results."
+    },
+    {
+     "id": "B",
+     "text": "It is precise enough to replace the study of ordinary records."
+    },
+    {
+     "id": "C",
+     "text": "It is unreliable because it depends on speculation about clerks' motives."
+    },
+    {
+     "id": "D",
+     "text": "It is a last resort that should be used only when other records are lost."
+    },
+    {
+     "id": "E",
+     "text": "It is promising but has not yet been tried on real records."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  }
 ]
