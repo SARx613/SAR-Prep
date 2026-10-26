@@ -24,7 +24,7 @@ export function WritingHub({ prompts, instructions }: { prompts: Prompt[]; instr
       <section className={card}>
         <h2 className="text-lg font-bold">Practise a real topic</h2>
         <p className="mt-1 text-sm text-muted">The real test draws one Issue topic from ETS’s published pool. Pick one there, then paste it here with its instructions.</p>
-        <a href="https://www.ets.org/pdfs/gre/issue-pool.pdf" target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline">ETS Issue topic pool (PDF)<ExternalLink size={13} aria-hidden /></a>
+        <a href="https://www.ets.org/pdfs/gre/issue-pool.pdf" target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-accent-ink hover:underline">ETS Issue topic pool (PDF)<ExternalLink size={13} aria-hidden /></a>
         <label className="mt-4 block text-sm font-semibold" htmlFor="custom">Topic</label>
         <textarea id="custom" value={custom} onChange={(e) => setCustom(e.target.value)} rows={3} className="mt-1 w-full rounded-[var(--radius)] border border-line-strong bg-surface p-3 text-[15px]" placeholder="Paste the issue statement…" />
         <label className="mt-3 block text-sm font-semibold" htmlFor="cset">Instructions</label>
@@ -42,7 +42,7 @@ export function WritingHub({ prompts, instructions }: { prompts: Prompt[]; instr
         </div>
         <ul className="mt-3 divide-y divide-line overflow-hidden rounded-[var(--radius)] border border-line bg-surface">
           {shown.map((p) => (
-            <li key={p.id}><Link href={`/writing/session?prompt=${p.id}`} className="flex items-start gap-3 px-4 py-3 hover:bg-surface-2"><span className="mt-0.5 rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-bold text-accent">{p.set.replace('-', ' ')}</span><span className="text-sm">{p.claim}</span></Link></li>
+            <li key={p.id}><Link href={`/writing/session?prompt=${p.id}`} className="flex items-start gap-3 px-4 py-3 hover:bg-surface-2"><span className="mt-0.5 rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-bold text-accent-ink">{p.set.replace('-', ' ')}</span><span className="text-sm">{p.claim}</span></Link></li>
           ))}
         </ul>
       </section>

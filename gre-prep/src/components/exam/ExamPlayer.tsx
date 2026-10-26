@@ -275,7 +275,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
                     type="button"
                     onClick={() => go(i)}
                     aria-label={`Question ${i + 1}: ${a ? 'answered' : 'not answered'}${marked.has(x.id) ? ', marked' : ''}`}
-                    className={`relative grid h-12 w-full place-items-center rounded-[var(--radius)] border text-sm font-semibold ${a ? 'border-accent bg-accent-soft text-accent' : 'border-line-strong bg-surface text-fg'}`}
+                    className={`relative grid h-12 w-full place-items-center rounded-[var(--radius)] border text-sm font-semibold ${a ? 'border-accent bg-accent-soft text-accent-ink' : 'border-line-strong bg-surface text-fg'}`}
                   >
                     {i + 1}
                     {marked.has(x.id) && <Bookmark size={12} className="absolute right-1 top-1 fill-current text-warn" aria-hidden />}
@@ -344,17 +344,17 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
 
           <div className="flex items-center gap-1.5">
             {calcAllowed && isQuant && !done && (
-              <button type="button" onClick={() => setCalcOpen((v) => !v)} aria-pressed={calcOpen} className={btn}>
+              <button type="button" onClick={() => setCalcOpen((v) => !v)} aria-pressed={calcOpen} aria-label="Calculator" className={btn}>
                 <CalcIcon size={16} aria-hidden /><span className="hidden md:inline">Calculator</span>
               </button>
             )}
             {!done && (
-              <button type="button" onClick={toggleMark} aria-pressed={marked.has(q.id)} className={`${btn} ${marked.has(q.id) ? '!border-warn !bg-warn-soft' : ''}`}>
+              <button type="button" onClick={toggleMark} aria-pressed={marked.has(q.id)} aria-label="Mark for review" className={`${btn} ${marked.has(q.id) ? '!border-warn !bg-warn-soft' : ''}`}>
                 <Bookmark size={16} className={marked.has(q.id) ? 'fill-current text-warn' : ''} aria-hidden /><span className="hidden md:inline">Mark</span>
               </button>
             )}
             {mode === 'timed' && !done && (
-              <button type="button" onClick={() => { bank(); setView('review'); }} className={btn}>
+              <button type="button" onClick={() => { bank(); setView('review'); }} aria-label="Review questions" className={btn}>
                 <LayoutGrid size={16} aria-hidden /><span className="hidden md:inline">Review</span>
               </button>
             )}
@@ -384,7 +384,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       {stimulus && (
         <div role="tablist" className="grid shrink-0 grid-cols-2 border-b border-line bg-surface lg:hidden">
           {([['stim', stimulus === 'passage' ? 'Passage' : 'Figure'], ['q', 'Question']] as const).map(([k, label]) => (
-            <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={`h-11 text-sm font-semibold ${tab === k ? 'border-b-2 border-accent text-accent' : 'text-muted'}`}>{label}</button>
+            <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={`h-11 text-sm font-semibold ${tab === k ? 'border-b-2 border-accent text-accent-ink' : 'text-muted'}`}>{label}</button>
           ))}
         </div>
       )}

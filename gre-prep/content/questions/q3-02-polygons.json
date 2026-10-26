@@ -452,5 +452,294 @@
   "answer": {
    "value": 7
   }
+ },
+ {
+  "id": "q3-02-polygons-13",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 1,
+  "stem": "A regular octagon has perimeter 56. What is the length of one side?",
+  "explanation": "A regular octagon has 8 equal sides, so one side is $56\\div8=7$.",
+  "estSeconds": 40,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q3-02-polygons-14",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 2,
+  "stem": "Four interior angles of a hexagon measure $110^\\circ$, $125^\\circ$, $140^\\circ$ and $95^\\circ$. The other two interior angles are equal. What is the measure of each of them?",
+  "explanation": "A hexagon's interior angles add up to $(6-2)\\cdot180=720^\\circ$. The four known angles total $470^\\circ$, leaving $250^\\circ$ for the other two, so each is $250\\div2=125^\\circ$.",
+  "choiceExplanations": {
+   "A": "This uses the pentagon sum $540$: $(540-470)\\div2=35$. A hexagon has $(6-2)\\cdot180=720$.",
+   "B": "$110^\\circ$ just repeats one of the given angles; it does not come from the angle total.",
+   "D": "$250^\\circ$ is the total of the two remaining angles; each is half of it.",
+   "E": "This uses $6\\cdot180=1080$ instead of $(6-2)\\cdot180$, then halves $1080-470$."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$35^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$110^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$125^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$250^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$305^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-02-polygons-15",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A regular pentagon has 5 equal sides: $60\\div5=12$. A regular hexagon has 6: $60\\div6=10$. Since $12>10$, Quantity A is greater.",
+  "estSeconds": 50,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The side length of a regular pentagon with perimeter 60",
+   "quantityB": "The side length of a regular hexagon with perimeter 60"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-02-polygons-16",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 3,
+  "stem": "For which of the following numbers of sides $n$ is the sum of the interior angles of a polygon with $n$ sides a multiple of $360^\\circ$? Indicate all such values of $n$.",
+  "explanation": "The sum is $(n-2)\\cdot180$. This is a multiple of $360=2\\cdot180$ exactly when $n-2$ is even, that is, when $n$ is even. So $n=4$ ($360$), $n=6$ ($720$) and $n=8$ ($1080$) work.",
+  "choiceExplanations": {
+   "C": "For $n=7$ the sum is $5\\cdot180=900$, which is not a multiple of $360$.",
+   "E": "For $n=9$ the sum is $7\\cdot180=1260$, which is not a multiple of $360$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "7"
+    },
+    {
+     "id": "D",
+     "text": "8"
+    },
+    {
+     "id": "E",
+     "text": "9"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-02-polygons-17",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 3,
+  "stem": "The interior angles of a pentagon are in the ratio $2:3:4:5:6$. What is the measure of the largest interior angle?",
+  "explanation": "The angles add up to $(5-2)\\cdot180=540^\\circ$. The ratio has $2+3+4+5+6=20$ parts, so one part is $540\\div20=27^\\circ$. The largest angle is $6\\cdot27=162^\\circ$.",
+  "choiceExplanations": {
+   "A": "$108^\\circ$ is the angle of a regular pentagon; these angles are not equal.",
+   "B": "$126^\\circ$ is $4$ parts of $31.5$, from dividing $540$ by $17$; the ratio terms add to $20$.",
+   "C": "$135^\\circ$ is $5$ parts of $27$, the second largest angle.",
+   "E": "$180^\\circ$ would be a straight angle; it comes from dividing $540$ by $18$ instead of $20$, which gives $30$ per part."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$108^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$126^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$135^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$162^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$180^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-02-polygons-18",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 4,
+  "stem": "In the figure, regular pentagon $ABCDE$ and regular hexagon $ABXYZJ$ share side $AB$ and lie on opposite sides of it. What is the measure, in degrees, of angle $EAJ$, the angle at $A$ that lies outside both polygons?",
+  "explanation": "A regular pentagon has interior angles of $\\frac{(5-2)\\cdot180}{5}=108^\\circ$ and a regular hexagon has $\\frac{(6-2)\\cdot180}{6}=120^\\circ$. The angles around $A$ add up to $360^\\circ$, so angle $EAJ=360-108-120=132^\\circ$.",
+  "estSeconds": 110,
+  "skills": [
+   "polygons"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 270 250\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"105,118 155,118 170.5,165.6 130,194.9 89.5,165.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"105,118 155,118 180,74.7 155,31.4 105,31.4 80,74.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"97\" y=\"122\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"163\" y=\"122\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"81.5\" y=\"171.6\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"72\" y=\"72.7\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">J</text></svg>",
+    "alt": "A regular pentagon ABCDE hanging below a horizontal side AB and a regular hexagon standing above the same side AB. Point E is the vertex of the pentagon next to A and point J is the vertex of the hexagon next to A, both on the left. The angle EAJ outside the two polygons is the one to find."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 132
+  }
+ },
+ {
+  "id": "q3-02-polygons-19",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 4,
+  "stem": "In regular pentagon $ABCDE$ shown, what is the measure, in degrees, of angle $CAE$?",
+  "explanation": "Each interior angle of a regular pentagon is $108^\\circ$. Triangle $ABC$ is isosceles with $AB=BC$ and apex angle $108^\\circ$, so angle $BAC=\\frac{180-108}{2}=36^\\circ$. Then angle $CAE=108-36=72^\\circ$.",
+  "estSeconds": 110,
+  "skills": [
+   "polygons"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"130,25 206.1,80.3 177,169.7 83,169.7 53.9,80.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"25\" x2=\"177\" y2=\"169.7\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"130\" y=\"17\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"214.1\" y=\"84.3\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"183\" y=\"183.7\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"77\" y=\"183.7\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"45.9\" y=\"84.3\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text></svg>",
+    "alt": "A regular pentagon ABCDE with vertex A at the top and the vertices B, C, D, E following clockwise. A dashed diagonal joins A to C."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 72
+  }
+ },
+ {
+  "id": "q3-02-polygons-20",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 5,
+  "stem": "Let $P$ be a regular polygon with $n$ sides and $Q$ a regular polygon with $n-2$ sides, where $n>4$. Each interior angle of $P$ is $6^\\circ$ larger than each interior angle of $Q$. What is the value of $n$?",
+  "explanation": "Each angle of a regular $n$-gon is $180-\\frac{360}{n}$. The difference is $\\left(180-\\frac{360}{n}\\right)-\\left(180-\\frac{360}{n-2}\\right)=\\frac{360}{n-2}-\\frac{360}{n}=\\frac{720}{n(n-2)}$. Setting this equal to $6$ gives $n(n-2)=120$, so $n^2-2n-120=0$, $(n-12)(n+10)=0$ and $n=12$ (a count of sides is positive). Check: $150^\\circ-144^\\circ=6^\\circ$.",
+  "estSeconds": 150,
+  "skills": [
+   "polygons"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
  }
 ]

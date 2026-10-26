@@ -103,7 +103,7 @@ function BlankedText({ text, fills, multi }: { text: string; fills: (string | nu
           <span
             key={i}
             className={`mx-1 inline-block min-w-[6.5rem] border-b-2 px-2 text-center align-baseline ${
-              filled ? 'border-accent font-semibold text-accent' : 'border-line-strong text-faint'
+              filled ? 'border-accent font-semibold text-accent-ink' : 'border-line-strong text-faint'
             }`}
           >
             {filled ? <RichText inline>{filled}</RichText> : multi ? `(${ROMAN[idx]})` : ' '}

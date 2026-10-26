@@ -53,7 +53,7 @@ function Check({ q, n }: { q: ClientQuestion; n: number }) {
       ) : (
         <div className="mt-4 space-y-3">
           <Feedback q={q} grade={grade} />
-          <button type="button" onClick={() => { setGrade(null); setSel(emptySelection(q)); }} className="text-sm font-semibold text-accent underline-offset-2 hover:underline">
+          <button type="button" onClick={() => { setGrade(null); setSel(emptySelection(q)); }} className="text-sm font-semibold text-accent-ink underline-offset-2 hover:underline">
             Try again
           </button>
         </div>

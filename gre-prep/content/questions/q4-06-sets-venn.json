@@ -501,5 +501,292 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "q4-06-sets-venn-13",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 1,
+  "stem": "Set $A$ is $\\{1, 3, 5, 7, 9\\}$ and set $B$ is $\\{5, 7, 9, 11\\}$. How many elements are in the intersection of $A$ and $B$?",
+  "explanation": "The elements in both sets are 5, 7 and 9, so the intersection has 3 elements.",
+  "estSeconds": 45,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-14",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "How many of the students surveyed belong to the chess club but not the drama club?",
+  "explanation": "The chess circle holds 84 students in all, and 26 of them are also in the drama circle. Chess only: $84 - 26 = 58$.",
+  "choiceExplanations": {
+   "A": "26 students belong to both clubs.",
+   "B": "40 is the number of drama-only students ($66 - 26$).",
+   "D": "84 includes the 26 students who are also in the drama club.",
+   "E": "124 students belong to at least one of the clubs."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$26$"
+    },
+    {
+     "id": "B",
+     "text": "$40$"
+    },
+    {
+     "id": "C",
+     "text": "$58$"
+    },
+    {
+     "id": "D",
+     "text": "$84$"
+    },
+    {
+     "id": "E",
+     "text": "$124$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-15",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Disjoint sets have no common element, so $|S \\cup T| = |S| + |T| = 17 + 12 = 29$, which is greater than 28.",
+  "estSeconds": 60,
+  "skills": [
+   "sets",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of elements in $S \\cup T$",
+   "quantityB": "28",
+   "common": "Sets $S$ and $T$ are disjoint, $|S| = 17$ and $|T| = 12$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-16",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "What percent of the students surveyed belong to neither club?",
+  "explanation": "At least one club: $84 + 66 - 26 = 124$. Neither: $200 - 124 = 76$. $\\frac{76}{200} = 0.38 = 38\\%$.",
+  "estSeconds": 80,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 38
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-17",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "Let $S$ be the set of multiples of 3 from 1 to 30, and let $T$ be the set of even numbers from 1 to 30. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$|S| = 10$, $|T| = 15$, and the common elements are the multiples of 6: 6, 12, 18, 24, 30, so $|S \\cap T| = 5$. Union: $10 + 15 - 5 = 20$. Exactly one set: $(10 - 5) + (15 - 5) = 15$. Neither: $30 - 20 = 10$.",
+  "choiceExplanations": {
+   "B": "$|S \\cup T| = 10 + 15 - 5 = 20$, not 25; 25 adds the overlap twice.",
+   "E": "They share the multiples of 6, such as 6 and 12."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "sets",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$S$ and $T$ have 5 elements in common."
+    },
+    {
+     "id": "B",
+     "text": "The union of $S$ and $T$ has 25 elements."
+    },
+    {
+     "id": "C",
+     "text": "Exactly 15 of the numbers from 1 to 30 are in exactly one of the two sets."
+    },
+    {
+     "id": "D",
+     "text": "Exactly 10 of the numbers from 1 to 30 are in neither set."
+    },
+    {
+     "id": "E",
+     "text": "$S$ and $T$ are disjoint."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-18",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "In a class of 60 students, 36 play soccer and 30 play tennis. The number of students who play both sports is 3 times the number of students who play neither sport. How many students play both sports?",
+  "explanation": "Let $n$ be the number who play neither, so $3n$ play both. At least one sport: $36 + 30 - 3n = 60 - n$. So $66 - 3n = 60 - n$, which gives $2n = 6$ and $n = 3$. Both: $3n = 9$. Check: only soccer 27, only tennis 21, both 9, neither 3, total 60.",
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-19",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "Of the students surveyed who belong to at least one of the two clubs, what fraction belong to both clubs?",
+  "explanation": "Students in at least one club: $84 + 66 - 26 = 124$. Of these, 26 belong to both clubs, so the fraction is $\\frac{26}{124} = \\frac{13}{62}$.",
+  "estSeconds": 100,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.20967741935483872,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 62
+   }
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-20",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 5,
+  "stem": "In a survey of 100 people, 62 like tea and 71 like coffee. What is the least possible number of people who like exactly one of the two drinks?",
+  "explanation": "Exactly one $= |X| + |Y| - 2|X \\cap Y| = 133 - 2\\,|X \\cap Y|$, so make the overlap as large as possible. It cannot exceed the smaller group, 62. With 62 people liking both, everyone who likes tea also likes coffee: exactly one $= 133 - 124 = 9$ (all of them like only coffee). This is possible: 71 people like at least one drink and 29 like neither.",
+  "estSeconds": 140,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
  }
 ]

@@ -577,5 +577,361 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-10-random-variables-13",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 1,
+  "stem": "A random variable $X$ takes the values 1, 2, 3 and 4 with probabilities 0.1, 0.3, 0.4 and 0.2, respectively. What is $P(X \\le 2)$?",
+  "explanation": "$P(X \\le 2) = P(1) + P(2) = 0.1 + 0.3 = 0.4$.",
+  "estSeconds": 50,
+  "skills": [
+   "probability-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.4
+  }
+ },
+ {
+  "id": "q4-10-random-variables-14",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 2,
+  "stem": "What is $P(N \\ge 4)$?",
+  "explanation": "$P(N \\ge 4) = P(4) + P(5) = 0.20 + 0.10 = 0.30$.",
+  "estSeconds": 50,
+  "skills": [
+   "probability-distribution"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Probability distribution of the random variable N",
+   "data": {
+    "columns": [
+     "n",
+     "P(N = n)"
+    ],
+    "rows": [
+     [
+      1,
+      "0.15"
+     ],
+     [
+      2,
+      "0.25"
+     ],
+     [
+      3,
+      "0.30"
+     ],
+     [
+      4,
+      "0.20"
+     ],
+     [
+      5,
+      "0.10"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.3
+  }
+ },
+ {
+  "id": "q4-10-random-variables-15",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$E(X) = 2(0.5) + 4(0.3) + 6(0.2) = 1 + 1.2 + 1.2 = 3.4$. The plain average of the three values is 4, but the larger values are less likely, so the expected value is less than 4. Quantity B is greater.",
+  "estSeconds": 80,
+  "skills": [
+   "expected-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The expected value of $X$",
+   "quantityB": "4",
+   "common": "The random variable $X$ takes the values 2, 4 and 6 with probabilities 0.5, 0.3 and 0.2, respectively."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q4-10-random-variables-16",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 3,
+  "stem": "What is the mean (expected value) of $N$?",
+  "explanation": "Mean $= 1(0.15) + 2(0.25) + 3(0.30) + 4(0.20) + 5(0.10) = 0.15 + 0.50 + 0.90 + 0.80 + 0.50 = 2.85$.",
+  "estSeconds": 90,
+  "skills": [
+   "expected-value"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Probability distribution of the random variable N",
+   "data": {
+    "columns": [
+     "n",
+     "P(N = n)"
+    ],
+    "rows": [
+     [
+      1,
+      "0.15"
+     ],
+     [
+      2,
+      "0.25"
+     ],
+     [
+      3,
+      "0.30"
+     ],
+     [
+      4,
+      "0.20"
+     ],
+     [
+      5,
+      "0.10"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 2.85
+  }
+ },
+ {
+  "id": "q4-10-random-variables-17",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 3,
+  "stem": "What is the median of $N$?",
+  "explanation": "Running totals from the least value: 0.15, 0.40, 0.70. The total first passes 0.5 at $n = 3$, so the median is 3.",
+  "choiceExplanations": {
+   "A": "The running total at 2 is only $0.15 + 0.25 = 0.40$, which has not yet reached 0.5.",
+   "B": "2.85 is the mean. The median is a value of $N$ found from the running total.",
+   "D": "The running total passes 0.5 at 3 (it reaches 0.70) without equaling 0.5, so no midpoint is needed.",
+   "E": "4 is the value after the running total has already passed 0.5."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "median",
+   "probability-distribution"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Probability distribution of the random variable N",
+   "data": {
+    "columns": [
+     "n",
+     "P(N = n)"
+    ],
+    "rows": [
+     [
+      1,
+      "0.15"
+     ],
+     [
+      2,
+      "0.25"
+     ],
+     [
+      3,
+      "0.30"
+     ],
+     [
+      4,
+      "0.20"
+     ],
+     [
+      5,
+      "0.10"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$2.85$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$3.5$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-10-random-variables-18",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 4,
+  "stem": "A game costs \\$3 to play. A player wins \\$10 with probability 0.25, wins \\$4 with probability 0.35, and wins nothing otherwise. What is the expected net gain per play, in dollars? (A loss would be negative.)",
+  "explanation": "Expected winnings $= 10(0.25) + 4(0.35) + 0(0.40) = 2.5 + 1.4 = 3.9$ dollars. Subtract the cost: $3.9 - 3 = 0.9$ dollars.",
+  "estSeconds": 100,
+  "skills": [
+   "expected-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.9
+  }
+ },
+ {
+  "id": "q4-10-random-variables-19",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 4,
+  "stem": "What is the probability that $N$ is within 1 of its mean, that is, that the distance between $N$ and the mean of $N$ is less than 1? Give your answer as a decimal.",
+  "explanation": "The mean is 2.85, so we need values strictly between 1.85 and 3.85. The possible values in that range are 2 and 3. $P = 0.25 + 0.30 = 0.55$.",
+  "estSeconds": 110,
+  "skills": [
+   "expected-value",
+   "probability-distribution"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Probability distribution of the random variable N",
+   "data": {
+    "columns": [
+     "n",
+     "P(N = n)"
+    ],
+    "rows": [
+     [
+      1,
+      "0.15"
+     ],
+     [
+      2,
+      "0.25"
+     ],
+     [
+      3,
+      "0.30"
+     ],
+     [
+      4,
+      "0.20"
+     ],
+     [
+      5,
+      "0.10"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.55
+  }
+ },
+ {
+  "id": "q4-10-random-variables-20",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 5,
+  "stem": "A random variable $X$ takes the values 1, 2, 3 and 4. $P(X = 1) = 0.1$, $P(X = 4) = 0.3$, and the expected value of $X$ is 2.9. What is $P(X \\le 2)$?",
+  "explanation": "Let $P(2) = p$ and $P(3) = q$. Probabilities add to 1: $p + q = 1 - 0.1 - 0.3 = 0.6$. Expected value: $1(0.1) + 2p + 3q + 4(0.3) = 2.9$, so $2p + 3q = 1.6$. Substitute $p = 0.6 - q$: $1.2 - 2q + 3q = 1.6$, so $q = 0.4$ and $p = 0.2$. Then $P(X \\le 2) = 0.1 + 0.2 = 0.3$.",
+  "estSeconds": 150,
+  "skills": [
+   "expected-value",
+   "probability-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.3
+  }
  }
 ]

@@ -15,7 +15,7 @@ export default function MorePage() {
         {items.map(({ href, label, icon: Icon }) => (
           <li key={href}>
             <Link href={href} className="flex min-h-[56px] items-center gap-3 px-4 hover:bg-surface-2">
-              <Icon size={20} className="text-accent" aria-hidden />
+              <Icon size={20} className="text-accent-ink" aria-hidden />
               <span className="flex-1 font-semibold">{label}</span>
               <ChevronRight size={18} className="text-faint" aria-hidden />
             </Link>

@@ -55,7 +55,7 @@ export function MockHub() {
           <section key={kind} className={card} aria-labelledby={kind}>
             <div className="flex items-baseline justify-between gap-3">
               <h2 id={kind} className="text-lg font-bold">Mock test {i + 1}</h2>
-              {v && q && <span className="text-sm font-bold text-accent">Total ≈ {v.mid + q.mid}</span>}
+              {v && q && <span className="text-sm font-bold text-accent-ink">Total ≈ {v.mid + q.mid}</span>}
             </div>
             <div className="mt-1 divide-y divide-line">
               <SectionRow kind={kind} section="verbal" rec={rec} />

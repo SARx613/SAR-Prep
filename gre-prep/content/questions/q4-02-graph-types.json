@@ -857,5 +857,541 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-02-graph-types-13",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 1,
+  "stem": "A circle graph represents 720 students. One sector has a central angle of $60^\\circ$. How many students does that sector represent?",
+  "explanation": "The sector is $\\frac{60}{360} = \\frac16$ of the circle, and $\\frac16 \\times 720 = 120$ students.",
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 120
+  }
+ },
+ {
+  "id": "q4-02-graph-types-14",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 2,
+  "stem": "How many of the parcels took at least 20 minutes but fewer than 40 minutes to deliver?",
+  "explanation": "The intervals 20 to 30 and 30 to 40 hold $26 + 19 = 45$ parcels.",
+  "choiceExplanations": {
+   "A": "19 is only the 30 to 40 interval.",
+   "B": "26 is only the 20 to 30 interval.",
+   "C": "40 is the number of parcels in the 10 to 30 range (14 + 26).",
+   "E": "59 adds the 10 to 20 interval (14 + 26 + 19)."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "histograms"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Delivery times of 80 parcels",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"50\" y=\"18\" font-size=\"12\">Number of parcels</text><line x1=\"50\" y1=\"215\" x2=\"500\" y2=\"215\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"215\" x2=\"50\" y2=\"30\" stroke=\"currentColor\"/><rect x=\"50\" y=\"182\" width=\"75\" height=\"33\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"87.5\" y=\"176\" text-anchor=\"middle\">6</text><rect x=\"125\" y=\"138\" width=\"75\" height=\"77\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"162.5\" y=\"132\" text-anchor=\"middle\">14</text><rect x=\"200\" y=\"72\" width=\"75\" height=\"143\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"237.5\" y=\"66\" text-anchor=\"middle\">26</text><rect x=\"275\" y=\"110.5\" width=\"75\" height=\"104.5\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"312.5\" y=\"104.5\" text-anchor=\"middle\">19</text><rect x=\"350\" y=\"160\" width=\"75\" height=\"55\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"387.5\" y=\"154\" text-anchor=\"middle\">10</text><rect x=\"425\" y=\"187.5\" width=\"75\" height=\"27.5\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"462.5\" y=\"181.5\" text-anchor=\"middle\">5</text><text x=\"50\" y=\"231\" text-anchor=\"middle\">0</text><text x=\"125\" y=\"231\" text-anchor=\"middle\">10</text><text x=\"200\" y=\"231\" text-anchor=\"middle\">20</text><text x=\"275\" y=\"231\" text-anchor=\"middle\">30</text><text x=\"350\" y=\"231\" text-anchor=\"middle\">40</text><text x=\"425\" y=\"231\" text-anchor=\"middle\">50</text><text x=\"500\" y=\"231\" text-anchor=\"middle\">60</text><text x=\"275.0\" y=\"255\" text-anchor=\"middle\">Delivery time (minutes)</text></svg>",
+    "alt": "Histogram of delivery times for 80 parcels. Intervals of width 10 minutes from 0 to 60 have 6, 14, 26, 19, 10 and 5 parcels respectively."
+   },
+   "notes": "Each interval includes its left endpoint but not its right endpoint."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$19$"
+    },
+    {
+     "id": "B",
+     "text": "$26$"
+    },
+    {
+     "id": "C",
+     "text": "$40$"
+    },
+    {
+     "id": "D",
+     "text": "$45$"
+    },
+    {
+     "id": "E",
+     "text": "$59$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-15",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 2,
+  "stem": "What is the measure, in degrees, of the central angle of the Wind sector?",
+  "explanation": "Central angle $=$ percent $\\times 360^\\circ = 0.18 \\times 360 = 64.8$ degrees.",
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Electricity generated in a region, by source",
+   "data": {
+    "slices": [
+     {
+      "label": "Gas",
+      "value": 38
+     },
+     {
+      "label": "Hydro",
+      "value": 24
+     },
+     {
+      "label": "Wind",
+      "value": 18
+     },
+     {
+      "label": "Solar",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ]
+   },
+   "notes": "Percent of total output. Total output: 2,500 gigawatt-hours."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "degrees"
+   }
+  },
+  "answer": {
+   "value": 64.8,
+   "tolerance": 0.05
+  }
+ },
+ {
+  "id": "q4-02-graph-types-16",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 3,
+  "stem": "According to the trend line, a student who practises 4 more hours is predicted to score how many more points?",
+  "explanation": "Slope $= \\frac{90 - 40}{20 - 0} = 2.5$ points per hour. For 4 more hours: $4 \\times 2.5 = 10$ points.",
+  "estSeconds": 80,
+  "skills": [
+   "scatterplots"
+  ],
+  "figure": {
+   "kind": "scatter",
+   "title": "Practice time and test score",
+   "data": {
+    "points": [
+     [
+      2,
+      46
+     ],
+     [
+      4,
+      51
+     ],
+     [
+      6,
+      54
+     ],
+     [
+      8,
+      66
+     ],
+     [
+      10,
+      64
+     ],
+     [
+      12,
+      71
+     ],
+     [
+      14,
+      69
+     ],
+     [
+      16,
+      81
+     ],
+     [
+      18,
+      84
+     ],
+     [
+      20,
+      91
+     ]
+    ],
+    "xLabel": "Practice (hours)",
+    "yLabel": "Test score (points)"
+   },
+   "notes": "The trend line passes through the points (0, 40) and (20, 90)."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 10
+  }
+ },
+ {
+  "id": "q4-02-graph-types-17",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 3,
+  "stem": "Between which two consecutive months was the increase in the number of subscribers greatest?",
+  "explanation": "Subtract consecutive values: $+12, +8, +4, +22, +12$. The greatest increase is April to May, 22 thousand.",
+  "choiceExplanations": {
+   "A": "The increase is 12 thousand, about half of the greatest.",
+   "B": "The increase is only 8 thousand.",
+   "C": "The increase is only 4 thousand, the smallest.",
+   "E": "The increase is 12 thousand."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "line-graphs"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Monthly subscribers",
+   "data": {
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Subscribers",
+      "values": [
+       20,
+       32,
+       40,
+       44,
+       66,
+       78
+      ]
+     }
+    ],
+    "xLabel": "Month",
+    "yLabel": "Subscribers (thousands)"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "January to February"
+    },
+    {
+     "id": "B",
+     "text": "February to March"
+    },
+    {
+     "id": "C",
+     "text": "March to April"
+    },
+    {
+     "id": "D",
+     "text": "April to May"
+    },
+    {
+     "id": "E",
+     "text": "May to June"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-18",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 4,
+  "stem": "If the Gas sector is left out, what percent of the remaining output comes from Hydro? Round your answer to the nearest tenth of a percent.",
+  "explanation": "Without Gas, the remaining output is $100\\% - 38\\% = 62\\%$ of the original. Hydro is 24% of the original, so its share is $\\frac{24}{62} \\approx 0.387$, or 38.7%.",
+  "estSeconds": 100,
+  "skills": [
+   "circle-graphs"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Electricity generated in a region, by source",
+   "data": {
+    "slices": [
+     {
+      "label": "Gas",
+      "value": 38
+     },
+     {
+      "label": "Hydro",
+      "value": 24
+     },
+     {
+      "label": "Wind",
+      "value": 18
+     },
+     {
+      "label": "Solar",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ]
+   },
+   "notes": "Percent of total output. Total output: 2,500 gigawatt-hours."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "%",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 38.7,
+   "tolerance": 0.05
+  }
+ },
+ {
+  "id": "q4-02-graph-types-19",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 4,
+  "stem": "Which of the following statements are supported by the scatterplot and its trend line? Indicate all such statements.",
+  "explanation": "Slope $= 2.5$ and the line starts at 40, so it predicts $40 + 2.5 \\times 16 = 80$ at 16 hours, and each hour adds 2.5 points. Ten hours add $10 \\times 2.5 = 25$ points, not 20. At 8 hours the line gives 60, below the plotted score of 66.",
+  "choiceExplanations": {
+   "C": "The slope is 2.5 points per hour, so 10 hours add 25 points, not 20.",
+   "D": "The trend line predicts 60 at 8 hours, and that student scored 66, which is higher."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "scatterplots"
+  ],
+  "figure": {
+   "kind": "scatter",
+   "title": "Practice time and test score",
+   "data": {
+    "points": [
+     [
+      2,
+      46
+     ],
+     [
+      4,
+      51
+     ],
+     [
+      6,
+      54
+     ],
+     [
+      8,
+      66
+     ],
+     [
+      10,
+      64
+     ],
+     [
+      12,
+      71
+     ],
+     [
+      14,
+      69
+     ],
+     [
+      16,
+      81
+     ],
+     [
+      18,
+      84
+     ],
+     [
+      20,
+      91
+     ]
+    ],
+    "xLabel": "Practice (hours)",
+    "yLabel": "Test score (points)"
+   },
+   "notes": "The trend line passes through the points (0, 40) and (20, 90)."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The trend line predicts a score of 80 for a student who practises 16 hours."
+    },
+    {
+     "id": "B",
+     "text": "According to the trend line, each additional hour of practice is predicted to add 2.5 points."
+    },
+    {
+     "id": "C",
+     "text": "According to the trend line, 10 more hours of practice are predicted to add 20 points."
+    },
+    {
+     "id": "D",
+     "text": "The student who practised 8 hours scored lower than the trend line predicts."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-20",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the line graph? Indicate all such statements.",
+  "explanation": "June to January: $78 > 3 \\times 20 = 60$. The monthly increases are 12, 8, 4, 22, 12, and 4 (March to April) is the smallest. The percent rises are $\\frac{12}{66} \\approx 18\\%$ (May to June) and $\\frac{12}{20} = 60\\%$ (January to February), so the third statement is false. Double March is $2 \\times 40 = 80 > 78$, so the last statement is false.",
+  "choiceExplanations": {
+   "C": "May to June is $\\frac{12}{66} \\approx 18\\%$, while January to February is $\\frac{12}{20} = 60\\%$; the increases are equal in size but the starting values differ.",
+   "D": "Double March is 80 thousand, and June is only 78 thousand."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "line-graphs",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Monthly subscribers",
+   "data": {
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Subscribers",
+      "values": [
+       20,
+       32,
+       40,
+       44,
+       66,
+       78
+      ]
+     }
+    ],
+    "xLabel": "Month",
+    "yLabel": "Subscribers (thousands)"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The number of subscribers in June was more than three times the number in January."
+    },
+    {
+     "id": "B",
+     "text": "The increase from March to April was the smallest of the monthly increases shown."
+    },
+    {
+     "id": "C",
+     "text": "The percent increase from May to June was greater than the percent increase from January to February."
+    },
+    {
+     "id": "D",
+     "text": "The number of subscribers in June was more than double the number in March."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
  }
 ]

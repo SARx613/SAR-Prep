@@ -509,5 +509,345 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q2-02-exponent-rules-13",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 1,
+  "stem": "For every nonzero $x$, which of the following is equal to $\\dfrac{x^9}{x^4}$?",
+  "explanation": "Same base, division: subtract the exponents. $\\dfrac{x^9}{x^4}=x^{9-4}=x^5$.",
+  "choiceExplanations": {
+   "A": "The exponents were subtracted in the wrong order.",
+   "B": "The exponents were divided; dividing powers of the same base subtracts the exponents.",
+   "D": "The exponents were added; that rule is for products.",
+   "E": "The exponents were multiplied; that rule is for a power of a power."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x^{-5}$"
+    },
+    {
+     "id": "B",
+     "text": "$x^{9/4}$"
+    },
+    {
+     "id": "C",
+     "text": "$x^{5}$"
+    },
+    {
+     "id": "D",
+     "text": "$x^{13}$"
+    },
+    {
+     "id": "E",
+     "text": "$x^{36}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-14",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 2,
+  "stem": "What is the value of $\\dfrac{2^{12}}{4^{3}\\cdot2^{4}}$?",
+  "explanation": "Write $4^3=(2^2)^3=2^6$. The denominator is $2^6\\cdot2^4=2^{10}$, so the fraction is $2^{12-10}=2^2=4$.",
+  "choiceExplanations": {
+   "B": "$4^3$ was written as $2^5$ (exponents added); it is $(2^2)^3=2^6$.",
+   "C": "$4^3$ was written as $2^4$; it is $(2^2)^3=2^6$.",
+   "D": "The factor $2^4$ in the denominator was dropped: $2^{12-6}=64$.",
+   "E": "The exponent $4$ was added instead of subtracted: $2^{12-6+4}=2^{10}$."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$8$"
+    },
+    {
+     "id": "C",
+     "text": "$16$"
+    },
+    {
+     "id": "D",
+     "text": "$64$"
+    },
+    {
+     "id": "E",
+     "text": "$1024$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-15",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x^{-2}=\\dfrac1{x^2}$. If $x=2$, A is $\\dfrac14$ and B is $4$ (B is greater). If $x=\\dfrac12$, A is $4$ and B is $\\dfrac14$ (A is greater). The relationship cannot be determined.",
+  "estSeconds": 70,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x^{-2}$",
+   "quantityB": "$x^{2}$",
+   "common": "$x$ is a nonzero real number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-16",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 3,
+  "stem": "For nonzero $a$ and $b$, which of the following is equal to $\\dfrac{(2a^3)^2\\,b^{-1}}{8a^4b^2}$?",
+  "explanation": "The numerator is $(2a^3)^2b^{-1}=4a^6b^{-1}$. Divide by $8a^4b^2$: the numbers give $\\dfrac48=\\dfrac12$, the $a$'s give $a^{6-4}=a^2$, the $b$'s give $b^{-1-2}=b^{-3}$. Result: $\\dfrac{a^2}{2b^3}$.",
+  "choiceExplanations": {
+   "A": "The $2$ in $(2a^3)^2$ was not squared: the numerator is $4a^6$, not $2a^6$.",
+   "C": "$b^{-1}$ over $b^2$ was combined as $b^{-1+2}=b$; dividing subtracts: $b^{-1-2}=b^{-3}$.",
+   "D": "The negative exponent was not turned into a denominator: $b^{-3}=\\dfrac1{b^3}$, not $b^3$.",
+   "E": "The powers of $a$ were added ($a^{6+4}$) instead of subtracted."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{a^2}{4b^3}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{a^2}{2b^3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{a^2b}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{a^2b^3}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{a^{10}}{2b^3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-17",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $\\dfrac18$? Indicate all such numbers.",
+  "explanation": "$2^{-3}=\\dfrac18$ and $\\left(\\dfrac12\\right)^3=\\dfrac18$. Also $4^{-2}\\cdot2=\\dfrac1{16}\\cdot2=\\dfrac18$.",
+  "choiceExplanations": {
+   "B": "$(-2)^{-3}=\\dfrac1{(-2)^3}=-\\dfrac18$: the sign is negative.",
+   "E": "Adding, not multiplying: $\\dfrac18+\\dfrac18=\\dfrac14$."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2^{-3}$"
+    },
+    {
+     "id": "B",
+     "text": "$(-2)^{-3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\left(\\dfrac12\\right)^{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$4^{-2}\\cdot2$"
+    },
+    {
+     "id": "E",
+     "text": "$2^{-3}+2^{-3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-18",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 4,
+  "stem": "If $\\dfrac{27^{x}}{9^{x+1}}=\\dfrac1{81}$, what is the value of $x$?",
+  "explanation": "Write everything with base $3$: $27^x=3^{3x}$, $9^{x+1}=3^{2x+2}$, $\\dfrac1{81}=3^{-4}$. The left side is $3^{3x-(2x+2)}=3^{x-2}$. So $x-2=-4$ and $x=-2$.",
+  "choiceExplanations": {
+   "A": "From $x-2=-4$ the sign was slipped: $x=-4-2$.",
+   "B": "The $+1$ in $9^{x+1}$ was lost, giving $3^{x}=3^{-4}$.",
+   "C": "$9^{x+1}$ was written as $3^{2x+1}$; the whole exponent $x+1$ must be doubled: $3^{2x+2}$.",
+   "E": "$\\dfrac1{81}$ was read as $3^{4}$ instead of $3^{-4}$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-6$"
+    },
+    {
+     "id": "B",
+     "text": "$-4$"
+    },
+    {
+     "id": "C",
+     "text": "$-3$"
+    },
+    {
+     "id": "D",
+     "text": "$-2$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-19",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 4,
+  "stem": "What is the value of $\\left(\\dfrac23\\right)^{-3}\\cdot\\left(\\dfrac49\\right)^{2}$? Enter your answer as a fraction.",
+  "explanation": "A negative exponent flips the fraction: $\\left(\\dfrac23\\right)^{-3}=\\left(\\dfrac32\\right)^3=\\dfrac{27}{8}$. Also $\\left(\\dfrac49\\right)^2=\\dfrac{16}{81}$. Multiply: $\\dfrac{27\\cdot16}{8\\cdot81}=\\dfrac23$. (Or write $\\dfrac49=\\left(\\dfrac23\\right)^2$ and add exponents: $\\left(\\dfrac23\\right)^{-3+4}$.)",
+  "estSeconds": 100,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.6666666666666666,
+   "fraction": {
+    "numerator": 2,
+    "denominator": 3
+   }
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-20",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 5,
+  "stem": "For every integer $n$, the expression $\\dfrac{4^{n+1}\\cdot6^{n}}{3^{n}\\cdot8^{n}}$ has the same value. What is that value?",
+  "explanation": "Write each base with primes: $4^{n+1}=2^{2n+2}$, $6^n=2^n3^n$, $8^n=2^{3n}$. The factors $3^n$ cancel, leaving $2^{(2n+2)+n-3n}=2^{2}=4$.",
+  "estSeconds": 130,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  }
  }
 ]

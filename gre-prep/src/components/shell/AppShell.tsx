@@ -33,7 +33,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 href={href}
                 aria-current={active ? 'page' : undefined}
                 className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold transition-colors ${
-                  active ? 'bg-accent-soft text-accent' : 'text-muted hover:bg-surface-2 hover:text-fg'
+                  active ? 'bg-accent-soft text-accent-ink' : 'text-muted hover:bg-surface-2 hover:text-fg'
                 }`}
               >
                 <Icon size={18} aria-hidden /> {label}
@@ -64,7 +64,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   href={href}
                   aria-current={active ? 'page' : undefined}
                   className={`flex min-h-[56px] flex-col items-center justify-center gap-0.5 text-[11px] font-semibold ${
-                    active ? 'text-accent' : 'text-muted'
+                    active ? 'text-accent-ink' : 'text-muted'
                   }`}
                 >
                   <Icon size={21} aria-hidden />

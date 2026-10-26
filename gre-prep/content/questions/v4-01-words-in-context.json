@@ -792,5 +792,3081 @@
     "F"
    ]
   }
+ },
+ {
+  "id": "v4-01-words-in-context-13",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "\"Correctly on the first attempt\" shows the instructions left nothing to guess. Explicit means stated directly and fully.",
+  "choiceExplanations": {
+   "1A": "Ambiguous means open to several readings; that would have produced mistakes, not flawless assembly.",
+   "1B": "Convoluted means twisted and overly complicated, which contradicts getting it right the first time.",
+   "1D": "Inchoate means just begun and undeveloped; half-formed instructions would not guarantee correct assembly.",
+   "1E": "Recondite means obscure and hard to grasp, the opposite of what the outcome suggests."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "vocabulary-in-context",
+   "explicit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the instructions were so {{1}}, every volunteer assembled the shelves correctly on the first attempt.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "ambiguous"
+      },
+      {
+       "id": "1B",
+       "text": "convoluted"
+      },
+      {
+       "id": "1C",
+       "text": "explicit"
+      },
+      {
+       "id": "1D",
+       "text": "inchoate"
+      },
+      {
+       "id": "1E",
+       "text": "recondite"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-14",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"An hour-long monologue\" shows he talks far too much. Garrulous and loquacious both mean very talkative.",
+  "choiceExplanations": {
+   "C": "Placid means calm; calm people need not talk for an hour.",
+   "D": "Stoic means unmoved by pain or pleasure and says nothing about talking.",
+   "E": "Taciturn means saying little, the opposite of a monologue.",
+   "F": "Wary means cautious, which does not explain a long monologue."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "vocabulary-in-context",
+   "garrulous",
+   "loquacious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The neighbor was so {{1}} that a quick hello over the fence always turned into an hour-long monologue about gardens, politics, and his knee.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "garrulous"
+    },
+    {
+     "id": "B",
+     "text": "loquacious"
+    },
+    {
+     "id": "C",
+     "text": "placid"
+    },
+    {
+     "id": "D",
+     "text": "stoic"
+    },
+    {
+     "id": "E",
+     "text": "taciturn"
+    },
+    {
+     "id": "F",
+     "text": "wary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-15",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "\"Soaked his parched fields\" requires a large amount of water. Copious means plentiful.",
+  "choiceExplanations": {
+   "1B": "Nominal means so small as to be trivial; a trivial rain could not soak the fields.",
+   "1C": "Scant means barely enough, which contradicts \"soaked\".",
+   "1D": "Slight means small and unimportant, which cannot soak parched fields.",
+   "1E": "Trifling means trivial; it clashes with the farmer's gratitude and the soaking."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "vocabulary-in-context",
+   "copious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "After weeks of drought, the farmer was grateful for the {{1}} rain that finally soaked his parched fields.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "copious"
+      },
+      {
+       "id": "1B",
+       "text": "nominal"
+      },
+      {
+       "id": "1C",
+       "text": "scant"
+      },
+      {
+       "id": "1D",
+       "text": "slight"
+      },
+      {
+       "id": "1E",
+       "text": "trifling"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-16",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Drained of all color\" is the clue. Pallid and wan both mean unnaturally pale.",
+  "choiceExplanations": {
+   "A": "Ardent means passionate, which is not a description of complexion.",
+   "B": "Hardy means robust; a face drained of color is not.",
+   "C": "Luminous means shining or radiant, which contradicts drained of color.",
+   "E": "Verdant means green with vegetation; it describes plants, not a pale face."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "vocabulary-in-context",
+   "pallid",
+   "wan"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "After weeks spent indoors with the flu, her face looked {{1}}, drained of all color.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ardent"
+    },
+    {
+     "id": "B",
+     "text": "hardy"
+    },
+    {
+     "id": "C",
+     "text": "luminous"
+    },
+    {
+     "id": "D",
+     "text": "pallid"
+    },
+    {
+     "id": "E",
+     "text": "verdant"
+    },
+    {
+     "id": "F",
+     "text": "wan"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-17",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "Putting nervous newcomers at ease points to a warm, approachable manner. Affable means friendly and pleasant.",
+  "choiceExplanations": {
+   "1A": "Acerbic means harsh or sour; it would unsettle nervous newcomers, not calm them.",
+   "1C": "Aloof means distant and reserved, which would not put anyone at ease.",
+   "1D": "Pugnacious means inclined to fight; the opposite of soothing.",
+   "1E": "Surly means bad-tempered and unfriendly, which contradicts the clue."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "vocabulary-in-context",
+   "affable"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Her {{1}} manner put even the most nervous newcomers at ease within minutes of their arrival.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "acerbic"
+      },
+      {
+       "id": "1B",
+       "text": "affable"
+      },
+      {
+       "id": "1C",
+       "text": "aloof"
+      },
+      {
+       "id": "1D",
+       "text": "pugnacious"
+      },
+      {
+       "id": "1E",
+       "text": "surly"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-18",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 1,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Dancing in the streets shows high-spirited joy. Ebullient and elated both mean extremely happy and excited.",
+  "choiceExplanations": {
+   "C": "Morose means gloomy, which contradicts celebrating a victory.",
+   "D": "Stolid means unemotional; fans who dance until dawn are not.",
+   "E": "Surly means bad-tempered, which does not fit a celebration.",
+   "F": "Wary means cautious, which does not fit joyful dancing."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "vocabulary-in-context",
+   "ebullient",
+   "elated"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "When their team won the championship, the fans were {{1}} and danced in the streets until dawn.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ebullient"
+    },
+    {
+     "id": "B",
+     "text": "elated"
+    },
+    {
+     "id": "C",
+     "text": "morose"
+    },
+    {
+     "id": "D",
+     "text": "stolid"
+    },
+    {
+     "id": "E",
+     "text": "surly"
+    },
+    {
+     "id": "F",
+     "text": "wary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-19",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "\"No wandering from the subject\" and \"although it ran long\" show the speech stayed on topic. Germane means relevant and on-topic.",
+  "choiceExplanations": {
+   "1A": "Analogous means comparable in some respects; it does not say the paragraphs bore directly on the bill.",
+   "1B": "Extraneous means irrelevant, the opposite of staying on the subject.",
+   "1D": "Peripheral means on the outer edge of the matter, which implies wandering from the subject.",
+   "1E": "Tangential means only slightly relevant, which contradicts \"no wandering\"."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "germane"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the senator's speech ran long, every paragraph was {{1}} to the bill under debate, with no wandering from the subject.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "analogous"
+      },
+      {
+       "id": "1B",
+       "text": "extraneous"
+      },
+      {
+       "id": "1C",
+       "text": "germane"
+      },
+      {
+       "id": "1D",
+       "text": "peripheral"
+      },
+      {
+       "id": "1E",
+       "text": "tangential"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-20",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "\"Initially ... as reckless\" calls for a word of criticism: disparaged (belittled). \"Saved money and was copied\" shows the plan proved prudent (wise and careful).",
+  "choiceExplanations": {
+   "1B": "Lionized means treated as a celebrity; no one lionizes a plan as reckless.",
+   "1C": "Venerated means revered, which cannot go with \"as reckless\".",
+   "2A": "Futile means useless; a plan that saved money was not useless.",
+   "2B": "Profligate means wasteful, the opposite of saving money."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "vocabulary-in-context",
+   "disparage",
+   "prudent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Initially {{1}} as reckless, the town's new budget plan proved {{2}}: it saved money and was soon copied elsewhere.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "disparaged"
+      },
+      {
+       "id": "1B",
+       "text": "lionized"
+      },
+      {
+       "id": "1C",
+       "text": "venerated"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "futile"
+      },
+      {
+       "id": "2B",
+       "text": "profligate"
+      },
+      {
+       "id": "2C",
+       "text": "prudent"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-21",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "A reprimand \"about so grave a matter\" shows the remarks were joking and disrespectful. Facetious and flippant both mean not serious enough.",
+  "choiceExplanations": {
+   "C": "Lucid means clear, which would not draw a reprimand.",
+   "D": "Penitent means remorseful; remarks of regret would not be reprimanded.",
+   "E": "Prosaic means dull; dullness is not what makes remarks improper on a grave matter.",
+   "F": "Reverent means deeply respectful, the opposite of what drew the reprimand."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "facetious",
+   "flippant"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The judge sharply reprimanded the lawyer for making {{1}} remarks about so grave a matter.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "facetious"
+    },
+    {
+     "id": "B",
+     "text": "flippant"
+    },
+    {
+     "id": "C",
+     "text": "lucid"
+    },
+    {
+     "id": "D",
+     "text": "penitent"
+    },
+    {
+     "id": "E",
+     "text": "prosaic"
+    },
+    {
+     "id": "F",
+     "text": "reverent"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-22",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "Enthusiasm fading until \"almost no one defended it\" needs a verb of decline. Abate means to diminish.",
+  "choiceExplanations": {
+   "1B": "Burgeon means to grow rapidly, the opposite of the decline described.",
+   "1C": "Coalesce means to come together; it does not describe fading enthusiasm.",
+   "1D": "Culminate means to reach a peak or final point, which does not fit a drop in support.",
+   "1E": "Proliferate means to increase rapidly, which contradicts the loss of defenders."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "abate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Public enthusiasm for the project began to {{1}} once the first cost overruns were reported, and by spring almost no one defended it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "abate"
+      },
+      {
+       "id": "1B",
+       "text": "burgeon"
+      },
+      {
+       "id": "1C",
+       "text": "coalesce"
+      },
+      {
+       "id": "1D",
+       "text": "culminate"
+      },
+      {
+       "id": "1E",
+       "text": "proliferate"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-23",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "\"Yet ... surprisingly\" signals contrast with the talks: he is wordy aloud (verbose) but brief on paper (terse, meaning concise and to the point).",
+  "choiceExplanations": {
+   "1A": "Lucid means clear; clear lectures would not lose the audience, and there would be no contrast.",
+   "1B": "Taciturn means saying little; that would not explain students tiring of him, and it removes the contrast with brief summaries.",
+   "2A": "Convoluted means tangled; it contradicts \"a single clear line\".",
+   "2C": "Turgid means swollen and pompous, the opposite of a single clear line."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "vocabulary-in-context",
+   "verbose",
+   "terse"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The lecturer was so {{1}} that students stopped listening after ten minutes, yet his written summaries are surprisingly {{2}}, each point made in a single clear line.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lucid"
+      },
+      {
+       "id": "1B",
+       "text": "taciturn"
+      },
+      {
+       "id": "1C",
+       "text": "verbose"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "convoluted"
+      },
+      {
+       "id": "2B",
+       "text": "terse"
+      },
+      {
+       "id": "2C",
+       "text": "turgid"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-24",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Volunteers working through the night aim to lessen suffering. Alleviate and mitigate both mean to lessen or make easier to bear.",
+  "choiceExplanations": {
+   "B": "Augment means to enlarge, which would increase the suffering.",
+   "C": "Disperse means to scatter, which is not what helpers do to suffering.",
+   "D": "Foment means to stir up, the opposite of helping.",
+   "F": "Undermine means to weaken in a secretive way, which does not describe relief work."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "alleviate",
+   "mitigate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Volunteers worked through the night to {{1}} the suffering of the flood victims.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "alleviate"
+    },
+    {
+     "id": "B",
+     "text": "augment"
+    },
+    {
+     "id": "C",
+     "text": "disperse"
+    },
+    {
+     "id": "D",
+     "text": "foment"
+    },
+    {
+     "id": "E",
+     "text": "mitigate"
+    },
+    {
+     "id": "F",
+     "text": "undermine"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-25",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "Jurors doubting \"even her most plausible claims\" shows a record of dishonesty. Mendacious means habitually lying.",
+  "choiceExplanations": {
+   "1A": "Candid means open and honest; a candid witness would earn trust, not hesitation.",
+   "1B": "Impartial means unbiased; it gives no reason to doubt plausible claims.",
+   "1C": "Ingenuous means sincere and unguarded, which would invite belief.",
+   "1E": "Penitent means remorseful; remorse does not explain why plausible claims would be doubted."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "vocabulary-in-context",
+   "mendacious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the witness was known to be {{1}}, the jury hesitated to accept even her most plausible claims.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "candid"
+      },
+      {
+       "id": "1B",
+       "text": "impartial"
+      },
+      {
+       "id": "1C",
+       "text": "ingenuous"
+      },
+      {
+       "id": "1D",
+       "text": "mendacious"
+      },
+      {
+       "id": "1E",
+       "text": "penitent"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1D"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-26",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Being barely coaxed out of chairs shows sluggishness. Languid and lethargic both mean drowsy and lacking energy.",
+  "choiceExplanations": {
+   "A": "Ardent means passionate and eager, the opposite of staying in chairs.",
+   "B": "Avid means enthusiastic, which contradicts the guests' reluctance to move.",
+   "E": "Plucky means spirited and brave, which does not fit sluggish guests.",
+   "F": "Vociferous means loudly vocal, which says nothing about being unwilling to move."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "languid",
+   "lethargic"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "After the enormous holiday meal, the guests grew {{1}} and could scarcely be coaxed out of their chairs.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ardent"
+    },
+    {
+     "id": "B",
+     "text": "avid"
+    },
+    {
+     "id": "C",
+     "text": "languid"
+    },
+    {
+     "id": "D",
+     "text": "lethargic"
+    },
+    {
+     "id": "E",
+     "text": "plucky"
+    },
+    {
+     "id": "F",
+     "text": "vociferous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-27",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Refused to budge\" is the clue. Intransigent and obstinate both mean stubbornly unwilling to change position.",
+  "choiceExplanations": {
+   "A": "Candid means frank, which does not explain refusing to budge.",
+   "B": "Compliant means yielding, the opposite of refusing to budge.",
+   "D": "Irresolute means wavering, which contradicts a firm refusal.",
+   "F": "Sanguine means cheerfully optimistic, which does not describe the refusal."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "intransigent",
+   "obstinate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Despite weeks of talks, the union remained {{1}} and refused to budge on wages.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "candid"
+    },
+    {
+     "id": "B",
+     "text": "compliant"
+    },
+    {
+     "id": "C",
+     "text": "intransigent"
+    },
+    {
+     "id": "D",
+     "text": "irresolute"
+    },
+    {
+     "id": "E",
+     "text": "obstinate"
+    },
+    {
+     "id": "F",
+     "text": "sanguine"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-28",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Advice drawn from decades of experience that prevents blunders is wise and shrewd. Perspicacious and sagacious both mean showing keen judgment.",
+  "choiceExplanations": {
+   "A": "Fatuous means foolish, which could not prevent blunders.",
+   "B": "Hapless means unlucky, which does not describe wise counsel.",
+   "C": "Naive means unsophisticated, which contradicts decades of experience.",
+   "D": "Perfidious means treacherous, which would not spare the firm from mistakes."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "vocabulary-in-context",
+   "perspicacious",
+   "sagacious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The elder partner's {{1}} counsel, drawn from decades of watching rivals rise and fall, spared the firm three costly blunders.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "fatuous"
+    },
+    {
+     "id": "B",
+     "text": "hapless"
+    },
+    {
+     "id": "C",
+     "text": "naive"
+    },
+    {
+     "id": "D",
+     "text": "perfidious"
+    },
+    {
+     "id": "E",
+     "text": "perspicacious"
+    },
+    {
+     "id": "F",
+     "text": "sagacious"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-29",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "A refund and apology are offered to calm someone angry. Assuage and mollify both mean to soothe.",
+  "choiceExplanations": {
+   "A": "Antagonize means to provoke hostility, the opposite of what a refund and apology aim at.",
+   "C": "Brandish means to wave about, which does not fit a calming gesture.",
+   "D": "Deflect means to turn aside; a refund and apology confront the complaint instead.",
+   "E": "Jettison means to throw overboard, which does not describe soothing a person."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "vocabulary-in-context",
+   "assuage",
+   "mollify"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "To {{1}} the furious customer, the manager offered a full refund and a sincere apology.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "antagonize"
+    },
+    {
+     "id": "B",
+     "text": "assuage"
+    },
+    {
+     "id": "C",
+     "text": "brandish"
+    },
+    {
+     "id": "D",
+     "text": "deflect"
+    },
+    {
+     "id": "E",
+     "text": "jettison"
+    },
+    {
+     "id": "F",
+     "text": "mollify"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-30",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 2,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Squandered most of it\" defines the heir's behavior. Prodigal and profligate both mean wastefully extravagant.",
+  "choiceExplanations": {
+   "A": "Ardent means passionate and does not describe wasting money.",
+   "B": "Dormant means inactive; it does not explain squandering.",
+   "C": "Frugal means thrifty, the opposite of squandering.",
+   "F": "Sanguine means optimistic; it does not describe how he treated the money."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "vocabulary-in-context",
+   "prodigal",
+   "profligate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The heir, {{1}} with his inheritance, had squandered most of it within a decade.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ardent"
+    },
+    {
+     "id": "B",
+     "text": "dormant"
+    },
+    {
+     "id": "C",
+     "text": "frugal"
+    },
+    {
+     "id": "D",
+     "text": "prodigal"
+    },
+    {
+     "id": "E",
+     "text": "profligate"
+    },
+    {
+     "id": "F",
+     "text": "sanguine"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-31",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "Refusing ornament \"only to impress\" shows a dislike of showiness. Ostentatious means pretentiously showy.",
+  "choiceExplanations": {
+   "1A": "Modest means unshowy; she would have no quarrel with modest things, so impatience makes no sense.",
+   "1C": "Pragmatic means practical; a designer who rejects pure decoration would welcome it.",
+   "1D": "Prosaic means dull and ordinary; refusing show-off ornament is not a complaint about dullness.",
+   "1E": "Rudimentary means basic; nothing in the sentence suggests she disliked basic things."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "vocabulary-in-context",
+   "ostentatious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Having little patience for anything {{1}}, the architect refused to add a single ornament whose only purpose was to impress visitors.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "modest"
+      },
+      {
+       "id": "1B",
+       "text": "ostentatious"
+      },
+      {
+       "id": "1C",
+       "text": "pragmatic"
+      },
+      {
+       "id": "1D",
+       "text": "prosaic"
+      },
+      {
+       "id": "1E",
+       "text": "rudimentary"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-32",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "\"Safe and formulaic\" defines the expected sequel as derivative (copying what already worked). An album that \"defied every category\" would confound (bewilder) critics.",
+  "choiceExplanations": {
+   "1B": "Eccentric means odd and unconventional, which contradicts \"safe and formulaic\".",
+   "1C": "Novel means new and original, the opposite of \"safe and formulaic\".",
+   "2B": "Corroborated means supported with evidence; an album cannot corroborate critics it defied.",
+   "2C": "Mollified means soothed; defying every prepared category would not calm them."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "vocabulary-in-context",
+   "derivative",
+   "confound"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Critics who had predicted a {{1}} sequel, safe and formulaic, were {{2}} by a quiet, experimental album that defied every category they had prepared.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "derivative"
+      },
+      {
+       "id": "1B",
+       "text": "eccentric"
+      },
+      {
+       "id": "1C",
+       "text": "novel"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "confounded"
+      },
+      {
+       "id": "2B",
+       "text": "corroborated"
+      },
+      {
+       "id": "2C",
+       "text": "mollified"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-33",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Greeting everyone warmly shows she was gregarious (sociable). Her commanding side was imperious (domineering), which is why she would upbraid (scold) challengers.",
+  "choiceExplanations": {
+   "1A": "Aloof means distant, which contradicts greeting everyone warmly.",
+   "1C": "Taciturn means saying little, which does not fit warm greetings.",
+   "2A": "Diffident means shy and unsure, which does not fit scolding critics.",
+   "2C": "Tractable means easily managed, the opposite of a domineering side.",
+   "3A": "Console means to comfort, which does not follow from a domineering side.",
+   "3B": "Lionize means to treat as a celebrity; she would not celebrate those who challenged her."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "vocabulary-in-context",
+   "gregarious",
+   "imperious",
+   "upbraid"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the new director was {{1}} in public, greeting every employee warmly, her {{2}} side emerged in meetings, where she would {{3}} anyone who questioned her plans.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "aloof"
+      },
+      {
+       "id": "1B",
+       "text": "gregarious"
+      },
+      {
+       "id": "1C",
+       "text": "taciturn"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "diffident"
+      },
+      {
+       "id": "2B",
+       "text": "imperious"
+      },
+      {
+       "id": "2C",
+       "text": "tractable"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "console"
+      },
+      {
+       "id": "3B",
+       "text": "lionize"
+      },
+      {
+       "id": "3C",
+       "text": "upbraid"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-34",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"At every desk and in every corridor\" means the rumors were everywhere. Pervasive and rife both mean widespread.",
+  "choiceExplanations": {
+   "A": "Insular means detached or isolated, the opposite of spread everywhere.",
+   "D": "Scant means barely enough, which contradicts rumors at every desk.",
+   "E": "Sporadic means occasional, which contradicts \"every desk and every corridor\".",
+   "F": "Tacit means unspoken, but these rumors were whispered."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "vocabulary-in-context",
+   "pervasive",
+   "rife"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Rumors of layoffs were {{1}} in the office, whispered at every desk and in every corridor.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "insular"
+    },
+    {
+     "id": "B",
+     "text": "pervasive"
+    },
+    {
+     "id": "C",
+     "text": "rife"
+    },
+    {
+     "id": "D",
+     "text": "scant"
+    },
+    {
+     "id": "E",
+     "text": "sporadic"
+    },
+    {
+     "id": "F",
+     "text": "tacit"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-35",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Hedging versus blunt absolutes makes the styles antithetical (directly opposed). The hedger equivocated, using evasive language.",
+  "choiceExplanations": {
+   "1A": "Analogous means comparable, the opposite of the contrast the sentence draws.",
+   "1C": "Complementary means completing one another; the sentence describes opposition, not partnership.",
+   "2A": "Concurred means agreed, which does not match \"hedging each answer\".",
+   "2B": "Digressed means went off-topic; hedging is evasion, not wandering."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "vocabulary-in-context",
+   "antithetical",
+   "equivocate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The two candidates' styles could hardly have been more {{1}}: one {{2}} on every question, hedging each answer, while the other spoke in blunt absolutes.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "analogous"
+      },
+      {
+       "id": "1B",
+       "text": "antithetical"
+      },
+      {
+       "id": "1C",
+       "text": "complementary"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "concurred"
+      },
+      {
+       "id": "2B",
+       "text": "digressed"
+      },
+      {
+       "id": "2C",
+       "text": "equivocated"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-36",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Promises made only to quiet critics, with no change intended, are fake. Bogus and phony both mean not genuine.",
+  "choiceExplanations": {
+   "B": "Candid means honest, the opposite of promises meant only for show.",
+   "C": "Feasible means workable, which says nothing about their being insincere.",
+   "D": "Imminent means about to happen, which contradicts \"changing nothing\".",
+   "E": "Laudable means worthy of praise, which clashes with their cynical purpose."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "bogus",
+   "phony"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The dictator's promises of reform were {{1}}, designed only to quiet critics abroad while changing nothing at home.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "bogus"
+    },
+    {
+     "id": "B",
+     "text": "candid"
+    },
+    {
+     "id": "C",
+     "text": "feasible"
+    },
+    {
+     "id": "D",
+     "text": "imminent"
+    },
+    {
+     "id": "E",
+     "text": "laudable"
+    },
+    {
+     "id": "F",
+     "text": "phony"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-37",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Only a few months into her first job\" shows she was a beginner. Neophyte and tyro both mean novice.",
+  "choiceExplanations": {
+   "A": "A martinet is a strict disciplinarian; it does not describe inexperience.",
+   "B": "A maverick is an independent dissenter, which says nothing about being new.",
+   "D": "A pedant fusses over trivial detail, which is not the same as being new.",
+   "E": "A savant is a learned person; a few months into a first job points to inexperience, not deep learning."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "neophyte",
+   "tyro"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her polished delivery gave no hint that she was a {{1}}, only a few months into her first teaching job.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "martinet"
+    },
+    {
+     "id": "B",
+     "text": "maverick"
+    },
+    {
+     "id": "C",
+     "text": "neophyte"
+    },
+    {
+     "id": "D",
+     "text": "pedant"
+    },
+    {
+     "id": "E",
+     "text": "savant"
+    },
+    {
+     "id": "F",
+     "text": "tyro"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-38",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "A week spent on one shade shows extreme care. Fastidious and meticulous both mean excessively attentive to detail.",
+  "choiceExplanations": {
+   "A": "Brazen means shamelessly bold, which has nothing to do with attention to detail.",
+   "B": "Desultory means unsystematic, the opposite of a week spent on one shade.",
+   "D": "Lax means careless, which contradicts the clue.",
+   "F": "Taciturn means saying little, which does not relate to attention to detail."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "fastidious",
+   "meticulous"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The restorer was so {{1}} about detail that she spent a full week matching a single shade of blue.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "brazen"
+    },
+    {
+     "id": "B",
+     "text": "desultory"
+    },
+    {
+     "id": "C",
+     "text": "fastidious"
+    },
+    {
+     "id": "D",
+     "text": "lax"
+    },
+    {
+     "id": "E",
+     "text": "meticulous"
+    },
+    {
+     "id": "F",
+     "text": "taciturn"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-39",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Silence taken as approval is approval that is understood without being stated. Implicit and tacit both mean unspoken.",
+  "choiceExplanations": {
+   "A": "Explicit means openly stated, the opposite of silence.",
+   "C": "Qualified means conditional. It could complete the sentence, but nothing in it hints at conditions, and no choice shares its meaning.",
+   "E": "Tenuous means flimsy, which does not describe the kind of approval inferred from silence.",
+   "F": "Vociferous means loudly outspoken, the opposite of silence."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "vocabulary-in-context",
+   "implicit",
+   "tacit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Though nobody had formally voted, the staff took the manager's silence as {{1}} approval.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "explicit"
+    },
+    {
+     "id": "B",
+     "text": "implicit"
+    },
+    {
+     "id": "C",
+     "text": "qualified"
+    },
+    {
+     "id": "D",
+     "text": "tacit"
+    },
+    {
+     "id": "E",
+     "text": "tenuous"
+    },
+    {
+     "id": "F",
+     "text": "vociferous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-40",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Speaking only when asked shows reluctance to speak up. Diffident and reticent both mean shy and reserved.",
+  "choiceExplanations": {
+   "A": "Bombastic means pompous and long-winded, the opposite of speaking only when asked.",
+   "B": "Brazen means shamelessly bold, which contradicts staying quiet.",
+   "D": "Officious means eager to meddle with unwanted advice, which contradicts the clue.",
+   "F": "Voluble means easily and fluently talkative, which contradicts the clue."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "diffident",
+   "reticent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Though brilliant in the lab, the young chemist was {{1}} at conferences, speaking only when someone asked her a direct question.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "bombastic"
+    },
+    {
+     "id": "B",
+     "text": "brazen"
+    },
+    {
+     "id": "C",
+     "text": "diffident"
+    },
+    {
+     "id": "D",
+     "text": "officious"
+    },
+    {
+     "id": "E",
+     "text": "reticent"
+    },
+    {
+     "id": "F",
+     "text": "voluble"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-41",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Many exceptions and cross-references defeating even lawyers describe tangled complexity. Convoluted and tortuous both mean twisting and overly complicated.",
+  "choiceExplanations": {
+   "B": "Innocuous means harmless; it does not describe confusing rules.",
+   "C": "Pellucid means transparently clear, the opposite of confusing.",
+   "D": "Peripheral means on the outer edge, which says nothing about complexity.",
+   "E": "Rudimentary means basic; rules with many exceptions are not basic."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "vocabulary-in-context",
+   "convoluted",
+   "tortuous"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The new regulations proved {{1}}: so many exceptions and cross-references that even experienced lawyers could not predict how they applied.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "convoluted"
+    },
+    {
+     "id": "B",
+     "text": "innocuous"
+    },
+    {
+     "id": "C",
+     "text": "pellucid"
+    },
+    {
+     "id": "D",
+     "text": "peripheral"
+    },
+    {
+     "id": "E",
+     "text": "rudimentary"
+    },
+    {
+     "id": "F",
+     "text": "tortuous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-42",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Where her brother acted on impulse\" sets up a contrast with careful weighing. Circumspect and wary both mean cautious.",
+  "choiceExplanations": {
+   "A": "Brazen means shamelessly bold, which resembles her brother's rashness, not her care.",
+   "C": "Complacent means smugly satisfied, which does not describe weighing every option.",
+   "D": "Impetuous means impulsive, which describes the brother, not Maya.",
+   "E": "Jocular means fond of joking, which has no link to weighing options."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "circumspect",
+   "wary"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Where her brother acted on impulse, Maya was {{1}}, weighing every option before she committed to anything.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "brazen"
+    },
+    {
+     "id": "B",
+     "text": "circumspect"
+    },
+    {
+     "id": "C",
+     "text": "complacent"
+    },
+    {
+     "id": "D",
+     "text": "impetuous"
+    },
+    {
+     "id": "E",
+     "text": "jocular"
+    },
+    {
+     "id": "F",
+     "text": "wary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-43",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Wit that spares no one and makes friends wince is harsh and biting. Acerbic and caustic both mean sharp and cutting.",
+  "choiceExplanations": {
+   "B": "Benign means kindly, which contradicts the wincing.",
+   "D": "Cloying means sickeningly sweet, which does not describe wit that stings.",
+   "E": "Ribald means crude or bawdy. It could complete the sentence (crude jokes can make friends wince), but no other choice shares its meaning, so it forms no pair.",
+   "F": "Stolid means unemotional, which does not describe a sharp wit."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "vocabulary-in-context",
+   "acerbic",
+   "caustic"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her {{1}} wit spared no one at the table, and even close friends winced at her remarks.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "acerbic"
+    },
+    {
+     "id": "B",
+     "text": "benign"
+    },
+    {
+     "id": "C",
+     "text": "caustic"
+    },
+    {
+     "id": "D",
+     "text": "cloying"
+    },
+    {
+     "id": "E",
+     "text": "ribald"
+    },
+    {
+     "id": "F",
+     "text": "stolid"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-44",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Far too many speakers\" signals an excess. Plethora and surfeit both mean an overabundance.",
+  "choiceExplanations": {
+   "A": "An anachronism is something out of its proper time, which does not describe a quantity.",
+   "B": "A dichotomy is a division into two parts, which does not describe too many speakers.",
+   "C": "A hierarchy is a ranked series, which does not express excess.",
+   "D": "Paucity means scarcity, the opposite of \"far too many\"."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "vocabulary-in-context",
+   "plethora",
+   "surfeit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The organizers had booked far too many speakers: a {{1}} of panelists crowded the schedule, and several sessions ran over.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "anachronism"
+    },
+    {
+     "id": "B",
+     "text": "dichotomy"
+    },
+    {
+     "id": "C",
+     "text": "hierarchy"
+    },
+    {
+     "id": "D",
+     "text": "paucity"
+    },
+    {
+     "id": "E",
+     "text": "plethora"
+    },
+    {
+     "id": "F",
+     "text": "surfeit"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-45",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Choose the word that best completes the sentence.",
+  "explanation": "\"Although\" sets the remarks against \"no room for compromise\", so they must have been soothing. Conciliatory means seeking to appease.",
+  "choiceExplanations": {
+   "1B": "Contumacious means stubbornly disobedient; it would match the hard demands, but \"although\" requires contrast.",
+   "1C": "Implacable means impossible to appease; it agrees with the demands instead of contrasting with them.",
+   "1D": "Intransigent means refusing to compromise, which repeats the demands and removes the contrast.",
+   "1E": "Truculent means belligerent, which again agrees with the harsh demands."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "vocabulary-in-context",
+   "conciliatory"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the envoy's opening remarks were notably {{1}}, her final demands left no room for compromise.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "conciliatory"
+      },
+      {
+       "id": "1B",
+       "text": "contumacious"
+      },
+      {
+       "id": "1C",
+       "text": "implacable"
+      },
+      {
+       "id": "1D",
+       "text": "intransigent"
+      },
+      {
+       "id": "1E",
+       "text": "truculent"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-46",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Zeal so extreme that it alienates allies is fanatical (excessively devoted). Crusading that \"undermines the very cause\" defeats its own purpose: counterproductive.",
+  "choiceExplanations": {
+   "1A": "Dispassionate means unemotional, which contradicts \"zeal\".",
+   "1C": "Indolent means lazy, which contradicts \"relentless crusading\".",
+   "2B": "Expedient means advantageous or convenient, the opposite of undermining the cause.",
+   "2C": "Inconsequential means unimportant; undermining the cause is a real consequence."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "vocabulary-in-context",
+   "fanatical",
+   "counterproductive"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The reformer's {{1}} zeal alienated even sympathetic colleagues, who feared that her relentless crusading would prove {{2}} and undermine the very cause she championed.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "dispassionate"
+      },
+      {
+       "id": "1B",
+       "text": "fanatical"
+      },
+      {
+       "id": "1C",
+       "text": "indolent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "counterproductive"
+      },
+      {
+       "id": "2B",
+       "text": "expedient"
+      },
+      {
+       "id": "2C",
+       "text": "inconsequential"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-47",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Wording that lets each side read the terms its own way is ambiguous; each government then construes (interprets) them to suit itself. Quarrels over what it required show the deal was precarious (unstable).",
+  "choiceExplanations": {
+   "1B": "Explicit means fully stated; precise wording would leave no room to interpret it as one pleased.",
+   "1C": "Unequivocal means leaving no doubt, which would prevent differing readings.",
+   "2A": "Abjure means to renounce; ambiguity invites interpretation, not renouncing the terms.",
+   "2C": "Enumerate means to list one by one, which does not fit \"as it pleased\".",
+   "3A": "Immutable means unchangeable; quarrels show the opposite.",
+   "3B": "Perennial means lasting through the years, which contradicts \"within a year\"."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "vocabulary-in-context",
+   "ambiguous",
+   "construe",
+   "precarious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The treaty's wording was deliberately {{1}}, allowing each government to {{2}} its terms as it pleased; the agreement therefore proved {{3}} within a year, as the parties quarreled over what it required.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "ambiguous"
+      },
+      {
+       "id": "1B",
+       "text": "explicit"
+      },
+      {
+       "id": "1C",
+       "text": "unequivocal"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "abjure"
+      },
+      {
+       "id": "2B",
+       "text": "construe"
+      },
+      {
+       "id": "2C",
+       "text": "enumerate"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "immutable"
+      },
+      {
+       "id": "3B",
+       "text": "perennial"
+      },
+      {
+       "id": "3C",
+       "text": "precarious"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-48",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Although\" contrasts a convincing surface with unverified foundations. Plausible and verisimilar both mean believable.",
+  "choiceExplanations": {
+   "A": "Arcane means known to few; being obscure gives no contrast with unverified figures.",
+   "C": "Specious means seeming true but actually false. It echoes \"believable\" only on the surface, and \"sounded specious\" would not set up the contrast that \"although\" demands.",
+   "D": "Timely means well-timed, which says nothing about believability.",
+   "E": "Trite means overused; an overused argument does not contrast with resting on unverified figures."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "vocabulary-in-context",
+   "plausible",
+   "verisimilar"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although her argument sounded {{1}}, it rested on figures that no one had verified.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "arcane"
+    },
+    {
+     "id": "B",
+     "text": "plausible"
+    },
+    {
+     "id": "C",
+     "text": "specious"
+    },
+    {
+     "id": "D",
+     "text": "timely"
+    },
+    {
+     "id": "E",
+     "text": "trite"
+    },
+    {
+     "id": "F",
+     "text": "verisimilar"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-49",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "\"Lavishing money\" defines munificent (very generous). Reusing envelopes and walking, in contrast, are spartan (frugal and austere) habits.",
+  "choiceExplanations": {
+   "1A": "Impecunious means penniless; a man lavishing money is not poor.",
+   "1C": "Stingy means reluctant to spend, which contradicts \"lavishing money\".",
+   "2A": "Lavish contradicts the thrift shown by reused envelopes; \"but\" requires contrast with public generosity.",
+   "2B": "Profligate means wasteful, the opposite of reusing envelopes."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "vocabulary-in-context",
+   "munificent",
+   "spartan"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The museum's founder was publicly {{1}}, lavishing money on grand gestures, but his private habits were surprisingly {{2}}: he reportedly reused envelopes and walked rather than hire a car.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "impecunious"
+      },
+      {
+       "id": "1B",
+       "text": "munificent"
+      },
+      {
+       "id": "1C",
+       "text": "stingy"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "lavish"
+      },
+      {
+       "id": "2B",
+       "text": "profligate"
+      },
+      {
+       "id": "2C",
+       "text": "spartan"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-50",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Lurching between improvised measures with no plan describes an incoherent response. Desultory and disjointed both mean lacking order or connection.",
+  "choiceExplanations": {
+   "A": "Assiduous means diligent and persistent, which does not describe a planless response.",
+   "C": "Dilatory means slow or procrastinating; the sentence describes lurching action, not delay.",
+   "E": "Exacting means demanding great precision, which contradicts the lack of a plan.",
+   "F": "Trenchant means forceful and incisive, which does not describe a disorderly response."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "vocabulary-in-context",
+   "desultory",
+   "disjointed"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The mayor's {{1}} response to the crisis, lurching from one improvised measure to the next with no overall plan, drew widespread criticism.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "assiduous"
+    },
+    {
+     "id": "B",
+     "text": "desultory"
+    },
+    {
+     "id": "C",
+     "text": "dilatory"
+    },
+    {
+     "id": "D",
+     "text": "disjointed"
+    },
+    {
+     "id": "E",
+     "text": "exacting"
+    },
+    {
+     "id": "F",
+     "text": "trenchant"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-51",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Poisoning fields for decades\" shows serious damage. Deleterious and pernicious both mean harmful.",
+  "choiceExplanations": {
+   "B": "Inert means inactive, which contradicts poisoning.",
+   "D": "Salubrious means healthful, the opposite of poisoning.",
+   "E": "Transitory means short-lived, which contradicts \"for decades\".",
+   "F": "Trifling means trivial, which understates the poisoning."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "vocabulary-in-context",
+   "deleterious",
+   "pernicious"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Regulators warned that the chemical's long-term effects on the soil would prove {{1}}, poisoning fields for decades.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "deleterious"
+    },
+    {
+     "id": "B",
+     "text": "inert"
+    },
+    {
+     "id": "C",
+     "text": "pernicious"
+    },
+    {
+     "id": "D",
+     "text": "salubrious"
+    },
+    {
+     "id": "E",
+     "text": "transitory"
+    },
+    {
+     "id": "F",
+     "text": "trifling"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-52",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Gestures that \"did little to hide\" an unchanged position were hollow and small. Nominal and token both mean existing in name only.",
+  "choiceExplanations": {
+   "A": "Cardinal means chief or most important, which does not fit gestures that did little.",
+   "B": "Conciliatory means seeking to appease. It could complete the sentence, but its meaning differs from the keys, and no other choice pairs with it.",
+   "C": "Covert means secret, which does not fit gestures meant to be seen.",
+   "D": "Jocular means joking, which does not suit a political gesture of goodwill."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "vocabulary-in-context",
+   "nominal",
+   "token"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The prime minister's {{1}} gestures of goodwill did little to hide the fact that her government planned no concessions.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "cardinal"
+    },
+    {
+     "id": "B",
+     "text": "conciliatory"
+    },
+    {
+     "id": "C",
+     "text": "covert"
+    },
+    {
+     "id": "D",
+     "text": "jocular"
+    },
+    {
+     "id": "E",
+     "text": "nominal"
+    },
+    {
+     "id": "F",
+     "text": "token"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-53",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Not merely to pause\" shows the aim was to prevent. Forestall and obviate both mean to prevent or make unnecessary.",
+  "choiceExplanations": {
+   "A": "Condone means to overlook or tolerate, which is not an aim of a peace treaty.",
+   "B": "Enumerate means to list one by one, which does not fit a peace aim.",
+   "C": "Foment means to stir up, the opposite of the treaty's purpose.",
+   "F": "Savor means to appreciate fully, which makes no sense with bloodshed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "vocabulary-in-context",
+   "forestall",
+   "obviate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The treaty was meant to {{1}} further bloodshed, not merely to pause the fighting.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "condone"
+    },
+    {
+     "id": "B",
+     "text": "enumerate"
+    },
+    {
+     "id": "C",
+     "text": "foment"
+    },
+    {
+     "id": "D",
+     "text": "forestall"
+    },
+    {
+     "id": "E",
+     "text": "obviate"
+    },
+    {
+     "id": "F",
+     "text": "savor"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-54",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 4,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "Declining every invitation for decades shows he rejected company. Abjure and eschew both mean to give up or shun.",
+  "choiceExplanations": {
+   "B": "Besiege means to crowd in on, which is the opposite of avoiding company.",
+   "C": "Cosset means to pamper, which does not suit declining invitations.",
+   "E": "Garner means to gather and store, the opposite of shunning.",
+   "F": "Savor means to appreciate fully, which contradicts declining every invitation."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "vocabulary-in-context",
+   "abjure",
+   "eschew"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The hermit seemed to {{1}} all company, declining every invitation for decades.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "abjure"
+    },
+    {
+     "id": "B",
+     "text": "besiege"
+    },
+    {
+     "id": "C",
+     "text": "cosset"
+    },
+    {
+     "id": "D",
+     "text": "eschew"
+    },
+    {
+     "id": "E",
+     "text": "garner"
+    },
+    {
+     "id": "F",
+     "text": "savor"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-55",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "\"Tentative, half-formed\" describes inchoate (just begun, undeveloped) work. A report \"argued rigorously\" is cogent (convincing and logical).",
+  "choiceExplanations": {
+   "1B": "Obdurate means stubborn; stubbornness is not shown by tentative, half-formed ideas.",
+   "1C": "Perennial means lasting through the years, which does not describe half-formed early work.",
+   "2B": "Fatuous means foolish, which contradicts \"argued rigorously\".",
+   "2C": "Specious means seemingly sound but false; rigorous argument rules that out."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "vocabulary-in-context",
+   "inchoate",
+   "cogent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the committee's early deliberations were {{1}}, producing only tentative, half-formed recommendations, its final report was surprisingly {{2}}, with each conclusion argued rigorously.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inchoate"
+      },
+      {
+       "id": "1B",
+       "text": "obdurate"
+      },
+      {
+       "id": "1C",
+       "text": "perennial"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "cogent"
+      },
+      {
+       "id": "2B",
+       "text": "fatuous"
+      },
+      {
+       "id": "2C",
+       "text": "specious"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-56",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Bracing for a tantrum shows the expectation was irascible (easily angered). Shrugging and smiling shows equanimity (composure), and an imperturbable (not easily upset) demeanor.",
+  "choiceExplanations": {
+   "1B": "Placid means calm; no one would be surprised or brace for a tantrum if calm were expected.",
+   "1C": "Stoic means indifferent to pain; it does not match a coach expecting a tantrum.",
+   "2A": "Asperity means harshness of temper, the opposite of shrugging and smiling.",
+   "2C": "Umbrage means offense or annoyance, which contradicts a smiling reaction.",
+   "3B": "Mercurial means quickly changing; her mood stayed steady.",
+   "3C": "Truculent means belligerent, which contradicts the calm described."
+  },
+  "estSeconds": 140,
+  "skills": [
+   "vocabulary-in-context",
+   "irascible",
+   "equanimity",
+   "imperturbable"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Observers assumed the young chess prodigy would be {{1}} in defeat, yet she took her first loss with {{2}}, shrugging and smiling; her {{3}} demeanor surprised even her coach, who had braced for a tantrum.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "irascible"
+      },
+      {
+       "id": "1B",
+       "text": "placid"
+      },
+      {
+       "id": "1C",
+       "text": "stoic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "asperity"
+      },
+      {
+       "id": "2B",
+       "text": "equanimity"
+      },
+      {
+       "id": "2C",
+       "text": "umbrage"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "imperturbable"
+      },
+      {
+       "id": "3B",
+       "text": "mercurial"
+      },
+      {
+       "id": "3C",
+       "text": "truculent"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-57",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "\"Patiently gathered over decades\" points to diligence. Assiduous and sedulous both mean persevering and diligent.",
+  "choiceExplanations": {
+   "B": "Desultory means unsystematic, which contradicts patient gathering.",
+   "C": "Fortuitous means by chance, which contradicts the patient gathering described.",
+   "D": "Furtive means secretive, which does not fit patient, open scholarship.",
+   "E": "Prodigious means extraordinarily large. It could complete the sentence (a vast pile of facts), but it does not match the diligence of the other keys, and no choice pairs with it."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "vocabulary-in-context",
+   "assiduous",
+   "sedulous"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her scholarship was marked less by brilliance than by {{1}} accumulation of facts, patiently gathered over decades.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "assiduous"
+    },
+    {
+     "id": "B",
+     "text": "desultory"
+    },
+    {
+     "id": "C",
+     "text": "fortuitous"
+    },
+    {
+     "id": "D",
+     "text": "furtive"
+    },
+    {
+     "id": "E",
+     "text": "prodigious"
+    },
+    {
+     "id": "F",
+     "text": "sedulous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-58",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "A manner that invites people to mistake \"courtesy for weakness\" is winsome (charming). Those who misjudged him learn he is implacable (impossible to appease, merciless).",
+  "choiceExplanations": {
+   "1A": "Pugnacious means eager to fight, which could not be mistaken for courtesy.",
+   "1B": "Surly means bad-tempered and unfriendly; no one would mistake that for courtesy.",
+   "2B": "Malleable means easily shaped, the opposite of ruthless.",
+   "2C": "Tractable means easily managed, which contradicts the lesson learned."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "vocabulary-in-context",
+   "winsome",
+   "implacable"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The tycoon's {{1}} manner masked a ruthless streak: those who mistook his courtesy for weakness soon learned how {{2}} he could be.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "pugnacious"
+      },
+      {
+       "id": "1B",
+       "text": "surly"
+      },
+      {
+       "id": "1C",
+       "text": "winsome"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "implacable"
+      },
+      {
+       "id": "2B",
+       "text": "malleable"
+      },
+      {
+       "id": "2C",
+       "text": "tractable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-59",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "For each blank, select the entry that best completes the text.",
+  "explanation": "Papers that anticipated later findings were prophetic, though dismissed as quixotic (impractical and idealistic). Neglecting them reflects a myopic (short-sighted) profession.",
+  "choiceExplanations": {
+   "1A": "Canonical means authoritative and accepted; papers dismissed would not be called that.",
+   "1B": "Cardinal means chief or most important, which cannot describe a dismissal.",
+   "2A": "Banal means unoriginal; papers that anticipated later findings were not.",
+   "2B": "Obsolete means out of date, the opposite of anticipating future findings.",
+   "3A": "Cosmopolitan means worldly and broad, which would not explain neglect.",
+   "3B": "Eclectic means drawing from many sources, which would not explain neglecting new work."
+  },
+  "estSeconds": 140,
+  "skills": [
+   "vocabulary-in-context",
+   "quixotic",
+   "prophetic",
+   "myopic"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though often dismissed as {{1}}, the economist's early papers were in fact {{2}}, anticipating by decades findings that later researchers would celebrate; their neglect says more about the profession's {{3}} outlook than about the work.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "canonical"
+      },
+      {
+       "id": "1B",
+       "text": "cardinal"
+      },
+      {
+       "id": "1C",
+       "text": "quixotic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "banal"
+      },
+      {
+       "id": "2B",
+       "text": "obsolete"
+      },
+      {
+       "id": "2C",
+       "text": "prophetic"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "cosmopolitan"
+      },
+      {
+       "id": "3B",
+       "text": "eclectic"
+      },
+      {
+       "id": "3C",
+       "text": "myopic"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2C",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-60",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 5,
+  "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "A witness stammering and jurors wincing show a merciless, relentless questioning. Inexorable and unsparing both mean unyielding and without mercy.",
+  "choiceExplanations": {
+   "A": "Benign means gentle, which contradicts the stammering and wincing.",
+   "C": "Meticulous means extremely careful. It could complete the sentence, but it does not convey relentlessness and has no partner among the choices.",
+   "D": "Perfunctory means done with minimal effort, which would not shake a witness.",
+   "E": "Tenuous means flimsy, which does not describe cross-examination that rattled a witness."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "vocabulary-in-context",
+   "inexorable",
+   "unsparing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The lawyer's {{1}} cross-examination left the witness stammering and the jurors wincing.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "benign"
+    },
+    {
+     "id": "B",
+     "text": "inexorable"
+    },
+    {
+     "id": "C",
+     "text": "meticulous"
+    },
+    {
+     "id": "D",
+     "text": "perfunctory"
+    },
+    {
+     "id": "E",
+     "text": "tenuous"
+    },
+    {
+     "id": "F",
+     "text": "unsparing"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
  }
 ]

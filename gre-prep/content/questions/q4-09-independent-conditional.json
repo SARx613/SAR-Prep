@@ -618,5 +618,323 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-09-independent-conditional-13",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 1,
+  "stem": "A bag contains 3 red marbles and 7 blue marbles. A marble is drawn at random, its color is noted, and it is put back in the bag. Then a second marble is drawn at random. What is the probability that both marbles are red? Give your answer as a decimal.",
+  "explanation": "The draws are independent because the first marble is replaced: $\\frac{3}{10} \\times \\frac{3}{10} = 0.3 \\times 0.3 = 0.09$.",
+  "estSeconds": 60,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.09
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-14",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "If one of the 200 employees is chosen at random, what is the probability that the employee walks to work? Give your answer as a decimal.",
+  "explanation": "The Walk column total is 40 out of 200 employees: $\\frac{40}{200} = 0.2$.",
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "probability"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.2
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-15",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "A bag contains 5 red marbles and 3 blue marbles. Two marbles are drawn at random without replacement. What is the probability that both marbles are red?",
+  "explanation": "First marble red: $\\frac58$. Given that, 4 red remain among 7 marbles: $\\frac47$. $\\frac58 \\times \\frac47 = \\frac{20}{56} = \\frac{5}{14}$.",
+  "estSeconds": 75,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.35714285714285715,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 14
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-16",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "If one of the employees who drive to work is chosen at random, what is the probability that the employee works in the office?",
+  "explanation": "Restrict to the Drive column: 100 employees, of whom 48 work in the office. $\\frac{48}{100} = \\frac{12}{25}$.",
+  "estSeconds": 75,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.48,
+   "fraction": {
+    "numerator": 12,
+    "denominator": 25
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-17",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "Three independent events occur with probabilities 0.5, 0.4 and 0.2. What is the probability that at least one of the three events occurs?",
+  "explanation": "At least one $= 1 - P(\\text{none})$. $P(\\text{none}) = 0.5 \\times 0.6 \\times 0.8 = 0.24$. So $P(\\text{at least one}) = 1 - 0.24 = 0.76$.",
+  "estSeconds": 90,
+  "skills": [
+   "independence",
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.76
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-18",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "If one of the employees who do not drive to work is chosen at random, what is the probability that the employee works in the office? Give your answer as a decimal.",
+  "explanation": "Employees who do not drive: $200 - 100 = 100$ (Public transport 60 plus Walk 40). Of these, the office employees number $42 + 30 = 72$. $\\frac{72}{100} = 0.72$.",
+  "estSeconds": 100,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.72
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-19",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "Events $E$ and $F$ are independent, with $P(E) = 0.5$ and $P(E \\text{ or } F) = 0.8$. What is $P(F)$? Give your answer as a decimal.",
+  "explanation": "Let $P(F) = p$. Independence gives $P(E \\text{ and } F) = 0.5p$. Then $0.8 = 0.5 + p - 0.5p$, so $0.3 = 0.5p$ and $p = 0.6$. (Check with the complement: $P(\\text{neither}) = 0.5 \\times 0.4 = 0.2$, so $P(E \\text{ or } F) = 0.8$.)",
+  "estSeconds": 110,
+  "skills": [
+   "independence",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.6
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-20",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 5,
+  "stem": "A box contains 5 red disks, 4 white disks and 3 blue disks. Three disks are drawn at random without replacement. What is the probability that the three disks are three different colors?",
+  "explanation": "One disk of each color can come out in $3! = 6$ different orders. For one order, say red, white, blue: $\\frac{5}{12} \\times \\frac{4}{11} \\times \\frac{3}{10} = \\frac{60}{1320}$. Multiply by 6: $\\frac{360}{1320} = \\frac{3}{11}$.",
+  "estSeconds": 150,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.2727272727272727,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 11
+   }
+  }
  }
 ]

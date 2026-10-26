@@ -506,5 +506,311 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "q2-07-inequalities-13",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 1,
+  "stem": "Which of the following describes all $x$ such that $3x+2\\ge14$?",
+  "explanation": "Subtract $2$: $3x\\ge12$. Divide by $3$ (positive, so the sign stays): $x\\ge4$.",
+  "choiceExplanations": {
+   "A": "The sign was reversed, but dividing by $3$ (positive) keeps its direction.",
+   "B": "The sign is \\\"or equal to\\\", so the endpoint $4$ is included.",
+   "D": "The $2$ was added instead of subtracted: $3x\\ge16$.",
+   "E": "The $2$ was subtracted but the division by $3$ was forgotten (and $14-2=12$ is $3x$, not $x$)."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x\\le4$"
+    },
+    {
+     "id": "B",
+     "text": "$x>4$"
+    },
+    {
+     "id": "C",
+     "text": "$x\\ge4$"
+    },
+    {
+     "id": "D",
+     "text": "$x\\ge\\dfrac{16}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$x\\ge12$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-07-inequalities-14",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 2,
+  "stem": "What is the least integer $x$ such that $-3x+8<-10$?",
+  "explanation": "Subtract $8$: $-3x<-18$. Divide by $-3$ and reverse the sign: $x>6$. The least integer greater than $6$ is $7$. (Check: $x=6$ gives $-10$, which is not less than $-10$.)",
+  "estSeconds": 65,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q2-07-inequalities-15",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A minus B is $2x-3x=-x$. Since $x<0$, $-x>0$, so A is greater. (Example: $x=-1$ gives $-2$ versus $-3$.)",
+  "estSeconds": 65,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$2x$",
+   "quantityB": "$3x$",
+   "common": "$x<0$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-07-inequalities-16",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 3,
+  "stem": "Which of the following describes all $x$ such that $\\dfrac{2-x}{3}\\le1$?",
+  "explanation": "Multiply by $3$ (positive): $2-x\\le3$. Subtract $2$: $-x\\le1$. Multiply by $-1$ and reverse the sign: $x\\ge-1$.",
+  "choiceExplanations": {
+   "A": "The sign was not reversed when dividing by $-1$.",
+   "C": "Both the sign error and an arithmetic error: $2-x\\le3$ gives $-x\\le1$, not $x\\le1$.",
+   "D": "The right side was not multiplied by $3$ ($2-x\\le1$).",
+   "E": "The right side was read as $-3$."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x\\le-1$"
+    },
+    {
+     "id": "B",
+     "text": "$x\\ge-1$"
+    },
+    {
+     "id": "C",
+     "text": "$x\\le1$"
+    },
+    {
+     "id": "D",
+     "text": "$x\\ge1$"
+    },
+    {
+     "id": "E",
+     "text": "$x\\ge5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-07-inequalities-17",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 3,
+  "stem": "For which of the following values of $x$ is $-2\\le4-3x<10$? Indicate all such values.",
+  "explanation": "Subtract $4$ from all three parts: $-6\\le-3x<6$. Divide all by $-3$ and reverse both signs: $2\\ge x>-2$, i.e. $-2<x\\le2$. So $0$ and $2$ work; $-2$ is excluded (strict).",
+  "choiceExplanations": {
+   "A": "$4-3(-2)=10$, and $10<10$ is false: this endpoint is excluded.",
+   "D": "$4-3\\cdot\\dfrac52=-\\dfrac72$, which is less than $-2$.",
+   "E": "$4-9=-5$, which is less than $-2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac52$"
+    },
+    {
+     "id": "E",
+     "text": "$3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-07-inequalities-18",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 4,
+  "stem": "How many integers $x$ satisfy $-5<\\dfrac{1-2x}{3}\\le4$?",
+  "explanation": "Multiply all parts by $3$: $-15<1-2x\\le12$. Subtract $1$: $-16<-2x\\le11$. Divide by $-2$ and reverse both signs: $8>x\\ge-\\dfrac{11}{2}$, i.e. $-5.5\\le x<8$. The integers are $-5,-4,\\dots,7$: that is $13$ integers.",
+  "estSeconds": 110,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q2-07-inequalities-19",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 4,
+  "stem": "If $-1\\le x<3$ and $y=4-3x$, which of the following describes all possible values of $y$?",
+  "explanation": "Multiply $-1\\le x<3$ by $-3$ and reverse the signs: $3\\ge-3x>-9$. Add $4$: $7\\ge y>-5$. So $-5<y\\le7$. Check: $x=-1$ gives $y=7$ (included); $x=3$ gives $y=-5$ (excluded).",
+  "choiceExplanations": {
+   "A": "The $4$ was forgotten: $-3x$ ranges over $-9<-3x\\le3$, but $y=4-3x$.",
+   "B": "The endpoint $x=-1$ is allowed, so $y=7$ is attained.",
+   "C": "The endpoint types were kept instead of swapped: dividing by a negative number reverses the sign, so $x=-1$ (included) gives the included endpoint $y=7$.",
+   "E": "The sign of the $3x$ term was ignored ($4+3x$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-9<y\\le3$"
+    },
+    {
+     "id": "B",
+     "text": "$-5<y<7$"
+    },
+    {
+     "id": "C",
+     "text": "$-5\\le y<7$"
+    },
+    {
+     "id": "D",
+     "text": "$-5<y\\le7$"
+    },
+    {
+     "id": "E",
+     "text": "$1\\le y<13$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-07-inequalities-20",
+  "lessonId": "q2-07-inequalities",
+  "difficulty": 5,
+  "stem": "What is the sum of all integers $x$ that satisfy both $\\dfrac{3-x}{2}>-1$ and $\\dfrac{2x-1}{3}\\ge-1$?",
+  "explanation": "First: $3-x>-2$, so $-x>-5$ and $x<5$. Second: $2x-1\\ge-3$, so $2x\\ge-2$ and $x\\ge-1$. Both must hold: $-1\\le x<5$. The integers are $-1,0,1,2,3,4$, whose sum is $9$.",
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
  }
 ]

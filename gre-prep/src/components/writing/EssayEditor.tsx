@@ -91,7 +91,7 @@ export function EssayEditor({ claim, instruction, aiEnabled }: Props) {
             ))}
           </div>
           {selfScore !== undefined && (
-            <p className="mt-5 rounded-[var(--radius)] bg-accent-soft px-4 py-3 text-lg font-bold text-accent">Your own estimate: {selfScore} / 6</p>
+            <p className="mt-5 rounded-[var(--radius)] bg-accent-soft px-4 py-3 text-lg font-bold text-accent-ink">Your own estimate: {selfScore} / 6</p>
           )}
           {aiEnabled && (
             <div className="mt-5">

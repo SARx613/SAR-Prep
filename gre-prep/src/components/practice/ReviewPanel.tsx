@@ -61,7 +61,7 @@ export function ReviewPanel({ titles }: { titles: Record<string, string> }) {
                 <span className="text-muted">{titles[a.lessonId] ?? a.lessonId}</span>
                 <span className="text-faint">d{a.difficulty}</span>
                 {reasons[a.qid] && <span className="rounded-full bg-surface-2 px-2 py-0.5 text-xs font-semibold text-muted">{REASON_LABEL[reasons[a.qid]]}</span>}
-                <Link href={`/exam/custom?ids=${a.qid}&mode=tutor`} className="ml-auto font-semibold text-accent hover:underline">Retry</Link>
+                <Link href={`/exam/custom?ids=${a.qid}&mode=tutor`} className="ml-auto font-semibold text-accent-ink hover:underline">Retry</Link>
               </li>
             ))}
           </ul>

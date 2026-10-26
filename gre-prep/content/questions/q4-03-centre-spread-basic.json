@@ -529,5 +529,342 @@
   "answer": {
    "choice": "D"
   }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-13",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 1,
+  "stem": "What is the range of the numbers 14, 3, 22, 9 and 17?",
+  "explanation": "Range $=$ greatest $-$ least $= 22 - 3 = 19$.",
+  "estSeconds": 45,
+  "skills": [
+   "range"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 19
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-14",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 2,
+  "stem": "What is the median number of goals scored per match?",
+  "explanation": "There are 25 matches, so the median is the 13th value when they are put in order. Running totals: 4 matches with 0 goals, 11 with at most 1, 19 with at most 2. The 13th value falls in the 2-goal group, so the median is 2.",
+  "estSeconds": 75,
+  "skills": [
+   "median"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Goals scored per match in 25 matches",
+   "data": {
+    "columns": [
+     "Goals",
+     "Number of matches"
+    ],
+    "rows": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      "Total",
+      25
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-15",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Mean $= \\frac{3 + 5 + 8 + 12 + 12}{5} = \\frac{40}{5} = 8$. The ordered list is 3, 5, 8, 12, 12, so the median is 8. The quantities are equal.",
+  "estSeconds": 70,
+  "skills": [
+   "mean",
+   "median"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The mean of the list",
+   "quantityB": "The median of the list",
+   "common": "The list is 3, 5, 8, 12, 12."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-16",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 3,
+  "stem": "The mean of six numbers is 20. When two of the numbers, 14 and 18, are removed, what is the mean of the remaining four numbers?",
+  "explanation": "Sum of six numbers $= 6 \\times 20 = 120$. Remove $14 + 18 = 32$: the remaining sum is 88. Mean of four numbers $= \\frac{88}{4} = 22$.",
+  "choiceExplanations": {
+   "A": "$\\frac{88}{6} \\approx 14.7$ divides the remaining sum by 6 instead of 4.",
+   "B": "16 is the mean of the two removed numbers.",
+   "C": "The mean does not stay the same: the removed numbers are below 20.",
+   "E": "$\\frac{120}{4} = 30$ forgets to subtract the removed numbers from the sum."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mean"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$14.7$"
+    },
+    {
+     "id": "B",
+     "text": "$16$"
+    },
+    {
+     "id": "C",
+     "text": "$20$"
+    },
+    {
+     "id": "D",
+     "text": "$22$"
+    },
+    {
+     "id": "E",
+     "text": "$30$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-17",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 3,
+  "stem": "What is the mean number of goals scored per match? Give your answer as a decimal.",
+  "explanation": "Total goals $= 0\\cdot4 + 1\\cdot7 + 2\\cdot8 + 3\\cdot4 + 4\\cdot2 = 0 + 7 + 16 + 12 + 8 = 43$. Mean $= \\frac{43}{25} = 1.72$.",
+  "estSeconds": 90,
+  "skills": [
+   "mean",
+   "weighted-mean"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Goals scored per match in 25 matches",
+   "data": {
+    "columns": [
+     "Goals",
+     "Number of matches"
+    ],
+    "rows": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      7
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      "Total",
+      25
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 1.72
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-18",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 4,
+  "stem": "What is the median number of defects per batch?",
+  "explanation": "With 40 batches the median is the average of the 20th and 21st values. Running totals: 5, 14, 20, 32, 40. The 20th value is 3 (the 3-defect group ends at 20) and the 21st value is 4. Median $= \\frac{3 + 4}{2} = 3.5$.",
+  "estSeconds": 100,
+  "skills": [
+   "median"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Defects found in each of 40 batches",
+   "data": {
+    "columns": [
+     "Defects",
+     "Number of batches"
+    ],
+    "rows": [
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      4,
+      12
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      "Total",
+      40
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 3.5
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-19",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 4,
+  "stem": "Class A has 12 students with a mean score of 74, Class B has 18 students with a mean score of 80, and Class C has 10 students with a mean score of 90. What is the mean score of all 40 students?",
+  "explanation": "Total points: $12 \\times 74 + 18 \\times 80 + 10 \\times 90 = 888 + 1440 + 900 = 3228$. Mean $= \\frac{3228}{40} = 80.7$. Averaging the three class means would give 81.33, which ignores the class sizes.",
+  "estSeconds": 100,
+  "skills": [
+   "mean",
+   "weighted-mean"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 80.7
+  }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-20",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 5,
+  "stem": "Five different positive integers have a mean of 12 and a median of 10. What is the greatest possible value of the greatest of the five integers?",
+  "explanation": "Order the integers $a < b < 10 < d < e$. Their sum is $5 \\times 12 = 60$. To make $e$ as large as possible, make the others as small as possible: $a = 1$, $b = 2$, and $d = 11$ (it must exceed the median 10). Then $e = 60 - 1 - 2 - 10 - 11 = 36$.",
+  "estSeconds": 130,
+  "skills": [
+   "mean",
+   "median"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
  }
 ]

@@ -481,5 +481,285 @@
   "answer": {
    "value": 30
   }
+ },
+ {
+  "id": "q2-11-mixtures-13",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 1,
+  "stem": "A 35-liter fruit punch is 40 percent juice by volume. How many liters of juice does it contain?",
+  "explanation": "Pure amount $=$ concentration $\\times$ total: $0.40\\cdot 35=14$ liters.",
+  "choiceExplanations": {
+   "A": "This treats 40 percent as 0.04. Forty percent is 0.40.",
+   "C": "This is the non-juice part, $0.60\\cdot 35$.",
+   "D": "This adds 35 and 40, which mixes a volume with a percent.",
+   "E": "This divides 35 by 0.40; the juice is a part of the 35 liters, so multiply."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1.4"
+    },
+    {
+     "id": "B",
+     "text": "14"
+    },
+    {
+     "id": "C",
+     "text": "21"
+    },
+    {
+     "id": "D",
+     "text": "75"
+    },
+    {
+     "id": "E",
+     "text": "87.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-11-mixtures-14",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 2,
+  "stem": "A 50-gram sugar solution is 12 percent sugar by weight. After 20 grams of water evaporate (no sugar is lost), what percent of the remaining solution is sugar?",
+  "explanation": "Sugar stays the same: $0.12\\cdot 50=6$ grams. The solution now weighs $50-20=30$ grams, so the sugar fraction is $\\frac{6}{30}=0.20$, that is 20 percent.",
+  "estSeconds": 75,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "percent"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q2-11-mixtures-15",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 2,
+  "stem": "A grocer mixes 6 pounds of grain priced at \\$4 per pound with some grain priced at \\$9 per pound. The mixture is worth \\$6 per pound. How many pounds of the \\$9 grain are used?",
+  "explanation": "Let $x$ be the pounds of \\$9 grain. Total value: $4\\cdot 6+9x=6(6+x)$. So $24+9x=36+6x$, giving $3x=12$ and $x=4$. Check: $24+36=60=6\\cdot 10$.",
+  "choiceExplanations": {
+   "A": "This is $6-4$, the gap between the blend price and the cheaper grain, not an amount of grain.",
+   "B": "This is $9-6$, the gap between the dearer grain and the blend price, not an amount of grain.",
+   "D": "This is the amount of the cheaper grain, which the question already gives.",
+   "E": "This is the total weight of the mixture, not the weight of the \\$9 grain alone."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    },
+    {
+     "id": "E",
+     "text": "10"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-11-mixtures-16",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Alcohol: $0.12\\cdot 8+0.36\\cdot 8=0.96+2.88=3.84$ liters. The final volume is $8+8+8=24$ liters, so the concentration is $\\frac{3.84}{24}=0.16$, or 16 percent. Quantity A is greater.",
+  "estSeconds": 100,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The percent of alcohol in the final mixture",
+   "quantityB": "15 percent",
+   "common": "Solution P is 12 percent alcohol by volume and solution Q is 36 percent alcohol by volume. 8 liters of P and 8 liters of Q are mixed, and then 8 liters of water are added."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-11-mixtures-17",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 3,
+  "stem": "How many liters of pure acid must be added to 30 liters of a 20 percent acid solution to make a 40 percent acid solution?",
+  "explanation": "Pure acid has concentration 100 percent, so adding $x$ liters adds $x$ liters of acid. Acid now: $0.20\\cdot 30=6$ liters. Then $6+x=0.40(30+x)$, so $0.6x=6$ and $x=10$. Check: $16$ liters of acid in $40$ liters is 40 percent.",
+  "estSeconds": 100,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "liters"
+  },
+  "answer": {
+   "value": 10
+  }
+ },
+ {
+  "id": "q2-11-mixtures-18",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 4,
+  "stem": "A tank holds 50 liters of a solution that is 20 percent sugar by volume. Ten liters of the solution are drained and replaced by 10 liters of a 70 percent sugar solution. What percent of the 50 liters in the tank is now sugar?",
+  "explanation": "Before: $0.20\\cdot 50=10$ liters of sugar. Draining 10 liters removes $0.20\\cdot 10=2$ liters of it, leaving 8. Adding $0.70\\cdot 10=7$ liters gives $15$ liters of sugar in 50 liters: $\\frac{15}{50}=30$ percent.",
+  "choiceExplanations": {
+   "A": "This counts only the 7 liters of new sugar, $\\frac{7}{50}$.",
+   "C": "This forgets that the drained solution also carried sugar: $\\frac{10+7}{50}=34$ percent.",
+   "D": "This is the plain mean of 20 and 70. The two amounts are 40 and 10 liters, not equal, so the percents cannot just be averaged.",
+   "E": "This is the concentration of the solution that was added, not of the final mixture."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "14"
+    },
+    {
+     "id": "B",
+     "text": "30"
+    },
+    {
+     "id": "C",
+     "text": "34"
+    },
+    {
+     "id": "D",
+     "text": "45"
+    },
+    {
+     "id": "E",
+     "text": "70"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-11-mixtures-19",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 4,
+  "stem": "An alloy weighing 12 kilograms is made by melting together alloy X, which is 40 percent copper by weight, and alloy Y, which is 70 percent copper by weight. The finished alloy is 60 percent copper. How many kilograms of alloy Y are used?",
+  "explanation": "Let $y$ be the kilograms of Y, so X is $12-y$. Copper in equals copper out: $0.40(12-y)+0.70y=0.60\\cdot 12$. That is $4.8+0.3y=7.2$, so $y=8$. Check: $0.4\\cdot 4+0.7\\cdot 8=1.6+5.6=7.2$.",
+  "estSeconds": 100,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "kilograms"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q2-11-mixtures-20",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 5,
+  "stem": "A merchant blends 20 pounds of coffee costing \\$8 per pound with some coffee costing \\$12 per pound. She sells the blend at \\$13.20 per pound, which is 20 percent more than the blend's cost per pound. How many pounds of the \\$12 coffee did she use?",
+  "explanation": "Selling price $=1.20\\times$ cost per pound, so the blend costs $\\frac{13.20}{1.20}=11$ dollars per pound. Let $z$ be the pounds of \\$12 coffee: $8\\cdot 20+12z=11(20+z)$. So $160+12z=220+11z$ and $z=60$. Check: $\\frac{160+720}{80}=11$.",
+  "estSeconds": 130,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "pounds"
+  },
+  "answer": {
+   "value": 60
+  }
  }
 ]

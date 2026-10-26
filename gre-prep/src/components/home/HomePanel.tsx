@@ -39,7 +39,7 @@ export function HomePanel({ lessons, wordTotal }: { lessons: HomeLesson[]; wordT
   return (
     <div className="space-y-5">
       <div className="flex flex-wrap items-center gap-3 text-sm">
-        {daysLeft !== null && daysLeft >= 0 && <span className="rounded-full bg-accent-soft px-3 py-1 font-semibold text-accent">{daysLeft === 0 ? 'Test day!' : `${daysLeft} day${daysLeft > 1 ? 's' : ''} to your test`}</span>}
+        {daysLeft !== null && daysLeft >= 0 && <span className="rounded-full bg-accent-soft px-3 py-1 font-semibold text-accent-ink">{daysLeft === 0 ? 'Test day!' : `${daysLeft} day${daysLeft > 1 ? 's' : ''} to your test`}</span>}
         <span className="inline-flex items-center gap-1.5 rounded-full bg-warn-soft px-3 py-1 font-semibold text-warn"><Flame size={14} aria-hidden />{data.streak} day streak</span>
       </div>
 
@@ -53,7 +53,7 @@ export function HomePanel({ lessons, wordTotal }: { lessons: HomeLesson[]; wordT
           </Link>
         ) : data.next ? (
           <Link href={`/learn/${data.next.chapter}/${data.next.id}`} className="mt-2 flex items-center gap-3">
-            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent"><ArrowRight size={20} aria-hidden /></span>
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent-ink"><ArrowRight size={20} aria-hidden /></span>
             <span className="flex-1"><span className="block text-lg font-bold">{data.nextDone > 0 ? 'Continue' : 'Start'}: {data.next.title}</span><span className="text-sm text-muted">{data.next.qids.length - data.nextDone} question{data.next.qids.length - data.nextDone === 1 ? '' : 's'} left</span></span>
             <ArrowRight size={18} className="text-faint" aria-hidden />
           </Link>
@@ -75,9 +75,9 @@ export function HomePanel({ lessons, wordTotal }: { lessons: HomeLesson[]; wordT
       </section>
 
       <div className="grid gap-3 sm:grid-cols-3">
-        <Link href="/mock" className={`${card} flex items-center gap-3 hover:border-line-strong`}><Timer size={20} className="text-accent" aria-hidden /><span className="font-semibold">Mock tests</span></Link>
-        <Link href="/writing" className={`${card} flex items-center gap-3 hover:border-line-strong`}><PenLine size={20} className="text-accent" aria-hidden /><span className="font-semibold">Writing</span></Link>
-        <Link href="/flashcards" className={`${card} flex items-center gap-3 hover:border-line-strong`}><Layers size={20} className="text-accent" aria-hidden /><span className="min-w-0"><span className="block font-semibold">Vocabulary</span><span className="text-xs text-muted">{words}/{wordTotal} words</span></span></Link>
+        <Link href="/mock" className={`${card} flex items-center gap-3 hover:border-line-strong`}><Timer size={20} className="text-accent-ink" aria-hidden /><span className="font-semibold">Mock tests</span></Link>
+        <Link href="/writing" className={`${card} flex items-center gap-3 hover:border-line-strong`}><PenLine size={20} className="text-accent-ink" aria-hidden /><span className="font-semibold">Writing</span></Link>
+        <Link href="/flashcards" className={`${card} flex items-center gap-3 hover:border-line-strong`}><Layers size={20} className="text-accent-ink" aria-hidden /><span className="min-w-0"><span className="block font-semibold">Vocabulary</span><span className="text-xs text-muted">{words}/{wordTotal} words</span></span></Link>
       </div>
     </div>
   );

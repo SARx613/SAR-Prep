@@ -507,5 +507,313 @@
   "answer": {
    "choice": "D"
   }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-13",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 1,
+  "stem": "What is the negative solution of $x^2+4x-12=0$?",
+  "explanation": "Look for two numbers with product $-12$ and sum $4$: $6$ and $-2$. So $(x+6)(x-2)=0$, giving $x=-6$ or $x=2$. The negative one is $-6$.",
+  "estSeconds": 55,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -6
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-14",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 2,
+  "stem": "If $x^2+5x=14$ and $x>0$, what is the value of $x$?",
+  "explanation": "Move everything to one side: $x^2+5x-14=0$. Factor: $(x+7)(x-2)=0$, so $x=-7$ or $x=2$. Only $2$ is positive.",
+  "choiceExplanations": {
+   "A": "This is the other solution, but it is negative and the problem says $x>0$.",
+   "C": "The factors are $(x+7)(x-2)$, so the roots are $-7$ and $2$, not $7$.",
+   "D": "This comes from writing $x(x+5)=14$ and concluding $x+5=14$; the zero-product rule needs $0$ on one side.",
+   "E": "This comes from writing $x(x+5)=14$ and concluding $x=14$; the zero-product rule needs $0$ on one side."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-7$"
+    },
+    {
+     "id": "B",
+     "text": "$2$"
+    },
+    {
+     "id": "C",
+     "text": "$7$"
+    },
+    {
+     "id": "D",
+     "text": "$9$"
+    },
+    {
+     "id": "E",
+     "text": "$14$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-15",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x^2-2x-8=(x-4)(x+2)=0$, so $x=4$ or $x=-2$. If $x=4$, A is greater; if $x=-2$, B is greater. The relationship cannot be determined.",
+  "estSeconds": 70,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$2$",
+   "common": "$x^2-2x-8=0$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-16",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 3,
+  "stem": "What is the least solution of $4x^2-9=0$?",
+  "explanation": "Use $a^2-b^2=(a-b)(a+b)$: $4x^2-9=(2x-3)(2x+3)=0$. So $x=\\dfrac32$ or $x=-\\dfrac32$. The least is $-\\dfrac32$.",
+  "choiceExplanations": {
+   "A": "From $x^2=\\dfrac94$ the square root was not taken: $\\left(\\dfrac94\\right)^2\\ne\\dfrac94$.",
+   "B": "The $4$ in $4x^2$ was ignored ($x^2=9$ is a different equation).",
+   "D": "This is the greater solution; the question asks for the least.",
+   "E": "The square root was not taken, and this is the greater value anyway."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "quadratic-factoring",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-\\dfrac94$"
+    },
+    {
+     "id": "B",
+     "text": "$-3$"
+    },
+    {
+     "id": "C",
+     "text": "$-\\dfrac32$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac32$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac94$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-17",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 3,
+  "stem": "Which of the following are solutions of $(x+1)(x-3)=-3$? Indicate all such numbers.",
+  "explanation": "Expand: $x^2-2x-3=-3$. Move everything to one side: $x^2-2x=0$, so $x(x-2)=0$ and $x=0$ or $x=2$. (Zero-product rule only works once the other side is $0$.)",
+  "choiceExplanations": {
+   "A": "$(-1)(-5)=5$, not $-3$.",
+   "D": "$3$ makes the factor $x-3$ zero, so the product is $0$, not $-3$.",
+   "E": "$-1$ makes the factor $x+1$ zero, so the product is $0$, not $-3$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$-1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-18",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 4,
+  "stem": "One solution of $2x^2+kx-9=0$ is $x=3$. What is the other solution?",
+  "explanation": "Substitute $x=3$: $18+3k-9=0$, so $k=-3$. The equation is $2x^2-3x-9=0$, which factors as $(2x+3)(x-3)=0$. The other solution is $x=-\\dfrac32$.",
+  "choiceExplanations": {
+   "A": "Not a root of $2x^2-3x-9$: $2\\left(\\dfrac{81}{4}\\right)+\\dfrac{27}{2}-9=45\\ne0$.",
+   "B": "Not a root: $2(9)-3(-3)-9=18\\ne0$. (It would be a root had $k=+3$ been used, a sign slip.)",
+   "D": "Not a root: $2\\left(\\dfrac94\\right)-3\\left(\\dfrac32\\right)-9=-9\\ne0$. (It would be a root had $k=+3$ been used, a sign slip.)",
+   "E": "Not a root: $2\\left(\\dfrac{81}{4}\\right)-3\\left(\\dfrac92\\right)-9=18\\ne0$."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-\\dfrac92$"
+    },
+    {
+     "id": "B",
+     "text": "$-3$"
+    },
+    {
+     "id": "C",
+     "text": "$-\\dfrac32$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac32$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac92$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-19",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 4,
+  "stem": "What is the sum of all nonzero real numbers $x$ that satisfy $\\dfrac{x+6}{x}=x$?",
+  "explanation": "Multiply both sides by $x$ (allowed since $x\\ne0$): $x+6=x^2$. Move everything to one side: $x^2-x-6=0$, so $(x-3)(x+2)=0$ and $x=3$ or $x=-2$. Both are nonzero, and their sum is $1$.",
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-20",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 5,
+  "stem": "If $x^2-4x=y^2-4y$ and $x\\ne y$, what is the value of $x+y$?",
+  "explanation": "Move everything to one side: $x^2-y^2-4x+4y=0$. Factor: $(x-y)(x+y)-4(x-y)=(x-y)(x+y-4)=0$. A product is $0$ only if a factor is $0$; $x-y\\ne0$, so $x+y-4=0$ and $x+y=4$. (Example: $x=1$, $y=3$.)",
+  "estSeconds": 130,
+  "skills": [
+   "quadratic-factoring",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  }
  }
 ]

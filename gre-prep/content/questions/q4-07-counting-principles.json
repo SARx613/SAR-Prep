@@ -441,5 +441,253 @@
   "answer": {
    "value": 57
   }
+ },
+ {
+  "id": "q4-07-counting-principles-13",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 1,
+  "stem": "A menu offers 4 appetizers, 7 main dishes and 3 desserts. How many different meals consisting of one appetizer, one main dish and one dessert can be ordered?",
+  "explanation": "Multiply the options at each step: $4 \\times 7 \\times 3 = 84$.",
+  "estSeconds": 45,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 84
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-14",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "Five runners compete in a race with no ties. In how many different ways can the first, second and third places be filled?",
+  "explanation": "Order matters and no runner can take two places: $5 \\times 4 \\times 3 = 60$.",
+  "choiceExplanations": {
+   "A": "$\\binom{5}{3} = 10$ ignores the order of finish, but first, second and third are different places.",
+   "B": "15 is $5 \\times 3$, which does not use the 5, 4, 3 options.",
+   "D": "$5! = 120$ orders all five runners, but only three places are filled.",
+   "E": "$5^3 = 125$ allows the same runner to take several places."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$10$"
+    },
+    {
+     "id": "B",
+     "text": "$15$"
+    },
+    {
+     "id": "C",
+     "text": "$60$"
+    },
+    {
+     "id": "D",
+     "text": "$120$"
+    },
+    {
+     "id": "E",
+     "text": "$125$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-15",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "In how many different ways can a team of 3 people be chosen from a group of 9 people?",
+  "explanation": "Order does not matter: $\\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84$.",
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 84
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-16",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: order matters, $10 \\times 9 \\times 8 = 720$. B: $5 \\times \\binom{10}{3} = 5 \\times 120 = 600$. Quantity A is greater. (Each committee corresponds to $3! = 6$ ordered selections, and $6 > 5$.)",
+  "estSeconds": 90,
+  "skills": [
+   "permutations",
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of ways to choose a president, a vice president and a treasurer from 10 people, if no person holds two offices",
+   "quantityB": "5 times the number of ways to choose a 3-person committee from 10 people"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-17",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "A password has 4 characters: a letter of the alphabet (26 possibilities) followed by three digits (0 through 9) that are all different from one another. How many different passwords are possible?",
+  "explanation": "Letter: 26 options. First digit: 10 options, second: 9, third: 8. Total $= 26 \\times 10 \\times 9 \\times 8 = 18{,}720$.",
+  "estSeconds": 80,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18720
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-18",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "Six people are to be seated in a row of 6 chairs. In how many different ways can they be seated if three particular people must sit next to one another?",
+  "explanation": "Treat the three together as one block. The block and the other 3 people make 4 items, which can be ordered in $4! = 24$ ways. The 3 people inside the block can be ordered in $3! = 6$ ways. Total $= 24 \\times 6 = 144$.",
+  "estSeconds": 100,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 144
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-19",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "A committee of 4 people is to be chosen from 5 men and 4 women. How many different committees include at least one woman?",
+  "explanation": "Count all committees and subtract those with no woman. All: $\\binom{9}{4} = 126$. No woman (all 4 chosen from the 5 men): $\\binom{5}{4} = 5$. So $126 - 5 = 121$.",
+  "choiceExplanations": {
+   "A": "5 is the number of all-men committees, the ones to exclude.",
+   "B": "40 counts only committees with exactly one woman ($4 \\times \\binom{5}{3}$).",
+   "D": "126 counts all committees, including the 5 with no woman.",
+   "E": "224 is $4 \\times \\binom{8}{3}$, which counts committees with several women more than once."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "combinations",
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$40$"
+    },
+    {
+     "id": "C",
+     "text": "$121$"
+    },
+    {
+     "id": "D",
+     "text": "$126$"
+    },
+    {
+     "id": "E",
+     "text": "$224$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-20",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 5,
+  "stem": "How many 4-digit numbers have four different digits and are divisible by 5? (A 4-digit number cannot begin with 0.)",
+  "explanation": "A number divisible by 5 ends in 0 or 5. Ends in 0: the other three places use different digits from the remaining 9, in order: $9 \\times 8 \\times 7 = 504$. Ends in 5: the first digit cannot be 0 or 5, so it has 8 options; then the second has 8 (including 0, excluding the two used) and the third has 7: $8 \\times 8 \\times 7 = 448$. Total $= 504 + 448 = 952$.",
+  "estSeconds": 150,
+  "skills": [
+   "multiplication-principle",
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 952
+  }
  }
 ]

@@ -86,7 +86,7 @@ export function StatsPanel({ lessons, est }: Props) {
         <section className={card}><h2 className="font-bold">Weakest lessons</h2>
           <ul className="mt-3 divide-y divide-line">{s.weakest.map((w) => { const l = lessons.find((x) => x.id === w.k); return (
             <li key={w.k} className="flex items-center gap-3 py-2.5 text-sm"><span className="min-w-0 flex-1 truncate font-medium">{title(w.k)}</span><span className="tabular-nums text-muted">{pct(w.acc)}</span>
-              {l && <Link href={`/learn/${l.chapter}/${l.id}`} className="font-semibold text-accent hover:underline">Revisit</Link>}</li>); })}</ul></section>
+              {l && <Link href={`/learn/${l.chapter}/${l.id}`} className="font-semibold text-accent-ink hover:underline">Revisit</Link>}</li>); })}</ul></section>
       )}
 
       {reasonCounts.length > 0 && (

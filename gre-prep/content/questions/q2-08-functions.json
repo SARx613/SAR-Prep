@@ -506,5 +506,311 @@
     "A"
    ]
   }
+ },
+ {
+  "id": "q2-08-functions-13",
+  "lessonId": "q2-08-functions",
+  "difficulty": 1,
+  "stem": "If $f(x)=5-2x$, what is the value of $f(-3)$?",
+  "explanation": "Replace $x$ by $-3$, with brackets: $f(-3)=5-2(-3)=5+6=11$.",
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 11
+  }
+ },
+ {
+  "id": "q2-08-functions-14",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "If $f(x)=4x-1$, which of the following is equal to $f(x+2)-f(x)$?",
+  "explanation": "$f(x+2)=4(x+2)-1=4x+7$. Then $f(x+2)-f(x)=(4x+7)-(4x-1)=8$.",
+  "choiceExplanations": {
+   "A": "The input was changed by $2$, so the output changes by $4\\cdot2$, not $4$.",
+   "B": "This is $f(2)$, not the difference.",
+   "D": "This is $f(x+2)$ alone; $f(x)$ was not subtracted.",
+   "E": "The two values were added instead of subtracted."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$8$"
+    },
+    {
+     "id": "D",
+     "text": "$4x+7$"
+    },
+    {
+     "id": "E",
+     "text": "$8x+6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-15",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$f(2a)=4a^2+1$ and $2f(a)=2a^2+2$. If $a=0$, A is $1$ and B is $2$ (B is greater). If $a=1$, A is $5$ and B is $4$ (A is greater). The relationship cannot be determined.",
+  "estSeconds": 80,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$f(2a)$",
+   "quantityB": "$2f(a)$",
+   "common": "$f(x)=x^2+1$ and $a$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-08-functions-16",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $g(x)=x^2-3x$, which of the following is equal to $g(a-1)$?",
+  "explanation": "Replace every $x$ by $(a-1)$: $g(a-1)=(a-1)^2-3(a-1)=a^2-2a+1-3a+3=a^2-5a+4$.",
+  "choiceExplanations": {
+   "A": "The $-3$ was multiplied by $-1$ with the wrong sign: $-3(a-1)=-3a+3$, not $-3a-3$.",
+   "C": "This is $g(a)-1$: the $-1$ was subtracted from the output instead of substituted into the input.",
+   "D": "$(a-1)^2$ was expanded as $a^2+1$ (no middle term).",
+   "E": "The sign of $-3(a-1)$ was flipped to $+3a-3$."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a^2-5a-2$"
+    },
+    {
+     "id": "B",
+     "text": "$a^2-5a+4$"
+    },
+    {
+     "id": "C",
+     "text": "$a^2-3a-1$"
+    },
+    {
+     "id": "D",
+     "text": "$a^2-3a+4$"
+    },
+    {
+     "id": "E",
+     "text": "$a^2+a-2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-17",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $f(x)=x^2+1$, which of the following are true for all real numbers $a$ and $b$? Indicate all such statements.",
+  "explanation": "$f(-a)=(-a)^2+1=a^2+1=f(a)$, so the first statement is true. Since $a^2\\ge0$, $f(a)=a^2+1\\ge1$: also true. The others fail for specific numbers.",
+  "choiceExplanations": {
+   "B": "$f(a+1)=a^2+2a+2$, but $f(a)+1=a^2+2$. They differ by $2a$.",
+   "C": "$f(2a)=4a^2+1$, but $2f(a)=2a^2+2$ (for $a=1$: $5$ versus $4$).",
+   "E": "$f(a+b)$ contains $2ab$, and $f(a)+f(b)$ has $+2$ where $f(a+b)$ has $+1$ (for $a=b=0$: $1$ versus $2$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$f(-a)=f(a)$"
+    },
+    {
+     "id": "B",
+     "text": "$f(a+1)=f(a)+1$"
+    },
+    {
+     "id": "C",
+     "text": "$f(2a)=2f(a)$"
+    },
+    {
+     "id": "D",
+     "text": "$f(a)\\ge1$"
+    },
+    {
+     "id": "E",
+     "text": "$f(a+b)=f(a)+f(b)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-18",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "The number $5$ is not in the domain of $f(x)=\\dfrac{7}{x^2-kx-10}$. What is the value of $k$?",
+  "explanation": "A number is excluded when it makes the denominator $0$. Substitute $x=5$: $25-5k-10=0$, so $5k=15$ and $k=3$. (Check: $25-15-10=0$.)",
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q2-08-functions-19",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "Which of the following describes the domain of $f(x)=\\dfrac{\\sqrt{10-2x}}{x+1}$?",
+  "explanation": "Two restrictions. The square root needs $10-2x\\ge0$, so $x\\le5$ ($0$ under the root is fine). The denominator needs $x+1\\ne0$, so $x\\ne-1$. Together: $x\\le5$ and $x\\ne-1$.",
+  "choiceExplanations": {
+   "A": "$x=-1$ makes the denominator $0$, so it must be excluded.",
+   "B": "A negative number under the square root is not allowed; for example $x=6$ gives $\\sqrt{-2}$.",
+   "D": "$x=5$ is allowed: $\\sqrt{10-10}=0$ and the denominator is $6$.",
+   "E": "The inequality is reversed: $10-2x\\ge0$ means $x\\le5$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "all real $x$ with $x\\le5$"
+    },
+    {
+     "id": "B",
+     "text": "all real $x$ with $x\\ne-1$"
+    },
+    {
+     "id": "C",
+     "text": "all real $x$ with $x\\le5$ and $x\\ne-1$"
+    },
+    {
+     "id": "D",
+     "text": "all real $x$ with $x<5$ and $x\\ne-1$"
+    },
+    {
+     "id": "E",
+     "text": "all real $x$ with $x\\ge5$ and $x\\ne-1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-20",
+  "lessonId": "q2-08-functions",
+  "difficulty": 5,
+  "stem": "If $f(x)=x^2-4x+3$ and $f(t)=f(t+2)$, what is the value of $t$?",
+  "explanation": "Substitute: $f(t+2)=(t+2)^2-4(t+2)+3=t^2+4t+4-4t-8+3=t^2-1$. And $f(t)=t^2-4t+3$. Set them equal: $t^2-4t+3=t^2-1$. The $t^2$ terms cancel: $-4t=-4$, so $t=1$. (Check: $f(1)=0=f(3)$.)",
+  "estSeconds": 130,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
  }
 ]

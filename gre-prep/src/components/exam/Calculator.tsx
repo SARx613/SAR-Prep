@@ -138,7 +138,7 @@ export function Calculator({ onClose, onTransfer }: Props) {
               onClick={() => send(b.key)}
               className={`h-11 rounded-md border text-lg font-semibold active:translate-y-px ${
                 b.tone === 'eq' ? 'border-accent bg-accent text-accent-fg'
-                : b.tone === 'op' ? 'border-line-strong bg-accent-soft text-accent'
+                : b.tone === 'op' ? 'border-line-strong bg-accent-soft text-accent-ink'
                 : b.tone === 'fn' ? 'border-line bg-surface-2 text-sm text-muted'
                 : 'border-line bg-surface text-fg'
               }`}

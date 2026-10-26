@@ -49,9 +49,9 @@ export function PlanPanel({ lessons }: { lessons: PlanSource[] }) {
             <ul className="mt-2 divide-y divide-line">
               {w.items.map((it) => (
                 <li key={it.id} className="flex items-center gap-3 py-2 text-sm">
-                  <span className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${it.kind === 'mock' ? 'bg-warn-soft text-warn' : 'bg-accent-soft text-accent'}`}>{it.kind === 'mock' ? 'Mock' : 'Lesson'}</span>
+                  <span className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${it.kind === 'mock' ? 'bg-warn-soft text-warn' : 'bg-accent-soft text-accent-ink'}`}>{it.kind === 'mock' ? 'Mock' : 'Lesson'}</span>
                   <span className="min-w-0 flex-1 truncate font-medium">{it.title}</span><span className="tabular-nums text-muted">{it.minutes} min</span>
-                  {it.kind === 'lesson' ? <Link href={`/learn/${it.id.split('-')[0]}/${it.id}`} className="font-semibold text-accent hover:underline">Open</Link> : <Link href="/mock" className="font-semibold text-accent hover:underline">Open</Link>}
+                  {it.kind === 'lesson' ? <Link href={`/learn/${it.id.split('-')[0]}/${it.id}`} className="font-semibold text-accent-ink hover:underline">Open</Link> : <Link href="/mock" className="font-semibold text-accent-ink hover:underline">Open</Link>}
                 </li>
               ))}
             </ul>

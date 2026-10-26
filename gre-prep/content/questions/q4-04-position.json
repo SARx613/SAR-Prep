@@ -477,5 +477,284 @@
   "answer": {
    "choice": "C"
   }
+ },
+ {
+  "id": "q4-04-position-13",
+  "lessonId": "q4-04-position",
+  "difficulty": 1,
+  "stem": "A data set has 200 values. About how many of the values are less than the first quartile?",
+  "explanation": "The first quartile $Q_1$ is the 25th percentile, so about 25% of the values lie below it: $0.25 \\times 200 = 50$.",
+  "estSeconds": 45,
+  "skills": [
+   "quartiles",
+   "percentiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 50
+  }
+ },
+ {
+  "id": "q4-04-position-14",
+  "lessonId": "q4-04-position",
+  "difficulty": 2,
+  "stem": "What is the first quartile of the numbers 3, 6, 8, 11, 13, 17, 19, 24, 28 and 35?",
+  "explanation": "There are 10 values, so the lower half is the first five: 3, 6, 8, 11, 13. $Q_1$ is the median of this half, the 3rd value: 8.",
+  "estSeconds": 70,
+  "skills": [
+   "quartiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q4-04-position-15",
+  "lessonId": "q4-04-position",
+  "difficulty": 2,
+  "stem": "What is the range of the finishing times in Group P, in minutes?",
+  "explanation": "Range $=$ greatest $-$ least $= 66 - 22 = 44$ minutes.",
+  "estSeconds": 50,
+  "skills": [
+   "boxplots",
+   "range"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Finishing times of runners in two groups",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 540 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"240\" y1=\"20\" x2=\"240\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"270\" y1=\"20\" x2=\"270\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"330\" y1=\"20\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"360\" y1=\"20\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"420\" y1=\"20\" x2=\"420\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"450\" y1=\"20\" x2=\"450\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"480\" y1=\"20\" x2=\"480\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"510\" y1=\"20\" x2=\"510\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"90\" y1=\"150\" x2=\"510\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"155\" stroke=\"currentColor\"/><text x=\"90\" y=\"169\" text-anchor=\"middle\">0</text><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"155\" stroke=\"currentColor\"/><text x=\"150\" y=\"169\" text-anchor=\"middle\">10</text><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"155\" stroke=\"currentColor\"/><text x=\"210\" y=\"169\" text-anchor=\"middle\">20</text><line x1=\"270\" y1=\"150\" x2=\"270\" y2=\"155\" stroke=\"currentColor\"/><text x=\"270\" y=\"169\" text-anchor=\"middle\">30</text><line x1=\"330\" y1=\"150\" x2=\"330\" y2=\"155\" stroke=\"currentColor\"/><text x=\"330\" y=\"169\" text-anchor=\"middle\">40</text><line x1=\"390\" y1=\"150\" x2=\"390\" y2=\"155\" stroke=\"currentColor\"/><text x=\"390\" y=\"169\" text-anchor=\"middle\">50</text><line x1=\"450\" y1=\"150\" x2=\"450\" y2=\"155\" stroke=\"currentColor\"/><text x=\"450\" y=\"169\" text-anchor=\"middle\">60</text><line x1=\"510\" y1=\"150\" x2=\"510\" y2=\"155\" stroke=\"currentColor\"/><text x=\"510\" y=\"169\" text-anchor=\"middle\">70</text><text x=\"10\" y=\"54\">Group P</text><line x1=\"222\" y1=\"50\" x2=\"270\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"378\" y1=\"50\" x2=\"486\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"222\" y1=\"42\" x2=\"222\" y2=\"58\" stroke=\"currentColor\"/><line x1=\"486\" y1=\"42\" x2=\"486\" y2=\"58\" stroke=\"currentColor\"/><rect x=\"270\" y=\"36\" width=\"108\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"306\" y1=\"36\" x2=\"306\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"10\" y=\"114\">Group R</text><line x1=\"246\" y1=\"110\" x2=\"294\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"342\" y1=\"110\" x2=\"390\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"246\" y1=\"102\" x2=\"246\" y2=\"118\" stroke=\"currentColor\"/><line x1=\"390\" y1=\"102\" x2=\"390\" y2=\"118\" stroke=\"currentColor\"/><rect x=\"294\" y=\"96\" width=\"48\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"318\" y1=\"96\" x2=\"318\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"300\" y=\"192\" text-anchor=\"middle\">Finishing time (minutes)</text></svg>",
+    "alt": "Two boxplots on a number line from 0 to 70 minutes. Group P: least 22, first quartile 30, median 36, third quartile 48, greatest 66. Group R: least 26, first quartile 34, median 38, third quartile 42, greatest 50."
+   },
+   "notes": "Tick marks are 10 minutes apart; grid lines are 5 minutes apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 44
+  }
+ },
+ {
+  "id": "q4-04-position-16",
+  "lessonId": "q4-04-position",
+  "difficulty": 3,
+  "stem": "Which of the following statements are supported by the boxplots? Indicate all such statements.",
+  "explanation": "IQR of Group P $= 48 - 30 = 18$; IQR of Group R $= 42 - 34 = 8$, and $18 > 2 \\times 8 = 16$. From the median (38) to $Q_3$ (42) holds about 25% of Group R's times. The medians are 36 and 38, and the greatest values are 66 (P) and 50 (R), so the other two statements are false.",
+  "choiceExplanations": {
+   "A": "The medians are 36 for Group P and 38 for Group R, so Group R's median is greater.",
+   "D": "Group R's slowest time is 50 minutes and Group P's is 66."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "boxplots",
+   "iqr"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Finishing times of runners in two groups",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 540 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"240\" y1=\"20\" x2=\"240\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"270\" y1=\"20\" x2=\"270\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"330\" y1=\"20\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"360\" y1=\"20\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"420\" y1=\"20\" x2=\"420\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"450\" y1=\"20\" x2=\"450\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"480\" y1=\"20\" x2=\"480\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"510\" y1=\"20\" x2=\"510\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"90\" y1=\"150\" x2=\"510\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"155\" stroke=\"currentColor\"/><text x=\"90\" y=\"169\" text-anchor=\"middle\">0</text><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"155\" stroke=\"currentColor\"/><text x=\"150\" y=\"169\" text-anchor=\"middle\">10</text><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"155\" stroke=\"currentColor\"/><text x=\"210\" y=\"169\" text-anchor=\"middle\">20</text><line x1=\"270\" y1=\"150\" x2=\"270\" y2=\"155\" stroke=\"currentColor\"/><text x=\"270\" y=\"169\" text-anchor=\"middle\">30</text><line x1=\"330\" y1=\"150\" x2=\"330\" y2=\"155\" stroke=\"currentColor\"/><text x=\"330\" y=\"169\" text-anchor=\"middle\">40</text><line x1=\"390\" y1=\"150\" x2=\"390\" y2=\"155\" stroke=\"currentColor\"/><text x=\"390\" y=\"169\" text-anchor=\"middle\">50</text><line x1=\"450\" y1=\"150\" x2=\"450\" y2=\"155\" stroke=\"currentColor\"/><text x=\"450\" y=\"169\" text-anchor=\"middle\">60</text><line x1=\"510\" y1=\"150\" x2=\"510\" y2=\"155\" stroke=\"currentColor\"/><text x=\"510\" y=\"169\" text-anchor=\"middle\">70</text><text x=\"10\" y=\"54\">Group P</text><line x1=\"222\" y1=\"50\" x2=\"270\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"378\" y1=\"50\" x2=\"486\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"222\" y1=\"42\" x2=\"222\" y2=\"58\" stroke=\"currentColor\"/><line x1=\"486\" y1=\"42\" x2=\"486\" y2=\"58\" stroke=\"currentColor\"/><rect x=\"270\" y=\"36\" width=\"108\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"306\" y1=\"36\" x2=\"306\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"10\" y=\"114\">Group R</text><line x1=\"246\" y1=\"110\" x2=\"294\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"342\" y1=\"110\" x2=\"390\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"246\" y1=\"102\" x2=\"246\" y2=\"118\" stroke=\"currentColor\"/><line x1=\"390\" y1=\"102\" x2=\"390\" y2=\"118\" stroke=\"currentColor\"/><rect x=\"294\" y=\"96\" width=\"48\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"318\" y1=\"96\" x2=\"318\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"300\" y=\"192\" text-anchor=\"middle\">Finishing time (minutes)</text></svg>",
+    "alt": "Two boxplots on a number line from 0 to 70 minutes. Group P: least 22, first quartile 30, median 36, third quartile 48, greatest 66. Group R: least 26, first quartile 34, median 38, third quartile 42, greatest 50."
+   },
+   "notes": "Tick marks are 10 minutes apart; grid lines are 5 minutes apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The median finishing time of Group P is greater than that of Group R."
+    },
+    {
+     "id": "B",
+     "text": "The interquartile range of Group P is more than twice the interquartile range of Group R."
+    },
+    {
+     "id": "C",
+     "text": "About one-quarter of the finishing times in Group R lie between 38 and 42 minutes."
+    },
+    {
+     "id": "D",
+     "text": "The slowest finishing time in Group R is greater than the slowest finishing time in Group P."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-04-position-17",
+  "lessonId": "q4-04-position",
+  "difficulty": 3,
+  "stem": "What is the interquartile range of the numbers 4, 7, 9, 12, 14, 15, 18, 21, 25, 26, 30 and 41?",
+  "explanation": "There are 12 values. Lower half: 4, 7, 9, 12, 14, 15, so $Q_1 = \\frac{9 + 12}{2} = 10.5$. Upper half: 18, 21, 25, 26, 30, 41, so $Q_3 = \\frac{25 + 26}{2} = 25.5$. IQR $= 25.5 - 10.5 = 15$.",
+  "estSeconds": 100,
+  "skills": [
+   "iqr",
+   "quartiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  }
+ },
+ {
+  "id": "q4-04-position-18",
+  "lessonId": "q4-04-position",
+  "difficulty": 4,
+  "stem": "Group R contains 180 finishing times. About how many of them are either less than 34 minutes or greater than 42 minutes?",
+  "explanation": "34 is $Q_1$ and 42 is $Q_3$. About 25% of the times are below $Q_1$ and about 25% are above $Q_3$, so about 50% of 180 is $90$ times.",
+  "estSeconds": 90,
+  "skills": [
+   "boxplots",
+   "quartiles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Finishing times of runners in two groups",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 540 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"240\" y1=\"20\" x2=\"240\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"270\" y1=\"20\" x2=\"270\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"330\" y1=\"20\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"360\" y1=\"20\" x2=\"360\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"420\" y1=\"20\" x2=\"420\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"450\" y1=\"20\" x2=\"450\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"480\" y1=\"20\" x2=\"480\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"510\" y1=\"20\" x2=\"510\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"90\" y1=\"150\" x2=\"510\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"155\" stroke=\"currentColor\"/><text x=\"90\" y=\"169\" text-anchor=\"middle\">0</text><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"155\" stroke=\"currentColor\"/><text x=\"150\" y=\"169\" text-anchor=\"middle\">10</text><line x1=\"210\" y1=\"150\" x2=\"210\" y2=\"155\" stroke=\"currentColor\"/><text x=\"210\" y=\"169\" text-anchor=\"middle\">20</text><line x1=\"270\" y1=\"150\" x2=\"270\" y2=\"155\" stroke=\"currentColor\"/><text x=\"270\" y=\"169\" text-anchor=\"middle\">30</text><line x1=\"330\" y1=\"150\" x2=\"330\" y2=\"155\" stroke=\"currentColor\"/><text x=\"330\" y=\"169\" text-anchor=\"middle\">40</text><line x1=\"390\" y1=\"150\" x2=\"390\" y2=\"155\" stroke=\"currentColor\"/><text x=\"390\" y=\"169\" text-anchor=\"middle\">50</text><line x1=\"450\" y1=\"150\" x2=\"450\" y2=\"155\" stroke=\"currentColor\"/><text x=\"450\" y=\"169\" text-anchor=\"middle\">60</text><line x1=\"510\" y1=\"150\" x2=\"510\" y2=\"155\" stroke=\"currentColor\"/><text x=\"510\" y=\"169\" text-anchor=\"middle\">70</text><text x=\"10\" y=\"54\">Group P</text><line x1=\"222\" y1=\"50\" x2=\"270\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"378\" y1=\"50\" x2=\"486\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"222\" y1=\"42\" x2=\"222\" y2=\"58\" stroke=\"currentColor\"/><line x1=\"486\" y1=\"42\" x2=\"486\" y2=\"58\" stroke=\"currentColor\"/><rect x=\"270\" y=\"36\" width=\"108\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"306\" y1=\"36\" x2=\"306\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"10\" y=\"114\">Group R</text><line x1=\"246\" y1=\"110\" x2=\"294\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"342\" y1=\"110\" x2=\"390\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"246\" y1=\"102\" x2=\"246\" y2=\"118\" stroke=\"currentColor\"/><line x1=\"390\" y1=\"102\" x2=\"390\" y2=\"118\" stroke=\"currentColor\"/><rect x=\"294\" y=\"96\" width=\"48\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"318\" y1=\"96\" x2=\"318\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"300\" y=\"192\" text-anchor=\"middle\">Finishing time (minutes)</text></svg>",
+    "alt": "Two boxplots on a number line from 0 to 70 minutes. Group P: least 22, first quartile 30, median 36, third quartile 48, greatest 66. Group R: least 26, first quartile 34, median 38, third quartile 42, greatest 50."
+   },
+   "notes": "Tick marks are 10 minutes apart; grid lines are 5 minutes apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 90
+  }
+ },
+ {
+  "id": "q4-04-position-19",
+  "lessonId": "q4-04-position",
+  "difficulty": 4,
+  "stem": "A data set of 200 values has first quartile 12, median 20 and third quartile 28. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "Each quartile group holds about 25% of the 200 values, that is about 50. Between $Q_2 = 20$ and $Q_3 = 28$ is one group: about 50. Below the median is half: about 100. Above $Q_1$ is three groups: about 150. The data do not fix the number of values equal to 12 or the mean.",
+  "choiceExplanations": {
+   "D": "Quartiles divide the data into groups of about 25%; they do not say how many values equal 12.",
+   "E": "The median is 20, but the mean can differ from the median."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "quartiles",
+   "percentiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "About 50 of the values lie between 20 and 28."
+    },
+    {
+     "id": "B",
+     "text": "About 100 of the values are less than 20."
+    },
+    {
+     "id": "C",
+     "text": "About 150 of the values are greater than 12."
+    },
+    {
+     "id": "D",
+     "text": "Exactly 25 of the values are equal to 12."
+    },
+    {
+     "id": "E",
+     "text": "The mean of the data set is 20."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-04-position-20",
+  "lessonId": "q4-04-position",
+  "difficulty": 5,
+  "stem": "The eight numbers 2, 6, $x$, 12, 15, 18, 24 and 29 are listed in increasing order, and their interquartile range is 14. What is $x$?",
+  "explanation": "With 8 values, the upper half is 15, 18, 24, 29, so $Q_3 = \\frac{18 + 24}{2} = 21$. The lower half is 2, 6, $x$, 12, so $Q_1 = \\frac{6 + x}{2}$. Then $21 - \\frac{6 + x}{2} = 14$, so $\\frac{6 + x}{2} = 7$ and $x = 8$.",
+  "estSeconds": 130,
+  "skills": [
+   "iqr",
+   "quartiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
  }
 ]

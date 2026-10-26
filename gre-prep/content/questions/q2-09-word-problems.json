@@ -506,5 +506,313 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "q2-09-word-problems-13",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 1,
+  "stem": "Tom has $t$ stickers. Ana has 7 fewer than twice the number Tom has. Which expression gives the number of stickers Ana has?",
+  "explanation": "\"Twice the number Tom has\" is $2t$. \"7 fewer than\" that is $2t-7$ (subtract 7 from $2t$).",
+  "choiceExplanations": {
+   "A": "This halves $t$ instead of doubling it.",
+   "C": "\"Fewer\" means subtract, not add.",
+   "D": "The order of subtraction is reversed: 7 fewer than $2t$ is $2t-7$, not $7-2t$.",
+   "E": "This doubles the quantity $t-7$, so the 7 is taken away before doubling."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{t}{2}-7$"
+    },
+    {
+     "id": "B",
+     "text": "$2t-7$"
+    },
+    {
+     "id": "C",
+     "text": "$2t+7$"
+    },
+    {
+     "id": "D",
+     "text": "$7-2t$"
+    },
+    {
+     "id": "E",
+     "text": "$2(t-7)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-09-word-problems-14",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 2,
+  "stem": "A taxi ride costs a flat fee of \\$4.50 plus \\$2.25 for each mile. One ride cost \\$29.25 in all. How many miles long was the ride?",
+  "explanation": "Let $m$ be the miles: $4.50+2.25m=29.25$. Then $2.25m=24.75$, so $m=11$. Check: $4.50+2.25\\cdot 11=29.25$.",
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "miles"
+  },
+  "answer": {
+   "value": 11
+  }
+ },
+ {
+  "id": "q2-09-word-problems-15",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 2,
+  "stem": "After a 20 percent discount, a jacket costs \\$68. What was the price before the discount?",
+  "explanation": "If $s$ is the original price, the sale price is $0.80s=68$, so $s=85$. Check: $20$ percent of $85$ is $17$ and $85-17=68$.",
+  "choiceExplanations": {
+   "A": "This is 20 percent of \\$68, which is not the discount on the original price.",
+   "B": "This is 80 percent of \\$68; the 80 percent applies to the unknown original price, not to \\$68.",
+   "C": "This is $1.2\\cdot 68$: adding 20 percent to the sale price. The discount was taken off the original, so divide by $0.8$.",
+   "E": "This adds the 20 to \\$68. The discount is a percent of the original price, not a fixed amount."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$13.60"
+    },
+    {
+     "id": "B",
+     "text": "\\$54.40"
+    },
+    {
+     "id": "C",
+     "text": "\\$81.60"
+    },
+    {
+     "id": "D",
+     "text": "\\$85"
+    },
+    {
+     "id": "E",
+     "text": "\\$88"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-09-word-problems-16",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let $b$ be Bea's original number, so Alan had $2b$. After the gift: $2b-6=b+6$, so $b=12$. Alan started with 24, and Bea finishes with $12+6=18$. Quantity A (24) is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of marbles Alan had before giving any away",
+   "quantityB": "The number of marbles Bea has after receiving Alan's marbles",
+   "common": "Alan had twice as many marbles as Bea. Alan then gave Bea 6 marbles, and after that the two had equal numbers of marbles."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-09-word-problems-17",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 3,
+  "stem": "Dana buys $p$ pens at \\$1.50 each and $n$ notebooks at \\$4 each, and she spends at most \\$30 in all. Which of the following inequalities correctly express this condition? Indicate all such inequalities.",
+  "explanation": "The total cost is $1.5p+4n$, and \"at most\" means $\\le 30$. Doubling both sides gives the equivalent inequality $3p+8n\\le 60$.",
+  "choiceExplanations": {
+   "B": "\"At most\" allows spending exactly \\$30, so the inequality must not be strict.",
+   "D": "Dividing each count by its price does not give a cost. Cost is price times quantity.",
+   "E": "The prices are swapped: this charges \\$4 per pen and \\$1.50 per notebook."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1.5p+4n\\le 30$"
+    },
+    {
+     "id": "B",
+     "text": "$1.5p+4n<30$"
+    },
+    {
+     "id": "C",
+     "text": "$3p+8n\\le 60$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{p}{1.5}+\\frac{n}{4}\\le 30$"
+    },
+    {
+     "id": "E",
+     "text": "$4p+1.5n\\le 30$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-09-word-problems-18",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 4,
+  "stem": "A 20-question quiz awards 5 points for each correct answer and takes away 2 points for each incorrect answer. Every question is answered, and one student's score is 65. How many of the student's answers were correct?",
+  "explanation": "Let $c$ be the number correct; then $20-c$ are incorrect. Score: $5c-2(20-c)=65$, so $7c-40=65$ and $c=15$. Check: $75-10=65$.",
+  "estSeconds": 100,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  }
+ },
+ {
+  "id": "q2-09-word-problems-19",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 4,
+  "stem": "A worker earns \\$14 per hour for the first 40 hours in a week and \\$21 per hour for every hour beyond 40. Last week she earned \\$749. How many hours did she work last week?",
+  "explanation": "The first 40 hours pay $14\\cdot 40=560$. The remaining \\$189 is paid at \\$21 per hour: $189\\div 21=9$ extra hours. Total: $40+9=49$ hours.",
+  "choiceExplanations": {
+   "A": "This is only the overtime hours; the first 40 hours must be added.",
+   "B": "This is $749\\div 21$, which pays every hour at the overtime rate.",
+   "C": "Forty hours pay only \\$560, so she must have worked more.",
+   "E": "This is $749\\div 14$, which pays every hour at the regular rate."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "9"
+    },
+    {
+     "id": "B",
+     "text": "35.7"
+    },
+    {
+     "id": "C",
+     "text": "40"
+    },
+    {
+     "id": "D",
+     "text": "49"
+    },
+    {
+     "id": "E",
+     "text": "53.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-09-word-problems-20",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 5,
+  "stem": "A merchant sets the selling price of an item 40 percent above her cost. She then gives a 15 percent discount off that selling price, and the item sells for \\$9.50 more than it cost her. What was her cost, in dollars?",
+  "explanation": "Let $c$ be the cost. The marked price is $1.4c$; after the discount the sale price is $0.85\\cdot 1.4c=1.19c$. The profit is $1.19c-c=0.19c=9.50$, so $c=50$. Check: $1.19\\cdot 50=59.50$.",
+  "estSeconds": 130,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 50
+  }
  }
 ]
