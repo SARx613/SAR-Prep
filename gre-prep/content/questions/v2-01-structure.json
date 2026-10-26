@@ -864,12 +864,12 @@
   "lessonId": "v2-01-structure",
   "difficulty": 2,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "explanation": "**Signal:** *Although* ... *sharp-tongued* means her public manner is the opposite, friendly. *Amiable* and *affable* both mean pleasant.",
+  "explanation": "**Signal:** *Although* ... *sharp-tongued* means her public manner is the opposite, friendly. *Genial* and *affable* both mean pleasant.",
   "choiceExplanations": {
    "A": "Sharp, like *sharp-tongued*, so *although* would have nothing to contrast.",
-   "C": "Domineering is not the opposite of sharp-tongued.",
-   "D": "Sorrowful, which has no contrast with sharp-tongued.",
-   "F": "Wordiness does not contrast with sharp-tongued."
+   "C": "Gloomy, which has no contrast with sharp-tongued.",
+   "D": "Self-regard is not the opposite of sharp-tongued.",
+   "F": "Talkativeness does not contrast with sharp-tongued."
   },
   "estSeconds": 65,
   "skills": [
@@ -890,15 +890,15 @@
     },
     {
      "id": "B",
-     "text": "amiable"
+     "text": "genial"
     },
     {
      "id": "C",
-     "text": "imperious"
+     "text": "dour"
     },
     {
      "id": "D",
-     "text": "mournful"
+     "text": "vain"
     },
     {
      "id": "E",
@@ -906,7 +906,7 @@
     },
     {
      "id": "F",
-     "text": "verbose"
+     "text": "garrulous"
     }
    ]
   },

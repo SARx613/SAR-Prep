@@ -994,7 +994,7 @@
   "lessonId": "v1-01-structure",
   "difficulty": 2,
   "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Colon clue:** the words after the colon (*changed the time twice*, *contradicted her own description*) restate the blank: *inconsistent*.",
+  "explanation": "**Colon clue:** the words after the colon (*changed the time twice*, *contradicted her own description*) restate the blank: *contradictory*.",
   "choiceExplanations": {
    "A": "The opposite: a changing story is not consistent.",
    "B": "Length is not at issue.",
@@ -1031,7 +1031,7 @@
       },
       {
        "id": "D",
-       "text": "inconsistent"
+       "text": "contradictory"
       },
       {
        "id": "E",
@@ -1626,10 +1626,10 @@
   "lessonId": "v1-01-structure",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
-  "explanation": "**Structure:** the phrase *a pale copy* restates blank 1: *derivative*. Finding the film bolder after expecting a copy brings *relief*, and *more ... in its treatment of grief* needs a praising word: *nuanced*.",
+  "explanation": "**Structure:** the phrase *a pale copy* restates blank 1: *imitative*. Finding the film bolder after expecting a copy brings *relief*, and *more ... in its treatment of grief* needs a praising word: *nuanced*.",
   "choiceExplanations": {
    "1A": "Contradicts *a pale copy*.",
-   "1C": "Unclear, not copied.",
+   "1C": "Puzzling, not copied.",
    "2B": "Finding it bolder would not dishearten them.",
    "2C": "Reviewers would not be indifferent to a pleasant surprise.",
    "3B": "A glib treatment of grief would not be a reason for relief.",
@@ -1657,11 +1657,11 @@
       },
       {
        "id": "1B",
-       "text": "derivative"
+       "text": "imitative"
       },
       {
        "id": "1C",
-       "text": "obscure"
+       "text": "cryptic"
       }
      ]
     },

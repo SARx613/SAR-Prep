@@ -472,5 +472,296 @@
   "answer": {
    "value": 80
   }
+ },
+ {
+  "id": "q3-09-solids-13",
+  "lessonId": "q3-09-solids",
+  "difficulty": 1,
+  "stem": "A rectangular box measures 3 by 4 by 5. What is its volume?",
+  "explanation": "$V=\\ell wh=3\\cdot4\\cdot5=60$.",
+  "estSeconds": 40,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q3-09-solids-14",
+  "lessonId": "q3-09-solids",
+  "difficulty": 2,
+  "stem": "The total surface area of a cube is 150. What is the volume of the cube?",
+  "explanation": "A cube has 6 equal square faces, so each face has area $150\\div6=25$ and the edge is 5. The volume is $5^3=125$.",
+  "choiceExplanations": {
+   "A": "5 is the edge length; the volume is its cube.",
+   "B": "25 is the area of one face, not the volume.",
+   "D": "$750=150\\cdot5$ multiplies the surface area by the edge; the volume is the edge cubed.",
+   "E": "$22{,}500=150^2$ squares the surface area, which has no connection to the volume."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "25"
+    },
+    {
+     "id": "C",
+     "text": "125"
+    },
+    {
+     "id": "D",
+     "text": "750"
+    },
+    {
+     "id": "E",
+     "text": "22,500"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-09-solids-15",
+  "lessonId": "q3-09-solids",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The cylinder has volume $\\pi\\cdot3^2\\cdot4=36\\pi\\approx36(3.14)=113$. The cube has volume $5^3=125$. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The volume of a right circular cylinder with radius 3 and height 4",
+   "quantityB": "The volume of a cube with edge length 5"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q3-09-solids-16",
+  "lessonId": "q3-09-solids",
+  "difficulty": 3,
+  "stem": "The rectangular solid shown has length 4, width 3 and height $h$. Its total surface area is 108. What is the value of $h$?",
+  "explanation": "Surface area $=2(\\ell w+\\ell h+wh)=2(12+4h+3h)=2(12+7h)=108$. So $12+7h=54$, $7h=42$ and $h=6$.",
+  "estSeconds": 90,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 230 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,150 130,150 130,50 30,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"50\" x2=\"75\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"20\" x2=\"175\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"20\" x2=\"130\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"150\" x2=\"175\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"120\" x2=\"175\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"150\" x2=\"75\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"75\" y1=\"120\" x2=\"175\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"75\" y1=\"120\" x2=\"75\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"80\" y=\"167\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"158\" y=\"150\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"20\" y=\"104\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">h</text></svg>",
+    "alt": "A rectangular box drawn in perspective. The front face is a rectangle whose bottom edge is labeled 4 and whose left edge is labeled h. The edge going back into the picture, along the right side, is labeled 3. Hidden edges are dashed."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q3-09-solids-17",
+  "lessonId": "q3-09-solids",
+  "difficulty": 3,
+  "stem": "A closed right circular cylinder has diameter 8 and height 5. What is its total surface area?",
+  "explanation": "The radius is $8\\div2=4$. The total surface area is $2\\pi r^2+2\\pi rh=2\\pi(16)+2\\pi(4)(5)=32\\pi+40\\pi=72\\pi$.",
+  "choiceExplanations": {
+   "A": "$40\\pi$ is the curved side only; the two circular bases add $32\\pi$.",
+   "C": "This uses $r=4$ for the bases but the diameter 8 for the curved side: $32\\pi+2\\pi(8)(5)$.",
+   "D": "This uses the diameter 8 as the radius: $2\\pi(64)+2\\pi(8)(5)$.",
+   "E": "$320\\pi$ is the volume with the diameter used as the radius, $\\pi\\cdot8^2\\cdot5$; this is not a surface area."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$40\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$72\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$112\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$208\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$320\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-09-solids-18",
+  "lessonId": "q3-09-solids",
+  "difficulty": 4,
+  "stem": "The edge length of a cube is increased by 50 percent. By what percent does the total surface area of the cube increase?",
+  "explanation": "With edge $s$, the surface area is $6s^2$. The new edge is $1.5s$, so the new surface area is $6(1.5s)^2=6\\cdot2.25s^2=2.25\\cdot(6s^2)$. That is $2.25$ times the original, an increase of $125$ percent.",
+  "estSeconds": 100,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 125
+  }
+ },
+ {
+  "id": "q3-09-solids-19",
+  "lessonId": "q3-09-solids",
+  "difficulty": 4,
+  "stem": "A right circular cylinder has radius 4 and height 4. Which of the following are true? Indicate all such statements.",
+  "explanation": "Volume: $\\pi r^2h=\\pi\\cdot16\\cdot4=64\\pi$. Curved side: $2\\pi rh=2\\pi\\cdot4\\cdot4=32\\pi$. Each circular base is $\\pi r^2=16\\pi$, so the total surface area is $32\\pi+2\\cdot16\\pi=64\\pi$.",
+  "choiceExplanations": {
+   "D": "$16\\pi$ is the area of one base; the volume also multiplies by the height 4.",
+   "E": "$64\\pi$ is the total surface area; the curved side alone is $32\\pi$."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The volume is $64\\pi$."
+    },
+    {
+     "id": "B",
+     "text": "The total surface area is $64\\pi$."
+    },
+    {
+     "id": "C",
+     "text": "The area of the curved side is $32\\pi$."
+    },
+    {
+     "id": "D",
+     "text": "The volume is $16\\pi$."
+    },
+    {
+     "id": "E",
+     "text": "The area of the curved side is $64\\pi$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-09-solids-20",
+  "lessonId": "q3-09-solids",
+  "difficulty": 5,
+  "stem": "The total surface area of a right circular cylinder, including both circular bases, is exactly 3 times the area of its curved side alone. The height of the cylinder is 5. The volume of the cylinder is $k\\pi$. What is the value of $k$?",
+  "explanation": "With radius $r$ and height $h$: $2\\pi r^2+2\\pi rh=3(2\\pi rh)$, so $2\\pi r^2=4\\pi rh$ and $r=2h=10$. The volume is $\\pi r^2h=\\pi\\cdot100\\cdot5=500\\pi$, so $k=500$.",
+  "estSeconds": 120,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 500
+  }
  }
 ]

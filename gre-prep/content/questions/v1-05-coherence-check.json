@@ -1188,7 +1188,7 @@
   "lessonId": "v1-05-coherence-check",
   "difficulty": 3,
   "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Logic check:** *though polished* introduces a flaw, and the colon explains it: answering without revealing anything is *evasive*. The other choices all mean *giving information*.",
+  "explanation": "**Logic check:** *though polished* introduces a flaw, and the colon explains it: answering without revealing anything is *noncommittal*. The other choices all mean *giving information*.",
   "choiceExplanations": {
    "A": "Contradicts *without revealing anything of substance*.",
    "B": "Contradicts the colon clause.",
@@ -1221,7 +1221,7 @@
       },
       {
        "id": "C",
-       "text": "evasive"
+       "text": "noncommittal"
       },
       {
        "id": "D",
@@ -1246,7 +1246,7 @@
   "lessonId": "v1-05-coherence-check",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
-  "explanation": "**Consistency check:** *Although ... cautious* sets up the opposite, firm and unbending: *uncompromising*; *as even her opponents concede* needs a creditable trait: *tireless*.",
+  "explanation": "**Consistency check:** *Although ... cautious* sets up the opposite, firm and unbending: *uncompromising*; *as even her opponents concede* needs a creditable trait: *indefatigable*.",
   "choiceExplanations": {
    "1A": "Easily bent; it would agree with *cautious*, which *although* rules out.",
    "1C": "Reserved, which would agree with cautious rather than contrast.",
@@ -1288,7 +1288,7 @@
      "choices": [
       {
        "id": "2A",
-       "text": "perfunctory"
+       "text": "halfhearted"
       },
       {
        "id": "2B",
@@ -1296,7 +1296,7 @@
       },
       {
        "id": "2C",
-       "text": "tireless"
+       "text": "indefatigable"
       }
      ]
     }

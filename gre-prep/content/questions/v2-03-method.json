@@ -1002,7 +1002,7 @@
    "choices": [
     {
      "id": "A",
-     "text": "unanimous"
+     "text": "harmonious"
     },
     {
      "id": "B",
@@ -1100,7 +1100,7 @@
   "choiceExplanations": {
    "A": "Contradicts *lacking in feeling*.",
    "C": "Matches *flawless* but not *yet curiously lacking*, so there is no contrast.",
-   "D": "Hesitant, which *technically flawless* contradicts.",
+   "D": "Unsure, which *technically flawless* contradicts.",
    "F": "Rough, the opposite of *flawless*."
   },
   "estSeconds": 65,
@@ -1130,7 +1130,7 @@
     },
     {
      "id": "D",
-     "text": "tentative"
+     "text": "hesitant"
     },
     {
      "id": "E",
@@ -1196,7 +1196,7 @@
     },
     {
      "id": "F",
-     "text": "nostalgic"
+     "text": "wistful"
     }
    ]
   },

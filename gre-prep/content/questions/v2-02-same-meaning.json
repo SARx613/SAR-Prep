@@ -753,7 +753,7 @@
    "A": "Guests would not ask for more.",
    "C": "A fault, not a reason for seconds.",
    "D": "A fault, not a reason for seconds.",
-   "F": "Nothing special would not draw requests for more."
+   "F": "An unremarkable cake would not prompt requests for more."
   },
   "estSeconds": 55,
   "skills": [
@@ -848,7 +848,7 @@
     },
     {
      "id": "F",
-     "text": "jubilant"
+     "text": "gleeful"
     }
    ]
   },
@@ -864,7 +864,7 @@
   "lessonId": "v2-02-same-meaning",
   "difficulty": 2,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "explanation": "**Clue:** *barely skimmed* means the summary was hasty and superficial. *Cursory* (hasty) and *perfunctory* (done as a bare duty) are not exact synonyms, but both sentences say the summary showed little effort.",
+  "explanation": "**Clue:** *barely skimmed* means the summary was hasty and superficial. *Cursory* (hasty) and *superficial* (lacking depth) are not exact synonyms, but both sentences say the summary showed little effort.",
   "choiceExplanations": {
    "A": "A thorough summary would show careful reading.",
    "B": "Careful and learned, not hasty.",
@@ -906,7 +906,7 @@
     },
     {
      "id": "F",
-     "text": "perfunctory"
+     "text": "superficial"
     }
    ]
   },
@@ -1041,7 +1041,7 @@
   "explanation": "**Clue:** *wounding but never quite insulting* describes sharp, stinging remarks: *barbed* and *biting*.",
   "choiceExplanations": {
    "A": "Friendly remarks would not wound or unsettle anyone.",
-   "C": "Gushing remarks would not wound.",
+   "C": "Restrained remarks would not wound.",
    "D": "Harmless, which contradicts *wounding*.",
    "F": "Length and shape, not sting."
   },
@@ -1068,7 +1068,7 @@
     },
     {
      "id": "C",
-     "text": "effusive"
+     "text": "reserved"
     },
     {
      "id": "D",
@@ -1212,7 +1212,7 @@
   "lessonId": "v2-02-same-meaning",
   "difficulty": 4,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "explanation": "**Clue:** praise that *borders on flattery* is excessive. *Effusive* and *fulsome* both mean lavish to the point of excess.",
+  "explanation": "**Clue:** praise that *borders on flattery* is excessive. *Unstinting* and *fulsome* both mean lavish to the point of excess.",
   "choiceExplanations": {
    "A": "Lukewarm praise is far from flattery.",
    "C": "Reluctant praise does not border on flattery.",
@@ -1238,7 +1238,7 @@
     },
     {
      "id": "B",
-     "text": "effusive"
+     "text": "unstinting"
     },
     {
      "id": "C",

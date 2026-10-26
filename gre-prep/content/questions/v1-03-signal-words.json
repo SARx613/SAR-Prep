@@ -940,7 +940,7 @@
   "choiceExplanations": {
    "B": "Agrees with *complicated*; *yet* needs a reversal and the facts show ease.",
    "C": "Agrees with *complicated*, which *yet* rules out.",
-   "D": "Cost is not discussed.",
+   "D": "Tedious work does not fit *five ingredients and ten minutes*.",
    "E": "Does not describe the work of making it."
   },
   "estSeconds": 60,
@@ -973,7 +973,7 @@
       },
       {
        "id": "D",
-       "text": "costly"
+       "text": "tedious"
       },
       {
        "id": "E",
@@ -1628,7 +1628,7 @@
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "explanation": "**Negation and result:** *would hardly have bothered* means that, had no defense been needed, they would not have defended it: *uncontroversial*. *Defend ... intensity of their defense* confirms blank 2; a defense that intense implies they thought it *vulnerable*.",
   "choiceExplanations": {
-   "1A": "A controversial proposal is exactly the kind sponsors defend, so *hardly* would be wrong.",
+   "1A": "A contested proposal is exactly the kind sponsors defend, so *hardly* would be wrong.",
    "1C": "A ruinous proposal would not reduce the need to defend it.",
    "2A": "Nobody abandons something vigorously.",
    "2B": "Disregarding it contradicts *defense*.",
@@ -1653,7 +1653,7 @@
      "choices": [
       {
        "id": "1A",
-       "text": "controversial"
+       "text": "contested"
       },
       {
        "id": "1B",

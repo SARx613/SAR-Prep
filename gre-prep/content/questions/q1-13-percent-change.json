@@ -476,5 +476,282 @@
   "answer": {
    "value": 25
   }
+ },
+ {
+  "id": "q1-13-percent-change-13",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 1,
+  "stem": "A town's population of 2,000 decreases by $5\\%$. What is the new population?",
+  "explanation": "$5\\%$ of 2,000 is 100. The new population is $2{,}000-100 = 1{,}900$. (Equivalently $2{,}000\\cdot0.95$.)",
+  "choiceExplanations": {
+   "A": "This is the amount of the decrease, not the new population.",
+   "C": "This subtracts 5 people, not $5\\%$.",
+   "D": "This adds 5 people.",
+   "E": "This increases the population by $5\\%$ instead of decreasing it."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "100"
+    },
+    {
+     "id": "B",
+     "text": "1,900"
+    },
+    {
+     "id": "C",
+     "text": "1,995"
+    },
+    {
+     "id": "D",
+     "text": "2,005"
+    },
+    {
+     "id": "E",
+     "text": "2,100"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-13-percent-change-14",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 2,
+  "stem": "A quantity increases from 36 to 45. What is the percent increase? Enter your answer as a percent.",
+  "explanation": "The change is $45-36 = 9$. The base is the initial amount, 36: $\\frac{9}{36} = 0.25$, which is $25\\%$.",
+  "estSeconds": 60,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 25
+  }
+ },
+ {
+  "id": "q1-13-percent-change-15",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Increasing 200 by $30\\%$ gives $200\\cdot1.3 = 260$. Decreasing 400 by $30\\%$ gives $400\\cdot0.7 = 280$. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The result of increasing 200 by $30\\%$",
+   "quantityB": "The result of decreasing 400 by $30\\%$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-13-percent-change-16",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 3,
+  "stem": "A price rises from 80 to 100 and then falls from 100 to 90. What is the overall percent increase from the original price of 80? Enter your answer as a percent.",
+  "explanation": "Compare the final price with the original one, and use the original as the base: $\\frac{90-80}{80} = \\frac{10}{80} = 0.125$, which is a $12.5\\%$ increase. The two step changes ($+25\\%$ and $-10\\%$) cannot simply be added.",
+  "estSeconds": 90,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 12.5
+  }
+ },
+ {
+  "id": "q1-13-percent-change-17",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 3,
+  "stem": "A shirt priced at \\$40 is marked down by $15\\%$. A coupon then takes $10\\%$ off the marked-down price. What is the final price, in dollars? Enter your answer as a decimal.",
+  "explanation": "Successive changes multiply: $40\\cdot0.85\\cdot0.9 = 34\\cdot0.9 = 30.6$. The final price is \\$30.60. (Taking $25\\%$ off at once would give \\$30.00, which is wrong because the second discount applies to the lower price.)",
+  "estSeconds": 90,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 30.6
+  }
+ },
+ {
+  "id": "q1-13-percent-change-18",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 4,
+  "stem": "Each of the following describes a sequence of two changes applied to 100. Which of them end with a value greater than 100? Indicate all such sequences.",
+  "explanation": "Multiply the factors. $1.5\\cdot0.8 = 1.2$ gives 120. $1.1\\cdot1.1 = 1.21$ gives 121. $0.9\\cdot1.15 = 1.035$ gives 103.5. The other two give $1.4\\cdot0.7 = 0.98$ and $0.8\\cdot1.25 = 1$, so 98 and exactly 100.",
+  "choiceExplanations": {
+   "A": "$100\\cdot1.4\\cdot0.7 = 98$, which is less than 100.",
+   "C": "$100\\cdot0.8\\cdot1.25 = 100$, which is equal, not greater."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Increase by $40\\%$, then decrease by $30\\%$"
+    },
+    {
+     "id": "B",
+     "text": "Increase by $50\\%$, then decrease by $20\\%$"
+    },
+    {
+     "id": "C",
+     "text": "Decrease by $20\\%$, then increase by $25\\%$"
+    },
+    {
+     "id": "D",
+     "text": "Increase by $10\\%$, then increase by $10\\%$"
+    },
+    {
+     "id": "E",
+     "text": "Decrease by $10\\%$, then increase by $15\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-13-percent-change-19",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 4,
+  "stem": "The number $A$ is $25\\%$ more than the number $B$, where $B>0$. $B$ is what percent less than $A$?",
+  "explanation": "Take $B = 100$. Then $A = 125$. $B$ is below $A$ by $25$, and the base is now $A$: $\\frac{25}{125} = 0.2 = 20\\%$.",
+  "choiceExplanations": {
+   "B": "The base changed: the percent decrease from $A$ to $B$ is measured relative to $A$, not $B$.",
+   "C": "$75\\%$ would mean $B$ is only a quarter of $A$.",
+   "D": "$B$ is $80\\%$ of $A$, which is $20\\%$ less, not $80\\%$ less.",
+   "E": "$A$ is $125\\%$ of $B$; this is not the decrease of $B$ below $A$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$20\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$25\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$75\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$80\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$125\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-13-percent-change-20",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 5,
+  "stem": "A price is increased by $p\\%$, and the new price is then decreased by $p\\%$. The final price is $4\\%$ below the original price. What is $p$?",
+  "explanation": "The final price is $(1+\\frac{p}{100})(1-\\frac{p}{100})$ times the original, and this must equal $0.96$. With $q = \\frac{p}{100}$: $1-q^2 = 0.96$, so $q^2 = 0.04$ and $q = 0.2$. Hence $p = 20$. Check: $1.2\\cdot0.8 = 0.96$.",
+  "estSeconds": 120,
+  "skills": [
+   "percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
  }
 ]
