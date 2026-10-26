@@ -49,7 +49,7 @@ Lis ce document en entier avant d'écrire une ligne de code. Il fixe le *quoi* e
 | Quantitative Reasoning, section 1 | 12 | 21 min |
 | Quantitative Reasoning, section 2 (adaptative selon la section 1) | 15 | 26 min |
 
-- Durée totale d'environ 1 h 58. Pas de section expérimentale non notée. Pas de pause.
+- Durée totale d'environ 1 h 58. Pas de pause. *(Correction après lecture de la page ETS : une section non notée peut être ajoutée, après l'écriture, et une section « research » identifiée peut venir en fin de test ; chaque section doit donc être traitée comme notée.)*
 - Scores : Verbal et Quant de 130 à 170 (par pas de 1), AW de 0 à 6 (par pas de 0,5).
 - **Adaptatif au niveau de la section**, pas de la question. À l'intérieur d'une section, on peut revenir en arrière, marquer une question (**Mark**) et ouvrir l'écran **Review**.
 - Pas de pénalité pour une mauvaise réponse. Une calculatrice à l'écran est disponible **uniquement en Quant**.
@@ -59,7 +59,7 @@ Lis ce document en entier avant d'écrire une ligne de code. Il fixe le *quoi* e
 - **Verbal**
   - **TC** (Text Completion) : 1 à 3 blancs. 5 choix s'il y a un seul blanc, 3 choix par blanc sinon. Aucun crédit partiel.
   - **SE** (Sentence Equivalence) : 6 choix, il faut en cocher exactement 2.
-  - **RC** (Reading Comprehension) : choix unique, « select one or more » ou « select-in-passage ».
+  - **RC** (Reading Comprehension) : choix unique (5 choix), « select one or more » (**exactement 3 choix, 1 à 3 bonnes réponses**) ou « select-in-passage » (clic sur une phrase du ou des paragraphes désignés).
 - **Quant**
   - **QC** (Quantitative Comparison) : 4 choix fixes, toujours dans le même ordre.
   - **PS** (Problem Solving) : choix unique (5 choix) ou « select one or more ».

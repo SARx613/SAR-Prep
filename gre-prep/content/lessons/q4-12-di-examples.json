@@ -1,8 +1,8 @@
 {
  "id": "q4-12-di-examples",
  "status": "draft",
- "why": "Data Interpretation sets reuse the same few traps (wrong base, percent versus count, overlapping groups), and a fixed routine for reading them saves time.",
- "rule": "Work every data set the same way.\n\n1. **Read first**: title, units, notes, totals, and what each percent is a percent *of*.\n2. **Compare like with like**: percents of the *same* total compare directly (a ratio of sectors is a ratio of percents). Percents of *different* totals do not: convert to counts, count $=$ percent $\\times$ total.\n3. **Percent change** $= \\frac{\\text{new} - \\text{old}}{\\text{old}}$; \"25% greater than last year\" divides by the *old* value.\n4. **Overlapping groups**: fill a Venn diagram (both, then only each, then neither).\n5. Estimate when the choices are far apart; calculate when they are close.",
+ "why": "In a GRE Data Interpretation set, several questions share one table, graph or other display, and they combine this chapter's skills: reading the data, percents of a total, percent change and overlapping groups.",
+ "rule": "1. **Read first**: title, units, notes, totals, and what each percent is a percent *of*.\n2. **Compare like with like**: percents of the *same* total compare directly (a ratio of sectors is a ratio of percents). Percents of *different* totals do not: convert to counts, count $=$ percent $\\times$ total.\n3. **Percent change** $= \\frac{\\text{new} - \\text{old}}{\\text{old}}$; \"25% greater than last year\" divides by the *old* value.\n4. **Overlapping groups**: fill a Venn diagram (both, then only each, then neither).",
  "examples": [
   {
    "prompt": "A circle graph shows a company's total expenses of 500 million dollars. The Marketing sector is 18% of the circle. Marketing spending is 25% greater than last year's. What was last year's Marketing spending?",

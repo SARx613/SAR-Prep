@@ -1,11 +1,11 @@
 {
  "id": "w1-02-planning",
  "status": "draft",
- "why": "ETS tells test takers to plan before writing, and the questions it lists are the quickest way to find a position, support and objections inside 30 minutes.",
+ "why": "ETS's advice for the Issue task sets out planning steps and questions to work through before writing, all within the 30 minutes.",
  "rule": "ETS's four planning steps:\n\n1. Read the claim and the instructions; be sure you understand both.\n2. Test the claim against your own ideas, experience, reading and observation: this is where reasons and examples come from.\n3. Decide the position you will defend.\n4. Choose your most compelling evidence (reasons, and real or hypothetical examples).\n\nAsk yourself:\n\n- What is the central issue, and what exactly do the instructions ask?\n- Do I agree with all or part of it? What does it assume, and is that reasonable?\n- Is it valid only under certain conditions? Which terms need my interpretation?\n- Who could refute me, and how will I acknowledge or answer them?\n\nThen note position, support and order.",
  "examples": [
   {
-   "prompt": "Claim: \"Employees work best when they are free to decide how to do their jobs.\" Instructions: discuss the extent to which you agree or disagree, considering ways the statement might or might not hold true.",
+   "prompt": "Claim: \"Employees work best when they are free to decide how to do their jobs.\" Instructions (paraphrased): say how far you agree or disagree, considering where the statement would and would not hold true.",
    "steps": [
     "Central issue: how much freedom produces the best work. Instructions: a position plus ways the statement does and does not hold.",
     "Assumption: all employees are equally able to use freedom well. Not always reasonable: a new hire may need structure.",

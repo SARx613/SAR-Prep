@@ -2,7 +2,7 @@
  "id": "q1-04-fraction-operations",
  "status": "draft",
  "why": "Fraction arithmetic runs through almost every Quant question, from pure computation to word problems and ratios.",
- "rule": "A **fraction** $\\frac{c}{d}$ has integers $c$ and $d\\ne0$; every integer $n$ equals $\\frac{n}{1}$. Multiplying numerator and denominator by the same nonzero integer gives an equivalent fraction, and dividing out a common factor reduces it. Also $\\frac{-c}{d} = \\frac{c}{-d} = -\\frac{c}{d}$.\n\n- **Add or subtract:** rewrite over a common denominator (a common multiple of the denominators), then combine the numerators only.\n- **Multiply:** numerators together, denominators together.\n- **Divide:** multiply by the reciprocal of the second fraction.",
+ "rule": "A **fraction** $\\frac{c}{d}$ has integers $c$ and $d\\ne0$; every integer $n$ equals $\\frac{n}{1}$. Multiplying numerator and denominator by the same nonzero integer gives an equivalent fraction, and dividing out a common factor reduces it.\n\n- **Add or subtract:** rewrite over a common denominator (a common multiple of the denominators), then combine the numerators only.\n- **Multiply:** numerators together, denominators together. \"$\\frac{c}{d}$ of $x$\" means $\\frac{c}{d}\\cdot x$.\n- **Divide:** multiply by the reciprocal of the second fraction.\n- **Compare:** over a common positive denominator, the larger numerator is the larger fraction. A positive fraction is less than 1 exactly when its numerator is less than its denominator.",
  "examples": [
   {
    "prompt": "Compute $\\frac{5}{6}-\\frac{3}{8}$.",

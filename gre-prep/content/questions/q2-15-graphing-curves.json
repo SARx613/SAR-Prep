@@ -421,13 +421,13 @@
   "id": "q2-15-graphing-curves-12",
   "lessonId": "q2-15-graphing-curves",
   "difficulty": 5,
-  "stem": "What is the area of the region in the $xy$-plane that satisfies all three inequalities $y\\ge0$, $y\\le x$ and $x+y\\le6$?",
-  "explanation": "The boundaries meet at $(0,0)$ (where $y=0$ and $y=x$), at $(6,0)$ (where $y=0$ and $x+y=6$) and at $(3,3)$ (where $y=x$ and $x+y=6$). The triangle has base 6 and height 3: area $=\\frac12\\cdot6\\cdot3=9$.",
+  "stem": "What is the greatest value of $y$ at any point of the $xy$-plane that satisfies all three inequalities $y\\ge0$, $y\\le x$ and $x+y\\le6$?",
+  "explanation": "Adding $y\\le x$ and $y\\le 6-x$ gives $2y\\le6$, so $y\\le3$. The value 3 is reached at $(3,3)$, where the lines $y=x$ and $x+y=6$ meet, so the greatest value is 3.",
   "choiceExplanations": {
-   "A": "6 is only the length of the base.",
-   "C": "12 does not match any base and height of this triangle.",
-   "D": "18 forgets the factor $\\frac12$.",
-   "E": "36 is the area of the square with side 6."
+   "A": "The region reaches higher than 1: the point (3, 3) satisfies all three inequalities.",
+   "B": "The point (3, 3) is in the region and has y = 3.",
+   "D": "No point of the region has y above 3, since 2y ≤ x + y ≤ 6.",
+   "E": "y = 6 would need x ≥ 6 and x + y ≤ 6, which cannot both hold."
   },
   "estSeconds": 120,
   "skills": [
@@ -435,10 +435,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -447,29 +444,29 @@
    "choices": [
     {
      "id": "A",
-     "text": "6"
+     "text": "1"
     },
     {
      "id": "B",
-     "text": "9"
+     "text": "2"
     },
     {
      "id": "C",
-     "text": "12"
+     "text": "3"
     },
     {
      "id": "D",
-     "text": "18"
+     "text": "4"
     },
     {
      "id": "E",
-     "text": "36"
+     "text": "6"
     }
    ]
   },
   "answer": {
    "choices": [
-    "B"
+    "C"
    ]
   }
  }

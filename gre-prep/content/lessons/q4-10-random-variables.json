@@ -1,8 +1,8 @@
 {
  "id": "q4-10-random-variables",
  "status": "draft",
- "why": "Probability distributions, expected value and \"area equals probability\" are the bridge between data sets and the normal distribution on the GRE.",
- "rule": "A **random variable** $X$ is a numerical outcome of a random experiment, for example a value chosen at random from a data set.\n\n- Its **probability distribution** lists each value $x$ with $P(X = x)$. Each probability is between 0 and 1 and they add to 1. In a histogram of the distribution, bar area is proportional to probability.\n- For several values, add: $P(X \\ge 3) = P(3) + P(4) + \\cdots$.\n- **Mean (expected value)** $= \\sum x \\cdot P(x)$: each value times its probability.\n- A randomly chosen data value has the data's relative frequency distribution.\n- A **continuous** random variable has probabilities equal to areas under a curve (total area 1), and $P(X = a) = 0$ for any single value $a$.",
+ "why": "Random variables and probability distributions are on ETS's list of GRE data-analysis topics; questions give a distribution as a table or graph and ask for probabilities, the expected value or other statistics.",
+ "rule": "A **random variable** $X$ is a number whose value is decided by a random experiment.\n\n- Its **probability distribution** lists each value $x$ with $P(X = x)$. Each probability is between 0 and 1 and they add to 1.\n- For several values, add: $P(X \\ge 3) = P(3) + P(4) + \\cdots$.\n- **Mean (expected value)** $= \\sum x \\cdot P(x)$: each value times its probability.\n- **Mode**: the most probable value. **Median**: the first value where the running total of probabilities (from the least value up) passes 0.5; if it equals 0.5 exactly at a value, take the midpoint of that value and the next.\n- A randomly chosen data value has the data's relative frequency distribution.\n- A **continuous** random variable has probabilities equal to areas under a curve (total area 1), and $P(X = a) = 0$ for any single value $a$.",
  "examples": [
   {
    "prompt": "A random variable takes the values 1, 2, 3, 4 with probabilities 0.1, 0.4, $p$, 0.2. Find $p$ and the expected value.",
@@ -13,12 +13,13 @@
    "answer": "$p = 0.3$, expected value 2.6"
   },
   {
-   "prompt": "A value $X$ is chosen at random from the data 1, 1, 2, 2, 2, 3, 3, 3, 3, 5. Find $P(X = 3)$ and the mean of $X$.",
+   "prompt": "$X$ takes the values 0, 1, 2, 3 with probabilities 0.3, 0.1, 0.4, 0.2. Find the mode, the median and $P(X < \\text{mean})$.",
    "steps": [
-    "3 appears 4 times in 10 values: $P(X = 3) = 0.4$.",
-    "Distribution: $P(1) = 0.2$, $P(2) = 0.3$, $P(3) = 0.4$, $P(5) = 0.1$. Mean $= 0.2 + 0.6 + 1.2 + 0.5 = 2.5$, the mean of the data."
+    "Mode: 2, the value with the greatest probability (0.4).",
+    "Running totals: 0.3 at 0, 0.4 at 1, 0.8 at 2. The total first passes 0.5 at 2, so the median is 2.",
+    "Mean $= 0(0.3) + 1(0.1) + 2(0.4) + 3(0.2) = 1.5$, so $P(X < 1.5) = P(0) + P(1) = 0.4$."
    ],
-   "answer": "$P(X = 3) = 0.4$, mean 2.5"
+   "answer": "Mode 2, median 2, $P(X < \\text{mean}) = 0.4$"
   }
  ],
  "trap": "The expected value is a weighted average, not the plain average of the possible values: with unequal probabilities these differ. Check that the probabilities add to 1 before using them.",

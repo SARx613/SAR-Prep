@@ -2,7 +2,7 @@
  "id": "q0-04-numeric-entry",
  "status": "draft",
  "why": "Numeric Entry has no choices to reveal a mistake, so form, units and rounding decide whether a correct calculation scores.",
- "rule": "- **Form**: integers and decimals go in one box; a fraction goes in two (numerator, denominator).\n- **Labels**: note units (feet or miles), orders of magnitude (millions, billions) and percent versus decimal. If a percent sign follows the box, enter $37.5$, not $0.375$.\n- **Rounding**: if told to round, do it to the stated place. Keep all intermediate values exact and round **only the final answer**. A positive number exactly halfway rounds to the greater value; a negative one to the lesser. With no rounding instruction, enter the exact value.\n- **Check**: is the answer reasonable for the context?",
+ "rule": "- **Form**: integers and decimals go in one box; a fraction goes in two (numerator, denominator).\n- **Labels**: note units (feet or miles), orders of magnitude (millions, billions) and percent versus decimal. If a percent sign follows the box, enter $37.5$, not $0.375$.\n- **Rounding**: if told to round, do it to the stated place. Keep all intermediate values exact and round **only the final answer**. A positive number exactly halfway rounds to the greater value. With no rounding instruction, enter the exact value.\n- **Check**: is the answer reasonable for the context?",
  "examples": [
   {
    "prompt": "What percent of 24 is 18, if the answer box is followed by a percent sign?",
@@ -21,7 +21,7 @@
    "answer": "8.13"
   }
  ],
- "trap": "Rounding along the way. If you replace $\\frac{100}{7}$ by 14.3 and multiply back by 7 you get 100.1, not the exact 100. Also easy to forget: a box labelled in millions needs 48.3, not 48,300,000.",
+ "trap": "Rounding along the way. If you replace $\\frac{100}{7}$ by 14.3 and multiply back by 7 you get 100.1, not the exact 100.",
  "checks": [
   {
    "id": "q0-04-numeric-entry-c1",

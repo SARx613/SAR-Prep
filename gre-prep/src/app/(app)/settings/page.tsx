@@ -2,6 +2,7 @@
 
 import { signIn, signOut, useSession } from 'next-auth/react';
 import { Download, LogOut, Trash2 } from 'lucide-react';
+import { OfflineButton } from '@/components/OfflineButton';
 import { ATTEMPTS_KEY } from '@/lib/attempts';
 import { PROGRESS_KEY, resetProgress } from '@/lib/storage';
 import { resetSeriesStats, SERIES_STATS_KEY } from '@/lib/series';
@@ -96,6 +97,14 @@ export default function SettingsPage() {
               <button disabled={status === 'loading'} onClick={() => signIn('google')} className="h-10 rounded-[var(--radius)] bg-accent px-4 text-sm font-semibold text-accent-fg">Continue with Google</button>
             </>
           )}
+        </div>
+      </section>
+
+      <section className="mt-8 space-y-3" aria-labelledby="s-offline">
+        <h2 id="s-offline" className="text-sm font-bold uppercase tracking-wide text-faint">Offline</h2>
+        <div className={row}>
+          <div><p className="font-semibold">Study without a connection</p><p className="text-sm text-muted">Downloads every lesson and practice set to this device. Progress is always saved locally and syncs when you are back online.</p></div>
+          <OfflineButton />
         </div>
       </section>
 

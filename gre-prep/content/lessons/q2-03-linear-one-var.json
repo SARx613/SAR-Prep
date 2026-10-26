@@ -2,7 +2,7 @@
  "id": "q2-03-linear-one-var",
  "status": "draft",
  "why": "Linear equations underlie almost every algebra word problem, and equations that look linear but have no solution (or every solution) are a favorite Quantitative Comparison twist.",
- "rule": "Do the same thing to both sides: add or subtract any number, multiply or divide by any **nonzero** number, or replace an expression by an equivalent one (expand brackets, combine like terms).\n\nPlan: clear fractions (multiply by the common denominator), expand, collect the variable terms on one side, then divide. Substitute back to check.\n\nSome linear equations are special:\n- they reduce to a false statement such as $3=14$: **no solution**;\n- they reduce to a true statement such as $0=0$: an **identity**, true for every $x$.",
+ "rule": "Do the same thing to both sides: add or subtract any number, multiply or divide by any **nonzero** number, or replace an expression by an equivalent one (expand brackets, combine like terms).\n\nPlan: clear fractions (multiply by the common denominator), expand, collect the variable terms on one side, then divide.\n\nIf the $x$-terms cancel, the equation is special:\n- it reduces to a false statement such as $5=9$: **no solution**;\n- it reduces to a true statement such as $0=0$: an **identity**, true for every $x$.",
  "examples": [
   {
    "prompt": "Solve $\\dfrac{x+3}{4}-\\dfrac{x-1}{6}=2$.",
@@ -24,7 +24,7 @@
    "answer": "Infinitely many: every $x$ works (an identity)"
   }
  ],
- "trap": "A minus sign in front of a bracket changes **every** term inside: $-(x-5)=-x+5$. And a result like $0=11$ is not a mistake; it means the equation has no solution.",
+ "trap": "A minus sign in front of a bracket changes **every** term inside: $-(x-5)=-x+5$. And a result like $0=7$ is not a mistake; it means the equation has no solution.",
  "checks": [
   {
    "id": "q2-03-linear-one-var-c1",

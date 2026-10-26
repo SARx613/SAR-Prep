@@ -6,9 +6,18 @@
  * intercepted, so a stale cache can never shadow real progress data.
  */
 
-const VERSION = 'sar-prep-v1';
+const VERSION = 'sar-prep-v2';
 const PRECACHE = [
   '/',
+  '/learn',
+  '/practice',
+  '/review',
+  '/stats',
+  '/mock',
+  '/plan',
+  '/writing',
+  '/settings',
+  '/more',
   '/games',
   '/flashcards',
   '/words.json',
@@ -65,8 +74,11 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(request)
         .then((res) => {
-          const copy = res.clone();
-          caches.open(VERSION).then((c) => c.put(request, copy));
+          // Never cache an error page: offline would then show it as if it were the lesson.
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(VERSION).then((c) => c.put(request, copy));
+          }
           return res;
         })
         .catch(() =>

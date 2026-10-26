@@ -203,7 +203,7 @@
   "id": "q2-13-coordinate-basics-06",
   "lessonId": "q2-13-coordinate-basics",
   "difficulty": 3,
-  "stem": "In the figure, the vertices of triangle $ABC$ are $A(-2,-1)$, $B(6,-1)$ and $C(6,5)$. What is the perimeter of the triangle?",
+  "stem": "In the figure, the vertices of triangle $ABC$ are $A(-2,-1)$, $B(6,-1)$ and $C(6,5)$. What is the sum of the lengths of the three sides of the triangle?",
   "explanation": "$AB=8$ (same $y$) and $BC=6$ (same $x$). Triangle $ABC$ has a right angle at $B$, so $AC=\\sqrt{64+36}=10$. Perimeter $=8+6+10=24$.",
   "choiceExplanations": {
    "A": "This is $AB+BC$, leaving out the hypotenuse.",
@@ -225,10 +225,7 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",

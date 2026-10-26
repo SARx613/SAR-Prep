@@ -86,18 +86,15 @@
   "id": "q2-12-interest-03",
   "lessonId": "q2-12-interest",
   "difficulty": 2,
-  "stem": "\\$8,000 is invested at a simple annual interest rate of 4.5 percent. How many dollars of interest does it earn in half a year?",
-  "explanation": "Interest $=8000\\cdot0.045\\cdot\\frac12=180$.",
+  "stem": "A deposit of \\$6,000 earns simple interest at 3.6 percent per year. How many dollars of interest does it earn in 8 months?",
+  "explanation": "One year earns $6000\\cdot0.036=216$ dollars. Eight months is $\\frac{8}{12}=\\frac23$ of a year, so the interest is $216\\cdot\\frac23=144$.",
   "estSeconds": 75,
   "skills": [
    "interest"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -106,7 +103,7 @@
    "unit": "dollars"
   },
   "answer": {
-   "value": 180
+   "value": 144
   }
  },
  {

@@ -2,7 +2,7 @@
  "id": "w1-05-timing-editor",
  "status": "draft",
  "why": "You get one 30-minute Issue task in a basic ETS word processor with no spelling or grammar help, so your time plan and your editing habits must fit those conditions.",
- "rule": "- The Issue task lasts **30 minutes**; reading, planning and writing all come out of that time.\n- You type in a basic ETS word processor that can **insert text, delete text, cut-and-paste and undo the previous action**. There is **no spellchecker or grammar checker**.\n- Budget three phases: consider the issue and instructions, plan, compose. Then **save a few minutes at the end** to check for obvious errors.\n- An occasional error will not affect your score; serious and persistent errors lower it.\n- Practise untimed or timed as you prefer, but finish with full 30-minute responses.",
+ "rule": "- The Issue task lasts **30 minutes**; reading, planning and writing all come out of that time.\n- Topics span many subjects but need **no specific content knowledge**.\n- ETS's basic word processor lists only **insert, delete, cut and paste, and undo of your last action**: **no spellchecker or grammar checker**.\n- Allow time to consider the issue and instructions, plan and compose your best writing; **keep a few final minutes** to check for obvious errors.\n- An occasional error will not affect your score; serious and persistent errors lower it.\n- Practise on ETS's published topics: sketch responses, start untimed or timed, then write full 30-minute responses and compare them with the scoring guide or a fellow student's.",
  "examples": [
   {
    "prompt": "Sketch a 30-minute budget that follows ETS's advice. (The split is illustrative; ETS gives no fixed numbers.)",
@@ -24,7 +24,7 @@
    "answer": "Use cut-and-paste (and undo if needed); spelling must be checked by you."
   }
  ],
- "trap": "Planning not at all, or writing until time runs out with nothing left for a check. Also assuming the editor will catch your errors: it has no spellchecker or grammar checker, and it lists only insert, delete, cut-and-paste and undo of the previous action.",
+ "trap": "Skipping the plan, or writing until time runs out with nothing left for a check, while trusting the editor to catch errors it cannot catch.",
  "checks": [
   {
    "id": "w1-05-timing-editor-c1",

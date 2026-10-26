@@ -2,8 +2,7 @@
  "id": "q1-10-real-properties",
  "status": "draft",
  "why": "These properties justify the algebra and sign reasoning behind many \"must be true\" and QC questions.",
- "rule": "For real numbers $r,s,t$:\n\n- **Order and grouping:** $r+s = s+r$, $rs = sr$; $(r+s)+t = r+(s+t)$, $(rs)t = r(st)$.\n- **Distributive:** $r(s+t) = rs+rt$.\n- **Identities:** $r+0 = r$, $r\\cdot0 = 0$, $r\\cdot1 = r$.\n- **Zero product:** if $rs = 0$, then $r=0$ or $s=0$ (or both).\n- **Division by 0 is undefined**, including $\\frac{0}{0}$.\n- **Signs:** positive + positive and positive $\\cdot$ positive are positive; negative + negative is negative; negative $\\cdot$ negative is positive; positive $\\cdot$ negative is negative.\n- **Absolute value:** $|rs| = |r|\\,|s|$ and $|r+s|\\le|r|+|s|$ (triangle inequality).\n- **Squares:** if $r>1$ then $r^2>r$; if $0<s<1$ then $s^2<s$.",
- "lengthJustification": "The Math Review lists twelve properties and the practice set draws on all of them; each is a one-line statement.",
+ "rule": "For real numbers $r,s,t$:\n\n- **Commutative:** $r+s = s+r$ and $rs = sr$.\n- **Distributive:** $r(s+t) = rs+rt$.\n- **Zero product:** if $rs = 0$, then $r=0$ or $s=0$ (or both).\n- **Division by 0 is undefined.**\n- **Signs:** positive + positive and positive $\\cdot$ positive are positive; negative + negative is negative; negative $\\cdot$ negative is positive; positive $\\cdot$ negative is negative.\n- **Absolute value:** $|rs| = |r|\\,|s|$ and $|r+s|\\le|r|+|s|$ (triangle inequality).\n- **Squares:** if $r>1$ then $r^2>r$; if $0<s<1$ then $s^2<s$.",
  "examples": [
   {
    "prompt": "Compute $36\\cdot47+36\\cdot53$.",
@@ -23,7 +22,7 @@
    "answer": "$|r+s|<|r|+|s|$"
   }
  ],
- "trap": "Squaring does not always enlarge: $s^2<s$ when $0<s<1$ (and $s^2=s$ for $s=0,1$). Also $|r+s|=|r|+|s|$ only when $r$ and $s$ have the same sign, and $\\frac{0}{0}$ is undefined, not 0 or 1.",
+ "trap": "Squaring does not always enlarge: $s^2<s$ when $0<s<1$ (and $s^2=s$ for $s=0,1$). Also $|r+s|$ is smaller than $|r|+|s|$ whenever $r$ and $s$ have opposite signs.",
  "checks": [
   {
    "id": "q1-10-real-properties-c1",

@@ -2,7 +2,7 @@
  "id": "v1-02-method",
  "status": "draft",
  "why": "Reading, predicting and then matching beats testing every combination of choices, which is slow and error-prone.",
- "rule": "Do not test every combination. Instead:\n\n1. **Read** the whole text for its overall sense.\n2. **Mark** significant words: structure words (*although*, *moreover*) and words central to the topic.\n3. **Predict** a word or phrase for the blank, then look for a similar one among the choices.\n4. **Fill** each blank.\n5. **Check** that the finished text is coherent in logic, grammar and style.",
+ "rule": "Do not test every combination. Instead:\n\n1. **Read** the whole text for its overall sense.\n2. **Mark** significant words: structure words (*although*, *moreover*) and words central to the topic.\n3. **Predict** a word or phrase for each blank, then look for a similar one among the choices.\n4. **Check** that the finished text is coherent in logic, grammar and style.",
  "examples": [
   {
    "prompt": "The senator is known for her ______ approach: she studies every proposal at length before offering an opinion. Choices: impetuous, deliberate, sentimental, combative, indifferent.",
@@ -16,7 +16,7 @@
    "answer": "deliberate"
   }
  ],
- "trap": "Looking at the choices before predicting. The wrong choices are built to sound attractive, and a prediction made first protects you from them.",
+ "trap": "Looking at the choices before predicting. A wrong choice can sound attractive on its own; a word you predicted from the clues first makes it easier to resist.",
  "checks": [
   {
    "id": "v1-02-method-c1",

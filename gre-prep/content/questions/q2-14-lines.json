@@ -394,18 +394,15 @@
   "id": "q2-14-lines-11",
   "lessonId": "q2-14-lines",
   "difficulty": 5,
-  "stem": "The lines $y=2x$ and $y=-x+9$ and the $x$-axis enclose a triangle. What is its area?",
-  "explanation": "The two lines meet where $2x=-x+9$, so $x=3$ and $y=6$. The line $y=2x$ meets the $x$-axis at $(0,0)$ and $y=-x+9$ meets it at $(9,0)$. Base $=9$ along the $x$-axis, height $=6$: area $=\\frac12\\cdot9\\cdot6=27$.",
+  "stem": "The lines $y=2x$ and $y=-x+9$ and the $x$-axis enclose a triangle. What is the $y$-coordinate of the vertex of the triangle that is not on the $x$-axis?",
+  "explanation": "That vertex is where the two lines meet: $2x=-x+9$ gives $x=3$, and then $y=2\\cdot3=6$. (The other two vertices are the $x$-intercepts $(0,0)$ and $(9,0)$.)",
   "estSeconds": 120,
   "skills": [
    "lines-slope"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -413,7 +410,7 @@
    "format": "integer"
   },
   "answer": {
-   "value": 27
+   "value": 6
   }
  },
  {

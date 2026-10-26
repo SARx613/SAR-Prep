@@ -2,7 +2,7 @@
  "id": "q2-10-average-rate-work",
  "status": "draft",
  "why": "Average, distance-rate-time and combined-work problems are the most common story problems in GRE Quant, in every format.",
- "rule": "**Average** (arithmetic mean) $=\\dfrac{\\text{sum}}{\\text{number of values}}$, so *sum = average × count*. Use totals whenever a value is added, removed or missing.\n\n**Rate:** $d=rt$. Keep units matching (minutes to hours). Average speed is total distance divided by total time, not the mean of the speeds.\n\n**Work:** a job done alone in $a$ hours has rate $\\frac1a$ per hour. Rates working together add: $\\frac1a+\\frac1b=\\frac1t$. A drain has a negative rate.",
+ "rule": "**Average** (arithmetic mean) $=\\dfrac{\\text{sum}}{\\text{number of values}}$, so *sum = average × count*. Use totals whenever a value is added, removed or missing.\n\n**Rate:** $d=rt$. Keep units matching (minutes to hours). Average speed is total distance divided by total time, not the mean of the speeds.\n\n**Work:** a job done alone in $a$ hours has rate $\\frac1a$ per hour, and work done is rate times time (part of the job). Rates working together add: $\\frac1a+\\frac1b=\\frac1t$. A drain has a negative rate.",
  "examples": [
   {
    "prompt": "A student scored 78, 85 and 91 on three quizzes. What must the fourth score be for a mean of 86?",

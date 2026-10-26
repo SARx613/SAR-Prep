@@ -1,8 +1,8 @@
 {
  "id": "q4-07-counting-principles",
  "status": "draft",
- "why": "Counting items (\"how many arrangements?\", \"how many committees?\") are common in Problem Solving and are also the basis of probability.",
- "rule": "**Multiplication principle**: for choices made one after another, multiply the number of options at each step. If repeats are not allowed, later steps have fewer options (26, then 25, then 24...).\n\n- $n! = n(n-1)\\cdots 2 \\cdot 1$, and $0! = 1$. $n$ objects can be put in order in $n!$ ways.\n- **Order matters** (permutations): choosing and ordering $k$ of $n$ objects gives $\\frac{n!}{(n-k)!}$.\n- **Order does not matter** (combinations): $\\binom{n}{k} = \\frac{n!}{k!\\,(n-k)!}$, and $\\binom{n}{k} = \\binom{n}{n-k}$.\n\nAsk first: does swapping two chosen items make a different outcome?",
+ "why": "Counting methods such as permutations and combinations are on ETS's list of GRE data-analysis topics, and they supply the totals used in probability questions.",
+ "rule": "**Multiplication principle**: for choices made one after another, multiply the number of options at each step. If repeats are not allowed, later steps have fewer options (26, then 25, then 24...).\n\n- $n! = n(n-1)\\cdots 2 \\cdot 1$, and $0! = 1$. $n$ objects can be put in order in $n!$ ways.\n- **Order matters** (permutations): choosing and ordering $k$ of $n$ objects gives $\\frac{n!}{(n-k)!}$.\n- **Order does not matter** (combinations): $\\binom{n}{k} = \\frac{n!}{k!\\,(n-k)!}$, and $\\binom{n}{k} = \\binom{n}{n-k}$.\n\nAsk first: does swapping two chosen items make a different outcome?\n\nConsequences:\n\n- Separate groups (2 men *and* 2 women): count each, then multiply.\n- A restricted position: fill it first.\n- Items kept together: order them as one block, then order inside the block.\n- \"At least\" or \"not both\": count all, then subtract the unwanted outcomes.",
  "examples": [
   {
    "prompt": "From 6 candidates, how many ways are there to choose (a) a president and a vice president, (b) a 2-person committee?",
@@ -13,12 +13,13 @@
    "answer": "(a) 30, (b) 15"
   },
   {
-   "prompt": "A plate has 2 different letters followed by 2 digits (digits may repeat). How many plates are possible?",
+   "prompt": "From 7 people, including Xu and Yan, how many 3-person committees include at least one of Xu and Yan?",
    "steps": [
-    "Letters: $26 \\times 25$ (no repeats). Digits: $10 \\times 10$.",
-    "Multiply: $26 \\times 25 \\times 10 \\times 10 = 65{,}000$."
+    "All committees: $\\binom{7}{3} = \\frac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = 35$.",
+    "Unwanted (neither Xu nor Yan): choose all 3 from the other 5, $\\binom{5}{3} = 10$.",
+    "Subtract: $35 - 10 = 25$."
    ],
-   "answer": "65,000"
+   "answer": "25"
   }
  ],
  "trap": "Using a combination when order matters (or the reverse): a \"president and vice president\" pair is ordered, a \"committee\" is not. And when repeats are forbidden, do not use the same number of options at every step.",

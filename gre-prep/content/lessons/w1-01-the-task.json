@@ -5,7 +5,7 @@
  "rule": "The measure is one **30-minute \"Analyze an Issue\" task**: a claim plus instructions. Raters do not look for a \"right\" position; they reward the skill with which you follow the instructions and develop your argument.\n\nThe instructions come in six sets. Each adds a requirement:\n\n- **Statement:** consider ways it might or might not hold true.\n- **Recommendation:** describe specific circumstances where adopting it would or would not be advantageous.\n- **Claim + challenge:** address the most compelling reasons or examples against your position.\n- **Two views:** say which is closer to yours; address both.\n- **Claim + reason:** judge the claim *and* the reason it rests on.\n- **Policy:** consider the possible consequences of implementing it.",
  "examples": [
   {
-   "prompt": "Claim: \"Every city should ban private cars from its central districts.\" Instructions: discuss the extent to which you agree or disagree with the recommendation, and describe specific circumstances in which adopting it would or would not be advantageous.",
+   "prompt": "Claim: \"Every city should ban private cars from its central districts.\" Instructions (paraphrased): say how far you agree or disagree with this recommendation, and describe circumstances where adopting it would or would not be advantageous.",
    "steps": [
     "The word \"recommendation\" and the phrase \"circumstances ... would or would not be advantageous\" mark the recommendation set.",
     "Required beyond a position: at least one circumstance where the ban helps and one where it does not.",
@@ -15,7 +15,7 @@
    "answer": "Recommendation set: a position plus circumstances on both sides, tied back to the position."
   },
   {
-   "prompt": "Two views: \"Museums should protect objects above all\" and \"Museums should let visitors handle objects.\" Instructions: discuss which view more closely aligns with your own position, and address both views.",
+   "prompt": "Two views: \"Museums should protect objects above all\" and \"Museums should let visitors handle objects.\" Instructions (paraphrased): say which view is closer to your own position, and address both views.",
    "steps": [
     "This is the two-views set: you must choose the closer view.",
     "You must also address the view you do not choose, for example by saying what it gets right and where it falls short.",

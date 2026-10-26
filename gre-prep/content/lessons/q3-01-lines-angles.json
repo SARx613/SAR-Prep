@@ -2,7 +2,7 @@
  "id": "q3-01-lines-angles",
  "status": "draft",
  "why": "Angle-chasing with crossing and parallel lines is a staple of GRE geometry, in Quantitative Comparison and problem solving alike.",
- "rule": "A **midpoint** splits a segment into two equal parts.\n\nWhen two lines cross they form four angles that add up to 360°. **Opposite (vertical) angles** are equal, so any two neighbouring angles add up to 180°. Lines that make four equal angles are **perpendicular**: each angle is a 90° **right angle**. An angle below 90° is **acute**; one between 90° and 180° is **obtuse**.\n\n**Parallel lines** never meet. A third line crossing two parallel lines makes eight angles: four equal $x^\\circ$ and four equal $y^\\circ$, with $x+y=180$.\n\nThe distance from a point to a line is measured along the perpendicular.",
+ "rule": "A **midpoint** splits a segment into two equal parts.\n\nAngles that together make a straight line add up to 180°; angles around a point add up to 360°. When two lines cross, **opposite (vertical) angles** are equal. Lines crossing at four equal angles are **perpendicular**: each is a 90° **right angle**. An angle below 90° is **acute**; one between 90° and 180° is **obtuse**.\n\n**Parallel lines** never meet. When a third line crosses two parallel lines, both crossings show the same four angles in the same positions: four equal $x^\\circ$ and four equal $y^\\circ$, with $x+y=180$.\n\nThe distance from a point to a line is the length of the perpendicular segment, the shortest path from the point to the line.",
  "examples": [
   {
    "prompt": "Two lines cross. One of the four angles measures $(3a+5)^\\circ$ and a neighbouring angle measures $(a+35)^\\circ$. Find all four angles.",

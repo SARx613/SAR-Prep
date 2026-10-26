@@ -1,4 +1,4 @@
-import { BarChart3, BookOpen, Dumbbell, Home, Layers, MoreHorizontal, PenLine, Repeat, Settings, Timer, type LucideIcon } from 'lucide-react';
+import { BarChart3, CalendarDays, BookOpen, Dumbbell, Home, Layers, MoreHorizontal, PenLine, Repeat, Settings, Timer, type LucideIcon } from 'lucide-react';
 
 export interface NavItem {
   href: string;
@@ -14,6 +14,7 @@ export const NAV: NavItem[] = [
   { href: '/practice', label: 'Practice', icon: Dumbbell, tab: true },
   { href: '/review', label: 'Review', icon: Repeat, tab: true },
   { href: '/mock', label: 'Mock tests', icon: Timer },
+  { href: '/plan', label: 'Study plan', icon: CalendarDays },
   { href: '/writing', label: 'Writing', icon: PenLine },
   { href: '/flashcards', label: 'Vocabulary', icon: Layers },
   { href: '/stats', label: 'Stats', icon: BarChart3 },

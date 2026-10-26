@@ -2,7 +2,7 @@
  "id": "q1-08-decimals",
  "status": "draft",
  "why": "Decimal place value and decimal/fraction conversion are the base of percent, ratio and data problems.",
- "rule": "Each digit has a place value that is a power of 10: in $4{,}806.253$ the digits after the point are $2\\cdot10^{-1}+5\\cdot10^{-2}+3\\cdot10^{-3}$. A terminating decimal is an integer over a power of 10: $3.7 = \\frac{37}{10}$, $0.248 = \\frac{248}{1000}$.\n\nCompute by converting to fractions: $0.3\\cdot0.04 = \\frac{3}{10}\\cdot\\frac{4}{100} = \\frac{12}{1000} = 0.012$ (decimal places add in a product). For a quotient, scale top and bottom by the same power of 10.\n\nDividing numerator by denominator turns a fraction into a decimal that either **terminates** ($\\frac{5}{8} = 0.625$) or **repeats** ($\\frac{2}{9} = 0.\\overline{2}$). Exactly the rational numbers have such decimals; one that does neither (like $\\sqrt{3}$) is **irrational**.",
+ "rule": "Each digit has a place value that is a power of 10: in $4{,}806.253$ the digits after the point are 2 tenths, 5 hundredths and 3 thousandths, that is $2\\cdot10^{-1}+5\\cdot10^{-2}+3\\cdot10^{-3}$. A terminating decimal is an integer over a power of 10: $3.7 = \\frac{37}{10}$, $0.248 = \\frac{248}{1000}$.\n\nCompute by converting to fractions (decimal places add in a product). For a quotient, scale top and bottom by the same power of 10.\n\nDividing numerator by denominator turns a fraction into a decimal that either **terminates** ($\\frac{7}{20} = 0.35$) or **repeats** ($\\frac{2}{9} = 0.\\overline{2}$). Exactly the rational numbers have such decimals; one that does neither (like $\\sqrt{2} = 1.41421\\ldots$) is **irrational**.",
  "examples": [
   {
    "prompt": "Compute $2.5\\times0.12$.",
@@ -20,7 +20,7 @@
    "answer": "40"
   }
  ],
- "trap": "Place value is easy to misplace: $0.05\\ne0.5$, and $0.3\\times0.4$ is $0.12$, not $1.2$ or $0.012$ (count decimal places). A repeating decimal such as $0.\\overline{2}$ is rational, not irrational.",
+ "trap": "Place value is easy to misplace: $0.05\\ne0.5$, and $0.6\\times0.7$ is $0.42$, not $4.2$ or $0.042$ (count decimal places).",
  "checks": [
   {
    "id": "q1-08-decimals-c1",

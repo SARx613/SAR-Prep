@@ -10,6 +10,16 @@ export interface QIndexItem {
   type: string;
   section: 'verbal' | 'quant';
   difficulty: number;
+  /** RC: the passage these questions share. */
+  passageId?: string;
+  /** DI: items that share one figure share this key. */
+  figureKey?: string;
+}
+
+function hash(s: string): string {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+  return h.toString(36);
 }
 
 export function questionIndex(): QIndexItem[] {
@@ -19,6 +29,7 @@ export function questionIndex(): QIndexItem[] {
     for (const q of qs) {
       if (!isPlayable(q)) continue;
       out.push({
+        passageId: q.passageId, figureKey: q.figure ? hash(JSON.stringify(q.figure)) : undefined,
         id: q.id, lessonId: setId, chapter: setId.split('-')[0], type: q.type,
         section: sectionOf(q.type), difficulty: q.difficulty,
       });

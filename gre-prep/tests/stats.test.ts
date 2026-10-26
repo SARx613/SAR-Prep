@@ -21,3 +21,27 @@ describe('stats', () => {
     expect(streak([mk('a', true, now - 3 * DAY)], now)).toBe(0);
   });
 });
+
+import { mergeAttempts, mergeState } from '@/lib/sync';
+
+describe('sync merge rules', () => {
+  it('unions attempts and reports only what the server lacks', () => {
+    const a = mk('a', true, 1), b = mk('b', false, 2), c = mk('c', true, 3);
+    const { merged, toPush } = mergeAttempts([a, b], [b, c]);
+    expect(merged.map((x) => x.qid)).toEqual(['a', 'b', 'c']);
+    expect(toPush.map((x) => x.qid)).toEqual(['a']);
+  });
+  it('is idempotent', () => {
+    const a = mk('a', true, 1);
+    expect(mergeAttempts([a], [a]).toPush).toHaveLength(0);
+  });
+  it('state: local scalars win, reasons union, newest mock part wins', () => {
+    const local = { examDate: '2026-12-01', reasons: { q1: 'guess' as const }, mocks: { m1: { verbal1: { correct: 9, total: 12, ts: 5 } } } };
+    const remote = { examDate: '2026-11-01', weeklyHours: 6, reasons: { q2: 'careless' as const }, mocks: { m1: { verbal1: { correct: 4, total: 12, ts: 9 } } } };
+    const out = mergeState(local, remote);
+    expect(out.examDate).toBe('2026-12-01');
+    expect(out.weeklyHours).toBe(6);
+    expect(Object.keys(out.reasons!).sort()).toEqual(['q1', 'q2']);
+    expect(out.mocks!.m1.verbal1!.correct).toBe(4);
+  });
+});

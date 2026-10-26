@@ -2,7 +2,7 @@
  "id": "q1-02-divisibility-primes",
  "status": "draft",
  "why": "Prime and divisor reasoning underlies fraction reduction, LCM/GCD and many \"must be true\" integer questions.",
- "rule": "An integer $c$ is **divisible** by $d$ when $c = dk$ for an integer $k$ (remainder 0). A **prime** is an integer greater than 1 whose only positive divisors are 1 and itself; 2 is the only even prime and 1 is not prime. A **composite** number is an integer greater than 1 that is not prime.\n\nEvery integer greater than 1 has exactly one **prime factorisation**, e.g. $72 = 2^3\\cdot3^2$. A number $d$ divides $c$ exactly when each prime of $d$ appears in $c$ at least as many times.\n\nTo build the divisors of $c$, pick for each prime an exponent from 0 up to its power in $c$. The number of positive divisors is the product of (exponent + 1) over all primes.",
+ "rule": "An integer $c$ is **divisible** by $d$ when $c = dk$ for an integer $k$ (remainder 0). A **prime** is an integer greater than 1 whose only positive divisors are 1 and itself; 2 is the only even prime and 1 is not prime. To test whether $n$ is prime, try dividing only by primes $p$ with $p^2\\le n$.\n\nEvery integer greater than 1 has exactly one **prime factorisation**, e.g. $72 = 2^3\\cdot3^2$; squaring doubles each exponent: $72^2 = 2^6\\cdot3^4$. A number $d$ divides $c$ exactly when each prime of $d$ appears in $c$ at least as many times.\n\nTo build the divisors of $c$, pick for each prime an exponent from 0 up to its power in $c$. The number of positive divisors is the product of (exponent + 1) over all primes.",
  "examples": [
   {
    "prompt": "Is 252 divisible by 18?",
@@ -21,7 +21,7 @@
    "answer": "24"
   }
  ],
- "trap": "1 is not prime, 2 is prime (and even), and being odd does not make a number prime: $51 = 3\\cdot17$ and $91 = 7\\cdot13$.",
+ "trap": "1 is not prime, 2 is prime (and even), and being odd does not make a number prime: $69 = 3\\cdot23$ and $133 = 7\\cdot19$.",
  "checks": [
   {
    "id": "q1-02-divisibility-primes-c1",

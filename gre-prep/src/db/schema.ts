@@ -7,6 +7,7 @@ import {
   smallint,
   text,
   timestamp,
+  uniqueIndex,
   index,
   uuid,
 } from 'drizzle-orm/pg-core';
@@ -86,117 +87,37 @@ export const usersProgress = pgTable('users_progress', {
     .defaultNow(),
 });
 
-/* ── Question bank ────────────────────────────────────────────────────────
- * Common fields are typed columns so they stay filterable and indexable;
- * per-type structure lives in `content`/`answer`, keyed off `type`.
+/* ── Practice sync ───────────────────────────────────────────────────────
+ * Questions and lessons live in the repo (content/), not here. The database
+ * keeps only what a learner produces, so progress follows them across devices.
+ *
+ * `attempt_log` is append-only and keyed (user, question, timestamp) so a
+ * device can push the same batch twice without duplicating rows.
  */
 
-export const passages = pgTable('passages', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  title: text('title'),
-  body: text('body').notNull(),
-  wordCount: integer('word_count'),
-  topic: text('topic'),
-  difficulty: smallint('difficulty'),
-  source: text('source'),
-  createdAt: timestamp('created_at', { withTimezone: true })
-    .notNull()
-    .defaultNow(),
-});
-
-export const figures = pgTable('figures', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  kind: text('kind').notNull(), // bar | line | pie | table | scatter
-  title: text('title'),
-  data: jsonb('data').notNull(),
-  notes: text('notes'),
-  createdAt: timestamp('created_at', { withTimezone: true })
-    .notNull()
-    .defaultNow(),
-});
-
-export const questions = pgTable(
-  'questions',
+export const attemptLog = pgTable(
+  'attempt_log',
   {
     id: uuid('id').primaryKey().defaultRandom(),
-    // TC | SE | RC | QC | PS | NE | DI
+    userId: text('user_id').notNull().references(() => users.id, { onDelete: 'cascade' }),
+    qid: text('qid').notNull(),
+    lessonId: text('lesson_id').notNull(),
     type: text('type').notNull(),
-    section: text('section').notNull(), // verbal | quant
-    topic: text('topic').notNull(),
-    subtopic: text('subtopic'),
     difficulty: smallint('difficulty').notNull(),
-
-    passageId: uuid('passage_id').references(() => passages.id, {
-      onDelete: 'cascade',
-    }),
-    figureId: uuid('figure_id').references(() => figures.id, {
-      onDelete: 'cascade',
-    }),
-
-    stem: text('stem').notNull(),
-    content: jsonb('content').notNull(),
-    answer: jsonb('answer').notNull(),
-    explanation: text('explanation'),
-
-    source: text('source'),
-    tags: text('tags').array().notNull().default([]),
-    createdAt: timestamp('created_at', { withTimezone: true })
-      .notNull()
-      .defaultNow(),
+    correct: boolean('correct').notNull(),
+    ms: integer('ms').notNull(),
+    mode: text('mode').notNull(),
+    ts: timestamp('ts', { withTimezone: true }).notNull(),
   },
   (t) => [
-    index('questions_section_type_difficulty_idx').on(
-      t.section,
-      t.type,
-      t.difficulty
-    ),
-    index('questions_topic_idx').on(t.topic),
+    uniqueIndex('attempt_log_user_q_ts').on(t.userId, t.qid, t.ts),
+    index('attempt_log_user_ts').on(t.userId, t.ts),
   ]
 );
 
-/* ── Practice tracking ────────────────────────────────────────────────────
- * `attempts` is append-only: every pass at a question inserts a row, so
- * progress over time stays reconstructable. Current status is derived,
- * never overwritten.
- */
-
-export const testSessions = pgTable('test_sessions', {
-  id: uuid('id').primaryKey().defaultRandom(),
-  userId: text('user_id')
-    .notNull()
-    .references(() => users.id, { onDelete: 'cascade' }),
-  mode: text('mode').notNull(), // practice | quiz | full_test
-  config: jsonb('config'),
-  startedAt: timestamp('started_at', { withTimezone: true })
-    .notNull()
-    .defaultNow(),
-  completedAt: timestamp('completed_at', { withTimezone: true }),
-  score: jsonb('score'),
+/** Small per-user preferences and results: exam date, error reasons, mock scores. */
+export const userState = pgTable('user_state', {
+  userId: text('user_id').primaryKey().references(() => users.id, { onDelete: 'cascade' }),
+  state: jsonb('state').notNull().default({}),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
 });
-
-export const attempts = pgTable(
-  'attempts',
-  {
-    id: uuid('id').primaryKey().defaultRandom(),
-    userId: text('user_id')
-      .notNull()
-      .references(() => users.id, { onDelete: 'cascade' }),
-    questionId: uuid('question_id')
-      .notNull()
-      .references(() => questions.id, { onDelete: 'cascade' }),
-    sessionId: uuid('session_id').references(() => testSessions.id, {
-      onDelete: 'set null',
-    }),
-    response: jsonb('response'),
-    isCorrect: boolean('is_correct').notNull(),
-    timeSpentMs: integer('time_spent_ms'),
-    flagged: boolean('flagged').notNull().default(false),
-    createdAt: timestamp('created_at', { withTimezone: true })
-      .notNull()
-      .defaultNow(),
-  },
-  (t) => [
-    index('attempts_user_question_idx').on(t.userId, t.questionId),
-    index('attempts_user_created_idx').on(t.userId, t.createdAt),
-  ]
-);

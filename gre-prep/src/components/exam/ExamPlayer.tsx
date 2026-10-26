@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, Clock, Eye, EyeOff, LayoutGrid, X } from 'lucide-react';
 import { grade as gradeQuestion, type Grade } from '@/lib/grading';
@@ -44,6 +45,8 @@ interface Props {
   attemptMode?: Attempt['mode'];
   /** sessionStorage key to survive a reload. */
   storageKey?: string;
+  /** If it returns a URL the player navigates there instead of showing results (mock section 1 → 2). */
+  afterFinish?: (results: PlayerResult[]) => string | null;
 }
 
 const fmtClock = (s: number) => {
@@ -53,7 +56,8 @@ const fmtClock = (s: number) => {
 
 interface Saved { idx: number; sels: Record<string, Selection>; marked: string[]; elapsed: number; graded: Record<string, { grade: Grade; ms: number }> }
 
-export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey }: Props) {
+export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish }: Props) {
+  const router = useRouter();
   const [idx, setIdx] = useState(0);
   const [sels, setSels] = useState<Record<string, Selection>>({});
   const [marked, setMarked] = useState<Set<string>>(new Set());
@@ -152,11 +156,13 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       })),
     );
     if (storageKey) try { sessionStorage.removeItem(storageKey); } catch { /* ignore */ }
+    onComplete?.(out);
+    const next = afterFinish?.(out) ?? null;
+    if (next) { router.push(next); return; }
     setResults(out);
     setView('results');
     setReviewing(false);
-    onComplete?.(out);
-  }, [bank, questions, sels, graded, attemptMode, mode, storageKey, onComplete]);
+  }, [bank, questions, sels, graded, attemptMode, mode, storageKey, onComplete, afterFinish, router]);
 
   // Time's up in timed mode ends the section, as on the real test.
   const remaining = mode === 'timed' && timeLimitSec ? timeLimitSec - elapsed : null;

@@ -2,7 +2,7 @@
  "id": "q2-11-mixtures",
  "status": "draft",
  "why": "Mixture problems (solutions, alloys, blends of items with different prices) are a standard GRE story type, often hidden inside a percent question.",
- "rule": "Track the **pure part**, because it is the only quantity that adds up cleanly:\n\n$$\\text{pure amount}=\\text{concentration}\\times\\text{total amount}.$$\n\nFor a mix, *pure in + pure in = pure out*: $c_1a+c_2b=c\\,(a+b)$.\n\nAdded water or oil has concentration 0; added pure substance has 100 percent. Blends of items priced differently work the same way: total cost $=\\sum(\\text{price}\\times\\text{amount})$.\n\nWrite the equation for the pure part (or the cost), with the new total in the denominator or on the right.",
+ "rule": "Track the **pure part**, because it is the only quantity that adds up cleanly:\n\n$$\\text{pure amount}=\\text{concentration}\\times\\text{total amount}.$$\n\nFor a mix, *pure in + pure in = pure out*: $c_1a+c_2b=c\\,(a+b)$.\n\nAdded water or oil has concentration 0; added pure substance has 100 percent. Blends of items priced differently work the same way: total cost $=\\sum(\\text{price}\\times\\text{amount})$.\n\nMixing two different concentrations gives one strictly between them, nearer the one used in the larger amount.",
  "examples": [
   {
    "prompt": "How many liters of water must be added to 20 liters of a 30 percent salt solution to make a 12 percent solution?",

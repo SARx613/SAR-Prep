@@ -2,7 +2,7 @@
  "id": "v1-04-multi-blank",
  "status": "draft",
  "why": "Two- and three-blank items reward a plan: settle the blank whose clue is clearest, then use it to reason about the others.",
- "rule": "Each blank has three choices and one correct answer, and **all must be right**.\n\n- You need not fill blanks in order. **Start with the blank whose clue is clearest.**\n- Make your choice, then see whether another blank has become easier.\n- If no choice for another blank makes sense, **go back and reconsider** your first selection.\n- Do not weigh every combination: with three blanks there are 27, which is slow and invites error.",
+ "rule": "Each blank has three choices and one correct answer, and **all must be right**.\n\n- You need not fill blanks in order. **Start with the blank whose clue is clearest.**\n- Make your choice, then see whether another blank has become easier.\n- If no choice then works for another blank, your first pick is probably wrong: **revisit it**.",
  "examples": [
   {
    "prompt": "The committee's report was (i)______ in its praise of the program, so the director's (ii)______ response, which rejected its conclusions outright, surprised everyone.  (i) lavish | grudging | brief;  (ii) hostile | grateful | hesitant.",
@@ -14,7 +14,7 @@
    "answer": "(i) lavish, (ii) hostile"
   }
  ],
- "trap": "Going strictly left to right and locking in an early guess. If another blank has no sensible choice, the first selection is probably wrong; revisit it.",
+ "trap": "Going strictly left to right and keeping an early guess even after it leaves a later blank with no sensible choice.",
  "checks": [
   {
    "id": "v1-04-multi-blank-c1",

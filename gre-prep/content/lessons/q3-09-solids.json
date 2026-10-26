@@ -13,12 +13,12 @@
    "answer": "Volume 180, surface area 202"
   },
   {
-   "prompt": "A right circular cylinder has radius 2 and height 7. Find its volume and surface area.",
+   "prompt": "A right circular cylinder has radius 5 and height 2. Find its volume and surface area.",
    "steps": [
-    "$V=\\pi\\cdot2^2\\cdot7=28\\pi$.",
-    "Surface area $=2\\pi\\cdot2^2+2\\pi\\cdot2\\cdot7=8\\pi+28\\pi=36\\pi$."
+    "$V=\\pi\\cdot5^2\\cdot2=50\\pi$.",
+    "Surface area $=2\\pi\\cdot5^2+2\\pi\\cdot5\\cdot2=50\\pi+20\\pi=70\\pi$."
    ],
-   "answer": "Volume $28\\pi$, surface area $36\\pi$"
+   "answer": "Volume $50\\pi$, surface area $70\\pi$"
   }
  ],
  "trap": "The cylinder formulas use the *radius*: if you are given the diameter, halve it first. And surface area is not volume: for a cylinder remember the two circular bases as well as the curved side, and never mix square and cubic units.",

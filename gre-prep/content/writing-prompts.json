@@ -1,0 +1,132 @@
+{
+ "instructions": {
+  "statement": "Discuss the extent to which you agree or disagree with the statement and explain your reasoning. Consider ways in which the statement might or might not hold true, and explain how these considerations shape your position.",
+  "recommendation": "Discuss the extent to which you agree or disagree with the recommendation and explain your reasoning. Describe specific circumstances in which adopting it would or would not be advantageous, and explain how these examples shape your position.",
+  "claim-challenge": "Discuss the extent to which you agree or disagree with the claim. Be sure to address the most compelling reasons or examples that could be used to challenge your position.",
+  "two-views": "Discuss which of the two views more closely matches your own and explain your reasoning. Address both views in developing your position.",
+  "claim-reason": "Discuss the extent to which you agree or disagree with the claim and with the reason on which that claim is based.",
+  "policy": "Discuss your views on the policy and explain your reasoning. Consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+ },
+ "prompts": [
+  {
+   "id": "p01",
+   "set": "statement",
+   "claim": "Public libraries matter less every year, because almost any book can now be read on a screen."
+  },
+  {
+   "id": "p02",
+   "set": "statement",
+   "claim": "People learn more from their failures than from their successes."
+  },
+  {
+   "id": "p03",
+   "set": "statement",
+   "claim": "A city's most important buildings should be preserved even when new construction would serve more people."
+  },
+  {
+   "id": "p04",
+   "set": "statement",
+   "claim": "The more choices people have, the less satisfied they tend to be."
+  },
+  {
+   "id": "p05",
+   "set": "recommendation",
+   "claim": "Cities should ban private cars from their central districts."
+  },
+  {
+   "id": "p06",
+   "set": "recommendation",
+   "claim": "Every student should be required to learn a second language before leaving school."
+  },
+  {
+   "id": "p07",
+   "set": "recommendation",
+   "claim": "Companies should publish the salaries of all their employees."
+  },
+  {
+   "id": "p08",
+   "set": "recommendation",
+   "claim": "National museums should be free for every visitor, funded entirely by taxes."
+  },
+  {
+   "id": "p09",
+   "set": "claim-challenge",
+   "claim": "Leaders who consult widely make better decisions than leaders who rely on their own judgment."
+  },
+  {
+   "id": "p10",
+   "set": "claim-challenge",
+   "claim": "Technological progress inevitably leaves human society better off."
+  },
+  {
+   "id": "p11",
+   "set": "claim-challenge",
+   "claim": "Competition among students does more harm than good to learning."
+  },
+  {
+   "id": "p12",
+   "set": "claim-challenge",
+   "claim": "The best way to understand a culture is to live in it rather than to study it."
+  },
+  {
+   "id": "p13",
+   "set": "two-views",
+   "claim": "Some people believe that creativity is a gift that cannot be taught. Others believe that anyone can become more creative with the right training."
+  },
+  {
+   "id": "p14",
+   "set": "two-views",
+   "claim": "Some argue that a nation's first duty is to protect its own citizens' interests. Others argue that it has equal duties to people everywhere."
+  },
+  {
+   "id": "p15",
+   "set": "two-views",
+   "claim": "One view holds that expertise is best built by focusing on one field. Another holds that it is best built by moving among many."
+  },
+  {
+   "id": "p16",
+   "set": "two-views",
+   "claim": "Some think that history is shaped mainly by exceptional individuals. Others think it is shaped mainly by large impersonal forces."
+  },
+  {
+   "id": "p17",
+   "set": "claim-reason",
+   "claim": "Scientists should explain their work to the public in plain language, because public support is essential for research to continue."
+  },
+  {
+   "id": "p18",
+   "set": "claim-reason",
+   "claim": "Schools should start later in the morning, because teenagers learn best when they have had enough sleep."
+  },
+  {
+   "id": "p19",
+   "set": "claim-reason",
+   "claim": "Governments should fund the arts, because a society without art loses its sense of identity."
+  },
+  {
+   "id": "p20",
+   "set": "claim-reason",
+   "claim": "Remote work should be the default for office jobs, because it gives employees more control over their time."
+  },
+  {
+   "id": "p21",
+   "set": "policy",
+   "claim": "A government introduces a tax on sugary drinks to improve public health."
+  },
+  {
+   "id": "p22",
+   "set": "policy",
+   "claim": "A university requires all first-year students to take a course in ethics."
+  },
+  {
+   "id": "p23",
+   "set": "policy",
+   "claim": "A town limits the number of tourists allowed into its historic centre each day."
+  },
+  {
+   "id": "p24",
+   "set": "policy",
+   "claim": "A country sets a maximum age for holding its highest political office."
+  }
+ ]
+}

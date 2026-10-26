@@ -2,15 +2,15 @@
  "id": "q1-11-ratio",
  "status": "draft",
  "why": "Ratios drive scaling, mixture, rate and percent problems in both PS and QC.",
- "rule": "The **ratio** of $s$ to $t$ is the fraction $\\frac{s}{t}$, also written \\\"$s$ to $t$\\\" or $s:t$. Reduce it by dividing by the GCD: $10:15 = 2:3$. Three or more quantities work the same way: $6:24:18 = 1:4:3$. Order matters: $2:3$ is not $3:2$.\n\nA ratio $a:b$ means the quantities are $ak$ and $bk$ for some $k$; a total of $a+b$ is split into $a+b$ equal parts. A **proportion** equates two ratios; solve it by cross-multiplication: $\\frac{x}{45} = \\frac{7}{15}$ gives $15x = 7\\cdot45$.",
+ "rule": "The **ratio** of $s$ to $t$ is the fraction $\\frac{s}{t}$, also written \"$s$ to $t$\" or $s:t$. Reduce it by dividing by the GCD: $10:15 = 2:3$. Three or more quantities work the same way: $6:24:18 = 1:4:3$.\n\nA ratio $a:b$ means the quantities are $ak$ and $bk$ for some $k$, so a total splits into $a+b$ equal parts. A **proportion** equates two ratios; solve it by cross-multiplication. To link ratios through a shared quantity, multiply: $\\frac{a}{c} = \\frac{a}{b}\\cdot\\frac{b}{c}$.",
  "examples": [
   {
-   "prompt": "The ratio of boys to girls is $3:5$ and the class has 40 students. How many boys?",
+   "prompt": "The ratio of cats to dogs at a shelter is $2:7$, and there are 45 animals, all cats or dogs. How many cats?",
    "steps": [
-    "Parts: $3+5 = 8$; each part is $40\\div8 = 5$.",
-    "Boys: $3\\cdot5 = 15$."
+    "Parts: $2+7 = 9$; each part is $45\\div9 = 5$.",
+    "Cats: $2\\cdot5 = 10$."
    ],
-   "answer": "15"
+   "answer": "10"
   },
   {
    "prompt": "Find $x$ so that the ratio of $x$ to 36 equals the ratio of 7 to 12.",
@@ -21,7 +21,7 @@
    "answer": "21"
   }
  ],
- "trap": "$3:5$ boys to girls does not mean $\\frac{3}{5}$ of the class are boys: boys are $\\frac{3}{8}$ of the class. Also keep the order of the ratio, and scale by multiplying, never by adding.",
+ "trap": "$4:5$ boys to girls does not mean $\\frac{4}{5}$ of the class are boys: boys are $\\frac{4}{9}$ of the class. Also keep the order of the ratio ($2:3$ is not $3:2$), and scale by multiplying, never by adding.",
  "checks": [
   {
    "id": "q1-11-ratio-c1",

@@ -108,10 +108,7 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "DI",
@@ -365,10 +362,7 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "DI",

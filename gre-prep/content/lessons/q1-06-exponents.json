@@ -2,7 +2,7 @@
  "id": "q1-06-exponents",
  "status": "draft",
  "why": "Exponent evaluation, especially with negative bases and negative or zero exponents, drives many QC traps.",
- "rule": "$a^n$ (for a positive integer $n$) means $a$ multiplied by itself $n$ times. A negative base to an **even** power is positive, to an **odd** power negative. Parentheses matter: $(-4)^2 = 16$ but $-4^2 = -16$, because the exponent acts on 4 alone.\n\nFor $a\\ne0$: $a^0 = 1$ (and $0^0$ is undefined), and $a^{-n} = \\dfrac{1}{a^n}$. So $2^{-3} = \\frac{1}{8}$, and a negative exponent never changes the sign of the base. For a fraction, flip it: $\\left(\\frac{3}{5}\\right)^{-1} = \\frac{5}{3}$.",
+ "rule": "$a^n$ (for a positive integer $n$) means $a$ multiplied by itself $n$ times. A negative base to an **even** power is positive, to an **odd** power negative. Parentheses matter: $(-4)^2 = 16$ but $-4^2 = -16$, because the exponent acts on 4 alone.\n\nFor $a\\ne0$: $a^0 = 1$ and $a^{-n} = \\dfrac{1}{a^n}$. For a fraction, flip it: $\\left(\\frac{3}{5}\\right)^{-1} = \\frac{5}{3}$.",
  "examples": [
   {
    "prompt": "Evaluate $(-2)^3+(-3)^2-2^{-2}$.",
@@ -21,7 +21,7 @@
    "answer": "$\\frac{16}{9}$"
   }
  ],
- "trap": "$-4^2$ is $-16$, not $16$: only $(-4)^2$ is 16. A zero exponent gives 1, not 0 ($5^0 = 1$), and $2^{-3}$ is $\\frac{1}{8}$, not $-8$.",
+ "trap": "A zero exponent gives 1, not 0 ($7^0 = 1$). A negative exponent makes a reciprocal, never a negative number: $5^{-2}$ is $\\frac{1}{25}$, not $-25$.",
  "checks": [
   {
    "id": "q1-06-exponents-c1",

@@ -2,7 +2,7 @@
  "id": "q1-03-remainders-parity",
  "status": "draft",
  "why": "Remainder and odd/even reasoning turns up in \"must be true\" questions and in problems about repeating cycles.",
- "rule": "Dividing $c$ by a positive integer $d$ gives $c = qd + r$ with integers $q, r$ and $0 \\le r < d$. Find the greatest multiple of $d$ not above $c$; $r$ is the gap. For negative $c$ the multiple is below $c$: $-17 = (-4)(5) + 3$. If $c < d$, then $q=0$ and $r=c$. The remainder is 0 exactly when $d$ divides $c$.\n\nIf $n = qd + r$, then $n + k = qd + (r+k)$: add to the remainder, then reduce below $d$.\n\n**Parity.** even + even, odd + odd = even; even + odd = odd. even $\\cdot$ any = even; odd $\\cdot$ odd = odd. Subtraction has the same parity as addition.",
+ "rule": "Dividing $c$ by a positive integer $d$ gives $c = qd + r$ with integers $q, r$ and $0 \\le r < d$. Find the greatest multiple of $d$ not above $c$; $r$ is the gap. For negative $c$ the multiple is below $c$: $-17 = (-4)(5) + 3$. If $c < d$, then $q=0$ and $r=c$. The remainder is 0 exactly when $d$ divides $c$.\n\nMultiples of $d$ never change the remainder. So if $n = qd + r$, then $n + k$ and $kn$ leave the same remainders as $r + k$ and $kr$: compute, then reduce below $d$.\n\n**Parity.** even + even, odd + odd = even; even + odd = odd. even $\\cdot$ any = even; odd $\\cdot$ odd = odd. Subtraction has the same parity as addition.",
  "examples": [
   {
    "prompt": "What is the remainder when $-41$ is divided by 6?",

@@ -2,15 +2,15 @@
  "id": "q1-09-number-line-abs",
  "status": "draft",
  "why": "Ordering numbers and reading absolute value as a distance underlies inequalities, QC comparisons and data problems.",
- "rule": "Every real number (rational or irrational) is a point on the **number line**; the greater number is the one farther right, so $-2>-5$. Write $x<y$ for strict order and $x\\le y$ when equality is allowed. An **interval** is all numbers between endpoints: $-1<x<5$ excludes both, $-1\\le x\\le5$ includes both; one-sided examples are $x>2$ and $x\\le2$.\n\nThe **absolute value** $|x|$ is the distance from $x$ to 0: $|x| = x$ if $x\\ge0$ and $|x| = -x$ if $x<0$. It is never negative. So $|x| = 6$ means $x = \\pm6$, and $|x|<6$ means $-6<x<6$.",
+ "rule": "Every real number (rational or irrational) is a point on the **number line**; the greater number is the one farther right, so $-2>-5$. Write $x<y$ for strict order and $x\\le y$ when equality is allowed. An **interval** is all numbers between endpoints: $-1<x<5$ excludes both, $-1\\le x\\le5$ includes both.\n\nThe **absolute value** $|x|$ is the distance from $x$ to 0: $|x| = x$ if $x\\ge0$ and $|x| = -x$ if $x<0$. So $|x| = 6$ means $x = \\pm6$, and $|x|<6$ means $-6<x<6$.",
  "examples": [
   {
-   "prompt": "Order from least to greatest: $-\\frac{3}{2},\\ -0.4,\\ \\frac{1}{3},\\ -2,\\ 0.3$.",
+   "prompt": "Order from least to greatest: $-\\frac{5}{4},\\ -0.7,\\ \\frac{2}{3},\\ -3,\\ 0.6$.",
    "steps": [
-    "Negatives first, farthest from 0 is least: $-2<-\\frac{3}{2}<-0.4$.",
-    "Positives: $0.3<\\frac{1}{3}$ because $\\frac{1}{3} = 0.333\\ldots$"
+    "Negatives first, farthest from 0 is least: $-3<-\\frac{5}{4}<-0.7$.",
+    "Positives: $0.6<\\frac{2}{3}$ because $\\frac{2}{3} = 0.666\\ldots$"
    ],
-   "answer": "$-2,\\ -\\frac{3}{2},\\ -0.4,\\ 0.3,\\ \\frac{1}{3}$"
+   "answer": "$-3,\\ -\\frac{5}{4},\\ -0.7,\\ 0.6,\\ \\frac{2}{3}$"
   },
   {
    "prompt": "Evaluate $|-7|-|3-8|$.",

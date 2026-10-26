@@ -2,7 +2,7 @@
  "id": "q1-12-percent",
  "status": "draft",
  "why": "Percent appears in PS, QC and data-interpretation questions, and it is the base of every percent-change problem.",
- "rule": "**Percent** means per hundred: $p\\% = \\frac{p}{100}$. So $45\\% = 0.45$, $0.8\\% = 0.008$ and $175\\% = 1.75$. The symbol matters: $0.2 = 20\\%$, but $0.2\\% = 0.002$.\n\nWith **part**, **whole** and percent $p$: $\\text{part} = \\frac{p}{100}\\cdot\\text{whole}$. Hence $p = \\dfrac{\\text{part}}{\\text{whole}}\\cdot100$ and $\\text{whole} = \\dfrac{\\text{part}}{p/100}$. The part can exceed the whole: then $p>100$ (21 is $350\\%$ of 6).",
+ "rule": "**Percent** means per hundred: $p\\% = \\frac{p}{100}$. So $45\\% = 0.45$, $0.8\\% = 0.008$ and $175\\% = 1.75$.\n\nWith **part**, **whole** and percent $p$: $\\text{part} = \\frac{p}{100}\\cdot\\text{whole}$. Hence $p = \\dfrac{\\text{part}}{\\text{whole}}\\cdot100$ and $\\text{whole} = \\dfrac{\\text{part}}{p/100}$. The part can exceed the whole: then $p>100$ (21 is $350\\%$ of 6).",
  "examples": [
   {
    "prompt": "What percent of 80 is 14?",
@@ -13,15 +13,15 @@
    "answer": "$17.5\\%$"
   },
   {
-   "prompt": "18 is $40\\%$ of what number?",
+   "prompt": "26 is $40\\%$ of what number?",
    "steps": [
-    "$0.4w = 18$.",
-    "$w = \\frac{18}{0.4} = 45$."
+    "$0.4w = 26$.",
+    "$w = \\frac{26}{0.4} = 65$."
    ],
-   "answer": "45"
+   "answer": "65"
   }
  ],
- "trap": "Find the whole first: \\\"12 is what percent of 40?\\\" divides by 40 (30%), while \\\"40 is what percent of 12?\\\" divides by 12 (about 333%). And $0.5\\%$ is $0.005$, not $0.5$ or $50\\%$.",
+ "trap": "Divide by the whole: \"12 is what percent of 40?\" divides by 40 (30%), while \"40 is what percent of 12?\" divides by 12 (about 333%). And $0.4\\%$ is $0.004$, not $0.4$ or $40\\%$.",
  "checks": [
   {
    "id": "q1-12-percent-c1",

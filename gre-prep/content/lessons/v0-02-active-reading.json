@@ -2,10 +2,10 @@
  "id": "v0-02-active-reading",
  "status": "draft",
  "why": "Reading Comprehension rewards how you read, not what you already know, and the same habits help you decode every Text Completion and Sentence Equivalence sentence.",
- "rule": "Read and analyze the whole passage before answering. As you read, separate:\n\n- **main ideas** from supporting ideas or evidence;\n- ideas the author **advances** from ideas merely **reported**;\n- ideas the author is **committed** to from ones offered as hypothetical or speculative;\n- the main **transitions**, and how neighboring ideas relate (contrast, consistency, support, elaboration, application).\n\nAnswer only from the passage, even when it clashes with your own views. A passage on an unfamiliar topic can be saved for last.",
+ "rule": "Read and analyze the whole passage before answering. As you read, separate:\n\n- **main ideas** from supporting ideas or evidence;\n- ideas the author **advances** from ideas merely **reported**;\n- ideas the author is **committed** to from ones offered as hypothetical or speculative;\n- the main **transitions**, and how neighboring ideas relate (contrast, consistency, support, elaboration, application).\n\nAnswer only from the passage, even when it clashes with your own views.",
  "examples": [
   {
-   "prompt": "Many commentators claim that remote work lowers productivity. One firm's data, however, show output rising 4 percent after it went remote. This may reflect self-selection, since employees chose, so the finding is suggestive rather than conclusive.  Which claim does the author most firmly commit to?",
+   "prompt": "Many commentators claim that remote work lowers productivity. One firm's data, however, show output rising 4 percent after it went remote. This may reflect self-selection, since employees chose whether to work remotely, so the finding is suggestive rather than conclusive. Which claim does the author most firmly commit to?",
    "steps": [
     "Reported idea: the commentators' claim. It is attributed to others and *however* sets it against the data.",
     "Evidence: the firm's data. A report of a fact, not a conclusion.",

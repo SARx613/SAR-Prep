@@ -333,7 +333,7 @@
   "id": "q2-09-word-problems-09",
   "lessonId": "q2-09-word-problems",
   "difficulty": 4,
-  "stem": "A jar contains only dimes and quarters, 52 coins in all, worth \\$8.20. How many quarters are in the jar?",
+  "stem": "A jar contains only dimes and quarters (a dime is worth 10 cents and a quarter 25 cents), 52 coins in all, worth \\$8.20. How many quarters are in the jar?",
   "explanation": "Work in cents. With $q$ quarters, $25q+10(52-q)=820$, so $15q+520=820$ and $q=20$. Check: 32 dimes give 320 cents, 20 quarters give 500 cents.",
   "choiceExplanations": {
    "A": "12 quarters would be worth $300+400=700$ cents, not 820.",
@@ -347,10 +347,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",

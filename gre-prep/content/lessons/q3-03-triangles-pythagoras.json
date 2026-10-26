@@ -13,12 +13,12 @@
    "answer": "71°"
   },
   {
-   "prompt": "A right triangle has hypotenuse 17 and one leg of length 8. How long is the other leg?",
+   "prompt": "A right triangle has hypotenuse 29 and one leg of length 20. How long is the other leg?",
    "steps": [
-    "Let the other leg be $x$: $8^2+x^2=17^2$.",
-    "$x^2=289-64=225$, so $x=15$ (a length is positive)."
+    "Let the other leg be $x$: $20^2+x^2=29^2$.",
+    "$x^2=841-400=441$, so $x=21$ (a length is positive)."
    ],
-   "answer": "15"
+   "answer": "21"
   }
  ],
  "trap": "The sum of the squares applies to the two *legs*, and the hypotenuse is the side opposite the right angle: when you know the hypotenuse you subtract. Also, a triangle that merely looks right-angled or isosceles is not: you need a right-angle mark, equal-side marks, or the text.",

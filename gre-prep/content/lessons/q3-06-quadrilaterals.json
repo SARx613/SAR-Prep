@@ -2,7 +2,7 @@
  "id": "q3-06-quadrilaterals",
  "status": "draft",
  "why": "Rectangles, squares, parallelograms and trapezoids appear constantly in area, perimeter and diagonal problems, alone or inside composite figures.",
- "rule": "The interior angles of any quadrilateral add up to 360°.\n\n- **Rectangle**: four right angles; opposite sides equal and parallel; the two diagonals are equal. **Square**: a rectangle with four equal sides.\n- **Parallelogram**: both pairs of opposite sides parallel; opposite sides equal and opposite angles equal. Every rectangle is one.\n- **Trapezoid**: at least one pair of parallel sides, called the **bases**.\n\n**Areas.** Parallelogram (including rectangle and square): $A=bh$, where $h$ is the *perpendicular* distance between the base and the opposite side. Trapezoid: $A=\\tfrac12(b_1+b_2)\\,h$.",
+ "rule": "The interior angles of any quadrilateral add up to 360°.\n\n- **Rectangle**: four right angles; opposite sides equal and parallel; the two diagonals are equal. **Square**: a rectangle with four equal sides.\n- **Parallelogram**: both pairs of opposite sides parallel; opposite sides equal and opposite angles equal, so neighbouring angles add up to 180°. Every rectangle is one.\n- **Trapezoid**: at least one pair of parallel sides, called the **bases**.\n\n**Areas.** Parallelogram (including rectangle and square): $A=bh$, where $h$ is the *perpendicular* distance between the base and the opposite side. Trapezoid: $A=\\tfrac12(b_1+b_2)\\,h$. If $h$ is not given, drop a perpendicular and use the Pythagorean theorem.",
  "examples": [
   {
    "prompt": "A rectangle has width 5 and diagonal 13. Find its area and perimeter.",

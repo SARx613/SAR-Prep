@@ -1,8 +1,8 @@
 {
  "id": "q0-07-di-sets",
  "status": "draft",
- "why": "Data Interpretation sets reuse one display for several questions, and most errors come from misreading units, scales or what the data does not say.",
- "rule": "Spend a few seconds scanning the display, then read what matters:\n\n- **Title, axes, scales, units and orders of magnitude** (thousands, millions), plus any notes.\n- Graphs and tables are drawn to scale: compare bars and sectors by their sizes, but watch for **broken scales** and bars that **do not start at 0**.\n- Use only the **data shown, everyday facts** (days in a year) **and mathematics**. Do not bring in outside knowledge of the topic.\n- Each question stands alone; some data may never be asked about.",
+ "why": "Data Interpretation sets attach several Quant questions to one table or graph, so one careful reading of its units and scales serves them all.",
+ "rule": "Spend a few seconds scanning the display, then read what matters:\n\n- **Title, axes, scales, units and orders of magnitude** (thousands, millions), plus any notes.\n- Graphs are drawn to scale: compare bars and sectors by their sizes, but watch for **broken scales** and bars that **do not start at 0**.\n- Use only the **data shown, everyday facts** (days in a year) **and mathematics**. Do not bring in outside knowledge of the topic.",
  "examples": [
   {
    "prompt": "A bar graph titled \"Revenue, in millions of dollars\" shows 4.5 for one firm and 6.0 for another. How many dollars more did the second earn?",

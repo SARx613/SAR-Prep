@@ -1,11 +1,11 @@
 {
  "id": "q4-09-independent-conditional",
  "status": "draft",
- "why": "Conditional probability and \"without replacement\" draws are where probability items become multi-step, and tables of counts are the usual setting.",
- "rule": "- **Independent** events do not affect each other: $P(E \\text{ and } F) = P(E)\\,P(F)$. More events: keep multiplying. Typical cases: coin tosses, dice, draws *with* replacement.\n- If the first event changes the second (draws *without* replacement): $P(E \\text{ and } F) = P(E) \\times P(F \\text{ given } E)$, with the second probability computed *after* $E$ has happened.\n- **Conditional probability**: $P(F \\text{ given } E) = \\frac{P(E \\text{ and } F)}{P(E)}$. In a table, restrict to the $E$ row or column, then count the $F$ part.\n- \"At least one\" $= 1 - P(\\text{none})$.",
+ "why": "Independent events and conditional probability are on ETS's list of GRE data-analysis topics; questions use repeated draws and two-way tables of counts.",
+ "rule": "- **Independent** events do not affect each other: $P(E \\text{ and } F) = P(E)\\,P(F)$. More events: keep multiplying. Typical cases: coin tosses, dice, draws *with* replacement.\n- If the first event changes the second (draws *without* replacement): $P(E \\text{ and } F) = P(E) \\times P(F \\text{ given } E)$, with the second probability computed *after* $E$ has happened.\n- **Conditional probability**: $P(F \\text{ given } E) = \\frac{P(E \\text{ and } F)}{P(E)}$. In a table, restrict to the $E$ row or column, then count the $F$ part.\n- **Testing independence**: $E$ and $F$ are independent exactly when $P(E \\text{ and } F) = P(E)\\,P(F)$, that is, when $P(F \\text{ given } E) = P(F)$ (knowing $E$ does not change the chance of $F$).\n- \"At least one\" $= 1 - P(\\text{none})$.",
  "examples": [
   {
-   "prompt": "A drawer holds 4 white and 6 black socks. Two are drawn at random without replacement. What is the probability that both are black?",
+   "prompt": "A drawer holds 4 white and 6 black socks. Two are drawn at random, one after the other and without replacement. Find the chance that both are black.",
    "steps": [
     "First sock black: $\\frac{6}{10}$.",
     "Given that, 5 black remain among 9 socks: $\\frac{5}{9}$.",

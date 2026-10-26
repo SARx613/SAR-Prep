@@ -4,7 +4,7 @@
   "lessonId": "q3-08-circles-lines",
   "difficulty": 1,
   "stem": "In the figure, $PT$ is tangent to the circle with center $O$ at $T$. If $OT=6$ and $PT=8$, what is the length of $OP$?",
-  "explanation": "A radius to the point of tangency is perpendicular to the tangent, so triangle $OTP$ is right-angled at $T$: $OP=\\sqrt{6^2+8^2}=10$.",
+  "explanation": "The tangent meets the radius $OT$ at a right angle, so triangle $OTP$ has its right angle at $T$ and $OP=\\sqrt{6^2+8^2}=10$.",
   "estSeconds": 60,
   "skills": [
    "circle-tangent",
@@ -20,10 +20,7 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-a",
-    "solver-b"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",

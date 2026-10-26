@@ -1,8 +1,8 @@
 {
  "id": "q4-05-std-dev",
  "status": "draft",
- "why": "The GRE asks you to compare standard deviations and to place values in \"standard deviations from the mean\", seldom to grind through long calculations.",
- "rule": "The **standard deviation (SD)** measures how far values typically lie from the mean. For $n$ values: find the mean; subtract it from each value; square each difference; average the squares (divide by $n$); take the positive square root.\n\nValues spread far from the mean give a larger SD; values clustered near it give a smaller SD; identical values give an SD of 0. Only distances from the mean matter, so adding the same number to every value leaves the SD unchanged.\n\n**Standardizing**: $z = \\frac{x - \\text{mean}}{\\text{SD}}$ says how many SDs $x$ is above (+) or below ($-$) the mean. Most data lie within 3 SDs of the mean.",
+ "why": "Standard deviation is on ETS's list of GRE data-analysis topics: questions ask you to compute it, compare it across data sets, or locate a value a number of SDs from the mean.",
+ "rule": "The **standard deviation (SD)** measures how far values typically lie from the mean. For $n$ values: find the mean; subtract it from each value; square each difference; average the squares (divide by $n$); take the positive square root.\n\nValues spread far from the mean give a larger SD; values clustered near it give a smaller SD; identical values give an SD of 0. Only distances from the mean matter: adding the same number to every value leaves the SD unchanged, while multiplying every value by a positive $k$ multiplies every distance, and the SD, by $k$.\n\n**Standardizing**: $z = \\frac{x - \\text{mean}}{\\text{SD}}$ says how many SDs $x$ is above (+) or below ($-$) the mean.",
  "examples": [
   {
    "prompt": "Find the standard deviation of 2, 4, 4, 4, 5, 5, 7, 9.",

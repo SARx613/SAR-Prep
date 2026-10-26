@@ -5,13 +5,13 @@
  "rule": "When every blank is filled, read the completed text from the start and test three things:\n\n- **Logic:** do the ideas agree or contrast as the structure words demand?\n- **Grammar:** does each word fit its slot (part of speech, form, the words it must combine with)?\n- **Style:** does its tone suit the sentence?\n\nA word that is a good synonym can still fail the check. If one blank fails, reconsider it and the blanks that depend on it.",
  "examples": [
   {
-   "prompt": "The scientist's (i)______ about the data led her to (ii)______ the experiment before publishing.  (i) misgivings | enthusiasm | indifference;  (ii) repeat | celebrate | forget.",
+   "prompt": "Because the evidence was (i)______, the panel (ii)______ its verdict until more tests were done. (i) decisive | inconclusive | inconclusively; (ii) announced | defer | deferred.",
    "steps": [
-    "Blank (ii) first: doing something to an experiment before publishing, because of a feeling about the data, points to *repeat*.",
-    "Blank (i): a feeling that leads to repetition is doubt: *misgivings*.",
-    "Check logic: doubts lead to a repeat before publishing. Grammar: *misgivings* is plural and takes *led*; the noun fits *her ___ about the data*. Style: formal register throughout."
+    "Logic: waiting for more tests means the evidence did not settle the matter, so the verdict was put off: *inconclusive* and a form of *defer*. *Decisive* and *announced* clash with *until more tests were done*.",
+    "Grammar: after *was* the sentence needs an adjective, so *inconclusive*, not the adverb *inconclusively*; the past tense *deferred* matches *was* and *were done*, while *defer* does not.",
+    "Style: both words are neutral and formal, like the rest of the sentence."
    ],
-   "answer": "(i) misgivings, (ii) repeat"
+   "answer": "(i) inconclusive, (ii) deferred"
   }
  ],
  "trap": "Stopping at meaning. A choice can fit the idea yet break the grammar (wrong form), the tone (slang in a formal sentence) or the other blanks. Read the whole finished text once more.",

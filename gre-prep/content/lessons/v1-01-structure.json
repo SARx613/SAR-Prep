@@ -1,8 +1,8 @@
 {
  "id": "v1-01-structure",
  "status": "draft",
- "why": "Text Completion makes up a large share of the Verbal measure, and knowing how an item is built and scored shapes how you answer it.",
- "rule": "A passage has **one to five sentences** with **one to three blanks per sentence**.\n\n- **One blank:** five choices.\n- **Two or three blanks:** three choices for each blank.\n- Every blank has exactly one correct answer, and the columns are independent: choosing one entry does not remove any entry from another column.\n- There is **no partial credit**: all blanks must be right.\n\nThe item tests whether you can form a picture of the whole text from the clues and revise it as you read.",
+ "why": "Text Completion is one of the two sentence-completion types that together make up about half of the Verbal measure, and how an item is built and scored shapes how you answer it.",
+ "rule": "A passage runs from **1 to 5 sentences** and contains **1 to 3 blanks**.\n\n- **One blank:** five choices.\n- **Two or three blanks:** three choices for each blank.\n- Every blank has exactly one correct answer, and the columns are independent: choosing one entry does not remove any entry from another column.\n- There is **no partial credit**: all blanks must be right.\n\nEach blank is decided by the rest of the text: look for a phrase that restates it, or a word that signals a contrast (*although*, *far from*, *anything but*) or a result (*because*, *so ... that*).",
  "examples": [
   {
    "prompt": "The critic's early reviews were (i)______, praising nearly every film; her later reviews were far more (ii)______, rarely finding anything to admire.  (i) lenient | cryptic | hurried;  (ii) severe | affectionate | repetitive.",

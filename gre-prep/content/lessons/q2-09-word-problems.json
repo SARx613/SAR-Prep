@@ -2,7 +2,7 @@
  "id": "q2-09-word-problems",
  "status": "draft",
  "why": "Almost every Algebra application on the GRE is a story that must be turned into an equation or inequality before any algebra happens.",
- "rule": "**1.** Name the unknown that the question asks for (say $x$).\n\n**2.** Translate phrase by phrase: *is* means $=$; *k times* means multiply; *$p$ percent more than $s$* is $\\left(1+\\frac{p}{100}\\right)s$; *a less than b* is $b-a$ (order reverses); *at least* means $\\ge$, *at most* means $\\le$; *per* means divide.\n\n**3.** One unknown needs one equation; two unknowns need two. Solve by substitution.\n\n**4.** Answer the question that was asked, then check it against the story.",
+ "rule": "**1.** Name the unknown that the question asks for (say $x$).\n\n**2.** Translate phrase by phrase: *is* means $=$; *k times* means multiply; *$p$ percent more than $s$* is $\\left(1+\\frac{p}{100}\\right)s$; *a less than b* is $b-a$ (order reverses); *at least* means $\\ge$, *at most* means $\\le$; *per* means divide; *consecutive odd* (or even) *integers* are $n$, $n+2$, $n+4$.\n\n**3.** One unknown needs one equation; two unknowns need two. Solve by substitution.\n\n**4.** Answer the question that was asked, then check it against the story.",
  "examples": [
   {
    "prompt": "Maya is 4 years younger than three times Leo's age. In 5 years the sum of their ages will be 46. How old is Leo now?",
@@ -25,7 +25,7 @@
    "answer": "24 coffees"
   }
  ],
- "trap": "\"5 less than $x$\" is $x-5$, not $5-x$, and \"increased by 14 percent\" is $1.14s$, not $0.14s$. Also re-read the last sentence: the unknown you named may not be the quantity the question asks for.",
+ "trap": "\"5 less than $x$\" is $x-5$, not $5-x$, and \"increased by 12 percent\" is $1.12s$, not $0.12s$. Also re-read the last sentence: the unknown you named may not be the quantity the question asks for.",
  "checks": [
   {
    "id": "q2-09-word-problems-c1",

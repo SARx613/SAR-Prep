@@ -2,7 +2,7 @@
  "id": "q1-07-roots",
  "status": "draft",
  "why": "Square roots appear in simplification, QC comparisons and in geometry and statistics later on.",
- "rule": "The symbol $\\sqrt{n}$ means the **nonnegative** number whose square is $n$ (so $\\sqrt{81} = 9$, while the numbers whose square is 81 are $\\pm9$); roots of negatives are not real. For $a,b\\ge0$:\n\n- $(\\sqrt{a})^2 = a$ and $\\sqrt{a^2} = a$\n- $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ and $\\sqrt{\\dfrac{a}{b}} = \\dfrac{\\sqrt{a}}{\\sqrt{b}}$\n\nSimplify by pulling out perfect squares: $\\sqrt{54} = \\sqrt{9\\cdot6} = 3\\sqrt{6}$. The cube root $\\sqrt[3]{n}$ cubes back to $n$; odd-order roots exist for every real number ($\\sqrt[3]{-8} = -2$), even-order roots only for $n\\ge0$.",
+ "rule": "The symbol $\\sqrt{n}$ means the **nonnegative** number whose square is $n$: $\\sqrt{81} = 9$, not $\\pm9$. For $a,b\\ge0$:\n\n- $(\\sqrt{a})^2 = a$ and $\\sqrt{a^2} = a$\n- $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ and $\\sqrt{\\dfrac{a}{b}} = \\dfrac{\\sqrt{a}}{\\sqrt{b}}$\n\nSimplify by pulling out perfect squares: $\\sqrt{54} = \\sqrt{9\\cdot6} = 3\\sqrt{6}$. Multiples of the same root combine by their coefficients: $4\\sqrt{3}+2\\sqrt{3} = 6\\sqrt{3}$, but $\\sqrt{2}+\\sqrt{3}$ does not combine. A larger number has a larger root, so compare with perfect squares (or cubes): $36<40<49$ gives $6<\\sqrt{40}<7$.\n\nThe cube root $\\sqrt[3]{n}$ cubes back to $n$; odd-order roots exist for every real number ($\\sqrt[3]{-8} = -2$), even-order roots only for $n\\ge0$.",
  "examples": [
   {
    "prompt": "Simplify $\\sqrt{72}$.",
@@ -20,7 +20,7 @@
    "answer": "3"
   }
  ],
- "trap": "$\\sqrt{a+b}\\ne\\sqrt{a}+\\sqrt{b}$: $\\sqrt{9+16} = 5$, not $3+4$. And $\\sqrt{x^2}$ is $x$ only when $x\\ge0$ (for $x=-3$ it is 3).",
+ "trap": "$\\sqrt{a+b}\\ne\\sqrt{a}+\\sqrt{b}$: $\\sqrt{36+64} = 10$, not $6+8$. And $\\sqrt{x^2}$ is $x$ only when $x\\ge0$ (for $x=-3$ it is 3).",
  "checks": [
   {
    "id": "q1-07-roots-c1",

@@ -2,7 +2,7 @@
  "id": "t1-01-structure",
  "status": "draft",
  "why": "Knowing the length and order of each section lets you set a per-question pace before test day.",
- "rule": "The current test takes about 1 hour 58 minutes and has five sections.\n\n- **Analytical Writing**: one Analyze an Issue task, 30 minutes. Always first.\n- **Verbal Reasoning**: section 1 has 12 questions in 18 minutes, section 2 has 15 in 23.\n- **Quantitative Reasoning**: section 1 has 12 questions in 21 minutes, section 2 has 15 in 26.\n\nVerbal and Quantitative sections can appear in any order after Writing. Before September 22, 2023 the test was longer (about 3 hours 45 minutes, 20 questions per section); do not use old figures.",
+ "rule": "The current test takes about 1 hour 58 minutes and has five sections.\n\n- **Analytical Writing**: one Analyze an Issue task, 30 minutes. Always first.\n- **Verbal Reasoning**: section 1 has 12 questions in 18 minutes, section 2 has 15 in 23.\n- **Quantitative Reasoning**: section 1 has 12 questions in 21 minutes, section 2 has 15 in 26.\n\nVerbal and Quantitative sections can appear in any order after Writing.",
  "examples": [
   {
    "prompt": "What is the total allotted time?",
@@ -12,12 +12,12 @@
    "answer": "118 minutes, about 1 hour 58 minutes"
   },
   {
-   "prompt": "About how long can you spend on each question of the second Quantitative section (15 questions, 26 minutes)?",
+   "prompt": "About how long can you spend on each question of the first Verbal section (12 questions, 18 minutes)?",
    "steps": [
-    "$26\\times60=1560$ seconds.",
-    "$1560\\div15=104$ seconds."
+    "$18\\times60=1080$ seconds.",
+    "$1080\\div12=90$ seconds."
    ],
-   "answer": "About 104 seconds (1 minute 44 seconds)"
+   "answer": "About 90 seconds"
   }
  ],
  "trap": "Using the pre-September 2023 format (two writing tasks, 20 questions per section) or assuming Quant always follows Verbal. Only Writing's position is fixed.",
