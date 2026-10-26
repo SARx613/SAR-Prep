@@ -1,0 +1,158 @@
+{
+ "id": "q2-15-graphing-curves",
+ "status": "draft",
+ "why": "The GRE shows or describes regions, parabolas and circles in the coordinate plane and asks for intercepts, vertices, centers and which points fit.",
+ "rule": "**Linear inequality:** graph the boundary line. $y\\le mx+b$ is the line and everything below it; $y\\ge mx+b$ is the line and everything above it ($<$ or $>$ leaves the line out). A system is the overlap of its regions.\n\n**Parabola** $y=ax^2+bx+c$: opens up if $a>0$, down if $a<0$. The $x$-intercepts solve $ax^2+bx+c=0$; the axis of symmetry is midway between them (in general $x=-\\frac{b}{2a}$), and the vertex lies on it. The $y$-intercept is $c$.\n\n**Circle:** $(x-a)^2+(y-b)^2=r^2$ has center $(a,b)$ and radius $r$. Inside means the left side is $<r^2$.",
+ "examples": [
+  {
+   "prompt": "For the parabola $y=x^2-4x-5$, find the $x$-intercepts, the vertex and the $y$-intercept.",
+   "steps": [
+    "$x^2-4x-5=(x-5)(x+1)=0$, so the $x$-intercepts are $5$ and $-1$.",
+    "The axis is midway: $x=\\frac{5+(-1)}{2}=2$.",
+    "Vertex $y$: $4-8-5=-9$, so the vertex is $(2,-9)$ (lowest point, since $a>0$).",
+    "$y$-intercept: $c=-5$."
+   ],
+   "answer": "$x$-intercepts $5$ and $-1$; vertex $(2,-9)$; $y$-intercept $-5$"
+  },
+  {
+   "prompt": "For the circle $(x+3)^2+(y-2)^2=25$, give the center and radius, and say whether $(1,5)$ is inside, on, or outside it.",
+   "steps": [
+    "Rewrite as $(x-(-3))^2+(y-2)^2=5^2$: center $(-3,2)$, radius 5.",
+    "At $(1,5)$: $(1+3)^2+(5-2)^2=16+9=25$."
+   ],
+   "answer": "Center $(-3,2)$, radius 5; $(1,5)$ is on the circle."
+  }
+ ],
+ "trap": "In a circle equation the signs flip: $(x+3)$ means center $x=-3$. The right side is $r^2$, so $25$ means radius $5$, not $25$. For inequalities, points on a strict boundary do not count.",
+ "checks": [
+  {
+   "id": "q2-15-graphing-curves-c1",
+   "lessonId": "q2-15-graphing-curves",
+   "type": "PS",
+   "difficulty": 1,
+   "stem": "What are the center and radius of the circle $(x-1)^2+(y+4)^2=49$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Center $(-1,4)$, radius 7"
+     },
+     {
+      "id": "B",
+      "text": "Center $(-1,4)$, radius 49"
+     },
+     {
+      "id": "C",
+      "text": "Center $(1,-4)$, radius 7"
+     },
+     {
+      "id": "D",
+      "text": "Center $(1,-4)$, radius 49"
+     },
+     {
+      "id": "E",
+      "text": "Center $(1,4)$, radius 7"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   },
+   "explanation": "$(x-1)$ gives center $x=1$ and $(y+4)$ gives center $y=-4$. The radius is $\\sqrt{49}=7$.",
+   "choiceExplanations": {
+    "A": "The signs of the center are flipped.",
+    "B": "The signs are flipped and 49 is $r^2$, not $r$.",
+    "D": "49 is $r^2$, so the radius is 7.",
+    "E": "$(y+4)$ means $y=-4$, not $4$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "graphing-curves"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-15-graphing-curves-c2",
+   "lessonId": "q2-15-graphing-curves",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "What is the $x$-coordinate of the vertex of the parabola $y=x^2-6x+5$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 3
+   },
+   "explanation": "Solving $x^2-6x+5=(x-1)(x-5)=0$ gives intercepts 1 and 5. The vertex is midway: $x=3$.",
+   "estSeconds": 75,
+   "skills": [
+    "graphing-curves"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-15-graphing-curves-c3",
+   "lessonId": "q2-15-graphing-curves",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "Which of the following points satisfies $y>2x-1$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$(-1,-3)$"
+     },
+     {
+      "id": "B",
+      "text": "$(0,0)$"
+     },
+     {
+      "id": "C",
+      "text": "$(1,1)$"
+     },
+     {
+      "id": "D",
+      "text": "$(2,0)$"
+     },
+     {
+      "id": "E",
+      "text": "$(2,3)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "At $(0,0)$: $0>-1$ is true. Points $(-1,-3)$, $(1,1)$ and $(2,3)$ lie *on* the line $y=2x-1$, which the strict inequality excludes. At $(2,0)$: $0>3$ is false.",
+   "choiceExplanations": {
+    "A": "On the boundary line ($-3=2(-1)-1$); not strictly above.",
+    "C": "On the boundary line ($1=2(1)-1$).",
+    "D": "$0>3$ is false; this point is below the line.",
+    "E": "On the boundary line ($3=2(2)-1$)."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "graphing-curves"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

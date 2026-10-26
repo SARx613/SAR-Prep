@@ -1,0 +1,454 @@
+[
+ {
+  "id": "q3-06-quadrilaterals-01",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "A rectangle has length 11 and width 4. What is its perimeter?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 30
+  },
+  "explanation": "$2(11+4)=30$.",
+  "estSeconds": 45,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-02",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "In parallelogram $PQRS$, angle $P$ measures $70^\\circ$. What is the measure of angle $Q$, which is adjacent to angle $P$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$70^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$110^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$140^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$290^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Opposite angles are equal, so $P=R=70^\\circ$ and $Q=S$. The four angles add to 360: $2(70)+2Q=360$, so $Q=110^\\circ$.",
+  "choiceExplanations": {
+   "A": "That is the opposite angle $R$ (equal to $P$), not the adjacent one.",
+   "B": "Nothing says the parallelogram is a rectangle.",
+   "D": "That is $2\\times70$; no angle of this parallelogram measures $140^\\circ$.",
+   "E": "That is $360-70$; the four angles add to $360$ in total, and each is less than $180$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-03",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "What is the area of the trapezoid shown?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 55
+  },
+  "explanation": "$A=\\tfrac12(8+14)\\cdot5=\\tfrac12\\cdot22\\cdot5=55$.",
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 250 150\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"55,50 167,50 216,120 20,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"50\" x2=\"55\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"55,112 63,112 63,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"111\" y=\"44\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"118\" y=\"137\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">14</text><text x=\"63\" y=\"89\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text></svg>",
+    "alt": "Trapezoid with the shorter parallel side of length 8 on top and the longer parallel side of length 14 on the bottom. A dashed vertical segment of length 5 connects the top side to the bottom side at a right angle."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-04",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The area of a rectangle with length 6 and perimeter 20",
+   "quantityB": "The area of a square with perimeter 20"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "A: $2(6+w)=20$ gives $w=4$, area $24$. B: side $20\\div4=5$, area $25$. $25>24$.",
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-05",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "What is the area of the parallelogram shown?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "30"
+    },
+    {
+     "id": "B",
+     "text": "35"
+    },
+    {
+     "id": "C",
+     "text": "60"
+    },
+    {
+     "id": "D",
+     "text": "84"
+    },
+    {
+     "id": "E",
+     "text": "144"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The area is base times the perpendicular height: $12\\cdot5=60$. The slanted side of length 7 is not needed.",
+  "choiceExplanations": {
+   "A": "That is half of the correct area; the area of a parallelogram is not $\\tfrac12bh$.",
+   "B": "That is the slanted side times the height, $7\\cdot5$.",
+   "D": "That is base times the slanted side, $12\\cdot7$; the height is the perpendicular 5.",
+   "E": "That multiplies the base by $7+5$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 280 140\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,120 188,120 256.6,50 88.6,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"88.6\" y1=\"50\" x2=\"88.6\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"88.6,112 96.6,112 96.6,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"104\" y=\"137\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"232.3\" y=\"89\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"96.6\" y=\"89\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text></svg>",
+    "alt": "Parallelogram with a horizontal base of length 12 at the bottom and a slanted side of length 7 on the right. A dashed vertical segment of length 5 drops from the top-left vertex to the base at a right angle."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-06",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A rectangle has width 8 and a diagonal of length 17. What is its perimeter?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 46
+  },
+  "explanation": "The diagonal is the hypotenuse of a right triangle with legs 8 and $\\ell$: $\\ell^2=17^2-8^2=225$, so $\\ell=15$. Perimeter $=2(8+15)=46$.",
+  "estSeconds": 90,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-07",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following must be true of every parallelogram? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Opposite sides are equal in length."
+    },
+    {
+     "id": "B",
+     "text": "The two diagonals are equal in length."
+    },
+    {
+     "id": "C",
+     "text": "All four sides are equal in length."
+    },
+    {
+     "id": "D",
+     "text": "Two angles that share a side add up to $180^\\circ$."
+    },
+    {
+     "id": "E",
+     "text": "At least one angle is $90^\\circ$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  },
+  "explanation": "Opposite sides are equal (stated in the rule). Opposite angles are equal and all four add to $360^\\circ$, so each pair of neighbouring angles adds to $180^\\circ$. Equal diagonals, equal sides or right angles are special (rectangles and squares).",
+  "choiceExplanations": {
+   "B": "That is true for rectangles, but a slanted parallelogram has one longer diagonal.",
+   "C": "Only some parallelograms (such as squares) have four equal sides.",
+   "E": "A slanted parallelogram has no right angle."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-08",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The length of a diagonal of a square with side length 6",
+   "quantityB": "8"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "The diagonal is the hypotenuse of an isosceles right triangle with legs 6: $6\\sqrt2\\approx6(1.41)=8.5$. Since $8.5>8$, A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-09",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "The trapezoid shown has parallel sides of lengths 10 and 22, and its two other sides each have length 10. What is its area?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 128
+  },
+  "explanation": "Dropping the two perpendiculars cuts off two congruent right triangles at the ends; each has base $\\tfrac{22-10}{2}=6$ and hypotenuse 10, so the height is $\\sqrt{100-36}=8$. $A=\\tfrac12(10+22)\\cdot8=128$.",
+  "estSeconds": 130,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"80,30 180,30 240,110 20,110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"180\" y1=\"30\" x2=\"180\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"80,102 88,102 88,110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"180,102 172,102 172,110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"46.8\" y1=\"67.6\" x2=\"53.2\" y2=\"72.4\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"213.2\" y1=\"67.6\" x2=\"206.8\" y2=\"72.4\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"130\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"130\" y=\"127\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">22</text><text x=\"38\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"222\" y=\"66\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text></svg>",
+    "alt": "Isosceles trapezoid with top side 10, bottom side 22 and two equal slanted sides each 10, marked with tick marks. Two dashed vertical segments are drawn from the top vertices down to the bottom side, meeting it at right angles."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-10",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "What is the area of the parallelogram shown?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "60"
+    },
+    {
+     "id": "B",
+     "text": "80"
+    },
+    {
+     "id": "C",
+     "text": "90"
+    },
+    {
+     "id": "D",
+     "text": "120"
+    },
+    {
+     "id": "E",
+     "text": "150"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The dashed perpendicular forms a right triangle with hypotenuse 10 and one leg 6, so the height is $\\sqrt{100-36}=8$. The area is base times height: $15\\cdot8=120$.",
+  "choiceExplanations": {
+   "A": "That treats the figure as a triangle, $\\tfrac12(15)(8)$.",
+   "B": "That is the slanted side times the height, $10\\cdot8$.",
+   "C": "That is base times the horizontal offset, $15\\cdot6$.",
+   "E": "That is base times the slanted side, $15\\cdot10$."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 290 165\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,120 200,120 272,24 92,24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"92\" y1=\"24\" x2=\"92\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"92,112 100,112 100,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"20\" y1=\"146\" x2=\"200\" y2=\"146\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"20\" y1=\"142\" x2=\"20\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"200\" y1=\"142\" x2=\"200\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"162\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">15</text><text x=\"56\" y=\"136\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"32\" y=\"72\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text></svg>",
+    "alt": "Parallelogram with a horizontal base of length 15 at the bottom and a slanted left side of length 10. A dashed vertical segment drops from the top-left vertex to the base at a right angle, landing a distance of 6 from the bottom-left vertex."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-11",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A rectangle has perimeter 30 and a diagonal of length 11. What is its area?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 52
+  },
+  "explanation": "Let the sides be $a$ and $b$: $a+b=15$ and $a^2+b^2=121$. Then $(a+b)^2=225=a^2+2ab+b^2$, so $2ab=225-121=104$ and the area $ab=52$.",
+  "estSeconds": 130,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-06-quadrilaterals-12",
+  "lessonId": "q3-06-quadrilaterals",
+  "type": "QC",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The area of $PQRS$",
+   "quantityB": "40",
+   "common": "$PQRS$ is a parallelogram with $PQ=8$ and $QR=5$."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "The area is $PQ\\cdot h$, where $h\\le QR=5$ is the perpendicular height. If angle $Q$ is $90^\\circ$ then $h=5$ and the area is exactly 40; otherwise $h<5$ and the area is less than 40. The figure does not tell us the angle (it is not drawn to scale), so the relationship cannot be determined.",
+  "estSeconds": 100,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,110 180,110 230,23.4 70,23.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"12\" y=\"114\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"188\" y=\"114\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"238\" y=\"27.4\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"62\" y=\"27.4\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">S</text><text x=\"100\" y=\"127\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"217\" y=\"70.7\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text></svg>",
+    "alt": "Parallelogram PQRS with PQ along the bottom of length 8 and QR slanting up to the right with length 5."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

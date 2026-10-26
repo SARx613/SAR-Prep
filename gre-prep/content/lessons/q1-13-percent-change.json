@@ -1,0 +1,128 @@
+{
+ "id": "q1-13-percent-change",
+ "status": "draft",
+ "why": "Percent increase, decrease and successive changes are staples of word problems and QC items, and ETS tests the base of the percent.",
+ "rule": "**Percent change** $=\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\cdot100\\%$. The base is always the **initial** amount: from 40 to 50 is a $25\\%$ increase, but from 50 to 40 is a $20\\%$ decrease. Doubling is a $100\\%$ increase.\n\nA change of $p\\%$ multiplies by $1+\\frac{p}{100}$ (increase) or $1-\\frac{p}{100}$ (decrease): $+15\\%$ is $\\times1.15$ and $-15\\%$ is $\\times0.85$.\n\n**Successive changes** multiply, each on the new base: $+20\\%$ then $-20\\%$ gives $1.2\\cdot0.8 = 0.96$, a $4\\%$ decrease overall.",
+ "examples": [
+  {
+   "prompt": "A price rises from 80 to 92. What is the percent increase?",
+   "steps": [
+    "Increase: $92-80 = 12$.",
+    "$\\frac{12}{80} = 0.15$."
+   ],
+   "answer": "$15\\%$"
+  },
+  {
+   "prompt": "A price of \\$200 is raised by $10\\%$ and the new price is then cut by $10\\%$. What is the final price?",
+   "steps": [
+    "$200\\cdot1.1 = 220$.",
+    "$220\\cdot0.9 = 198$."
+   ],
+   "answer": "\\$198"
+  }
+ ],
+ "trap": "Percent changes do not cancel: $+25\\%$ then $-25\\%$ ends at $0.9375$ of the start, not at the start; and two successive changes are not added ($+20\\%$ then $+25\\%$ is $+50\\%$, not $+45\\%$).",
+ "checks": [
+  {
+   "id": "q1-13-percent-change-c1",
+   "lessonId": "q1-13-percent-change",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A quantity increases from 50 to 65. What is the percent increase? Enter your answer as a percent.",
+   "content": {
+    "format": "decimal",
+    "unit": "%"
+   },
+   "answer": {
+    "value": 30
+   },
+   "explanation": "The change is $65-50 = 15$ and the base is the initial value 50: $\\frac{15}{50} = 0.3 = 30\\%$.",
+   "estSeconds": 60,
+   "skills": [
+    "percent-change"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-13-percent-change-c2",
+   "lessonId": "q1-13-percent-change",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "A price falls from 80 to 60. What is the percent decrease?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$20\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$25\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$33\\frac{1}{3}\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$75\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$133\\frac{1}{3}\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "The drop is 20 and the base is the starting price 80: $\\frac{20}{80} = 25\\%$.",
+   "choiceExplanations": {
+    "A": "20 is the amount of the drop, not a percent of the base.",
+    "C": "This uses the new price 60 as the base: $\\frac{20}{60}$.",
+    "D": "This is $\\frac{60}{80}$, the new price as a percent of the old.",
+    "E": "This is $\\frac{80}{60}$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "percent-change"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-13-percent-change-c3",
+   "lessonId": "q1-13-percent-change",
+   "type": "QC",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The result of increasing 100 by $20\\%$ and then decreasing that result by $20\\%$",
+    "quantityB": "100"
+   },
+   "answer": {
+    "choice": "B"
+   },
+   "explanation": "$100\\cdot1.2 = 120$, and $120\\cdot0.8 = 96$. The 20% decrease applies to a larger base, so the result is below 100. B is greater.",
+   "estSeconds": 75,
+   "skills": [
+    "percent-change"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

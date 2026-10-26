@@ -1,0 +1,127 @@
+{
+ "id": "q2-16-function-graphs",
+ "status": "draft",
+ "why": "GRE questions describe a function by a formula or a picture and ask you to read values, find where two graphs meet, or recognize a shifted or stretched graph.",
+ "rule": "The graph of $f$ is all points $(x,f(x))$: the input is on the $x$-axis and the output is the height. The graphs of $f$ and $g$ meet where $f(x)=g(x)$.\n\nKnow the basic shapes: line, parabola $x^2$, V-shaped $|x|$, and half-parabola $\\sqrt{x}$.\n\nFor $c>0$ the graph of ...\n\n- $h(x)+c$ / $h(x)-c$: up / down $c$.\n- $h(x+c)$ / $h(x-c)$: left / right $c$.\n- $-h(x)$: reflected in the $x$-axis.\n- $c\\,h(x)$: stretched vertically if $c>1$, shrunk if $0<c<1$.",
+ "examples": [
+  {
+   "prompt": "Describe the graph of $g(x)=|x-3|+2$ and find $g(0)$.",
+   "steps": [
+    "$|x-3|$ is $|x|$ shifted right 3; the $+2$ shifts it up 2.",
+    "The V has its vertex at $(3,2)$.",
+    "$g(0)=|0-3|+2=5$."
+   ],
+   "answer": "Vertex $(3,2)$; $g(0)=5$"
+  },
+  {
+   "prompt": "Where do the graphs of $f(x)=x^2$ and $g(x)=x+6$ intersect?",
+   "steps": [
+    "Set $f(x)=g(x)$: $x^2=x+6$, so $x^2-x-6=(x-3)(x+2)=0$.",
+    "$x=3$ gives $y=9$; $x=-2$ gives $y=4$."
+   ],
+   "answer": "$(-2,4)$ and $(3,9)$"
+  }
+ ],
+ "trap": "Horizontal shifts run opposite to the sign: $(x+1)$ moves the graph *left*. When in doubt, test a value: $|x-3|$ is zero at $x=3$, so the vertex sits at $x=3$. Also keep $c\\,h(x)$ (vertical stretch of every output) apart from a shift.",
+ "checks": [
+  {
+   "id": "q2-16-function-graphs-c1",
+   "lessonId": "q2-16-function-graphs",
+   "type": "PS",
+   "difficulty": 1,
+   "stem": "The graph of $y=(x-5)^2$ is the graph of $y=x^2$ shifted",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "left 5 units"
+     },
+     {
+      "id": "B",
+      "text": "right 5 units"
+     },
+     {
+      "id": "C",
+      "text": "up 5 units"
+     },
+     {
+      "id": "D",
+      "text": "down 5 units"
+     },
+     {
+      "id": "E",
+      "text": "reflected in the $x$-axis"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "$h(x-c)$ shifts the graph of $h$ right by $c$. Check: $(x-5)^2$ is smallest at $x=5$, so the vertex moves from $x=0$ to $x=5$.",
+   "choiceExplanations": {
+    "A": "Left would be $(x+5)^2$.",
+    "C": "Up would be $x^2+5$.",
+    "D": "Down would be $x^2-5$.",
+    "E": "Reflection would be $-x^2$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "function-graphs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-16-function-graphs-c2",
+   "lessonId": "q2-16-function-graphs",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "What is the minimum value of the function $h(x)=2|x-1|-3$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -3
+   },
+   "explanation": "$|x-1|$ is at least 0, with equality at $x=1$. So $h(x)\\ge 2\\cdot0-3=-3$.",
+   "estSeconds": 75,
+   "skills": [
+    "function-graphs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-16-function-graphs-c3",
+   "lessonId": "q2-16-function-graphs",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "The graphs of $f(x)=x^2$ and $g(x)=2x+8$ intersect at two points. What is the positive $x$-coordinate of an intersection point?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 4
+   },
+   "explanation": "$x^2=2x+8$ gives $x^2-2x-8=(x-4)(x+2)=0$, so $x=4$ or $x=-2$. The positive one is 4.",
+   "estSeconds": 75,
+   "skills": [
+    "function-graphs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

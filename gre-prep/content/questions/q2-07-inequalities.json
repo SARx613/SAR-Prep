@@ -1,0 +1,462 @@
+[
+ {
+  "id": "q2-07-inequalities-01",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which of the following describes all $x$ such that $2x+3>11$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x<4$"
+    },
+    {
+     "id": "B",
+     "text": "$x>4$"
+    },
+    {
+     "id": "C",
+     "text": "$x>7$"
+    },
+    {
+     "id": "D",
+     "text": "$x>8$"
+    },
+    {
+     "id": "E",
+     "text": "$x>14$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Subtract 3: $2x>8$. Divide by 2 (positive, so the sign stays): $x>4$.",
+  "choiceExplanations": {
+   "A": "The sign was reversed, but dividing by a positive number does not reverse it.",
+   "C": "The 3 was added instead of subtracted: $2x>14$.",
+   "D": "This stops at $2x>8$ without dividing by 2.",
+   "E": "The 3 was added and the division by 2 was skipped."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-02",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "What is the greatest integer $x$ such that $5x-2<18$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$3$"
+    },
+    {
+     "id": "C",
+     "text": "$4$"
+    },
+    {
+     "id": "D",
+     "text": "$5$"
+    },
+    {
+     "id": "E",
+     "text": "$20$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Add 2: $5x<20$, so $x<4$ (strictly). The greatest integer below 4 is 3.",
+  "choiceExplanations": {
+   "A": "$x=3$ also works, and it is greater.",
+   "C": "$x=4$ gives $5(4)-2=18$, which is not less than 18.",
+   "D": "$x=5$ gives $23$, too big.",
+   "E": "This is $5x$, not $x$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-03",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following describes all $x$ such that $-4x+5\\ge21$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x\\le-4$"
+    },
+    {
+     "id": "B",
+     "text": "$x\\ge-4$"
+    },
+    {
+     "id": "C",
+     "text": "$x\\le4$"
+    },
+    {
+     "id": "D",
+     "text": "$x\\ge4$"
+    },
+    {
+     "id": "E",
+     "text": "$x\\le-\\dfrac{13}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "Subtract 5: $-4x\\ge16$. Divide by $-4$ and reverse: $x\\le-4$.",
+  "choiceExplanations": {
+   "B": "The sign was not reversed.",
+   "C": "The sign of $16\\div(-4)$ was lost.",
+   "D": "Both the sign of the quotient and the reversal were missed.",
+   "E": "The 5 was added to 21 instead of subtracted."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-04",
+  "lessonId": "q2-07-inequalities",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "What is the greatest integer $x$ such that $\\dfrac{3x+1}{4}\\le5$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  },
+  "explanation": "Multiply by 4: $3x+1\\le20$, so $3x\\le19$ and $x\\le6\\frac13$. The greatest integer is 6.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-05",
+  "lessonId": "q2-07-inequalities",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$-3$",
+   "common": "$3-2x>7$"
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "Subtract 3 and divide by $-2$ (reverse the sign): $x<-2$. The value $x=-2.5$ is greater than $-3$, but $x=-4$ is less than $-3$. The relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-06",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "For which of the following values of $x$ are both $2x-5\\ge1$ and $7-x>1$ true? Indicate all such values.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$3$"
+    },
+    {
+     "id": "C",
+     "text": "$5$"
+    },
+    {
+     "id": "D",
+     "text": "$6$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  },
+  "explanation": "The first gives $x\\ge3$. The second gives $-x>-6$, so $x<6$. Together $3\\le x<6$.",
+  "choiceExplanations": {
+   "A": "$x=2$ fails the first condition.",
+   "D": "$x=6$ fails the strict second condition: $7-6=1$, not greater than 1.",
+   "E": "$x=7$ fails the second condition."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-07",
+  "lessonId": "q2-07-inequalities",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "How many integers $x$ satisfy $-7<2x+1\\le9$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  },
+  "explanation": "Subtract 1: $-8<2x\\le8$. Divide by 2: $-4<x\\le4$. The integers are $-3,-2,\\dots,4$: 8 values.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-08",
+  "lessonId": "q2-07-inequalities",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$x^2$",
+   "quantityB": "$4$",
+   "common": "$4-3x\\ge10$"
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "$4-3x\\ge10$ gives $-3x\\ge6$, so $x\\le-2$. If $x=-2$ then $x^2=4$ (equal); if $x=-3$ then $x^2=9$ (A greater). The relationship cannot be determined.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-09",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "If $2<x<5$ and $y=3x-4$, which of the following describes all possible values of $y$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2<y<1$"
+    },
+    {
+     "id": "B",
+     "text": "$2<y<5$"
+    },
+    {
+     "id": "C",
+     "text": "$2<y<11$"
+    },
+    {
+     "id": "D",
+     "text": "$6<y<15$"
+    },
+    {
+     "id": "E",
+     "text": "$10<y<19$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Apply each step of $y=3x-4$ to all three parts: $6<3x<15$, then $2<3x-4<11$.",
+  "choiceExplanations": {
+   "A": "This is $x-4$: the multiplication by 3 was skipped.",
+   "B": "This is the range of $x$ itself.",
+   "D": "The $-4$ was ignored.",
+   "E": "The 4 was added instead of subtracted."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-10",
+  "lessonId": "q2-07-inequalities",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "What is the sum of all integers $x$ such that $4\\le3x-2<20$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 27
+  },
+  "explanation": "Add 2: $6\\le3x<22$. Divide by 3: $2\\le x<7\\frac13$. The integers are $2,3,4,5,6,7$, whose sum is 27.",
+  "estSeconds": 100,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-11",
+  "lessonId": "q2-07-inequalities",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "If the solution set of $3-kx>9$ is all $x$ with $x<-2$, what is the value of $k$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "Subtract 3: $-kx>6$. If $k>0$, dividing by $-k$ reverses the sign: $x<-\\dfrac6k$. If $k<0$ the result would be $x>\\dots$, which is not of the form $x<-2$. So $k>0$ and $-\\dfrac6k=-2$ gives $k=3$.",
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-07-inequalities-12",
+  "lessonId": "q2-07-inequalities",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "If $a<b$ and $c<0$, which of the following must be true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$ac<bc$"
+    },
+    {
+     "id": "B",
+     "text": "$a+c<b+c$"
+    },
+    {
+     "id": "C",
+     "text": "$ac>bc$"
+    },
+    {
+     "id": "D",
+     "text": "$a^2<b^2$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac ac>\\dfrac bc$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "Adding $c$ keeps the direction (B). Multiplying or dividing by the negative $c$ reverses it (C and E). A and D fail: for $a=-3$, $b=1$ we have $a<b$ but $a^2=9>1=b^2$.",
+  "choiceExplanations": {
+   "A": "Multiplying by a negative number reverses the inequality, so $ac>bc$.",
+   "D": "Squaring does not preserve order when negatives are involved: $-3<1$ but $9>1$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

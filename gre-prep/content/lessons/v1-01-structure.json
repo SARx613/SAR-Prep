@@ -1,0 +1,235 @@
+{
+ "id": "v1-01-structure",
+ "status": "draft",
+ "why": "Text Completion makes up a large share of the Verbal measure, and knowing how an item is built and scored shapes how you answer it.",
+ "rule": "A passage has **one to five sentences** with **one to three blanks per sentence**.\n\n- **One blank:** five choices.\n- **Two or three blanks:** three choices for each blank.\n- Every blank has exactly one correct answer, and the columns are independent: choosing one entry does not remove any entry from another column.\n- There is **no partial credit**: all blanks must be right.\n\nThe item tests whether you can form a picture of the whole text from the clues and revise it as you read.",
+ "examples": [
+  {
+   "prompt": "The critic's early reviews were (i)______, praising nearly every film; her later reviews were far more (ii)______, rarely finding anything to admire.  (i) lenient | cryptic | hurried;  (ii) severe | affectionate | repetitive.",
+   "steps": [
+    "Count: two blanks, so three choices each; both must be right for any credit.",
+    "Blank (i): \"praising nearly every film\" means going easy: *lenient*.",
+    "Blank (ii): \"rarely finding anything to admire\" is the opposite: *severe*.",
+    "Re-read: early reviews lenient, later ones severe. The contrast is coherent."
+   ],
+   "answer": "(i) lenient, (ii) severe"
+  }
+ ],
+ "trap": "Assuming a half-right answer scores something. It does not: every blank must be correct, so settle the blank you are unsure about by re-reading the whole sentence.",
+ "checks": [
+  {
+   "id": "v1-01-structure-c1",
+   "lessonId": "v1-01-structure",
+   "type": "TC",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "Her explanation was so {{1}} that even the youngest students grasped the idea at once.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "convoluted"
+       },
+       {
+        "id": "B",
+        "text": "tedious"
+       },
+       {
+        "id": "C",
+        "text": "evasive"
+       },
+       {
+        "id": "D",
+        "text": "abstruse"
+       },
+       {
+        "id": "E",
+        "text": "lucid"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "E"
+    ]
+   },
+   "explanation": "**Result clue:** *so ... that even the youngest grasped it at once*. Only a clear explanation does that: *lucid*.",
+   "choiceExplanations": {
+    "A": "Twisted explanations confuse students.",
+    "B": "Boring does not mean easily understood.",
+    "D": "Means hard to understand.",
+    "C": "Dodging the question would not teach anyone."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-01-structure-c2",
+   "lessonId": "v1-01-structure",
+   "type": "TC",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "content": {
+    "text": "The study was {{1}} in scope, covering only twelve patients, so its authors were {{2}} about claiming that the results applied to everyone.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "narrow"
+       },
+       {
+        "id": "1B",
+        "text": "lavish"
+       },
+       {
+        "id": "1C",
+        "text": "sweeping"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "cautious"
+       },
+       {
+        "id": "2B",
+        "text": "boastful"
+       },
+       {
+        "id": "2C",
+        "text": "reckless"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2A"
+    ]
+   },
+   "explanation": "**Structure:** two blanks, three choices each. *Only twelve patients* gives *narrow*; *so* ... *about claiming* ... *everyone* gives restraint: *cautious*.",
+   "choiceExplanations": {
+    "1C": "Twelve patients is not a broad scope.",
+    "1B": "Means extravagant; it does not describe scope.",
+    "2C": "A reckless author would claim too much.",
+    "2B": "Boasting would overstate the results."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-01-structure-c3",
+   "lessonId": "v1-01-structure",
+   "type": "TC",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "content": {
+    "text": "Though the first day of the festival was {{1}} by rain, the organizers stayed {{2}}, and when sunshine brought record crowds by the weekend, their optimism proved {{3}}.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "enhanced"
+       },
+       {
+        "id": "1B",
+        "text": "ignored"
+       },
+       {
+        "id": "1C",
+        "text": "marred"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "despondent"
+       },
+       {
+        "id": "2B",
+        "text": "hopeful"
+       },
+       {
+        "id": "2C",
+        "text": "indifferent"
+       }
+      ]
+     },
+     {
+      "index": 3,
+      "choices": [
+       {
+        "id": "3A",
+        "text": "pointless"
+       },
+       {
+        "id": "3B",
+        "text": "misplaced"
+       },
+       {
+        "id": "3C",
+        "text": "justified"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1C",
+     "2B",
+     "3C"
+    ]
+   },
+   "explanation": "**Three blanks, easiest first.** *Though ... rain* needs a negative: *marred*. *Optimism* and record crowds give *hopeful* and *justified*.",
+   "choiceExplanations": {
+    "1A": "Rain does not improve a festival; *though* needs a setback.",
+    "1B": "Being ignored by rain makes no sense.",
+    "2A": "Contradicts \"optimism\".",
+    "2C": "The sentence calls them optimistic, not indifferent.",
+    "3B": "Record crowds prove the optimism right.",
+    "3A": "Record crowds show the optimism served a purpose."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

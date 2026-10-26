@@ -1,0 +1,502 @@
+[
+ {
+  "id": "t1-02-adaptation-01",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which parts of the GRE General Test are section-level adaptive?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Analytical Writing only"
+    },
+    {
+     "id": "B",
+     "text": "Verbal Reasoning and Quantitative Reasoning"
+    },
+    {
+     "id": "C",
+     "text": "Quantitative Reasoning only"
+    },
+    {
+     "id": "D",
+     "text": "Verbal Reasoning only"
+    },
+    {
+     "id": "E",
+     "text": "All five sections"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The two measures with two sections each, Verbal and Quantitative, are section-level adaptive.",
+  "choiceExplanations": {
+   "A": "Writing is a single task, not adaptive.",
+   "C": "Verbal also adapts.",
+   "D": "Quant also adapts.",
+   "E": "Analytical Writing is not adaptive."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-02",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "How difficult is the first Quantitative Reasoning section?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Easy"
+    },
+    {
+     "id": "B",
+     "text": "Average difficulty"
+    },
+    {
+     "id": "C",
+     "text": "Hard"
+    },
+    {
+     "id": "D",
+     "text": "It depends on your Writing score"
+    },
+    {
+     "id": "E",
+     "text": "It depends on your Verbal score"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The first section of each measure is of average difficulty.",
+  "choiceExplanations": {
+   "A": "It is of average difficulty.",
+   "C": "It is of average difficulty.",
+   "D": "The first section is fixed at average difficulty.",
+   "E": "The first section is fixed at average difficulty."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-03",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Dana answers nearly every question correctly in the first Quantitative section. What should she expect from the second Quantitative section?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A higher level of difficulty"
+    },
+    {
+     "id": "B",
+     "text": "A lower level of difficulty"
+    },
+    {
+     "id": "C",
+     "text": "The same questions again"
+    },
+    {
+     "id": "D",
+     "text": "A Verbal section instead"
+    },
+    {
+     "id": "E",
+     "text": "No change in difficulty"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "Very strong performance on the first section leads to a second section at a higher level of difficulty.",
+  "choiceExplanations": {
+   "B": "Strong performance leads to a harder second section.",
+   "C": "The second section is a different set.",
+   "D": "Section order does not change this way.",
+   "E": "Its difficulty depends on first-section performance."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-04",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "What does the difficulty of the second Verbal section depend on?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Your overall performance on the first Verbal section"
+    },
+    {
+     "id": "B",
+     "text": "Your Analytical Writing task"
+    },
+    {
+     "id": "C",
+     "text": "The order in which you answered questions"
+    },
+    {
+     "id": "D",
+     "text": "The number of questions you marked"
+    },
+    {
+     "id": "E",
+     "text": "A random draw"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The second section's difficulty depends on overall performance on the first section of that measure.",
+  "choiceExplanations": {
+   "B": "Writing does not set it.",
+   "C": "Order of answering is not the basis.",
+   "D": "Marking is a navigation tool, not the basis.",
+   "E": "It depends on first-section performance."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-05",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following statements about adaptation on the GRE General Test are true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The first Verbal section is of average difficulty."
+    },
+    {
+     "id": "B",
+     "text": "Each answer you give changes the difficulty of the very next question."
+    },
+    {
+     "id": "C",
+     "text": "Scoring takes into account the total number of questions answered correctly across the two sections of a measure."
+    },
+    {
+     "id": "D",
+     "text": "Scoring also takes into account the difficulty level of the sections."
+    },
+    {
+     "id": "E",
+     "text": "Analytical Writing is section-level adaptive."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "Adaptation is at section level; scoring combines total correct across both sections with section difficulty.",
+  "choiceExplanations": {
+   "B": "Adaptation happens between sections, not question by question.",
+   "E": "Only Verbal and Quant are adaptive."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-06",
+  "lessonId": "t1-02-adaptation",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "A test-taker answers 9 of the 12 questions correctly in the first Verbal section and 11 of the 15 in the second. How many questions did she answer correctly across the two sections?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  },
+  "explanation": "$9+11=20$. The total across the two sections is part of what scoring takes into account.",
+  "estSeconds": 45,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-07",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Kim finds her second Quantitative section harder than her first and concludes that she must have done badly on the first. Is that conclusion justified?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Yes; a harder second section means a weak first section."
+    },
+    {
+     "id": "B",
+     "text": "No; strong performance on the first section leads to a harder second section."
+    },
+    {
+     "id": "C",
+     "text": "Yes; the second section is always harder."
+    },
+    {
+     "id": "D",
+     "text": "No; the second section difficulty is random."
+    },
+    {
+     "id": "E",
+     "text": "Yes; harder sections are only given to weak scorers."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "A harder second section reflects a stronger first section, so feeling that it is hard is not a sign of failure.",
+  "choiceExplanations": {
+   "A": "It is the opposite: strong first-section performance leads to a harder second section.",
+   "C": "Difficulty is set by first-section performance.",
+   "D": "It depends on first-section performance.",
+   "E": "The reverse is described."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-08",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which two things does scoring for Verbal and Quantitative combine?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Only the number correct in the second section"
+    },
+    {
+     "id": "B",
+     "text": "The number correct across the two sections, and the difficulty level of the sections"
+    },
+    {
+     "id": "C",
+     "text": "Time spent per question, and number of marked questions"
+    },
+    {
+     "id": "D",
+     "text": "The Writing score and the first section's difficulty"
+    },
+    {
+     "id": "E",
+     "text": "Only the first section's difficulty"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Scoring uses the total correct across both sections and the difficulty of the sections.",
+  "choiceExplanations": {
+   "A": "Both sections count.",
+   "C": "Neither is the stated basis.",
+   "D": "Writing is a separate measure.",
+   "E": "The answers count too."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-09",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A test-taker says: \"The first Verbal section is of average difficulty anyway, so I will not try hard on it.\" Which response is best?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Right; only the second section counts."
+    },
+    {
+     "id": "B",
+     "text": "Wrong: its answers count toward the total, and your performance on it sets the second section's difficulty."
+    },
+    {
+     "id": "C",
+     "text": "Right; it is unscored."
+    },
+    {
+     "id": "D",
+     "text": "Wrong: only Writing depends on it."
+    },
+    {
+     "id": "E",
+     "text": "Right; the second section's difficulty is fixed in advance."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Both reasons to try hard hold: answers in the first section count, and your performance there determines the second section.",
+  "choiceExplanations": {
+   "A": "Answers in both sections count toward the score.",
+   "C": "It is a scored section.",
+   "D": "Writing is separate.",
+   "E": "It depends on the first section."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "t1-02-adaptation-10",
+  "lessonId": "t1-02-adaptation",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Marcus answers 11 of 12 questions correctly in the first Quantitative section and 8 of 15 in the second. Priya answers 8 of 12 in the first and 11 of 15 in the second. Which statement is the most defensible?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Their scores must be identical, since each answered 19 correctly."
+    },
+    {
+     "id": "B",
+     "text": "Marcus probably faced the harder second section, and difficulty matters, so equal totals need not give equal scores."
+    },
+    {
+     "id": "C",
+     "text": "Priya probably faced the harder second section."
+    },
+    {
+     "id": "D",
+     "text": "Only second-section answers count, so Priya scores higher."
+    },
+    {
+     "id": "E",
+     "text": "The first section's results are ignored."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Both have 19 correct, but Marcus's strong first section implies a harder second section. Since difficulty is part of scoring, equal totals do not guarantee equal scores.",
+  "choiceExplanations": {
+   "A": "Section difficulty also enters scoring.",
+   "C": "Strong first-section performance, Marcus's, leads to the harder second section.",
+   "D": "Both sections count.",
+   "E": "They count toward the total and set the second section."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "section-adaptation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -1,0 +1,128 @@
+{
+ "id": "q1-09-number-line-abs",
+ "status": "draft",
+ "why": "Ordering numbers and reading absolute value as a distance underlies inequalities, QC comparisons and data problems.",
+ "rule": "Every real number (rational or irrational) is a point on the **number line**; the greater number is the one farther right, so $-2>-5$. Write $x<y$ for strict order and $x\\le y$ when equality is allowed. An **interval** is all numbers between endpoints: $-1<x<5$ excludes both, $-1\\le x\\le5$ includes both; one-sided examples are $x>2$ and $x\\le2$.\n\nThe **absolute value** $|x|$ is the distance from $x$ to 0: $|x| = x$ if $x\\ge0$ and $|x| = -x$ if $x<0$. It is never negative. So $|x| = 6$ means $x = \\pm6$, and $|x|<6$ means $-6<x<6$.",
+ "examples": [
+  {
+   "prompt": "Order from least to greatest: $-\\frac{3}{2},\\ -0.4,\\ \\frac{1}{3},\\ -2,\\ 0.3$.",
+   "steps": [
+    "Negatives first, farthest from 0 is least: $-2<-\\frac{3}{2}<-0.4$.",
+    "Positives: $0.3<\\frac{1}{3}$ because $\\frac{1}{3} = 0.333\\ldots$"
+   ],
+   "answer": "$-2,\\ -\\frac{3}{2},\\ -0.4,\\ 0.3,\\ \\frac{1}{3}$"
+  },
+  {
+   "prompt": "Evaluate $|-7|-|3-8|$.",
+   "steps": [
+    "$|-7| = 7$ and $|3-8| = |-5| = 5$.",
+    "$7-5 = 2$."
+   ],
+   "answer": "2"
+  }
+ ],
+ "trap": "A negative number with a bigger absolute value is *smaller* ($-5<-2$). $|x|$ is never negative, and $|x| = -x$ when $x$ is negative: $|{-4}| = 4$, not $-4$.",
+ "checks": [
+  {
+   "id": "q1-09-number-line-abs-c1",
+   "lessonId": "q1-09-number-line-abs",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is the value of $|-9|+|4|$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
+   },
+   "explanation": "$|-9| = 9$ and $|4| = 4$, so the sum is 13.",
+   "estSeconds": 45,
+   "skills": [
+    "number-line-abs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-09-number-line-abs-c2",
+   "lessonId": "q1-09-number-line-abs",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "Which of the following is the least?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-0.4$"
+     },
+     {
+      "id": "B",
+      "text": "$-\\frac{1}{3}$"
+     },
+     {
+      "id": "C",
+      "text": "$-\\frac{1}{4}$"
+     },
+     {
+      "id": "D",
+      "text": "$-\\frac{1}{5}$"
+     },
+     {
+      "id": "E",
+      "text": "$0$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   },
+   "explanation": "Among negatives, the one farthest from 0 is least. In decimals: $-0.4$, $-0.33$, $-0.25$, $-0.2$. So $-0.4$ is least.",
+   "choiceExplanations": {
+    "B": "$-\\frac{1}{3}\\approx-0.33$ is to the right of $-0.4$.",
+    "C": "$-0.25$ is to the right of $-0.4$.",
+    "D": "$-0.2$ is to the right of $-0.4$.",
+    "E": "0 is greater than every negative number."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "number-line-abs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-09-number-line-abs-c3",
+   "lessonId": "q1-09-number-line-abs",
+   "type": "QC",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "$|x|$",
+    "quantityB": "$x$",
+    "common": "$x<0$"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "$x$ is negative, and $|x|$ is positive. A is greater.",
+   "estSeconds": 45,
+   "skills": [
+    "number-line-abs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

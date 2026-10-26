@@ -1,0 +1,98 @@
+{
+ "id": "q4-07-counting-principles",
+ "status": "draft",
+ "why": "Counting items (\"how many arrangements?\", \"how many committees?\") are common in Problem Solving and are also the basis of probability.",
+ "rule": "**Multiplication principle**: for choices made one after another, multiply the number of options at each step. If repeats are not allowed, later steps have fewer options (26, then 25, then 24...).\n\n- $n! = n(n-1)\\cdots 2 \\cdot 1$, and $0! = 1$. $n$ objects can be put in order in $n!$ ways.\n- **Order matters** (permutations): choosing and ordering $k$ of $n$ objects gives $\\frac{n!}{(n-k)!}$.\n- **Order does not matter** (combinations): $\\binom{n}{k} = \\frac{n!}{k!\\,(n-k)!}$, and $\\binom{n}{k} = \\binom{n}{n-k}$.\n\nAsk first: does swapping two chosen items make a different outcome?",
+ "examples": [
+  {
+   "prompt": "From 6 candidates, how many ways are there to choose (a) a president and a vice president, (b) a 2-person committee?",
+   "steps": [
+    "(a) Order matters: $6 \\times 5 = 30$.",
+    "(b) Order does not matter, so each pair was counted twice in (a): $\\frac{30}{2} = 15 = \\binom{6}{2}$."
+   ],
+   "answer": "(a) 30, (b) 15"
+  },
+  {
+   "prompt": "A plate has 2 different letters followed by 2 digits (digits may repeat). How many plates are possible?",
+   "steps": [
+    "Letters: $26 \\times 25$ (no repeats). Digits: $10 \\times 10$.",
+    "Multiply: $26 \\times 25 \\times 10 \\times 10 = 65{,}000$."
+   ],
+   "answer": "65,000"
+  }
+ ],
+ "trap": "Using a combination when order matters (or the reverse): a \"president and vice president\" pair is ordered, a \"committee\" is not. And when repeats are forbidden, do not use the same number of options at every step.",
+ "checks": [
+  {
+   "id": "q4-07-counting-principles-c1",
+   "lessonId": "q4-07-counting-principles",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "In how many different orders can 4 runners finish first through fourth in a race (no ties)?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 24
+   },
+   "explanation": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+   "estSeconds": 45,
+   "skills": [
+    "permutations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-07-counting-principles-c2",
+   "lessonId": "q4-07-counting-principles",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "How many different 2-person teams can be chosen from a group of 8 people?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 28
+   },
+   "explanation": "Order does not matter: $\\binom{8}{2} = \\frac{8 \\times 7}{2} = 28$.",
+   "estSeconds": 60,
+   "skills": [
+    "combinations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-07-counting-principles-c3",
+   "lessonId": "q4-07-counting-principles",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The number of ways to choose 2 people from 6 people for a team",
+    "quantityB": "The number of ways to choose a captain and a co-captain from 6 people"
+   },
+   "answer": {
+    "choice": "B"
+   },
+   "explanation": "A: $\\binom{6}{2} = 15$. B: order matters, $6 \\times 5 = 30$. Quantity B is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "permutations",
+    "combinations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

@@ -36,7 +36,7 @@ Exemplar to copy: `content/lessons/q1-01-factors-multiples.json` and `content/qu
 Fields: `id`, `status` (`draft` — never set `published`), `why` (1 sentence), `rule`, optional `lengthJustification`,
 `examples` (1–2, each with `prompt`, `steps[]`, `answer`), `trap` (1–3 lines), `checks` (2–3 inline questions; ids
 `<lessonId>-c1`, `-c2`, `-c3`). Rich text: Markdown subset (`**bold**`, `*italic*`, `- lists`, blank line = paragraph)
-and KaTeX between single `$…$`. In JSON strings escape backslashes: `"$\\frac{1}{2}$"`.
+and KaTeX between single `$…$`. In JSON strings escape backslashes: `"$\\frac{1}{2}$"`. **Money is not math:** a dollar amount is written `\$5` in the rendered text, i.e. `"\\$5"` inside the JSON string; an unescaped `$` swallows text up to the next `$` as maths. Prose never goes inside `$…$` (use `\text{…}` for units, e.g. `$12\text{ cm}$`; in JSON `"$12\\text{ cm}$"`).
 
 ## Practice set (`questions/<lessonId>.json`)
 

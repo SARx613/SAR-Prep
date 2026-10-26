@@ -1,0 +1,117 @@
+{
+ "id": "v3-05-inference",
+ "status": "draft",
+ "why": "Inference questions ask what the passage implies and require you to reason from incomplete information without leaving the text.",
+ "rule": "An inference is something that must be true, or is very probably true, given the passage: one short step beyond the words, not a leap. Test each choice by finding the lines that force it.\n\nReason carefully from partial data:\n\n- *All A are B* does not mean *all B are A*.\n- *Some* is not *most*, and *not every* is not *none*.\n- Missing evidence does not prove the opposite.\n\nReject choices that need outside knowledge, that cover more cases or speak more strongly than the passage, or that merely sound plausible.",
+ "examples": [
+  {
+   "prompt": "Passage: \"In a survey of a town's cafes, every cafe that served breakfast also opened before 8 a.m. The Corner Cafe opens at 9 a.m.\"\n\nWhich must be true? (A) The Corner Cafe does not serve breakfast. (B) Every cafe that opens before 8 a.m. serves breakfast. (C) The Corner Cafe serves lunch.",
+   "steps": [
+    "Breakfast requires opening before 8 a.m.; the Corner Cafe opens at 9 a.m., so it cannot serve breakfast: A must be true.",
+    "B reverses the statement. C is plausible but unsupported."
+   ],
+   "answer": "(A)"
+  }
+ ],
+ "trap": "Picking what is plausible in the real world or true but not entailed, or reversing a conditional (from 'if A then B' to 'if B then A').",
+ "checks": [
+  {
+   "id": "v3-05-inference-c1",
+   "lessonId": "v3-05-inference",
+   "type": "RC",
+   "difficulty": 2,
+   "stem": "Which of the following must be true of the surveyed bakeries?",
+   "passageId": "v3-c-05",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A bakery that opened after 6 a.m. did not sell more than fifty loaves a day."
+     },
+     {
+      "id": "B",
+      "text": "Opening before 6 a.m. causes higher sales."
+     },
+     {
+      "id": "C",
+      "text": "Most bakeries opened before 6 a.m."
+     },
+     {
+      "id": "D",
+      "text": "Every bakery that opened before 6 a.m. sold more than fifty loaves."
+     },
+     {
+      "id": "E",
+      "text": "No bakery that sold fewer than fifty loaves opened before 6 a.m."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   },
+   "explanation": "If selling more than fifty loaves requires opening before 6 a.m., then a bakery that opened later cannot have sold more than fifty.",
+   "choiceExplanations": {
+    "B": "The survey shows a link, not a cause.",
+    "C": "The passage gives no proportion of early openers.",
+    "D": "Contradicted by the second sentence.",
+    "E": "Contradicted by the second sentence."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-inference"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v3-05-inference-c2",
+   "lessonId": "v3-05-inference",
+   "type": "RC",
+   "difficulty": 2,
+   "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+   "passageId": "v3-c-05",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Opening before 6 a.m. does not guarantee sales above fifty loaves."
+     },
+     {
+      "id": "B",
+      "text": "At least some of the surveyed bakeries opened before 6 a.m."
+     },
+     {
+      "id": "C",
+      "text": "Opening early raises a bakery's sales."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   },
+   "explanation": "The second sentence supports A and B. The survey gives no basis for a causal claim.",
+   "choiceExplanations": {
+    "C": "The survey reports an association in one direction only; it gives no information about cause."
+   },
+   "estSeconds": 90,
+   "skills": [
+    "rc-inference"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+[
+ {
+  "id": "q1-04-fraction-operations-01",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is $\\frac{2}{3}\\cdot\\frac{3}{8}$? Enter your answer as a fraction.",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.25,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 4
+   }
+  },
+  "explanation": "Multiply across: $\\frac{6}{24} = \\frac{1}{4}$.",
+  "estSeconds": 45,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-02",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "What is $\\frac{3}{4}+\\frac{5}{6}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{5}{8}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{4}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{17}{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{19}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{7}{4}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Use denominator 12: $\\frac{9}{12}+\\frac{10}{12} = \\frac{19}{12}$.",
+  "choiceExplanations": {
+   "A": "$\\frac{5}{8}$ is the product $\\frac{15}{24}$, not the sum.",
+   "B": "$\\frac{4}{5}$ comes from adding tops and bottoms: $\\frac{3+5}{4+6}$.",
+   "C": "This converts $\\frac{5}{6}$ to $\\frac{8}{12}$; it is $\\frac{10}{12}$.",
+   "E": "This converts $\\frac{5}{6}$ to $\\frac{12}{12}$; it is $\\frac{10}{12}$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-03",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "What is $\\frac{7}{12}-\\frac{1}{8}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7}{96}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{11}{24}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{19}{24}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{3}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Common denominator 24: $\\frac{14}{24}-\\frac{3}{24} = \\frac{11}{24}$.",
+  "choiceExplanations": {
+   "A": "This multiplies the fractions instead of subtracting.",
+   "B": "This subtracts the numerators ($7-1 = 6$) over 24 without converting them.",
+   "D": "This adds instead of subtracting.",
+   "E": "This subtracts tops and bottoms: $\\frac{7-1}{12-8} = \\frac{6}{4}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-04",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{5}{7}$",
+   "quantityB": "$\\frac{7}{9}$"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Use a common denominator 63: $\\frac{5}{7} = \\frac{45}{63}$ and $\\frac{7}{9} = \\frac{49}{63}$. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-05",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $\\frac{3}{8}$? Indicate all such fractions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{6}{16}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{9}{24}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{12}{36}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{15}{40}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{18}{56}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  },
+  "explanation": "Equivalent fractions come from multiplying top and bottom of $\\frac{3}{8}$ by the same integer: $\\frac{6}{16}$ (by 2), $\\frac{9}{24}$ (by 3), $\\frac{15}{40}$ (by 5). $\\frac{12}{36} = \\frac{1}{3}$ and $\\frac{18}{56} = \\frac{9}{28}$.",
+  "choiceExplanations": {
+   "C": "$\\frac{12}{36}$ reduces to $\\frac{1}{3}$.",
+   "E": "$\\frac{18}{56}$ reduces to $\\frac{9}{28}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-06",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "What is the value of $\\left(1-\\frac{1}{3}\\right)\\left(1-\\frac{1}{4}\\right)\\left(1-\\frac{1}{5}\\right)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{60}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{5}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{4}{5}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{59}{60}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Evaluate each bracket: $\\frac{2}{3}\\cdot\\frac{3}{4}\\cdot\\frac{4}{5}$. The 3s and 4s cancel, leaving $\\frac{2}{5}$.",
+  "choiceExplanations": {
+   "A": "This multiplies only the subtracted fractions, $\\frac{1}{3}\\cdot\\frac{1}{4}\\cdot\\frac{1}{5}$.",
+   "C": "$\\frac{3}{5}$ is $1-\\frac{2}{5}$, the complement of the answer.",
+   "D": "$\\frac{4}{5}$ is only the last factor.",
+   "E": "$\\frac{59}{60}$ is $1-\\frac{1}{60}$, the complement of the wrong product above."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-07",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{1}{x}$",
+   "quantityB": "$x$",
+   "common": "$0 < x < 1$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "For $0<x<1$, the reciprocal $\\frac{1}{x}$ is greater than 1 (try $x=\\frac{1}{4}$: $\\frac{1}{x} = 4$), while $x$ is less than 1. Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-08",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A recipe uses $\\frac{3}{4}$ cup of flour for 12 cookies. At the same rate, how many cups of flour are needed for 20 cookies? Enter your answer as a fraction.",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 1.25,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 4
+   }
+  },
+  "explanation": "20 cookies is $\\frac{20}{12} = \\frac{5}{3}$ of the recipe, so flour is $\\frac{3}{4}\\cdot\\frac{5}{3} = \\frac{5}{4}$ cups.",
+  "estSeconds": 90,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-09",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "If $0 < a < b$, which of the following must be less than 1? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{a}{b}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{b}{a}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{a}{a+b}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{a+b}{b}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{b-a}{b}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "Since $a<b$, $\\frac{a}{b}<1$. $\\frac{a}{a+b}$ has a larger denominator than numerator, so it is below 1. $\\frac{b-a}{b} = 1-\\frac{a}{b}<1$ because $\\frac{a}{b}>0$. But $\\frac{b}{a}>1$ and $\\frac{a+b}{b} = 1+\\frac{a}{b}>1$.",
+  "choiceExplanations": {
+   "B": "The numerator $b$ exceeds the denominator $a$, so it is above 1.",
+   "D": "$\\frac{a+b}{b} = 1+\\frac{a}{b}$ is above 1."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-10",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "What is the value of $\\dfrac{\\frac{1}{2}+\\frac{1}{3}}{\\frac{1}{2}-\\frac{1}{3}}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$5$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Numerator: $\\frac{5}{6}$. Denominator: $\\frac{1}{6}$. Then $\\frac{5}{6}\\div\\frac{1}{6} = \\frac{5}{6}\\cdot6 = 5$.",
+  "choiceExplanations": {
+   "A": "This is the reciprocal: it divides the denominator by the numerator.",
+   "B": "This is only the numerator; it forgets to divide by $\\frac{1}{6}$.",
+   "C": "The numerator $\\frac{5}{6}$ and the denominator $\\frac{1}{6}$ are different.",
+   "E": "This is $\\frac{1}{1/6}$, ignoring the numerator $\\frac{5}{6}$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-11",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "In a jar of marbles, $\\frac{1}{2}$ are red. Of the marbles that are not red, $\\frac{1}{3}$ are blue, and the remaining 12 marbles are green. How many marbles are in the jar?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  },
+  "explanation": "Non-red marbles are $\\frac{1}{2}$ of the jar. Blue is $\\frac{1}{3}\\cdot\\frac{1}{2} = \\frac{1}{6}$ of the jar. Green is $1-\\frac{1}{2}-\\frac{1}{6} = \\frac{1}{3}$ of the jar. If $\\frac{1}{3}$ of the jar is 12, the jar holds $12\\cdot3 = 36$.",
+  "estSeconds": 120,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-12",
+  "lessonId": "q1-04-fraction-operations",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "What is $\\frac{1}{1\\cdot2}+\\frac{1}{2\\cdot3}+\\frac{1}{3\\cdot4}+\\frac{1}{4\\cdot5}$? Enter your answer as a fraction.",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.8,
+   "fraction": {
+    "numerator": 4,
+    "denominator": 5
+   }
+  },
+  "explanation": "That is $\\frac{1}{2}+\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{20}$. Use denominator 60: $\\frac{30}{60}+\\frac{10}{60}+\\frac{5}{60}+\\frac{3}{60} = \\frac{48}{60} = \\frac{4}{5}$.",
+  "estSeconds": 120,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

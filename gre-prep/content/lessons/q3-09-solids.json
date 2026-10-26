@@ -1,0 +1,130 @@
+{
+ "why": "Volume and surface area of boxes, cubes and cylinders appear in applied geometry questions, often combined with ratios or with pouring and rate ideas.",
+ "rule": "A **rectangular solid** has length $\\ell$, width $w$ and height $h$; its 6 faces are rectangles. A **cube** has $\\ell=w=h$.\n$$V=\\ell wh,\\qquad \\text{surface area}=2(\\ell w+\\ell h+wh).$$\nA **right circular cylinder** has two circular bases of radius $r$ and height $h$ (its axis is perpendicular to the bases).\n$$V=\\pi r^2h,\\qquad \\text{surface area}=2\\pi r^2+2\\pi rh .$$\nSurface area adds the areas of *all* faces (both bases of a cylinder plus the curved side); volume counts the cubic units inside.",
+ "examples": [
+  {
+   "prompt": "A rectangular solid is 4 by 5 by 9. Find its volume and surface area.",
+   "steps": [
+    "$V=4\\cdot5\\cdot9=180$.",
+    "Surface area $=2(4\\cdot5+4\\cdot9+5\\cdot9)=2(20+36+45)=202$."
+   ],
+   "answer": "Volume 180, surface area 202"
+  },
+  {
+   "prompt": "A right circular cylinder has radius 2 and height 7. Find its volume and surface area.",
+   "steps": [
+    "$V=\\pi\\cdot2^2\\cdot7=28\\pi$.",
+    "Surface area $=2\\pi\\cdot2^2+2\\pi\\cdot2\\cdot7=8\\pi+28\\pi=36\\pi$."
+   ],
+   "answer": "Volume $28\\pi$, surface area $36\\pi$"
+  }
+ ],
+ "trap": "The cylinder formulas use the *radius*: if you are given the diameter, halve it first. And surface area is not volume: for a cylinder remember the two circular bases as well as the curved side, and never mix square and cubic units.",
+ "checks": [
+  {
+   "id": "q3-09-solids-c1",
+   "lessonId": "q3-09-solids",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A rectangular solid has length 3, width 4 and height 10. What is its volume?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 120
+   },
+   "explanation": "$V=3\\cdot4\\cdot10=120$.",
+   "estSeconds": 45,
+   "skills": [
+    "solids",
+    "volume-surface-area"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-09-solids-c2",
+   "lessonId": "q3-09-solids",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "A right circular cylinder has radius 2 and height 7. What is its volume?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$14\\pi$"
+     },
+     {
+      "id": "B",
+      "text": "$28\\pi$"
+     },
+     {
+      "id": "C",
+      "text": "$36\\pi$"
+     },
+     {
+      "id": "D",
+      "text": "$56\\pi$"
+     },
+     {
+      "id": "E",
+      "text": "$112\\pi$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "$V=\\pi r^2h=\\pi\\cdot2^2\\cdot7=28\\pi$.",
+   "choiceExplanations": {
+    "A": "That is $\\pi rh$; the base area is $\\pi r^2$, not $\\pi r$.",
+    "C": "That is the surface area, not the volume.",
+    "D": "That doubles the correct value.",
+    "E": "That uses the diameter 4 as the radius: $\\pi\\cdot4^2\\cdot7$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "solids",
+    "volume-surface-area"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-09-solids-c3",
+   "lessonId": "q3-09-solids",
+   "type": "QC",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The surface area of a cube with edge length 6",
+    "quantityB": "The volume of a cube with edge length 6"
+   },
+   "answer": {
+    "choice": "C"
+   },
+   "explanation": "Surface area $=6\\cdot6^2=216$. Volume $=6^3=216$. Equal.",
+   "estSeconds": 75,
+   "skills": [
+    "solids",
+    "volume-surface-area"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ],
+ "id": "q3-09-solids",
+ "status": "draft"
+}

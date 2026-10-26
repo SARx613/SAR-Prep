@@ -1,0 +1,127 @@
+{
+ "id": "q1-06-exponents",
+ "status": "draft",
+ "why": "Exponent evaluation, especially with negative bases and negative or zero exponents, drives many QC traps.",
+ "rule": "$a^n$ (for a positive integer $n$) means $a$ multiplied by itself $n$ times. A negative base to an **even** power is positive, to an **odd** power negative. Parentheses matter: $(-4)^2 = 16$ but $-4^2 = -16$, because the exponent acts on 4 alone.\n\nFor $a\\ne0$: $a^0 = 1$ (and $0^0$ is undefined), and $a^{-n} = \\dfrac{1}{a^n}$. So $2^{-3} = \\frac{1}{8}$, and a negative exponent never changes the sign of the base. For a fraction, flip it: $\\left(\\frac{3}{5}\\right)^{-1} = \\frac{5}{3}$.",
+ "examples": [
+  {
+   "prompt": "Evaluate $(-2)^3+(-3)^2-2^{-2}$.",
+   "steps": [
+    "$(-2)^3 = -8$, $(-3)^2 = 9$, $2^{-2} = \\frac{1}{4}$.",
+    "$-8+9-\\frac{1}{4} = \\frac{3}{4}$."
+   ],
+   "answer": "$\\frac{3}{4}$"
+  },
+  {
+   "prompt": "Evaluate $\\left(\\frac{3}{4}\\right)^{-2}$.",
+   "steps": [
+    "Flip the fraction: $\\left(\\frac{4}{3}\\right)^2$.",
+    "$\\frac{16}{9}$."
+   ],
+   "answer": "$\\frac{16}{9}$"
+  }
+ ],
+ "trap": "$-4^2$ is $-16$, not $16$: only $(-4)^2$ is 16. A zero exponent gives 1, not 0 ($5^0 = 1$), and $2^{-3}$ is $\\frac{1}{8}$, not $-8$.",
+ "checks": [
+  {
+   "id": "q1-06-exponents-c1",
+   "lessonId": "q1-06-exponents",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is the value of $(-2)^5$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -32
+   },
+   "explanation": "Five factors of $-2$: a negative number to an odd power is negative. $2^5 = 32$, so $(-2)^5 = -32$.",
+   "estSeconds": 45,
+   "skills": [
+    "exponents"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-06-exponents-c2",
+   "lessonId": "q1-06-exponents",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "What is the value of $5^0+2^{-1}$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-1$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{1}{2}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{3}{2}$"
+     },
+     {
+      "id": "D",
+      "text": "$2$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{11}{2}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   },
+   "explanation": "$5^0 = 1$ and $2^{-1} = \\frac{1}{2}$, so the sum is $\\frac{3}{2}$.",
+   "choiceExplanations": {
+    "A": "This treats $5^0$ as 1 but $2^{-1}$ as $-2$.",
+    "B": "This takes $5^0 = 0$.",
+    "D": "This treats $2^{-1}$ as 1.",
+    "E": "This takes $5^0 = 5$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "exponents"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-06-exponents-c3",
+   "lessonId": "q1-06-exponents",
+   "type": "QC",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "$(-3)^4$",
+    "quantityB": "$-3^4$"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "$(-3)^4 = 81$, since four negative factors multiply to a positive. In $-3^4$ the exponent applies to 3 only: $-(3^4) = -81$. A is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "exponents"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

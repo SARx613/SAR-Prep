@@ -1,0 +1,828 @@
+[
+ {
+  "id": "v1-05-coherence-check-01",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "The twins looked so alike that even their teachers could not {{1}} them.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "distinguished"
+      },
+      {
+       "id": "B",
+       "text": "distinction"
+      },
+      {
+       "id": "C",
+       "text": "distinct"
+      },
+      {
+       "id": "D",
+       "text": "distinguish"
+      },
+      {
+       "id": "E",
+       "text": "distinguishing"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  },
+  "explanation": "**Grammar check:** after *could not* the sentence needs a base-form verb. Only *distinguish* works; the other forms share the meaning but break the grammar.",
+  "choiceExplanations": {
+   "E": "An *-ing* form cannot follow *could not*.",
+   "A": "A past form cannot follow *could not*.",
+   "B": "A noun; the slot needs a verb.",
+   "C": "An adjective; the slot needs a verb."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-02",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "The tourists, expecting a quiet village, were {{1}} to find the streets packed with festival crowds.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "grateful"
+      },
+      {
+       "id": "B",
+       "text": "bored"
+      },
+      {
+       "id": "C",
+       "text": "startled"
+      },
+      {
+       "id": "D",
+       "text": "anticipating"
+      },
+      {
+       "id": "E",
+       "text": "fond"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  },
+  "explanation": "**Logic and grammar check:** expecting quiet but finding crowds means surprise: *startled*. *Anticipating* would also break grammar after *were ... to find*.",
+  "choiceExplanations": {
+   "B": "Crowds are not a reason for boredom, and *expecting quiet* signals surprise.",
+   "A": "Gratitude is not suggested by the mismatch.",
+   "D": "Wrong form after *were ... to find*, and they expected the opposite.",
+   "E": "Does not fit *were ___ to find*."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-03",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "The mayor's decision to cut the budget was widely {{1}} by residents as unfair.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "perceptive"
+      },
+      {
+       "id": "B",
+       "text": "perceiving"
+      },
+      {
+       "id": "C",
+       "text": "perceive"
+      },
+      {
+       "id": "D",
+       "text": "perception"
+      },
+      {
+       "id": "E",
+       "text": "perceived"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  },
+  "explanation": "**Grammar check:** *was widely ___ by residents* needs a past participle in a passive construction: *perceived*.",
+  "choiceExplanations": {
+   "C": "Base verb; a passive needs a participle.",
+   "D": "A noun cannot follow *was widely*.",
+   "A": "An adjective meaning observant; it cannot take *by residents as unfair*.",
+   "B": "Active participle; it breaks the passive."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-04",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "In a formal letter to the dean, the student described the policy as {{1}}, a measured criticism rather than an insult.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stupid"
+      },
+      {
+       "id": "B",
+       "text": "idiotic"
+      },
+      {
+       "id": "C",
+       "text": "moronic"
+      },
+      {
+       "id": "D",
+       "text": "brain-dead"
+      },
+      {
+       "id": "E",
+       "text": "ill-advised"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  },
+  "explanation": "**Style check:** *measured criticism rather than an insult* and the formal letter call for a restrained word: *ill-advised*. The other choices mean roughly the same but are insults in register.",
+  "choiceExplanations": {
+   "A": "An insult, which the sentence says it is not.",
+   "C": "Insulting and informal.",
+   "B": "Insulting and informal.",
+   "D": "Slang, and insulting."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-05",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "Although the pact was never formally ratified, it was nonetheless {{1}} in practice, since every signatory observed its terms.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "void"
+      },
+      {
+       "id": "B",
+       "text": "effective"
+      },
+      {
+       "id": "C",
+       "text": "invalid"
+      },
+      {
+       "id": "D",
+       "text": "moot"
+      },
+      {
+       "id": "E",
+       "text": "unenforceable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
+   ]
+  },
+  "explanation": "**Logic check:** *Although ... never ratified* sets up a contrast, and *every signatory observed its terms* shows it worked: *effective*. The others would agree with the lack of ratification and contradict the observance.",
+  "choiceExplanations": {
+   "A": "Means without legal force; but its terms were observed.",
+   "C": "Also contradicts the observance of its terms.",
+   "E": "Contradicts the evidence that everyone complied; and it would agree with the lack of ratification, so *although* would be idle.",
+   "D": "Means no longer relevant, which conflicts with its being observed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-06",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "The author's tone is {{1}} in the opening chapters, as she describes her childhood with affection, but turns {{2}} in later chapters, as she recalls years of hardship.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "scornful"
+      },
+      {
+       "id": "1B",
+       "text": "detached"
+      },
+      {
+       "id": "1C",
+       "text": "nostalgic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "embittered"
+      },
+      {
+       "id": "2B",
+       "text": "jubilant"
+      },
+      {
+       "id": "2C",
+       "text": "whimsical"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  },
+  "explanation": "**Consistency check:** *with affection* is *nostalgic*; the *but* turn to *years of hardship* must be negative: *embittered*. A positive second word would erase the contrast.",
+  "choiceExplanations": {
+   "1A": "Contradicts *with affection*.",
+   "1B": "Contradicts *with affection*; detachment implies no feeling.",
+   "2B": "Joy does not follow years of hardship and would erase *but*.",
+   "2C": "Playful tone does not follow hardship."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-07",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "The reforms were intended less to {{1}} inequality than to {{2}} an appearance of concern about it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "eliminate"
+      },
+      {
+       "id": "1B",
+       "text": "document"
+      },
+      {
+       "id": "1C",
+       "text": "aggravate"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "dispel"
+      },
+      {
+       "id": "2B",
+       "text": "cultivate"
+      },
+      {
+       "id": "2C",
+       "text": "forgo"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  },
+  "explanation": "**Logic check:** *less ... than* contrasts a real aim with a showy one. Real aim: *eliminate* inequality; the showy aim is to *cultivate* an appearance. Reading it back, the contrast reads naturally; the other combinations do not.",
+  "choiceExplanations": {
+   "1C": "No one would intend to worsen inequality while wanting to seem concerned, so the contrast would be meaningless.",
+   "1B": "Recording inequality is not a competing aim the contrast needs.",
+   "2A": "To dispel an appearance of concern contradicts the point.",
+   "2C": "To forgo an appearance would make the contrast pointless."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-08",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "The critic's review was {{1}}, praising the film's visuals, yet {{2}} in its judgment of the script, which she called {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "generous"
+      },
+      {
+       "id": "1B",
+       "text": "grudging"
+      },
+      {
+       "id": "1C",
+       "text": "perfunctory"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "evasive"
+      },
+      {
+       "id": "2B",
+       "text": "unsparing"
+      },
+      {
+       "id": "2C",
+       "text": "lenient"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "groundbreaking"
+      },
+      {
+       "id": "3B",
+       "text": "derivative"
+      },
+      {
+       "id": "3C",
+       "text": "flawless"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3B"
+   ]
+  },
+  "explanation": "**Consistency check:** praise of the visuals gives *generous*; *yet* turns to a severe verdict: *unsparing*; the script she faults is *derivative* (unoriginal). A positive word in blank 3 would contradict *unsparing*.",
+  "choiceExplanations": {
+   "1B": "Praise freely given is not grudging.",
+   "1C": "Means done carelessly; she praised the visuals.",
+   "2C": "*Yet* needs a contrast with praise.",
+   "2A": "She is direct about the script.",
+   "3A": "Praise would contradict *unsparing*.",
+   "3C": "Praise would contradict *unsparing*."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-09",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "Her prose, though {{1}} in its vocabulary, remained so {{2}} that general readers found it accessible.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "pedestrian"
+      },
+      {
+       "id": "1B",
+       "text": "sparse"
+      },
+      {
+       "id": "1C",
+       "text": "recondite"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "lucid"
+      },
+      {
+       "id": "2B",
+       "text": "convoluted"
+      },
+      {
+       "id": "2C",
+       "text": "circumlocutory"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  },
+  "explanation": "**Logic check:** *though* contrasts difficult vocabulary with accessibility: *recondite* and *lucid*. *Pedestrian* vocabulary would remove the contrast, and *convoluted* prose would defeat accessibility.",
+  "choiceExplanations": {
+   "1A": "Plain vocabulary would not conflict with accessibility, so *though* would have no work.",
+   "1B": "Means thin; it does not contrast with accessibility.",
+   "2B": "Twisted prose would not be accessible.",
+   "2C": "Roundabout prose would not be accessible."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-10",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "Having {{1}} the scandal for years, the newspaper was reluctant to {{2}} evidence that it had itself helped {{3}} the facts.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "exposed"
+      },
+      {
+       "id": "1B",
+       "text": "downplayed"
+      },
+      {
+       "id": "1C",
+       "text": "chronicled"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "suppress"
+      },
+      {
+       "id": "2B",
+       "text": "refute"
+      },
+      {
+       "id": "2C",
+       "text": "publish"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "obscure"
+      },
+      {
+       "id": "3B",
+       "text": "reveal"
+      },
+      {
+       "id": "3C",
+       "text": "clarify"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3A"
+   ]
+  },
+  "explanation": "**Cross-check:** the paper had hidden the story, so it is reluctant to *publish* evidence of its own part in *obscuring* the facts. Choosing *exposed* for blank 1 would make the reluctance illogical.",
+  "choiceExplanations": {
+   "1A": "A paper that exposed the scandal would not be reluctant to publish related evidence.",
+   "1C": "Same problem: it would not be reluctant.",
+   "2A": "Reluctance to suppress contradicts the shame of having hidden facts.",
+   "2B": "Refuting evidence is not what the paper is reluctant about.",
+   "3B": "Helping reveal the facts would not cause reluctance.",
+   "3C": "Same problem: clarifying the facts would not cause reluctance."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-11",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "Although the theory's proponents have been {{1}} in defending it, the evidence they cite is, on inspection, {{2}}, consisting largely of anecdotes.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lax"
+      },
+      {
+       "id": "1B",
+       "text": "unrepentant"
+      },
+      {
+       "id": "1C",
+       "text": "tireless"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "substantial"
+      },
+      {
+       "id": "2B",
+       "text": "compelling"
+      },
+      {
+       "id": "2C",
+       "text": "slender"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2C"
+   ]
+  },
+  "explanation": "**Logic check:** *Although* needs a contrast between effort and result. Effort: *tireless*; evidence that is mostly anecdote is *slender*. *Lax* and *slender* agree, so *although* would be pointless.",
+  "choiceExplanations": {
+   "1A": "Half-hearted defenders plus weak evidence do not contrast.",
+   "1B": "Means not sorry; it does not describe energetic defense.",
+   "2A": "Mostly anecdotes is not substantial.",
+   "2B": "Anecdotes are not compelling evidence."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-12",
+  "lessonId": "v1-05-coherence-check",
+  "type": "TC",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "The novel's {{1}} ending, which appears to resolve every plot thread, turns out on rereading to be {{2}}: each apparent resolution {{3}} a new question.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "abrupt"
+      },
+      {
+       "id": "1B",
+       "text": "tidy"
+      },
+      {
+       "id": "1C",
+       "text": "inconclusive"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "illusory"
+      },
+      {
+       "id": "2B",
+       "text": "predictable"
+      },
+      {
+       "id": "2C",
+       "text": "definitive"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "answers"
+      },
+      {
+       "id": "3B",
+       "text": "forecloses"
+      },
+      {
+       "id": "3C",
+       "text": "opens"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3C"
+   ]
+  },
+  "explanation": "**Consistency check:** *appears to resolve* needs *tidy*, and *turns out on rereading* needs the reverse: *illusory*. The colon explains: each resolution *opens* a new question. *Inconclusive* in blank 1 would contradict *appears to resolve*.",
+  "choiceExplanations": {
+   "1C": "Contradicts *appears to resolve every plot thread*.",
+   "1A": "Describes speed, not the appearance of resolution.",
+   "2C": "Would agree with the appearance, so *turns out* would be pointless.",
+   "2B": "Does not contrast with the apparent resolution.",
+   "3A": "Answering would make the resolutions real.",
+   "3B": "Closing off questions would also make them real."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

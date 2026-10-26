@@ -1,0 +1,334 @@
+[
+ {
+  "id": "w1-02-planning-01",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which activity does ETS list as the second step when planning an Issue response, after reading the claim and instructions?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Decide the number of paragraphs" },
+    { "id": "B", "text": "Think about the claim in relation to your own ideas, experiences, reading and observation" },
+    { "id": "C", "text": "Write the first sentence of the introduction" },
+    { "id": "D", "text": "Check the spelling of difficult words" },
+    { "id": "E", "text": "Choose the final example" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "After understanding the claim and instructions, ETS says to think about the claim in relation to your own ideas and experiences, events you have read about or observed, and people you have known. This is the knowledge base for your reasons and examples.",
+  "choiceExplanations": {
+   "A": "ETS lets you use as many paragraphs as needed; it does not make this a step.",
+   "C": "Writing begins after planning.",
+   "D": "No spellchecker exists in the test, and spelling is not a planning step.",
+   "E": "Choosing evidence is the fourth step, after deciding your position."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-02",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which statement about the examples you use in an Issue response is consistent with ETS's planning advice?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Examples must come from published sources." },
+    { "id": "B", "text": "Examples may be real or hypothetical; choose the most compelling." },
+    { "id": "C", "text": "Examples are optional if your reasons are strong." },
+    { "id": "D", "text": "Examples must come from your field of study." },
+    { "id": "E", "text": "Examples must come from the claim itself." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS's planning questions ask what examples, either real or hypothetical, you could use to illustrate your reasons, and which are most compelling.",
+  "choiceExplanations": {
+   "A": "ETS says the task does not require specific content knowledge or sources.",
+   "C": "ETS tells you to decide what compelling evidence, reasons and examples, you will use.",
+   "D": "The task is designed not to favour any field of study.",
+   "E": "Examples come from your own knowledge base, not only from the claim."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-03",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A writer notices that the claim \"Since everyone loves city life, every young person should move to a city\" treats \"everyone loves city life\" as settled. Which planning question is she answering?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "What, precisely, is the central issue?" },
+    { "id": "B", "text": "Does the claim make certain assumptions, and if so, are they reasonable?" },
+    { "id": "C", "text": "Do I need to explain how I interpret certain terms?" },
+    { "id": "D", "text": "Which examples are most compelling?" },
+    { "id": "E", "text": "What reasons might someone use to refute my position?" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "Spotting a premise the claim takes for granted, and asking whether it is reasonable, is the assumptions question.",
+  "choiceExplanations": {
+   "A": "The central issue is whether young people should move to cities, not this premise.",
+   "C": "She is questioning a premise, not the meaning of a term.",
+   "D": "She has not reached the stage of choosing examples.",
+   "E": "This question concerns objections to her own position, which she has not yet chosen."
+  },
+  "estSeconds": 50,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-04",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "While planning, a writer concludes that a claim about working from home is plausible for software teams but not for surgeons. Which planning question has she answered?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "What, precisely, is the central issue?" },
+    { "id": "B", "text": "Is the claim valid only under certain conditions, and if so, what are they?" },
+    { "id": "C", "text": "What reasons support my position?" },
+    { "id": "D", "text": "Which examples are most compelling?" },
+    { "id": "E", "text": "How should I acknowledge or defend against opposing views?" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "She identified circumstances in which the claim holds and others in which it does not; that is the conditions question.",
+  "choiceExplanations": {
+   "A": "The central issue is the claim itself, not where it holds.",
+   "C": "She has not yet chosen a position or reasons.",
+   "D": "She named kinds of work, not compelling examples chosen to support a position.",
+   "E": "She is analysing the claim, not responding to objections."
+  },
+  "estSeconds": 50,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-05",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A writer has chosen her position. Which of the following does ETS advise her to do next? Select all that apply.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    { "id": "A", "text": "Consider the perspectives of people who might not agree with her position" },
+    { "id": "B", "text": "Ask what reasons someone might use to refute or undermine her position" },
+    { "id": "C", "text": "Decide how to acknowledge or defend against those views in the essay" },
+    { "id": "D", "text": "Memorise a fixed five-paragraph template" },
+    { "id": "E", "text": "Drop her position as soon as anyone could object to it" }
+   ]
+  },
+  "answer": { "choices": ["A", "B", "C"] },
+  "explanation": "ETS lists these three moves for dealing with opposing perspectives once you have a position.",
+  "choiceExplanations": {
+   "D": "ETS says you may organise the response in any effective way and use as many paragraphs as needed.",
+   "E": "Objections are to be acknowledged or answered, not a reason to abandon a position automatically."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-06",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Claim: \"Governments should fund the arts even in hard economic times.\" Which set of planning notes best follows ETS's advice?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Position: agree. Reasons: it is right; people like art; I like art." },
+    { "id": "B", "text": "Position: agree, but not at the expense of core services. Reasons: arts spending supports local jobs and tourism, and preserves shared culture. Example: a town whose festival revived a closed district. Objection: funds are scarce in a crisis. Reply: a small, targeted budget." },
+    { "id": "C", "text": "Position: disagree. Support: a list of paintings sold at auction." },
+    { "id": "D", "text": "Position: undecided; I will find out what I think while writing." },
+    { "id": "E", "text": "Central issue: art. Plan: write as much as possible about the history of art." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "B gives a position, reasons that support it, an illustrative example, and a planned reply to an objection, covering the main planning steps.",
+  "choiceExplanations": {
+   "A": "The \"reasons\" only restate the position or personal taste; they do not support it.",
+   "C": "A list of facts about paintings is not tied to any reason for the position.",
+   "D": "ETS says to decide on a position before writing.",
+   "E": "It misreads the central issue (public funding in hard times) and offers no position."
+  },
+  "estSeconds": 90,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-07",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which sequence matches the order of ETS's four planning steps?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Decide your position, then read the claim, then relate it to your experience, then choose evidence" },
+    { "id": "B", "text": "Read the claim and instructions, relate them to your own knowledge, decide your position, choose your evidence" },
+    { "id": "C", "text": "Choose your evidence, decide your position, read the claim, relate it to your experience" },
+    { "id": "D", "text": "Read the claim and instructions, choose your evidence, decide your position, relate it to your experience" },
+    { "id": "E", "text": "Relate the topic to your experience, choose your evidence, read the instructions, decide your position" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS's order is: understand the claim and instructions; relate them to your knowledge and experience; decide your position; decide which evidence to use.",
+  "choiceExplanations": {
+   "A": "You cannot choose a position before understanding the claim.",
+   "C": "Evidence supports a position, so it comes after it.",
+   "D": "Evidence is chosen after the position and after consulting your own knowledge.",
+   "E": "The instructions must be understood first."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-08",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A writer's notes read: \"Position: disagree. Reason 1: I do not agree. Reason 2: the claim is wrong. Reason 3: many people feel the same way.\" What is the main flaw in these notes?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "The reasons restate the position instead of supporting it." },
+    { "id": "B", "text": "There are too many reasons." },
+    { "id": "C", "text": "The position is the less popular one." },
+    { "id": "D", "text": "The notes should define every term in the claim." },
+    { "id": "E", "text": "The notes are too short to be useful." }
+   ]
+  },
+  "answer": { "choices": ["A"] },
+  "explanation": "ETS's planning question asks what reasons support your position. \"I do not agree\" and \"the claim is wrong\" say the position again; they give no support.",
+  "choiceExplanations": {
+   "B": "Three reasons are not too many; the problem is their content.",
+   "C": "No position is more correct or more popular in the eyes of raters.",
+   "D": "Defining terms may help, but it does not address the lack of reasons.",
+   "E": "Length is not the issue; the notes lack substance, not words."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-09",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "The instructions for a task ask which of two views more closely aligns with your position and tell you to address both views. A writer's plan lists three reasons for the view she prefers and nothing about the other view. Which planning question did she overlook?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "What precisely are the instructions asking me to do?" },
+    { "id": "B", "text": "Which examples are most compelling?" },
+    { "id": "C", "text": "Do I need to explain how I interpret certain terms?" },
+    { "id": "D", "text": "Is the claim valid only under certain conditions?" },
+    { "id": "E", "text": "What reasons support my position?" }
+   ]
+  },
+  "answer": { "choices": ["A"] },
+  "explanation": "The plan ignores part of what the instructions require (addressing both views). Asking precisely what the instructions ask would have caught this.",
+  "choiceExplanations": {
+   "B": "Her reasons for the preferred view may already be well illustrated.",
+   "C": "Nothing in the scenario concerns the meaning of terms.",
+   "D": "The scenario is about the requirement to address both views, not conditions.",
+   "E": "She did list reasons for her position; the gap is the other view."
+  },
+  "estSeconds": 75,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-10",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "A writer supports banning cars from city centres. Which note best handles an opposing view in the way ETS recommends?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Leave out objections so the essay stays focused." },
+    { "id": "B", "text": "Objection: shop owners may lose customers. Reply: pedestrian streets can raise foot traffic, as in a town whose market district grew after cars were removed." },
+    { "id": "C", "text": "Objection: shop owners may lose customers. Conclusion: I should therefore change my position." },
+    { "id": "D", "text": "Objection: shop owners may lose customers. Reply: critics are wrong." },
+    { "id": "E", "text": "List five objections without replying to any of them." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS asks you to consider who might disagree and how to acknowledge or defend against their views. B names a real objection and answers it with a reason and an example.",
+  "choiceExplanations": {
+   "A": "ETS recommends considering objections rather than leaving them out.",
+   "C": "An objection is not automatically a reason to abandon a position; it should be weighed.",
+   "D": "It acknowledges the objection but defends against it with no reason or example.",
+   "E": "Listing objections without answering them leaves the position undefended."
+  },
+  "estSeconds": 75,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-11",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "Claim: \"Because students who study abroad earn higher salaries, universities should require every student to spend a year abroad.\" Which planning note applies ETS's question about the claim's assumptions and whether they are reasonable?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "The claim says universities should require a year abroad." },
+    { "id": "B", "text": "The claim assumes that studying abroad itself raises salaries, but students who can afford it may already come from wealthier families, so a requirement might not produce the same effect." },
+    { "id": "C", "text": "\"Abroad\" might mean any foreign country or only an English-speaking one." },
+    { "id": "D", "text": "A friend of mine studied in Spain and now earns a high salary." },
+    { "id": "E", "text": "Most universities already run exchange programmes." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "The claim treats a link between study abroad and salary as a reason for requiring it. Note B questions the hidden premise (that the stay causes the higher salary) and says why it may be unreasonable.",
+  "choiceExplanations": {
+   "A": "It restates the claim without examining anything it assumes.",
+   "C": "That answers the question about interpreting terms, not about assumptions.",
+   "D": "It is a possible example, not an examination of an assumption.",
+   "E": "It is a background fact and says nothing about whether the claim's premise is reasonable."
+  },
+  "estSeconds": 90,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-02-planning-12",
+  "lessonId": "w1-02-planning",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "Claim: \"Companies should hire for attitude and train for skills.\" A writer's notes read: \"Position: agree completely, with no exceptions. Reason: skills can be taught. Reason: attitude cannot be taught. Objections: none, since everyone agrees.\" Which revisions follow ETS's planning advice? Select all that apply.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    { "id": "A", "text": "Ask whether the claim holds only under certain conditions, for example in jobs where a lack of skill could endanger others" },
+    { "id": "B", "text": "Identify reasons someone might use to refute the position and plan how to acknowledge or answer them" },
+    { "id": "C", "text": "Add specific examples, real or hypothetical, to illustrate each reason" },
+    { "id": "D", "text": "Delete one reason, because ETS requires exactly two" },
+    { "id": "E", "text": "Switch to disagreeing, because a position with no objections cannot be defended" }
+   ]
+  },
+  "answer": { "choices": ["A", "B", "C"] },
+  "explanation": "ETS's questions about conditions, opposing views and illustrating reasons with examples all expose gaps in these notes.",
+  "choiceExplanations": {
+   "D": "ETS sets no required number of reasons.",
+   "E": "ETS does not say to reverse a position; it says to acknowledge or defend against objections."
+  },
+  "estSeconds": 90,
+  "skills": ["issue-planning"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ }
+]

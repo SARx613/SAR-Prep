@@ -1,0 +1,205 @@
+{
+ "id": "v2-03-method",
+ "status": "draft",
+ "why": "A repeatable method keeps you from grabbing the first familiar word, which is how most Sentence Equivalence errors happen.",
+ "rule": "1. Read the whole sentence for its overall sense.\n2. Mark structure words (*although*, *moreover*) and the words that carry the idea.\n3. **Predict** a word before looking at the choices, then find **two** choices near it.\n4. Found one but not a partner? Do not cling to your prediction. Look for other choices that complete the sentence coherently.\n5. **Check** each completed sentence for logic, grammar and style, and check that the two sentences say the same thing.",
+ "examples": [
+  {
+   "prompt": "The council's decision was ______, reached only after months of public hearings and repeated revision. Choices: deliberate, considered, hasty, arbitrary, secretive, popular.",
+   "steps": [
+    "Read: months of hearings and revision describe a slow, careful process.",
+    "Predict *carefully reached*.",
+    "Two choices near it: *deliberate* and *considered*.",
+    "Check: both sentences say the decision was the product of careful thought; *hasty* and *arbitrary* contradict months of work."
+   ],
+   "answer": "deliberate and considered"
+  },
+  {
+   "prompt": "The play's ______ ending left the audience uncertain what, if anything, had been resolved. Choices: ambiguous, inconclusive, tidy, abrupt, jubilant, predictable.",
+   "steps": [
+    "Predict *unclear*. *Ambiguous* matches, but no second word means exactly that.",
+    "Do not fixate: ask what the sentence needs. The ending resolved nothing for the audience.",
+    "*Inconclusive* fits that idea; *abrupt* only says the ending was sudden, which does not explain the uncertainty.",
+    "Check: both sentences say the ending left matters unsettled."
+   ],
+   "answer": "ambiguous and inconclusive"
+  }
+ ],
+ "trap": "Predicting too narrowly. If your predicted word has no partner among the choices, widen the prediction to the idea the sentence needs rather than forcing a match, and always run the final check.",
+ "checks": [
+  {
+   "id": "v2-03-method-c1",
+   "lessonId": "v2-03-method",
+   "type": "SE",
+   "difficulty": 1,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "Because the team had trained for months, their victory, though celebrated, was hardly {{1}}.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "fragile"
+     },
+     {
+      "id": "B",
+      "text": "astonishing"
+     },
+     {
+      "id": "C",
+      "text": "delayed"
+     },
+     {
+      "id": "D",
+      "text": "costly"
+     },
+     {
+      "id": "E",
+      "text": "earned"
+     },
+     {
+      "id": "F",
+      "text": "surprising"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "F",
+     "B"
+    ]
+   },
+   "explanation": "**Signal:** *Because* ... trained for months means the win was expected. *Hardly surprising* and *hardly astonishing* say the same thing.",
+   "choiceExplanations": {
+    "E": "*Hardly earned* would say the opposite of the training clue.",
+    "A": "Nothing in the sentence concerns fragility.",
+    "C": "Does not follow from months of training.",
+    "D": "Cost is not mentioned."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v2-03-method-c2",
+   "lessonId": "v2-03-method",
+   "type": "SE",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "The report was so {{1}} that even specialists struggled to follow its argument.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "entertaining"
+     },
+     {
+      "id": "B",
+      "text": "succinct"
+     },
+     {
+      "id": "C",
+      "text": "lucid"
+     },
+     {
+      "id": "D",
+      "text": "convoluted"
+     },
+     {
+      "id": "E",
+      "text": "abstruse"
+     },
+     {
+      "id": "F",
+      "text": "topical"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E",
+     "D"
+    ]
+   },
+   "explanation": "**Clue:** even specialists struggled. Predict *hard to follow*; *abstruse* and *convoluted* both fit.",
+   "choiceExplanations": {
+    "C": "Clear writing would be easy to follow.",
+    "B": "Brevity does not make a text hard.",
+    "A": "Does not explain difficulty.",
+    "F": "Timeliness does not explain difficulty."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v2-03-method-c3",
+   "lessonId": "v2-03-method",
+   "type": "SE",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "The treaty's supporters hoped it would end the conflict, but its vague wording only {{1}} the disagreement it was meant to resolve.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "documented"
+     },
+     {
+      "id": "B",
+      "text": "prolonged"
+     },
+     {
+      "id": "C",
+      "text": "summarized"
+     },
+     {
+      "id": "D",
+      "text": "settled"
+     },
+     {
+      "id": "E",
+      "text": "exacerbated"
+     },
+     {
+      "id": "F",
+      "text": "clarified"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   },
+   "explanation": "**Signal:** *but ... only* reverses the hope. Instead of resolving, the wording kept the dispute going or worsened it. *Prolonged* and *exacerbated* both say it did not end; the two sentences agree on the outcome.",
+   "choiceExplanations": {
+    "F": "The vague wording would not clarify; that is the hope, which *but* rejects.",
+    "D": "Settling is what supporters hoped for, not the outcome.",
+    "A": "Does not contrast with the hope.",
+    "C": "Does not contrast with the hope."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

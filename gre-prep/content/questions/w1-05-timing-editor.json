@@ -1,0 +1,332 @@
+[
+ {
+  "id": "w1-05-timing-editor-01",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "How long do you have for the Issue task on the GRE General Test?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "15 minutes" },
+    { "id": "B", "text": "20 minutes" },
+    { "id": "C", "text": "30 minutes, which includes reading and planning" },
+    { "id": "D", "text": "30 minutes of writing, after separate planning time" },
+    { "id": "E", "text": "60 minutes" }
+   ]
+  },
+  "answer": { "choices": ["C"] },
+  "explanation": "The Issue task is limited to 30 minutes. You must consider the issue, plan and compose within that time.",
+  "choiceExplanations": {
+   "A": "The limit is 30 minutes, not 15.",
+   "B": "The limit is 30 minutes, not 20.",
+   "D": "There is no separate planning time; planning is part of the 30 minutes.",
+   "E": "The limit is 30 minutes, not 60."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-02",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A test taker plans to rely on the word processor to catch misspellings. According to ETS, what is wrong with this plan?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Nothing; a spellchecker is built in." },
+    { "id": "B", "text": "The ETS word processor has no spellchecker or grammar checker." },
+    { "id": "C", "text": "The spellchecker works only for the first paragraph." },
+    { "id": "D", "text": "The spellchecker is available only for tests taken at home." },
+    { "id": "E", "text": "The spellchecker must be switched on at the end of the test." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS says tools such as a spellchecker and grammar checker are not available in the word processor.",
+  "choiceExplanations": {
+   "A": "ETS says these tools are not available.",
+   "C": "No spellchecker exists, in any paragraph.",
+   "D": "ETS describes the word processor without such a tool, whatever the test location.",
+   "E": "There is no spellchecker to switch on."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-03",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following does ETS list as functions of its word processor? Select all that apply.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    { "id": "A", "text": "Insert text" },
+    { "id": "B", "text": "Delete text" },
+    { "id": "C", "text": "Spellchecker" },
+    { "id": "D", "text": "Cut-and-paste" },
+    { "id": "E", "text": "Undo the previous action" },
+    { "id": "F", "text": "Grammar checker" }
+   ]
+  },
+  "answer": { "choices": ["A", "B", "D", "E"] },
+  "explanation": "ETS lists insert text, delete text, cut-and-paste and undo the previous action.",
+  "choiceExplanations": {
+   "C": "ETS says a spellchecker is not available.",
+   "F": "ETS says a grammar checker is not available."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-04",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Why does ETS tell you to save a few minutes at the end of the timed task?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "To run a grammar checker" },
+    { "id": "B", "text": "To check the response for obvious errors" },
+    { "id": "C", "text": "To write a second, shorter essay" },
+    { "id": "D", "text": "To rewrite the introduction and conclusion from scratch" },
+    { "id": "E", "text": "To submit the essay early for a bonus" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "The final minutes are for checking for obvious errors, because serious and persistent errors lower the score.",
+  "choiceExplanations": {
+   "A": "No grammar checker is available.",
+   "C": "The measure has a single task.",
+   "D": "A few minutes allow for a check, not a rewrite.",
+   "E": "No bonus exists for finishing early."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-05",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which statement about practising Issue responses matches what ETS says?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "You must always practise with the 30-minute limit from the very first attempt." },
+    { "id": "B", "text": "Some people start without the time limit and others start with a timed test; either way, you should later try responses within 30 minutes." },
+    { "id": "C", "text": "Timed practice is not necessary." },
+    { "id": "D", "text": "Only full essays count as practice; sketching a response is useless." },
+    { "id": "E", "text": "Practice should avoid the published topics." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS describes both approaches as valid and advises practising within 30 minutes so that you know how to use your time on test day.",
+  "choiceExplanations": {
+   "A": "ETS says some people prefer to begin without the limit.",
+   "C": "ETS recommends writing some responses within the limit.",
+   "D": "ETS says even a sketched response to a few topics is helpful.",
+   "E": "ETS recommends practising on its published topics."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-06",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which 30-minute budget best follows ETS's advice? (The numbers are illustrative; ETS fixes no split.)",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "No planning; write for all 30 minutes" },
+    { "id": "B", "text": "3 minutes reading and planning, 20 minutes writing, 7 minutes checking for obvious errors" },
+    { "id": "C", "text": "22 minutes planning, 6 minutes writing, 2 minutes checking" },
+    { "id": "D", "text": "2 minutes reading, 28 minutes writing, no checking" },
+    { "id": "E", "text": "30 minutes checking a short, unplanned draft" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "B includes time to consider the issue and plan, to compose, and to check at the end. Each other plan drops one of those phases or leaves too little time to write.",
+  "choiceExplanations": {
+   "A": "ETS advises time to consider the issue and instructions and to plan.",
+   "C": "Only six minutes remain to compose, which is too little for a developed response.",
+   "D": "It leaves no time to check for obvious errors.",
+   "E": "There is nothing to check without a full, planned response."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-07",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A writer pastes a paragraph into the wrong place and wants to reverse exactly that last action. Which function of the ETS word processor does this?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Spellchecker" },
+    { "id": "B", "text": "Undo the previous action" },
+    { "id": "C", "text": "Grammar checker" },
+    { "id": "D", "text": "Revision history" },
+    { "id": "E", "text": "Auto-restore of earlier drafts" }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "Undo the previous action is one of the four functions ETS lists.",
+  "choiceExplanations": {
+   "A": "No spellchecker is available, and it would not move text.",
+   "C": "No grammar checker is available.",
+   "D": "ETS does not list a revision history.",
+   "E": "ETS does not list this function."
+  },
+  "estSeconds": 45,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-08",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A physics student worries that her Issue topic may concern economics, which she has never studied. Which reply is consistent with ETS's description of the measure?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "She should expect to lose points for missing subject knowledge." },
+    { "id": "B", "text": "The tasks cover a broad range of subjects but do not require specific content knowledge; she can respond from her own reasoning and experience." },
+    { "id": "C", "text": "She can request a topic in her own field." },
+    { "id": "D", "text": "Economics topics are marked more leniently." },
+    { "id": "E", "text": "She should skip the task and write about physics instead." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS says the measure does not assess specific content knowledge and that tasks were tested so that test takers from any field could understand and respond to them.",
+  "choiceExplanations": {
+   "A": "Content knowledge is not assessed.",
+   "C": "ETS describes no topic selection by the test taker.",
+   "D": "ETS describes no such leniency.",
+   "E": "A response that does not address the assigned topic cannot score well."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-09",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "At minute 24 of 30, a writer sees that her draft addresses only one of the two views the instructions require her to discuss. Which action is most consistent with ETS's advice?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "Start a new essay from the beginning." },
+    { "id": "B", "text": "Add a paragraph addressing the missing view and connect it to her position, leaving a minute or two to check for obvious errors." },
+    { "id": "C", "text": "Spend all remaining time proofreading spelling." },
+    { "id": "D", "text": "Delete the essay so that nothing is wrongly submitted." },
+    { "id": "E", "text": "Leave it as it is; the missing view will not matter if the writing is fluent." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "The instructions require addressing both views, so the omission should be fixed. A new paragraph fits the time left, and a brief final check follows ETS's advice.",
+  "choiceExplanations": {
+   "A": "Six minutes are not enough for a new essay.",
+   "C": "Proofreading does not repair the missing required content.",
+   "D": "A blank response receives no score; improving the draft is better.",
+   "E": "Ignoring part of the directions weakens the response regardless of fluency."
+  },
+  "estSeconds": 75,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-10",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Which statements about managing the 30 minutes are consistent with ETS? Select all that apply.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    { "id": "A", "text": "Allow enough time to consider the issue and instructions, plan, and compose." },
+    { "id": "B", "text": "Save a few minutes at the end to check for obvious errors." },
+    { "id": "C", "text": "The aim is to produce the best example of your writing that you can under the testing conditions." },
+    { "id": "D", "text": "Writing until the time expires maximises the score." },
+    { "id": "E", "text": "Planning is optional if you type quickly." }
+   ]
+  },
+  "answer": { "choices": ["A", "B", "C"] },
+  "explanation": "ETS's advice is to budget time for all phases, including a final check, so as to produce your best writing under test conditions.",
+  "choiceExplanations": {
+   "D": "ETS advises leaving time for a final check rather than writing until the end.",
+   "E": "ETS says to allow time to plan; typing speed does not replace planning."
+  },
+  "estSeconds": 60,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-11",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "A student drafts a preparation plan for the Issue task. Select all parts that are consistent with ETS's advice.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    { "id": "A", "text": "Sketch possible responses to some published topics without writing full essays." },
+    { "id": "B", "text": "Begin with untimed practice if that feels better." },
+    { "id": "C", "text": "Later, write responses within the 30-minute limit to learn how to use the time." },
+    { "id": "D", "text": "Turn on a spellchecker during practice to save time." },
+    { "id": "E", "text": "Compare practice responses with the scoring guide, or trade essays with another student." }
+   ]
+  },
+  "answer": { "choices": ["A", "B", "C", "E"] },
+  "explanation": "ETS describes sketching, untimed starts, later timed practice and feedback against the scoring guide as useful preparation.",
+  "choiceExplanations": {
+   "D": "No spellchecker is available on test day, so practising with one would hide errors you need to catch yourself."
+  },
+  "estSeconds": 75,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ },
+ {
+  "id": "w1-05-timing-editor-12",
+  "lessonId": "w1-05-timing-editor",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "With three minutes left, a writer rereads her essay. She finds one misspelt word in paragraph two. She also notices that many sentences are structured so badly that their meaning is hard to follow, for example: \"Because the cost, people which cannot afford it, so the plan failing.\" Based on what ETS says about errors, which statement is best?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    { "id": "A", "text": "The single misspelling is the main danger, since any spelling error is penalised heavily." },
+    { "id": "B", "text": "The pattern of badly structured sentences is the greater risk, because serious and persistent errors lower the score while an occasional error does not." },
+    { "id": "C", "text": "Neither matters, since ETS says errors never affect the score." },
+    { "id": "D", "text": "Both are equally important." },
+    { "id": "E", "text": "She should change her position instead." }
+   ]
+  },
+  "answer": { "choices": ["B"] },
+  "explanation": "ETS says an occasional error will not affect the score, but serious and persistent errors detract from the writing. With little time, fixing the obvious, meaning-obscuring sentences is the better use of it.",
+  "choiceExplanations": {
+   "A": "An occasional spelling error will not affect the score.",
+   "C": "ETS says serious and persistent errors lower the score.",
+   "D": "One slip and a persistent pattern are not equally serious.",
+   "E": "Changing position does not repair unclear sentences."
+  },
+  "estSeconds": 75,
+  "skills": ["issue-timing"],
+  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+ }
+]

@@ -1,0 +1,537 @@
+[
+ {
+  "id": "v3-08-evaluate-arguments-01",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Select the sentence that identifies a weakness in the biologists' evidence.",
+  "passageId": "v3-reef-ban",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The conclusion is plausible, but it rests on a comparison with the reef's own condition before the ban, not on a comparison with unprotected reefs over the same decade."
+  },
+  "explanation": "This sentence names the flaw: the comparison is with the reef's own past, not with unprotected reefs. The final sentence then spells out the consequence.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-02",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Which of the following does the author give as a reason to treat the result with caution?",
+  "passageId": "v3-four-day-week",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Productivity was measured for only six months, which the author says is too short."
+    },
+    {
+     "id": "B",
+     "text": "Employees disliked the four-day week."
+    },
+    {
+     "id": "C",
+     "text": "Employees who knew they were observed may have worked harder than usual."
+    },
+    {
+     "id": "D",
+     "text": "Productivity fell at a hospital ward that tried the schedule."
+    },
+    {
+     "id": "E",
+     "text": "The firm was too large to be studied reliably."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The cautious reading cites observation effects ('knew they were being observed') and the firm's self-paced work.",
+  "choiceExplanations": {
+   "A": "The author never criticizes the length of the trial.",
+   "B": "Nothing says employees disliked it; the passage says they valued it.",
+   "D": "The hospital ward is a hypothetical setting; no result is reported.",
+   "E": "The firm's size is never mentioned."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-03",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Which of the following, if true, would most weaken the biologists' conclusion?",
+  "passageId": "v3-reef-ban",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Before the ban, the protected reef had been heavily overfished."
+    },
+    {
+     "id": "B",
+     "text": "The protected reef contains more fish species than any other reef in the region."
+    },
+    {
+     "id": "C",
+     "text": "Fishing boats from the island now work at other reefs."
+    },
+    {
+     "id": "D",
+     "text": "Some fish on the protected reef have grown larger than before."
+    },
+    {
+     "id": "E",
+     "text": "Over the same decade, fish numbers on nearby unprotected reefs also roughly tripled."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "A parallel rise at unprotected reefs would supply the alternative explanation the author describes, undermining the credit given to the ban.",
+  "choiceExplanations": {
+   "A": "If anything, this supports the idea that fishing had suppressed the fish population.",
+   "B": "The number of species does not bear on why the fish population grew.",
+   "C": "Where boats go now does not show what caused the rise at this reef.",
+   "D": "Larger fish do not show what caused the increase in numbers."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-04",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Which of the following findings would most support the by-product explanation of dialects?",
+  "passageId": "v3-bird-dialects",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "In several species, females prefer the songs of local males."
+    },
+    {
+     "id": "B",
+     "text": "Males sing more elaborate songs when populations are dense."
+    },
+    {
+     "id": "C",
+     "text": "In a species whose young rarely change groups, neighboring populations' songs differ more than those of populations that exchange young birds often."
+    },
+    {
+     "id": "D",
+     "text": "Isolated groups of birds sing songs that are indistinguishable from one another."
+    },
+    {
+     "id": "E",
+     "text": "Adult tutors in one population sing a wider range of songs than those in another."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The by-product view predicts bigger differences where groups seldom exchange birds, so such a finding supports it.",
+  "choiceExplanations": {
+   "A": "This supports the first hypothesis, not the by-product view.",
+   "B": "Density of populations is not related to copying errors accumulating in isolation.",
+   "D": "This contradicts the by-product view, which predicts differences between isolated groups.",
+   "E": "Variety among tutors does not show errors accumulating in isolation."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-05",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that gives a reason for doubting the first hypothesis.",
+  "passageId": "v3-bird-dialects",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Experiments, however, have produced mixed results: in some species, females prefer local songs, while in others, they show no preference."
+  },
+  "explanation": "The mixed experimental results (some species show no preference) are the evidence against the hypothesis.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-06",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following conclusions would the author regard as reasonable on the basis of the trial?",
+  "passageId": "v3-four-day-week",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "In at least one setting a long workweek was not needed to maintain productivity."
+    },
+    {
+     "id": "B",
+     "text": "Long workweeks are largely wasted time in every kind of workplace."
+    },
+    {
+     "id": "C",
+     "text": "A call center adopting the same schedule would lose no productivity."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The author's own last sentence supports A. B and C extend the result to settings beyond the trial, exactly what the author cautions against.",
+  "choiceExplanations": {
+   "B": "The author warns the result 'may not extend' to settings where output depends on presence.",
+   "C": "The author names the call center as a place the result may not extend to."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-evaluate",
+   "rc-generalization"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-07",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Which of the following, if true, would most weaken the author's suggestion that income explains the observed association?",
+  "passageId": "v3-green-space",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Greener neighborhoods tend to have lower crime rates."
+    },
+    {
+     "id": "B",
+     "text": "Residents with similar incomes who live in greener neighborhoods report better health than those in barer ones."
+    },
+    {
+     "id": "C",
+     "text": "Higher-income families move more often than lower-income families."
+    },
+    {
+     "id": "D",
+     "text": "Parks are used by residents of all income levels."
+    },
+    {
+     "id": "E",
+     "text": "Older residents are more likely to report good health."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "If the association persists among residents with similar incomes, income cannot be the whole explanation.",
+  "choiceExplanations": {
+   "A": "Lower crime is another possible explanation, but it does not show that income is not responsible.",
+   "C": "Frequency of moving does not bear on whether income explains the health differences.",
+   "D": "Even if everyone uses parks, income could still account for the difference in health.",
+   "E": "Age is a separate factor and does not reduce the plausibility of income as an explanation."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-08",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following criticisms of the conclusion that gut bacteria cause obesity does the author make?",
+  "passageId": "v3-gut-bacteria",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Findings in laboratory mice may not carry over to people with varied diets, genes and microbial exposure."
+    },
+    {
+     "id": "B",
+     "text": "The bacteria might be a consequence of eating habits linked to obesity rather than a cause."
+    },
+    {
+     "id": "C",
+     "text": "The experiment shows that bacteria cannot influence weight at all."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "A and B are the two stated limits. C contradicts the author's concession.",
+  "choiceExplanations": {
+   "C": "The author grants that the bacteria 'can influence weight gain under laboratory conditions'."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-09",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "According to the passage, a study following people who move to greener areas for reasons unrelated to health would be informative mainly because it would",
+  "passageId": "v3-green-space",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "help separate the effect of green space from the effect of which people choose to live there"
+    },
+    {
+     "id": "B",
+     "text": "guarantee that income no longer affects health"
+    },
+    {
+     "id": "C",
+     "text": "show that green space harms health"
+    },
+    {
+     "id": "D",
+     "text": "measure stress directly"
+    },
+    {
+     "id": "E",
+     "text": "make any comparison with other neighborhoods unnecessary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The problem identified is non-random selection into neighborhoods; moves for non-health reasons reduce that problem.",
+  "choiceExplanations": {
+   "B": "No study can 'guarantee' this; the point is reducing the role of self-selection.",
+   "C": "The passage thinks green space may well contribute to health.",
+   "D": "Stress is mentioned only as a proposed mechanism.",
+   "E": "The study still needs comparisons."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-10",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Select the sentence that offers an alternative to the interpretation that gut bacteria cause obesity.",
+  "passageId": "v3-gut-bacteria",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Moreover, the experiment cannot reveal whether in free-living animals the bacteria are a cause of obesity or merely a consequence of the eating habits that accompany it."
+  },
+  "explanation": "The alternative is that the bacteria are 'merely a consequence' of eating habits. The earlier objection concerns generalizing to people, not an alternative cause.",
+  "estSeconds": 77,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-11",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Which of the following, if true, would most weaken the inference that a planet with a measured low density is rich in gas?",
+  "passageId": "v3-exoplanets",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Most planets with low densities orbit faint stars."
+    },
+    {
+     "id": "B",
+     "text": "Some planets made mostly of water or ice also have low densities."
+    },
+    {
+     "id": "C",
+     "text": "Gas-rich planets are generally larger than rocky ones."
+    },
+    {
+     "id": "D",
+     "text": "Spectral shifts are hard to measure for distant stars."
+    },
+    {
+     "id": "E",
+     "text": "High-density planets are rare among known planets."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "If low-density planets can be made of something other than gas, the step from low density to gas-rich is undermined.",
+  "choiceExplanations": {
+   "A": "Which stars the planets orbit does not bear on what low density indicates.",
+   "C": "Larger size is consistent with, not a threat to, the inference.",
+   "D": "This concerns the difficulty of measuring, not the link between density and composition.",
+   "E": "Their rarity does not change what low density suggests."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-12",
+  "lessonId": "v3-08-evaluate-arguments",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. A researcher proposes describing the typical composition of all known planets using only planets with measured densities. Which of the following points from the passage suggest caution?",
+  "passageId": "v3-exoplanets",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Planets around faint or distant stars are likely to be under-represented among them."
+    },
+    {
+     "id": "B",
+     "text": "Such planets have been measured by two different methods."
+    },
+    {
+     "id": "C",
+     "text": "They are only a minority of the known planets."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "A small sample, skewed away from faint or distant stars, may not represent the whole. Having two methods is irrelevant to representativeness.",
+  "choiceExplanations": {
+   "B": "Using two methods adds information about each planet; it does not make the group more representative."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-evaluate",
+   "rc-sampling"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

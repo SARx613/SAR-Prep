@@ -1,0 +1,98 @@
+{
+ "id": "v3-02-main-idea",
+ "status": "draft",
+ "why": "Main-idea and summary questions appear with almost every passage, and the other question types are easier once you know the author's point.",
+ "rule": "The **main idea** is what the author is arguing about the topic, usually the claim the rest of the passage supports or leads to. Separate it from:\n\n- **support**: examples, data, quotations;\n- **setup**: views the author reports before a turn such as *but*, *yet*, *however*.\n\nBefore reading the choices, state the point in one sentence. A good summary covers the whole passage, neither one detail (too narrow) nor more than the passage says (too broad), and keeps the author's strength of claim (not too extreme).",
+ "examples": [
+  {
+   "prompt": "Passage: \"Many cities have replaced paper parking tickets with license-plate readers. Drivers dislike being tracked, and privacy groups have objected. Yet the readers cut the time officers spend on routine checks and reduce errors. On balance, the technology is likely to spread despite the complaints.\"\n\nWhat is the main idea?",
+   "steps": [
+    "Sentences 1 and 2 are setup: the technology and the objections.",
+    "'Yet' introduces the support: saved time, fewer errors.",
+    "The last sentence is the conclusion: the technology will probably spread despite complaints."
+   ],
+   "answer": "Despite objections, license-plate readers are likely to spread because they are efficient and accurate. (Not: 'Drivers dislike being tracked', which is only the setup.)"
+  }
+ ],
+ "trap": "Choosing an accurate detail, or the view the author goes on to reject, because it appears early. Also avoid answers that go beyond the passage or make the claim stronger than the author did.",
+ "checks": [
+  {
+   "id": "v3-02-main-idea-c1",
+   "lessonId": "v3-02-main-idea",
+   "type": "RC",
+   "difficulty": 1,
+   "stem": "Which of the following best states the main idea of the passage?",
+   "passageId": "v3-c-02",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Small firms are always safer employers than large ones."
+     },
+     {
+      "id": "B",
+      "text": "Large firms cannot restructure without losing jobs."
+     },
+     {
+      "id": "C",
+      "text": "Loyal customers are the only protection against job losses."
+     },
+     {
+      "id": "D",
+      "text": "Most people overestimate how large companies are."
+     },
+     {
+      "id": "E",
+      "text": "A firm's size says little about how secure its jobs are."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E"
+    ]
+   },
+   "explanation": "The opening belief is the setup; the author's conclusion is that size is a poor guide to job security.",
+   "choiceExplanations": {
+    "A": "Too extreme: the passage says a small firm 'may be' stable, not always.",
+    "B": "A detail about restructuring, not the point of the passage.",
+    "C": "Too narrow and too strong: 'what matters more' is dependence on narrow conditions.",
+    "D": "Not discussed: nothing concerns people's estimates of company size."
+   },
+   "estSeconds": 65,
+   "skills": [
+    "rc-main-idea"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v3-02-main-idea-c2",
+   "lessonId": "v3-02-main-idea",
+   "type": "RC",
+   "difficulty": 1,
+   "stem": "Select the sentence that states the passage's conclusion.",
+   "passageId": "v3-c-02",
+   "content": {
+    "format": "select_in_passage"
+   },
+   "answer": {
+    "sentence": "Size, in short, is a poor guide to job security; what matters more is how dependent a firm is on a narrow set of conditions."
+   },
+   "explanation": "'In short' signals the summing-up. The earlier sentences state the belief and the evidence against it.",
+   "estSeconds": 53,
+   "skills": [
+    "rc-main-idea"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

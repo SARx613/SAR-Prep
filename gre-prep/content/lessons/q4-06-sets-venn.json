@@ -1,0 +1,74 @@
+{
+ "id": "q4-06-sets-venn",
+ "status": "draft",
+ "why": "Overlapping-groups problems (\"how many like neither?\") appear regularly in Problem Solving and in data sets built on a Venn diagram.",
+ "rule": "A **set** is a collection of distinct objects (elements). Order and repeats do not matter, so $\\{1, 2, 2, 3\\}$ has 3 elements. $|S|$ is the number of elements of $S$.\n\n- **Union** $S \\cup T$: elements in $S$ or $T$ or both. **Intersection** $S \\cap T$: elements in both. Sets with no common element are **disjoint**.\n- **Inclusion-exclusion**: $|S \\cup T| = |S| + |T| - |S \\cap T|$.\n- In a Venn diagram: only $S$ $= |S| - |S \\cap T|$; neither $=$ total $- |S \\cup T|$.",
+ "examples": [
+  {
+   "prompt": "Of 120 people, 70 drink tea, 55 drink coffee, and 25 drink both. How many drink at least one, how many drink neither, and how many drink only tea?",
+   "steps": [
+    "At least one: $70 + 55 - 25 = 100$.",
+    "Neither: $120 - 100 = 20$.",
+    "Only tea: $70 - 25 = 45$."
+   ],
+   "answer": "100 at least one, 20 neither, 45 only tea"
+  },
+  {
+   "prompt": "Let $S = \\{1, 2, 3, 4, 5\\}$ and $T = \\{4, 5, 6\\}$. List $S \\cup T$ and $S \\cap T$, and check inclusion-exclusion.",
+   "steps": [
+    "$S \\cup T = \\{1, 2, 3, 4, 5, 6\\}$ and $S \\cap T = \\{4, 5\\}$.",
+    "$|S| + |T| - |S \\cap T| = 5 + 3 - 2 = 6 = |S \\cup T|$."
+   ],
+   "answer": "Union has 6 elements, intersection has 2"
+  }
+ ],
+ "trap": "Adding $|S| + |T|$ counts the overlap twice. Also, \"70 drink tea\" includes the 25 who drink both: the number who drink *only* tea is 45.",
+ "checks": [
+  {
+   "id": "q4-06-sets-venn-c1",
+   "lessonId": "q4-06-sets-venn",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "Set $A$ has 14 elements, set $B$ has 9 elements, and 5 elements are in both sets. How many elements are in $A \\cup B$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 18
+   },
+   "explanation": "$|A \\cup B| = 14 + 9 - 5 = 18$.",
+   "estSeconds": 45,
+   "skills": [
+    "inclusion-exclusion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-06-sets-venn-c2",
+   "lessonId": "q4-06-sets-venn",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "Of 30 people, 12 like jazz, 10 like rock, and 4 like both. How many like neither?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 12
+   },
+   "explanation": "At least one: $12 + 10 - 4 = 18$. Neither: $30 - 18 = 12$.",
+   "estSeconds": 60,
+   "skills": [
+    "venn"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

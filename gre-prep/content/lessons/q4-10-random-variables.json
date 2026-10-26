@@ -1,0 +1,126 @@
+{
+ "id": "q4-10-random-variables",
+ "status": "draft",
+ "why": "Probability distributions, expected value and \"area equals probability\" are the bridge between data sets and the normal distribution on the GRE.",
+ "rule": "A **random variable** $X$ is a numerical outcome of a random experiment, for example a value chosen at random from a data set.\n\n- Its **probability distribution** lists each value $x$ with $P(X = x)$. Each probability is between 0 and 1 and they add to 1. In a histogram of the distribution, bar area is proportional to probability.\n- For several values, add: $P(X \\ge 3) = P(3) + P(4) + \\cdots$.\n- **Mean (expected value)** $= \\sum x \\cdot P(x)$: each value times its probability.\n- A randomly chosen data value has the data's relative frequency distribution.\n- A **continuous** random variable has probabilities equal to areas under a curve (total area 1), and $P(X = a) = 0$ for any single value $a$.",
+ "examples": [
+  {
+   "prompt": "A random variable takes the values 1, 2, 3, 4 with probabilities 0.1, 0.4, $p$, 0.2. Find $p$ and the expected value.",
+   "steps": [
+    "Probabilities add to 1: $p = 1 - (0.1 + 0.4 + 0.2) = 0.3$.",
+    "Mean $= 1(0.1) + 2(0.4) + 3(0.3) + 4(0.2) = 0.1 + 0.8 + 0.9 + 0.8 = 2.6$."
+   ],
+   "answer": "$p = 0.3$, expected value 2.6"
+  },
+  {
+   "prompt": "A value $X$ is chosen at random from the data 1, 1, 2, 2, 2, 3, 3, 3, 3, 5. Find $P(X = 3)$ and the mean of $X$.",
+   "steps": [
+    "3 appears 4 times in 10 values: $P(X = 3) = 0.4$.",
+    "Distribution: $P(1) = 0.2$, $P(2) = 0.3$, $P(3) = 0.4$, $P(5) = 0.1$. Mean $= 0.2 + 0.6 + 1.2 + 0.5 = 2.5$, the mean of the data."
+   ],
+   "answer": "$P(X = 3) = 0.4$, mean 2.5"
+  }
+ ],
+ "trap": "The expected value is a weighted average, not the plain average of the possible values: with unequal probabilities these differ. Check that the probabilities add to 1 before using them.",
+ "checks": [
+  {
+   "id": "q4-10-random-variables-c1",
+   "lessonId": "q4-10-random-variables",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A random variable $X$ takes the values 0, 1 and 2 with probabilities 0.5, 0.3 and 0.2, respectively. What is the expected value of $X$?",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 0.7
+   },
+   "explanation": "$0(0.5) + 1(0.3) + 2(0.2) = 0.3 + 0.4 = 0.7$.",
+   "estSeconds": 60,
+   "skills": [
+    "expected-value"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-10-random-variables-c2",
+   "lessonId": "q4-10-random-variables",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "A random variable takes the values 1, 2 and 3. $P(1) = 0.25$ and $P(2) = 0.35$. What is $P(3)$?",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 0.4
+   },
+   "explanation": "The probabilities add to 1: $P(3) = 1 - 0.25 - 0.35 = 0.4$.",
+   "estSeconds": 45,
+   "skills": [
+    "probability-distribution"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-10-random-variables-c3",
+   "lessonId": "q4-10-random-variables",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "For a continuous random variable, what is the probability that it equals exactly 5?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$0$"
+     },
+     {
+      "id": "B",
+      "text": "$0.05$"
+     },
+     {
+      "id": "C",
+      "text": "$0.5$"
+     },
+     {
+      "id": "D",
+      "text": "$1$"
+     },
+     {
+      "id": "E",
+      "text": "It depends on the distribution."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   },
+   "explanation": "Probability is the area under the curve, and a single value 5 corresponds to a line segment, which has no area. So $P(X = 5) = 0$ for every continuous distribution.",
+   "choiceExplanations": {
+    "B": "No: a single point has no area under the curve.",
+    "C": "No: a single point has no area under the curve.",
+    "D": "No: a single point has no area under the curve.",
+    "E": "It is 0 for every continuous distribution."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "continuous"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

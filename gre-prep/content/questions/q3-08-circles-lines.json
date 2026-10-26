@@ -1,0 +1,523 @@
+[
+ {
+  "id": "q3-08-circles-lines-01",
+  "lessonId": "q3-08-circles-lines",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "In the figure, $PT$ is tangent to the circle with center $O$ at $T$. If $OT=6$ and $PT=8$, what is the length of $OP$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 10
+  },
+  "explanation": "A radius to the point of tangency is perpendicular to the tangent, so triangle $OTP$ is right-angled at $T$: $OP=\\sqrt{6^2+8^2}=10$.",
+  "estSeconds": 60,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"70\" cy=\"70\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"118\" x2=\"190\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"70\" x2=\"134\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><circle cx=\"70\" cy=\"70\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"70,110 78,110 78,118\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"60\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"70\" y=\"134\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">T</text><text x=\"138\" y=\"134\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"65\" y=\"98\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"102\" y=\"134\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+    "alt": "A circle with center O and a horizontal line tangent to the circle at point T, directly below O. Point P is on the tangent line to the right of T. Radius OT is labeled 6 and TP is labeled 8, with a right angle marked at T. A dashed segment joins O to P."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-02",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "In the figure, $AB$ is a diameter of the circle and $C$ is on the circle. What is the measure of angle $ACB$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$30^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$45^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$60^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$180^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "A triangle inscribed in a circle with a diameter as one of its sides is a right triangle, and the right angle is the one opposite the diameter: $\\angle ACB=90^\\circ$.",
+  "choiceExplanations": {
+   "A": "Nothing in the figure fixes $30^\\circ$.",
+   "B": "That would require $AC=BC$, which is not given.",
+   "C": "Nothing in the figure fixes $60^\\circ$.",
+   "E": "That would make $C$ lie on the line $AB$ and not form a triangle."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 175\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"40,90 180,90 86.1,24.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"90\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"32\" y=\"94\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"188\" y=\"94\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"82.1\" y=\"17.2\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"110\" y=\"106\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+    "alt": "A circle with center O. Points A and B are the ends of a horizontal diameter through O. Point C lies on the circle above the diameter, and triangle ABC is drawn."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-03",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A right triangle with legs 6 and 8 is inscribed in a circle. What is the area of the circle?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$10\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$25\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$50\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$100\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The hypotenuse is $\\sqrt{36+64}=10$ and it is a diameter, so $r=5$ and $A=25\\pi$.",
+  "choiceExplanations": {
+   "A": "That is $\\pi r$; the area needs $r^2$.",
+   "B": "That is the circumference of the circle, $\\pi d$.",
+   "D": "That is twice the area.",
+   "E": "That treats the diameter 10 as the radius."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-04",
+  "lessonId": "q3-08-circles-lines",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "In the figure, a line is tangent to the circle with center $O$ at $P$, and $Q$ is a point on the line with $PQ=12$ and $OQ=13$. What is the radius of the circle?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  },
+  "explanation": "$OP$ is a radius, perpendicular to the tangent at $P$. In right triangle $OPQ$: $OP^2=13^2-12^2=25$, so $OP=5$.",
+  "estSeconds": 75,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 250 145\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"80\" cy=\"70\" r=\"50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"120\" x2=\"235\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"70\" x2=\"200\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"80\" cy=\"70\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"80,112 88,112 88,120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"70\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"76\" y=\"136\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"204\" y=\"136\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"140\" y=\"136\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"146\" y=\"89\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">13</text></svg>",
+    "alt": "A circle with center O. A horizontal line is tangent to the circle at point P, directly below O. Point Q is on the tangent line to the right of P. PQ is labeled 12 and OQ is labeled 13. A right angle is marked at P."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-05",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Line $m$ is tangent to a circle with center $O$ at point $P$, and $Q$ is another point on $m$. Which of the following must be true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Line $m$ meets the circle at no point other than $P$."
+    },
+    {
+     "id": "B",
+     "text": "Segment $OP$ is perpendicular to line $m$."
+    },
+    {
+     "id": "C",
+     "text": "Point $Q$ lies inside the circle."
+    },
+    {
+     "id": "D",
+     "text": "$OQ$ is longer than $OP$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  },
+  "explanation": "A tangent touches the circle at exactly one point, and the radius $OP$ is perpendicular to it. Then $OQ$ is the hypotenuse of right triangle $OPQ$, so $OQ>OP$ and $Q$ is outside the circle.",
+  "choiceExplanations": {
+   "C": "Every point of the tangent line other than $P$ lies outside the circle."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-06",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Rectangle $ABCD$ with $AB=8$ and $BC=6$ is inscribed in a circle. What is the circumference of the circle?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$10\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$14\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$25\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$100\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Diagonal $AC$ is the hypotenuse of the inscribed right triangle $ABC$, so it is a diameter: $AC=\\sqrt{8^2+6^2}=10$. The circumference is $10\\pi$.",
+  "choiceExplanations": {
+   "A": "That is the radius times $\\pi$; the circumference is $\\pi d=\\pi\\cdot10$.",
+   "C": "That uses $AB+BC=14$ as the diameter.",
+   "D": "That is the area of the circle.",
+   "E": "That is $\\pi d^2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"62,54 158,54 158,126 62,126\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"90\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"56\" y=\"50\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"164\" y=\"50\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"164\" y=\"140\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"56\" y=\"140\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"110\" y=\"72\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"150\" y=\"94\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "A rectangle ABCD inscribed in a circle, with all four vertices on the circle. Side AB, along the top, is labeled 8 and side BC, on the right, is labeled 6."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-07",
+  "lessonId": "q3-08-circles-lines",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "In the figure, the circle has center $O$ and radius 5, and a line is tangent to it at $T$. $P$ is a point on the line with $PT=12$, and segment $OP$ meets the circle at $S$. What is the length of $PS$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  },
+  "explanation": "$OP=\\sqrt{5^2+12^2}=13$ (right angle at $T$). $OS$ is a radius, 5, so $PS=13-5=8$.",
+  "estSeconds": 100,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 230 140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"70\" cy=\"70\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"115\" x2=\"215\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"70\" x2=\"178\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"70\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"70,107 78,107 78,115\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"60\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"70\" y=\"131\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">T</text><text x=\"182\" y=\"131\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"117.5\" y=\"81.3\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">S</text><text x=\"65\" y=\"96\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"124\" y=\"131\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text></svg>",
+    "alt": "A circle with center O and radius 5. A horizontal line is tangent to the circle at T, directly below O. Point P is on the tangent line with TP equal to 12. Segment OP crosses the circle at point S. A right angle is marked at T."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-08",
+  "lessonId": "q3-08-circles-lines",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$OP$",
+   "quantityB": "5",
+   "common": "A circle has center $O$ and radius 4. A line through the point $P$ outside the circle touches the circle at $T$, and $PT=3$."
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "$OT\\perp PT$, so $OP=\\sqrt{4^2+3^2}=5$. Equal.",
+  "estSeconds": 75,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-09",
+  "lessonId": "q3-08-circles-lines",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "Right triangle $ABC$, with its right angle at $C$, is inscribed in a circle of radius 13. If $AC=10$, what is the length of $BC$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  },
+  "explanation": "The hypotenuse $AB$ is a diameter: $AB=26$. Then $BC=\\sqrt{26^2-10^2}=\\sqrt{576}=24$.",
+  "estSeconds": 100,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-10",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "In the figure, the smaller circle has radius 3 and is tangent at $P$ to a line. $Q$ is on the line with $PQ=4$, and a larger circle with the same center $O$ passes through $Q$. What is the area of the larger circle?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$7\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$16\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$25\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$49\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "$OP\\perp PQ$ with $OP=3$, $PQ=4$, so $OQ=\\sqrt{9+16}=5$. $OQ$ is the radius of the larger circle: $A=\\pi\\cdot5^2=25\\pi$.",
+  "choiceExplanations": {
+   "A": "That is $\\pi\\cdot OQ$; the area needs $OQ^2$.",
+   "B": "That is $\\pi(3+4)$.",
+   "C": "That is $\\pi\\cdot PQ^2$, not the large circle.",
+   "E": "That is $\\pi(3+4)^2$; $OQ$ is a hypotenuse, not the sum of the legs."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"100\" r=\"42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"100\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"142\" x2=\"190\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"100\" x2=\"156\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><circle cx=\"100\" cy=\"100\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"100,134 108,134 108,142\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"90\" y=\"96\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"96\" y=\"158\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"160\" y=\"158\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"94\" y=\"125\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"128\" y=\"158\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text></svg>",
+    "alt": "Two concentric circles with center O. The smaller circle has radius 3 and is tangent at point P to a horizontal line. Point Q is on that line, 4 units to the right of P, and the larger circle passes through Q. A right angle is marked at P."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-11",
+  "lessonId": "q3-08-circles-lines",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A right triangle with legs in the ratio $3:4$ is inscribed in a circle with circumference $20\\pi$. What is the area of the triangle?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 96
+  },
+  "explanation": "The circle has $2\\pi r=20\\pi$, so $r=10$ and the diameter is 20. The hypotenuse is a diameter. With legs $3k$ and $4k$ the hypotenuse is $5k=20$, so $k=4$ and the legs are 12 and 16. Area $=\\tfrac12(12)(16)=96$.",
+  "estSeconds": 130,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-12",
+  "lessonId": "q3-08-circles-lines",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "In the figure, $AB$ is a diameter of the circle with center $O$ and radius 6, and $C$ is on the circle with $AC=6$. What is the area of triangle $ABC$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "18"
+    },
+    {
+     "id": "B",
+     "text": "$18\\sqrt2$"
+    },
+    {
+     "id": "C",
+     "text": "$18\\sqrt3$"
+    },
+    {
+     "id": "D",
+     "text": "36"
+    },
+    {
+     "id": "E",
+     "text": "$36\\sqrt3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$AB$ is a diameter, so angle $C$ is a right angle and $AB=12$ is the hypotenuse. $BC=\\sqrt{12^2-6^2}=6\\sqrt3$. The legs are $AC$ and $BC$: area $=\\tfrac12\\cdot6\\cdot6\\sqrt3=18\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "That treats $BC$ as 6, but then the legs 6 and 6 would give hypotenuse $6\\sqrt2\\ne12$.",
+   "B": "That takes $BC=6\\sqrt2$, which would not satisfy $AC^2+BC^2=12^2$.",
+   "D": "That is $\\tfrac12\\cdot12\\cdot6$, using $AB$ as the base and $AC$ as the height, but $AC$ is not perpendicular to $AB$.",
+   "E": "That forgets the factor $\\tfrac12$."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"100\" r=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"20,100 200,100 65,22.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"100\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"12\" y=\"104\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"208\" y=\"104\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"61\" y=\"15.1\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"110\" y=\"116\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"34.5\" y=\"61\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "A circle with center O and radius 6. Segment AB is a horizontal diameter. Point C is on the circle above the diameter and AC is labeled 6. Triangle ABC is drawn."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

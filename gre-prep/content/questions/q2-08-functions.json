@@ -1,0 +1,462 @@
+[
+ {
+  "id": "q2-08-functions-01",
+  "lessonId": "q2-08-functions",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "If $f(x)=4x-7$, what is the value of $f(5)$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  },
+  "explanation": "$f(5)=4(5)-7=13$.",
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-02",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "If $g(x)=x^2+1$, what is the value of $g(-3)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-8$"
+    },
+    {
+     "id": "B",
+     "text": "$-5$"
+    },
+    {
+     "id": "C",
+     "text": "$-2$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$10$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "$g(-3)=(-3)^2+1=9+1=10$.",
+  "choiceExplanations": {
+   "A": "This reads $(-3)^2$ as $-3^2=-9$.",
+   "B": "This computes $2x+1$ instead of $x^2+1$.",
+   "C": "This computes $x+1$.",
+   "D": "This computes $x^2-1$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-03",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "If $f(x)=x^2-2x$, which of the following is equal to $f(a+2)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a^2-2a$"
+    },
+    {
+     "id": "B",
+     "text": "$a^2-2a+2$"
+    },
+    {
+     "id": "C",
+     "text": "$a^2+2a$"
+    },
+    {
+     "id": "D",
+     "text": "$a^2+2a+8$"
+    },
+    {
+     "id": "E",
+     "text": "$a^2+4a+4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$f(a+2)=(a+2)^2-2(a+2)=a^2+4a+4-2a-4=a^2+2a$.",
+  "choiceExplanations": {
+   "A": "This is $f(a)+f(2)$, and $f(2)=0$; but $f(a+2)\\ne f(a)+f(2)$.",
+   "B": "This is $f(a)+2$.",
+   "D": "Sign error: $-2(a+2)$ was expanded as $-2a+4$.",
+   "E": "The $-2(a+2)$ part was forgotten."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-04",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following numbers is **not** in the domain of $f(x)=\\dfrac{x+1}{2x-8}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-1$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The denominator $2x-8$ is 0 when $x=4$.",
+  "choiceExplanations": {
+   "A": "The numerator is 0 here, which is allowed: $f(-1)=0$.",
+   "B": "$f(0)=-\\frac18$ is defined.",
+   "C": "$f(1)=-\\frac13$ is defined.",
+   "E": "$f(8)=\\frac98$ is defined."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-05",
+  "lessonId": "q2-08-functions",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$f(-2)$",
+   "quantityB": "$f(2)$",
+   "common": "$f(x)=5-x^2$"
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "$f(-2)=5-(-2)^2=1$ and $f(2)=5-2^2=1$. Equal.",
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-06",
+  "lessonId": "q2-08-functions",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "If $f(x)=x^2-4x$ and $f(a)=5$ for a positive number $a$, what is the value of $a$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  },
+  "explanation": "$a^2-4a=5$, so $a^2-4a-5=0$ and $(a-5)(a+1)=0$. Since $a>0$, $a=5$.",
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-07",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "If $g(x)=x^2-4x+3$, for which of the following values of $x$ does $g(x)=3$? Indicate all such values.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  },
+  "explanation": "$x^2-4x+3=3$ gives $x^2-4x=0$, so $x(x-4)=0$: $x=0$ or $x=4$.",
+  "choiceExplanations": {
+   "B": "$g(1)=0$.",
+   "C": "$g(2)=-1$.",
+   "D": "$g(3)=0$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-08",
+  "lessonId": "q2-08-functions",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$f(x+y)$",
+   "quantityB": "$f(x)+f(y)$",
+   "common": "$f(x)=x^2$, and $x$ and $y$ are positive."
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "$f(x+y)=(x+y)^2=x^2+2xy+y^2$, while $f(x)+f(y)=x^2+y^2$. The difference is $2xy>0$ for positive $x,y$, so A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-09",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Which of the following numbers are **not** in the domain of $g(x)=\\dfrac{\\sqrt{x+5}}{x-2}$? Indicate all such numbers.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-6$"
+    },
+    {
+     "id": "B",
+     "text": "$-5$"
+    },
+    {
+     "id": "C",
+     "text": "$0$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  },
+  "explanation": "The domain needs $x+5\\ge0$ (so $x\\ge-5$) and $x\\ne2$. So $-6$ and $2$ are excluded.",
+  "choiceExplanations": {
+   "B": "$x=-5$ gives $\\sqrt0=0$, which is allowed.",
+   "C": "$g(0)=\\frac{\\sqrt5}{-2}$ is defined.",
+   "E": "$g(7)=\\frac{\\sqrt{12}}{5}$ is defined."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-10",
+  "lessonId": "q2-08-functions",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "The function $f$ is defined by $f(x)=ax+b$ for constants $a$ and $b$. If $f(2)=7$ and $f(-1)=-2$, what is the value of $f(5)$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  },
+  "explanation": "$2a+b=7$ and $-a+b=-2$. Subtract: $3a=9$, so $a=3$ and $b=1$. Then $f(5)=3(5)+1=16$.",
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-11",
+  "lessonId": "q2-08-functions",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "The function $f$ is defined by $f(x)=x^2+kx+c$ for constants $k$ and $c$. If $f(3)=f(-5)$, what is the value of $k$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  },
+  "explanation": "$f(3)=9+3k+c$ and $f(-5)=25-5k+c$. Setting them equal, $c$ cancels: $9+3k=25-5k$, so $8k=16$ and $k=2$.",
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-08-functions-12",
+  "lessonId": "q2-08-functions",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "If $f(x)=3x-4$, for how many real numbers $x$ is $f(2x)=2f(x)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "None"
+    },
+    {
+     "id": "B",
+     "text": "One"
+    },
+    {
+     "id": "C",
+     "text": "Two"
+    },
+    {
+     "id": "D",
+     "text": "Three"
+    },
+    {
+     "id": "E",
+     "text": "Infinitely many"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "$f(2x)=6x-4$ and $2f(x)=6x-8$. Setting them equal gives $-4=-8$, which is false for every $x$.",
+  "choiceExplanations": {
+   "B": "The $x$ terms cancel and the leftover statement is false, so no value of $x$ works.",
+   "C": "A linear equation cannot have exactly two solutions.",
+   "D": "A linear equation cannot have exactly three solutions.",
+   "E": "That would need the constants to match; here they differ ($-4$ versus $-8$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

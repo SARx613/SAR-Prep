@@ -1,0 +1,421 @@
+[
+ {
+  "id": "q4-08-probability-basics-01",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "A fair six-sided die is rolled once. What is the probability that the number rolled is greater than 4?",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.3333333333333333,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 3
+   }
+  },
+  "explanation": "The favorable outcomes are 5 and 6: 2 of 6 equally likely outcomes. $\\frac{2}{6} = \\frac13$.",
+  "estSeconds": 45,
+  "skills": [
+   "probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-02",
+  "lessonId": "q4-08-probability-basics",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A bag contains 3 red marbles, 4 blue marbles and 3 green marbles. One marble is drawn at random. What is the probability that it is not blue?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{3}{10}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{3}{5}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{7}{10}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "There are 10 marbles and 6 are not blue: $\\frac{6}{10} = \\frac35$. Or $1 - P(\\text{blue}) = 1 - \\frac{4}{10}$.",
+  "choiceExplanations": {
+   "A": "$\\frac{3}{10}$ is the probability of red (or of green).",
+   "B": "$\\frac{2}{5}$ is the probability of blue, the opposite event.",
+   "C": "$\\frac12$ does not match any count of the marbles: 6 of 10 are not blue.",
+   "E": "$\\frac{7}{10}$ is the probability of not red."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-03",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "Events $A$ and $B$ are mutually exclusive, with $P(A) = 0.35$ and $P(B) = 0.40$. What is the probability that $A$ or $B$ occurs?",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.75
+  },
+  "explanation": "The events cannot both occur, so $P(A \\text{ or } B) = 0.35 + 0.40 = 0.75$.",
+  "estSeconds": 45,
+  "skills": [
+   "mutually-exclusive"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-04",
+  "lessonId": "q4-08-probability-basics",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The probability that a fair six-sided die shows a prime number",
+   "quantityB": "The probability that a fair six-sided die shows an odd number"
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "Primes: 2, 3, 5 (3 outcomes). Odd numbers: 1, 3, 5 (3 outcomes). Both probabilities are $\\frac36 = \\frac12$.",
+  "estSeconds": 60,
+  "skills": [
+   "probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-05",
+  "lessonId": "q4-08-probability-basics",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "For events $E$ and $F$, $P(E) = 0.6$, $P(F) = 0.5$ and $P(E \\text{ and } F) = 0.3$. What is $P(E \\text{ or } F)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.3$"
+    },
+    {
+     "id": "B",
+     "text": "$0.5$"
+    },
+    {
+     "id": "C",
+     "text": "$0.8$"
+    },
+    {
+     "id": "D",
+     "text": "$0.9$"
+    },
+    {
+     "id": "E",
+     "text": "$1.1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$P(E \\text{ or } F) = 0.6 + 0.5 - 0.3 = 0.8$.",
+  "choiceExplanations": {
+   "A": "0.3 is $P(E \\text{ and } F)$, not the union.",
+   "B": "0.5 is only $P(F)$.",
+   "D": "0.9 would need $P(E \\text{ and } F) = 0.2$.",
+   "E": "1.1 adds the two probabilities without subtracting the overlap (and exceeds 1)."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-06",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A weighted six-sided die has the following probabilities: the numbers 1, 2 and 3 each have probability $p$, the numbers 4 and 5 each have probability $2p$, and the number 6 has probability $3p$. What is the probability of rolling an even number?",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.6,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 5
+   }
+  },
+  "explanation": "The probabilities add to 1: $3p + 4p + 3p = 10p = 1$, so $p = \\frac{1}{10}$. Even numbers: $P(2) + P(4) + P(6) = p + 2p + 3p = 6p = \\frac{6}{10} = \\frac35$.",
+  "estSeconds": 100,
+  "skills": [
+   "weighted-outcomes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-07",
+  "lessonId": "q4-08-probability-basics",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "In a school, the probability that a randomly chosen student plays chess is 0.30, the probability that the student plays checkers is 0.50, and the probability that the student plays neither is 0.35. What is the probability that the student plays both?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.10$"
+    },
+    {
+     "id": "B",
+     "text": "$0.15$"
+    },
+    {
+     "id": "C",
+     "text": "$0.20$"
+    },
+    {
+     "id": "D",
+     "text": "$0.35$"
+    },
+    {
+     "id": "E",
+     "text": "$0.65$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The probability of playing at least one game is $1 - 0.35 = 0.65$. Then $0.65 = 0.30 + 0.50 - P(\\text{both})$, so $P(\\text{both}) = 0.15$.",
+  "choiceExplanations": {
+   "A": "With 0.10, the probability of at least one game would be 0.70.",
+   "C": "With 0.20, the probability of at least one game would be 0.60.",
+   "D": "0.35 is the probability of playing neither.",
+   "E": "0.65 is the probability of playing at least one game."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-08",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "Two fair six-sided dice are rolled. What is the probability that the sum of the two numbers is 8?",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.1388888888888889,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 36
+   }
+  },
+  "explanation": "There are $6 \\times 6 = 36$ equally likely outcomes. A sum of 8 comes from (2,6), (3,5), (4,4), (5,3) and (6,2): 5 outcomes. $P = \\frac{5}{36}$.",
+  "estSeconds": 90,
+  "skills": [
+   "probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-09",
+  "lessonId": "q4-08-probability-basics",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "For events $E$ and $F$, $P(E) = 0.5$ and $P(F) = 0.4$. Which of the following could be the value of $P(E \\text{ or } F)$? Indicate all such values.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.4$"
+    },
+    {
+     "id": "B",
+     "text": "$0.5$"
+    },
+    {
+     "id": "C",
+     "text": "$0.7$"
+    },
+    {
+     "id": "D",
+     "text": "$0.9$"
+    },
+    {
+     "id": "E",
+     "text": "$1.0$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "$P(E \\text{ or } F)$ is at least the larger of the two probabilities (0.5), and at most their sum (0.9, reached when the events are mutually exclusive). So 0.5, 0.7 and 0.9 are possible.",
+  "choiceExplanations": {
+   "A": "The union is at least as likely as $E$ alone, which is 0.5.",
+   "E": "The union is at most $0.5 + 0.4 = 0.9$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-10",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "A fair coin is tossed 3 times. What is the probability that at least one toss is heads?",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.875,
+   "fraction": {
+    "numerator": 7,
+    "denominator": 8
+   }
+  },
+  "explanation": "Use the complement. There are $2^3 = 8$ equally likely sequences and only one, TTT, has no heads. $P = 1 - \\frac18 = \\frac78$.",
+  "estSeconds": 75,
+  "skills": [
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-11",
+  "lessonId": "q4-08-probability-basics",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "Two fair six-sided dice are rolled. What is the probability that the sum of the two numbers is a multiple of 3 or the two numbers are equal?",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.4444444444444444,
+   "fraction": {
+    "numerator": 4,
+    "denominator": 9
+   }
+  },
+  "explanation": "Of the 36 outcomes, sums of 3, 6, 9, 12 occur in $2 + 5 + 4 + 1 = 12$ ways, and doubles occur in 6 ways. Both: (3,3) and (6,6), 2 ways. Union: $12 + 6 - 2 = 16$, so $P = \\frac{16}{36} = \\frac49$.",
+  "estSeconds": 150,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-08-probability-basics-12",
+  "lessonId": "q4-08-probability-basics",
+  "type": "QC",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The probability that both $E$ and $F$ occur",
+   "quantityB": "0.3",
+   "common": "$P(E) = 0.7$ and $P(F) = 0.6$."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "$P(E \\text{ or } F) \\le 1$, and $P(E \\text{ or } F) = 1.3 - P(E \\text{ and } F)$, so $P(E \\text{ and } F) \\ge 0.3$. It equals 0.3 when at least one of $E$, $F$ is certain to occur, and it can be larger (up to 0.6), so the comparison cannot be determined.",
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -1,0 +1,551 @@
+[
+ {
+  "id": "v3-07-assumptions-perspective-01",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "The author's attitude toward managers who cite money already spent is best described as",
+  "passageId": "v3-sunk-cost",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "contemptuous of their lack of intelligence"
+    },
+    {
+     "id": "B",
+     "text": "approving of their loyalty to a project"
+    },
+    {
+     "id": "C",
+     "text": "indifferent to the outcome of their decisions"
+    },
+    {
+     "id": "D",
+     "text": "alarmed by the cost of their errors"
+    },
+    {
+     "id": "E",
+     "text": "understanding of why they reason as they do, yet convinced their reasoning is mistaken"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "'Feels natural but is flawed' captures both halves of the author's attitude.",
+  "choiceExplanations": {
+   "A": "The author calls the reasoning 'natural' and explains the pressures; this is not contempt.",
+   "B": "The author calls the reasoning 'flawed'.",
+   "C": "The author recommends better ways for organizations to make such decisions.",
+   "D": "No alarm is expressed; the tone is analytical."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-02",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "The author's attitude toward the newer explanation is best described as",
+  "passageId": "v3-soil-carbon",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "completely convinced of its truth"
+    },
+    {
+     "id": "B",
+     "text": "dismissive because it is untested"
+    },
+    {
+     "id": "C",
+     "text": "neutral and uninterested in its consequences"
+    },
+    {
+     "id": "D",
+     "text": "skeptical because it contradicts the older view"
+    },
+    {
+     "id": "E",
+     "text": "cautiously receptive, treating it as a possibility with consequences"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "'If that is correct' shows conditional acceptance, and the final clause follows its implications.",
+  "choiceExplanations": {
+   "A": "'If that is correct' signals the author is not completely convinced.",
+   "B": "The author draws consequences from it, so does not dismiss it.",
+   "C": "The author points to 'practical consequences', so is interested in them.",
+   "D": "The author does not argue against it merely because it differs from the older view."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-03",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The author would most likely agree with which of the following?",
+  "passageId": "v3-bike-lanes",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The shopkeepers' worry is understandable even if it may prove unfounded."
+    },
+    {
+     "id": "B",
+     "text": "Merchants' estimates of how their customers travel are accurate enough to base policy on."
+    },
+    {
+     "id": "C",
+     "text": "Customers who arrive on foot or by bicycle generally spend nothing in shops."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The author sympathizes ('easy to understand') while giving reasons the fear may be unfounded.",
+  "choiceExplanations": {
+   "B": "The author says the estimate 'may also be mistaken'.",
+   "C": "The author says such customers visit more often and sales hold or rise."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-04",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "The author's attitude toward the biologists' conclusion is best described as",
+  "passageId": "v3-reef-ban",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "firmly convinced that the fishing ban was responsible"
+    },
+    {
+     "id": "B",
+     "text": "certain that the ban deserves no credit"
+    },
+    {
+     "id": "C",
+     "text": "willing to find it plausible but doubtful about the evidence offered for it"
+    },
+    {
+     "id": "D",
+     "text": "indifferent to whether the ban worked"
+    },
+    {
+     "id": "E",
+     "text": "hostile to the biologists' recommendation for other reefs"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "'Plausible, but...' grants the conclusion some credit, then explains why the evidence cannot settle it.",
+  "choiceExplanations": {
+   "A": "The author does not endorse the conclusion; the comparison used is criticized.",
+   "B": "The author only says the ban 'might' deserve little credit, not that it certainly does not.",
+   "D": "The author engages closely with the question and gives specific reasons for doubt.",
+   "E": "Nothing suggests hostility; the author questions the evidence, not the motives or the recommendation as such."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-05",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence in which the author explains why ignoring sunk costs is hard in practice.",
+  "passageId": "v3-sunk-cost",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Part of the difficulty is that abandoning a project crystallizes a loss that was previously only prospective, and part is that a manager who cancels a project may be judged to have admitted a mistake."
+  },
+  "explanation": "Only this sentence gives reasons for the difficulty: losses become definite, and cancelling may look like admitting error.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-perspective",
+   "rc-support"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-06",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following reflects the author's perspective?",
+  "passageId": "v3-oral-epic",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The idea of a single 'original' version of an oral epic is misleading."
+    },
+    {
+     "id": "B",
+     "text": "Written texts of oral epics have no scholarly value."
+    },
+    {
+     "id": "C",
+     "text": "Scholars who treat a transcript as authoritative risk misrepresenting the nature of the epic."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "The last sentence denies that any performance is 'the original', and the penultimate sentence warns scholars. B overstates.",
+  "choiceExplanations": {
+   "B": "Too extreme: the author says a transcript preserves 'a single occasion', which has value as a sample."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-07",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The author's discussion assumes which of the following?",
+  "passageId": "v3-soil-carbon",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Carbon stored in soil is relevant to the climate."
+    },
+    {
+     "id": "B",
+     "text": "Adding more plant material to soil will always increase long-term carbon storage."
+    },
+    {
+     "id": "C",
+     "text": "Microbes decompose carbon that they can reach."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "A is stated as the reason the topic matters, and B's blocking mechanism makes sense only if microbes decompose accessible carbon. The author denies C.",
+  "choiceExplanations": {
+   "B": "The author says storage depends less on added plant material than on soil structure."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-08",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "The author's attitude toward the defenders' reply is best described as",
+  "passageId": "v3-white-lies",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "complete agreement with it"
+    },
+    {
+     "id": "B",
+     "text": "angry rejection of it"
+    },
+    {
+     "id": "C",
+     "text": "grudging acceptance of its truth, combined with the view that it supports the author's own point"
+    },
+    {
+     "id": "D",
+     "text": "indifference to it"
+    },
+    {
+     "id": "E",
+     "text": "admiration for the defenders' cleverness"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "'This may be right, but it concedes the point at issue' accepts the reply while using it against the defenders.",
+  "choiceExplanations": {
+   "A": "The author says it 'may be right' but turns it against the defenders.",
+   "B": "The author does not reject it; the author says it 'may be right'.",
+   "D": "The author responds directly; this is not indifference.",
+   "E": "No admiration is expressed."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-09",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following must the biologists assume for their conclusion to hold?",
+  "passageId": "v3-reef-ban",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Fish populations in the region would not have tripled over the decade without the ban."
+    },
+    {
+     "id": "B",
+     "text": "Neighboring reefs are currently unprotected."
+    },
+    {
+     "id": "C",
+     "text": "Ocean temperature is the main factor controlling fish numbers."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "If regional changes would have tripled the fish anyway, the ban would not explain the rise. The biologists therefore have to assume otherwise.",
+  "choiceExplanations": {
+   "B": "The conclusion about this reef does not depend on how neighboring reefs are managed.",
+   "C": "This is one alternative the author mentions; the biologists need not assume it."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-10",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "The author's argument assumes which of the following?",
+  "passageId": "v3-oral-epic",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Every living oral tradition produces epics of equal quality."
+    },
+    {
+     "id": "B",
+     "text": "Transcribers record only the most famous performance of a poem."
+    },
+    {
+     "id": "C",
+     "text": "The way living oral traditions work is a fair guide to how the great epics were originally performed."
+    },
+    {
+     "id": "D",
+     "text": "Scholars have never studied living oral traditions."
+    },
+    {
+     "id": "E",
+     "text": "Epics that were written down at once are superior to those that were transmitted orally."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The evidence comes from living traditions, but the conclusion concerns the ancient epics. The step between them is the assumption.",
+  "choiceExplanations": {
+   "A": "Quality is never discussed.",
+   "B": "The passage says a transcriber records 'one such performance', not the most famous.",
+   "D": "The author relies on evidence from them; the claim is not that scholars have ignored them, only that they treat transcripts as authoritative.",
+   "E": "No ranking is made."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-11",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "The author's recommendation that the dispute be treated as 'a question that counting can answer' depends on which of the following assumptions?",
+  "passageId": "v3-bike-lanes",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Reliable counts of how customers actually arrive can be obtained."
+    },
+    {
+     "id": "B",
+     "text": "Shopkeepers are deliberately misrepresenting how customers arrive."
+    },
+    {
+     "id": "C",
+     "text": "A protected bicycle path always increases sales on the street."
+    },
+    {
+     "id": "D",
+     "text": "Parking spaces matter to no customers at all."
+    },
+    {
+     "id": "E",
+     "text": "Merchants should have no part in deciding on the bicycle path."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "If counting could not produce reliable information about arrivals, the recommendation would have no basis; the author takes this possibility for granted.",
+  "choiceExplanations": {
+   "B": "The author says the estimate 'may also be mistaken', not that it is dishonest.",
+   "C": "Too strong: the studies found sales 'held steady or rose' frequently, not always.",
+   "D": "Too extreme; the claim concerns the proportion of customers.",
+   "E": "Nothing in the argument excludes merchants from the decision."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-12",
+  "lessonId": "v3-07-assumptions-perspective",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Select the sentence in which the author turns the defenders' reply to the author's own advantage.",
+  "passageId": "v3-white-lies",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "This may be right, but it concedes the point at issue: if listeners must discount, then the compliment has already ceased to carry the message it appears to carry."
+  },
+  "explanation": "In this sentence the author grants the reply and argues it concedes the point at issue. The previous sentence merely states what the defenders say.",
+  "estSeconds": 77,
+  "skills": [
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

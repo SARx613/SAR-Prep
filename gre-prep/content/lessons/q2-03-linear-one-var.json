@@ -1,0 +1,159 @@
+{
+ "id": "q2-03-linear-one-var",
+ "status": "draft",
+ "why": "Linear equations underlie almost every algebra word problem, and equations that look linear but have no solution (or every solution) are a favorite Quantitative Comparison twist.",
+ "rule": "Do the same thing to both sides: add or subtract any number, multiply or divide by any **nonzero** number, or replace an expression by an equivalent one (expand brackets, combine like terms).\n\nPlan: clear fractions (multiply by the common denominator), expand, collect the variable terms on one side, then divide. Substitute back to check.\n\nSome linear equations are special:\n- they reduce to a false statement such as $3=14$: **no solution**;\n- they reduce to a true statement such as $0=0$: an **identity**, true for every $x$.",
+ "examples": [
+  {
+   "prompt": "Solve $\\dfrac{x+3}{4}-\\dfrac{x-1}{6}=2$.",
+   "steps": [
+    "Multiply both sides by 12: $3(x+3)-2(x-1)=24$.",
+    "Expand, keeping the minus sign on the whole bracket: $3x+9-2x+2=24$.",
+    "Combine: $x+11=24$, so $x=13$.",
+    "Check: $\\frac{16}{4}-\\frac{12}{6}=4-2=2$."
+   ],
+   "answer": "$x=13$"
+  },
+  {
+   "prompt": "How many solutions does $4(x-1)+6=2(2x+1)$ have?",
+   "steps": [
+    "Left side: $4x-4+6=4x+2$.",
+    "Right side: $4x+2$.",
+    "The equation reduces to $4x+2=4x+2$, which is always true."
+   ],
+   "answer": "Infinitely many: every $x$ works (an identity)"
+  }
+ ],
+ "trap": "A minus sign in front of a bracket changes **every** term inside: $-(x-5)=-x+5$. And a result like $0=11$ is not a mistake; it means the equation has no solution.",
+ "checks": [
+  {
+   "id": "q2-03-linear-one-var-c1",
+   "lessonId": "q2-03-linear-one-var",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "If $5x-7=3x+9$, what is the value of $x$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
+   },
+   "explanation": "Subtract $3x$ and add 7: $2x=16$, so $x=8$.",
+   "estSeconds": 45,
+   "skills": [
+    "linear-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-03-linear-one-var-c2",
+   "lessonId": "q2-03-linear-one-var",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "If $\\dfrac{2x+1}{3}=5$, what is the value of $x$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$5$"
+     },
+     {
+      "id": "B",
+      "text": "$7$"
+     },
+     {
+      "id": "C",
+      "text": "$8$"
+     },
+     {
+      "id": "D",
+      "text": "$14$"
+     },
+     {
+      "id": "E",
+      "text": "$15$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "Multiply by 3: $2x+1=15$. Subtract 1: $2x=14$, so $x=7$.",
+   "choiceExplanations": {
+    "A": "This is the right-hand side, not $x$.",
+    "C": "The $+1$ was not subtracted before dividing: $2x=16$.",
+    "D": "This is the value of $2x$; it was not divided by 2.",
+    "E": "This is the value of $2x+1$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "linear-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-03-linear-one-var-c3",
+   "lessonId": "q2-03-linear-one-var",
+   "type": "PS",
+   "difficulty": 3,
+   "stem": "How many solutions does the equation $6x-2(3x-1)=2$ have?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "None"
+     },
+     {
+      "id": "B",
+      "text": "Exactly one"
+     },
+     {
+      "id": "C",
+      "text": "Exactly two"
+     },
+     {
+      "id": "D",
+      "text": "Infinitely many"
+     },
+     {
+      "id": "E",
+      "text": "It cannot be determined"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   },
+   "explanation": "Expand: $6x-6x+2=2$, which simplifies to $2=2$. This is true for every $x$.",
+   "choiceExplanations": {
+    "A": "A false statement such as $0=1$ would mean no solution; here the statement is true.",
+    "B": "The variable cancels, so $x$ is not pinned down.",
+    "C": "A linear equation never has exactly two solutions.",
+    "E": "It can: the equation reduces to a definite true statement."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "linear-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

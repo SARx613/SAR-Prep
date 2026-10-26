@@ -1,0 +1,127 @@
+{
+ "id": "q1-12-percent",
+ "status": "draft",
+ "why": "Percent appears in PS, QC and data-interpretation questions, and it is the base of every percent-change problem.",
+ "rule": "**Percent** means per hundred: $p\\% = \\frac{p}{100}$. So $45\\% = 0.45$, $0.8\\% = 0.008$ and $175\\% = 1.75$. The symbol matters: $0.2 = 20\\%$, but $0.2\\% = 0.002$.\n\nWith **part**, **whole** and percent $p$: $\\text{part} = \\frac{p}{100}\\cdot\\text{whole}$. Hence $p = \\dfrac{\\text{part}}{\\text{whole}}\\cdot100$ and $\\text{whole} = \\dfrac{\\text{part}}{p/100}$. The part can exceed the whole: then $p>100$ (21 is $350\\%$ of 6).",
+ "examples": [
+  {
+   "prompt": "What percent of 80 is 14?",
+   "steps": [
+    "$\\frac{14}{80} = 0.175$.",
+    "$0.175\\cdot100 = 17.5$."
+   ],
+   "answer": "$17.5\\%$"
+  },
+  {
+   "prompt": "18 is $40\\%$ of what number?",
+   "steps": [
+    "$0.4w = 18$.",
+    "$w = \\frac{18}{0.4} = 45$."
+   ],
+   "answer": "45"
+  }
+ ],
+ "trap": "Find the whole first: \\\"12 is what percent of 40?\\\" divides by 40 (30%), while \\\"40 is what percent of 12?\\\" divides by 12 (about 333%). And $0.5\\%$ is $0.005$, not $0.5$ or $50\\%$.",
+ "checks": [
+  {
+   "id": "q1-12-percent-c1",
+   "lessonId": "q1-12-percent",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is $35\\%$ of 60?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 21
+   },
+   "explanation": "$35\\% = 0.35$ and $0.35\\cdot60 = 21$.",
+   "estSeconds": 45,
+   "skills": [
+    "percent"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-12-percent-c2",
+   "lessonId": "q1-12-percent",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "15 is what percent of 60?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$0.25\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$4\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$25\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$45\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$400\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   },
+   "explanation": "$\\frac{\\text{part}}{\\text{whole}} = \\frac{15}{60} = 0.25$, and $0.25\\cdot100 = 25\\%$.",
+   "choiceExplanations": {
+    "A": "This leaves the decimal 0.25 and adds a percent sign without multiplying by 100.",
+    "B": "This is $\\frac{60}{15} = 4$ with a percent sign: the whole and the part are swapped.",
+    "D": "This is $60-15$.",
+    "E": "This is $\\frac{60}{15}\\cdot100$: the whole and the part are swapped."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "percent"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-12-percent-c3",
+   "lessonId": "q1-12-percent",
+   "type": "QC",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "$25\\%$ of 80",
+    "quantityB": "$80\\%$ of 25"
+   },
+   "answer": {
+    "choice": "C"
+   },
+   "explanation": "$0.25\\cdot80 = 20$ and $0.8\\cdot25 = 20$. Equal. (In general $p\\%$ of $q$ equals $q\\%$ of $p$.)",
+   "estSeconds": 60,
+   "skills": [
+    "percent"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

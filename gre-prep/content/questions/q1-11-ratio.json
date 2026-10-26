@@ -1,0 +1,491 @@
+[
+ {
+  "id": "q1-11-ratio-01",
+  "lessonId": "q1-11-ratio",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "The ratio $24:36$ is written in lowest terms as $a:b$. What is $b$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "$\\text{GCD}(24,36) = 12$, so $24:36 = 2:3$ and $b = 3$.",
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-02",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A class has 12 boys and 18 girls. What is the ratio of boys to girls?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2:5$"
+    },
+    {
+     "id": "B",
+     "text": "$3:5$"
+    },
+    {
+     "id": "C",
+     "text": "$2:3$"
+    },
+    {
+     "id": "D",
+     "text": "$3:2$"
+    },
+    {
+     "id": "E",
+     "text": "$5:2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$12:18$ reduces by 6 to $2:3$.",
+  "choiceExplanations": {
+   "A": "This is boys to the whole class, $12:30$.",
+   "B": "This is girls to the whole class, $18:30$.",
+   "D": "This is girls to boys: the order is reversed.",
+   "E": "This is whole class to boys, $30:12$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-03",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "The ratio of $x$ to 15 is equal to the ratio of 4 to 10. What is $x$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "7.5"
+    },
+    {
+     "id": "D",
+     "text": "9"
+    },
+    {
+     "id": "E",
+     "text": "37.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "$\\frac{x}{15} = \\frac{4}{10}$, so $10x = 60$ and $x = 6$.",
+  "choiceExplanations": {
+   "A": "This copies the 4.",
+   "C": "This halves 15; the ratio is 4 to 10, which is 2 to 5, not 1 to 2.",
+   "D": "This adds 5 to 4 because the 10 became 15; ratios scale by multiplication, not addition.",
+   "E": "This cross-multiplies upside down: $\\frac{15\\cdot10}{4}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-04",
+  "lessonId": "q1-11-ratio",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The ratio of 7 to 9",
+   "quantityB": "The ratio of 8 to 10"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "$\\frac{7}{9}$ versus $\\frac{8}{10} = \\frac{4}{5}$. Cross-multiplying: $7\\cdot5 = 35$ and $4\\cdot9 = 36$, so $\\frac{7}{9}<\\frac{4}{5}$. B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-05",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following ratios are equivalent to $6:9$? Indicate all such ratios.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2:3$"
+    },
+    {
+     "id": "B",
+     "text": "$3:2$"
+    },
+    {
+     "id": "C",
+     "text": "$12:18$"
+    },
+    {
+     "id": "D",
+     "text": "$6:10$"
+    },
+    {
+     "id": "E",
+     "text": "$18:27$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "Divide $6:9$ by 3 to get $2:3$. Multiplying by 2 gives $12:18$ and by 3 gives $18:27$. $3:2$ is reversed and $6:10$ is $3:5$.",
+  "choiceExplanations": {
+   "B": "This is the reversed ratio, $\\frac{3}{2}\\ne\\frac{2}{3}$.",
+   "D": "$6:10 = 3:5\\ne2:3$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-06",
+  "lessonId": "q1-11-ratio",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A basket holds apples, pears and oranges in the ratio $2:3:5$. If the basket holds 40 pieces of fruit, how many are oranges?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  },
+  "explanation": "The ratio has $2+3+5 = 10$ parts, so each part is $40\\div10 = 4$ pieces. Oranges: $5\\cdot4 = 20$.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-07",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "The ratio of boys to girls in a club is $3:4$. There are 12 more girls than boys. How many girls are in the club?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "16"
+    },
+    {
+     "id": "C",
+     "text": "36"
+    },
+    {
+     "id": "D",
+     "text": "48"
+    },
+    {
+     "id": "E",
+     "text": "84"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Boys $=3k$, girls $=4k$, and the difference $4k-3k = k = 12$. Girls: $4\\cdot12 = 48$.",
+  "choiceExplanations": {
+   "A": "12 is the difference, i.e. one part.",
+   "B": "This treats 12 as the number of boys ($3k=12$).",
+   "C": "This is the number of boys, $3\\cdot12$.",
+   "E": "This is the whole club, $7\\cdot12$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-08",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "The ratio of boys to girls in a class is $3:5$. Which of the following could be the number of students in the class?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "36"
+    },
+    {
+     "id": "B",
+     "text": "40"
+    },
+    {
+     "id": "C",
+     "text": "42"
+    },
+    {
+     "id": "D",
+     "text": "44"
+    },
+    {
+     "id": "E",
+     "text": "52"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Boys and girls come in groups of $3+5 = 8$ students, so the class size is a multiple of 8. Only 40 is ($40 = 5\\cdot8$).",
+  "choiceExplanations": {
+   "A": "$36\\div8 = 4.5$, not an integer.",
+   "C": "$42\\div8 = 5.25$.",
+   "D": "$44\\div8 = 5.5$.",
+   "E": "$52\\div8 = 6.5$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-09",
+  "lessonId": "q1-11-ratio",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{x}{z}$",
+   "quantityB": "1",
+   "common": "The ratio of $x$ to $y$ is $3:4$, the ratio of $y$ to $z$ is $8:5$, and $x,y,z>0$."
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "The ratio of $x$ to $y$ is $3:4$, so $x:y = 6:8$ (scale by 2 to match $y=8$). With $y:z = 8:5$ we get $x:y:z = 6:8:5$, so $\\frac{x}{z} = \\frac{6}{5}>1$. A is greater.",
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-10",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "$\\frac{a}{b} = \\frac{2}{3}$ and $\\frac{b}{c} = \\frac{9}{4}$, where $a,b,c$ are positive. What is $\\frac{a}{c}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{8}{27}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{11}{7}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{27}{8}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$\\frac{a}{c} = \\frac{a}{b}\\cdot\\frac{b}{c} = \\frac{2}{3}\\cdot\\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$. (The $b$ cancels.)",
+  "choiceExplanations": {
+   "A": "This divides $\\frac{a}{b}$ by $\\frac{b}{c}$ instead of multiplying.",
+   "B": "This is only $\\frac{a}{b}$.",
+   "D": "This adds tops and bottoms, $\\frac{2+9}{3+4}$.",
+   "E": "This is the reciprocal of the dividing mistake."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-11",
+  "lessonId": "q1-11-ratio",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $4:7$. When 6 is added to each of $x$ and $y$, the ratio becomes $2:3$. What is $x$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  },
+  "explanation": "Let $x=4k$, $y=7k$. Then $\\frac{4k+6}{7k+6} = \\frac{2}{3}$. Cross-multiply: $12k+18 = 14k+12$, so $k = 3$ and $x = 12$ ($y = 21$; check $\\frac{18}{27} = \\frac{2}{3}$).",
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-11-ratio-12",
+  "lessonId": "q1-11-ratio",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $3$ to $4$, with $x,y>0$. What is the ratio of $2x+y$ to $x+2y$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7}{10}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{3}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{5}{6}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{10}{11}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{11}{10}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Let $x=3k$ and $y=4k$. Then $2x+y = 6k+4k = 10k$ and $x+2y = 3k+8k = 11k$. The ratio is $\\frac{10}{11}$.",
+  "choiceExplanations": {
+   "A": "The numerator 7 is $x+y = 7k$; this ignores the factor 2 in $2x+y$ and the factor 2 in $x+2y$.",
+   "B": "This is the original ratio; the new expressions change the weights.",
+   "C": "This adds 2 to each term, $\\frac{3+2}{4+2}$.",
+   "E": "This inverts the ratio."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

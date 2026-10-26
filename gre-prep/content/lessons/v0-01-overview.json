@@ -1,0 +1,205 @@
+{
+ "id": "v0-01-overview",
+ "status": "draft",
+ "why": "Knowing what Verbal measures and how its three question types are built lets you recognize each format at a glance.",
+ "rule": "Verbal Reasoning tests your ability to analyze and evaluate written material, to analyze relationships among parts of sentences, and to recognize relationships among words and concepts.\n\nAbout half the measure is **Reading Comprehension**: a passage with one to six questions; select one of five answers, select one or more of three, or select a sentence in the passage. The other half asks you to complete existing sentences: **Text Completion** (one to five sentences, one to three blanks) and **Sentence Equivalence** (one blank, six choices, pick two). Multi-answer questions earn no partial credit.",
+ "examples": [
+  {
+   "prompt": "One sentence, one blank, six choices, and you must pick two. Identify the type, then solve: \"Because the argument was so ______, even the author's critics found it hard to reject.\" Choices: cogent, feeble, trite, compelling, murky, evasive.",
+   "steps": [
+    "Type: one sentence, one blank, six choices, two answers is **Sentence Equivalence**; both picks must be right.",
+    "Signal: *so ... that even the critics found it hard to reject* means the argument was strong.",
+    "Predict *convincing*; the two closest choices are *cogent* and *compelling*.",
+    "Check: both sentences say the argument was strong; *feeble*, *trite*, *murky* and *evasive* would make it easy to reject."
+   ],
+   "answer": "Sentence Equivalence; cogent and compelling"
+  }
+ ],
+ "trap": "Treating all three types alike. In Reading Comprehension everything must come from the passage; in Text Completion and Sentence Equivalence the clues are in the sentence itself. In every multi-answer type, a partly right answer scores nothing.",
+ "checks": [
+  {
+   "id": "v0-01-overview-c1",
+   "lessonId": "v0-01-overview",
+   "type": "TC",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "The lecture was so {{1}} that students who had never studied the subject followed every step.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "dense"
+       },
+       {
+        "id": "B",
+        "text": "technical"
+       },
+       {
+        "id": "C",
+        "text": "lucid"
+       },
+       {
+        "id": "D",
+        "text": "opaque"
+       },
+       {
+        "id": "E",
+        "text": "rambling"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "C"
+    ]
+   },
+   "explanation": "**Text Completion, one blank (five choices).** *Students who had never studied the subject followed every step*: the explanation was clear, *lucid*.",
+   "choiceExplanations": {
+    "D": "Opaque means hard to understand.",
+    "E": "Wandering talks are hard to follow.",
+    "B": "Technical talks are harder for beginners.",
+    "A": "Dense talks are hard for beginners."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v0-01-overview-c2",
+   "lessonId": "v0-01-overview",
+   "type": "SE",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "The mayor's reply was deliberately {{1}}, committing her to nothing and leaving reporters unsure of her position.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "belated"
+     },
+     {
+      "id": "B",
+      "text": "partisan"
+     },
+     {
+      "id": "C",
+      "text": "forthright"
+     },
+     {
+      "id": "D",
+      "text": "rousing"
+     },
+     {
+      "id": "E",
+      "text": "noncommittal"
+     },
+     {
+      "id": "F",
+      "text": "evasive"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E",
+     "F"
+    ]
+   },
+   "explanation": "**Sentence Equivalence (pick two).** *Committing to nothing* and leaving reporters unsure: *noncommittal* and *evasive*.",
+   "choiceExplanations": {
+    "C": "Direct; the reply left reporters unsure.",
+    "D": "Stirring replies commit to something.",
+    "B": "One-sided; the reply avoided taking a side.",
+    "A": "Concerns timing, not commitment."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v0-01-overview-c3",
+   "lessonId": "v0-01-overview",
+   "type": "TC",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "content": {
+    "text": "The first season of the series was {{1}} by audiences, who stayed away in droves, but the second was {{2}}, and critics now regard the show as a landmark.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "dissected"
+       },
+       {
+        "id": "1B",
+        "text": "shunned"
+       },
+       {
+        "id": "1C",
+        "text": "embraced"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "a rerun"
+       },
+       {
+        "id": "2B",
+        "text": "a triumph"
+       },
+       {
+        "id": "2C",
+        "text": "a failure"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2B"
+    ]
+   },
+   "explanation": "**Text Completion, two blanks.** *Stayed away in droves* gives *shunned*; *but* ... *landmark* gives a second season that was *a triumph*.",
+   "choiceExplanations": {
+    "1C": "Audiences who stayed away did not embrace it.",
+    "1A": "Analyzing a show is not what staying away describes.",
+    "2C": "Contradicts *landmark*.",
+    "2A": "Does not explain its landmark status."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

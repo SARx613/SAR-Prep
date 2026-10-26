@@ -1,0 +1,457 @@
+[
+ {
+  "id": "q1-03-remainders-parity-01",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is the remainder when 59 is divided by 8?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "$8\\cdot7 = 56$ and $59 - 56 = 3$.",
+  "estSeconds": 45,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-02",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "What is the remainder when 83 is divided by 9?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "8"
+    },
+    {
+     "id": "E",
+     "text": "9"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "$9\\cdot9 = 81$ and $83 - 81 = 2$.",
+  "choiceExplanations": {
+   "A": "83 is 2 above a multiple of 9, not 1.",
+   "C": "3 would mean 83 is 3 above a multiple of 9; 80 is not a multiple of 9.",
+   "D": "8 is the largest possible remainder, not the one here.",
+   "E": "9 is the quotient; a remainder must be less than 9."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-03",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "When a positive integer $n$ is divided by 6 the remainder is 5. What is the remainder when $n$ is divided by 3?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "1"
+    },
+    {
+     "id": "C",
+     "text": "2"
+    },
+    {
+     "id": "D",
+     "text": "3"
+    },
+    {
+     "id": "E",
+     "text": "5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Write $n = 6q + 5 = 6q + 3 + 2 = 3(2q+1) + 2$. The remainder on division by 3 is 2. (Test: $n=11$ gives $11 = 3\\cdot3+2$.)",
+  "choiceExplanations": {
+   "A": "A remainder of 0 would make $n$ divisible by 3; $n = 11$ is not.",
+   "B": "$n = 11$ gives $11 = 3\\cdot3+2$, not remainder 1.",
+   "D": "A remainder on division by 3 must be less than 3.",
+   "E": "A remainder on division by 3 must be less than 3; 5 was the remainder for 6."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-04",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The remainder when $x+y$ is divided by 2",
+   "quantityB": "The remainder when $xy$ is divided by 2",
+   "common": "$x$ is an even integer and $y$ is an odd integer."
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "even + odd is odd, so $x+y$ leaves remainder 1. even $\\cdot$ odd is even, so $xy$ leaves remainder 0. Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-05",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "$m$ and $n$ are odd integers. Which of the following must be even? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$m+n$"
+    },
+    {
+     "id": "B",
+     "text": "$mn$"
+    },
+    {
+     "id": "C",
+     "text": "$mn+1$"
+    },
+    {
+     "id": "D",
+     "text": "$3m+n$"
+    },
+    {
+     "id": "E",
+     "text": "$m+n+1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "odd + odd is even, so $m+n$ is even; $3m$ is odd, so $3m+n$ is even; $mn$ is odd, so $mn+1$ is even. $mn$ is odd and $m+n+1$ is even + 1 = odd.",
+  "choiceExplanations": {
+   "B": "odd $\\cdot$ odd is odd.",
+   "E": "$m+n$ is even, so $m+n+1$ is odd."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-06",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "The integer $-29$ is divided by 6, giving an integer quotient and a remainder $r$ with $0 \\le r < 6$. What is $r$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  },
+  "explanation": "The greatest multiple of 6 that is at most $-29$ is $-30 = (-5)(6)$. Then $-29 = (-5)(6) + 1$, so $r = 1$.",
+  "estSeconds": 75,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-07",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A positive integer $n$ leaves remainder 3 when divided by 7. What is the remainder when $5n$ is divided by 7?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "1"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "15"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "$n = 7q + 3$, so $5n = 35q + 15 = 7(5q+2) + 1$. The remainder is 1. (Shortcut: $5\\cdot3 = 15$, and 15 leaves 1 on division by 7.)",
+  "choiceExplanations": {
+   "A": "A remainder of 0 would make $5n$ divisible by 7, but $n = 3$ gives 15.",
+   "C": "3 is the remainder of $n$; multiplying by 5 changes it.",
+   "D": "5 is the multiplier, not the new remainder.",
+   "E": "15 is $5\\cdot3$, but 15 must still be reduced below 7."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-08",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The remainder when $n$ is divided by 4",
+   "quantityB": "The remainder when $n$ is divided by 6",
+   "common": "$n$ is a positive integer that leaves remainder 5 when divided by 12."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "$n = 12q + 5$. Since $12q$ is a multiple of 4, $n = 4(3q+1) + 1$: remainder 1. Since $12q$ is a multiple of 6, $n = 6(2q) + 5$: remainder 5. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-09",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "How many integers from 1 to 100, inclusive, leave remainder 3 when divided by 7?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
+  },
+  "explanation": "They have the form $7k + 3$: 3, 10, 17, \u2026. The largest is $7\\cdot13 + 3 = 94$ (the next, 101, is too big). So $k = 0, 1, \\ldots, 13$: 14 integers.",
+  "estSeconds": 90,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-10",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "If $n$ is an integer, which of the following must be even?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$n+1$"
+    },
+    {
+     "id": "B",
+     "text": "$2n+1$"
+    },
+    {
+     "id": "C",
+     "text": "$n^2+1$"
+    },
+    {
+     "id": "D",
+     "text": "$n(n+1)$"
+    },
+    {
+     "id": "E",
+     "text": "$n^2+n+1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "$n$ and $n+1$ are consecutive, so one of them is even, and the product $n(n+1)$ is even. Check the others with $n=1$ and $n=2$.",
+  "choiceExplanations": {
+   "A": "$n=2$ gives 3 (odd).",
+   "B": "$2n$ is even, so $2n+1$ is always odd.",
+   "C": "$n=2$ gives 5 (odd).",
+   "E": "$n(n+1)$ is even, so $n^2+n+1$ is always odd."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-11",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "The integers $a$ and $b$ satisfy: $ab$ is even and $a+b$ is odd. Which of the following must be true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a$ is even."
+    },
+    {
+     "id": "B",
+     "text": "At least one of $a$ and $b$ is even."
+    },
+    {
+     "id": "C",
+     "text": "$a-b$ is odd."
+    },
+    {
+     "id": "D",
+     "text": "$ab$ is odd."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  },
+  "explanation": "$a+b$ odd means one of them is even and the other odd, so at least one is even (consistent with $ab$ even). $a-b$ has the same parity as $a+b$, so it is odd. Either one could be the even one.",
+  "choiceExplanations": {
+   "A": "It could be $b$ that is even: $a=3,b=2$.",
+   "D": "$ab$ is even by hypothesis."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-12",
+  "lessonId": "q1-03-remainders-parity",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A positive integer $n$ leaves remainder 5 when divided by 9 and remainder 3 when divided by 7. What is the least possible value of $n$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 59
+  },
+  "explanation": "$n = 9k+5$: 5, 14, 23, 32, 41, 50, 59, \u2026 Reduce each mod 7: 5, 0, 2, 4, 6, 1, 3. The first with remainder 3 is 59 ($59 = 7\\cdot8+3$).",
+  "estSeconds": 120,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

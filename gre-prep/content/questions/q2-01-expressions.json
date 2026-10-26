@@ -1,0 +1,498 @@
+[
+ {
+  "id": "q2-01-expressions-01",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which of the following is equal to $3(2x-1)-4x$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x-3$"
+    },
+    {
+     "id": "B",
+     "text": "$2x-1$"
+    },
+    {
+     "id": "C",
+     "text": "$2x+3$"
+    },
+    {
+     "id": "D",
+     "text": "$6x-3$"
+    },
+    {
+     "id": "E",
+     "text": "$10x-3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "Distribute: $6x-3$. Then subtract $4x$: $2x-3$.",
+  "choiceExplanations": {
+   "B": "The 3 was multiplied by $2x$ but not by $-1$.",
+   "C": "Sign error: $3\\cdot(-1)$ is $-3$, not $+3$.",
+   "D": "This stops after distributing and ignores the $-4x$.",
+   "E": "The $4x$ was added instead of subtracted."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-02",
+  "lessonId": "q2-01-expressions",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is the degree of the polynomial $5x^3y-2xy^4+7$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  },
+  "explanation": "Add the exponents in each term: $5x^3y$ has degree $3+1=4$, $-2xy^4$ has degree $1+4=5$, and $7$ has degree $0$. The largest is $5$.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-03",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $(3x+2)(x-4)$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3x^2-14x-8$"
+    },
+    {
+     "id": "B",
+     "text": "$3x^2-10x+8$"
+    },
+    {
+     "id": "C",
+     "text": "$3x^2-10x-8$"
+    },
+    {
+     "id": "D",
+     "text": "$3x^2+10x-8$"
+    },
+    {
+     "id": "E",
+     "text": "$3x^2-8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Multiply every term by every term: $3x^2-12x+2x-8=3x^2-10x-8$.",
+  "choiceExplanations": {
+   "A": "The $2x$ was subtracted instead of added.",
+   "B": "The constant is $2\\cdot(-4)=-8$, not $+8$.",
+   "D": "The $x$-term is $-12x+2x=-10x$, not $+10x$.",
+   "E": "The middle terms were dropped."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-04",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $x^2-6x+9$? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x-3)^2$"
+    },
+    {
+     "id": "B",
+     "text": "$(x+3)^2$"
+    },
+    {
+     "id": "C",
+     "text": "$(3-x)^2$"
+    },
+    {
+     "id": "D",
+     "text": "$(x+3)(x-3)$"
+    },
+    {
+     "id": "E",
+     "text": "$x(x-6)+9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "$(x-3)^2=x^2-6x+9$. Since $(3-x)^2=(x-3)^2$, that works too. And $x(x-6)+9=x^2-6x+9$.",
+  "choiceExplanations": {
+   "B": "$(x+3)^2=x^2+6x+9$: the middle sign is wrong.",
+   "D": "$(x+3)(x-3)=x^2-9$: no middle term."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-05",
+  "lessonId": "q2-01-expressions",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$(x+4)^2$",
+   "quantityB": "$x^2+16$",
+   "common": "$x$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "$(x+4)^2=x^2+8x+16$, so A minus B is $8x$. For $x>0$ A is larger, for $x<0$ B is larger, and for $x=0$ they are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-06",
+  "lessonId": "q2-01-expressions",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "If $x^2-y^2=40$ and $x-y=5$, what is the value of $x+y$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  },
+  "explanation": "Use $x^2-y^2=(x-y)(x+y)$: $40=5(x+y)$, so $x+y=8$.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-07",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "For all $x\\ne3$, which of the following is equal to $\\dfrac{x^2-9}{x^2-6x+9}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{x-3}{x+3}$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{x+3}{x-3}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{x}{x-6}$"
+    },
+    {
+     "id": "E",
+     "text": "$x+3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Factor: numerator $(x-3)(x+3)$, denominator $(x-3)^2$. Cancel one factor $x-3$ to get $\\dfrac{x+3}{x-3}$.",
+  "choiceExplanations": {
+   "A": "Numerator and denominator are swapped.",
+   "B": "This treats the denominator as $x^2-9$, ignoring the $-6x$.",
+   "D": "This cancels the $-9$ against the $+9$, which are terms, not factors.",
+   "E": "The denominator is $(x-3)^2$, so one factor $x-3$ remains below."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-08",
+  "lessonId": "q2-01-expressions",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$x^2+y^2$",
+   "quantityB": "$30$",
+   "common": "$x+y=7$ and $xy=10$"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "$(x+y)^2=x^2+2xy+y^2$, so $x^2+y^2=49-2(10)=29$. That is less than 30.",
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-09",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Which of the following are equal to $x^2-4y^2$? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x-2y)(x+2y)$"
+    },
+    {
+     "id": "B",
+     "text": "$(x-4y)(x+y)$"
+    },
+    {
+     "id": "C",
+     "text": "$(x-2y)^2$"
+    },
+    {
+     "id": "D",
+     "text": "$x^2-(2y)^2$"
+    },
+    {
+     "id": "E",
+     "text": "$(2y-x)(-x-2y)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  },
+  "explanation": "$x^2-4y^2=x^2-(2y)^2=(x-2y)(x+2y)$. In E, $(2y-x)(-x-2y)=-2xy-4y^2+x^2+2xy=x^2-4y^2$ as well.",
+  "choiceExplanations": {
+   "B": "Expands to $x^2-3xy-4y^2$.",
+   "C": "Expands to $x^2-4xy+4y^2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-10",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "If $x+\\dfrac1x=3$, what is the value of $x^2+\\dfrac1{x^2}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3$"
+    },
+    {
+     "id": "B",
+     "text": "$5$"
+    },
+    {
+     "id": "C",
+     "text": "$7$"
+    },
+    {
+     "id": "D",
+     "text": "$9$"
+    },
+    {
+     "id": "E",
+     "text": "$11$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Square both sides: $x^2+2\\cdot x\\cdot\\dfrac1x+\\dfrac1{x^2}=9$, so $x^2+\\dfrac1{x^2}+2=9$ and the answer is $7$.",
+  "choiceExplanations": {
+   "A": "This just repeats $x+\\frac1x$.",
+   "B": "Subtracting 4 instead of 2.",
+   "D": "The cross term $2$ was forgotten.",
+   "E": "The cross term was added instead of subtracted."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-11",
+  "lessonId": "q2-01-expressions",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "If $a+b=8$ and $a^2+b^2=40$, what is the value of $a^3+b^3$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$128$"
+    },
+    {
+     "id": "B",
+     "text": "$224$"
+    },
+    {
+     "id": "C",
+     "text": "$320$"
+    },
+    {
+     "id": "D",
+     "text": "$416$"
+    },
+    {
+     "id": "E",
+     "text": "$512$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "From $(a+b)^2=a^2+2ab+b^2$: $64=40+2ab$, so $ab=12$. Then $a^3+b^3=(a+b)^3-3ab(a+b)=512-3(12)(8)=224$. (Check: $a,b=2,6$ gives $8+216$.)",
+  "choiceExplanations": {
+   "A": "This uses $ab=24$ (the $2ab$ was not halved).",
+   "C": "This treats $a^3+b^3$ as $(a+b)(a^2+b^2)$, which omits $-ab$.",
+   "D": "The factor 3 was dropped: $512-96$.",
+   "E": "This is $(a+b)^3$ with the cross terms ignored."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-01-expressions-12",
+  "lessonId": "q2-01-expressions",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "How many ordered pairs of positive integers $(m,n)$ satisfy $m^2-n^2=45$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "$(m-n)(m+n)=45$ with $m-n<m+n$ and both positive. Factor pairs of 45: $1\\cdot45$, $3\\cdot15$, $5\\cdot9$. Each gives integers: $(23,22)$, $(9,6)$, $(7,2)$. So there are $3$.",
+  "estSeconds": 120,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

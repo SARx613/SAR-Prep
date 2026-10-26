@@ -1,0 +1,204 @@
+{
+ "id": "v2-02-same-meaning",
+ "status": "draft",
+ "why": "The most common way to lose a Sentence Equivalence item is to pick the two choices that look like synonyms of each other.",
+ "rule": "ETS warns of two traps:\n\n1. Two choices can mean the same thing in a dictionary and still **not fit the sentence**.\n2. The correct pair may **not be exact synonyms**; all that matters is that the two **completed sentences** mean the same.\n\nSo never compare the words with each other. Put each choice into the sentence alone and ask: does it work here, in this logic, direction and tone? Then confirm that the two surviving sentences say the same thing.",
+ "examples": [
+  {
+   "prompt": "Although the lecture covered a fascinating subject, the speaker's ______ delivery made it hard to stay awake. Choices: lively, animated, monotonous, droning, sincere, hurried.",
+   "steps": [
+    "*Although* signals a contrast with \"fascinating\"; \"hard to stay awake\" says the delivery was dull.",
+    "*Lively* and *animated* are the obvious synonym pair, but each makes the sentence illogical: an energetic delivery would not put anyone to sleep.",
+    "*Monotonous* and *droning* each fit and give sentences that say the delivery was dull.",
+    "*Sincere* and *hurried* do not explain sleepiness."
+   ],
+   "answer": "monotonous and droning"
+  },
+  {
+   "prompt": "The speech was so ______ that half the audience dozed off. Choices: soporific, tedious, riveting, compact, urgent, spirited.",
+   "steps": [
+    "\"Dozed off\" means the speech was boring or sleep-inducing.",
+    "*Soporific* (causing sleep) and *tedious* (boring) are not exact synonyms.",
+    "Both sentences say the speech put listeners to sleep, so the sentences mean the same; the pair is correct."
+   ],
+   "answer": "soporific and tedious"
+  }
+ ],
+ "trap": "A synonym pair among the choices is bait. First test whether each word fits; only then compare the two completed sentences.",
+ "checks": [
+  {
+   "id": "v2-02-same-meaning-c1",
+   "lessonId": "v2-02-same-meaning",
+   "type": "SE",
+   "difficulty": 1,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "The critic's review was so {{1}} that the director vowed never to read her work again.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "playful"
+     },
+     {
+      "id": "B",
+      "text": "tepid"
+     },
+     {
+      "id": "C",
+      "text": "withering"
+     },
+     {
+      "id": "D",
+      "text": "sympathetic"
+     },
+     {
+      "id": "E",
+      "text": "scathing"
+     },
+     {
+      "id": "F",
+      "text": "glowing"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E",
+     "C"
+    ]
+   },
+   "explanation": "**Clue:** a director who vows never to read her again was stung by harsh criticism. *Scathing* and *withering* both mean harshly critical.",
+   "choiceExplanations": {
+    "F": "Praise would not provoke the vow.",
+    "B": "Means lukewarm; it is too mild to explain such a reaction.",
+    "A": "Does not explain an angry reaction.",
+    "D": "A sympathetic review would not offend."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v2-02-same-meaning-c2",
+   "lessonId": "v2-02-same-meaning",
+   "type": "SE",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "Although the proposal was widely {{1}}, the board approved it unanimously.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "anticipated"
+     },
+     {
+      "id": "B",
+      "text": "delayed"
+     },
+     {
+      "id": "C",
+      "text": "revised"
+     },
+     {
+      "id": "D",
+      "text": "criticized"
+     },
+     {
+      "id": "E",
+      "text": "denounced"
+     },
+     {
+      "id": "F",
+      "text": "praised"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D",
+     "E"
+    ]
+   },
+   "explanation": "**Signal:** *Although* contrasts with unanimous approval, so the proposal was attacked. *Criticized* and *denounced* differ in strength, but both sentences say the proposal faced opposition.",
+   "choiceExplanations": {
+    "F": "Approval after praise is not a contrast, so *although* would be pointless.",
+    "A": "Does not contrast with approval.",
+    "C": "Neutral; no contrast with approval.",
+    "B": "Neutral; no contrast with approval."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v2-02-same-meaning-c3",
+   "lessonId": "v2-02-same-meaning",
+   "type": "SE",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "content": {
+    "text": "The mayor's {{1}} tone toward the protesters, polite but never conceding a point, frustrated those who wanted real change.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "bellicose"
+     },
+     {
+      "id": "B",
+      "text": "conciliatory"
+     },
+     {
+      "id": "C",
+      "text": "disdainful"
+     },
+     {
+      "id": "D",
+      "text": "impassioned"
+     },
+     {
+      "id": "E",
+      "text": "placating"
+     },
+     {
+      "id": "F",
+      "text": "jocular"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   },
+   "explanation": "**Clue:** \"polite but never conceding a point\" is a soothing manner that gives nothing. *Conciliatory* and *placating* both mean aimed at calming. *Disdainful* is polite's opposite.",
+   "choiceExplanations": {
+    "A": "Means eager to fight, not polite.",
+    "F": "Means joking, which does not fit a politely guarded tone.",
+    "C": "Means scornful; \"polite\" rules it out.",
+    "D": "Means full of strong feeling, not polite and guarded."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

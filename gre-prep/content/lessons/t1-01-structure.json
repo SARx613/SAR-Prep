@@ -1,0 +1,155 @@
+{
+ "id": "t1-01-structure",
+ "status": "draft",
+ "why": "Knowing the length and order of each section lets you set a per-question pace before test day.",
+ "rule": "The current test takes about 1 hour 58 minutes and has five sections.\n\n- **Analytical Writing**: one Analyze an Issue task, 30 minutes. Always first.\n- **Verbal Reasoning**: section 1 has 12 questions in 18 minutes, section 2 has 15 in 23.\n- **Quantitative Reasoning**: section 1 has 12 questions in 21 minutes, section 2 has 15 in 26.\n\nVerbal and Quantitative sections can appear in any order after Writing. Before September 22, 2023 the test was longer (about 3 hours 45 minutes, 20 questions per section); do not use old figures.",
+ "examples": [
+  {
+   "prompt": "What is the total allotted time?",
+   "steps": [
+    "$30+18+23+21+26=118$ minutes."
+   ],
+   "answer": "118 minutes, about 1 hour 58 minutes"
+  },
+  {
+   "prompt": "About how long can you spend on each question of the second Quantitative section (15 questions, 26 minutes)?",
+   "steps": [
+    "$26\\times60=1560$ seconds.",
+    "$1560\\div15=104$ seconds."
+   ],
+   "answer": "About 104 seconds (1 minute 44 seconds)"
+  }
+ ],
+ "trap": "Using the pre-September 2023 format (two writing tasks, 20 questions per section) or assuming Quant always follows Verbal. Only Writing's position is fixed.",
+ "checks": [
+  {
+   "id": "t1-01-structure-c1",
+   "lessonId": "t1-01-structure",
+   "type": "PS",
+   "difficulty": 1,
+   "stem": "How many questions are in the first Verbal Reasoning section?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "10"
+     },
+     {
+      "id": "B",
+      "text": "12"
+     },
+     {
+      "id": "C",
+      "text": "15"
+     },
+     {
+      "id": "D",
+      "text": "18"
+     },
+     {
+      "id": "E",
+      "text": "20"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "The first Verbal section has 12 questions in 18 minutes.",
+   "choiceExplanations": {
+    "A": "Not a section size.",
+    "C": "That is the second Verbal section.",
+    "D": "That is the first section's time in minutes.",
+    "E": "That was the earlier format."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "t1-01-structure-c2",
+   "lessonId": "t1-01-structure",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "How many minutes in total are allotted to the two Quantitative sections?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 47
+   },
+   "explanation": "$21+26=47$.",
+   "estSeconds": 45,
+   "skills": [
+    "test-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "t1-01-structure-c3",
+   "lessonId": "t1-01-structure",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "A test-taker finishes Analytical Writing and sees a Verbal section next. Which statement is correct?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "This is impossible; Quant must follow Writing."
+     },
+     {
+      "id": "B",
+      "text": "This is possible; Verbal and Quant sections may appear in any order after Writing."
+     },
+     {
+      "id": "C",
+      "text": "This is impossible; Writing is always last."
+     },
+     {
+      "id": "D",
+      "text": "This is a mistake in the test."
+     },
+     {
+      "id": "E",
+      "text": "Only an unscored section can follow Writing."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "Only Writing's position is fixed.",
+   "choiceExplanations": {
+    "A": "Verbal or Quant may follow.",
+    "C": "Writing is always first.",
+    "D": "Any order after Writing is allowed.",
+    "E": "Scored sections can follow it."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

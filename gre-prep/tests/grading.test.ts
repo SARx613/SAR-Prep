@@ -38,6 +38,19 @@ describe('grade — no partial credit', () => {
     expect(grade(ne, { kind: 'numeric', value: null }).incomplete).toBe(true);
   });
 
+  it('DI numeric entry is graded like NE', () => {
+    const di = q({ type: 'DI', section: 'quant', content: { format: 'numeric_entry', numeric: { format: 'integer' } }, answer: { value: 1800 } });
+    expect(grade(di, { kind: 'numeric', value: 1800 }).isCorrect).toBe(true);
+    expect(grade(di, { kind: 'numeric', value: 18 }).isCorrect).toBe(false);
+    expect(grade(di, { kind: 'numeric', value: null }).incomplete).toBe(true);
+  });
+
+  it('fraction NE accepts any equivalent fraction', () => {
+    const fr = q({ type: 'NE', section: 'quant', content: { format: 'fraction' }, answer: { value: 0.5, fraction: { numerator: 1, denominator: 2 } } });
+    expect(grade(fr, { kind: 'numeric', value: 2 / 4, numerator: 2, denominator: 4 }).isCorrect).toBe(true);
+    expect(grade(fr, { kind: 'numeric', value: 1 / 3 }).isCorrect).toBe(false);
+  });
+
   const all = q({ type: 'PS', section: 'quant', content: { format: 'select_all', choices: [] }, answer: { choices: ['A', 'C'] } });
   it('select_all is exact-match', () => {
     expect(grade(all, { kind: 'choices', ids: ['C', 'A'] }).isCorrect).toBe(true);

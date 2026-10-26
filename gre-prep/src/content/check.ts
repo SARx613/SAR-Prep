@@ -5,6 +5,7 @@
 
 import { RULE_WORD_BUDGET, wordCount, type ContentQuestionInput } from './schema';
 import type { LoadIssue, RawContent } from './load';
+import { splitSentences } from '@/lib/sentences';
 
 export interface CheckResult {
   errors: LoadIssue[];
@@ -21,6 +22,17 @@ export interface CheckResult {
 }
 
 const mathBalanced = (s: string) => (s.match(/(?<!\\)\$/g)?.length ?? 0) % 2 === 0;
+
+/** Dollar amounts must be written \$5; an unescaped one swallows the text up to the next $ as maths. */
+export function looksLikeCurrencyInMath(s: string): boolean {
+  for (const m of s.matchAll(/(?<!\\)\$([^$]*)(?<!\\)\$/g)) {
+    const inner = m[1];
+    if (/^\s|\s$/.test(inner)) return true;
+    const stripped = inner.replace(/\\[a-zA-Z]+(\{[^}]*\})?/g, ' ');
+    if (/[A-Za-z]{3,}\s+[A-Za-z]{3,}\s+[A-Za-z]{3,}/.test(stripped)) return true;
+  }
+  return false;
+}
 
 export function checkQuestion(q: ContentQuestionInput, passages: RawContent['passages']): string[] {
   const e: string[] = [];
@@ -70,8 +82,9 @@ export function checkQuestion(q: ContentQuestionInput, passages: RawContent['pas
         if (!('sentence' in q.answer)) e.push('select_in_passage needs answer.sentence');
         else if (p) {
           const paras = c.paragraphIndex !== undefined ? [p.paragraphs[c.paragraphIndex] ?? ''] : p.paragraphs;
-          if (!paras.some((para) => para.includes((q.answer as { sentence: string }).sentence)))
-            e.push('answer sentence not found verbatim in the (selected) passage paragraph');
+          const target = (q.answer as { sentence: string }).sentence;
+          if (!paras.some((para) => splitSentences(para).includes(target)))
+            e.push('answer must equal exactly one sentence of the (selected) paragraph as the player splits it (see lib/sentences.ts)');
         }
       } else {
         const cs = c.choices ?? [];
@@ -134,6 +147,13 @@ export function checkQuestion(q: ContentQuestionInput, passages: RawContent['pas
 
   for (const cs of choiceLists) for (const c of cs) richFields.push(c.text);
   if (richFields.some((s) => !mathBalanced(s))) e.push('unbalanced $ in rich text');
+  if (richFields.some(looksLikeCurrencyInMath)) e.push('unescaped currency $ (write \\$5 in the text → "\\\\$5" in JSON) or math with prose inside');
+
+  if (q.figure?.kind === 'svg') {
+    const svg = (q.figure as { data: { svg: string } }).data.svg;
+    if (/<script|<foreignObject|<image|<a[\s>]|\son\w+\s*=|javascript:|href\s*=/i.test(svg)) e.push('figure svg uses a forbidden element or attribute');
+    if (!/viewBox=/.test(svg)) e.push('figure svg needs a viewBox');
+  }
 
   // choiceExplanations must refer to real choice ids.
   if (q.choiceExplanations) {

@@ -1,0 +1,114 @@
+{
+ "id": "w1-05-timing-editor",
+ "status": "draft",
+ "why": "You get one 30-minute Issue task in a basic ETS word processor with no spelling or grammar help, so your time plan and your editing habits must fit those conditions.",
+ "rule": "- The Issue task lasts **30 minutes**; reading, planning and writing all come out of that time.\n- You type in a basic ETS word processor that can **insert text, delete text, cut-and-paste and undo the previous action**. There is **no spellchecker or grammar checker**.\n- Budget three phases: consider the issue and instructions, plan, compose. Then **save a few minutes at the end** to check for obvious errors.\n- An occasional error will not affect your score; serious and persistent errors lower it.\n- Practise untimed or timed as you prefer, but finish with full 30-minute responses.",
+ "examples": [
+  {
+   "prompt": "Sketch a 30-minute budget that follows ETS's advice. (The split is illustrative; ETS gives no fixed numbers.)",
+   "steps": [
+    "Minutes 0 to 2: read the claim and instructions and identify the instruction set.",
+    "Minutes 2 to 6: plan a position, two or three reasons with examples, and the strongest objection.",
+    "Minutes 6 to 26: compose, following your notes.",
+    "Minutes 26 to 30: reread for obvious errors and fix them with the editor's insert and delete."
+   ],
+   "answer": "All three phases plus a few minutes at the end for checking."
+  },
+  {
+   "prompt": "With ten minutes left, you want to move a sentence from paragraph 3 up to paragraph 1, and you are unsure of a word's spelling. What can the editor do for you?",
+   "steps": [
+    "Moving a sentence is a cut-and-paste job; the editor supports it.",
+    "If you paste in the wrong spot, undo reverses the previous action.",
+    "There is no spellchecker, so the spelling doubt is yours to settle by rereading and, if needed, choosing a word you can spell."
+   ],
+   "answer": "Use cut-and-paste (and undo if needed); spelling must be checked by you."
+  }
+ ],
+ "trap": "Planning not at all, or writing until time runs out with nothing left for a check. Also assuming the editor will catch your errors: it has no spellchecker or grammar checker, and it lists only insert, delete, cut-and-paste and undo of the previous action.",
+ "checks": [
+  {
+   "id": "w1-05-timing-editor-c1",
+   "lessonId": "w1-05-timing-editor",
+   "type": "PS",
+   "difficulty": 1,
+   "stem": "Which tool is NOT available in the ETS word processor used for the Analytical Writing measure?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     { "id": "A", "text": "Cut-and-paste" },
+     { "id": "B", "text": "Undo the previous action" },
+     { "id": "C", "text": "Spellchecker" },
+     { "id": "D", "text": "Insert text" },
+     { "id": "E", "text": "Delete text" }
+    ]
+   },
+   "answer": { "choices": ["C"] },
+   "explanation": "ETS lists insert, delete, cut-and-paste and undo of the previous action, and says a spellchecker and grammar checker are not available.",
+   "choiceExplanations": {
+    "A": "Cut-and-paste is listed.",
+    "B": "Undoing the previous action is listed.",
+    "D": "Inserting text is listed.",
+    "E": "Deleting text is listed."
+   },
+   "estSeconds": 45,
+   "skills": ["issue-timing"],
+   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  },
+  {
+   "id": "w1-05-timing-editor-c2",
+   "lessonId": "w1-05-timing-editor",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "Why does ETS advise saving a few minutes at the end of the timed task?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     { "id": "A", "text": "To run the spellchecker" },
+     { "id": "B", "text": "To check for obvious errors" },
+     { "id": "C", "text": "To start a second essay" },
+     { "id": "D", "text": "To rewrite the essay from the beginning" },
+     { "id": "E", "text": "To wait for rater comments" }
+    ]
+   },
+   "answer": { "choices": ["B"] },
+   "explanation": "ETS says to save a few minutes at the end to check for obvious errors.",
+   "choiceExplanations": {
+    "A": "No spellchecker is available.",
+    "C": "There is only one task.",
+    "D": "A few minutes allow a check, not a rewrite.",
+    "E": "Raters do not comment during the test."
+   },
+   "estSeconds": 45,
+   "skills": ["issue-timing"],
+   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  },
+  {
+   "id": "w1-05-timing-editor-c3",
+   "lessonId": "w1-05-timing-editor",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "Which budget best follows ETS's advice for the 30 minutes? (The numbers are illustrative.)",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     { "id": "A", "text": "0 minutes planning, 30 minutes writing" },
+     { "id": "B", "text": "2 minutes reading, 5 minutes planning, 19 minutes writing, 4 minutes checking" },
+     { "id": "C", "text": "25 minutes planning, 5 minutes writing" },
+     { "id": "D", "text": "30 minutes planning, 0 minutes writing" },
+     { "id": "E", "text": "1 minute reading, 29 minutes writing, stopping when time ends" }
+    ]
+   },
+   "answer": { "choices": ["B"] },
+   "explanation": "B allows time to consider the issue and instructions, to plan, to compose, and to check for obvious errors at the end.",
+   "choiceExplanations": {
+    "A": "Without planning, the response is likely to drift from the instructions.",
+    "C": "Too little time remains to compose a developed response.",
+    "D": "An essay must be written; planning alone earns no response.",
+    "E": "It leaves no time to check for obvious errors."
+   },
+   "estSeconds": 60,
+   "skills": ["issue-timing"],
+   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  }
+ ]
+}

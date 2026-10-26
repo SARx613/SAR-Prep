@@ -1,0 +1,98 @@
+{
+ "id": "v3-06-structure",
+ "status": "draft",
+ "why": "Structure questions ask what a sentence or paragraph does and how ideas relate, which is also how you follow an argument in the first place.",
+ "rule": "Ask what each part is doing: introducing a view, supporting it, contrasting it, qualifying it, giving an example, applying it, or concluding. Transition words tell you:\n\n- *but, yet, however, still*: contrast;\n- *although, granted*: concession, with the author's point coming next;\n- *for instance*: example;\n- *therefore, thus*: consequence;\n- *moreover, in addition*: extension;\n- *in other words*: restatement.\n\nAnswer function questions with a verb (*concedes*, *illustrates*, *qualifies*), not with a paraphrase of the content.",
+ "examples": [
+  {
+   "prompt": "Passage: \"Early reviewers of the film praised its cinematography. Its story, however, drew complaints: viewers found the plot muddled. Still, its later popularity suggests that the images outweighed the confusion for most audiences.\"\n\nWhat is the function of the second sentence?",
+   "steps": [
+    "The first sentence reports praise.",
+    "'However' flips to a criticism, so sentence 2 contrasts with the praise.",
+    "'Still' then answers that criticism with the author's conclusion."
+   ],
+   "answer": "It introduces a criticism that contrasts with the praise in the first sentence."
+  }
+ ],
+ "trap": "Describing what a sentence says instead of what it does, or taking a concession ('Granted ...', 'Although ...') for the author's main claim.",
+ "checks": [
+  {
+   "id": "v3-06-structure-c1",
+   "lessonId": "v3-06-structure",
+   "type": "RC",
+   "difficulty": 1,
+   "stem": "The word 'however' in the second sentence signals",
+   "passageId": "v3-c-06",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "an example of the early critics' view"
+     },
+     {
+      "id": "B",
+      "text": "a conclusion drawn from the early critics' view"
+     },
+     {
+      "id": "C",
+      "text": "a restatement of the first sentence"
+     },
+     {
+      "id": "D",
+      "text": "an objection to the later readers"
+     },
+     {
+      "id": "E",
+      "text": "a contrast between early and later readings of the novel"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E"
+    ]
+   },
+   "explanation": "'However' turns from the early dismissal to the later discovery of a pattern.",
+   "choiceExplanations": {
+    "A": "'However' introduces the opposite view, not an example of the first.",
+    "B": "The later readers disagree with the early critics, so nothing is concluded from their view.",
+    "C": "The sentence reverses, rather than repeats, the first.",
+    "D": "The later readers are the ones the author describes approvingly."
+   },
+   "estSeconds": 65,
+   "skills": [
+    "rc-transitions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v3-06-structure-c2",
+   "lessonId": "v3-06-structure",
+   "type": "RC",
+   "difficulty": 1,
+   "stem": "Select the sentence that describes the pattern later readers detected.",
+   "passageId": "v3-c-06",
+   "content": {
+    "format": "select_in_passage"
+   },
+   "answer": {
+    "sentence": "Later readers, however, have found a pattern in its apparent disorder: each chapter echoes, from a different angle, an event in the first."
+   },
+   "explanation": "Only the second sentence says what the pattern is: each chapter echoes an event in the first.",
+   "estSeconds": 53,
+   "skills": [
+    "rc-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

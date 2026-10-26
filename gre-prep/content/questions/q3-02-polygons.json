@@ -1,0 +1,408 @@
+[
+ {
+  "id": "q3-02-polygons-01",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is the sum, in degrees, of the interior angles of a heptagon (a polygon with 7 sides)?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 900
+  },
+  "explanation": "$(7-2)\\cdot180=5\\cdot180=900$.",
+  "estSeconds": 45,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-02",
+  "lessonId": "q3-02-polygons",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "What is the measure of each interior angle of a regular pentagon?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$72^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$108^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$120^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$540^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The angles sum to $(5-2)\\cdot180=540$, so each of the five equal angles is $540\\div5=108^\\circ$.",
+  "choiceExplanations": {
+   "A": "$360\\div5=72$ is not an interior angle.",
+   "B": "A pentagon is not a square; its angles add to $540^\\circ$, not $360^\\circ$.",
+   "D": "That is the angle of a regular hexagon.",
+   "E": "That is the sum of all five angles."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-03",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "The sum of the interior angles of a polygon is $1{,}800^\\circ$. How many sides does the polygon have?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  },
+  "explanation": "$(n-2)\\cdot180=1800$ gives $n-2=10$, so $n=12$.",
+  "estSeconds": 60,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-04",
+  "lessonId": "q3-02-polygons",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The sum of the interior angles of a hexagon",
+   "quantityB": "The sum of the interior angles of two quadrilaterals"
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "Hexagon: $(6-2)\\cdot180=720$. Two quadrilaterals: $2\\cdot360=720$. Equal.",
+  "estSeconds": 60,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-05",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "In pentagon $ABCDE$ shown, what is the value of $x$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 110
+  },
+  "explanation": "The five angles sum to $(5-2)\\cdot180=540$. The four given angles total $100+115+125+90=430$, so $x=540-430=110$.",
+  "estSeconds": 75,
+  "skills": [
+   "polygon-angles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"87,150 154.5,150 185.9,82.7 155.5,30 74.1,77\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"99.4\" y=\"135.4\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">100°</text><text x=\"81.6\" y=\"160.2\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"148\" y=\"135.4\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">115°</text><text x=\"157.3\" y=\"160.2\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"170.6\" y=\"86.9\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">125°</text><text x=\"192.5\" y=\"84.8\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"148.8\" y=\"49\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">90°</text><text x=\"158.4\" y=\"25.8\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"90.1\" y=\"82.9\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">x°</text><text x=\"67.2\" y=\"78.5\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text></svg>",
+    "alt": "A convex pentagon ABCDE. The interior angles at A, B, C and D are labeled 100, 115, 125 and 90 degrees; the interior angle at E is labeled x degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-06",
+  "lessonId": "q3-02-polygons",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "The interior angles of a pentagon measure $x^\\circ$, $(x+10)^\\circ$, $(x+20)^\\circ$, $(x+30)^\\circ$ and $(x+40)^\\circ$. What is the measure of the largest angle?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$88^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$108^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$118^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$128^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$164^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The sum is $5x+100=540$, so $x=88$. The largest angle is $x+40=128^\\circ$.",
+  "choiceExplanations": {
+   "A": "That is $x$, the smallest angle.",
+   "B": "That is the average angle, not the largest.",
+   "C": "That is $x+30$, the fourth angle.",
+   "E": "That comes from using $720$ (a hexagon) instead of $540$ for the sum."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-07",
+  "lessonId": "q3-02-polygons",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The measure of each interior angle of a regular 12-sided polygon",
+   "quantityB": "The average of the interior angle measure of a regular hexagon and the interior angle measure of a regular decagon"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "Regular 12-gon: $(10\\cdot180)/12=150$. Hexagon: $120$; decagon: $(8\\cdot180)/10=144$; average $=132$. $150>132$.",
+  "estSeconds": 100,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-08",
+  "lessonId": "q3-02-polygons",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following could be the measure of an interior angle of a regular polygon? Indicate all such measures.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$80^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$100^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$120^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$130^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  },
+  "explanation": "If each angle is $a^\\circ$ then $(n-2)\\cdot180=an$, so $n=\\dfrac{360}{180-a}$. For $a=90$, $n=4$ (a square); for $a=120$, $n=6$ (a regular hexagon). For $80$, $100$ and $130$ the number of sides is $3.6$, $4.5$ and $7.2$.",
+  "choiceExplanations": {
+   "A": "Setting $(n-2)\\cdot180/n=80$ gives $n=3.6$, not a whole number.",
+   "C": "$(n-2)\\cdot180/n=100$ gives $n=4.5$, not a whole number.",
+   "E": "$(n-2)\\cdot180/n=130$ gives $n=7.2$, not a whole number."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-09",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "Each interior angle of a regular polygon measures $156^\\circ$ and the polygon has perimeter 90. What is the length of one side?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  },
+  "explanation": "$(n-2)\\cdot180=156n$ gives $24n=360$, so $n=15$. Then each side is $90\\div15=6$.",
+  "estSeconds": 100,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-10",
+  "lessonId": "q3-02-polygons",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "The sum of the interior angles of polygon $P$ exceeds the sum of the interior angles of a pentagon by $900^\\circ$. How many sides does $P$ have?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "7"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "10"
+    },
+    {
+     "id": "D",
+     "text": "11"
+    },
+    {
+     "id": "E",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The pentagon's sum is $540$, so $P$'s sum is $1440$. $(n-2)\\cdot180=1440$ gives $n-2=8$, $n=10$. (Equivalently, $900\\div180=5$ extra triangles means 5 extra sides.)",
+  "choiceExplanations": {
+   "A": "This treats $900$ as the whole sum: $(n-2)\\cdot180=900$ gives $n=7$.",
+   "B": "An octagon's sum is $1080$, only $540$ more than a pentagon.",
+   "D": "An 11-gon's sum is $1620$, which is $1080$ more than the pentagon's.",
+   "E": "A 12-gon's sum is $1800$, which is $1260$ more than the pentagon's."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-11",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A regular polygon $A$ has $n$ sides and a regular polygon $B$ has $2n$ sides. Each interior angle of $B$ is $20^\\circ$ larger than each interior angle of $A$. What is the value of $n$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  },
+  "explanation": "Each angle of an $n$-gon is $180-\\dfrac{360}{n}$. For $2n$ sides it is $180-\\dfrac{180}{n}$. The difference is $\\dfrac{360}{n}-\\dfrac{180}{n}=\\dfrac{180}{n}=20$, so $n=9$.",
+  "estSeconds": 130,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q3-02-polygons-12",
+  "lessonId": "q3-02-polygons",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "Polygon $X$ has $n$ sides and polygon $Y$ has $2n$ sides. The sum of the interior angles of $Y$ exceeds the sum for $X$ by $1{,}260^\\circ$. What is the value of $n$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  },
+  "explanation": "$Y$: $(2n-2)\\cdot180$; $X$: $(n-2)\\cdot180$. The difference is $n\\cdot180=1260$, so $n=7$.",
+  "estSeconds": 100,
+  "skills": [
+   "polygon-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

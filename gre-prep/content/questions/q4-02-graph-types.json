@@ -1,0 +1,813 @@
+[
+ {
+  "id": "q4-02-graph-types-01",
+  "lessonId": "q4-02-graph-types",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A sector of a circle graph represents 20 percent of the total. What is the measure of its central angle?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$20^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$36^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$72^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$120^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Central angle $= 0.20 \\times 360^\\circ = 72^\\circ$.",
+  "choiceExplanations": {
+   "A": "20 is the percent, not the angle in degrees.",
+   "B": "$36^\\circ$ is 10% of the circle.",
+   "D": "$90^\\circ$ is 25% of the circle.",
+   "E": "$120^\\circ$ is one third of the circle."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "circle-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-02",
+  "lessonId": "q4-02-graph-types",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "A circle graph shows how \\$800 is spent. One sector represents 15 percent of the total. How many dollars does that sector represent?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 120
+  },
+  "explanation": "$0.15 \\times 800 = 120$.",
+  "estSeconds": 45,
+  "skills": [
+   "circle-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-03",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "How many of the 50 students studied fewer than 6 hours per week?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$13$"
+    },
+    {
+     "id": "B",
+     "text": "$15$"
+    },
+    {
+     "id": "C",
+     "text": "$28$"
+    },
+    {
+     "id": "D",
+     "text": "$40$"
+    },
+    {
+     "id": "E",
+     "text": "$47$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Intervals below 6 hours: $4 + 9 + 15 = 28$ students.",
+  "choiceExplanations": {
+   "A": "13 counts only the students below 4 hours.",
+   "B": "15 is the single bar for 4 to 6 hours.",
+   "D": "40 counts students below 8 hours.",
+   "E": "47 counts students below 10 hours."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "histograms"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Weekly study time of 50 students",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"50\" y=\"18\" font-size=\"12\">Number of students</text><line x1=\"50\" y1=\"215\" x2=\"500\" y2=\"215\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"215\" x2=\"50\" y2=\"30\" stroke=\"currentColor\"/><rect x=\"50\" y=\"175\" width=\"75\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"87.5\" y=\"169\" text-anchor=\"middle\">4</text><rect x=\"125\" y=\"125\" width=\"75\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"162.5\" y=\"119\" text-anchor=\"middle\">9</text><rect x=\"200\" y=\"65\" width=\"75\" height=\"150\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"237.5\" y=\"59\" text-anchor=\"middle\">15</text><rect x=\"275\" y=\"95\" width=\"75\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"312.5\" y=\"89\" text-anchor=\"middle\">12</text><rect x=\"350\" y=\"145\" width=\"75\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"387.5\" y=\"139\" text-anchor=\"middle\">7</text><rect x=\"425\" y=\"185\" width=\"75\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"462.5\" y=\"179\" text-anchor=\"middle\">3</text><text x=\"50\" y=\"231\" text-anchor=\"middle\">0</text><text x=\"125\" y=\"231\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"231\" text-anchor=\"middle\">4</text><text x=\"275\" y=\"231\" text-anchor=\"middle\">6</text><text x=\"350\" y=\"231\" text-anchor=\"middle\">8</text><text x=\"425\" y=\"231\" text-anchor=\"middle\">10</text><text x=\"500\" y=\"231\" text-anchor=\"middle\">12</text><text x=\"275\" y=\"255\" text-anchor=\"middle\">Hours studied per week</text></svg>",
+    "alt": "Histogram of weekly study hours for 50 students. Intervals of width 2 hours from 0 to 12 have 4, 9, 15, 12, 7 and 3 students respectively."
+   },
+   "notes": "Each interval includes its left endpoint but not its right endpoint."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-04",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "Approximately what is the ratio of the amount budgeted for Education to the amount budgeted for Safety?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1 to 1"
+    },
+    {
+     "id": "B",
+     "text": "2 to 1"
+    },
+    {
+     "id": "C",
+     "text": "3 to 1"
+    },
+    {
+     "id": "D",
+     "text": "4 to 1"
+    },
+    {
+     "id": "E",
+     "text": "5 to 1"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Both amounts are percents of the same total, so the ratio is $35 : 12 \\approx 2.9 : 1$, about 3 to 1.",
+  "choiceExplanations": {
+   "A": "A ratio of 1 to 1 would need Education to equal Safety (12%).",
+   "B": "A ratio of 2 to 1 would need Education to be about 24%.",
+   "D": "A ratio of 4 to 1 would need Education to be about 48%.",
+   "E": "A ratio of 5 to 1 would need Education to be about 60%."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "City budget by category",
+   "data": {
+    "slices": [
+     {
+      "label": "Education",
+      "value": 35
+     },
+     {
+      "label": "Health",
+      "value": 25
+     },
+     {
+      "label": "Transport",
+      "value": 20
+     },
+     {
+      "label": "Safety",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ]
+   },
+   "notes": "Percent of the total budget. The total budget is 600 million dollars."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-05",
+  "lessonId": "q4-02-graph-types",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The central angle, in degrees, of a sector representing 35 percent of a circle graph",
+   "quantityB": "The central angle, in degrees, of a sector representing one third of a circle graph"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "A: $0.35 \\times 360 = 126$. B: $\\frac13 \\times 360 = 120$. Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "circle-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-06",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "According to the trend line, what is the predicted price, in thousands of dollars, of a car that is 6 years old?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 11.5
+  },
+  "explanation": "The slope of the line is $\\frac{5.5 - 20.5}{10 - 0} = -1.5$ thousand dollars per year. At age 6: $20.5 - 6(1.5) = 20.5 - 9 = 11.5$.",
+  "estSeconds": 90,
+  "skills": [
+   "scatterplots"
+  ],
+  "figure": {
+   "kind": "scatter",
+   "title": "Used car age and asking price",
+   "data": {
+    "points": [
+     [
+      1,
+      19.2
+     ],
+     [
+      2,
+      17.6
+     ],
+     [
+      3,
+      15.8
+     ],
+     [
+      4,
+      14.3
+     ],
+     [
+      5,
+      13
+     ],
+     [
+      6,
+      11.2
+     ],
+     [
+      7,
+      9.7
+     ],
+     [
+      8,
+      8.4
+     ],
+     [
+      9,
+      6.8
+     ],
+     [
+      10,
+      5.4
+     ]
+    ],
+    "xLabel": "Age (years)",
+    "yLabel": "Price (thousands of dollars)"
+   },
+   "notes": "The trend line passes through the points (0, 20.5) and (10, 5.5)."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-07",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "What percent of the 50 students studied at least 8 hours per week?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$14\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$20\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$44\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$56\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "At least 8 hours means the last two bars: $7 + 3 = 10$ students, and $\\frac{10}{50} = 20\\%$.",
+  "choiceExplanations": {
+   "A": "3 of 50 is 6%: that is only the last bar.",
+   "B": "7 of 50 is 14%: that is only the 8 to 10 bar.",
+   "D": "22 of 50 studied at least 6 hours: that is 44%.",
+   "E": "28 of 50 studied fewer than 6 hours: that is 56%."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "histograms"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Weekly study time of 50 students",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"50\" y=\"18\" font-size=\"12\">Number of students</text><line x1=\"50\" y1=\"215\" x2=\"500\" y2=\"215\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"215\" x2=\"50\" y2=\"30\" stroke=\"currentColor\"/><rect x=\"50\" y=\"175\" width=\"75\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"87.5\" y=\"169\" text-anchor=\"middle\">4</text><rect x=\"125\" y=\"125\" width=\"75\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"162.5\" y=\"119\" text-anchor=\"middle\">9</text><rect x=\"200\" y=\"65\" width=\"75\" height=\"150\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"237.5\" y=\"59\" text-anchor=\"middle\">15</text><rect x=\"275\" y=\"95\" width=\"75\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"312.5\" y=\"89\" text-anchor=\"middle\">12</text><rect x=\"350\" y=\"145\" width=\"75\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"387.5\" y=\"139\" text-anchor=\"middle\">7</text><rect x=\"425\" y=\"185\" width=\"75\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\"/><text x=\"462.5\" y=\"179\" text-anchor=\"middle\">3</text><text x=\"50\" y=\"231\" text-anchor=\"middle\">0</text><text x=\"125\" y=\"231\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"231\" text-anchor=\"middle\">4</text><text x=\"275\" y=\"231\" text-anchor=\"middle\">6</text><text x=\"350\" y=\"231\" text-anchor=\"middle\">8</text><text x=\"425\" y=\"231\" text-anchor=\"middle\">10</text><text x=\"500\" y=\"231\" text-anchor=\"middle\">12</text><text x=\"275\" y=\"255\" text-anchor=\"middle\">Hours studied per week</text></svg>",
+    "alt": "Histogram of weekly study hours for 50 students. Intervals of width 2 hours from 0 to 12 have 4, 9, 15, 12, 7 and 3 students respectively."
+   },
+   "notes": "Each interval includes its left endpoint but not its right endpoint."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-08",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "Between which two consecutive years was the increase in the number of visitors greatest?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2016 to 2017"
+    },
+    {
+     "id": "B",
+     "text": "2017 to 2018"
+    },
+    {
+     "id": "C",
+     "text": "2018 to 2019"
+    },
+    {
+     "id": "D",
+     "text": "2020 to 2021"
+    },
+    {
+     "id": "E",
+     "text": "2021 to 2022"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "The changes, in thousands: $+15$, $+15$, $-2$, $-58$, $+35$, $+45$. The greatest increase is from 2021 to 2022.",
+  "choiceExplanations": {
+   "A": "That increase was 15 thousand, less than 45.",
+   "B": "That increase was 15 thousand, less than 45.",
+   "C": "Visitors fell slightly in that interval.",
+   "D": "That increase was 35 thousand, less than 45."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "line-graphs"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Annual visitors to a park",
+   "data": {
+    "categories": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "series": [
+     {
+      "name": "Visitors",
+      "values": [
+       120,
+       135,
+       150,
+       148,
+       90,
+       125,
+       170
+      ]
+     }
+    ],
+    "yLabel": "Visitors (thousands)",
+    "xLabel": "Year"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-09",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 4,
+  "stem": "According to the trend line, for each additional year of age the price of a car is predicted to decrease by about",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$150"
+    },
+    {
+     "id": "B",
+     "text": "\\$1,500"
+    },
+    {
+     "id": "C",
+     "text": "\\$2,050"
+    },
+    {
+     "id": "D",
+     "text": "\\$5,500"
+    },
+    {
+     "id": "E",
+     "text": "\\$15,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The slope is $-1.5$ thousand dollars per year, so the predicted drop is about 1.5 thousand dollars, or \\$1,500, per year.",
+  "choiceExplanations": {
+   "A": "\\$150 is a tenth of the slope: the units are thousands of dollars.",
+   "C": "\\$2,050 comes from dividing the intercept 20.5 by 10, which is not the slope.",
+   "D": "\\$5,500 is the predicted price at age 10, not a yearly change.",
+   "E": "\\$15,000 is the total predicted drop over 10 years."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "scatterplots"
+  ],
+  "figure": {
+   "kind": "scatter",
+   "title": "Used car age and asking price",
+   "data": {
+    "points": [
+     [
+      1,
+      19.2
+     ],
+     [
+      2,
+      17.6
+     ],
+     [
+      3,
+      15.8
+     ],
+     [
+      4,
+      14.3
+     ],
+     [
+      5,
+      13
+     ],
+     [
+      6,
+      11.2
+     ],
+     [
+      7,
+      9.7
+     ],
+     [
+      8,
+      8.4
+     ],
+     [
+      9,
+      6.8
+     ],
+     [
+      10,
+      5.4
+     ]
+    ],
+    "xLabel": "Age (years)",
+    "yLabel": "Price (thousands of dollars)"
+   },
+   "notes": "The trend line passes through the points (0, 20.5) and (10, 5.5)."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-10",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 4,
+  "stem": "The amount budgeted for Transport this year is 25 percent greater than the amount budgeted for Transport last year. What was last year's Transport amount, in millions of dollars?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 96
+  },
+  "explanation": "This year's Transport amount is $0.20 \\times 600 = 120$ million. If last year's amount was $x$, then $1.25x = 120$, so $x = 96$.",
+  "estSeconds": 100,
+  "skills": [
+   "circle-graphs",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "City budget by category",
+   "data": {
+    "slices": [
+     {
+      "label": "Education",
+      "value": 35
+     },
+     {
+      "label": "Health",
+      "value": 25
+     },
+     {
+      "label": "Transport",
+      "value": 20
+     },
+     {
+      "label": "Safety",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ]
+   },
+   "notes": "Percent of the total budget. The total budget is 600 million dollars."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-11",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 5,
+  "stem": "Between which two consecutive years was the percent increase in the number of visitors greatest?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2016 to 2017"
+    },
+    {
+     "id": "B",
+     "text": "2017 to 2018"
+    },
+    {
+     "id": "C",
+     "text": "2018 to 2019"
+    },
+    {
+     "id": "D",
+     "text": "2020 to 2021"
+    },
+    {
+     "id": "E",
+     "text": "2021 to 2022"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Percent increase $=$ change $\\div$ earlier value. 2020 to 2021: $\\frac{35}{90} \\approx 38.9\\%$. 2021 to 2022: $\\frac{45}{125} = 36\\%$. The others are about 12.5%, 11.1% or negative.",
+  "choiceExplanations": {
+   "A": "That was only about a 12.5% increase.",
+   "B": "That was only about an 11.1% increase.",
+   "C": "Visitors fell slightly in that interval.",
+   "E": "This is the greatest rise in thousands (45), but it starts from a larger base, so the percent increase is 36%, below 38.9%."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "line-graphs",
+   "percent-change"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Annual visitors to a park",
+   "data": {
+    "categories": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "series": [
+     {
+      "name": "Visitors",
+      "values": [
+       120,
+       135,
+       150,
+       148,
+       90,
+       125,
+       170
+      ]
+     }
+    ],
+    "yLabel": "Visitors (thousands)",
+    "xLabel": "Year"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-02-graph-types-12",
+  "lessonId": "q4-02-graph-types",
+  "type": "DI",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the scatterplot and its trend line? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Every point on the scatterplot lies on the trend line."
+    },
+    {
+     "id": "B",
+     "text": "The trend line predicts a price of 14.5 thousand dollars for a 4-year-old car."
+    },
+    {
+     "id": "C",
+     "text": "According to the trend line, a car that is 2 years older is predicted to cost 3 thousand dollars less."
+    },
+    {
+     "id": "D",
+     "text": "Older cars tend to have higher prices."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  },
+  "explanation": "The line is $y = 20.5 - 1.5x$. At $x = 4$: $20.5 - 6 = 14.5$. Two more years change $y$ by $2(-1.5) = -3$. The points only lie near the line, and the trend is downward.",
+  "choiceExplanations": {
+   "A": "Points are close to the line but do not all lie on it.",
+   "D": "The trend is negative: older cars tend to cost less."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "scatterplots"
+  ],
+  "figure": {
+   "kind": "scatter",
+   "title": "Used car age and asking price",
+   "data": {
+    "points": [
+     [
+      1,
+      19.2
+     ],
+     [
+      2,
+      17.6
+     ],
+     [
+      3,
+      15.8
+     ],
+     [
+      4,
+      14.3
+     ],
+     [
+      5,
+      13
+     ],
+     [
+      6,
+      11.2
+     ],
+     [
+      7,
+      9.7
+     ],
+     [
+      8,
+      8.4
+     ],
+     [
+      9,
+      6.8
+     ],
+     [
+      10,
+      5.4
+     ]
+    ],
+    "xLabel": "Age (years)",
+    "yLabel": "Price (thousands of dollars)"
+   },
+   "notes": "The trend line passes through the points (0, 20.5) and (10, 5.5)."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

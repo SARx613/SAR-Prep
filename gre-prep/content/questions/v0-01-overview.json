@@ -1,0 +1,692 @@
+[
+ {
+  "id": "v0-01-overview-01",
+  "lessonId": "v0-01-overview",
+  "type": "TC",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "content": {
+   "text": "Because the museum's collection is so {{1}}, spanning five centuries and thirty countries, visitors can spend days exploring it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "tiny"
+      },
+      {
+       "id": "B",
+       "text": "hidden"
+      },
+      {
+       "id": "C",
+       "text": "extensive"
+      },
+      {
+       "id": "D",
+       "text": "uniform"
+      },
+      {
+       "id": "E",
+       "text": "narrow"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  },
+  "explanation": "**Text Completion, one blank (five choices).** The clue is \"spanning five centuries and thirty countries\" and \"days exploring\": the collection is large and wide-ranging, *extensive*.",
+  "choiceExplanations": {
+   "E": "A collection covering five centuries and thirty countries is not narrow.",
+   "A": "Visitors could not spend days on a tiny collection.",
+   "D": "Spanning many countries and eras contradicts uniformity.",
+   "B": "Nothing suggests it is concealed."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-02",
+  "lessonId": "v0-01-overview",
+  "type": "SE",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "content": {
+   "text": "The shopkeeper was known for his {{1}} manner, greeting every customer by name and often offering a free sample.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "hasty"
+    },
+    {
+     "id": "B",
+     "text": "surly"
+    },
+    {
+     "id": "C",
+     "text": "affable"
+    },
+    {
+     "id": "D",
+     "text": "pompous"
+    },
+    {
+     "id": "E",
+     "text": "indifferent"
+    },
+    {
+     "id": "F",
+     "text": "genial"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "F",
+    "C"
+   ]
+  },
+  "explanation": "**Sentence Equivalence (six choices, pick two).** Greeting everyone by name and giving samples shows friendliness: *genial* and *affable* give the same sentence.",
+  "choiceExplanations": {
+   "B": "Unfriendly, the opposite of the clue.",
+   "E": "Someone who greets customers by name is not indifferent.",
+   "D": "Self-important; not shown by the clue.",
+   "A": "Speed is not described."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-03",
+  "lessonId": "v0-01-overview",
+  "type": "TC",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "Although the novel was {{1}} on its release, it has since been {{2}} as a classic.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lauded"
+      },
+      {
+       "id": "1B",
+       "text": "overlooked"
+      },
+      {
+       "id": "1C",
+       "text": "translated"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "withdrawn"
+      },
+      {
+       "id": "2B",
+       "text": "dismissed"
+      },
+      {
+       "id": "2C",
+       "text": "hailed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  },
+  "explanation": "**Text Completion, two blanks (three choices each).** *Although* ... *since* marks a reversal. A book now treated as a classic was first *overlooked*, and is now *hailed*.",
+  "choiceExplanations": {
+   "1A": "Praise at release followed by praise now would not need *although*.",
+   "1C": "Does not contrast with being hailed.",
+   "2B": "Contradicts *as a classic*.",
+   "2A": "Does not fit *as a classic*."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-04",
+  "lessonId": "v0-01-overview",
+  "type": "SE",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "content": {
+   "text": "The committee's report was so {{1}} that it took readers weeks to understand even its summary.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "convoluted"
+    },
+    {
+     "id": "B",
+     "text": "topical"
+    },
+    {
+     "id": "C",
+     "text": "impartial"
+    },
+    {
+     "id": "D",
+     "text": "abstruse"
+    },
+    {
+     "id": "E",
+     "text": "entertaining"
+    },
+    {
+     "id": "F",
+     "text": "concise"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  },
+  "explanation": "**Sentence Equivalence.** \"Weeks to understand even its summary\" means very hard to follow. *Convoluted* and *abstruse* both capture that.",
+  "choiceExplanations": {
+   "F": "Brevity would make it easier.",
+   "B": "Timeliness does not explain difficulty.",
+   "E": "Enjoyable reading is not hard to understand.",
+   "C": "Fairness does not explain difficulty."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-05",
+  "lessonId": "v0-01-overview",
+  "type": "TC",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "A skilled reader does not {{1}} absorb a text; instead she {{2}} it as she goes, building a picture of the whole and {{3}} it when new information demands.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "reluctantly"
+      },
+      {
+       "id": "1B",
+       "text": "urgently"
+      },
+      {
+       "id": "1C",
+       "text": "passively"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "interprets"
+      },
+      {
+       "id": "2B",
+       "text": "transcribes"
+      },
+      {
+       "id": "2C",
+       "text": "disregards"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "revising"
+      },
+      {
+       "id": "3B",
+       "text": "duplicating"
+      },
+      {
+       "id": "3C",
+       "text": "ratifying"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A",
+    "3A"
+   ]
+  },
+  "explanation": "**Text Completion, three blanks.** *Does not ___ absorb ... instead* contrasts with active work: *passively*. Active reading is *interpreting*, and a picture of the whole is *revised* when new information arrives.",
+  "choiceExplanations": {
+   "1B": "Hurry is not the contrast with active reading.",
+   "1A": "Reluctance is not the contrast.",
+   "2B": "Copying is passive.",
+   "2C": "Ignoring the text is not building a picture of it.",
+   "3C": "New information demands change, not approval.",
+   "3B": "Copying the picture does not respond to new information."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-06",
+  "lessonId": "v0-01-overview",
+  "type": "SE",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "content": {
+   "text": "The reviewer's praise was {{1}}, offered only after she had listed so many reservations that readers wondered whether she liked the book at all.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "effusive"
+    },
+    {
+     "id": "B",
+     "text": "lyrical"
+    },
+    {
+     "id": "C",
+     "text": "grudging"
+    },
+    {
+     "id": "D",
+     "text": "spontaneous"
+    },
+    {
+     "id": "E",
+     "text": "reluctant"
+    },
+    {
+     "id": "F",
+     "text": "belated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "**Sentence Equivalence.** Praise surrounded by reservations is given unwillingly: *grudging* and *reluctant*.",
+  "choiceExplanations": {
+   "A": "Gushing praise would not follow a list of reservations.",
+   "F": "Concerns timing; the clue is about unwillingness.",
+   "D": "Praise offered only after a list of reservations is not spontaneous.",
+   "B": "Poetic praise is not what the clue describes."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-07",
+  "lessonId": "v0-01-overview",
+  "type": "TC",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "content": {
+   "text": "Scholars who treat the diary as straightforward {{1}} overlook that its author wrote with an eye to posterity, so that its apparent candor may itself be a {{2}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "fabrication"
+      },
+      {
+       "id": "1B",
+       "text": "documentation"
+      },
+      {
+       "id": "1C",
+       "text": "satire"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "pose"
+      },
+      {
+       "id": "2B",
+       "text": "lapse"
+      },
+      {
+       "id": "2C",
+       "text": "relic"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  },
+  "explanation": "**Text Completion, two blanks.** Scholars who see the diary as plain *documentation* overlook that it was written for future readers, so the candor may be a *pose*.",
+  "choiceExplanations": {
+   "1A": "Scholars who saw it as a lie would not be overlooking the author's eye on posterity.",
+   "1C": "Not a straightforward reading.",
+   "2B": "A mistake, not something staged for posterity.",
+   "2C": "A surviving object, not a feature of its tone."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-08",
+  "lessonId": "v0-01-overview",
+  "type": "SE",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "content": {
+   "text": "Though the senator was {{1}} in public, rarely disclosing her intentions even to allies, her private correspondence reveals a woman of strong and often blunt opinions.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "voluble"
+    },
+    {
+     "id": "B",
+     "text": "theatrical"
+    },
+    {
+     "id": "C",
+     "text": "guarded"
+    },
+    {
+     "id": "D",
+     "text": "reticent"
+    },
+    {
+     "id": "E",
+     "text": "candid"
+    },
+    {
+     "id": "F",
+     "text": "doctrinaire"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "C"
+   ]
+  },
+  "explanation": "**Sentence Equivalence.** *Though* contrasts public restraint (\"rarely disclosing her intentions\") with private bluntness. *Reticent* and *guarded* both mean reluctant to reveal.",
+  "choiceExplanations": {
+   "A": "Talkative; contradicts rarely disclosing intentions.",
+   "E": "Frank; contradicts the clue.",
+   "F": "Dogmatic; says nothing about disclosure.",
+   "B": "Showy; the clue describes reserve."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-09",
+  "lessonId": "v0-01-overview",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "The author mentions the netting experiments primarily in order to",
+  "passageId": "v0-01-mudflats",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "offer evidence that shorebirds help sustain the habitat in which they feed"
+    },
+    {
+     "id": "B",
+     "text": "refute the claim that mudflats look barren at low tide"
+    },
+    {
+     "id": "C",
+     "text": "recommend netting as a conservation technique"
+    },
+    {
+     "id": "D",
+     "text": "demonstrate that mudflats are more productive than other habitats"
+    },
+    {
+     "id": "E",
+     "text": "show that mudflat algae depend entirely on nutrients delivered by tides"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "**Reading Comprehension, select one (five choices).** The experiments are introduced after \"Some ecologists once assumed ...\"; where birds were excluded the algae thinned, \"implying that the birds' probing and trampling help keep the system healthy\".",
+  "choiceExplanations": {
+   "E": "The tides' nutrients are mentioned earlier; the experiments concern the birds.",
+   "D": "No comparison with other habitats is made.",
+   "C": "Netting was an experimental tool to exclude birds, not a recommendation.",
+   "B": "The barren look is only a contrast with productivity."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-10",
+  "lessonId": "v0-01-overview",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Select the sentence in which the author reports a view that the passage goes on to challenge.",
+  "passageId": "v0-01-mudflats",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Some ecologists once assumed that the birds merely exploited a resource that would have flourished without them."
+  },
+  "explanation": "**Reading Comprehension, select in passage.** The sentence reports an earlier assumption (\"once assumed\"); the next sentence begins the challenge (\"Recent field experiments suggest otherwise\"). Other sentences state the author's own claims.",
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-11",
+  "lessonId": "v0-01-overview",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the choices separately and select all that apply. According to the passage, which of the following are features of the compromise approach to restoration?",
+  "passageId": "v0-01-restoration",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "New paint is applied only where the original design is certain."
+    },
+    {
+     "id": "B",
+     "text": "The new paint can be distinguished from the original on close inspection."
+    },
+    {
+     "id": "C",
+     "text": "The new paint remains clearly visible at normal viewing distance."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "**Reading Comprehension, select one or more (three choices).** The passage says new paint goes only \"where the original design is certain\" and \"can be distinguished on close inspection\". No partial credit: both correct choices are required.",
+  "choiceExplanations": {
+   "C": "The passage says the new paint \"disappears at normal viewing distance\"."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v0-01-overview-12",
+  "lessonId": "v0-01-overview",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "The last sentence of the passage serves primarily to",
+  "passageId": "v0-01-restoration",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "summarize the dilemma presented at the start of the passage"
+    },
+    {
+     "id": "B",
+     "text": "concede that the critics' objection is correct"
+    },
+    {
+     "id": "C",
+     "text": "answer the criticism described in the preceding sentence"
+    },
+    {
+     "id": "D",
+     "text": "introduce a new example of a restoration that failed"
+    },
+    {
+     "id": "E",
+     "text": "propose an alternative to the compromise approach"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The preceding sentence gives critics' objection; the last sentence begins \"Supporters reply\", so it responds to that objection.",
+  "choiceExplanations": {
+   "D": "No example is introduced.",
+   "A": "The dilemma is not restated.",
+   "B": "Supporters *reply*, which is not a concession.",
+   "E": "The supporters defend the compromise approach."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

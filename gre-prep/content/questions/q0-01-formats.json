@@ -1,0 +1,544 @@
+[
+ {
+  "id": "q0-01-formats-01",
+  "lessonId": "q0-01-formats",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A Quantitative Reasoning question asks you to select one answer choice. How many choices does it list?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Select-one Quant questions list five choices and exactly one is correct.",
+  "choiceExplanations": {
+   "A": "Two choices would not match any Quant format.",
+   "B": "Three is not a Quant choice count.",
+   "C": "Four is the number of fixed choices in a Quantitative Comparison question, not in select-one.",
+   "E": "Six choices belong to Verbal Sentence Equivalence, not Quant."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-02",
+  "lessonId": "q0-01-formats",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A Numeric Entry question asks for a fraction. How do you enter it?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Numerator in one box and denominator in the other"
+    },
+    {
+     "id": "B",
+     "text": "The decimal value in the first box, second box blank"
+    },
+    {
+     "id": "C",
+     "text": "The whole fraction typed in one box with a slash"
+    },
+    {
+     "id": "D",
+     "text": "The letter of the correct fraction"
+    },
+    {
+     "id": "E",
+     "text": "The numerator in both boxes"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "A fraction answer uses two boxes: numerator and denominator.",
+  "choiceExplanations": {
+   "B": "Fractions use two boxes, one for each part, not a decimal in one box.",
+   "C": "A fraction is split across two boxes; there is no slash entry.",
+   "D": "Numeric Entry has no lettered choices.",
+   "E": "The second box is for the denominator."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-03",
+  "lessonId": "q0-01-formats",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{3}{4}$ of 20",
+   "quantityB": "80 percent of 20"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "$\\frac34\\cdot20=15$ and $0.8\\cdot20=16$. Quantity B is greater; take care not to reverse choices A and B.",
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-04",
+  "lessonId": "q0-01-formats",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A question says: \"Which of the following integers are divisible by 6? Indicate all such integers.\" Five choices follow: 12, 16, 18, 21, 30. What is the best approach?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Stop at the first choice that works, since only one can be correct"
+    },
+    {
+     "id": "B",
+     "text": "Test every choice and select each one that qualifies"
+    },
+    {
+     "id": "C",
+     "text": "Select exactly two choices, since the stem mentions a multiple"
+    },
+    {
+     "id": "D",
+     "text": "Select the middle choice by pattern"
+    },
+    {
+     "id": "E",
+     "text": "Select none, because a unique answer is required"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "\"Indicate all such\" means check every choice and select all and only those that qualify (12, 18 and 30 here).",
+  "choiceExplanations": {
+   "A": "Select-one-or-more items may have several correct choices.",
+   "C": "The stem says \"all such\", so the count is not fixed at two.",
+   "D": "There is no positional pattern; each choice must be checked.",
+   "E": "Unique answers belong to select-one items; here several choices qualify."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-05",
+  "lessonId": "q0-01-formats",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following statements about Quantitative Reasoning question formats are true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A select-one-or-more question can have exactly one correct choice."
+    },
+    {
+     "id": "B",
+     "text": "Every Quantitative Comparison question has the same four answer choices."
+    },
+    {
+     "id": "C",
+     "text": "Every Numeric Entry answer is typed into a single box."
+    },
+    {
+     "id": "D",
+     "text": "Each question in a Data Interpretation set comes with its own, different data display."
+    },
+    {
+     "id": "E",
+     "text": "A Data Interpretation question can be a Numeric Entry question."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  },
+  "explanation": "Select-one-or-more items may have a single correct choice; QC choices never change; DI questions may be multiple-choice or Numeric Entry.",
+  "choiceExplanations": {
+   "C": "Fractions use two boxes, numerator and denominator.",
+   "D": "All questions in a DI set share the same data display."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-06",
+  "lessonId": "q0-01-formats",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "How many integers are there from 7 to 19, inclusive?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  },
+  "explanation": "Inclusive endpoints count: $19-7+1=13$.",
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-07",
+  "lessonId": "q0-01-formats",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "Using the table, what was the combined number of loans, in thousands, from the North and South branches in March?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 24
+  },
+  "explanation": "Read the March row: $14+10=24$ thousand. The table is in thousands, so enter 24 as the table is scaled.",
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Library loans, in thousands",
+   "data": {
+    "columns": [
+     "Month",
+     "North",
+     "Central",
+     "South"
+    ],
+    "rows": [
+     [
+      "January",
+      12,
+      18,
+      9
+     ],
+     [
+      "February",
+      15,
+      17,
+      11
+     ],
+     [
+      "March",
+      14,
+      21,
+      10
+     ],
+     [
+      "April",
+      16,
+      19,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-08",
+  "lessonId": "q0-01-formats",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "Using the table, in which month was the difference between Central and North loans greatest?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "January"
+    },
+    {
+     "id": "B",
+     "text": "February"
+    },
+    {
+     "id": "C",
+     "text": "March"
+    },
+    {
+     "id": "D",
+     "text": "April"
+    },
+    {
+     "id": "E",
+     "text": "The difference was the same in all four months"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Central minus North: January 6, February 2, March 7, April 3. The greatest is March.",
+  "choiceExplanations": {
+   "A": "Difference 6, less than March's 7.",
+   "B": "Difference only 2.",
+   "D": "Difference 3.",
+   "E": "The differences are 6, 2, 7 and 3."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Library loans, in thousands",
+   "data": {
+    "columns": [
+     "Month",
+     "North",
+     "Central",
+     "South"
+    ],
+    "rows": [
+     [
+      "January",
+      12,
+      18,
+      9
+     ],
+     [
+      "February",
+      15,
+      17,
+      11
+     ],
+     [
+      "March",
+      14,
+      21,
+      10
+     ],
+     [
+      "April",
+      16,
+      19,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-09",
+  "lessonId": "q0-01-formats",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$x^2$",
+   "quantityB": "$x$",
+   "common": "$x$ is a positive number."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "Try $x=1$: both are 1 (equal). Try $x=2$: 4 is greater than 2. Try $x=\\tfrac12$: $\\tfrac14<\\tfrac12$. Different outcomes mean the relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-10",
+  "lessonId": "q0-01-formats",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "The sum of three consecutive even integers is 78. What is the greatest of the three?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 28
+  },
+  "explanation": "The middle one is $78/3=26$, so the integers are 24, 26, 28. Greatest: 28.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-11",
+  "lessonId": "q0-01-formats",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "If $x$ is an integer, which of the following values of $x$ satisfy $10 < x^2 < 50$? Indicate all such values.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-8$"
+    },
+    {
+     "id": "B",
+     "text": "$-7$"
+    },
+    {
+     "id": "C",
+     "text": "$-3$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D",
+    "E"
+   ]
+  },
+  "explanation": "Squares: 64, 49, 9, 16, 49. Only $-7$, 4 and 7 give a square strictly between 10 and 50. Negative values count too.",
+  "choiceExplanations": {
+   "A": "$(-8)^2=64$, which is not below 50.",
+   "C": "$(-3)^2=9$, which is not above 10."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-01-formats-12",
+  "lessonId": "q0-01-formats",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "A bag holds 5 red marbles, 7 blue marbles and 8 green marbles. One marble is chosen at random. What is the probability that it is not blue? Enter your answer as a fraction in lowest terms.",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.65,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 20
+   }
+  },
+  "explanation": "The bag has $5+7+8=20$ marbles and $20-7=13$ are not blue, so the probability is $\\frac{13}{20}$.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

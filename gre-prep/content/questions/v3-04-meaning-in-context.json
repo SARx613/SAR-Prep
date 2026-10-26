@@ -1,0 +1,571 @@
+[
+ {
+  "id": "v3-04-meaning-in-context-01",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "As used in the passage, 'sound' (in 'perfectly sound') most nearly means",
+  "passageId": "v3-concrete",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "audible"
+    },
+    {
+     "id": "B",
+     "text": "free of defects"
+    },
+    {
+     "id": "C",
+     "text": "sensible"
+    },
+    {
+     "id": "D",
+     "text": "financially stable"
+    },
+    {
+     "id": "E",
+     "text": "deep"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The surface is weakened and cracked 'even though' the interior is sound, so 'sound' means in good condition, without flaws.",
+  "choiceExplanations": {
+   "A": "The sense of noise does not apply to a slab's interior.",
+   "C": "A material is not described as 'sensible'.",
+   "D": "A financial sense is irrelevant here.",
+   "E": "Depth is not the issue; the contrast is with the weakened, cracked surface."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-02",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Select the sentence that corrects a commonly held belief.",
+  "passageId": "v3-concrete",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Concrete does not harden by drying, as is commonly supposed."
+  },
+  "explanation": "'As is commonly supposed' flags the belief being corrected: that concrete hardens by drying.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-03",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "In the passage, 'hardened' (in 'hardened into orthodoxy') most nearly means",
+  "passageId": "v3-painter",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "became physically stiff"
+    },
+    {
+     "id": "B",
+     "text": "grew callous"
+    },
+    {
+     "id": "C",
+     "text": "became more severe"
+    },
+    {
+     "id": "D",
+     "text": "became more difficult to detect"
+    },
+    {
+     "id": "E",
+     "text": "settled into an unquestioned view"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "A reading that 'hardened into orthodoxy' became a fixed, standard view that people stopped questioning.",
+  "choiceExplanations": {
+   "A": "The literal physical sense does not fit an abstract 'reading'.",
+   "B": "Applies to people's feelings, not to an interpretation.",
+   "C": "A reading does not become 'more severe'; the point is that it became fixed.",
+   "D": "Nothing in the sentence concerns detection."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-04",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "As used in the passage, 'trace' (in 'leaves such a trace') most nearly means",
+  "passageId": "v3-tree-rings",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tiny quantity"
+    },
+    {
+     "id": "B",
+     "text": "detectable sign"
+    },
+    {
+     "id": "C",
+     "text": "line drawn on a surface"
+    },
+    {
+     "id": "D",
+     "text": "copy made by following an outline"
+    },
+    {
+     "id": "E",
+     "text": "investigation into origins"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "'Not every eruption leaves such a trace' means not every eruption leaves a visible mark in the rings, i.e., a detectable sign.",
+  "choiceExplanations": {
+   "A": "The sense of a 'tiny amount' does not fit: the question is whether the eruption leaves any mark in the ring.",
+   "C": "A drawn line is irrelevant here.",
+   "D": "Copying an outline is unrelated.",
+   "E": "The rings are not an investigation; they are the evidence."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-05",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that says what those who use the term 'authenticity' take it to mean.",
+  "passageId": "v3-early-music",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Musicians who specialize in early music often justify their practice by appeal to 'authenticity': the aim, they say, is to play a work as its composer intended."
+  },
+  "explanation": "The first sentence glosses the term: playing a work as its composer intended.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-06",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "The author places 'subtract' in quotation marks most likely because",
+  "passageId": "v3-painter",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "the author doubts that Marchand succeeded in simplifying her pictures"
+    },
+    {
+     "id": "B",
+     "text": "the critics of the period used the word to mock her late style"
+    },
+    {
+     "id": "C",
+     "text": "Marchand literally removed paint from the canvases"
+    },
+    {
+     "id": "D",
+     "text": "the word is Marchand's own and is used figuratively for removing inessential elements"
+    },
+    {
+     "id": "E",
+     "text": "the word comes from a technical vocabulary of painters"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The word is quoted from her letters ('wrote repeatedly of her wish to subtract') and means removing everything not essential, a figurative use.",
+  "choiceExplanations": {
+   "A": "The author actually accepts her aim as a deliberate refinement.",
+   "B": "The critics are described as reading fatigue into the works; the word comes from her letters.",
+   "C": "She 'destroyed early studies' but 'subtract' describes composing, not scraping paint.",
+   "E": "Nothing in the passage ties the word to a painters' jargon."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-07",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "As used in the passage, 'discipline' (in 'the discipline of ignoring it') most nearly means",
+  "passageId": "v3-sunk-cost",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "habit of self-restraint"
+    },
+    {
+     "id": "B",
+     "text": "field of academic study"
+    },
+    {
+     "id": "C",
+     "text": "punishment for wrongdoing"
+    },
+    {
+     "id": "D",
+     "text": "obedience to authority"
+    },
+    {
+     "id": "E",
+     "text": "training in a craft"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "'Easier to endorse than to practice' shows that 'discipline' is a practised habit of ignoring sunk costs, a kind of self-restraint.",
+  "choiceExplanations": {
+   "B": "The phrase names a practice of ignoring sunk costs, not a subject area.",
+   "C": "Nothing in the sentence concerns punishment.",
+   "D": "The issue is managers restraining their own reasoning, not obeying others.",
+   "E": "The sentence concerns a mental habit, not learning a skill."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-08",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "As used in the passage, 'discount' (in 'discount accordingly') most nearly means",
+  "passageId": "v3-white-lies",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "reduce the price of"
+    },
+    {
+     "id": "B",
+     "text": "ignore entirely"
+    },
+    {
+     "id": "C",
+     "text": "refuse to repeat"
+    },
+    {
+     "id": "D",
+     "text": "forgive"
+    },
+    {
+     "id": "E",
+     "text": "treat as less reliable"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "Listeners who 'understand the convention' adjust the weight they give to compliments, treating them as less informative.",
+  "choiceExplanations": {
+   "A": "A price sense does not apply to compliments.",
+   "B": "If listeners ignored compliments entirely, the host could learn nothing; 'accordingly' suggests adjusting, not disregarding.",
+   "C": "Nothing concerns repeating.",
+   "D": "Forgiveness is irrelevant: the issue is how much to believe."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-09",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "The phrase 'independent clock for volcanic activity' most nearly refers to",
+  "passageId": "v3-tree-rings",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "a source of eruption dates that does not need confirmation from other evidence"
+    },
+    {
+     "id": "B",
+     "text": "an instrument that times the interval between eruptions"
+    },
+    {
+     "id": "C",
+     "text": "the yearly regularity of tree growth"
+    },
+    {
+     "id": "D",
+     "text": "the cooling effect that follows an eruption"
+    },
+    {
+     "id": "E",
+     "text": "a record kept in ice cores"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The author concludes that rings should corroborate dates 'rather than' be an 'independent clock', so the clock would be a method that dates eruptions on its own.",
+  "choiceExplanations": {
+   "B": "Nothing in the passage describes an instrument.",
+   "C": "Annual rings are the raw record, but the phrase asks about standing alone as a dating method.",
+   "D": "The cooling is the cause of the narrow ring, not the dating method.",
+   "E": "Ice cores are one of the 'other means' the rings corroborate."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-vocab-in-context",
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-10",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The statement that listeners 'discount accordingly' implies which of the following?",
+  "passageId": "v3-white-lies",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Listeners adjust their reading of a compliment because they know compliments are often inflated."
+    },
+    {
+     "id": "B",
+     "text": "Listeners believe every compliment is sincere."
+    },
+    {
+     "id": "C",
+     "text": "Listeners treat compliments as less informative than sincere praise alone would be."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "To discount is to take compliments with a grain of salt, which makes them less informative. C is the opposite.",
+  "choiceExplanations": {
+   "B": "If they believed so, they would not discount."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-11",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. In the sentence 'abandoning a project crystallizes a loss that was previously only prospective', the author means that abandoning the project",
+  "passageId": "v3-sunk-cost",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "turns a loss that had merely been expected into one that must be acknowledged"
+    },
+    {
+     "id": "B",
+     "text": "makes a possible loss definite"
+    },
+    {
+     "id": "C",
+     "text": "creates a loss that would otherwise never have occurred"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "'Prospective' means anticipated, and 'crystallizes' means makes definite. A and B express this; C reverses it.",
+  "choiceExplanations": {
+   "C": "The loss was already anticipated; abandonment makes it definite, not new."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-12",
+  "lessonId": "v3-04-meaning-in-context",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "What does the author mean by saying that 'plausible' would be the more honest term?",
+  "passageId": "v3-early-music",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Modern performances are less accurate than those of the composer's time."
+    },
+    {
+     "id": "B",
+     "text": "Early music should not be performed at all."
+    },
+    {
+     "id": "C",
+     "text": "Modern performances can be reasonable reconstructions but cannot be shown to reproduce what the composer intended."
+    },
+    {
+     "id": "D",
+     "text": "Performers should avoid conjecture entirely."
+    },
+    {
+     "id": "E",
+     "text": "The word 'authentic' is used too often."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "'More than the evidence can deliver' explains that 'authentic' overclaims; 'plausible' fits what conjecture can establish.",
+  "choiceExplanations": {
+   "A": "The author makes no comparison with the composer's time.",
+   "B": "The author says the enterprise is not futile.",
+   "D": "The author thinks informed conjecture is unavoidable, even valuable.",
+   "E": "The complaint concerns what the word claims, not how often it is used."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

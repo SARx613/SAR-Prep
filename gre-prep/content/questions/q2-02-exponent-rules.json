@@ -1,0 +1,465 @@
+[
+ {
+  "id": "q2-02-exponent-rules-01",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which of the following is equal to $5^2\\cdot5^3$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5^5$"
+    },
+    {
+     "id": "B",
+     "text": "$5^6$"
+    },
+    {
+     "id": "C",
+     "text": "$10^5$"
+    },
+    {
+     "id": "D",
+     "text": "$25^5$"
+    },
+    {
+     "id": "E",
+     "text": "$25^6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "Same base: add the exponents, $5^{2+3}=5^5$.",
+  "choiceExplanations": {
+   "B": "The exponents were multiplied.",
+   "C": "The bases were added.",
+   "D": "The bases were multiplied while the exponents were added.",
+   "E": "Both bases and exponents were multiplied."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-02",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "What is the value of $\\left(\\dfrac12\\right)^{-4}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-16$"
+    },
+    {
+     "id": "B",
+     "text": "$-8$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac1{16}$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$16$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "A negative exponent takes the reciprocal: $\\left(\\dfrac12\\right)^{-4}=2^4=16$.",
+  "choiceExplanations": {
+   "A": "A negative exponent does not make the value negative.",
+   "B": "This multiplies base and exponent, with a sign slip.",
+   "C": "This ignores the negative sign of the exponent: $(1/2)^4$.",
+   "D": "This computes $2\\cdot4$ instead of $2^4$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-03",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $(2x^3)^4$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x^{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$8x^{7}$"
+    },
+    {
+     "id": "C",
+     "text": "$8x^{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$16x^{7}$"
+    },
+    {
+     "id": "E",
+     "text": "$16x^{12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "Apply the exponent to every factor: $2^4\\,(x^3)^4=16x^{12}$.",
+  "choiceExplanations": {
+   "A": "The coefficient 2 was not raised to the 4th power.",
+   "B": "The coefficient was multiplied by 4 and the exponents added.",
+   "C": "The coefficient was multiplied by 4 instead of raised to the 4th power.",
+   "D": "The exponents were added instead of multiplied."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-04",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "If $3^{2x-1}=3^7$, what is the value of $x$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  },
+  "explanation": "Equal bases, so equal exponents: $2x-1=7$, $x=4$.",
+  "estSeconds": 60,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-05",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$(-x)^2$",
+   "quantityB": "$-x^2$",
+   "common": "$x$ is a nonzero real number."
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "$(-x)^2=x^2$, which is positive for every nonzero $x$. $-x^2$ is negative for every nonzero $x$. So A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-06",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $2^{10}$? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(2^5)^2$"
+    },
+    {
+     "id": "B",
+     "text": "$2^5\\cdot2^2$"
+    },
+    {
+     "id": "C",
+     "text": "$4^5$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{2^{12}}{2^2}$"
+    },
+    {
+     "id": "E",
+     "text": "$2^5+2^5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "$(2^5)^2=2^{10}$; $4^5=(2^2)^5=2^{10}$; $2^{12}/2^2=2^{10}$.",
+  "choiceExplanations": {
+   "B": "$2^5\\cdot2^2=2^7$: the exponents add.",
+   "E": "$2^5+2^5=2\\cdot2^5=2^6$: sums do not follow the product rule."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-07",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$4^{10}$",
+   "quantityB": "$8^{7}$"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Write both over base 2: $4^{10}=2^{20}$ and $8^7=2^{21}$. B is twice A.",
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-08",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "What is the value of $\\left(2^{-1}+2^{-2}\\right)^{-1}$? Enter your answer as a fraction.",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 1.3333333333333333,
+   "fraction": {
+    "numerator": 4,
+    "denominator": 3
+   }
+  },
+  "explanation": "$2^{-1}+2^{-2}=\\dfrac12+\\dfrac14=\\dfrac34$ (it is not $2^{-3}$). The reciprocal is $\\dfrac43$.",
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-09",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "For every integer $n$, which of the following is equal to $\\dfrac{2^{n+3}-2^{n}}{7}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac87$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{2^n}{7}$"
+    },
+    {
+     "id": "C",
+     "text": "$2^n$"
+    },
+    {
+     "id": "D",
+     "text": "$7\\cdot2^n$"
+    },
+    {
+     "id": "E",
+     "text": "$2^{n+3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Factor out $2^n$: $2^{n+3}-2^n=2^n(2^3-1)=7\\cdot2^n$. Dividing by 7 leaves $2^n$.",
+  "choiceExplanations": {
+   "A": "This subtracts exponents as if the terms were a quotient.",
+   "B": "After factoring, the numerator is $7\\cdot2^n$, not $2^n$.",
+   "D": "This is the numerator; it was not divided by 7.",
+   "E": "This ignores the subtraction of $2^n$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-10",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "If $3^x=4$, what is the value of $3^{2x+1}$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  },
+  "explanation": "$3^{2x+1}=(3^x)^2\\cdot3=4^2\\cdot3=48$.",
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-11",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "If $\\dfrac{4^{x}\\cdot8^{x-1}}{2^{x+2}}=128$, what is the value of $x$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "Over base 2: $\\dfrac{2^{2x}\\cdot2^{3x-3}}{2^{x+2}}=2^{5x-3-x-2}=2^{4x-5}$. Since $128=2^7$, $4x-5=7$ and $x=3$.",
+  "estSeconds": 120,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-12",
+  "lessonId": "q2-02-exponent-rules",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "For every integer $n$, which of the following is equal to $\\dfrac{5^{n+1}+5^{n}}{5^{n-1}+5^{n-2}}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$6$"
+    },
+    {
+     "id": "C",
+     "text": "$25$"
+    },
+    {
+     "id": "D",
+     "text": "$125$"
+    },
+    {
+     "id": "E",
+     "text": "$625$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Factor the lowest power out of each sum: numerator $5^n(5+1)=6\\cdot5^n$; denominator $5^{n-2}(5+1)=6\\cdot5^{n-2}$. The 6s cancel and $5^n/5^{n-2}=5^2=25$.",
+  "choiceExplanations": {
+   "A": "This compares adjacent exponents ($n+1$ versus $n$) instead of top versus bottom.",
+   "B": "6 is the factor that cancels; it is not what remains.",
+   "D": "This pairs $5^{n+1}$ with $5^{n-2}$ only.",
+   "E": "This treats the sums as products: $5^{2n+1}/5^{2n-3}$."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "exponent-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

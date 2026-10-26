@@ -1,0 +1,206 @@
+{
+ "id": "v1-02-method",
+ "status": "draft",
+ "why": "Reading, predicting and then matching beats testing every combination of choices, which is slow and error-prone.",
+ "rule": "Do not test every combination. Instead:\n\n1. **Read** the whole text for its overall sense.\n2. **Mark** significant words: structure words (*although*, *moreover*) and words central to the topic.\n3. **Predict** a word or phrase for the blank, then look for a similar one among the choices.\n4. **Fill** each blank.\n5. **Check** that the finished text is coherent in logic, grammar and style.",
+ "examples": [
+  {
+   "prompt": "The senator is known for her ______ approach: she studies every proposal at length before offering an opinion. Choices: impetuous, deliberate, sentimental, combative, indifferent.",
+   "steps": [
+    "Read: the colon explains the approach.",
+    "Mark: \"studies every proposal at length before offering an opinion\".",
+    "Predict: *careful and unhurried*.",
+    "Match: *deliberate*. *Impetuous* is the opposite; *indifferent* would not study proposals.",
+    "Check: \"her deliberate approach\" works logically and grammatically."
+   ],
+   "answer": "deliberate"
+  }
+ ],
+ "trap": "Looking at the choices before predicting. The wrong choices are built to sound attractive, and a prediction made first protects you from them.",
+ "checks": [
+  {
+   "id": "v1-02-method-c1",
+   "lessonId": "v1-02-method",
+   "type": "TC",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "The explorer's {{1}} nature made him leap into every risky venture without weighing the costs.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "scrupulous"
+       },
+       {
+        "id": "B",
+        "text": "impetuous"
+       },
+       {
+        "id": "C",
+        "text": "cautious"
+       },
+       {
+        "id": "D",
+        "text": "methodical"
+       },
+       {
+        "id": "E",
+        "text": "reserved"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "B"
+    ]
+   },
+   "explanation": "**Predict:** leaping without weighing costs means *rash*: *impetuous*.",
+   "choiceExplanations": {
+    "C": "Cautious people weigh costs.",
+    "D": "Methodical people plan.",
+    "E": "Means restrained in expression, unrelated to risk-taking.",
+    "A": "Means careful about principle, the opposite of leaping without weighing."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-02-method-c2",
+   "lessonId": "v1-02-method",
+   "type": "TC",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "content": {
+    "text": "Although the town's founders were {{1}} in their vision, imagining a metropolis, its early growth was {{2}}, with only a few hundred residents after a decade.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "complacent"
+       },
+       {
+        "id": "1B",
+        "text": "ambitious"
+       },
+       {
+        "id": "1C",
+        "text": "timid"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "explosive"
+       },
+       {
+        "id": "2B",
+        "text": "sluggish"
+       },
+       {
+        "id": "2C",
+        "text": "orderly"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2B"
+    ]
+   },
+   "explanation": "**Signal:** *Although* sets vision against result. Imagining a metropolis is *ambitious*; a few hundred residents in ten years is *sluggish*.",
+   "choiceExplanations": {
+    "1C": "Imagining a metropolis is not timid.",
+    "1A": "Means self-satisfied; the clue is about scale of vision.",
+    "2A": "The contrast needs slow growth.",
+    "2C": "Does not describe the small numbers."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-02-method-c3",
+   "lessonId": "v1-02-method",
+   "type": "TC",
+   "difficulty": 3,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "Her {{1}} to the committee's findings, welcoming every criticism and revising her plans accordingly, surprised those who had expected her to resist.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "receptiveness"
+       },
+       {
+        "id": "B",
+        "text": "indifference"
+       },
+       {
+        "id": "C",
+        "text": "contempt"
+       },
+       {
+        "id": "D",
+        "text": "hostility"
+       },
+       {
+        "id": "E",
+        "text": "resistance"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "A"
+    ]
+   },
+   "explanation": "**Predict:** welcoming criticism and revising plans is openness: *receptiveness*.",
+   "choiceExplanations": {
+    "D": "Contradicts welcoming criticism.",
+    "B": "She acted on the criticism.",
+    "C": "Scorn is the opposite of welcoming.",
+    "E": "The sentence says she was expected to resist, but did not."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

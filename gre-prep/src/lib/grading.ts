@@ -36,7 +36,19 @@ export interface Grade {
 const sameSet = (a: string[], b: string[]): boolean =>
   a.length === b.length && [...a].sort().join() === [...b].sort().join();
 
-export function grade(question: Question, response: Response): Grade {
+function gradeNumeric(key: NEAnswer, response: Response): Grade {
+  if (response.kind !== 'numeric' || response.value === null)
+    return { isCorrect: false, expected: [String(key.value)], incomplete: true };
+  // Equivalent fractions are the same number, so 2/4 and 1/2 both pass.
+  const tolerance = key.tolerance ?? 1e-6;
+  return {
+    isCorrect: Math.abs(response.value - key.value) <= tolerance,
+    expected: [key.fraction ? `${key.fraction.numerator}/${key.fraction.denominator}` : String(key.value)],
+    incomplete: false,
+  };
+}
+
+export function grade(question: Pick<Question, 'type' | 'answer' | 'content'>, response: Response): Grade {
   const answer = question.answer as QuestionAnswer;
 
   switch (question.type) {
@@ -69,22 +81,15 @@ export function grade(question: Question, response: Response): Grade {
       return { isCorrect: response.ids[0] === key, expected: [key], incomplete: false };
     }
 
-    case 'NE': {
-      const key = answer as NEAnswer;
-      if (response.kind !== 'numeric' || response.value === null)
-        return { isCorrect: false, expected: [String(key.value)], incomplete: true };
-      const tolerance = key.tolerance ?? 1e-6;
-      return {
-        isCorrect: Math.abs(response.value - key.value) <= tolerance,
-        expected: [String(key.value)],
-        incomplete: false,
-      };
-    }
+    case 'NE':
+      return gradeNumeric(answer as NEAnswer, response);
 
     case 'RC':
     case 'PS':
     case 'DI': {
       const content = question.content as { format?: string };
+      // A DI item may be a Numeric Entry over the figure.
+      if (question.type === 'DI' && content.format === 'numeric_entry') return gradeNumeric(answer as NEAnswer, response);
       if (content.format === 'select_in_passage') {
         const key = (answer as InPassageAnswer).sentence;
         if (response.kind !== 'sentence')

@@ -1,0 +1,131 @@
+{
+ "why": "Circumference, area, arc length and sector area appear in many problems, often with the answer left in terms of $\\pi$.",
+ "rule": "The diameter is twice the radius $r$. Circumference $C=2\\pi r=\\pi d$; area $A=\\pi r^2$.\n\nA central angle of $\\theta^\\circ$ cuts out an **arc** and a **sector** that are the fraction $\\frac{\\theta}{360}$ of the whole circle:\n$$\\text{arc length}=\\frac{\\theta}{360}\\cdot2\\pi r,\\qquad \\text{sector area}=\\frac{\\theta}{360}\\cdot\\pi r^2 .$$\nAn arc has the same degree measure as its central angle, and a full circle is $360^\\circ$. Two points on a circle make two arcs, the shorter and the longer, whose measures add to $360^\\circ$.",
+ "examples": [
+  {
+   "prompt": "A circle has radius 6. A central angle of $60^\\circ$ cuts out an arc and a sector. Find the arc length and the sector area.",
+   "steps": [
+    "The fraction of the circle is $\\dfrac{60}{360}=\\dfrac16$.",
+    "Arc length $=\\dfrac16\\cdot2\\pi(6)=2\\pi$.",
+    "Sector area $=\\dfrac16\\cdot\\pi(6)^2=6\\pi$."
+   ],
+   "answer": "Arc length $2\\pi$, sector area $6\\pi$"
+  },
+  {
+   "prompt": "A circle has circumference $18\\pi$. What is its area?",
+   "steps": [
+    "$2\\pi r=18\\pi$, so $r=9$.",
+    "$A=\\pi r^2=81\\pi$."
+   ],
+   "answer": "$81\\pi$"
+  }
+ ],
+ "trap": "Mixing up radius and diameter is the usual slip: area uses $r^2$, so a diameter of 10 means $r=5$ and $A=25\\pi$, not $100\\pi$. Also keep the two fractions apart: an arc is a fraction of the circumference and a sector a fraction of the area.",
+ "checks": [
+  {
+   "id": "q3-07-circles-basics-c1",
+   "lessonId": "q3-07-circles-basics",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A circle has diameter 12. Its area is $k\\pi$. What is the value of $k$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 36
+   },
+   "explanation": "The radius is 6, so $A=\\pi\\cdot6^2=36\\pi$ and $k=36$.",
+   "estSeconds": 45,
+   "skills": [
+    "circles",
+    "arcs-sectors"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-07-circles-basics-c2",
+   "lessonId": "q3-07-circles-basics",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "A circle has circumference $20\\pi$. What is its area?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$10\\pi$"
+     },
+     {
+      "id": "B",
+      "text": "$20\\pi$"
+     },
+     {
+      "id": "C",
+      "text": "$40\\pi$"
+     },
+     {
+      "id": "D",
+      "text": "$100\\pi$"
+     },
+     {
+      "id": "E",
+      "text": "$400\\pi$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   },
+   "explanation": "$2\\pi r=20\\pi$ gives $r=10$, so $A=\\pi\\cdot10^2=100\\pi$.",
+   "choiceExplanations": {
+    "A": "That is the radius times $\\pi$; area needs $r^2$.",
+    "B": "That is the circumference itself.",
+    "C": "That is $2\\pi r$ with $r=20$; the circumference is $20\\pi$, so $r=10$.",
+    "E": "That treats $20$ as the radius."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "circles",
+    "arcs-sectors"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-07-circles-basics-c3",
+   "lessonId": "q3-07-circles-basics",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The length of an arc of a circle with radius 4 and central angle $90^\\circ$",
+    "quantityB": "6"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "The arc is $\\tfrac14$ of the circumference $8\\pi$, i.e. $2\\pi\\approx6.28$. Since $6.28>6$, A is greater.",
+   "estSeconds": 75,
+   "skills": [
+    "circles",
+    "arcs-sectors"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ],
+ "id": "q3-07-circles-basics",
+ "status": "draft"
+}

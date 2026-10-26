@@ -1,0 +1,544 @@
+[
+ {
+  "id": "v3-02-main-idea-01",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Which of the following best states the main point of the passage?",
+  "passageId": "v3-ant-seeds",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Ants are the most important seed-spreading animals in any forest."
+    },
+    {
+     "id": "B",
+     "text": "Ants gain much of their food from the fatty appendages of wildflower seeds."
+    },
+    {
+     "id": "C",
+     "text": "Seeds left in ant nests benefit more from the nest's safety and fertility than from being carried far from the parent plant."
+    },
+    {
+     "id": "D",
+     "text": "Researchers have been wrong about every aspect of how ants affect wildflowers."
+    },
+    {
+     "id": "E",
+     "text": "Wildflowers that depend on ants grow more slowly than those that do not."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "The passage corrects an earlier assumption (distance) and ends by naming the real advantage: the safety and fertility of the nest site.",
+  "choiceExplanations": {
+   "A": "Too broad: the passage discusses woodland wildflowers only and makes no comparison with other animals.",
+   "B": "A detail: the appendage is mentioned as the lure, but the passage never says how much of the ants' diet it supplies.",
+   "D": "Too extreme: researchers were wrong about the chief benefit (distance), not about everything.",
+   "E": "Not mentioned: growth rates are never discussed."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-02",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Select the sentence that describes a way entrants try to overcome the difficulty.",
+  "passageId": "v3-platforms",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Entrants sometimes break the deadlock by subsidizing one side, usually buyers, in the expectation that the other side will follow."
+  },
+  "explanation": "The subsidy strategy is the only attempted solution described.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-03",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that states the author's main conclusion.",
+  "passageId": "v3-ant-seeds",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The greater advantage appears to be the safety and fertility of the nest site rather than the distance travelled."
+  },
+  "explanation": "The final sentence carries the author's conclusion; the earlier sentences describe the process, the old assumption and the measurements that overturn it.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-04",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Which of the following best summarizes the passage?",
+  "passageId": "v3-libraries",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Although book lending has fallen, libraries are likely to endure by meeting other community needs."
+    },
+    {
+     "id": "B",
+     "text": "Critics are right that falling book lending shows libraries have outlived their purpose."
+    },
+    {
+     "id": "C",
+     "text": "Municipal budgets will soon shift to support the new role of libraries."
+    },
+    {
+     "id": "D",
+     "text": "Job-search workshops are the main reason library attendance has grown."
+    },
+    {
+     "id": "E",
+     "text": "Library attendance has grown because book lending has declined."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The author concedes the decline in lending, then points to rising attendance and predicts survival through a different role.",
+  "choiceExplanations": {
+   "B": "Reversed: the critics' view is reported and then answered with the attendance figures.",
+   "C": "Contradicts the passage, which calls the adaptation of budgets 'far from certain'.",
+   "D": "Too narrow and too strong: workshops are one of several drivers, and the passage never ranks them.",
+   "E": "Confuses two separate trends; the passage does not say that one causes the other."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-05",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Which of the following best expresses the main idea of the passage?",
+  "passageId": "v3-platforms",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Subsidizing buyers is the most effective strategy for any new platform."
+    },
+    {
+     "id": "B",
+     "text": "Mutual reinforcement between buyers and sellers makes it hard for new marketplace platforms to enter."
+    },
+    {
+     "id": "C",
+     "text": "Technically superior products usually defeat established platforms."
+    },
+    {
+     "id": "D",
+     "text": "Platforms grow slowly because sellers distrust buyers."
+    },
+    {
+     "id": "E",
+     "text": "Buyers value platforms more than sellers do."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The passage explains why growth is slow, why entrants struggle and how some try to break in.",
+  "choiceExplanations": {
+   "A": "Too strong: subsidy is costly and works 'only if' buyers stay.",
+   "C": "Reversed: a superior product may still fail to attract users.",
+   "D": "Slow initial growth is attributed to mutual dependence, not distrust.",
+   "E": "Neither group is said to value platforms more."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-06",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Which of the following best expresses the main idea of the passage?",
+  "passageId": "v3-adaptation",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Adaptations should always change the plot of the original."
+    },
+    {
+     "id": "B",
+     "text": "Novels are experienced so differently that no film can succeed as an adaptation."
+    },
+    {
+     "id": "C",
+     "text": "Critics who value fidelity lack knowledge about film."
+    },
+    {
+     "id": "D",
+     "text": "Irony is the most important quality of any novel."
+    },
+    {
+     "id": "E",
+     "text": "Faithfulness in an adaptation is better measured by interpretive spirit than by reproduction of events."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "The passage argues against fidelity of incident and for fidelity to the work's tone and concerns.",
+  "choiceExplanations": {
+   "A": "Too extreme: departures are legitimate only where they serve the work's central concern.",
+   "B": "The passage claims adaptation is interpretation, not that it must fail.",
+   "C": "The passage attacks a standard, not the critics' knowledge.",
+   "D": "Irony is one example of a quality an adaptation might capture; no ranking is made."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-07",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author offer as support for the central claim?",
+  "passageId": "v3-oral-epic",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Singers rebuild each performance from stock phrases rather than memorizing it."
+    },
+    {
+     "id": "B",
+     "text": "No two performances of an oral poem are identical."
+    },
+    {
+     "id": "C",
+     "text": "Transcribers often alter the words they record in order to improve them."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "A and B are the evidence for the claim that a transcript preserves just one occasion. C is not in the passage.",
+  "choiceExplanations": {
+   "C": "The passage never says transcribers change the words."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-main-idea",
+   "rc-support"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-08",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Select the sentence that states a specific mechanism proposed by the newer work.",
+  "passageId": "v3-soil-carbon",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Even simple molecules can remain for centuries if they cling to mineral grains or sit in pockets too small for microbes to enter."
+  },
+  "explanation": "This sentence says how carbon can persist: by clinging to mineral grains or being trapped in pockets too small for microbes. The sentence before it only announces that a different explanation exists.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-main-idea",
+   "rc-support"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-09",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author use to support the central claim?",
+  "passageId": "v3-adaptation",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Readers experience the same novel in different ways."
+    },
+    {
+     "id": "B",
+     "text": "A film can keep the plot of a novel yet lose its tone."
+    },
+    {
+     "id": "C",
+     "text": "Most adaptations alter at least one major plot event."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "A and B are offered as reasons why reproduction is the wrong standard. C is not stated anywhere.",
+  "choiceExplanations": {
+   "C": "The passage never says how common alterations are."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-main-idea",
+   "rc-support"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-10",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Which of the following best states the central point of the passage?",
+  "passageId": "v3-oral-epic",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A written text of an oral epic captures one performance among many, so none should be treated as the definitive original."
+    },
+    {
+     "id": "B",
+     "text": "Oral singers memorize their poems more reliably than is generally believed."
+    },
+    {
+     "id": "C",
+     "text": "The great oral epics were each composed by a single gifted author."
+    },
+    {
+     "id": "D",
+     "text": "Transcribed epics are unreliable because transcribers make mistakes."
+    },
+    {
+     "id": "E",
+     "text": "Living oral traditions are more creative than written literature."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The passage argues that a recorded text is one sample of a variable tradition, and recommends seeing the epic as the whole family of performances.",
+  "choiceExplanations": {
+   "B": "Reversed: singers 'rarely memorize them word for word'.",
+   "C": "The first sentence presents this as a tempting image the passage rejects.",
+   "D": "Errors by transcribers are never mentioned.",
+   "E": "No comparison between oral and written literature is made."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-11",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "The author mentions the decline in book lending primarily in order to",
+  "passageId": "v3-libraries",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "show that libraries will not survive in their present form"
+    },
+    {
+     "id": "B",
+     "text": "suggest that attendance statistics are unreliable"
+    },
+    {
+     "id": "C",
+     "text": "argue that libraries should stop lending books altogether"
+    },
+    {
+     "id": "D",
+     "text": "grant a point made by critics before arguing that it does not settle the matter"
+    },
+    {
+     "id": "E",
+     "text": "demonstrate that the public no longer values reading"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "'Indeed' concedes the fact, 'Some critics' attaches their inference, and 'But' turns to the evidence that leads away from their conclusion. The decline is support for a concession, not the main point.",
+  "choiceExplanations": {
+   "A": "The author does not predict the end of libraries; the argument is that they will survive differently.",
+   "B": "The author uses the attendance figures, not casting doubt on them.",
+   "C": "No recommendation about lending is made.",
+   "E": "The decline in lending is reported; nothing is said about the public's valuation of reading."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea",
+   "rc-structure"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-02-main-idea-12",
+  "lessonId": "v3-02-main-idea",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Which of the following best summarizes the passage?",
+  "passageId": "v3-soil-carbon",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Soils store more carbon than the atmosphere and vegetation combined, which makes them the main cause of climate change."
+    },
+    {
+     "id": "B",
+     "text": "Newer research suggests that carbon persists in soil largely because of soil structure and minerals rather than the carbon's own chemistry."
+    },
+    {
+     "id": "C",
+     "text": "Complex molecules decay more slowly than simple molecules in all soils."
+    },
+    {
+     "id": "D",
+     "text": "Farm practices cannot affect the amount of carbon stored in soil."
+    },
+    {
+     "id": "E",
+     "text": "Microbes are unable to decompose carbon in any soil."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The passage contrasts an older view (chemistry) with a newer one (structure and minerals) and draws a consequence from the newer one.",
+  "choiceExplanations": {
+   "A": "The first sentence is background; the passage does not blame soils for climate change.",
+   "C": "This is the older view that the passage reports and questions.",
+   "D": "The passage says the practical consequences concern how to change storage, not that practices have no effect.",
+   "E": "Microbes are blocked only where carbon is in tiny pockets or bound to minerals."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -1,0 +1,159 @@
+{
+ "id": "q2-04-linear-two-var",
+ "status": "draft",
+ "why": "Two-equation systems are the standard way the GRE gives you two pieces of information about two unknowns, in problem solving and in Quantitative Comparison.",
+ "rule": "A solution of $ax+by=c$ is an ordered pair $(x,y)$ that makes it true; there are infinitely many. A **system** asks for the pair that satisfies both equations, usually exactly one.\n\n- **Substitution**: solve one equation for a variable and substitute it into the other.\n- **Elimination**: multiply an equation (every term) so one variable has matching coefficients, then add or subtract to remove it.\n\nThen back-substitute for the other variable and check in both equations.\n\nThe equations are lines. Proportional left sides with a different constant ($x+2y=3$ and $2x+4y=9$) are parallel: **no solution**. If one equation is a multiple of the other, there are infinitely many.\n\nIf you need $x+y$ or $x-y$, try adding or subtracting the equations first.",
+ "examples": [
+  {
+   "prompt": "Solve $2x+3y=12$ and $4x-y=10$ by substitution.",
+   "steps": [
+    "From the second: $y=4x-10$.",
+    "Substitute: $2x+3(4x-10)=12$, so $14x-30=12$ and $x=3$.",
+    "Back-substitute: $y=4(3)-10=2$.",
+    "Check in the first: $6+6=12$."
+   ],
+   "answer": "$(x,y)=(3,2)$"
+  },
+  {
+   "prompt": "Solve $5x+2y=16$ and $3x+4y=18$ by elimination.",
+   "steps": [
+    "Double the first equation: $10x+4y=32$.",
+    "Subtract the second: $7x=14$, so $x=2$.",
+    "Back-substitute in the first: $10+2y=16$, so $y=3$."
+   ],
+   "answer": "$(x,y)=(2,3)$"
+  }
+ ],
+ "trap": "When you scale an equation, scale **every** term, including the right-hand side. And finish the job: after finding one variable, check what the question actually asks for ($x$, $y$, or a combination).",
+ "checks": [
+  {
+   "id": "q2-04-linear-two-var-c1",
+   "lessonId": "q2-04-linear-two-var",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "If $x+y=10$ and $x-y=4$, what is the value of $x$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
+   },
+   "explanation": "Add the equations: $2x=14$, so $x=7$.",
+   "estSeconds": 45,
+   "skills": [
+    "systems-of-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-04-linear-two-var-c2",
+   "lessonId": "q2-04-linear-two-var",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "If $y=3x-2$ and $2x+y=13$, what is the value of $x$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\dfrac{11}{5}$"
+     },
+     {
+      "id": "B",
+      "text": "$3$"
+     },
+     {
+      "id": "C",
+      "text": "$7$"
+     },
+     {
+      "id": "D",
+      "text": "$13$"
+     },
+     {
+      "id": "E",
+      "text": "$15$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "Substitute: $2x+3x-2=13$, so $5x=15$ and $x=3$.",
+   "choiceExplanations": {
+    "A": "Sign error: $5x=13-2$ instead of $13+2$.",
+    "C": "This is the value of $y$.",
+    "D": "This is the right-hand side of the second equation.",
+    "E": "This is $5x$; it was not divided by 5."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "systems-of-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-04-linear-two-var-c3",
+   "lessonId": "q2-04-linear-two-var",
+   "type": "PS",
+   "difficulty": 3,
+   "stem": "How many solutions does the system $x+2y=3$ and $2x+4y=9$ have?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "None"
+     },
+     {
+      "id": "B",
+      "text": "Exactly one"
+     },
+     {
+      "id": "C",
+      "text": "Exactly two"
+     },
+     {
+      "id": "D",
+      "text": "Infinitely many"
+     },
+     {
+      "id": "E",
+      "text": "It cannot be determined"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   },
+   "explanation": "Double the first equation: $2x+4y=6$. The second says $2x+4y=9$. Both cannot hold, so there is no solution (parallel lines).",
+   "choiceExplanations": {
+    "B": "The left sides are proportional, so the lines are parallel, not crossing.",
+    "C": "Two lines meet in zero, one, or infinitely many points.",
+    "D": "That needs the constants to be proportional too; here $6\\ne9$.",
+    "E": "It can: doubling the first equation exposes the conflict."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "systems-of-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

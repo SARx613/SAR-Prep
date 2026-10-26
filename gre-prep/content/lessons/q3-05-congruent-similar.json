@@ -1,0 +1,131 @@
+{
+ "why": "Similar triangles turn lengths into proportions, and many GRE figures hide a pair of similar or congruent triangles that unlock the answer.",
+ "rule": "**Congruent** triangles have the same shape and size. Two triangles are congruent if:\n- **SSS**: three pairs of sides are equal; or\n- **SAS**: two pairs of sides and the angle *between* them are equal; or\n- **ASA / AAS**: two pairs of angles and one pair of corresponding sides are equal.\n\n**Similar** triangles have the same shape: equal corresponding angles, and corresponding sides in one common ratio (the scale factor). Two equal angle pairs already force the third.\n\nLetter order gives the matching: $\\triangle ABC\\sim\\triangle DEF$ means $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{AC}{DF}$.",
+ "examples": [
+  {
+   "prompt": "$\\triangle ABC\\sim\\triangle DEF$ with $AB=6$, $DE=15$ and $BC=8$. Find $EF$.",
+   "steps": [
+    "Match sides by letters: $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}$, so $\\dfrac{6}{15}=\\dfrac{8}{EF}$.",
+    "Cross-multiply: $6\\cdot EF=120$, so $EF=20$."
+   ],
+   "answer": "EF = 20"
+  },
+  {
+   "prompt": "In triangle $PQR$, $PQ=5$, $QR=7$ and angle $Q=40^\\circ$. In triangle $XYZ$, $XY=5$, $YZ=7$ and angle $Y=40^\\circ$. Are they congruent?",
+   "steps": [
+    "The equal angle $Q$ lies between sides $PQ$ and $QR$, and $Y$ lies between $XY$ and $YZ$.",
+    "Two sides and the included angle match, so SAS applies: the triangles are congruent, with $PR=XZ$."
+   ],
+   "answer": "Yes, by SAS"
+  }
+ ],
+ "trap": "Match corresponding sides, those opposite equal angles, not the sides in the order you happen to read them. And equal angles alone prove only similarity, while two sides and an angle that is *not* between them prove nothing.",
+ "checks": [
+  {
+   "id": "q3-05-congruent-similar-c1",
+   "lessonId": "q3-05-congruent-similar",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "Triangles $ABC$ and $DEF$ are similar, with $AB=5$, $BC=7$ and $DE=15$. What is the length of $EF$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 21
+   },
+   "explanation": "$\\dfrac{AB}{DE}=\\dfrac{5}{15}=\\dfrac13$, so $EF=3\\cdot BC=21$.",
+   "estSeconds": 60,
+   "skills": [
+    "congruence",
+    "similarity"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-05-congruent-similar-c2",
+   "lessonId": "q3-05-congruent-similar",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "Triangles $ABC$ and $DEF$ have $\\angle A=\\angle D$, $\\angle B=\\angle E$ and $AB=DE$. Which criterion shows they are congruent?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "AAA"
+     },
+     {
+      "id": "B",
+      "text": "ASA"
+     },
+     {
+      "id": "C",
+      "text": "SAS"
+     },
+     {
+      "id": "D",
+      "text": "SSS"
+     },
+     {
+      "id": "E",
+      "text": "None; the triangles are only similar"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "Two angles and the side between them ($AB$ lies between $A$ and $B$) are equal: ASA.",
+   "choiceExplanations": {
+    "A": "Three equal angles give similarity only, and AAA is not a congruence criterion.",
+    "C": "Only one pair of sides is given.",
+    "D": "Only one pair of sides is given.",
+    "E": "A side lies between the two equal angles, so ASA applies."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "congruence",
+    "similarity"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-05-congruent-similar-c3",
+   "lessonId": "q3-05-congruent-similar",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The length of $ST$",
+    "quantityB": "7",
+    "common": "Triangle $PQR$ is congruent to triangle $STU$, and $PQ=7$."
+   },
+   "answer": {
+    "choice": "C"
+   },
+   "explanation": "Congruent triangles $PQR$ and $STU$ match $P\\leftrightarrow S$ and $Q\\leftrightarrow T$, so $ST=PQ=7$. Equal.",
+   "estSeconds": 60,
+   "skills": [
+    "congruence",
+    "similarity"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ],
+ "id": "q3-05-congruent-similar",
+ "status": "draft"
+}

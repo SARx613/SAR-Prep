@@ -1,0 +1,500 @@
+[
+ {
+  "id": "v3-01-formats-01",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is a benefit to a seed that ends up in an ant refuse chamber?",
+  "passageId": "v3-ant-seeds",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Protection from rodents"
+    },
+    {
+     "id": "B",
+     "text": "Protection from forest fires"
+    },
+    {
+     "id": "C",
+     "text": "More exposure to sunlight than seeds on the surface receive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "The passage says the seed is 'sheltered from rodents and from the fires' in the chamber, so A and C are supported. Sunlight is never discussed, and an underground chamber would, if anything, reduce it.",
+  "choiceExplanations": {
+   "C": "The chamber is underground, and the passage never mentions sunlight."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-02",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "According to the passage, concrete hardens because of",
+  "passageId": "v3-concrete",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "the evaporation of water from the mixture"
+    },
+    {
+     "id": "B",
+     "text": "exposure to hot, dry air"
+    },
+    {
+     "id": "C",
+     "text": "the formation of cracks at its surface"
+    },
+    {
+     "id": "D",
+     "text": "a chemical reaction between cement and water"
+    },
+    {
+     "id": "E",
+     "text": "periodic spraying with water"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The second sentence states the cause directly: 'a chemical reaction between cement and water'.",
+  "choiceExplanations": {
+   "A": "This is the 'commonly supposed' view that the passage rejects.",
+   "B": "Hot dry air actually weakens the surface.",
+   "C": "Cracks are a defect, not the cause of hardening.",
+   "E": "Spraying is a measure that helps the reaction continue; it is not the cause."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-03",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that describes a belief researchers held earlier.",
+  "passageId": "v3-ant-seeds",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Researchers once assumed that the chief benefit to the plant was distance, since a seed carried far from its parent should face less competition."
+  },
+  "explanation": "Only one sentence is about an earlier belief: 'once assumed' marks it as past, and the next sentence ('however') shows the belief was revised.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-formats",
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-04",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that gives a reason the trial's result might not apply to every workplace.",
+  "passageId": "v3-four-day-week",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "It would also note that the firm's work is unusually self-paced, so that its result may not extend to a call center or a hospital ward, where output depends on being present."
+  },
+  "explanation": "Only this sentence ties the limited reach of the result to the kind of work involved (self-paced versus dependent on presence). The earlier cautious sentence concerns observation, not the type of workplace.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-05",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, the second account (the 'more modest interpretation') holds which of the following?",
+  "passageId": "v3-nav-apps",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Following instructions requires little attention to landmarks."
+    },
+    {
+     "id": "B",
+     "text": "The apps have damaged an ability that people previously had."
+    },
+    {
+     "id": "C",
+     "text": "The apps may have prevented a mental map from forming."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "A and C paraphrase the middle of the passage. B belongs to the first account.",
+  "choiceExplanations": {
+   "B": "This is the first account."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-06",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the author's overall view of the trial?",
+  "passageId": "v3-four-day-week",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It is limited as evidence but still teaches a modest lesson."
+    },
+    {
+     "id": "B",
+     "text": "It proves that long workweeks are wasteful."
+    },
+    {
+     "id": "C",
+     "text": "It is worthless because employees knew they were being observed."
+    },
+    {
+     "id": "D",
+     "text": "It shows that a four-day week would suit a call center."
+    },
+    {
+     "id": "E",
+     "text": "It was carefully designed and needs no qualification."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The first half of the passage qualifies the result; the last sentence rescues a limited lesson.",
+  "choiceExplanations": {
+   "B": "Too strong: the author calls for a 'more cautious reading'.",
+   "C": "Too extreme: the author still finds the trial 'valuable'.",
+   "D": "Contradicts the author's caution about call centers.",
+   "E": "The author lists specific qualifications."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-formats",
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-07",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of the older advice about antibiotics?",
+  "passageId": "v3-antibiotics",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It rested on a worry that stopping early would leave resistant survivors."
+    },
+    {
+     "id": "B",
+     "text": "It has been questioned by recent reviews."
+    },
+    {
+     "id": "C",
+     "text": "It has been shown to be correct for every infection."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  },
+  "explanation": "The first paragraph gives the older reasoning; the second paragraph reports the recent challenge. C contradicts the last sentence.",
+  "choiceExplanations": {
+   "C": "The passage says longer treatment is essential only for some infections and that the blanket advice was 'never well grounded'."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-08",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Select the sentence that explains why the surviving scores leave gaps.",
+  "passageId": "v3-early-music",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Composers of earlier centuries left scores that were deliberately incomplete, trusting performers to supply ornaments, tempos and dynamics according to conventions that were never written down."
+  },
+  "explanation": "This sentence says the scores were deliberately incomplete because performers relied on unwritten conventions. The next sentence draws the consequence for modern reconstruction.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-09",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, a fresh concrete slab left in hot, dry air",
+  "passageId": "v3-concrete",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "may lose water at its surface faster than the hardening reaction uses it"
+    },
+    {
+     "id": "B",
+     "text": "will necessarily be weakened throughout its interior"
+    },
+    {
+     "id": "C",
+     "text": "may develop fine cracks in its surface"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "A and C paraphrase the third sentence. The passage says the interior may be sound, so B is wrong.",
+  "choiceExplanations": {
+   "B": "The interior 'may be perfectly sound'."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-10",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "In the third paragraph, select the sentence that states a limit on the evidence for shorter courses.",
+  "passageId": "v3-antibiotics",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 2
+  },
+  "answer": {
+   "sentence": "The evidence for shorter courses comes mostly from a few common infections, and for others, such as tuberculosis, longer treatment remains essential."
+  },
+  "explanation": "Within the third paragraph only this sentence limits the evidence ('mostly from a few common infections'). The first sentence is a caution about the rule, and the last gives the author's conclusion.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-formats"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-11",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "The passage is primarily concerned with",
+  "passageId": "v3-nav-apps",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "contrasting two explanations for a reported pattern"
+    },
+    {
+     "id": "B",
+     "text": "proving that navigation apps are harmful"
+    },
+    {
+     "id": "C",
+     "text": "describing how navigation apps work"
+    },
+    {
+     "id": "D",
+     "text": "recommending that travelers stop using navigation apps"
+    },
+    {
+     "id": "E",
+     "text": "comparing the sense of direction of different age groups"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The passage describes a pattern, offers two accounts and explains how they differ in what they predict.",
+  "choiceExplanations": {
+   "B": "The author calls the second account 'more modest' and treats both as possible; nothing is proved.",
+   "C": "The apps' operation is mentioned only to support an explanation.",
+   "D": "The passage makes no recommendation.",
+   "E": "Age groups are never mentioned."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats",
+   "rc-main-idea"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-01-formats-12",
+  "lessonId": "v3-01-formats",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Which of the following best describes the author's attitude toward early-music practice?",
+  "passageId": "v3-early-music",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Dismissive of it as futile"
+    },
+    {
+     "id": "B",
+     "text": "Enthusiastic about its claim to reproduce composers' intentions"
+    },
+    {
+     "id": "C",
+     "text": "Neutral toward both its results and its label"
+    },
+    {
+     "id": "D",
+     "text": "Skeptical of its results but accepting of its label"
+    },
+    {
+     "id": "E",
+     "text": "Appreciative of its results but critical of the label it uses"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "'Startlingly fresh' praises the results; 'claims more than the evidence can deliver' criticizes the label.",
+  "choiceExplanations": {
+   "A": "The author says the enterprise is not futile.",
+   "B": "The author thinks the claim to authenticity is overstated.",
+   "C": "The author expresses a definite view on the label.",
+   "D": "Reversed: the results are praised and the label criticized."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-formats",
+   "rc-perspective"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

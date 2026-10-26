@@ -1,0 +1,98 @@
+{
+ "id": "q4-01-tables-bars",
+ "status": "draft",
+ "why": "Almost every Data Interpretation set starts from a table or a bar graph, and the items test whether you read counts, totals and percents correctly.",
+ "rule": "A **categorical** variable has labels (eye color); a **numerical** variable has numbers (height).\n\n- **Frequency** = count. **Relative frequency** = frequency $\\div$ total, as a fraction, decimal or percent; relative frequencies add up to 1 (100%).\n- **Table**: read the title, units and total row first.\n- **Bar graph**: bar height is proportional to the value. A grouped graph has several bars per category.\n- **Segmented (stacked) bar**: one bar split into parts. A segment's value is its *length* (top minus bottom); the whole bar is the total.\n- Percents of *different* totals cannot be compared directly: convert to counts first, count = percent $\\times$ total.",
+ "examples": [
+  {
+   "prompt": "A frequency table covers 40 households. 12 of them have exactly one pet. What is the relative frequency of \"one pet\"?",
+   "steps": [
+    "Relative frequency = frequency $\\div$ total $= \\frac{12}{40}$.",
+    "$\\frac{12}{40} = 0.30 = 30\\%$."
+   ],
+   "answer": "30%"
+  },
+  {
+   "prompt": "A segmented bar for one store reaches 180 on the axis. The lower segment (online sales) ends at 110; the upper segment (in-store sales) ends at 180. What does each segment represent?",
+   "steps": [
+    "The lower segment starts at 0, so online sales are 110.",
+    "The upper segment starts at 110, so in-store sales are $180 - 110 = 70$, not 180.",
+    "Check: $110 + 70 = 180$, the total."
+   ],
+   "answer": "Online 110, in-store 70"
+  }
+ ],
+ "trap": "A higher percent is not a higher count. 40% of 500 is 200, but 45% of 300 is only 135. When totals differ, turn each percent into a count before comparing.",
+ "checks": [
+  {
+   "id": "q4-01-tables-bars-c1",
+   "lessonId": "q4-01-tables-bars",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A table has 48 observations in total, and one category has frequency 12. What is that category's relative frequency, as a percent?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 25
+   },
+   "explanation": "$\\frac{12}{48} = \\frac14 = 25\\%$.",
+   "estSeconds": 45,
+   "skills": [
+    "relative-frequency"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-01-tables-bars-c2",
+   "lessonId": "q4-01-tables-bars",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "A segmented bar graph shows a bar that reaches 150 on the axis. Its lower segment ends at 95. What value does the upper segment represent?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 55
+   },
+   "explanation": "The upper segment's value is its length: $150 - 95 = 55$.",
+   "estSeconds": 50,
+   "skills": [
+    "bar-graphs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-01-tables-bars-c3",
+   "lessonId": "q4-01-tables-bars",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "20 percent of 500",
+    "quantityB": "25 percent of 300"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "Convert to counts: $0.20 \\times 500 = 100$ and $0.25 \\times 300 = 75$. Quantity A is greater, even though the percent in B is larger.",
+   "estSeconds": 60,
+   "skills": [
+    "percent-of-total"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

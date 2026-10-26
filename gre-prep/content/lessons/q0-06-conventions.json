@@ -1,0 +1,129 @@
+{
+ "id": "q0-06-conventions",
+ "status": "draft",
+ "why": "Every Quant section opens with the same assumptions about numbers and figures, and several wrong answers come from trusting a picture that was never to scale.",
+ "rule": "- **Numbers** are real; a variable with no restriction can be any real number. A prime exceeds 1; distances are nonnegative; the positive direction points right (or up); $x/0$ is undefined.\n- **Geometry figures are not necessarily to scale.** Do not read lengths, angles or areas by sight. You *may* assume straight lines are straight, points on a line are in the order shown, and objects are in their relative positions. Marks and labels are given facts.\n- **To scale** (read by sight): coordinate systems, number lines, bar, circle and line graphs.\n- **Order of operations**: $-3^2=-9$, but $(-3)^2=9$.\n- \"Difference\" means positive difference; numbers given are exact.",
+ "examples": [
+  {
+   "prompt": "A figure shows triangle ABC with D on side AC, BD drawn, a square mark at D between BD and DC, and AD looking longer than DC. What can you assume?",
+   "steps": [
+    "D is between A and C, because points on a line are in the order shown.",
+    "Angle BDC is a right angle: the square mark says so.",
+    "Do not assume AD is longer than DC, or that the triangle is isosceles, however it looks."
+   ],
+   "answer": "D is between A and C, and angle BDC is right; nothing about lengths."
+  },
+  {
+   "prompt": "Compare $-3^2$ and $(-3)^2$.",
+   "steps": [
+    "Exponentiation takes precedence over negation: $-3^2=-(9)=-9$.",
+    "Parentheses come first: $(-3)^2=9$."
+   ],
+   "answer": "$-9$ and $9$"
+  }
+ ],
+ "trap": "Measuring a drawing: a triangle that looks isosceles or an angle that looks right is not given as such. The reverse error is distrusting a bar graph or number line, which are drawn to scale.",
+ "checks": [
+  {
+   "id": "q0-06-conventions-c1",
+   "lessonId": "q0-06-conventions",
+   "type": "PS",
+   "difficulty": 1,
+   "stem": "Which of the following is drawn to scale?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A triangle in a geometry question"
+     },
+     {
+      "id": "B",
+      "text": "A circle with a chord"
+     },
+     {
+      "id": "C",
+      "text": "A bar graph"
+     },
+     {
+      "id": "D",
+      "text": "A quadrilateral"
+     },
+     {
+      "id": "E",
+      "text": "A pair of intersecting lines"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   },
+   "explanation": "Bar graphs, circle graphs, line graphs, xy-planes and number lines are drawn to scale.",
+   "choiceExplanations": {
+    "A": "Not necessarily to scale.",
+    "B": "Not necessarily to scale.",
+    "D": "Not necessarily to scale.",
+    "E": "Not necessarily to scale."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q0-06-conventions-c2",
+   "lessonId": "q0-06-conventions",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "What is the value of $-4^2$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -16
+   },
+   "explanation": "Exponent first: $-(4^2)=-16$.",
+   "estSeconds": 45,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q0-06-conventions-c3",
+   "lessonId": "q0-06-conventions",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "$AC$",
+    "quantityB": "10",
+    "common": "$A$, $B$, $C$ lie on a line in that order, with $AB=6$ and $BC=4$."
+   },
+   "answer": {
+    "choice": "C"
+   },
+   "explanation": "$AB+BC=6+4=10$ since $B$ is between $A$ and $C$ on the line.",
+   "estSeconds": 60,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

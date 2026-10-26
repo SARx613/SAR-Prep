@@ -1,0 +1,131 @@
+{
+ "why": "Angle sums, isosceles triangles, the triangle inequality and the Pythagorean theorem appear in a large share of GRE geometry items.",
+ "rule": "The interior angles of a triangle add up to 180°. Each side is shorter than the sum of the other two, so the third side lies between the difference and the sum of the other two.\n\n- **Equilateral**: three equal sides and three 60° angles.\n- **Isosceles**: two equal sides; the angles opposite them are equal, and conversely.\n- **Right**: one 90° angle. The side opposite it is the **hypotenuse** (the longest side); the other two are **legs**.\n\n**Pythagorean theorem**: in a right triangle\n$$\\text{leg}_1^{\\,2}+\\text{leg}_2^{\\,2}=\\text{hypotenuse}^2 .$$",
+ "examples": [
+  {
+   "prompt": "In triangle $PQR$, $PQ=PR$ and the angle at $P$ is 38°. How large is the angle at $Q$?",
+   "steps": [
+    "Equal sides $PQ$ and $PR$ are opposite the angles at $R$ and $Q$, so those two angles are equal.",
+    "Together they make $180-38=142$, so each is $142\\div2=71$."
+   ],
+   "answer": "71°"
+  },
+  {
+   "prompt": "A right triangle has hypotenuse 17 and one leg of length 8. How long is the other leg?",
+   "steps": [
+    "Let the other leg be $x$: $8^2+x^2=17^2$.",
+    "$x^2=289-64=225$, so $x=15$ (a length is positive)."
+   ],
+   "answer": "15"
+  }
+ ],
+ "trap": "The sum of the squares applies to the two *legs*, and the hypotenuse is the side opposite the right angle: when you know the hypotenuse you subtract. Also, a triangle that merely looks right-angled or isosceles is not: you need a right-angle mark, equal-side marks, or the text.",
+ "checks": [
+  {
+   "id": "q3-03-triangles-pythagoras-c1",
+   "lessonId": "q3-03-triangles-pythagoras",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "Two angles of a triangle measure 48° and 67°. What is the measure, in degrees, of the third angle?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 65
+   },
+   "explanation": "$180-48-67=65$.",
+   "estSeconds": 45,
+   "skills": [
+    "triangles",
+    "pythagorean-theorem"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-03-triangles-pythagoras-c2",
+   "lessonId": "q3-03-triangles-pythagoras",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "A right triangle has legs of length 5 and 12. What is the length of its hypotenuse?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "7"
+     },
+     {
+      "id": "B",
+      "text": "13"
+     },
+     {
+      "id": "C",
+      "text": "15"
+     },
+     {
+      "id": "D",
+      "text": "17"
+     },
+     {
+      "id": "E",
+      "text": "60"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "$5^2+12^2=25+144=169$, so the hypotenuse is $\\sqrt{169}=13$.",
+   "choiceExplanations": {
+    "A": "Adding the legs is not the theorem; the sum $5+12=17$ is also too large, and 7 is their difference.",
+    "C": "Check: $5^2+12^2=169$, but $15^2=225$.",
+    "D": "That is the sum of the legs, which always exceeds the hypotenuse.",
+    "E": "That is the product of the legs."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "triangles",
+    "pythagorean-theorem"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-03-triangles-pythagoras-c3",
+   "lessonId": "q3-03-triangles-pythagoras",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The length of the third side",
+    "quantityB": "15",
+    "common": "Two sides of a triangle have lengths 6 and 9."
+   },
+   "answer": {
+    "choice": "B"
+   },
+   "explanation": "The third side $x$ must be shorter than the sum of the other two: $x<6+9=15$. So Quantity B is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "triangles",
+    "pythagorean-theorem"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ],
+ "id": "q3-03-triangles-pythagoras",
+ "status": "draft"
+}

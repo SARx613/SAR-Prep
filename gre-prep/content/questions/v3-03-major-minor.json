@@ -1,0 +1,507 @@
+[
+ {
+  "id": "v3-03-major-minor-01",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Which of the following does the author state as established fact rather than as a prediction?",
+  "passageId": "v3-libraries",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Book lending has declined in most branches."
+    },
+    {
+     "id": "B",
+     "text": "Libraries will survive as free public spaces."
+    },
+    {
+     "id": "C",
+     "text": "Attendance at those branches has grown."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "A and C are asserted flatly ('has indeed declined', 'report steady growth'). B is advanced tentatively with 'seems likely'.",
+  "choiceExplanations": {
+   "B": "This is hedged: 'It seems likely' marks a prediction."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-reported-vs-advanced",
+   "rc-hedges"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-02",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 1,
+  "stem": "Select the sentence that gives the author's own conclusion, stated with qualification.",
+  "passageId": "v3-green-space",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "A fair assessment, then, is that green space may well contribute to health, but the observed association cannot by itself show how large the contribution is."
+  },
+  "explanation": "'A fair assessment, then' introduces the author's conclusion, hedged with 'may well'.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-hedges"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-03",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Select the sentence that reports a view the author does not share.",
+  "passageId": "v3-libraries",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Some critics take this as proof that libraries have outlived their purpose."
+  },
+  "explanation": "'Some critics take this as proof' attributes a conclusion to others, and the 'But' that follows shows the author rejects it. The neighbouring sentence is a fact the author grants.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-04",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "Which of the following does the author report without endorsing?",
+  "passageId": "v3-painter",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The late canvases show declining powers."
+    },
+    {
+     "id": "B",
+     "text": "The late style was a deliberate refinement."
+    },
+    {
+     "id": "C",
+     "text": "Marchand destroyed several ornate early studies."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "Only the critics held the 'declining powers' view; the author sets it aside with 'Yet'. B is the author's own advanced view and C a stated fact.",
+  "choiceExplanations": {
+   "B": "This is the author's own conclusion, offered with a condition ('If this reading ... is right').",
+   "C": "The author states this as fact, drawing on the letters."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-05",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 2,
+  "stem": "In the first paragraph, select the sentence that states an explanation the author attributes to others.",
+  "passageId": "v3-school-start",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 0
+  },
+  "answer": {
+   "sentence": "Proponents of later school start times argue that teenagers' biological clocks shift toward later sleeping and waking at puberty, so that an early bell compels students to learn while still physiologically drowsy."
+  },
+  "explanation": "'Proponents ... argue' attributes the biological explanation to supporters of later start times. The following sentence reports results rather than an explanation.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-06",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Which of the following is attributed to others rather than asserted by the author?",
+  "passageId": "v3-green-space",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Higher income is associated with better health."
+    },
+    {
+     "id": "B",
+     "text": "People are not assigned to neighborhoods at random."
+    },
+    {
+     "id": "C",
+     "text": "Families with higher incomes can afford to live near parks."
+    },
+    {
+     "id": "D",
+     "text": "Green space improves health by reducing stress and encouraging exercise."
+    },
+    {
+     "id": "E",
+     "text": "Studies of residents who move would be more informative."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "'A number of researchers have argued exactly that' attributes the improvement claim, and its mechanisms, to others.",
+  "choiceExplanations": {
+   "A": "The author asserts this as a fact.",
+   "B": "The author asserts this with 'Yet'.",
+   "C": "The author asserts this as a fact.",
+   "E": "The author advances this as a recommendation."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-07",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "Which of the following is presented as a position that was held by some but is ultimately rejected?",
+  "passageId": "v3-reversals",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Reversed rocks might merely reflect a mineral's self-reversing magnetization and tell nothing about the field."
+    },
+    {
+     "id": "B",
+     "text": "Earth's magnetic field has reversed polarity many times."
+    },
+    {
+     "id": "C",
+     "text": "Magnetic grains in cooling lava align with the field and are locked in place."
+    },
+    {
+     "id": "D",
+     "text": "Layers laid down at different times point in nearly opposite directions."
+    },
+    {
+     "id": "E",
+     "text": "Rocks of the same age from distant continents show the same reversal pattern."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "explanation": "The objection is reported as 'some argued' and then defeated by the evidence in the next sentences.",
+  "choiceExplanations": {
+   "B": "This is the explanation that became accepted.",
+   "C": "This is the mechanism by which rocks record direction, stated as fact.",
+   "D": "This is an observation that all parties accept.",
+   "E": "This is the decisive evidence the passage reports."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-08",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 3,
+  "stem": "In the second paragraph, select the sentence that reports an objection raised by others.",
+  "passageId": "v3-reversals",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "Some argued that certain minerals can spontaneously acquire a magnetization opposite to that of the surrounding field, so that reversed rocks might say nothing about the field at all."
+  },
+  "explanation": "'Some argued' attributes the objection; the following sentences supply the evidence that settled the issue.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-09",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Which of the following does the author present as speculation rather than as an established point?",
+  "passageId": "v3-painter",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Critics read the late canvases as signs of fatigue."
+    },
+    {
+     "id": "B",
+     "text": "Marchand's late manner anticipated tastes that came later."
+    },
+    {
+     "id": "C",
+     "text": "Marchand wrote of wishing to 'subtract' from her pictures."
+    },
+    {
+     "id": "D",
+     "text": "Marchand destroyed several early studies she found too ornate."
+    },
+    {
+     "id": "E",
+     "text": "The fatigue reading became orthodoxy within a generation."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "'I would go further and suggest, though I cannot prove it' explicitly marks the claim about later tastes as speculative.",
+  "choiceExplanations": {
+   "A": "Stated as a historical fact about the critics, not hedged.",
+   "C": "Stated as fact from the surviving letters.",
+   "D": "Stated as fact about her own early studies.",
+   "E": "Stated as fact about the critical reception."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-hedges",
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-10",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 4,
+  "stem": "Which of the following does the author put forward as the author's own tentative view?",
+  "passageId": "v3-bird-dialects",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Dialects help females recognize males of their own population."
+    },
+    {
+     "id": "B",
+     "text": "Songbirds learn their songs from adult tutors."
+    },
+    {
+     "id": "C",
+     "text": "In some species, females prefer local songs."
+    },
+    {
+     "id": "D",
+     "text": "Dialects should differ most between groups that rarely exchange young birds."
+    },
+    {
+     "id": "E",
+     "text": "Dialects may be merely a by-product of imperfect copying."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "'A second possibility, which I find at least as likely' is the author's own hedged view.",
+  "choiceExplanations": {
+   "A": "A 'long-standing hypothesis' attributed to others, which the author does not adopt.",
+   "B": "Stated as fact in the first sentence.",
+   "C": "An experimental result, reported rather than speculated.",
+   "D": "A prediction of the by-product view, which the author mentions after stating the view."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-hedges",
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-11",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Which of the following does the author present as speculation?",
+  "passageId": "v3-school-start",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Teenagers' biological clocks shift later at puberty."
+    },
+    {
+     "id": "B",
+     "text": "The gains came from the attention paid to students rather than from additional sleep."
+    },
+    {
+     "id": "C",
+     "text": "Districts that delayed their start times reported higher attendance."
+    },
+    {
+     "id": "D",
+     "text": "Districts that choose to delay often have administrators committed to improvement."
+    },
+    {
+     "id": "E",
+     "text": "Nothing in the evidence so far suggests harm."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "'It is conceivable, though untested' marks the attention explanation as speculative.",
+  "choiceExplanations": {
+   "A": "This is a claim attributed to proponents, not the author's own speculation.",
+   "C": "This is a report of what districts said.",
+   "D": "The author states this as a tendency, without hedging.",
+   "E": "The author says this 'with some confidence'."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-hedges",
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "v3-03-major-minor-12",
+  "lessonId": "v3-03-major-minor",
+  "type": "RC",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following has not been firmly established?",
+  "passageId": "v3-bird-dialects",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Dialects help keep locally adapted traits intact."
+    },
+    {
+     "id": "B",
+     "text": "Many songbirds learn their songs from adult tutors."
+    },
+    {
+     "id": "C",
+     "text": "Dialect differences are largest between groups that rarely exchange young birds."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  },
+  "explanation": "The first is only a hypothesis with mixed experimental results. The pattern in C has been 'reported but not yet systematically tested'. Tutor learning is stated as fact.",
+  "choiceExplanations": {
+   "B": "This is stated as fact at the start of the passage."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-hedges",
+   "rc-reported-vs-advanced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

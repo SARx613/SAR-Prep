@@ -1,0 +1,101 @@
+{
+ "id": "q4-08-probability-basics",
+ "status": "draft",
+ "why": "Probability items ask for chances of single and combined events, and they test the rules for \"not\", \"or\" and \"and\" more than any arithmetic.",
+ "rule": "A random experiment has a **sample space** (all outcomes); an **event** is a set of outcomes. If all outcomes are equally likely, $P(E) = \\frac{\\text{outcomes in } E}{\\text{all outcomes}}$.\n\n- $0 \\le P(E) \\le 1$, the probabilities of all outcomes add to 1, and $P(\\text{not } E) = 1 - P(E)$.\n- $P(E \\text{ or } F) = P(E) + P(F) - P(E \\text{ and } F)$.\n- Events that cannot occur together are **mutually exclusive**: $P(E \\text{ and } F) = 0$, so probabilities simply add.\n- If outcomes are not equally likely, call one probability $p$, express the others in terms of $p$, and use sum $= 1$.",
+ "examples": [
+  {
+   "prompt": "A card is drawn at random from 20 cards numbered 1 to 20. What is the probability that its number is a multiple of 4 or a multiple of 6?",
+   "steps": [
+    "Multiples of 4: 4, 8, 12, 16, 20 (5 cards). Multiples of 6: 6, 12, 18 (3 cards). Both: 12 (1 card).",
+    "$P = \\frac{5}{20} + \\frac{3}{20} - \\frac{1}{20} = \\frac{7}{20}$."
+   ],
+   "answer": "$\\frac{7}{20}$"
+  },
+  {
+   "prompt": "A weighted coin lands heads with probability twice the probability of tails. What is $P(\\text{heads})$?",
+   "steps": [
+    "Let $P(\\text{tails}) = p$, so $P(\\text{heads}) = 2p$.",
+    "$p + 2p = 1$, so $p = \\frac13$ and $P(\\text{heads}) = \\frac23$."
+   ],
+   "answer": "$\\frac{2}{3}$"
+  }
+ ],
+ "trap": "Adding probabilities of overlapping events counts the overlap twice: subtract $P(E \\text{ and } F)$ (above, card 12 is both). For \"at least one\" or \"not\", the complement $1 - P$ is often the shortcut.",
+ "checks": [
+  {
+   "id": "q4-08-probability-basics-c1",
+   "lessonId": "q4-08-probability-basics",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "A bag holds 5 red marbles and 3 blue marbles. One marble is drawn at random. What is the probability that it is blue?",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.375,
+    "fraction": {
+     "numerator": 3,
+     "denominator": 8
+    }
+   },
+   "explanation": "$\\frac{3}{5 + 3} = \\frac{3}{8}$.",
+   "estSeconds": 45,
+   "skills": [
+    "probability"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-08-probability-basics-c2",
+   "lessonId": "q4-08-probability-basics",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "Events $E$ and $F$ are mutually exclusive, with $P(E) = 0.5$ and $P(F) = 0.3$. What is the probability that $E$ or $F$ occurs?",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 0.8
+   },
+   "explanation": "For mutually exclusive events, $P(E \\text{ or } F) = 0.5 + 0.3 = 0.8$.",
+   "estSeconds": 45,
+   "skills": [
+    "mutually-exclusive"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-08-probability-basics-c3",
+   "lessonId": "q4-08-probability-basics",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The probability of not rolling a 6 on a fair six-sided die",
+    "quantityB": "0.8"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "$P(\\text{not } 6) = 1 - \\frac16 = \\frac56 \\approx 0.833$, which is greater than 0.8.",
+   "estSeconds": 60,
+   "skills": [
+    "complement"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

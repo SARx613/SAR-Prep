@@ -1,0 +1,128 @@
+{
+ "why": "Interior-angle sums and regular polygons are tested directly, and the same facts hide inside figures built from several shapes.",
+ "rule": "A **polygon** (the GRE means a convex one) is a closed figure of straight sides meeting at vertices. Its **perimeter** is the sum of the side lengths.\n\nDrawing diagonals from one vertex cuts an $n$-sided polygon into $n-2$ triangles, so the interior angles add up to\n$$(n-2)\\cdot180^\\circ .$$\n\nIn a **regular** polygon all sides are equal and all angles are equal, so each angle is $\\frac{(n-2)\\cdot180^\\circ}{n}$ and the perimeter is $n$ times one side.",
+ "examples": [
+  {
+   "prompt": "What is the sum of the interior angles of a nonagon (9 sides)? If it is regular, how large is each angle?",
+   "steps": [
+    "Sum: $(9-2)\\cdot180=1260^\\circ$.",
+    "Regular: all nine angles are equal, so each is $1260\\div9=140^\\circ$."
+   ],
+   "answer": "1260° in total; 140° each"
+  },
+  {
+   "prompt": "Five interior angles of a pentagon measure $90^\\circ$, $100^\\circ$, $110^\\circ$, $x^\\circ$ and $2x^\\circ$. Find $x$.",
+   "steps": [
+    "A pentagon's angles sum to $(5-2)\\cdot180=540$.",
+    "$90+100+110+x+2x=540$, so $300+3x=540$.",
+    "$3x=240$, so $x=80$."
+   ],
+   "answer": "x = 80"
+  }
+ ],
+ "trap": "The sum depends on $n-2$, not on $n$: a hexagon has $4\\cdot180=720$, not $6\\cdot180$. And only a polygon called *regular* has equal angles; a polygon that is merely named (say, a hexagon) can have angles of any sizes that add to the right total.",
+ "checks": [
+  {
+   "id": "q3-02-polygons-c1",
+   "lessonId": "q3-02-polygons",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is the sum, in degrees, of the interior angles of a polygon with 8 sides?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 1080
+   },
+   "explanation": "$(8-2)\\cdot180=6\\cdot180=1080$.",
+   "estSeconds": 45,
+   "skills": [
+    "polygon-angles"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-02-polygons-c2",
+   "lessonId": "q3-02-polygons",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "What is the measure of each interior angle of a regular hexagon?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$60^\\circ$"
+     },
+     {
+      "id": "B",
+      "text": "$90^\\circ$"
+     },
+     {
+      "id": "C",
+      "text": "$108^\\circ$"
+     },
+     {
+      "id": "D",
+      "text": "$120^\\circ$"
+     },
+     {
+      "id": "E",
+      "text": "$720^\\circ$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   },
+   "explanation": "The sum is $(6-2)\\cdot180=720$; six equal angles give $720\\div6=120^\\circ$.",
+   "choiceExplanations": {
+    "A": "That is an angle of an equilateral triangle.",
+    "B": "That is a square's angle.",
+    "C": "That is a regular pentagon's angle.",
+    "E": "That is the sum of the six angles, not one angle."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "polygon-angles"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q3-02-polygons-c3",
+   "lessonId": "q3-02-polygons",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "The sum of the interior angles of a pentagon",
+    "quantityB": "500"
+   },
+   "answer": {
+    "choice": "A"
+   },
+   "explanation": "A pentagon has $(5-2)\\cdot180=540$ degrees of interior angle. $540>500$.",
+   "estSeconds": 60,
+   "skills": [
+    "polygon-angles"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ],
+ "id": "q3-02-polygons",
+ "status": "draft"
+}

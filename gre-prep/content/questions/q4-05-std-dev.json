@@ -1,0 +1,559 @@
+[
+ {
+  "id": "q4-05-std-dev-01",
+  "lessonId": "q4-05-std-dev",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "Which of the following lists of numbers has a standard deviation of 0?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2, 3, 4"
+    },
+    {
+     "id": "B",
+     "text": "5, 5, 5, 5"
+    },
+    {
+     "id": "C",
+     "text": "1, 1, 2"
+    },
+    {
+     "id": "D",
+     "text": "0, 10"
+    },
+    {
+     "id": "E",
+     "text": "1, 2, 1, 2"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The SD is 0 only when every value equals the mean, that is, when all values are identical. Only 5, 5, 5, 5 qualifies.",
+  "choiceExplanations": {
+   "A": "These values differ from their mean of 3.",
+   "C": "One value differs from the other two.",
+   "D": "Both values are 5 away from the mean 5.",
+   "E": "The values differ from their mean of 1.5."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "std-dev"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-02",
+  "lessonId": "q4-05-std-dev",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "A set of data has a mean of 50 and a standard deviation of 5. The value 65 is how many standard deviations above the mean?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "$\\frac{65 - 50}{5} = 3$.",
+  "estSeconds": 45,
+  "skills": [
+   "standardization"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-03",
+  "lessonId": "q4-05-std-dev",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "What is the standard deviation of the numbers 3, 3, 9 and 9?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  },
+  "explanation": "The mean is 6. Every value is 3 away from it, so each squared difference is 9, the average is 9, and the SD is $\\sqrt{9} = 3$.",
+  "estSeconds": 60,
+  "skills": [
+   "std-dev"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-04",
+  "lessonId": "q4-05-std-dev",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The standard deviation of the numbers 10, 12, 14, 16, 18",
+   "quantityB": "The standard deviation of the numbers 40, 42, 44, 46, 48"
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "The second list is the first with 30 added to each value. The distances from the mean are unchanged, so the standard deviations are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "std-dev"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-05",
+  "lessonId": "q4-05-std-dev",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Each of the following lists has five numbers and a mean of 10. Which list has the greatest standard deviation?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "8, 9, 10, 11, 12"
+    },
+    {
+     "id": "B",
+     "text": "6, 8, 10, 12, 14"
+    },
+    {
+     "id": "C",
+     "text": "10, 10, 10, 10, 10"
+    },
+    {
+     "id": "D",
+     "text": "4, 7, 10, 13, 16"
+    },
+    {
+     "id": "E",
+     "text": "9, 10, 10, 10, 11"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "The means are equal, so compare how far the values sit from 10. The list 4, 7, 10, 13, 16 has the largest distances (6, 3, 0, 3, 6).",
+  "choiceExplanations": {
+   "A": "These values are fairly close to 10.",
+   "B": "More spread than the first list, but less than 4, 7, 10, 13, 16.",
+   "C": "All values equal the mean: the SD is 0, the smallest.",
+   "E": "These values are very close to 10."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "std-dev",
+   "comparison"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-06",
+  "lessonId": "q4-05-std-dev",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "What is the standard deviation of the numbers 6, 10, 10, 10, 12 and 12?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  },
+  "explanation": "The mean is $\\frac{60}{6} = 10$. Differences: $-4, 0, 0, 0, 2, 2$; squares: 16, 0, 0, 0, 4, 4, which add to 24. Average $= \\frac{24}{6} = 4$, so the SD is 2.",
+  "estSeconds": 100,
+  "skills": [
+   "std-dev"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-07",
+  "lessonId": "q4-05-std-dev",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "Both classes have a mean score of 3. Which statement about their standard deviations is correct?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Class X has the greater standard deviation, because it has more students with a score of 3."
+    },
+    {
+     "id": "B",
+     "text": "Class Y has the greater standard deviation, because more of its scores lie far from the mean of 3."
+    },
+    {
+     "id": "C",
+     "text": "The standard deviations are equal, because the means and the medians are equal."
+    },
+    {
+     "id": "D",
+     "text": "The standard deviations are equal, because both classes have the same range."
+    },
+    {
+     "id": "E",
+     "text": "Class X has the greater standard deviation, because its scores have the larger range."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Class Y has 12 of its 20 scores at 1 or 5, two points from the mean. Class X has most scores at 2, 3 or 4. Values farther from the mean give the larger SD, so Class Y's is greater.",
+  "choiceExplanations": {
+   "A": "More scores at the mean means less spread, so X has the smaller SD.",
+   "C": "Equal means and medians say nothing about spread.",
+   "D": "The ranges are equal (1 to 5), but the SD depends on all values.",
+   "E": "The ranges are equal (1 to 5), and the SD of X is smaller."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "std-dev",
+   "comparison"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Quiz scores (1 to 5 points) in two classes of 20 students",
+   "data": {
+    "columns": [
+     "Score",
+     "Class X: number of students",
+     "Class Y: number of students"
+    ],
+    "rows": [
+     [
+      1,
+      1,
+      6
+     ],
+     [
+      2,
+      5,
+      2
+     ],
+     [
+      3,
+      8,
+      4
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      5,
+      1,
+      6
+     ],
+     [
+      "Total",
+      20,
+      20
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-08",
+  "lessonId": "q4-05-std-dev",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A set of test scores has a mean of 82 and a standard deviation of 6. A score of 70 is how many standard deviations from the mean (negative if below)?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  },
+  "explanation": "$\\frac{70 - 82}{6} = -2$: the score is 2 SDs below the mean.",
+  "estSeconds": 60,
+  "skills": [
+   "standardization"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-09",
+  "lessonId": "q4-05-std-dev",
+  "type": "DI",
+  "difficulty": 4,
+  "stem": "Which of the following statements about the two classes are true? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The two classes have the same mean score."
+    },
+    {
+     "id": "B",
+     "text": "The two classes have the same median score."
+    },
+    {
+     "id": "C",
+     "text": "The two classes have the same range of scores."
+    },
+    {
+     "id": "D",
+     "text": "The two classes have the same standard deviation."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "explanation": "Both means are 3 (total points 60 over 20 students). In each class the 10th and 11th scores are both 3, so both medians are 3. Both ranges are $5 - 1 = 4$. The spreads differ, so the SDs differ.",
+  "choiceExplanations": {
+   "D": "Class Y has more scores far from 3, so its SD is greater."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "std-dev",
+   "median"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Quiz scores (1 to 5 points) in two classes of 20 students",
+   "data": {
+    "columns": [
+     "Score",
+     "Class X: number of students",
+     "Class Y: number of students"
+    ],
+    "rows": [
+     [
+      1,
+      1,
+      6
+     ],
+     [
+      2,
+      5,
+      2
+     ],
+     [
+      3,
+      8,
+      4
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      5,
+      1,
+      6
+     ],
+     [
+      "Total",
+      20,
+      20
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-10",
+  "lessonId": "q4-05-std-dev",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The standard deviation of the numbers 1, 2, 3, 4, 5",
+   "quantityB": "The standard deviation of the numbers 1, 2, 3, 3, 4, 5"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "Both lists have mean 3. The sum of squared differences is 10 in both (the extra 3 adds 0), but the second average divides by 6 instead of 5. So the second SD is smaller: adding a value equal to the mean reduces the SD.",
+  "estSeconds": 100,
+  "skills": [
+   "std-dev",
+   "comparison"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-11",
+  "lessonId": "q4-05-std-dev",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "A list of six numbers has a standard deviation of 4. Which of the following changes produce a list that also has a standard deviation of 4? Indicate all such changes.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Add 10 to every number."
+    },
+    {
+     "id": "B",
+     "text": "Subtract the mean of the list from every number."
+    },
+    {
+     "id": "C",
+     "text": "Multiply every number by 2."
+    },
+    {
+     "id": "D",
+     "text": "Write each number twice, giving a list of 12 numbers."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  },
+  "explanation": "Adding or subtracting the same amount shifts every value and the mean equally, so all distances from the mean stay the same. Writing each number twice keeps the mean and the average of the squared differences unchanged. Doubling every value doubles every distance, so the SD would be 8.",
+  "choiceExplanations": {
+   "C": "Doubling every value doubles the distances from the mean, so the SD becomes 8."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "std-dev",
+   "transformations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-05-std-dev-12",
+  "lessonId": "q4-05-std-dev",
+  "type": "DI",
+  "difficulty": 5,
+  "stem": "What is the standard deviation of the scores in Class Y? Round your answer to the nearest tenth.",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 1.6,
+   "tolerance": 0.05
+  },
+  "explanation": "The mean is 3. Squared differences from 3: score 1 and 5 give 4 each (12 students); scores 2 and 4 give 1 each (4 students); score 3 gives 0. Sum $= 12 \\times 4 + 4 \\times 1 = 52$. Average $= \\frac{52}{20} = 2.6$, and $\\sqrt{2.6} \\approx 1.61$, so about 1.6.",
+  "estSeconds": 150,
+  "skills": [
+   "std-dev"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Quiz scores (1 to 5 points) in two classes of 20 students",
+   "data": {
+    "columns": [
+     "Score",
+     "Class X: number of students",
+     "Class Y: number of students"
+    ],
+    "rows": [
+     [
+      1,
+      1,
+      6
+     ],
+     [
+      2,
+      5,
+      2
+     ],
+     [
+      3,
+      8,
+      4
+     ],
+     [
+      4,
+      5,
+      2
+     ],
+     [
+      5,
+      1,
+      6
+     ],
+     [
+      "Total",
+      20,
+      20
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -1,0 +1,460 @@
+[
+ {
+  "id": "q1-08-decimals-01",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "In the number $8{,}206.357$, which digit is in the hundredths place?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    },
+    {
+     "id": "E",
+     "text": "7"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "After the decimal point the places are tenths (3), hundredths (5) and thousandths (7).",
+  "choiceExplanations": {
+   "A": "0 is in the tens place.",
+   "B": "3 is in the tenths place.",
+   "D": "6 is in the ones place.",
+   "E": "7 is in the thousandths place."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-02",
+  "lessonId": "q1-08-decimals",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is $4.2-1.75$? Enter your answer as a decimal.",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 2.45
+  },
+  "explanation": "Write $4.2$ as $4.20$. Then $4.20-1.75 = 2.45$.",
+  "estSeconds": 60,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-03",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following fractions equals $0.036$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{9}{2500}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{9}{500}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{9}{250}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{9}{25}$"
+    },
+    {
+     "id": "E",
+     "text": "$36$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$0.036 = \\frac{36}{1000}$. Divide top and bottom by 4: $\\frac{9}{250}$.",
+  "choiceExplanations": {
+   "A": "This is $\\frac{36}{10000} = 0.0036$.",
+   "B": "This is $0.018$: it halves $\\frac{36}{1000}$ instead of dividing by 4.",
+   "D": "This is $\\frac{36}{100} = 0.36$.",
+   "E": "This uses the digits 36 and ignores the decimal point."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-04",
+  "lessonId": "q1-08-decimals",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$0.2\\times0.3$",
+   "quantityB": "$0.5\\times0.1$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "$\\frac{2}{10}\\cdot\\frac{3}{10} = \\frac{6}{100} = 0.06$; $\\frac{5}{10}\\cdot\\frac{1}{10} = \\frac{5}{100} = 0.05$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-05",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $0.25$? Indicate all such numbers.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{4}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{25}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{25}{10}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{25}{100}$"
+    },
+    {
+     "id": "E",
+     "text": "$0.250$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  },
+  "explanation": "$\\frac{25}{100} = 0.25$ and reduces to $\\frac{1}{4}$; a trailing zero does not change a decimal, so $0.250 = 0.25$. $\\frac{1}{25} = 0.04$ and $\\frac{25}{10} = 2.5$.",
+  "choiceExplanations": {
+   "B": "$\\frac{1}{25} = \\frac{4}{100} = 0.04$.",
+   "C": "$\\frac{25}{10} = 2.5$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-06",
+  "lessonId": "q1-08-decimals",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "What is the value of $0.84\\div0.07$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  },
+  "explanation": "Multiply top and bottom by 100: $\\frac{0.84}{0.07} = \\frac{84}{7} = 12$.",
+  "estSeconds": 60,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-07",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following equals $4\\cdot10^2+7\\cdot10^{-1}+3\\cdot10^{-3}$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$40.703$"
+    },
+    {
+     "id": "B",
+     "text": "$400.073$"
+    },
+    {
+     "id": "C",
+     "text": "$400.703$"
+    },
+    {
+     "id": "D",
+     "text": "$400.73$"
+    },
+    {
+     "id": "E",
+     "text": "$4{,}000.703$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$4\\cdot10^2 = 400$, $7\\cdot10^{-1} = 0.7$, $3\\cdot10^{-3} = 0.003$. Total $400.703$.",
+  "choiceExplanations": {
+   "A": "This uses $4\\cdot10^1$.",
+   "B": "This uses $7\\cdot10^{-2}$.",
+   "D": "This uses $3\\cdot10^{-2}$.",
+   "E": "This uses $4\\cdot10^3$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-08",
+  "lessonId": "q1-08-decimals",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{5}{8}$",
+   "quantityB": "$0.62$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "$\\frac{5}{8} = 0.625$ (dividing 5 by 8), which is greater than $0.62 = 0.620$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-09",
+  "lessonId": "q1-08-decimals",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "The decimal expansion of $\\frac{3}{7}$ repeats forever: $0.428571\\,428571\\,428571\\ldots$ What is the 100th digit to the right of the decimal point?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  },
+  "explanation": "The block 428571 has 6 digits. $100 = 16\\cdot6+4$, so the 100th digit is the 4th digit of the block: 4, 2, 8, **5**.",
+  "estSeconds": 90,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-10",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Which of the following are rational numbers? Indicate all such numbers.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.\\overline{36}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{49}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt{21}$"
+    },
+    {
+     "id": "D",
+     "text": "$0.101001000100001\\ldots$ (one more 0 each time)"
+    },
+    {
+     "id": "E",
+     "text": "$3.14159$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  },
+  "explanation": "A terminating or repeating decimal is rational: $0.\\overline{36}$ repeats and $3.14159$ terminates. $\\sqrt{49} = 7$ is an integer. $\\sqrt{21}$ is not an integer and not the root of a perfect square, and the last decimal neither terminates nor repeats (the groups of zeros keep growing), so both are irrational.",
+  "choiceExplanations": {
+   "C": "21 is not a perfect square, so $\\sqrt{21}$ is irrational.",
+   "D": "The pattern keeps changing, so it never repeats; it is irrational."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-11",
+  "lessonId": "q1-08-decimals",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "Which of the following is equal to $\\frac{1}{3}-0.333333$?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0$"
+    },
+    {
+     "id": "B",
+     "text": "$3\\times10^{-7}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{3}\\times10^{-6}$"
+    },
+    {
+     "id": "D",
+     "text": "$3\\times10^{-6}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{1}{3}\\times10^{-5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$\\frac{1}{3} = 0.333333\\,333\\ldots$, so subtracting $0.333333$ leaves $0.000000\\,333\\ldots = \\frac{1}{3}\\cdot0.000001 = \\frac{1}{3}\\times10^{-6}$.",
+  "choiceExplanations": {
+   "A": "$\\frac{1}{3}$ does not stop after six 3s, so the difference is not 0.",
+   "B": "$3\\times10^{-7} = 0.0000003$ is close, but the leftover digits $333\\ldots$ make it $0.000000333\\ldots$",
+   "D": "This is $0.000003$, about ten times too big.",
+   "E": "This is $0.0000033\\ldots$, ten times too big."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q1-08-decimals-12",
+  "lessonId": "q1-08-decimals",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "What is the value of $\\dfrac{(0.3)^2\\times0.04}{0.006\\times0.12}$?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  },
+  "explanation": "Numerator: $0.09\\times0.04 = 0.0036$. Denominator: $0.006\\times0.12 = 0.00072$. Scale both by 100,000: $\\frac{360}{72} = 5$.",
+  "estSeconds": 120,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -42,7 +42,7 @@ describe('content check — GRE format rules', () => {
   it('select-in-passage answer must appear verbatim', () => {
     const passages = new Map([['p', { id: 'p', field: 'everyday' as const, difficulty: 2 as const, paragraphs: ['First sentence here. Second sentence there.'] }]]);
     const q = mk({ type: 'RC', passageId: 'p', content: { format: 'select_in_passage' }, answer: { sentence: 'Third sentence nowhere.' } });
-    expect(checkQuestion(q, passages).join()).toMatch(/not found verbatim/);
+    expect(checkQuestion(q, passages).join()).toMatch(/exactly one sentence/);
   });
 
   it('NE: integer format rejects a decimal key; fraction must match value', () => {

@@ -1,0 +1,434 @@
+[
+ {
+  "id": "q2-10-average-rate-work-01",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "What is the average (arithmetic mean) of 6, 9, 15 and 22?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  },
+  "explanation": "Sum $=6+9+15+22=52$; divide by 4 values: $52\\div4=13$.",
+  "estSeconds": 45,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-02",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A cyclist rides at a constant 18 miles per hour for 40 minutes. How many miles does the cyclist ride?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "7.2"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "45"
+    },
+    {
+     "id": "D",
+     "text": "58"
+    },
+    {
+     "id": "E",
+     "text": "720"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Convert to hours: $40\\text{ min}=\\frac23$ hour. Then $d=rt=18\\cdot\\frac23=12$.",
+  "choiceExplanations": {
+   "A": "This treats 40 minutes as 0.4 hour.",
+   "C": "This divides 18 by 0.4 instead of multiplying.",
+   "D": "This adds the speed and the minutes.",
+   "E": "This multiplies 18 by 40 without converting minutes to hours."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-03",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "Jo scored 70, 84, 91 and 77 on her first four tests. What score on the fifth test gives her an average of 80 for all five?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 78
+  },
+  "explanation": "Needed total: $5\\cdot80=400$. So far: $70+84+91+77=322$. Fifth score: $400-322=78$.",
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-04",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "The average of four numbers is 20. When one of the numbers is removed, the average of the remaining three is 18. What number was removed?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "18"
+    },
+    {
+     "id": "C",
+     "text": "20"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "38"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Original total $=4\\cdot20=80$. Remaining total $=3\\cdot18=54$. Removed number $=80-54=26$.",
+  "choiceExplanations": {
+   "A": "This subtracts the two averages, but averages cannot be subtracted this way; use totals.",
+   "B": "18 is the new average, not the removed number.",
+   "C": "20 is the original average.",
+   "E": "This adds the averages, $20+18$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-05",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "Two towns are 330 miles apart. A bus covers the distance at 55 miles per hour and a car at 66 miles per hour. How many minutes less than the bus does the car take?",
+  "content": {
+   "format": "integer",
+   "unit": "minutes"
+  },
+  "answer": {
+   "value": 60
+  },
+  "explanation": "Bus: $330\\div55=6$ hours. Car: $330\\div66=5$ hours. The difference is 1 hour, or 60 minutes.",
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-06",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The average speed for the whole round trip",
+   "quantityB": "50 miles per hour",
+   "common": "A driver goes to a town at 40 miles per hour and returns by the same route at 60 miles per hour."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Let one leg be $d$ miles. Total time $=\\frac d{40}+\\frac d{60}=\\frac{5d}{120}=\\frac d{24}$. Average speed $=\\frac{2d}{d/24}=48$, which is less than 50.",
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-07",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Pump A can empty a pool in 8 hours and pump B can empty it in 24 hours. How many hours do the two pumps take to empty the pool when working together?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "12"
+    },
+    {
+     "id": "D",
+     "text": "16"
+    },
+    {
+     "id": "E",
+     "text": "32"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Rates: $\\frac18+\\frac1{24}=\\frac3{24}+\\frac1{24}=\\frac4{24}=\\frac16$ of the pool per hour, so 6 hours.",
+  "choiceExplanations": {
+   "A": "4 is half the faster pump's time; the slower pump contributes less than that.",
+   "C": "12 is half of 24, which ignores the first pump.",
+   "D": "16 is the mean of 8 and 24; combined time is always shorter than the faster pump's time.",
+   "E": "32 is the sum of the times."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-08",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A class of 20 students has an average score of 72 on a test, and another class of 30 students has an average score of 82 on the same test. What is the average score of all 50 students?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 78
+  },
+  "explanation": "Totals: $20\\cdot72=1440$ and $30\\cdot82=2460$. Combined: $\\frac{1440+2460}{50}=\\frac{3900}{50}=78$.",
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-09",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "Pipe A fills an empty tank in 6 hours. Drain B, if open, empties a full tank in 12 hours. If both are open while the tank is empty at the start, how many hours does it take to fill the tank?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "9"
+    },
+    {
+     "id": "D",
+     "text": "12"
+    },
+    {
+     "id": "E",
+     "text": "18"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Net rate $=\\frac16-\\frac1{12}=\\frac2{12}-\\frac1{12}=\\frac1{12}$ of the tank per hour, so 12 hours.",
+  "choiceExplanations": {
+   "A": "4 hours comes from adding the rates, as if both were filling.",
+   "B": "8 hours does not match the net rate of $\\frac1{12}$ per hour.",
+   "C": "9 is the mean of 6 and 12.",
+   "E": "18 is the sum of the times."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-10",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "The time for both machines, working together, to finish the job",
+   "quantityB": "$y$ hours",
+   "common": "Machine A alone finishes a job in $x$ hours and machine B alone finishes the same job in $y$ hours, where $x>y>0$."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Together they take $t=\\frac{xy}{x+y}=y\\cdot\\frac{x}{x+y}$, and $\\frac{x}{x+y}<1$, so $t<y$. Working together is always faster than the faster machine alone, so Quantity B is greater.",
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-11",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "Hose A alone fills a pool in 10 hours and hose B alone fills it in 15 hours. They work together for 3 hours, then hose A is shut off. How many more hours does hose B need to finish filling the pool? (Enter a decimal.)",
+  "content": {
+   "format": "decimal",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 7.5
+  },
+  "explanation": "Together: $\\frac1{10}+\\frac1{15}=\\frac16$ per hour, so in 3 hours they fill $\\frac12$ of the pool. The remaining $\\frac12$ at $\\frac1{15}$ per hour takes $\\frac12\\cdot15=7.5$ hours.",
+  "estSeconds": 120,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-12",
+  "lessonId": "q2-10-average-rate-work",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "The average of seven numbers is 15. The average of the first four is 13 and the average of the last four is 18. What is the fourth number?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "13"
+    },
+    {
+     "id": "B",
+     "text": "15"
+    },
+    {
+     "id": "C",
+     "text": "17"
+    },
+    {
+     "id": "D",
+     "text": "19"
+    },
+    {
+     "id": "E",
+     "text": "21"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Total of all seven $=7\\cdot15=105$. First four total 52 and last four total 72, and the fourth number is counted in both: $52+72=124=105+(\\text{fourth})$. The fourth number is $19$.",
+  "choiceExplanations": {
+   "A": "13 is the average of the first four.",
+   "B": "15 is the average of all seven; the overlap is not the overall mean.",
+   "C": "17 would make the overlap total $105+17=122$, not 124.",
+   "E": "21 would make the overlap total $105+21=126$, not 124."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

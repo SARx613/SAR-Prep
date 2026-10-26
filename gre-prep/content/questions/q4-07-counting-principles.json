@@ -1,0 +1,397 @@
+[
+ {
+  "id": "q4-07-counting-principles-01",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "A store sells 4 different shirts and 3 different pairs of pants. How many different outfits, each consisting of one shirt and one pair of pants, are possible?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  },
+  "explanation": "By the multiplication principle: $4 \\times 3 = 12$.",
+  "estSeconds": 45,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-02",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "In how many different ways can 4 different books be arranged in a row on a shelf?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  },
+  "explanation": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+  "estSeconds": 45,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-03",
+  "lessonId": "q4-07-counting-principles",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "In how many different ways can a 2-person committee be chosen from a group of 5 people?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$10$"
+    },
+    {
+     "id": "C",
+     "text": "$20$"
+    },
+    {
+     "id": "D",
+     "text": "$25$"
+    },
+    {
+     "id": "E",
+     "text": "$32$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Order does not matter: $\\binom{5}{2} = \\frac{5 \\times 4}{2 \\times 1} = 10$.",
+  "choiceExplanations": {
+   "A": "5 is the size of the group, not a count of committees.",
+   "C": "20 counts ordered pairs ($5 \\times 4$), so each committee is counted twice.",
+   "D": "25 would allow the same person to be chosen twice.",
+   "E": "32 is $2^5$, which has no meaning here."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-04",
+  "lessonId": "q4-07-counting-principles",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\binom{8}{3}$",
+   "quantityB": "$\\binom{8}{5}$"
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "$\\binom{n}{k} = \\binom{n}{n-k}$: choosing 3 people to include is the same as choosing the 5 to leave out. Both equal 56.",
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-05",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "A code consists of one letter of the alphabet (26 possibilities) followed by two digits (0 through 9). Digits may be repeated. How many different codes are possible?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2600
+  },
+  "explanation": "Multiplication principle: $26 \\times 10 \\times 10 = 2600$.",
+  "estSeconds": 60,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-06",
+  "lessonId": "q4-07-counting-principles",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "A club has 7 members. In how many ways can a president, a vice president and a secretary be chosen, if no member holds more than one office?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$35$"
+    },
+    {
+     "id": "B",
+     "text": "$210$"
+    },
+    {
+     "id": "C",
+     "text": "$343$"
+    },
+    {
+     "id": "D",
+     "text": "$840$"
+    },
+    {
+     "id": "E",
+     "text": "$5040$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "The offices are different, so order matters: $7 \\times 6 \\times 5 = 210$.",
+  "choiceExplanations": {
+   "A": "35 is $\\binom{7}{3}$: it ignores which office each person holds.",
+   "C": "343 is $7^3$, which lets one member hold several offices.",
+   "D": "840 is $7 \\times 6 \\times 5 \\times 4$: one factor too many.",
+   "E": "5040 is $7!$, which orders all 7 members."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-07",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "A committee of 4 people is to be formed from 6 men and 5 women, with exactly 2 men and exactly 2 women. How many different committees are possible?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 150
+  },
+  "explanation": "Choose the men and the women separately and multiply: $\\binom{6}{2} \\times \\binom{5}{2} = 15 \\times 10 = 150$.",
+  "estSeconds": 100,
+  "skills": [
+   "combinations",
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-08",
+  "lessonId": "q4-07-counting-principles",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following expressions are equal to 90? Indicate all such expressions.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{10!}{8!}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\binom{10}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$10 \\times 9$"
+    },
+    {
+     "id": "D",
+     "text": "$2 \\times \\binom{10}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "$\\frac{10!}{8!} = 10 \\times 9 = 90$. $\\binom{10}{2} = 45$, so $2 \\times \\binom{10}{2} = 90$ but $\\binom{10}{2}$ alone is only 45.",
+  "choiceExplanations": {
+   "B": "$\\binom{10}{2} = 45$: it divides $10 \\times 9$ by $2!$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factorials",
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-09",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 4,
+  "stem": "Five people are to be seated in a row of 5 chairs. In how many different ways can they be seated if two particular people, Ana and Ben, must sit next to each other?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  },
+  "explanation": "Treat Ana and Ben as one block. The 4 units (the block and the 3 others) can be ordered in $4! = 24$ ways, and inside the block Ana and Ben can swap: $24 \\times 2 = 48$.",
+  "estSeconds": 120,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-10",
+  "lessonId": "q4-07-counting-principles",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "How many three-digit positive integers can be formed using the digits 1, 2, 3, 4, 5 and 6, with no digit used more than once, so that the integer is even?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$36$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$90$"
+    },
+    {
+     "id": "D",
+     "text": "$120$"
+    },
+    {
+     "id": "E",
+     "text": "$216$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Fill the restricted place first. The units digit must be 2, 4 or 6: 3 choices. The hundreds digit then has 5 choices, and the tens digit 4. Total $3 \\times 5 \\times 4 = 60$.",
+  "choiceExplanations": {
+   "A": "36 is $6 \\times 6$, which has no meaning here.",
+   "C": "90 is $3 \\times 5 \\times 6$: the tens digit may not repeat a used digit.",
+   "D": "120 is $6 \\times 5 \\times 4$: it ignores the requirement that the integer be even.",
+   "E": "216 is $6^3$: it allows repeated digits and ignores evenness."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-11",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A committee of 3 people is to be chosen from 9 people. Two of the 9, Cara and Dev, refuse to serve together on the committee. How many different committees are possible?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 77
+  },
+  "explanation": "All committees: $\\binom{9}{3} = 84$. Committees containing both Cara and Dev: the third member is any of the other 7, so 7 committees. Allowed: $84 - 7 = 77$.",
+  "estSeconds": 120,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-12",
+  "lessonId": "q4-07-counting-principles",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "A fair coin is tossed 6 times. How many of the $2^6$ possible sequences of heads and tails contain at least 2 heads?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 57
+  },
+  "explanation": "Count the complement. Sequences with 0 heads: 1. Sequences with exactly 1 head: $\\binom{6}{1} = 6$. So at least 2 heads: $64 - 1 - 6 = 57$.",
+  "estSeconds": 120,
+  "skills": [
+   "combinations",
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

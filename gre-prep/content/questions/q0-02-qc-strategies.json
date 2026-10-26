@@ -1,0 +1,393 @@
+[
+ {
+  "id": "q0-02-qc-strategies-01",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$6\\cdot7$",
+   "quantityB": "$5\\cdot8$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "$6\\cdot7=42$ and $5\\cdot8=40$, so Quantity A is greater.",
+  "estSeconds": 45,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-02",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac38$",
+   "quantityB": "0.4"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "$\\frac38=0.375$, which is less than 0.4. Quantity B is greater; do not swap choices A and B.",
+  "estSeconds": 45,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-03",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "In a Quantitative Comparison question about a number $x$, you find that $x=2$ makes Quantity A greater and $x=-1$ makes Quantity B greater. Which choice should you select?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Quantity A is greater."
+    },
+    {
+     "id": "B",
+     "text": "Quantity B is greater."
+    },
+    {
+     "id": "C",
+     "text": "The two quantities are equal."
+    },
+    {
+     "id": "D",
+     "text": "The relationship cannot be determined from the information given."
+    },
+    {
+     "id": "E",
+     "text": "Test only positive numbers before deciding."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Two admissible values that point in different directions prove that no single relationship holds.",
+  "choiceExplanations": {
+   "A": "Another valid value of $x$ gives Quantity B greater.",
+   "B": "Another valid value of $x$ gives Quantity A greater.",
+   "C": "The two cases gave unequal quantities.",
+   "E": "Choose from the four fixed statements; and negatives are valid here."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-04",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$n^3$",
+   "quantityB": "$n^2$",
+   "common": "$n$ is a nonzero integer."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "$n=1$: equal (1 and 1). $n=2$: $8>4$, so A is greater. $n=-1$: $-1<1$, so B is greater. Different outcomes: cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-05",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$4(x+2)$",
+   "quantityB": "$4x+9$",
+   "common": "$x$ is a number."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Expand: A is $4x+8$, B is $4x+9$. B exceeds A by 1 for every $x$, so Quantity B is greater. Choosing D here would be the trap: the variable cancels.",
+  "estSeconds": 60,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-06",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{8x+12}{4x}$",
+   "quantityB": "$2+\\frac{3}{x}$",
+   "common": "$x$ is a nonzero number."
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "explanation": "Split the fraction: $\\frac{8x}{4x}+\\frac{12}{4x}=2+\\frac3x$. The quantities are identical for every nonzero $x$.",
+  "estSeconds": 75,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-07",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$PR$",
+   "quantityB": "5",
+   "common": "In triangle $PQR$, $PQ=5$ and $QR=6$."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "Only $PQ=5$ and $QR=6$ are known. By the triangle inequality $PR$ can be any length between 1 and 11, so it can be 3 (B greater), 5 (equal) or 8 (A greater). Redraw the triangle to see this.",
+  "estSeconds": 90,
+  "skills": [
+   "qc-strategies"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Triangle PQR",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><polygon points=\"30,110 120,110 220,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"22\" y=\"125\" font-size=\"14\" fill=\"currentColor\">P</text><text x=\"116\" y=\"125\" font-size=\"14\" fill=\"currentColor\">Q</text><text x=\"222\" y=\"38\" font-size=\"14\" fill=\"currentColor\">R</text><text x=\"68\" y=\"105\" font-size=\"13\" fill=\"currentColor\">5</text><text x=\"178\" y=\"86\" font-size=\"13\" fill=\"currentColor\">6</text></svg>",
+    "alt": "Triangle PQR with side PQ labelled 5 and side QR labelled 6"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-08",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Which of the following are sound strategies for Quantitative Comparison questions? Indicate all such strategies.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "When a variable appears, test zero, negatives, fractions and large numbers."
+    },
+    {
+     "id": "B",
+     "text": "Always compute both quantities fully before comparing them."
+    },
+    {
+     "id": "C",
+     "text": "Simplify the comparison step by step, as you would with an equation or inequality."
+    },
+    {
+     "id": "D",
+     "text": "Choose \"cannot be determined\" whenever a variable appears."
+    },
+    {
+     "id": "E",
+     "text": "Redraw a figure, changing the aspects that are not fixed by the given information."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "explanation": "Plugging in varied numbers, simplifying and redrawing are the strategies; a variable alone does not justify choice D.",
+  "choiceExplanations": {
+   "B": "Needless computation wastes time; simplify only as much as needed.",
+   "D": "Many variable comparisons hold for every value, such as $4(x+2)$ versus $4x+9$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-09",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "In a Quantitative Comparison question, $x$ is a real number. You test $x=3$ and $x=5$ and Quantity A is greater both times. What is the best next step?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Select Quantity A is greater, since two cases agree."
+    },
+    {
+     "id": "B",
+     "text": "Test other kinds of values, such as 0, a negative number and a fraction."
+    },
+    {
+     "id": "C",
+     "text": "Select cannot be determined, since more than one value exists."
+    },
+    {
+     "id": "D",
+     "text": "Select the two quantities are equal."
+    },
+    {
+     "id": "E",
+     "text": "Compute both quantities for $x=100$ only."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Test different kinds of numbers before deciding; only a contradiction between cases justifies choice D.",
+  "choiceExplanations": {
+   "A": "Two similar cases do not cover zero, negatives or fractions.",
+   "C": "Many values existing does not make the relationship undetermined.",
+   "D": "The cases tried were unequal.",
+   "E": "One more large positive value adds nothing new."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-10",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\sqrt{x}$",
+   "quantityB": "$x^2$",
+   "common": "$0<x<1$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "For $0<x<1$ we have $x^2<x<\\sqrt{x}$. Check: $x=0.25$ gives 0.5 and 0.0625; $x=0.81$ gives 0.9 and 0.6561. Quantity A is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-11",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{a+2}{3}$",
+   "quantityB": "$\\frac{a+3}{4}$",
+   "common": "$a$ is a positive number."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "Multiply both sides by the positive number 12: compare $4a+8$ with $3a+9$, i.e. $a$ with 1. If $a>1$ A is greater (e.g. $a=2$: $\\frac43>\\frac54$); if $a<1$ B is greater ($a=\\frac12$: $\\frac56<\\frac78$). Cannot be determined.",
+  "estSeconds": 100,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-02-qc-strategies-12",
+  "lessonId": "q0-02-qc-strategies",
+  "type": "QC",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$\\frac{a+1}{b+1}$",
+   "quantityB": "$\\frac{a}{b}$",
+   "common": "$0<a<b$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "explanation": "Both denominators are positive, so cross-multiply: compare $b(a+1)=ab+b$ with $a(b+1)=ab+a$, i.e. $b$ with $a$. Since $b>a$, Quantity A is greater (check $a=1,b=2$: $\\frac23>\\frac12$).",
+  "estSeconds": 120,
+  "skills": [
+   "qc-strategies"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

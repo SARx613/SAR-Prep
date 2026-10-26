@@ -1,0 +1,204 @@
+{
+ "id": "v1-05-coherence-check",
+ "status": "draft",
+ "why": "ETS ends its method with a final check, which catches answers that sound right but break the logic, the grammar or the style.",
+ "rule": "When every blank is filled, read the completed text from the start and test three things:\n\n- **Logic:** do the ideas agree or contrast as the structure words demand?\n- **Grammar:** does each word fit its slot (part of speech, form, the words it must combine with)?\n- **Style:** does its tone suit the sentence?\n\nA word that is a good synonym can still fail the check. If one blank fails, reconsider it and the blanks that depend on it.",
+ "examples": [
+  {
+   "prompt": "The scientist's (i)______ about the data led her to (ii)______ the experiment before publishing.  (i) misgivings | enthusiasm | indifference;  (ii) repeat | celebrate | forget.",
+   "steps": [
+    "Blank (ii) first: doing something to an experiment before publishing, because of a feeling about the data, points to *repeat*.",
+    "Blank (i): a feeling that leads to repetition is doubt: *misgivings*.",
+    "Check logic: doubts lead to a repeat before publishing. Grammar: *misgivings* is plural and takes *led*; the noun fits *her ___ about the data*. Style: formal register throughout."
+   ],
+   "answer": "(i) misgivings, (ii) repeat"
+  }
+ ],
+ "trap": "Stopping at meaning. A choice can fit the idea yet break the grammar (wrong form), the tone (slang in a formal sentence) or the other blanks. Read the whole finished text once more.",
+ "checks": [
+  {
+   "id": "v1-05-coherence-check-c1",
+   "lessonId": "v1-05-coherence-check",
+   "type": "TC",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "The senator's remarks were deliberately {{1}}, so that she could later claim to have been misunderstood.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "ambiguously"
+       },
+       {
+        "id": "B",
+        "text": "ambivalence"
+       },
+       {
+        "id": "C",
+        "text": "ambiguous"
+       },
+       {
+        "id": "D",
+        "text": "ambiguity"
+       },
+       {
+        "id": "E",
+        "text": "ambit"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "C"
+    ]
+   },
+   "explanation": "**Grammar check:** *were deliberately ___* needs an adjective: *ambiguous*. *Ambiguity* and *ambivalence* are nouns; *ambiguously* is an adverb.",
+   "choiceExplanations": {
+    "D": "A noun; the slot needs an adjective.",
+    "A": "An adverb cannot follow *were deliberately* here.",
+    "B": "A noun, and it means mixed feelings.",
+    "E": "A noun meaning scope."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-05-coherence-check-c2",
+   "lessonId": "v1-05-coherence-check",
+   "type": "TC",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "content": {
+    "text": "The board's {{1}} in the proposal was clear from its {{2}} questions, which probed every assumption.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "indifference"
+       },
+       {
+        "id": "1B",
+        "text": "enthusiasm"
+       },
+       {
+        "id": "1C",
+        "text": "skepticism"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "perfunctory"
+       },
+       {
+        "id": "2B",
+        "text": "flattering"
+       },
+       {
+        "id": "2C",
+        "text": "searching"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1C",
+     "2C"
+    ]
+   },
+   "explanation": "**Consistency check:** probing every assumption shows doubt (*skepticism*) and thorough questions (*searching*). The other combinations contradict the clause.",
+   "choiceExplanations": {
+    "1B": "Eager boards do not probe every assumption.",
+    "1A": "Indifferent boards do not probe.",
+    "2B": "Flattering questions do not probe.",
+    "2A": "Perfunctory questions would not probe every assumption."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "v1-05-coherence-check-c3",
+   "lessonId": "v1-05-coherence-check",
+   "type": "TC",
+   "difficulty": 3,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "content": {
+    "text": "Writing in a formal journal, the historian called her rival's thesis {{1}}, a restrained way of saying it lacked evidence.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "dumb"
+       },
+       {
+        "id": "B",
+        "text": "laughable"
+       },
+       {
+        "id": "C",
+        "text": "unpersuasive"
+       },
+       {
+        "id": "D",
+        "text": "garbage"
+       },
+       {
+        "id": "E",
+        "text": "pathetic"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "C"
+    ]
+   },
+   "explanation": "**Style check:** a *restrained* judgment in a formal journal needs a measured word: *unpersuasive*. The others are insulting or informal.",
+   "choiceExplanations": {
+    "A": "Informal and insulting.",
+    "B": "Mocking, not restrained.",
+    "E": "Insulting.",
+    "D": "Slang and insulting."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

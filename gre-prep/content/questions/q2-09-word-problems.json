@@ -1,0 +1,462 @@
+[
+ {
+  "id": "q2-09-word-problems-01",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 1,
+  "stem": "A salary $s$ is decreased by 15 percent. Which expression represents the new salary?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.15s$"
+    },
+    {
+     "id": "B",
+     "text": "$0.85s$"
+    },
+    {
+     "id": "C",
+     "text": "$1.15s$"
+    },
+    {
+     "id": "D",
+     "text": "$s-15$"
+    },
+    {
+     "id": "E",
+     "text": "$s-0.15$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Decreasing by 15 percent leaves 85 percent: $s-0.15s=0.85s$.",
+  "choiceExplanations": {
+   "A": "This is the amount of the decrease, not the new salary.",
+   "C": "This is a 15 percent *increase*.",
+   "D": "This subtracts 15 dollars, not 15 percent.",
+   "E": "This subtracts 0.15 dollars, not 15 percent of $s$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-02",
+  "lessonId": "q2-09-word-problems",
+  "type": "NE",
+  "difficulty": 1,
+  "stem": "Five less than three times a number equals 22. What is the number?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  },
+  "explanation": "\\\"Three times a number\\\" is $3n$; \\\"five less than\\\" that is $3n-5$. Solve $3n-5=22$: $3n=27$, $n=9$.",
+  "estSeconds": 45,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-03",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A total of $y$ gallons of paint are shared among four painters. One painter takes 2 gallons and the remaining paint is divided equally among the other three. How many gallons does each of the other three get?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{y}{3}-2$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{y-2}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{y-2}{4}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{y}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{y}{4}-2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "Remove the 2 gallons first, then divide what is left among 3 people: $\\frac{y-2}{3}$.",
+  "choiceExplanations": {
+   "A": "This subtracts 2 from each person's share instead of from the total.",
+   "C": "The remainder is split among 3 people, not 4.",
+   "D": "This ignores the 2 gallons taken by the first painter.",
+   "E": "This divides by 4 and then subtracts 2 from the share."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-04",
+  "lessonId": "q2-09-word-problems",
+  "type": "NE",
+  "difficulty": 2,
+  "stem": "A parking garage charges \\$3 per car and \\$7 per truck. One day it collected \\$207 from 45 vehicles. How many of the vehicles were trucks?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
+  },
+  "explanation": "Let $t$ be trucks, so cars $=45-t$: $3(45-t)+7t=207$. This is $135+4t=207$, so $t=18$. Check: $81+126=207$.",
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-05",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 2,
+  "stem": "A caterer charges a \\$120 fee plus \\$18 per guest. The budget is at most \\$500. What is the greatest number of guests the caterer can serve within the budget?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "19"
+    },
+    {
+     "id": "B",
+     "text": "20"
+    },
+    {
+     "id": "C",
+     "text": "21"
+    },
+    {
+     "id": "D",
+     "text": "22"
+    },
+    {
+     "id": "E",
+     "text": "27"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "$120+18g\\le 500$ gives $18g\\le 380$, so $g\\le 21.1\\ldots$. Guests are whole numbers, so the greatest is 21.",
+  "choiceExplanations": {
+   "A": "19 works but is not the greatest.",
+   "B": "20 works but is not the greatest.",
+   "D": "22 guests cost $120+396=516$, over budget.",
+   "E": "27 comes from dividing 500 by 18 and forgetting the fixed fee."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-06",
+  "lessonId": "q2-09-word-problems",
+  "type": "QC",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "Mia's age",
+   "quantityB": "3 times Ben's age",
+   "common": "Mia is 4 years older than twice Ben's age. Their ages add up to 40."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "explanation": "Let $B$ be Ben's age. Mia is $2B+4$, so $2B+4+B=40$, giving $B=12$ and Mia $=28$. Quantity B is $36$, which is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-07",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 3,
+  "stem": "Pat pays for 6 notebooks with a \\$50 bill and receives \\$11 in change. If each notebook costs $n$ dollars, which of the following equations are correct? Indicate all such equations.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6n+11=50$"
+    },
+    {
+     "id": "B",
+     "text": "$6n-11=50$"
+    },
+    {
+     "id": "C",
+     "text": "$50-6n=11$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{50-11}{6}=n$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{50+11}{6}=n$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  },
+  "explanation": "The cost $6n$ plus the change equals the money paid: $6n+11=50$, equivalently $50-6n=11$, equivalently $n=\\frac{50-11}{6}$ ($n=6.5$).",
+  "choiceExplanations": {
+   "B": "This says the cost minus the change is 50, which does not match the story.",
+   "E": "Adding the change to the 50 double counts it."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-08",
+  "lessonId": "q2-09-word-problems",
+  "type": "NE",
+  "difficulty": 3,
+  "stem": "The sum of three consecutive odd integers is 117. What is the greatest of the three integers?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 41
+  },
+  "explanation": "Let the integers be $n$, $n+2$, $n+4$. Then $3n+6=117$, so $n=37$ and the greatest is $41$. Check: $37+39+41=117$.",
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-09",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 4,
+  "stem": "A jar contains only dimes and quarters, 52 coins in all, worth \\$8.20. How many quarters are in the jar?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "18"
+    },
+    {
+     "id": "C",
+     "text": "20"
+    },
+    {
+     "id": "D",
+     "text": "24"
+    },
+    {
+     "id": "E",
+     "text": "32"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Work in cents. With $q$ quarters, $25q+10(52-q)=820$, so $15q+520=820$ and $q=20$. Check: 32 dimes give 320 cents, 20 quarters give 500 cents.",
+  "choiceExplanations": {
+   "A": "12 quarters would be worth $300+400=700$ cents, not 820.",
+   "B": "18 quarters would be worth $450+340=790$ cents.",
+   "D": "24 quarters would be worth $600+280=880$ cents.",
+   "E": "32 is the number of dimes, not quarters."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-10",
+  "lessonId": "q2-09-word-problems",
+  "type": "QC",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "content": {
+   "quantityA": "$n$",
+   "quantityB": "8",
+   "common": "$n$ is an integer, and 3 less than twice $n$ is greater than 4 more than $n$."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "explanation": "$2n-3>n+4$ gives $n>7$. As an integer, $n$ could be 8 (equal to B) or 9 (greater than B), so the comparison cannot be decided.",
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-11",
+  "lessonId": "q2-09-word-problems",
+  "type": "NE",
+  "difficulty": 5,
+  "stem": "Some friends rent a cabin. If each person pays \\$45, the group is \\$30 short of the rental price; if each pays \\$50, the group has \\$45 more than needed. How many friends are there?",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  },
+  "explanation": "Let there be $n$ friends. The price is $45n+30$ and also $50n-45$. Setting them equal: $5n=75$, so $n=15$. (The price is \\$705.)",
+  "estSeconds": 100,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q2-09-word-problems-12",
+  "lessonId": "q2-09-word-problems",
+  "type": "PS",
+  "difficulty": 5,
+  "stem": "At a concert, an adult ticket costs \\$12 more than a child ticket. Three times as many adult tickets as child tickets were sold, 80 tickets in all, for a total of \\$1,600. What is the price of an adult ticket?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$11"
+    },
+    {
+     "id": "B",
+     "text": "\\$12"
+    },
+    {
+     "id": "C",
+     "text": "\\$20"
+    },
+    {
+     "id": "D",
+     "text": "\\$23"
+    },
+    {
+     "id": "E",
+     "text": "\\$35"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Child tickets: 20, adult tickets: 60. If a child ticket costs $p$, then $60(p+12)+20p=1600$, so $80p=880$ and $p=11$. An adult ticket costs $11+12=23$ dollars.",
+  "choiceExplanations": {
+   "A": "\\$11 is the child price, not the adult price.",
+   "B": "\\$12 is only the price difference.",
+   "C": "\\$20 is the average price per ticket, 1600 divided by 80.",
+   "E": "An adult price of \\$35 means a child price of \\$23, giving $2100+460=2560$ dollars."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

@@ -1,0 +1,916 @@
+[
+ {
+  "id": "q0-07-di-sets-01",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 1,
+  "stem": "How many orders (not hundreds of orders) did the East region receive in Q2?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 1800
+  },
+  "explanation": "The table is in hundreds. East's Q2 entry is 18, so $18\\times100=1{,}800$ orders.",
+  "estSeconds": 45,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Online orders received, in hundreds",
+   "data": {
+    "columns": [
+     "Region",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "North",
+      12,
+      15,
+      14,
+      19
+     ],
+     [
+      "South",
+      9,
+      11,
+      16,
+      14
+     ],
+     [
+      "East",
+      20,
+      18,
+      17,
+      21
+     ],
+     [
+      "West",
+      7,
+      10,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-02",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 1,
+  "stem": "What was the Company's revenue in 2021, in dollars?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "17"
+    },
+    {
+     "id": "B",
+     "text": "1,700"
+    },
+    {
+     "id": "C",
+     "text": "17,000"
+    },
+    {
+     "id": "D",
+     "text": "1,700,000"
+    },
+    {
+     "id": "E",
+     "text": "17,000,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  },
+  "explanation": "The bar for 2021 reads 17 on a scale of millions of dollars, so the revenue is 17,000,000 dollars.",
+  "choiceExplanations": {
+   "A": "The graph is in millions of dollars; 17 alone is not dollars.",
+   "B": "That is off by a factor of 10,000.",
+   "C": "That is thousands, not millions.",
+   "D": "That is off by a factor of 10."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Annual revenue, in millions of dollars",
+   "data": {
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Company",
+      "values": [
+       14,
+       18,
+       17,
+       23,
+       26
+      ]
+     },
+     {
+      "name": "Competitor",
+      "values": [
+       20,
+       19,
+       22,
+       21,
+       25
+      ]
+     }
+    ],
+    "yLabel": "Revenue (millions of dollars)",
+    "unit": "millions of dollars"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-03",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "In which quarter were total orders, summed over all four regions, greatest?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Q1"
+    },
+    {
+     "id": "B",
+     "text": "Q2"
+    },
+    {
+     "id": "C",
+     "text": "Q3"
+    },
+    {
+     "id": "D",
+     "text": "Q4"
+    },
+    {
+     "id": "E",
+     "text": "The table does not allow a comparison"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "explanation": "Column sums: Q1 48, Q2 54, Q3 59, Q4 67. Q4 is greatest.",
+  "choiceExplanations": {
+   "A": "Total 48, the least.",
+   "B": "Total 54.",
+   "C": "Total 59.",
+   "E": "Every quarter's total can be computed from the table."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Online orders received, in hundreds",
+   "data": {
+    "columns": [
+     "Region",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "North",
+      12,
+      15,
+      14,
+      19
+     ],
+     [
+      "South",
+      9,
+      11,
+      16,
+      14
+     ],
+     [
+      "East",
+      20,
+      18,
+      17,
+      21
+     ],
+     [
+      "West",
+      7,
+      10,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-04",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "In how many of the five years shown did the Company's revenue exceed the Competitor's revenue?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 2
+  },
+  "explanation": "Company versus Competitor: 14<20, 18<19, 17<22, 23>21, 26>25. Only 2022 and 2023, so 2.",
+  "estSeconds": 60,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Annual revenue, in millions of dollars",
+   "data": {
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Company",
+      "values": [
+       14,
+       18,
+       17,
+       23,
+       26
+      ]
+     },
+     {
+      "name": "Competitor",
+      "values": [
+       20,
+       19,
+       22,
+       21,
+       25
+      ]
+     }
+    ],
+    "yLabel": "Revenue (millions of dollars)",
+    "unit": "millions of dollars"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-05",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 2,
+  "stem": "How many dollars were budgeted for marketing?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 28800
+  },
+  "explanation": "Marketing is 12 percent of 240,000 dollars: $0.12\\times240{,}000=28{,}800$.",
+  "estSeconds": 60,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Budget by category, percent of a 240,000-dollar budget",
+   "data": {
+    "slices": [
+     {
+      "label": "Salaries",
+      "value": 45
+     },
+     {
+      "label": "Rent",
+      "value": 20
+     },
+     {
+      "label": "Equipment",
+      "value": 15
+     },
+     {
+      "label": "Marketing",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ],
+    "total": 100,
+    "unit": "percent"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-06",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "To the nearest 0.1 percent, North's Q4 orders were what percent of North's orders for the whole year?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 31.7
+  },
+  "explanation": "North's year: $12+15+14+19=60$. Q4 share: $\\frac{19}{60}=0.31666\\ldots$, or 31.7 percent. The hundreds unit cancels.",
+  "estSeconds": 90,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Online orders received, in hundreds",
+   "data": {
+    "columns": [
+     "Region",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "North",
+      12,
+      15,
+      14,
+      19
+     ],
+     [
+      "South",
+      9,
+      11,
+      16,
+      14
+     ],
+     [
+      "East",
+      20,
+      18,
+      17,
+      21
+     ],
+     [
+      "West",
+      7,
+      10,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-07",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "Between Q2 and Q3, which region's orders increased by the greatest percent?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "North"
+    },
+    {
+     "id": "B",
+     "text": "South"
+    },
+    {
+     "id": "C",
+     "text": "East"
+    },
+    {
+     "id": "D",
+     "text": "West"
+    },
+    {
+     "id": "E",
+     "text": "The table does not give enough information"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "explanation": "South: $\\frac{16-11}{11}\\approx45\\%$. West: $\\frac{12-10}{10}=20\\%$. North and East decreased. South wins.",
+  "choiceExplanations": {
+   "A": "North fell from 15 to 14.",
+   "C": "East fell from 18 to 17.",
+   "D": "West rose from 10 to 12, a 20 percent increase, less than South's.",
+   "E": "Percent change is computed from the table values."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Online orders received, in hundreds",
+   "data": {
+    "columns": [
+     "Region",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "North",
+      12,
+      15,
+      14,
+      19
+     ],
+     [
+      "South",
+      9,
+      11,
+      16,
+      14
+     ],
+     [
+      "East",
+      20,
+      18,
+      17,
+      21
+     ],
+     [
+      "West",
+      7,
+      10,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-08",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "What fraction of the Company's total revenue for 2019 through 2023 was earned in 2023? Enter your answer as a fraction in lowest terms.",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.2653061224489796,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 49
+   }
+  },
+  "explanation": "Company total: $14+18+17+23+26=98$. 2023 share: $\\frac{26}{98}=\\frac{13}{49}$.",
+  "estSeconds": 90,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Annual revenue, in millions of dollars",
+   "data": {
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Company",
+      "values": [
+       14,
+       18,
+       17,
+       23,
+       26
+      ]
+     },
+     {
+      "name": "Competitor",
+      "values": [
+       20,
+       19,
+       22,
+       21,
+       25
+      ]
+     }
+    ],
+    "yLabel": "Revenue (millions of dollars)",
+    "unit": "millions of dollars"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-09",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "What was the percent increase in the Company's revenue from 2019 to 2023, rounded to the nearest percent?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "round": 0
+   }
+  },
+  "answer": {
+   "value": 86
+  },
+  "explanation": "$\\frac{26-14}{14}=\\frac{12}{14}\\approx0.857$, which is about 86 percent.",
+  "estSeconds": 75,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Annual revenue, in millions of dollars",
+   "data": {
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Company",
+      "values": [
+       14,
+       18,
+       17,
+       23,
+       26
+      ]
+     },
+     {
+      "name": "Competitor",
+      "values": [
+       20,
+       19,
+       22,
+       21,
+       25
+      ]
+     }
+    ],
+    "yLabel": "Revenue (millions of dollars)",
+    "unit": "millions of dollars"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-10",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 3,
+  "stem": "Which of the following statements are supported by the table? Indicate all such statements.",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "In every quarter East received more orders than West."
+    },
+    {
+     "id": "B",
+     "text": "South's orders increased in every quarter."
+    },
+    {
+     "id": "C",
+     "text": "North received more orders than South in every quarter."
+    },
+    {
+     "id": "D",
+     "text": "Total orders in Q4 were at least 40 percent greater than in Q1."
+    },
+    {
+     "id": "E",
+     "text": "West received fewer than 20 percent of all orders for the year."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  },
+  "explanation": "East beats West in all four quarters. West's total is 42 of 228, about 18.4 percent. The other statements fail on the numbers.",
+  "choiceExplanations": {
+   "B": "South fell from 16 in Q3 to 14 in Q4.",
+   "C": "In Q3 North had 14 and South had 16.",
+   "D": "Q4 is 67 and Q1 is 48. 1.4 times 48 is 67.2, so Q4 is just under 40 percent greater."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Online orders received, in hundreds",
+   "data": {
+    "columns": [
+     "Region",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "North",
+      12,
+      15,
+      14,
+      19
+     ],
+     [
+      "South",
+      9,
+      11,
+      16,
+      14
+     ],
+     [
+      "East",
+      20,
+      18,
+      17,
+      21
+     ],
+     [
+      "West",
+      7,
+      10,
+      12,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-11",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 4,
+  "stem": "Which of the following can be concluded from the graph alone?",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Competitor was more profitable than the Company in 2021."
+    },
+    {
+     "id": "B",
+     "text": "The Company's revenue will exceed the Competitor's in 2024."
+    },
+    {
+     "id": "C",
+     "text": "The two companies' combined revenue was greatest in 2023."
+    },
+    {
+     "id": "D",
+     "text": "The Company's revenue rose in every year shown."
+    },
+    {
+     "id": "E",
+     "text": "The Competitor's revenue was lower in 2023 than in 2019."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "explanation": "Combined revenue: 34, 37, 39, 44, 51 million dollars, so 2023 is greatest. Profit and future values are outside the data.",
+  "choiceExplanations": {
+   "A": "Profit is not shown; only revenue.",
+   "B": "The graph shows no data for 2024.",
+   "D": "It fell from 18 in 2020 to 17 in 2021.",
+   "E": "It rose from 20 to 25."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Annual revenue, in millions of dollars",
+   "data": {
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Company",
+      "values": [
+       14,
+       18,
+       17,
+       23,
+       26
+      ]
+     },
+     {
+      "name": "Competitor",
+      "values": [
+       20,
+       19,
+       22,
+       21,
+       25
+      ]
+     }
+    ],
+    "yLabel": "Revenue (millions of dollars)",
+    "unit": "millions of dollars"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ },
+ {
+  "id": "q0-07-di-sets-12",
+  "lessonId": "q0-07-di-sets",
+  "type": "DI",
+  "difficulty": 5,
+  "stem": "Suppose the amount budgeted for salaries is cut by 10 percent of itself and nothing else changes. Rent is then what percent of the new total budget, to the nearest 0.1 percent?",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 20.9
+  },
+  "explanation": "Salaries: $0.45\\times240{,}000=108{,}000$; cut $10{,}800$, so the new total is $229{,}200$. Rent stays $0.20\\times240{,}000=48{,}000$, and $\\frac{48{,}000}{229{,}200}\\approx0.2094$, or 20.9 percent.",
+  "estSeconds": 150,
+  "skills": [
+   "data-interpretation-sets"
+  ],
+  "figure": {
+   "kind": "pie",
+   "title": "Budget by category, percent of a 240,000-dollar budget",
+   "data": {
+    "slices": [
+     {
+      "label": "Salaries",
+      "value": 45
+     },
+     {
+      "label": "Rent",
+      "value": 20
+     },
+     {
+      "label": "Equipment",
+      "value": 15
+     },
+     {
+      "label": "Marketing",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 8
+     }
+    ],
+    "total": 100,
+    "unit": "percent"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  }
+ }
+]

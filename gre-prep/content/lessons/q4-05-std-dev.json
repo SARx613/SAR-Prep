@@ -1,0 +1,74 @@
+{
+ "id": "q4-05-std-dev",
+ "status": "draft",
+ "why": "The GRE asks you to compare standard deviations and to place values in \"standard deviations from the mean\", seldom to grind through long calculations.",
+ "rule": "The **standard deviation (SD)** measures how far values typically lie from the mean. For $n$ values: find the mean; subtract it from each value; square each difference; average the squares (divide by $n$); take the positive square root.\n\nValues spread far from the mean give a larger SD; values clustered near it give a smaller SD; identical values give an SD of 0. Only distances from the mean matter, so adding the same number to every value leaves the SD unchanged.\n\n**Standardizing**: $z = \\frac{x - \\text{mean}}{\\text{SD}}$ says how many SDs $x$ is above (+) or below ($-$) the mean. Most data lie within 3 SDs of the mean.",
+ "examples": [
+  {
+   "prompt": "Find the standard deviation of 2, 4, 4, 4, 5, 5, 7, 9.",
+   "steps": [
+    "Mean $= \\frac{40}{8} = 5$.",
+    "Differences from 5: $-3, -1, -1, -1, 0, 0, 2, 4$. Squares: 9, 1, 1, 1, 0, 0, 4, 16, which add to 32.",
+    "Average of squares $= \\frac{32}{8} = 4$; SD $= \\sqrt{4} = 2$."
+   ],
+   "answer": "2"
+  },
+  {
+   "prompt": "Scores have a mean of 70 and an SD of 8. How many SDs from the mean are the scores 86 and 62?",
+   "steps": [
+    "$z = \\frac{86 - 70}{8} = 2$.",
+    "$z = \\frac{62 - 70}{8} = -1$."
+   ],
+   "answer": "86 is 2 SDs above the mean; 62 is 1 SD below"
+  }
+ ],
+ "trap": "Stopping one step early: the average of the squared differences (4 in Example 1) is not the SD; the SD is its square root (2). Also, a larger range does not always mean a larger SD: what counts is how far all the values sit from the mean.",
+ "checks": [
+  {
+   "id": "q4-05-std-dev-c1",
+   "lessonId": "q4-05-std-dev",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is the standard deviation of the numbers 5, 5, 9 and 9?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 2
+   },
+   "explanation": "The mean is 7, so every value is 2 away from it. The squared differences are all 4, their average is 4, and the SD is $\\sqrt{4} = 2$.",
+   "estSeconds": 60,
+   "skills": [
+    "std-dev"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q4-05-std-dev-c2",
+   "lessonId": "q4-05-std-dev",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "A data set has a mean of 100 and a standard deviation of 15. How many standard deviations from the mean (positive if above, negative if below) is the value 70?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -2
+   },
+   "explanation": "$\\frac{70 - 100}{15} = -2$: the value is 2 SDs below the mean.",
+   "estSeconds": 60,
+   "skills": [
+    "standardization"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

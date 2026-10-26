@@ -1,0 +1,100 @@
+/* Server-side content access for pages. Reads content/ once per process
+ * (every request in dev, so edits show without a restart). */
+
+import { loadContent, type RawContent } from './load';
+import { sectionOf } from '@/types/questions';
+import type { ContentQuestionInput, SyllabusLesson } from './schema';
+import type { ClientQuestion, LessonView } from './types';
+
+let cache: RawContent | null = null;
+
+export function content(): RawContent {
+  if (process.env.NODE_ENV === 'production' && cache) return cache;
+  cache = loadContent();
+  return cache;
+}
+
+/** Drafts are visible in development and when SAR_SHOW_DRAFTS=1; production shows published only. */
+const showDrafts = () => process.env.NODE_ENV !== 'production' || process.env.SAR_SHOW_DRAFTS === '1';
+
+export function toClient(q: ContentQuestionInput, c: RawContent = content()): ClientQuestion {
+  const passage = q.passageId ? c.passages.get(q.passageId) : undefined;
+  return {
+    id: q.id,
+    type: q.type,
+    section: sectionOf(q.type),
+    topic: q.lessonId,
+    subtopic: null,
+    difficulty: q.difficulty,
+    passageId: q.passageId ?? null,
+    figureId: null,
+    stem: q.stem,
+    content: q.content as ClientQuestion['content'],
+    answer: q.answer as ClientQuestion['answer'],
+    explanation: q.explanation,
+    source: 'sar-prep',
+    tags: q.skills,
+    lessonId: q.lessonId,
+    estSeconds: q.estSeconds,
+    choiceExplanations: q.choiceExplanations,
+    passage,
+    figureSpec: q.figure,
+  };
+}
+
+export function isPlayable(q: ContentQuestionInput): boolean {
+  return showDrafts() || q.review.status === 'published';
+}
+
+export function getSet(setId: string): ClientQuestion[] {
+  const c = content();
+  return (c.questionSets.get(setId) ?? []).filter(isPlayable).map((q) => toClient(q, c));
+}
+
+export interface LessonCard {
+  meta: SyllabusLesson;
+  available: boolean;
+  practiceCount: number;
+}
+
+export function getChapters() {
+  const c = content();
+  return c.syllabus.chapters
+    .slice()
+    .sort((a, b) => a.order - b.order)
+    .map((ch) => {
+      const lessons: LessonCard[] = c.syllabus.lessons
+        .filter((l) => l.chapter === ch.id)
+        .sort((a, b) => a.order - b.order)
+        .map((meta) => {
+          const body = c.lessons.get(meta.id);
+          const available = !!body && (showDrafts() || body.status === 'published');
+          return { meta, available, practiceCount: available ? getSet(meta.id).length : 0 };
+        });
+      return { ...ch, lessons };
+    });
+}
+
+export function getChapter(id: string) {
+  return getChapters().find((c) => c.id === id) ?? null;
+}
+
+export function getLesson(id: string): LessonView | null {
+  const c = content();
+  const meta = c.syllabus.lessons.find((l) => l.id === id);
+  const body = c.lessons.get(id);
+  if (!meta || !body) return null;
+  if (!showDrafts() && body.status !== 'published') return null;
+  return { meta, body, checks: body.checks.map((q) => toClient(q, c)), practiceCount: getSet(id).length };
+}
+
+/** Previous and next *available* lessons across the whole syllabus, for lesson-to-lesson navigation. */
+export function neighbours(id: string): { prev: LessonCard | null; next: LessonCard | null } {
+  const flat = getChapters().flatMap((ch) => ch.lessons).filter((l) => l.available);
+  const i = flat.findIndex((l) => l.meta.id === id);
+  return { prev: i > 0 ? flat[i - 1] : null, next: i >= 0 && i < flat.length - 1 ? flat[i + 1] : null };
+}
+
+export function getSource(id: string) {
+  return content().sources.find((s) => s.id === id) ?? null;
+}

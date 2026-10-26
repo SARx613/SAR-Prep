@@ -1,0 +1,128 @@
+{
+ "id": "q2-14-lines",
+ "status": "draft",
+ "why": "Slope, intercepts and parallel or perpendicular lines are tested directly, and they also decode graphs in Data Interpretation and Quantitative Comparison.",
+ "rule": "**Slope** through $(x_1,y_1)$ and $(x_2,y_2)$: $m=\\dfrac{y_2-y_1}{x_2-x_1}$ (rise over run).\n\n**Slope-intercept form:** $y=mx+b$, where $b$ is the $y$-intercept. To find $b$, substitute one known point. To find the $x$-intercept, set $y=0$.\n\nHorizontal lines $y=b$ have slope 0; vertical lines $x=a$ have no slope.\n\n**Parallel** lines have equal slopes; **perpendicular** lines have slopes that are negative reciprocals. Two lines meet where their equations hold together, so solve the system. Rewrite $Ax+By=C$ as $y=\\dots$ to read the slope.",
+ "examples": [
+  {
+   "prompt": "Find the equation and the $x$-intercept of the line through $(-1,5)$ and $(3,-3)$.",
+   "steps": [
+    "Slope: $\\frac{-3-5}{3-(-1)}=\\frac{-8}{4}=-2$.",
+    "$y=-2x+b$ through $(-1,5)$: $5=2+b$, so $b=3$.",
+    "$y=-2x+3$. For the $x$-intercept set $y=0$: $x=\\frac32$."
+   ],
+   "answer": "$y=-2x+3$; $x$-intercept $\\frac32$"
+  },
+  {
+   "prompt": "Line $\\ell$ passes through $(2,1)$ and is perpendicular to the line $3x+6y=12$. Find an equation of $\\ell$.",
+   "steps": [
+    "$3x+6y=12$ becomes $y=-\\frac12x+2$, slope $-\\frac12$.",
+    "Perpendicular slope: the negative reciprocal, $2$.",
+    "$1=2(2)+b$, so $b=-3$."
+   ],
+   "answer": "$y=2x-3$"
+  }
+ ],
+ "trap": "The slope of $3x+6y=12$ is not 3: solve for $y$ first. A perpendicular slope flips *and* changes the sign, so $-\\frac12$ becomes $2$, not $-2$ or $\\frac12$.",
+ "checks": [
+  {
+   "id": "q2-14-lines-c1",
+   "lessonId": "q2-14-lines",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is the slope of the line through the points $(0,1)$ and $(4,9)$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 2
+   },
+   "explanation": "$\\frac{9-1}{4-0}=\\frac84=2$.",
+   "estSeconds": 75,
+   "skills": [
+    "lines-slope"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-14-lines-c2",
+   "lessonId": "q2-14-lines",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "What is the $x$-intercept of the line $2x-3y=12$?",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
+   },
+   "explanation": "Set $y=0$: $2x=12$, so $x=6$.",
+   "estSeconds": 75,
+   "skills": [
+    "lines-slope"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-14-lines-c3",
+   "lessonId": "q2-14-lines",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "What is the slope of any line perpendicular to the line $y=-\\frac23x+1$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-\\frac32$"
+     },
+     {
+      "id": "B",
+      "text": "$-\\frac23$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac23$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac32$"
+     },
+     {
+      "id": "E",
+      "text": "$3$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   },
+   "explanation": "The negative reciprocal of $-\\frac23$ is $\\frac32$.",
+   "choiceExplanations": {
+    "A": "This flips the fraction but keeps the negative sign.",
+    "B": "This is the slope of the given line, so it would be parallel.",
+    "C": "This changes the sign only.",
+    "E": "Perpendicular slopes multiply to $-1$; $3\\cdot\\left(-\\frac23\\right)=-2$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "lines-slope"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

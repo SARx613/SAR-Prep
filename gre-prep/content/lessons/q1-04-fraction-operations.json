@@ -1,0 +1,131 @@
+{
+ "id": "q1-04-fraction-operations",
+ "status": "draft",
+ "why": "Fraction arithmetic runs through almost every Quant question, from pure computation to word problems and ratios.",
+ "rule": "A **fraction** $\\frac{c}{d}$ has integers $c$ and $d\\ne0$; every integer $n$ equals $\\frac{n}{1}$. Multiplying numerator and denominator by the same nonzero integer gives an equivalent fraction, and dividing out a common factor reduces it. Also $\\frac{-c}{d} = \\frac{c}{-d} = -\\frac{c}{d}$.\n\n- **Add or subtract:** rewrite over a common denominator (a common multiple of the denominators), then combine the numerators only.\n- **Multiply:** numerators together, denominators together.\n- **Divide:** multiply by the reciprocal of the second fraction.",
+ "examples": [
+  {
+   "prompt": "Compute $\\frac{5}{6}-\\frac{3}{8}$.",
+   "steps": [
+    "The least common multiple of 6 and 8 is 24.",
+    "$\\frac{20}{24}-\\frac{9}{24} = \\frac{11}{24}$."
+   ],
+   "answer": "$\\frac{11}{24}$"
+  },
+  {
+   "prompt": "Compute $\\frac{4}{9}\\div\\frac{2}{3}$.",
+   "steps": [
+    "Invert the second fraction: $\\frac{4}{9}\\cdot\\frac{3}{2}$.",
+    "$\\frac{12}{18} = \\frac{2}{3}$."
+   ],
+   "answer": "$\\frac{2}{3}$"
+  }
+ ],
+ "trap": "Never add numerators and denominators: $\\frac{1}{2}+\\frac{1}{3}\\ne\\frac{2}{5}$ (it is $\\frac{5}{6}$). In a division, invert only the second fraction.",
+ "checks": [
+  {
+   "id": "q1-04-fraction-operations-c1",
+   "lessonId": "q1-04-fraction-operations",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "What is $\\frac{1}{4}+\\frac{1}{6}$? Enter your answer as a fraction.",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.4166666666666667,
+    "fraction": {
+     "numerator": 5,
+     "denominator": 12
+    }
+   },
+   "explanation": "A common denominator is 12: $\\frac{3}{12}+\\frac{2}{12} = \\frac{5}{12}$.",
+   "estSeconds": 60,
+   "skills": [
+    "fraction-operations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-04-fraction-operations-c2",
+   "lessonId": "q1-04-fraction-operations",
+   "type": "PS",
+   "difficulty": 2,
+   "stem": "What is $\\frac{3}{5}\\div\\frac{9}{10}$?",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{27}{50}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{2}{3}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{3}{4}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{3}{2}$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{5}{3}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "explanation": "Multiply by the reciprocal of the second fraction: $\\frac{3}{5}\\cdot\\frac{10}{9} = \\frac{30}{45} = \\frac{2}{3}$.",
+   "choiceExplanations": {
+    "A": "This multiplies without inverting: $\\frac{3}{5}\\cdot\\frac{9}{10}$.",
+    "C": "$\\frac{30}{45}$ reduces to $\\frac{2}{3}$ (divide by 15), not $\\frac{3}{4}$.",
+    "D": "This inverts the first fraction instead of the second.",
+    "E": "This is the reciprocal of $\\frac{3}{5}$ and has nothing to do with the division."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "fraction-operations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q1-04-fraction-operations-c3",
+   "lessonId": "q1-04-fraction-operations",
+   "type": "QC",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "content": {
+    "quantityA": "$\\frac{2}{3}+\\frac{1}{4}$",
+    "quantityB": "1"
+   },
+   "answer": {
+    "choice": "B"
+   },
+   "explanation": "$\\frac{2}{3}+\\frac{1}{4} = \\frac{8}{12}+\\frac{3}{12} = \\frac{11}{12}$, which is less than 1.",
+   "estSeconds": 60,
+   "skills": [
+    "fraction-operations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}

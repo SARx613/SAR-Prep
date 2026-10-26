@@ -1,0 +1,101 @@
+{
+ "id": "q2-12-interest",
+ "status": "draft",
+ "why": "Interest questions test whether you can pick the right growth formula, simple or compounded, and then evaluate it with the on-screen calculator.",
+ "rule": "Principal $P$, annual rate $r$ percent, $t$ years, value $V$:\n\n- **Simple:** $V=P\\left(1+\\dfrac{rt}{100}\\right)$.\n- **Compounded annually:** $V=P\\left(1+\\dfrac{r}{100}\\right)^{t}$.\n- **Compounded $n$ times a year:** $V=P\\left(1+\\dfrac{r}{100n}\\right)^{nt}$.\n\nInterest earned $=V-P$. Use the rate as a percent number: 5 percent means $r=5$, or 0.05 once divided by 100. Compounding earns interest on interest, so it beats simple interest after the first period.",
+ "examples": [
+  {
+   "prompt": "\\$4,000 is invested at 5 percent simple annual interest for 3 years. What is its value at the end?",
+   "steps": [
+    "$V=4000\\left(1+\\frac{5\\cdot3}{100}\\right)=4000(1.15)$.",
+    "$V=4600$."
+   ],
+   "answer": "\\$4,600"
+  },
+  {
+   "prompt": "\\$1,000 is invested at 6 percent per year, compounded semiannually, for 1 year. What is its value?",
+   "steps": [
+    "Compounded twice a year: $n=2$, rate per period $\\frac{6}{200}=0.03$, number of periods $nt=2$.",
+    "$V=1000(1.03)^2=1060.90$."
+   ],
+   "answer": "\\$1,060.90"
+  }
+ ],
+ "trap": "Interest and value differ: the formulas give the *value*, so subtract $P$ when the question asks for interest. In compounding $n$ times a year, divide the rate by $n$ and multiply the years by $n$; doing only one of the two is the usual slip.",
+ "checks": [
+  {
+   "id": "q2-12-interest-c1",
+   "lessonId": "q2-12-interest",
+   "type": "NE",
+   "difficulty": 1,
+   "stem": "\\$800 is invested at 4 percent simple annual interest for 2 years. How many dollars of interest does it earn?",
+   "content": {
+    "format": "integer",
+    "unit": "dollars"
+   },
+   "answer": {
+    "value": 64
+   },
+   "explanation": "Interest $=800\\cdot\\frac{4\\cdot2}{100}=64$ dollars.",
+   "estSeconds": 75,
+   "skills": [
+    "interest"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-12-interest-c2",
+   "lessonId": "q2-12-interest",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "\\$500 is invested at 20 percent annual interest, compounded annually. What is its value, in dollars, after 2 years?",
+   "content": {
+    "format": "integer",
+    "unit": "dollars"
+   },
+   "answer": {
+    "value": 720
+   },
+   "explanation": "$V=500(1.2)^2=500(1.44)=720$.",
+   "estSeconds": 75,
+   "skills": [
+    "interest"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  },
+  {
+   "id": "q2-12-interest-c3",
+   "lessonId": "q2-12-interest",
+   "type": "NE",
+   "difficulty": 2,
+   "stem": "\\$2,000 is invested at 12 percent annual interest, compounded quarterly. What is its value, in dollars, after 6 months? Round to the nearest cent.",
+   "content": {
+    "format": "decimal",
+    "unit": "dollars",
+    "round": 2
+   },
+   "answer": {
+    "value": 2121.8,
+    "tolerance": 0.005
+   },
+   "explanation": "Quarterly: rate per period $\\frac{12}{400}=0.03$; in 6 months there are 2 periods. $V=2000(1.03)^2=2000(1.0609)=2121.80$.",
+   "estSeconds": 90,
+   "skills": [
+    "interest"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   }
+  }
+ ]
+}
