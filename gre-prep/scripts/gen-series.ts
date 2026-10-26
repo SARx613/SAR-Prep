@@ -8,7 +8,7 @@
  *
  * A word lands in the theme whose keywords its definition and synonyms match
  * best; ties go to the earlier theme, so the output is deterministic. Words
- * matching nothing fall into the "Mélange" pool, as do the leftovers of any
+ * matching nothing fall into the "Mixed" pool, as do the leftovers of any
  * theme too small to fill a series on its own.
  *
  *   npx tsx scripts/gen-series.ts
@@ -40,15 +40,15 @@ interface Theme {
 
 const THEMES: Theme[] = [
   {
-    id: 'praise', label: 'Éloge & admiration',
+    id: 'praise', label: 'Praise & admiration',
     keywords: ['praise', 'laud', 'extol', 'commend', 'admir', 'acclaim', 'flatter', 'adulation', 'eulog', 'applaud', 'compliment', 'revere', 'venerat', 'esteem', 'homage', 'tribute', 'exalt', 'accolade'],
   },
   {
-    id: 'criticism', label: 'Critique & blâme',
+    id: 'criticism', label: 'Criticism & blame',
     keywords: ['criticiz', 'criticism', 'critical', 'censure', 'rebuke', 'reprimand', 'scold', 'condemn', 'disparag', 'denounc', 'deride', 'mock', 'ridicul', 'belittl', 'berate', 'chastis', 'reproach', 'reprov', 'blame', 'slander', 'defam', 'vilif', 'castigat', 'harangu', 'taunt', 'jeer', 'scorn', 'contempt', 'diatribe'],
   },
   {
-    id: 'speech', label: 'Parole & discours',
+    id: 'speech', label: 'Speech & discourse',
     keywords: ['speech', 'speak', 'spoken', 'talk', 'talkative', 'verbose', 'wordy', 'concise', 'terse', 'eloquen', 'articulat', 'utter', 'loquacious', 'garrulous', 'taciturn', 'reticent', 'discourse', 'orator', 'rhetoric', 'banter', 'chatter', 'tirade', 'monologue', '語', 'phrase', 'language', 'conversation', 'dialogue', 'silence', 'silent', 'mute'],
   },
   {
@@ -60,11 +60,11 @@ const THEMES: Theme[] = [
     keywords: ['honest', 'sincere', 'sincerit', 'candid', 'candor', 'frank', 'forthright', 'truth', 'integrity', 'genuine', 'straightforward', 'blunt', 'outspoken', 'earnest'],
   },
   {
-    id: 'anger', label: 'Colère & hostilité',
+    id: 'anger', label: 'Anger & hostility',
     keywords: ['anger', 'angry', 'irate', 'wrath', 'rage', 'furious', 'fury', 'hostil', 'resent', 'indignat', 'irritat', 'enrag', 'provok', 'belligeren', 'antagoni', 'spite', 'malice', 'malicious', 'vindictive', 'animosity', 'rancor', 'acrimon', 'vitriol', 'bitter', 'hate', 'hatred', 'loath', 'detest', 'disgust', 'aversion', 'repugnan', 'abhor', 'contempt'],
   },
   {
-    id: 'calm', label: 'Calme & apaisement',
+    id: 'calm', label: 'Calm & soothing',
     keywords: ['calm', 'sooth', 'placat', 'appeas', 'pacif', 'serene', 'serenit', 'tranquil', 'mollif', 'assuag', 'alleviat', 'peaceful', 'composure', 'sedate', 'relax', 'quell', 'lull', 'respite', 'gentle', 'mild', 'temperate', 'moderate', 'comfort', 'console'],
   },
   {
@@ -72,23 +72,23 @@ const THEMES: Theme[] = [
     keywords: ['arrogan', 'pride', 'proud', 'haught', 'conceit', 'boast', 'pompous', 'vanity', 'egoti', 'condescend', 'disdain', 'supercilious', 'imperious', 'presumptuous', 'smug', 'ostentatious', 'pretentious', 'bombast', 'swagger'],
   },
   {
-    id: 'humility', label: 'Humilité & soumission',
+    id: 'humility', label: 'Humility & submission',
     keywords: ['humble', 'humilit', 'humiliat', 'modest', 'meek', 'submissive', 'submit', 'obedien', 'deferen', 'servile', 'obsequious', 'docile', 'complian', 'subservient', 'yield', 'grovel', 'sycophant'],
   },
   {
-    id: 'abundance', label: 'Abondance & excès',
+    id: 'abundance', label: 'Abundance & excess',
     keywords: ['abundan', 'plentiful', 'profuse', 'copious', 'excess', 'surplus', 'lavish', 'prodigal', 'superfluous', 'ample', 'teem', 'replete', 'opulen', 'extravagan', 'overflow', 'myriad', 'glut', 'saturat', 'bountiful', 'immoderate', 'unrestrained'],
   },
   {
-    id: 'scarcity', label: 'Rareté & manque',
+    id: 'scarcity', label: 'Scarcity & lack',
     keywords: ['scarce', 'scarcit', 'scant', 'meager', 'sparse', 'dearth', 'paucity', 'deficien', 'lacking', 'frugal', 'austere', 'deplet', 'parsimon', 'miserly', 'stingy', 'insufficient', 'sparing', 'thrift', 'barren'],
   },
   {
-    id: 'change', label: 'Changement & transformation',
+    id: 'change', label: 'Change & transformation',
     keywords: ['change', 'transform', 'alter', 'modif', 'convert', 'mutable', 'metamorph', 'vary', 'fluctuat', 'evolv', 'revert', 'adapt', 'reform', 'shift', 'transition', 'inconstant', 'volatile', 'fickle'],
   },
   {
-    id: 'persistence', label: 'Ténacité & obstination',
+    id: 'persistence', label: 'Persistence & stubbornness',
     keywords: ['stubborn', 'obstinat', 'persist', 'tenacious', 'steadfast', 'resolute', 'unwavering', 'persever', 'intransigen', 'adamant', 'dogged', 'relentless', 'inflexible', 'recalcitran', 'intractable', 'staunch', 'obdurate', 'unyielding', 'diligen'],
   },
   {
@@ -100,15 +100,15 @@ const THEMES: Theme[] = [
     keywords: ['reckless', 'rash', 'impetuous', 'audaci', 'bold', 'daring', 'brazen', 'foolhardy', 'impulsive', 'temerity', 'intrepid', 'brash', 'headlong', 'fearless', 'courage', 'valor', 'dauntless'],
   },
   {
-    id: 'knowledge', label: 'Savoir & intelligence',
+    id: 'knowledge', label: 'Knowledge & intelligence',
     keywords: ['knowledge', 'learned', 'erudit', 'scholar', 'wise', 'wisdom', 'astute', 'shrewd', 'sagaci', 'perceptive', 'insight', 'intelligen', 'discern', 'acumen', 'ignoran', 'foolish', 'folly', 'naive', 'obtuse', 'pedant', 'education', 'clever', 'expert', 'skillful', 'skill', 'adept', 'competen', 'amateur', 'dilettante', 'genius', 'intellect', 'aptitude', 'understanding'],
   },
   {
-    id: 'obscurity', label: 'Obscurité & ambiguïté',
+    id: 'obscurity', label: 'Obscurity & ambiguity',
     keywords: ['obscur', 'ambigu', 'vague', 'unclear', 'cryptic', 'enigmat', 'abstruse', 'esoteric', 'opaque', 'arcane', 'inscrutable', 'perplex', 'puzzl', 'mysteri', 'equivocal', 'convoluted', 'confus', 'baffl', 'unintelligible', 'hidden meaning'],
   },
   {
-    id: 'clarity', label: 'Clarté & évidence',
+    id: 'clarity', label: 'Clarity & obviousness',
     keywords: ['clarity', 'clarif', 'obvious', 'evident', 'explicit', 'lucid', 'apparent', 'manifest', 'transparen', 'unambiguous', 'coherent', 'distinct', 'plainly', 'straightforwardly', 'intelligible', 'succinct'],
   },
   {
@@ -124,15 +124,15 @@ const THEMES: Theme[] = [
     keywords: ['money', 'wealth', 'financ', 'profit', 'trade', 'commerc', 'economic', 'debt', 'payment', 'currenc', 'affluen', 'income', 'bankrupt', 'purchase', 'salary', 'taxe', 'monetary', 'merchant', 'buy', 'sell'],
   },
   {
-    id: 'law', label: 'Loi, pouvoir & autorité',
+    id: 'law', label: 'Law, power & authority',
     keywords: ['legal', 'court', 'judicial', 'justice', 'authorit', 'govern', 'ruler', 'sovereign', 'decree', 'edict', 'mandate', 'regime', 'politic', 'tyran', 'autocrat', 'jurisdiction', 'statute', 'verdict', 'punish', 'penalt', 'sentence', 'official', 'bureaucra', 'dominion', 'supremacy'],
   },
   {
-    id: 'religion', label: 'Religion & sacré',
+    id: 'religion', label: 'Religion & the sacred',
     keywords: ['sacred', 'holy', 'divine', 'religio', 'church', 'pious', 'piety', 'heres', 'heretic', 'sacrileg', 'worship', 'ritual', 'prayer', 'clerg', 'spiritual', 'secular', 'profane', 'blasphem', 'dogma', 'doctrine', 'faith', 'priest'],
   },
   {
-    id: 'emotion', label: 'Émotions & sentiments',
+    id: 'emotion', label: 'Emotions & feelings',
     keywords: ['sadness', 'sorrow', 'grief', 'mourn', 'melanchol', 'joy', 'happiness', 'delight', 'elation', 'glee', 'fear', 'dread', 'anxious', 'anxiet', 'despair', 'gloom', 'cheerful', 'morose', 'sullen', 'apath', 'longing', 'yearn', 'nostalg', 'lament', 'sorrowful', 'grim', 'passion'],
   },
   {
@@ -144,23 +144,23 @@ const THEMES: Theme[] = [
     keywords: ['water', 'ocean', 'river', 'rain', 'storm', 'wind', 'weather', 'plant', 'tree', 'flower', 'animal', 'bird', 'soil', 'mountain', 'forest', 'climate', 'seasonal', 'sky', 'fauna', 'flora', 'botan', 'geolog', 'insect', 'marine'],
   },
   {
-    id: 'movement', label: 'Mouvement & voyage',
+    id: 'movement', label: 'Movement & travel',
     keywords: ['travel', 'journey', 'wander', 'roam', 'migrat', 'flee', 'depart', 'ascend', 'descend', 'motion', 'drift', 'nomad', 'voyage', 'swift', 'rapid', 'walk', 'stroll', 'flight', 'moving', 'climb', 'scatter', 'disperse', 'spread', 'slope', 'plunge', 'propel', 'retreat', 'advance', 'traverse'],
   },
   {
-    id: 'time', label: 'Temps & durée',
+    id: 'time', label: 'Time & duration',
     keywords: ['brief', 'temporar', 'transien', 'ephemeral', 'fleeting', 'permanen', 'perpetual', 'eternal', 'lasting', 'duration', 'momentar', 'ancien', 'obsolete', 'archaic', 'outdated', 'prolong', 'era', 'delay', 'postpon', 'timely', 'interim', 'enduring', 'short-lived', 'procrastinat', 'prompt', 'sudden', 'immediate', 'daily', 'chronolog', 'historical', 'precede', 'anticipat', 'future', 'past', 'forecast', 'predict', 'premature'],
   },
   {
-    id: 'conflict', label: 'Conflit & guerre',
+    id: 'conflict', label: 'Conflict & war',
     keywords: ['war', 'warfare', 'battle', 'fight', 'combat', 'attack', 'conflict', 'militar', 'soldier', 'weapon', 'siege', 'invad', 'invasion', 'rebell', 'insurgen', 'mutin', 'feud', 'quarrel', 'strife', 'skirmish', 'truce', 'warlike', 'aggress'],
   },
   {
-    id: 'agreement', label: 'Accord & réconciliation',
+    id: 'agreement', label: 'Agreement & reconciliation',
     keywords: ['agreement', 'agree', 'accord', 'consensus', 'harmon', 'reconcil', 'compromise', 'concur', 'unite', 'alliance', 'treat', 'cooperat', 'concord', 'amicable', 'compatib', 'ratif', 'consent', 'endorse', 'approv'],
   },
   {
-    id: 'opposition', label: 'Désaccord & opposition',
+    id: 'opposition', label: 'Disagreement & opposition',
     keywords: ['disagree', 'dissent', 'oppos', 'contradict', 'refut', 'rebut', 'dispute', 'contest', 'controver', 'contentious', 'discord', 'protest', 'reject', 'veto', 'contrary', 'defy', 'defian', 'rival', 'objection'],
   },
   {
@@ -184,19 +184,19 @@ const THEMES: Theme[] = [
     keywords: ['pure', 'purit', 'purif', 'corrupt', 'taint', 'contaminat', 'pollut', 'defile', 'sully', 'cleans', 'unadulterated', 'pristine', 'filth', 'squalid', 'decay', 'rot', 'putrid', 'sordid', 'immoral', 'deprav', 'debauch', 'vice', 'wholesome'],
   },
   {
-    id: 'strange', label: 'Étrange & singulier',
+    id: 'strange', label: 'Strange & singular',
     keywords: ['strange', 'unusual', 'bizarre', 'eccentric', 'peculiar', 'anomal', 'aberran', 'quirk', 'whimsical', 'idiosyncra', 'unconventional', 'oddit', 'atypical', 'erratic', 'irregular', 'freakish'],
   },
   {
-    id: 'ordinary', label: 'Ordinaire & conformité',
+    id: 'ordinary', label: 'Ordinary & conformity',
     keywords: ['ordinar', 'commonplace', 'conventional', 'orthodox', 'mundane', 'banal', 'trite', 'hackneyed', 'cliché', 'routine', 'typical', 'conform', 'prosaic', 'insipid', 'bland', 'mediocre', 'pedestrian', 'unoriginal', 'stale'],
   },
   {
-    id: 'magnitude', label: 'Taille & intensité',
+    id: 'magnitude', label: 'Size & intensity',
     keywords: ['huge', 'vast', 'immense', 'enormous', 'tiny', 'minute', 'massive', 'colossal', 'diminutive', 'intens', 'magnitude', 'expand', 'shrink', 'swell', 'dwindl', 'diminish', 'augment', 'amplif', 'enlarge', 'lessen', 'reduce', 'increase', 'weaken', 'strengthen', 'degrade', 'improve', 'ameliorat', 'exacerbat', 'worsen', 'peak', 'summit', 'height', 'depth', 'extent', 'utmost', 'profound', 'slight'],
   },
   {
-    id: 'beginnings', label: 'Débuts & fins',
+    id: 'beginnings', label: 'Beginnings & endings',
     keywords: ['begin', 'initiat', 'inaugurat', 'origin', 'nascent', 'incipient', 'embryonic', 'terminat', 'cease', 'conclu', 'culminat', 'abolish', 'outset', 'inception', 'demise', 'expire', 'commence', 'final', 'onset'],
   },
   {
@@ -208,7 +208,7 @@ const THEMES: Theme[] = [
     keywords: ['rude', 'impolite', 'crude', 'vulgar', 'boor', 'uncouth', 'coarse', 'brusque', 'curt', 'insolen', 'impuden', 'impertinen', 'discourteous', 'offensive', 'churlish', 'surly', 'abrasive', 'ill-mannered', 'crass'],
   },
   {
-    id: 'refusal', label: 'Refus & renoncement',
+    id: 'refusal', label: 'Refusal & renunciation',
     keywords: ['refuse', 'refusal', 'renounc', 'repudiat', 'abstain', 'forgo', 'decline', 'abdicat', 'relinquish', 'forsake', 'disavow', 'recant', 'abjure', 'waive', 'withdraw', 'desert', 'abandon', 'shun', 'ostraciz', 'exclu', 'banish', 'exile'],
   },
   {
@@ -220,19 +220,19 @@ const THEMES: Theme[] = [
     keywords: ['freedom', 'liberat', 'liberty', 'release', 'emancipat', 'autonom', 'independen', 'unrestricted', 'exempt', 'absolv', 'acquit', 'pardon', 'exonerat', 'vindicat', 'unfetter', 'sovereignt'],
   },
   {
-    id: 'similarity', label: 'Ressemblance & différence',
+    id: 'similarity', label: 'Likeness & difference',
     keywords: ['similar', 'alike', 'analog', 'equivalen', 'resembl', 'identical', 'uniform', 'homogene', 'differen', 'disparate', 'discrepanc', 'divergen', 'heterogene', 'contrast', 'comparison', 'comparable', 'parallel', 'counterpart', 'imitat', 'replicat', 'correspond'],
   },
   {
-    id: 'judgment', label: 'Jugement & impartialité',
+    id: 'judgment', label: 'Judgment & impartiality',
     keywords: ['impartial', 'unbiased', 'biased', 'prejudic', 'objectiv', 'subjectiv', 'judgment', 'evaluat', 'assess', 'appraise', 'arbiter', 'partiality', 'fairness', 'scrutin', 'critique', 'discriminat', 'deem', 'estimate'],
   },
   {
-    id: 'certainty', label: 'Certitude & doute',
+    id: 'certainty', label: 'Certainty & doubt',
     keywords: ['certain', 'certaint', 'doubt', 'dubious', 'skeptic', 'uncertain', 'convinc', 'conviction', 'credib', 'plausib', 'incredul', 'suspicio', 'trust', 'confiden', 'assur', 'believab', 'authentic', 'verif', 'undeniable'],
   },
   {
-    id: 'essence', label: 'Essence & apparence',
+    id: 'essence', label: 'Essence & appearance',
     keywords: ['essence', 'essential', 'intrinsic', 'inherent', 'fundamental', 'superficial', 'appearance', 'facade', 'veneer', 'ostensib', 'nominal', 'seeming', 'guise', 'substance', 'quintessen', 'core', 'underlying', 'outward', 'surface'],
   },
   {
@@ -255,45 +255,45 @@ const THEMES: Theme[] = [
  * opposites (prudence / audace) deliberately share one, since the contrast is
  * itself worth revising. Every theme must appear in exactly one group. */
 const GROUPS: { id: string; label: string; themes: string[] }[] = [
-  { id: 'praise', label: 'Éloge & admiration', themes: ['praise'] },
-  { id: 'criticism', label: 'Critique & blâme', themes: ['criticism'] },
-  { id: 'speech', label: 'Parole & discours', themes: ['speech'] },
-  { id: 'deceit', label: 'Tromperie & secret', themes: ['deceit', 'secrecy'] },
-  { id: 'virtue', label: 'Franchise, respect & générosité', themes: ['honesty', 'respect', 'generosity'] },
-  { id: 'anger', label: 'Colère & hostilité', themes: ['anger'] },
-  { id: 'calm', label: 'Calme & apaisement', themes: ['calm'] },
-  { id: 'pride', label: 'Arrogance & grossièreté', themes: ['pride', 'rudeness'] },
-  { id: 'humility', label: 'Humilité & soumission', themes: ['humility'] },
-  { id: 'abundance', label: 'Abondance & excès', themes: ['abundance'] },
-  { id: 'scarcity', label: 'Rareté & manque', themes: ['scarcity'] },
-  { id: 'change', label: 'Changement & transformation', themes: ['change'] },
-  { id: 'persistence', label: 'Ténacité & obstination', themes: ['persistence'] },
-  { id: 'caution', label: 'Prudence & audace', themes: ['caution', 'boldness'] },
-  { id: 'knowledge', label: 'Savoir & intelligence', themes: ['knowledge', 'teaching'] },
-  { id: 'obscurity', label: 'Obscurité & ambiguïté', themes: ['obscurity'] },
-  { id: 'clarity', label: 'Clarté & évidence', themes: ['clarity'] },
-  { id: 'harm', label: 'Nuire, souiller & détruire', themes: ['harm', 'purity'] },
-  { id: 'law', label: 'Loi, pouvoir & autorité', themes: ['law'] },
-  { id: 'religion', label: 'Religion & sacré', themes: ['religion'] },
-  { id: 'emotion', label: 'Émotions & sentiments', themes: ['emotion'] },
-  { id: 'nature', label: 'Nature, corps & matière', themes: ['nature', 'health', 'matter'] },
-  { id: 'movement', label: 'Mouvement & voyage', themes: ['movement'] },
-  { id: 'time', label: 'Temps & durée', themes: ['time'] },
-  { id: 'conflict', label: 'Conflit & guerre', themes: ['conflict'] },
-  { id: 'agreement', label: 'Accord & réconciliation', themes: ['agreement'] },
-  { id: 'opposition', label: 'Désaccord & opposition', themes: ['opposition'] },
+  { id: 'praise', label: 'Praise & admiration', themes: ['praise'] },
+  { id: 'criticism', label: 'Criticism & blame', themes: ['criticism'] },
+  { id: 'speech', label: 'Speech & discourse', themes: ['speech'] },
+  { id: 'deceit', label: 'Deceit & secrecy', themes: ['deceit', 'secrecy'] },
+  { id: 'virtue', label: 'Candor, respect & generosity', themes: ['honesty', 'respect', 'generosity'] },
+  { id: 'anger', label: 'Anger & hostility', themes: ['anger'] },
+  { id: 'calm', label: 'Calm & soothing', themes: ['calm'] },
+  { id: 'pride', label: 'Arrogance & rudeness', themes: ['pride', 'rudeness'] },
+  { id: 'humility', label: 'Humility & submission', themes: ['humility'] },
+  { id: 'abundance', label: 'Abundance & excess', themes: ['abundance'] },
+  { id: 'scarcity', label: 'Scarcity & lack', themes: ['scarcity'] },
+  { id: 'change', label: 'Change & transformation', themes: ['change'] },
+  { id: 'persistence', label: 'Persistence & stubbornness', themes: ['persistence'] },
+  { id: 'caution', label: 'Caution & daring', themes: ['caution', 'boldness'] },
+  { id: 'knowledge', label: 'Knowledge & intelligence', themes: ['knowledge', 'teaching'] },
+  { id: 'obscurity', label: 'Obscurity & ambiguity', themes: ['obscurity'] },
+  { id: 'clarity', label: 'Clarity & obviousness', themes: ['clarity'] },
+  { id: 'harm', label: 'Harming, defiling & destroying', themes: ['harm', 'purity'] },
+  { id: 'law', label: 'Law, power & authority', themes: ['law'] },
+  { id: 'religion', label: 'Religion & the sacred', themes: ['religion'] },
+  { id: 'emotion', label: 'Emotions & feelings', themes: ['emotion'] },
+  { id: 'nature', label: 'Nature, body & matter', themes: ['nature', 'health', 'matter'] },
+  { id: 'movement', label: 'Movement & travel', themes: ['movement'] },
+  { id: 'time', label: 'Time & duration', themes: ['time'] },
+  { id: 'conflict', label: 'Conflict & war', themes: ['conflict'] },
+  { id: 'agreement', label: 'Agreement & reconciliation', themes: ['agreement'] },
+  { id: 'opposition', label: 'Disagreement & opposition', themes: ['opposition'] },
   { id: 'science', label: 'Arts & sciences', themes: ['art', 'science'] },
-  { id: 'work', label: 'Travail, argent & commerce', themes: ['work', 'money'] },
-  { id: 'strange', label: 'Étrange & singulier', themes: ['strange'] },
-  { id: 'ordinary', label: 'Ordinaire & conformité', themes: ['ordinary'] },
-  { id: 'magnitude', label: 'Taille & intensité', themes: ['magnitude'] },
-  { id: 'beginnings', label: 'Débuts & fins', themes: ['beginnings'] },
-  { id: 'refusal', label: 'Refus & renoncement', themes: ['refusal'] },
-  { id: 'limits', label: 'Contraintes & liberté', themes: ['limits', 'freedom'] },
-  { id: 'similarity', label: 'Ressemblance & différence', themes: ['similarity'] },
-  { id: 'judgment', label: 'Jugement & impartialité', themes: ['judgment'] },
-  { id: 'certainty', label: 'Certitude & doute', themes: ['certainty'] },
-  { id: 'essence', label: 'Essence & apparence', themes: ['essence'] },
+  { id: 'work', label: 'Work, money & commerce', themes: ['work', 'money'] },
+  { id: 'strange', label: 'Strange & singular', themes: ['strange'] },
+  { id: 'ordinary', label: 'Ordinary & conformity', themes: ['ordinary'] },
+  { id: 'magnitude', label: 'Size & intensity', themes: ['magnitude'] },
+  { id: 'beginnings', label: 'Beginnings & endings', themes: ['beginnings'] },
+  { id: 'refusal', label: 'Refusal & renunciation', themes: ['refusal'] },
+  { id: 'limits', label: 'Constraint & freedom', themes: ['limits', 'freedom'] },
+  { id: 'similarity', label: 'Likeness & difference', themes: ['similarity'] },
+  { id: 'judgment', label: 'Judgment & impartiality', themes: ['judgment'] },
+  { id: 'certainty', label: 'Certainty & doubt', themes: ['certainty'] },
+  { id: 'essence', label: 'Essence & appearance', themes: ['essence'] },
   { id: 'structure', label: 'Structure & organisation', themes: ['structure'] },
 ];
 
@@ -392,8 +392,8 @@ split(mixedSorted, SERIES_SIZE).forEach((c, i) => {
   series.push({
     id: `mixed-${i + 1}`,
     themeId: 'mixed',
-    themeLabel: 'Mélange',
-    title: `Mélange ${i + 1}`,
+    themeLabel: 'Mixed',
+    title: `Mixed ${i + 1}`,
     wordIds: c.map((w) => w.id),
   });
 });

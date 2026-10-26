@@ -115,7 +115,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                             color: 'var(--violet)', fontSize: '0.72rem', fontWeight: 700,
                           }}
                         >
-                          <Eye size={12} /> Voir
+                          <Eye size={12} /> Show
                         </motion.button>
                       )}
                     </AnimatePresence>
@@ -156,7 +156,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           color: 'var(--amber)', fontSize: '0.72rem', fontWeight: 700,
                         }}
                       >
-                        <Eye size={12} /> Voir
+                        <Eye size={12} /> Show
                       </motion.button>
                     )}
                   </AnimatePresence>

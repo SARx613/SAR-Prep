@@ -88,6 +88,11 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
           {subtitle}
         </p>
 
+        {/* ETS tests vocabulary in context (TC and SE), not as a word list. */}
+        <Link href="/exam/v4-01-words-in-context?mode=tutor" style={{ display: 'block', textDecoration: 'none', marginBottom: '1.5rem', padding: '0.8rem 1.1rem', borderRadius: 16, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.03)', color: 'var(--text-secondary)', fontSize: '0.85rem', lineHeight: 1.5 }}>
+          <strong style={{ color: '#fff' }}>Practice these words in context →</strong> On the GRE, vocabulary is tested inside Text Completion and Sentence Equivalence questions.
+        </Link>
+
         {/* Review series — only when something is actually waiting */}
         {review && (
           <Link href={`${basePath}/review`} style={{ textDecoration: 'none' }}>
