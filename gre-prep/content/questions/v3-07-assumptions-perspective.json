@@ -615,7 +615,10 @@
   "passageId": "v3w2-poll-nonresponse",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -669,7 +672,10 @@
   "passageId": "v3w2-ocean-noise",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -708,7 +714,7 @@
   "id": "v3-07-assumptions-perspective-15",
   "lessonId": "v3-07-assumptions-perspective",
   "difficulty": 2,
-  "stem": "Select the sentence in which the author most clearly signals a view of the author's own, as distinct from what proponents emphasize.",
+  "stem": "Select the sentence that introduces a benefit of tool libraries other than the savings that proponents emphasize.",
   "explanation": "'May be social' follows the proponents' emphasis on savings and introduces the author's own, hedged view that another benefit matters.",
   "estSeconds": 70,
   "skills": [
@@ -717,7 +723,10 @@
   "passageId": "v3w2-tool-library",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -744,7 +753,10 @@
   "passageId": "v3w2-moth-clicks",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -791,7 +803,10 @@
   "passageId": "v3w2-note-taking",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -845,7 +860,10 @@
   "passageId": "v3w2-subscription-pricing",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -899,7 +917,10 @@
   "passageId": "v3w2-poetry-translation",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",
@@ -953,7 +974,10 @@
   "passageId": "v3w2-family-firms",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "RC",

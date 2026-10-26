@@ -502,7 +502,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -549,7 +552,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -576,9 +582,20 @@
   "skills": [
    "lines-slope"
   ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 202 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"178\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"178\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"178\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"178\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"178\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"178\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"178\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"46\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"90\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"134\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"178\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"106\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"106\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"106\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"106\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"106\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"106\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"106\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"106\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"186\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"122\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polyline points=\"57.0,24 145.0,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"46\" r=\"3.2\" fill=\"currentColor\"/><text x=\"75\" y=\"40\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(-2, 3)</text><circle cx=\"134\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"141\" y=\"172\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(1, -3)</text></svg>",
+    "alt": "A straight line sloping steeply downward to the right in the coordinate plane, passing through the labeled points (-2, 3) and (1, -3)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -611,14 +628,6 @@
    "choices": [
     "C"
    ]
-  },
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 202 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"178\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"178\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"178\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"178\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"178\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"178\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"178\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"46\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"90\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"134\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"178\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"106\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"106\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"106\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"106\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"106\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"106\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"106\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"106\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"186\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"122\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polyline points=\"57.0,24 145.0,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"46\" r=\"3.2\" fill=\"currentColor\"/><text x=\"75\" y=\"40\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(-2, 3)</text><circle cx=\"134\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"141\" y=\"172\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(1, -3)</text></svg>",
-    "alt": "A straight line sloping steeply downward to the right in the coordinate plane, passing through the labeled points (-2, 3) and (1, -3)."
-   },
-   "notes": "Coordinate graph: both axes use the same scale."
   }
  },
  {
@@ -633,7 +642,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -663,7 +675,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -714,7 +729,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -763,7 +781,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -786,7 +807,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",

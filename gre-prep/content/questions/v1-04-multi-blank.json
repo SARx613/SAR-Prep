@@ -981,7 +981,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1039,7 +1042,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1097,7 +1103,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1155,7 +1164,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1223,7 +1235,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1291,7 +1306,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1349,7 +1367,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1419,7 +1440,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1505,7 +1529,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1575,7 +1602,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1661,7 +1691,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1716,42 +1749,46 @@
   "lessonId": "v1-04-multi-blank",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
-  "explanation": "**Start with blank 3:** *rather than questioned* gives *ratified*, which makes a loyal board *ornamental*. Grants distributed *by whim* are *capricious*.",
+  "explanation": "**Start with blank 3:** an anecdote reworked \"until it flattered the author\" has been *burnished*. That makes the memoir *tendentious* (slanted toward a view), the opposite of what *Although* says it was marketed as: a *scrupulous* (careful and honest) record.",
   "choiceExplanations": {
-   "1A": "Distribution by whim is the opposite of rigorous.",
-   "1C": "Openness is not what *by whim rather than merit* restates.",
-   "2A": "A board that only ratifies has no real authority.",
-   "2B": "It ratified, so it did not protest.",
-   "3B": "Contradicts *rather than questioned*.",
-   "3C": "A loyal board that does not question does not reject."
+   "1B": "Whimsical does not set up the contrast with a historian's finding of bias.",
+   "1C": "Perfunctory (done without care) would not be a selling point for a record of events.",
+   "2A": "Trustworthy repeats the marketing claim instead of contrasting with it.",
+   "2C": "Impartial contradicts the anecdotes being shaped to flatter the author.",
+   "3B": "Verified would make the anecdotes accurate, not flattering.",
+   "3C": "Expunged means removed, which does not flatter the author."
   },
   "estSeconds": 120,
   "skills": [
-   "text-completion"
+   "multi-blank",
+   "logic"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "Because the foundation's grants were {{1}}, distributed more by whim than by merit, the board that should have checked them proved largely {{2}}: its members, chosen for their loyalty to the director, {{3}} rather than questioned his decisions.",
+   "text": "Although the memoir was marketed as a {{1}} record of events, a historian who checked it against the archive found it {{2}}: nearly every anecdote had been {{3}} until it flattered the author.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
        "id": "1A",
-       "text": "rigorous"
+       "text": "scrupulous"
       },
       {
        "id": "1B",
-       "text": "capricious"
+       "text": "whimsical"
       },
       {
        "id": "1C",
-       "text": "transparent"
+       "text": "perfunctory"
       }
      ]
     },
@@ -1760,15 +1797,15 @@
      "choices": [
       {
        "id": "2A",
-       "text": "authoritative"
+       "text": "trustworthy"
       },
       {
        "id": "2B",
-       "text": "protesting"
+       "text": "tendentious"
       },
       {
        "id": "2C",
-       "text": "ornamental"
+       "text": "impartial"
       }
      ]
     },
@@ -1777,15 +1814,15 @@
      "choices": [
       {
        "id": "3A",
-       "text": "ratified"
+       "text": "burnished"
       },
       {
        "id": "3B",
-       "text": "scrutinized"
+       "text": "verified"
       },
       {
        "id": "3C",
-       "text": "rejected"
+       "text": "expunged"
       }
      ]
     }
@@ -1793,8 +1830,8 @@
   },
   "answer": {
    "blanks": [
-    "1B",
-    "2C",
+    "1A",
+    "2B",
     "3A"
    ]
   }

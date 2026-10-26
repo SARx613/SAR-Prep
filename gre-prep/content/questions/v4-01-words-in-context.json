@@ -812,7 +812,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -872,7 +875,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -931,7 +937,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -991,7 +1000,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1050,7 +1062,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1110,7 +1125,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1169,7 +1187,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1229,7 +1250,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1299,7 +1323,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1358,7 +1385,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1418,7 +1448,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1488,7 +1521,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1547,7 +1583,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1607,7 +1646,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1667,7 +1709,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1727,7 +1772,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1772,7 +1820,7 @@
   "lessonId": "v4-01-words-in-context",
   "difficulty": 2,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "explanation": "A refund and apology are offered to calm someone angry. Assuage and mollify both mean to soothe.",
+  "explanation": "A refund and an apology are offered to calm someone's anger. Assuage and allay both mean to make a feeling less intense.",
   "choiceExplanations": {
    "A": "Antagonize means to provoke hostility, the opposite of what a refund and apology aim at.",
    "C": "Brandish means to wave about, which does not fit a calming gesture.",
@@ -1787,12 +1835,15 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
   "content": {
-   "text": "To {{1}} the furious customer, the manager offered a full refund and a sincere apology.",
+   "text": "To {{1}} the customer's growing anger, the manager offered a full refund and a sincere apology.",
    "choices": [
     {
      "id": "A",
@@ -1816,7 +1867,7 @@
     },
     {
      "id": "F",
-     "text": "mollify"
+     "text": "allay"
     }
    ]
   },
@@ -1847,7 +1898,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -1906,7 +1960,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -1966,7 +2023,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -2039,7 +2099,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -2127,7 +2190,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2187,7 +2253,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -2257,7 +2326,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2317,7 +2389,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2377,7 +2452,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2437,7 +2515,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2497,7 +2578,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2557,7 +2641,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2602,7 +2689,7 @@
   "lessonId": "v4-01-words-in-context",
   "difficulty": 3,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "explanation": "\"Where her brother acted on impulse\" sets up a contrast with careful weighing. Circumspect and wary both mean cautious.",
+  "explanation": "\"Where her brother acted on impulse\" sets up a contrast with careful weighing. Circumspect and prudent both describe someone who considers consequences before acting.",
   "choiceExplanations": {
    "A": "Brazen means shamelessly bold, which resembles her brother's rashness, not her care.",
    "C": "Complacent means smugly satisfied, which does not describe weighing every option.",
@@ -2617,7 +2704,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2646,7 +2736,7 @@
     },
     {
      "id": "F",
-     "text": "wary"
+     "text": "prudent"
     }
    ]
   },
@@ -2677,7 +2767,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2737,7 +2830,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -2796,7 +2892,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -2856,7 +2955,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -2929,7 +3031,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3017,7 +3122,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3077,7 +3185,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3147,7 +3258,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3207,7 +3321,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3267,7 +3384,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3327,7 +3447,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3387,7 +3510,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3447,7 +3573,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3520,7 +3649,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3608,7 +3740,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",
@@ -3668,7 +3803,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3741,7 +3879,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "TC",
@@ -3829,7 +3970,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "SE",

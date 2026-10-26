@@ -866,7 +866,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -927,7 +930,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1018,7 +1024,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1088,7 +1097,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1124,7 +1136,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1146,7 +1161,7 @@
   "id": "q4-12-di-examples-18",
   "lessonId": "q4-12-di-examples",
   "difficulty": 4,
-  "stem": "This month's Transport spending is 25 percent less than last month's Transport spending. What was last month's Transport spending, in dollars?",
+  "stem": "The chart shows this month's spending. This month's Transport spending is 25 percent less than last month's Transport spending. What was last month's Transport spending, in dollars?",
   "explanation": "This month: $0.15 \\times 4800 = 720$ dollars. If last month's amount was $x$, then $0.75x = 720$, so $x = \\frac{720}{0.75} = 960$. (Taking 25% more of 720 would give 900, the wrong base.)",
   "estSeconds": 110,
   "skills": [
@@ -1180,11 +1195,14 @@
      }
     ]
    },
-   "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
+   "notes": "Percent of this month's total spending. Total spending this month: 4,800 dollars."
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1219,7 +1237,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -1295,7 +1316,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",

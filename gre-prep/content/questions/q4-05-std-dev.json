@@ -623,7 +623,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -670,7 +673,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -694,7 +700,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -718,7 +727,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -744,7 +756,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -759,7 +774,7 @@
   "id": "q4-05-std-dev-18",
   "lessonId": "q4-05-std-dev",
   "difficulty": 4,
-  "stem": "On Test A, scores have a mean of 60 and a standard deviation of 10. On Test B, scores have a mean of 100 and a standard deviation of 15. A score of 75 on Test A is the same number of standard deviations from its mean as which score on Test B?",
+  "stem": "On Test A, scores have a mean of 60 and a standard deviation of 10. On Test B, scores have a mean of 100 and a standard deviation of 15. A score of 75 on Test A is the same number of standard deviations above its mean as which score on Test B?",
   "explanation": "On Test A, $z = \\frac{75 - 60}{10} = 1.5$. On Test B, a score 1.5 SDs above the mean is $100 + 1.5 \\times 15 = 122.5$.",
   "estSeconds": 100,
   "skills": [
@@ -767,7 +782,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -840,7 +858,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -892,7 +913,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",

@@ -491,7 +491,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -514,7 +517,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -547,7 +553,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -587,7 +596,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -632,7 +644,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -665,7 +680,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -683,7 +701,7 @@
   "id": "q4-04-position-19",
   "lessonId": "q4-04-position",
   "difficulty": 4,
-  "stem": "A data set of 200 values has first quartile 12, median 20 and third quartile 28. Which of the following statements must be true? Indicate all such statements.",
+  "stem": "A data set of 200 values has first quartile 12, median 20 and third quartile 28. Counts based on quartiles are approximate, which is why some statements say \"about\". Which of the following statements must be true? Indicate all such statements.",
   "explanation": "Each quartile group holds about 25% of the 200 values, that is about 50. Between $Q_2 = 20$ and $Q_3 = 28$ is one group: about 50. Below the median is half: about 100. Above $Q_1$ is three groups: about 150. The data do not fix the number of values equal to 12 or the mean.",
   "choiceExplanations": {
    "D": "Quartiles divide the data into groups of about 25%; they do not say how many values equal 12.",
@@ -696,7 +714,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -746,7 +767,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",

@@ -510,7 +510,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -540,7 +543,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -588,7 +594,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -622,7 +631,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -646,7 +658,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -664,10 +679,10 @@
   "lessonId": "q3-05-congruent-similar",
   "difficulty": 4,
   "stem": "Triangles $ABC$ and $DEF$ are such that $A$ corresponds to $D$, $B$ to $E$ and $C$ to $F$. Which of the following, each taken by itself, guarantees that the triangles are similar? Indicate all such conditions.",
-  "explanation": "Two equal angle pairs force similarity, so A works. In B, $\\angle E=180-30-80=70^\\circ=\\angle B$, so two angle pairs match. In C, two sides and the included angle match (SAS), so the triangles are congruent, hence the same shape. D fails: with $A=D=45^\\circ$ and $B=F=60^\\circ$ we get $C=75^\\circ$ and $E=75^\\circ$, so $B\\ne E$ and $C\\ne F$; the corresponding angles do not match. E gives only one equal angle pair and one side, which does not fix the shape.",
+  "explanation": "Two equal angle pairs force similarity, so A works. In B, $\\angle E=180-30-80=70^\\circ=\\angle B$, so two angle pairs match. In C, two sides and the included angle match (SAS), so the triangles are congruent, hence the same shape. D gives two proportional sides but neither the third side nor the angle between them, so the shape is not fixed. E gives only one equal angle pair and one side, which does not fix the shape.",
   "choiceExplanations": {
-   "D": "$B$ is paired with $E$, not $F$: angles $B=60^\\circ$ and $E=75^\\circ$ differ, so only one angle pair is equal.",
-   "E": "Only one angle pair is equal and one pair of sides; the other angles can differ, so the shapes can differ."
+   "D": "Two proportional sides alone do not fix the third side or the angle between them.",
+   "E": "One equal angle and one equal side do not determine the shape."
   },
   "estSeconds": 120,
   "skills": [
@@ -676,7 +691,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -697,7 +715,7 @@
     },
     {
      "id": "D",
-     "text": "$\\angle A=\\angle D=45^\\circ$ and $\\angle B=\\angle F=60^\\circ$"
+     "text": "$AB=2\\cdot DE$ and $BC=2\\cdot EF$"
     },
     {
      "id": "E",
@@ -734,7 +752,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -766,7 +787,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",

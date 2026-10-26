@@ -525,7 +525,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -587,7 +590,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -634,7 +640,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -674,7 +683,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -714,22 +726,55 @@
   "lessonId": "q4-11-normal",
   "difficulty": 3,
   "stem": "A set of 1,200 measurements is approximately normally distributed with a mean of 50 and a standard deviation of 4. About how many of the measurements are greater than 54?",
-  "explanation": "54 is 1 SD above the mean ($50 + 4$). About $\\frac16$ of the data lie above that point: $\\frac16 \\times 1200 = 200$.",
+  "explanation": "54 is 1 SD above the mean ($50+4$). About two-thirds of the data lie within 1 SD of the mean, so about one-third lie outside, split evenly into the two tails: about $\\frac16$ lie above 54. $\\frac16\\times1200=200$.",
+  "choiceExplanations": {
+   "A": "That is about one-twelfth of the data, not one-sixth.",
+   "B": "That is about one-eighth.",
+   "D": "That is one-third: both tails together, not just the upper one.",
+   "E": "That is half the data, the number above the mean."
+  },
   "estSeconds": 80,
   "skills": [
    "normal-distribution"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw2",
+    "solver-bw2"
+   ],
    "sourceChecked": false
   },
-  "type": "NE",
+  "type": "PS",
   "content": {
-   "format": "integer"
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "100"
+    },
+    {
+     "id": "B",
+     "text": "150"
+    },
+    {
+     "id": "C",
+     "text": "200"
+    },
+    {
+     "id": "D",
+     "text": "400"
+    },
+    {
+     "id": "E",
+     "text": "600"
+    }
+   ]
   },
   "answer": {
-   "value": 200
+   "choices": [
+    "C"
+   ]
   }
  },
  {
@@ -744,7 +789,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -780,7 +828,10 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -825,7 +876,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
