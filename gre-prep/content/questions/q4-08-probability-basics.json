@@ -737,7 +737,10 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-aw3",
+    "solver-bw3"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
