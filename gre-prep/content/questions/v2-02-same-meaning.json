@@ -742,5 +742,701 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "v2-02-same-meaning-13",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** guests asking for seconds means the cake was very good. *Delectable* and *flavorful* both say it tasted excellent; they are not exact twins, but the sentences match.",
+  "choiceExplanations": {
+   "A": "Guests would not ask for more.",
+   "C": "A fault, not a reason for seconds.",
+   "D": "A fault, not a reason for seconds.",
+   "F": "Nothing special would not draw requests for more."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The cake was so {{1}} that the guests asked for second helpings.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "stale"
+    },
+    {
+     "id": "B",
+     "text": "delectable"
+    },
+    {
+     "id": "C",
+     "text": "soggy"
+    },
+    {
+     "id": "D",
+     "text": "burnt"
+    },
+    {
+     "id": "E",
+     "text": "flavorful"
+    },
+    {
+     "id": "F",
+     "text": "plain"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-14",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** the examiner could not follow it. *Indistinct* and *garbled* both mean hard to make out.",
+  "choiceExplanations": {
+   "A": "A fluent answer needs no repeating.",
+   "C": "Force does not make an answer hard to follow.",
+   "D": "Wit does not require repetition.",
+   "F": "A mood, not a problem of clarity."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her answer was so {{1}} that the examiner had to ask her to repeat it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "eloquent"
+    },
+    {
+     "id": "B",
+     "text": "indistinct"
+    },
+    {
+     "id": "C",
+     "text": "forceful"
+    },
+    {
+     "id": "D",
+     "text": "witty"
+    },
+    {
+     "id": "E",
+     "text": "garbled"
+    },
+    {
+     "id": "F",
+     "text": "jubilant"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-15",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *barely skimmed* means the summary was hasty and superficial. *Cursory* (hasty) and *perfunctory* (done as a bare duty) are not exact synonyms, but both sentences say the summary showed little effort.",
+  "choiceExplanations": {
+   "A": "A thorough summary would show careful reading.",
+   "B": "Careful and learned, not hasty.",
+   "D": "Warmth does not say how closely she read.",
+   "E": "Humor does not suggest skimming."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The reviewer's {{1}} summary suggested that she had barely skimmed the book.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "exhaustive"
+    },
+    {
+     "id": "B",
+     "text": "scholarly"
+    },
+    {
+     "id": "C",
+     "text": "cursory"
+    },
+    {
+     "id": "D",
+     "text": "appreciative"
+    },
+    {
+     "id": "E",
+     "text": "witty"
+    },
+    {
+     "id": "F",
+     "text": "perfunctory"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-16",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** goals that *won wide public support* are praiseworthy: *laudable* and *admirable*. *Ambitious* also fits, but it says the goals were large, not good, so it has no partner.",
+  "choiceExplanations": {
+   "A": "Bad goals would not win support.",
+   "B": "Fits the blank but describes size of aim, a different claim; nothing else shares it.",
+   "D": "Trivial goals would not win wide support.",
+   "E": "Secret goals cannot win public support."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The project's {{1}} goals won it wide public support, but its backers had no idea how to achieve them.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "dismal"
+    },
+    {
+     "id": "B",
+     "text": "ambitious"
+    },
+    {
+     "id": "C",
+     "text": "laudable"
+    },
+    {
+     "id": "D",
+     "text": "trivial"
+    },
+    {
+     "id": "E",
+     "text": "secret"
+    },
+    {
+     "id": "F",
+     "text": "admirable"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-17",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** voters doubt her independence, so her attitude to donors was excessive deference: *subservience* and *servility*. *Gratitude* fits but means thankfulness, with no partner.",
+  "choiceExplanations": {
+   "A": "Hostility would suggest independence.",
+   "C": "Fits the blank but is a milder, different idea; it has no partner among the choices.",
+   "D": "Indifference would not make voters doubt her independence.",
+   "F": "Frankness does not suggest dependence."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The candidate's {{1}} to her donors made voters suspect that she could not be trusted to act independently.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "hostility"
+    },
+    {
+     "id": "B",
+     "text": "subservience"
+    },
+    {
+     "id": "C",
+     "text": "gratitude"
+    },
+    {
+     "id": "D",
+     "text": "indifference"
+    },
+    {
+     "id": "E",
+     "text": "servility"
+    },
+    {
+     "id": "F",
+     "text": "frankness"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-18",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *wounding but never quite insulting* describes sharp, stinging remarks: *barbed* and *biting*.",
+  "choiceExplanations": {
+   "A": "Friendly remarks would not wound or unsettle anyone.",
+   "C": "Gushing remarks would not wound.",
+   "D": "Harmless, which contradicts *wounding*.",
+   "F": "Length and shape, not sting."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The comedian's {{1}} remarks about the audience, wounding but never quite insulting, kept the front rows nervous.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "genial"
+    },
+    {
+     "id": "B",
+     "text": "barbed"
+    },
+    {
+     "id": "C",
+     "text": "effusive"
+    },
+    {
+     "id": "D",
+     "text": "innocuous"
+    },
+    {
+     "id": "E",
+     "text": "biting"
+    },
+    {
+     "id": "F",
+     "text": "rambling"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-19",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** refusing even close friends is a firm, absolute refusal: *adamant* (firm) and *categorical* (absolute) are not exact synonyms, but both sentences describe the same flat refusal. *Reluctant* also fits, but it describes unwillingness, not firmness, and has no partner.",
+  "choiceExplanations": {
+   "A": "A friendly refusal would not provoke suspicion.",
+   "C": "Slowness is not what the clue describes.",
+   "D": "Fits the blank but means unwilling, a different claim with no partner.",
+   "F": "A playful refusal would not provoke suspicion."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her {{1}} refusal to discuss the matter, even with close friends, made others wonder what she was hiding.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "affable"
+    },
+    {
+     "id": "B",
+     "text": "adamant"
+    },
+    {
+     "id": "C",
+     "text": "sluggish"
+    },
+    {
+     "id": "D",
+     "text": "reluctant"
+    },
+    {
+     "id": "E",
+     "text": "categorical"
+    },
+    {
+     "id": "F",
+     "text": "playful"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-20",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** regulators closing the mine means the record was terrible. *Abysmal* and *deplorable* both mean shockingly bad, though not exact synonyms.",
+  "choiceExplanations": {
+   "A": "A model record would not lead to closure.",
+   "C": "Admirable, so no closure.",
+   "E": "An ordinary record would not trigger closure.",
+   "F": "A record that is improving would not call for closure."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The mine's safety record was so {{1}} that regulators ordered it closed.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "exemplary"
+    },
+    {
+     "id": "B",
+     "text": "abysmal"
+    },
+    {
+     "id": "C",
+     "text": "enviable"
+    },
+    {
+     "id": "D",
+     "text": "deplorable"
+    },
+    {
+     "id": "E",
+     "text": "unremarkable"
+    },
+    {
+     "id": "F",
+     "text": "improving"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-21",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** praise that *borders on flattery* is excessive. *Effusive* and *fulsome* both mean lavish to the point of excess.",
+  "choiceExplanations": {
+   "A": "Lukewarm praise is far from flattery.",
+   "C": "Reluctant praise does not border on flattery.",
+   "D": "Hedged praise does not border on flattery.",
+   "F": "Late praise says nothing about excess."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The columnist's praise for the mayor, so {{1}} as to border on flattery, led many readers to suspect a favor being repaid.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tepid"
+    },
+    {
+     "id": "B",
+     "text": "effusive"
+    },
+    {
+     "id": "C",
+     "text": "grudging"
+    },
+    {
+     "id": "D",
+     "text": "qualified"
+    },
+    {
+     "id": "E",
+     "text": "fulsome"
+    },
+    {
+     "id": "F",
+     "text": "belated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-22",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** a hoped-for windfall that barely paid the funeral was tiny: *paltry* and *negligible* (not exact synonyms) both say it was very small. *Encumbered* fits, since debts could eat it, but it blames debts rather than size, so it has no partner.",
+  "choiceExplanations": {
+   "A": "A large sum would cover the costs.",
+   "C": "Irrelevant to the amount.",
+   "D": "Fits the blank by a different route (debts); no other choice shares that meaning.",
+   "F": "Complexity does not explain barely covering costs."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The inheritance, which the family had hoped would be a windfall, proved so {{1}} that it barely covered the funeral costs.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ample"
+    },
+    {
+     "id": "B",
+     "text": "paltry"
+    },
+    {
+     "id": "C",
+     "text": "decorative"
+    },
+    {
+     "id": "D",
+     "text": "encumbered"
+    },
+    {
+     "id": "E",
+     "text": "negligible"
+    },
+    {
+     "id": "F",
+     "text": "complicated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-23",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** *less an argument than mere ___* names something that is not reasoning: repeating a conclusion forcefully. *Assertion* and *insistence* are not exact synonyms, but both sentences say she merely claimed it.",
+  "choiceExplanations": {
+   "A": "Analysis is reasoning, which she did not offer.",
+   "C": "She answered no one's objection.",
+   "D": "She offered nothing in support.",
+   "F": "The sentence says she was vehement, not doubtful."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The senator's defense of the tax was less an argument than mere {{1}}: she repeated her conclusion with growing vehemence and offered nothing in its support.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "analysis"
+    },
+    {
+     "id": "B",
+     "text": "assertion"
+    },
+    {
+     "id": "C",
+     "text": "rebuttal"
+    },
+    {
+     "id": "D",
+     "text": "evidence"
+    },
+    {
+     "id": "E",
+     "text": "insistence"
+    },
+    {
+     "id": "F",
+     "text": "doubt"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-24",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** giving away income and living in one room is a genuinely simple, self-denying life: *asceticism* and *austerity*. *Sincerity* fits the sentence too, but it says her commitment was genuine, not that her life was spartan, and has no partner.",
+  "choiceExplanations": {
+   "A": "Showiness would be a pose, and the sentence denies it.",
+   "C": "Fits the blank but means genuineness, a different claim with no partner.",
+   "D": "Greed contradicts giving away income.",
+   "F": "Contradicts the serious life described."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The reformer's {{1}} was no pose: she gave away most of her income and lived in a single rented room.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ostentation"
+    },
+    {
+     "id": "B",
+     "text": "asceticism"
+    },
+    {
+     "id": "C",
+     "text": "sincerity"
+    },
+    {
+     "id": "D",
+     "text": "avarice"
+    },
+    {
+     "id": "E",
+     "text": "austerity"
+    },
+    {
+     "id": "F",
+     "text": "frivolity"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
  }
 ]

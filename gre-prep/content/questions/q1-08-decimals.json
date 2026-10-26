@@ -505,5 +505,285 @@
   "answer": {
    "value": 5
   }
+ },
+ {
+  "id": "q1-08-decimals-13",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 1,
+  "stem": "Which of the following equals 3 tenths plus 5 thousandths?",
+  "explanation": "3 tenths is $0.3$ and 5 thousandths is $0.005$. Their sum is $0.305$, with a 0 in the hundredths place.",
+  "choiceExplanations": {
+   "A": "This is 3 hundredths plus 5 thousandths.",
+   "C": "This is 3 tenths plus 5 hundredths.",
+   "D": "This is 3 ones plus 5 thousandths.",
+   "E": "This is 3 ones plus 5 tenths."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.035$"
+    },
+    {
+     "id": "B",
+     "text": "$0.305$"
+    },
+    {
+     "id": "C",
+     "text": "$0.35$"
+    },
+    {
+     "id": "D",
+     "text": "$3.005$"
+    },
+    {
+     "id": "E",
+     "text": "$3.5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-08-decimals-14",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 2,
+  "stem": "What is $0.5\\times0.06$? Enter your answer as a decimal.",
+  "explanation": "Multiply as integers: $5\\times6 = 30$. The factors have $1+2 = 3$ decimal places in total, so the product has 3 decimal places: $0.030 = 0.03$.",
+  "estSeconds": 60,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.03
+  }
+ },
+ {
+  "id": "q1-08-decimals-15",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 2,
+  "stem": "Which of the following equals $\\frac{3}{8}$?",
+  "explanation": "Divide the numerator by the denominator: $3\\div8 = 0.375$. Check: $\\frac{3}{8} = \\frac{375}{1000}$ (multiply top and bottom by 125).",
+  "choiceExplanations": {
+   "A": "The decimal point is two places too far to the left.",
+   "B": "This is $\\frac{1}{8}$; the numerator 3 was ignored.",
+   "D": "This is $\\frac{3}{4}$.",
+   "E": "The decimal point is one place too far to the right."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.0375$"
+    },
+    {
+     "id": "B",
+     "text": "$0.125$"
+    },
+    {
+     "id": "C",
+     "text": "$0.375$"
+    },
+    {
+     "id": "D",
+     "text": "$0.75$"
+    },
+    {
+     "id": "E",
+     "text": "$3.75$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-08-decimals-16",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Multiply as integers and count decimal places. $7\\times4 = 28$ with $2+1 = 3$ decimal places gives $0.028$. $2\\times14 = 28$ with $1+2 = 3$ decimal places also gives $0.028$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$0.07\\times0.4$",
+   "quantityB": "$0.2\\times0.14$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-08-decimals-17",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 3,
+  "stem": "A ribbon 4.2 meters long is cut into pieces that are each 0.35 meter long, with nothing left over. How many pieces are there?",
+  "explanation": "The number of pieces is $4.2\\div0.35$. Multiply top and bottom by 100: $\\frac{420}{35} = 12$.",
+  "estSeconds": 75,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-08-decimals-18",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 4,
+  "stem": "Which of the following are greater than 0.12 and less than 0.2? Indicate all such numbers.",
+  "explanation": "Convert each to a decimal: $\\frac{1}{8} = 0.125$, $\\frac{3}{20} = 0.15$, $\\frac{1}{6} = 0.1\\overline{6}\\approx0.167$. These lie between $0.12$ and $0.2$. $\\frac{1}{5} = 0.2$ is the upper endpoint, which is excluded, $\\frac{2}{9} = 0.222\\ldots$ is too large, and $0.119$ is too small.",
+  "choiceExplanations": {
+   "A": "$0.119$ is less than $0.12$.",
+   "E": "$\\frac{1}{5} = 0.2$, which is not less than $0.2$.",
+   "F": "$\\frac{2}{9} = 0.\\overline{2}$, which exceeds $0.2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.119$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{8}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{20}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{1}{6}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{1}{5}$"
+    },
+    {
+     "id": "F",
+     "text": "$\\frac{2}{9}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-08-decimals-19",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 4,
+  "stem": "The decimal expansion of $\\frac{5}{13}$ repeats forever: $0.384615\\,384615\\,384615\\ldots$ What is the sum of the first 20 digits to the right of the decimal point?",
+  "explanation": "The repeating block 384615 has 6 digits with sum $3+8+4+6+1+5 = 27$. Twenty digits are 3 full blocks (18 digits) plus the first two digits of the next block, 3 and 8. The sum is $3\\cdot27+3+8 = 92$.",
+  "estSeconds": 110,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 92
+  }
+ },
+ {
+  "id": "q1-08-decimals-20",
+  "lessonId": "q1-08-decimals",
+  "difficulty": 5,
+  "stem": "What is the value of $\\dfrac{0.0072\\times2.5}{0.0003\\times0.12}$?",
+  "explanation": "Numerator: $72\\times25 = 1{,}800$ with $4+1 = 5$ decimal places: $0.018$. Denominator: $3\\times12 = 36$ with $4+2 = 6$ decimal places: $0.000036$. Then $\\frac{0.018}{0.000036} = \\frac{18{,}000}{36} = 500$ (multiply top and bottom by 1,000,000 and reduce).",
+  "estSeconds": 130,
+  "skills": [
+   "decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 500
+  }
  }
 ]

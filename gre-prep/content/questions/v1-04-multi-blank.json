@@ -962,5 +962,841 @@
     "3B"
    ]
   }
+ },
+ {
+  "id": "v1-04-multi-blank-13",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Clue first:** *since their tents had leaked all night* explains the feeling when the rain ends: *relieved*.",
+  "choiceExplanations": {
+   "A": "The rain stopping is no reason for fury.",
+   "B": "Leaking tents and a night of rain do not lead to boredom at its end.",
+   "C": "Nothing is puzzling.",
+   "D": "Describes behavior, not a reaction to the rain stopping."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The campers were {{1}} when the rain finally stopped, since their tents had leaked all night.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "furious"
+      },
+      {
+       "id": "B",
+       "text": "bored"
+      },
+      {
+       "id": "C",
+       "text": "puzzled"
+      },
+      {
+       "id": "D",
+       "text": "careless"
+      },
+      {
+       "id": "E",
+       "text": "relieved"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-14",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Clue first:** sleeping through three loud events shows a dog with little energy or alertness: *lethargic*.",
+  "choiceExplanations": {
+   "A": "A vigilant dog would wake at the doorbell.",
+   "B": "A restless dog would not sleep through noise.",
+   "D": "A protective dog would respond to the doorbell.",
+   "E": "Hunger is not the clue."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The old dog was so {{1}} that he slept through the doorbell, the thunder and the children's shouting.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "vigilant"
+      },
+      {
+       "id": "B",
+       "text": "restless"
+      },
+      {
+       "id": "C",
+       "text": "lethargic"
+      },
+      {
+       "id": "D",
+       "text": "protective"
+      },
+      {
+       "id": "E",
+       "text": "ravenous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-15",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Dependency:** *Though* contrasts appearance with taste. The garnish and arrangement make it look good, and *tasted of almost nothing* is the letdown: *elegant*.",
+  "choiceExplanations": {
+   "A": "Describes taste or freshness, not how it looked, and the clue is *bright garnish*.",
+   "B": "*Bright garnish and careful arrangement* do not suggest grease.",
+   "C": "Careful arrangement is not burnt.",
+   "D": "*Though* needs a good look to contrast with the bland taste."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the dish looked {{1}}, with its bright garnish and careful arrangement, it tasted of almost nothing.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stale"
+      },
+      {
+       "id": "B",
+       "text": "greasy"
+      },
+      {
+       "id": "C",
+       "text": "burnt"
+      },
+      {
+       "id": "D",
+       "text": "unappealing"
+      },
+      {
+       "id": "E",
+       "text": "elegant"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-16",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** students who had barely mastered the basics would find a curriculum too *advanced*. Teachers who think so would have *resisted* it.",
+  "choiceExplanations": {
+   "1B": "Teachers who think it too hard would not embrace it.",
+   "1C": "Teachers do not fund curricula.",
+   "2A": "Simple material would not overwhelm students who lack the basics.",
+   "2B": "Length is not the problem."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The new curriculum was {{1}} by teachers, who found it far too {{2}} for students who had barely mastered the basics.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "resisted"
+      },
+      {
+       "id": "1B",
+       "text": "embraced"
+      },
+      {
+       "id": "1C",
+       "text": "funded"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "simple"
+      },
+      {
+       "id": "2B",
+       "text": "brief"
+      },
+      {
+       "id": "2C",
+       "text": "advanced"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-17",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *whereas* sets her against the brother. A patient listener is *attentive*; the brother, who cuts everyone off, is *garrulous*.",
+  "choiceExplanations": {
+   "1A": "A reserved person would not interrupt.",
+   "1C": "Thrift has nothing to do with talking.",
+   "2B": "A patient listener is not distracted.",
+   "2C": "Hasty contradicts *patient*."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Her {{1}} brother never let anyone finish a sentence, whereas she was a patient, {{2}} listener who waited until others had finished.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "reticent"
+      },
+      {
+       "id": "1B",
+       "text": "garrulous"
+      },
+      {
+       "id": "1C",
+       "text": "frugal"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "attentive"
+      },
+      {
+       "id": "2B",
+       "text": "distracted"
+      },
+      {
+       "id": "2C",
+       "text": "hasty"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-18",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Dependency:** *won over* means she was not already convinced. A critic who needed winning over had been *lukewarm*.",
+  "choiceExplanations": {
+   "A": "An already rapturous critic would not need to be won over.",
+   "B": "Devotion already means being won over.",
+   "D": "Adoration leaves nothing to win over.",
+   "E": "Gushing praise leaves nothing to win over."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The restaurant critic, who had been {{1}} about the chef's earlier ventures, was so won over by this one that she called it the finest in the city.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "rhapsodic"
+      },
+      {
+       "id": "B",
+       "text": "devoted"
+      },
+      {
+       "id": "C",
+       "text": "lukewarm"
+      },
+      {
+       "id": "D",
+       "text": "adoring"
+      },
+      {
+       "id": "E",
+       "text": "effusive"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-19",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** errors in nearly every ledger make the bookkeeping *slipshod*. Carelessness would be random; a pattern that *favored* the founders suggests design.",
+  "choiceExplanations": {
+   "1A": "Errors in nearly every ledger are the opposite.",
+   "1C": "Contradicts the errors.",
+   "2A": "Amusing the founders would not undercut the carelessness explanation.",
+   "2C": "Annoying the founders is what careless errors would do, so it would not challenge the explanation."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The treasurer's {{1}} bookkeeping, with errors in nearly every ledger, might have been dismissed as carelessness had it not so consistently {{2}} the firm's founders.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "meticulous"
+      },
+      {
+       "id": "1B",
+       "text": "slipshod"
+      },
+      {
+       "id": "1C",
+       "text": "immaculate"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "amused"
+      },
+      {
+       "id": "2B",
+       "text": "favored"
+      },
+      {
+       "id": "2C",
+       "text": "annoyed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-20",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 3:** a warning is about costs that might *exceed* projections, so the private memos were *anxious*. *Although* then makes the public stance the opposite: *confident*.",
+  "choiceExplanations": {
+   "1A": "*Insisting* is not hesitant.",
+   "1C": "*Insisting it would pay for itself* is direct.",
+   "2B": "A warning is not smug.",
+   "2C": "A warning shows concern.",
+   "3A": "Costs that fall below projections would not call for a warning.",
+   "3B": "Matching projections would not be a warning."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the mayor was {{1}} in her public statements about the stadium, insisting it would pay for itself, her private memos were {{2}}, warning that costs might {{3}} projections by half.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "hesitant"
+      },
+      {
+       "id": "1B",
+       "text": "confident"
+      },
+      {
+       "id": "1C",
+       "text": "evasive"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "anxious"
+      },
+      {
+       "id": "2B",
+       "text": "smug"
+      },
+      {
+       "id": "2C",
+       "text": "indifferent"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "undercut"
+      },
+      {
+       "id": "3B",
+       "text": "match"
+      },
+      {
+       "id": "3C",
+       "text": "exceed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-21",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *plain because she distrusts ornament* is *austere*. The detractors answer with a reading that fits *a cover for an absence of ideas*: *hollow*.",
+  "choiceExplanations": {
+   "1A": "The opposite of plain.",
+   "1C": "The defenders say it is deliberate, not careless.",
+   "2B": "A detractor would not call a cover for emptiness sincere.",
+   "2C": "Contradicts plainness."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The author's defenders say her style is {{1}}, plain because she distrusts ornament; her detractors counter that the plainness is merely {{2}}, a cover for an absence of ideas.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "opulent"
+      },
+      {
+       "id": "1B",
+       "text": "austere"
+      },
+      {
+       "id": "1C",
+       "text": "slapdash"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "hollow"
+      },
+      {
+       "id": "2B",
+       "text": "sincere"
+      },
+      {
+       "id": "2C",
+       "text": "ornamental"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-22",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** a *trap* lures. That makes the questions *innocuous* on the surface (*seemed harmless*), and a witness who can only stammer has been *unnerved*.",
+  "choiceExplanations": {
+   "1B": "Hostile questions would not *seem harmless*.",
+   "1C": "Dullness is not what *seemed harmless* describes.",
+   "2B": "You cannot dissuade someone into a contradiction.",
+   "2C": "Comforting is not trapping.",
+   "3A": "A reassured witness would not stammer.",
+   "3C": "An amused witness would not stammer."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The lawyer's {{1}} questions seemed harmless, but each was designed to {{2}} the witness into a contradiction; by the time the trap closed, the witness, {{3}} by the exchange, could only stammer.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "innocuous"
+      },
+      {
+       "id": "1B",
+       "text": "bellicose"
+      },
+      {
+       "id": "1C",
+       "text": "tedious"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "lure"
+      },
+      {
+       "id": "2B",
+       "text": "dissuade"
+      },
+      {
+       "id": "2C",
+       "text": "console"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "reassured"
+      },
+      {
+       "id": "3B",
+       "text": "unnerved"
+      },
+      {
+       "id": "3C",
+       "text": "amused"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2A",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-23",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** *each seeming digression preparing a later revelation* shows the shapelessness was *deliberate*. Reviewers who saw only the *apparent shapelessness* called the book *desultory*.",
+  "choiceExplanations": {
+   "1A": "Polished is not what *shapelessness* suggests.",
+   "1C": "Lack of originality is not what the apparent shapelessness suggests.",
+   "2A": "Digressions that prepare revelations are planned.",
+   "2B": "The passage defends the shapelessness, not regrets it."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Reviewers who dismissed the novel as {{1}} overlooked how carefully it had been constructed; the apparent shapelessness, they failed to see, was itself {{2}}, each seeming digression preparing a later revelation.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "polished"
+      },
+      {
+       "id": "1B",
+       "text": "desultory"
+      },
+      {
+       "id": "1C",
+       "text": "derivative"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "accidental"
+      },
+      {
+       "id": "2B",
+       "text": "regrettable"
+      },
+      {
+       "id": "2C",
+       "text": "deliberate"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-24",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 3:** *rather than questioned* gives *ratified*, which makes a loyal board *ornamental*. Grants distributed *by whim* are *capricious*.",
+  "choiceExplanations": {
+   "1A": "Distribution by whim is the opposite of rigorous.",
+   "1C": "Openness is not what *by whim rather than merit* restates.",
+   "2A": "A board that only ratifies has no real authority.",
+   "2B": "It ratified, so it did not dissent.",
+   "3B": "Contradicts *rather than questioned*.",
+   "3C": "A loyal board that does not question does not reject."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the foundation's grants were {{1}}, distributed more by whim than by merit, the board that should have checked them proved largely {{2}}: its members, chosen for their loyalty to the director, {{3}} rather than questioned his decisions.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "rigorous"
+      },
+      {
+       "id": "1B",
+       "text": "capricious"
+      },
+      {
+       "id": "1C",
+       "text": "transparent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "authoritative"
+      },
+      {
+       "id": "2B",
+       "text": "dissenting"
+      },
+      {
+       "id": "2C",
+       "text": "ornamental"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "ratified"
+      },
+      {
+       "id": "3B",
+       "text": "scrutinized"
+      },
+      {
+       "id": "3C",
+       "text": "rejected"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3A"
+   ]
+  }
  }
 ]

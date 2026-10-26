@@ -872,5 +872,841 @@
     "3A"
    ]
   }
+ },
+ {
+  "id": "v1-01-structure-13",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Structure:** one blank, so five choices. *Few plants survive* and *rain falls only once or twice a year* both describe dryness: *arid*.",
+  "choiceExplanations": {
+   "A": "Fertile land supports many plants.",
+   "B": "Humid air means frequent moisture, the opposite of rare rain.",
+   "D": "Describes crowding, not climate.",
+   "E": "Means decorative; it says nothing about rainfall."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The desert is so {{1}} that few plants survive there and rain falls only once or twice a year.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "fertile"
+      },
+      {
+       "id": "B",
+       "text": "humid"
+      },
+      {
+       "id": "C",
+       "text": "arid"
+      },
+      {
+       "id": "D",
+       "text": "populous"
+      },
+      {
+       "id": "E",
+       "text": "ornamental"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-14",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** *Because* ... *customers lined up before dawn*. Only excellent bread explains a queue: *delectable*.",
+  "choiceExplanations": {
+   "A": "Nobody queues at dawn for stale bread.",
+   "B": "Spoiled bread would drive customers away.",
+   "C": "Bland bread would not draw a queue.",
+   "D": "Soggy bread would not draw a queue."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the bakery's bread was always {{1}}, customers lined up before dawn to buy it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stale"
+      },
+      {
+       "id": "B",
+       "text": "moldy"
+      },
+      {
+       "id": "C",
+       "text": "tasteless"
+      },
+      {
+       "id": "D",
+       "text": "soggy"
+      },
+      {
+       "id": "E",
+       "text": "delectable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-15",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Colon clue:** the words after the colon (*changed the time twice*, *contradicted her own description*) restate the blank: *inconsistent*.",
+  "choiceExplanations": {
+   "A": "The opposite: a changing story is not consistent.",
+   "B": "Length is not at issue.",
+   "C": "Nothing in the clue concerns feeling.",
+   "E": "Contradicting herself shows the reverse of thoroughness."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The witness's account was {{1}}: she changed the time of the accident twice and contradicted her own description of the driver.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "consistent"
+      },
+      {
+       "id": "B",
+       "text": "concise"
+      },
+      {
+       "id": "C",
+       "text": "emotional"
+      },
+      {
+       "id": "D",
+       "text": "inconsistent"
+      },
+      {
+       "id": "E",
+       "text": "thorough"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-16",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks, three choices each, and both must be right. *Covering only a fraction of the costs* means the money fell short: *inadequate*. A shortfall forces the lab to cut back: *curtail*.",
+  "choiceExplanations": {
+   "1B": "Lavish funding would cover the costs.",
+   "1C": "Says the grant can be extended, not that it fell short.",
+   "2A": "More ambitious plans need more money, not less.",
+   "2B": "Announcing plans is not something a shortfall forces."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the grant was {{1}}, covering only a fraction of the costs, the lab had to {{2}} its plans for a larger study.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inadequate"
+      },
+      {
+       "id": "1B",
+       "text": "lavish"
+      },
+      {
+       "id": "1C",
+       "text": "renewable"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "broaden"
+      },
+      {
+       "id": "2B",
+       "text": "publicize"
+      },
+      {
+       "id": "2C",
+       "text": "curtail"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-17",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the columns are independent, so settle each from its own clue. *Building slowly from a whisper* is *restrained*; *every instrument at full volume* is *thunderous*, and *but* confirms the contrast.",
+  "choiceExplanations": {
+   "1A": "Loud, which contradicts a whisper.",
+   "1C": "Complexity is not mentioned; a slow build from a whisper does not make a movement elaborate.",
+   "2A": "Full volume is not hesitant.",
+   "2B": "The opposite of full volume."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The orchestra's opening movement was {{1}}, building slowly from a whisper, but the finale was {{2}}, with every instrument at full volume.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "raucous"
+      },
+      {
+       "id": "1B",
+       "text": "restrained"
+      },
+      {
+       "id": "1C",
+       "text": "elaborate"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "faltering"
+      },
+      {
+       "id": "2B",
+       "text": "hushed"
+      },
+      {
+       "id": "2C",
+       "text": "thunderous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-18",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Structure:** *though* contrasts the habits with the *enormous bequest*. A coat worn for thirty years and reused envelopes show thrift: *frugal*.",
+  "choiceExplanations": {
+   "B": "Wasteful people do not reuse envelopes.",
+   "C": "Laziness is not shown by the habits listed.",
+   "D": "Nothing mentions religion.",
+   "E": "Wearing one old coat for decades is not vanity."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The museum's founder was {{1}} in her habits, wearing the same coat for thirty years and reusing every envelope, though her bequest to the city was enormous.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "frugal"
+      },
+      {
+       "id": "B",
+       "text": "profligate"
+      },
+      {
+       "id": "C",
+       "text": "indolent"
+      },
+      {
+       "id": "D",
+       "text": "devout"
+      },
+      {
+       "id": "E",
+       "text": "vain"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-19",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks; start with the clearer one. *Shifting from support to opposition within a week* names blank 1: *vacillation*. A leader who flips this way makes allies *wary*.",
+  "choiceExplanations": {
+   "1A": "The opposite of shifting.",
+   "1B": "Honesty is not what the shifting describes.",
+   "2B": "Allies burned by a reversal would not be eager.",
+   "2C": "They would not be confident after a reversal."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The mayor's {{1}} on the issue, shifting from support to opposition within a week, made her allies {{2}} about trusting her again.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "steadfastness"
+      },
+      {
+       "id": "1B",
+       "text": "candor"
+      },
+      {
+       "id": "1C",
+       "text": "vacillation"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "wary"
+      },
+      {
+       "id": "2B",
+       "text": "eager"
+      },
+      {
+       "id": "2C",
+       "text": "confident"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-20",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** three blanks, three choices each, all must be right. *A handful of stalls* is *humble*; *so fast ... crowds* means popularity *swelled*; holding crowds means the grounds must *expand*.",
+  "choiceExplanations": {
+   "1A": "A handful of stalls is not lavish.",
+   "1C": "Nothing signals a bad reputation, and *but* needs a contrast with small.",
+   "2A": "Shrinking popularity would not require more room.",
+   "2C": "Stalled popularity would not produce crowds.",
+   "3A": "Crowds do not make organizers abandon the grounds.",
+   "3B": "The opposite of what crowds demand."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The festival's early years were {{1}}, with a handful of stalls and a few dozen visitors, but its popularity {{2}} so fast that by the tenth year the organizers had to {{3}} the grounds to hold the crowds.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lavish"
+      },
+      {
+       "id": "1B",
+       "text": "humble"
+      },
+      {
+       "id": "1C",
+       "text": "notorious"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "dwindled"
+      },
+      {
+       "id": "2B",
+       "text": "swelled"
+      },
+      {
+       "id": "2C",
+       "text": "stalled"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "abandon"
+      },
+      {
+       "id": "3B",
+       "text": "shrink"
+      },
+      {
+       "id": "3C",
+       "text": "expand"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-21",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** *not for X ... but for Y*. Carefully documented facts rule out *inaccuracy* as the fault; a tone that *keeps the reader at a distance* is *clinical*.",
+  "choiceExplanations": {
+   "1B": "Documented facts say nothing about length, so the *since* clause would not support it.",
+   "1C": "The documented facts do not explain why candor would not be criticized.",
+   "2A": "The opposite of keeping the reader at a distance.",
+   "2B": "Warmly expressive, not distant."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Critics have faulted the memoir not for {{1}}, since its facts are carefully documented, but for a {{2}} tone that keeps the reader at a distance.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inaccuracy"
+      },
+      {
+       "id": "1B",
+       "text": "brevity"
+      },
+      {
+       "id": "1C",
+       "text": "candor"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "intimate"
+      },
+      {
+       "id": "2B",
+       "text": "effusive"
+      },
+      {
+       "id": "2C",
+       "text": "clinical"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-22",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** *Although* contrasts a poor first season with a good second. *Only a few fragments* is *unproductive*; a rich find means patience was *rewarded*; tools, jewelry and inscriptions make the cache *bountiful*.",
+  "choiceExplanations": {
+   "1A": "A few fragments is not a triumph.",
+   "1C": "Contradicts *only a few fragments*.",
+   "2B": "A rich find would relieve, not strain, patience.",
+   "2C": "Nothing supports patience being ridiculed.",
+   "3A": "A trifling cache would not reward patience.",
+   "3B": "A fake cache would not reward patience."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the first excavation was {{1}}, yielding only a few fragments of pottery, the team's patience was {{2}} when a second season uncovered a {{3}} cache of tools, jewelry and inscriptions.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "triumphant"
+      },
+      {
+       "id": "1B",
+       "text": "unproductive"
+      },
+      {
+       "id": "1C",
+       "text": "sensational"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "rewarded"
+      },
+      {
+       "id": "2B",
+       "text": "strained"
+      },
+      {
+       "id": "2C",
+       "text": "mocked"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "trifling"
+      },
+      {
+       "id": "3B",
+       "text": "counterfeit"
+      },
+      {
+       "id": "3C",
+       "text": "bountiful"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-23",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the colon explains blank 1: *explaining nothing* and admitting *no fault* is *evasion*. With nothing explained, readers can only guess: *conjecture*.",
+  "choiceExplanations": {
+   "1B": "A letter that explains nothing is not candid.",
+   "1C": "It admitted no fault, so it shows no remorse.",
+   "2A": "With nothing explained, readers have nothing to verify.",
+   "2C": "Nothing in the sentence calls for applause."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The minister's resignation letter was a masterpiece of {{1}}: by thanking everyone and explaining nothing, it admitted no fault while leaving readers to {{2}} what had actually happened.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "evasion"
+      },
+      {
+       "id": "1B",
+       "text": "candor"
+      },
+      {
+       "id": "1C",
+       "text": "contrition"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "verify"
+      },
+      {
+       "id": "2B",
+       "text": "conjecture"
+      },
+      {
+       "id": "2C",
+       "text": "applaud"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-24",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the phrase *a pale copy* restates blank 1: *derivative*. Finding the film bolder after expecting a copy brings *relief*, and *more ... in its treatment of grief* needs a praising word: *nuanced*.",
+  "choiceExplanations": {
+   "1A": "Contradicts *a pale copy*.",
+   "1C": "Unclear, not copied.",
+   "2B": "Finding it bolder would not dishearten them.",
+   "2C": "Reviewers would not be indifferent to a pleasant surprise.",
+   "3B": "A glib treatment of grief would not be a reason for relief.",
+   "3C": "A perfunctory treatment would not please reviewers."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Reviewers who had expected the sequel to be {{1}}, a pale copy of its predecessor, were {{2}} to find it bolder in structure and more {{3}} in its treatment of grief, though a few remained unpersuaded.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "innovative"
+      },
+      {
+       "id": "1B",
+       "text": "derivative"
+      },
+      {
+       "id": "1C",
+       "text": "obscure"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "relieved"
+      },
+      {
+       "id": "2B",
+       "text": "disheartened"
+      },
+      {
+       "id": "2C",
+       "text": "indifferent"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "nuanced"
+      },
+      {
+       "id": "3B",
+       "text": "glib"
+      },
+      {
+       "id": "3C",
+       "text": "perfunctory"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3A"
+   ]
+  }
  }
 ]

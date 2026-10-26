@@ -567,5 +567,321 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q3-08-circles-lines-13",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 1,
+  "stem": "A right triangle is inscribed in a circle. The hypotenuse of the triangle has length 14. What is the radius of the circle?",
+  "explanation": "The hypotenuse of an inscribed right triangle is a diameter of the circle, so the diameter is 14 and the radius is $14\\div2=7$.",
+  "estSeconds": 45,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-14",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 2,
+  "stem": "In the figure, line $\\ell$ is tangent to the circle with center $O$ at $T$, and $P$ is a point on $\\ell$ with $OP=15$ and $PT=9$. What is the area of the circle?",
+  "explanation": "The radius $OT$ is perpendicular to the tangent $\\ell$, so triangle $OTP$ has its right angle at $T$ and hypotenuse $OP=15$. Then $OT^2=15^2-9^2=144$, so $r=12$ and the area is $\\pi\\cdot12^2=144\\pi$.",
+  "choiceExplanations": {
+   "A": "$12\\pi$ is $\\pi r$; the area is $\\pi r^2$.",
+   "B": "$24\\pi$ is the circumference $2\\pi r$, not the area.",
+   "C": "$81\\pi$ treats $PT=9$ as the radius; the radius is $OT=12$.",
+   "E": "$225\\pi$ treats $OP=15$ as the radius; $OP$ is the hypotenuse."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"70\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"118\" x2=\"170\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"70\" x2=\"126\" y2=\"118\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"90,110 98,110 98,118\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"70\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"82\" y=\"64\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"86\" y=\"134\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">T</text><text x=\"130\" y=\"134\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"176\" y=\"122\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">ℓ</text><text x=\"108\" y=\"138\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">9</text><text x=\"116\" y=\"84\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">15</text></svg>",
+    "alt": "A circle with center O. A horizontal line l is tangent to the circle at point T, directly below O, with a right-angle mark at T. Point P is on l to the right of T. A dashed segment joins O to P and is labeled 15, and TP is labeled 9."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$12\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$24\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$81\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$144\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$225\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-15",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A triangle with a diameter as a side is right-angled, so it has a $90^\\circ$ angle. The other two angles add up to $90^\\circ$, so each is less than $90^\\circ$. The largest angle is exactly $90^\\circ$ and the quantities are equal.",
+  "estSeconds": 70,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The measure of the largest angle of the triangle",
+   "quantityB": "$90^\\circ$",
+   "common": "A triangle is inscribed in a circle, and one side of the triangle is a diameter of the circle."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-16",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 3,
+  "stem": "A rectangle with one side of length 10 is inscribed in a circle with circumference $26\\pi$. What is the area of the rectangle?",
+  "explanation": "$\\pi d=26\\pi$, so the diameter is 26. The diagonals of an inscribed rectangle are diameters, so the diagonal is 26. The other side satisfies $s^2+10^2=26^2$, so $s^2=576$ and $s=24$. The area is $10\\cdot24=240$.",
+  "estSeconds": 100,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 240
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-17",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 3,
+  "stem": "Triangle $PQR$ is inscribed in a circle, and angle $Q$ is a right angle. Which of the following must be true? Indicate all such statements.",
+  "explanation": "The hypotenuse $PR$ of an inscribed right triangle is a diameter, so the radius is half of $PR$. The Pythagorean theorem gives $PQ^2+QR^2=PR^2$.",
+  "choiceExplanations": {
+   "B": "$PQ$ is a leg, not the hypotenuse; only the hypotenuse is a diameter.",
+   "D": "The legs of a right triangle can have different lengths."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$PR$ is a diameter of the circle."
+    },
+    {
+     "id": "B",
+     "text": "$PQ$ is a diameter of the circle."
+    },
+    {
+     "id": "C",
+     "text": "The radius of the circle is half of $PR$."
+    },
+    {
+     "id": "D",
+     "text": "$PQ=QR$."
+    },
+    {
+     "id": "E",
+     "text": "$PQ^2+QR^2=PR^2$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-18",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 4,
+  "stem": "In the figure, a circle of radius 9 with center $M$ is tangent to line $\\ell$ at $P$, and a circle of radius 4 with center $N$ is tangent to $\\ell$ at $Q$. Both circles lie on the same side of $\\ell$ and $PQ=12$. What is the length of $MN$?",
+  "explanation": "The radii $MP$ and $NQ$ are perpendicular to $\\ell$. Draw $NK$ perpendicular to $MP$, with $K$ on $MP$. Then $PQNK$ has four right angles, so it is a rectangle: $PK=NQ=4$ and $KN=PQ=12$. Hence $MK=9-4=5$, and in right triangle $MKN$, $MN=\\sqrt{5^2+12^2}=13$.",
+  "estSeconds": 130,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 262 195\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"98\" r=\"72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"186\" cy=\"138\" r=\"32\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"8\" y1=\"170\" x2=\"236\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"98\" x2=\"90\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"186\" y1=\"138\" x2=\"186\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><line x1=\"90\" y1=\"98\" x2=\"186\" y2=\"138\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"90,162 98,162 98,170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"186,162 178,162 178,170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"90\" cy=\"98\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"186\" cy=\"138\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"84\" y=\"92\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">M</text><text x=\"194\" y=\"132\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">N</text><text x=\"90\" y=\"184\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"186\" y=\"184\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"242\" y=\"174\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">ℓ</text><text x=\"84\" y=\"134\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">9</text><text x=\"194\" y=\"158\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"138\" y=\"186\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text></svg>",
+    "alt": "A line l with two circles resting on it from above. The larger circle, with center M, touches l at point P and the smaller circle, with center N, touches l at point Q to the right of P. Dashed radii MP and NQ are perpendicular to l, with right-angle marks. MP is labeled 9, NQ is labeled 4 and PQ is labeled 12. A dashed segment joins M to N."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-19",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 4,
+  "stem": "In the figure, right triangle $ABC$ is inscribed in the circle, with the right angle at $C$, $AC=12$ and $BC=16$. What is the area of the region inside the circle but outside the triangle?",
+  "explanation": "The hypotenuse is $AB=\\sqrt{12^2+16^2}=20$, and it is a diameter, so $r=10$ and the circle has area $100\\pi$. The triangle has area $\\tfrac12\\cdot12\\cdot16=96$. The region has area $100\\pi-96$.",
+  "choiceExplanations": {
+   "A": "$192=12\\cdot16$ forgets the factor $\\tfrac12$ in the triangle's area.",
+   "C": "$48$ halves the triangle's area twice; the area is $\\tfrac12\\cdot12\\cdot16=96$.",
+   "D": "This forgets to subtract the triangle.",
+   "E": "$400\\pi$ treats the diameter 20 as the radius; $r=10$."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 210 115\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"30,90 170,90 80.4,22.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"75.6,29.2 82,34 86.8,27.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"22\" y=\"94\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"178\" y=\"94\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"80.4\" y=\"14.8\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"72.4\" y=\"56\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text><text x=\"130\" y=\"56\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">16</text></svg>",
+    "alt": "A circle with a triangle ABC inscribed in it. A and B are at the left and right ends of a horizontal segment through the middle of the circle, and C is on the circle above that segment. A right-angle mark is at C. AC is labeled 12 and BC is labeled 16."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$100\\pi-192$"
+    },
+    {
+     "id": "B",
+     "text": "$100\\pi-96$"
+    },
+    {
+     "id": "C",
+     "text": "$100\\pi-48$"
+    },
+    {
+     "id": "D",
+     "text": "$100\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$400\\pi-96$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-20",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 5,
+  "stem": "In the figure, two circles share center $O$ and have radii 5 and 13. A line is tangent to the smaller circle at $T$ and meets the larger circle at $P$ and $Q$. What is the area of triangle $OPQ$?",
+  "explanation": "$OT$ is a radius of the small circle, so $OT\\perp PQ$ and $OT=5$. Right triangle $OTP$ has hypotenuse $OP=13$, so $PT=\\sqrt{13^2-5^2}=12$. The same holds for $TQ=12$; $P$ and $Q$ are different points of the line, so they lie on opposite sides of $T$ and $PQ=24$. Taking $PQ$ as the base and $OT$ as the height, the area is $\\tfrac12\\cdot24\\cdot5=60$.",
+  "estSeconds": 130,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 232\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"130\" cy=\"115\" r=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"115\" r=\"104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"14\" y1=\"155\" x2=\"246\" y2=\"155\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"115\" x2=\"34\" y2=\"155\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"115\" x2=\"226\" y2=\"155\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"115\" x2=\"130\" y2=\"155\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"130,147 138,147 138,155\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"130\" cy=\"115\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"138\" y=\"109\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"130\" y=\"171\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">T</text><text x=\"28\" y=\"171\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"232\" y=\"171\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"136\" y=\"140\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"186\" y=\"126\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">13</text></svg>",
+    "alt": "Two circles with the same center O, a small one of radius 5 and a large one of radius 13. A horizontal line touches the small circle at T, directly below O, and crosses the large circle at P on the left and Q on the right. Segments OP and OQ are drawn, and a dashed segment OT, perpendicular to the line, is labeled 5. OQ is labeled 13."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
  }
 ]

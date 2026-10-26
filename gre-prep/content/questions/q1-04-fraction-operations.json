@@ -517,5 +517,288 @@
     "denominator": 5
    }
   }
+ },
+ {
+  "id": "q1-04-fraction-operations-13",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 1,
+  "stem": "What is $\\frac{2}{5}$ of 15?",
+  "explanation": "\\\"$\\frac{c}{d}$ of $x$\\\" means $\\frac{c}{d}\\cdot x$. So $\\frac{2}{5}\\cdot15 = \\frac{30}{5} = 6$.",
+  "estSeconds": 45,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-14",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 2,
+  "stem": "What is $\\frac{3}{8}\\div\\frac{9}{4}$?",
+  "explanation": "Invert only the second fraction: $\\frac{3}{8}\\cdot\\frac{4}{9} = \\frac{12}{72} = \\frac{1}{6}$.",
+  "choiceExplanations": {
+   "A": "This divides by 9 only; the 4 in the denominator of the divisor was ignored.",
+   "C": "This multiplies without inverting the second fraction.",
+   "D": "This inverts both fractions.",
+   "E": "This inverts the first fraction instead of the second."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{24}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{27}{32}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{32}{27}$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-15",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Use the common denominator 24: $\\frac{7}{8}-\\frac{1}{6} = \\frac{21}{24}-\\frac{4}{24} = \\frac{17}{24}$, while $\\frac{2}{3} = \\frac{16}{24}$. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{7}{8}-\\frac{1}{6}$",
+   "quantityB": "$\\frac{2}{3}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-16",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 3,
+  "stem": "Which of the following fractions are less than $\\frac{1}{2}$? Indicate all such fractions.",
+  "explanation": "Compare with $\\frac{1}{2}$ by doubling the numerator: a positive fraction is less than $\\frac{1}{2}$ exactly when twice its numerator is less than its denominator. $6<7$, $10<11$ and $20<21$ hold. $12 = 12$ for $\\frac{6}{12}$ (equal), and $16>15$ for $\\frac{8}{15}$.",
+  "choiceExplanations": {
+   "D": "$\\frac{6}{12}$ reduces to $\\frac{1}{2}$, so it is equal to $\\frac{1}{2}$, not less.",
+   "E": "$\\frac{8}{15} = \\frac{16}{30}$, which is greater than $\\frac{15}{30} = \\frac{1}{2}$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{3}{7}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5}{11}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{10}{21}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{6}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{8}{15}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-17",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 3,
+  "stem": "Ravi spends $\\frac{1}{4}$ of his savings on rent and $\\frac{1}{3}$ of his savings on food. What fraction of his savings is left? Enter your answer as a fraction.",
+  "explanation": "He spends $\\frac{1}{4}+\\frac{1}{3} = \\frac{3}{12}+\\frac{4}{12} = \\frac{7}{12}$ of his savings. What is left is $1-\\frac{7}{12} = \\frac{5}{12}$.",
+  "estSeconds": 75,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.4166666666666667,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 12
+   }
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-18",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 4,
+  "stem": "$x$ and $y$ are positive numbers and $\\frac{3}{4}$ of $x$ equals $\\frac{2}{3}$ of $y$. What is $\\frac{x}{y}$?",
+  "explanation": "The statement is $\\frac{3}{4}x = \\frac{2}{3}y$. Divide both sides by $y$ and by $\\frac{3}{4}$: $\\frac{x}{y} = \\frac{2}{3}\\div\\frac{3}{4} = \\frac{2}{3}\\cdot\\frac{4}{3} = \\frac{8}{9}$. Check: $x = 8, y = 9$ gives $6$ and $6$.",
+  "choiceExplanations": {
+   "A": "This multiplies the two fractions instead of dividing them.",
+   "C": "Equal fractions of $x$ and $y$ do not make $x$ and $y$ equal.",
+   "D": "This is $\\frac{y}{x}$: the division was set up upside down.",
+   "E": "This adds $\\frac{3}{4}$ and $\\frac{2}{3}$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{2}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{8}{9}$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{9}{8}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{17}{12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-19",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 4,
+  "stem": "A rope is cut: $\\frac{2}{7}$ of its length is used for a first job, and then $\\frac{3}{5}$ of the remaining rope is used for a second job. What fraction of the original rope is left? Enter your answer as a fraction.",
+  "explanation": "After the first job $1-\\frac{2}{7} = \\frac{5}{7}$ of the rope remains. The second job uses $\\frac{3}{5}$ of that, so $\\frac{2}{5}$ of that part is left: $\\frac{2}{5}\\cdot\\frac{5}{7} = \\frac{2}{7}$.",
+  "estSeconds": 100,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.2857142857142857,
+   "fraction": {
+    "numerator": 2,
+    "denominator": 7
+   }
+  }
+ },
+ {
+  "id": "q1-04-fraction-operations-20",
+  "lessonId": "q1-04-fraction-operations",
+  "difficulty": 5,
+  "stem": "The numbers $x$ and $y$ satisfy $\\frac{x}{y} = \\frac{3}{4}$. What is the value of $\\dfrac{x+y}{x-y}$?",
+  "explanation": "The ratio $\\frac{x}{y} = \\frac{3}{4}$ is all that matters, so take $x=3$ and $y=4$: $\\frac{3+4}{3-4} = \\frac{7}{-1} = -7$. Any other pair with the same ratio, such as $x=6,\\ y=8$, gives $\\frac{14}{-2} = -7$. The denominator is negative because $x<y$.",
+  "estSeconds": 90,
+  "skills": [
+   "fraction-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -7
+  }
  }
 ]

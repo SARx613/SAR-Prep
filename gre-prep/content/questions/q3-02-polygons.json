@@ -461,7 +461,7 @@
   "explanation": "A regular octagon has 8 equal sides, so one side is $56\\div8=7$.",
   "estSeconds": 40,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",
@@ -490,7 +490,7 @@
   },
   "estSeconds": 80,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",
@@ -537,7 +537,7 @@
   "explanation": "A regular pentagon has 5 equal sides: $60\\div5=12$. A regular hexagon has 6: $60\\div6=10$. Since $12>10$, Quantity A is greater.",
   "estSeconds": 50,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",
@@ -565,7 +565,7 @@
   },
   "estSeconds": 90,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",
@@ -620,7 +620,7 @@
   },
   "estSeconds": 90,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",
@@ -667,7 +667,7 @@
   "explanation": "A regular pentagon has interior angles of $\\frac{(5-2)\\cdot180}{5}=108^\\circ$ and a regular hexagon has $\\frac{(6-2)\\cdot180}{6}=120^\\circ$. The angles around $A$ add up to $360^\\circ$, so angle $EAJ=360-108-120=132^\\circ$.",
   "estSeconds": 110,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "figure": {
    "kind": "svg",
@@ -697,7 +697,7 @@
   "explanation": "Each interior angle of a regular pentagon is $108^\\circ$. Triangle $ABC$ is isosceles with $AB=BC$ and apex angle $108^\\circ$, so angle $BAC=\\frac{180-108}{2}=36^\\circ$. Then angle $CAE=108-36=72^\\circ$.",
   "estSeconds": 110,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "figure": {
    "kind": "svg",
@@ -727,7 +727,7 @@
   "explanation": "Each angle of a regular $n$-gon is $180-\\frac{360}{n}$. The difference is $\\left(180-\\frac{360}{n}\\right)-\\left(180-\\frac{360}{n-2}\\right)=\\frac{360}{n-2}-\\frac{360}{n}=\\frac{720}{n(n-2)}$. Setting this equal to $6$ gives $n(n-2)=120$, so $n^2-2n-120=0$, $(n-12)(n+10)=0$ and $n=12$ (a count of sides is positive). Check: $150^\\circ-144^\\circ=6^\\circ$.",
   "estSeconds": 150,
   "skills": [
-   "polygons"
+   "polygon-angles"
   ],
   "review": {
    "status": "draft",

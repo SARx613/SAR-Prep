@@ -478,7 +478,8 @@
   "explanation": "The three angles add up to $180^\\circ$, so the third angle is $180-54-54=72$.",
   "estSeconds": 40,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",
@@ -507,7 +508,8 @@
   },
   "estSeconds": 70,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",
@@ -554,7 +556,8 @@
   "explanation": "By the Pythagorean theorem the hypotenuse squared is $5^2+5^2=50$. Since $50>49=7^2$, the hypotenuse is longer than 7, so Quantity A is greater.",
   "estSeconds": 60,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",
@@ -585,7 +588,8 @@
   },
   "estSeconds": 80,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",
@@ -636,7 +640,8 @@
   },
   "estSeconds": 80,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",
@@ -685,7 +690,8 @@
   "explanation": "In right triangle $ABC$, $AC^2=3^2+4^2=25$, so $AC=5$. Triangle $ACD$ has its right angle at $C$, so $AD^2=AC^2+CD^2=25+144=169$ and $AD=13$.",
   "estSeconds": 110,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "figure": {
    "kind": "svg",
@@ -716,7 +722,8 @@
   "explanation": "Angles $ACB$ and $ACD$ lie on a straight line, so angle $ACB=180-110=70^\\circ$. Because $AB=AC$, the angles opposite them are equal: angle $B=$ angle $ACB=70^\\circ$. Then angle $BAC=180-70-70=40^\\circ$.",
   "estSeconds": 100,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "figure": {
    "kind": "svg",
@@ -747,7 +754,8 @@
   "explanation": "Each side must be shorter than the sum of the other two. From $12<x+(2x-3)$ we get $x>5$. From $2x-3<12+x$ we get $x<15$. The third condition, $x<12+(2x-3)$, holds whenever $x>-9$. So $x$ is an integer with $5<x<15$: $6,7,\\dots,14$, which is 9 values (all sides are then positive).",
   "estSeconds": 130,
   "skills": [
-   "triangles"
+   "triangles",
+   "pythagorean-theorem"
   ],
   "review": {
    "status": "draft",

@@ -872,5 +872,841 @@
     "3A"
    ]
   }
+ },
+ {
+  "id": "v1-03-signal-words-13",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast word:** *Unlike her talkative sister* means the blank is the opposite of talkative; *rarely speaking* confirms it: *reserved*.",
+  "choiceExplanations": {
+   "A": "Talkative, like the sister, so *unlike* would be pointless.",
+   "B": "Loud and talkative people are the sister's type.",
+   "C": "Friendliness is not the opposite of talkative.",
+   "D": "Curiosity does not oppose talkativeness."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Unlike her talkative sister, Mara is notably {{1}}, rarely speaking unless someone asks her a question.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "garrulous"
+      },
+      {
+       "id": "B",
+       "text": "boisterous"
+      },
+      {
+       "id": "C",
+       "text": "amiable"
+      },
+      {
+       "id": "D",
+       "text": "curious"
+      },
+      {
+       "id": "E",
+       "text": "reserved"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-14",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast word:** *yet* reverses *complicated*. Five ingredients and ten minutes is *simple*.",
+  "choiceExplanations": {
+   "B": "Agrees with *complicated*; *yet* needs a reversal and the facts show ease.",
+   "C": "Agrees with *complicated*, which *yet* rules out.",
+   "D": "Cost is not discussed.",
+   "E": "Does not describe the work of making it."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The recipe seemed complicated, yet the finished dish proved surprisingly {{1}} to make: five ingredients and ten minutes.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "simple"
+      },
+      {
+       "id": "B",
+       "text": "arduous"
+      },
+      {
+       "id": "C",
+       "text": "elaborate"
+      },
+      {
+       "id": "D",
+       "text": "costly"
+      },
+      {
+       "id": "E",
+       "text": "tempting"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-15",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Intensifier:** *not merely fall; they ...* calls for something stronger than falling, and *ninety percent in a single quarter* confirms it: *plummeted*.",
+  "choiceExplanations": {
+   "A": "A ninety percent drop is not stable.",
+   "B": "Rising and falling is not *dropping ninety percent*.",
+   "C": "The opposite of dropping.",
+   "E": "Does not describe a sharp drop."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The company's profits did not merely fall; they {{1}}, dropping ninety percent in a single quarter.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stabilized"
+      },
+      {
+       "id": "B",
+       "text": "fluctuated"
+      },
+      {
+       "id": "C",
+       "text": "recovered"
+      },
+      {
+       "id": "D",
+       "text": "plummeted"
+      },
+      {
+       "id": "E",
+       "text": "lingered"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-16",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *Whereas* sets sequel against first novel. *Events follow no logic* is *haphazard*, so the first novel's plot was the opposite, tightly built: *taut*.",
+  "choiceExplanations": {
+   "1B": "Praise would not go to a rambling plot, and *whereas* needs the opposite of haphazard.",
+   "1C": "A plot praised for being implausible makes no sense.",
+   "2A": "Contradicts *follow no logic at all*.",
+   "2C": "Does not contrast with *the first novel's* praised plot and does not describe a lack of logic."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Whereas the first novel was praised for its {{1}} plot, its sequel suffers from a {{2}} one, in which events seem to follow no logic at all.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "taut"
+      },
+      {
+       "id": "1B",
+       "text": "rambling"
+      },
+      {
+       "id": "1C",
+       "text": "implausible"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "meticulous"
+      },
+      {
+       "id": "2B",
+       "text": "haphazard"
+      },
+      {
+       "id": "2C",
+       "text": "gripping"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-17",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *but* reverses the first impression. A contract that strips rights was first thought *generous*; *the tenant of nearly every right* needs *deprived*.",
+  "choiceExplanations": {
+   "1A": "Length gives no contrast with stripping rights.",
+   "1C": "A burdensome first impression leaves *but* nothing to reverse.",
+   "2B": "Opposite, and *granted ... of* is ungrammatical.",
+   "2C": "Grammatical, but reminding someone of rights does not reverse a generous-looking contract."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The contract seemed {{1}} at first glance, but a closer reading revealed that it {{2}} the tenant of nearly every right.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lengthy"
+      },
+      {
+       "id": "1B",
+       "text": "generous"
+      },
+      {
+       "id": "1C",
+       "text": "onerous"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "deprived"
+      },
+      {
+       "id": "2B",
+       "text": "granted"
+      },
+      {
+       "id": "2C",
+       "text": "reminded"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-18",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Structure:** *less ... than* sets admission against an attempt to dodge. The appositive *spreading it so thinly* restates the blank: *diffuse*.",
+  "choiceExplanations": {
+   "A": "That is what an admission of fault would do.",
+   "B": "The opposite: no one person could be held to account.",
+   "D": "Spreading blame thinly lessens it.",
+   "E": "Recording blame is not spreading it."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The minister's apology was less an admission of fault than an attempt to {{1}} blame, spreading it so thinly across the department that no one person could be held to account.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "accept"
+      },
+      {
+       "id": "B",
+       "text": "assign"
+      },
+      {
+       "id": "C",
+       "text": "diffuse"
+      },
+      {
+       "id": "D",
+       "text": "intensify"
+      },
+      {
+       "id": "E",
+       "text": "document"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-19",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *Though* and *surprisingly* mark a reversal. *Short sentences stripped of ornament* is *terse*; the new book with paragraphs swollen with adjectives is *baroque*.",
+  "choiceExplanations": {
+   "1B": "Flowery, the opposite of *stripped of ornament*.",
+   "1C": "Uncertainty is not what the clue describes.",
+   "2A": "*Surprisingly* needs the opposite of terse.",
+   "2C": "Swollen paragraphs are not concise."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the author's reputation rests on her {{1}} style, short sentences stripped of ornament, her latest book is surprisingly {{2}}, its paragraphs swollen with adjectives.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "terse"
+      },
+      {
+       "id": "1B",
+       "text": "florid"
+      },
+      {
+       "id": "1C",
+       "text": "tentative"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "restrained"
+      },
+      {
+       "id": "2B",
+       "text": "baroque"
+      },
+      {
+       "id": "2C",
+       "text": "concise"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-20",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Cause and contrast:** *Because ... only hardy crops* means poor soil: *inhospitable*. *Nevertheless* flips to success: *prospered*. A success on that land *refutes* the belief it is worthless.",
+  "choiceExplanations": {
+   "1B": "Good soil would grow more than hardy crops.",
+   "1C": "Irrigation would not explain growing little.",
+   "2A": "*Nevertheless* and *a success* rule out failure.",
+   "2C": "Leaving is not a success achieved by selling wool.",
+   "3A": "A success would not confirm that the land is worthless.",
+   "3C": "Does not fit *a success that ... the belief*."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the region's soil is {{1}}, farmers grow little besides hardy crops; nevertheless, a few have {{2}} by selling wool from sheep that graze among the rocks, a success that {{3}} the belief that the land is worthless.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inhospitable"
+      },
+      {
+       "id": "1B",
+       "text": "hospitable"
+      },
+      {
+       "id": "1C",
+       "text": "irrigated"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "failed"
+      },
+      {
+       "id": "2B",
+       "text": "prospered"
+      },
+      {
+       "id": "2C",
+       "text": "emigrated"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "confirms"
+      },
+      {
+       "id": "3B",
+       "text": "refutes"
+      },
+      {
+       "id": "3C",
+       "text": "ignores"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-21",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Escalation:** *Not content merely to X ... set out to Y* makes Y stronger than X. *Reduce the whole theory to ruins* gives Y: *demolish*. The milder step is to *qualify* the view.",
+  "choiceExplanations": {
+   "1A": "Endorsing and then demolishing is not an escalation of one attitude.",
+   "1C": "Spreading a view is not a step toward demolishing it.",
+   "2B": "Repeating a view does not reduce it to ruins.",
+   "2C": "Protecting the theory contradicts the evidence that ruins it."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Not content merely to {{1}} the prevailing view, the critic set out to {{2}} it, assembling evidence that would reduce the whole theory to ruins.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "endorse"
+      },
+      {
+       "id": "1B",
+       "text": "qualify"
+      },
+      {
+       "id": "1C",
+       "text": "popularize"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "demolish"
+      },
+      {
+       "id": "2B",
+       "text": "restate"
+      },
+      {
+       "id": "2C",
+       "text": "shelter"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-22",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *Although* needs a stance the board's behavior contradicts: *skeptical* but accepting without question. A lapse is *inexcusable* once the fortune proves *tainted*.",
+  "choiceExplanations": {
+   "1A": "Professed trust and unquestioning acceptance agree, leaving *Although* nothing to contrast.",
+   "1B": "Appreciation also agrees with accepting the gift.",
+   "2B": "A lapse cannot be commendable.",
+   "2C": "A tainted fortune makes the lapse serious.",
+   "3A": "A large fortune does not make the lapse look worse.",
+   "3B": "A small fortune does not make the lapse look worse."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the board professed to be {{1}} of the donor's motives, it accepted the gift without a single question, a lapse that looks {{2}} now that the fortune has proved {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "trusting"
+      },
+      {
+       "id": "1B",
+       "text": "appreciative"
+      },
+      {
+       "id": "1C",
+       "text": "skeptical"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "inexcusable"
+      },
+      {
+       "id": "2B",
+       "text": "commendable"
+      },
+      {
+       "id": "2C",
+       "text": "trivial"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "ample"
+      },
+      {
+       "id": "3B",
+       "text": "modest"
+      },
+      {
+       "id": "3C",
+       "text": "tainted"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-23",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Negation:** *Far from X* points to the opposite of X. A reply that restates every conclusion and adds more *amplified* the findings, so the thing she was far from doing is attacking them: *impugning*.",
+  "choiceExplanations": {
+   "1B": "Absorbing findings is not the opposite of amplifying them, so *far from* would make no sense.",
+   "1C": "Putting off a decision is not opposed to restating conclusions.",
+   "2A": "Restating each conclusion does not undermine it.",
+   "2C": "She restated the findings, so she did not ignore them."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Far from {{1}} the committee's findings, the minister's reply {{2}} them, restating each conclusion and adding two of her own.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "impugning"
+      },
+      {
+       "id": "1B",
+       "text": "assimilating"
+      },
+      {
+       "id": "1C",
+       "text": "deferring"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "undermined"
+      },
+      {
+       "id": "2B",
+       "text": "amplified"
+      },
+      {
+       "id": "2C",
+       "text": "ignored"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-24",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Negation and result:** *would hardly have bothered* means that, had no defense been needed, they would not have defended it: *uncontroversial*. *Defend ... intensity of their defense* confirms blank 2; a defense that intense implies they thought it *vulnerable*.",
+  "choiceExplanations": {
+   "1A": "A controversial proposal is exactly the kind sponsors defend, so *hardly* would be wrong.",
+   "1C": "A ruinous proposal would not reduce the need to defend it.",
+   "2A": "Nobody abandons something vigorously.",
+   "2B": "Disregarding it contradicts *defense*.",
+   "3B": "If they thought it unassailable they would not defend it so intensely.",
+   "3C": "A popular proposal would not need so intense a defense."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Had the proposal been {{1}}, its sponsors would hardly have bothered to {{2}} it so vigorously; the intensity of their defense suggests that even they suspected it was {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "controversial"
+      },
+      {
+       "id": "1B",
+       "text": "uncontroversial"
+      },
+      {
+       "id": "1C",
+       "text": "ruinous"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "abandon"
+      },
+      {
+       "id": "2B",
+       "text": "disregard"
+      },
+      {
+       "id": "2C",
+       "text": "defend"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "vulnerable"
+      },
+      {
+       "id": "3B",
+       "text": "unassailable"
+      },
+      {
+       "id": "3C",
+       "text": "popular"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3A"
+   ]
+  }
  }
 ]

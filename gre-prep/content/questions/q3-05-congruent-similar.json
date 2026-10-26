@@ -496,5 +496,285 @@
   "answer": {
    "value": 9
   }
+ },
+ {
+  "id": "q3-05-congruent-similar-13",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 1,
+  "stem": "Triangle $ABC$ is similar to triangle $DEF$, and every side of triangle $DEF$ is 3 times as long as the corresponding side of triangle $ABC$. The perimeter of triangle $ABC$ is 14. What is the perimeter of triangle $DEF$?",
+  "explanation": "Each side of $DEF$ is 3 times the corresponding side of $ABC$, so the sum of the three sides is also 3 times as large: $3\\cdot14=42$.",
+  "estSeconds": 50,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 42
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-14",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 2,
+  "stem": "Triangle $ABC$ has side lengths 6, 8 and 10. Triangle $DEF$ is similar to triangle $ABC$, and its longest side has length 25. What is the length of the shortest side of triangle $DEF$?",
+  "explanation": "The longest sides correspond, so the scale factor is $\\dfrac{25}{10}=2.5$. The shortest side of $DEF$ corresponds to the side of length 6: $6\\cdot2.5=15$.",
+  "choiceExplanations": {
+   "A": "10 is the longest side of $ABC$; the sides of $DEF$ are scaled up by a factor of 2.5.",
+   "B": "This halves 25, but the scale factor is $25\\div10=2.5$, applied to the side of length 6.",
+   "D": "This subtracts the difference $10-6=4$ from 25. Similar triangles keep a common ratio, not a common difference: $6\\cdot2.5=15$.",
+   "E": "$20=8\\cdot2.5$ is the middle side of $DEF$, not the shortest."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "10"
+    },
+    {
+     "id": "B",
+     "text": "12.5"
+    },
+    {
+     "id": "C",
+     "text": "15"
+    },
+    {
+     "id": "D",
+     "text": "19"
+    },
+    {
+     "id": "E",
+     "text": "20"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-15",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The equal angles $P$ and $X$ lie between the equal side pairs $PQ,XY$ and $PR,XZ$, so the triangles are congruent by SAS. Corresponding sides $QR$ and $YZ$ are therefore equal.",
+  "estSeconds": 60,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$QR$",
+   "quantityB": "$YZ$",
+   "common": "In triangles $PQR$ and $XYZ$, $PQ=XY$, $PR=XZ$ and $\\angle P=\\angle X$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-16",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 3,
+  "stem": "In the figure, segments $AE$ and $BD$ intersect at $C$, and $AB$ is parallel to $ED$. If $AB=10$, $ED=15$ and $BC=8$, what is the length of $CD$?",
+  "explanation": "Angles $ACB$ and $ECD$ are vertical angles, and angles $ABC$ and $EDC$ are equal because $AB\\parallel ED$. Two equal angle pairs make triangles $ABC$ and $EDC$ similar, with $A\\leftrightarrow E$ and $B\\leftrightarrow D$. So $\\dfrac{AB}{ED}=\\dfrac{BC}{DC}$: $\\dfrac{10}{15}=\\dfrac{8}{CD}$, giving $CD=12$.",
+  "estSeconds": 100,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 300 172\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"90\" y1=\"22\" x2=\"210\" y2=\"22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"142\" x2=\"240\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"22\" x2=\"240\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"22\" x2=\"60\" y2=\"142\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"84\" y=\"20\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"216\" y=\"20\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"54\" y=\"154\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"246\" y=\"154\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"150\" y=\"88\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"150\" y=\"16\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"150\" y=\"156\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">15</text><text x=\"190\" y=\"40\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+    "alt": "Two segments AE and BD cross at point C, forming a bow-tie shape. Segment AB, on top, joins A (upper left) to B (upper right); segment DE, at the bottom, joins D (lower left) to E (lower right). AB is parallel to DE. AB is labeled 10, DE is labeled 15 and BC is labeled 8."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-17",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Two equal angle pairs make the triangles similar, with $A\\leftrightarrow D$, $B\\leftrightarrow E$ and $C\\leftrightarrow F$. Then $\\dfrac{EF}{BC}=\\dfrac{DE}{AB}=\\dfrac{9}{6}=1.5$, so $EF=1.5\\cdot BC>BC$ (lengths are positive). Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$BC$",
+   "quantityB": "$EF$",
+   "common": "Triangles $ABC$ and $DEF$ have $\\angle A=\\angle D$ and $\\angle B=\\angle E$. Also $AB=6$ and $DE=9$."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-18",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 4,
+  "stem": "Triangles $ABC$ and $DEF$ are such that $A$ corresponds to $D$, $B$ to $E$ and $C$ to $F$. Which of the following, each taken by itself, guarantees that the triangles are similar? Indicate all such conditions.",
+  "explanation": "Two equal angle pairs force similarity, so A works. In B, $\\angle E=180-30-80=70^\\circ=\\angle B$, so two angle pairs match. In C, two sides and the included angle match (SAS), so the triangles are congruent, hence the same shape. D fails: with $A=D=45^\\circ$ and $B=F=60^\\circ$ we get $C=75^\\circ$ and $E=75^\\circ$, so $B\\ne E$ and $C\\ne F$; the corresponding angles do not match. E gives only one equal angle pair and one side, which does not fix the shape.",
+  "choiceExplanations": {
+   "D": "$B$ is paired with $E$, not $F$: angles $B=60^\\circ$ and $E=75^\\circ$ differ, so only one angle pair is equal.",
+   "E": "Only one angle pair is equal and one pair of sides; the other angles can differ, so the shapes can differ."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\angle A=\\angle D=30^\\circ$ and $\\angle B=\\angle E=70^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$\\angle A=\\angle D=30^\\circ$, $\\angle B=70^\\circ$ and $\\angle F=80^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$AB=DE$, $BC=EF$ and $\\angle B=\\angle E$"
+    },
+    {
+     "id": "D",
+     "text": "$\\angle A=\\angle D=45^\\circ$ and $\\angle B=\\angle F=60^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$\\angle A=\\angle D=50^\\circ$ and $AB=DE$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-19",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 4,
+  "stem": "In the figure, $D$ is on $AB$, $E$ is on $AC$, and $DE$ is parallel to $BC$. If $AD=x$, $DB=6$, $DE=6$ and $BC=10$, what is the value of $x$?",
+  "explanation": "Triangles $ADE$ and $ABC$ share angle $A$, and $DE\\parallel BC$ makes angle $ADE$ equal angle $ABC$, so they are similar. With $AB=x+6$: $\\dfrac{AD}{AB}=\\dfrac{DE}{BC}$, so $\\dfrac{x}{x+6}=\\dfrac{6}{10}$. Then $10x=6x+36$, so $x=9$.",
+  "estSeconds": 110,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 280 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"130\" y1=\"20\" x2=\"30\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"250\" y1=\"150\" x2=\"130\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"98\" x2=\"202\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"130\" y=\"12\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"24\" y=\"164\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"256\" y=\"164\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"62\" y=\"102\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"210\" y=\"102\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"92\" y=\"54\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"44\" y=\"128\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"136\" y=\"113\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"140\" y=\"168\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text></svg>",
+    "alt": "Triangle ABC with A at the top and BC along the bottom. Point D is on side AB and point E is on side AC, and segment DE is parallel to BC. AD is labeled x, DB is labeled 6, DE is labeled 6 and BC is labeled 10."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q3-05-congruent-similar-20",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 5,
+  "stem": "In the figure, triangle $ABC$ has a right angle at $A$, with $AB=30$ and $AC=20$. A square has one vertex at $A$, two sides along $AB$ and $AC$, and its opposite vertex on the hypotenuse $BC$. What is the side length of the square?",
+  "explanation": "Let the square have side $s$. Its vertex $P$ on $AB$ and its vertex $Q$ on $BC$ form a small right triangle $BPQ$ with legs $BP=30-s$ and $PQ=s$. It shares angle $B$ with triangle $BAC$ and both have a right angle, so they are similar, with $PQ\\leftrightarrow AC$ and $BP\\leftrightarrow AB$. Then $\\dfrac{s}{30-s}=\\dfrac{20}{30}$, so $30s=600-20s$, $50s=600$ and $s=12$.",
+  "estSeconds": 150,
+  "skills": [
+   "similarity",
+   "congruence"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"170\" x2=\"210\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"170\" x2=\"30\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"170\" x2=\"30\" y2=\"50\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"30,170 102,170 102,98 30,98\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"22\" y=\"184\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"216\" y=\"174\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"26\" y=\"42\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"120\" y=\"188\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30</text><text x=\"20\" y=\"114\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">20</text></svg>",
+    "alt": "A right triangle ABC with the right angle at A in the bottom left corner. AB runs along the bottom and is labeled 30; AC runs up the left side and is labeled 20. A square sits in the corner at A with its top-right vertex on the hypotenuse BC."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
  }
 ]

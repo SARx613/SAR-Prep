@@ -489,5 +489,314 @@
   "answer": {
    "choice": "C"
   }
+ },
+ {
+  "id": "q1-06-exponents-13",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 1,
+  "stem": "What is the value of $2^6$?",
+  "explanation": "$2^6 = 2\\cdot2\\cdot2\\cdot2\\cdot2\\cdot2 = 4\\cdot4\\cdot4 = 64$.",
+  "estSeconds": 45,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 64
+  }
+ },
+ {
+  "id": "q1-06-exponents-14",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 2,
+  "stem": "What is the value of $4^{-2}\\cdot16$?",
+  "explanation": "$4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$, so $\\frac{1}{16}\\cdot16 = 1$.",
+  "choiceExplanations": {
+   "A": "A negative exponent gives a reciprocal, not a negative number: $4^{-2} = \\frac{1}{16}$, not $-16$.",
+   "B": "This is $4^{-2}$ alone; the factor 16 was dropped.",
+   "D": "This uses $4^{-2} = \\frac{1}{8}$, multiplying 4 by 2 instead of squaring.",
+   "E": "This treats $4^{-2}$ as $4^2 = 16$ and multiplies."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-256$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{16}$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$256$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-06-exponents-15",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(-2)^{-2} = \\frac{1}{(-2)^2} = \\frac{1}{4}$: the parentheses put the minus sign inside the square. $-2^{-2} = -\\frac{1}{2^2} = -\\frac{1}{4}$: the exponent acts on 2 alone. So $\\frac{1}{4}>-\\frac{1}{4}$ and Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(-2)^{-2}$",
+   "quantityB": "$-2^{-2}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-06-exponents-16",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 3,
+  "stem": "What is the value of $\\left(-\\frac{1}{2}\\right)^{-3}$?",
+  "explanation": "Flip the fraction: $\\left(-\\frac{1}{2}\\right)^{-3} = (-2)^3$. An odd power of a negative number is negative: $(-2)^3 = -8$.",
+  "estSeconds": 75,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -8
+  }
+ },
+ {
+  "id": "q1-06-exponents-17",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 3,
+  "stem": "Which of the following are negative? Indicate all such numbers.",
+  "explanation": "$(-2)^{-3} = \\frac{1}{(-2)^3} = -\\frac{1}{8}$ (odd power). $-(-2)^2 = -4$ (square first, then negate). $-2^{-2} = -\\frac{1}{4}$ (exponent acts on 2 alone). But $(-2)^{-2} = \\frac{1}{4}$ and $(-2)^0 = 1$ are positive.",
+  "choiceExplanations": {
+   "C": "$(-2)^{-2} = \\frac{1}{(-2)^2} = \\frac{1}{4}$, an even power, so it is positive.",
+   "D": "Any nonzero number to the power 0 is 1, which is positive."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-2)^{-3}$"
+    },
+    {
+     "id": "B",
+     "text": "$-(-2)^2$"
+    },
+    {
+     "id": "C",
+     "text": "$(-2)^{-2}$"
+    },
+    {
+     "id": "D",
+     "text": "$(-2)^0$"
+    },
+    {
+     "id": "E",
+     "text": "$-2^{-2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-06-exponents-18",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 4,
+  "stem": "What is the value of $\\dfrac{1}{2^{-3}}-\\dfrac{1}{3^{-2}}$?",
+  "explanation": "$2^{-3} = \\frac{1}{8}$, so $\\frac{1}{2^{-3}} = 8$. $3^{-2} = \\frac{1}{9}$, so $\\frac{1}{3^{-2}} = 9$. The difference is $8-9 = -1$.",
+  "choiceExplanations": {
+   "A": "This subtracts as $-8-9$; both terms are positive.",
+   "C": "This evaluates $2^{-3}-3^{-2} = \\frac{1}{8}-\\frac{1}{9}$ and ignores the reciprocals in front.",
+   "D": "The terms are 8 and 9 but in the wrong order: $9-8$.",
+   "E": "This adds 8 and 9."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-17$"
+    },
+    {
+     "id": "B",
+     "text": "$-1$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{72}$"
+    },
+    {
+     "id": "D",
+     "text": "$1$"
+    },
+    {
+     "id": "E",
+     "text": "$17$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-06-exponents-19",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 4,
+  "stem": "For which of the following values of $x$ does $x^{-2} = x^{2}$? Indicate all such values.",
+  "explanation": "Test each value. $(-1)^{-2} = \\frac{1}{1} = 1 = (-1)^2$ and $1^{-2} = 1 = 1^2$. For $\\pm2$ the two sides are $\\frac{1}{4}$ and $4$. For $x=0$ the left side is undefined.",
+  "choiceExplanations": {
+   "A": "$(-2)^{-2} = \\frac{1}{4}$ but $(-2)^2 = 4$.",
+   "C": "$0^{-2} = \\frac{1}{0^2}$ is undefined, so 0 cannot satisfy the equation.",
+   "E": "$2^{-2} = \\frac{1}{4}$ but $2^2 = 4$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2$"
+    },
+    {
+     "id": "B",
+     "text": "$-1$"
+    },
+    {
+     "id": "C",
+     "text": "$0$"
+    },
+    {
+     "id": "D",
+     "text": "$1$"
+    },
+    {
+     "id": "E",
+     "text": "$2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-06-exponents-20",
+  "lessonId": "q1-06-exponents",
+  "difficulty": 5,
+  "stem": "What is the value of $\\dfrac{(-2)^{-3}+(-2)^{-2}}{2^{-1}}$? Enter your answer as a fraction.",
+  "explanation": "$(-2)^{-3} = -\\frac{1}{8}$ and $(-2)^{-2} = \\frac{1}{4}$, so the numerator is $-\\frac{1}{8}+\\frac{2}{8} = \\frac{1}{8}$. The denominator is $2^{-1} = \\frac{1}{2}$. Then $\\frac{1}{8}\\div\\frac{1}{2} = \\frac{1}{8}\\cdot2 = \\frac{1}{4}$.",
+  "estSeconds": 120,
+  "skills": [
+   "exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.25,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 4
+   }
+  }
  }
 ]

@@ -509,5 +509,314 @@
   "answer": {
    "value": 48
   }
+ },
+ {
+  "id": "q1-05-mixed-fractional-13",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 1,
+  "stem": "What is $4\\cdot1\\frac{1}{2}$?",
+  "explanation": "Convert first: $1\\frac{1}{2} = \\frac{3}{2}$, and $4\\cdot\\frac{3}{2} = \\frac{12}{2} = 6$. (Multiplying only the whole part would give $4\\frac{1}{2}$, which is wrong.)",
+  "estSeconds": 45,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-14",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "What is $3\\frac{1}{3}-1\\frac{3}{4}$?",
+  "explanation": "Convert both: $3\\frac{1}{3} = \\frac{10}{3} = \\frac{40}{12}$ and $1\\frac{3}{4} = \\frac{7}{4} = \\frac{21}{12}$. The difference is $\\frac{19}{12} = 1\\frac{7}{12}$.",
+  "choiceExplanations": {
+   "A": "This forgets that the whole numbers also subtract: after borrowing, $2-1=1$ remains in addition to $\\frac{7}{12}$.",
+   "B": "After borrowing, $2-\\frac{5}{12}$ is $1\\frac{7}{12}$; $1\\frac{5}{12}$ uses the wrong fractional part.",
+   "D": "This subtracts the smaller fraction from the larger one, $\\frac{3}{4}-\\frac{1}{3}$, instead of borrowing.",
+   "E": "This adds the two numbers instead of subtracting."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$1\\frac{5}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$1\\frac{7}{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$2\\frac{5}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$5\\frac{1}{12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-15",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Quantity A: $5\\frac{1}{2} = \\frac{11}{2}$, and $\\frac{11}{2}\\cdot\\frac{1}{2} = \\frac{11}{4} = 2\\frac{3}{4}$. Quantity B: $\\frac{5}{2}+\\frac{1}{2} = 3$. The whole mixed number is divided in A, but in B the $\\frac{1}{2}$ is added without being halved, so B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$5\\frac{1}{2}\\div2$",
+   "quantityB": "$5\\div2+\\frac{1}{2}$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-16",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "A recipe needs $2\\frac{1}{4}$ cups of sugar for one batch. How many cups of sugar are needed for $2\\frac{2}{3}$ batches?",
+  "explanation": "Convert and multiply: $2\\frac{1}{4} = \\frac{9}{4}$ and $2\\frac{2}{3} = \\frac{8}{3}$. Then $\\frac{9}{4}\\cdot\\frac{8}{3} = \\frac{72}{12} = 6$.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-17",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "What is the value of $\\dfrac{2\\frac{1}{2}}{\\frac{5}{6}}$?",
+  "explanation": "A stacked fraction means divide: $2\\frac{1}{2}\\div\\frac{5}{6} = \\frac{5}{2}\\cdot\\frac{6}{5} = \\frac{30}{10} = 3$.",
+  "choiceExplanations": {
+   "A": "This divides $\\frac{5}{6}$ by $2\\frac{1}{2}$, the wrong way round.",
+   "B": "This multiplies by $\\frac{5}{6}$ without inverting it.",
+   "D": "This adds the numerator and the denominator instead of dividing.",
+   "E": "This multiplies by 6 but forgets to divide by the 5."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$2\\frac{1}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$3\\frac{1}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$15$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-18",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "For $x\\ne0$, what is the value of $\\frac{x}{3}+\\frac{x}{4}-\\frac{x}{6}$?",
+  "explanation": "The common denominator is 12: $\\frac{4x}{12}+\\frac{3x}{12}-\\frac{2x}{12} = \\frac{5x}{12}$.",
+  "choiceExplanations": {
+   "A": "This combines the numerators over 12 without scaling them: $1+1-1$ is wrong because the fractions were not rewritten over 12.",
+   "C": "This leaves out the subtraction of $\\frac{x}{6}$.",
+   "D": "This adds all three fractions, $\\frac{4x+3x+2x}{12}$, instead of subtracting the last.",
+   "E": "This combines the denominators as $3+4-6=1$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{x}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5x}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{7x}{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{3x}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "$x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-19",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "What is the value of $\\dfrac{2\\frac{1}{2}+1\\frac{1}{4}}{3\\frac{3}{4}-1\\frac{1}{4}}$? Enter your answer as a fraction.",
+  "explanation": "Numerator: $\\frac{5}{2}+\\frac{5}{4} = \\frac{10}{4}+\\frac{5}{4} = \\frac{15}{4}$. Denominator: $\\frac{15}{4}-\\frac{5}{4} = \\frac{10}{4} = \\frac{5}{2}$. Then $\\frac{15}{4}\\div\\frac{5}{2} = \\frac{15}{4}\\cdot\\frac{2}{5} = \\frac{30}{20} = \\frac{3}{2}$.",
+  "estSeconds": 120,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 1.5,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 2
+   }
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-20",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 5,
+  "stem": "Which of the following are greater than $2\\frac{3}{7}$? Indicate all such numbers.",
+  "explanation": "Convert $2\\frac{3}{7} = \\frac{17}{7}$, or convert each choice to a mixed number and compare the fractional parts by cross-multiplying. $\\frac{22}{9} = 2\\frac{4}{9}$ and $\\frac{4}{9}>\\frac{3}{7}$ because $28>27$. $\\frac{27}{11} = 2\\frac{5}{11}$ and $\\frac{5}{11}>\\frac{3}{7}$ because $35>33$. The other three are smaller or equal.",
+  "choiceExplanations": {
+   "A": "$\\frac{12}{5} = 2\\frac{2}{5}$, and $\\frac{2}{5}<\\frac{3}{7}$ because $14<15$.",
+   "B": "$\\frac{29}{12} = 2\\frac{5}{12}$, and $\\frac{5}{12}<\\frac{3}{7}$ because $35<36$.",
+   "C": "$\\frac{17}{7} = 2\\frac{3}{7}$ exactly, so it is equal, not greater."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{12}{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{29}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{17}{7}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{22}{9}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{27}{11}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
  }
 ]

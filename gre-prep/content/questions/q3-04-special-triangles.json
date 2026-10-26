@@ -514,5 +514,298 @@
     "B"
    ]
   }
+ },
+ {
+  "id": "q3-04-special-triangles-13",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 1,
+  "stem": "The shorter leg of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has length 7. What is the length of its hypotenuse?",
+  "explanation": "The shorter leg is opposite the $30^\\circ$ angle and is $x$; the hypotenuse is $2x=2\\cdot7=14$.",
+  "estSeconds": 45,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-14",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 2,
+  "stem": "The diagonal of a square has length 14. What is the length of one side of the square?",
+  "explanation": "The diagonal cuts the square into two isosceles right triangles whose hypotenuse is the diagonal. So $x\\sqrt2=14$ and $x=\\dfrac{14}{\\sqrt2}=7\\sqrt2$.",
+  "choiceExplanations": {
+   "A": "This halves the diagonal; the side is $\\frac{\\text{diagonal}}{\\sqrt2}$, not $\\frac{\\text{diagonal}}{2}$.",
+   "C": "The diagonal is the hypotenuse of the triangle, so it is longer than a side.",
+   "D": "This multiplies by $\\sqrt2$ instead of dividing; the hypotenuse is $\\sqrt2$ times a leg.",
+   "E": "The side of a square is shorter than its diagonal, so it cannot be twice the diagonal."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$7$"
+    },
+    {
+     "id": "B",
+     "text": "$7\\sqrt2$"
+    },
+    {
+     "id": "C",
+     "text": "$14$"
+    },
+    {
+     "id": "D",
+     "text": "$14\\sqrt2$"
+    },
+    {
+     "id": "E",
+     "text": "$28$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-15",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The hypotenuse is $9\\sqrt2\\approx9(1.41)=12.69$, which is greater than 12.5. Quantity A is greater.",
+  "estSeconds": 70,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The length of the hypotenuse",
+   "quantityB": "12.5",
+   "common": "An isosceles right triangle has legs of length 9."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-16",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 3,
+  "stem": "A $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has hypotenuse 20. Its area is $k\\sqrt3$. What is the value of $k$?",
+  "explanation": "The hypotenuse is $2x=20$, so the shorter leg is $x=10$ and the longer leg is $10\\sqrt3$. The legs are perpendicular, so $A=\\dfrac{10\\cdot10\\sqrt3}{2}=50\\sqrt3$ and $k=50$.",
+  "estSeconds": 80,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 50
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-17",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The height splits the triangle into two $30^\\circ$-$60^\\circ$-$90^\\circ$ triangles with hypotenuse 4: short leg 2, height $2\\sqrt3$. The area is $\\dfrac{4\\cdot2\\sqrt3}{2}=4\\sqrt3\\approx4(1.73)=6.92$, which is less than 7. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of an equilateral triangle with side length 4",
+   "quantityB": "7"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-18",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 4,
+  "stem": "An isosceles right triangle has a hypotenuse of length 12. Which of the following are true? Indicate all such statements.",
+  "explanation": "Each leg is $\\dfrac{12}{\\sqrt2}=6\\sqrt2$. The legs are perpendicular, so the area is $\\dfrac{(6\\sqrt2)(6\\sqrt2)}{2}=36$. Taking the hypotenuse as the base, $\\dfrac{12\\cdot h}{2}=36$, so the altitude to it is $h=6$.",
+  "choiceExplanations": {
+   "C": "The perimeter is $12+6\\sqrt2+6\\sqrt2=12+12\\sqrt2$; this counts only one leg.",
+   "D": "Legs of length 6 would give hypotenuse $6\\sqrt2\\approx8.5$, not 12."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Each leg has length $6\\sqrt2$."
+    },
+    {
+     "id": "B",
+     "text": "The area of the triangle is 36."
+    },
+    {
+     "id": "C",
+     "text": "The perimeter of the triangle is $12+6\\sqrt2$."
+    },
+    {
+     "id": "D",
+     "text": "Each leg has length 6."
+    },
+    {
+     "id": "E",
+     "text": "The altitude drawn to the hypotenuse has length 6."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-19",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 4,
+  "stem": "In the figure, $AD$ is perpendicular to $BC$, $AD=6$, angle $B$ is $45^\\circ$ and angle $C$ is $30^\\circ$. What is the area of triangle $ABC$?",
+  "explanation": "Triangle $ABD$ is a $45^\\circ$-$45^\\circ$-$90^\\circ$ triangle, so $BD=AD=6$. Triangle $ADC$ is $30^\\circ$-$60^\\circ$-$90^\\circ$ with $AD=6$ opposite the $30^\\circ$ angle, so $DC=6\\sqrt3$. Then $BC=6+6\\sqrt3$ and the area is $\\dfrac{(6+6\\sqrt3)\\cdot6}{2}=18+18\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "This takes $DC=2\\sqrt3$ (dividing by $\\sqrt3$); the side opposite $60^\\circ$ is the shorter leg times $\\sqrt3$, so $DC=6\\sqrt3$.",
+   "B": "$18\\sqrt3$ is the area of triangle $ADC$ alone; add triangle $ABD$ (area 18).",
+   "D": "This takes $DC=12$, mistaking $2x$ for the leg; $12$ would be the hypotenuse $AC$.",
+   "E": "This forgets to divide by 2: it is $BC\\cdot AD$."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 335 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"126\" y1=\"54\" x2=\"30\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"54\" x2=\"292.3\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"150\" x2=\"292.3\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"54\" x2=\"126\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"126,142 134,142 134,150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"126\" y=\"46\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"24\" y=\"154\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"300.3\" y=\"154\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"126\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"132\" y=\"106\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"64\" y=\"144\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">45°</text><text x=\"258.3\" y=\"144\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30°</text></svg>",
+    "alt": "Triangle ABC with base BC horizontal. Point D lies on BC and segment AD is perpendicular to BC, marked with a right angle at D. AD is labeled 6. The angle at B is labeled 45 degrees and the angle at C is labeled 30 degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$18+6\\sqrt3$"
+    },
+    {
+     "id": "B",
+     "text": "$18\\sqrt3$"
+    },
+    {
+     "id": "C",
+     "text": "$18+18\\sqrt3$"
+    },
+    {
+     "id": "D",
+     "text": "$54$"
+    },
+    {
+     "id": "E",
+     "text": "$36+36\\sqrt3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-20",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 5,
+  "stem": "An isosceles right triangle has legs of length 6. An equilateral triangle is drawn with the hypotenuse of this triangle as one of its sides. The area of the equilateral triangle is $k\\sqrt3$. What is the value of $k$?",
+  "explanation": "The hypotenuse is $6\\sqrt2$, so the equilateral triangle has side $6\\sqrt2$. Its height splits it into $30^\\circ$-$60^\\circ$-$90^\\circ$ triangles with short leg $3\\sqrt2$, so the height is $3\\sqrt2\\cdot\\sqrt3=3\\sqrt6$. The area is $\\dfrac{6\\sqrt2\\cdot3\\sqrt6}{2}=9\\sqrt{12}=18\\sqrt3$, so $k=18$.",
+  "estSeconds": 150,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
+  }
  }
 ]
