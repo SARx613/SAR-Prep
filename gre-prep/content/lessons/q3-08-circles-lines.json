@@ -1,4 +1,6 @@
 {
+ "id": "q3-08-circles-lines",
+ "status": "draft",
  "why": "Tangent lines and triangles inscribed in circles produce right angles, which let you bring in the Pythagorean theorem.",
  "rule": "A **tangent** touches a circle at exactly one point. The radius drawn to that point is perpendicular to the tangent, and conversely a line perpendicular to a radius at its end on the circle is tangent.\n\nA polygon is **inscribed** in a circle if all its vertices lie on the circle. If one side of an inscribed triangle is a diameter, the triangle is a right triangle with that side as hypotenuse; conversely, the hypotenuse of an inscribed right triangle is a diameter. So a rectangle inscribed in a circle has its diagonals as diameters.\n\nA polygon is **circumscribed** about a circle if every side is tangent to the circle. Circles with the same center are **concentric**.",
  "examples": [
@@ -24,15 +26,8 @@
   {
    "id": "q3-08-circles-lines-c1",
    "lessonId": "q3-08-circles-lines",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A line is tangent to a circle with center $O$ at point $T$, and $P$ is a point on the line with $PT=24$ and $OT=7$. What is the length of $OP$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 25
-   },
    "explanation": "$OT\\perp PT$, so $OP^2=7^2+24^2=625$ and $OP=25$.",
    "estSeconds": 60,
    "skills": [
@@ -41,22 +36,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 25
    }
   },
   {
    "id": "q3-08-circles-lines-c2",
    "lessonId": "q3-08-circles-lines",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A right triangle with legs of length 10 and 24 is inscribed in a circle. What is the radius of the circle?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 13
-   },
    "explanation": "The hypotenuse is $\\sqrt{100+576}=26$ and it is a diameter, so the radius is 13.",
    "estSeconds": 75,
    "skills": [
@@ -65,23 +63,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
    }
   },
   {
    "id": "q3-08-circles-lines-c3",
    "lessonId": "q3-08-circles-lines",
-   "type": "QC",
    "difficulty": 3,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "The radius of a circle that is circumscribed about a right triangle with legs 6 and 8",
-    "quantityB": "5"
-   },
-   "answer": {
-    "choice": "C"
-   },
    "explanation": "The hypotenuse is $\\sqrt{36+64}=10$ and it is a diameter, so the radius is 5. Equal.",
    "estSeconds": 75,
    "skills": [
@@ -90,11 +90,20 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The radius of a circle that is circumscribed about a right triangle with legs 6 and 8",
+    "quantityB": "5"
+   },
+   "answer": {
+    "choice": "C"
    }
   }
- ],
- "id": "q3-08-circles-lines",
- "status": "draft"
+ ]
 }

@@ -2,9 +2,29 @@
  {
   "id": "q3-07-circles-basics-01",
   "lessonId": "q3-07-circles-basics",
-  "type": "PS",
   "difficulty": 1,
   "stem": "What is the circumference of a circle with radius 5?",
+  "explanation": "$C=2\\pi r=2\\pi\\cdot5=10\\pi$.",
+  "choiceExplanations": {
+   "A": "That is $\\pi r$; the circumference is $2\\pi r$.",
+   "C": "That uses the diameter 10 in the formula $2\\pi r$.",
+   "D": "That is the area, $\\pi r^2$.",
+   "E": "That is $\\pi d^2$, using the diameter in the area formula."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,37 +54,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "$C=2\\pi r=2\\pi\\cdot5=10\\pi$.",
-  "choiceExplanations": {
-   "A": "That is $\\pi r$; the circumference is $2\\pi r$.",
-   "C": "That uses the diameter 10 in the formula $2\\pi r$.",
-   "D": "That is the area, $\\pi r^2$.",
-   "E": "That is $\\pi d^2$, using the diameter in the area formula."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-07-circles-basics-02",
   "lessonId": "q3-07-circles-basics",
-  "type": "NE",
   "difficulty": 1,
   "stem": "A circle has diameter 10. Its area is $k\\pi$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 25
-  },
   "explanation": "The radius is 5, so $A=\\pi\\cdot5^2=25\\pi$ and $k=25$.",
   "estSeconds": 45,
   "skills": [
@@ -73,22 +69,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 25
   }
  },
  {
   "id": "q3-07-circles-basics-03",
   "lessonId": "q3-07-circles-basics",
-  "type": "NE",
   "difficulty": 2,
   "stem": "A circle has area $64\\pi$. Its circumference is $k\\pi$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 16
-  },
   "explanation": "$\\pi r^2=64\\pi$ gives $r=8$, so $C=2\\pi\\cdot8=16\\pi$ and $k=16$.",
   "estSeconds": 60,
   "skills": [
@@ -97,16 +96,54 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
   }
  },
  {
   "id": "q3-07-circles-basics-04",
   "lessonId": "q3-07-circles-basics",
-  "type": "PS",
   "difficulty": 2,
   "stem": "In the circle with center $O$ shown, the radius is 6 and angle $AOB$ is $60^\\circ$. What is the area of the shaded sector?",
+  "explanation": "The sector is $\\dfrac{60}{360}=\\dfrac16$ of the circle: $\\dfrac16\\cdot\\pi\\cdot6^2=6\\pi$.",
+  "choiceExplanations": {
+   "A": "That is the length of arc $AB$, not the area.",
+   "C": "That is the circumference of the whole circle.",
+   "D": "That uses the diameter 12 as the radius: $\\tfrac16\\cdot\\pi\\cdot12^2$.",
+   "E": "That is the area of the whole circle."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 200 170\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100,90 L 160,90 A 60,60 0 0 0 130,38 Z\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"160\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"130\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"90\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"88\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"172\" y=\"94\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"136\" y=\"32\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"134\" y=\"106\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"126\" y=\"75\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">60°</text></svg>",
+    "alt": "A circle with center O and two radii OA and OB. Radius OA is 6 units long and the angle AOB is 60 degrees. The sector between the two radii is lightly shaded."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -136,13 +173,74 @@
    "choices": [
     "B"
    ]
+  }
+ },
+ {
+  "id": "q3-07-circles-basics-05",
+  "lessonId": "q3-07-circles-basics",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: $\\pi\\cdot5^2=25\\pi$. B: $9\\pi+16\\pi=25\\pi$. Equal. (Areas depend on $r^2$, and $3^2+4^2=5^2$.)",
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
   },
-  "explanation": "The sector is $\\dfrac{60}{360}=\\dfrac16$ of the circle: $\\dfrac16\\cdot\\pi\\cdot6^2=6\\pi$.",
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of a circle with radius 5",
+   "quantityB": "The sum of the areas of a circle with radius 3 and a circle with radius 4"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-07-circles-basics-06",
+  "lessonId": "q3-07-circles-basics",
+  "difficulty": 3,
+  "stem": "A circle has radius 9. The length of an arc of the circle with central angle $120^\\circ$ is $k\\pi$. What is the value of $k$?",
+  "explanation": "The arc is $\\dfrac{120}{360}=\\dfrac13$ of the circumference $18\\pi$, so its length is $6\\pi$.",
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q3-07-circles-basics-07",
+  "lessonId": "q3-07-circles-basics",
+  "difficulty": 3,
+  "stem": "The figure shows two concentric circles with radii 4 and 7. What is the area of the region between the circles?",
+  "explanation": "Area of the ring $=$ big circle $-$ small circle $=\\pi\\cdot7^2-\\pi\\cdot4^2=49\\pi-16\\pi=33\\pi$.",
   "choiceExplanations": {
-   "A": "That is the length of arc $AB$, not the area.",
-   "C": "That is the circumference of the whole circle.",
-   "D": "That uses the diameter 12 as the radius: $\\tfrac16\\cdot\\pi\\cdot12^2$.",
-   "E": "That is the area of the whole circle."
+   "A": "That is $\\pi$ times the difference of the radii.",
+   "B": "That is $\\pi(7-4)^2$; the radii must be squared before subtracting.",
+   "D": "That is the area of the large circle only.",
+   "E": "That adds the areas instead of subtracting."
   },
   "estSeconds": 75,
   "skills": [
@@ -152,72 +250,20 @@
   "figure": {
    "kind": "svg",
    "data": {
-    "svg": "<svg viewBox=\"0 0 200 170\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100,90 L 160,90 A 60,60 0 0 0 130,38 Z\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"160\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"130\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"90\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"88\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"172\" y=\"94\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"136\" y=\"32\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"134\" y=\"106\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text><text x=\"126\" y=\"75\" text-anchor=\"middle\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">60°</text></svg>",
-    "alt": "A circle with center O and two radii OA and OB. Radius OA is 6 units long and the angle AOB is 60 degrees. The sector between the two radii is lightly shaded."
+    "svg": "<svg viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"98\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"56\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"110\" x2=\"61.5\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"194.9\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"84\" y=\"109\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"177.5\" y=\"65\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"102\" y=\"126\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+    "alt": "Two concentric circles with common center O. A radius of the inner circle is labeled 4 and a radius of the outer circle is labeled 7."
    },
    "notes": "Note: Figure not drawn to scale."
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q3-07-circles-basics-05",
-  "lessonId": "q3-07-circles-basics",
-  "type": "QC",
-  "difficulty": 2,
-  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The area of a circle with radius 5",
-   "quantityB": "The sum of the areas of a circle with radius 3 and a circle with radius 4"
   },
-  "answer": {
-   "choice": "C"
-  },
-  "explanation": "A: $\\pi\\cdot5^2=25\\pi$. B: $9\\pi+16\\pi=25\\pi$. Equal. (Areas depend on $r^2$, and $3^2+4^2=5^2$.)",
-  "estSeconds": 75,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
-  }
- },
- {
-  "id": "q3-07-circles-basics-06",
-  "lessonId": "q3-07-circles-basics",
-  "type": "NE",
-  "difficulty": 3,
-  "stem": "A circle has radius 9. The length of an arc of the circle with central angle $120^\\circ$ is $k\\pi$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 6
-  },
-  "explanation": "The arc is $\\dfrac{120}{360}=\\dfrac13$ of the circumference $18\\pi$, so its length is $6\\pi$.",
-  "estSeconds": 75,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
-  }
- },
- {
-  "id": "q3-07-circles-basics-07",
-  "lessonId": "q3-07-circles-basics",
   "type": "PS",
-  "difficulty": 3,
-  "stem": "The figure shows two concentric circles with radii 4 and 7. What is the area of the region between the circles?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -247,39 +293,32 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Area of the ring $=$ big circle $-$ small circle $=\\pi\\cdot7^2-\\pi\\cdot4^2=49\\pi-16\\pi=33\\pi$.",
-  "choiceExplanations": {
-   "A": "That is $\\pi$ times the difference of the radii.",
-   "B": "That is $\\pi(7-4)^2$; the radii must be squared before subtracting.",
-   "D": "That is the area of the large circle only.",
-   "E": "That adds the areas instead of subtracting."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"98\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"56\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"110\" x2=\"61.5\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"194.9\" y2=\"61\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"84\" y=\"109\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"177.5\" y=\"65\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"102\" y=\"126\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
-    "alt": "Two concentric circles with common center O. A radius of the inner circle is labeled 4 and a radius of the outer circle is labeled 7."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-07-circles-basics-08",
   "lessonId": "q3-07-circles-basics",
-  "type": "PS",
   "difficulty": 3,
   "stem": "A circle has radius 8 and center $O$. Points $P$ and $Q$ are on the circle and angle $POQ$ is $90^\\circ$. Which of the following are true? Indicate all such statements.",
+  "explanation": "The circumference is $16\\pi$ and the area is $64\\pi$. The shorter arc is $\\tfrac14$ of each: length $4\\pi$, sector area $16\\pi$, measure $90^\\circ$. The longer arc is $270^\\circ$ and $12\\pi$ long.",
+  "choiceExplanations": {
+   "B": "The two arcs add to $360^\\circ$, so the longer arc is $270^\\circ$.",
+   "E": "The longer arc is $\\tfrac34$ of the circumference $16\\pi$, i.e. $12\\pi$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -311,35 +350,13 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "The circumference is $16\\pi$ and the area is $64\\pi$. The shorter arc is $\\tfrac14$ of each: length $4\\pi$, sector area $16\\pi$, measure $90^\\circ$. The longer arc is $270^\\circ$ and $12\\pi$ long.",
-  "choiceExplanations": {
-   "B": "The two arcs add to $360^\\circ$, so the longer arc is $270^\\circ$.",
-   "E": "The longer arc is $\\tfrac34$ of the circumference $16\\pi$, i.e. $12\\pi$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-07-circles-basics-09",
   "lessonId": "q3-07-circles-basics",
-  "type": "NE",
   "difficulty": 4,
   "stem": "A sector of a circle has central angle $150^\\circ$ and its arc has length $5\\pi$. The area of the sector is $k\\pi$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 15
-  },
   "explanation": "The arc is $\\tfrac{150}{360}=\\tfrac5{12}$ of the circumference: $\\tfrac5{12}\\cdot2\\pi r=5\\pi$, so $r=6$. The sector area is $\\tfrac5{12}\\cdot\\pi\\cdot36=15\\pi$.",
   "estSeconds": 120,
   "skills": [
@@ -348,16 +365,54 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
   }
  },
  {
   "id": "q3-07-circles-basics-10",
   "lessonId": "q3-07-circles-basics",
-  "type": "PS",
   "difficulty": 4,
   "stem": "The figure shows a rectangle 10 units long and 6 units tall with a semicircle attached to one of its 6-unit sides. What is the perimeter of the whole shape (its outer boundary)?",
+  "explanation": "The boundary is two 10-unit sides, the 6-unit left side, and the semicircular arc of diameter 6, whose length is $\\tfrac12\\cdot6\\pi=3\\pi$. Total $10+10+6+3\\pi=26+3\\pi$.",
+  "choiceExplanations": {
+   "A": "That leaves out the straight 6-unit side on the left.",
+   "C": "That includes the 6-unit side where the semicircle is attached, which is not on the outer boundary.",
+   "D": "That uses the full circumference $6\\pi$ instead of half.",
+   "E": "That makes both errors."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 120\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30,20 H 170 A 42,42 0 0 1 170,104 H 30 Z\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"14\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"22\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "A shape made of a rectangle with a semicircle attached to its right side. The rectangle is 10 units long and 6 units tall, and the semicircle has the right side of the rectangle as its diameter."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -387,47 +442,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "The boundary is two 10-unit sides, the 6-unit left side, and the semicircular arc of diameter 6, whose length is $\\tfrac12\\cdot6\\pi=3\\pi$. Total $10+10+6+3\\pi=26+3\\pi$.",
-  "choiceExplanations": {
-   "A": "That leaves out the straight 6-unit side on the left.",
-   "C": "That includes the 6-unit side where the semicircle is attached, which is not on the outer boundary.",
-   "D": "That uses the full circumference $6\\pi$ instead of half.",
-   "E": "That makes both errors."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "circles",
-   "arcs-sectors"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 240 120\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30,20 H 170 A 42,42 0 0 1 170,104 H 30 Z\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"14\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"22\" y=\"66\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
-    "alt": "A shape made of a rectangle with a semicircle attached to its right side. The rectangle is 10 units long and 6 units tall, and the semicircle has the right side of the rectangle as its diameter."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-07-circles-basics-11",
   "lessonId": "q3-07-circles-basics",
-  "type": "QC",
   "difficulty": 5,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The length of an arc of a circle with central angle $60^\\circ$",
-   "quantityB": "The radius of the circle",
-   "common": "A circle has radius $r$, where $r>0$."
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "The arc is $\\tfrac16$ of the circumference: $\\tfrac16\\cdot2\\pi r=\\tfrac{\\pi}{3}r\\approx1.05r$. Since $r>0$, the arc is slightly longer than the radius.",
   "estSeconds": 90,
   "skills": [
@@ -436,22 +457,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The length of an arc of a circle with central angle $60^\\circ$",
+   "quantityB": "The radius of the circle",
+   "common": "A circle has radius $r$, where $r>0$."
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q3-07-circles-basics-12",
   "lessonId": "q3-07-circles-basics",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A sector of a circle of radius 10 has central angle $144^\\circ$. A second circle has a circumference equal to the arc length of that sector. The area of the second circle is $k\\pi$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 16
-  },
   "explanation": "The arc is $\\tfrac{144}{360}=\\tfrac25$ of the circumference $20\\pi$, i.e. $8\\pi$. The second circle has $2\\pi r=8\\pi$, so $r=4$ and its area is $16\\pi$.",
   "estSeconds": 130,
   "skills": [
@@ -460,8 +486,18 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
   }
  }
 ]

@@ -2,9 +2,29 @@
  {
   "id": "q3-04-special-triangles-01",
   "lessonId": "q3-04-special-triangles",
-  "type": "PS",
   "difficulty": 1,
   "stem": "A right triangle has two equal angles and legs of length 7. What is the length of its hypotenuse?",
+  "explanation": "Two equal angles in a right triangle are $45^\\circ$ each, so the sides are in the ratio $1:1:\\sqrt2$. The hypotenuse is $7\\sqrt2$.",
+  "choiceExplanations": {
+   "A": "The hypotenuse is the longest side, so it exceeds 7.",
+   "C": "$\\sqrt3$ is used for the 30°-60°-90° triangle, not the isosceles right triangle.",
+   "D": "That is the hypotenuse of a 30°-60°-90° triangle with short leg 7, or the sum of the legs.",
+   "E": "This doubles the correct value."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,37 +54,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Two equal angles in a right triangle are $45^\\circ$ each, so the sides are in the ratio $1:1:\\sqrt2$. The hypotenuse is $7\\sqrt2$.",
-  "choiceExplanations": {
-   "A": "The hypotenuse is the longest side, so it exceeds 7.",
-   "C": "$\\sqrt3$ is used for the 30°-60°-90° triangle, not the isosceles right triangle.",
-   "D": "That is the hypotenuse of a 30°-60°-90° triangle with short leg 7, or the sum of the legs.",
-   "E": "This doubles the correct value."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-04-special-triangles-02",
   "lessonId": "q3-04-special-triangles",
-  "type": "NE",
   "difficulty": 1,
   "stem": "A triangle has a base of length 9 and a corresponding height of 8. What is its area?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 36
-  },
   "explanation": "$A=\\dfrac{9\\cdot8}{2}=36$.",
   "estSeconds": 45,
   "skills": [
@@ -73,16 +69,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
   }
  },
  {
   "id": "q3-04-special-triangles-03",
   "lessonId": "q3-04-special-triangles",
-  "type": "PS",
   "difficulty": 2,
   "stem": "The hypotenuse of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has length 12. What is the length of its longer leg?",
+  "explanation": "The hypotenuse is $2x=12$, so the short leg is $x=6$ and the long leg is $x\\sqrt3=6\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "That is the shorter leg, half the hypotenuse.",
+   "B": "$\\sqrt2$ belongs to the 45°-45°-90° triangle.",
+   "D": "That is the hypotenuse itself.",
+   "E": "That would be the longer leg if the *shorter* leg were 12."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -112,38 +138,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The hypotenuse is $2x=12$, so the short leg is $x=6$ and the long leg is $x\\sqrt3=6\\sqrt3$.",
-  "choiceExplanations": {
-   "A": "That is the shorter leg, half the hypotenuse.",
-   "B": "$\\sqrt2$ belongs to the 45°-45°-90° triangle.",
-   "D": "That is the hypotenuse itself.",
-   "E": "That would be the longer leg if the *shorter* leg were 12."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-04-special-triangles-04",
   "lessonId": "q3-04-special-triangles",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The area of a triangle with base 12 and height 5",
-   "quantityB": "The area of a right triangle with legs of length 6 and 10"
-  },
-  "answer": {
-   "choice": "C"
-  },
   "explanation": "A: $\\tfrac12(12)(5)=30$. B: legs are perpendicular, so one is the base and the other the height: $\\tfrac12(6)(10)=30$. Equal.",
   "estSeconds": 75,
   "skills": [
@@ -152,22 +153,26 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of a triangle with base 12 and height 5",
+   "quantityB": "The area of a right triangle with legs of length 6 and 10"
+  },
+  "answer": {
+   "choice": "C"
   }
  },
  {
   "id": "q3-04-special-triangles-05",
   "lessonId": "q3-04-special-triangles",
-  "type": "NE",
   "difficulty": 2,
   "stem": "In triangle $ABC$ shown, $BC=10$ and the dashed segment from $A$ perpendicular to line $BC$ has length 6. What is the area of triangle $ABC$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 30
-  },
   "explanation": "The base is $BC=10$ and the corresponding height is the perpendicular 6, even though it falls outside the triangle. $A=\\tfrac12(10)(6)=30$.",
   "estSeconds": 75,
   "skills": [
@@ -184,16 +189,46 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 30
   }
  },
  {
   "id": "q3-04-special-triangles-06",
   "lessonId": "q3-04-special-triangles",
-  "type": "PS",
   "difficulty": 3,
   "stem": "An isosceles right triangle has hypotenuse 10. What is its area?",
+  "explanation": "Each leg is $\\dfrac{10}{\\sqrt2}=5\\sqrt2$. The area is $\\tfrac12(5\\sqrt2)^2=\\tfrac12\\cdot50=25$.",
+  "choiceExplanations": {
+   "A": "That is the length of each leg, not the area.",
+   "C": "That uses the hypotenuse as the base and a leg as the height, but they are not perpendicular.",
+   "D": "That is $(5\\sqrt2)^2$; the area is half of it.",
+   "E": "That is the hypotenuse squared, not the area."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -223,37 +258,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Each leg is $\\dfrac{10}{\\sqrt2}=5\\sqrt2$. The area is $\\tfrac12(5\\sqrt2)^2=\\tfrac12\\cdot50=25$.",
-  "choiceExplanations": {
-   "A": "That is the length of each leg, not the area.",
-   "C": "That uses the hypotenuse as the base and a leg as the height, but they are not perpendicular.",
-   "D": "That is $(5\\sqrt2)^2$; the area is half of it.",
-   "E": "That is the hypotenuse squared, not the area."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-04-special-triangles-07",
   "lessonId": "q3-04-special-triangles",
-  "type": "NE",
   "difficulty": 3,
   "stem": "The area of an equilateral triangle with side length 10 can be written as $k\\sqrt3$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 25
-  },
   "explanation": "The height divides it into two $30^\\circ$-$60^\\circ$-$90^\\circ$ triangles with hypotenuse 10: short leg 5, height $5\\sqrt3$. Area $=\\tfrac12(10)(5\\sqrt3)=25\\sqrt3$, so $k=25$.",
   "estSeconds": 90,
   "skills": [
@@ -262,23 +273,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 25
   }
  },
  {
   "id": "q3-04-special-triangles-08",
   "lessonId": "q3-04-special-triangles",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The height of an equilateral triangle with side length 6",
-   "quantityB": "5"
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "The height is the longer leg of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with hypotenuse 6: short leg 3, height $3\\sqrt3\\approx5.2$. Since $5.2>5$, A is greater.",
   "estSeconds": 90,
   "skills": [
@@ -287,16 +300,55 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The height of an equilateral triangle with side length 6",
+   "quantityB": "5"
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q3-04-special-triangles-09",
   "lessonId": "q3-04-special-triangles",
-  "type": "PS",
   "difficulty": 4,
   "stem": "In the right triangle shown, the side opposite the $60^\\circ$ angle has length $6\\sqrt3$. What is the area of the triangle?",
+  "explanation": "The side opposite $60^\\circ$ is $x\\sqrt3=6\\sqrt3$, so the side opposite $30^\\circ$ is $x=6$. These are the two legs: $A=\\tfrac12\\cdot6\\cdot6\\sqrt3=18\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "This treats the triangle as having legs 6 and 6; the legs are 6 and $6\\sqrt3$.",
+   "C": "That is $6\\cdot6$: the shorter leg times itself, ignoring both $\\sqrt3$ and the factor $\\tfrac12$.",
+   "D": "This is $\\tfrac12(6\\sqrt3)^2$, treating the triangle as isosceles right.",
+   "E": "That forgets the factor $\\tfrac12$ in the area formula."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,135 225,19.5 225,135\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"216,135 216,126 225,126\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"19\" y=\"139\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"233\" y=\"23.5\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"233\" y=\"149\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"55\" y=\"131\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"219\" y=\"49.5\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">60°</text><text x=\"125\" y=\"151\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6√3</text></svg>",
+    "alt": "Right triangle ABC with the right angle at C at the bottom right. Angle A is 30 degrees, angle B (at the top right) is 60 degrees, and the horizontal side AC, opposite the 60 degree angle, is labeled 6 times the square root of 3."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -326,39 +378,28 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "The side opposite $60^\\circ$ is $x\\sqrt3=6\\sqrt3$, so the side opposite $30^\\circ$ is $x=6$. These are the two legs: $A=\\tfrac12\\cdot6\\cdot6\\sqrt3=18\\sqrt3$.",
-  "choiceExplanations": {
-   "A": "This treats the triangle as having legs 6 and 6; the legs are 6 and $6\\sqrt3$.",
-   "C": "That is $6\\cdot6$: the shorter leg times itself, ignoring both $\\sqrt3$ and the factor $\\tfrac12$.",
-   "D": "This is $\\tfrac12(6\\sqrt3)^2$, treating the triangle as isosceles right.",
-   "E": "That forgets the factor $\\tfrac12$ in the area formula."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,135 225,19.5 225,135\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"216,135 216,126 225,126\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"19\" y=\"139\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"233\" y=\"23.5\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"233\" y=\"149\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"55\" y=\"131\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"219\" y=\"49.5\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">60°</text><text x=\"125\" y=\"151\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6√3</text></svg>",
-    "alt": "Right triangle ABC with the right angle at C at the bottom right. Angle A is 30 degrees, angle B (at the top right) is 60 degrees, and the horizontal side AC, opposite the 60 degree angle, is labeled 6 times the square root of 3."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-04-special-triangles-10",
   "lessonId": "q3-04-special-triangles",
-  "type": "NE",
   "difficulty": 4,
   "stem": "A right triangle has legs of length 5 and 12. What is the length of the altitude drawn to the hypotenuse? Enter your answer as a fraction.",
+  "explanation": "The hypotenuse is $\\sqrt{25+144}=13$. The area is $\\tfrac12(5)(12)=30$. Using the hypotenuse as the base, $\\tfrac12(13)h=30$, so $h=\\dfrac{60}{13}$.",
+  "estSeconds": 120,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -368,31 +409,13 @@
     "numerator": 60,
     "denominator": 13
    }
-  },
-  "explanation": "The hypotenuse is $\\sqrt{25+144}=13$. The area is $\\tfrac12(5)(12)=30$. Using the hypotenuse as the base, $\\tfrac12(13)h=30$, so $h=\\dfrac{60}{13}$.",
-  "estSeconds": 120,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-04-special-triangles-11",
   "lessonId": "q3-04-special-triangles",
-  "type": "NE",
   "difficulty": 5,
   "stem": "The area of an equilateral triangle is $36\\sqrt3$. What is the perimeter of the triangle?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 36
-  },
   "explanation": "With side $s$, the height is $\\tfrac{\\sqrt3}{2}s$ (long leg of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle) and the area is $\\tfrac12 s\\cdot\\tfrac{\\sqrt3}{2}s=\\tfrac{\\sqrt3}{4}s^2$. So $\\tfrac{\\sqrt3}{4}s^2=36\\sqrt3$, $s^2=144$, $s=12$, perimeter $36$.",
   "estSeconds": 130,
   "skills": [
@@ -401,16 +424,54 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
   }
  },
  {
   "id": "q3-04-special-triangles-12",
   "lessonId": "q3-04-special-triangles",
-  "type": "PS",
   "difficulty": 5,
   "stem": "In right triangle $ABC$ shown, the right angle is at $C$, $AB=8$ and angle $A$ is $30^\\circ$. Segment $CD$ is perpendicular to $AB$. What is the length of $CD$?",
+  "explanation": "$BC=4$ (opposite $30^\\circ$, half the hypotenuse) and $AC=4\\sqrt3$. The area is $\\tfrac12(4)(4\\sqrt3)=8\\sqrt3$. Using $AB$ as the base: $\\tfrac12(8)(CD)=8\\sqrt3$, so $CD=2\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "That is half of $BC=4$; nothing makes $CD$ equal to 2.",
+   "C": "That is $BC$, the side opposite $30^\\circ$, not the altitude.",
+   "D": "That is $AC$, the other leg.",
+   "E": "That is the hypotenuse."
+  },
+  "estSeconds": 140,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 250 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,140 228,140 176,49.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"176\" y1=\"49.9\" x2=\"176\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"168.2,54.4 172.7,62.2 180.5,57.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"176,132 184,132 184,140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"12\" y=\"144\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"236\" y=\"144\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"176\" y=\"43.9\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"176\" y=\"155\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"54\" y=\"136\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"104\" y=\"156\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">AB = 8</text></svg>",
+    "alt": "Right triangle ABC with the right angle at C, the top vertex. Side AB, the hypotenuse, is horizontal along the bottom with length 8, and the angle at A is 30 degrees. A dashed segment CD is drawn from C perpendicular to AB, meeting AB at D."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -440,31 +501,6 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "$BC=4$ (opposite $30^\\circ$, half the hypotenuse) and $AC=4\\sqrt3$. The area is $\\tfrac12(4)(4\\sqrt3)=8\\sqrt3$. Using $AB$ as the base: $\\tfrac12(8)(CD)=8\\sqrt3$, so $CD=2\\sqrt3$.",
-  "choiceExplanations": {
-   "A": "That is half of $BC=4$; nothing makes $CD$ equal to 2.",
-   "C": "That is $BC$, the side opposite $30^\\circ$, not the altitude.",
-   "D": "That is $AC$, the other leg.",
-   "E": "That is the hypotenuse."
-  },
-  "estSeconds": 140,
-  "skills": [
-   "special-triangles",
-   "triangle-area"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 250 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"20,140 228,140 176,49.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"176\" y1=\"49.9\" x2=\"176\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"168.2,54.4 172.7,62.2 180.5,57.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"176,132 184,132 184,140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"12\" y=\"144\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"236\" y=\"144\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"176\" y=\"43.9\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"176\" y=\"155\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"54\" y=\"136\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">30°</text><text x=\"104\" y=\"156\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">AB = 8</text></svg>",
-    "alt": "Right triangle ABC with the right angle at C, the top vertex. Side AB, the hypotenuse, is horizontal along the bottom with length 8, and the angle at A is 30 degrees. A dashed segment CD is drawn from C perpendicular to AB, meeting AB at D."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

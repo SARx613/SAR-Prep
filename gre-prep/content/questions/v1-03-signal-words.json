@@ -2,9 +2,28 @@
  {
   "id": "v1-03-signal-words-01",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 1,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast word:** *Although* means the taste opposes the appetizing look. Predict *disappointing*: *bland*.",
+  "choiceExplanations": {
+   "C": "Agrees with *appetizing*; *although* needs a contrast.",
+   "E": "A pleasant quality, so there is no contrast.",
+   "A": "A pleasant taste, so there is no contrast.",
+   "D": "Neutral and not a contrast to appetizing."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Although the soup looked appetizing, it tasted {{1}}.",
    "blanks": [
@@ -39,13 +58,19 @@
    "blanks": [
     "B"
    ]
-  },
-  "explanation": "**Contrast word:** *Although* means the taste opposes the appetizing look. Predict *disappointing*: *bland*.",
+  }
+ },
+ {
+  "id": "v1-03-signal-words-02",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Support word:** *moreover* adds a further point in the same direction (attractive and good). Lasting decades is *durable*.",
   "choiceExplanations": {
-   "C": "Agrees with *appetizing*; *although* needs a contrast.",
-   "E": "A pleasant quality, so there is no contrast.",
-   "A": "A pleasant taste, so there is no contrast.",
-   "D": "Neutral and not a contrast to appetizing."
+   "E": "Contradicts \"lasting for decades\".",
+   "A": "Cost is not supported by the clause and would not be a further merit.",
+   "D": "Unrelated to lasting.",
+   "C": "The opposite of lasting for decades."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-03-signal-words-02",
-  "lessonId": "v1-03-signal-words",
+  },
   "type": "TC",
-  "difficulty": 1,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "The new bridge is attractive and, moreover, remarkably {{1}}, lasting for decades without repair.",
    "blanks": [
@@ -97,30 +119,33 @@
    "blanks": [
     "B"
    ]
-  },
-  "explanation": "**Support word:** *moreover* adds a further point in the same direction (attractive and good). Lasting decades is *durable*.",
-  "choiceExplanations": {
-   "E": "Contradicts \"lasting for decades\".",
-   "A": "Cost is not supported by the clause and would not be a further merit.",
-   "D": "Unrelated to lasting.",
-   "C": "The opposite of lasting for decades."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-03",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 2,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Negation:** *by no means* X means she was not X. Conceding point after point is flexible, so the denied trait is stubbornness: *intransigent*. (*Accommodating* and *yielding* would make the sentence contradict itself.)",
+  "choiceExplanations": {
+   "E": "She *was* accommodating; *by no means* would deny it.",
+   "C": "She was yielding; the negation would contradict the clause.",
+   "B": "Hesitation is not the issue and is not denied by conceding.",
+   "A": "Not what conceding contradicts."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The negotiator was by no means {{1}}; she conceded point after point until almost nothing of her original position remained.",
    "blanks": [
@@ -155,13 +180,19 @@
    "blanks": [
     "D"
    ]
-  },
-  "explanation": "**Negation:** *by no means* X means she was not X. Conceding point after point is flexible, so the denied trait is stubbornness: *intransigent*. (*Accommodating* and *yielding* would make the sentence contradict itself.)",
+  }
+ },
+ {
+  "id": "v1-03-signal-words-04",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Cause word:** *Since* ... *no new evidence*: the reason not to change their mind. They saw no reason to *overturn* it. *Uphold* would say they saw no reason to keep it, contradicting the logic.",
   "choiceExplanations": {
-   "E": "She *was* accommodating; *by no means* would deny it.",
-   "C": "She was yielding; the negation would contradict the clause.",
-   "B": "Hesitation is not the issue and is not denied by conceding.",
-   "A": "Not what conceding contradicts."
+   "C": "No new evidence is a reason to keep the ruling, so *no reason to uphold* is illogical.",
+   "A": "Evidence is not related to publicity.",
+   "E": "Not a response to the lack of evidence.",
+   "B": "Not a response to the lack of evidence."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-03-signal-words-04",
-  "lessonId": "v1-03-signal-words",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "Since the committee had received no new evidence, its members saw no reason to {{1}} their earlier ruling.",
    "blanks": [
@@ -213,30 +241,33 @@
    "blanks": [
     "D"
    ]
-  },
-  "explanation": "**Cause word:** *Since* ... *no new evidence*: the reason not to change their mind. They saw no reason to *overturn* it. *Uphold* would say they saw no reason to keep it, contradicting the logic.",
-  "choiceExplanations": {
-   "C": "No new evidence is a reason to keep the ruling, so *no reason to uphold* is illogical.",
-   "A": "Evidence is not related to publicity.",
-   "E": "Not a response to the lack of evidence.",
-   "B": "Not a response to the lack of evidence."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-05",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 3,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Negation:** *Far from being X* means the opposite of X is true. She welcomed criticism, so X is *hostile*. The other choices describe welcoming criticism and would contradict the idea.",
+  "choiceExplanations": {
+   "B": "She was receptive; *far from* would deny it.",
+   "D": "Being attuned to criticism is compatible with welcoming it.",
+   "E": "Fond of criticism fits her behavior, so *far from* fails.",
+   "C": "Fits the behavior described, so *far from* fails."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Far from being {{1}} to criticism, the director welcomed it, circulating early cuts of the film to anyone willing to find fault.",
    "blanks": [
@@ -271,13 +302,19 @@
    "blanks": [
     "A"
    ]
-  },
-  "explanation": "**Negation:** *Far from being X* means the opposite of X is true. She welcomed criticism, so X is *hostile*. The other choices describe welcoming criticism and would contradict the idea.",
+  }
+ },
+ {
+  "id": "v1-03-signal-words-06",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** *Although* contrasts the huge total with the small number of stars. Thousands of objects: *vast*. A dozen paintings draw most visitors: the celebrated holdings are *few*.",
   "choiceExplanations": {
-   "B": "She was receptive; *far from* would deny it.",
-   "D": "Being attuned to criticism is compatible with welcoming it.",
-   "E": "Fond of criticism fits her behavior, so *far from* fails.",
-   "C": "Fits the behavior described, so *far from* fails."
+   "1C": "Thousands of objects is not meager.",
+   "1A": "Nothing is said about organization.",
+   "2B": "Only a dozen paintings is not numerous.",
+   "2A": "Celebrated holdings are not obscure."
   },
   "estSeconds": 75,
   "skills": [
@@ -285,16 +322,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-03-signal-words-06",
-  "lessonId": "v1-03-signal-words",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "Although the museum's collection is {{1}}, comprising thousands of objects, its most celebrated holdings are {{2}}: only a dozen paintings draw most of the visitors.",
    "blanks": [
@@ -339,30 +373,33 @@
     "1B",
     "2C"
    ]
-  },
-  "explanation": "**Structure:** *Although* contrasts the huge total with the small number of stars. Thousands of objects: *vast*. A dozen paintings draw most visitors: the celebrated holdings are *few*.",
-  "choiceExplanations": {
-   "1C": "Thousands of objects is not meager.",
-   "1A": "Nothing is said about organization.",
-   "2B": "Only a dozen paintings is not numerous.",
-   "2A": "Celebrated holdings are not obscure."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-07",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Concession:** *Admittedly* grants a point; *but* answers it. The sponsors concede *shortcomings* and downplay them as *minor* next to the harm of inaction.",
+  "choiceExplanations": {
+   "1A": "A precedent is not something to concede with a *but*.",
+   "1B": "Having supporters is not something to concede and then argue against.",
+   "2A": "Would strengthen the objections, the opposite of the sponsors' reply.",
+   "2C": "Would make the flaws worse than inaction, contradicting the argument."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Admittedly, the proposal has {{1}}, but its sponsors argue that these are {{2}} compared with the harm of doing nothing.",
    "blanks": [
@@ -407,30 +444,33 @@
     "1C",
     "2B"
    ]
-  },
-  "explanation": "**Concession:** *Admittedly* grants a point; *but* answers it. The sponsors concede *shortcomings* and downplay them as *minor* next to the harm of inaction.",
-  "choiceExplanations": {
-   "1A": "A precedent is not something to concede with a *but*.",
-   "1B": "Having supporters is not something to concede and then argue against.",
-   "2A": "Would strengthen the objections, the opposite of the sponsors' reply.",
-   "2C": "Would make the flaws worse than inaction, contradicting the argument."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-08",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast word:** *rather than open* means indirect, so blank 1 is *oblique*. The colon explains: she keeps the trappings while *stripping* them of certainties (and *of* fits grammatically).",
+  "choiceExplanations": {
+   "1B": "A direct attack is open, so *rather than open* would be contradicted.",
+   "1A": "Showy attacks are open, not hidden.",
+   "2A": "Does not take certainties away, and *of* does not fit.",
+   "2B": "Restoring certainties is the opposite of emptying them."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The author's attack on the conventions of the detective story is {{1}} rather than open: she keeps the genre's trappings while {{2}} them of their old certainties.",
    "blanks": [
@@ -475,30 +515,33 @@
     "1C",
     "2C"
    ]
-  },
-  "explanation": "**Contrast word:** *rather than open* means indirect, so blank 1 is *oblique*. The colon explains: she keeps the trappings while *stripping* them of certainties (and *of* fits grammatically).",
-  "choiceExplanations": {
-   "1B": "A direct attack is open, so *rather than open* would be contradicted.",
-   "1A": "Showy attacks are open, not hidden.",
-   "2A": "Does not take certainties away, and *of* does not fit.",
-   "2B": "Restoring certainties is the opposite of emptying them."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-09",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Colon definition:** *asserts nothing that could be tested ... neither confirmed nor refuted* defines *unfalsifiable*. The appositive is something admirers wrongly treat as a strength: a *defect*.",
+  "choiceExplanations": {
+   "1B": "Means subject to revision, not untestable.",
+   "1C": "Describes disputed claims, not untestable ones.",
+   "2C": "A virtue; it would not be a mistake to admire it.",
+   "2B": "Also a virtue, so the sentence would not speak of a mistake."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The historian's thesis is {{1}}: it asserts nothing that could be tested, and so can be neither confirmed nor refuted, a {{2}} that its admirers mistake for profundity.",
    "blanks": [
@@ -543,30 +586,35 @@
     "1A",
     "2A"
    ]
-  },
-  "explanation": "**Colon definition:** *asserts nothing that could be tested ... neither confirmed nor refuted* defines *unfalsifiable*. The appositive is something admirers wrongly treat as a strength: a *defect*.",
-  "choiceExplanations": {
-   "1B": "Means subject to revision, not untestable.",
-   "1C": "Describes disputed claims, not untestable ones.",
-   "2C": "A virtue; it would not be a mistake to admire it.",
-   "2B": "Also a virtue, so the sentence would not speak of a mistake."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-10",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Cause chain:** few ties with the mainland shows the island is *remote*; isolation preserves old speech: *archaic*. *Though* then contrasts with the ferry's effect: it has *eroded*.",
+  "choiceExplanations": {
+   "1C": "Easy access would lead to many ties.",
+   "1B": "Population does not explain few ties.",
+   "2A": "Isolated speech does not follow fashion.",
+   "2C": "Means short-lived, contradicting \"for centuries\".",
+   "3B": "Does not contrast with remaining unchanged for centuries.",
+   "3C": "Would repeat the stability, but *though* needs a change."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Because the island is so {{1}}, its inhabitants formed few ties with the mainland, and their dialect remained {{2}} for centuries, though it has {{3}} rapidly since the ferry opened.",
    "blanks": [
@@ -629,32 +677,35 @@
     "2B",
     "3A"
    ]
-  },
-  "explanation": "**Cause chain:** few ties with the mainland shows the island is *remote*; isolation preserves old speech: *archaic*. *Though* then contrasts with the ferry's effect: it has *eroded*.",
-  "choiceExplanations": {
-   "1C": "Easy access would lead to many ties.",
-   "1B": "Population does not explain few ties.",
-   "2A": "Isolated speech does not follow fashion.",
-   "2C": "Means short-lived, contradicting \"for centuries\".",
-   "3B": "Does not contrast with remaining unchanged for centuries.",
-   "3C": "Would repeat the stability, but *though* needs a change."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-11",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast + result:** *While* sets the two halves against each other, and \"with evident regret\" signals a letdown. First half praised: *effusive*; second half *lackluster*; promise *squandered*.",
+  "choiceExplanations": {
+   "1A": "Criticism of both halves would erase the *while* contrast and the regret.",
+   "1B": "Means cautious; it does not give a clear contrast.",
+   "2C": "Praise for the second half contradicts the regret.",
+   "2A": "Means wordy; it does not match the disappointment about promise.",
+   "3A": "Contradicts \"regret\".",
+   "3C": "Contradicts \"regret\"."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "While the reviewer was {{1}} about the novel's first half, she found the second half {{2}}, and concluded, with evident regret, that the book had {{3}} its early promise.",
    "blanks": [
@@ -717,32 +768,35 @@
     "2B",
     "3B"
    ]
-  },
-  "explanation": "**Contrast + result:** *While* sets the two halves against each other, and \"with evident regret\" signals a letdown. First half praised: *effusive*; second half *lackluster*; promise *squandered*.",
-  "choiceExplanations": {
-   "1A": "Criticism of both halves would erase the *while* contrast and the regret.",
-   "1B": "Means cautious; it does not give a clear contrast.",
-   "2C": "Praise for the second half contradicts the regret.",
-   "2A": "Means wordy; it does not match the disappointment about promise.",
-   "3A": "Contradicts \"regret\".",
-   "3C": "Contradicts \"regret\"."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-03-signal-words-12",
   "lessonId": "v1-03-signal-words",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signals:** the appositive defines blank 1 (*a curiosity ... no bearing on practice*): *esoteric*. *Yet* and *routine* define blank 2: *commonplace*. Citing it as routine means they dropped their doubts: *disavowing*.",
+  "choiceExplanations": {
+   "1B": "Opposite of a curiosity with no bearing on practice.",
+   "1A": "Danger is not what the appositive describes.",
+   "2C": "Disputed techniques are not cited as routine.",
+   "2A": "Out of date contradicts *routine*.",
+   "3B": "Restating doubts contradicts citing it as routine.",
+   "3C": "Developing doubts contradicts citing it as routine."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Skeptics once dismissed the technique as {{1}}, a curiosity of the laboratory with no bearing on practice; yet within a decade it had become {{2}} in hospitals, and the same skeptics, {{3}} their earlier doubts, now cite it as routine.",
    "blanks": [
@@ -805,24 +859,6 @@
     "2B",
     "3A"
    ]
-  },
-  "explanation": "**Signals:** the appositive defines blank 1 (*a curiosity ... no bearing on practice*): *esoteric*. *Yet* and *routine* define blank 2: *commonplace*. Citing it as routine means they dropped their doubts: *disavowing*.",
-  "choiceExplanations": {
-   "1B": "Opposite of a curiosity with no bearing on practice.",
-   "1A": "Danger is not what the appositive describes.",
-   "2C": "Disputed techniques are not cited as routine.",
-   "2A": "Out of date contradicts *routine*.",
-   "3B": "Restating doubts contradicts citing it as routine.",
-   "3C": "Developing doubts contradicts citing it as routine."
-  },
-  "estSeconds": 135,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

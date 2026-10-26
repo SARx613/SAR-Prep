@@ -28,15 +28,8 @@
   {
    "id": "q2-05-quadratic-factoring-c1",
    "lessonId": "q2-05-quadratic-factoring",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the positive solution of $x^2-3x-10=0$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 5
-   },
    "explanation": "$x^2-3x-10=(x-5)(x+2)$, so $x=5$ or $x=-2$. The positive solution is $5$.",
    "estSeconds": 60,
    "skills": [
@@ -44,16 +37,44 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 5
    }
   },
   {
    "id": "q2-05-quadratic-factoring-c2",
    "lessonId": "q2-05-quadratic-factoring",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following are solutions of $x^2-x-12=0$? Indicate all such numbers.",
+   "explanation": "$x^2-x-12=(x-4)(x+3)$, so $x=4$ or $x=-3$.",
+   "choiceExplanations": {
+    "A": "$(-4)^2-(-4)-12=8\\ne0$.",
+    "C": "$9-3-12=-6\\ne0$.",
+    "E": "$12$ is the constant term, not a solution."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "quadratic-factoring"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_all",
     "choices": [
@@ -84,29 +105,33 @@
      "B",
      "D"
     ]
-   },
-   "explanation": "$x^2-x-12=(x-4)(x+3)$, so $x=4$ or $x=-3$.",
-   "choiceExplanations": {
-    "A": "$(-4)^2-(-4)-12=8\\ne0$.",
-    "C": "$9-3-12=-6\\ne0$.",
-    "E": "$12$ is the constant term, not a solution."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "quadratic-factoring"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-05-quadratic-factoring-c3",
    "lessonId": "q2-05-quadratic-factoring",
-   "type": "PS",
    "difficulty": 2,
    "stem": "What are all the solutions of $x^2=7x$?",
+   "explanation": "Move $7x$ across: $x^2-7x=0$, so $x(x-7)=0$ and $x=0$ or $x=7$.",
+   "choiceExplanations": {
+    "A": "Dividing by $x$ loses the solution $x=0$.",
+    "B": "The factor $x-7$ also gives a solution.",
+    "D": "The second factor is $x-7$, so the solution is $+7$.",
+    "E": "$x=-7$ gives $49\\ne-49$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "quadratic-factoring"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -136,22 +161,6 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Move $7x$ across: $x^2-7x=0$, so $x(x-7)=0$ and $x=0$ or $x=7$.",
-   "choiceExplanations": {
-    "A": "Dividing by $x$ loses the solution $x=0$.",
-    "B": "The factor $x-7$ also gives a solution.",
-    "D": "The second factor is $x-7$, so the solution is $+7$.",
-    "E": "$x=-7$ gives $49\\ne-49$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "quadratic-factoring"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

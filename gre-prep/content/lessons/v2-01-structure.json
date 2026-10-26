@@ -20,9 +20,28 @@
   {
    "id": "v2-01-structure-c1",
    "lessonId": "v2-01-structure",
-   "type": "SE",
    "difficulty": 1,
    "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** \"committing her to nothing\". A speech that avoids taking a position is *noncommittal* or *equivocal*.",
+   "choiceExplanations": {
+    "D": "Means direct and open, the opposite of committing to nothing.",
+    "B": "Means aggressive; that would offend people.",
+    "A": "Means stirring; it would commit the speaker to something.",
+    "E": "Describes style, not the avoidance of commitment."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "SE",
    "content": {
     "text": "The mayor's speech was deliberately {{1}}, committing her to nothing and offending no one.",
     "choices": [
@@ -57,13 +76,19 @@
      "F",
      "C"
     ]
-   },
-   "explanation": "**Clue:** \"committing her to nothing\". A speech that avoids taking a position is *noncommittal* or *equivocal*.",
+   }
+  },
+  {
+   "id": "v2-01-structure-c2",
+   "lessonId": "v2-01-structure",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Signal:** *though ... at first* followed by *confirmed*. The theory began by seeming unlikely: *improbable* and *implausible*.",
    "choiceExplanations": {
-    "D": "Means direct and open, the opposite of committing to nothing.",
-    "B": "Means aggressive; that would offend people.",
-    "A": "Means stirring; it would commit the speaker to something.",
-    "E": "Describes style, not the avoidance of commitment."
+    "C": "A conclusive theory would not need later confirmation.",
+    "F": "Would not contrast with being confirmed later.",
+    "D": "Means clear; clarity is not contrasted with confirmation.",
+    "E": "Means complicated; it does not oppose being confirmed."
    },
    "estSeconds": 60,
    "skills": [
@@ -71,16 +96,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-01-structure-c2",
-   "lessonId": "v2-01-structure",
+   },
    "type": "SE",
-   "difficulty": 2,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
     "text": "The detective's theory, though {{1}} at first, was gradually confirmed by new evidence.",
     "choices": [
@@ -115,13 +137,19 @@
      "A",
      "B"
     ]
-   },
-   "explanation": "**Signal:** *though ... at first* followed by *confirmed*. The theory began by seeming unlikely: *improbable* and *implausible*.",
+   }
+  },
+  {
+   "id": "v2-01-structure-c3",
+   "lessonId": "v2-01-structure",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** \"looking as fresh now as when they were completed\". The buildings last beyond fashion: *transcend* and *outlast*.",
    "choiceExplanations": {
-    "C": "A conclusive theory would not need later confirmation.",
-    "F": "Would not contrast with being confirmed later.",
-    "D": "Means clear; clarity is not contrasted with confirmation.",
-    "E": "Means complicated; it does not oppose being confirmed."
+    "C": "To imitate fashion would tie the buildings to it, so they would date.",
+    "F": "Praising fashion does not make a building timeless.",
+    "B": "Buildings do not resent; and resentment does not explain freshness.",
+    "A": "Accommodating fashion would make them dated, not fresh."
    },
    "estSeconds": 60,
    "skills": [
@@ -129,16 +157,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-01-structure-c3",
-   "lessonId": "v2-01-structure",
+   },
    "type": "SE",
-   "difficulty": 3,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
     "text": "The architect was admired for designing buildings that {{1}} passing fashion, looking as fresh now as when they were completed.",
     "choices": [
@@ -173,22 +198,6 @@
      "D",
      "E"
     ]
-   },
-   "explanation": "**Clue:** \"looking as fresh now as when they were completed\". The buildings last beyond fashion: *transcend* and *outlast*.",
-   "choiceExplanations": {
-    "C": "To imitate fashion would tie the buildings to it, so they would date.",
-    "F": "Praising fashion does not make a building timeless.",
-    "B": "Buildings do not resent; and resentment does not explain freshness.",
-    "A": "Accommodating fashion would make them dated, not fresh."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "sentence-equivalence"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

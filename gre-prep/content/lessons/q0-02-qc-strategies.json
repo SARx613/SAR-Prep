@@ -28,16 +28,8 @@
   {
    "id": "q0-02-qc-strategies-c1",
    "lessonId": "q0-02-qc-strategies",
-   "type": "QC",
    "difficulty": 1,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "$\\frac35$",
-    "quantityB": "0.65"
-   },
-   "answer": {
-    "choice": "B"
-   },
    "explanation": "$\\frac35=0.6<0.65$, so Quantity B is greater.",
    "estSeconds": 45,
    "skills": [
@@ -45,16 +37,46 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\frac35$",
+    "quantityB": "0.65"
+   },
+   "answer": {
+    "choice": "B"
    }
   },
   {
    "id": "q0-02-qc-strategies-c2",
    "lessonId": "q0-02-qc-strategies",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Quantity A is 24 and Quantity B is the value of $18+9$ in a Quantitative Comparison question. Which choice is correct?",
+   "explanation": "$18+9=27>24$. Never pick \"cannot be determined\" when both values can be computed.",
+   "choiceExplanations": {
+    "A": "B is 27, which exceeds 24.",
+    "C": "24 does not equal 27.",
+    "D": "Both values are computable, so this choice is never right.",
+    "E": "One of the four fixed statements always applies."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "qc-strategies"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -84,38 +106,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "$18+9=27>24$. Never pick \"cannot be determined\" when both values can be computed.",
-   "choiceExplanations": {
-    "A": "B is 27, which exceeds 24.",
-    "C": "24 does not equal 27.",
-    "D": "Both values are computable, so this choice is never right.",
-    "E": "One of the four fixed statements always applies."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "qc-strategies"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q0-02-qc-strategies-c3",
    "lessonId": "q0-02-qc-strategies",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "$2x$",
-    "quantityB": "$x+1$",
-    "common": "$x$ is a number."
-   },
-   "answer": {
-    "choice": "D"
-   },
    "explanation": "$x=1$: equal. $x=3$: A is greater. $x=0$: B is greater. Different outcomes: cannot be determined.",
    "estSeconds": 60,
    "skills": [
@@ -123,8 +120,20 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$2x$",
+    "quantityB": "$x+1$",
+    "common": "$x$ is a number."
+   },
+   "answer": {
+    "choice": "D"
    }
   }
  ]

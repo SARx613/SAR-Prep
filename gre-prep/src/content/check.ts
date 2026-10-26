@@ -193,6 +193,7 @@ export function checkContent(c: RawContent): CheckResult {
   }
 
   const seenQ = new Set<string>();
+  const seenBody = new Map<string, string>();
   let questions = 0;
   let questionsPublished = 0;
   const checkSet = (file: string, qs: ContentQuestionInput[]) => {
@@ -203,6 +204,11 @@ export function checkContent(c: RawContent): CheckResult {
       seenQ.add(q.id);
       if (q.passageId && !c.passages.has(q.passageId)) err(file, `${q.id}: passage ${q.passageId} missing`);
       for (const m of checkQuestion(q, c.passages)) err(file, `${q.id}: ${m}`);
+      // The same item twice (even under a different id) wastes a learner's time and inflates counts.
+      const body = JSON.stringify([q.type, q.stem, q.content, q.passageId ?? '']).toLowerCase().replace(/\s+/g, ' ');
+      const twin = seenBody.get(body);
+      if (twin) err(file, `${q.id}: duplicate of ${twin}`);
+      else seenBody.set(body, q.id);
     }
   };
 

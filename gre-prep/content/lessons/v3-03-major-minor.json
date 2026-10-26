@@ -19,10 +19,27 @@
   {
    "id": "v3-03-major-minor-c1",
    "lessonId": "v3-03-major-minor",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author report as a claim made by others?",
+   "explanation": "'Some historians claim' attributes A to others. B is evidence the author cites, and C is the author's own hedged view.",
+   "choiceExplanations": {
+    "B": "The author states this as a fact, drawn from the harbor records.",
+    "C": "This is the author's own tentative view ('in my view')."
+   },
+   "estSeconds": 90,
+   "skills": [
+    "rc-reported-vs-advanced"
+   ],
    "passageId": "v3-c-03",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_all",
     "choices": [
@@ -44,44 +61,33 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "'Some historians claim' attributes A to others. B is evidence the author cites, and C is the author's own hedged view.",
-   "choiceExplanations": {
-    "B": "The author states this as a fact, drawn from the harbor records.",
-    "C": "This is the author's own tentative view ('in my view')."
-   },
-   "estSeconds": 90,
-   "skills": [
-    "rc-reported-vs-advanced"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-03-major-minor-c2",
    "lessonId": "v3-03-major-minor",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Select the sentence in which the author states a tentative view of the author's own.",
-   "passageId": "v3-c-03",
-   "content": {
-    "format": "select_in_passage"
-   },
-   "answer": {
-    "sentence": "A likelier cause, in my view, was the loss of the textile trade, although the surviving evidence is too thin to settle the matter."
-   },
    "explanation": "'In my view' and 'likelier' mark an advanced but hedged claim, and 'too thin to settle' confirms the hedge.",
    "estSeconds": 61,
    "skills": [
     "rc-hedges"
    ],
+   "passageId": "v3-c-03",
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_in_passage"
+   },
+   "answer": {
+    "sentence": "A likelier cause, in my view, was the loss of the textile trade, although the surviving evidence is too thin to settle the matter."
    }
   }
  ]

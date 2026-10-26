@@ -1,4 +1,6 @@
 {
+ "id": "q3-04-special-triangles",
+ "status": "draft",
  "why": "45-45-90 and 30-60-90 triangles, together with the area formula, turn up in squares, equilateral triangles and diagonals and save a full Pythagorean calculation.",
  "rule": "Two right triangles have fixed side ratios (both follow from the Pythagorean theorem):\n\n- **45°-45°-90°** (isosceles right): legs $x,\\ x$; hypotenuse $x\\sqrt2$.\n- **30°-60°-90°** (half an equilateral triangle): $x$ opposite 30°, $x\\sqrt3$ opposite 60°, hypotenuse $2x$.\n\n**Area** of a triangle: $A=\\dfrac{bh}{2}$, where $h$ is the perpendicular distance from the vertex opposite the base to the line containing the base. Any side can serve as the base, and the height can fall outside the triangle.",
  "examples": [
@@ -24,9 +26,29 @@
   {
    "id": "q3-04-special-triangles-c1",
    "lessonId": "q3-04-special-triangles",
-   "type": "PS",
    "difficulty": 1,
    "stem": "An isosceles right triangle has legs of length 3. What is the length of its hypotenuse?",
+   "explanation": "Legs $x,x$ give hypotenuse $x\\sqrt2$, so $3\\sqrt2$.",
+   "choiceExplanations": {
+    "A": "The hypotenuse is longer than a leg.",
+    "C": "$\\sqrt3$ belongs to the 30°-60°-90° triangle.",
+    "D": "That is the hypotenuse of a 30°-60°-90° triangle with short leg 3, or the sum of the legs.",
+    "E": "That is the square of a leg."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "special-triangles",
+    "triangle-area"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -56,37 +78,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "Legs $x,x$ give hypotenuse $x\\sqrt2$, so $3\\sqrt2$.",
-   "choiceExplanations": {
-    "A": "The hypotenuse is longer than a leg.",
-    "C": "$\\sqrt3$ belongs to the 30°-60°-90° triangle.",
-    "D": "That is the hypotenuse of a 30°-60°-90° triangle with short leg 3, or the sum of the legs.",
-    "E": "That is the square of a leg."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "special-triangles",
-    "triangle-area"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q3-04-special-triangles-c2",
    "lessonId": "q3-04-special-triangles",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A triangle has a base of length 14 and a corresponding height of 5. What is its area?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 35
-   },
    "explanation": "$A=\\dfrac{14\\cdot5}{2}=35$.",
    "estSeconds": 45,
    "skills": [
@@ -95,22 +93,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 35
    }
   },
   {
    "id": "q3-04-special-triangles-c3",
    "lessonId": "q3-04-special-triangles",
-   "type": "NE",
    "difficulty": 3,
    "stem": "The longer leg of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has length $5\\sqrt3$. What is the length of the hypotenuse?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 10
-   },
    "explanation": "The longer leg is $x\\sqrt3=5\\sqrt3$, so $x=5$ is the shorter leg and the hypotenuse is $2x=10$.",
    "estSeconds": 60,
    "skills": [
@@ -119,11 +120,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 10
    }
   }
- ],
- "id": "q3-04-special-triangles",
- "status": "draft"
+ ]
 }

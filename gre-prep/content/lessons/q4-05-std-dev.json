@@ -27,15 +27,8 @@
   {
    "id": "q4-05-std-dev-c1",
    "lessonId": "q4-05-std-dev",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the standard deviation of the numbers 5, 5, 9 and 9?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 2
-   },
    "explanation": "The mean is 7, so every value is 2 away from it. The squared differences are all 4, their average is 4, and the SD is $\\sqrt{4} = 2$.",
    "estSeconds": 60,
    "skills": [
@@ -43,22 +36,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 2
    }
   },
   {
    "id": "q4-05-std-dev-c2",
    "lessonId": "q4-05-std-dev",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A data set has a mean of 100 and a standard deviation of 15. How many standard deviations from the mean (positive if above, negative if below) is the value 70?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": -2
-   },
    "explanation": "$\\frac{70 - 100}{15} = -2$: the value is 2 SDs below the mean.",
    "estSeconds": 60,
    "skills": [
@@ -66,8 +62,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -2
    }
   }
  ]

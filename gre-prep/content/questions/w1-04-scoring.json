@@ -2,20 +2,8 @@
  {
   "id": "w1-04-scoring-01",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which statement about the Issue scoring scale is correct?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Scores range from 0 to 6, in half-point increments." },
-    { "id": "B", "text": "Scores range from 1 to 5, in whole points." },
-    { "id": "C", "text": "Scores range from 130 to 170." },
-    { "id": "D", "text": "Scores range from 0 to 10, in half-point increments." },
-    { "id": "E", "text": "Scores are reported only as pass or fail." }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "The reported Analytical Writing score runs from 0 to 6 in half-point increments.",
   "choiceExplanations": {
    "B": "The range is 0 to 6 and includes half points.",
@@ -24,26 +12,54 @@
    "E": "A numerical score is reported."
   },
   "estSeconds": 45,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Scores range from 0 to 6, in half-point increments."
+    },
+    {
+     "id": "B",
+     "text": "Scores range from 1 to 5, in whole points."
+    },
+    {
+     "id": "C",
+     "text": "Scores range from 130 to 170."
+    },
+    {
+     "id": "D",
+     "text": "Scores range from 0 to 10, in half-point increments."
+    },
+    {
+     "id": "E",
+     "text": "Scores are reported only as pass or fail."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-02",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 1,
   "stem": "A test taker types only the text of the Issue prompt, copying it exactly, and adds nothing else. Which score does the guide describe for this?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "6" },
-    { "id": "B", "text": "3" },
-    { "id": "C", "text": "1" },
-    { "id": "D", "text": "0" },
-    { "id": "E", "text": "NS" }
-   ]
-  },
-  "answer": { "choices": ["D"] },
   "explanation": "The guide gives a score of 0 to a response that merely copies the topic (among other cases, such as off-topic text).",
   "choiceExplanations": {
    "A": "A 6 needs insightful analysis of the issue.",
@@ -52,26 +68,54 @@
    "E": "NS is for a blank response; here text was typed."
   },
   "estSeconds": 45,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "1"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    },
+    {
+     "id": "E",
+     "text": "NS"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-03",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which description best fits a response at the \"Adequate\" 4 level?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "A clear position in accordance with the task, developed with relevant reasons or examples, and adequately focused and organised" },
-    { "id": "B", "text": "An insightful, fully developed analysis with compelling reasons and fluent, precise language" },
-    { "id": "C", "text": "A position that is vague, with claims that are largely unsupported" },
-    { "id": "D", "text": "Text that largely disregards the task directions" },
-    { "id": "E", "text": "Text that provides little or no evidence of understanding the issue" }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "A 4 response presents a competent analysis: clear position, relevant reasons or examples, adequate focus and organisation, acceptable clarity.",
   "choiceExplanations": {
    "B": "That describes a 6.",
@@ -80,26 +124,54 @@
    "E": "That describes a 1."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A clear position in accordance with the task, developed with relevant reasons or examples, and adequately focused and organised"
+    },
+    {
+     "id": "B",
+     "text": "An insightful, fully developed analysis with compelling reasons and fluent, precise language"
+    },
+    {
+     "id": "C",
+     "text": "A position that is vague, with claims that are largely unsupported"
+    },
+    {
+     "id": "D",
+     "text": "Text that largely disregards the task directions"
+    },
+    {
+     "id": "E",
+     "text": "Text that provides little or no evidence of understanding the issue"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-04",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Essay A is well developed but contains two minor spelling slips. Essay B is well developed, but nearly every sentence contains a structural error that makes its meaning hard to follow. Which statement is consistent with the guide?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "A and B should score the same, since both contain errors." },
-    { "id": "B", "text": "B's errors are the more serious, since persistent errors that obscure meaning lower the score." },
-    { "id": "C", "text": "A should score lower, because any error disqualifies a response from the top levels." },
-    { "id": "D", "text": "Errors are not part of the guide." },
-    { "id": "E", "text": "Errors only matter if they are spelling errors." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "Minor errors that do not interfere with meaning are tolerated even at level 6; frequent errors that obscure meaning lower the score.",
   "choiceExplanations": {
    "A": "The kind and frequency of errors matter, not just their presence.",
@@ -108,26 +180,54 @@
    "E": "Grammar, usage and sentence structure also matter."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A and B should score the same, since both contain errors."
+    },
+    {
+     "id": "B",
+     "text": "B's errors are the more serious, since persistent errors that obscure meaning lower the score."
+    },
+    {
+     "id": "C",
+     "text": "A should score lower, because any error disqualifies a response from the top levels."
+    },
+    {
+     "id": "D",
+     "text": "Errors are not part of the guide."
+    },
+    {
+     "id": "E",
+     "text": "Errors only matter if they are spelling errors."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-05",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Claim: \"Students learn best when they choose what to study.\" Excerpt: \"Students should choose. This is true. I think choice is good and teachers should not decide. Choice is the best.\"\n\nWhich feature of this excerpt would most lower its score under the Issue scoring guide?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "It uses the first person (\"I think\")." },
-    { "id": "B", "text": "Its sentences are short." },
-    { "id": "C", "text": "It asserts its position without any reasons or examples." },
-    { "id": "D", "text": "It states a clear position." },
-    { "id": "E", "text": "It takes a position that many readers would reject." }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "Every level of the guide expects the position to be developed with reasons or examples; this excerpt only repeats its position.",
   "choiceExplanations": {
    "A": "The guide does not penalise the first person.",
@@ -136,26 +236,54 @@
    "E": "No position is penalised for being unpopular."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It uses the first person (\"I think\")."
+    },
+    {
+     "id": "B",
+     "text": "Its sentences are short."
+    },
+    {
+     "id": "C",
+     "text": "It asserts its position without any reasons or examples."
+    },
+    {
+     "id": "D",
+     "text": "It states a clear position."
+    },
+    {
+     "id": "E",
+     "text": "It takes a position that many readers would reject."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-06",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Claim: \"Cities should invest more in parks than in parking.\" Excerpt: \"Parks give residents of crowded districts a shared place to rest and meet. In a hypothetical neighbourhood with no park, children would play beside busy roads, and residents would recieve fewer chances to meet. By contrast, a car park serves only those who drive, and only while they shop.\"\n\nWhich features of this excerpt would help raise its score? Select all that apply.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "A concrete example that illustrates the reason it supports" },
-    { "id": "B", "text": "A contrast that connects the reason to the position" },
-    { "id": "C", "text": "The single misspelling, which by itself lowers the score substantially" },
-    { "id": "D", "text": "Taking the more common position" },
-    { "id": "E", "text": "Its length alone" }
-   ]
-  },
-  "answer": { "choices": ["A", "B"] },
   "explanation": "The hypothetical neighbourhood is a relevant example, and the parks versus car park contrast links the reasoning to the position. The guide rewards both.",
   "choiceExplanations": {
    "C": "One misspelling is a minor error; ETS says an occasional error will not affect the score, and it would not help it in any case.",
@@ -163,26 +291,55 @@
    "E": "Length alone is not a criterion; development and clarity are."
   },
   "estSeconds": 75,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A concrete example that illustrates the reason it supports"
+    },
+    {
+     "id": "B",
+     "text": "A contrast that connects the reason to the position"
+    },
+    {
+     "id": "C",
+     "text": "The single misspelling, which by itself lowers the score substantially"
+    },
+    {
+     "id": "D",
+     "text": "Taking the more common position"
+    },
+    {
+     "id": "E",
+     "text": "Its length alone"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-07",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Essay P offers thoughtful analysis built around one clear, well-explained example, with a few minor slips. Essay Q lists five examples, each in a single sentence with no explanation, in polished grammar. Which is most likely to score higher under the guide?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "P, because thoughtful analysis and a developed example outweigh a count of undeveloped ones" },
-    { "id": "B", "text": "Q, because it has more examples" },
-    { "id": "C", "text": "Q, because polished grammar is the main criterion" },
-    { "id": "D", "text": "They would score the same" },
-    { "id": "E", "text": "P, but only if it is longer than Q" }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "The guide's higher levels reward analysis and developed support. ETS also says clarity and skill matter more than the number of examples.",
   "choiceExplanations": {
    "B": "Number of examples is not what is rewarded.",
@@ -191,26 +348,54 @@
    "E": "Length is not the criterion."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "P, because thoughtful analysis and a developed example outweigh a count of undeveloped ones"
+    },
+    {
+     "id": "B",
+     "text": "Q, because it has more examples"
+    },
+    {
+     "id": "C",
+     "text": "Q, because polished grammar is the main criterion"
+    },
+    {
+     "id": "D",
+     "text": "They would score the same"
+    },
+    {
+     "id": "E",
+     "text": "P, but only if it is longer than Q"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-08",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 3,
   "stem": "A writer's essay is fluent and error-free, but it ignores a required part of the task instructions. Why can it still score low?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "It cannot; fluent writing guarantees a high score." },
-    { "id": "B", "text": "The descriptions for levels 2 through 6 all refer to addressing the specific task directions, so ignoring part of them weakens the response however polished it is." },
-    { "id": "C", "text": "Task directions matter only at level 6." },
-    { "id": "D", "text": "Raters evaluate only the language of the response." },
-    { "id": "E", "text": "Ignoring directions matters only for a score of 0." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "The guide asks for a position in accordance with the assigned task and refers to the task directions from level 2 up, so omitted requirements count against the response.",
   "choiceExplanations": {
    "A": "Language control is only one criterion.",
@@ -219,26 +404,54 @@
    "E": "A response that ignores part of the directions can still have a score above 0."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It cannot; fluent writing guarantees a high score."
+    },
+    {
+     "id": "B",
+     "text": "The descriptions for levels 2 through 6 all refer to addressing the specific task directions, so ignoring part of them weakens the response however polished it is."
+    },
+    {
+     "id": "C",
+     "text": "Task directions matter only at level 6."
+    },
+    {
+     "id": "D",
+     "text": "Raters evaluate only the language of the response."
+    },
+    {
+     "id": "E",
+     "text": "Ignoring directions matters only for a score of 0."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-09",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Claim: \"Public libraries deserve more funding than sports stadiums.\" Three body paragraphs:\n\nX: \"Libraries are important. They are better than stadiums. Everyone knows that, so libraries should get the money.\"\n\nY: \"Libraries give every resident free access to books, internet and quiet study space, which matters most to people who cannot afford these at home. A stadium serves its fans on match days only, so public money does more good when spent on libraries.\"\n\nZ: \"The claim holds most strongly where public money is scarce. A library that keeps evening hours lets a student without a quiet home finish coursework, whereas a stadium can usually charge for the access it provides. A fair objection is that a winning team lifts a city's pride and trade; but that benefit can be financed through tickets and sponsors, while no market will pay for a library's free access.\"\n\nWhich ranking, from lowest to highest, best fits the guide?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "X, Y, Z" },
-    { "id": "B", "text": "Y, X, Z" },
-    { "id": "C", "text": "Z, Y, X" },
-    { "id": "D", "text": "X, Z, Y" },
-    { "id": "E", "text": "Y, Z, X" }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "X is bare assertion. Y gives relevant reasons and a comparison. Z adds a qualification, addresses an objection and answers it, which is the more insightful, fully developed analysis.",
   "choiceExplanations": {
    "B": "X offers nothing but assertions, so it cannot outrank Y.",
@@ -247,78 +460,166 @@
    "E": "X cannot be the highest; it has no support."
   },
   "estSeconds": 105,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "X, Y, Z"
+    },
+    {
+     "id": "B",
+     "text": "Y, X, Z"
+    },
+    {
+     "id": "C",
+     "text": "Z, Y, X"
+    },
+    {
+     "id": "D",
+     "text": "X, Z, Y"
+    },
+    {
+     "id": "E",
+     "text": "Y, Z, X"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-10",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Select all statements about the Analytical Writing scoring that are correct.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "A response that merely copies the topic receives a 0." },
-    { "id": "B", "text": "A score of NS means the response was blank." },
-    { "id": "C", "text": "A score of 1 describes a well-organised but very short essay." },
-    { "id": "D", "text": "Only whole-number scores are reported." },
-    { "id": "E", "text": "Scores such as 4.5 and 5.5 can be reported." }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "E"] },
   "explanation": "The guide assigns 0 to copied or off-topic text, NS to a blank response, and reports half-point scores.",
   "choiceExplanations": {
    "C": "A 1 describes little or no evidence of the ability to develop an organised response, so it does not describe a well-organised essay.",
    "D": "The score is reported in half-point increments."
   },
   "estSeconds": 60,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A response that merely copies the topic receives a 0."
+    },
+    {
+     "id": "B",
+     "text": "A score of NS means the response was blank."
+    },
+    {
+     "id": "C",
+     "text": "A score of 1 describes a well-organised but very short essay."
+    },
+    {
+     "id": "D",
+     "text": "Only whole-number scores are reported."
+    },
+    {
+     "id": "E",
+     "text": "Scores such as 4.5 and 5.5 can be reported."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-11",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Claim: \"Governments should require citizens to vote.\" Excerpt: \"Compulsory voting can strengthen democracy, but only when voters have real choices. In a country where one party always wins, the requirement merely forces citizens to endorse a result they cannot change, while in a country with close competition it pushes leaders to reach beyond their own supporters. The difference is that voters in the second country was given a reason to take part.\"\n\nWhich observations match the scoring guide? Select all that apply.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "The qualification that the claim holds only when voters have real choices supports an analysis that explores the complexity of the issue." },
-    { "id": "B", "text": "The contrast between two hypothetical countries works as a concrete example that develops the reason." },
-    { "id": "C", "text": "The single agreement slip (\"voters ... was\") would not by itself noticeably lower the score, since occasional minor errors are tolerated." },
-    { "id": "D", "text": "Opening with a position statement lowers the score." },
-    { "id": "E", "text": "Using hypothetical countries rather than real ones lowers the score." }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "C"] },
   "explanation": "The qualification and the contrast are the kind of development the upper levels reward, and the guide says higher-level responses may contain minor errors.",
   "choiceExplanations": {
    "D": "Raters have seen top responses that open by stating the position.",
    "E": "ETS's planning advice allows real or hypothetical examples."
   },
   "estSeconds": 105,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The qualification that the claim holds only when voters have real choices supports an analysis that explores the complexity of the issue."
+    },
+    {
+     "id": "B",
+     "text": "The contrast between two hypothetical countries works as a concrete example that develops the reason."
+    },
+    {
+     "id": "C",
+     "text": "The single agreement slip (\"voters ... was\") would not by itself noticeably lower the score, since occasional minor errors are tolerated."
+    },
+    {
+     "id": "D",
+     "text": "Opening with a position statement lowers the score."
+    },
+    {
+     "id": "E",
+     "text": "Using hypothetical countries rather than real ones lowers the score."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-04-scoring-12",
   "lessonId": "w1-04-scoring",
-  "type": "PS",
   "difficulty": 5,
   "stem": "A rater's notes on an essay read: \"States a clear position in accordance with the task. Offers relevant reasons and examples, though they are not especially insightful. Adequately focused and organised, although one paragraph drifts. Expresses ideas with acceptable clarity; has some errors in grammar and usage that do not obscure meaning.\"\n\nWhich score level best matches these notes?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Score 2" },
-    { "id": "B", "text": "Score 3" },
-    { "id": "C", "text": "Score 4" },
-    { "id": "D", "text": "Score 5" },
-    { "id": "E", "text": "Score 6" }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "These notes mirror the level 4 description: clear position, relevant reasons or examples, adequate focus and organisation, acceptable clarity, some errors.",
   "choiceExplanations": {
    "A": "Level 2 largely disregards the directions and provides few relevant reasons; here the position and support are sound.",
@@ -327,7 +628,47 @@
    "E": "Level 6 requires insightful, compelling and precise work; the notes say the reasoning is not especially insightful."
   },
   "estSeconds": 75,
-  "skills": ["issue-scoring"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-scoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Score 2"
+    },
+    {
+     "id": "B",
+     "text": "Score 3"
+    },
+    {
+     "id": "C",
+     "text": "Score 4"
+    },
+    {
+     "id": "D",
+     "text": "Score 5"
+    },
+    {
+     "id": "E",
+     "text": "Score 6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  }
 ]

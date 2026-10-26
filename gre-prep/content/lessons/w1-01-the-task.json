@@ -29,20 +29,8 @@
   {
    "id": "w1-01-the-task-c1",
    "lessonId": "w1-01-the-task",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which instruction set tells you to consider the possible consequences of implementing something?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "The statement set" },
-     { "id": "B", "text": "The recommendation set" },
-     { "id": "C", "text": "The two-views set" },
-     { "id": "D", "text": "The policy set" },
-     { "id": "E", "text": "The claim-and-reason set" }
-    ]
-   },
-   "answer": { "choices": ["D"] },
    "explanation": "The policy set asks you to give your views on a policy and consider the possible consequences of implementing it.",
    "choiceExplanations": {
     "A": "The statement set asks you to consider ways the statement might or might not hold true.",
@@ -51,26 +39,54 @@
     "E": "The claim-and-reason set asks you to judge the claim and the reason it is based on."
    },
    "estSeconds": 45,
-   "skills": ["issue-instruction-sets"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-instruction-sets"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The statement set"
+     },
+     {
+      "id": "B",
+      "text": "The recommendation set"
+     },
+     {
+      "id": "C",
+      "text": "The two-views set"
+     },
+     {
+      "id": "D",
+      "text": "The policy set"
+     },
+     {
+      "id": "E",
+      "text": "The claim-and-reason set"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
   },
   {
    "id": "w1-01-the-task-c2",
    "lessonId": "w1-01-the-task",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A prompt asks you to discuss the extent to which you agree or disagree with a recommendation. What must your response include besides a position and your reasoning?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "A judgement of the reason on which the recommendation is based" },
-     { "id": "B", "text": "A choice between two competing views" },
-     { "id": "C", "text": "Specific circumstances in which adopting it would be advantageous and others in which it would not" },
-     { "id": "D", "text": "A prediction of its legal consequences" },
-     { "id": "E", "text": "A definition of every term in the recommendation" }
-    ]
-   },
-   "answer": { "choices": ["C"] },
    "explanation": "The recommendation set asks you to describe specific circumstances in which adopting it would or would not be advantageous and to explain how they shape your position.",
    "choiceExplanations": {
     "A": "That belongs to the claim-and-reason set.",
@@ -79,26 +95,54 @@
     "E": "Defining terms can help, but it is not what the recommendation set requires."
    },
    "estSeconds": 50,
-   "skills": ["issue-instruction-sets"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-instruction-sets"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A judgement of the reason on which the recommendation is based"
+     },
+     {
+      "id": "B",
+      "text": "A choice between two competing views"
+     },
+     {
+      "id": "C",
+      "text": "Specific circumstances in which adopting it would be advantageous and others in which it would not"
+     },
+     {
+      "id": "D",
+      "text": "A prediction of its legal consequences"
+     },
+     {
+      "id": "E",
+      "text": "A definition of every term in the recommendation"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
   },
   {
    "id": "w1-01-the-task-c3",
    "lessonId": "w1-01-the-task",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which statement about the Issue task is consistent with what ETS says about raters?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Raters check whether your position matches the one the test writers favour." },
-     { "id": "B", "text": "Raters evaluate how skillfully you address the instructions and develop an argument for your own evaluation." },
-     { "id": "C", "text": "Raters reward only responses that disagree with the claim." },
-     { "id": "D", "text": "Raters award points for the number of facts you can cite." },
-     { "id": "E", "text": "Raters reward only responses that follow one prescribed essay structure." }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says there is no correct position to take; raters evaluate the skill with which you address the specific instructions and articulate and develop your argument.",
    "choiceExplanations": {
     "A": "ETS says raters are not looking for a \"right\" answer.",
@@ -107,8 +151,48 @@
     "E": "ETS says you may organise and develop the response in any effective way."
    },
    "estSeconds": 50,
-   "skills": ["issue-instruction-sets"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-instruction-sets"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Raters check whether your position matches the one the test writers favour."
+     },
+     {
+      "id": "B",
+      "text": "Raters evaluate how skillfully you address the instructions and develop an argument for your own evaluation."
+     },
+     {
+      "id": "C",
+      "text": "Raters reward only responses that disagree with the claim."
+     },
+     {
+      "id": "D",
+      "text": "Raters award points for the number of facts you can cite."
+     },
+     {
+      "id": "E",
+      "text": "Raters reward only responses that follow one prescribed essay structure."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   }
  ]
 }

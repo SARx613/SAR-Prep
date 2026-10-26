@@ -2,16 +2,8 @@
  {
   "id": "q2-11-mixtures-01",
   "lessonId": "q2-11-mixtures",
-  "type": "NE",
   "difficulty": 1,
   "stem": "A 40-gram mixture is 15 percent salt by weight. How many grams of salt does it contain?",
-  "content": {
-   "format": "integer",
-   "unit": "grams"
-  },
-  "answer": {
-   "value": 6
-  },
   "explanation": "$0.15\\cdot40=6$.",
   "estSeconds": 45,
   "skills": [
@@ -19,16 +11,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "grams"
+  },
+  "answer": {
+   "value": 6
   }
  },
  {
   "id": "q2-11-mixtures-02",
   "lessonId": "q2-11-mixtures",
-  "type": "PS",
   "difficulty": 1,
   "stem": "A solution of 8 liters contains 2 liters of acid. What percent of the solution is acid?",
+  "explanation": "Percent $=\\frac{\\text{part}}{\\text{whole}}=\\frac28=0.25=25$ percent.",
+  "choiceExplanations": {
+   "A": "This divides the whole by the part: $8\\div2=4$.",
+   "B": "This divides by 16, as though the acid were added to the 8 liters.",
+   "D": "This is the percent that is *not* acid.",
+   "E": "This is $\\frac82$ written as a percent."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -58,37 +80,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Percent $=\\frac{\\text{part}}{\\text{whole}}=\\frac28=0.25=25$ percent.",
-  "choiceExplanations": {
-   "A": "This divides the whole by the part: $8\\div2=4$.",
-   "B": "This divides by 16, as though the acid were added to the 8 liters.",
-   "D": "This is the percent that is *not* acid.",
-   "E": "This is $\\frac82$ written as a percent."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "mixtures"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-11-mixtures-03",
   "lessonId": "q2-11-mixtures",
-  "type": "NE",
   "difficulty": 2,
   "stem": "A mixture of 18 grams of salt and sand is 50 percent salt by weight. How many grams of sand must be added so that the mixture is 30 percent salt?",
-  "content": {
-   "format": "integer",
-   "unit": "grams"
-  },
-  "answer": {
-   "value": 12
-  },
   "explanation": "Salt: $0.50\\cdot18=9$ grams, unchanged by adding sand. Then $0.30(18+x)=9$, so $18+x=30$ and $x=12$.",
   "estSeconds": 90,
   "skills": [
@@ -96,16 +94,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "grams"
+  },
+  "answer": {
+   "value": 12
   }
  },
  {
   "id": "q2-11-mixtures-04",
   "lessonId": "q2-11-mixtures",
-  "type": "PS",
   "difficulty": 2,
   "stem": "A shop mixes 3 pounds of nuts priced at \\$6 per pound with 2 pounds of nuts priced at \\$9 per pound. What is the price per pound of the mixture?",
+  "explanation": "Total cost $=3\\cdot6+2\\cdot9=36$ dollars for 5 pounds, so the price is $\\frac{36}{5}=7.20$ per pound.",
+  "choiceExplanations": {
+   "B": "This averages 6 and 9 without weighting by the amounts.",
+   "C": "This reverses the weights, giving $\\frac{2\\cdot6+3\\cdot9}{5}$.",
+   "D": "This adds the two prices.",
+   "E": "This is the total cost, not the price per pound."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -135,38 +163,13 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "Total cost $=3\\cdot6+2\\cdot9=36$ dollars for 5 pounds, so the price is $\\frac{36}{5}=7.20$ per pound.",
-  "choiceExplanations": {
-   "B": "This averages 6 and 9 without weighting by the amounts.",
-   "C": "This reverses the weights, giving $\\frac{2\\cdot6+3\\cdot9}{5}$.",
-   "D": "This adds the two prices.",
-   "E": "This is the total cost, not the price per pound."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "mixtures"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-11-mixtures-05",
   "lessonId": "q2-11-mixtures",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The percent of salt in the mixture",
-   "quantityB": "30 percent",
-   "common": "30 liters of a 20 percent salt solution are mixed with 10 liters of a 40 percent salt solution."
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "Salt: $0.20\\cdot30+0.40\\cdot10=6+4=10$ liters out of 40 liters, which is 25 percent. That is less than 30 percent.",
   "estSeconds": 75,
   "skills": [
@@ -174,23 +177,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The percent of salt in the mixture",
+   "quantityB": "30 percent",
+   "common": "30 liters of a 20 percent salt solution are mixed with 10 liters of a 40 percent salt solution."
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q2-11-mixtures-06",
   "lessonId": "q2-11-mixtures",
-  "type": "NE",
   "difficulty": 3,
   "stem": "How many liters of pure water must be added to 30 liters of a 40 percent acid solution to make a 25 percent acid solution?",
-  "content": {
-   "format": "integer",
-   "unit": "liters"
-  },
-  "answer": {
-   "value": 18
-  },
   "explanation": "Acid: $0.40\\cdot30=12$ liters. $0.25(30+x)=12$ gives $30+x=48$, so $x=18$.",
   "estSeconds": 90,
   "skills": [
@@ -198,16 +205,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "liters"
+  },
+  "answer": {
+   "value": 18
   }
  },
  {
   "id": "q2-11-mixtures-07",
   "lessonId": "q2-11-mixtures",
-  "type": "PS",
   "difficulty": 3,
   "stem": "How many liters of a 10 percent salt solution must be mixed with 30 liters of a 50 percent salt solution to make a 40 percent salt solution?",
+  "explanation": "Salt in $=$ salt out: $0.10x+0.50\\cdot30=0.40(x+30)$, so $0.1x+15=0.4x+12$, $3=0.3x$, $x=10$.",
+  "choiceExplanations": {
+   "A": "5 liters would give $\\frac{0.5+15}{35}\\approx44$ percent.",
+   "C": "15 liters would give $\\frac{1.5+15}{45}\\approx37$ percent.",
+   "D": "20 liters would give $\\frac{2+15}{50}=34$ percent.",
+   "E": "30 liters would give $\\frac{3+15}{60}=30$ percent."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -237,30 +274,32 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Salt in $=$ salt out: $0.10x+0.50\\cdot30=0.40(x+30)$, so $0.1x+15=0.4x+12$, $3=0.3x$, $x=10$.",
-  "choiceExplanations": {
-   "A": "5 liters would give $\\frac{0.5+15}{35}\\approx44$ percent.",
-   "C": "15 liters would give $\\frac{1.5+15}{45}\\approx37$ percent.",
-   "D": "20 liters would give $\\frac{2+15}{50}=34$ percent.",
-   "E": "30 liters would give $\\frac{3+15}{60}=30$ percent."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "mixtures"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-11-mixtures-08",
   "lessonId": "q2-11-mixtures",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Solution A is 20 percent acid and solution B is 60 percent acid. Some of each solution (a positive amount of both) is mixed. Which of the following could be the percent of acid in the mixture? Indicate all such percents.",
+  "explanation": "A mixture of both solutions lies strictly between the two concentrations, so it must be between 20 and 60 percent. Only 35 and 45 qualify.",
+  "choiceExplanations": {
+   "A": "15 is below both concentrations; mixing cannot dilute below the weaker solution.",
+   "B": "20 would need none of solution B.",
+   "E": "65 is above both concentrations."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -291,29 +330,33 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "A mixture of both solutions lies strictly between the two concentrations, so it must be between 20 and 60 percent. Only 35 and 45 qualify.",
-  "choiceExplanations": {
-   "A": "15 is below both concentrations; mixing cannot dilute below the weaker solution.",
-   "B": "20 would need none of solution B.",
-   "E": "65 is above both concentrations."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "mixtures"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-11-mixtures-09",
   "lessonId": "q2-11-mixtures",
-  "type": "PS",
   "difficulty": 4,
   "stem": "A 40-liter tank holds a mixture that is 25 percent alcohol. How many liters of the mixture must be drained and replaced by pure alcohol so that the tank is 40 percent alcohol?",
+  "explanation": "Drain $x$ liters, then add $x$ liters of pure alcohol: $0.25(40-x)+x=0.40\\cdot40$. So $10+0.75x=16$, $x=8$.",
+  "choiceExplanations": {
+   "A": "Draining 4 liters gives $0.25\\cdot36+4=13$ liters of alcohol, which is 32.5 percent.",
+   "B": "6 liters is the extra alcohol needed ($16-10$), but draining also removes alcohol.",
+   "D": "Draining 10 liters gives $0.25\\cdot30+10=17.5$ liters, which is 43.75 percent.",
+   "E": "Draining 12 liters gives $0.25\\cdot28+12=19$ liters, which is 47.5 percent."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "mixtures"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -343,38 +386,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Drain $x$ liters, then add $x$ liters of pure alcohol: $0.25(40-x)+x=0.40\\cdot40$. So $10+0.75x=16$, $x=8$.",
-  "choiceExplanations": {
-   "A": "Draining 4 liters gives $0.25\\cdot36+4=13$ liters of alcohol, which is 32.5 percent.",
-   "B": "6 liters is the extra alcohol needed ($16-10$), but draining also removes alcohol.",
-   "D": "Draining 10 liters gives $0.25\\cdot30+10=17.5$ liters, which is 43.75 percent.",
-   "E": "Draining 12 liters gives $0.25\\cdot28+12=19$ liters, which is 47.5 percent."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "mixtures"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-11-mixtures-10",
   "lessonId": "q2-11-mixtures",
-  "type": "QC",
   "difficulty": 4,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The percent of salt in the mixture",
-   "quantityB": "20 percent",
-   "common": "Solution X is 10 percent salt and solution Y is 30 percent salt. A mixture is made of X and Y and contains more X than Y by volume (and some Y)."
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "The mixture lies between 10 and 30 percent, and because there is more X than Y it is closer to 10 than to 30. So it is below the midpoint 20 percent. Quantity B is greater.",
   "estSeconds": 90,
   "skills": [
@@ -382,23 +400,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The percent of salt in the mixture",
+   "quantityB": "20 percent",
+   "common": "Solution X is 10 percent salt and solution Y is 30 percent salt. A mixture is made of X and Y and contains more X than Y by volume (and some Y)."
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q2-11-mixtures-11",
   "lessonId": "q2-11-mixtures",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A chemist has 12 liters of a 25 percent acid solution. How many liters of a 70 percent acid solution must be added to get a 40 percent acid solution?",
-  "content": {
-   "format": "integer",
-   "unit": "liters"
-  },
-  "answer": {
-   "value": 6
-  },
   "explanation": "Acid in: $0.25\\cdot12+0.70x=3+0.7x$. Acid out: $0.40(12+x)=4.8+0.4x$. So $0.3x=1.8$ and $x=6$.",
   "estSeconds": 120,
   "skills": [
@@ -406,23 +428,26 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "liters"
+  },
+  "answer": {
+   "value": 6
   }
  },
  {
   "id": "q2-11-mixtures-12",
   "lessonId": "q2-11-mixtures",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A 30-liter salt solution is made by mixing a 20 percent salt solution with a 50 percent salt solution, and the result is 40 percent salt. Then 10 liters of pure water are added. What percent of the new solution is salt?",
-  "content": {
-   "format": "integer",
-   "unit": "percent"
-  },
-  "answer": {
-   "value": 30
-  },
   "explanation": "Let $y$ be the liters of the 50 percent solution: $0.2(30-y)+0.5y=0.4\\cdot30=12$, so $6+0.3y=12$ and $y=20$. Only the final salt amount matters: 12 liters in $30+10=40$ liters is $30$ percent.",
   "estSeconds": 120,
   "skills": [
@@ -430,8 +455,19 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "percent"
+  },
+  "answer": {
+   "value": 30
   }
  }
 ]

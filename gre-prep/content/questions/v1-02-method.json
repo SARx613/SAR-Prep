@@ -2,9 +2,28 @@
  {
   "id": "v1-02-method-01",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 1,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** laughing until crying means *extremely funny*. *Hilarious* matches your prediction.",
+  "choiceExplanations": {
+   "E": "Gloomy jokes would not cause tears of laughter.",
+   "B": "Dull jokes would not produce such laughter.",
+   "A": "Hard-to-grasp jokes would not make everyone laugh.",
+   "C": "Serious, the opposite of funny."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The comedian's jokes were so {{1}} that the audience laughed until they cried.",
    "blanks": [
@@ -39,13 +58,19 @@
    "blanks": [
     "D"
    ]
-  },
-  "explanation": "**Predict:** laughing until crying means *extremely funny*. *Hilarious* matches your prediction.",
+  }
+ },
+ {
+  "id": "v1-02-method-02",
+  "lessonId": "v1-02-method",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** *only* after a *long drought* means very little. *Meager* means scanty.",
   "choiceExplanations": {
-   "E": "Gloomy jokes would not cause tears of laughter.",
-   "B": "Dull jokes would not produce such laughter.",
-   "A": "Hard-to-grasp jokes would not make everyone laugh.",
-   "C": "Serious, the opposite of funny."
+   "D": "Means plenty; *only* signals little.",
+   "B": "Means too much, the reverse of the drought.",
+   "A": "Says nothing about quantity.",
+   "E": "A quantity cannot be concealed in this sense, and it does not match *only*."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-02-method-02",
-  "lessonId": "v1-02-method",
+  },
   "type": "TC",
-  "difficulty": 1,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "After the long drought, the reservoir held only a {{1}} amount of water.",
    "blanks": [
@@ -97,30 +119,33 @@
    "blanks": [
     "C"
    ]
-  },
-  "explanation": "**Predict:** *only* after a *long drought* means very little. *Meager* means scanty.",
-  "choiceExplanations": {
-   "D": "Means plenty; *only* signals little.",
-   "B": "Means too much, the reverse of the drought.",
-   "A": "Says nothing about quantity.",
-   "E": "A quantity cannot be concealed in this sense, and it does not match *only*."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-03",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 2,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal + predict:** *though ... did not survive careful examination* means they looked sound at first. Predict *convincing*: *persuasive*.",
+  "choiceExplanations": {
+   "C": "Unreadable conclusions would not look sound at first glance.",
+   "E": "Provocative, but the contrast is about soundness, not tone.",
+   "D": "Repetitive; no link to surviving examination.",
+   "B": "Does not contrast with failing careful examination."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The report's conclusions, though {{1}} at first glance, did not survive careful examination of the data.",
    "blanks": [
@@ -155,13 +180,19 @@
    "blanks": [
     "A"
    ]
-  },
-  "explanation": "**Signal + predict:** *though ... did not survive careful examination* means they looked sound at first. Predict *convincing*: *persuasive*.",
+  }
+ },
+ {
+  "id": "v1-02-method-04",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** a manner that relaxes nervous people is *warm* and friendly: *genial*.",
   "choiceExplanations": {
-   "C": "Unreadable conclusions would not look sound at first glance.",
-   "E": "Provocative, but the contrast is about soundness, not tone.",
-   "D": "Repetitive; no link to surviving examination.",
-   "B": "Does not contrast with failing careful examination."
+   "C": "Domineering manners increase nervousness.",
+   "D": "Brusque answers would intimidate.",
+   "B": "Distance would not make it feel like friendly conversation.",
+   "A": "Doubt would not put people at ease."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-02-method-04",
-  "lessonId": "v1-02-method",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "Her {{1}} manner put nervous interviewees at ease and made even difficult questions feel like friendly conversation.",
    "blanks": [
@@ -213,30 +241,33 @@
    "blanks": [
     "E"
    ]
-  },
-  "explanation": "**Predict:** a manner that relaxes nervous people is *warm* and friendly: *genial*.",
-  "choiceExplanations": {
-   "C": "Domineering manners increase nervousness.",
-   "D": "Brusque answers would intimidate.",
-   "B": "Distance would not make it feel like friendly conversation.",
-   "A": "Doubt would not put people at ease."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-05",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 3,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal:** *anything but* X means the opposite of X; the colon describes the prose as crammed with ornament. So X means plain: *spare*. Words that match the description (*ornate*, *intricate*, *digressive*) would make the sentence contradict itself.",
+  "choiceExplanations": {
+   "A": "The prose *is* ornate; *anything but ornate* contradicts the colon.",
+   "D": "Heavy prose could be crammed with qualification, so *anything but* fails.",
+   "B": "Wandering prose is consistent with the description, so *anything but* fails.",
+   "C": "Intricate fits the description, so *anything but intricate* contradicts the colon."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The author's prose is anything but {{1}}: every sentence is crammed with ornament and qualification.",
    "blanks": [
@@ -271,13 +302,19 @@
    "blanks": [
     "E"
    ]
-  },
-  "explanation": "**Signal:** *anything but* X means the opposite of X; the colon describes the prose as crammed with ornament. So X means plain: *spare*. Words that match the description (*ornate*, *intricate*, *digressive*) would make the sentence contradict itself.",
+  }
+ },
+ {
+  "id": "v1-02-method-06",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *yet* opposes executives to analysts. Executives praised the merger (*hailed*); analysts called it a *gamble unlikely to pay off*: *imprudent*.",
   "choiceExplanations": {
-   "A": "The prose *is* ornate; *anything but ornate* contradicts the colon.",
-   "D": "Heavy prose could be crammed with qualification, so *anything but* fails.",
-   "B": "Wandering prose is consistent with the description, so *anything but* fails.",
-   "C": "Intricate fits the description, so *anything but intricate* contradicts the colon."
+   "1A": "Executives who call it bold are not dreading it.",
+   "1B": "Nothing suggests secrecy.",
+   "2B": "Something unavoidable is not a gamble.",
+   "2C": "A routine matter is not a bold gamble."
   },
   "estSeconds": 75,
   "skills": [
@@ -285,16 +322,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-02-method-06",
-  "lessonId": "v1-02-method",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "The merger was {{1}} by executives as a bold strategic move, yet analysts regarded it as {{2}}, a gamble unlikely to pay off.",
    "blanks": [
@@ -339,30 +373,33 @@
     "1C",
     "2A"
    ]
-  },
-  "explanation": "**Signal:** *yet* opposes executives to analysts. Executives praised the merger (*hailed*); analysts called it a *gamble unlikely to pay off*: *imprudent*.",
-  "choiceExplanations": {
-   "1A": "Executives who call it bold are not dreading it.",
-   "1B": "Nothing suggests secrecy.",
-   "2B": "Something unavoidable is not a gamble.",
-   "2C": "A routine matter is not a bold gamble."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-07",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *in fact* marks a contrast between the official image and the reality. Image: a dam *promoted* as clean power; reality: it *devastated* the river ecosystem.",
+  "choiceExplanations": {
+   "1C": "A dam cannot be prohibited as a source of power while it exists and harms the river.",
+   "1B": "No contrast with harm would arise.",
+   "2A": "Would agree with the positive image, but *in fact* needs a contrast.",
+   "2C": "Neutral; it does not state the contrasting harm."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Environmentalists argue that the dam, {{1}} as a source of clean power, has in fact {{2}} the ecosystem of the river downstream.",
    "blanks": [
@@ -407,30 +444,33 @@
     "1A",
     "2B"
    ]
-  },
-  "explanation": "**Signal:** *in fact* marks a contrast between the official image and the reality. Image: a dam *promoted* as clean power; reality: it *devastated* the river ecosystem.",
-  "choiceExplanations": {
-   "1C": "A dam cannot be prohibited as a source of power while it exists and harms the river.",
-   "1B": "No contrast with harm would arise.",
-   "2A": "Would agree with the positive image, but *in fact* needs a contrast.",
-   "2C": "Neutral; it does not state the contrasting harm."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-08",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** avoiding any quotable remark is *discretion*. *However* introduces the critics' negative view of the same caution: *pusillanimous* (cowardly).",
+  "choiceExplanations": {
+   "1C": "Candor means frankness, the opposite of avoiding quotable remarks.",
+   "1A": "Skill in speaking is not the clue.",
+   "2A": "A compliment, but *however* needs criticism.",
+   "2B": "Also not a criticism."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The diplomat's reputation for {{1}} rested on a long record of avoiding any remark that might be quoted against her; critics, however, called her caution {{2}}, a refusal to commit to anything.",
    "blanks": [
@@ -475,30 +515,33 @@
     "1B",
     "2C"
    ]
-  },
-  "explanation": "**Predict:** avoiding any quotable remark is *discretion*. *However* introduces the critics' negative view of the same caution: *pusillanimous* (cowardly).",
-  "choiceExplanations": {
-   "1C": "Candor means frankness, the opposite of avoiding quotable remarks.",
-   "1A": "Skill in speaking is not the clue.",
-   "2A": "A compliment, but *however* needs criticism.",
-   "2B": "Also not a criticism."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-09",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *Though* contrasts words with deeds: she scorned praise yet took every honor. Her professed *humility* is then suspected of being a pose.",
+  "choiceExplanations": {
+   "1C": "Accepting honors does not contradict scorning solitude.",
+   "1B": "Honors do not contradict scorning tradition.",
+   "2C": "Someone who professed to scorn acclaim would not claim ambition; and ambition is what the detractors suspect, not what she professed.",
+   "2B": "Honors say nothing about thrift."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Though the sculptor professed to scorn {{1}}, she accepted every honor offered, which led her detractors to suspect that her {{2}} was a pose.",
    "blanks": [
@@ -543,30 +586,35 @@
     "1A",
     "2A"
    ]
-  },
-  "explanation": "**Signal:** *Though* contrasts words with deeds: she scorned praise yet took every honor. Her professed *humility* is then suspected of being a pose.",
-  "choiceExplanations": {
-   "1C": "Accepting honors does not contradict scorning solitude.",
-   "1B": "Honors do not contradict scorning tradition.",
-   "2C": "Someone who professed to scorn acclaim would not claim ambition; and ambition is what the detractors suspect, not what she professed.",
-   "2B": "Honors say nothing about thrift."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-10",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict each:** a draft that lists everything with no main point is *diffuse*; the contrasting revision opens with one claim: *focused*; tying paragraphs to the claim: *anchoring* (and *to it* fits grammatically).",
+  "choiceExplanations": {
+   "1A": "Listing every detail is not brief.",
+   "1C": "Argumentative; the draft has no argument.",
+   "2C": "The same fault as the first draft, not an improvement.",
+   "2A": "Hesitant; unrelated to a single claim.",
+   "3B": "Would cut paragraphs off from the claim.",
+   "3A": "Hiding paragraphs from the claim is the opposite of focus."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Although the first draft was {{1}}, listing every detail but never stating a main point, the revision is admirably {{2}}, opening with a single claim and {{3}} every paragraph to it.",
    "blanks": [
@@ -629,32 +677,35 @@
     "2B",
     "3C"
    ]
-  },
-  "explanation": "**Predict each:** a draft that lists everything with no main point is *diffuse*; the contrasting revision opens with one claim: *focused*; tying paragraphs to the claim: *anchoring* (and *to it* fits grammatically).",
-  "choiceExplanations": {
-   "1A": "Listing every detail is not brief.",
-   "1C": "Argumentative; the draft has no argument.",
-   "2C": "The same fault as the first draft, not an improvement.",
-   "2A": "Hesitant; unrelated to a single claim.",
-   "3B": "Would cut paragraphs off from the claim.",
-   "3A": "Hiding paragraphs from the claim is the opposite of focus."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-11",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *only decades later* ... *was it* means it was long rejected and later proved right. Colleagues rejected it: *hostility*, *repudiation* (a rejection of principles); evidence then *vindicated* it.",
+  "choiceExplanations": {
+   "1C": "Indifference would not be a reaction to a theory seen as an attack on principles.",
+   "1A": "Admired theories are not vindicated only decades later.",
+   "2B": "Colleagues would not describe an attack on principles as confirming them.",
+   "2A": "A refinement would be accepted, not delayed.",
+   "3A": "New evidence that refuted it would not mark a reversal after decades of rejection.",
+   "3B": "Does not follow from new evidence emerging."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The biologist's theory was greeted with {{1}} by colleagues who saw it as a {{2}} of established principles; only decades later, when new evidence emerged, was it {{3}}.",
    "blanks": [
@@ -717,32 +768,35 @@
     "2C",
     "3C"
    ]
-  },
-  "explanation": "**Signal:** *only decades later* ... *was it* means it was long rejected and later proved right. Colleagues rejected it: *hostility*, *repudiation* (a rejection of principles); evidence then *vindicated* it.",
-  "choiceExplanations": {
-   "1C": "Indifference would not be a reaction to a theory seen as an attack on principles.",
-   "1A": "Admired theories are not vindicated only decades later.",
-   "2B": "Colleagues would not describe an attack on principles as confirming them.",
-   "2A": "A refinement would be accepted, not delayed.",
-   "3A": "New evidence that refuted it would not mark a reversal after decades of rejection.",
-   "3B": "Does not follow from new evidence emerging."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-02-method-12",
   "lessonId": "v1-02-method",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** behavior that defies the plot is arbitrary, so blank 2 is *caprice*; the critics' complaint about vivid scenes but weak plot is *uneven*. *Subordinated ... to* fits grammar and sense: scenes outranked the story.",
+  "choiceExplanations": {
+   "1B": "A seamless novel would not have behavior that defies the plot.",
+   "1A": "Means preachy; nothing in the sentence mentions teaching.",
+   "2B": "Consistent behavior would respect the plot's logic.",
+   "2C": "Restraint would not defy the plot's logic.",
+   "3A": "*Anticipated ... to* is ungrammatical and does not state a trade-off.",
+   "3C": "Reconcile works with *with*, not *to*, and the sentence implies a sacrifice, not a harmony."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Critics found the novel {{1}}: its characters, though vividly drawn, behaved with a {{2}} that defied the logic of the plot, as if the author had {{3}} the story's needs to the pleasures of individual scenes.",
    "blanks": [
@@ -805,24 +859,6 @@
     "2A",
     "3B"
    ]
-  },
-  "explanation": "**Predict:** behavior that defies the plot is arbitrary, so blank 2 is *caprice*; the critics' complaint about vivid scenes but weak plot is *uneven*. *Subordinated ... to* fits grammar and sense: scenes outranked the story.",
-  "choiceExplanations": {
-   "1B": "A seamless novel would not have behavior that defies the plot.",
-   "1A": "Means preachy; nothing in the sentence mentions teaching.",
-   "2B": "Consistent behavior would respect the plot's logic.",
-   "2C": "Restraint would not defy the plot's logic.",
-   "3A": "*Anticipated ... to* is ungrammatical and does not state a trade-off.",
-   "3C": "Reconcile works with *with*, not *to*, and the sentence implies a sacrifice, not a harmony."
-  },
-  "estSeconds": 150,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

@@ -2,15 +2,8 @@
  {
   "id": "q1-07-roots-01",
   "lessonId": "q1-07-roots",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is the value of $\\sqrt{49}\\cdot\\sqrt{4}$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 14
-  },
   "explanation": "$\\sqrt{49} = 7$ and $\\sqrt{4} = 2$, so the product is 14.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
   }
  },
  {
   "id": "q1-07-roots-02",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 1,
   "stem": "What is the value of $-\\sqrt{64}$?",
+  "explanation": "$\\sqrt{64} = 8$ (the nonnegative root); the minus sign outside gives $-8$.",
+  "choiceExplanations": {
+   "A": "This forgets to take the root.",
+   "B": "This halves 64 instead of taking a root.",
+   "D": "This drops the minus sign: $\\sqrt{64}$ alone is 8.",
+   "E": "This halves 64 and drops the sign."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,30 +79,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$\\sqrt{64} = 8$ (the nonnegative root); the minus sign outside gives $-8$.",
-  "choiceExplanations": {
-   "A": "This forgets to take the root.",
-   "B": "This halves 64 instead of taking a root.",
-   "D": "This drops the minus sign: $\\sqrt{64}$ alone is 8.",
-   "E": "This halves 64 and drops the sign."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-03",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following is equal to $\\sqrt{75}$?",
+  "explanation": "$\\sqrt{75} = \\sqrt{25\\cdot3} = \\sqrt{25}\\cdot\\sqrt{3} = 5\\sqrt{3}$.",
+  "choiceExplanations": {
+   "A": "$(3\\sqrt{5})^2 = 45$, not 75: the 3 and 5 are swapped.",
+   "C": "$15^2 = 225$, not 75.",
+   "D": "This halves 75 instead of taking a root.",
+   "E": "This pulls 25 out without taking its root."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,37 +135,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "$\\sqrt{75} = \\sqrt{25\\cdot3} = \\sqrt{25}\\cdot\\sqrt{3} = 5\\sqrt{3}$.",
-  "choiceExplanations": {
-   "A": "$(3\\sqrt{5})^2 = 45$, not 75: the 3 and 5 are swapped.",
-   "C": "$15^2 = 225$, not 75.",
-   "D": "This halves 75 instead of taking a root.",
-   "E": "This pulls 25 out without taking its root."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-04",
   "lessonId": "q1-07-roots",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$\\sqrt{50}$",
-   "quantityB": "7"
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "$7^2 = 49 < 50$, and the nonnegative root is increasing, so $\\sqrt{50}>7$. A is greater.",
   "estSeconds": 75,
   "skills": [
@@ -148,16 +149,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{50}$",
+   "quantityB": "7"
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q1-07-roots-05",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following are equal to 6? Indicate all such numbers.",
+  "explanation": "$\\sqrt{4}\\cdot\\sqrt{9} = 2\\cdot3 = 6$; $\\sqrt{20+16} = \\sqrt{36} = 6$; $6^3 = 216$; $\\sqrt{12}\\cdot\\sqrt{3} = \\sqrt{36} = 6$. But $\\sqrt{4}+\\sqrt{9} = 5$ and $-\\sqrt{36} = -6$.",
+  "choiceExplanations": {
+   "B": "$\\sqrt{4}+\\sqrt{9} = 2+3 = 5$; roots multiply under a product, not under a sum.",
+   "E": "The symbol gives the nonnegative root; with the minus sign outside the value is $-6$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -194,34 +223,13 @@
     "D",
     "F"
    ]
-  },
-  "explanation": "$\\sqrt{4}\\cdot\\sqrt{9} = 2\\cdot3 = 6$; $\\sqrt{20+16} = \\sqrt{36} = 6$; $6^3 = 216$; $\\sqrt{12}\\cdot\\sqrt{3} = \\sqrt{36} = 6$. But $\\sqrt{4}+\\sqrt{9} = 5$ and $-\\sqrt{36} = -6$.",
-  "choiceExplanations": {
-   "B": "$\\sqrt{4}+\\sqrt{9} = 2+3 = 5$; roots multiply under a product, not under a sum.",
-   "E": "The symbol gives the nonnegative root; with the minus sign outside the value is $-6$."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-06",
   "lessonId": "q1-07-roots",
-  "type": "NE",
   "difficulty": 3,
   "stem": "What is the value of $\\sqrt{18}\\cdot\\sqrt{8}$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 12
-  },
   "explanation": "Combine under one root: $\\sqrt{18\\cdot8} = \\sqrt{144} = 12$.",
   "estSeconds": 60,
   "skills": [
@@ -229,16 +237,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
   }
  },
  {
   "id": "q1-07-roots-07",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which of the following is equal to $\\sqrt{50}+\\sqrt{18}$?",
+  "explanation": "$\\sqrt{50} = 5\\sqrt{2}$ and $\\sqrt{18} = 3\\sqrt{2}$. Add like terms: $5\\sqrt{2}+3\\sqrt{2} = 8\\sqrt{2}$.",
+  "choiceExplanations": {
+   "A": "This is only $\\sqrt{50}$.",
+   "B": "This adds the numbers under the roots; $\\sqrt{a}+\\sqrt{b}\\ne\\sqrt{a+b}$.",
+   "D": "This multiplies $8$ by $2$ instead of keeping $\\sqrt{2}$ ($8\\sqrt{2}\\approx11.3$).",
+   "E": "This is the product $\\sqrt{50}\\cdot\\sqrt{18} = \\sqrt{900}$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -268,30 +305,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$\\sqrt{50} = 5\\sqrt{2}$ and $\\sqrt{18} = 3\\sqrt{2}$. Add like terms: $5\\sqrt{2}+3\\sqrt{2} = 8\\sqrt{2}$.",
-  "choiceExplanations": {
-   "A": "This is only $\\sqrt{50}$.",
-   "B": "This adds the numbers under the roots; $\\sqrt{a}+\\sqrt{b}\\ne\\sqrt{a+b}$.",
-   "D": "This multiplies $8$ by $2$ instead of keeping $\\sqrt{2}$ ($8\\sqrt{2}\\approx11.3$).",
-   "E": "This is the product $\\sqrt{50}\\cdot\\sqrt{18} = \\sqrt{900}$."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-08",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which of the following is NOT a real number?",
+  "explanation": "An even-order root of a negative number does not exist among the real numbers, so $\\sqrt[4]{-16}$ is not real. Odd-order roots of negatives exist: $\\sqrt[3]{-27} = -3$ and $\\sqrt[3]{-1} = -1$.",
+  "choiceExplanations": {
+   "A": "$(-3)^3 = -27$, so this is $-3$.",
+   "C": "$\\sqrt{0} = 0$.",
+   "D": "This is $-4$: the root is taken first, then negated.",
+   "E": "$(-1)^3 = -1$, so this is $-1$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -321,38 +361,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "An even-order root of a negative number does not exist among the real numbers, so $\\sqrt[4]{-16}$ is not real. Odd-order roots of negatives exist: $\\sqrt[3]{-27} = -3$ and $\\sqrt[3]{-1} = -1$.",
-  "choiceExplanations": {
-   "A": "$(-3)^3 = -27$, so this is $-3$.",
-   "C": "$\\sqrt{0} = 0$.",
-   "D": "This is $-4$: the root is taken first, then negated.",
-   "E": "$(-1)^3 = -1$, so this is $-1$."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-09",
   "lessonId": "q1-07-roots",
-  "type": "QC",
   "difficulty": 4,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$\\sqrt{x^2}$",
-   "quantityB": "$x$",
-   "common": "$x$ is a real number."
-  },
-  "answer": {
-   "choice": "D"
-  },
   "explanation": "If $x = 3$, both are 3. If $x = -3$, $\\sqrt{x^2} = \\sqrt{9} = 3$, but $x = -3$, so A is greater. The relationship depends on $x$.",
   "estSeconds": 75,
   "skills": [
@@ -360,22 +375,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{x^2}$",
+   "quantityB": "$x$",
+   "common": "$x$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
   }
  },
  {
   "id": "q1-07-roots-10",
   "lessonId": "q1-07-roots",
-  "type": "NE",
   "difficulty": 4,
   "stem": "What is the value of $\\dfrac{\\sqrt{12}\\cdot\\sqrt{18}}{\\sqrt{6}}$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 6
-  },
   "explanation": "Combine: $\\sqrt{\\dfrac{12\\cdot18}{6}} = \\sqrt{36} = 6$.",
   "estSeconds": 90,
   "skills": [
@@ -383,16 +403,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
   }
  },
  {
   "id": "q1-07-roots-11",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 5,
   "stem": "What is the value of $\\left(\\sqrt{5}+\\sqrt{3}\\right)\\left(\\sqrt{5}-\\sqrt{3}\\right)$?",
+  "explanation": "Distribute: $\\sqrt{5}\\sqrt{5}-\\sqrt{5}\\sqrt{3}+\\sqrt{3}\\sqrt{5}-\\sqrt{3}\\sqrt{3} = 5-3 = 2$. The two cross terms cancel.",
+  "choiceExplanations": {
+   "A": "This is $(\\sqrt{5}-\\sqrt{3})^2$.",
+   "C": "This is a cross term alone; the two cross terms cancel.",
+   "D": "This adds $5+3$; the last term is subtracted.",
+   "E": "This is $(\\sqrt{5}+\\sqrt{3})^2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -422,30 +471,33 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Distribute: $\\sqrt{5}\\sqrt{5}-\\sqrt{5}\\sqrt{3}+\\sqrt{3}\\sqrt{5}-\\sqrt{3}\\sqrt{3} = 5-3 = 2$. The two cross terms cancel.",
-  "choiceExplanations": {
-   "A": "This is $(\\sqrt{5}-\\sqrt{3})^2$.",
-   "C": "This is a cross term alone; the two cross terms cancel.",
-   "D": "This adds $5+3$; the last term is subtracted.",
-   "E": "This is $(\\sqrt{5}+\\sqrt{3})^2$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-07-roots-12",
   "lessonId": "q1-07-roots",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Which of the following are greater than 5 and less than 6? Indicate all such numbers.",
+  "explanation": "Compare under the root: $25<26<36$, so $5<\\sqrt{26}<6$. For cube roots compare cubes: $125<200<216$, so $5<\\sqrt[3]{200}<6$. $\\sqrt{24}<5$; $\\sqrt{36} = 6$ exactly; $\\sqrt{37}>6$; $\\sqrt[3]{100}<5$ since $100<125$.",
+  "choiceExplanations": {
+   "A": "$24<25$, so $\\sqrt{24}<5$.",
+   "D": "$\\sqrt{36} = 6$, which is not less than 6.",
+   "E": "$37>36$, so $\\sqrt{37}>6$.",
+   "F": "$100<125 = 5^3$, so $\\sqrt[3]{100}<5$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -480,22 +532,6 @@
     "B",
     "C"
    ]
-  },
-  "explanation": "Compare under the root: $25<26<36$, so $5<\\sqrt{26}<6$. For cube roots compare cubes: $125<200<216$, so $5<\\sqrt[3]{200}<6$. $\\sqrt{24}<5$; $\\sqrt{36} = 6$ exactly; $\\sqrt{37}>6$; $\\sqrt[3]{100}<5$ since $100<125$.",
-  "choiceExplanations": {
-   "A": "$24<25$, so $\\sqrt{24}<5$.",
-   "D": "$\\sqrt{36} = 6$, which is not less than 6.",
-   "E": "$37>36$, so $\\sqrt{37}>6$.",
-   "F": "$100<125 = 5^3$, so $\\sqrt[3]{100}<5$."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "roots"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

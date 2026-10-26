@@ -20,9 +20,28 @@
   {
    "id": "v0-01-overview-c1",
    "lessonId": "v0-01-overview",
-   "type": "TC",
    "difficulty": 1,
    "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Text Completion, one blank (five choices).** *Students who had never studied the subject followed every step*: the explanation was clear, *lucid*.",
+   "choiceExplanations": {
+    "D": "Opaque means hard to understand.",
+    "E": "Wandering talks are hard to follow.",
+    "B": "Technical talks are harder for beginners.",
+    "A": "Dense talks are hard for beginners."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "The lecture was so {{1}} that students who had never studied the subject followed every step.",
     "blanks": [
@@ -57,30 +76,33 @@
     "blanks": [
      "C"
     ]
-   },
-   "explanation": "**Text Completion, one blank (five choices).** *Students who had never studied the subject followed every step*: the explanation was clear, *lucid*.",
-   "choiceExplanations": {
-    "D": "Opaque means hard to understand.",
-    "E": "Wandering talks are hard to follow.",
-    "B": "Technical talks are harder for beginners.",
-    "A": "Dense talks are hard for beginners."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v0-01-overview-c2",
    "lessonId": "v0-01-overview",
-   "type": "SE",
    "difficulty": 2,
    "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Sentence Equivalence (pick two).** *Committing to nothing* and leaving reporters unsure: *noncommittal* and *evasive*.",
+   "choiceExplanations": {
+    "C": "Direct; the reply left reporters unsure.",
+    "D": "Stirring replies commit to something.",
+    "B": "One-sided; the reply avoided taking a side.",
+    "A": "Concerns timing, not commitment."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "SE",
    "content": {
     "text": "The mayor's reply was deliberately {{1}}, committing her to nothing and leaving reporters unsure of her position.",
     "choices": [
@@ -115,30 +137,33 @@
      "E",
      "F"
     ]
-   },
-   "explanation": "**Sentence Equivalence (pick two).** *Committing to nothing* and leaving reporters unsure: *noncommittal* and *evasive*.",
-   "choiceExplanations": {
-    "C": "Direct; the reply left reporters unsure.",
-    "D": "Stirring replies commit to something.",
-    "B": "One-sided; the reply avoided taking a side.",
-    "A": "Concerns timing, not commitment."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "sentence-equivalence"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v0-01-overview-c3",
    "lessonId": "v0-01-overview",
-   "type": "TC",
    "difficulty": 3,
    "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Text Completion, two blanks.** *Stayed away in droves* gives *shunned*; *but* ... *landmark* gives a second season that was *a triumph*.",
+   "choiceExplanations": {
+    "1C": "Audiences who stayed away did not embrace it.",
+    "1A": "Analyzing a show is not what staying away describes.",
+    "2C": "Contradicts *landmark*.",
+    "2A": "Does not explain its landmark status."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "The first season of the series was {{1}} by audiences, who stayed away in droves, but the second was {{2}}, and critics now regard the show as a landmark.",
     "blanks": [
@@ -183,22 +208,6 @@
      "1B",
      "2B"
     ]
-   },
-   "explanation": "**Text Completion, two blanks.** *Stayed away in droves* gives *shunned*; *but* ... *landmark* gives a second season that was *a triumph*.",
-   "choiceExplanations": {
-    "1C": "Audiences who stayed away did not embrace it.",
-    "1A": "Analyzing a show is not what staying away describes.",
-    "2C": "Contradicts *landmark*.",
-    "2A": "Does not explain its landmark status."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

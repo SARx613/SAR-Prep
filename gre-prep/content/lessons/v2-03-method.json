@@ -30,9 +30,28 @@
   {
    "id": "v2-03-method-c1",
    "lessonId": "v2-03-method",
-   "type": "SE",
    "difficulty": 1,
    "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Signal:** *Because* ... trained for months means the win was expected. *Hardly surprising* and *hardly astonishing* say the same thing.",
+   "choiceExplanations": {
+    "E": "*Hardly earned* would say the opposite of the training clue.",
+    "A": "Nothing in the sentence concerns fragility.",
+    "C": "Does not follow from months of training.",
+    "D": "Cost is not mentioned."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "SE",
    "content": {
     "text": "Because the team had trained for months, their victory, though celebrated, was hardly {{1}}.",
     "choices": [
@@ -67,13 +86,19 @@
      "F",
      "B"
     ]
-   },
-   "explanation": "**Signal:** *Because* ... trained for months means the win was expected. *Hardly surprising* and *hardly astonishing* say the same thing.",
+   }
+  },
+  {
+   "id": "v2-03-method-c2",
+   "lessonId": "v2-03-method",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** even specialists struggled. Predict *hard to follow*; *abstruse* and *convoluted* both fit.",
    "choiceExplanations": {
-    "E": "*Hardly earned* would say the opposite of the training clue.",
-    "A": "Nothing in the sentence concerns fragility.",
-    "C": "Does not follow from months of training.",
-    "D": "Cost is not mentioned."
+    "C": "Clear writing would be easy to follow.",
+    "B": "Brevity does not make a text hard.",
+    "A": "Does not explain difficulty.",
+    "F": "Timeliness does not explain difficulty."
    },
    "estSeconds": 60,
    "skills": [
@@ -81,16 +106,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-03-method-c2",
-   "lessonId": "v2-03-method",
+   },
    "type": "SE",
-   "difficulty": 2,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
     "text": "The report was so {{1}} that even specialists struggled to follow its argument.",
     "choices": [
@@ -125,13 +147,19 @@
      "E",
      "D"
     ]
-   },
-   "explanation": "**Clue:** even specialists struggled. Predict *hard to follow*; *abstruse* and *convoluted* both fit.",
+   }
+  },
+  {
+   "id": "v2-03-method-c3",
+   "lessonId": "v2-03-method",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Signal:** *but ... only* reverses the hope: instead of resolving the dispute, the wording made it worse. *Exacerbated* and *aggravated* both mean made worse, so the two sentences agree. The other words describe a dispute that is recorded, settled or cleared up.",
    "choiceExplanations": {
-    "C": "Clear writing would be easy to follow.",
-    "B": "Brevity does not make a text hard.",
-    "A": "Does not explain difficulty.",
-    "F": "Timeliness does not explain difficulty."
+    "F": "The vague wording would not clarify; that is the hope, which *but* rejects.",
+    "D": "Settling is what supporters hoped for, not the outcome.",
+    "A": "Does not contrast with the hope.",
+    "C": "Does not contrast with the hope."
    },
    "estSeconds": 60,
    "skills": [
@@ -139,16 +167,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a2",
+     "solver-b2"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-03-method-c3",
-   "lessonId": "v2-03-method",
+   },
    "type": "SE",
-   "difficulty": 3,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
     "text": "The treaty's supporters hoped it would end the conflict, but its vague wording only {{1}} the disagreement it was meant to resolve.",
     "choices": [
@@ -158,7 +183,7 @@
      },
      {
       "id": "B",
-      "text": "prolonged"
+      "text": "aggravated"
      },
      {
       "id": "C",
@@ -183,22 +208,6 @@
      "B",
      "E"
     ]
-   },
-   "explanation": "**Signal:** *but ... only* reverses the hope. Instead of resolving, the wording kept the dispute going or worsened it. *Prolonged* and *exacerbated* both say it did not end; the two sentences agree on the outcome.",
-   "choiceExplanations": {
-    "F": "The vague wording would not clarify; that is the hope, which *but* rejects.",
-    "D": "Settling is what supporters hoped for, not the outcome.",
-    "A": "Does not contrast with the hope.",
-    "C": "Does not contrast with the hope."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "sentence-equivalence"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

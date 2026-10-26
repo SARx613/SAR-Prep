@@ -2,20 +2,8 @@
  {
   "id": "w1-03-developing-01",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which statement about organising an Issue response is consistent with ETS's tips?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "A five-paragraph structure is required." },
-    { "id": "B", "text": "The essay must open with a thesis statement." },
-    { "id": "C", "text": "You are free to organise it in any way that communicates your position effectively." },
-    { "id": "D", "text": "The essay must end by repeating the claim word for word." },
-    { "id": "E", "text": "Each paragraph must contain exactly one example." }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "ETS says you are free to organise and develop your response in any way that enables you to communicate your position, and that raters look for no particular developmental strategy.",
   "choiceExplanations": {
    "A": "ETS sets no paragraph count.",
@@ -24,26 +12,54 @@
    "E": "No number of examples per paragraph is required."
   },
   "estSeconds": 45,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A five-paragraph structure is required."
+    },
+    {
+     "id": "B",
+     "text": "The essay must open with a thesis statement."
+    },
+    {
+     "id": "C",
+     "text": "You are free to organise it in any way that communicates your position effectively."
+    },
+    {
+     "id": "D",
+     "text": "The essay must end by repeating the claim word for word."
+    },
+    {
+     "id": "E",
+     "text": "Each paragraph must contain exactly one example."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-02",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 1,
   "stem": "How many paragraphs should an Issue response contain, according to ETS?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Exactly three" },
-    { "id": "B", "text": "Exactly five" },
-    { "id": "C", "text": "At least seven" },
-    { "id": "D", "text": "As many or as few as your argument needs" },
-    { "id": "E", "text": "One, to save time" }
-   ]
-  },
-  "answer": { "choices": ["D"] },
   "explanation": "ETS says to use as many or as few paragraphs as needed to support your argument.",
   "choiceExplanations": {
    "A": "ETS sets no number.",
@@ -52,26 +68,54 @@
    "E": "A new paragraph is advisable when you shift to a new cluster of ideas."
   },
   "estSeconds": 45,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Exactly three"
+    },
+    {
+     "id": "B",
+     "text": "Exactly five"
+    },
+    {
+     "id": "C",
+     "text": "At least seven"
+    },
+    {
+     "id": "D",
+     "text": "As many or as few as your argument needs"
+    },
+    {
+     "id": "E",
+     "text": "One, to save time"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-03",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which statement about examples in a high-scoring Issue response matches ETS?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Only responses with at least three examples can reach the top score level." },
-    { "id": "B", "text": "A high score can come from multiple examples or from a single extended example." },
-    { "id": "C", "text": "A single example always lowers the score." },
-    { "id": "D", "text": "Examples should be listed in the introduction." },
-    { "id": "E", "text": "Examples matter less than the length of the essay." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "ETS says a writer can earn a high score by giving multiple examples or by presenting a single, extended example.",
   "choiceExplanations": {
    "A": "No minimum number of examples is set.",
@@ -80,26 +124,54 @@
    "E": "ETS stresses clarity and skill over counts; it does not say length matters most."
   },
   "estSeconds": 45,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Only responses with at least three examples can reach the top score level."
+    },
+    {
+     "id": "B",
+     "text": "A high score can come from multiple examples or from a single extended example."
+    },
+    {
+     "id": "C",
+     "text": "A single example always lowers the score."
+    },
+    {
+     "id": "D",
+     "text": "Examples should be listed in the introduction."
+    },
+    {
+     "id": "E",
+     "text": "Examples matter less than the length of the essay."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-04",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 2,
   "stem": "A test taker asks how top-scoring Issue responses begin. Which answer is consistent with ETS's tips?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "They all begin by stating the position and listing the main points." },
-    { "id": "B", "text": "Some begin with a summary of the position and announced points; others lead in with a prediction, a series of questions, a scenario or a definition of key terms." },
-    { "id": "C", "text": "They all begin with a question to the reader." },
-    { "id": "D", "text": "They never state the position until the final paragraph." },
-    { "id": "E", "text": "They begin by copying the claim exactly as given." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "ETS notes that raters see responses at the 6 level that open in several different ways and that no particular developmental strategy is expected.",
   "choiceExplanations": {
    "A": "That is one acceptable opening, not the only one.",
@@ -108,26 +180,54 @@
    "E": "A response that merely copies the topic receives no credit; copying is not an opening strategy ETS recommends."
   },
   "estSeconds": 60,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They all begin by stating the position and listing the main points."
+    },
+    {
+     "id": "B",
+     "text": "Some begin with a summary of the position and announced points; others lead in with a prediction, a series of questions, a scenario or a definition of key terms."
+    },
+    {
+     "id": "C",
+     "text": "They all begin with a question to the reader."
+    },
+    {
+     "id": "D",
+     "text": "They never state the position until the final paragraph."
+    },
+    {
+     "id": "E",
+     "text": "They begin by copying the claim exactly as given."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-05",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Claim: \"Cities should invest more in public transport than in roads.\" Two writers draft a body paragraph.\n\nExcerpt 1: \"Public transport is clearly the better choice. Everyone knows that buses and trains are good. Roads are bad for cities, so cities should stop building them.\"\n\nExcerpt 2: \"Public transport moves more people through the same street space. A single tram line can carry as many commuters as several lanes of cars, and in a mid-sized city that built one, the central streets grew quieter, which let shops add outdoor seating.\"\n\nWhich statement is correct?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Excerpt 1 is better developed because it states the position more strongly." },
-    { "id": "B", "text": "Excerpt 2 is better developed because it gives a reason and an example that supports it." },
-    { "id": "C", "text": "They are equally developed." },
-    { "id": "D", "text": "Excerpt 1 is better developed because its sentences are shorter." },
-    { "id": "E", "text": "Excerpt 2 is weaker because it includes a hypothetical city." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "Excerpt 2 supports its point with a reason (efficient use of street space) and an illustrative example. Excerpt 1 only asserts its position.",
   "choiceExplanations": {
    "A": "Strong wording is not support; Excerpt 1 offers no reason or example.",
@@ -136,52 +236,110 @@
    "E": "ETS allows real or hypothetical examples."
   },
   "estSeconds": 75,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Excerpt 1 is better developed because it states the position more strongly."
+    },
+    {
+     "id": "B",
+     "text": "Excerpt 2 is better developed because it gives a reason and an example that supports it."
+    },
+    {
+     "id": "C",
+     "text": "They are equally developed."
+    },
+    {
+     "id": "D",
+     "text": "Excerpt 1 is better developed because its sentences are shorter."
+    },
+    {
+     "id": "E",
+     "text": "Excerpt 2 is weaker because it includes a hypothetical city."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-06",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 3,
   "stem": "According to the Issue scoring guide, which features of a body paragraph help raise the score? Select all that apply.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "Reasons that are logically sound" },
-    { "id": "B", "text": "A well-chosen example clearly linked to the reason it illustrates" },
-    { "id": "C", "text": "Ideas connected logically from sentence to sentence" },
-    { "id": "D", "text": "Restating the claim three times for emphasis" },
-    { "id": "E", "text": "Five examples mentioned in a single line each, with no explanation" }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "C"] },
   "explanation": "The guide's higher levels describe logically sound reasons, well-chosen examples and logically connected ideas.",
   "choiceExplanations": {
    "D": "Repetition does not develop a position.",
    "E": "Unexplained examples are not developed; ETS says the clarity and skill with which ideas are conveyed matter more than the number of examples."
   },
   "estSeconds": 60,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Reasons that are logically sound"
+    },
+    {
+     "id": "B",
+     "text": "A well-chosen example clearly linked to the reason it illustrates"
+    },
+    {
+     "id": "C",
+     "text": "Ideas connected logically from sentence to sentence"
+    },
+    {
+     "id": "D",
+     "text": "Restating the claim three times for emphasis"
+    },
+    {
+     "id": "E",
+     "text": "Five examples mentioned in a single line each, with no explanation"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-07",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 3,
   "stem": "With ten minutes left, a writer has one well-developed example and a clear position. She is tempted to add three more examples, each in a single sentence, \"to look thorough.\" What is the best advice, according to ETS's tips?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Add them; the number of examples is what raters count." },
-    { "id": "B", "text": "Use the time to make the argument clearer and better connected; clarity and skill matter more than the number of examples." },
-    { "id": "C", "text": "Delete the developed example and use the three short ones instead." },
-    { "id": "D", "text": "Stop writing and leave the remaining time unused." },
-    { "id": "E", "text": "Add a second introduction." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "ETS says the clarity of your ideas and the skill with which you convey them are more important than the number of examples and paragraphs.",
   "choiceExplanations": {
    "A": "Raters do not count examples.",
@@ -190,26 +348,54 @@
    "E": "An extra introduction does not develop the position."
   },
   "estSeconds": 60,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Add them; the number of examples is what raters count."
+    },
+    {
+     "id": "B",
+     "text": "Use the time to make the argument clearer and better connected; clarity and skill matter more than the number of examples."
+    },
+    {
+     "id": "C",
+     "text": "Delete the developed example and use the three short ones instead."
+    },
+    {
+     "id": "D",
+     "text": "Stop writing and leave the remaining time unused."
+    },
+    {
+     "id": "E",
+     "text": "Add a second introduction."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-08",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 3,
   "stem": "A writer's draft passage is numbered by sentence.\n\n(1) Cheap flights have made travel available to people who once could not afford it. (2) A student on a small budget can now visit a distant relative twice a year. (3) Families separated by long distances stay closer. (4) However, cheap flights also carry costs for the environment. (5) Aircraft burn large amounts of fuel, adding to pollution. (6) Airports expand into farmland and quiet neighbourhoods.\n\nBefore which sentence is a new paragraph most appropriate?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Sentence 2" },
-    { "id": "B", "text": "Sentence 3" },
-    { "id": "C", "text": "Sentence 4" },
-    { "id": "D", "text": "Sentence 5" },
-    { "id": "E", "text": "Sentence 6" }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "Sentences 1 to 3 form a cluster about benefits; sentence 4 shifts to costs. ETS suggests a new paragraph whenever you shift to a new cluster of ideas.",
   "choiceExplanations": {
    "A": "Sentence 2 is an example of the benefit in sentence 1, so it stays in the same cluster.",
@@ -218,26 +404,54 @@
    "E": "Sentence 6 gives a further cost within the same cluster."
   },
   "estSeconds": 60,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Sentence 2"
+    },
+    {
+     "id": "B",
+     "text": "Sentence 3"
+    },
+    {
+     "id": "C",
+     "text": "Sentence 4"
+    },
+    {
+     "id": "D",
+     "text": "Sentence 5"
+    },
+    {
+     "id": "E",
+     "text": "Sentence 6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-09",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 4,
   "stem": "A writer's body paragraph reads: \"Competition is good for schools. It makes them better. Many people agree.\" Which revision would most improve the development of the paragraph?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Add the sentence \"Competition is very, very good for schools.\"" },
-    { "id": "B", "text": "Explain how competition improves schools and illustrate it, for example with two neighbouring schools where one strengthens its science programme to keep its pupils." },
-    { "id": "C", "text": "Repeat the first sentence at the end of the paragraph." },
-    { "id": "D", "text": "Cut the paragraph to one sentence." },
-    { "id": "E", "text": "Add the sentence \"Most experts also agree.\"" }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "The paragraph consists of unsupported claims. B adds a reason (how competition works) and a concrete example, which is what the scoring guide rewards.",
   "choiceExplanations": {
    "A": "An intensifier adds emphasis, not support.",
@@ -246,52 +460,110 @@
    "E": "An unsupported appeal to experts is another assertion, not a reason or example."
   },
   "estSeconds": 75,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Add the sentence \"Competition is very, very good for schools.\""
+    },
+    {
+     "id": "B",
+     "text": "Explain how competition improves schools and illustrate it, for example with two neighbouring schools where one strengthens its science programme to keep its pupils."
+    },
+    {
+     "id": "C",
+     "text": "Repeat the first sentence at the end of the paragraph."
+    },
+    {
+     "id": "D",
+     "text": "Cut the paragraph to one sentence."
+    },
+    {
+     "id": "E",
+     "text": "Add the sentence \"Most experts also agree.\""
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-10",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 4,
   "stem": "A response to a claim about zoos reads: \"Zoos are bad. Everyone knows animals suffer. Also zoos are expensive. In conclusion, zoos are bad.\"\n\nWhich descriptions of this excerpt match characteristics the Issue scoring guide lists for low-scoring responses? Select all that apply.",
+  "explanation": "Every claim is a bare assertion with no reason or example behind it (A and C). The excerpt offers no examples (E), no extended example (B), and no engagement with an opposing view (D).",
+  "choiceExplanations": {
+   "B": "There is no example, extended or otherwise.",
+   "D": "The excerpt never mentions an opposing view.",
+   "E": "No specific example appears anywhere in the excerpt."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a2",
+    "solver-b2"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
-    { "id": "A", "text": "It relies largely on unsupported claims." },
-    { "id": "B", "text": "It develops its position through a single extended example." },
-    { "id": "C", "text": "It provides few, if any, relevant reasons or examples to support its claims." },
-    { "id": "D", "text": "It carefully acknowledges and answers the strongest opposing view." },
-    { "id": "E", "text": "It does little more than restate its position, leaving the position undeveloped." }
+    {
+     "id": "A",
+     "text": "It relies largely on unsupported claims."
+    },
+    {
+     "id": "B",
+     "text": "It develops its position through a single extended example."
+    },
+    {
+     "id": "C",
+     "text": "It provides few, if any, relevant reasons or examples to support its claims."
+    },
+    {
+     "id": "D",
+     "text": "It carefully acknowledges and answers the strongest opposing view."
+    },
+    {
+     "id": "E",
+     "text": "It supports its claims with specific, relevant examples."
+    }
    ]
   },
-  "answer": { "choices": ["A", "C", "E"] },
-  "explanation": "Every claim is bare assertion, no reason or example backs them, and the last sentence merely repeats the first.",
-  "choiceExplanations": {
-   "B": "The excerpt contains no example at all.",
-   "D": "No opposing view is mentioned."
-  },
-  "estSeconds": 75,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-11",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Instructions: discuss the extent to which you agree or disagree with the claim \"Cities should invest more in cycling lanes than in car parks,\" and in developing your position address the most compelling reasons or examples that could be used to challenge it. Which plan best combines good development with these instructions?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Develop one extended example of a city whose cycling lanes cut traffic, then devote a paragraph to the strongest example against the position (small-town shops that depend on drivers) and explain why the position still holds, with a qualification." },
-    { "id": "B", "text": "Give three one-line examples in favour and add \"some disagree, but they are wrong.\"" },
-    { "id": "C", "text": "Develop one extended example in favour and end the essay there." },
-    { "id": "D", "text": "Give five paragraphs of equal length, one per example, all in favour." },
-    { "id": "E", "text": "Write only about the arguments against the position." }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "A uses an extended example (allowed by ETS) and also meets this instruction set's requirement to address the most compelling challenge, with a reasoned reply.",
   "choiceExplanations": {
    "B": "The examples are undeveloped and the challenge is dismissed, not addressed.",
@@ -300,27 +572,54 @@
    "E": "The response must develop and support your own position, not only the opposing case."
   },
   "estSeconds": 90,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Develop one extended example of a city whose cycling lanes cut traffic, then devote a paragraph to the strongest example against the position (small-town shops that depend on drivers) and explain why the position still holds, with a qualification."
+    },
+    {
+     "id": "B",
+     "text": "Give three one-line examples in favour and add \"some disagree, but they are wrong.\""
+    },
+    {
+     "id": "C",
+     "text": "Develop one extended example in favour and end the essay there."
+    },
+    {
+     "id": "D",
+     "text": "Give five paragraphs of equal length, one per example, all in favour."
+    },
+    {
+     "id": "E",
+     "text": "Write only about the arguments against the position."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-03-developing-12",
   "lessonId": "w1-03-developing",
-  "type": "PS",
   "difficulty": 5,
   "stem": "A test taker's study notes contain the beliefs below. Select all that are consistent with what ETS says about developing an Issue response.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "A response can earn the top score level by presenting a single extended example." },
-    { "id": "B", "text": "Writing strategies learned in composition courses may be used." },
-    { "id": "C", "text": "Raters prefer responses that begin by restating the position." },
-    { "id": "D", "text": "The number of paragraphs matters more than the clarity of the ideas." },
-    { "id": "E", "text": "Highly diverse responses in content and form can display similar levels of critical thinking and persuasive writing." },
-    { "id": "F", "text": "Examples must be real events, never hypothetical ones." }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "E"] },
   "explanation": "ETS states A, B and E directly in its tips for the Issue task.",
   "choiceExplanations": {
    "C": "Raters are not looking for a particular developmental strategy or opening.",
@@ -328,7 +627,53 @@
    "F": "ETS's planning questions mention real or hypothetical examples."
   },
   "estSeconds": 90,
-  "skills": ["issue-developing"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-developing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A response can earn the top score level by presenting a single extended example."
+    },
+    {
+     "id": "B",
+     "text": "Writing strategies learned in composition courses may be used."
+    },
+    {
+     "id": "C",
+     "text": "Raters prefer responses that begin by restating the position."
+    },
+    {
+     "id": "D",
+     "text": "The number of paragraphs matters more than the clarity of the ideas."
+    },
+    {
+     "id": "E",
+     "text": "Highly diverse responses in content and form can display similar levels of critical thinking and persuasive writing."
+    },
+    {
+     "id": "F",
+     "text": "Examples must be real events, never hypothetical ones."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
  }
 ]

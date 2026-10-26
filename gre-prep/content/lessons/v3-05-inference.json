@@ -18,10 +18,29 @@
   {
    "id": "v3-05-inference-c1",
    "lessonId": "v3-05-inference",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Which of the following must be true of the surveyed bakeries?",
+   "explanation": "If selling more than fifty loaves requires opening before 6 a.m., then a bakery that opened later cannot have sold more than fifty.",
+   "choiceExplanations": {
+    "B": "The survey shows a link, not a cause.",
+    "C": "The passage gives no proportion of early openers.",
+    "D": "Contradicted by the second sentence.",
+    "E": "Contradicted by the second sentence."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-inference"
+   ],
    "passageId": "v3-c-05",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -51,31 +70,31 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "If selling more than fifty loaves requires opening before 6 a.m., then a bakery that opened later cannot have sold more than fifty.",
-   "choiceExplanations": {
-    "B": "The survey shows a link, not a cause.",
-    "C": "The passage gives no proportion of early openers.",
-    "D": "Contradicted by the second sentence.",
-    "E": "Contradicted by the second sentence."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-inference"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-05-inference-c2",
    "lessonId": "v3-05-inference",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+   "explanation": "The second sentence supports A and B. The survey gives no basis for a causal claim.",
+   "choiceExplanations": {
+    "C": "The survey reports an association in one direction only; it gives no information about cause."
+   },
+   "estSeconds": 90,
+   "skills": [
+    "rc-inference"
+   ],
    "passageId": "v3-c-05",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_all",
     "choices": [
@@ -98,19 +117,6 @@
      "A",
      "B"
     ]
-   },
-   "explanation": "The second sentence supports A and B. The survey gives no basis for a causal claim.",
-   "choiceExplanations": {
-    "C": "The survey reports an association in one direction only; it gives no information about cause."
-   },
-   "estSeconds": 90,
-   "skills": [
-    "rc-inference"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

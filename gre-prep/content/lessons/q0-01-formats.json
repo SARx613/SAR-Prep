@@ -26,9 +26,28 @@
   {
    "id": "q0-01-formats-c1",
    "lessonId": "q0-01-formats",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which Quantitative Reasoning question type has no listed answer choices?",
+   "explanation": "In Numeric Entry you type the answer in one box (integer or decimal) or two boxes (fraction).",
+   "choiceExplanations": {
+    "A": "QC always lists four fixed statements.",
+    "B": "It lists five choices.",
+    "C": "It lists choices to pick from.",
+    "E": "Numeric Entry has boxes, not choices."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "quant-formats"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -58,37 +77,13 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "In Numeric Entry you type the answer in one box (integer or decimal) or two boxes (fraction).",
-   "choiceExplanations": {
-    "A": "QC always lists four fixed statements.",
-    "B": "It lists five choices.",
-    "C": "It lists choices to pick from.",
-    "E": "Numeric Entry has boxes, not choices."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "quant-formats"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q0-01-formats-c2",
    "lessonId": "q0-01-formats",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "15 percent of 40",
-    "quantityB": "$\\frac16$ of 30"
-   },
-   "answer": {
-    "choice": "A"
-   },
    "explanation": "$0.15\\cdot40=6$ and $30/6=5$. Quantity A is greater.",
    "estSeconds": 60,
    "skills": [
@@ -96,22 +91,26 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "15 percent of 40",
+    "quantityB": "$\\frac16$ of 30"
+   },
+   "answer": {
+    "choice": "A"
    }
   },
   {
    "id": "q0-01-formats-c3",
    "lessonId": "q0-01-formats",
-   "type": "NE",
    "difficulty": 1,
    "stem": "How many integers are there from 4 to 9, inclusive?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 6
-   },
    "explanation": "$9-4+1=6$.",
    "estSeconds": 45,
    "skills": [
@@ -119,8 +118,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
    }
   }
  ]

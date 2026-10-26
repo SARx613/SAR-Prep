@@ -4,6 +4,7 @@ import { GameState } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldAlert, Lightbulb, Type, Eye, ArrowRight, HelpCircle } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
+import { useShowTranslation } from '@/hooks/usePrefs';
 
 interface GameCardProps {
   state: GameState;
@@ -18,6 +19,8 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
   const [showSynonyms, setShowSynonyms] = useState(false);
   const [showFrench, setShowFrench] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  // The French gloss is a study aid, off by default (Settings → Show translations).
+  const showTranslation = useShowTranslation();
 
   // Reset per-word state while rendering (React's documented alternative to
   // an effect that sets state): the card never paints the stale reveal.
@@ -134,7 +137,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               )}
 
               {/* French translation */}
-              <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              {showTranslation && <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                   <div style={{ color: 'var(--amber)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                     French
@@ -167,7 +170,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                 }}>
                   {currentWord.french}
                 </div>
-              </div>
+              </div>}
             </div>
           </div>
 

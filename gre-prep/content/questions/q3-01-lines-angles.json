@@ -2,15 +2,8 @@
  {
   "id": "q3-01-lines-angles-01",
   "lessonId": "q3-01-lines-angles",
-  "type": "NE",
   "difficulty": 1,
   "stem": "Two lines intersect. One of the four angles formed measures $38^\\circ$. What is the measure, in degrees, of an angle adjacent to it?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 142
-  },
   "explanation": "Neighbouring angles at an intersection add to $180^\\circ$, so the adjacent angle is $180-38=142$.",
   "estSeconds": 45,
   "skills": [
@@ -18,22 +11,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 142
   }
  },
  {
   "id": "q3-01-lines-angles-02",
   "lessonId": "q3-01-lines-angles",
-  "type": "NE",
   "difficulty": 1,
   "stem": "In the figure, $A$, $P$ and $B$ lie on a line. What is the value of $x$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 36
-  },
   "explanation": "$A$, $P$, $B$ lie on a straight line, so the two angles add to $180^\\circ$: $2x+3x=180$, $5x=180$, $x=36$.",
   "estSeconds": 60,
   "skills": [
@@ -49,16 +45,53 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
   }
  },
  {
   "id": "q3-01-lines-angles-03",
   "lessonId": "q3-01-lines-angles",
-  "type": "PS",
   "difficulty": 2,
   "stem": "In the figure, lines $k$ and $m$ are parallel. What is the value of $x$?",
+  "explanation": "Because $k\\parallel m$, every angle is either $65^\\circ$ or $y^\\circ$ with $65+y=180$. The angle marked $x$ lies on the opposite side of the transversal from the neighbouring $65^\\circ$ angle, so $x=180-65=115$.",
+  "choiceExplanations": {
+   "A": "That is $90-65$; nothing in the figure makes a right angle.",
+   "B": "The angle marked $x^\\circ$ is not equal to the $65^\\circ$ angle; it is its supplement.",
+   "D": "That is $180+65$; an angle at a line crossing is less than $180^\\circ$.",
+   "E": "That is $360-65$, the reflex angle, not the angle marked."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "lines-angles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 280 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"45\" x2=\"250\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"115\" x2=\"250\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"88.2\" y1=\"140.4\" x2=\"144.5\" y2=\"19.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"258\" y=\"49\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">k</text><text x=\"258\" y=\"119\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">m</text><text x=\"148.7\" y=\"10.6\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">p</text><text x=\"161.5\" y=\"27\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">65°</text><text x=\"115.9\" y=\"140.4\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">x°</text></svg>",
+    "alt": "Two parallel horizontal lines k and m crossed by a slanted line p. At the upper intersection, the angle between the right-hand part of line k and the upward part of the slanted line is labeled 65 degrees. At the lower intersection, the angle between the right-hand part of line m and the downward part of the slanted line is labeled x degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -88,46 +121,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Because $k\\parallel m$, every angle is either $65^\\circ$ or $y^\\circ$ with $65+y=180$. The angle marked $x$ lies on the opposite side of the transversal from the neighbouring $65^\\circ$ angle, so $x=180-65=115$.",
-  "choiceExplanations": {
-   "A": "That is $90-65$; nothing in the figure makes a right angle.",
-   "B": "The angle marked $x^\\circ$ is not equal to the $65^\\circ$ angle; it is its supplement.",
-   "D": "That is $180+65$; an angle at a line crossing is less than $180^\\circ$.",
-   "E": "That is $360-65$, the reflex angle, not the angle marked."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "lines-angles"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 280 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"45\" x2=\"250\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"115\" x2=\"250\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"88.2\" y1=\"140.4\" x2=\"144.5\" y2=\"19.6\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"258\" y=\"49\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">k</text><text x=\"258\" y=\"119\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">m</text><text x=\"148.7\" y=\"10.6\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">p</text><text x=\"161.5\" y=\"27\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">65°</text><text x=\"115.9\" y=\"140.4\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">x°</text></svg>",
-    "alt": "Two parallel horizontal lines k and m crossed by a slanted line p. At the upper intersection, the angle between the right-hand part of line k and the upward part of the slanted line is labeled 65 degrees. At the lower intersection, the angle between the right-hand part of line m and the downward part of the slanted line is labeled x degrees."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-01-lines-angles-04",
   "lessonId": "q3-01-lines-angles",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The number of the eight angles that measure $108^\\circ$",
-   "quantityB": "4",
-   "common": "Lines $k$ and $m$ are parallel and a third line crosses both. One of the eight angles formed measures $72^\\circ$."
-  },
-  "answer": {
-   "choice": "C"
-  },
   "explanation": "Four of the eight angles equal the given $72^\\circ$ and the other four equal $180-72=108$. So exactly 4 angles measure $108^\\circ$.",
   "estSeconds": 75,
   "skills": [
@@ -135,16 +135,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of the eight angles that measure $108^\\circ$",
+   "quantityB": "4",
+   "common": "Lines $k$ and $m$ are parallel and a third line crosses both. One of the eight angles formed measures $72^\\circ$."
+  },
+  "answer": {
+   "choice": "C"
   }
  },
  {
   "id": "q3-01-lines-angles-05",
   "lessonId": "q3-01-lines-angles",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Lines $k$ and $m$ are parallel and are crossed by a third line. One of the eight angles formed measures $50^\\circ$. Which of the following could be the measure of another of the eight angles? Indicate all such measures.",
+  "explanation": "Four angles equal $50^\\circ$ and the other four equal $180-50=130$. So $50^\\circ$ and $130^\\circ$ occur.",
+  "choiceExplanations": {
+   "A": "The angles are only $50^\\circ$ and $130^\\circ$.",
+   "C": "A right angle would make all eight angles $90^\\circ$, not $50^\\circ$.",
+   "E": "Each of the eight angles is less than $180^\\circ$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -175,35 +205,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Four angles equal $50^\\circ$ and the other four equal $180-50=130$. So $50^\\circ$ and $130^\\circ$ occur.",
-  "choiceExplanations": {
-   "A": "The angles are only $50^\\circ$ and $130^\\circ$.",
-   "C": "A right angle would make all eight angles $90^\\circ$, not $50^\\circ$.",
-   "E": "Each of the eight angles is less than $180^\\circ$."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "lines-angles"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-01-lines-angles-06",
   "lessonId": "q3-01-lines-angles",
-  "type": "NE",
   "difficulty": 3,
   "stem": "Points $P$, $Q$, $R$ and $S$ lie in that order on a line. $PR=18$, $QS=22$, and $Q$ is the midpoint of $PR$. What is the length of $RS$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 13
-  },
   "explanation": "$Q$ is the midpoint of $PR$, so $QR=9$. Since $Q,R,S$ are in order, $QS=QR+RS$, giving $RS=22-9=13$.",
   "estSeconds": 75,
   "skills": [
@@ -211,16 +219,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
   }
  },
  {
   "id": "q3-01-lines-angles-07",
   "lessonId": "q3-01-lines-angles",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Two lines intersect. Two opposite angles measure $(4a+6)^\\circ$ and $(7a-39)^\\circ$. What is the measure of an angle adjacent to the $(4a+6)^\\circ$ angle?",
+  "explanation": "Opposite angles are equal: $4a+6=7a-39$, so $3a=45$ and $a=15$. Each of those angles is $4(15)+6=66^\\circ$. An adjacent angle is $180-66=114^\\circ$.",
+  "choiceExplanations": {
+   "A": "That is the value of $a$, not an angle.",
+   "B": "That is the opposite angle itself; an adjacent angle is its supplement.",
+   "D": "That is $360-114$.",
+   "E": "That is $360-66$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "lines-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -250,38 +287,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Opposite angles are equal: $4a+6=7a-39$, so $3a=45$ and $a=15$. Each of those angles is $4(15)+6=66^\\circ$. An adjacent angle is $180-66=114^\\circ$.",
-  "choiceExplanations": {
-   "A": "That is the value of $a$, not an angle.",
-   "B": "That is the opposite angle itself; an adjacent angle is its supplement.",
-   "D": "That is $360-114$.",
-   "E": "That is $360-66$."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "lines-angles"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-01-lines-angles-08",
   "lessonId": "q3-01-lines-angles",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$PQ$",
-   "quantityB": "5",
-   "common": "The distance from point $P$ to line $\\ell$ is 5, and $Q$ is a point on $\\ell$."
-  },
-  "answer": {
-   "choice": "D"
-  },
   "explanation": "The distance from $P$ to $\\ell$ is the perpendicular length, 5, which is the *shortest* distance to any point of $\\ell$. $PQ=5$ if $Q$ is the foot of the perpendicular, and $PQ>5$ for any other point $Q$ on $\\ell$. Cannot be determined.",
   "estSeconds": 75,
   "skills": [
@@ -289,22 +301,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$PQ$",
+   "quantityB": "5",
+   "common": "The distance from point $P$ to line $\\ell$ is 5, and $Q$ is a point on $\\ell$."
+  },
+  "answer": {
+   "choice": "D"
   }
  },
  {
   "id": "q3-01-lines-angles-09",
   "lessonId": "q3-01-lines-angles",
-  "type": "NE",
   "difficulty": 4,
   "stem": "In the figure, lines $k$ and $m$ are parallel. What is the value of $x$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 35
-  },
   "explanation": "The two marked angles are not equal: they are a $110^\\circ$-type and a $70^\\circ$-type angle, so they add to $180$. $(3x+5)+(x+35)=180$ gives $4x=140$, $x=35$. Check: $110^\\circ$ and $70^\\circ$.",
   "estSeconds": 100,
   "skills": [
@@ -320,16 +337,45 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 35
   }
  },
  {
   "id": "q3-01-lines-angles-10",
   "lessonId": "q3-01-lines-angles",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Three lines intersect at a single point, forming six angles. Three angles that are consecutive around the point measure $x^\\circ$, $2x^\\circ$ and $3x^\\circ$. What is the measure of the largest of the six angles?",
+  "explanation": "Opposite angles are equal, so the six angles are $x,2x,3x,x,2x,3x$ and add to $360^\\circ$: $12x=360$, $x=30$. The largest is $3x=90^\\circ$.",
+  "choiceExplanations": {
+   "A": "That is $x$, the smallest angle.",
+   "B": "That is $2x$, not the largest.",
+   "D": "No angle of $120^\\circ$ occurs: the six angles are 30, 60, 90, 30, 60, 90.",
+   "E": "That comes from using $x+2x+3x=360$; but those three angles span only a straight line, so they add to $180$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "lines-angles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -359,36 +405,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Opposite angles are equal, so the six angles are $x,2x,3x,x,2x,3x$ and add to $360^\\circ$: $12x=360$, $x=30$. The largest is $3x=90^\\circ$.",
-  "choiceExplanations": {
-   "A": "That is $x$, the smallest angle.",
-   "B": "That is $2x$, not the largest.",
-   "D": "No angle of $120^\\circ$ occurs: the six angles are 30, 60, 90, 30, 60, 90.",
-   "E": "That comes from using $x+2x+3x=360$; but those three angles span only a straight line, so they add to $180$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "lines-angles"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-01-lines-angles-11",
   "lessonId": "q3-01-lines-angles",
-  "type": "NE",
   "difficulty": 5,
   "stem": "Points $A$, $B$, $C$ and $D$ lie in that order on a line. $M$ is the midpoint of $AB$, $N$ is the midpoint of $CD$, $BC=12$ and $MN=30$. What is the value of $AB+CD$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 36
-  },
   "explanation": "$MN=MB+BC+CN=\\tfrac12AB+12+\\tfrac12CD=30$. So $\\tfrac12(AB+CD)=18$ and $AB+CD=36$.",
   "estSeconds": 110,
   "skills": [
@@ -396,24 +419,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
   }
  },
  {
   "id": "q3-01-lines-angles-12",
   "lessonId": "q3-01-lines-angles",
-  "type": "QC",
   "difficulty": 5,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$y-x$",
-   "quantityB": "60",
-   "common": "Lines $k$ and $m$ are parallel; $x$ and $y$ are the measures of the marked angles."
-  },
-  "answer": {
-   "choice": "D"
-  },
   "explanation": "Since $k\\parallel m$, $x+y=180$, so $y-x=180-2x$. This exceeds 60 when $x<60$, equals 60 when $x=60$ and is below 60 when $x>60$. The figure makes $x$ look like $60^\\circ$ but it is not drawn to scale, so the relationship cannot be determined.",
   "estSeconds": 100,
   "skills": [
@@ -429,8 +453,20 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$y-x$",
+   "quantityB": "60",
+   "common": "Lines $k$ and $m$ are parallel; $x$ and $y$ are the measures of the marked angles."
+  },
+  "answer": {
+   "choice": "D"
   }
  }
 ]

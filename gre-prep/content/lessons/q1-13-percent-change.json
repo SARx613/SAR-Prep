@@ -26,16 +26,8 @@
   {
    "id": "q1-13-percent-change-c1",
    "lessonId": "q1-13-percent-change",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A quantity increases from 50 to 65. What is the percent increase? Enter your answer as a percent.",
-   "content": {
-    "format": "decimal",
-    "unit": "%"
-   },
-   "answer": {
-    "value": 30
-   },
    "explanation": "The change is $65-50 = 15$ and the base is the initial value 50: $\\frac{15}{50} = 0.3 = 30\\%$.",
    "estSeconds": 60,
    "skills": [
@@ -43,16 +35,46 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal",
+    "unit": "%"
+   },
+   "answer": {
+    "value": 30
    }
   },
   {
    "id": "q1-13-percent-change-c2",
    "lessonId": "q1-13-percent-change",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A price falls from 80 to 60. What is the percent decrease?",
+   "explanation": "The drop is 20 and the base is the starting price 80: $\\frac{20}{80} = 25\\%$.",
+   "choiceExplanations": {
+    "A": "20 is the amount of the drop, not a percent of the base.",
+    "C": "This uses the new price 60 as the base: $\\frac{20}{60}$.",
+    "D": "This is $\\frac{60}{80}$, the new price as a percent of the old.",
+    "E": "This is $\\frac{80}{60}$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "percent-change"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -82,37 +104,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "The drop is 20 and the base is the starting price 80: $\\frac{20}{80} = 25\\%$.",
-   "choiceExplanations": {
-    "A": "20 is the amount of the drop, not a percent of the base.",
-    "C": "This uses the new price 60 as the base: $\\frac{20}{60}$.",
-    "D": "This is $\\frac{60}{80}$, the new price as a percent of the old.",
-    "E": "This is $\\frac{80}{60}$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "percent-change"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q1-13-percent-change-c3",
    "lessonId": "q1-13-percent-change",
-   "type": "QC",
    "difficulty": 3,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "The result of increasing 100 by $20\\%$ and then decreasing that result by $20\\%$",
-    "quantityB": "100"
-   },
-   "answer": {
-    "choice": "B"
-   },
    "explanation": "$100\\cdot1.2 = 120$, and $120\\cdot0.8 = 96$. The 20% decrease applies to a larger base, so the result is below 100. B is greater.",
    "estSeconds": 75,
    "skills": [
@@ -120,8 +118,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The result of increasing 100 by $20\\%$ and then decreasing that result by $20\\%$",
+    "quantityB": "100"
+   },
+   "answer": {
+    "choice": "B"
    }
   }
  ]

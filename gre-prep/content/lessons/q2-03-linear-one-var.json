@@ -29,15 +29,8 @@
   {
    "id": "q2-03-linear-one-var-c1",
    "lessonId": "q2-03-linear-one-var",
-   "type": "NE",
    "difficulty": 1,
    "stem": "If $5x-7=3x+9$, what is the value of $x$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 8
-   },
    "explanation": "Subtract $3x$ and add 7: $2x=16$, so $x=8$.",
    "estSeconds": 45,
    "skills": [
@@ -45,16 +38,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
    }
   },
   {
    "id": "q2-03-linear-one-var-c2",
    "lessonId": "q2-03-linear-one-var",
-   "type": "PS",
    "difficulty": 2,
    "stem": "If $\\dfrac{2x+1}{3}=5$, what is the value of $x$?",
+   "explanation": "Multiply by 3: $2x+1=15$. Subtract 1: $2x=14$, so $x=7$.",
+   "choiceExplanations": {
+    "A": "This is the right-hand side, not $x$.",
+    "C": "The $+1$ was not subtracted before dividing: $2x=16$.",
+    "D": "This is the value of $2x$; it was not divided by 2.",
+    "E": "This is the value of $2x+1$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "linear-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -84,30 +106,33 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "Multiply by 3: $2x+1=15$. Subtract 1: $2x=14$, so $x=7$.",
-   "choiceExplanations": {
-    "A": "This is the right-hand side, not $x$.",
-    "C": "The $+1$ was not subtracted before dividing: $2x=16$.",
-    "D": "This is the value of $2x$; it was not divided by 2.",
-    "E": "This is the value of $2x+1$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "linear-equations"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-03-linear-one-var-c3",
    "lessonId": "q2-03-linear-one-var",
-   "type": "PS",
    "difficulty": 3,
    "stem": "How many solutions does the equation $6x-2(3x-1)=2$ have?",
+   "explanation": "Expand: $6x-6x+2=2$, which simplifies to $2=2$. This is true for every $x$.",
+   "choiceExplanations": {
+    "A": "A false statement such as $0=1$ would mean no solution; here the statement is true.",
+    "B": "The variable cancels, so $x$ is not pinned down.",
+    "C": "A linear equation never has exactly two solutions.",
+    "E": "It can: the equation reduces to a definite true statement."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "linear-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -137,22 +162,6 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "Expand: $6x-6x+2=2$, which simplifies to $2=2$. This is true for every $x$.",
-   "choiceExplanations": {
-    "A": "A false statement such as $0=1$ would mean no solution; here the statement is true.",
-    "B": "The variable cancels, so $x$ is not pinned down.",
-    "C": "A linear equation never has exactly two solutions.",
-    "E": "It can: the equation reduces to a definite true statement."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "linear-equations"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

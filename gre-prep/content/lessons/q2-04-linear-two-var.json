@@ -29,15 +29,8 @@
   {
    "id": "q2-04-linear-two-var-c1",
    "lessonId": "q2-04-linear-two-var",
-   "type": "NE",
    "difficulty": 1,
    "stem": "If $x+y=10$ and $x-y=4$, what is the value of $x$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 7
-   },
    "explanation": "Add the equations: $2x=14$, so $x=7$.",
    "estSeconds": 45,
    "skills": [
@@ -45,16 +38,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
    }
   },
   {
    "id": "q2-04-linear-two-var-c2",
    "lessonId": "q2-04-linear-two-var",
-   "type": "PS",
    "difficulty": 2,
    "stem": "If $y=3x-2$ and $2x+y=13$, what is the value of $x$?",
+   "explanation": "Substitute: $2x+3x-2=13$, so $5x=15$ and $x=3$.",
+   "choiceExplanations": {
+    "A": "Sign error: $5x=13-2$ instead of $13+2$.",
+    "C": "This is the value of $y$.",
+    "D": "This is the right-hand side of the second equation.",
+    "E": "This is $5x$; it was not divided by 5."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "systems-of-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -84,30 +106,33 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "Substitute: $2x+3x-2=13$, so $5x=15$ and $x=3$.",
-   "choiceExplanations": {
-    "A": "Sign error: $5x=13-2$ instead of $13+2$.",
-    "C": "This is the value of $y$.",
-    "D": "This is the right-hand side of the second equation.",
-    "E": "This is $5x$; it was not divided by 5."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "systems-of-equations"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-04-linear-two-var-c3",
    "lessonId": "q2-04-linear-two-var",
-   "type": "PS",
    "difficulty": 3,
    "stem": "How many solutions does the system $x+2y=3$ and $2x+4y=9$ have?",
+   "explanation": "Double the first equation: $2x+4y=6$. The second says $2x+4y=9$. Both cannot hold, so there is no solution (parallel lines).",
+   "choiceExplanations": {
+    "B": "The left sides are proportional, so the lines are parallel, not crossing.",
+    "C": "Two lines meet in zero, one, or infinitely many points.",
+    "D": "That needs the constants to be proportional too; here $6\\ne9$.",
+    "E": "It can: doubling the first equation exposes the conflict."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "systems-of-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -137,22 +162,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "Double the first equation: $2x+4y=6$. The second says $2x+4y=9$. Both cannot hold, so there is no solution (parallel lines).",
-   "choiceExplanations": {
-    "B": "The left sides are proportional, so the lines are parallel, not crossing.",
-    "C": "Two lines meet in zero, one, or infinitely many points.",
-    "D": "That needs the constants to be proportional too; here $6\\ne9$.",
-    "E": "It can: doubling the first equation exposes the conflict."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "systems-of-equations"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

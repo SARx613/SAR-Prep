@@ -30,15 +30,8 @@
   {
    "id": "q2-09-word-problems-c1",
    "lessonId": "q2-09-word-problems",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A number is increased by 20 percent and the result is 54. What is the number?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 45
-   },
    "explanation": "Increasing by 20 percent multiplies by 1.2, so $1.2n=54$ and $n=45$.",
    "estSeconds": 75,
    "skills": [
@@ -46,16 +39,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 45
    }
   },
   {
    "id": "q2-09-word-problems-c2",
    "lessonId": "q2-09-word-problems",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which expression represents 7 less than the product of 4 and $x$?",
+   "explanation": "\\\"The product of 4 and $x$\\\" is $4x$; \\\"7 less than\\\" that is $4x-7$.",
+   "choiceExplanations": {
+    "A": "This subtracts 7 from $x$ before multiplying.",
+    "C": "That is 7 *more* than the product.",
+    "D": "The order is reversed: \"less than\" subtracts from the product.",
+    "E": "A product is not a quotient."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "word-problems"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -85,36 +107,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "\\\"The product of 4 and $x$\\\" is $4x$; \\\"7 less than\\\" that is $4x-7$.",
-   "choiceExplanations": {
-    "A": "This subtracts 7 from $x$ before multiplying.",
-    "C": "That is 7 *more* than the product.",
-    "D": "The order is reversed: \"less than\" subtracts from the product.",
-    "E": "A product is not a quotient."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "word-problems"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-09-word-problems-c3",
    "lessonId": "q2-09-word-problems",
-   "type": "NE",
    "difficulty": 2,
    "stem": "Adult tickets cost \\$8 and child tickets cost \\$5. A total of 30 tickets were sold for \\$198. How many adult tickets were sold?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 16
-   },
    "explanation": "Let $a$ be adult tickets: $8a+5(30-a)=198$, so $3a+150=198$ and $a=16$.",
    "estSeconds": 75,
    "skills": [
@@ -122,8 +121,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 16
    }
   }
  ]

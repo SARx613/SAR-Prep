@@ -29,20 +29,8 @@
   {
    "id": "w1-05-timing-editor-c1",
    "lessonId": "w1-05-timing-editor",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which tool is NOT available in the ETS word processor used for the Analytical Writing measure?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Cut-and-paste" },
-     { "id": "B", "text": "Undo the previous action" },
-     { "id": "C", "text": "Spellchecker" },
-     { "id": "D", "text": "Insert text" },
-     { "id": "E", "text": "Delete text" }
-    ]
-   },
-   "answer": { "choices": ["C"] },
    "explanation": "ETS lists insert, delete, cut-and-paste and undo of the previous action, and says a spellchecker and grammar checker are not available.",
    "choiceExplanations": {
     "A": "Cut-and-paste is listed.",
@@ -51,26 +39,54 @@
     "E": "Deleting text is listed."
    },
    "estSeconds": 45,
-   "skills": ["issue-timing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-timing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Cut-and-paste"
+     },
+     {
+      "id": "B",
+      "text": "Undo the previous action"
+     },
+     {
+      "id": "C",
+      "text": "Spellchecker"
+     },
+     {
+      "id": "D",
+      "text": "Insert text"
+     },
+     {
+      "id": "E",
+      "text": "Delete text"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
   },
   {
    "id": "w1-05-timing-editor-c2",
    "lessonId": "w1-05-timing-editor",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Why does ETS advise saving a few minutes at the end of the timed task?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "To run the spellchecker" },
-     { "id": "B", "text": "To check for obvious errors" },
-     { "id": "C", "text": "To start a second essay" },
-     { "id": "D", "text": "To rewrite the essay from the beginning" },
-     { "id": "E", "text": "To wait for rater comments" }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says to save a few minutes at the end to check for obvious errors.",
    "choiceExplanations": {
     "A": "No spellchecker is available.",
@@ -79,26 +95,54 @@
     "E": "Raters do not comment during the test."
    },
    "estSeconds": 45,
-   "skills": ["issue-timing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-timing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "To run the spellchecker"
+     },
+     {
+      "id": "B",
+      "text": "To check for obvious errors"
+     },
+     {
+      "id": "C",
+      "text": "To start a second essay"
+     },
+     {
+      "id": "D",
+      "text": "To rewrite the essay from the beginning"
+     },
+     {
+      "id": "E",
+      "text": "To wait for rater comments"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   },
   {
    "id": "w1-05-timing-editor-c3",
    "lessonId": "w1-05-timing-editor",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which budget best follows ETS's advice for the 30 minutes? (The numbers are illustrative.)",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "0 minutes planning, 30 minutes writing" },
-     { "id": "B", "text": "2 minutes reading, 5 minutes planning, 19 minutes writing, 4 minutes checking" },
-     { "id": "C", "text": "25 minutes planning, 5 minutes writing" },
-     { "id": "D", "text": "30 minutes planning, 0 minutes writing" },
-     { "id": "E", "text": "1 minute reading, 29 minutes writing, stopping when time ends" }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "B allows time to consider the issue and instructions, to plan, to compose, and to check for obvious errors at the end.",
    "choiceExplanations": {
     "A": "Without planning, the response is likely to drift from the instructions.",
@@ -107,8 +151,48 @@
     "E": "It leaves no time to check for obvious errors."
    },
    "estSeconds": 60,
-   "skills": ["issue-timing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-timing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "0 minutes planning, 30 minutes writing"
+     },
+     {
+      "id": "B",
+      "text": "2 minutes reading, 5 minutes planning, 19 minutes writing, 4 minutes checking"
+     },
+     {
+      "id": "C",
+      "text": "25 minutes planning, 5 minutes writing"
+     },
+     {
+      "id": "D",
+      "text": "30 minutes planning, 0 minutes writing"
+     },
+     {
+      "id": "E",
+      "text": "1 minute reading, 29 minutes writing, stopping when time ends"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   }
  ]
 }

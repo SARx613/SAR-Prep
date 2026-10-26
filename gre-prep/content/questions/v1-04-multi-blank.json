@@ -2,9 +2,28 @@
  {
   "id": "v1-04-multi-blank-01",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 1,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** *forced ... find another route* after a cliff means going back: *retreat*. Blank 1 then follows: a blocked trail makes hikers *dismayed*.",
+  "choiceExplanations": {
+   "1C": "A dead end is not welcome news.",
+   "1B": "Boredom is not the reaction to being blocked.",
+   "2A": "They cannot go forward over a cliff.",
+   "2B": "Staying put does not fit *find another route*."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The hikers were {{1}} when the trail ended at a cliff, and they were forced to {{2}} and find another route.",
    "blanks": [
@@ -49,13 +68,19 @@
     "1A",
     "2C"
    ]
-  },
-  "explanation": "**Start with blank 2:** *forced ... find another route* after a cliff means going back: *retreat*. Blank 1 then follows: a blocked trail makes hikers *dismayed*.",
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-02",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 1,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** *nothing but weeds* means empty of anything useful: *barren*. Blank 1 is defined by *bursting with flowers*: *flourishing*.",
   "choiceExplanations": {
-   "1C": "A dead end is not welcome news.",
-   "1B": "Boredom is not the reaction to being blocked.",
-   "2A": "They cannot go forward over a cliff.",
-   "2B": "Staying put does not fit *find another route*."
+   "1A": "Dying plants do not burst with flowers.",
+   "1B": "Bursting with flowers is not modest.",
+   "2C": "Weeds only is not lush.",
+   "2B": "A weedy yard is not spotless."
   },
   "estSeconds": 45,
   "skills": [
@@ -63,16 +88,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-04-multi-blank-02",
-  "lessonId": "v1-04-multi-blank",
+  },
   "type": "TC",
-  "difficulty": 1,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "Her {{1}} garden, bursting with flowers all summer, was the pride of the street, while the neighbor's yard was {{2}}, with nothing but weeds.",
    "blanks": [
@@ -117,30 +139,33 @@
     "1C",
     "2A"
    ]
-  },
-  "explanation": "**Start with blank 2:** *nothing but weeds* means empty of anything useful: *barren*. Blank 1 is defined by *bursting with flowers*: *flourishing*.",
-  "choiceExplanations": {
-   "1A": "Dying plants do not burst with flowers.",
-   "1B": "Bursting with flowers is not modest.",
-   "2C": "Weeds only is not lush.",
-   "2B": "A weedy yard is not spotless."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-03",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 2,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** *yet* signals the first act contradicted expectations, and \"untouchable policies\" are changed by an *overhaul*. The expectation was then the opposite: *conservative*.",
+  "choiceExplanations": {
+   "1B": "If a radical had been expected, overhauling policy would not contrast.",
+   "1C": "Eccentricity is not tied to policy change.",
+   "2C": "Preserving would match a conservative, not contrast with it.",
+   "2B": "Praise would not mark a break."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The new manager was widely expected to be {{1}}, yet her first act was to {{2}} the policies that had long been considered untouchable.",
    "blanks": [
@@ -185,30 +210,33 @@
     "1A",
     "2A"
    ]
-  },
-  "explanation": "**Start with blank 2:** *yet* signals the first act contradicted expectations, and \"untouchable policies\" are changed by an *overhaul*. The expectation was then the opposite: *conservative*.",
-  "choiceExplanations": {
-   "1B": "If a radical had been expected, overhauling policy would not contrast.",
-   "1C": "Eccentricity is not tied to policy change.",
-   "2C": "Preserving would match a conservative, not contrast with it.",
-   "2B": "Praise would not mark a break."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-04",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 2,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *insisting further trials were needed* is *cautious*. *Whereas* flips for blank 2: declaring the question settled is optimistic, *sanguine*.",
+  "choiceExplanations": {
+   "1C": "Someone exultant would not demand more trials.",
+   "1B": "She takes the discovery seriously enough to ask for trials.",
+   "2B": "Shy and uncertain people do not declare questions settled.",
+   "2A": "Worry contradicts declaring the matter closed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The scientist was {{1}} about the discovery, insisting that further trials were needed, whereas her junior colleague was {{2}} and declared the question settled.",
    "blanks": [
@@ -253,30 +281,33 @@
     "1A",
     "2C"
    ]
-  },
-  "explanation": "**Start with blank 1:** *insisting further trials were needed* is *cautious*. *Whereas* flips for blank 2: declaring the question settled is optimistic, *sanguine*.",
-  "choiceExplanations": {
-   "1C": "Someone exultant would not demand more trials.",
-   "1B": "She takes the discovery seriously enough to ask for trials.",
-   "2B": "Shy and uncertain people do not declare questions settled.",
-   "2A": "Worry contradicts declaring the matter closed."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-05",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 2,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** laughter means *witty*. *But* ... *left in silence* then gives *grave*.",
+  "choiceExplanations": {
+   "1B": "Somber openings do not produce laughter.",
+   "1A": "Halting speech is unlikely to be laughed with.",
+   "2A": "Laughter would not give way to silence.",
+   "2B": "Trivial words would not hush an audience."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The speaker's {{1}} opening drew laughter, but her conclusion was so {{2}} that the audience left in silence.",
    "blanks": [
@@ -321,30 +352,33 @@
     "1C",
     "2C"
    ]
-  },
-  "explanation": "**Start with blank 1:** laughter means *witty*. *But* ... *left in silence* then gives *grave*.",
-  "choiceExplanations": {
-   "1B": "Somber openings do not produce laughter.",
-   "1A": "Halting speech is unlikely to be laughed with.",
-   "2A": "Laughter would not give way to silence.",
-   "2B": "Trivial words would not hush an audience."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-06",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** *nonetheless* and *wearying* show the plot was empty, so *inconsequential*. The praised photography is then *luminous*.",
+  "choiceExplanations": {
+   "1B": "Dull photography would not be praised.",
+   "1A": "Gaudy photography would not be a reason to praise.",
+   "2A": "A complex plot would keep interest.",
+   "2B": "A gripping plot would not make beauty wearying."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Critics who praised the film's {{1}} photography nonetheless found its plot so {{2}} that the beauty of the images became wearying.",
    "blanks": [
@@ -389,30 +423,35 @@
     "1C",
     "2C"
    ]
-  },
-  "explanation": "**Start with blank 2:** *nonetheless* and *wearying* show the plot was empty, so *inconsequential*. The praised photography is then *luminous*.",
-  "choiceExplanations": {
-   "1B": "Dull photography would not be praised.",
-   "1A": "Gaudy photography would not be a reason to praise.",
-   "2A": "A complex plot would keep interest.",
-   "2B": "A gripping plot would not make beauty wearying."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-07",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** \"praising publicly *while quietly* ... its funding\" means the opposite of support: *undermining*. That makes her attitude *equivocal* (blank 1) and suggests *posturing* (blank 3) rather than support.",
+  "choiceExplanations": {
+   "1A": "Praising and sabotaging is not frank.",
+   "1C": "She actively praises and quietly acts; that is not indifference.",
+   "2B": "Would agree with her praise; *quietly* signals the reverse.",
+   "2C": "The act is described as quiet.",
+   "3B": "Does not give the alternative to being genuine.",
+   "3C": "Open dissent is not what *merely* implies."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The senator's {{1}} attitude toward the bill, praising it publicly while quietly {{2}} its funding, left observers unsure whether she was a genuine supporter or merely {{3}}.",
    "blanks": [
@@ -475,32 +514,35 @@
     "2A",
     "3A"
    ]
-  },
-  "explanation": "**Start with blank 2:** \"praising publicly *while quietly* ... its funding\" means the opposite of support: *undermining*. That makes her attitude *equivocal* (blank 1) and suggests *posturing* (blank 3) rather than support.",
-  "choiceExplanations": {
-   "1A": "Praising and sabotaging is not frank.",
-   "1C": "She actively praises and quietly acts; that is not indifference.",
-   "2B": "Would agree with her praise; *quietly* signals the reverse.",
-   "2C": "The act is described as quiet.",
-   "3B": "Does not give the alternative to being genuine.",
-   "3C": "Open dissent is not what *merely* implies."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-08",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 3:** *as a masterpiece* needs a word of praise: *hailed*. *Although ... earned little* then means it was *overlooked* at home, and *revered* overseas.",
+  "choiceExplanations": {
+   "1A": "Acclaim would not accompany earning little in the *although* contrast.",
+   "1C": "Unrelated to earning little.",
+   "2A": "Contradicts the praise.",
+   "2B": "A film seen as a masterpiece is not negligible.",
+   "3A": "Calling it a masterpiece is not dismissing.",
+   "3B": "Calling it a masterpiece is not ignoring."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Although the film earned little and was {{1}} at home, it became {{2}} overseas, where critics {{3}} it as a masterpiece.",
    "blanks": [
@@ -563,32 +605,35 @@
     "2C",
     "3C"
    ]
-  },
-  "explanation": "**Start with blank 3:** *as a masterpiece* needs a word of praise: *hailed*. *Although ... earned little* then means it was *overlooked* at home, and *revered* overseas.",
-  "choiceExplanations": {
-   "1A": "Acclaim would not accompany earning little in the *although* contrast.",
-   "1C": "Unrelated to earning little.",
-   "2A": "Contradicts the praise.",
-   "2B": "A film seen as a masterpiece is not negligible.",
-   "3A": "Calling it a masterpiece is not dismissing.",
-   "3B": "Calling it a masterpiece is not ignoring."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-09",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *scrupulously honest* is *veracity*. Accounts that vary between books *diverged*. Variation that suggests something *rather than faulty memory* means deliberate addition: *embellishment*.",
+  "choiceExplanations": {
+   "1C": "Humor does not match scrupulous honesty.",
+   "1A": "Output is not what the sentence discusses.",
+   "2B": "Accounts coming together would support honesty.",
+   "2C": "Repetition would not be a problem.",
+   "3A": "Tiredness would be one more cause of faulty memory, not an alternative to it.",
+   "3B": "Reserve would give fewer details, not varying ones."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The memoirist's reputation for {{1}} was hard to square with the evidence: although she presented herself as scrupulously honest, her accounts of the same events {{2}} from one book to the next, a pattern that suggests {{3}} rather than faulty memory.",
    "blanks": [
@@ -651,32 +696,33 @@
     "2A",
     "3C"
    ]
-  },
-  "explanation": "**Start with blank 1:** *scrupulously honest* is *veracity*. Accounts that vary between books *diverged*. Variation that suggests something *rather than faulty memory* means deliberate addition: *embellishment*.",
-  "choiceExplanations": {
-   "1C": "Humor does not match scrupulous honesty.",
-   "1A": "Output is not what the sentence discusses.",
-   "2B": "Accounts coming together would support honesty.",
-   "2C": "Repetition would not be a problem.",
-   "3A": "Tiredness would be one more cause of faulty memory, not an alternative to it.",
-   "3B": "Reserve would give fewer details, not varying ones."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-10",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** terms left vague produce *ambiguity*, which fits \"source of dispute\". The drafters' vagueness was a way to avoid arguments: *acrimony*.",
+  "choiceExplanations": {
+   "1C": "No one is anxious to avoid agreement.",
+   "1B": "Vague terms are not a way to avoid approval.",
+   "2C": "The opposite of vagueness.",
+   "2B": "Does not produce disputes in the way described."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The treaty's drafters, anxious to avoid {{1}}, left key terms deliberately vague; the resulting {{2}} proved a source of dispute within a year.",
    "blanks": [
@@ -721,30 +767,35 @@
     "1A",
     "2A"
    ]
-  },
-  "explanation": "**Start with blank 2:** terms left vague produce *ambiguity*, which fits \"source of dispute\". The drafters' vagueness was a way to avoid arguments: *acrimony*.",
-  "choiceExplanations": {
-   "1C": "No one is anxious to avoid agreement.",
-   "1B": "Vague terms are not a way to avoid approval.",
-   "2C": "The opposite of vagueness.",
-   "2B": "Does not produce disputes in the way described."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-04-multi-blank-11",
   "lessonId": "v1-04-multi-blank",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** unexplained history is *undocumented*. A claim resting on little evidence, with such flaws, is the claim that it is *authentic*, and a witness with a *stake* (an interest) is unreliable.",
+  "choiceExplanations": {
+   "1B": "The listed flaws weaken a claim of authenticity, not a claim of forgery.",
+   "1C": "The evidence concerns genuineness, not completeness.",
+   "2A": "A distinguished history would support the claim.",
+   "2B": "Complete documentation would support the claim.",
+   "3B": "Dislike of its being genuine would make the testimony more credible.",
+   "3A": "Ignorance is not a reason to suspect a witness of bias, which is what the sentence implies."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The author's claim that the manuscript is {{1}} rests on little: its provenance is {{2}}, its handwriting matches no known scribe, and the one witness who vouches for it has an obvious {{3}} in its being genuine.",
    "blanks": [
@@ -807,15 +858,21 @@
     "2C",
     "3C"
    ]
-  },
-  "explanation": "**Start with blank 2:** unexplained history is *undocumented*. A claim resting on little evidence, with such flaws, is the claim that it is *authentic*, and a witness with a *stake* (an interest) is unreliable.",
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-12",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 3:** a response to rivals that comes from fear of error is *deference*. The colon defines blank 2 as *a reluctance to offend*: *timidity*. What it masquerades as is *tolerance*.",
   "choiceExplanations": {
-   "1B": "The listed flaws weaken a claim of authenticity, not a claim of forgery.",
-   "1C": "The evidence concerns genuineness, not completeness.",
-   "2A": "A distinguished history would support the claim.",
-   "2B": "Complete documentation would support the claim.",
-   "3B": "Dislike of its being genuine would make the testimony more credible.",
-   "3A": "Ignorance is not a reason to suspect a witness of bias, which is what the sentence implies."
+   "1A": "Dogmatism is not a virtue that timidity could pass for.",
+   "1C": "Reluctance to offend is not mistaken for enthusiasm.",
+   "2A": "Learning is not described by reluctance to offend.",
+   "2B": "Frankness is the opposite of reluctance to offend.",
+   "3C": "Fear of being wrong does not produce hostility toward rivals.",
+   "3A": "Does not describe a response to rival opinions here."
   },
   "estSeconds": 135,
   "skills": [
@@ -823,16 +880,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-04-multi-blank-12",
-  "lessonId": "v1-04-multi-blank",
+  },
   "type": "TC",
-  "difficulty": 5,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "What passes for {{1}} in the profession is often mere {{2}}: a reluctance to offend, and a {{3}} to rival opinions that stems from fear of being wrong.",
    "blanks": [
@@ -895,24 +949,6 @@
     "2C",
     "3B"
    ]
-  },
-  "explanation": "**Start with blank 3:** a response to rivals that comes from fear of error is *deference*. The colon defines blank 2 as *a reluctance to offend*: *timidity*. What it masquerades as is *tolerance*.",
-  "choiceExplanations": {
-   "1A": "Dogmatism is not a virtue that timidity could pass for.",
-   "1C": "Reluctance to offend is not mistaken for enthusiasm.",
-   "2A": "Learning is not described by reluctance to offend.",
-   "2B": "Frankness is the opposite of reluctance to offend.",
-   "3C": "Fear of being wrong does not produce hostility toward rivals.",
-   "3A": "Does not describe a response to rival opinions here."
-  },
-  "estSeconds": 135,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

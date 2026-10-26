@@ -26,9 +26,28 @@
   {
    "id": "t1-03-navigation-c1",
    "lessonId": "t1-03-navigation",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which of the following can you do within a section?",
+   "explanation": "Changing answers is allowed within a section.",
+   "choiceExplanations": {
+    "B": "No calculator exists there.",
+    "C": "Not provided mid-test.",
+    "D": "Difficulty is set by adaptation.",
+    "E": "The time allotment is fixed."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-navigation"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a2",
+     "solver-b2"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -38,7 +57,7 @@
      },
      {
       "id": "B",
-      "text": "Skip the calculator in Verbal"
+      "text": "Use the calculator in Verbal"
      },
      {
       "id": "C",
@@ -58,36 +77,13 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "Changing answers is allowed within a section.",
-   "choiceExplanations": {
-    "B": "No calculator exists there.",
-    "C": "Not provided mid-test.",
-    "D": "Difficulty is set by adaptation.",
-    "E": "The time allotment is fixed."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "test-navigation"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "t1-03-navigation-c2",
    "lessonId": "t1-03-navigation",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A 12-question, 18-minute section: you answer 8 questions in 10 minutes and mark 4. How many minutes remain for the marked ones?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 8
-   },
    "explanation": "$18-10=8$.",
    "estSeconds": 45,
    "skills": [
@@ -95,16 +91,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
    }
   },
   {
    "id": "t1-03-navigation-c3",
    "lessonId": "t1-03-navigation",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which is the best use of Mark?",
+   "explanation": "Mark helps you skip now and come back later.",
+   "choiceExplanations": {
+    "B": "Not what it does.",
+    "C": "It does not.",
+    "D": "It is a navigation aid.",
+    "E": "It does not."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-navigation"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -134,22 +159,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "Mark helps you skip now and come back later.",
-   "choiceExplanations": {
-    "B": "Not what it does.",
-    "C": "It does not.",
-    "D": "It is a navigation aid.",
-    "E": "It does not."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "test-navigation"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

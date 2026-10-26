@@ -28,10 +28,29 @@
   {
    "id": "v3-01-formats-c1",
    "lessonId": "v3-01-formats",
-   "type": "RC",
    "difficulty": 1,
    "stem": "According to the passage, why must bakers feed a starter regularly?",
+   "explanation": "The second sentence gives the reason: the microbes exhaust their sugar within a day or so.",
+   "choiceExplanations": {
+    "A": "Not stated: a neglected starter can usually be revived.",
+    "C": "Commercial yeast is the thing sourdough avoids.",
+    "D": "The passage links neglect to sourness, not feeding to flavor.",
+    "E": "Contradicted: it 'can usually be revived'."
+   },
+   "estSeconds": 65,
+   "skills": [
+    "rc-formats"
+   ],
    "passageId": "v3-c-01",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -61,31 +80,31 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "The second sentence gives the reason: the microbes exhaust their sugar within a day or so.",
-   "choiceExplanations": {
-    "A": "Not stated: a neglected starter can usually be revived.",
-    "C": "Commercial yeast is the thing sourdough avoids.",
-    "D": "The passage links neglect to sourness, not feeding to flavor.",
-    "E": "Contradicted: it 'can usually be revived'."
-   },
-   "estSeconds": 65,
-   "skills": [
-    "rc-formats"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-01-formats-c2",
    "lessonId": "v3-01-formats",
-   "type": "RC",
    "difficulty": 1,
    "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, a neglected starter",
+   "explanation": "Select-all questions are graded choice by choice: A and B restate the last sentence, and C contradicts it. All three can be right, or only one.",
+   "choiceExplanations": {
+    "C": "The passage says it can usually be revived."
+   },
+   "estSeconds": 80,
+   "skills": [
+    "rc-formats"
+   ],
    "passageId": "v3-c-01",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_all",
     "choices": [
@@ -108,43 +127,33 @@
      "A",
      "B"
     ]
-   },
-   "explanation": "Select-all questions are graded choice by choice: A and B restate the last sentence, and C contradicts it. All three can be right, or only one.",
-   "choiceExplanations": {
-    "C": "The passage says it can usually be revived."
-   },
-   "estSeconds": 80,
-   "skills": [
-    "rc-formats"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-01-formats-c3",
    "lessonId": "v3-01-formats",
-   "type": "RC",
    "difficulty": 1,
    "stem": "Select the sentence that explains what makes the bread rise.",
-   "passageId": "v3-c-01",
-   "content": {
-    "format": "select_in_passage"
-   },
-   "answer": {
-    "sentence": "Sourdough bread rises without commercial yeast because a starter culture of wild yeasts and bacteria produces gas as it ferments flour."
-   },
    "explanation": "Only the first sentence says what produces the gas that raises the dough.",
    "estSeconds": 53,
    "skills": [
     "rc-formats"
    ],
+   "passageId": "v3-c-01",
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_in_passage"
+   },
+   "answer": {
+    "sentence": "Sourdough bread rises without commercial yeast because a starter culture of wild yeasts and bacteria produces gas as it ferments flour."
    }
   }
  ]

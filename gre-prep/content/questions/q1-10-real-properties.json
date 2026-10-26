@@ -2,15 +2,8 @@
  {
   "id": "q1-10-real-properties-01",
   "lessonId": "q1-10-real-properties",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is the value of $43\\cdot7+43\\cdot3$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 430
-  },
   "explanation": "Factor out 43: $43(7+3) = 430$.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 430
   }
  },
  {
   "id": "q1-10-real-properties-02",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which of the following is undefined?",
+  "explanation": "Division by 0 is undefined. The others are defined: $\\frac{0}{5} = 0$, $0\\cdot\\frac{1}{5} = 0$, $5^0 = 1$, $0^5 = 0$.",
+  "choiceExplanations": {
+   "A": "$\\frac{0}{5} = 0$; only a zero denominator is a problem.",
+   "B": "This is a product with 0, equal to 0.",
+   "D": "$5^0 = 1$.",
+   "E": "$0^5 = 0$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,30 +79,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Division by 0 is undefined. The others are defined: $\\frac{0}{5} = 0$, $0\\cdot\\frac{1}{5} = 0$, $5^0 = 1$, $0^5 = 0$.",
-  "choiceExplanations": {
-   "A": "$\\frac{0}{5} = 0$; only a zero denominator is a problem.",
-   "B": "This is a product with 0, equal to 0.",
-   "D": "$5^0 = 1$.",
-   "E": "$0^5 = 0$."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-03",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 2,
   "stem": "The real numbers $r$ and $s$ are both negative. Which of the following must be negative?",
+  "explanation": "The sum of two negative numbers is negative. The product of two negatives is positive, a square is positive, and absolute values are positive.",
+  "choiceExplanations": {
+   "A": "negative $\\cdot$ negative is positive.",
+   "C": "A square of a nonzero number is positive.",
+   "D": "$|r|>0$ for $r\\ne0$.",
+   "E": "A sum of positives is positive."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,37 +135,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "The sum of two negative numbers is negative. The product of two negatives is positive, a square is positive, and absolute values are positive.",
-  "choiceExplanations": {
-   "A": "negative $\\cdot$ negative is positive.",
-   "C": "A square of a nonzero number is positive.",
-   "D": "$|r|>0$ for $r\\ne0$.",
-   "E": "A sum of positives is positive."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-04",
   "lessonId": "q1-10-real-properties",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$(-3)(-4)$",
-   "quantityB": "$(-3)+(-4)$"
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "$(-3)(-4) = 12$ (negative times negative is positive) and $(-3)+(-4) = -7$. A is greater.",
   "estSeconds": 75,
   "skills": [
@@ -148,16 +149,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(-3)(-4)$",
+   "quantityB": "$(-3)+(-4)$"
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q1-10-real-properties-05",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following are equal to $3(x+4)$ for every real $x$? Indicate all such expressions.",
+  "explanation": "Distribute: $3(x+4) = 3x+12$. Multiplication and addition are commutative, so $(x+4)\\cdot3$ and $12+3x$ are the same too. $3x+4$ forgets to multiply the 4, and $12x$ multiplies instead of adding.",
+  "choiceExplanations": {
+   "B": "The 3 must multiply both terms: $3\\cdot4 = 12$.",
+   "D": "$3\\cdot x\\cdot4$ would be $12x$, but the expression adds $x$ and 4 before multiplying by 3."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -189,34 +218,13 @@
     "C",
     "E"
    ]
-  },
-  "explanation": "Distribute: $3(x+4) = 3x+12$. Multiplication and addition are commutative, so $(x+4)\\cdot3$ and $12+3x$ are the same too. $3x+4$ forgets to multiply the 4, and $12x$ multiplies instead of adding.",
-  "choiceExplanations": {
-   "B": "The 3 must multiply both terms: $3\\cdot4 = 12$.",
-   "D": "$3\\cdot x\\cdot4$ would be $12x$, but the expression adds $x$ and 4 before multiplying by 3."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-06",
   "lessonId": "q1-10-real-properties",
-  "type": "NE",
   "difficulty": 3,
   "stem": "If $(n-3)(n+8)=0$ and $n<0$, what is the value of $n$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": -8
-  },
   "explanation": "A zero product means $n-3=0$ or $n+8=0$, so $n=3$ or $n=-8$. Only $-8$ is negative.",
   "estSeconds": 60,
   "skills": [
@@ -224,16 +232,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -8
   }
  },
  {
   "id": "q1-10-real-properties-07",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which of the following is true for all real numbers $r$ and $s$?",
+  "explanation": "This is the triangle inequality: $|r+s|\\le|r|+|s|$. Equality holds when $r$ and $s$ have the same sign, but with opposite signs the left side shrinks.",
+  "choiceExplanations": {
+   "A": "Test $r=2$, $s=-3$: $|-1| = 1\\ne5$.",
+   "B": "Test $r=2$, $s=-3$: $1\\ge5$ is false.",
+   "D": "Test $r=s=1$: $2<2$ is false (equality happens when signs agree).",
+   "E": "$|rs| = |r|\\,|s|$ always, so a strict inequality is never true."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -263,37 +300,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "This is the triangle inequality: $|r+s|\\le|r|+|s|$. Equality holds when $r$ and $s$ have the same sign, but with opposite signs the left side shrinks.",
-  "choiceExplanations": {
-   "A": "Test $r=2$, $s=-3$: $|-1| = 1\\ne5$.",
-   "B": "Test $r=2$, $s=-3$: $1\\ge5$ is false.",
-   "D": "Test $r=s=1$: $2<2$ is false (equality happens when signs agree).",
-   "E": "$|rs| = |r|\\,|s|$ always, so a strict inequality is never true."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-08",
   "lessonId": "q1-10-real-properties",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$(1.1)^2$",
-   "quantityB": "$1.1$"
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "For a number greater than 1, squaring makes it bigger: $(1.1)^2 = 1.21>1.1$. A is greater.",
   "estSeconds": 75,
   "skills": [
@@ -301,16 +314,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(1.1)^2$",
+   "quantityB": "$1.1$"
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q1-10-real-properties-09",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 4,
   "stem": "If $ab=0$ and $a+b=7$, what is the value of $a^2+b^2$?",
+  "explanation": "$ab=0$ means $a=0$ or $b=0$. With $a+b=7$ the other must be 7, so $a^2+b^2 = 0+49 = 49$.",
+  "choiceExplanations": {
+   "A": "This ignores that one of the numbers is 7.",
+   "B": "This forgets to square.",
+   "C": "This doubles 7 instead of squaring it.",
+   "E": "This counts the 49 twice."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -340,30 +383,32 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "$ab=0$ means $a=0$ or $b=0$. With $a+b=7$ the other must be 7, so $a^2+b^2 = 0+49 = 49$.",
-  "choiceExplanations": {
-   "A": "This ignores that one of the numbers is 7.",
-   "B": "This forgets to square.",
-   "C": "This doubles 7 instead of squaring it.",
-   "E": "This counts the 49 twice."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-10",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Which of the following are true for all real numbers $r$ and $s$? Indicate all such statements.",
+  "explanation": "The absolute value of a product is the product of absolute values, and $r(s+1) = rs+r$ is the distributive property. The others fail: $r=2,s=-3$ breaks the second; $r=\\frac{1}{2}$ breaks the third ($\\frac{1}{4}<\\frac{1}{2}$); $r=s=1$ breaks the last ($4\\ne2$).",
+  "choiceExplanations": {
+   "B": "With $r=2$, $s=-3$: $1\\ne5$.",
+   "C": "For $r=\\frac{1}{2}$, $r^2 = \\frac{1}{4}<r$.",
+   "E": "With $r=s=1$: $(r+s)^2 = 4$ but $r^2+s^2 = 2$ (the cross term $2rs$ is missing)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -394,35 +439,13 @@
     "A",
     "D"
    ]
-  },
-  "explanation": "The absolute value of a product is the product of absolute values, and $r(s+1) = rs+r$ is the distributive property. The others fail: $r=2,s=-3$ breaks the second; $r=\\frac{1}{2}$ breaks the third ($\\frac{1}{4}<\\frac{1}{2}$); $r=s=1$ breaks the last ($4\\ne2$).",
-  "choiceExplanations": {
-   "B": "With $r=2$, $s=-3$: $1\\ne5$.",
-   "C": "For $r=\\frac{1}{2}$, $r^2 = \\frac{1}{4}<r$.",
-   "E": "With $r=s=1$: $(r+s)^2 = 4$ but $r^2+s^2 = 2$ (the cross term $2rs$ is missing)."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-10-real-properties-11",
   "lessonId": "q1-10-real-properties",
-  "type": "NE",
   "difficulty": 5,
   "stem": "How many integers $n$ satisfy $n^2<n$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 0
-  },
   "explanation": "Check by cases. If $n\\ge1$, then $n^2\\ge n$. If $n=0$, $n^2 = n$. If $n<0$, then $n^2>0>n$. So $n^2<n$ only for $0<n<1$, and no integer lies there: the answer is 0.",
   "estSeconds": 100,
   "skills": [
@@ -430,16 +453,43 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 0
   }
  },
  {
   "id": "q1-10-real-properties-12",
   "lessonId": "q1-10-real-properties",
-  "type": "PS",
   "difficulty": 5,
   "stem": "For which of the following pairs $(r,s)$ does $|r+s| = |r|+|s|$? Indicate all such pairs.",
+  "explanation": "Compute both sides. $(3,5)$: $8 = 8$. $(-3,-5)$: $|-8| = 8 = 3+5$. $(0,-4)$: $4 = 0+4$. $(3,-5)$: $|-2| = 2$ but $3+5 = 8$. $(-2,2)$: $0$ but $4$. Equality needs the numbers to have the same sign (or one to be 0).",
+  "choiceExplanations": {
+   "C": "$|3+(-5)| = 2\\ne8$.",
+   "E": "$|-2+2| = 0\\ne4$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -471,20 +521,6 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Compute both sides. $(3,5)$: $8 = 8$. $(-3,-5)$: $|-8| = 8 = 3+5$. $(0,-4)$: $4 = 0+4$. $(3,-5)$: $|-2| = 2$ but $3+5 = 8$. $(-2,2)$: $0$ but $4$. Equality needs the numbers to have the same sign (or one to be 0).",
-  "choiceExplanations": {
-   "C": "$|3+(-5)| = 2\\ne8$.",
-   "E": "$|-2+2| = 0\\ne4$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "real-properties"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

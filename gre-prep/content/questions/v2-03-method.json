@@ -2,9 +2,28 @@
  {
   "id": "v2-03-method-01",
   "lessonId": "v2-03-method",
-  "type": "SE",
   "difficulty": 1,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** read, then predict. A twelve-hour climb followed by instant bed means *tired*; *exhausted* and *weary* both match.",
+  "choiceExplanations": {
+   "A": "Restless people do not go to bed at once.",
+   "D": "Anger is not suggested by the climb or the early bedtime.",
+   "B": "Means confused; unrelated to physical effort.",
+   "C": "Talkative hikers would stay up chatting."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The hikers were {{1}} after the twelve-hour climb and went to bed as soon as they reached camp.",
    "choices": [
@@ -39,13 +58,19 @@
     "E",
     "F"
    ]
-  },
-  "explanation": "**Method:** read, then predict. A twelve-hour climb followed by instant bed means *tired*; *exhausted* and *weary* both match.",
+  }
+ },
+ {
+  "id": "v2-03-method-02",
+  "lessonId": "v2-03-method",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Unlike* reverses \"cheerful\"; \"rarely smiling\" confirms it. Predict *gloomy*; *glum* and *morose* match.",
   "choiceExplanations": {
-   "A": "Restless people do not go to bed at once.",
-   "D": "Anger is not suggested by the climb or the early bedtime.",
-   "B": "Means confused; unrelated to physical effort.",
-   "C": "Talkative hikers would stay up chatting."
+   "D": "Means cheerful, the same as the brother; *unlike* needs the opposite.",
+   "C": "Says nothing about mood.",
+   "A": "Says nothing about mood.",
+   "E": "Describes speed, not mood."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-02",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 1,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Unlike her cheerful brother, Dana was usually {{1}}, rarely smiling or joking.",
    "choices": [
@@ -97,30 +119,33 @@
     "B",
     "F"
    ]
-  },
-  "explanation": "**Signal:** *Unlike* reverses \"cheerful\"; \"rarely smiling\" confirms it. Predict *gloomy*; *glum* and *morose* match.",
-  "choiceExplanations": {
-   "D": "Means cheerful, the same as the brother; *unlike* needs the opposite.",
-   "C": "Says nothing about mood.",
-   "A": "Says nothing about mood.",
-   "E": "Describes speed, not mood."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-03-method-03",
   "lessonId": "v2-03-method",
-  "type": "SE",
   "difficulty": 2,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** the colon-like clue \"dozens of small businesses replacing\" one mill means many different sources of income. Predict *diverse*; *diverse* and *varied* match.",
+  "choiceExplanations": {
+   "B": "Means not growing; the new businesses do not imply stagnation.",
+   "A": "Means combined into one, the reverse of dozens of small firms.",
+   "F": "Means isolated; nothing in the sentence concerns isolation.",
+   "C": "Means out of date, which does not follow from new businesses."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The town's economy, once dominated by a single mill, has become far more {{1}}, with dozens of small businesses replacing it.",
    "choices": [
@@ -155,13 +180,19 @@
     "E",
     "D"
    ]
-  },
-  "explanation": "**Method:** the colon-like clue \"dozens of small businesses replacing\" one mill means many different sources of income. Predict *diverse*; *diverse* and *varied* match.",
+  }
+ },
+ {
+  "id": "v2-03-method-04",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** \"surprised\" tells you her past was the opposite of her present ardent support. Predict *fought*; *opposed* and *resisted*.",
   "choiceExplanations": {
-   "B": "Means not growing; the new businesses do not imply stagnation.",
-   "A": "Means combined into one, the reverse of dozens of small firms.",
-   "F": "Means isolated; nothing in the sentence concerns isolation.",
-   "C": "Means out of date, which does not follow from new businesses."
+   "D": "Would mean she had always supported such measures, so there would be no surprise.",
+   "C": "Writing similar bills would also make her support unsurprising.",
+   "E": "Promoting them would not be surprising either.",
+   "A": "Changing them is neutral and would not produce surprise."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-04",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The senator's ardent support of the bill surprised those who knew that she had {{1}} similar measures for years.",
    "choices": [
@@ -213,13 +241,19 @@
     "B",
     "F"
    ]
-  },
-  "explanation": "**Signal:** \"surprised\" tells you her past was the opposite of her present ardent support. Predict *fought*; *opposed* and *resisted*.",
+  }
+ },
+ {
+  "id": "v2-03-method-05",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Because* ... *could not reach a verdict*. Evidence that fails to settle the question is *inconclusive* or *ambiguous*.",
   "choiceExplanations": {
-   "D": "Would mean she had always supported such measures, so there would be no surprise.",
-   "C": "Writing similar bills would also make her support unsurprising.",
-   "E": "Promoting them would not be surprising either.",
-   "A": "Changing them is neutral and would not produce surprise."
+   "C": "Overwhelming evidence would make a verdict easy.",
+   "F": "Repetitive evidence does not make a verdict impossible.",
+   "E": "Vividness does not prevent a decision.",
+   "A": "Describes agreement among people, not a feature of evidence, and agreement would produce a verdict."
   },
   "estSeconds": 60,
   "skills": [
@@ -227,16 +261,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-05",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Because the evidence was {{1}}, the jury could not reach a verdict.",
    "choices": [
@@ -271,30 +302,33 @@
     "D",
     "B"
    ]
-  },
-  "explanation": "**Signal:** *Because* ... *could not reach a verdict*. Evidence that fails to settle the question is *inconclusive* or *ambiguous*.",
-  "choiceExplanations": {
-   "C": "Overwhelming evidence would make a verdict easy.",
-   "F": "Repetitive evidence does not make a verdict impossible.",
-   "E": "Vividness does not prevent a decision.",
-   "A": "Describes agreement among people, not a feature of evidence, and agreement would produce a verdict."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-03-method-06",
   "lessonId": "v2-03-method",
-  "type": "SE",
   "difficulty": 3,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *While conceding* introduces something positive that the critics grant before the *but*-like claim that data are lacking. Predict a compliment: *elegant* and *ingenious*.",
+  "choiceExplanations": {
+   "D": "Critics would not need to concede this; it agrees with their complaint, so no concession is made.",
+   "A": "A criticism, not a concession.",
+   "B": "A criticism, not a concession.",
+   "E": "A serious criticism, not something to concede in the theory's favor."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "While conceding that the theory is {{1}}, its critics maintain that no existing data actually support it.",
    "choices": [
@@ -329,13 +363,19 @@
     "C",
     "F"
    ]
-  },
-  "explanation": "**Signal:** *While conceding* introduces something positive that the critics grant before the *but*-like claim that data are lacking. Predict a compliment: *elegant* and *ingenious*.",
+  }
+ },
+ {
+  "id": "v2-03-method-07",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** a builder of a monument to learning who could barely read is the opposite of what we expect. Predict *ironic*; *ironic* and *paradoxical* match.",
   "choiceExplanations": {
-   "D": "Critics would not need to concede this; it agrees with their complaint, so no concession is made.",
-   "A": "A criticism, not a concession.",
-   "B": "A criticism, not a concession.",
-   "E": "A serious criticism, not something to concede in the theory's favor."
+   "D": "Would mean appropriate, but his illiteracy does not suit a library.",
+   "B": "Nothing suggests it had to happen.",
+   "C": "Illiteracy is not praiseworthy.",
+   "A": "The sentence presents the situation as striking, not usual."
   },
   "estSeconds": 75,
   "skills": [
@@ -343,16 +383,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-07",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "It is {{1}} that the architect who designed the city's most celebrated library, a monument to learning, was himself barely literate.",
    "choices": [
@@ -387,13 +424,19 @@
     "F",
     "E"
    ]
-  },
-  "explanation": "**Clue:** a builder of a monument to learning who could barely read is the opposite of what we expect. Predict *ironic*; *ironic* and *paradoxical* match.",
+  }
+ },
+ {
+  "id": "v2-03-method-08",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** only heavy spending funded entirely by debt would leave a firm unable to pay. Predict *excessive*; *profligate* and *extravagant*.",
   "choiceExplanations": {
-   "D": "Would mean appropriate, but his illiteracy does not suit a library.",
-   "B": "Nothing suggests it had to happen.",
-   "C": "Illiteracy is not praiseworthy.",
-   "A": "The sentence presents the situation as striking, not usual."
+   "A": "Frugal spending would not ruin a firm.",
+   "D": "Tiny spending could not cause such trouble.",
+   "F": "Means hesitant; it does not explain the size of debts.",
+   "B": "Means careful and principled, the opposite of the problem."
   },
   "estSeconds": 75,
   "skills": [
@@ -401,16 +444,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-08",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The firm's {{1}} spending, financed entirely by borrowing, left it unable to pay its debts.",
    "choices": [
@@ -445,30 +485,33 @@
     "C",
     "E"
    ]
-  },
-  "explanation": "**Clue:** only heavy spending funded entirely by debt would leave a firm unable to pay. Predict *excessive*; *profligate* and *extravagant*.",
-  "choiceExplanations": {
-   "A": "Frugal spending would not ruin a firm.",
-   "D": "Tiny spending could not cause such trouble.",
-   "F": "Means hesitant; it does not explain the size of debts.",
-   "B": "Means careful and principled, the opposite of the problem."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-03-method-09",
   "lessonId": "v2-03-method",
-  "type": "SE",
   "difficulty": 4,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** \"apparent\" ... \"in fact calculated\" and \"by yielding\". What looked like giving in was strategy. *Acquiescence* and *compliance*.",
+  "choiceExplanations": {
+   "E": "Stubbornness contradicts \"yielding on minor points\".",
+   "B": "Does not match yielding.",
+   "C": "Concerns spending, not yielding.",
+   "A": "Frankness has nothing to do with yielding."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The ruler's apparent {{1}} was in fact calculated: by yielding on minor points, he preserved his authority on the matters that counted.",
    "choices": [
@@ -503,13 +546,19 @@
     "D",
     "F"
    ]
-  },
-  "explanation": "**Signal:** \"apparent\" ... \"in fact calculated\" and \"by yielding\". What looked like giving in was strategy. *Acquiescence* and *compliance*.",
+  }
+ },
+ {
+  "id": "v2-03-method-10",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *though* sets presentation against reality. A self-justifying book would not claim to be one-sided, so it was presented as fair: *objective* and *impartial*.",
   "choiceExplanations": {
-   "E": "Stubbornness contradicts \"yielding on minor points\".",
-   "B": "Does not match yielding.",
-   "C": "Concerns spending, not yielding.",
-   "A": "Frankness has nothing to do with yielding."
+   "C": "A style label that does not contrast with self-justification.",
+   "B": "Comprehensiveness is not opposed to self-justification.",
+   "A": "Does not contrast with self-justification.",
+   "F": "Nostalgia is compatible with self-justification, so *though* would have no work to do."
   },
   "estSeconds": 90,
   "skills": [
@@ -517,16 +566,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-10",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 4,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The memoir, though presented as {{1}}, is regarded by historians as an exercise in self-justification.",
    "choices": [
@@ -561,30 +607,33 @@
     "D",
     "E"
    ]
-  },
-  "explanation": "**Signal:** *though* sets presentation against reality. A self-justifying book would not claim to be one-sided, so it was presented as fair: *objective* and *impartial*.",
-  "choiceExplanations": {
-   "C": "A style label that does not contrast with self-justification.",
-   "B": "Comprehensiveness is not opposed to self-justification.",
-   "A": "Does not contrast with self-justification.",
-   "F": "Nostalgia is compatible with self-justification, so *though* would have no work to do."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-03-method-11",
   "lessonId": "v2-03-method",
-  "type": "SE",
   "difficulty": 5,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** the reaction owed \"less to its defects\" (so it was a hostile reaction) and later readers found it only \"accomplished\". Predict *condemned*; *reviled* and *vilified* both match.",
+  "choiceExplanations": {
+   "C": "A reaction to defects would be negative; praise does not fit \"owed less to its defects\".",
+   "D": "Imitation would not be linked to defects.",
+   "E": "Scholarly note-taking is not a reaction to defects or to a challenge.",
+   "F": "A publishing format, not a reaction."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "That the novelist's early work was {{1}} by contemporaries owed less to its defects than to its challenge to the reigning conventions; later readers, no longer holding those conventions sacred, found it merely accomplished.",
    "choices": [
@@ -619,13 +668,19 @@
     "B",
     "A"
    ]
-  },
-  "explanation": "**Clue:** the reaction owed \"less to its defects\" (so it was a hostile reaction) and later readers found it only \"accomplished\". Predict *condemned*; *reviled* and *vilified* both match.",
+  }
+ },
+ {
+  "id": "v2-03-method-12",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** the publicity was \"useful\" yet clashed with his austere image, so he sought it eagerly. Predict *fondness*: *penchant* and *predilection*.",
   "choiceExplanations": {
-   "C": "A reaction to defects would be negative; praise does not fit \"owed less to its defects\".",
-   "D": "Imitation would not be linked to defects.",
-   "E": "Scholarly note-taking is not a reaction to defects or to a challenge.",
-   "F": "A publishing format, not a reaction."
+   "C": "Scorn for publicity would not conflict with an austere image, and could not help the budget.",
+   "D": "Means being unaffected; it does not suggest he pursued publicity.",
+   "E": "Fear of publicity would not clash with his image or help the budget.",
+   "B": "Means longing for the past, unrelated to publicity."
   },
   "estSeconds": 120,
   "skills": [
@@ -633,16 +688,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-03-method-12",
-  "lessonId": "v2-03-method",
+  },
   "type": "SE",
-  "difficulty": 5,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Even admirers of the physicist conceded that his {{1}} for publicity, though undeniably useful to his research budget, sat uneasily with the austere image of science he professed.",
    "choices": [
@@ -677,22 +729,6 @@
     "F",
     "A"
    ]
-  },
-  "explanation": "**Signal:** the publicity was \"useful\" yet clashed with his austere image, so he sought it eagerly. Predict *fondness*: *penchant* and *predilection*.",
-  "choiceExplanations": {
-   "C": "Scorn for publicity would not conflict with an austere image, and could not help the budget.",
-   "D": "Means being unaffected; it does not suggest he pursued publicity.",
-   "E": "Fear of publicity would not clash with his image or help the budget.",
-   "B": "Means longing for the past, unrelated to publicity."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

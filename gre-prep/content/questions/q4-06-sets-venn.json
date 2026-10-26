@@ -2,15 +2,8 @@
  {
   "id": "q4-06-sets-venn-01",
   "lessonId": "q4-06-sets-venn",
-  "type": "NE",
   "difficulty": 1,
   "stem": "How many elements are in the union of the sets $\\{2, 4, 6, 8\\}$ and $\\{4, 8, 10\\}$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 5
-  },
   "explanation": "The union is $\\{2, 4, 6, 8, 10\\}$, listing the shared elements 4 and 8 once. It has 5 elements.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
   }
  },
  {
   "id": "q4-06-sets-venn-02",
   "lessonId": "q4-06-sets-venn",
-  "type": "PS",
   "difficulty": 1,
   "stem": "How many elements does the set $\\{1, 2, 2, 3, 3, 3\\}$ have?",
+  "explanation": "In a set, repeats are not counted again: the distinct elements are 1, 2 and 3.",
+  "choiceExplanations": {
+   "A": "Only the value 1 appears once; the set has more elements than that.",
+   "B": "Only 2 and 3 are repeated; the set has three distinct elements.",
+   "D": "6 counts the repeats, as in a list.",
+   "E": "14 is the sum of the listed numbers, not the count."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,30 +79,41 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "In a set, repeats are not counted again: the distinct elements are 1, 2 and 3.",
-  "choiceExplanations": {
-   "A": "Only the value 1 appears once; the set has more elements than that.",
-   "B": "Only 2 and 3 are repeated; the set has three distinct elements.",
-   "D": "6 counts the repeats, as in a list.",
-   "E": "14 is the sum of the listed numbers, not the count."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "sets"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-06-sets-venn-03",
   "lessonId": "q4-06-sets-venn",
-  "type": "DI",
   "difficulty": 2,
   "stem": "How many of the residents surveyed use the library but not the gym?",
+  "explanation": "Library users who also use the gym are in the overlap, so library only $= 75 - 30 = 45$.",
+  "choiceExplanations": {
+   "A": "30 is the number who use both.",
+   "C": "75 is all library users, including those who also use the gym.",
+   "D": "105 is $75 + 30$, which counts the overlap twice.",
+   "E": "140 is the number who use at least one facility."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Facilities used by 200 residents surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Library: 75 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Gym: 95 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">30</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 residents surveyed. The Library circle has 75 residents in all, the Gym circle has 95 in all, and 30 residents are in both circles."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "DI",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,44 +143,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Library users who also use the gym are in the overlap, so library only $= 75 - 30 = 45$.",
-  "choiceExplanations": {
-   "A": "30 is the number who use both.",
-   "C": "75 is all library users, including those who also use the gym.",
-   "D": "105 is $75 + 30$, which counts the overlap twice.",
-   "E": "140 is the number who use at least one facility."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "venn"
-  ],
-  "figure": {
-   "kind": "svg",
-   "title": "Facilities used by 200 residents surveyed",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Library: 75 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Gym: 95 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">30</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
-    "alt": "Venn diagram inside a rectangle for 200 residents surveyed. The Library circle has 75 residents in all, the Gym circle has 95 in all, and 30 residents are in both circles."
-   }
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-06-sets-venn-04",
   "lessonId": "q4-06-sets-venn",
-  "type": "NE",
   "difficulty": 2,
   "stem": "Of 40 students, 25 take Spanish, 18 take French, and 8 take both languages. How many of the 40 students take neither language?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 5
-  },
   "explanation": "Students taking at least one: $25 + 18 - 8 = 35$. Neither: $40 - 35 = 5$.",
   "estSeconds": 75,
   "skills": [
@@ -155,24 +157,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
   }
  },
  {
   "id": "q4-06-sets-venn-05",
   "lessonId": "q4-06-sets-venn",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The number of elements in $A \\cup B$",
-   "quantityB": "50",
-   "common": "$|A| = 30$, $|B| = 20$ and $|A \\cap B| = 5$."
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "$|A \\cup B| = 30 + 20 - 5 = 45$. Quantity B, 50, is greater.",
   "estSeconds": 60,
   "skills": [
@@ -180,16 +183,47 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of elements in $A \\cup B$",
+   "quantityB": "50",
+   "common": "$|A| = 30$, $|B| = 20$ and $|A \\cap B| = 5$."
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q4-06-sets-venn-06",
   "lessonId": "q4-06-sets-venn",
-  "type": "PS",
   "difficulty": 3,
   "stem": "In a group of 60 people, 38 speak French, 29 speak German, and 11 speak neither language. How many of the 60 people speak both languages?",
+  "explanation": "People speaking at least one language: $60 - 11 = 49$. Then $49 = 38 + 29 - \\text{both}$, so both $= 67 - 49 = 18$.",
+  "choiceExplanations": {
+   "A": "7 comes from $38 + 29 - 60$, which forgets that 11 people speak neither.",
+   "B": "11 is the number who speak neither language.",
+   "D": "27 is $38 - 11$, which has no meaning here.",
+   "E": "49 is the number who speak at least one language."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -219,39 +253,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "People speaking at least one language: $60 - 11 = 49$. Then $49 = 38 + 29 - \\text{both}$, so both $= 67 - 49 = 18$.",
-  "choiceExplanations": {
-   "A": "7 comes from $38 + 29 - 60$, which forgets that 11 people speak neither.",
-   "B": "11 is the number who speak neither language.",
-   "D": "27 is $38 - 11$, which has no meaning here.",
-   "E": "49 is the number who speak at least one language."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "inclusion-exclusion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-06-sets-venn-07",
   "lessonId": "q4-06-sets-venn",
-  "type": "DI",
   "difficulty": 3,
   "stem": "How many of the residents surveyed use neither the library nor the gym?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer"
-   }
-  },
-  "answer": {
-   "value": 60
-  },
   "explanation": "At least one facility: $75 + 95 - 30 = 140$. Neither: $200 - 140 = 60$.",
   "estSeconds": 75,
   "skills": [
@@ -267,16 +275,46 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 60
   }
  },
  {
   "id": "q4-06-sets-venn-08",
   "lessonId": "q4-06-sets-venn",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Let $S = \\{1, 2, 3, 4\\}$, $T = \\{3, 4, 5\\}$ and $U = \\{5, 6\\}$. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$S$ and $U$ share no element. $T$ and $U$ share 5. Together the sets contain 1 through 6. $S \\cap T = \\{3, 4\\}$ has 2 elements.",
+  "choiceExplanations": {
+   "B": "Both $T$ and $U$ contain 5.",
+   "D": "$S \\cap T = \\{3, 4\\}$, which has 2 elements."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -303,34 +341,13 @@
     "A",
     "C"
    ]
-  },
-  "explanation": "$S$ and $U$ share no element. $T$ and $U$ share 5. Together the sets contain 1 through 6. $S \\cap T = \\{3, 4\\}$ has 2 elements.",
-  "choiceExplanations": {
-   "B": "Both $T$ and $U$ contain 5.",
-   "D": "$S \\cap T = \\{3, 4\\}$, which has 2 elements."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "sets"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-06-sets-venn-09",
   "lessonId": "q4-06-sets-venn",
-  "type": "NE",
   "difficulty": 4,
   "stem": "Of 100 students, 60 take math, 45 take physics, and 20 take neither subject. How many of the 100 students take exactly one of the two subjects?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 55
-  },
   "explanation": "At least one subject: $100 - 20 = 80$. Both: $60 + 45 - 80 = 25$. Exactly one: $80 - 25 = 55$ (or $35 + 20$).",
   "estSeconds": 120,
   "skills": [
@@ -339,26 +356,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 55
   }
  },
  {
   "id": "q4-06-sets-venn-10",
   "lessonId": "q4-06-sets-venn",
-  "type": "DI",
   "difficulty": 4,
   "stem": "What percent of the residents surveyed use exactly one of the two facilities?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer",
-    "unit": "%"
-   }
-  },
-  "answer": {
-   "value": 55
-  },
   "explanation": "Library only: $75 - 30 = 45$. Gym only: $95 - 30 = 65$. Exactly one: $45 + 65 = 110$, and $\\frac{110}{200} = 55\\%$.",
   "estSeconds": 100,
   "skills": [
@@ -374,22 +390,29 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 55
   }
  },
  {
   "id": "q4-06-sets-venn-11",
   "lessonId": "q4-06-sets-venn",
-  "type": "NE",
   "difficulty": 5,
   "stem": "Of 80 employees, 50 use software A and 40 use software B. What is the least possible number of employees who use both?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 10
-  },
   "explanation": "Those using A or B number at most 80, and $|A \\cup B| = 50 + 40 - |A \\cap B| \\le 80$. So $|A \\cap B| \\ge 10$. The least possible value is 10.",
   "estSeconds": 120,
   "skills": [
@@ -397,16 +420,42 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 10
   }
  },
  {
   "id": "q4-06-sets-venn-12",
   "lessonId": "q4-06-sets-venn",
-  "type": "PS",
   "difficulty": 5,
   "stem": "A group of 40 people includes 25 who play chess and 22 who play checkers. Which of the following could be the number of people in the group who play both games? Indicate all such numbers.",
+  "explanation": "If $b$ people play both, then $25 + 22 - b$ people play at least one game, and this cannot exceed 40, so $b \\ge 7$. Also $b$ cannot exceed 22 (the checkers players). So $b$ can be any value from 7 to 22.",
+  "choiceExplanations": {
+   "A": "With 5 playing both, $25 + 22 - 5 = 42$ people would play at least one game, more than the 40 in the group."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -439,19 +488,6 @@
     "D",
     "E"
    ]
-  },
-  "explanation": "If $b$ people play both, then $25 + 22 - b$ people play at least one game, and this cannot exceed 40, so $b \\ge 7$. Also $b$ cannot exceed 22 (the checkers players). So $b$ can be any value from 7 to 22.",
-  "choiceExplanations": {
-   "A": "With 5 playing both, $25 + 22 - 5 = 42$ people would play at least one game, more than the 40 in the group."
-  },
-  "estSeconds": 150,
-  "skills": [
-   "inclusion-exclusion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

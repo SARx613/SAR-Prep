@@ -2,9 +2,28 @@
  {
   "id": "t1-03-navigation-01",
   "lessonId": "t1-03-navigation",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which feature lets you tag a question so you can skip it and return later if time remains in the section?",
+  "explanation": "Mark (together with Review) tags questions so you can skip them and return later.",
+  "choiceExplanations": {
+   "A": "That is a calculator button.",
+   "C": "That is a calculator button.",
+   "D": "That is not a tagging tool.",
+   "E": "No such feature is described."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-navigation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,13 +53,19 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Mark (together with Review) tags questions so you can skip them and return later.",
+  }
+ },
+ {
+  "id": "t1-03-navigation-02",
+  "lessonId": "t1-03-navigation",
+  "difficulty": 1,
+  "stem": "In which part of the test is an on-screen calculator provided?",
+  "explanation": "The on-screen calculator belongs to the Quantitative Reasoning section.",
   "choiceExplanations": {
-   "A": "That is a calculator button.",
-   "C": "That is a calculator button.",
-   "D": "That is not a tagging tool.",
-   "E": "No such feature is described."
+   "A": "No calculator there.",
+   "B": "No calculator there.",
+   "D": "Quant only.",
+   "E": "Quant only."
   },
   "estSeconds": 45,
   "skills": [
@@ -48,16 +73,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "t1-03-navigation-02",
-  "lessonId": "t1-03-navigation",
+  },
   "type": "PS",
-  "difficulty": 1,
-  "stem": "In which part of the test is an on-screen calculator provided?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -87,30 +109,31 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The on-screen calculator belongs to the Quantitative Reasoning section.",
-  "choiceExplanations": {
-   "A": "No calculator there.",
-   "B": "No calculator there.",
-   "D": "Quant only.",
-   "E": "Quant only."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "test-navigation"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "t1-03-navigation-03",
   "lessonId": "t1-03-navigation",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Within a section, which of the following does the test design allow? Indicate all such features.",
+  "explanation": "The design lets you move freely within a section, skip and return, and change answers; the calculator is Quant-only.",
+  "choiceExplanations": {
+   "D": "The calculator is for Quantitative Reasoning.",
+   "E": "You may choose which questions to answer first."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-navigation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -142,11 +165,19 @@
     "B",
     "C"
    ]
-  },
-  "explanation": "The design lets you move freely within a section, skip and return, and change answers; the calculator is Quant-only.",
+  }
+ },
+ {
+  "id": "t1-03-navigation-04",
+  "lessonId": "t1-03-navigation",
+  "difficulty": 2,
+  "stem": "What do the Mark and Review features do?",
+  "explanation": "They are navigation aids: tag, skip, come back.",
   "choiceExplanations": {
-   "D": "The calculator is for Quantitative Reasoning.",
-   "E": "You may choose which questions to answer first."
+   "B": "Answers can be changed within a section.",
+   "C": "They are navigation tools, not scoring switches.",
+   "D": "Adaptation does not work this way.",
+   "E": "They do not report scores."
   },
   "estSeconds": 60,
   "skills": [
@@ -154,16 +185,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "t1-03-navigation-04",
-  "lessonId": "t1-03-navigation",
+  },
   "type": "PS",
-  "difficulty": 2,
-  "stem": "What do the Mark and Review features do?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -193,36 +221,13 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "They are navigation aids: tag, skip, come back.",
-  "choiceExplanations": {
-   "B": "Answers can be changed within a section.",
-   "C": "They are navigation tools, not scoring switches.",
-   "D": "Adaptation does not work this way.",
-   "E": "They do not report scores."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "test-navigation"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "t1-03-navigation-05",
   "lessonId": "t1-03-navigation",
-  "type": "NE",
   "difficulty": 2,
   "stem": "In a 12-question, 21-minute section you skip 3 questions and answer the other 9 in 13 minutes. How many minutes remain for the 3 skipped questions?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 8
-  },
   "explanation": "$21-13=8$ minutes.",
   "estSeconds": 45,
   "skills": [
@@ -230,16 +235,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
   }
  },
  {
   "id": "t1-03-navigation-06",
   "lessonId": "t1-03-navigation",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Question 5 in a 12-question section is a long problem you cannot start within about 90 seconds. Which approach fits the test design best?",
+  "explanation": "Within a section you can move on and revisit marked questions if time remains.",
+  "choiceExplanations": {
+   "A": "You can skip and return within the section.",
+   "C": "That is not an option and does not help.",
+   "D": "Irrelevant.",
+   "E": "That wastes the time."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-navigation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -269,36 +303,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Within a section you can move on and revisit marked questions if time remains.",
-  "choiceExplanations": {
-   "A": "You can skip and return within the section.",
-   "C": "That is not an option and does not help.",
-   "D": "Irrelevant.",
-   "E": "That wastes the time."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "test-navigation"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "t1-03-navigation-07",
   "lessonId": "t1-03-navigation",
-  "type": "NE",
   "difficulty": 3,
   "stem": "In the second Verbal section (23 minutes, 15 questions) you have used 15 minutes and answered 10 questions. If you spend equal time on each remaining question, how many seconds per question do you have?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 96
-  },
   "explanation": "$23-15=8$ minutes $=480$ seconds for $5$ questions: $480\\div5=96$.",
   "estSeconds": 75,
   "skills": [
@@ -306,16 +317,43 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 96
   }
  },
  {
   "id": "t1-03-navigation-08",
   "lessonId": "t1-03-navigation",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Maria works through a 15-question Quantitative section. Which of her actions are consistent with the test design? Indicate all such actions.",
+  "explanation": "Order is flexible, marking works, answers can be edited and backward movement is allowed within a section.",
+  "choiceExplanations": {
+   "D": "The calculator is provided for Quantitative Reasoning.",
+   "E": "You may move backward as well as forward in a section."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-navigation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -347,28 +385,33 @@
     "B",
     "C"
    ]
-  },
-  "explanation": "Order is flexible, marking works, answers can be edited and backward movement is allowed within a section.",
-  "choiceExplanations": {
-   "D": "The calculator is provided for Quantitative Reasoning.",
-   "E": "You may move backward as well as forward in a section."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "test-navigation"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "t1-03-navigation-09",
   "lessonId": "t1-03-navigation",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Student 1 answers a section strictly in order and never marks. Student 2 answers easier questions first, marks harder ones, and returns to them. What does the test design say about the two approaches?",
+  "explanation": "The design lets you choose the order of work within a section.",
+  "choiceExplanations": {
+   "A": "Questions can be answered in any order.",
+   "B": "Answering in order is also fine.",
+   "D": "Both are consistent with the design.",
+   "E": "Navigation does not change difficulty."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-navigation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -398,13 +441,19 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The design lets you choose the order of work within a section.",
+  }
+ },
+ {
+  "id": "t1-03-navigation-10",
+  "lessonId": "t1-03-navigation",
+  "difficulty": 3,
+  "stem": "Ming answered question 3, then marked question 7 and went on. With 2 minutes left in the section she decides her answer to question 3 was wrong. What can she do?",
+  "explanation": "Answers can be changed within a section, with or without a Mark.",
   "choiceExplanations": {
-   "A": "Questions can be answered in any order.",
-   "B": "Answering in order is also fine.",
-   "D": "Both are consistent with the design.",
-   "E": "Navigation does not change difficulty."
+   "A": "You can change answers within a section.",
+   "C": "Edits are within the section.",
+   "D": "Marking is not required to edit.",
+   "E": "Not an option."
   },
   "estSeconds": 60,
   "skills": [
@@ -412,16 +461,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "t1-03-navigation-10",
-  "lessonId": "t1-03-navigation",
+  },
   "type": "PS",
-  "difficulty": 3,
-  "stem": "Ming answered question 3, then marked question 7 and went on. With 2 minutes left in the section she decides her answer to question 3 was wrong. What can she do?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -451,37 +497,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Answers can be changed within a section, with or without a Mark.",
-  "choiceExplanations": {
-   "A": "You can change answers within a section.",
-   "C": "Edits are within the section.",
-   "D": "Marking is not required to edit.",
-   "E": "Not an option."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "test-navigation"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "t1-03-navigation-11",
   "lessonId": "t1-03-navigation",
-  "type": "NE",
   "difficulty": 4,
   "stem": "In a Quantitative section you have 9 questions left to answer and 16 minutes remaining. If you divide the time equally, how many seconds per question, rounded to the nearest second?",
-  "content": {
-   "format": "integer",
-   "round": 0
-  },
-  "answer": {
-   "value": 107
-  },
   "explanation": "$16\\times60=960$ seconds; $960\\div9=106.67$, which rounds to 107.",
   "estSeconds": 90,
   "skills": [
@@ -489,22 +511,26 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "round": 0
+  },
+  "answer": {
+   "value": 107
   }
  },
  {
   "id": "t1-03-navigation-12",
   "lessonId": "t1-03-navigation",
-  "type": "NE",
   "difficulty": 4,
   "stem": "In the second Quantitative section (26 minutes) you answered 11 questions on a first pass in 17 minutes and marked the other 4. If you spend the remaining time equally on the 4 marked questions, how many seconds does each get?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 135
-  },
   "explanation": "$26-17=9$ minutes $=540$ seconds, and $540\\div4=135$.",
   "estSeconds": 90,
   "skills": [
@@ -512,8 +538,18 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 135
   }
  }
 ]

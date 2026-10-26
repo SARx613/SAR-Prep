@@ -26,9 +26,22 @@
   {
    "id": "q4-08-probability-basics-c1",
    "lessonId": "q4-08-probability-basics",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A bag holds 5 red marbles and 3 blue marbles. One marble is drawn at random. What is the probability that it is blue?",
+   "explanation": "$\\frac{3}{5 + 3} = \\frac{3}{8}$.",
+   "estSeconds": 45,
+   "skills": [
+    "probability"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "fraction"
    },
@@ -38,30 +51,13 @@
      "numerator": 3,
      "denominator": 8
     }
-   },
-   "explanation": "$\\frac{3}{5 + 3} = \\frac{3}{8}$.",
-   "estSeconds": 45,
-   "skills": [
-    "probability"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q4-08-probability-basics-c2",
    "lessonId": "q4-08-probability-basics",
-   "type": "NE",
    "difficulty": 2,
    "stem": "Events $E$ and $F$ are mutually exclusive, with $P(E) = 0.5$ and $P(F) = 0.3$. What is the probability that $E$ or $F$ occurs?",
-   "content": {
-    "format": "decimal"
-   },
-   "answer": {
-    "value": 0.8
-   },
    "explanation": "For mutually exclusive events, $P(E \\text{ or } F) = 0.5 + 0.3 = 0.8$.",
    "estSeconds": 45,
    "skills": [
@@ -69,23 +65,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 0.8
    }
   },
   {
    "id": "q4-08-probability-basics-c3",
    "lessonId": "q4-08-probability-basics",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "The probability of not rolling a 6 on a fair six-sided die",
-    "quantityB": "0.8"
-   },
-   "answer": {
-    "choice": "A"
-   },
    "explanation": "$P(\\text{not } 6) = 1 - \\frac16 = \\frac56 \\approx 0.833$, which is greater than 0.8.",
    "estSeconds": 60,
    "skills": [
@@ -93,8 +91,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The probability of not rolling a 6 on a fair six-sided die",
+    "quantityB": "0.8"
+   },
+   "answer": {
+    "choice": "A"
    }
   }
  ]

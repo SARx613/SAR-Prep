@@ -2,9 +2,28 @@
  {
   "id": "v1-01-structure-01",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 1,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Cause clue:** *Because* ... *moved slowly and stopped often to rest*. Hills that tire hikers are *steep*.",
+  "choiceExplanations": {
+   "A": "Flat ground would not slow hikers or force rests.",
+   "C": "Beauty does not explain slowness and fatigue.",
+   "E": "Familiar hills would not tire them.",
+   "D": "Crowds could slow people, but they do not explain stopping to *rest*."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Because the hills were so {{1}}, the hikers moved slowly and stopped often to rest.",
    "blanks": [
@@ -39,13 +58,19 @@
    "blanks": [
     "B"
    ]
-  },
-  "explanation": "**Cause clue:** *Because* ... *moved slowly and stopped often to rest*. Hills that tire hikers are *steep*.",
+  }
+ },
+ {
+  "id": "v1-01-structure-02",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** *so ... that visitors lingered for hours, reluctant to leave*. Only something absorbing produces that: *captivating*.",
   "choiceExplanations": {
-   "A": "Flat ground would not slow hikers or force rests.",
-   "C": "Beauty does not explain slowness and fatigue.",
-   "E": "Familiar hills would not tire them.",
-   "D": "Crowds could slow people, but they do not explain stopping to *rest*."
+   "C": "Forgettable exhibits do not hold people for hours.",
+   "B": "Repetition makes visitors leave sooner.",
+   "A": "Describes pace, and would not make people linger.",
+   "D": "Hostile exhibits would repel visitors."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-01-structure-02",
-  "lessonId": "v1-01-structure",
+  },
   "type": "TC",
-  "difficulty": 1,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "The museum's new exhibit was so {{1}} that visitors lingered for hours, reluctant to leave.",
    "blanks": [
@@ -97,30 +119,33 @@
    "blanks": [
     "E"
    ]
-  },
-  "explanation": "**Result clue:** *so ... that visitors lingered for hours, reluctant to leave*. Only something absorbing produces that: *captivating*.",
-  "choiceExplanations": {
-   "C": "Forgettable exhibits do not hold people for hours.",
-   "B": "Repetition makes visitors leave sooner.",
-   "A": "Describes pace, and would not make people linger.",
-   "D": "Hostile exhibits would repel visitors."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-03",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 2,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast clue:** *although it covered a great deal* suggests it might have been disorganized, but the colon-style clause says each point followed from the last. That is *coherent*.",
+  "choiceExplanations": {
+   "B": "The opposite: points that follow clearly are not rambling.",
+   "E": "Means sudden; the clause is about logical flow.",
+   "D": "Means argumentative; nothing says the lecture was disputed.",
+   "C": "Means hesitant, unrelated to logical order."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The professor's lecture was {{1}}: although it covered a great deal of material, every point followed clearly from the one before.",
    "blanks": [
@@ -155,13 +180,19 @@
    "blanks": [
     "A"
    ]
-  },
-  "explanation": "**Contrast clue:** *although it covered a great deal* suggests it might have been disorganized, but the colon-style clause says each point followed from the last. That is *coherent*.",
+  }
+ },
+ {
+  "id": "v1-01-structure-04",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast + definition:** *although ... admired for generosity* and the clause after the colon (gave expecting a return) define a self-interested streak: *calculating*.",
   "choiceExplanations": {
-   "B": "The opposite: points that follow clearly are not rambling.",
-   "E": "Means sudden; the clause is about logical flow.",
-   "D": "Means argumentative; nothing says the lecture was disputed.",
-   "C": "Means hesitant, unrelated to logical order."
+   "B": "Expecting a return is planned, not impulsive.",
+   "E": "Means charitable, which is the admired image the sentence contradicts.",
+   "C": "Means careless of risk; the sentence describes careful self-interest.",
+   "A": "Someone who always expects something back is not naive."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-01-structure-04",
-  "lessonId": "v1-01-structure",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "Select one entry from the choices that best completes the text.",
   "content": {
    "text": "Although the founder was widely admired for his generosity, a closer look at his dealings revealed a {{1}} streak: he rarely gave without expecting something in return.",
    "blanks": [
@@ -213,30 +241,33 @@
    "blanks": [
     "D"
    ]
-  },
-  "explanation": "**Contrast + definition:** *although ... admired for generosity* and the clause after the colon (gave expecting a return) define a self-interested streak: *calculating*.",
-  "choiceExplanations": {
-   "B": "Expecting a return is planned, not impulsive.",
-   "E": "Means charitable, which is the admired image the sentence contradicts.",
-   "C": "Means careless of risk; the sentence describes careful self-interest.",
-   "A": "Someone who always expects something back is not naive."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-05",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 3,
   "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** if both sides claim victory and neither knows its demands, the wording is open to several readings: *ambiguous*.",
+  "choiceExplanations": {
+   "D": "A complete treaty would spell out what it requires.",
+   "A": "A harsh treaty would not leave both sides claiming victory.",
+   "B": "Final and precise, which would remove the uncertainty.",
+   "E": "Careful drafting would remove, not create, the uncertainty."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The treaty was so {{1}} that each side could claim it as a victory and neither could be sure what it required.",
    "blanks": [
@@ -271,13 +302,19 @@
    "blanks": [
     "C"
    ]
-  },
-  "explanation": "**Result clue:** if both sides claim victory and neither knows its demands, the wording is open to several readings: *ambiguous*.",
+  }
+ },
+ {
+  "id": "v1-01-structure-06",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks, three choices each. *aiming only to entertain* defines blank 1: *modest*. *far more* ... *justice and mortality* gives blank 2: *profound*.",
   "choiceExplanations": {
-   "D": "A complete treaty would spell out what it requires.",
-   "A": "A harsh treaty would not leave both sides claiming victory.",
-   "B": "Final and precise, which would remove the uncertainty.",
-   "E": "Careful drafting would remove, not create, the uncertainty."
+   "1C": "*Only to entertain* is the opposite of grand.",
+   "1A": "Ambitions are not described as hidden.",
+   "2C": "Questions of justice and mortality are not frivolous.",
+   "2B": "Means copying others; the clue is about seriousness."
   },
   "estSeconds": 75,
   "skills": [
@@ -285,16 +322,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-01-structure-06",
-  "lessonId": "v1-01-structure",
+  },
   "type": "TC",
-  "difficulty": 2,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "The novelist's early work was {{1}} in its ambitions, aiming only to entertain; her later books are far more {{2}}, tackling questions of justice and mortality.",
    "blanks": [
@@ -339,30 +373,33 @@
     "1B",
     "2A"
    ]
-  },
-  "explanation": "**Structure:** two blanks, three choices each. *aiming only to entertain* defines blank 1: *modest*. *far more* ... *justice and mortality* gives blank 2: *profound*.",
-  "choiceExplanations": {
-   "1C": "*Only to entertain* is the opposite of grand.",
-   "1A": "Ambitions are not described as hidden.",
-   "2C": "Questions of justice and mortality are not frivolous.",
-   "2B": "Means copying others; the clue is about seriousness."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-07",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast chain:** *though* ... *even its critics came to admit* shows a reversal from doubt to acceptance. Blank 2 is defined by the colon: no alternative explanation works, so the results are *compelling*. Blank 1: *implausible*.",
+  "choiceExplanations": {
+   "1C": "An obvious theory would not have critics to win over.",
+   "1B": "Means unimportant, which does not set up a reversal.",
+   "2A": "Inconsistent results would leave alternatives open.",
+   "2C": "Ambiguous results would allow other explanations."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Though the theory initially seemed {{1}}, even its critics came to admit that the experimental results were {{2}}: no alternative explanation could account for them.",
    "blanks": [
@@ -407,13 +444,19 @@
     "1A",
     "2B"
    ]
-  },
-  "explanation": "**Contrast chain:** *though* ... *even its critics came to admit* shows a reversal from doubt to acceptance. Blank 2 is defined by the colon: no alternative explanation works, so the results are *compelling*. Blank 1: *implausible*.",
+  }
+ },
+ {
+  "id": "v1-01-structure-08",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *contrary to* a rubber-stamp view. A rubber stamp approves everything, so the records show it *altered* proposals. A view held by many is *prevailing*.",
   "choiceExplanations": {
-   "1C": "An obvious theory would not have critics to win over.",
-   "1B": "Means unimportant, which does not set up a reversal.",
-   "2A": "Inconsistent results would leave alternatives open.",
-   "2C": "Ambiguous results would allow other explanations."
+   "1B": "A hardly known view would not need rebutting.",
+   "1C": "Describes reluctant acceptance, not a view.",
+   "2B": "This is what a rubber stamp does; *contrary to* needs the opposite.",
+   "2A": "Praising proposals is not evidence against rubber-stamping."
   },
   "estSeconds": 90,
   "skills": [
@@ -421,16 +464,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v1-01-structure-08",
-  "lessonId": "v1-01-structure",
+  },
   "type": "TC",
-  "difficulty": 4,
-  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
   "content": {
    "text": "Contrary to the {{1}} view that the committee was merely a rubber stamp, its records show that it frequently {{2}} the proposals put before it.",
    "blanks": [
@@ -475,30 +515,33 @@
     "1A",
     "2C"
    ]
-  },
-  "explanation": "**Signal:** *contrary to* a rubber-stamp view. A rubber stamp approves everything, so the records show it *altered* proposals. A view held by many is *prevailing*.",
-  "choiceExplanations": {
-   "1B": "A hardly known view would not need rebutting.",
-   "1C": "Describes reluctant acceptance, not a view.",
-   "2B": "This is what a rubber stamp does; *contrary to* needs the opposite.",
-   "2A": "Praising proposals is not evidence against rubber-stamping."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-09",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *rather than immediate, accruing slowly* defines blank 2: *incremental*. *Overlook* tells you the dismissal was too complete: an *unmitigated* (total) failure.",
+  "choiceExplanations": {
+   "1C": "Means provisional; the historians dismiss the treaty outright, so the failure they claim is total, not provisional.",
+   "1A": "Means late; the issue is the verdict, not timing.",
+   "2B": "Means short-lived, the opposite of accruing over decades.",
+   "2A": "Means showy; the clue is slowness."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Historians who dismiss the treaty as an {{1}} failure overlook that its real achievements were {{2}} rather than immediate, accruing slowly over decades.",
    "blanks": [
@@ -543,30 +586,35 @@
     "1B",
     "2C"
    ]
-  },
-  "explanation": "**Signal:** *rather than immediate, accruing slowly* defines blank 2: *incremental*. *Overlook* tells you the dismissal was too complete: an *unmitigated* (total) failure.",
-  "choiceExplanations": {
-   "1C": "Means provisional; the historians dismiss the treaty outright, so the failure they claim is total, not provisional.",
-   "1A": "Means late; the issue is the verdict, not timing.",
-   "2B": "Means short-lived, the opposite of accruing over decades.",
-   "2A": "Means showy; the clue is slowness."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-10",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 3,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Three blanks, work from the easiest.** *no specific plan* gives blank 2: *vague*. *unity and patience* gives blank 1: *conciliatory*. *Expected concrete proposals* but got none: *disappointed*.",
+  "choiceExplanations": {
+   "1C": "Calling for unity is not aggressive.",
+   "1B": "Nothing in the clue is joking.",
+   "2A": "The opposite of *no specific plan*.",
+   "2C": "Content that offers nothing is not provocative.",
+   "3C": "Reporters who got nothing would not be delighted.",
+   "3A": "No threat is described."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "The mayor's speech was {{1}} in tone, calling for unity and patience, but its content was {{2}}, offering no specific plan; reporters who had expected concrete proposals left {{3}}.",
    "blanks": [
@@ -629,32 +677,35 @@
     "2B",
     "3B"
    ]
-  },
-  "explanation": "**Three blanks, work from the easiest.** *no specific plan* gives blank 2: *vague*. *unity and patience* gives blank 1: *conciliatory*. *Expected concrete proposals* but got none: *disappointed*.",
-  "choiceExplanations": {
-   "1C": "Calling for unity is not aggressive.",
-   "1B": "Nothing in the clue is joking.",
-   "2A": "The opposite of *no specific plan*.",
-   "2C": "Content that offers nothing is not provocative.",
-   "3C": "Reporters who got nothing would not be delighted.",
-   "3A": "No threat is described."
-  },
-  "estSeconds": 105,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-11",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast:** *quoted as authority* defines blank 1: *authoritative*. *Although* then flips: found *erroneous* (wrong) in details. Blank 3 contrasts with *merely careless*: deliberate dishonesty, *disingenuous*.",
+  "choiceExplanations": {
+   "1B": "Being quoted as authority is not about being boring.",
+   "1C": "Whimsical works would not be treated as authority.",
+   "2C": "Confirmed details would not trouble scholars.",
+   "2B": "Complete is not a flaw; *although* needs a negative.",
+   "3A": "Means shy; it does not contrast with careless.",
+   "3B": "Means traveling; he was an explorer, but that is not an alternative to carelessness."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Although the explorer's journals were long regarded as {{1}} and were quoted as authority, recent scholars have found them {{2}} in several details, which has led some to suspect he was {{3}} rather than merely careless.",
    "blanks": [
@@ -717,32 +768,35 @@
     "2A",
     "3C"
    ]
-  },
-  "explanation": "**Contrast:** *quoted as authority* defines blank 1: *authoritative*. *Although* then flips: found *erroneous* (wrong) in details. Blank 3 contrasts with *merely careless*: deliberate dishonesty, *disingenuous*.",
-  "choiceExplanations": {
-   "1B": "Being quoted as authority is not about being boring.",
-   "1C": "Whimsical works would not be treated as authority.",
-   "2C": "Confirmed details would not trouble scholars.",
-   "2B": "Complete is not a flaw; *although* needs a negative.",
-   "3A": "Means shy; it does not contrast with careless.",
-   "3B": "Means traveling; he was an explorer, but that is not an alternative to carelessness."
-  },
-  "estSeconds": 135,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v1-01-structure-12",
   "lessonId": "v1-01-structure",
-  "type": "TC",
   "difficulty": 5,
   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *Far from being X* means the opposite of X. *Deliberately cultivating* a reputation that keeps her in the public eye: she welcomed attention. So *court* (seek out) and *notoriety*; and she was not *chastened* (subdued).",
+  "choiceExplanations": {
+   "1A": "Being pleased by controversy agrees with courting it, whereas *far from* needs the opposite.",
+   "1B": "Being encouraged by controversy agrees with courting it; *far from* needs the opposite.",
+   "2A": "Opposite of \"deliberately cultivating\".",
+   "2C": "No sorrow is implied.",
+   "3B": "Reserve would not keep her in the public eye.",
+   "3C": "Does not explain her visibility."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
   "content": {
    "text": "Far from being {{1}} by the controversy, the artist seemed to {{2}} it, deliberately cultivating a reputation for {{3}} that kept her work in the public eye.",
    "blanks": [
@@ -805,24 +859,6 @@
     "2B",
     "3A"
    ]
-  },
-  "explanation": "**Signal:** *Far from being X* means the opposite of X. *Deliberately cultivating* a reputation that keeps her in the public eye: she welcomed attention. So *court* (seek out) and *notoriety*; and she was not *chastened* (subdued).",
-  "choiceExplanations": {
-   "1A": "Being pleased by controversy agrees with courting it, whereas *far from* needs the opposite.",
-   "1B": "Being encouraged by controversy agrees with courting it; *far from* needs the opposite.",
-   "2A": "Opposite of \"deliberately cultivating\".",
-   "2C": "No sorrow is implied.",
-   "3B": "Reserve would not keep her in the public eye.",
-   "3C": "Does not explain her visibility."
-  },
-  "estSeconds": 150,
-  "skills": [
-   "text-completion"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

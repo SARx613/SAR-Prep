@@ -26,15 +26,8 @@
   {
    "id": "q0-04-numeric-entry-c1",
    "lessonId": "q0-04-numeric-entry",
-   "type": "NE",
    "difficulty": 1,
    "stem": "Round 31.5 to the nearest integer.",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 32
-   },
    "explanation": "A positive halfway value rounds up: 32.",
    "estSeconds": 45,
    "skills": [
@@ -42,22 +35,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 32
    }
   },
   {
    "id": "q0-04-numeric-entry-c2",
    "lessonId": "q0-04-numeric-entry",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A total of 3,600,000 dollars is to be entered in a box labelled \"millions of dollars\". What do you enter?",
-   "content": {
-    "format": "decimal"
-   },
-   "answer": {
-    "value": 3.6
-   },
    "explanation": "3,600,000 is 3.6 million.",
    "estSeconds": 45,
    "skills": [
@@ -65,16 +61,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 3.6
    }
   },
   {
    "id": "q0-04-numeric-entry-c3",
    "lessonId": "q0-04-numeric-entry",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which entry is correct for a question asking for a fraction, if the answer is $\\frac{5}{12}$?",
+   "explanation": "Numerator and denominator in their own boxes.",
+   "choiceExplanations": {
+    "B": "Fractions are entered as numerator and denominator, not rounded decimals.",
+    "C": "The numerator goes in the numerator box.",
+    "D": "The second box needs the denominator.",
+    "E": "A decimal in both boxes is not a fraction."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "numeric-entry"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -104,22 +129,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "Numerator and denominator in their own boxes.",
-   "choiceExplanations": {
-    "B": "Fractions are entered as numerator and denominator, not rounded decimals.",
-    "C": "The numerator goes in the numerator box.",
-    "D": "The second box needs the denominator.",
-    "E": "A decimal in both boxes is not a fraction."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "numeric-entry"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

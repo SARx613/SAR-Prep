@@ -26,15 +26,8 @@
   {
    "id": "q1-11-ratio-c1",
    "lessonId": "q1-11-ratio",
-   "type": "NE",
    "difficulty": 1,
    "stem": "The ratio of $x$ to 12 equals the ratio of 5 to 3. What is $x$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 20
-   },
    "explanation": "$\\frac{x}{12} = \\frac{5}{3}$, so $3x = 60$ and $x = 20$.",
    "estSeconds": 60,
    "skills": [
@@ -42,16 +35,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 20
    }
   },
   {
    "id": "q1-11-ratio-c2",
    "lessonId": "q1-11-ratio",
-   "type": "PS",
    "difficulty": 2,
    "stem": "The ratio of red marbles to blue marbles in a jar is $4:7$, and the jar holds 55 marbles in all. How many marbles are red?",
+   "explanation": "The ratio has $4+7 = 11$ equal parts, and $55\\div11 = 5$ marbles per part. Red is $4\\cdot5 = 20$.",
+   "choiceExplanations": {
+    "A": "4 is the ratio term, not the count.",
+    "C": "This is $7\\cdot4$, a product of the ratio terms.",
+    "D": "This is the blue count, $7\\cdot5$.",
+    "E": "This treats red as $\\frac{4}{5}$ of the jar."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "ratio"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -81,38 +103,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "The ratio has $4+7 = 11$ equal parts, and $55\\div11 = 5$ marbles per part. Red is $4\\cdot5 = 20$.",
-   "choiceExplanations": {
-    "A": "4 is the ratio term, not the count.",
-    "C": "This is $7\\cdot4$, a product of the ratio terms.",
-    "D": "This is the blue count, $7\\cdot5$.",
-    "E": "This treats red as $\\frac{4}{5}$ of the jar."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "ratio"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q1-11-ratio-c3",
    "lessonId": "q1-11-ratio",
-   "type": "QC",
    "difficulty": 3,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "The ratio of $x$ to $x+y$",
-    "quantityB": "$\\frac{3}{5}$",
-    "common": "The ratio of $x$ to $y$ is 3 to 5, with $x,y>0$."
-   },
-   "answer": {
-    "choice": "B"
-   },
    "explanation": "$x:y = 3:5$ means $x=3k$, $y=5k$, so $\\frac{x}{x+y} = \\frac{3k}{8k} = \\frac{3}{8}$, which is less than $\\frac{3}{5}$. B is greater.",
    "estSeconds": 75,
    "skills": [
@@ -120,8 +117,20 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The ratio of $x$ to $x+y$",
+    "quantityB": "$\\frac{3}{5}$",
+    "common": "The ratio of $x$ to $y$ is 3 to 5, with $x,y>0$."
+   },
+   "answer": {
+    "choice": "B"
    }
   }
  ]

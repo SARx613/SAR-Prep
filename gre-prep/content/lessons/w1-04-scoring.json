@@ -29,20 +29,8 @@
   {
    "id": "w1-04-scoring-c1",
    "lessonId": "w1-04-scoring",
-   "type": "PS",
    "difficulty": 1,
    "stem": "What is the reported range for the Analytical Writing score?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "0 to 6, in half-point steps" },
-     { "id": "B", "text": "0 to 6, in whole points only" },
-     { "id": "C", "text": "130 to 170, in one-point steps" },
-     { "id": "D", "text": "1 to 10, in half-point steps" },
-     { "id": "E", "text": "0 to 4, in tenths" }
-    ]
-   },
-   "answer": { "choices": ["A"] },
    "explanation": "ETS reports Analytical Writing scores from 0 to 6, in half-point increments.",
    "choiceExplanations": {
     "B": "Half points such as 4.5 are reported.",
@@ -51,26 +39,54 @@
     "E": "The reported scale is not 0 to 4 in tenths."
    },
    "estSeconds": 45,
-   "skills": ["issue-scoring"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-scoring"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "0 to 6, in half-point steps"
+     },
+     {
+      "id": "B",
+      "text": "0 to 6, in whole points only"
+     },
+     {
+      "id": "C",
+      "text": "130 to 170, in one-point steps"
+     },
+     {
+      "id": "D",
+      "text": "1 to 10, in half-point steps"
+     },
+     {
+      "id": "E",
+      "text": "0 to 4, in tenths"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
   },
   {
    "id": "w1-04-scoring-c2",
    "lessonId": "w1-04-scoring",
-   "type": "PS",
    "difficulty": 2,
    "stem": "An essay takes a clear position on the task, but all of its support consists of bare claims such as \"everyone knows this.\" Which guide characteristic does this match?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Relies largely on unsupported claims, a weakness the guide lists at the 3 level" },
-     { "id": "B", "text": "Sustains insightful, in-depth analysis, a feature of the 6 level" },
-     { "id": "C", "text": "Develops the position with well-chosen examples, a feature of the 5 level" },
-     { "id": "D", "text": "Writes off-topic text, a 0 characteristic" },
-     { "id": "E", "text": "Leaves the response blank, an NS characteristic" }
-    ]
-   },
-   "answer": { "choices": ["A"] },
    "explanation": "Support made of unsupported claims is described among the characteristics of a 3 response.",
    "choiceExplanations": {
     "B": "Insightful analysis is the opposite of bare claims.",
@@ -79,26 +95,54 @@
     "E": "The response contains text."
    },
    "estSeconds": 50,
-   "skills": ["issue-scoring"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-scoring"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Relies largely on unsupported claims, a weakness the guide lists at the 3 level"
+     },
+     {
+      "id": "B",
+      "text": "Sustains insightful, in-depth analysis, a feature of the 6 level"
+     },
+     {
+      "id": "C",
+      "text": "Develops the position with well-chosen examples, a feature of the 5 level"
+     },
+     {
+      "id": "D",
+      "text": "Writes off-topic text, a 0 characteristic"
+     },
+     {
+      "id": "E",
+      "text": "Leaves the response blank, an NS characteristic"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
   },
   {
    "id": "w1-04-scoring-c3",
    "lessonId": "w1-04-scoring",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which statement about errors in an Issue response matches ETS?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Any single spelling error lowers the score by a full point." },
-     { "id": "B", "text": "An occasional error will not affect the score, but serious and persistent errors lower it." },
-     { "id": "C", "text": "Errors are never considered." },
-     { "id": "D", "text": "Only grammar errors are considered, never spelling." },
-     { "id": "E", "text": "Errors matter only for scores of 5 and 6." }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says an occasional spelling or grammatical error will not affect your score, but serious and persistent errors detract from your writing and lower the score.",
    "choiceExplanations": {
     "A": "A single error does not carry a fixed penalty.",
@@ -107,8 +151,48 @@
     "E": "Language control is part of every level description."
    },
    "estSeconds": 50,
-   "skills": ["issue-scoring"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-scoring"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Any single spelling error lowers the score by a full point."
+     },
+     {
+      "id": "B",
+      "text": "An occasional error will not affect the score, but serious and persistent errors lower it."
+     },
+     {
+      "id": "C",
+      "text": "Errors are never considered."
+     },
+     {
+      "id": "D",
+      "text": "Only grammar errors are considered, never spelling."
+     },
+     {
+      "id": "E",
+      "text": "Errors matter only for scores of 5 and 6."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   }
  ]
 }

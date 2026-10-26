@@ -26,15 +26,8 @@
   {
    "id": "q4-07-counting-principles-c1",
    "lessonId": "q4-07-counting-principles",
-   "type": "NE",
    "difficulty": 1,
    "stem": "In how many different orders can 4 runners finish first through fourth in a race (no ties)?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 24
-   },
    "explanation": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
    "estSeconds": 45,
    "skills": [
@@ -42,22 +35,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 24
    }
   },
   {
    "id": "q4-07-counting-principles-c2",
    "lessonId": "q4-07-counting-principles",
-   "type": "NE",
    "difficulty": 2,
    "stem": "How many different 2-person teams can be chosen from a group of 8 people?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 28
-   },
    "explanation": "Order does not matter: $\\binom{8}{2} = \\frac{8 \\times 7}{2} = 28$.",
    "estSeconds": 60,
    "skills": [
@@ -65,23 +61,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 28
    }
   },
   {
    "id": "q4-07-counting-principles-c3",
    "lessonId": "q4-07-counting-principles",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "The number of ways to choose 2 people from 6 people for a team",
-    "quantityB": "The number of ways to choose a captain and a co-captain from 6 people"
-   },
-   "answer": {
-    "choice": "B"
-   },
    "explanation": "A: $\\binom{6}{2} = 15$. B: order matters, $6 \\times 5 = 30$. Quantity B is greater.",
    "estSeconds": 60,
    "skills": [
@@ -90,8 +88,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of ways to choose 2 people from 6 people for a team",
+    "quantityB": "The number of ways to choose a captain and a co-captain from 6 people"
+   },
+   "answer": {
+    "choice": "B"
    }
   }
  ]

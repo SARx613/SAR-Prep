@@ -20,9 +20,28 @@
   {
    "id": "v1-01-structure-c1",
    "lessonId": "v1-01-structure",
-   "type": "TC",
    "difficulty": 1,
    "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Result clue:** *so ... that even the youngest grasped it at once*. Only a clear explanation does that: *lucid*.",
+   "choiceExplanations": {
+    "A": "Twisted explanations confuse students.",
+    "B": "Boring does not mean easily understood.",
+    "D": "Means hard to understand.",
+    "C": "Dodging the question would not teach anyone."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "Her explanation was so {{1}} that even the youngest students grasped the idea at once.",
     "blanks": [
@@ -57,13 +76,19 @@
     "blanks": [
      "E"
     ]
-   },
-   "explanation": "**Result clue:** *so ... that even the youngest grasped it at once*. Only a clear explanation does that: *lucid*.",
+   }
+  },
+  {
+   "id": "v1-01-structure-c2",
+   "lessonId": "v1-01-structure",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Structure:** two blanks, three choices each. *Only twelve patients* gives *narrow*; *so* ... *about claiming* ... *everyone* gives restraint: *cautious*.",
    "choiceExplanations": {
-    "A": "Twisted explanations confuse students.",
-    "B": "Boring does not mean easily understood.",
-    "D": "Means hard to understand.",
-    "C": "Dodging the question would not teach anyone."
+    "1C": "Twelve patients is not a broad scope.",
+    "1B": "Means extravagant; it does not describe scope.",
+    "2C": "A reckless author would claim too much.",
+    "2B": "Boasting would overstate the results."
    },
    "estSeconds": 60,
    "skills": [
@@ -71,16 +96,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-01-structure-c2",
-   "lessonId": "v1-01-structure",
+   },
    "type": "TC",
-   "difficulty": 2,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "The study was {{1}} in scope, covering only twelve patients, so its authors were {{2}} about claiming that the results applied to everyone.",
     "blanks": [
@@ -125,13 +147,21 @@
      "1A",
      "2A"
     ]
-   },
-   "explanation": "**Structure:** two blanks, three choices each. *Only twelve patients* gives *narrow*; *so* ... *about claiming* ... *everyone* gives restraint: *cautious*.",
+   }
+  },
+  {
+   "id": "v1-01-structure-c3",
+   "lessonId": "v1-01-structure",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Three blanks, easiest first.** *Though ... rain* needs a negative: *marred*. *Optimism* and record crowds give *hopeful* and *justified*.",
    "choiceExplanations": {
-    "1C": "Twelve patients is not a broad scope.",
-    "1B": "Means extravagant; it does not describe scope.",
-    "2C": "A reckless author would claim too much.",
-    "2B": "Boasting would overstate the results."
+    "1A": "Rain does not improve a festival; *though* needs a setback.",
+    "1B": "Being ignored by rain makes no sense.",
+    "2A": "Contradicts \"optimism\".",
+    "2C": "The sentence calls them optimistic, not indifferent.",
+    "3B": "Record crowds prove the optimism right.",
+    "3A": "Record crowds show the optimism served a purpose."
    },
    "estSeconds": 60,
    "skills": [
@@ -139,16 +169,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-01-structure-c3",
-   "lessonId": "v1-01-structure",
+   },
    "type": "TC",
-   "difficulty": 3,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "Though the first day of the festival was {{1}} by rain, the organizers stayed {{2}}, and when sunshine brought record crowds by the weekend, their optimism proved {{3}}.",
     "blanks": [
@@ -211,24 +238,6 @@
      "2B",
      "3C"
     ]
-   },
-   "explanation": "**Three blanks, easiest first.** *Though ... rain* needs a negative: *marred*. *Optimism* and record crowds give *hopeful* and *justified*.",
-   "choiceExplanations": {
-    "1A": "Rain does not improve a festival; *though* needs a setback.",
-    "1B": "Being ignored by rain makes no sense.",
-    "2A": "Contradicts \"optimism\".",
-    "2C": "The sentence calls them optimistic, not indifferent.",
-    "3B": "Record crowds prove the optimism right.",
-    "3A": "Record crowds show the optimism served a purpose."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

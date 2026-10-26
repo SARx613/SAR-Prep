@@ -2,15 +2,8 @@
  {
   "id": "q0-04-numeric-entry-01",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is $\\frac78$ written as a decimal? No rounding is requested.",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 0.875
-  },
   "explanation": "$7\\div8=0.875$. With no rounding instruction, enter the exact value.",
   "estSeconds": 45,
   "skills": [
@@ -18,22 +11,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.875
   }
  },
  {
   "id": "q0-04-numeric-entry-02",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 1,
   "stem": "Round 57.5 to the nearest integer.",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 58
-  },
   "explanation": "A positive number halfway between two integers is rounded to the greater one: 58.",
   "estSeconds": 45,
   "skills": [
@@ -41,16 +37,43 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 58
   }
  },
  {
   "id": "q0-04-numeric-entry-03",
   "lessonId": "q0-04-numeric-entry",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following are correct practices for Numeric Entry questions? Indicate all such practices.",
+  "explanation": "Match the requested form, keep exact values until the final step, and watch labels.",
+  "choiceExplanations": {
+   "C": "Intermediate rounding can change the final digits; round only at the end.",
+   "D": "With a percent label you enter 25."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "numeric-entry"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -82,34 +105,13 @@
     "B",
     "E"
    ]
-  },
-  "explanation": "Match the requested form, keep exact values until the final step, and watch labels.",
-  "choiceExplanations": {
-   "C": "Intermediate rounding can change the final digits; round only at the end.",
-   "D": "With a percent label you enter 25."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "numeric-entry"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-04-numeric-entry-04",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 2,
   "stem": "Revenue was 48,300,000 dollars. The answer box is labelled \"millions of dollars\". What do you enter?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 48.3
-  },
   "explanation": "$48{,}300{,}000=48.3$ million, so enter 48.3.",
   "estSeconds": 45,
   "skills": [
@@ -117,22 +119,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 48.3
   }
  },
  {
   "id": "q0-04-numeric-entry-05",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 2,
   "stem": "A club has 40 members and 9 of them are left-handed. The answer box is followed by a percent sign. What do you enter for the percent of members who are left-handed?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 22.5
-  },
   "explanation": "$9/40=0.225=22.5\\%$. The % label is already printed, so enter 22.5, not 0.225.",
   "estSeconds": 60,
   "skills": [
@@ -140,16 +145,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 22.5
   }
  },
  {
   "id": "q0-04-numeric-entry-06",
   "lessonId": "q0-04-numeric-entry",
-  "type": "PS",
   "difficulty": 3,
   "stem": "You need the value of $7\\cdot\\frac{100}{7}$ rounded to the nearest tenth. Which is correct?",
+  "explanation": "Keep exact values: $7\\cdot\\frac{100}{7}=100$. Rounding in the middle introduces an error.",
+  "choiceExplanations": {
+   "A": "Rounding $\\frac{100}{7}$ down to 14.2 would produce $99.4$, and neither is the exact value.",
+   "C": "That comes from rounding $\\frac{100}{7}$ to 14.3 first; $7\\cdot14.3=100.1$.",
+   "D": "No consistent calculation gives this.",
+   "E": "Not close to the exact value."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "numeric-entry"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -179,30 +213,27 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Keep exact values: $7\\cdot\\frac{100}{7}=100$. Rounding in the middle introduces an error.",
-  "choiceExplanations": {
-   "A": "Rounding $\\frac{100}{7}$ down to 14.2 would produce $99.4$, and neither is the exact value.",
-   "C": "That comes from rounding $\\frac{100}{7}$ to 14.3 first; $7\\cdot14.3=100.1$.",
-   "D": "No consistent calculation gives this.",
-   "E": "Not close to the exact value."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "numeric-entry"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-04-numeric-entry-07",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 3,
   "stem": "In a box of 20 parts, 6 are defective. What fraction of the parts are not defective? Enter your answer in lowest terms.",
+  "explanation": "$20-6=14$ are fine, so $\\frac{14}{20}=\\frac{7}{10}$.",
+  "estSeconds": 60,
+  "skills": [
+   "numeric-entry"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -212,31 +243,13 @@
     "numerator": 7,
     "denominator": 10
    }
-  },
-  "explanation": "$20-6=14$ are fine, so $\\frac{14}{20}=\\frac{7}{10}$.",
-  "estSeconds": 60,
-  "skills": [
-   "numeric-entry"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-04-numeric-entry-08",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 3,
   "stem": "A runner's speed is 9 feet per second. Given that 1 mile = 5,280 feet, what is the speed in miles per hour, rounded to the nearest tenth?",
-  "content": {
-   "format": "decimal",
-   "round": 1
-  },
-  "answer": {
-   "value": 6.1
-  },
   "explanation": "$9\\cdot3600=32{,}400$ feet per hour; $32{,}400\\div5{,}280\\approx6.136$, which rounds to 6.1.",
   "estSeconds": 90,
   "skills": [
@@ -244,16 +257,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 1
+  },
+  "answer": {
+   "value": 6.1
   }
  },
  {
   "id": "q0-04-numeric-entry-09",
   "lessonId": "q0-04-numeric-entry",
-  "type": "PS",
   "difficulty": 3,
   "stem": "In a Numeric Entry question the box is followed by a percent sign. If $\\frac38$ of the people surveyed agreed, what should you enter?",
+  "explanation": "$\\frac38=0.375=37.5\\%$; with a percent label enter 37.5.",
+  "choiceExplanations": {
+   "A": "Off by a factor of 1000.",
+   "B": "That is the decimal form; the percent sign requires 37.5.",
+   "C": "Off by a factor of 10.",
+   "E": "Off by a factor of 10."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "numeric-entry"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -283,61 +326,40 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "$\\frac38=0.375=37.5\\%$; with a percent label enter 37.5.",
-  "choiceExplanations": {
-   "A": "Off by a factor of 1000.",
-   "B": "That is the decimal form; the percent sign requires 37.5.",
-   "C": "Off by a factor of 10.",
-   "E": "Off by a factor of 10."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "numeric-entry"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-04-numeric-entry-10",
   "lessonId": "q0-04-numeric-entry",
-  "type": "NE",
   "difficulty": 4,
-  "stem": "Round $-12.345$ to the nearest hundredth.",
-  "content": {
-   "format": "decimal",
-   "round": 2
-  },
-  "answer": {
-   "value": -12.35
-  },
-  "explanation": "A negative number exactly halfway is rounded to the lesser possibility: between $-12.34$ and $-12.35$ choose $-12.35$.",
+  "stem": "Round $-12.346$ to the nearest hundredth.",
+  "explanation": "$-12.346$ lies between $-12.34$ and $-12.35$. It is $0.004$ from $-12.35$ and $0.006$ from $-12.34$, so it rounds to $-12.35$.",
   "estSeconds": 75,
   "skills": [
    "numeric-entry"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a2",
+    "solver-b2"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q0-04-numeric-entry-11",
-  "lessonId": "q0-04-numeric-entry",
+  },
   "type": "NE",
-  "difficulty": 4,
-  "stem": "The legs of a right triangle have lengths 12 and 30. What is the length of the hypotenuse, rounded to the nearest 0.01?",
   "content": {
    "format": "decimal",
    "round": 2
   },
   "answer": {
-   "value": 32.31
-  },
+   "value": -12.35
+  }
+ },
+ {
+  "id": "q0-04-numeric-entry-11",
+  "lessonId": "q0-04-numeric-entry",
+  "difficulty": 4,
+  "stem": "The legs of a right triangle have lengths 12 and 30. What is the length of the hypotenuse, rounded to the nearest 0.01?",
   "explanation": "$\\sqrt{12^2+30^2}=\\sqrt{1044}\\approx32.311$, which rounds to 32.31.",
   "estSeconds": 90,
   "skills": [
@@ -345,23 +367,26 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q0-04-numeric-entry-12",
-  "lessonId": "q0-04-numeric-entry",
+  },
   "type": "NE",
-  "difficulty": 4,
-  "stem": "At an event, 27 people each gave 35 dollars, 18 people each gave 55 dollars, and 7 people each gave 120 dollars. What was the mean gift per person, in dollars, rounded to the nearest cent?",
   "content": {
    "format": "decimal",
    "round": 2
   },
   "answer": {
-   "value": 53.37
-  },
+   "value": 32.31
+  }
+ },
+ {
+  "id": "q0-04-numeric-entry-12",
+  "lessonId": "q0-04-numeric-entry",
+  "difficulty": 4,
+  "stem": "At an event, 27 people each gave 35 dollars, 18 people each gave 55 dollars, and 7 people each gave 120 dollars. What was the mean gift per person, in dollars, rounded to the nearest cent?",
   "explanation": "Total: $27\\cdot35+18\\cdot55+7\\cdot120=945+990+840=2775$ dollars from $52$ people. $2775\\div52\\approx53.365$, rounded once at the end to 53.37.",
   "estSeconds": 120,
   "skills": [
@@ -369,8 +394,19 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 2
+  },
+  "answer": {
+   "value": 53.37
   }
  }
 ]

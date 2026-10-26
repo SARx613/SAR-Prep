@@ -2,9 +2,28 @@
  {
   "id": "q0-03-solving-steps-01",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 1,
   "stem": "You solve a problem about the chance that a randomly chosen student is left-handed and obtain $\\frac74$. What should you do?",
+  "explanation": "Step 3 is to test reasonableness: any probability lies from 0 to 1, so $\\frac74$ means an error somewhere.",
+  "choiceExplanations": {
+   "A": "Check the result: a probability cannot exceed 1.",
+   "C": "Rounding does not make an impossible probability possible.",
+   "D": "Guessing a different value is not checking; find the error.",
+   "E": "A result outside 0 to 1 signals a mistake, not an approximation task."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,36 +53,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Step 3 is to test reasonableness: any probability lies from 0 to 1, so $\\frac74$ means an error somewhere.",
-  "choiceExplanations": {
-   "A": "Check the result: a probability cannot exceed 1.",
-   "C": "Rounding does not make an impossible probability possible.",
-   "D": "Guessing a different value is not checking; find the error.",
-   "E": "A result outside 0 to 1 signals a mistake, not an approximation task."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-02",
   "lessonId": "q0-03-solving-steps",
-  "type": "NE",
   "difficulty": 1,
   "stem": "If $3x+2=20$, what is the value of $x+1$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 7
-  },
   "explanation": "$3x=18$, so $x=6$ and $x+1=7$. The question asks for $x+1$, not $x$ (step 1: know what is being asked).",
   "estSeconds": 45,
   "skills": [
@@ -71,16 +67,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
   }
  },
  {
   "id": "q0-03-solving-steps-03",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 2,
   "stem": "You finish a problem, and your answer is not among the five answer choices. What is the most sensible next step?",
+  "explanation": "Because the correct answer is always among the choices, a missing answer means an error in reading, computing or method.",
+  "choiceExplanations": {
+   "A": "A mismatch means an error; closeness is not evidence.",
+   "C": "That is guessing before checking.",
+   "D": "The choices tell you your answer is wrong; use that.",
+   "E": "A flaw in the question is unlikely; a slip in your work is likely."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,13 +135,19 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Because the correct answer is always among the choices, a missing answer means an error in reading, computing or method.",
+  }
+ },
+ {
+  "id": "q0-03-solving-steps-04",
+  "lessonId": "q0-03-solving-steps",
+  "difficulty": 2,
+  "stem": "Three numbers are each between 100 and 200 (exclusive). Which of the following could NOT be their sum?",
+  "explanation": "Each number exceeds 100 and is below 200, so the sum is strictly between 300 and 600. Only 280 is outside.",
   "choiceExplanations": {
-   "A": "A mismatch means an error; closeness is not evidence.",
-   "C": "That is guessing before checking.",
-   "D": "The choices tell you your answer is wrong; use that.",
-   "E": "A flaw in the question is unlikely; a slip in your work is likely."
+   "B": "Possible, e.g. 105, 105, 110.",
+   "C": "Possible, e.g. 136, 137, 137.",
+   "D": "Possible, e.g. 160 each.",
+   "E": "Possible, e.g. 199, 196, 195."
   },
   "estSeconds": 60,
   "skills": [
@@ -124,16 +155,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q0-03-solving-steps-04",
-  "lessonId": "q0-03-solving-steps",
+  },
   "type": "PS",
-  "difficulty": 2,
-  "stem": "Three numbers are each between 100 and 200 (exclusive). Which of the following could NOT be their sum?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -163,36 +191,13 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "Each number exceeds 100 and is below 200, so the sum is strictly between 300 and 600. Only 280 is outside.",
-  "choiceExplanations": {
-   "B": "Possible, e.g. 105, 105, 110.",
-   "C": "Possible, e.g. 136, 137, 137.",
-   "D": "Possible, e.g. 160 each.",
-   "E": "Possible, e.g. 199, 196, 195."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-05",
   "lessonId": "q0-03-solving-steps",
-  "type": "NE",
   "difficulty": 2,
   "stem": "A rectangle has area 54 and one side of length 6. What is its perimeter?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 30
-  },
   "explanation": "The other side is $54/6=9$. Perimeter $=2(6+9)=30$. The side 9 is the missing quantity, not the answer.",
   "estSeconds": 60,
   "skills": [
@@ -200,16 +205,42 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 30
   }
  },
  {
   "id": "q0-03-solving-steps-06",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which of the following are useful checks to run after you obtain an answer? Indicate all such checks.",
+  "explanation": "The official step 3 asks whether you answered the question, whether the answer is reasonable, and whether the arithmetic is right (for example by substitution).",
+  "choiceExplanations": {
+   "D": "A guess is not evidence; check against the problem."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -237,27 +268,33 @@
     "B",
     "C"
    ]
-  },
-  "explanation": "The official step 3 asks whether you answered the question, whether the answer is reasonable, and whether the arithmetic is right (for example by substitution).",
-  "choiceExplanations": {
-   "D": "A guess is not evidence; check against the problem."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-07",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 3,
   "stem": "A jacket priced at 80 dollars is discounted by 25 percent, and then a 10-dollar coupon is applied to the discounted price. What is the final price, in dollars?",
+  "explanation": "$80\\cdot0.75=60$, then $60-10=50$. Follow the order stated in the problem.",
+  "choiceExplanations": {
+   "A": "That subtracts 25 dollars instead of 25 percent: $80-25-10$.",
+   "C": "That applies the coupon first: $(80-10)\\cdot0.75$.",
+   "D": "That ignores the coupon.",
+   "E": "That ignores the discount."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -287,37 +324,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "$80\\cdot0.75=60$, then $60-10=50$. Follow the order stated in the problem.",
-  "choiceExplanations": {
-   "A": "That subtracts 25 dollars instead of 25 percent: $80-25-10$.",
-   "C": "That applies the coupon first: $(80-10)\\cdot0.75$.",
-   "D": "That ignores the coupon.",
-   "E": "That ignores the discount."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-08",
   "lessonId": "q0-03-solving-steps",
-  "type": "NE",
   "difficulty": 3,
   "stem": "A car travels 125 miles in 2 hours 40 minutes. What is its average speed, in miles per hour, rounded to the nearest tenth?",
-  "content": {
-   "format": "decimal",
-   "round": 1
-  },
-  "answer": {
-   "value": 46.9
-  },
   "explanation": "2 hours 40 minutes is $2\\frac23=\\frac83$ hours, not 2.4. Speed $=125\\div\\frac83=\\frac{375}{8}=46.875\\approx46.9$.",
   "estSeconds": 90,
   "skills": [
@@ -325,16 +338,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 1
+  },
+  "answer": {
+   "value": 46.9
   }
  },
  {
   "id": "q0-03-solving-steps-09",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which value of $x$ satisfies $4(x+3)=7x-6$?",
+  "explanation": "$4x+12=7x-6$ gives $18=3x$, so $x=6$. Check: $4\\cdot9=36$ and $7\\cdot6-6=36$.",
+  "choiceExplanations": {
+   "A": "Substituting: $4(1)=4$ but $7(-2)-6=-20$.",
+   "B": "Substituting: $4\\cdot5=20$ but $7\\cdot2-6=8$.",
+   "D": "Substituting: $4\\cdot15=60$ but $7\\cdot12-6=78$.",
+   "E": "Substituting: $4\\cdot21=84$ but $7\\cdot18-6=120$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -364,30 +407,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$4x+12=7x-6$ gives $18=3x$, so $x=6$. Check: $4\\cdot9=36$ and $7\\cdot6-6=36$.",
-  "choiceExplanations": {
-   "A": "Substituting: $4(1)=4$ but $7(-2)-6=-20$.",
-   "B": "Substituting: $4\\cdot5=20$ but $7\\cdot2-6=8$.",
-   "D": "Substituting: $4\\cdot15=60$ but $7\\cdot12-6=78$.",
-   "E": "Substituting: $4\\cdot21=84$ but $7\\cdot18-6=120$."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-10",
   "lessonId": "q0-03-solving-steps",
-  "type": "PS",
   "difficulty": 4,
   "stem": "A tank is $\\frac35$ full. After 18 liters are added it is $\\frac45$ full. What is the capacity of the tank, in liters?",
+  "explanation": "The added 18 liters equal $\\frac45-\\frac35=\\frac15$ of the capacity, so the capacity is $5\\cdot18=90$.",
+  "choiceExplanations": {
+   "A": "That divides 18 by $\\frac35$ instead of by the change $\\frac15$.",
+   "B": "That treats 18 liters as $\\frac14$ of the capacity.",
+   "D": "Check: $\\frac15$ of 108 is 21.6, not 18.",
+   "E": "Check: $\\frac15$ of 120 is 24, not 18."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "problem-solving-steps"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -417,36 +463,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The added 18 liters equal $\\frac45-\\frac35=\\frac15$ of the capacity, so the capacity is $5\\cdot18=90$.",
-  "choiceExplanations": {
-   "A": "That divides 18 by $\\frac35$ instead of by the change $\\frac15$.",
-   "B": "That treats 18 liters as $\\frac14$ of the capacity.",
-   "D": "Check: $\\frac15$ of 108 is 21.6, not 18.",
-   "E": "Check: $\\frac15$ of 120 is 24, not 18."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "problem-solving-steps"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-03-solving-steps-11",
   "lessonId": "q0-03-solving-steps",
-  "type": "NE",
   "difficulty": 4,
   "stem": "The average (arithmetic mean) of five numbers is 14. Four of the numbers are 10, 12, 15 and 20. What is the fifth number?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 13
-  },
   "explanation": "The five numbers sum to $5\\cdot14=70$. The four given sum to 57, so the fifth is $70-57=13$.",
   "estSeconds": 75,
   "skills": [
@@ -454,22 +477,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
   }
  },
  {
   "id": "q0-03-solving-steps-12",
   "lessonId": "q0-03-solving-steps",
-  "type": "NE",
   "difficulty": 4,
   "stem": "The product of two consecutive positive integers is 156. What is their sum?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 25
-  },
   "explanation": "Estimate: $12^2=144$ and $13^2=169$, so try 12 and 13: $12\\cdot13=156$. Their sum is 25. Estimating first avoids solving a quadratic.",
   "estSeconds": 90,
   "skills": [
@@ -477,8 +503,18 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 25
   }
  }
 ]

@@ -2,25 +2,8 @@
  {
   "id": "v4-01-words-in-context-01",
   "lessonId": "v4-01-words-in-context",
-  "type": "TC",
   "difficulty": 1,
   "stem": "Choose the word that best completes the sentence.",
-  "content": {
-   "text": "The committee's report was so {{1}} that even readers with no background in economics could follow its argument.",
-   "blanks": [
-    {
-     "index": 1,
-     "choices": [
-      { "id": "1A", "text": "abstruse" },
-      { "id": "1B", "text": "capricious" },
-      { "id": "1C", "text": "ephemeral" },
-      { "id": "1D", "text": "lucid" },
-      { "id": "1E", "text": "perfunctory" }
-     ]
-    }
-   ]
-  },
-  "answer": { "blanks": ["1D"] },
   "explanation": "\"Even readers with no background\" could follow it, so the report must have been clear: lucid.",
   "choiceExplanations": {
    "1A": "Abstruse means hard to understand, the opposite of what the clue requires.",
@@ -29,27 +12,59 @@
    "1E": "Perfunctory means done with minimal effort; it does not explain why novices could follow it."
   },
   "estSeconds": 45,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The committee's report was so {{1}} that even readers with no background in economics could follow its argument.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "abstruse"
+      },
+      {
+       "id": "1B",
+       "text": "capricious"
+      },
+      {
+       "id": "1C",
+       "text": "ephemeral"
+      },
+      {
+       "id": "1D",
+       "text": "lucid"
+      },
+      {
+       "id": "1E",
+       "text": "perfunctory"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1D"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-02",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 1,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "Although the novelist's first book was widely praised, her later books drew only {{1}} reviews, never rising above polite indifference.",
-   "choices": [
-    { "id": "A", "text": "effusive" },
-    { "id": "B", "text": "ephemeral" },
-    { "id": "C", "text": "lukewarm" },
-    { "id": "D", "text": "scathing" },
-    { "id": "E", "text": "tepid" },
-    { "id": "F", "text": "volatile" }
-   ]
-  },
-  "answer": { "choices": ["C", "E"] },
   "explanation": "\"Although ... widely praised\" and \"polite indifference\" point to reviews that were unenthusiastic: lukewarm and tepid.",
   "choiceExplanations": {
    "A": "Effusive means gushing, which is the opposite of indifference.",
@@ -58,31 +73,59 @@
    "F": "Volatile means unstable and does not describe indifference."
   },
   "estSeconds": 50,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the novelist's first book was widely praised, her later books drew only {{1}} reviews, never rising above polite indifference.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "effusive"
+    },
+    {
+     "id": "B",
+     "text": "ephemeral"
+    },
+    {
+     "id": "C",
+     "text": "lukewarm"
+    },
+    {
+     "id": "D",
+     "text": "scathing"
+    },
+    {
+     "id": "E",
+     "text": "tepid"
+    },
+    {
+     "id": "F",
+     "text": "volatile"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-03",
   "lessonId": "v4-01-words-in-context",
-  "type": "TC",
   "difficulty": 2,
   "stem": "Choose the word that best completes the sentence.",
-  "content": {
-   "text": "Although the novelist's later works were often dismissed as {{1}}, a few critics argued that their apparent simplicity concealed real depth.",
-   "blanks": [
-    {
-     "index": 1,
-     "choices": [
-      { "id": "1A", "text": "esoteric" },
-      { "id": "1B", "text": "exhaustive" },
-      { "id": "1C", "text": "intricate" },
-      { "id": "1D", "text": "profound" },
-      { "id": "1E", "text": "superficial" }
-     ]
-    }
-   ]
-  },
-  "answer": { "blanks": ["1E"] },
   "explanation": "\"Although\" signals contrast: critics saw only apparent simplicity, while a few saw real depth. The dismissive label must therefore be shallow: superficial.",
   "choiceExplanations": {
    "1A": "Esoteric means understood by only a few, which clashes with \"apparent simplicity\".",
@@ -91,27 +134,59 @@
    "1D": "Profound means deep, which would agree with the few critics, not with the dismissals."
   },
   "estSeconds": 60,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the novelist's later works were often dismissed as {{1}}, a few critics argued that their apparent simplicity concealed real depth.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "esoteric"
+      },
+      {
+       "id": "1B",
+       "text": "exhaustive"
+      },
+      {
+       "id": "1C",
+       "text": "intricate"
+      },
+      {
+       "id": "1D",
+       "text": "profound"
+      },
+      {
+       "id": "1E",
+       "text": "superficial"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1E"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-04",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 2,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "The mayor's reputation for {{1}} meant that no one was surprised when he reversed his position a third time.",
-   "choices": [
-    { "id": "A", "text": "candor" },
-    { "id": "B", "text": "caprice" },
-    { "id": "C", "text": "constancy" },
-    { "id": "D", "text": "fickleness" },
-    { "id": "E", "text": "frugality" },
-    { "id": "F", "text": "prudence" }
-   ]
-  },
-  "answer": { "choices": ["B", "D"] },
   "explanation": "A mayor who reverses himself repeatedly would be known for changeability: caprice and fickleness give sentences with the same meaning.",
   "choiceExplanations": {
    "A": "Candor (frankness) would not explain surprise at reversals.",
@@ -120,37 +195,59 @@
    "F": "Prudence (caution) would not make repeated reversals unsurprising."
   },
   "estSeconds": 55,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The mayor's reputation for {{1}} meant that no one was surprised when he reversed his position a third time.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "candor"
+    },
+    {
+     "id": "B",
+     "text": "caprice"
+    },
+    {
+     "id": "C",
+     "text": "constancy"
+    },
+    {
+     "id": "D",
+     "text": "fickleness"
+    },
+    {
+     "id": "E",
+     "text": "frugality"
+    },
+    {
+     "id": "F",
+     "text": "prudence"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-05",
   "lessonId": "v4-01-words-in-context",
-  "type": "TC",
   "difficulty": 2,
   "stem": "For each blank, select the entry that best completes the text.",
-  "content": {
-   "text": "The new curriculum was {{1}} in intent but {{2}} in execution: teachers praised its goals, yet few could apply it in real classrooms.",
-   "blanks": [
-    {
-     "index": 1,
-     "choices": [
-      { "id": "1A", "text": "spurious" },
-      { "id": "1B", "text": "laudable" },
-      { "id": "1C", "text": "gratuitous" }
-     ]
-    },
-    {
-     "index": 2,
-     "choices": [
-      { "id": "2A", "text": "exemplary" },
-      { "id": "2B", "text": "judicious" },
-      { "id": "2C", "text": "unwieldy" }
-     ]
-    }
-   ]
-  },
-  "answer": { "blanks": ["1B", "2C"] },
   "explanation": "The colon explains both blanks: teachers praised the goals, so the intent was laudable; few could apply it, so execution was unwieldy.",
   "choiceExplanations": {
    "1A": "Spurious means false, which clashes with teachers' praise of the goals.",
@@ -159,27 +256,69 @@
    "2B": "Judicious means wise, which contradicts the difficulty in applying it."
   },
   "estSeconds": 70,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "The new curriculum was {{1}} in intent but {{2}} in execution: teachers praised its goals, yet few could apply it in real classrooms.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "spurious"
+      },
+      {
+       "id": "1B",
+       "text": "laudable"
+      },
+      {
+       "id": "1C",
+       "text": "gratuitous"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "exemplary"
+      },
+      {
+       "id": "2B",
+       "text": "judicious"
+      },
+      {
+       "id": "2C",
+       "text": "unwieldy"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-06",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 3,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "Her {{1}} prose, free of ornament, made even the dense legal material surprisingly easy to follow.",
-   "choices": [
-    { "id": "A", "text": "austere" },
-    { "id": "B", "text": "equivocal" },
-    { "id": "C", "text": "florid" },
-    { "id": "D", "text": "pedantic" },
-    { "id": "E", "text": "ubiquitous" },
-    { "id": "F", "text": "unembellished" }
-   ]
-  },
-  "answer": { "choices": ["A", "F"] },
   "explanation": "\"Free of ornament\" defines the missing word: austere and unembellished both mean plain and unadorned.",
   "choiceExplanations": {
    "B": "Equivocal means ambiguous, which would not make material easy to follow.",
@@ -188,31 +327,59 @@
    "E": "Ubiquitous means found everywhere and does not describe style."
   },
   "estSeconds": 60,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her {{1}} prose, free of ornament, made even the dense legal material surprisingly easy to follow.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "austere"
+    },
+    {
+     "id": "B",
+     "text": "equivocal"
+    },
+    {
+     "id": "C",
+     "text": "florid"
+    },
+    {
+     "id": "D",
+     "text": "pedantic"
+    },
+    {
+     "id": "E",
+     "text": "ubiquitous"
+    },
+    {
+     "id": "F",
+     "text": "unembellished"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "F"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-07",
   "lessonId": "v4-01-words-in-context",
-  "type": "TC",
   "difficulty": 3,
   "stem": "Choose the word that best completes the sentence.",
-  "content": {
-   "text": "The economist's forecast was deliberately {{1}}, hedged with so many qualifications that no outcome could prove it wrong.",
-   "blanks": [
-    {
-     "index": 1,
-     "choices": [
-      { "id": "1A", "text": "categorical" },
-      { "id": "1B", "text": "equivocal" },
-      { "id": "1C", "text": "prescient" },
-      { "id": "1D", "text": "strident" },
-      { "id": "1E", "text": "trenchant" }
-     ]
-    }
-   ]
-  },
-  "answer": { "blanks": ["1B"] },
   "explanation": "A forecast hedged with qualifications so that nothing could contradict it is deliberately vague or ambiguous: equivocal.",
   "choiceExplanations": {
    "1A": "Categorical means absolute and unqualified, the opposite of hedged.",
@@ -221,37 +388,59 @@
    "1E": "Trenchant means sharp and incisive, the opposite of a hedged forecast."
   },
   "estSeconds": 60,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
- },
- {
-  "id": "v4-01-words-in-context-08",
-  "lessonId": "v4-01-words-in-context",
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
   "type": "TC",
-  "difficulty": 3,
-  "stem": "For each blank, select the entry that best completes the text.",
   "content": {
-   "text": "Observers who assumed the senator would {{1}} the controversial bill after the scandal were {{2}} when he defended it passionately.",
+   "text": "The economist's forecast was deliberately {{1}}, hedged with so many qualifications that no outcome could prove it wrong.",
    "blanks": [
     {
      "index": 1,
      "choices": [
-      { "id": "1A", "text": "sponsor" },
-      { "id": "1B", "text": "repudiate" },
-      { "id": "1C", "text": "introduce" }
-     ]
-    },
-    {
-     "index": 2,
-     "choices": [
-      { "id": "2A", "text": "vindicated" },
-      { "id": "2B", "text": "placated" },
-      { "id": "2C", "text": "nonplussed" }
+      {
+       "id": "1A",
+       "text": "categorical"
+      },
+      {
+       "id": "1B",
+       "text": "equivocal"
+      },
+      {
+       "id": "1C",
+       "text": "prescient"
+      },
+      {
+       "id": "1D",
+       "text": "strident"
+      },
+      {
+       "id": "1E",
+       "text": "trenchant"
+      }
      ]
     }
    ]
   },
-  "answer": { "blanks": ["1B", "2C"] },
+  "answer": {
+   "blanks": [
+    "1B"
+   ]
+  }
+ },
+ {
+  "id": "v4-01-words-in-context-08",
+  "lessonId": "v4-01-words-in-context",
+  "difficulty": 3,
+  "stem": "For each blank, select the entry that best completes the text.",
   "explanation": "\"Instead\" signals contrast: observers expected him to disown the bill, and a passionate defence surprised and puzzled them.",
   "choiceExplanations": {
    "1A": "If observers expected him to sponsor the bill, his defence would not be a surprise.",
@@ -260,27 +449,69 @@
    "2B": "Placated means calmed, which does not describe a reaction to an unexpected stance."
   },
   "estSeconds": 75,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Observers who assumed the senator would {{1}} the controversial bill after the scandal were {{2}} when he defended it passionately.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "sponsor"
+      },
+      {
+       "id": "1B",
+       "text": "repudiate"
+      },
+      {
+       "id": "1C",
+       "text": "introduce"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "vindicated"
+      },
+      {
+       "id": "2B",
+       "text": "placated"
+      },
+      {
+       "id": "2C",
+       "text": "nonplussed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-09",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 4,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "The new policy was meant to {{1}} the shortage at its source, not merely to ease its symptoms.",
-   "choices": [
-    { "id": "A", "text": "camouflage" },
-    { "id": "B", "text": "disregard" },
-    { "id": "C", "text": "exacerbate" },
-    { "id": "D", "text": "palliate" },
-    { "id": "E", "text": "rectify" },
-    { "id": "F", "text": "remedy" }
-   ]
-  },
-  "answer": { "choices": ["E", "F"] },
   "explanation": "The policy was meant to fix the shortage at its root, so rectify and remedy fit. Palliate means to ease symptoms without curing, exactly what the sentence says it should not merely do.",
   "choiceExplanations": {
    "A": "Camouflage means to hide, which is not a solution at the source.",
@@ -289,45 +520,59 @@
    "D": "Palliate means to relieve symptoms without curing the cause, which the sentence rules out as insufficient."
   },
   "estSeconds": 75,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "The new policy was meant to {{1}} the shortage at its source, not merely to ease its symptoms.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "camouflage"
+    },
+    {
+     "id": "B",
+     "text": "disregard"
+    },
+    {
+     "id": "C",
+     "text": "exacerbate"
+    },
+    {
+     "id": "D",
+     "text": "palliate"
+    },
+    {
+     "id": "E",
+     "text": "rectify"
+    },
+    {
+     "id": "F",
+     "text": "remedy"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-10",
   "lessonId": "v4-01-words-in-context",
-  "type": "TC",
   "difficulty": 4,
   "stem": "For each blank, select the entry that best completes the text.",
-  "content": {
-   "text": "Although the chancellor was initially {{1}} as a bold reformer, his tenure proved {{2}}: he remained {{3}} to every proposal for change.",
-   "blanks": [
-    {
-     "index": 1,
-     "choices": [
-      { "id": "1A", "text": "hailed" },
-      { "id": "1B", "text": "derided" },
-      { "id": "1C", "text": "lampooned" }
-     ]
-    },
-    {
-     "index": 2,
-     "choices": [
-      { "id": "2A", "text": "frenetic" },
-      { "id": "2B", "text": "auspicious" },
-      { "id": "2C", "text": "inert" }
-     ]
-    },
-    {
-     "index": 3,
-     "choices": [
-      { "id": "3A", "text": "impervious" },
-      { "id": "3B", "text": "receptive" },
-      { "id": "3C", "text": "susceptible" }
-     ]
-    }
-   ]
-  },
-  "answer": { "blanks": ["1A", "2C", "3A"] },
   "explanation": "\"Although\" sets a contrast with the early reputation: he was hailed as a reformer, but his tenure proved inert (nothing changed), because he stayed impervious (unaffected) to every proposal. The clause after the colon explains the second blank.",
   "choiceExplanations": {
    "1B": "Derided would not contrast with a later failure to reform; it would repeat negativity.",
@@ -338,27 +583,87 @@
    "3C": "Susceptible (easily influenced) is the opposite of resisting every proposal."
   },
   "estSeconds": 90,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the chancellor was initially {{1}} as a bold reformer, his tenure proved {{2}}: he remained {{3}} to every proposal for change.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "hailed"
+      },
+      {
+       "id": "1B",
+       "text": "derided"
+      },
+      {
+       "id": "1C",
+       "text": "lampooned"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "frenetic"
+      },
+      {
+       "id": "2B",
+       "text": "auspicious"
+      },
+      {
+       "id": "2C",
+       "text": "inert"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "impervious"
+      },
+      {
+       "id": "3B",
+       "text": "receptive"
+      },
+      {
+       "id": "3C",
+       "text": "susceptible"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C",
+    "3A"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-11",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 5,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "Far from being {{1}}, the ambassador's remarks were calculated to provoke.",
-   "choices": [
-    { "id": "A", "text": "deliberate" },
-    { "id": "B", "text": "impromptu" },
-    { "id": "C", "text": "laconic" },
-    { "id": "D", "text": "prescient" },
-    { "id": "E", "text": "spontaneous" },
-    { "id": "F", "text": "ubiquitous" }
-   ]
-  },
-  "answer": { "choices": ["B", "E"] },
   "explanation": "\"Calculated\" means planned, so the remarks were the opposite of unplanned: far from being impromptu or spontaneous.",
   "choiceExplanations": {
    "A": "Deliberate means planned, so \"far from being deliberate\" contradicts \"calculated\".",
@@ -367,27 +672,59 @@
    "F": "Ubiquitous means found everywhere and does not fit the contrast."
   },
   "estSeconds": 60,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Far from being {{1}}, the ambassador's remarks were calculated to provoke.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "deliberate"
+    },
+    {
+     "id": "B",
+     "text": "impromptu"
+    },
+    {
+     "id": "C",
+     "text": "laconic"
+    },
+    {
+     "id": "D",
+     "text": "prescient"
+    },
+    {
+     "id": "E",
+     "text": "spontaneous"
+    },
+    {
+     "id": "F",
+     "text": "ubiquitous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
  },
  {
   "id": "v4-01-words-in-context-12",
   "lessonId": "v4-01-words-in-context",
-  "type": "SE",
   "difficulty": 5,
   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-  "content": {
-   "text": "Observers who expected a {{1}} reaction from the board were surprised, for its response came only after months of cautious review.",
-   "choices": [
-    { "id": "A", "text": "ephemeral" },
-    { "id": "B", "text": "judicious" },
-    { "id": "C", "text": "pedantic" },
-    { "id": "D", "text": "precipitate" },
-    { "id": "E", "text": "protracted" },
-    { "id": "F", "text": "rash" }
-   ]
-  },
-  "answer": { "choices": ["D", "F"] },
   "explanation": "The board's response was slow and careful, which surprised observers who expected the opposite: a hasty reaction. Precipitate and rash both mean acting too quickly without thought.",
   "choiceExplanations": {
    "A": "Ephemeral means short-lived and does not describe a quick, unconsidered reaction.",
@@ -396,7 +733,52 @@
    "E": "Protracted means long-drawn-out; if observers expected a protracted reaction, months of review would not surprise them."
   },
   "estSeconds": 75,
-  "skills": ["vocab-context"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "vocab-context"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
+  "content": {
+   "text": "Observers who expected a {{1}} reaction from the board were surprised, for its response came only after months of cautious review.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ephemeral"
+    },
+    {
+     "id": "B",
+     "text": "judicious"
+    },
+    {
+     "id": "C",
+     "text": "pedantic"
+    },
+    {
+     "id": "D",
+     "text": "precipitate"
+    },
+    {
+     "id": "E",
+     "text": "protracted"
+    },
+    {
+     "id": "F",
+     "text": "rash"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "F"
+   ]
+  }
  }
 ]

@@ -27,15 +27,8 @@
   {
    "id": "q4-01-tables-bars-c1",
    "lessonId": "q4-01-tables-bars",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A table has 48 observations in total, and one category has frequency 12. What is that category's relative frequency, as a percent?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 25
-   },
    "explanation": "$\\frac{12}{48} = \\frac14 = 25\\%$.",
    "estSeconds": 45,
    "skills": [
@@ -43,22 +36,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 25
    }
   },
   {
    "id": "q4-01-tables-bars-c2",
    "lessonId": "q4-01-tables-bars",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A segmented bar graph shows a bar that reaches 150 on the axis. Its lower segment ends at 95. What value does the upper segment represent?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 55
-   },
    "explanation": "The upper segment's value is its length: $150 - 95 = 55$.",
    "estSeconds": 50,
    "skills": [
@@ -66,23 +62,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 55
    }
   },
   {
    "id": "q4-01-tables-bars-c3",
    "lessonId": "q4-01-tables-bars",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "20 percent of 500",
-    "quantityB": "25 percent of 300"
-   },
-   "answer": {
-    "choice": "A"
-   },
    "explanation": "Convert to counts: $0.20 \\times 500 = 100$ and $0.25 \\times 300 = 75$. Quantity A is greater, even though the percent in B is larger.",
    "estSeconds": 60,
    "skills": [
@@ -90,8 +88,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "20 percent of 500",
+    "quantityB": "25 percent of 300"
+   },
+   "answer": {
+    "choice": "A"
    }
   }
  ]

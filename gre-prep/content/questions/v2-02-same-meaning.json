@@ -2,9 +2,28 @@
  {
   "id": "v2-02-same-meaning-01",
   "lessonId": "v2-02-same-meaning",
-  "type": "SE",
   "difficulty": 1,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"rarely offering even a greeting\" means cold and unwelcoming. *Aloof* and *distant* describe that behavior.",
+  "choiceExplanations": {
+   "E": "Means sociable, the opposite of the clue.",
+   "F": "Means joyful; a joyful village would greet people.",
+   "A": "Close in feel to *aloof*, but it describes being alone, not behavior toward strangers, and does not fit \"toward\".",
+   "B": "Means longing for the past; unrelated to how strangers are treated."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The villagers were {{1}} toward strangers, rarely offering even a greeting.",
    "choices": [
@@ -39,13 +58,19 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "**Clue:** \"rarely offering even a greeting\" means cold and unwelcoming. *Aloof* and *distant* describe that behavior.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-02",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"fell asleep\" signals boredom. *Dull* and *tedious* both say the lecture bored the class.",
   "choiceExplanations": {
-   "E": "Means sociable, the opposite of the clue.",
-   "F": "Means joyful; a joyful village would greet people.",
-   "A": "Close in feel to *aloof*, but it describes being alone, not behavior toward strangers, and does not fit \"toward\".",
-   "B": "Means longing for the past; unrelated to how strangers are treated."
+   "F": "Means gripping; gripping talks keep people awake.",
+   "D": "Means stirring up thought or anger, which keeps listeners awake.",
+   "A": "Means quick and lively, not sleep-inducing.",
+   "C": "Means frank; honesty does not explain sleep."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-02",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 1,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The lecture was so {{1}} that half the class fell asleep.",
    "choices": [
@@ -97,30 +119,33 @@
     "B",
     "E"
    ]
-  },
-  "explanation": "**Clue:** \"fell asleep\" signals boredom. *Dull* and *tedious* both say the lecture bored the class.",
-  "choiceExplanations": {
-   "F": "Means gripping; gripping talks keep people awake.",
-   "D": "Means stirring up thought or anger, which keeps listeners awake.",
-   "A": "Means quick and lively, not sleep-inducing.",
-   "C": "Means frank; honesty does not explain sleep."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-02-same-meaning-03",
   "lessonId": "v2-02-same-meaning",
-  "type": "SE",
   "difficulty": 2,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"left everyone unsure\". *Ambiguous* and *equivocal* both mean open to more than one reading, so either reply leaves her position unclear and the two sentences say the same thing.",
+  "choiceExplanations": {
+   "C": "A frank reply would make her position clear.",
+   "F": "A forceful reply would also make her position clear.",
+   "B": "Means trying to win favor; it does not explain the uncertainty.",
+   "E": "Speed of reply says nothing about clarity."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a2",
+    "solver-b2"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The chief executive's {{1}} reply to the reporter's question left everyone unsure of her actual position.",
    "choices": [
@@ -138,7 +163,7 @@
     },
     {
      "id": "D",
-     "text": "evasive"
+     "text": "equivocal"
     },
     {
      "id": "E",
@@ -155,13 +180,19 @@
     "D",
     "A"
    ]
-  },
-  "explanation": "**Clue:** \"left everyone unsure\". Words need not be exact synonyms: an *evasive* reply dodges and an *ambiguous* reply can be read two ways, but either leaves the position unclear, so the two sentences say the same thing.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-04",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* ... *unexpectedly dense and difficult*. Her usual style must be easy to read: *lucid* (clear) and *accessible* (easy to approach). They are not exact synonyms, but both sentences say her usual prose is easy.",
   "choiceExplanations": {
-   "C": "A frank reply would make her position clear.",
-   "F": "A forceful reply would also make her position clear.",
-   "B": "Means trying to win favor; it does not explain the uncertainty.",
-   "E": "Speed of reply says nothing about clarity."
+   "C": "Echoes \"dense\" from the sentence, but *although* needs the opposite of difficult.",
+   "D": "Means producing a lot; it does not contrast with difficult prose.",
+   "F": "Describes her lifestyle, not her prose.",
+   "B": "Does not contrast with the difficulty of her prose."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-04",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Although the author is usually {{1}}, readers of her latest novel found her prose unexpectedly dense and difficult.",
    "choices": [
@@ -213,13 +241,19 @@
     "E",
     "A"
    ]
-  },
-  "explanation": "**Signal:** *Although* ... *unexpectedly dense and difficult*. Her usual style must be easy to read: *lucid* (clear) and *accessible* (easy to approach). They are not exact synonyms, but both sentences say her usual prose is easy.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-05",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"refusing to claim more than the evidence allowed\" describes careful restraint. *Circumspect* and *prudent* both mean cautious.",
   "choiceExplanations": {
-   "C": "Echoes \"dense\" from the sentence, but *although* needs the opposite of difficult.",
-   "D": "Means producing a lot; it does not contrast with difficult prose.",
-   "F": "Describes her lifestyle, not her prose.",
-   "B": "Does not contrast with the difficulty of her prose."
+   "D": "A boaster claims more, not less.",
+   "B": "Means asserting opinions as certain truth, the opposite of the clue.",
+   "C": "Means too ready to believe; he demanded evidence.",
+   "E": "Means disrespectfully casual; the clue is about caution."
   },
   "estSeconds": 60,
   "skills": [
@@ -227,16 +261,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-05",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The antique dealer was {{1}} about the vase's origins, refusing to claim more than the evidence allowed.",
    "choices": [
@@ -271,30 +302,33 @@
     "A",
     "F"
    ]
-  },
-  "explanation": "**Clue:** \"refusing to claim more than the evidence allowed\" describes careful restraint. *Circumspect* and *prudent* both mean cautious.",
-  "choiceExplanations": {
-   "D": "A boaster claims more, not less.",
-   "B": "Means asserting opinions as certain truth, the opposite of the clue.",
-   "C": "Means too ready to believe; he demanded evidence.",
-   "E": "Means disrespectfully casual; the clue is about caution."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-02-same-meaning-06",
   "lessonId": "v2-02-same-meaning",
-  "type": "SE",
   "difficulty": 3,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"never raising his voice or seeking credit\" defines the manner, and *masked* needs a contrast with fierce competitiveness. *Mild* and *unassuming* are not exact synonyms, yet both sentences describe the same quiet manner.",
+  "choiceExplanations": {
+   "A": "Means harsh and loud, the opposite of \"never raising his voice\".",
+   "D": "Means highly principled and careful; it does not describe a quiet demeanor.",
+   "B": "Means curious; the clue is about voice and credit.",
+   "C": "Means playful or fanciful, not quiet and modest."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The scientist's famously {{1}} manner, never raising his voice or seeking credit, masked a fierce competitiveness that colleagues discovered only later.",
    "choices": [
@@ -329,13 +363,19 @@
     "E",
     "F"
    ]
-  },
-  "explanation": "**Clue:** \"never raising his voice or seeking credit\" defines the manner, and *masked* needs a contrast with fierce competitiveness. *Mild* and *unassuming* are not exact synonyms, yet both sentences describe the same quiet manner.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-07",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"never persuaded to change a position\". The noun must name stubbornness: *obstinacy* and *inflexibility* (not exact synonyms; both sentences say she never budges).",
   "choiceExplanations": {
-   "A": "Means harsh and loud, the opposite of \"never raising his voice\".",
-   "D": "Means highly principled and careful; it does not describe a quiet demeanor.",
-   "B": "Means curious; the clue is about voice and credit.",
-   "C": "Means playful or fanciful, not quiet and modest."
+   "F": "Knowledge does not explain refusing to change position.",
+   "A": "Means mixed feelings, the opposite of a fixed position.",
+   "C": "Concerns speaking skill, not fixed positions.",
+   "E": "Means longing for the past; unrelated."
   },
   "estSeconds": 75,
   "skills": [
@@ -343,16 +383,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-07",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Her {{1}} on the subject was well known: she had never been persuaded to change a position she had once taken.",
    "choices": [
@@ -387,13 +424,19 @@
     "D",
     "B"
    ]
-  },
-  "explanation": "**Clue:** \"never persuaded to change a position\". The noun must name stubbornness: *obstinacy* and *inflexibility* (not exact synonyms; both sentences say she never budges).",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-08",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Though ... in appearance* sets up a contrast with favoring the wealthy. It looked fair: *equitable* (just) and *impartial* (unbiased) both say so.",
   "choiceExplanations": {
-   "F": "Knowledge does not explain refusing to change position.",
-   "A": "Means mixed feelings, the opposite of a fixed position.",
-   "C": "Concerns speaking skill, not fixed positions.",
-   "E": "Means longing for the past; unrelated."
+   "E": "Means one-sided, which agrees with favoring the wealthy; *though* needs a contrast.",
+   "F": "Does not oppose the idea of quietly favoring one group.",
+   "A": "Describes complexity, not fairness.",
+   "B": "Means provisional; it does not contrast with favoritism."
   },
   "estSeconds": 75,
   "skills": [
@@ -401,16 +444,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-08",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Though the proposal was {{1}} in appearance, it contained several clauses that quietly favored the wealthy.",
    "choices": [
@@ -445,30 +485,33 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "**Signal:** *Though ... in appearance* sets up a contrast with favoring the wealthy. It looked fair: *equitable* (just) and *impartial* (unbiased) both say so.",
-  "choiceExplanations": {
-   "E": "Means one-sided, which agrees with favoring the wealthy; *though* needs a contrast.",
-   "F": "Does not oppose the idea of quietly favoring one group.",
-   "A": "Describes complexity, not fairness.",
-   "B": "Means provisional; it does not contrast with favoritism."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-02-same-meaning-09",
   "lessonId": "v2-02-same-meaning",
-  "type": "SE",
   "difficulty": 4,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"neither excused ... nor exaggerated ... weighing each fact\" means fair and unemotional. *Indifferent* is a dictionary neighbor of *dispassionate*, but it means not caring, which clashes with careful weighing; *dispassionate* and *evenhanded* both fit.",
+  "choiceExplanations": {
+   "C": "Excusing his failings is exactly what the sentence says she did not do.",
+   "E": "Means bitterly mocking, not fair.",
+   "B": "Means gushing, which would exaggerate.",
+   "A": "Close to *dispassionate* in a dictionary, but it implies she did not care, while she weighed every fact."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The biographer's treatment of her subject was {{1}}: she neither excused his failings nor exaggerated them, weighing each fact on its merits.",
    "choices": [
@@ -503,13 +546,19 @@
     "D",
     "F"
    ]
-  },
-  "explanation": "**Clue:** \"neither excused ... nor exaggerated ... weighing each fact\" means fair and unemotional. *Indifferent* is a dictionary neighbor of *dispassionate*, but it means not caring, which clashes with careful weighing; *dispassionate* and *evenhanded* both fit.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-10",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"seemed friendly on the surface\" yet \"veiled warning\": the message was not stated openly. *Oblique* and *indirect* both capture this.",
   "choiceExplanations": {
-   "C": "Excusing his failings is exactly what the sentence says she did not do.",
-   "E": "Means bitterly mocking, not fair.",
-   "B": "Means gushing, which would exaggerate.",
-   "A": "Close to *dispassionate* in a dictionary, but it implies she did not care, while she weighed every fact."
+   "E": "Blunt remarks state things openly; this warning was veiled.",
+   "F": "Means joyful, which would make the remarks truly friendly rather than a veiled warning.",
+   "B": "Means complete; it says nothing about hidden meaning.",
+   "C": "Means done as a mere formality; does not convey a hidden message."
   },
   "estSeconds": 90,
   "skills": [
@@ -517,16 +566,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-10",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 4,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The ambassador's {{1}} remarks, which seemed friendly on the surface, were widely read as a veiled warning.",
    "choices": [
@@ -561,30 +607,33 @@
     "D",
     "A"
    ]
-  },
-  "explanation": "**Clue:** \"seemed friendly on the surface\" yet \"veiled warning\": the message was not stated openly. *Oblique* and *indirect* both capture this.",
-  "choiceExplanations": {
-   "E": "Blunt remarks state things openly; this warning was veiled.",
-   "F": "Means joyful, which would make the remarks truly friendly rather than a veiled warning.",
-   "B": "Means complete; it says nothing about hidden meaning.",
-   "C": "Means done as a mere formality; does not convey a hidden message."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-02-same-meaning-11",
   "lessonId": "v2-02-same-meaning",
-  "type": "SE",
   "difficulty": 5,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* opposes the journal's prestige, and \"too small to support any general claim\" explains why: the method is faulty. *Deficient* and *unsound*, not exact synonyms, yield sentences with the same verdict.",
+  "choiceExplanations": {
+   "A": "Praise would agree with the journal's standing; *although* needs a contrast.",
+   "C": "Also praise, and nothing says the sample size is novel.",
+   "B": "Means unconventional; a small sample is not an unconventional method.",
+   "D": "Means requiring great effort; it does not explain a failure to support claims."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "Although the findings appeared in a journal of the highest standing, the reviewer judged the methodology {{1}}, since the sample was too small to support any general claim.",
    "choices": [
@@ -619,13 +668,19 @@
     "F",
     "E"
    ]
-  },
-  "explanation": "**Signal:** *Although* opposes the journal's prestige, and \"too small to support any general claim\" explains why: the method is faulty. *Deficient* and *unsound*, not exact synonyms, yield sentences with the same verdict.",
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-12",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** concern that \"evaporated\" when costly was never fully real. *Professed* (claimed) and *ostensible* (apparent) both cast doubt on the concern, so the sentences agree even though the words are not exact synonyms.",
   "choiceExplanations": {
-   "A": "Praise would agree with the journal's standing; *although* needs a contrast.",
-   "C": "Also praise, and nothing says the sample size is novel.",
-   "B": "Means unconventional; a small sample is not an unconventional method.",
-   "D": "Means requiring great effort; it does not explain a failure to support claims."
+   "C": "Real concern would not evaporate for convenience.",
+   "F": "Means lasting, the opposite of evaporating.",
+   "E": "Describes acting without thought; it does not explain the contrast with income.",
+   "B": "Concern is not described as reluctant, and reluctance would not evaporate for income."
   },
   "estSeconds": 120,
   "skills": [
@@ -633,16 +688,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-02-same-meaning-12",
-  "lessonId": "v2-02-same-meaning",
+  },
   "type": "SE",
-  "difficulty": 5,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Her {{1}} concern for the poor, critics noted, evaporated whenever it threatened her own income.",
    "choices": [
@@ -677,22 +729,6 @@
     "A",
     "D"
    ]
-  },
-  "explanation": "**Clue:** concern that \"evaporated\" when costly was never fully real. *Professed* (claimed) and *ostensible* (apparent) both cast doubt on the concern, so the sentences agree even though the words are not exact synonyms.",
-  "choiceExplanations": {
-   "C": "Real concern would not evaporate for convenience.",
-   "F": "Means lasting, the opposite of evaporating.",
-   "E": "Describes acting without thought; it does not explain the contrast with income.",
-   "B": "Concern is not described as reluctant, and reluctance would not evaporate for income."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

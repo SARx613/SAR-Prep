@@ -98,3 +98,14 @@ export function neighbours(id: string): { prev: LessonCard | null; next: LessonC
 export function getSource(id: string) {
   return content().sources.find((s) => s.id === id) ?? null;
 }
+
+/** Questions by id, in the order given (unknown or unplayable ids are skipped). */
+export function getByIds(ids: string[]): ClientQuestion[] {
+  const c = content();
+  const byId = new Map<string, ContentQuestionInput>();
+  for (const qs of c.questionSets.values()) for (const q of qs) byId.set(q.id, q);
+  return ids.flatMap((id) => {
+    const q = byId.get(id);
+    return q && isPlayable(q) ? [toClient(q, c)] : [];
+  });
+}

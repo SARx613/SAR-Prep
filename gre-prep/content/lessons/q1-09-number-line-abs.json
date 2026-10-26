@@ -26,15 +26,8 @@
   {
    "id": "q1-09-number-line-abs-c1",
    "lessonId": "q1-09-number-line-abs",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the value of $|-9|+|4|$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 13
-   },
    "explanation": "$|-9| = 9$ and $|4| = 4$, so the sum is 13.",
    "estSeconds": 45,
    "skills": [
@@ -42,16 +35,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
    }
   },
   {
    "id": "q1-09-number-line-abs-c2",
    "lessonId": "q1-09-number-line-abs",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following is the least?",
+   "explanation": "Among negatives, the one farthest from 0 is least. In decimals: $-0.4$, $-0.33$, $-0.25$, $-0.2$. So $-0.4$ is least.",
+   "choiceExplanations": {
+    "B": "$-\\frac{1}{3}\\approx-0.33$ is to the right of $-0.4$.",
+    "C": "$-0.25$ is to the right of $-0.4$.",
+    "D": "$-0.2$ is to the right of $-0.4$.",
+    "E": "0 is greater than every negative number."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "number-line-abs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -81,38 +103,13 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "Among negatives, the one farthest from 0 is least. In decimals: $-0.4$, $-0.33$, $-0.25$, $-0.2$. So $-0.4$ is least.",
-   "choiceExplanations": {
-    "B": "$-\\frac{1}{3}\\approx-0.33$ is to the right of $-0.4$.",
-    "C": "$-0.25$ is to the right of $-0.4$.",
-    "D": "$-0.2$ is to the right of $-0.4$.",
-    "E": "0 is greater than every negative number."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "number-line-abs"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q1-09-number-line-abs-c3",
    "lessonId": "q1-09-number-line-abs",
-   "type": "QC",
    "difficulty": 3,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "$|x|$",
-    "quantityB": "$x$",
-    "common": "$x<0$"
-   },
-   "answer": {
-    "choice": "A"
-   },
    "explanation": "$x$ is negative, and $|x|$ is positive. A is greater.",
    "estSeconds": 45,
    "skills": [
@@ -120,8 +117,20 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$|x|$",
+    "quantityB": "$x$",
+    "common": "$x<0$"
+   },
+   "answer": {
+    "choice": "A"
    }
   }
  ]

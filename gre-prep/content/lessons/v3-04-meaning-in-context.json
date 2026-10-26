@@ -18,10 +18,29 @@
   {
    "id": "v3-04-meaning-in-context-c1",
    "lessonId": "v3-04-meaning-in-context",
-   "type": "RC",
    "difficulty": 1,
    "stem": "As used in the passage, 'conservative' most nearly means",
+   "explanation": "'Yet' sets 'conservative' against 'bold', and the next phrase (budgets intact, no new taxes) shows modesty.",
+   "choiceExplanations": {
+    "A": "The word describes the measures, not a party; the sentence is about how bold they are.",
+    "B": "The measures are described by what they left unchanged, not by their style.",
+    "C": "Too extreme: the plan did contain measures; they were just modest.",
+    "E": "Nothing in the passage suggests waste."
+   },
+   "estSeconds": 65,
+   "skills": [
+    "rc-vocab-in-context"
+   ],
    "passageId": "v3-c-04",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -51,31 +70,34 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "'Yet' sets 'conservative' against 'bold', and the next phrase (budgets intact, no new taxes) shows modesty.",
-   "choiceExplanations": {
-    "A": "The word describes the measures, not a party; the sentence is about how bold they are.",
-    "B": "The measures are described by what they left unchanged, not by their style.",
-    "C": "Too extreme: the plan did contain measures; they were just modest.",
-    "E": "Nothing in the passage suggests waste."
-   },
-   "estSeconds": 65,
-   "skills": [
-    "rc-vocab-in-context"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-04-meaning-in-context-c2",
    "lessonId": "v3-04-meaning-in-context",
-   "type": "RC",
    "difficulty": 2,
    "stem": "In the passage, 'departure' (in 'departure from precedent') most nearly means",
+   "explanation": "A 'departure from precedent' is a break from what has been done before.",
+   "choiceExplanations": {
+    "A": "This physical sense does not suit an abstract phrase.",
+    "C": "No career is mentioned.",
+    "D": "Aviation is irrelevant.",
+    "E": "Nothing about saying goodbye."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-vocab-in-context"
+   ],
    "passageId": "v3-c-04",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -105,22 +127,6 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "A 'departure from precedent' is a break from what has been done before.",
-   "choiceExplanations": {
-    "A": "This physical sense does not suit an abstract phrase.",
-    "C": "No career is mentioned.",
-    "D": "Aviation is irrelevant.",
-    "E": "Nothing about saying goodbye."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-vocab-in-context"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

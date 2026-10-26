@@ -27,15 +27,8 @@
   {
    "id": "q2-08-functions-c1",
    "lessonId": "q2-08-functions",
-   "type": "NE",
    "difficulty": 1,
    "stem": "If $f(x)=2x^2-5$, what is the value of $f(-3)$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 13
-   },
    "explanation": "$f(-3)=2(-3)^2-5=2(9)-5=13$.",
    "estSeconds": 45,
    "skills": [
@@ -43,16 +36,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
    }
   },
   {
    "id": "q2-08-functions-c2",
    "lessonId": "q2-08-functions",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following numbers is **not** in the domain of $h(x)=\\dfrac{7}{x+4}$?",
+   "explanation": "The denominator $x+4$ is 0 when $x=-4$, where $h$ is undefined.",
+   "choiceExplanations": {
+    "A": "$h(-7)=-\\frac73$ is defined.",
+    "C": "$h(0)=\\frac74$ is defined.",
+    "D": "$h(4)=\\frac78$ is defined.",
+    "E": "$h(7)=\\frac{7}{11}$ is defined."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "functions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -82,13 +104,19 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "The denominator $x+4$ is 0 when $x=-4$, where $h$ is undefined.",
+   }
+  },
+  {
+   "id": "q2-08-functions-c3",
+   "lessonId": "q2-08-functions",
+   "difficulty": 3,
+   "stem": "If $f(x)=3x-1$, which of the following is equal to $f(2a)$?",
+   "explanation": "Replace $x$ by $2a$: $3(2a)-1=6a-1$.",
    "choiceExplanations": {
-    "A": "$h(-7)=-\\frac73$ is defined.",
-    "C": "$h(0)=\\frac74$ is defined.",
-    "D": "$h(4)=\\frac78$ is defined.",
-    "E": "$h(7)=\\frac{7}{11}$ is defined."
+    "A": "The 2 was dropped: this is $f(a)$.",
+    "B": "The bracket was misplaced: $3(2a-1)$.",
+    "C": "This is $2f(a)$, which is not $f(2a)$.",
+    "E": "Sign error on the $-1$."
    },
    "estSeconds": 60,
    "skills": [
@@ -96,16 +124,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "q2-08-functions-c3",
-   "lessonId": "q2-08-functions",
+   },
    "type": "PS",
-   "difficulty": 3,
-   "stem": "If $f(x)=3x-1$, which of the following is equal to $f(2a)$?",
    "content": {
     "format": "select_one",
     "choices": [
@@ -135,22 +160,6 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "Replace $x$ by $2a$: $3(2a)-1=6a-1$.",
-   "choiceExplanations": {
-    "A": "The 2 was dropped: this is $f(a)$.",
-    "B": "The bracket was misplaced: $3(2a-1)$.",
-    "C": "This is $2f(a)$, which is not $f(2a)$.",
-    "E": "Sign error on the $-1$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "functions"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

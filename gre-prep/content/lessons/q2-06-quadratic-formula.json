@@ -27,15 +27,8 @@
   {
    "id": "q2-06-quadratic-formula-c1",
    "lessonId": "q2-06-quadratic-formula",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the value of $b^2-4ac$ for the equation $x^2-6x+5=0$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 16
-   },
    "explanation": "$a=1$, $b=-6$, $c=5$: $(-6)^2-4(1)(5)=36-20=16$.",
    "estSeconds": 45,
    "skills": [
@@ -43,16 +36,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 16
    }
   },
   {
    "id": "q2-06-quadratic-formula-c2",
    "lessonId": "q2-06-quadratic-formula",
-   "type": "PS",
    "difficulty": 2,
    "stem": "How many real solutions does $x^2+3x+5=0$ have?",
+   "explanation": "$b^2-4ac=9-20=-11<0$, so there are no real solutions.",
+   "choiceExplanations": {
+    "B": "One solution needs a discriminant of 0.",
+    "C": "Two solutions need a positive discriminant.",
+    "D": "A quadratic has at most two real solutions.",
+    "E": "A quadratic has at most two real solutions."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "quadratic-formula"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -82,30 +104,33 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "$b^2-4ac=9-20=-11<0$, so there are no real solutions.",
-   "choiceExplanations": {
-    "B": "One solution needs a discriminant of 0.",
-    "C": "Two solutions need a positive discriminant.",
-    "D": "A quadratic has at most two real solutions.",
-    "E": "A quadratic has at most two real solutions."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "quadratic-formula"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-06-quadratic-formula-c3",
    "lessonId": "q2-06-quadratic-formula",
-   "type": "PS",
    "difficulty": 3,
    "stem": "What are the solutions of $x^2-6x+4=0$?",
+   "explanation": "$b^2-4ac=36-16=20$ and $\\sqrt{20}=2\\sqrt5$. So $x=\\dfrac{6\\pm2\\sqrt5}{2}=3\\pm\\sqrt5$.",
+   "choiceExplanations": {
+    "B": "$-b$ is $+6$, not $-6$.",
+    "C": "The square root term was not divided by 2.",
+    "D": "The 2 was applied to the root but the 6 was not divided.",
+    "E": "Nothing was divided by $2a=2$."
+   },
+   "estSeconds": 90,
+   "skills": [
+    "quadratic-formula"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -135,22 +160,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "$b^2-4ac=36-16=20$ and $\\sqrt{20}=2\\sqrt5$. So $x=\\dfrac{6\\pm2\\sqrt5}{2}=3\\pm\\sqrt5$.",
-   "choiceExplanations": {
-    "B": "$-b$ is $+6$, not $-6$.",
-    "C": "The square root term was not divided by 2.",
-    "D": "The 2 was applied to the root but the 6 was not divided.",
-    "E": "Nothing was divided by $2a=2$."
-   },
-   "estSeconds": 90,
-   "skills": [
-    "quadratic-formula"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

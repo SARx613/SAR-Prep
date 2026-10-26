@@ -11,7 +11,10 @@
     "test": "vitest run",
     "screens": "node scripts/qa/screens.mjs",
     "content:check": "tsx scripts/content-check.ts",
-    "flows": "node scripts/qa/flows.mjs"
+    "flows": "node scripts/qa/flows.mjs",
+    "content:blind": "tsx scripts/content-blind.ts",
+    "content:solved": "tsx scripts/content-solve-apply.ts",
+    "content:approve": "tsx scripts/content-approve.ts"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.3",

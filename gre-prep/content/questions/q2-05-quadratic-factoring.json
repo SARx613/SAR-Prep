@@ -2,9 +2,28 @@
  {
   "id": "q2-05-quadratic-factoring-01",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "PS",
   "difficulty": 1,
   "stem": "What is the positive solution of $(x-3)(x+5)=0$?",
+  "explanation": "Set each factor to 0: $x=3$ or $x=-5$. The positive one is 3.",
+  "choiceExplanations": {
+   "A": "This is the negative solution.",
+   "B": "Sign error: the factor $x-3$ gives $x=+3$.",
+   "D": "Sign error: the factor $x+5$ gives $x=-5$.",
+   "E": "This multiplies the two numbers."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,36 +53,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Set each factor to 0: $x=3$ or $x=-5$. The positive one is 3.",
-  "choiceExplanations": {
-   "A": "This is the negative solution.",
-   "B": "Sign error: the factor $x-3$ gives $x=+3$.",
-   "D": "Sign error: the factor $x+5$ gives $x=-5$.",
-   "E": "This multiplies the two numbers."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "quadratic-factoring"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-05-quadratic-factoring-02",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is the sum of the two solutions of $x^2-8x+15=0$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 8
-  },
   "explanation": "$x^2-8x+15=(x-3)(x-5)$, so the solutions are $3$ and $5$. Their sum is $8$.",
   "estSeconds": 60,
   "skills": [
@@ -71,16 +67,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
   }
  },
  {
   "id": "q2-05-quadratic-factoring-03",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "PS",
   "difficulty": 2,
   "stem": "What is the greatest solution of $x^2-x-20=0$?",
+  "explanation": "Factor: $(x-5)(x+4)=0$. The solutions are $5$ and $-4$; the greater is 5.",
+  "choiceExplanations": {
+   "A": "$-5$ is not a solution; it has the wrong sign.",
+   "B": "This is a solution but the smaller one.",
+   "C": "Sign error: it is $-4$, not $4$, that is a solution.",
+   "E": "This is the constant term."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,13 +135,19 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "Factor: $(x-5)(x+4)=0$. The solutions are $5$ and $-4$; the greater is 5.",
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-04",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 2,
+  "stem": "How many distinct real solutions does the equation $x^2=6x$ have?",
+  "explanation": "$x^2-6x=0$ gives $x(x-6)=0$, so $x=0$ or $x=6$.",
   "choiceExplanations": {
-   "A": "$-5$ is not a solution; it has the wrong sign.",
-   "B": "This is a solution but the smaller one.",
-   "C": "Sign error: it is $-4$, not $4$, that is a solution.",
-   "E": "This is the constant term."
+   "A": "It has real solutions.",
+   "B": "Dividing by $x$ would find only $x=6$ and lose $x=0$.",
+   "D": "A quadratic has at most two solutions.",
+   "E": "A quadratic has at most two solutions."
   },
   "estSeconds": 60,
   "skills": [
@@ -124,16 +155,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q2-05-quadratic-factoring-04",
-  "lessonId": "q2-05-quadratic-factoring",
+  },
   "type": "PS",
-  "difficulty": 2,
-  "stem": "How many distinct real solutions does the equation $x^2=6x$ have?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -163,38 +191,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$x^2-6x=0$ gives $x(x-6)=0$, so $x=0$ or $x=6$.",
-  "choiceExplanations": {
-   "A": "It has real solutions.",
-   "B": "Dividing by $x$ would find only $x=6$ and lose $x=0$.",
-   "D": "A quadratic has at most two solutions.",
-   "E": "A quadratic has at most two solutions."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "quadratic-factoring"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-05-quadratic-factoring-05",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$x$",
-   "quantityB": "$-5$",
-   "common": "$(x-1)(x+6)=0$ and $x<0$"
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "$(x-1)(x+6)=0$ gives $x=1$ or $x=-6$. Since $x<0$, $x=-6$, which is less than $-5$.",
   "estSeconds": 60,
   "skills": [
@@ -202,22 +205,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$-5$",
+   "common": "$(x-1)(x+6)=0$ and $x<0$"
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q2-05-quadratic-factoring-06",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "NE",
   "difficulty": 3,
   "stem": "What is the greater solution of $3x^2-7x-6=0$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 3
-  },
   "explanation": "Factor: $(3x+2)(x-3)=0$. Check: $3x^2-9x+2x-6$. The solutions are $-\\dfrac23$ and $3$, so the greater is $3$.",
   "estSeconds": 90,
   "skills": [
@@ -225,16 +233,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
   }
  },
  {
   "id": "q2-05-quadratic-factoring-07",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which of the following are solutions of $2x^2-5x-12=0$? Indicate all such numbers.",
+  "explanation": "Factor: $(2x+3)(x-4)=0$. So $x=-\\dfrac32$ or $x=4$.",
+  "choiceExplanations": {
+   "A": "$2(16)+20-12=40\\ne0$.",
+   "C": "Sign error: $2x+3=0$ gives $-\\frac32$.",
+   "E": "$2(36)-30-12=30\\ne0$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -265,12 +301,19 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Factor: $(2x+3)(x-4)=0$. So $x=-\\dfrac32$ or $x=4$.",
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-08",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 3,
+  "stem": "What is the positive solution of $(x-2)(x+1)=10$?",
+  "explanation": "Expand: $x^2-x-2=10$, so $x^2-x-12=0$ and $(x-4)(x+3)=0$. The positive solution is $4$.",
   "choiceExplanations": {
-   "A": "$2(16)+20-12=40\\ne0$.",
-   "C": "Sign error: $2x+3=0$ gives $-\\frac32$.",
-   "E": "$2(36)-30-12=30\\ne0$."
+   "A": "This makes only the factor $x-2$ equal to 0, but the product is 10, not 0.",
+   "B": "The negative solution is $-3$; this is its absolute value.",
+   "D": "This sets $x+1=10$, ignoring the other factor.",
+   "E": "This sets $x-2=10$, ignoring the other factor."
   },
   "estSeconds": 100,
   "skills": [
@@ -278,16 +321,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q2-05-quadratic-factoring-08",
-  "lessonId": "q2-05-quadratic-factoring",
+  },
   "type": "PS",
-  "difficulty": 3,
-  "stem": "What is the positive solution of $(x-2)(x+1)=10$?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -317,36 +357,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Expand: $x^2-x-2=10$, so $x^2-x-12=0$ and $(x-4)(x+3)=0$. The positive solution is $4$.",
-  "choiceExplanations": {
-   "A": "This makes only the factor $x-2$ equal to 0, but the product is 10, not 0.",
-   "B": "The negative solution is $-3$; this is its absolute value.",
-   "D": "This sets $x+1=10$, ignoring the other factor.",
-   "E": "This sets $x-2=10$, ignoring the other factor."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "quadratic-factoring"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-05-quadratic-factoring-09",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "NE",
   "difficulty": 4,
   "stem": "One solution of $x^2-kx+12=0$ is $x=3$. What is the value of $k$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 7
-  },
   "explanation": "Substitute: $9-3k+12=0$, so $3k=21$ and $k=7$. (Check: $x^2-7x+12=(x-3)(x-4)$.)",
   "estSeconds": 75,
   "skills": [
@@ -354,16 +371,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
   }
  },
  {
   "id": "q2-05-quadratic-factoring-10",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Which of the following are solutions of $(x-2)^2=9$? Indicate all such numbers.",
+  "explanation": "Expand and move: $x^2-4x-5=0$, so $(x-5)(x+1)=0$ and $x=5$ or $x=-1$. (Check: $(5-2)^2=9$ and $(-3)^2=9$.)",
+  "choiceExplanations": {
+   "A": "$(-5-2)^2=49\\ne9$.",
+   "C": "$(1-2)^2=1\\ne9$.",
+   "E": "This sets $x-2=9$ and forgets that $x-2=-3$ also works."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-factoring",
+   "factoring"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -394,36 +440,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Expand and move: $x^2-4x-5=0$, so $(x-5)(x+1)=0$ and $x=5$ or $x=-1$. (Check: $(5-2)^2=9$ and $(-3)^2=9$.)",
-  "choiceExplanations": {
-   "A": "$(-5-2)^2=49\\ne9$.",
-   "C": "$(1-2)^2=1\\ne9$.",
-   "E": "This sets $x-2=9$ and forgets that $x-2=-3$ also works."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "quadratic-factoring",
-   "factoring"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q2-05-quadratic-factoring-11",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "NE",
   "difficulty": 5,
   "stem": "If $x^2-7x+10=0$ and $y^2-3y-10=0$, what is the greatest possible value of $x-y$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 7
-  },
   "explanation": "$x^2-7x+10=(x-2)(x-5)$, so $x\\in\\{2,5\\}$. $y^2-3y-10=(y-5)(y+2)$, so $y\\in\\{5,-2\\}$. The difference is largest for the largest $x$ and the smallest $y$: $5-(-2)=7$.",
   "estSeconds": 120,
   "skills": [
@@ -431,24 +454,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
   }
  },
  {
   "id": "q2-05-quadratic-factoring-12",
   "lessonId": "q2-05-quadratic-factoring",
-  "type": "QC",
   "difficulty": 5,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$x$",
-   "quantityB": "$y$",
-   "common": "$x^2-4x-21=0$ and $y^2-10y+21=0$"
-  },
-  "answer": {
-   "choice": "D"
-  },
   "explanation": "$x^2-4x-21=(x-7)(x+3)$, so $x=7$ or $x=-3$. $y^2-10y+21=(y-3)(y-7)$, so $y=3$ or $y=7$. If $x=7,y=3$ then A is greater; if $x=-3,y=3$ then B is greater. (Even $x=y=7$ is possible.)",
   "estSeconds": 120,
   "skills": [
@@ -456,8 +480,20 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$y$",
+   "common": "$x^2-4x-21=0$ and $y^2-10y+21=0$"
+  },
+  "answer": {
+   "choice": "D"
   }
  }
 ]

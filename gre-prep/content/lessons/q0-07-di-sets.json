@@ -26,18 +26,8 @@
   {
    "id": "q0-07-di-sets-c1",
    "lessonId": "q0-07-di-sets",
-   "type": "DI",
    "difficulty": 1,
-   "stem": "How many books were lent by Branch X in Week 2?",
-   "content": {
-    "format": "numeric_entry",
-    "numeric": {
-     "format": "integer"
-    }
-   },
-   "answer": {
-    "value": 7000
-   },
+   "stem": "How many books (not thousands of books) were lent by Branch X in Week 2?",
    "explanation": "The table is in thousands: $7\\times1000=7{,}000$.",
    "estSeconds": 45,
    "skills": [
@@ -73,46 +63,28 @@
    },
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a2",
+     "solver-b2"
+    ],
     "sourceChecked": false
+   },
+   "type": "DI",
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "integer"
+    }
+   },
+   "answer": {
+    "value": 7000
    }
   },
   {
    "id": "q0-07-di-sets-c2",
    "lessonId": "q0-07-di-sets",
-   "type": "DI",
    "difficulty": 2,
    "stem": "In which week did Branch Y lend more books than Branch X?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     {
-      "id": "A",
-      "text": "Week 1"
-     },
-     {
-      "id": "B",
-      "text": "Week 2"
-     },
-     {
-      "id": "C",
-      "text": "Week 3"
-     },
-     {
-      "id": "D",
-      "text": "All three weeks"
-     },
-     {
-      "id": "E",
-      "text": "None of the weeks"
-     }
-    ]
-   },
-   "answer": {
-    "choices": [
-     "B"
-    ]
-   },
    "explanation": "Only in Week 2 does Y (9) exceed X (7).",
    "choiceExplanations": {
     "A": "Branch X lent 8 thousand, more than Y's 5.",
@@ -154,25 +126,49 @@
    },
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "DI",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Week 1"
+     },
+     {
+      "id": "B",
+      "text": "Week 2"
+     },
+     {
+      "id": "C",
+      "text": "Week 3"
+     },
+     {
+      "id": "D",
+      "text": "All three weeks"
+     },
+     {
+      "id": "E",
+      "text": "None of the weeks"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
    }
   },
   {
    "id": "q0-07-di-sets-c3",
    "lessonId": "q0-07-di-sets",
-   "type": "DI",
    "difficulty": 2,
    "stem": "What was the total number of books lent by both branches in Week 3, in thousands?",
-   "content": {
-    "format": "numeric_entry",
-    "numeric": {
-     "format": "integer"
-    }
-   },
-   "answer": {
-    "value": 16
-   },
    "explanation": "$10+6=16$ thousand.",
    "estSeconds": 45,
    "skills": [
@@ -208,8 +204,21 @@
    },
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "DI",
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "integer"
+    }
+   },
+   "answer": {
+    "value": 16
    }
   }
  ]

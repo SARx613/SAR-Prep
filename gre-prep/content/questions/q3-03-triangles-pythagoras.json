@@ -2,15 +2,8 @@
  {
   "id": "q3-03-triangles-pythagoras-01",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 1,
   "stem": "In a triangle, two of the interior angles measure $48^\\circ$ and $67^\\circ$. What is the measure, in degrees, of the third angle?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 65
-  },
   "explanation": "The angles add up to $180$: $180-48-67=65$.",
   "estSeconds": 45,
   "skills": [
@@ -19,16 +12,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 65
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-02",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "PS",
   "difficulty": 1,
   "stem": "A right triangle has legs of length 6 and 8. What is the length of its hypotenuse?",
+  "explanation": "$6^2+8^2=36+64=100$, so the hypotenuse is $\\sqrt{100}=10$.",
+  "choiceExplanations": {
+   "A": "That subtracts the squares: $\\sqrt{64-36}$. The hypotenuse needs the *sum* of the squares.",
+   "B": "That is the average of the legs; it is shorter than the longer leg, so it cannot be the hypotenuse.",
+   "D": "No calculation of the squares gives 12.",
+   "E": "That is the sum of the legs, $6+8$, not the length of the hypotenuse."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "triangles",
+   "pythagorean-theorem"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -58,37 +81,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$6^2+8^2=36+64=100$, so the hypotenuse is $\\sqrt{100}=10$.",
-  "choiceExplanations": {
-   "A": "That subtracts the squares: $\\sqrt{64-36}$. The hypotenuse needs the *sum* of the squares.",
-   "B": "That is the average of the legs; it is shorter than the longer leg, so it cannot be the hypotenuse.",
-   "D": "No calculation of the squares gives 12.",
-   "E": "That is the sum of the legs, $6+8$, not the length of the hypotenuse."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "triangles",
-   "pythagorean-theorem"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-03",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 2,
   "stem": "In triangle $ABC$, $AB=BC$ and the angle at $B$ is $30^\\circ$ larger than the angle at $A$. What is the measure, in degrees, of the angle at $B$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 80
-  },
   "explanation": "$AB=BC$ means the angles opposite them, at $C$ and $A$, are equal; call each $a$. Then $B=a+30$ and $a+a+(a+30)=180$, so $a=50$ and $B=80$.",
   "estSeconds": 75,
   "skills": [
@@ -97,24 +96,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 80
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-04",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$x$",
-   "quantityB": "12",
-   "common": "The lengths of the sides of a triangle are 5, 8 and $x$."
-  },
-  "answer": {
-   "choice": "D"
-  },
   "explanation": "By the triangle inequality $8-5<x<8+5$, so $3<x<13$. The value $x=12.5$ gives A greater; $x=4$ gives B greater. Cannot be determined.",
   "estSeconds": 75,
   "skills": [
@@ -123,16 +123,47 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "12",
+   "common": "The lengths of the sides of a triangle are 5, 8 and $x$."
+  },
+  "answer": {
+   "choice": "D"
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-05",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following sets of three numbers could be the side lengths of a triangle? Indicate all such sets.",
+  "explanation": "Each side must be shorter than the sum of the other two; check the longest side. $5+5=10>9$ works; $7+9=16>15$ works. The others fail because the two shorter sides add up to the longest or less.",
+  "choiceExplanations": {
+   "A": "$3+4=7$, which is less than 8.",
+   "C": "$6+8=14$, which is not *greater* than 14; the 'triangle' would be flat.",
+   "E": "$10+10=20$ is not greater than 20."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "triangles",
+   "pythagorean-theorem"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -163,36 +194,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Each side must be shorter than the sum of the other two; check the longest side. $5+5=10>9$ works; $7+9=16>15$ works. The others fail because the two shorter sides add up to the longest or less.",
-  "choiceExplanations": {
-   "A": "$3+4=7$, which is less than 8.",
-   "C": "$6+8=14$, which is not *greater* than 14; the 'triangle' would be flat.",
-   "E": "$10+10=20$ is not greater than 20."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "triangles",
-   "pythagorean-theorem"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-06",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 3,
   "stem": "A 25-foot ladder leans against a vertical wall with its foot on level ground 15 feet from the base of the wall. How many feet above the ground does the ladder touch the wall?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 20
-  },
   "explanation": "The ladder, wall and ground form a right triangle with hypotenuse 25 (the ladder). $h^2+15^2=25^2$, so $h^2=625-225=400$ and $h=20$.",
   "estSeconds": 75,
   "skills": [
@@ -201,24 +209,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-07",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The measure of angle $P$",
-   "quantityB": "$40^\\circ$",
-   "common": "In triangle $PQR$, $PQ=PR$ and the measure of angle $Q$ is $70^\\circ$."
-  },
-  "answer": {
-   "choice": "C"
-  },
   "explanation": "$PQ=PR$ means the angles opposite them, at $R$ and $Q$, are equal; so $Q=R=70^\\circ$ and $P=180-140=40^\\circ$. Equal.",
   "estSeconds": 75,
   "skills": [
@@ -227,16 +236,56 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The measure of angle $P$",
+   "quantityB": "$40^\\circ$",
+   "common": "In triangle $PQR$, $PQ=PR$ and the measure of angle $Q$ is $70^\\circ$."
+  },
+  "answer": {
+   "choice": "C"
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-08",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "PS",
   "difficulty": 3,
   "stem": "In triangle $ABC$ shown, $AB=AC$. What is the measure of angle $A$?",
+  "explanation": "$AB=AC$, so the base angles are equal: $3x+5=5x-25$, giving $x=15$ and each base angle $50^\\circ$. Then $A=180-50-50=80^\\circ$.",
+  "choiceExplanations": {
+   "A": "That is $x$, not an angle of the triangle.",
+   "B": "That is each base angle; angle $A$ is what remains.",
+   "D": "That is $180-80$: you would need to subtract angle $A$ instead of the two base angles.",
+   "E": "That is $180-50$; angle $A$ is $180-50-50$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "triangles",
+   "pythagorean-theorem"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"120,44.7 40,140 200,140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"83.1\" y1=\"94.9\" x2=\"76.9\" y2=\"89.8\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"163.1\" y1=\"89.8\" x2=\"156.9\" y2=\"94.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"120\" y=\"38.7\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"30\" y=\"144\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"210\" y=\"144\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"62\" y=\"130\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">(3x+5)°</text><text x=\"178\" y=\"130\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">(5x-25)°</text></svg>",
+    "alt": "Triangle ABC with AB and AC marked equal by tick marks. The interior angle at B is labeled (3x+5) degrees and the interior angle at C is labeled (5x-25) degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -266,45 +315,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$AB=AC$, so the base angles are equal: $3x+5=5x-25$, giving $x=15$ and each base angle $50^\\circ$. Then $A=180-50-50=80^\\circ$.",
-  "choiceExplanations": {
-   "A": "That is $x$, not an angle of the triangle.",
-   "B": "That is each base angle; angle $A$ is what remains.",
-   "D": "That is $180-80$: you would need to subtract angle $A$ instead of the two base angles.",
-   "E": "That is $180-50$; angle $A$ is $180-50-50$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "triangles",
-   "pythagorean-theorem"
-  ],
-  "figure": {
-   "kind": "svg",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"120,44.7 40,140 200,140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"83.1\" y1=\"94.9\" x2=\"76.9\" y2=\"89.8\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"163.1\" y1=\"89.8\" x2=\"156.9\" y2=\"94.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"120\" y=\"38.7\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"30\" y=\"144\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"210\" y=\"144\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"62\" y=\"130\" text-anchor=\"start\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">(3x+5)°</text><text x=\"178\" y=\"130\" text-anchor=\"end\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">(5x-25)°</text></svg>",
-    "alt": "Triangle ABC with AB and AC marked equal by tick marks. The interior angle at B is labeled (3x+5) degrees and the interior angle at C is labeled (5x-25) degrees."
-   },
-   "notes": "Note: Figure not drawn to scale."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-09",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 4,
   "stem": "In the figure, $AD$ is perpendicular to $BC$, $AD=12$, $BD=5$ and $DC=16$. What is the perimeter of triangle $ABC$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 54
-  },
   "explanation": "Right triangle $ABD$: $AB=\\sqrt{12^2+5^2}=13$. Right triangle $ADC$: $AC=\\sqrt{12^2+16^2}=20$. $BC=5+16=21$. Perimeter $=13+20+21=54$.",
   "estSeconds": 110,
   "skills": [
@@ -321,16 +338,43 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 54
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-10",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "PS",
   "difficulty": 4,
   "stem": "The legs of a right triangle have lengths $a$ and $b$ and its hypotenuse has length $c$, where $a,b,c>0$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "From $c^2=a^2+b^2>a^2$ we get $c>a$. The triangle inequality gives $a+b>c$. Rearranging the theorem gives $a^2=c^2-b^2$. The statement $c=a+b$ is false: $c<a+b$.",
+  "choiceExplanations": {
+   "C": "The theorem gives $c^2=a^2+b^2$; $c=a+b$ would make the triangle flat."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "triangles",
+   "pythagorean-theorem"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -358,34 +402,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "From $c^2=a^2+b^2>a^2$ we get $c>a$. The triangle inequality gives $a+b>c$. Rearranging the theorem gives $a^2=c^2-b^2$. The statement $c=a+b$ is false: $c<a+b$.",
-  "choiceExplanations": {
-   "C": "The theorem gives $c^2=a^2+b^2$; $c=a+b$ would make the triangle flat."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "triangles",
-   "pythagorean-theorem"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-11",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 5,
   "stem": "An isosceles triangle with integer side lengths has perimeter 31, and one of its sides has length 7. What is the length of its longest side?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 12
-  },
   "explanation": "If 7 were one of the two equal sides, the sides would be $7,7,17$, but $7+7<17$: impossible. So 7 is the odd side and the equal sides are $(31-7)\\div2=12$ each: $7,12,12$ works ($7<24$). The longest side is 12.",
   "estSeconds": 120,
   "skills": [
@@ -394,22 +417,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
   }
  },
  {
   "id": "q3-03-triangles-pythagoras-12",
   "lessonId": "q3-03-triangles-pythagoras",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A right triangle has hypotenuse 17 and perimeter 40. What is the product of the lengths of its legs?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 120
-  },
   "explanation": "The legs $a,b$ satisfy $a+b=23$ and $a^2+b^2=289$. Square the first: $a^2+2ab+b^2=529$, so $2ab=529-289=240$ and $ab=120$. (The legs are 8 and 15.)",
   "estSeconds": 130,
   "skills": [
@@ -418,8 +444,18 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 120
   }
  }
 ]

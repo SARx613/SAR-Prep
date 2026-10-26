@@ -28,9 +28,28 @@
   {
    "id": "q2-15-graphing-curves-c1",
    "lessonId": "q2-15-graphing-curves",
-   "type": "PS",
    "difficulty": 1,
    "stem": "What are the center and radius of the circle $(x-1)^2+(y+4)^2=49$?",
+   "explanation": "$(x-1)$ gives center $x=1$ and $(y+4)$ gives center $y=-4$. The radius is $\\sqrt{49}=7$.",
+   "choiceExplanations": {
+    "A": "The signs of the center are flipped.",
+    "B": "The signs are flipped and 49 is $r^2$, not $r$.",
+    "D": "49 is $r^2$, so the radius is 7.",
+    "E": "$(y+4)$ means $y=-4$, not $4$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "graphing-curves"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -60,36 +79,13 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "$(x-1)$ gives center $x=1$ and $(y+4)$ gives center $y=-4$. The radius is $\\sqrt{49}=7$.",
-   "choiceExplanations": {
-    "A": "The signs of the center are flipped.",
-    "B": "The signs are flipped and 49 is $r^2$, not $r$.",
-    "D": "49 is $r^2$, so the radius is 7.",
-    "E": "$(y+4)$ means $y=-4$, not $4$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "graphing-curves"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-15-graphing-curves-c2",
    "lessonId": "q2-15-graphing-curves",
-   "type": "NE",
    "difficulty": 2,
    "stem": "What is the $x$-coordinate of the vertex of the parabola $y=x^2-6x+5$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 3
-   },
    "explanation": "Solving $x^2-6x+5=(x-1)(x-5)=0$ gives intercepts 1 and 5. The vertex is midway: $x=3$.",
    "estSeconds": 75,
    "skills": [
@@ -97,16 +93,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 3
    }
   },
   {
    "id": "q2-15-graphing-curves-c3",
    "lessonId": "q2-15-graphing-curves",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following points satisfies $y>2x-1$?",
+   "explanation": "At $(0,0)$: $0>-1$ is true. Points $(-1,-3)$, $(1,1)$ and $(2,3)$ lie *on* the line $y=2x-1$, which the strict inequality excludes. At $(2,0)$: $0>3$ is false.",
+   "choiceExplanations": {
+    "A": "On the boundary line ($-3=2(-1)-1$); not strictly above.",
+    "C": "On the boundary line ($1=2(1)-1$).",
+    "D": "$0>3$ is false; this point is below the line.",
+    "E": "On the boundary line ($3=2(2)-1$)."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "graphing-curves"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -136,22 +161,6 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "At $(0,0)$: $0>-1$ is true. Points $(-1,-3)$, $(1,1)$ and $(2,3)$ lie *on* the line $y=2x-1$, which the strict inequality excludes. At $(2,0)$: $0>3$ is false.",
-   "choiceExplanations": {
-    "A": "On the boundary line ($-3=2(-1)-1$); not strictly above.",
-    "C": "On the boundary line ($1=2(1)-1$).",
-    "D": "$0>3$ is false; this point is below the line.",
-    "E": "On the boundary line ($3=2(2)-1$)."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "graphing-curves"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

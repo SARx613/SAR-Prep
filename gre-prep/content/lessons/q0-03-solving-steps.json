@@ -27,15 +27,8 @@
   {
    "id": "q0-03-solving-steps-c1",
    "lessonId": "q0-03-solving-steps",
-   "type": "NE",
    "difficulty": 1,
    "stem": "If $2x+5=19$, what is the value of $x-1$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 6
-   },
    "explanation": "$2x=14$, so $x=7$ and $x-1=6$.",
    "estSeconds": 45,
    "skills": [
@@ -43,16 +36,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
    }
   },
   {
    "id": "q0-03-solving-steps-c2",
    "lessonId": "q0-03-solving-steps",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A circle's area computed from a problem comes out as $-12\\pi$. What does step 3 tell you?",
+   "explanation": "Basic facts give reasonableness tests: areas are positive and probabilities lie from 0 to 1.",
+   "choiceExplanations": {
+    "A": "Area of a figure must be positive.",
+    "C": "Fixing the sign hides the error.",
+    "D": "That is unrelated.",
+    "E": "Guessing is not checking."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "problem-solving-steps"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -82,36 +104,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "Basic facts give reasonableness tests: areas are positive and probabilities lie from 0 to 1.",
-   "choiceExplanations": {
-    "A": "Area of a figure must be positive.",
-    "C": "Fixing the sign hides the error.",
-    "D": "That is unrelated.",
-    "E": "Guessing is not checking."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "problem-solving-steps"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q0-03-solving-steps-c3",
    "lessonId": "q0-03-solving-steps",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A rope 3.6 meters long is cut into pieces of 0.45 meter. How many pieces result?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 8
-   },
    "explanation": "$3.6\\div0.45=8$. Check: $8\\cdot0.45=3.6$.",
    "estSeconds": 60,
    "skills": [
@@ -119,8 +118,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
    }
   }
  ]

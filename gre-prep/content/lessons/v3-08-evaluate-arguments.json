@@ -19,10 +19,29 @@
   {
    "id": "v3-08-evaluate-arguments-c1",
    "lessonId": "v3-08-evaluate-arguments",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Which of the following, if true, would most strengthen the study's conclusion?",
+   "explanation": "Random assignment rules out the alternative explanations, such as routines or households.",
+   "choiceExplanations": {
+    "A": "Sleep is another possible explanation and would weaken the conclusion.",
+    "B": "Enjoying school does not bear on whether breakfast raises grades.",
+    "C": "This supports the alternative explanation in the passage.",
+    "E": "Popularity of a meal says nothing about grades."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-evaluate"
+   ],
    "passageId": "v3-c-08",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -52,31 +71,34 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "Random assignment rules out the alternative explanations, such as routines or households.",
-   "choiceExplanations": {
-    "A": "Sleep is another possible explanation and would weaken the conclusion.",
-    "B": "Enjoying school does not bear on whether breakfast raises grades.",
-    "C": "This supports the alternative explanation in the passage.",
-    "E": "Popularity of a meal says nothing about grades."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-evaluate"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-08-evaluate-arguments-c2",
    "lessonId": "v3-08-evaluate-arguments",
-   "type": "RC",
    "difficulty": 2,
    "stem": "Which of the following does the passage offer as an alternative explanation of the study's finding?",
+   "explanation": "The final sentence names routines and supportive households as other factors that could explain both.",
+   "choiceExplanations": {
+    "B": "Not mentioned.",
+    "C": "Not mentioned.",
+    "D": "Not mentioned; the passage does not describe breakfast's contents.",
+    "E": "Not mentioned."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-alternative-explanations"
+   ],
    "passageId": "v3-c-08",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -106,22 +128,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "The final sentence names routines and supportive households as other factors that could explain both.",
-   "choiceExplanations": {
-    "B": "Not mentioned.",
-    "C": "Not mentioned.",
-    "D": "Not mentioned; the passage does not describe breakfast's contents.",
-    "E": "Not mentioned."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-alternative-explanations"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

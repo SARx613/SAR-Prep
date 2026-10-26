@@ -25,9 +25,28 @@
   {
    "id": "t1-01-structure-c1",
    "lessonId": "t1-01-structure",
-   "type": "PS",
    "difficulty": 1,
    "stem": "How many questions are in the first Verbal Reasoning section?",
+   "explanation": "The first Verbal section has 12 questions in 18 minutes.",
+   "choiceExplanations": {
+    "A": "Not a section size.",
+    "C": "That is the second Verbal section.",
+    "D": "That is the first section's time in minutes.",
+    "E": "That was the earlier format."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -57,36 +76,13 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "The first Verbal section has 12 questions in 18 minutes.",
-   "choiceExplanations": {
-    "A": "Not a section size.",
-    "C": "That is the second Verbal section.",
-    "D": "That is the first section's time in minutes.",
-    "E": "That was the earlier format."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "test-structure"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "t1-01-structure-c2",
    "lessonId": "t1-01-structure",
-   "type": "NE",
    "difficulty": 2,
    "stem": "How many minutes in total are allotted to the two Quantitative sections?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 47
-   },
    "explanation": "$21+26=47$.",
    "estSeconds": 45,
    "skills": [
@@ -94,16 +90,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 47
    }
   },
   {
    "id": "t1-01-structure-c3",
    "lessonId": "t1-01-structure",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A test-taker finishes Analytical Writing and sees a Verbal section next. Which statement is correct?",
+   "explanation": "Only Writing's position is fixed.",
+   "choiceExplanations": {
+    "A": "Verbal or Quant may follow.",
+    "C": "Writing is always first.",
+    "D": "Any order after Writing is allowed.",
+    "E": "Scored sections can follow it."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-structure"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -133,22 +158,6 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "Only Writing's position is fixed.",
-   "choiceExplanations": {
-    "A": "Verbal or Quant may follow.",
-    "C": "Writing is always first.",
-    "D": "Any order after Writing is allowed.",
-    "E": "Scored sections can follow it."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "test-structure"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

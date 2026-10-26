@@ -26,16 +26,8 @@
   {
    "id": "q2-12-interest-c1",
    "lessonId": "q2-12-interest",
-   "type": "NE",
    "difficulty": 1,
    "stem": "\\$800 is invested at 4 percent simple annual interest for 2 years. How many dollars of interest does it earn?",
-   "content": {
-    "format": "integer",
-    "unit": "dollars"
-   },
-   "answer": {
-    "value": 64
-   },
    "explanation": "Interest $=800\\cdot\\frac{4\\cdot2}{100}=64$ dollars.",
    "estSeconds": 75,
    "skills": [
@@ -43,23 +35,26 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "q2-12-interest-c2",
-   "lessonId": "q2-12-interest",
+   },
    "type": "NE",
-   "difficulty": 2,
-   "stem": "\\$500 is invested at 20 percent annual interest, compounded annually. What is its value, in dollars, after 2 years?",
    "content": {
     "format": "integer",
     "unit": "dollars"
    },
    "answer": {
-    "value": 720
-   },
+    "value": 64
+   }
+  },
+  {
+   "id": "q2-12-interest-c2",
+   "lessonId": "q2-12-interest",
+   "difficulty": 2,
+   "stem": "\\$500 is invested at 20 percent annual interest, compounded annually. What is its value, in dollars, after 2 years?",
    "explanation": "$V=500(1.2)^2=500(1.44)=720$.",
    "estSeconds": 75,
    "skills": [
@@ -67,16 +62,40 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "dollars"
+   },
+   "answer": {
+    "value": 720
    }
   },
   {
    "id": "q2-12-interest-c3",
    "lessonId": "q2-12-interest",
-   "type": "NE",
    "difficulty": 2,
    "stem": "\\$2,000 is invested at 12 percent annual interest, compounded quarterly. What is its value, in dollars, after 6 months? Round to the nearest cent.",
+   "explanation": "Quarterly: rate per period $\\frac{12}{400}=0.03$; in 6 months there are 2 periods. $V=2000(1.03)^2=2000(1.0609)=2121.80$.",
+   "estSeconds": 90,
+   "skills": [
+    "interest"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "decimal",
     "unit": "dollars",
@@ -85,16 +104,6 @@
    "answer": {
     "value": 2121.8,
     "tolerance": 0.005
-   },
-   "explanation": "Quarterly: rate per period $\\frac{12}{400}=0.03$; in 6 months there are 2 periods. $V=2000(1.03)^2=2000(1.0609)=2121.80$.",
-   "estSeconds": 90,
-   "skills": [
-    "interest"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

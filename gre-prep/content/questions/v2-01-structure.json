@@ -2,9 +2,28 @@
  {
   "id": "v2-01-structure-01",
   "lessonId": "v2-01-structure",
-  "type": "SE",
   "difficulty": 1,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"months\" of waiting and \"finally\". A long wait ends in strong relief, so any word meaning *very great* works, and *immense* and *enormous* give the same sentence.",
+  "choiceExplanations": {
+   "B": "Months of drought point to strong relief, not a faint one.",
+   "C": "Relief cannot be hostile; the word is about the wrong kind of feeling.",
+   "D": "Means worn out by experience; it does not describe relief at all.",
+   "A": "Means severe, and describes a person's manner, not a feeling of relief."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "Having waited months for rain, the farmers felt {{1}} relief when the storm finally broke.",
    "choices": [
@@ -39,13 +58,19 @@
     "F",
     "E"
    ]
-  },
-  "explanation": "**Clue:** \"months\" of waiting and \"finally\". A long wait ends in strong relief, so any word meaning *very great* works, and *immense* and *enormous* give the same sentence.",
+  }
+ },
+ {
+  "id": "v2-01-structure-02",
+  "lessonId": "v2-01-structure",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** finishing early and then helping others shows hard work. *Diligent* and *industrious* both mean hardworking and give the same sentence.",
   "choiceExplanations": {
-   "B": "Months of drought point to strong relief, not a faint one.",
-   "C": "Relief cannot be hostile; the word is about the wrong kind of feeling.",
-   "D": "Means worn out by experience; it does not describe relief at all.",
-   "A": "Means severe, and describes a person's manner, not a feeling of relief."
+   "C": "Means sluggish, the opposite of finishing early.",
+   "F": "Means careless of consequences; nothing in the sentence suggests carelessness.",
+   "B": "Means distant, but she offers to help, which is the opposite of distant.",
+   "D": "Means disrespectfully casual; the clue is about effort, not attitude."
   },
   "estSeconds": 45,
   "skills": [
@@ -53,16 +78,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-02",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 1,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The new employee was so {{1}} that she finished the whole report before lunch and then offered to help her colleagues.",
    "choices": [
@@ -97,30 +119,33 @@
     "A",
     "E"
    ]
-  },
-  "explanation": "**Clue:** finishing early and then helping others shows hard work. *Diligent* and *industrious* both mean hardworking and give the same sentence.",
-  "choiceExplanations": {
-   "C": "Means sluggish, the opposite of finishing early.",
-   "F": "Means careless of consequences; nothing in the sentence suggests carelessness.",
-   "B": "Means distant, but she offers to help, which is the opposite of distant.",
-   "D": "Means disrespectfully casual; the clue is about effort, not attitude."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-01-structure-03",
   "lessonId": "v2-01-structure",
-  "type": "SE",
   "difficulty": 2,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* sets up a contrast with \"lighthearted comedy\", and \"surprisingly\" confirms it. The second half must be serious: *somber* and *grim*.",
+  "choiceExplanations": {
+   "F": "Repeats the comedy idea; *although* demands a contrast.",
+   "A": "Means wordy, which does not contrast with lighthearted.",
+   "D": "Means elaborately decorated; it does not oppose a light tone.",
+   "C": "Means lukewarm; it is not the opposite of lighthearted."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "Although the film was marketed as a lighthearted comedy, critics found its second half surprisingly {{1}}.",
    "choices": [
@@ -155,13 +180,19 @@
     "E",
     "B"
    ]
-  },
-  "explanation": "**Signal:** *Although* sets up a contrast with \"lighthearted comedy\", and \"surprisingly\" confirms it. The second half must be serious: *somber* and *grim*.",
+  }
+ },
+ {
+  "id": "v2-01-structure-04",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Despite* contrasts great age with the pages' condition, and *because* ... sealed vault explains it: the pages stayed in perfect condition. *Pristine* and *unblemished*.",
   "choiceExplanations": {
-   "F": "Repeats the comedy idea; *although* demands a contrast.",
-   "A": "Means wordy, which does not contrast with lighthearted.",
-   "D": "Means elaborately decorated; it does not oppose a light tone.",
-   "C": "Means lukewarm; it is not the opposite of lighthearted."
+   "A": "Age would explain tattered pages; *despite* needs the opposite.",
+   "C": "Fading is what age and light cause, so it contradicts *despite*.",
+   "F": "Unreadable pages would be expected after six centuries, not surprising.",
+   "B": "Also an expected effect of age; it does not contrast with *more than six centuries old*."
   },
   "estSeconds": 60,
   "skills": [
@@ -169,16 +200,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-04",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Because the manuscript had been kept in a sealed vault, its pages were remarkably {{1}} despite being more than six centuries old.",
    "choices": [
@@ -213,13 +241,19 @@
     "D",
     "E"
    ]
-  },
-  "explanation": "**Signal:** *Despite* contrasts great age with the pages' condition, and *because* ... sealed vault explains it: the pages stayed in perfect condition. *Pristine* and *unblemished*.",
+  }
+ },
+ {
+  "id": "v2-01-structure-05",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"a few sentences\" versus \"an hour\". The remarks packed a lot into little space: *concise* and *succinct*.",
   "choiceExplanations": {
-   "A": "Age would explain tattered pages; *despite* needs the opposite.",
-   "C": "Fading is what age and light cause, so it contradicts *despite*.",
-   "F": "Unreadable pages would be expected after six centuries, not surprising.",
-   "B": "Also an expected effect of age; it does not contrast with *more than six centuries old*."
+   "A": "Means wordy, the opposite of the clue and not something to admire.",
+   "E": "Means hesitant; the clue is about length, not confidence.",
+   "B": "Means mocking; nothing in the sentence concerns tone of that kind.",
+   "F": "Means full of strong feeling; the clue concerns brevity."
   },
   "estSeconds": 60,
   "skills": [
@@ -227,16 +261,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-05",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 2,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Her remarks were admirably {{1}}, conveying in a few sentences what other speakers needed an hour to say.",
    "choices": [
@@ -271,13 +302,19 @@
     "D",
     "C"
    ]
-  },
-  "explanation": "**Clue:** \"a few sentences\" versus \"an hour\". The remarks packed a lot into little space: *concise* and *succinct*.",
+  }
+ },
+ {
+  "id": "v2-01-structure-06",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"neither praising nor criticizing\" describes a lack of strong feeling. *Indifferent* and *apathetic* both mean unmoved.",
   "choiceExplanations": {
-   "A": "Means wordy, the opposite of the clue and not something to admire.",
-   "E": "Means hesitant; the clue is about length, not confidence.",
-   "B": "Means mocking; nothing in the sentence concerns tone of that kind.",
-   "F": "Means full of strong feeling; the clue concerns brevity."
+   "B": "Would mean praising them, which the sentence rules out.",
+   "C": "Would mean criticizing them.",
+   "A": "Implies praise or thanks.",
+   "F": "Implies doubt, which usually leads to criticism; it is not neutrality."
   },
   "estSeconds": 60,
   "skills": [
@@ -285,16 +322,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-06",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "A recent survey found that residents were largely {{1}} about the new bus routes, neither praising nor criticizing them.",
    "choices": [
@@ -329,30 +363,33 @@
     "D",
     "E"
    ]
-  },
-  "explanation": "**Clue:** \"neither praising nor criticizing\" describes a lack of strong feeling. *Indifferent* and *apathetic* both mean unmoved.",
-  "choiceExplanations": {
-   "B": "Would mean praising them, which the sentence rules out.",
-   "C": "Would mean criticizing them.",
-   "A": "Implies praise or thanks.",
-   "F": "Implies doubt, which usually leads to criticism; it is not neutrality."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-01-structure-07",
   "lessonId": "v2-01-structure",
-  "type": "SE",
   "difficulty": 3,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** refusing to bend *even when allies urged flexibility* describes stubbornness. *Obdurate* and *intransigent* both mean unyielding.",
+  "choiceExplanations": {
+   "D": "Means friendly; a friendly refusal would not cost her allies' support.",
+   "B": "Means unsure, but she refused outright.",
+   "C": "Means done carelessly or as a formality; it does not convey stubbornness.",
+   "F": "Tactful refusals do not alienate allies."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "The senator's {{1}} refusal to compromise, even when allies urged flexibility, ultimately cost her the support of her own party.",
    "choices": [
@@ -387,13 +424,19 @@
     "E",
     "A"
    ]
-  },
-  "explanation": "**Clue:** refusing to bend *even when allies urged flexibility* describes stubbornness. *Obdurate* and *intransigent* both mean unyielding.",
+  }
+ },
+ {
+  "id": "v2-01-structure-08",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"existing more in the rhetoric ... than in any measurable result\". The benefits are unreal: *illusory* and *chimerical*.",
   "choiceExplanations": {
-   "D": "Means friendly; a friendly refusal would not cost her allies' support.",
-   "B": "Means unsure, but she refused outright.",
-   "C": "Means done carelessly or as a formality; it does not convey stubbornness.",
-   "F": "Tactful refusals do not alienate allies."
+   "C": "Means real and sizable, contradicting the clue.",
+   "A": "Concerns timing, not whether benefits exist.",
+   "F": "Describes a policy that makes things worse; the clue says the benefits are only talked about.",
+   "E": "Means not predicted; the clue is about whether they exist."
   },
   "estSeconds": 75,
   "skills": [
@@ -401,16 +444,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-08",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 3,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "Critics of the policy argued that its benefits were largely {{1}}, existing more in the rhetoric of its sponsors than in any measurable result.",
    "choices": [
@@ -445,13 +485,19 @@
     "D",
     "B"
    ]
-  },
-  "explanation": "**Clue:** \"existing more in the rhetoric ... than in any measurable result\". The benefits are unreal: *illusory* and *chimerical*.",
+  }
+ },
+ {
+  "id": "v2-01-structure-09",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"less a record of fact\" and \"embellished\" show a self-flattering story. *Glorification* and *aggrandizement* both mean making oneself seem greater.",
   "choiceExplanations": {
-   "C": "Means real and sizable, contradicting the clue.",
-   "A": "Concerns timing, not whether benefits exist.",
-   "F": "Describes a policy that makes things worse; the clue says the benefits are only talked about.",
-   "E": "Means not predicted; the clue is about whether they exist."
+   "D": "Means a critical assessment; the explorer praises himself.",
+   "B": "A list of items would be a record of fact, which the sentence says it is *not*.",
+   "C": "Means a shortened version; embellishment adds rather than cuts.",
+   "F": "A diary is a factual record, again what the sentence denies."
   },
   "estSeconds": 75,
   "skills": [
@@ -459,16 +505,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-09",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 4,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The explorer's account of the journey was less a record of fact than a {{1}} of his own heroism, embellished at every turn.",
    "choices": [
@@ -503,30 +546,33 @@
     "A",
     "E"
    ]
-  },
-  "explanation": "**Clue:** \"less a record of fact\" and \"embellished\" show a self-flattering story. *Glorification* and *aggrandizement* both mean making oneself seem greater.",
-  "choiceExplanations": {
-   "D": "Means a critical assessment; the explorer praises himself.",
-   "B": "A list of items would be a record of fact, which the sentence says it is *not*.",
-   "C": "Means a shortened version; embellishment adds rather than cuts.",
-   "F": "A diary is a factual record, again what the sentence denies."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-01-structure-10",
   "lessonId": "v2-01-structure",
-  "type": "SE",
   "difficulty": 4,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Far from being* X means the opposite of X is true. She is fiercely active, so X means inactive: *passive* and *quiescent*.",
+  "choiceExplanations": {
+   "E": "Means persistent, which agrees with ambitious; *far from* needs the opposite.",
+   "F": "Means orderly; reorganizing departments is compatible with that.",
+   "C": "Means vengeful; unrelated to the contrast between ambition and inactivity.",
+   "B": "Means domineering; it fits an ambitious person rather than opposing one."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "Far from being {{1}}, the new director proved fiercely ambitious, reorganizing three departments within her first month.",
    "choices": [
@@ -561,30 +607,33 @@
     "D",
     "A"
    ]
-  },
-  "explanation": "**Signal:** *Far from being* X means the opposite of X is true. She is fiercely active, so X means inactive: *passive* and *quiescent*.",
-  "choiceExplanations": {
-   "E": "Means persistent, which agrees with ambitious; *far from* needs the opposite.",
-   "F": "Means orderly; reorganizing departments is compatible with that.",
-   "C": "Means vengeful; unrelated to the contrast between ambition and inactivity.",
-   "B": "Means domineering; it fits an ambitious person rather than opposing one."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v2-01-structure-11",
   "lessonId": "v2-01-structure",
-  "type": "SE",
   "difficulty": 5,
   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* opposes the praise, and \"resting on assumptions that the evidence did not support\" explains the dissent: the argument is weakly founded. *Tenuous* and *flimsy*.",
+  "choiceExplanations": {
+   "D": "Means conventional; it says nothing about weak support.",
+   "E": "Means impossible to refute, the opposite of the dissenter's view.",
+   "B": "Means sharp and effective, also praise.",
+   "C": "Means long-winded; the clue is about weak assumptions, not length."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "SE",
   "content": {
    "text": "Although the committee's report was widely praised for its rigor, the author of the minority dissent found its central argument {{1}}, resting on assumptions that the evidence did not support.",
    "choices": [
@@ -619,13 +668,19 @@
     "F",
     "A"
    ]
-  },
-  "explanation": "**Signal:** *Although* opposes the praise, and \"resting on assumptions that the evidence did not support\" explains the dissent: the argument is weakly founded. *Tenuous* and *flimsy*.",
+  }
+ },
+ {
+  "id": "v2-01-structure-12",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** publishing damaging results under pressure shows moral honesty. *Probity* and *integrity* both name it.",
   "choiceExplanations": {
-   "D": "Means conventional; it says nothing about weak support.",
-   "E": "Means impossible to refute, the opposite of the dissenter's view.",
-   "B": "Means sharp and effective, also praise.",
-   "C": "Means long-winded; the clue is about weak assumptions, not length."
+   "C": "Means deceit, the opposite of publishing inconvenient truths.",
+   "D": "Means doing what is convenient; she did the inconvenient thing.",
+   "F": "Means showiness; the clue is about honesty, not style.",
+   "B": "Someone who resists pressure is not timid."
   },
   "estSeconds": 120,
   "skills": [
@@ -633,16 +688,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v2-01-structure-12",
-  "lessonId": "v2-01-structure",
+  },
   "type": "SE",
-  "difficulty": 5,
-  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
   "content": {
    "text": "The economist's reputation for {{1}} was well earned: she published findings unfavorable to her own institution despite pressure to suppress them.",
    "choices": [
@@ -677,22 +729,6 @@
     "A",
     "E"
    ]
-  },
-  "explanation": "**Clue:** publishing damaging results under pressure shows moral honesty. *Probity* and *integrity* both name it.",
-  "choiceExplanations": {
-   "C": "Means deceit, the opposite of publishing inconvenient truths.",
-   "D": "Means doing what is convenient; she did the inconvenient thing.",
-   "F": "Means showiness; the clue is about honesty, not style.",
-   "B": "Someone who resists pressure is not timid."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "sentence-equivalence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

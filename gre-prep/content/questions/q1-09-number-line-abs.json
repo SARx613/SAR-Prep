@@ -2,15 +2,8 @@
  {
   "id": "q1-09-number-line-abs-01",
   "lessonId": "q1-09-number-line-abs",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is the value of $|3-10|$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 7
-  },
   "explanation": "$3-10 = -7$ and $|-7| = 7$.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
   }
  },
  {
   "id": "q1-09-number-line-abs-02",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which of the following is between $-1$ and $0$ on the number line?",
+  "explanation": "$-1<x<0$ needs a negative number closer to 0 than $-1$: $-\\frac{1}{2}$.",
+  "choiceExplanations": {
+   "A": "$-2$ is to the left of $-1$.",
+   "B": "$-\\frac{3}{2}$ is to the left of $-1$.",
+   "D": "$\\frac{1}{2}$ is to the right of 0.",
+   "E": "$\\frac{3}{2}$ is to the right of 0."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,30 +79,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$-1<x<0$ needs a negative number closer to 0 than $-1$: $-\\frac{1}{2}$.",
-  "choiceExplanations": {
-   "A": "$-2$ is to the left of $-1$.",
-   "B": "$-\\frac{3}{2}$ is to the left of $-1$.",
-   "D": "$\\frac{1}{2}$ is to the right of 0.",
-   "E": "$\\frac{3}{2}$ is to the right of 0."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-03",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 2,
   "stem": "If $|x| = 4$ and $x<0$, what is the value of $3x$?",
+  "explanation": "$|x| = 4$ means $x = 4$ or $x = -4$; since $x<0$, $x = -4$ and $3x = -12$.",
+  "choiceExplanations": {
+   "B": "This is $x-3$, not $3x$.",
+   "C": "This is $x$ itself; the multiplication by 3 is missing.",
+   "D": "This is $|x|$, and it ignores the sign and the factor 3.",
+   "E": "This uses $x = 4$, which $x<0$ rules out."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,37 +135,13 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "$|x| = 4$ means $x = 4$ or $x = -4$; since $x<0$, $x = -4$ and $3x = -12$.",
-  "choiceExplanations": {
-   "B": "This is $x-3$, not $3x$.",
-   "C": "This is $x$ itself; the multiplication by 3 is missing.",
-   "D": "This is $|x|$, and it ignores the sign and the factor 3.",
-   "E": "This uses $x = 4$, which $x<0$ rules out."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-04",
   "lessonId": "q1-09-number-line-abs",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$|-5|$",
-   "quantityB": "$-|5|$"
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "$|-5| = 5$ and $-|5| = -5$. A is greater.",
   "estSeconds": 75,
   "skills": [
@@ -148,16 +149,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$|-5|$",
+   "quantityB": "$-|5|$"
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q1-09-number-line-abs-05",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following satisfy $-2<x\\le1$? Indicate all such numbers.",
+  "explanation": "The interval excludes $-2$ but includes $1$. So $-\\frac{3}{2}$, $0$ and $1$ qualify. $\\frac{5}{4}>1$.",
+  "choiceExplanations": {
+   "A": "$-2<x$ is strict, so $-2$ is excluded.",
+   "E": "$\\frac{5}{4}$ is to the right of 1."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -189,34 +218,13 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "The interval excludes $-2$ but includes $1$. So $-\\frac{3}{2}$, $0$ and $1$ qualify. $\\frac{5}{4}>1$.",
-  "choiceExplanations": {
-   "A": "$-2<x$ is strict, so $-2$ is excluded.",
-   "E": "$\\frac{5}{4}$ is to the right of 1."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-06",
   "lessonId": "q1-09-number-line-abs",
-  "type": "NE",
   "difficulty": 3,
   "stem": "What is the value of $\\left|\\,3-|-8|\\,\\right|$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 5
-  },
   "explanation": "Work inside out: $|-8| = 8$, then $3-8 = -5$, then $|-5| = 5$.",
   "estSeconds": 60,
   "skills": [
@@ -224,16 +232,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
   }
  },
  {
   "id": "q1-09-number-line-abs-07",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 3,
   "stem": "How many integers $x$ satisfy $|x|<4$?",
+  "explanation": "$|x|<4$ means $-4<x<4$, so $x\\in\\{-3,-2,-1,0,1,2,3\\}$: 7 integers.",
+  "choiceExplanations": {
+   "A": "This counts only the positive ones.",
+   "B": "This forgets 0.",
+   "D": "This includes one endpoint, which the strict inequality excludes.",
+   "E": "This includes both endpoints $\\pm4$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -263,38 +300,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$|x|<4$ means $-4<x<4$, so $x\\in\\{-3,-2,-1,0,1,2,3\\}$: 7 integers.",
-  "choiceExplanations": {
-   "A": "This counts only the positive ones.",
-   "B": "This forgets 0.",
-   "D": "This includes one endpoint, which the strict inequality excludes.",
-   "E": "This includes both endpoints $\\pm4$."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-08",
   "lessonId": "q1-09-number-line-abs",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$|x|$",
-   "quantityB": "2",
-   "common": "$-2<x<2$"
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "$-2<x<2$ means $x$ is less than 2 units from 0, so $|x|<2$. B is greater.",
   "estSeconds": 60,
   "skills": [
@@ -302,16 +314,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$|x|$",
+   "quantityB": "2",
+   "common": "$-2<x<2$"
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q1-09-number-line-abs-09",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Which of the following satisfy $|x|>3$? Indicate all such numbers.",
+  "explanation": "$|x|>3$ means $x$ is more than 3 away from 0: $x<-3$ or $x>3$. $-4$ and $\\frac{7}{2}$ qualify; $-3$ and $3$ are exactly 3 away, and $-2$ is closer.",
+  "choiceExplanations": {
+   "B": "$|-3| = 3$, which is not greater than 3.",
+   "C": "$|-2| = 2<3$.",
+   "D": "$|3| = 3$, not greater than 3."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -342,35 +384,13 @@
     "A",
     "E"
    ]
-  },
-  "explanation": "$|x|>3$ means $x$ is more than 3 away from 0: $x<-3$ or $x>3$. $-4$ and $\\frac{7}{2}$ qualify; $-3$ and $3$ are exactly 3 away, and $-2$ is closer.",
-  "choiceExplanations": {
-   "B": "$|-3| = 3$, which is not greater than 3.",
-   "C": "$|-2| = 2<3$.",
-   "D": "$|3| = 3$, not greater than 3."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-10",
   "lessonId": "q1-09-number-line-abs",
-  "type": "NE",
   "difficulty": 4,
   "stem": "How many integers $x$ satisfy $2\\le|x|<6$?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 8
-  },
   "explanation": "$|x|$ can be 2, 3, 4 or 5. Each value gives two integers ($x$ and $-x$): $\\pm2,\\pm3,\\pm4,\\pm5$, a total of 8.",
   "estSeconds": 90,
   "skills": [
@@ -378,16 +398,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
   }
  },
  {
   "id": "q1-09-number-line-abs-11",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 5,
   "stem": "The real numbers $x$ and $y$ satisfy $x<0<y$ and $|x|>|y|$. Which of the following must be positive?",
+  "explanation": "$y-x = y+|x|$ is the sum of two positive numbers, so it is positive. The others are negative: $x+y<0$ since $x$ is farther from 0 than $y$; $x-y$ is negative minus positive; $xy$ is negative times positive; $|y|-|x|<0$ because $|x|>|y|$.",
+  "choiceExplanations": {
+   "A": "$|x|>|y|$ makes the negative number dominate: the sum is negative.",
+   "B": "Subtracting a positive from a negative stays negative.",
+   "C": "A negative times a positive is negative.",
+   "D": "$|x|>|y|$ means $|y|-|x|<0$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -417,30 +466,33 @@
    "choices": [
     "E"
    ]
-  },
-  "explanation": "$y-x = y+|x|$ is the sum of two positive numbers, so it is positive. The others are negative: $x+y<0$ since $x$ is farther from 0 than $y$; $x-y$ is negative minus positive; $xy$ is negative times positive; $|y|-|x|<0$ because $|x|>|y|$.",
-  "choiceExplanations": {
-   "A": "$|x|>|y|$ makes the negative number dominate: the sum is negative.",
-   "B": "Subtracting a positive from a negative stays negative.",
-   "C": "A negative times a positive is negative.",
-   "D": "$|x|>|y|$ means $|y|-|x|<0$."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-09-number-line-abs-12",
   "lessonId": "q1-09-number-line-abs",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Which of the following is the greatest?",
+  "explanation": "All are negative, so the greatest is the one nearest 0, i.e. the one with the smallest absolute value. As decimals: $\\frac{19}{6}\\approx3.167$, $3.17$, $\\sqrt{10}\\approx3.162$ ($3.16^2 = 9.9856$, $3.17^2 = 10.0489$), $3.15$, $\\frac{22}{7}\\approx3.143$. The smallest is $\\frac{22}{7}$, so $-\\frac{22}{7}$ is greatest.",
+  "choiceExplanations": {
+   "A": "$-3.167$ is farther from 0 than $-3.143$.",
+   "B": "$-3.17$ is the farthest from 0 of the five.",
+   "C": "$-3.162$ is farther from 0 than $-3.143$.",
+   "D": "$-3.15$ is farther from 0 than $-3.143$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "number-line-abs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -470,22 +522,6 @@
    "choices": [
     "E"
    ]
-  },
-  "explanation": "All are negative, so the greatest is the one nearest 0, i.e. the one with the smallest absolute value. As decimals: $\\frac{19}{6}\\approx3.167$, $3.17$, $\\sqrt{10}\\approx3.162$ ($3.16^2 = 9.9856$, $3.17^2 = 10.0489$), $3.15$, $\\frac{22}{7}\\approx3.143$. The smallest is $\\frac{22}{7}$, so $-\\frac{22}{7}$ is greatest.",
-  "choiceExplanations": {
-   "A": "$-3.167$ is farther from 0 than $-3.143$.",
-   "B": "$-3.17$ is the farthest from 0 of the five.",
-   "C": "$-3.162$ is farther from 0 than $-3.143$.",
-   "D": "$-3.15$ is farther from 0 than $-3.143$."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "number-line-abs"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

@@ -30,20 +30,8 @@
   {
    "id": "w1-02-planning-c1",
    "lessonId": "w1-02-planning",
-   "type": "PS",
    "difficulty": 1,
    "stem": "According to ETS, what is the first planning step?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Write the conclusion so you know where you are going" },
-     { "id": "B", "text": "Read the claim and instructions and make sure you understand them" },
-     { "id": "C", "text": "Choose the examples" },
-     { "id": "D", "text": "Count how many paragraphs you will write" },
-     { "id": "E", "text": "Pick the position most raters prefer" }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS's first step is to read the claim and the specific instructions carefully and make sure you understand them.",
    "choiceExplanations": {
     "A": "ETS does not list this; you plan position and support first.",
@@ -52,26 +40,54 @@
     "E": "Raters have no preferred position."
    },
    "estSeconds": 45,
-   "skills": ["issue-planning"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Write the conclusion so you know where you are going"
+     },
+     {
+      "id": "B",
+      "text": "Read the claim and instructions and make sure you understand them"
+     },
+     {
+      "id": "C",
+      "text": "Choose the examples"
+     },
+     {
+      "id": "D",
+      "text": "Count how many paragraphs you will write"
+     },
+     {
+      "id": "E",
+      "text": "Pick the position most raters prefer"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   },
   {
    "id": "w1-02-planning-c2",
    "lessonId": "w1-02-planning",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A writer realises that a claim only makes sense for small companies and fails for large ones. Which planning question has she answered?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Is the claim valid only under certain conditions, and if so, what are they?" },
-     { "id": "B", "text": "Which examples are the most compelling?" },
-     { "id": "C", "text": "What reasons might someone use to refute my position?" },
-     { "id": "D", "text": "Do I need to explain how I interpret certain terms?" },
-     { "id": "E", "text": "What, precisely, do the instructions ask me to do?" }
-    ]
-   },
-   "answer": { "choices": ["A"] },
    "explanation": "Finding the circumstances (company size) in which the claim holds and fails answers the question about conditions.",
    "choiceExplanations": {
     "B": "She has not chosen examples yet.",
@@ -80,26 +96,54 @@
     "E": "That question concerns the instructions, not the claim's scope."
    },
    "estSeconds": 50,
-   "skills": ["issue-planning"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Is the claim valid only under certain conditions, and if so, what are they?"
+     },
+     {
+      "id": "B",
+      "text": "Which examples are the most compelling?"
+     },
+     {
+      "id": "C",
+      "text": "What reasons might someone use to refute my position?"
+     },
+     {
+      "id": "D",
+      "text": "Do I need to explain how I interpret certain terms?"
+     },
+     {
+      "id": "E",
+      "text": "What, precisely, do the instructions ask me to do?"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
   },
   {
    "id": "w1-02-planning-c3",
    "lessonId": "w1-02-planning",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Once you have decided on a position, which step does ETS recommend?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Consider the perspectives of people who might disagree and decide how to acknowledge or answer them" },
-     { "id": "B", "text": "Start writing and decide on evidence while you type" },
-     { "id": "C", "text": "Switch to the opposite position if one objection seems strong" },
-     { "id": "D", "text": "Delete your notes to save time" },
-     { "id": "E", "text": "Look for a template with a fixed number of paragraphs" }
-    ]
-   },
-   "answer": { "choices": ["A"] },
    "explanation": "ETS advises considering reasons someone might use to refute or undermine your position and deciding how to acknowledge or defend against them.",
    "choiceExplanations": {
     "B": "ETS lists choosing compelling evidence as part of planning, before writing.",
@@ -108,8 +152,48 @@
     "E": "ETS says you may organise the response in any effective way."
    },
    "estSeconds": 50,
-   "skills": ["issue-planning"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Consider the perspectives of people who might disagree and decide how to acknowledge or answer them"
+     },
+     {
+      "id": "B",
+      "text": "Start writing and decide on evidence while you type"
+     },
+     {
+      "id": "C",
+      "text": "Switch to the opposite position if one objection seems strong"
+     },
+     {
+      "id": "D",
+      "text": "Delete your notes to save time"
+     },
+     {
+      "id": "E",
+      "text": "Look for a template with a fixed number of paragraphs"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
   }
  ]
 }

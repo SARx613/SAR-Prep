@@ -29,9 +29,28 @@
   {
    "id": "v2-02-same-meaning-c1",
    "lessonId": "v2-02-same-meaning",
-   "type": "SE",
    "difficulty": 1,
    "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** a director who vows never to read her again was stung by harsh criticism. *Scathing* and *withering* both mean harshly critical.",
+   "choiceExplanations": {
+    "F": "Praise would not provoke the vow.",
+    "B": "Means lukewarm; it is too mild to explain such a reaction.",
+    "A": "Does not explain an angry reaction.",
+    "D": "A sympathetic review would not offend."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "SE",
    "content": {
     "text": "The critic's review was so {{1}} that the director vowed never to read her work again.",
     "choices": [
@@ -66,13 +85,19 @@
      "E",
      "C"
     ]
-   },
-   "explanation": "**Clue:** a director who vows never to read her again was stung by harsh criticism. *Scathing* and *withering* both mean harshly critical.",
+   }
+  },
+  {
+   "id": "v2-02-same-meaning-c2",
+   "lessonId": "v2-02-same-meaning",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Signal:** *Although* contrasts with unanimous approval, so the proposal was attacked. *Criticized* and *denounced* differ in strength, but both sentences say the proposal faced opposition.",
    "choiceExplanations": {
-    "F": "Praise would not provoke the vow.",
-    "B": "Means lukewarm; it is too mild to explain such a reaction.",
-    "A": "Does not explain an angry reaction.",
-    "D": "A sympathetic review would not offend."
+    "F": "Approval after praise is not a contrast, so *although* would be pointless.",
+    "A": "Does not contrast with approval.",
+    "C": "Neutral; no contrast with approval.",
+    "B": "Neutral; no contrast with approval."
    },
    "estSeconds": 60,
    "skills": [
@@ -80,16 +105,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-02-same-meaning-c2",
-   "lessonId": "v2-02-same-meaning",
+   },
    "type": "SE",
-   "difficulty": 2,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
     "text": "Although the proposal was widely {{1}}, the board approved it unanimously.",
     "choices": [
@@ -124,13 +146,19 @@
      "D",
      "E"
     ]
-   },
-   "explanation": "**Signal:** *Although* contrasts with unanimous approval, so the proposal was attacked. *Criticized* and *denounced* differ in strength, but both sentences say the proposal faced opposition.",
+   }
+  },
+  {
+   "id": "v2-02-same-meaning-c3",
+   "lessonId": "v2-02-same-meaning",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** \"soothing in manner but never conceding a point\". *Conciliatory* and *placating* both mean aimed at calming the other side. *Disdainful* is the opposite of soothing.",
    "choiceExplanations": {
-    "F": "Approval after praise is not a contrast, so *although* would be pointless.",
-    "A": "Does not contrast with approval.",
-    "C": "Neutral; no contrast with approval.",
-    "B": "Neutral; no contrast with approval."
+    "A": "Means eager to fight, not polite.",
+    "F": "Means joking, which does not fit a politely guarded tone.",
+    "C": "Means scornful; \"polite\" rules it out.",
+    "D": "Means full of strong feeling, not polite and guarded."
    },
    "estSeconds": 60,
    "skills": [
@@ -138,18 +166,15 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a2",
+     "solver-b2"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v2-02-same-meaning-c3",
-   "lessonId": "v2-02-same-meaning",
+   },
    "type": "SE",
-   "difficulty": 3,
-   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
    "content": {
-    "text": "The mayor's {{1}} tone toward the protesters, polite but never conceding a point, frustrated those who wanted real change.",
+    "text": "The mayor's {{1}} tone toward the protesters, soothing in manner but never conceding a point, frustrated those who wanted real change.",
     "choices": [
      {
       "id": "A",
@@ -182,22 +207,6 @@
      "B",
      "E"
     ]
-   },
-   "explanation": "**Clue:** \"polite but never conceding a point\" is a soothing manner that gives nothing. *Conciliatory* and *placating* both mean aimed at calming. *Disdainful* is polite's opposite.",
-   "choiceExplanations": {
-    "A": "Means eager to fight, not polite.",
-    "F": "Means joking, which does not fit a politely guarded tone.",
-    "C": "Means scornful; \"polite\" rules it out.",
-    "D": "Means full of strong feeling, not polite and guarded."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "sentence-equivalence"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

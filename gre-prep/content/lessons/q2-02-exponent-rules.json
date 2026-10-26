@@ -28,15 +28,8 @@
   {
    "id": "q2-02-exponent-rules-c1",
    "lessonId": "q2-02-exponent-rules",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the value of $3^{-2}\\cdot3^{5}$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 27
-   },
    "explanation": "Same base, add exponents: $3^{-2+5}=3^3=27$.",
    "estSeconds": 45,
    "skills": [
@@ -44,22 +37,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 27
    }
   },
   {
    "id": "q2-02-exponent-rules-c2",
    "lessonId": "q2-02-exponent-rules",
-   "type": "NE",
    "difficulty": 2,
    "stem": "What is the value of $-3^2+(-3)^2$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 0
-   },
    "explanation": "$-3^2$ means $-(3^2)=-9$, while $(-3)^2=9$. The sum is $0$.",
    "estSeconds": 45,
    "skills": [
@@ -67,16 +63,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 0
    }
   },
   {
    "id": "q2-02-exponent-rules-c3",
    "lessonId": "q2-02-exponent-rules",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following is equal to $\\dfrac{x^5y^{-2}}{x^2y^{-6}}$?",
+   "explanation": "Subtract exponents of each base: $x^{5-2}=x^3$ and $y^{-2-(-6)}=y^4$.",
+   "choiceExplanations": {
+    "A": "The $-6$ was subtracted as if it were $+6$.",
+    "B": "The subtraction was done in the wrong order.",
+    "D": "The $x$ exponents were added instead of subtracted.",
+    "E": "The exponents were multiplied."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "exponent-rules"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -106,22 +131,6 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Subtract exponents of each base: $x^{5-2}=x^3$ and $y^{-2-(-6)}=y^4$.",
-   "choiceExplanations": {
-    "A": "The $-6$ was subtracted as if it were $+6$.",
-    "B": "The subtraction was done in the wrong order.",
-    "D": "The $x$ exponents were added instead of subtracted.",
-    "E": "The exponents were multiplied."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "exponent-rules"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

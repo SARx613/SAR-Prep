@@ -27,9 +27,22 @@
   {
    "id": "q4-11-normal-c1",
    "lessonId": "q4-11-normal",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A set of data is approximately normally distributed with a mean of 30 and a standard deviation of 4. Approximately what fraction of the data lie between 26 and 34?",
+   "explanation": "26 and 34 are 1 SD below and above the mean. About two-thirds of the data lie within 1 SD of the mean.",
+   "estSeconds": 45,
+   "skills": [
+    "normal-distribution"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "fraction"
    },
@@ -39,30 +52,13 @@
      "numerator": 2,
      "denominator": 3
     }
-   },
-   "explanation": "26 and 34 are 1 SD below and above the mean. About two-thirds of the data lie within 1 SD of the mean.",
-   "estSeconds": 45,
-   "skills": [
-    "normal-distribution"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q4-11-normal-c2",
    "lessonId": "q4-11-normal",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A normal distribution has a mean of 60 and a standard deviation of 10. How many standard deviations above the mean is the value 85?",
-   "content": {
-    "format": "decimal"
-   },
-   "answer": {
-    "value": 2.5
-   },
    "explanation": "$\\frac{85 - 60}{10} = 2.5$.",
    "estSeconds": 45,
    "skills": [
@@ -70,8 +66,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 2.5
    }
   }
  ]

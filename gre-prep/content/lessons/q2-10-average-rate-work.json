@@ -28,16 +28,8 @@
   {
    "id": "q2-10-average-rate-work-c1",
    "lessonId": "q2-10-average-rate-work",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A car travels 135 miles in 2.5 hours at a constant speed. What is its speed, in miles per hour?",
-   "content": {
-    "format": "integer",
-    "unit": "miles per hour"
-   },
-   "answer": {
-    "value": 54
-   },
    "explanation": "$r=\\frac{d}{t}=\\frac{135}{2.5}=54$.",
    "estSeconds": 75,
    "skills": [
@@ -45,22 +37,26 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "miles per hour"
+   },
+   "answer": {
+    "value": 54
    }
   },
   {
    "id": "q2-10-average-rate-work-c2",
    "lessonId": "q2-10-average-rate-work",
-   "type": "NE",
    "difficulty": 2,
    "stem": "The average of 5 numbers is 12. A sixth number is added and the average of all six becomes 14. What is the sixth number?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 24
-   },
    "explanation": "The old total is $5\\cdot12=60$; the new total is $6\\cdot14=84$. The sixth number is $84-60=24$.",
    "estSeconds": 75,
    "skills": [
@@ -68,23 +64,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 24
    }
   },
   {
    "id": "q2-10-average-rate-work-c3",
    "lessonId": "q2-10-average-rate-work",
-   "type": "NE",
    "difficulty": 2,
    "stem": "Machine A alone finishes a job in 10 hours and machine B alone in 15 hours. Working together, how many hours do they need?",
-   "content": {
-    "format": "integer",
-    "unit": "hours"
-   },
-   "answer": {
-    "value": 6
-   },
    "explanation": "$\\frac1{10}+\\frac1{15}=\\frac3{30}+\\frac2{30}=\\frac5{30}=\\frac16$ of the job per hour, so the time is 6 hours.",
    "estSeconds": 75,
    "skills": [
@@ -92,8 +90,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "hours"
+   },
+   "answer": {
+    "value": 6
    }
   }
  ]

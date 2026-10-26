@@ -27,15 +27,8 @@
   {
    "id": "q4-06-sets-venn-c1",
    "lessonId": "q4-06-sets-venn",
-   "type": "NE",
    "difficulty": 1,
    "stem": "Set $A$ has 14 elements, set $B$ has 9 elements, and 5 elements are in both sets. How many elements are in $A \\cup B$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 18
-   },
    "explanation": "$|A \\cup B| = 14 + 9 - 5 = 18$.",
    "estSeconds": 45,
    "skills": [
@@ -43,22 +36,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 18
    }
   },
   {
    "id": "q4-06-sets-venn-c2",
    "lessonId": "q4-06-sets-venn",
-   "type": "NE",
    "difficulty": 2,
    "stem": "Of 30 people, 12 like jazz, 10 like rock, and 4 like both. How many like neither?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 12
-   },
    "explanation": "At least one: $12 + 10 - 4 = 18$. Neither: $30 - 18 = 12$.",
    "estSeconds": 60,
    "skills": [
@@ -66,8 +62,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 12
    }
   }
  ]

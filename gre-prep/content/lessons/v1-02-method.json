@@ -21,9 +21,28 @@
   {
    "id": "v1-02-method-c1",
    "lessonId": "v1-02-method",
-   "type": "TC",
    "difficulty": 1,
    "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Predict:** leaping without weighing costs means *rash*: *impetuous*.",
+   "choiceExplanations": {
+    "C": "Cautious people weigh costs.",
+    "D": "Methodical people plan.",
+    "E": "Means restrained in expression, unrelated to risk-taking.",
+    "A": "Means careful about principle, the opposite of leaping without weighing."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "The explorer's {{1}} nature made him leap into every risky venture without weighing the costs.",
     "blanks": [
@@ -58,13 +77,19 @@
     "blanks": [
      "B"
     ]
-   },
-   "explanation": "**Predict:** leaping without weighing costs means *rash*: *impetuous*.",
+   }
+  },
+  {
+   "id": "v1-02-method-c2",
+   "lessonId": "v1-02-method",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Signal:** *Although* sets vision against result. Imagining a metropolis is *ambitious*; a few hundred residents in ten years is *sluggish*.",
    "choiceExplanations": {
-    "C": "Cautious people weigh costs.",
-    "D": "Methodical people plan.",
-    "E": "Means restrained in expression, unrelated to risk-taking.",
-    "A": "Means careful about principle, the opposite of leaping without weighing."
+    "1C": "Imagining a metropolis is not timid.",
+    "1A": "Means self-satisfied; the clue is about scale of vision.",
+    "2A": "The contrast needs slow growth.",
+    "2C": "Does not describe the small numbers."
    },
    "estSeconds": 60,
    "skills": [
@@ -72,16 +97,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-02-method-c2",
-   "lessonId": "v1-02-method",
+   },
    "type": "TC",
-   "difficulty": 2,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "Although the town's founders were {{1}} in their vision, imagining a metropolis, its early growth was {{2}}, with only a few hundred residents after a decade.",
     "blanks": [
@@ -126,13 +148,19 @@
      "1B",
      "2B"
     ]
-   },
-   "explanation": "**Signal:** *Although* sets vision against result. Imagining a metropolis is *ambitious*; a few hundred residents in ten years is *sluggish*.",
+   }
+  },
+  {
+   "id": "v1-02-method-c3",
+   "lessonId": "v1-02-method",
+   "difficulty": 3,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Predict:** welcoming criticism and revising plans is openness: *receptiveness*.",
    "choiceExplanations": {
-    "1C": "Imagining a metropolis is not timid.",
-    "1A": "Means self-satisfied; the clue is about scale of vision.",
-    "2A": "The contrast needs slow growth.",
-    "2C": "Does not describe the small numbers."
+    "D": "Contradicts welcoming criticism.",
+    "B": "She acted on the criticism.",
+    "C": "Scorn is the opposite of welcoming.",
+    "E": "The sentence says she was expected to resist, but did not."
    },
    "estSeconds": 60,
    "skills": [
@@ -140,16 +168,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-02-method-c3",
-   "lessonId": "v1-02-method",
+   },
    "type": "TC",
-   "difficulty": 3,
-   "stem": "Select one entry from the choices that best completes the text.",
    "content": {
     "text": "Her {{1}} to the committee's findings, welcoming every criticism and revising her plans accordingly, surprised those who had expected her to resist.",
     "blanks": [
@@ -184,22 +209,6 @@
     "blanks": [
      "A"
     ]
-   },
-   "explanation": "**Predict:** welcoming criticism and revising plans is openness: *receptiveness*.",
-   "choiceExplanations": {
-    "D": "Contradicts welcoming criticism.",
-    "B": "She acted on the criticism.",
-    "C": "Scorn is the opposite of welcoming.",
-    "E": "The sentence says she was expected to resist, but did not."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

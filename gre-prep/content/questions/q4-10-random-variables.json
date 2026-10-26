@@ -2,15 +2,8 @@
  {
   "id": "q4-10-random-variables-01",
   "lessonId": "q4-10-random-variables",
-  "type": "NE",
   "difficulty": 1,
   "stem": "A random variable $X$ takes only the values 1, 2 and 3. $P(1) = 0.2$ and $P(2) = 0.5$. What is $P(3)$?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 0.3
-  },
   "explanation": "The probabilities add to 1: $1 - 0.2 - 0.5 = 0.3$.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.3
   }
  },
  {
   "id": "q4-10-random-variables-02",
   "lessonId": "q4-10-random-variables",
-  "type": "PS",
   "difficulty": 1,
   "stem": "The possible values of a random variable are 1, 2, 3 and 4. Which of the following lists could be the probabilities of these four values, in order?",
+  "explanation": "A valid list has no negative entries and adds to 1. Only $0.1 + 0.2 + 0.3 + 0.4 = 1$ works.",
+  "choiceExplanations": {
+   "A": "These add to 1.1.",
+   "C": "A probability cannot be negative (the sum is 1, but one entry is invalid).",
+   "D": "These add to 1.2.",
+   "E": "These add to 0.4."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "probability-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,39 +79,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "A valid list has no negative entries and adds to 1. Only $0.1 + 0.2 + 0.3 + 0.4 = 1$ works.",
-  "choiceExplanations": {
-   "A": "These add to 1.1.",
-   "C": "A probability cannot be negative (the sum is 1, but one entry is invalid).",
-   "D": "These add to 1.2.",
-   "E": "These add to 0.4."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "probability-distribution"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-10-random-variables-03",
   "lessonId": "q4-10-random-variables",
-  "type": "DI",
   "difficulty": 2,
   "stem": "What is $P(X \\ge 3)$?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "decimal"
-   }
-  },
-  "answer": {
-   "value": 0.35
-  },
   "explanation": "$P(X \\ge 3) = P(3) + P(4) = 0.20 + 0.15 = 0.35$.",
   "estSeconds": 60,
   "skills": [
@@ -129,64 +125,13 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-10-random-variables-04",
-  "lessonId": "q4-10-random-variables",
-  "type": "NE",
-  "difficulty": 2,
-  "stem": "The random variable $X$ is the number shown when a fair six-sided die is rolled. What is the expected value of $X$?",
-  "content": {
-   "format": "decimal"
   },
-  "answer": {
-   "value": 3.5
-  },
-  "explanation": "Each value has probability $\\frac16$: $\\frac{1 + 2 + 3 + 4 + 5 + 6}{6} = \\frac{21}{6} = 3.5$.",
-  "estSeconds": 60,
-  "skills": [
-   "expected-value"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
-  }
- },
- {
-  "id": "q4-10-random-variables-05",
-  "lessonId": "q4-10-random-variables",
-  "type": "QC",
-  "difficulty": 2,
-  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$P(X > 4)$",
-   "quantityB": "$P(X \\le 2)$",
-   "common": "$X$ is the number shown when a fair six-sided die is rolled."
-  },
-  "answer": {
-   "choice": "C"
-  },
-  "explanation": "$X > 4$ means 5 or 6; $X \\le 2$ means 1 or 2. Each event has 2 of 6 equally likely outcomes, probability $\\frac13$.",
-  "estSeconds": 60,
-  "skills": [
-   "probability-distribution"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
-  }
- },
- {
-  "id": "q4-10-random-variables-06",
-  "lessonId": "q4-10-random-variables",
   "type": "DI",
-  "difficulty": 3,
-  "stem": "What is the mean (expected value) of $X$?",
   "content": {
    "format": "numeric_entry",
    "numeric": {
@@ -194,8 +139,68 @@
    }
   },
   "answer": {
-   "value": 2.05
+   "value": 0.35
+  }
+ },
+ {
+  "id": "q4-10-random-variables-04",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 2,
+  "stem": "The random variable $X$ is the number shown when a fair six-sided die is rolled. What is the expected value of $X$?",
+  "explanation": "Each value has probability $\\frac16$: $\\frac{1 + 2 + 3 + 4 + 5 + 6}{6} = \\frac{21}{6} = 3.5$.",
+  "estSeconds": 60,
+  "skills": [
+   "expected-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
   },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 3.5
+  }
+ },
+ {
+  "id": "q4-10-random-variables-05",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$X > 4$ means 5 or 6; $X \\le 2$ means 1 or 2. Each event has 2 of 6 equally likely outcomes, probability $\\frac13$.",
+  "estSeconds": 60,
+  "skills": [
+   "probability-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$P(X > 4)$",
+   "quantityB": "$P(X \\le 2)$",
+   "common": "$X$ is the number shown when a fair six-sided die is rolled."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-10-random-variables-06",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 3,
+  "stem": "What is the mean (expected value) of $X$?",
   "explanation": "$0(0.10) + 1(0.25) + 2(0.30) + 3(0.20) + 4(0.15) = 0 + 0.25 + 0.60 + 0.60 + 0.60 = 2.05$.",
   "estSeconds": 90,
   "skills": [
@@ -235,16 +240,13 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-10-random-variables-07",
-  "lessonId": "q4-10-random-variables",
+  },
   "type": "DI",
-  "difficulty": 3,
-  "stem": "What is the expected value of $Y$?",
   "content": {
    "format": "numeric_entry",
    "numeric": {
@@ -252,8 +254,14 @@
    }
   },
   "answer": {
-   "value": 2
-  },
+   "value": 2.05
+  }
+ },
+ {
+  "id": "q4-10-random-variables-07",
+  "lessonId": "q4-10-random-variables",
+  "difficulty": 3,
+  "stem": "What is the expected value of $Y$?",
   "explanation": "The bars give probabilities 0.4, 0.3, 0.2, 0.1. $1(0.4) + 2(0.3) + 3(0.2) + 4(0.1) = 0.4 + 0.6 + 0.6 + 0.4 = 2.0$.",
   "estSeconds": 90,
   "skills": [
@@ -285,16 +293,42 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 2
   }
  },
  {
   "id": "q4-10-random-variables-08",
   "lessonId": "q4-10-random-variables",
-  "type": "NE",
   "difficulty": 3,
   "stem": "A weighted six-sided die is such that each of the numbers 1 through 5 has the same probability $p$, and the number 6 has probability $3p$. What is the probability of rolling an even number?",
+  "explanation": "The probabilities add to 1: $5p + 3p = 8p = 1$, so $p = \\frac18$. Even numbers: $P(2) + P(4) + P(6) = p + p + 3p = 5p = \\frac58$.",
+  "estSeconds": 100,
+  "skills": [
+   "weighted-outcomes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -304,24 +338,33 @@
     "numerator": 5,
     "denominator": 8
    }
-  },
-  "explanation": "The probabilities add to 1: $5p + 3p = 8p = 1$, so $p = \\frac18$. Even numbers: $P(2) + P(4) + P(6) = p + p + 3p = 5p = \\frac58$.",
-  "estSeconds": 100,
-  "skills": [
-   "weighted-outcomes"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-10-random-variables-09",
   "lessonId": "q4-10-random-variables",
-  "type": "PS",
   "difficulty": 4,
   "stem": "In a game, a player wins 9 dollars with probability 0.1, wins 3 dollars with probability 0.3, and wins nothing otherwise. What is the expected amount won, in dollars?",
+  "explanation": "Expected value $= 9(0.1) + 3(0.3) + 0(0.6) = 0.9 + 0.9 = 1.8$.",
+  "choiceExplanations": {
+   "A": "0.4 is the sum of the two probabilities.",
+   "C": "4 is the plain average of the prizes, $\\frac{9 + 3 + 0}{3}$, ignoring the probabilities.",
+   "D": "9 is the largest prize.",
+   "E": "12 is the sum of the two prizes."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "expected-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -351,39 +394,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Expected value $= 9(0.1) + 3(0.3) + 0(0.6) = 0.9 + 0.9 = 1.8$.",
-  "choiceExplanations": {
-   "A": "0.4 is the sum of the two probabilities.",
-   "C": "4 is the plain average of the prizes, $\\frac{9 + 3 + 0}{3}$, ignoring the probabilities.",
-   "D": "9 is the largest prize.",
-   "E": "12 is the sum of the two prizes."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "expected-value"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-10-random-variables-10",
   "lessonId": "q4-10-random-variables",
-  "type": "DI",
   "difficulty": 4,
   "stem": "What is the probability that $Y$ is less than its mean? Give your answer as a decimal.",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "decimal"
-   }
-  },
-  "answer": {
-   "value": 0.4
-  },
   "explanation": "The mean of $Y$ is 2. The only value of $Y$ less than 2 is 1, with probability 40%, that is 0.4.",
   "estSeconds": 90,
   "skills": [
@@ -416,16 +433,43 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.4
   }
  },
  {
   "id": "q4-10-random-variables-11",
   "lessonId": "q4-10-random-variables",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A fair coin is tossed 3 times, and $X$ is the number of heads. What is the probability that $X$ is greater than the expected value of $X$?",
+  "explanation": "The distribution of $X$ is $P(0) = \\frac18$, $P(1) = \\frac38$, $P(2) = \\frac38$, $P(3) = \\frac18$. Mean $= \\frac{0 + 3 + 6 + 3}{8} = 1.5$. $P(X > 1.5) = P(2) + P(3) = \\frac38 + \\frac18 = \\frac12$.",
+  "estSeconds": 150,
+  "skills": [
+   "expected-value",
+   "probability-distribution"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -435,53 +479,13 @@
     "numerator": 1,
     "denominator": 2
    }
-  },
-  "explanation": "The distribution of $X$ is $P(0) = \\frac18$, $P(1) = \\frac38$, $P(2) = \\frac38$, $P(3) = \\frac18$. Mean $= \\frac{0 + 3 + 6 + 3}{8} = 1.5$. $P(X > 1.5) = P(2) + P(3) = \\frac38 + \\frac18 = \\frac12$.",
-  "estSeconds": 150,
-  "skills": [
-   "expected-value",
-   "probability-distribution"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-10-random-variables-12",
   "lessonId": "q4-10-random-variables",
-  "type": "DI",
   "difficulty": 5,
   "stem": "Which of the following statements about $X$ are true? Indicate all such statements.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    {
-     "id": "A",
-     "text": "The probability that $X$ is less than its mean is 0.65."
-    },
-    {
-     "id": "B",
-     "text": "The median of $X$ is 2."
-    },
-    {
-     "id": "C",
-     "text": "The mode of $X$ is 2."
-    },
-    {
-     "id": "D",
-     "text": "$P(1 \\le X \\le 3) = 0.65$."
-    }
-   ]
-  },
-  "answer": {
-   "choices": [
-    "A",
-    "B",
-    "C"
-   ]
-  },
   "explanation": "The mean is 2.05, so $P(X < 2.05) = P(0) + P(1) + P(2) = 0.65$. The cumulative probability reaches 0.35 at $x = 1$ and 0.65 at $x = 2$, so the median is 2. The most likely value is 2 (0.30). $P(1 \\le X \\le 3) = 0.25 + 0.30 + 0.20 = 0.75$.",
   "choiceExplanations": {
    "D": "$P(1 \\le X \\le 3) = 0.75$, not 0.65 (0.65 is $P(X \\le 2)$)."
@@ -526,8 +530,40 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The probability that $X$ is less than its mean is 0.65."
+    },
+    {
+     "id": "B",
+     "text": "The median of $X$ is 2."
+    },
+    {
+     "id": "C",
+     "text": "The mode of $X$ is 2."
+    },
+    {
+     "id": "D",
+     "text": "$P(1 \\le X \\le 3) = 0.65$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
   }
  }
 ]

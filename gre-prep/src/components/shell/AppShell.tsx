@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { CloudSync } from '@/components/CloudSync';
 import { MORE_TAB, NAV, isActive } from './nav';
 
 /* Sidebar from 1024px, bottom tab bar below. The content column owns the
@@ -14,6 +15,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen lg:flex">
+      <CloudSync />
       <aside
         className="hidden lg:flex lg:flex-col lg:w-60 lg:shrink-0 lg:sticky lg:top-0 lg:h-screen border-r border-line bg-surface/60 px-3 py-5"
         aria-label="Primary"

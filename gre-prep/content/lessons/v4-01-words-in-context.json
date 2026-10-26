@@ -29,25 +29,8 @@
   {
    "id": "v4-01-words-in-context-c1",
    "lessonId": "v4-01-words-in-context",
-   "type": "TC",
    "difficulty": 1,
    "stem": "Choose the word that best completes the sentence.",
-   "content": {
-    "text": "Her explanation was so {{1}} that listeners left more confused than before.",
-    "blanks": [
-     {
-      "index": 1,
-      "choices": [
-       { "id": "1A", "text": "cogent" },
-       { "id": "1B", "text": "convoluted" },
-       { "id": "1C", "text": "lucid" },
-       { "id": "1D", "text": "pertinent" },
-       { "id": "1E", "text": "succinct" }
-      ]
-     }
-    ]
-   },
-   "answer": { "blanks": ["1B"] },
    "explanation": "Listeners ended up more confused, so the explanation was tangled and hard to follow: convoluted.",
    "choiceExplanations": {
     "1A": "Cogent means convincing and clear; it would not leave listeners confused.",
@@ -56,27 +39,59 @@
     "1E": "Succinct means brief and clear, which would not confuse."
    },
    "estSeconds": 45,
-   "skills": ["vocab-context"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
+   "content": {
+    "text": "Her explanation was so {{1}} that listeners left more confused than before.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "cogent"
+       },
+       {
+        "id": "1B",
+        "text": "convoluted"
+       },
+       {
+        "id": "1C",
+        "text": "lucid"
+       },
+       {
+        "id": "1D",
+        "text": "pertinent"
+       },
+       {
+        "id": "1E",
+        "text": "succinct"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B"
+    ]
+   }
   },
   {
    "id": "v4-01-words-in-context-c2",
    "lessonId": "v4-01-words-in-context",
-   "type": "SE",
    "difficulty": 2,
    "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
-   "content": {
-    "text": "Independent records {{1}} nearly every detail of the explorer's account.",
-    "choices": [
-     { "id": "A", "text": "contradicted" },
-     { "id": "B", "text": "corroborated" },
-     { "id": "C", "text": "disguised" },
-     { "id": "D", "text": "eclipsed" },
-     { "id": "E", "text": "substantiated" },
-     { "id": "F", "text": "trivialized" }
-    ]
-   },
-   "answer": { "choices": ["B", "E"] },
    "explanation": "Both *corroborated* and *substantiated* mean that the records supported the details, so the two sentences mean the same.",
    "choiceExplanations": {
     "A": "Contradicted is the opposite of supporting.",
@@ -85,37 +100,59 @@
     "F": "Trivialized means made to seem unimportant, which does not fit."
    },
    "estSeconds": 60,
-   "skills": ["vocab-context"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "SE",
+   "content": {
+    "text": "Independent records {{1}} nearly every detail of the explorer's account.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "contradicted"
+     },
+     {
+      "id": "B",
+      "text": "corroborated"
+     },
+     {
+      "id": "C",
+      "text": "disguised"
+     },
+     {
+      "id": "D",
+      "text": "eclipsed"
+     },
+     {
+      "id": "E",
+      "text": "substantiated"
+     },
+     {
+      "id": "F",
+      "text": "trivialized"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
   },
   {
    "id": "v4-01-words-in-context-c3",
    "lessonId": "v4-01-words-in-context",
-   "type": "TC",
    "difficulty": 3,
    "stem": "For each blank, select the entry that best completes the text.",
-   "content": {
-    "text": "Though the findings seemed {{1}} at first, closer analysis showed them to be {{2}}, resting on a small and unrepresentative sample.",
-    "blanks": [
-     {
-      "index": 1,
-      "choices": [
-       { "id": "1A", "text": "compelling" },
-       { "id": "1B", "text": "negligible" },
-       { "id": "1C", "text": "obscure" }
-      ]
-     },
-     {
-      "index": 2,
-      "choices": [
-       { "id": "2A", "text": "robust" },
-       { "id": "2B", "text": "specious" },
-       { "id": "2C", "text": "axiomatic" }
-      ]
-     }
-    ]
-   },
-   "answer": { "blanks": ["1A", "2B"] },
    "explanation": "\"Though ... at first\" sets up a reversal. The findings seemed convincing (compelling) but proved to be misleading on a weak sample (specious).",
    "choiceExplanations": {
     "1B": "Findings that seemed negligible would not be reversed by a sample problem.",
@@ -124,8 +161,63 @@
     "2C": "Axiomatic means self-evident, which does not fit a sample-based weakness."
    },
    "estSeconds": 75,
-   "skills": ["vocab-context"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
+   "content": {
+    "text": "Though the findings seemed {{1}} at first, closer analysis showed them to be {{2}}, resting on a small and unrepresentative sample.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "compelling"
+       },
+       {
+        "id": "1B",
+        "text": "negligible"
+       },
+       {
+        "id": "1C",
+        "text": "obscure"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "robust"
+       },
+       {
+        "id": "2B",
+        "text": "specious"
+       },
+       {
+        "id": "2C",
+        "text": "axiomatic"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2B"
+    ]
+   }
   }
  ]
 }

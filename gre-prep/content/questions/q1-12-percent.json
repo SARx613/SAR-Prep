@@ -2,15 +2,8 @@
  {
   "id": "q1-12-percent-01",
   "lessonId": "q1-12-percent",
-  "type": "NE",
   "difficulty": 1,
   "stem": "What is $40\\%$ of 85?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 34
-  },
   "explanation": "$0.4\\cdot85 = 34$.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 34
   }
  },
  {
   "id": "q1-12-percent-02",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which of the following equals $0.07$?",
+  "explanation": "Multiply by 100: $0.07 = \\frac{7}{100} = 7\\%$.",
+  "choiceExplanations": {
+   "A": "$0.07\\% = 0.0007$.",
+   "B": "$0.7\\% = 0.007$.",
+   "D": "$70\\% = 0.7$.",
+   "E": "$700\\% = 7$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,30 +79,33 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Multiply by 100: $0.07 = \\frac{7}{100} = 7\\%$.",
-  "choiceExplanations": {
-   "A": "$0.07\\% = 0.0007$.",
-   "B": "$0.7\\% = 0.007$.",
-   "D": "$70\\% = 0.7$.",
-   "E": "$700\\% = 7$."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-12-percent-03",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 2,
   "stem": "What is $8\\%$ of 350?",
+  "explanation": "$8\\% = 0.08$ and $0.08\\cdot350 = 28$.",
+  "choiceExplanations": {
+   "A": "This is $0.8\\%$ of 350: the decimal point is one place too far.",
+   "C": "This divides 350 by 8 instead of multiplying by 0.08.",
+   "D": "This is $80\\%$ of 350.",
+   "E": "This is $350\\div0.08$: it finds a whole, not a part."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -110,37 +135,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "$8\\% = 0.08$ and $0.08\\cdot350 = 28$.",
-  "choiceExplanations": {
-   "A": "This is $0.8\\%$ of 350: the decimal point is one place too far.",
-   "C": "This divides 350 by 8 instead of multiplying by 0.08.",
-   "D": "This is $80\\%$ of 350.",
-   "E": "This is $350\\div0.08$: it finds a whole, not a part."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-12-percent-04",
   "lessonId": "q1-12-percent",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$0.5\\%$ of 200",
-   "quantityB": "$5\\%$ of 20"
-  },
-  "answer": {
-   "choice": "C"
-  },
   "explanation": "$0.5\\% = 0.005$, and $0.005\\cdot200 = 1$. $5\\% = 0.05$, and $0.05\\cdot20 = 1$. Equal.",
   "estSeconds": 75,
   "skills": [
@@ -148,16 +149,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$0.5\\%$ of 200",
+   "quantityB": "$5\\%$ of 20"
+  },
+  "answer": {
+   "choice": "C"
   }
  },
  {
   "id": "q1-12-percent-05",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following are equal to $35\\%$? Indicate all such numbers.",
+  "explanation": "$35\\% = \\frac{35}{100} = 0.35 = \\frac{7}{20}$ (divide by 5). $0.035 = 3.5\\%$ and $3.5 = 350\\%$.",
+  "choiceExplanations": {
+   "A": "$0.035 = 3.5\\%$.",
+   "D": "$3.5 = 350\\%$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -189,35 +218,13 @@
     "C",
     "E"
    ]
-  },
-  "explanation": "$35\\% = \\frac{35}{100} = 0.35 = \\frac{7}{20}$ (divide by 5). $0.035 = 3.5\\%$ and $3.5 = 350\\%$.",
-  "choiceExplanations": {
-   "A": "$0.035 = 3.5\\%$.",
-   "D": "$3.5 = 350\\%$."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-12-percent-06",
   "lessonId": "q1-12-percent",
-  "type": "NE",
   "difficulty": 3,
   "stem": "9 is what percent of 40? Enter your answer as a percent.",
-  "content": {
-   "format": "decimal",
-   "unit": "%"
-  },
-  "answer": {
-   "value": 22.5
-  },
   "explanation": "$\\frac{9}{40} = 0.225$, and $0.225\\cdot100 = 22.5$.",
   "estSeconds": 60,
   "skills": [
@@ -225,16 +232,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 22.5
   }
  },
  {
   "id": "q1-12-percent-07",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 3,
   "stem": "18 is $30\\%$ of what number?",
+  "explanation": "Let the number be $w$: $0.3w = 18$, so $w = \\frac{18}{0.3} = 60$.",
+  "choiceExplanations": {
+   "A": "This is $30\\%$ of 18, the reverse relationship.",
+   "B": "This subtracts: $30-18$.",
+   "C": "This multiplies 18 by 3 instead of dividing by 0.3.",
+   "E": "This multiplies 18 by 30."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -264,38 +301,13 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "Let the number be $w$: $0.3w = 18$, so $w = \\frac{18}{0.3} = 60$.",
-  "choiceExplanations": {
-   "A": "This is $30\\%$ of 18, the reverse relationship.",
-   "B": "This subtracts: $30-18$.",
-   "C": "This multiplies 18 by 3 instead of dividing by 0.3.",
-   "E": "This multiplies 18 by 30."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-12-percent-08",
   "lessonId": "q1-12-percent",
-  "type": "QC",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "$x$",
-   "quantityB": "$y$",
-   "common": "$x$ is $150\\%$ of $y$, and $y>0$."
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "$x = 1.5y$ and $y>0$, so $x$ is larger than $y$. A percent over 100 means more than the whole.",
   "estSeconds": 60,
   "skills": [
@@ -303,22 +315,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$y$",
+   "common": "$x$ is $150\\%$ of $y$, and $y>0$."
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q1-12-percent-09",
   "lessonId": "q1-12-percent",
-  "type": "NE",
   "difficulty": 4,
   "stem": "A club has 60 members. $25\\%$ of them are seniors, and $40\\%$ of the members who are not seniors are juniors. How many juniors are in the club?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 18
-  },
   "explanation": "Non-seniors: $60-0.25\\cdot60 = 60-15 = 45$. Juniors: $0.4\\cdot45 = 18$. (The 40% applies to 45, not to 60.)",
   "estSeconds": 100,
   "skills": [
@@ -326,16 +343,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
   }
  },
  {
   "id": "q1-12-percent-10",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 4,
   "stem": "If $20\\%$ of $x$ equals $30\\%$ of $y$, where $x,y>0$, then $y$ is what percent of $x$?",
+  "explanation": "$0.2x = 0.3y$, so $y = \\frac{0.2}{0.3}x = \\frac{2}{3}x$, which is $66\\frac{2}{3}\\%$ of $x$.",
+  "choiceExplanations": {
+   "A": "This copies the 20% from the problem.",
+   "B": "This is $\\frac{30-20}{30}$, a difference, not the ratio.",
+   "C": "This averages or adds the percents; it does not follow from the equation.",
+   "E": "This is $x$ as a percent of $y$: the base is swapped."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -365,37 +411,13 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "$0.2x = 0.3y$, so $y = \\frac{0.2}{0.3}x = \\frac{2}{3}x$, which is $66\\frac{2}{3}\\%$ of $x$.",
-  "choiceExplanations": {
-   "A": "This copies the 20% from the problem.",
-   "B": "This is $\\frac{30-20}{30}$, a difference, not the ratio.",
-   "C": "This averages or adds the percents; it does not follow from the equation.",
-   "E": "This is $x$ as a percent of $y$: the base is swapped."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q1-12-percent-11",
   "lessonId": "q1-12-percent",
-  "type": "NE",
   "difficulty": 5,
   "stem": "If $150\\%$ of $A$ equals $60\\%$ of $B$, where $A,B>0$, then $B$ is what percent of $A$? Enter your answer as a percent.",
-  "content": {
-   "format": "decimal",
-   "unit": "%"
-  },
-  "answer": {
-   "value": 250
-  },
   "explanation": "$1.5A = 0.6B$, so $B = \\frac{1.5}{0.6}A = 2.5A$, which is $250\\%$ of $A$.",
   "estSeconds": 100,
   "skills": [
@@ -403,16 +425,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 250
   }
  },
  {
   "id": "q1-12-percent-12",
   "lessonId": "q1-12-percent",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Which of the following are greater than $30\\%$ of 90? Indicate all such quantities.",
+  "explanation": "$30\\%$ of 90 is $27$. Evaluate each: $25\\%$ of 120 is 30; $40\\%$ of 60 is 24; $60\\%$ of 50 is 30; $0.3\\%$ of 9,000 is 27 (equal, not greater); $150\\%$ of 20 is 30.",
+  "choiceExplanations": {
+   "B": "$0.4\\cdot60 = 24<27$.",
+   "D": "$0.003\\cdot9000 = 27$, which equals 27, not more."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -444,20 +494,6 @@
     "C",
     "E"
    ]
-  },
-  "explanation": "$30\\%$ of 90 is $27$. Evaluate each: $25\\%$ of 120 is 30; $40\\%$ of 60 is 24; $60\\%$ of 50 is 30; $0.3\\%$ of 9,000 is 27 (equal, not greater); $150\\%$ of 20 is 30.",
-  "choiceExplanations": {
-   "B": "$0.4\\cdot60 = 24<27$.",
-   "D": "$0.003\\cdot9000 = 27$, which equals 27, not more."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "percent"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

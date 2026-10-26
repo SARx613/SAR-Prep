@@ -19,9 +19,28 @@
   {
    "id": "v1-04-multi-blank-c1",
    "lessonId": "v1-04-multi-blank",
-   "type": "TC",
    "difficulty": 1,
    "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Start with blank 2:** loved by audiences and *again and again* means longer runs: *extended*. *But* then signals the reviews were poor or lukewarm: *dismissive*.",
+   "choiceExplanations": {
+    "1C": "Glowing reviews would agree with the audience, so *but* would be pointless.",
+    "1B": "Rapturous reviews would agree with the audience, so *but* would be pointless.",
+    "2C": "Beloved shows are not cut short.",
+    "2A": "Does not describe a run changing."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "The play's reviews were {{1}}, but audiences loved it, and its run was {{2}} again and again.",
     "blanks": [
@@ -66,13 +85,19 @@
      "1A",
      "2B"
     ]
-   },
-   "explanation": "**Start with blank 2:** loved by audiences and *again and again* means longer runs: *extended*. *But* then signals the reviews were poor or lukewarm: *dismissive*.",
+   }
+  },
+  {
+   "id": "v1-04-multi-blank-c2",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Start with blank 2:** *working only under laboratory conditions* shows weakness: *fragile*. *Yet* then contrasts with his extravagant claims: *boastful*.",
    "choiceExplanations": {
-    "1C": "Glowing reviews would agree with the audience, so *but* would be pointless.",
-    "1B": "Rapturous reviews would agree with the audience, so *but* would be pointless.",
-    "2C": "Beloved shows are not cut short.",
-    "2A": "Does not describe a run changing."
+    "1A": "Claiming transformation of every industry is not modest.",
+    "1C": "His claims are confident.",
+    "2A": "Contradicts working only in a lab.",
+    "2C": "Means found everywhere; it does not describe a lab-only device."
    },
    "estSeconds": 60,
    "skills": [
@@ -80,16 +105,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-04-multi-blank-c2",
-   "lessonId": "v1-04-multi-blank",
+   },
    "type": "TC",
-   "difficulty": 2,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "The inventor was {{1}} about his device, claiming it would transform every industry, yet when tested it proved {{2}}, working only under laboratory conditions.",
     "blanks": [
@@ -134,13 +156,21 @@
      "1B",
      "2B"
     ]
-   },
-   "explanation": "**Start with blank 2:** *working only under laboratory conditions* shows weakness: *fragile*. *Yet* then contrasts with his extravagant claims: *boastful*.",
+   }
+  },
+  {
+   "id": "v1-04-multi-blank-c3",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Start with blank 2:** residents stopped listening, so results were poor: *negligible*. That contrasts with *great fanfare*: *lofty* promises. The gap leaves residents *disillusioned*.",
    "choiceExplanations": {
-    "1A": "Claiming transformation of every industry is not modest.",
-    "1C": "His claims are confident.",
-    "2A": "Contradicts working only in a lab.",
-    "2C": "Means found everywhere; it does not describe a lab-only device."
+    "1A": "Fanfare does not go with trivial promises.",
+    "1B": "Offered with fanfare, so not secret.",
+    "2A": "Dramatic results would not make residents stop listening.",
+    "2B": "Timing does not explain disillusion.",
+    "3B": "They stopped listening, so not reassured.",
+    "3C": "Astonishment does not lead to ignoring someone."
    },
    "estSeconds": 60,
    "skills": [
@@ -148,16 +178,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-04-multi-blank-c3",
-   "lessonId": "v1-04-multi-blank",
+   },
    "type": "TC",
-   "difficulty": 3,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "The mayor's {{1}} promises of reform, offered with great fanfare, produced {{2}} results; residents, {{3}} by the gap, stopped listening.",
     "blanks": [
@@ -220,24 +247,6 @@
      "2C",
      "3A"
     ]
-   },
-   "explanation": "**Start with blank 2:** residents stopped listening, so results were poor: *negligible*. That contrasts with *great fanfare*: *lofty* promises. The gap leaves residents *disillusioned*.",
-   "choiceExplanations": {
-    "1A": "Fanfare does not go with trivial promises.",
-    "1B": "Offered with fanfare, so not secret.",
-    "2A": "Dramatic results would not make residents stop listening.",
-    "2B": "Timing does not explain disillusion.",
-    "3B": "They stopped listening, so not reassured.",
-    "3C": "Astonishment does not lead to ignoring someone."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

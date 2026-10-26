@@ -5,6 +5,7 @@ import { RichText } from '@/components/RichText';
 import type { Grade } from '@/lib/grading';
 import type { ClientQuestion } from '@/content/types';
 import { choicesOf } from './selection';
+import { ReasonPicker } from './ReasonPicker';
 
 /* After an answer (tutor mode, lesson checks, results review): verdict, the
  * shortest correct route, and why each wrong choice fails. */
@@ -41,6 +42,7 @@ export function Feedback({ q, grade, ms }: { q: ClientQuestion; grade: Grade; ms
           ))}
         </ul>
       )}
+      {!grade.isCorrect && !grade.incomplete && <ReasonPicker qid={q.id} />}
     </section>
   );
 }

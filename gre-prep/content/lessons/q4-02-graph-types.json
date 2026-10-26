@@ -27,15 +27,8 @@
   {
    "id": "q4-02-graph-types-c1",
    "lessonId": "q4-02-graph-types",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A sector of a circle graph has a central angle of $108^\\circ$. What percent of the whole does the sector represent?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 30
-   },
    "explanation": "$\\frac{108}{360} = 0.30 = 30\\%$.",
    "estSeconds": 45,
    "skills": [
@@ -43,22 +36,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 30
    }
   },
   {
    "id": "q4-02-graph-types-c2",
    "lessonId": "q4-02-graph-types",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A trend line on a scatterplot passes through $(2, 30)$ and $(10, 18)$. What is the slope of the line?",
-   "content": {
-    "format": "decimal"
-   },
-   "answer": {
-    "value": -1.5
-   },
    "explanation": "Slope $= \\frac{18 - 30}{10 - 2} = \\frac{-12}{8} = -1.5$.",
    "estSeconds": 60,
    "skills": [
@@ -66,8 +62,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": -1.5
    }
   }
  ]

@@ -2,10 +2,29 @@
  {
   "id": "v3-02-main-idea-01",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 1,
   "stem": "Which of the following best states the main point of the passage?",
+  "explanation": "The passage corrects an earlier assumption (distance) and ends by naming the real advantage: the safety and fertility of the nest site.",
+  "choiceExplanations": {
+   "A": "Too broad: the passage discusses woodland wildflowers only and makes no comparison with other animals.",
+   "B": "A detail: the appendage is mentioned as the lure, but the passage never says how much of the ants' diet it supplies.",
+   "D": "Too extreme: researchers were wrong about the chief benefit (distance), not about everything.",
+   "E": "Not mentioned: growth rates are never discussed."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-ant-seeds",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -35,79 +54,88 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The passage corrects an earlier assumption (distance) and ends by naming the real advantage: the safety and fertility of the nest site.",
-  "choiceExplanations": {
-   "A": "Too broad: the passage discusses woodland wildflowers only and makes no comparison with other animals.",
-   "B": "A detail: the appendage is mentioned as the lure, but the passage never says how much of the ants' diet it supplies.",
-   "D": "Too extreme: researchers were wrong about the chief benefit (distance), not about everything.",
-   "E": "Not mentioned: growth rates are never discussed."
-  },
-  "estSeconds": 65,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-02",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 1,
   "stem": "Select the sentence that describes a way entrants try to overcome the difficulty.",
-  "passageId": "v3-platforms",
-  "content": {
-   "format": "select_in_passage"
-  },
-  "answer": {
-   "sentence": "Entrants sometimes break the deadlock by subsidizing one side, usually buyers, in the expectation that the other side will follow."
-  },
   "explanation": "The subsidy strategy is the only attempted solution described.",
   "estSeconds": 61,
   "skills": [
    "rc-main-idea"
   ],
+  "passageId": "v3-platforms",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Entrants sometimes break the deadlock by subsidizing one side, usually buyers, in the expectation that the other side will follow."
   }
  },
  {
   "id": "v3-02-main-idea-03",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 2,
   "stem": "Select the sentence that states the author's main conclusion.",
-  "passageId": "v3-ant-seeds",
-  "content": {
-   "format": "select_in_passage"
-  },
-  "answer": {
-   "sentence": "The greater advantage appears to be the safety and fertility of the nest site rather than the distance travelled."
-  },
   "explanation": "The final sentence carries the author's conclusion; the earlier sentences describe the process, the old assumption and the measurements that overturn it.",
   "estSeconds": 61,
   "skills": [
    "rc-main-idea"
   ],
+  "passageId": "v3-ant-seeds",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The greater advantage appears to be the safety and fertility of the nest site rather than the distance travelled."
   }
  },
  {
   "id": "v3-02-main-idea-04",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 2,
   "stem": "Which of the following best summarizes the passage?",
+  "explanation": "The author concedes the decline in lending, then points to rising attendance and predicts survival through a different role.",
+  "choiceExplanations": {
+   "B": "Reversed: the critics' view is reported and then answered with the attendance figures.",
+   "C": "Contradicts the passage, which calls the adaptation of budgets 'far from certain'.",
+   "D": "Too narrow and too strong: workshops are one of several drivers, and the passage never ranks them.",
+   "E": "Confuses two separate trends; the passage does not say that one causes the other."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-libraries",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -137,31 +165,34 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "The author concedes the decline in lending, then points to rising attendance and predicts survival through a different role.",
-  "choiceExplanations": {
-   "B": "Reversed: the critics' view is reported and then answered with the attendance figures.",
-   "C": "Contradicts the passage, which calls the adaptation of budgets 'far from certain'.",
-   "D": "Too narrow and too strong: workshops are one of several drivers, and the passage never ranks them.",
-   "E": "Confuses two separate trends; the passage does not say that one causes the other."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-05",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 2,
   "stem": "Which of the following best expresses the main idea of the passage?",
+  "explanation": "The passage explains why growth is slow, why entrants struggle and how some try to break in.",
+  "choiceExplanations": {
+   "A": "Too strong: subsidy is costly and works 'only if' buyers stay.",
+   "C": "Reversed: a superior product may still fail to attract users.",
+   "D": "Slow initial growth is attributed to mutual dependence, not distrust.",
+   "E": "Neither group is said to value platforms more."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-platforms",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -191,31 +222,34 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "The passage explains why growth is slow, why entrants struggle and how some try to break in.",
-  "choiceExplanations": {
-   "A": "Too strong: subsidy is costly and works 'only if' buyers stay.",
-   "C": "Reversed: a superior product may still fail to attract users.",
-   "D": "Slow initial growth is attributed to mutual dependence, not distrust.",
-   "E": "Neither group is said to value platforms more."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-06",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 3,
   "stem": "Which of the following best expresses the main idea of the passage?",
+  "explanation": "The passage argues against fidelity of incident and for fidelity to the work's tone and concerns.",
+  "choiceExplanations": {
+   "A": "Too extreme: departures are legitimate only where they serve the work's central concern.",
+   "B": "The passage claims adaptation is interpretation, not that it must fail.",
+   "C": "The passage attacks a standard, not the critics' knowledge.",
+   "D": "Irony is one example of a quality an adaptation might capture; no ranking is made."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-adaptation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -245,31 +279,32 @@
    "choices": [
     "E"
    ]
-  },
-  "explanation": "The passage argues against fidelity of incident and for fidelity to the work's tone and concerns.",
-  "choiceExplanations": {
-   "A": "Too extreme: departures are legitimate only where they serve the work's central concern.",
-   "B": "The passage claims adaptation is interpretation, not that it must fail.",
-   "C": "The passage attacks a standard, not the critics' knowledge.",
-   "D": "Irony is one example of a quality an adaptation might capture; no ranking is made."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-07",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 3,
   "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author offer as support for the central claim?",
+  "explanation": "A and B are the evidence for the claim that a transcript preserves just one occasion. C is not in the passage.",
+  "choiceExplanations": {
+   "C": "The passage never says transcribers change the words."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-main-idea",
+   "rc-support"
+  ],
   "passageId": "v3-oral-epic",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_all",
    "choices": [
@@ -292,54 +327,60 @@
     "A",
     "B"
    ]
-  },
-  "explanation": "A and B are the evidence for the claim that a transcript preserves just one occasion. C is not in the passage.",
-  "choiceExplanations": {
-   "C": "The passage never says transcribers change the words."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "rc-main-idea",
-   "rc-support"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-08",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 3,
   "stem": "Select the sentence that states a specific mechanism proposed by the newer work.",
-  "passageId": "v3-soil-carbon",
-  "content": {
-   "format": "select_in_passage"
-  },
-  "answer": {
-   "sentence": "Even simple molecules can remain for centuries if they cling to mineral grains or sit in pockets too small for microbes to enter."
-  },
   "explanation": "This sentence says how carbon can persist: by clinging to mineral grains or being trapped in pockets too small for microbes. The sentence before it only announces that a different explanation exists.",
   "estSeconds": 69,
   "skills": [
    "rc-main-idea",
    "rc-support"
   ],
+  "passageId": "v3-soil-carbon",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Even simple molecules can remain for centuries if they cling to mineral grains or sit in pockets too small for microbes to enter."
   }
  },
  {
   "id": "v3-02-main-idea-09",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 4,
   "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following does the author use to support the central claim?",
+  "explanation": "A and B are offered as reasons why reproduction is the wrong standard. C is not stated anywhere.",
+  "choiceExplanations": {
+   "C": "The passage never says how common alterations are."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-main-idea",
+   "rc-support"
+  ],
   "passageId": "v3-adaptation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_all",
    "choices": [
@@ -362,29 +403,34 @@
     "A",
     "B"
    ]
-  },
-  "explanation": "A and B are offered as reasons why reproduction is the wrong standard. C is not stated anywhere.",
-  "choiceExplanations": {
-   "C": "The passage never says how common alterations are."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "rc-main-idea",
-   "rc-support"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-10",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 4,
   "stem": "Which of the following best states the central point of the passage?",
+  "explanation": "The passage argues that a recorded text is one sample of a variable tradition, and recommends seeing the epic as the whole family of performances.",
+  "choiceExplanations": {
+   "B": "Reversed: singers 'rarely memorize them word for word'.",
+   "C": "The first sentence presents this as a tempting image the passage rejects.",
+   "D": "Errors by transcribers are never mentioned.",
+   "E": "No comparison between oral and written literature is made."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-oral-epic",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -414,31 +460,35 @@
    "choices": [
     "A"
    ]
-  },
-  "explanation": "The passage argues that a recorded text is one sample of a variable tradition, and recommends seeing the epic as the whole family of performances.",
-  "choiceExplanations": {
-   "B": "Reversed: singers 'rarely memorize them word for word'.",
-   "C": "The first sentence presents this as a tempting image the passage rejects.",
-   "D": "Errors by transcribers are never mentioned.",
-   "E": "No comparison between oral and written literature is made."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-11",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 5,
   "stem": "The author mentions the decline in book lending primarily in order to",
+  "explanation": "'Indeed' concedes the fact, 'Some critics' attaches their inference, and 'But' turns to the evidence that leads away from their conclusion. The decline is support for a concession, not the main point.",
+  "choiceExplanations": {
+   "A": "The author does not predict the end of libraries; the argument is that they will survive differently.",
+   "B": "The author uses the attendance figures, not casting doubt on them.",
+   "C": "No recommendation about lending is made.",
+   "E": "The decline in lending is reported; nothing is said about the public's valuation of reading."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea",
+   "rc-structure"
+  ],
   "passageId": "v3-libraries",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -468,32 +518,34 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "'Indeed' concedes the fact, 'Some critics' attaches their inference, and 'But' turns to the evidence that leads away from their conclusion. The decline is support for a concession, not the main point.",
-  "choiceExplanations": {
-   "A": "The author does not predict the end of libraries; the argument is that they will survive differently.",
-   "B": "The author uses the attendance figures, not casting doubt on them.",
-   "C": "No recommendation about lending is made.",
-   "E": "The decline in lending is reported; nothing is said about the public's valuation of reading."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-main-idea",
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-02-main-idea-12",
   "lessonId": "v3-02-main-idea",
-  "type": "RC",
   "difficulty": 5,
   "stem": "Which of the following best summarizes the passage?",
+  "explanation": "The passage contrasts an older view (chemistry) with a newer one (structure and minerals) and draws a consequence from the newer one.",
+  "choiceExplanations": {
+   "A": "The first sentence is background; the passage does not blame soils for climate change.",
+   "C": "This is the older view that the passage reports and questions.",
+   "D": "The passage says the practical consequences concern how to change storage, not that practices have no effect.",
+   "E": "Microbes are blocked only where carbon is in tiny pockets or bound to minerals."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
   "passageId": "v3-soil-carbon",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -523,22 +575,6 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "The passage contrasts an older view (chemistry) with a newer one (structure and minerals) and draws a consequence from the newer one.",
-  "choiceExplanations": {
-   "A": "The first sentence is background; the passage does not blame soils for climate change.",
-   "C": "This is the older view that the passage reports and questions.",
-   "D": "The passage says the practical consequences concern how to change storage, not that practices have no effect.",
-   "E": "Microbes are blocked only where carbon is in tiny pockets or bound to minerals."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-main-idea"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

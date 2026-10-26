@@ -26,15 +26,8 @@
   {
    "id": "q4-12-di-examples-c1",
    "lessonId": "q4-12-di-examples",
-   "type": "NE",
    "difficulty": 1,
    "stem": "A circle graph shows a total of 440 units. A sector has a central angle of $90^\\circ$. How many units does the sector represent?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 110
-   },
    "explanation": "The sector is $\\frac{90}{360} = \\frac14$ of the total: $\\frac14 \\times 440 = 110$.",
    "estSeconds": 60,
    "skills": [
@@ -42,22 +35,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 110
    }
   },
   {
    "id": "q4-12-di-examples-c2",
    "lessonId": "q4-12-di-examples",
-   "type": "NE",
    "difficulty": 2,
    "stem": "This year's sales of 60 units are 20 percent greater than last year's sales. How many units were sold last year?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 50
-   },
    "explanation": "If last year was $x$, then $1.2x = 60$, so $x = 50$.",
    "estSeconds": 60,
    "skills": [
@@ -65,23 +61,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 50
    }
   },
   {
    "id": "q4-12-di-examples-c3",
    "lessonId": "q4-12-di-examples",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "30 percent of 1,000",
-    "quantityB": "40 percent of 700"
-   },
-   "answer": {
-    "choice": "A"
-   },
    "explanation": "$0.30 \\times 1000 = 300$ and $0.40 \\times 700 = 280$. Quantity A is greater despite the smaller percent.",
    "estSeconds": 60,
    "skills": [
@@ -89,8 +87,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "30 percent of 1,000",
+    "quantityB": "40 percent of 700"
+   },
+   "answer": {
+    "choice": "A"
    }
   }
  ]

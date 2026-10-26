@@ -2,9 +2,28 @@
  {
   "id": "q0-05-calculator-01",
   "lessonId": "q0-05-calculator",
-  "type": "PS",
   "difficulty": 1,
   "stem": "What does the on-screen calculator display when you enter $3+4\\times5$ and press equals?",
+  "explanation": "Multiplication comes before addition: $4\\times5=20$, then $3+20=23$.",
+  "choiceExplanations": {
+   "A": "That is $3+4+5$.",
+   "B": "That is $4\\times5$ alone.",
+   "D": "That works left to right: $(3+4)\\times5$. The on-screen calculator follows order of operations.",
+   "E": "Not a result of any ordering of these operations."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "calculator"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -34,13 +53,19 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Multiplication comes before addition: $4\\times5=20$, then $3+20=23$.",
+  }
+ },
+ {
+  "id": "q0-05-calculator-02",
+  "lessonId": "q0-05-calculator",
+  "difficulty": 1,
+  "stem": "Which of the following entries makes the on-screen calculator display ERROR?",
+  "explanation": "Division by zero is not defined for real numbers, so the calculator shows ERROR until you press clear.",
   "choiceExplanations": {
-   "A": "That is $3+4+5$.",
-   "B": "That is $4\\times5$ alone.",
-   "D": "That works left to right: $(3+4)\\times5$. The on-screen calculator follows order of operations.",
-   "E": "Not a result of any ordering of these operations."
+   "A": "Defined: 2.",
+   "B": "Defined: 7.",
+   "D": "Defined: 18.",
+   "E": "Defined: 9."
   },
   "estSeconds": 45,
   "skills": [
@@ -48,16 +73,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q0-05-calculator-02",
-  "lessonId": "q0-05-calculator",
+  },
   "type": "PS",
-  "difficulty": 1,
-  "stem": "Which of the following entries makes the on-screen calculator display ERROR?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -87,36 +109,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "Division by zero is not defined for real numbers, so the calculator shows ERROR until you press clear.",
-  "choiceExplanations": {
-   "A": "Defined: 2.",
-   "B": "Defined: 7.",
-   "D": "Defined: 18.",
-   "E": "Defined: 9."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "calculator"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-05-calculator-03",
   "lessonId": "q0-05-calculator",
-  "type": "NE",
   "difficulty": 2,
   "stem": "The on-screen calculator follows order of operations. What value does it display after you enter $18-12\\div4\\times2$ and press equals?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 12
-  },
   "explanation": "Division and multiplication from left to right first: $12\\div4=3$, $3\\times2=6$. Then $18-6=12$. (A strict left-to-right calculator would give 3.)",
   "estSeconds": 60,
   "skills": [
@@ -124,16 +123,43 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
   }
  },
  {
   "id": "q0-05-calculator-04",
   "lessonId": "q0-05-calculator",
-  "type": "PS",
   "difficulty": 2,
   "stem": "Which of the following uses of the calculator agree with the official guidelines? Indicate all such uses.",
+  "explanation": "Use the calculator for tedious arithmetic, estimate first, and skip it for easy mental computations or fraction answers.",
+  "choiceExplanations": {
+   "B": "Simple sums are quicker mentally.",
+   "D": "Avoid the calculator when it introduces decimals into a fraction answer."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "calculator"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -165,34 +191,13 @@
     "C",
     "E"
    ]
-  },
-  "explanation": "Use the calculator for tedious arithmetic, estimate first, and skip it for easy mental computations or fraction answers.",
-  "choiceExplanations": {
-   "B": "Simple sums are quicker mentally.",
-   "D": "Avoid the calculator when it introduces decimals into a fraction answer."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "calculator"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-05-calculator-05",
   "lessonId": "q0-05-calculator",
-  "type": "NE",
   "difficulty": 2,
   "stem": "What is the greatest whole number that the on-screen calculator can display without showing ERROR?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 99999999
-  },
   "explanation": "The display holds eight digits; any result greater than 99,999,999 gives ERROR.",
   "estSeconds": 45,
   "skills": [
@@ -200,16 +205,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 99999999
   }
  },
  {
   "id": "q0-05-calculator-06",
   "lessonId": "q0-05-calculator",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Which keystroke sequence gives the value of $\\frac{8.4+5.6}{2\\times5}$ on the on-screen calculator?",
+  "explanation": "The numerator needs parentheses (division would otherwise happen first), and the denominator product needs them too: $14\\div10=1.4$.",
+  "choiceExplanations": {
+   "A": "This is $8.4+2.8\\times5=22.4$.",
+   "B": "This is $14\\div2\\times5=35$, because dividing by 2 and then multiplying by 5 is not dividing by the product.",
+   "D": "This adds 8.4 to $0.56$, giving 8.96.",
+   "E": "This is $11.2\\times5=56$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "calculator"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -239,36 +273,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The numerator needs parentheses (division would otherwise happen first), and the denominator product needs them too: $14\\div10=1.4$.",
-  "choiceExplanations": {
-   "A": "This is $8.4+2.8\\times5=22.4$.",
-   "B": "This is $14\\div2\\times5=35$, because dividing by 2 and then multiplying by 5 is not dividing by the product.",
-   "D": "This adds 8.4 to $0.56$, giving 8.96.",
-   "E": "This is $11.2\\times5=56$."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "calculator"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-05-calculator-07",
   "lessonId": "q0-05-calculator",
-  "type": "NE",
   "difficulty": 3,
   "stem": "Use the memory buttons if you like. A drive collects 25 gifts of 16 dollars each, 35 gifts of 24 dollars each and 40 gifts of 30 dollars each. What is the mean gift in dollars?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 24.4
-  },
   "explanation": "Total: $25\\cdot16+35\\cdot24+40\\cdot30=400+840+1200=2440$ dollars over 100 gifts. $2440\\div100=24.4$. With memory: M+ after each product, MR, then divide.",
   "estSeconds": 90,
   "skills": [
@@ -276,16 +287,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 24.4
   }
  },
  {
   "id": "q0-05-calculator-08",
   "lessonId": "q0-05-calculator",
-  "type": "PS",
   "difficulty": 3,
   "stem": "What does the on-screen calculator display after you enter $25000\\times6000$ and press equals?",
+  "explanation": "The product is 150,000,000, greater than 99,999,999, so ERROR appears and you must press clear.",
+  "choiceExplanations": {
+   "A": "Zero is displayed for tiny positive results, not for very large ones.",
+   "B": "Nothing in the keystrokes produces this.",
+   "C": "That is off by a factor of 10.",
+   "D": "That is the true product, but the display holds only eight digits."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "calculator"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -315,13 +355,19 @@
    "choices": [
     "E"
    ]
-  },
-  "explanation": "The product is 150,000,000, greater than 99,999,999, so ERROR appears and you must press clear.",
+  }
+ },
+ {
+  "id": "q0-05-calculator-09",
+  "lessonId": "q0-05-calculator",
+  "difficulty": 3,
+  "stem": "What does the on-screen calculator display after you enter $1\\div40{,}000{,}000$ and press equals?",
+  "explanation": "A positive result below 0.0000001 (that is, $10^{-7}$) is displayed as 0. Here the exact result is $2.5\\times10^{-8}$.",
   "choiceExplanations": {
-   "A": "Zero is displayed for tiny positive results, not for very large ones.",
-   "B": "Nothing in the keystrokes produces this.",
-   "C": "That is off by a factor of 10.",
-   "D": "That is the true product, but the display holds only eight digits."
+   "A": "The display shows at most eight digits and does not show this.",
+   "B": "Not displayed; the result is too small.",
+   "D": "Division by a nonzero number is defined; ERROR does not appear.",
+   "E": "The result is smaller than this threshold, not equal to it."
   },
   "estSeconds": 60,
   "skills": [
@@ -329,16 +375,13 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q0-05-calculator-09",
-  "lessonId": "q0-05-calculator",
+  },
   "type": "PS",
-  "difficulty": 3,
-  "stem": "What does the on-screen calculator display after you enter $1\\div40{,}000{,}000$ and press equals?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -368,37 +411,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "A positive result below 0.0000001 (that is, $10^{-7}$) is displayed as 0. Here the exact result is $2.5\\times10^{-8}$.",
-  "choiceExplanations": {
-   "A": "The display shows at most eight digits and does not show this.",
-   "B": "Not displayed; the result is too small.",
-   "D": "Division by a nonzero number is defined; ERROR does not appear.",
-   "E": "The result is smaller than this threshold, not equal to it."
-  },
-  "estSeconds": 60,
-  "skills": [
-   "calculator"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-05-calculator-10",
   "lessonId": "q0-05-calculator",
-  "type": "NE",
   "difficulty": 4,
   "stem": "Find the length of the hypotenuse of a right triangle with legs 18 and 40, to the nearest 0.01. (You may use the calculator and Transfer Display.)",
-  "content": {
-   "format": "decimal",
-   "round": 2
-  },
-  "answer": {
-   "value": 43.86
-  },
   "explanation": "$\\sqrt{18^2+40^2}=\\sqrt{1924}\\approx43.863$. Transfer Display copies all the digits, so round yourself: 43.86.",
   "estSeconds": 90,
   "skills": [
@@ -406,16 +425,44 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 2
+  },
+  "answer": {
+   "value": 43.86
   }
  },
  {
   "id": "q0-05-calculator-11",
   "lessonId": "q0-05-calculator",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Which of the following entries make the on-screen calculator display ERROR? Indicate all such entries.",
+  "explanation": "Errors come from division by zero ($3-3=0$), a negative number under a square root, and results above 99,999,999 ($10^8$).",
+  "choiceExplanations": {
+   "C": "The product is 99,980,001, which fits in eight digits.",
+   "E": "The result is 0, which is defined."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "calculator"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -447,34 +494,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Errors come from division by zero ($3-3=0$), a negative number under a square root, and results above 99,999,999 ($10^8$).",
-  "choiceExplanations": {
-   "C": "The product is 99,980,001, which fits in eight digits.",
-   "E": "The result is 0, which is defined."
-  },
-  "estSeconds": 90,
-  "skills": [
-   "calculator"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q0-05-calculator-12",
   "lessonId": "q0-05-calculator",
-  "type": "NE",
   "difficulty": 5,
   "stem": "What is the least positive integer $n$ for which entering $n\\times1000$ on the on-screen calculator displays ERROR?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 100000
-  },
   "explanation": "ERROR appears when the result exceeds 99,999,999. $99{,}999\\times1000=99{,}999{,}000$ is fine, but $100{,}000\\times1000=100{,}000{,}000$ is too large.",
   "estSeconds": 90,
   "skills": [
@@ -482,8 +508,18 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 100000
   }
  }
 ]

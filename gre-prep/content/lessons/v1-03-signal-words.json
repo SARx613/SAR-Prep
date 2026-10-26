@@ -28,9 +28,28 @@
   {
    "id": "v1-03-signal-words-c1",
    "lessonId": "v1-03-signal-words",
-   "type": "TC",
    "difficulty": 1,
    "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Contrast word:** *unlike his careful colleagues* means he was the opposite of careful: *reckless*.",
+   "choiceExplanations": {
+    "E": "Prudent means careful, the colleagues' trait.",
+    "C": "A careful trait, like the colleagues'.",
+    "D": "Timid people would not enter a storm.",
+    "A": "Means very careful about details, again the colleagues' trait."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "TC",
    "content": {
     "text": "The explorer was so {{1}} that, unlike his careful colleagues, he set out into the storm without a map.",
     "blanks": [
@@ -65,13 +84,21 @@
     "blanks": [
      "B"
     ]
-   },
-   "explanation": "**Contrast word:** *unlike his careful colleagues* means he was the opposite of careful: *reckless*.",
+   }
+  },
+  {
+   "id": "v1-03-signal-words-c2",
+   "lessonId": "v1-03-signal-words",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Cause chain:** contradictory evidence leads to a *divided* jury. *Moreover* adds another weakness in the same direction: *unreliable* testimony.",
    "choiceExplanations": {
-    "E": "Prudent means careful, the colleagues' trait.",
-    "C": "A careful trait, like the colleagues'.",
-    "D": "Timid people would not enter a storm.",
-    "A": "Means very careful about details, again the colleagues' trait."
+    "1C": "Overwhelming evidence would unite a jury.",
+    "1A": "Does not explain a split.",
+    "2A": "Joy is not a reaction to uncertain evidence.",
+    "2C": "Contradicts the doubt created by the evidence.",
+    "3C": "Confirmed testimony is not a weakness, and *moreover* needs a point in the same direction.",
+    "3B": "Complete testimony is not a weakness."
    },
    "estSeconds": 60,
    "skills": [
@@ -79,16 +106,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-03-signal-words-c2",
-   "lessonId": "v1-03-signal-words",
+   },
    "type": "TC",
-   "difficulty": 2,
-   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
    "content": {
     "text": "Because the evidence was {{1}}, the jury was {{2}} about the verdict, and, moreover, the judge noted that the case rested on {{3}} testimony.",
     "blanks": [
@@ -151,15 +175,19 @@
      "2B",
      "3A"
     ]
-   },
-   "explanation": "**Cause chain:** contradictory evidence leads to a *divided* jury. *Moreover* adds another weakness in the same direction: *unreliable* testimony.",
+   }
+  },
+  {
+   "id": "v1-03-signal-words-c3",
+   "lessonId": "v1-03-signal-words",
+   "difficulty": 3,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Negation:** *anything but* X means the opposite of X. Invention and surprise are the opposite of *formulaic*. The other choices describe the film, so *anything but* would contradict the colon.",
    "choiceExplanations": {
-    "1C": "Overwhelming evidence would unite a jury.",
-    "1A": "Does not explain a split.",
-    "2A": "Joy is not a reaction to uncertain evidence.",
-    "2C": "Contradicts the doubt created by the evidence.",
-    "3C": "Confirmed testimony is not a weakness, and *moreover* needs a point in the same direction.",
-    "3B": "Complete testimony is not a weakness."
+    "B": "The film is inventive; *anything but* would deny it.",
+    "C": "The film is surprising.",
+    "D": "The film is original.",
+    "A": "Consistent with the description, so *anything but* fails."
    },
    "estSeconds": 60,
    "skills": [
@@ -167,16 +195,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "v1-03-signal-words-c3",
-   "lessonId": "v1-03-signal-words",
+   },
    "type": "TC",
-   "difficulty": 3,
-   "stem": "Select one entry from the choices that best completes the text.",
    "content": {
     "text": "The film is anything but {{1}}: every scene bursts with invention and surprise.",
     "blanks": [
@@ -211,22 +236,6 @@
     "blanks": [
      "E"
     ]
-   },
-   "explanation": "**Negation:** *anything but* X means the opposite of X. Invention and surprise are the opposite of *formulaic*. The other choices describe the film, so *anything but* would contradict the colon.",
-   "choiceExplanations": {
-    "B": "The film is inventive; *anything but* would deny it.",
-    "C": "The film is surprising.",
-    "D": "The film is original.",
-    "A": "Consistent with the description, so *anything but* fails."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "text-completion"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

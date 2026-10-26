@@ -27,9 +27,28 @@
   {
    "id": "q0-06-conventions-c1",
    "lessonId": "q0-06-conventions",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which of the following is drawn to scale?",
+   "explanation": "Bar graphs, circle graphs, line graphs, xy-planes and number lines are drawn to scale.",
+   "choiceExplanations": {
+    "A": "Not necessarily to scale.",
+    "B": "Not necessarily to scale.",
+    "D": "Not necessarily to scale.",
+    "E": "Not necessarily to scale."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -59,36 +78,13 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Bar graphs, circle graphs, line graphs, xy-planes and number lines are drawn to scale.",
-   "choiceExplanations": {
-    "A": "Not necessarily to scale.",
-    "B": "Not necessarily to scale.",
-    "D": "Not necessarily to scale.",
-    "E": "Not necessarily to scale."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "math-conventions"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q0-06-conventions-c2",
    "lessonId": "q0-06-conventions",
-   "type": "NE",
    "difficulty": 2,
    "stem": "What is the value of $-4^2$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": -16
-   },
    "explanation": "Exponent first: $-(4^2)=-16$.",
    "estSeconds": 45,
    "skills": [
@@ -96,24 +92,25 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -16
    }
   },
   {
    "id": "q0-06-conventions-c3",
    "lessonId": "q0-06-conventions",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "$AC$",
-    "quantityB": "10",
-    "common": "$A$, $B$, $C$ lie on a line in that order, with $AB=6$ and $BC=4$."
-   },
-   "answer": {
-    "choice": "C"
-   },
    "explanation": "$AB+BC=6+4=10$ since $B$ is between $A$ and $C$ on the line.",
    "estSeconds": 60,
    "skills": [
@@ -121,8 +118,20 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$AC$",
+    "quantityB": "10",
+    "common": "$A$, $B$, $C$ lie on a line in that order, with $AB=6$ and $BC=4$."
+   },
+   "answer": {
+    "choice": "C"
    }
   }
  ]

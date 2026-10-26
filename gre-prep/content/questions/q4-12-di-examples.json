@@ -2,39 +2,8 @@
  {
   "id": "q4-12-di-examples-01",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 1,
   "stem": "Approximately what is the ratio of Phones revenue to Tablets revenue?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    {
-     "id": "A",
-     "text": "1 to 1"
-    },
-    {
-     "id": "B",
-     "text": "3 to 2"
-    },
-    {
-     "id": "C",
-     "text": "5 to 3"
-    },
-    {
-     "id": "D",
-     "text": "2 to 1"
-    },
-    {
-     "id": "E",
-     "text": "5 to 2"
-    }
-   ]
-  },
-  "answer": {
-   "choices": [
-    "C"
-   ]
-  },
   "explanation": "Both are percents of the same total, so the ratio is $25 : 15 = 5 : 3$.",
   "choiceExplanations": {
    "A": "A 1 to 1 ratio would need equal percents.",
@@ -77,26 +46,49 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1 to 1"
+    },
+    {
+     "id": "B",
+     "text": "3 to 2"
+    },
+    {
+     "id": "C",
+     "text": "5 to 3"
+    },
+    {
+     "id": "D",
+     "text": "2 to 1"
+    },
+    {
+     "id": "E",
+     "text": "5 to 2"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
   }
  },
  {
   "id": "q4-12-di-examples-02",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 1,
   "stem": "What is the measure, in degrees, of the central angle of the Accessories sector?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "decimal",
-    "unit": "degrees"
-   }
-  },
-  "answer": {
-   "value": 43.2
-  },
   "explanation": "Accessories is 12% of the circle: $0.12 \\times 360^\\circ = 43.2^\\circ$.",
   "estSeconds": 60,
   "skills": [
@@ -133,25 +125,29 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "degrees"
+   }
+  },
+  "answer": {
+   "value": 43.2
   }
  },
  {
   "id": "q4-12-di-examples-03",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 2,
   "stem": "How many of the 300 members take yoga but not pilates?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer"
-   }
-  },
-  "answer": {
-   "value": 100
-  },
   "explanation": "Remove the 40 who take both from the 140 yoga members: $140 - 40 = 100$.",
   "estSeconds": 60,
   "skills": [
@@ -167,16 +163,13 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-12-di-examples-04",
-  "lessonId": "q4-12-di-examples",
+  },
   "type": "DI",
-  "difficulty": 2,
-  "stem": "How many of the 300 members take neither yoga nor pilates?",
   "content": {
    "format": "numeric_entry",
    "numeric": {
@@ -184,8 +177,14 @@
    }
   },
   "answer": {
-   "value": 90
-  },
+   "value": 100
+  }
+ },
+ {
+  "id": "q4-12-di-examples-04",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 2,
+  "stem": "How many of the 300 members take neither yoga nor pilates?",
   "explanation": "At least one class: $140 + 110 - 40 = 210$. Neither: $300 - 210 = 90$.",
   "estSeconds": 75,
   "skills": [
@@ -201,16 +200,13 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-12-di-examples-05",
-  "lessonId": "q4-12-di-examples",
+  },
   "type": "DI",
-  "difficulty": 2,
-  "stem": "Approximately how many visits came from email in 2022?",
   "content": {
    "format": "numeric_entry",
    "numeric": {
@@ -218,8 +214,14 @@
    }
   },
   "answer": {
-   "value": 30000
-  },
+   "value": 90
+  }
+ },
+ {
+  "id": "q4-12-di-examples-05",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 2,
+  "stem": "Approximately how many visits came from email in 2022?",
   "explanation": "Email was 12.0% of the 250,000 visits in 2022: $0.12 \\times 250{,}000 = 30{,}000$.",
   "estSeconds": 60,
   "skills": [
@@ -276,26 +278,28 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 30000
   }
  },
  {
   "id": "q4-12-di-examples-06",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 3,
   "stem": "By what percent did the total number of visits increase from 2022 to 2023?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer",
-    "unit": "%"
-   }
-  },
-  "answer": {
-   "value": 28
-  },
   "explanation": "The increase is $320{,}000 - 250{,}000 = 70{,}000$. Percent increase $= \\frac{70{,}000}{250{,}000} = 0.28 = 28\\%$.",
   "estSeconds": 75,
   "skills": [
@@ -352,29 +356,29 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 28
   }
  },
  {
   "id": "q4-12-di-examples-07",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 3,
   "stem": "Of the members who take pilates, what fraction also take yoga?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "fraction"
-   }
-  },
-  "answer": {
-   "value": 0.36363636363636365,
-   "fraction": {
-    "numerator": 4,
-    "denominator": 11
-   }
-  },
   "explanation": "Restrict to the 110 pilates members; 40 of them also take yoga. The fraction is $\\frac{40}{110} = \\frac{4}{11}$.",
   "estSeconds": 75,
   "skills": [
@@ -391,43 +395,32 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.36363636363636365,
+   "fraction": {
+    "numerator": 4,
+    "denominator": 11
+   }
   }
  },
  {
   "id": "q4-12-di-examples-08",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 3,
   "stem": "In which quarters were the sales of Store Y greater than the sales of Store X? Indicate all such quarters.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    {
-     "id": "A",
-     "text": "Quarter 1"
-    },
-    {
-     "id": "B",
-     "text": "Quarter 2"
-    },
-    {
-     "id": "C",
-     "text": "Quarter 3"
-    },
-    {
-     "id": "D",
-     "text": "Quarter 4"
-    }
-   ]
-  },
-  "answer": {
-   "choices": [
-    "B",
-    "D"
-   ]
-  },
   "explanation": "Compare bar pairs: Quarter 1, 80 versus 70 (X higher); Quarter 2, 95 versus 100 (Y higher); Quarter 3, 110 versus 105 (X higher); Quarter 4, 130 versus 140 (Y higher).",
   "choiceExplanations": {
    "A": "In Quarter 1, X sold 80 and Y sold 70.",
@@ -472,25 +465,46 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Quarter 1"
+    },
+    {
+     "id": "B",
+     "text": "Quarter 2"
+    },
+    {
+     "id": "C",
+     "text": "Quarter 3"
+    },
+    {
+     "id": "D",
+     "text": "Quarter 4"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
   }
  },
  {
   "id": "q4-12-di-examples-09",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 4,
   "stem": "The Services revenue shown is 20 percent greater than the Services revenue of the previous year. What was the previous year's Services revenue, in millions of dollars?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer"
-   }
-  },
-  "answer": {
-   "value": 32
-  },
   "explanation": "Services is 8% of 480 million, which is 38.4 million. If last year's was $x$, then $1.2x = 38.4$, so $x = 32$.",
   "estSeconds": 100,
   "skills": [
@@ -528,26 +542,28 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 32
   }
  },
  {
   "id": "q4-12-di-examples-10",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 4,
   "stem": "Quarter 4 sales were what percent of the total sales of Store Y for the four quarters? Give your answer to the nearest whole percent.",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer",
-    "unit": "%"
-   }
-  },
-  "answer": {
-   "value": 34
-  },
   "explanation": "Store Y total: $70 + 100 + 105 + 140 = 415$. Quarter 4: $\\frac{140}{415} \\approx 0.337$, about 34%.",
   "estSeconds": 90,
   "skills": [
@@ -589,43 +605,29 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 34
   }
  },
  {
   "id": "q4-12-di-examples-11",
   "lessonId": "q4-12-di-examples",
-  "type": "DI",
   "difficulty": 5,
   "stem": "Which of the following statements are supported by the table? Indicate all such statements.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    {
-     "id": "A",
-     "text": "The number of visits from search was greater in 2023 than in 2022."
-    },
-    {
-     "id": "B",
-     "text": "In 2023, social media and direct visits together accounted for more than 40 percent of all visits."
-    },
-    {
-     "id": "C",
-     "text": "The number of visits from email decreased from 2022 to 2023."
-    },
-    {
-     "id": "D",
-     "text": "The number of visits in the \"Other\" category increased by about 1 percent from 2022 to 2023."
-    }
-   ]
-  },
-  "answer": {
-   "choices": [
-    "A",
-    "B"
-   ]
-  },
   "explanation": "Convert percents to counts. Search: 100,000 in 2022 and 115,200 in 2023. Social media plus direct: $25 + 20 = 45\\%$ in 2023. Email: 30,000 and 32,000, an increase. Other: 20,000 and 28,800, an increase of about 44%, since the percent rose by 1 point but the total grew.",
   "choiceExplanations": {
    "C": "The email percent fell, but the total rose: 30,000 became 32,000.",
@@ -686,46 +688,46 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-12-di-examples-12",
-  "lessonId": "q4-12-di-examples",
+  },
   "type": "DI",
-  "difficulty": 5,
-  "stem": "For which store and which pair of consecutive quarters was the percent increase in sales greatest?",
   "content": {
-   "format": "select_one",
+   "format": "select_all",
    "choices": [
     {
      "id": "A",
-     "text": "Store X, Quarter 1 to Quarter 2"
+     "text": "The number of visits from search was greater in 2023 than in 2022."
     },
     {
      "id": "B",
-     "text": "Store X, Quarter 3 to Quarter 4"
+     "text": "In 2023, social media and direct visits together accounted for more than 40 percent of all visits."
     },
     {
      "id": "C",
-     "text": "Store Y, Quarter 1 to Quarter 2"
+     "text": "The number of visits from email decreased from 2022 to 2023."
     },
     {
      "id": "D",
-     "text": "Store Y, Quarter 2 to Quarter 3"
-    },
-    {
-     "id": "E",
-     "text": "Store Y, Quarter 3 to Quarter 4"
+     "text": "The number of visits in the \"Other\" category increased by about 1 percent from 2022 to 2023."
     }
    ]
   },
   "answer": {
    "choices": [
-    "C"
+    "A",
+    "B"
    ]
-  },
+  }
+ },
+ {
+  "id": "q4-12-di-examples-12",
+  "lessonId": "q4-12-di-examples",
+  "difficulty": 5,
+  "stem": "For which store and which pair of consecutive quarters was the percent increase in sales greatest?",
   "explanation": "Percent increase $=$ change $\\div$ earlier value. Store Y, Q1 to Q2: $\\frac{30}{70} \\approx 42.9\\%$. Store Y, Q3 to Q4: $\\frac{35}{105} \\approx 33.3\\%$. Store X: about 18.8% (Q1 to Q2), 15.8% (Q2 to Q3), 18.2% (Q3 to Q4). Store Y, Q2 to Q3: 5%.",
   "choiceExplanations": {
    "A": "That increase was only about 18.8%.",
@@ -773,8 +775,42 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Store X, Quarter 1 to Quarter 2"
+    },
+    {
+     "id": "B",
+     "text": "Store X, Quarter 3 to Quarter 4"
+    },
+    {
+     "id": "C",
+     "text": "Store Y, Quarter 1 to Quarter 2"
+    },
+    {
+     "id": "D",
+     "text": "Store Y, Quarter 2 to Quarter 3"
+    },
+    {
+     "id": "E",
+     "text": "Store Y, Quarter 3 to Quarter 4"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
   }
  }
 ]

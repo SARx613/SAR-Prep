@@ -26,15 +26,8 @@
   {
    "id": "q1-02-divisibility-primes-c1",
    "lessonId": "q1-02-divisibility-primes",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the greatest prime factor of 210?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 7
-   },
    "explanation": "$210 = 2\\cdot3\\cdot5\\cdot7$, so the prime factors are 2, 3, 5 and 7. The greatest is 7.",
    "estSeconds": 45,
    "skills": [
@@ -42,16 +35,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
    }
   },
   {
    "id": "q1-02-divisibility-primes-c2",
    "lessonId": "q1-02-divisibility-primes",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following is a prime number?",
+   "explanation": "Test each: $39 = 3\\cdot13$, $49 = 7^2$, $51 = 3\\cdot17$, $57 = 3\\cdot19$. Only 53 has no divisor besides 1 and itself.",
+   "choiceExplanations": {
+    "A": "$39 = 3\\cdot13$.",
+    "B": "$49 = 7\\cdot7$.",
+    "C": "$51 = 3\\cdot17$.",
+    "E": "$57 = 3\\cdot19$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -81,30 +103,33 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "Test each: $39 = 3\\cdot13$, $49 = 7^2$, $51 = 3\\cdot17$, $57 = 3\\cdot19$. Only 53 has no divisor besides 1 and itself.",
-   "choiceExplanations": {
-    "A": "$39 = 3\\cdot13$.",
-    "B": "$49 = 7\\cdot7$.",
-    "C": "$51 = 3\\cdot17$.",
-    "E": "$57 = 3\\cdot19$."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "divisibility-primes"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q1-02-divisibility-primes-c3",
    "lessonId": "q1-02-divisibility-primes",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Let $n = 2^3\\cdot 3\\cdot 5^2$. Which of the following is a divisor of $n$?",
+   "explanation": "A divisor must fit inside $2^3\\cdot3\\cdot5^2$. Only $60 = 2^2\\cdot3\\cdot5$ does.",
+   "choiceExplanations": {
+    "A": "$9 = 3^2$ needs two 3s; $n$ has one.",
+    "B": "$14 = 2\\cdot7$ needs a factor 7.",
+    "C": "$16 = 2^4$ needs four 2s; $n$ has three.",
+    "E": "$250 = 2\\cdot5^3$ needs three 5s; $n$ has two."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -134,22 +159,6 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "A divisor must fit inside $2^3\\cdot3\\cdot5^2$. Only $60 = 2^2\\cdot3\\cdot5$ does.",
-   "choiceExplanations": {
-    "A": "$9 = 3^2$ needs two 3s; $n$ has one.",
-    "B": "$14 = 2\\cdot7$ needs a factor 7.",
-    "C": "$16 = 2^4$ needs four 2s; $n$ has three.",
-    "E": "$250 = 2\\cdot5^3$ needs three 5s; $n$ has two."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "divisibility-primes"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

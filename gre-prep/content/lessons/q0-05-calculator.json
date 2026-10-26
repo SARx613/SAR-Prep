@@ -27,15 +27,8 @@
   {
    "id": "q0-05-calculator-c1",
    "lessonId": "q0-05-calculator",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What does the on-screen calculator display for $2+3\\times4$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 14
-   },
    "explanation": "Multiplication first: $3\\times4=12$, then $2+12=14$.",
    "estSeconds": 45,
    "skills": [
@@ -43,16 +36,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 14
    }
   },
   {
    "id": "q0-05-calculator-c2",
    "lessonId": "q0-05-calculator",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which button transfers the calculator display into a Numeric Entry answer box?",
+   "explanation": "Transfer Display copies the display into a single answer box; then check rounding or percent form.",
+   "choiceExplanations": {
+    "A": "That brings the stored number onto the display, not into the answer box.",
+    "B": "That adds the display to the stored number.",
+    "C": "That resets the display.",
+    "E": "That finishes a computation."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "calculator"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -82,13 +104,19 @@
     "choices": [
      "D"
     ]
-   },
-   "explanation": "Transfer Display copies the display into a single answer box; then check rounding or percent form.",
+   }
+  },
+  {
+   "id": "q0-05-calculator-c3",
+   "lessonId": "q0-05-calculator",
+   "difficulty": 2,
+   "stem": "You enter $5\\div0$ and see ERROR. What must you do before continuing?",
+   "explanation": "After ERROR, the display can only be cleared with the clear button.",
    "choiceExplanations": {
-    "A": "That brings the stored number onto the display, not into the answer box.",
-    "B": "That adds the display to the stored number.",
-    "C": "That resets the display.",
-    "E": "That finishes a computation."
+    "B": "Equals does not clear ERROR.",
+    "C": "Memory does not clear ERROR.",
+    "D": "The clear button must be used.",
+    "E": "Clear is enough."
    },
    "estSeconds": 45,
    "skills": [
@@ -96,16 +124,13 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
-   }
-  },
-  {
-   "id": "q0-05-calculator-c3",
-   "lessonId": "q0-05-calculator",
+   },
    "type": "PS",
-   "difficulty": 2,
-   "stem": "You enter $5\\div0$ and see ERROR. What must you do before continuing?",
    "content": {
     "format": "select_one",
     "choices": [
@@ -135,22 +160,6 @@
     "choices": [
      "A"
     ]
-   },
-   "explanation": "After ERROR, the display can only be cleared with the clear button.",
-   "choiceExplanations": {
-    "B": "Equals does not clear ERROR.",
-    "C": "Memory does not clear ERROR.",
-    "D": "The clear button must be used.",
-    "E": "Clear is enough."
-   },
-   "estSeconds": 45,
-   "skills": [
-    "calculator"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

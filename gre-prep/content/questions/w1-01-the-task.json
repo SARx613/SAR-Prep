@@ -2,20 +2,8 @@
  {
   "id": "w1-01-the-task-01",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 1,
   "stem": "Which description matches the Analytical Writing measure of the GRE General Test as ETS currently describes it?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Two essays, an Issue task and an Argument task, of 30 minutes each" },
-    { "id": "B", "text": "One 30-minute \"Analyze an Issue\" task" },
-    { "id": "C", "text": "One 60-minute Issue task" },
-    { "id": "D", "text": "A set of multiple-choice grammar questions followed by a short essay" },
-    { "id": "E", "text": "An Issue task preceded by a separate 10-minute planning period" }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "The measure consists of one 30-minute Analyze an Issue task; reading, planning and writing all happen inside those 30 minutes.",
   "choiceExplanations": {
    "A": "That is the older format; ETS now describes the Argument task only for tests given before 22 September 2023.",
@@ -24,26 +12,54 @@
    "E": "There is no separate planning period; planning is part of your 30 minutes."
   },
   "estSeconds": 45,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Two essays, an Issue task and an Argument task, of 30 minutes each"
+    },
+    {
+     "id": "B",
+     "text": "One 30-minute \"Analyze an Issue\" task"
+    },
+    {
+     "id": "C",
+     "text": "One 60-minute Issue task"
+    },
+    {
+     "id": "D",
+     "text": "A set of multiple-choice grammar questions followed by a short essay"
+    },
+    {
+     "id": "E",
+     "text": "An Issue task preceded by a separate 10-minute planning period"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-02",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 1,
   "stem": "A test taker believes raters secretly prefer essays that agree with the claim. According to ETS, which statement is accurate?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Raters prefer agreement because the claims are written to be true." },
-    { "id": "B", "text": "Raters prefer disagreement because it shows critical thinking." },
-    { "id": "C", "text": "There is no correct position; raters evaluate the skill with which you address the instructions and develop your argument." },
-    { "id": "D", "text": "Raters prefer an essay that refuses to take any position." },
-    { "id": "E", "text": "Raters prefer the position held by most test takers." }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "ETS states that raters are not looking for a right answer and that no position is correct; what is evaluated is the skill of the response.",
   "choiceExplanations": {
    "A": "Claims are not designed to be true or false; they are debatable.",
@@ -52,26 +68,54 @@
    "E": "Raters do not compare your position with other test takers' positions."
   },
   "estSeconds": 45,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Raters prefer agreement because the claims are written to be true."
+    },
+    {
+     "id": "B",
+     "text": "Raters prefer disagreement because it shows critical thinking."
+    },
+    {
+     "id": "C",
+     "text": "There is no correct position; raters evaluate the skill with which you address the instructions and develop your argument."
+    },
+    {
+     "id": "D",
+     "text": "Raters prefer an essay that refuses to take any position."
+    },
+    {
+     "id": "E",
+     "text": "Raters prefer the position held by most test takers."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-03",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 2,
   "stem": "A prompt gives the statement \"Talent matters more than effort in any field.\" The instructions ask you to discuss the extent to which you agree or disagree and to consider ways in which the statement might or might not hold true, explaining how these considerations shape your position. Which plan follows the instructions?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Argue that the statement is false, using one example from athletics, without considering where it might hold." },
-    { "id": "B", "text": "State a position, describe fields or situations where the statement holds and others where it does not, and explain how these shape the position." },
-    { "id": "C", "text": "Summarise the strongest arguments against your position and rebut each one." },
-    { "id": "D", "text": "Choose which of two opposing views is closer to your own." },
-    { "id": "E", "text": "Predict the consequences of making effort mandatory in schools." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "The statement set requires a position plus consideration of ways the statement might or might not hold true, and an explanation of how those considerations shape the position.",
   "choiceExplanations": {
    "A": "It never considers where the statement might hold true, so part of the instruction is missed.",
@@ -80,26 +124,54 @@
    "E": "Consequences of a policy belong to the policy set, and no policy is mentioned."
   },
   "estSeconds": 75,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Argue that the statement is false, using one example from athletics, without considering where it might hold."
+    },
+    {
+     "id": "B",
+     "text": "State a position, describe fields or situations where the statement holds and others where it does not, and explain how these shape the position."
+    },
+    {
+     "id": "C",
+     "text": "Summarise the strongest arguments against your position and rebut each one."
+    },
+    {
+     "id": "D",
+     "text": "Choose which of two opposing views is closer to your own."
+    },
+    {
+     "id": "E",
+     "text": "Predict the consequences of making effort mandatory in schools."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-04",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 2,
   "stem": "An Issue task presents a claim and tells you to discuss the extent to which you agree or disagree with it and, in developing and supporting your position, to address the most compelling reasons and/or examples that could be used to challenge your position. Which instruction set is this?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "The statement set" },
-    { "id": "B", "text": "The recommendation set" },
-    { "id": "C", "text": "The claim set that requires addressing the strongest challenges" },
-    { "id": "D", "text": "The claim-and-reason set" },
-    { "id": "E", "text": "The policy set" }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "The distinguishing requirement is to address the most compelling reasons or examples that could challenge your own position.",
   "choiceExplanations": {
    "A": "The statement set asks you to consider ways the statement might or might not hold true.",
@@ -108,52 +180,110 @@
    "E": "The policy set asks for the possible consequences of implementing the policy."
   },
   "estSeconds": 60,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The statement set"
+    },
+    {
+     "id": "B",
+     "text": "The recommendation set"
+    },
+    {
+     "id": "C",
+     "text": "The claim set that requires addressing the strongest challenges"
+    },
+    {
+     "id": "D",
+     "text": "The claim-and-reason set"
+    },
+    {
+     "id": "E",
+     "text": "The policy set"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-05",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 2,
   "stem": "A prompt presents two opposing views on whether companies should let employees choose their own working hours. The instructions ask which view more closely aligns with your own position, with your reasoning, and tell you to address both views. Select all the things the response must do.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "State which view is closer to your own position" },
-    { "id": "B", "text": "Explain your reasoning for that choice" },
-    { "id": "C", "text": "Address both views, not only the one you prefer" },
-    { "id": "D", "text": "Consider the possible consequences of implementing a policy" },
-    { "id": "E", "text": "Judge the reason on which a claim is based" }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "C"] },
   "explanation": "The two-views set requires choosing the closer view, explaining why, and addressing both views.",
   "choiceExplanations": {
    "D": "That is the requirement of the policy set; no policy is under discussion here.",
    "E": "That is the requirement of the claim-and-reason set; the two views here are not a claim with a stated reason."
   },
   "estSeconds": 60,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "State which view is closer to your own position"
+    },
+    {
+     "id": "B",
+     "text": "Explain your reasoning for that choice"
+    },
+    {
+     "id": "C",
+     "text": "Address both views, not only the one you prefer"
+    },
+    {
+     "id": "D",
+     "text": "Consider the possible consequences of implementing a policy"
+    },
+    {
+     "id": "E",
+     "text": "Judge the reason on which a claim is based"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-06",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Prompt (policy set): \"Cities should charge drivers a fee for entering the downtown area.\" The instructions ask for your views on the policy, your reasoning, and consideration of the possible consequences of implementing it.\n\nA writer's draft reads: \"This fee is a wonderful idea. Downtown is crowded, and drivers are selfish. I have always disliked traffic. Cities should adopt the fee at once because it is obviously right.\"\n\nWhich element required by this instruction set is missing?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "A discussion of both of two competing views" },
-    { "id": "B", "text": "A judgement of the reason on which a claim is based" },
-    { "id": "C", "text": "Consideration of the possible consequences of implementing the fee" },
-    { "id": "D", "text": "A statement of the writer's own view" },
-    { "id": "E", "text": "A definition of the word \"fee\"" }
-   ]
-  },
-  "answer": { "choices": ["C"] },
   "explanation": "The draft gives a view and a few assertions but never considers what might happen if the fee were introduced, which is the distinguishing requirement of the policy set.",
   "choiceExplanations": {
    "A": "The policy set does not present two views.",
@@ -162,26 +292,54 @@
    "E": "The instruction does not ask you to define terms."
   },
   "estSeconds": 75,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A discussion of both of two competing views"
+    },
+    {
+     "id": "B",
+     "text": "A judgement of the reason on which a claim is based"
+    },
+    {
+     "id": "C",
+     "text": "Consideration of the possible consequences of implementing the fee"
+    },
+    {
+     "id": "D",
+     "text": "A statement of the writer's own view"
+    },
+    {
+     "id": "E",
+     "text": "A definition of the word \"fee\""
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-07",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 3,
   "stem": "Prompt: \"Public libraries have become obsolete, because nearly everything they offer is now freely available online.\" The instructions ask you to discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based. Which plan best follows the instructions?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Argue that libraries give communities a place to meet, without commenting on the online-availability reason." },
-    { "id": "B", "text": "Assess whether the stated reason is true, and whether, even if true, it would make libraries obsolete." },
-    { "id": "C", "text": "Trace the history of the internet and its effect on publishing." },
-    { "id": "D", "text": "Describe what might happen if all libraries were closed by law." },
-    { "id": "E", "text": "Choose between the views of librarians and the views of software engineers." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "This set requires judging both the claim (libraries are obsolete) and its reason (everything is available online). Plan B tests the reason and then asks whether it supports the claim.",
   "choiceExplanations": {
    "A": "It argues about the claim but ignores the reason, which the instructions require you to address.",
@@ -190,26 +348,54 @@
    "E": "No two views are presented, so that is not what is asked."
   },
   "estSeconds": 75,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Argue that libraries give communities a place to meet, without commenting on the online-availability reason."
+    },
+    {
+     "id": "B",
+     "text": "Assess whether the stated reason is true, and whether, even if true, it would make libraries obsolete."
+    },
+    {
+     "id": "C",
+     "text": "Trace the history of the internet and its effect on publishing."
+    },
+    {
+     "id": "D",
+     "text": "Describe what might happen if all libraries were closed by law."
+    },
+    {
+     "id": "E",
+     "text": "Choose between the views of librarians and the views of software engineers."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-08",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 3,
   "stem": "The instructions say: discuss the extent to which you agree or disagree with the claim, and in developing and supporting your position address the most compelling reasons and/or examples that could be used to challenge it. A test taker decides she fully agrees with the claim. Which statement is correct?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "She may fully agree, but she must still address the strongest reasons or examples against her position." },
-    { "id": "B", "text": "She must change to partial disagreement, because full agreement cannot be challenged." },
-    { "id": "C", "text": "She does not need to mention any objection, since she agrees." },
-    { "id": "D", "text": "She should address the weakest objections, since they are the easiest to answer." },
-    { "id": "E", "text": "She satisfies the instruction by explaining why the claim is popular." }
-   ]
-  },
-  "answer": { "choices": ["A"] },
   "explanation": "ETS does not prescribe a position; full agreement is allowed. The instruction does require engaging with the most compelling challenges to whatever position you take.",
   "choiceExplanations": {
    "B": "No position is required or forbidden.",
@@ -218,52 +404,110 @@
    "E": "Popularity of a claim is not a reason or example that challenges your position."
   },
   "estSeconds": 60,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "She may fully agree, but she must still address the strongest reasons or examples against her position."
+    },
+    {
+     "id": "B",
+     "text": "She must change to partial disagreement, because full agreement cannot be challenged."
+    },
+    {
+     "id": "C",
+     "text": "She does not need to mention any objection, since she agrees."
+    },
+    {
+     "id": "D",
+     "text": "She should address the weakest objections, since they are the easiest to answer."
+    },
+    {
+     "id": "E",
+     "text": "She satisfies the instruction by explaining why the claim is popular."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-09",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Prompt: \"Governments should require all citizens to learn a second language.\" Instructions (recommendation set): discuss the extent to which you agree or disagree, describe specific circumstances in which adopting the recommendation would or would not be advantageous, and explain how these examples shape your position. A student drafts the parts below. Select all parts that satisfy the instruction.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "In a multilingual country whose institutions are shared by several language groups, a requirement could ease communication." },
-    { "id": "B", "text": "In a country where schools lack trained language teachers, a requirement could waste scarce resources." },
-    { "id": "C", "text": "My position: I agree only where qualified teachers exist, because the two circumstances above show that the benefit depends on conditions." },
-    { "id": "D", "text": "A language requirement is popular with voters, so politicians tend to support it." },
-    { "id": "E", "text": "Another essayist argues the opposite, and I think that essayist is simply wrong." }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "C"] },
   "explanation": "A gives a circumstance where adopting the recommendation is advantageous, B one where it is not, and C ties both to a position, as the set requires.",
   "choiceExplanations": {
    "D": "Popularity with voters is not a circumstance in which the requirement is advantageous or not.",
    "E": "Dismissing another writer gives no specific circumstance and does not shape a position."
   },
   "estSeconds": 90,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "In a multilingual country whose institutions are shared by several language groups, a requirement could ease communication."
+    },
+    {
+     "id": "B",
+     "text": "In a country where schools lack trained language teachers, a requirement could waste scarce resources."
+    },
+    {
+     "id": "C",
+     "text": "My position: I agree only where qualified teachers exist, because the two circumstances above show that the benefit depends on conditions."
+    },
+    {
+     "id": "D",
+     "text": "A language requirement is popular with voters, so politicians tend to support it."
+    },
+    {
+     "id": "E",
+     "text": "Another essayist argues the opposite, and I think that essayist is simply wrong."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-10",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 4,
   "stem": "Ana strongly believes a claim is false. She suspects raters find essays that agree with the claim more sophisticated, so she plans to agree and use weak examples she does not believe. Based on what ETS says about the task and its raters, what is her best move?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Argue for agreement, because raters prefer the more sophisticated position." },
-    { "id": "B", "text": "Defend the position she can develop best with compelling reasons and examples, since no position is the correct one." },
-    { "id": "C", "text": "Take no position and list arguments on both sides." },
-    { "id": "D", "text": "Take whichever position the majority of test takers is likely to hold." },
-    { "id": "E", "text": "Write about a different topic she knows better." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "Raters evaluate the skill of addressing the instructions and developing an argument. A position she believes and can support with strong reasons and examples serves that goal better than one chosen to please raters.",
   "choiceExplanations": {
    "A": "There is no position raters prefer; weak examples would lower the score.",
@@ -272,26 +516,54 @@
    "E": "A response that does not address the assigned topic cannot score well."
   },
   "estSeconds": 60,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Argue for agreement, because raters prefer the more sophisticated position."
+    },
+    {
+     "id": "B",
+     "text": "Defend the position she can develop best with compelling reasons and examples, since no position is the correct one."
+    },
+    {
+     "id": "C",
+     "text": "Take no position and list arguments on both sides."
+    },
+    {
+     "id": "D",
+     "text": "Take whichever position the majority of test takers is likely to hold."
+    },
+    {
+     "id": "E",
+     "text": "Write about a different topic she knows better."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-11",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Prompt: \"Governments should fund only research that has immediate practical uses.\" Instructions (recommendation set): discuss the extent to which you agree or disagree, and describe specific circumstances in which adopting the recommendation would or would not be advantageous, explaining how these examples shape your position.\n\nWhich opening excerpt best sets up a response to these instructions?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    { "id": "A", "text": "Research funding is a complex subject on which many people hold strong opinions. In this essay I will define research, funding and practical use, and then summarise the history of science." },
-    { "id": "B", "text": "I agree only in part. When a country faces an urgent crisis, such as a disease destroying its staple crop, money aimed at immediately useful work is clearly advantageous. When the aim is knowledge that nobody yet knows how to use, the same rule would starve the work that later yields the most useful tools. These two circumstances shape my position." },
-    { "id": "C", "text": "Practical research saves lives, so governments should fund it and nothing else. Anyone who disagrees has never thought seriously about hunger." },
-    { "id": "D", "text": "Two views exist: some prefer practical work and others prefer research driven by curiosity. I side with the practical view because it is closer to my own experience." },
-    { "id": "E", "text": "If governments adopted this rule, scientists would leave the country, budgets would shrink and universities would close, so I disagree with it." }
-   ]
-  },
-  "answer": { "choices": ["B"] },
   "explanation": "B states a position, gives one circumstance where the recommendation is advantageous and one where it is not, and says how these shape the position, which is exactly what the recommendation set asks for.",
   "choiceExplanations": {
    "A": "It announces background material but takes no position and names no circumstances.",
@@ -300,33 +572,103 @@
    "E": "It lists only negative consequences, so it gives no circumstance where adopting the recommendation would be advantageous."
   },
   "estSeconds": 120,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Research funding is a complex subject on which many people hold strong opinions. In this essay I will define research, funding and practical use, and then summarise the history of science."
+    },
+    {
+     "id": "B",
+     "text": "I agree only in part. When a country faces an urgent crisis, such as a disease destroying its staple crop, money aimed at immediately useful work is clearly advantageous. When the aim is knowledge that nobody yet knows how to use, the same rule would starve the work that later yields the most useful tools. These two circumstances shape my position."
+    },
+    {
+     "id": "C",
+     "text": "Practical research saves lives, so governments should fund it and nothing else. Anyone who disagrees has never thought seriously about hunger."
+    },
+    {
+     "id": "D",
+     "text": "Two views exist: some prefer practical work and others prefer research driven by curiosity. I side with the practical view because it is closer to my own experience."
+    },
+    {
+     "id": "E",
+     "text": "If governments adopted this rule, scientists would leave the country, budgets would shrink and universities would close, so I disagree with it."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  },
  {
   "id": "w1-01-the-task-12",
   "lessonId": "w1-01-the-task",
-  "type": "PS",
   "difficulty": 5,
   "stem": "Prompt: \"Schools should abolish grades, because grades discourage curiosity.\" Instructions: discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based. Select all the plans that address both the claim and its reason.",
-  "content": {
-   "format": "select_all",
-   "choices": [
-    { "id": "A", "text": "Accept that grades can discourage curiosity, but argue that this does not justify abolishing them because grades also give useful feedback." },
-    { "id": "B", "text": "Disagree with the claim and argue that the reason is false, because earned recognition often fuels curiosity." },
-    { "id": "C", "text": "Agree with the claim, judge the stated reason to be only part of the story, and explain a stronger reason that supports abolishing grades." },
-    { "id": "D", "text": "Argue that grades help employers compare graduates, never discussing curiosity." },
-    { "id": "E", "text": "Agree with the claim and discuss only how schools could replace grades, taking the reason for granted." }
-   ]
-  },
-  "answer": { "choices": ["A", "B", "C"] },
   "explanation": "The set requires judging both the claim and the reason. A accepts the reason but disputes that it supports the claim, B rejects the reason, and C evaluates the reason as incomplete; each takes a different stance, but all address both parts.",
   "choiceExplanations": {
    "D": "It argues against the claim without ever judging the reason about curiosity.",
    "E": "It assumes the reason is true instead of judging it."
   },
   "estSeconds": 90,
-  "skills": ["issue-instruction-sets"],
-  "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+  "skills": [
+   "issue-instruction-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Accept that grades can discourage curiosity, but argue that this does not justify abolishing them because grades also give useful feedback."
+    },
+    {
+     "id": "B",
+     "text": "Disagree with the claim and argue that the reason is false, because earned recognition often fuels curiosity."
+    },
+    {
+     "id": "C",
+     "text": "Agree with the claim, judge the stated reason to be only part of the story, and explain a stronger reason that supports abolishing grades."
+    },
+    {
+     "id": "D",
+     "text": "Argue that grades help employers compare graduates, never discussing curiosity."
+    },
+    {
+     "id": "E",
+     "text": "Agree with the claim and discuss only how schools could replace grades, taking the reason for granted."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
  }
 ]

@@ -30,15 +30,8 @@
   {
    "id": "q2-01-expressions-c1",
    "lessonId": "q2-01-expressions",
-   "type": "NE",
    "difficulty": 1,
    "stem": "When $5(x+2)-3(x-4)$ is simplified to $px+q$, what is $q$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 22
-   },
    "explanation": "$5(x+2)=5x+10$ and $-3(x-4)=-3x+12$. Together: $2x+22$, so $q=22$.",
    "estSeconds": 60,
    "skills": [
@@ -46,16 +39,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 22
    }
   },
   {
    "id": "q2-01-expressions-c2",
    "lessonId": "q2-01-expressions",
-   "type": "PS",
    "difficulty": 2,
    "stem": "Which of the following is equal to $(x-5)^2$?",
+   "explanation": "Square the binomial: $x^2-2(5)x+5^2=x^2-10x+25$.",
+   "choiceExplanations": {
+    "A": "This is $(x-5)(x+5)$; the square has a middle term.",
+    "B": "The last term is $(-5)^2=+25$, not $-25$.",
+    "D": "This drops the middle term $-10x$.",
+    "E": "The middle term has the wrong sign."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "algebraic-expressions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -85,36 +107,13 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Square the binomial: $x^2-2(5)x+5^2=x^2-10x+25$.",
-   "choiceExplanations": {
-    "A": "This is $(x-5)(x+5)$; the square has a middle term.",
-    "B": "The last term is $(-5)^2=+25$, not $-25$.",
-    "D": "This drops the middle term $-10x$.",
-    "E": "The middle term has the wrong sign."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "algebraic-expressions"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-01-expressions-c3",
    "lessonId": "q2-01-expressions",
-   "type": "NE",
    "difficulty": 2,
    "stem": "What is the value of $\\dfrac{x^2-9}{x+3}$ when $x=11$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 8
-   },
    "explanation": "$\\dfrac{x^2-9}{x+3}=\\dfrac{(x-3)(x+3)}{x+3}=x-3$ for $x\\ne-3$. At $x=11$ this is $8$. (Direct check: $112/14=8$.)",
    "estSeconds": 60,
    "skills": [
@@ -122,8 +121,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
    }
   }
  ]

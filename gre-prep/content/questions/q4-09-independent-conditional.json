@@ -2,9 +2,22 @@
  {
   "id": "q4-09-independent-conditional-01",
   "lessonId": "q4-09-independent-conditional",
-  "type": "NE",
   "difficulty": 1,
   "stem": "A fair coin is tossed twice. What is the probability that both tosses land heads?",
+  "explanation": "The tosses are independent: $\\frac12 \\times \\frac12 = \\frac14$.",
+  "estSeconds": 45,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -14,24 +27,33 @@
     "numerator": 1,
     "denominator": 4
    }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-02",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 1,
+  "stem": "Events $E$ and $F$ are independent, with $P(E) = 0.2$ and $P(F) = 0.5$. What is $P(E \\text{ and } F)$?",
+  "explanation": "For independent events, $P(E \\text{ and } F) = 0.2 \\times 0.5 = 0.1$.",
+  "choiceExplanations": {
+   "A": "0.07 is a slip in the multiplication.",
+   "C": "0.3 is the difference of the probabilities, $0.5 - 0.2$.",
+   "D": "0.5 is $P(F)$ alone.",
+   "E": "0.7 is the sum of the probabilities."
   },
-  "explanation": "The tosses are independent: $\\frac12 \\times \\frac12 = \\frac14$.",
   "estSeconds": 45,
   "skills": [
    "independence"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "q4-09-independent-conditional-02",
-  "lessonId": "q4-09-independent-conditional",
+  },
   "type": "PS",
-  "difficulty": 1,
-  "stem": "Events $E$ and $F$ are independent, with $P(E) = 0.2$ and $P(F) = 0.5$. What is $P(E \\text{ and } F)$?",
   "content": {
    "format": "select_one",
    "choices": [
@@ -61,39 +83,13 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "For independent events, $P(E \\text{ and } F) = 0.2 \\times 0.5 = 0.1$.",
-  "choiceExplanations": {
-   "A": "0.07 is a slip in the multiplication.",
-   "C": "0.3 is the difference of the probabilities, $0.5 - 0.2$.",
-   "D": "0.5 is $P(F)$ alone.",
-   "E": "0.7 is the sum of the probabilities."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "independence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-09-independent-conditional-03",
   "lessonId": "q4-09-independent-conditional",
-  "type": "DI",
   "difficulty": 2,
   "stem": "If one of the 200 people is chosen at random, what is the probability that the person prefers coffee? Give your answer as a decimal.",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "decimal"
-   }
-  },
-  "answer": {
-   "value": 0.425
-  },
   "explanation": "The Total row shows 85 coffee drinkers among 200 people: $\\frac{85}{200} = 0.425$.",
   "estSeconds": 60,
   "skills": [
@@ -138,16 +134,42 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.425
   }
  },
  {
   "id": "q4-09-independent-conditional-04",
   "lessonId": "q4-09-independent-conditional",
-  "type": "NE",
   "difficulty": 2,
   "stem": "A box contains 4 red disks and 6 blue disks. Two disks are drawn at random, without replacement. What is the probability that both are red?",
+  "explanation": "First red: $\\frac{4}{10}$. Given that, 3 red remain among 9 disks: $\\frac39$. Product: $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.",
+  "estSeconds": 75,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -157,32 +179,13 @@
     "numerator": 2,
     "denominator": 15
    }
-  },
-  "explanation": "First red: $\\frac{4}{10}$. Given that, 3 red remain among 9 disks: $\\frac39$. Product: $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.",
-  "estSeconds": 75,
-  "skills": [
-   "without-replacement"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-09-independent-conditional-05",
   "lessonId": "q4-09-independent-conditional",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The probability of drawing 2 red marbles in a row, with replacement",
-   "quantityB": "The probability of drawing 2 red marbles in a row, without replacement",
-   "common": "A bag contains 3 red marbles and 2 blue marbles, and two marbles are drawn at random."
-  },
-  "answer": {
-   "choice": "A"
-  },
   "explanation": "With replacement: $\\frac35 \\times \\frac35 = \\frac9{25} = 0.36$. Without replacement: $\\frac35 \\times \\frac24 = \\frac3{10} = 0.30$. Quantity A is greater.",
   "estSeconds": 75,
   "skills": [
@@ -190,29 +193,27 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The probability of drawing 2 red marbles in a row, with replacement",
+   "quantityB": "The probability of drawing 2 red marbles in a row, without replacement",
+   "common": "A bag contains 3 red marbles and 2 blue marbles, and two marbles are drawn at random."
+  },
+  "answer": {
+   "choice": "A"
   }
  },
  {
   "id": "q4-09-independent-conditional-06",
   "lessonId": "q4-09-independent-conditional",
-  "type": "DI",
   "difficulty": 3,
   "stem": "If one of the people aged 30 and over is chosen at random, what is the probability that the person prefers tea?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "fraction"
-   }
-  },
-  "answer": {
-   "value": 0.375,
-   "fraction": {
-    "numerator": 3,
-    "denominator": 8
-   }
-  },
   "explanation": "Restrict to the 120 people aged 30 and over; 45 of them prefer tea. $\\frac{45}{120} = \\frac38$.",
   "estSeconds": 75,
   "skills": [
@@ -257,22 +258,32 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.375,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 8
+   }
   }
  },
  {
   "id": "q4-09-independent-conditional-07",
   "lessonId": "q4-09-independent-conditional",
-  "type": "NE",
   "difficulty": 3,
   "stem": "A machine has three components that fail independently. The components work with probabilities 0.9, 0.8 and 0.5, respectively. What is the probability that all three components work?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 0.36
-  },
   "explanation": "The components are independent, so multiply: $0.9 \\times 0.8 \\times 0.5 = 0.36$.",
   "estSeconds": 60,
   "skills": [
@@ -280,16 +291,46 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.36
   }
  },
  {
   "id": "q4-09-independent-conditional-08",
   "lessonId": "q4-09-independent-conditional",
-  "type": "PS",
   "difficulty": 3,
   "stem": "A fair coin is tossed 4 times. What is the probability that at least one of the tosses lands heads?",
+  "explanation": "Use the complement. The probability of no heads is $\\left(\\frac12\\right)^4 = \\frac1{16}$, so $P(\\text{at least one}) = 1 - \\frac{1}{16} = \\frac{15}{16}$.",
+  "choiceExplanations": {
+   "A": "$\\frac1{16}$ is the probability of no heads at all.",
+   "B": "$\\frac14$ is $4 \\times \\frac1{16}$, which has no meaning here.",
+   "C": "$\\frac34$ would result from a miscount of the outcomes.",
+   "D": "$\\frac78$ is the answer for 3 tosses, not 4."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "complement",
+   "independence"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -319,44 +360,13 @@
    "choices": [
     "E"
    ]
-  },
-  "explanation": "Use the complement. The probability of no heads is $\\left(\\frac12\\right)^4 = \\frac1{16}$, so $P(\\text{at least one}) = 1 - \\frac{1}{16} = \\frac{15}{16}$.",
-  "choiceExplanations": {
-   "A": "$\\frac1{16}$ is the probability of no heads at all.",
-   "B": "$\\frac14$ is $4 \\times \\frac1{16}$, which has no meaning here.",
-   "C": "$\\frac34$ would result from a miscount of the outcomes.",
-   "D": "$\\frac78$ is the answer for 3 tosses, not 4."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "complement",
-   "independence"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-09-independent-conditional-09",
   "lessonId": "q4-09-independent-conditional",
-  "type": "DI",
   "difficulty": 4,
   "stem": "If one of the people who prefer juice is chosen at random, what is the probability that the person is under 30?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "fraction"
-   }
-  },
-  "answer": {
-   "value": 0.6,
-   "fraction": {
-    "numerator": 3,
-    "denominator": 5
-   }
-  },
   "explanation": "Restrict to the 50 people who prefer juice; 30 of them are under 30. $\\frac{30}{50} = \\frac35$.",
   "estSeconds": 75,
   "skills": [
@@ -401,16 +411,50 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.6,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 5
+   }
   }
  },
  {
   "id": "q4-09-independent-conditional-10",
   "lessonId": "q4-09-independent-conditional",
-  "type": "PS",
   "difficulty": 4,
   "stem": "For events $E$ and $F$, $P(E) = 0.4$, $P(F) = 0.5$ and $P(E \\text{ or } F) = 0.7$. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$P(E \\text{ and } F) = 0.4 + 0.5 - 0.7 = 0.2$. This equals $P(E)P(F) = 0.2$, so the events are independent. They are not mutually exclusive since $P(E \\text{ and } F) \\neq 0$. $P(F \\text{ given } E) = \\frac{0.2}{0.4} = 0.5$.",
+  "choiceExplanations": {
+   "B": "Mutually exclusive events would have $P(E \\text{ and } F) = 0$ and $P(E \\text{ or } F) = 0.9$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "independence",
+   "conditional"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -438,28 +482,27 @@
     "C",
     "D"
    ]
-  },
-  "explanation": "$P(E \\text{ and } F) = 0.4 + 0.5 - 0.7 = 0.2$. This equals $P(E)P(F) = 0.2$, so the events are independent. They are not mutually exclusive since $P(E \\text{ and } F) \\neq 0$. $P(F \\text{ given } E) = \\frac{0.2}{0.4} = 0.5$.",
-  "choiceExplanations": {
-   "B": "Mutually exclusive events would have $P(E \\text{ and } F) = 0$ and $P(E \\text{ or } F) = 0.9$."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "independence",
-   "conditional"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-09-independent-conditional-11",
   "lessonId": "q4-09-independent-conditional",
-  "type": "NE",
   "difficulty": 5,
   "stem": "A box contains 4 red disks, 3 green disks and 3 blue disks. Two disks are drawn at random without replacement. What is the probability that the two disks are the same color?",
+  "explanation": "Add the three same-color cases. Red: $\\frac4{10} \\times \\frac39 = \\frac{12}{90}$. Green: $\\frac3{10} \\times \\frac29 = \\frac{6}{90}$. Blue: $\\frac{6}{90}$. Total $\\frac{24}{90} = \\frac{4}{15}$.",
+  "estSeconds": 150,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "NE",
   "content": {
    "format": "fraction"
   },
@@ -469,54 +512,13 @@
     "numerator": 4,
     "denominator": 15
    }
-  },
-  "explanation": "Add the three same-color cases. Red: $\\frac4{10} \\times \\frac39 = \\frac{12}{90}$. Green: $\\frac3{10} \\times \\frac29 = \\frac{6}{90}$. Blue: $\\frac{6}{90}$. Total $\\frac{24}{90} = \\frac{4}{15}$.",
-  "estSeconds": 150,
-  "skills": [
-   "without-replacement"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-09-independent-conditional-12",
   "lessonId": "q4-09-independent-conditional",
-  "type": "DI",
   "difficulty": 5,
   "stem": "Consider the events \"the person is under 30\" and \"the person prefers coffee\" for a person chosen at random from the 200. Which of the following is correct?",
-  "content": {
-   "format": "select_one",
-   "choices": [
-    {
-     "id": "A",
-     "text": "The events are independent, because both probabilities are close to 0.4."
-    },
-    {
-     "id": "B",
-     "text": "The events are independent, because they are mutually exclusive."
-    },
-    {
-     "id": "C",
-     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.15$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
-    },
-    {
-     "id": "D",
-     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.30$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
-    },
-    {
-     "id": "E",
-     "text": "Independence cannot be checked from the table."
-    }
-   ]
-  },
-  "answer": {
-   "choices": [
-    "C"
-   ]
-  },
   "explanation": "$P(\\text{under 30}) = \\frac{80}{200} = 0.4$ and $P(\\text{coffee}) = \\frac{85}{200} = 0.425$, so the product is 0.17. But $P(\\text{under 30 and coffee}) = \\frac{30}{200} = 0.15$. The two numbers differ, so the events are not independent.",
   "choiceExplanations": {
    "A": "Independence requires the product rule to hold exactly, not that the probabilities are similar.",
@@ -567,8 +569,42 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The events are independent, because both probabilities are close to 0.4."
+    },
+    {
+     "id": "B",
+     "text": "The events are independent, because they are mutually exclusive."
+    },
+    {
+     "id": "C",
+     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.15$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
+    },
+    {
+     "id": "D",
+     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.30$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
+    },
+    {
+     "id": "E",
+     "text": "Independence cannot be checked from the table."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
   }
  }
 ]

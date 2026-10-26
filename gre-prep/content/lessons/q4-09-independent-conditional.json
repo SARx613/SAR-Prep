@@ -27,9 +27,22 @@
   {
    "id": "q4-09-independent-conditional-c1",
    "lessonId": "q4-09-independent-conditional",
-   "type": "NE",
    "difficulty": 1,
    "stem": "Two fair six-sided dice are rolled. What is the probability that both show a 6?",
+   "explanation": "The rolls are independent: $\\frac16 \\times \\frac16 = \\frac1{36}$.",
+   "estSeconds": 45,
+   "skills": [
+    "independence"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "fraction"
    },
@@ -39,24 +52,27 @@
      "numerator": 1,
      "denominator": 36
     }
-   },
-   "explanation": "The rolls are independent: $\\frac16 \\times \\frac16 = \\frac1{36}$.",
-   "estSeconds": 45,
-   "skills": [
-    "independence"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q4-09-independent-conditional-c2",
    "lessonId": "q4-09-independent-conditional",
-   "type": "NE",
    "difficulty": 2,
    "stem": "A bag holds 3 red marbles and 2 blue marbles. Two marbles are drawn at random without replacement. What is the probability that both are blue?",
+   "explanation": "$\\frac25 \\times \\frac14 = \\frac{2}{20} = \\frac1{10}$.",
+   "estSeconds": 60,
+   "skills": [
+    "without-replacement"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "fraction"
    },
@@ -66,24 +82,27 @@
      "numerator": 1,
      "denominator": 10
     }
-   },
-   "explanation": "$\\frac25 \\times \\frac14 = \\frac{2}{20} = \\frac1{10}$.",
-   "estSeconds": 60,
-   "skills": [
-    "without-replacement"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q4-09-independent-conditional-c3",
    "lessonId": "q4-09-independent-conditional",
-   "type": "NE",
    "difficulty": 2,
    "stem": "Of 40 people, 16 own a dog, and 6 of those 16 dog owners also own a cat. If one dog owner is chosen at random, what is the probability that this person owns a cat?",
+   "explanation": "Restrict to the 16 dog owners: $\\frac{6}{16} = \\frac38$.",
+   "estSeconds": 60,
+   "skills": [
+    "conditional"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "NE",
    "content": {
     "format": "fraction"
    },
@@ -93,16 +112,6 @@
      "numerator": 3,
      "denominator": 8
     }
-   },
-   "explanation": "Restrict to the 16 dog owners: $\\frac{6}{16} = \\frac38$.",
-   "estSeconds": 60,
-   "skills": [
-    "conditional"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]

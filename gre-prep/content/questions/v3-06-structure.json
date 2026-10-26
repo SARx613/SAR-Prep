@@ -2,62 +2,87 @@
  {
   "id": "v3-06-structure-01",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 1,
   "stem": "In the second paragraph, select the sentence that draws a conclusion from the evidence given before it.",
-  "passageId": "v3-bike-lanes",
-  "content": {
-   "format": "select_in_passage",
-   "paragraphIndex": 1
-  },
-  "answer": {
-   "sentence": "For this reason, the dispute should be approached less as a clash of interests than as a question that counting can answer."
-  },
   "explanation": "'For this reason' marks a conclusion; the sentences before it supply the studies and surveys it rests on.",
   "estSeconds": 69,
   "skills": [
    "rc-structure",
    "rc-transitions"
   ],
+  "passageId": "v3-bike-lanes",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
-  }
- },
- {
-  "id": "v3-06-structure-02",
-  "lessonId": "v3-06-structure",
+  },
   "type": "RC",
-  "difficulty": 1,
-  "stem": "In the second paragraph, select the sentence that marks a shift from reported results to a note of caution.",
-  "passageId": "v3-school-start",
   "content": {
    "format": "select_in_passage",
    "paragraphIndex": 1
   },
   "answer": {
-   "sentence": "These reports are encouraging, but they should be handled with care."
-  },
+   "sentence": "For this reason, the dispute should be approached less as a clash of interests than as a question that counting can answer."
+  }
+ },
+ {
+  "id": "v3-06-structure-02",
+  "lessonId": "v3-06-structure",
+  "difficulty": 1,
+  "stem": "In the second paragraph, select the sentence that marks a shift from reported results to a note of caution.",
   "explanation": "'These reports are encouraging, but ...' turns from the reported results of the first paragraph to qualification.",
   "estSeconds": 61,
   "skills": [
    "rc-structure",
    "rc-transitions"
   ],
+  "passageId": "v3-school-start",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "These reports are encouraging, but they should be handled with care."
   }
  },
  {
   "id": "v3-06-structure-03",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 2,
   "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Sentence 1 reports the result, 'Yet' challenges the executives' reading, and the last sentence proposes a comparison that would settle it.",
+  "choiceExplanations": {
+   "A": "Only one program is discussed.",
+   "C": "There is one case, and it is used to question a claim.",
+   "D": "No history is given beyond the first-year result.",
+   "E": "The direction is reversed: the claim is questioned, not defended."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -87,31 +112,35 @@
    "choices": [
     "B"
    ]
-  },
-  "explanation": "Sentence 1 reports the result, 'Yet' challenges the executives' reading, and the last sentence proposes a comparison that would settle it.",
-  "choiceExplanations": {
-   "A": "Only one program is discussed.",
-   "C": "There is one case, and it is used to question a claim.",
-   "D": "No history is given beyond the first-year result.",
-   "E": "The direction is reversed: the claim is questioned, not defended."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-04",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 2,
   "stem": "The second paragraph is related to the first in that it",
+  "explanation": "'However' opens the second paragraph by turning to studies that cut against the merchants' expectation, and then questions their estimate of how customers arrive.",
+  "choiceExplanations": {
+   "A": "No history is given.",
+   "B": "The second paragraph disagrees with the premise rather than elaborating it.",
+   "C": "It does not add a further example of the fear; it questions its basis.",
+   "E": "The first paragraph does state the problem: shopkeepers' protests."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
   "passageId": "v3-bike-lanes",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -141,58 +170,63 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "'However' opens the second paragraph by turning to studies that cut against the merchants' expectation, and then questions their estimate of how customers arrive.",
-  "choiceExplanations": {
-   "A": "No history is given.",
-   "B": "The second paragraph disagrees with the premise rather than elaborating it.",
-   "C": "It does not add a further example of the fear; it questions its basis.",
-   "E": "The first paragraph does state the problem: shopkeepers' protests."
-  },
-  "estSeconds": 75,
-  "skills": [
-   "rc-structure",
-   "rc-transitions"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-05",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 2,
   "stem": "In the third paragraph, select the sentence that signals caution about the view presented in the second paragraph.",
-  "passageId": "v3-antibiotics",
-  "content": {
-   "format": "select_in_passage",
-   "paragraphIndex": 2
-  },
-  "answer": {
-   "sentence": "It would be premature, however, to replace one rule with its opposite."
-  },
   "explanation": "'It would be premature, however' warns against over-reacting to the recent reviews.",
   "estSeconds": 69,
   "skills": [
    "rc-structure",
    "rc-transitions"
   ],
+  "passageId": "v3-antibiotics",
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 2
+  },
+  "answer": {
+   "sentence": "It would be premature, however, to replace one rule with its opposite."
   }
  },
  {
   "id": "v3-06-structure-06",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 3,
   "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Paragraph 1: the old rule. Paragraph 2: the challenge. Paragraph 3: 'premature, however' qualification and a conditional conclusion.",
+  "choiceExplanations": {
+   "A": "No costs are compared, and no solutions to a problem are offered.",
+   "B": "No test is described; recent reviews are cited as questioning a rule.",
+   "C": "The author finds the old advice 'never well grounded' and warns against the opposite rule; neither is equally supported.",
+   "E": "The passage gives a brief history but concludes with a judgment about duration, not a prediction."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-antibiotics",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -222,31 +256,34 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "Paragraph 1: the old rule. Paragraph 2: the challenge. Paragraph 3: 'premature, however' qualification and a conditional conclusion.",
-  "choiceExplanations": {
-   "A": "No costs are compared, and no solutions to a problem are offered.",
-   "B": "No test is described; recent reviews are cited as questioning a rule.",
-   "C": "The author finds the old advice 'never well grounded' and warns against the opposite rule; neither is equally supported.",
-   "E": "The passage gives a brief history but concludes with a judgment about duration, not a prediction."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-07",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 3,
   "stem": "The second paragraph is related to the first in that it",
+  "explanation": "The first paragraph proposes an explanation; the second reports resistance and how the evidence overcame it.",
+  "choiceExplanations": {
+   "A": "The second paragraph concerns the same explanation.",
+   "B": "It does not give an example; it questions the explanation.",
+   "D": "It adds an objection and its resolution.",
+   "E": "No experiment is recommended; evidence has already been reported."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-reversals",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -276,56 +313,59 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "The first paragraph proposes an explanation; the second reports resistance and how the evidence overcame it.",
-  "choiceExplanations": {
-   "A": "The second paragraph concerns the same explanation.",
-   "B": "It does not give an example; it questions the explanation.",
-   "D": "It adds an objection and its resolution.",
-   "E": "No experiment is recommended; evidence has already been reported."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-08",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 3,
   "stem": "In the second paragraph, select the sentence that supplies the evidence that settled the dispute.",
+  "explanation": "'The decisive evidence was ...' states what settled the matter. The sentence after it explains why it defeats the objection.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-reversals",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_in_passage",
    "paragraphIndex": 1
   },
   "answer": {
    "sentence": "The decisive evidence was that rocks of the same age, from widely separated continents and made of different minerals, showed the same pattern of reversals."
-  },
-  "explanation": "'The decisive evidence was ...' states what settled the matter. The sentence after it explains why it defeats the objection.",
-  "estSeconds": 69,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-09",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 4,
   "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes a function of the second paragraph?",
+  "explanation": "The second paragraph opens by urging care and goes on to suggest another cause (attention to students). It does not challenge the biology.",
+  "choiceExplanations": {
+   "C": "The second paragraph never disputes the claim about teenagers' clocks; it questions the evidence from districts."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-school-start",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_all",
    "choices": [
@@ -348,28 +388,34 @@
     "A",
     "B"
    ]
-  },
-  "explanation": "The second paragraph opens by urging care and goes on to suggest another cause (attention to students). It does not challenge the biology.",
-  "choiceExplanations": {
-   "C": "The second paragraph never disputes the claim about teenagers' clocks; it questions the evidence from districts."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-10",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 4,
   "stem": "The last sentence of the passage serves primarily to",
+  "explanation": "'The two accounts predict different things' is followed by what differs: only the first implies a decline in people who once navigated well.",
+  "choiceExplanations": {
+   "A": "Only two accounts are discussed.",
+   "B": "It introduces a difference between them rather than repeating the evidence.",
+   "C": "The author does not decide between the accounts.",
+   "E": "No traveler is described."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-nav-apps",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -399,31 +445,35 @@
    "choices": [
     "D"
    ]
-  },
-  "explanation": "'The two accounts predict different things' is followed by what differs: only the first implies a decline in people who once navigated well.",
-  "choiceExplanations": {
-   "A": "Only two accounts are discussed.",
-   "B": "It introduces a difference between them rather than repeating the evidence.",
-   "C": "The author does not decide between the accounts.",
-   "E": "No traveler is described."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-11",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 5,
   "stem": "The author's statement that 'the difference in spending may have existed before the card did' serves primarily to",
+  "explanation": "'In other words' restates the previous point in terms of what it implies for the executives' claim: the gap may predate the card.",
+  "choiceExplanations": {
+   "A": "It follows from, rather than contradicts, the previous sentence.",
+   "B": "It is a conclusion, not an example of a shopper.",
+   "D": "It does the opposite: it undermines the executives.",
+   "E": "It is not the last word; the following sentence proposes a test."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
   "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_one",
    "choices": [
@@ -453,32 +503,31 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "'In other words' restates the previous point in terms of what it implies for the executives' claim: the gap may predate the card.",
-  "choiceExplanations": {
-   "A": "It follows from, rather than contradicts, the previous sentence.",
-   "B": "It is a conclusion, not an example of a shopper.",
-   "D": "It does the opposite: it undermines the executives.",
-   "E": "It is not the last word; the following sentence proposes a test."
-  },
-  "estSeconds": 85,
-  "skills": [
-   "rc-structure",
-   "rc-transitions"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "v3-06-structure-12",
   "lessonId": "v3-06-structure",
-  "type": "RC",
   "difficulty": 5,
   "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes how the two accounts relate to each other?",
+  "explanation": "Both accounts address the same report; they differ on whether skill was lost or never developed.",
+  "choiceExplanations": {
+   "B": "Both accounts explain the same evidence; the second does not replace it."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-structure"
+  ],
   "passageId": "v3-nav-apps",
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "RC",
   "content": {
    "format": "select_all",
    "choices": [
@@ -501,19 +550,6 @@
     "A",
     "C"
    ]
-  },
-  "explanation": "Both accounts address the same report; they differ on whether skill was lost or never developed.",
-  "choiceExplanations": {
-   "B": "Both accounts explain the same evidence; the second does not replace it."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "rc-structure"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  }
 ]

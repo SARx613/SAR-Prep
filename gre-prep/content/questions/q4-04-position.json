@@ -2,15 +2,8 @@
  {
   "id": "q4-04-position-01",
   "lessonId": "q4-04-position",
-  "type": "NE",
   "difficulty": 1,
   "stem": "The first quartile of a data set is 22 and the third quartile is 35. What is the interquartile range?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 13
-  },
   "explanation": "IQR $= Q_3 - Q_1 = 35 - 22 = 13$.",
   "estSeconds": 45,
   "skills": [
@@ -18,16 +11,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
   }
  },
  {
   "id": "q4-04-position-02",
   "lessonId": "q4-04-position",
-  "type": "PS",
   "difficulty": 1,
   "stem": "The 75th percentile of a data set is the same as which of the following?",
+  "explanation": "$P_{75} = Q_3$, the third quartile: about 75% of the data lie at or below it.",
+  "choiceExplanations": {
+   "A": "$Q_1$ is the 25th percentile.",
+   "B": "$Q_2$ is the 50th percentile.",
+   "D": "The median is the 50th percentile.",
+   "E": "The IQR is a difference ($Q_3 - Q_1$), not a position."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "percentiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_one",
    "choices": [
@@ -57,36 +79,13 @@
    "choices": [
     "C"
    ]
-  },
-  "explanation": "$P_{75} = Q_3$, the third quartile: about 75% of the data lie at or below it.",
-  "choiceExplanations": {
-   "A": "$Q_1$ is the 25th percentile.",
-   "B": "$Q_2$ is the 50th percentile.",
-   "D": "The median is the 50th percentile.",
-   "E": "The IQR is a difference ($Q_3 - Q_1$), not a position."
-  },
-  "estSeconds": 45,
-  "skills": [
-   "percentiles"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-04-position-03",
   "lessonId": "q4-04-position",
-  "type": "NE",
   "difficulty": 2,
   "stem": "What is the third quartile of the numbers 3, 5, 6, 8, 10, 12, 15 and 20?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 13.5
-  },
   "explanation": "The upper half is 10, 12, 15, 20. Its median is $\\frac{12 + 15}{2} = 13.5$.",
   "estSeconds": 60,
   "skills": [
@@ -94,25 +93,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 13.5
   }
  },
  {
   "id": "q4-04-position-04",
   "lessonId": "q4-04-position",
-  "type": "DI",
   "difficulty": 2,
   "stem": "What is the interquartile range of the processing times in Group A, in minutes?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer"
-   }
-  },
-  "answer": {
-   "value": 20
-  },
   "explanation": "For Group A, $Q_1 = 20$ and $Q_3 = 40$ (the ends of the box). IQR $= 40 - 20 = 20$.",
   "estSeconds": 60,
   "skills": [
@@ -130,24 +129,28 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 20
   }
  },
  {
   "id": "q4-04-position-05",
   "lessonId": "q4-04-position",
-  "type": "QC",
   "difficulty": 2,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The interquartile range of the list",
-   "quantityB": "One-half of the range of the list",
-   "common": "The list is 2, 3, 5, 6, 10, 14, 15, 40."
-  },
-  "answer": {
-   "choice": "B"
-  },
   "explanation": "Lower half 2, 3, 5, 6 gives $Q_1 = 4$; upper half 10, 14, 15, 40 gives $Q_3 = 14.5$, so IQR $= 10.5$. The range is $40 - 2 = 38$ and half of it is 19. Quantity B is greater.",
   "estSeconds": 90,
   "skills": [
@@ -156,16 +159,54 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The interquartile range of the list",
+   "quantityB": "One-half of the range of the list",
+   "common": "The list is 2, 3, 5, 6, 10, 14, 15, 40."
+  },
+  "answer": {
+   "choice": "B"
   }
  },
  {
   "id": "q4-04-position-06",
   "lessonId": "q4-04-position",
-  "type": "DI",
   "difficulty": 3,
   "stem": "Which of the following statements are supported by the boxplots? Indicate all such statements.",
+  "explanation": "Medians: B is 35, A is 30. Ranges: A is $70 - 10 = 60$, B is $55 - 15 = 40$. IQRs: A is 20, B is 15. The box of B (30 to 45) holds the middle half of its data. The two groups overlap, so the last statement fails.",
+  "choiceExplanations": {
+   "C": "The IQR of B is 15, less than the IQR of A, 20.",
+   "E": "The groups overlap: for example, both contain times between 30 and 55."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "boxplots"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Processing times for two groups of orders",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 540 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"116.25\" y1=\"20\" x2=\"116.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"142.5\" y1=\"20\" x2=\"142.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"168.75\" y1=\"20\" x2=\"168.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"195\" y1=\"20\" x2=\"195\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"221.25\" y1=\"20\" x2=\"221.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"247.5\" y1=\"20\" x2=\"247.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"273.75\" y1=\"20\" x2=\"273.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"326.25\" y1=\"20\" x2=\"326.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"352.5\" y1=\"20\" x2=\"352.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"378.75\" y1=\"20\" x2=\"378.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"405\" y1=\"20\" x2=\"405\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"431.25\" y1=\"20\" x2=\"431.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"457.5\" y1=\"20\" x2=\"457.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"483.75\" y1=\"20\" x2=\"483.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"510\" y1=\"20\" x2=\"510\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"90\" y1=\"150\" x2=\"510\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"155\" stroke=\"currentColor\"/><text x=\"90\" y=\"169\" text-anchor=\"middle\">0</text><line x1=\"142.5\" y1=\"150\" x2=\"142.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"142.5\" y=\"169\" text-anchor=\"middle\">10</text><line x1=\"195\" y1=\"150\" x2=\"195\" y2=\"155\" stroke=\"currentColor\"/><text x=\"195\" y=\"169\" text-anchor=\"middle\">20</text><line x1=\"247.5\" y1=\"150\" x2=\"247.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"247.5\" y=\"169\" text-anchor=\"middle\">30</text><line x1=\"300\" y1=\"150\" x2=\"300\" y2=\"155\" stroke=\"currentColor\"/><text x=\"300\" y=\"169\" text-anchor=\"middle\">40</text><line x1=\"352.5\" y1=\"150\" x2=\"352.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"352.5\" y=\"169\" text-anchor=\"middle\">50</text><line x1=\"405\" y1=\"150\" x2=\"405\" y2=\"155\" stroke=\"currentColor\"/><text x=\"405\" y=\"169\" text-anchor=\"middle\">60</text><line x1=\"457.5\" y1=\"150\" x2=\"457.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"457.5\" y=\"169\" text-anchor=\"middle\">70</text><line x1=\"510\" y1=\"150\" x2=\"510\" y2=\"155\" stroke=\"currentColor\"/><text x=\"510\" y=\"169\" text-anchor=\"middle\">80</text><text x=\"10\" y=\"54\">Group A</text><line x1=\"142.5\" y1=\"50\" x2=\"195\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"300\" y1=\"50\" x2=\"457.5\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"142.5\" y1=\"42\" x2=\"142.5\" y2=\"58\" stroke=\"currentColor\"/><line x1=\"457.5\" y1=\"42\" x2=\"457.5\" y2=\"58\" stroke=\"currentColor\"/><rect x=\"195\" y=\"36\" width=\"105\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"247.5\" y1=\"36\" x2=\"247.5\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"10\" y=\"114\">Group B</text><line x1=\"168.75\" y1=\"110\" x2=\"247.5\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"326.25\" y1=\"110\" x2=\"378.75\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"168.75\" y1=\"102\" x2=\"168.75\" y2=\"118\" stroke=\"currentColor\"/><line x1=\"378.75\" y1=\"102\" x2=\"378.75\" y2=\"118\" stroke=\"currentColor\"/><rect x=\"247.5\" y=\"96\" width=\"78.75\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"273.75\" y1=\"96\" x2=\"273.75\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"300\" y=\"192\" text-anchor=\"middle\">Processing time (minutes)</text></svg>",
+    "alt": "Two boxplots on a number line from 0 to 80 minutes. Group A: least 10, first quartile 20, median 30, third quartile 40, greatest 70. Group B: least 15, first quartile 30, median 35, third quartile 45, greatest 55."
+   },
+   "notes": "Grid lines are 5 minutes apart."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "DI",
   "content": {
    "format": "select_all",
    "choices": [
@@ -197,46 +238,13 @@
     "B",
     "D"
    ]
-  },
-  "explanation": "Medians: B is 35, A is 30. Ranges: A is $70 - 10 = 60$, B is $55 - 15 = 40$. IQRs: A is 20, B is 15. The box of B (30 to 45) holds the middle half of its data. The two groups overlap, so the last statement fails.",
-  "choiceExplanations": {
-   "C": "The IQR of B is 15, less than the IQR of A, 20.",
-   "E": "The groups overlap: for example, both contain times between 30 and 55."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "boxplots"
-  ],
-  "figure": {
-   "kind": "svg",
-   "title": "Processing times for two groups of orders",
-   "data": {
-    "svg": "<svg viewBox=\"0 0 540 230\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"116.25\" y1=\"20\" x2=\"116.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"142.5\" y1=\"20\" x2=\"142.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"168.75\" y1=\"20\" x2=\"168.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"195\" y1=\"20\" x2=\"195\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"221.25\" y1=\"20\" x2=\"221.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"247.5\" y1=\"20\" x2=\"247.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"273.75\" y1=\"20\" x2=\"273.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"326.25\" y1=\"20\" x2=\"326.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"352.5\" y1=\"20\" x2=\"352.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"378.75\" y1=\"20\" x2=\"378.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"405\" y1=\"20\" x2=\"405\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"431.25\" y1=\"20\" x2=\"431.25\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"457.5\" y1=\"20\" x2=\"457.5\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"483.75\" y1=\"20\" x2=\"483.75\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"510\" y1=\"20\" x2=\"510\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"90\" y1=\"150\" x2=\"510\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"155\" stroke=\"currentColor\"/><text x=\"90\" y=\"169\" text-anchor=\"middle\">0</text><line x1=\"142.5\" y1=\"150\" x2=\"142.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"142.5\" y=\"169\" text-anchor=\"middle\">10</text><line x1=\"195\" y1=\"150\" x2=\"195\" y2=\"155\" stroke=\"currentColor\"/><text x=\"195\" y=\"169\" text-anchor=\"middle\">20</text><line x1=\"247.5\" y1=\"150\" x2=\"247.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"247.5\" y=\"169\" text-anchor=\"middle\">30</text><line x1=\"300\" y1=\"150\" x2=\"300\" y2=\"155\" stroke=\"currentColor\"/><text x=\"300\" y=\"169\" text-anchor=\"middle\">40</text><line x1=\"352.5\" y1=\"150\" x2=\"352.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"352.5\" y=\"169\" text-anchor=\"middle\">50</text><line x1=\"405\" y1=\"150\" x2=\"405\" y2=\"155\" stroke=\"currentColor\"/><text x=\"405\" y=\"169\" text-anchor=\"middle\">60</text><line x1=\"457.5\" y1=\"150\" x2=\"457.5\" y2=\"155\" stroke=\"currentColor\"/><text x=\"457.5\" y=\"169\" text-anchor=\"middle\">70</text><line x1=\"510\" y1=\"150\" x2=\"510\" y2=\"155\" stroke=\"currentColor\"/><text x=\"510\" y=\"169\" text-anchor=\"middle\">80</text><text x=\"10\" y=\"54\">Group A</text><line x1=\"142.5\" y1=\"50\" x2=\"195\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"300\" y1=\"50\" x2=\"457.5\" y2=\"50\" stroke=\"currentColor\"/><line x1=\"142.5\" y1=\"42\" x2=\"142.5\" y2=\"58\" stroke=\"currentColor\"/><line x1=\"457.5\" y1=\"42\" x2=\"457.5\" y2=\"58\" stroke=\"currentColor\"/><rect x=\"195\" y=\"36\" width=\"105\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"247.5\" y1=\"36\" x2=\"247.5\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"10\" y=\"114\">Group B</text><line x1=\"168.75\" y1=\"110\" x2=\"247.5\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"326.25\" y1=\"110\" x2=\"378.75\" y2=\"110\" stroke=\"currentColor\"/><line x1=\"168.75\" y1=\"102\" x2=\"168.75\" y2=\"118\" stroke=\"currentColor\"/><line x1=\"378.75\" y1=\"102\" x2=\"378.75\" y2=\"118\" stroke=\"currentColor\"/><rect x=\"247.5\" y=\"96\" width=\"78.75\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><line x1=\"273.75\" y1=\"96\" x2=\"273.75\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"300\" y=\"192\" text-anchor=\"middle\">Processing time (minutes)</text></svg>",
-    "alt": "Two boxplots on a number line from 0 to 80 minutes. Group A: least 10, first quartile 20, median 30, third quartile 40, greatest 70. Group B: least 15, first quartile 30, median 35, third quartile 45, greatest 55."
-   },
-   "notes": "Grid lines are 5 minutes apart."
-  },
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-04-position-07",
   "lessonId": "q4-04-position",
-  "type": "DI",
   "difficulty": 3,
   "stem": "Group B contains 200 processing times. About how many of them are greater than 45 minutes?",
-  "content": {
-   "format": "numeric_entry",
-   "numeric": {
-    "format": "integer"
-   }
-  },
-  "answer": {
-   "value": 50
-  },
   "explanation": "In Group B, $Q_3 = 45$. About 25% of the data lie above $Q_3$: $0.25 \\times 200 = 50$.",
   "estSeconds": 75,
   "skills": [
@@ -254,22 +262,28 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 50
   }
  },
  {
   "id": "q4-04-position-08",
   "lessonId": "q4-04-position",
-  "type": "NE",
   "difficulty": 3,
   "stem": "What is the interquartile range of the numbers 2, 4, 4, 7, 9, 11, 12, 15, 18, 21, 24 and 30?",
-  "content": {
-   "format": "integer"
-  },
-  "answer": {
-   "value": 14
-  },
   "explanation": "Lower half 2, 4, 4, 7, 9, 11: $Q_1 = \\frac{4 + 7}{2} = 5.5$. Upper half 12, 15, 18, 21, 24, 30: $Q_3 = \\frac{18 + 21}{2} = 19.5$. IQR $= 19.5 - 5.5 = 14$.",
   "estSeconds": 100,
   "skills": [
@@ -277,16 +291,45 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
   }
  },
  {
   "id": "q4-04-position-09",
   "lessonId": "q4-04-position",
-  "type": "PS",
   "difficulty": 4,
   "stem": "In the list 5, 7, 8, 10, 12, 13, 15, 17, 20, 22, the number 22 is replaced by 220. Which of the following measures stay the same? Indicate all such measures.",
+  "explanation": "The median depends on the 5th and 6th numbers (12 and 13) and the quartiles on the middle numbers of each half (8 and 17); none of these change. The range and the mean both use the greatest value, so they change.",
+  "choiceExplanations": {
+   "A": "The greatest value changed, so the range changed from 17 to 215.",
+   "D": "The sum rose by 198, so the mean changed."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "iqr",
+   "median",
+   "outliers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -313,30 +356,32 @@
     "B",
     "C"
    ]
-  },
-  "explanation": "The median depends on the 5th and 6th numbers (12 and 13) and the quartiles on the middle numbers of each half (8 and 17); none of these change. The range and the mean both use the greatest value, so they change.",
-  "choiceExplanations": {
-   "A": "The greatest value changed, so the range changed from 17 to 215.",
-   "D": "The sum rose by 198, so the mean changed."
-  },
-  "estSeconds": 120,
-  "skills": [
-   "iqr",
-   "median",
-   "outliers"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-04-position-10",
   "lessonId": "q4-04-position",
-  "type": "PS",
   "difficulty": 4,
   "stem": "A list of numbers has least value 4, first quartile 10, median 12, third quartile 30 and greatest value 34. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "The values between the median and $Q_3$ are a quarter of the data, and $\\text{IQR}=30-10=20$. The mean cannot be pinned down: the eight values $4,10,10,12,12,30,30,34$ fit every given summary value and have mean $17.75$, below 20. The interval from 10 to 12 has width 2 and the one from 12 to 30 has width 18, so the last statement is reversed.",
+  "choiceExplanations": {
+   "C": "The list 4, 10, 10, 12, 12, 30, 30, 34 matches every given value and has mean 17.75.",
+   "D": "The width from 10 to 12 is 2; from 12 to 30 it is 18."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "boxplots",
+   "quartiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-a2",
+    "solver-b2"
+   ],
+   "sourceChecked": false
+  },
+  "type": "PS",
   "content": {
    "format": "select_all",
    "choices": [
@@ -350,7 +395,7 @@
     },
     {
      "id": "C",
-     "text": "The mean is greater than 12."
+     "text": "The mean is greater than 20."
     },
     {
      "id": "D",
@@ -363,35 +408,13 @@
     "A",
     "B"
    ]
-  },
-  "explanation": "The values between the median and $Q_3$ are a quarter of the data. IQR $= 30 - 10 = 20$. The mean can be anywhere, so nothing forces it above 12. The interval from 10 to 12 has width 2 and from 12 to 30 has width 18, so the last statement is reversed.",
-  "choiceExplanations": {
-   "C": "The quartiles do not determine the mean.",
-   "D": "Each part holds about 25% of the data, but 10 to 12 is the narrower interval (2 against 18)."
-  },
-  "estSeconds": 100,
-  "skills": [
-   "boxplots",
-   "quartiles"
-  ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
   }
  },
  {
   "id": "q4-04-position-11",
   "lessonId": "q4-04-position",
-  "type": "NE",
   "difficulty": 5,
   "stem": "The ten numbers 4, 6, 9, 11, $x$, 18, 20, 23, 27 and 31 are listed in increasing order, and their median is 16. What is the mean of the ten numbers?",
-  "content": {
-   "format": "decimal"
-  },
-  "answer": {
-   "value": 16.3
-  },
   "explanation": "The median is the average of the 5th and 6th numbers: $\\frac{x + 18}{2} = 16$, so $x = 14$. The sum is $4 + 6 + 9 + 11 + 14 + 18 + 20 + 23 + 27 + 31 = 163$, and the mean is $\\frac{163}{10} = 16.3$.",
   "estSeconds": 120,
   "skills": [
@@ -400,24 +423,25 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 16.3
   }
  },
  {
   "id": "q4-04-position-12",
   "lessonId": "q4-04-position",
-  "type": "QC",
   "difficulty": 5,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "content": {
-   "quantityA": "The interquartile range of list $Y$",
-   "quantityB": "The interquartile range of list $X$",
-   "common": "$X$ is a list of 12 numbers. List $Y$ is formed from $X$ by replacing the greatest number of $X$ with a larger number."
-  },
-  "answer": {
-   "choice": "C"
-  },
   "explanation": "With 12 numbers, the upper half has 6 values, and $Q_3$ is the average of its 3rd and 4th values. Replacing the greatest value (the 6th of the upper half) changes neither, and $Q_1$ is untouched. The IQRs are equal.",
   "estSeconds": 120,
   "skills": [
@@ -426,8 +450,20 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
    "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The interquartile range of list $Y$",
+   "quantityB": "The interquartile range of list $X$",
+   "common": "$X$ is a list of 12 numbers. List $Y$ is formed from $X$ by replacing the greatest number of $X$ with a larger number."
+  },
+  "answer": {
+   "choice": "C"
   }
  }
 ]

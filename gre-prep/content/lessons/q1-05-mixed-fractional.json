@@ -25,15 +25,8 @@
   {
    "id": "q1-05-mixed-fractional-c1",
    "lessonId": "q1-05-mixed-fractional",
-   "type": "NE",
    "difficulty": 1,
    "stem": "$3\\frac{2}{5} = \\frac{n}{5}$. What is $n$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 17
-   },
    "explanation": "$3\\frac{2}{5} = \\frac{3\\cdot5+2}{5} = \\frac{17}{5}$, so $n = 17$.",
    "estSeconds": 45,
    "skills": [
@@ -41,16 +34,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 17
    }
   },
   {
    "id": "q1-05-mixed-fractional-c2",
    "lessonId": "q1-05-mixed-fractional",
-   "type": "PS",
    "difficulty": 2,
    "stem": "What is $1\\frac{1}{2}\\cdot2\\frac{2}{3}$?",
+   "explanation": "Convert first: $\\frac{3}{2}\\cdot\\frac{8}{3} = \\frac{24}{6} = 4$.",
+   "choiceExplanations": {
+    "A": "This multiplies whole parts and fraction parts separately ($1\\cdot2$ and $\\frac12\\cdot\\frac23$) and adds them, losing the cross terms.",
+    "B": "This is $1\\frac{1}{2}\\cdot2$; it ignores the $\\frac{2}{3}$.",
+    "D": "This adds the mixed numbers instead of multiplying them.",
+    "E": "This rounds $1\\frac{1}{2}$ up to 2 before multiplying."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "mixed-fractional"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -80,37 +102,13 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Convert first: $\\frac{3}{2}\\cdot\\frac{8}{3} = \\frac{24}{6} = 4$.",
-   "choiceExplanations": {
-    "A": "This multiplies whole parts and fraction parts separately ($1\\cdot2$ and $\\frac12\\cdot\\frac23$) and adds them, losing the cross terms.",
-    "B": "This is $1\\frac{1}{2}\\cdot2$; it ignores the $\\frac{2}{3}$.",
-    "D": "This adds the mixed numbers instead of multiplying them.",
-    "E": "This rounds $1\\frac{1}{2}$ up to 2 before multiplying."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "mixed-fractional"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q1-05-mixed-fractional-c3",
    "lessonId": "q1-05-mixed-fractional",
-   "type": "QC",
    "difficulty": 2,
    "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-   "content": {
-    "quantityA": "$4\\frac{2}{3}$",
-    "quantityB": "$\\frac{14}{3}$"
-   },
-   "answer": {
-    "choice": "C"
-   },
    "explanation": "$4\\frac{2}{3} = \\frac{4\\cdot3+2}{3} = \\frac{14}{3}$. Equal.",
    "estSeconds": 45,
    "skills": [
@@ -118,8 +116,19 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$4\\frac{2}{3}$",
+    "quantityB": "$\\frac{14}{3}$"
+   },
+   "answer": {
+    "choice": "C"
    }
   }
  ]

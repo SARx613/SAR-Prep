@@ -26,15 +26,8 @@
   {
    "id": "q2-13-coordinate-basics-c1",
    "lessonId": "q2-13-coordinate-basics",
-   "type": "NE",
    "difficulty": 1,
    "stem": "What is the distance between the points $(1,2)$ and $(1,9)$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 7
-   },
    "explanation": "The $x$-coordinates match, so the segment is vertical and its length is $9-2=7$.",
    "estSeconds": 75,
    "skills": [
@@ -42,16 +35,45 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
    }
   },
   {
    "id": "q2-13-coordinate-basics-c2",
    "lessonId": "q2-13-coordinate-basics",
-   "type": "PS",
    "difficulty": 2,
    "stem": "The point $(-5,3)$ is reflected about the $x$-axis. In which quadrant does the image lie?",
+   "explanation": "Reflecting about the $x$-axis changes the sign of $y$: $(-5,-3)$, with both coordinates negative, which is quadrant III.",
+   "choiceExplanations": {
+    "A": "Quadrant I needs both coordinates positive.",
+    "B": "$(-5,3)$ itself is in quadrant II, but the image has been reflected.",
+    "D": "Quadrant IV needs $x>0$ and $y<0$.",
+    "E": "Neither coordinate of $(-5,-3)$ is 0."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "coordinate-plane"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
    "content": {
     "format": "select_one",
     "choices": [
@@ -81,36 +103,13 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "Reflecting about the $x$-axis changes the sign of $y$: $(-5,-3)$, with both coordinates negative, which is quadrant III.",
-   "choiceExplanations": {
-    "A": "Quadrant I needs both coordinates positive.",
-    "B": "$(-5,3)$ itself is in quadrant II, but the image has been reflected.",
-    "D": "Quadrant IV needs $x>0$ and $y<0$.",
-    "E": "Neither coordinate of $(-5,-3)$ is 0."
-   },
-   "estSeconds": 60,
-   "skills": [
-    "coordinate-plane"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "q2-13-coordinate-basics-c3",
    "lessonId": "q2-13-coordinate-basics",
-   "type": "NE",
    "difficulty": 2,
    "stem": "What is the distance between the points $(-2,3)$ and $(3,-9)$?",
-   "content": {
-    "format": "integer"
-   },
-   "answer": {
-    "value": 13
-   },
    "explanation": "Legs: $3-(-2)=5$ and $3-(-9)=12$. $d=\\sqrt{25+144}=\\sqrt{169}=13$.",
    "estSeconds": 75,
    "skills": [
@@ -118,8 +117,18 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
     "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
    }
   }
  ]

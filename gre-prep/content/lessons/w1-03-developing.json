@@ -29,20 +29,8 @@
   {
    "id": "w1-03-developing-c1",
    "lessonId": "w1-03-developing",
-   "type": "PS",
    "difficulty": 1,
    "stem": "Which statement about the structure of an Issue response is consistent with ETS's tips?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "You must write exactly five paragraphs." },
-     { "id": "B", "text": "You may organise and develop the response in any way that communicates your position effectively." },
-     { "id": "C", "text": "The first sentence must restate the claim." },
-     { "id": "D", "text": "Every response must contain exactly three examples." },
-     { "id": "E", "text": "The last paragraph must be a summary of the first." }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says you are free to organise and develop your response in any way that lets you communicate your position effectively.",
    "choiceExplanations": {
     "A": "ETS sets no paragraph count; use as many as your argument needs.",
@@ -51,26 +39,54 @@
     "E": "ETS requires no particular closing form."
    },
    "estSeconds": 45,
-   "skills": ["issue-developing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "You must write exactly five paragraphs."
+     },
+     {
+      "id": "B",
+      "text": "You may organise and develop the response in any way that communicates your position effectively."
+     },
+     {
+      "id": "C",
+      "text": "The first sentence must restate the claim."
+     },
+     {
+      "id": "D",
+      "text": "Every response must contain exactly three examples."
+     },
+     {
+      "id": "E",
+      "text": "The last paragraph must be a summary of the first."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   },
   {
    "id": "w1-03-developing-c2",
    "lessonId": "w1-03-developing",
-   "type": "PS",
    "difficulty": 2,
    "stem": "When does ETS suggest you start a new paragraph?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "Every time you have written about three sentences" },
-     { "id": "B", "text": "Whenever you shift to a new cluster of ideas" },
-     { "id": "C", "text": "Only once, after the introduction" },
-     { "id": "D", "text": "Every time you introduce an example" },
-     { "id": "E", "text": "Never; one paragraph is clearer" }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says to use as many or as few paragraphs as needed, and that you will probably need a new paragraph whenever you shift to a new cluster of ideas.",
    "choiceExplanations": {
     "A": "Paragraphs follow ideas, not a sentence count.",
@@ -79,26 +95,54 @@
     "E": "ETS does not suggest avoiding paragraphs."
    },
    "estSeconds": 45,
-   "skills": ["issue-developing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Every time you have written about three sentences"
+     },
+     {
+      "id": "B",
+      "text": "Whenever you shift to a new cluster of ideas"
+     },
+     {
+      "id": "C",
+      "text": "Only once, after the introduction"
+     },
+     {
+      "id": "D",
+      "text": "Every time you introduce an example"
+     },
+     {
+      "id": "E",
+      "text": "Never; one paragraph is clearer"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   },
   {
    "id": "w1-03-developing-c3",
    "lessonId": "w1-03-developing",
-   "type": "PS",
    "difficulty": 2,
    "stem": "A writer has one strong example that she can develop for a full paragraph. A friend says she must add at least two more examples to score well. Which reply is consistent with ETS?",
-   "content": {
-    "format": "select_one",
-    "choices": [
-     { "id": "A", "text": "The friend is right: three examples are required." },
-     { "id": "B", "text": "A high score can be earned with a single, extended example, provided it is developed and linked to the position." },
-     { "id": "C", "text": "She should replace it with several one-line examples." },
-     { "id": "D", "text": "Examples are not needed if the position is strong." },
-     { "id": "E", "text": "Only real events count as examples." }
-    ]
-   },
-   "answer": { "choices": ["B"] },
    "explanation": "ETS says raters know a writer can earn a high score with multiple examples or with a single extended example.",
    "choiceExplanations": {
     "A": "ETS sets no required number of examples.",
@@ -107,8 +151,48 @@
     "E": "ETS's planning questions allow real or hypothetical examples."
    },
    "estSeconds": 50,
-   "skills": ["issue-developing"],
-   "review": { "status": "draft", "solvedBy": [], "sourceChecked": false }
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The friend is right: three examples are required."
+     },
+     {
+      "id": "B",
+      "text": "A high score can be earned with a single, extended example, provided it is developed and linked to the position."
+     },
+     {
+      "id": "C",
+      "text": "She should replace it with several one-line examples."
+     },
+     {
+      "id": "D",
+      "text": "Examples are not needed if the position is strong."
+     },
+     {
+      "id": "E",
+      "text": "Only real events count as examples."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
   }
  ]
 }

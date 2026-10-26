@@ -26,10 +26,29 @@
   {
    "id": "v3-07-assumptions-perspective-c1",
    "lessonId": "v3-07-assumptions-perspective",
-   "type": "RC",
    "difficulty": 2,
    "stem": "The council's plan assumes which of the following?",
+   "explanation": "A deeper channel helps only if the channel's capacity is what limits flooding; the author attacks that unstated premise.",
+   "choiceExplanations": {
+    "A": "The council's argument does not mention the drains.",
+    "B": "Costs are not discussed.",
+    "D": "The plan is aimed at high river water; the river does rise.",
+    "E": "Nothing about the town's history is assumed."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-assumptions"
+   ],
    "passageId": "v3-c-07",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -59,31 +78,34 @@
     "choices": [
      "C"
     ]
-   },
-   "explanation": "A deeper channel helps only if the channel's capacity is what limits flooding; the author attacks that unstated premise.",
-   "choiceExplanations": {
-    "A": "The council's argument does not mention the drains.",
-    "B": "Costs are not discussed.",
-    "D": "The plan is aimed at high river water; the river does rise.",
-    "E": "Nothing about the town's history is assumed."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-assumptions"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   },
   {
    "id": "v3-07-assumptions-perspective-c2",
    "lessonId": "v3-07-assumptions-perspective",
-   "type": "RC",
    "difficulty": 2,
    "stem": "The author's attitude toward the plan is best described as",
+   "explanation": "'But' and 'does nothing to make them drain faster' show the author thinks the plan neglects part of the problem.",
+   "choiceExplanations": {
+    "A": "No costs are mentioned.",
+    "C": "The author gives a specific reason the plan may fail.",
+    "D": "The tone is analytical, with no anger.",
+    "E": "The author criticizes that focus."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-perspective"
+   ],
    "passageId": "v3-c-07",
+   "review": {
+    "status": "draft",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": false
+   },
+   "type": "RC",
    "content": {
     "format": "select_one",
     "choices": [
@@ -113,22 +135,6 @@
     "choices": [
      "B"
     ]
-   },
-   "explanation": "'But' and 'does nothing to make them drain faster' show the author thinks the plan neglects part of the problem.",
-   "choiceExplanations": {
-    "A": "No costs are mentioned.",
-    "C": "The author gives a specific reason the plan may fail.",
-    "D": "The tone is analytical, with no anger.",
-    "E": "The author criticizes that focus."
-   },
-   "estSeconds": 75,
-   "skills": [
-    "rc-perspective"
-   ],
-   "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
    }
   }
  ]
