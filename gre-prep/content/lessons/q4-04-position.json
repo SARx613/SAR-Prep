@@ -1,6 +1,6 @@
 {
  "id": "q4-04-position",
- "status": "draft",
+ "status": "published",
  "why": "Quartiles, the interquartile range and boxplots are the standard way the GRE compares the center and spread of two data sets.",
  "rule": "Order the data from least $L$ to greatest $G$. The median is $Q_2$. Split the ordered list into two equal halves: $Q_1$ is the median of the lower half and $Q_3$ the median of the upper half. Each quartile group holds about 25% of the data.\n\n- **Interquartile range** $= Q_3 - Q_1$: the spread of the middle half, hardly affected by outliers.\n- **Percentiles** cut the data into 100 parts: $Q_1 = P_{25}$, median $= P_{50}$, $Q_3 = P_{75}$.\n- **Boxplot**: shows $L, Q_1, Q_2, Q_3, G$. The box runs from $Q_1$ to $Q_3$ with the median marked; whiskers reach $L$ and $G$.",
  "examples": [
@@ -35,12 +35,13 @@
     "iqr"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "quartiles"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

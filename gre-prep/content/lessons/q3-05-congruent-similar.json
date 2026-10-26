@@ -1,6 +1,6 @@
 {
  "id": "q3-05-congruent-similar",
- "status": "draft",
+ "status": "published",
  "why": "Similar triangles turn lengths into proportions, and many GRE figures hide a pair of similar or congruent triangles that unlock the answer.",
  "rule": "**Congruent** ($\\cong$) triangles have the same shape and size. Two triangles are congruent if:\n- **SSS**: three pairs of sides are equal; or\n- **SAS**: two pairs of sides and the angle *between* them are equal; or\n- **ASA / AAS**: two pairs of angles and one pair of corresponding sides are equal.\n\n**Similar** ($\\sim$) triangles have the same shape: equal corresponding angles, and corresponding sides in one common ratio (the scale factor). Two equal angle pairs already force the third. Look for them where two triangles share an angle or where parallel lines create equal angles.\n\nLetter order gives the matching: $\\triangle ABC\\sim\\triangle DEF$ means $\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{AC}{DF}$.",
  "examples": [
@@ -35,12 +35,13 @@
     "similarity"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "similarity"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -119,12 +121,13 @@
     "similarity"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

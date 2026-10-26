@@ -1,6 +1,6 @@
 {
  "id": "q3-04-special-triangles",
- "status": "draft",
+ "status": "published",
  "why": "45-45-90 and 30-60-90 triangles, together with the area formula, turn up in squares, equilateral triangles and diagonals and save a full Pythagorean calculation.",
  "rule": "Two right triangles have fixed side ratios (both follow from the Pythagorean theorem):\n\n- **45°-45°-90°** (isosceles right): legs $x,\\ x$; hypotenuse $x\\sqrt2$.\n- **30°-60°-90°** (half an equilateral triangle): $x$ opposite 30°, $x\\sqrt3$ opposite 60°, hypotenuse $2x$.\n\nTo compare with plain numbers use $\\sqrt2\\approx1.41$ and $\\sqrt3\\approx1.73$.\n\n**Area** of a triangle: $A=\\dfrac{bh}{2}$, where $h$ is the perpendicular distance from the vertex opposite the base to the line containing the base. Any side can serve as the base, and the height can fall outside the triangle. The area is the same whichever side you pick, so computing it two ways gives a missing height.",
  "examples": [
@@ -41,12 +41,13 @@
     "triangle-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -92,12 +93,13 @@
     "triangle-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -119,12 +121,13 @@
     "triangle-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

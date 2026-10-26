@@ -1,6 +1,6 @@
 {
  "id": "q0-07-di-sets",
- "status": "draft",
+ "status": "published",
  "why": "Data Interpretation sets attach several Quant questions to one table or graph, so one careful reading of its units and scales serves them all.",
  "rule": "Spend a few seconds scanning the display, then read what matters:\n\n- **Title, axes, scales, units and orders of magnitude** (thousands, millions), plus any notes.\n- Graphs are drawn to scale: compare bars and sectors by their sizes, but watch for **broken scales** and bars that **do not start at 0**.\n- Use only the **data shown, everyday facts** (days in a year) **and mathematics**. Do not bring in outside knowledge of the topic.",
  "examples": [
@@ -62,12 +62,13 @@
     }
    },
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a2",
      "solver-b2"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "DI",
    "content": {
@@ -125,12 +126,13 @@
     }
    },
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "DI",
    "content": {
@@ -203,12 +205,13 @@
     }
    },
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "DI",
    "content": {

@@ -12,12 +12,13 @@
   ],
   "passageId": "v3-bike-lanes",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -41,12 +42,13 @@
   ],
   "passageId": "v3-school-start",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -75,12 +77,13 @@
   ],
   "passageId": "v3-loyalty-card",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -133,12 +136,13 @@
   ],
   "passageId": "v3-bike-lanes",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -185,12 +189,13 @@
   ],
   "passageId": "v3-antibiotics",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -219,12 +224,13 @@
   ],
   "passageId": "v3-antibiotics",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -276,12 +282,13 @@
   ],
   "passageId": "v3-reversals",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -327,12 +334,13 @@
   ],
   "passageId": "v3-reversals",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -358,12 +366,13 @@
   ],
   "passageId": "v3-school-start",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -408,12 +417,13 @@
   ],
   "passageId": "v3-nav-apps",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -466,12 +476,13 @@
   ],
   "passageId": "v3-loyalty-card",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -520,12 +531,13 @@
   ],
   "passageId": "v3-nav-apps",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {

@@ -4,7 +4,7 @@
   "lessonId": "w1-02-planning",
   "difficulty": 1,
   "stem": "Which activity does ETS list as the second step when planning an Issue response, after reading the claim and instructions?",
-  "explanation": "After understanding the claim and instructions, ETS says to think about the claim in relation to your own ideas and experiences, events you have read about or observed, and people you have known. This is the knowledge base for your reasons and examples.",
+  "explanation": "Once you understand the claim and instructions, ETS says to weigh the claim against what you think and have experienced, what you have read about or seen, and people you know. That is the store of material your reasons and examples will come from.",
   "choiceExplanations": {
    "A": "ETS lets you use as many paragraphs as needed; it does not make this a step.",
    "C": "Writing begins after planning.",
@@ -16,12 +16,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -63,7 +64,7 @@
   "explanation": "ETS's planning questions ask what examples, either real or hypothetical, you could use to illustrate your reasons, and which are most compelling.",
   "choiceExplanations": {
    "A": "ETS says the task does not require specific content knowledge or sources.",
-   "C": "ETS tells you to decide what compelling evidence, reasons and examples, you will use.",
+   "C": "ETS tells you to choose the strongest reasons and examples for your position, so examples are part of the plan, not an extra.",
    "D": "The task is designed not to favour any field of study.",
    "E": "Examples come from your own knowledge base, not only from the claim."
   },
@@ -72,12 +73,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -128,12 +130,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -141,15 +144,15 @@
    "choices": [
     {
      "id": "A",
-     "text": "What, precisely, is the central issue?"
+     "text": "What is the central issue, exactly?"
     },
     {
      "id": "B",
-     "text": "Does the claim make certain assumptions, and if so, are they reasonable?"
+     "text": "What does the claim take for granted, and is that reasonable?"
     },
     {
      "id": "C",
-     "text": "Do I need to explain how I interpret certain terms?"
+     "text": "Which terms in the claim need my own interpretation?"
     },
     {
      "id": "D",
@@ -157,7 +160,7 @@
     },
     {
      "id": "E",
-     "text": "What reasons might someone use to refute my position?"
+     "text": "How might someone argue against my position?"
     }
    ]
   },
@@ -184,12 +187,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -197,15 +201,15 @@
    "choices": [
     {
      "id": "A",
-     "text": "What, precisely, is the central issue?"
+     "text": "What is the central issue, exactly?"
     },
     {
      "id": "B",
-     "text": "Is the claim valid only under certain conditions, and if so, what are they?"
+     "text": "Does the claim hold only in some conditions, and if so, which?"
     },
     {
      "id": "C",
-     "text": "What reasons support my position?"
+     "text": "Which reasons back my position?"
     },
     {
      "id": "D",
@@ -213,7 +217,7 @@
     },
     {
      "id": "E",
-     "text": "How should I acknowledge or defend against opposing views?"
+     "text": "How will I acknowledge or answer opposing views?"
     }
    ]
   },
@@ -238,12 +242,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -296,12 +301,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -352,12 +358,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -408,12 +415,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -464,12 +472,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -477,7 +486,7 @@
    "choices": [
     {
      "id": "A",
-     "text": "What precisely are the instructions asking me to do?"
+     "text": "What exactly do the instructions ask me to do?"
     },
     {
      "id": "B",
@@ -485,15 +494,15 @@
     },
     {
      "id": "C",
-     "text": "Do I need to explain how I interpret certain terms?"
+     "text": "Which terms in the claim need my own interpretation?"
     },
     {
      "id": "D",
-     "text": "Is the claim valid only under certain conditions?"
+     "text": "Does the claim hold only in some conditions?"
     },
     {
      "id": "E",
-     "text": "What reasons support my position?"
+     "text": "Which reasons back my position?"
     }
    ]
   },
@@ -520,12 +529,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -576,12 +586,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -630,12 +641,13 @@
    "issue-planning"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

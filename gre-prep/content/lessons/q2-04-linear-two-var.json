@@ -1,6 +1,6 @@
 {
  "id": "q2-04-linear-two-var",
- "status": "draft",
+ "status": "published",
  "why": "Two-equation systems are the standard way the GRE gives you two pieces of information about two unknowns, in problem solving and in Quantitative Comparison.",
  "rule": "A solution of $ax+by=c$ is an ordered pair $(x,y)$ that makes it true; there are infinitely many. A **system** asks for the pair that satisfies both equations, usually exactly one.\n\n- **Substitution**: solve one equation for a variable and substitute it into the other.\n- **Elimination**: multiply an equation (every term) so one variable has matching coefficients, then add or subtract to remove it.\n\nThen back-substitute for the other variable and check in both equations.\n\nThe equations are lines. Proportional left sides with a different constant ($x+2y=3$ and $2x+4y=9$) are parallel: **no solution**. If one equation is a multiple of the other, there are infinitely many.\n\nIf you need $x+y$ or $x-y$, try adding or subtracting the equations first.",
  "examples": [
@@ -37,12 +37,13 @@
     "systems-of-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -69,12 +70,13 @@
     "systems-of-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -125,12 +127,13 @@
     "systems-of-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

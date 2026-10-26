@@ -1,6 +1,6 @@
 {
  "id": "t1-01-structure",
- "status": "draft",
+ "status": "published",
  "why": "Knowing the length and order of each section lets you set a per-question pace before test day.",
  "rule": "The current test takes about 1 hour 58 minutes and has five sections.\n\n- **Analytical Writing**: one Analyze an Issue task, 30 minutes. Always first.\n- **Verbal Reasoning**: section 1 has 12 questions in 18 minutes, section 2 has 15 in 23.\n- **Quantitative Reasoning**: section 1 has 12 questions in 21 minutes, section 2 has 15 in 26.\n\nVerbal and Quantitative sections can appear in any order after Writing.",
  "examples": [
@@ -39,12 +39,13 @@
     "test-structure"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -89,12 +90,13 @@
     "test-structure"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -121,12 +123,13 @@
     "test-structure"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

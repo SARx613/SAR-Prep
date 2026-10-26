@@ -16,12 +16,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -66,12 +67,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -98,12 +100,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -154,12 +157,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -204,12 +208,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -233,12 +238,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -287,12 +293,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -337,12 +344,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -370,12 +378,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -426,12 +435,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -469,19 +479,20 @@
   "id": "q0-03-solving-steps-11",
   "lessonId": "q0-03-solving-steps",
   "difficulty": 4,
-  "stem": "The average (arithmetic mean) of five numbers is 14. Four of the numbers are 10, 12, 15 and 20. What is the fifth number?",
-  "explanation": "The five numbers sum to $5\\cdot14=70$. The four given sum to 57, so the fifth is $70-57=13$.",
+  "stem": "The average (arithmetic mean) of a list of numbers is their sum divided by how many numbers there are. The average of five numbers is 14. Four of the numbers are 10, 12, 15 and 20. What is the fifth number?",
+  "explanation": "Average 14 for five numbers means the sum is $5\\cdot14=70$. The four given sum to 57, so the fifth is $70-57=13$. Check: $(57+13)\\div5=14$.",
   "estSeconds": 75,
   "skills": [
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -502,12 +513,13 @@
    "problem-solving-steps"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {

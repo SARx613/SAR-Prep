@@ -1,6 +1,6 @@
 {
  "id": "q0-01-formats",
- "status": "draft",
+ "status": "published",
  "why": "Every Quant section mixes four question formats, alone or inside Data Interpretation sets, and each one asks you to respond in a different way.",
  "rule": "Quantitative Reasoning uses four formats.\n\n- **Quantitative Comparison (QC)**: compare Quantity A and Quantity B. The four choices never change: A is greater, B is greater, equal, cannot be determined.\n- **Select one answer choice**: five choices, one correct.\n- **Select one or more**: select all and only the correct choices. There may be just one, and the stem may or may not say how many.\n- **Numeric Entry (NE)**: no choices. Type an integer or decimal in one box, or a fraction in two boxes (numerator, denominator).\n\nA **Data Interpretation (DI) set** is a group of questions, in any of the last three formats, that share one table or graph.",
  "examples": [
@@ -40,12 +40,13 @@
     "quant-formats"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -90,12 +91,13 @@
     "quant-formats"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -117,12 +119,13 @@
     "quant-formats"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

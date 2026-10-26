@@ -1,6 +1,6 @@
 {
  "id": "q4-02-graph-types",
- "status": "draft",
+ "status": "published",
  "why": "Histograms, circle graphs, scatterplots and line graphs all appear in Data Interpretation sets, and each has one reading skill the questions rely on.",
  "rule": "- **Histogram**: equal-width intervals on a number line, no gaps between bars. Bar height shows frequency; a gap means no data.\n- **Circle graph**: each sector is a percent of one whole, so sector percents compare directly as a ratio. Central angle $=$ percent $\\times\\, 360^\\circ$.\n- **Scatterplot**: one point per individual, showing how two numerical variables go together. A **trend line** predicts $y$ from $x$. Its **slope** $=\\frac{\\text{change in } y}{\\text{change in } x}$ is the predicted change in $y$ per 1 unit of $x$.\n- **Line graph**: values over time. The steepest segment between consecutive points is the greatest increase.",
  "examples": [
@@ -35,12 +35,13 @@
     "circle-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "scatterplots"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

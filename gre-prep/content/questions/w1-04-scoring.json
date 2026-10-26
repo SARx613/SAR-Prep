@@ -4,7 +4,7 @@
   "lessonId": "w1-04-scoring",
   "difficulty": 1,
   "stem": "Which statement about the Issue scoring scale is correct?",
-  "explanation": "The reported Analytical Writing score runs from 0 to 6 in half-point increments.",
+  "explanation": "ETS reports the Analytical Writing score on a 0 to 6 scale, in steps of half a point.",
   "choiceExplanations": {
    "B": "The range is 0 to 6 and includes half points.",
    "C": "That is the Verbal and Quantitative scale.",
@@ -16,12 +16,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -29,19 +30,19 @@
    "choices": [
     {
      "id": "A",
-     "text": "Scores range from 0 to 6, in half-point increments."
+     "text": "Scores run from 0 to 6 in half-point steps."
     },
     {
      "id": "B",
-     "text": "Scores range from 1 to 5, in whole points."
+     "text": "Scores run from 1 to 5 in whole points."
     },
     {
      "id": "C",
-     "text": "Scores range from 130 to 170."
+     "text": "Scores run from 130 to 170."
     },
     {
      "id": "D",
-     "text": "Scores range from 0 to 10, in half-point increments."
+     "text": "Scores run from 0 to 10 in half-point steps."
     },
     {
      "id": "E",
@@ -72,12 +73,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -128,12 +130,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -157,7 +160,7 @@
     },
     {
      "id": "E",
-     "text": "Text that provides little or no evidence of understanding the issue"
+     "text": "Text that shows little or no grasp of the issue"
     }
    ]
   },
@@ -172,7 +175,7 @@
   "lessonId": "w1-04-scoring",
   "difficulty": 2,
   "stem": "Essay A is well developed but contains two minor spelling slips. Essay B is well developed, but nearly every sentence contains a structural error that makes its meaning hard to follow. Which statement is consistent with the guide?",
-  "explanation": "Minor errors that do not interfere with meaning are tolerated even at level 6; frequent errors that obscure meaning lower the score.",
+  "explanation": "Small errors that leave the meaning clear are tolerated even at level 6; errors that recur and obscure meaning pull the score down.",
   "choiceExplanations": {
    "A": "The kind and frequency of errors matter, not just their presence.",
    "C": "The 6 and 5 descriptions allow minor errors.",
@@ -184,12 +187,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -240,12 +244,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -295,12 +300,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -352,12 +358,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -408,12 +415,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -464,12 +472,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -510,7 +519,7 @@
   "stem": "Select all statements about the Analytical Writing scoring that are correct.",
   "explanation": "The guide assigns 0 to copied or off-topic text, NS to a blank response, and reports half-point scores.",
   "choiceExplanations": {
-   "C": "A 1 describes little or no evidence of the ability to develop an organised response, so it does not describe a well-organised essay.",
+   "C": "Level 1 marks fundamental weaknesses, such as almost no grasp of the issue or no organised development; a well-developed essay with only minor slips belongs at the upper levels.",
    "D": "The score is reported in half-point increments."
   },
   "estSeconds": 60,
@@ -518,12 +527,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -539,7 +549,7 @@
     },
     {
      "id": "C",
-     "text": "A score of 1 describes a well-organised but very short essay."
+     "text": "A score of 1 describes a well-developed essay with only a few minor errors."
     },
     {
      "id": "D",
@@ -574,12 +584,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -632,12 +643,13 @@
    "issue-scoring"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

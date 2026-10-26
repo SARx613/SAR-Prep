@@ -28,6 +28,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ chapte
       <h1 className="mt-3 text-3xl font-extrabold tracking-tight">{ch.title}</h1>
       <p className="mt-1 max-w-prose text-muted">{ch.summary}</p>
 
+      {ch.lessons.reduce((n, l) => n + l.practiceCount, 0) >= 10 && (
+        <Link href={`/exam/chapter-${ch.id}`} className="mt-5 inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong bg-surface px-5 text-sm font-semibold hover:border-accent">
+          Take the chapter test · timed, up to 20 questions
+        </Link>
+      )}
+
       <ol className="mt-6 divide-y divide-line overflow-hidden rounded-[var(--radius)] border border-line bg-surface">
         {ch.lessons.map((l, i) => {
           const inner = (

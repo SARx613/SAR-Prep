@@ -1,6 +1,6 @@
 {
  "id": "v3-01-formats",
- "status": "draft",
+ "status": "published",
  "why": "Reading Comprehension makes up about half of the Verbal Reasoning measure, and each of its three formats is graded and read differently.",
  "rule": "**Select one:** five choices, one best answer. The key most accurately and completely answers the question; a true statement that does not answer it, or answers only part of it, is wrong.\n\n**Select one or more:** exactly three choices, with one to three correct. Judge each choice on its own merits. Credit only if you pick every correct choice and no wrong one, so do not worry if all three look right.\n\n**Select in passage:** click one sentence. If the question names a paragraph, only sentences there count. The sentence must fit every part of the description, though the description may leave parts of the sentence unmentioned.\n\nAll answers come from the passage, never from outside knowledge.",
  "examples": [
@@ -43,12 +43,13 @@
    ],
    "passageId": "v3-c-01",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -97,12 +98,13 @@
    ],
    "passageId": "v3-c-01",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -141,12 +143,13 @@
    ],
    "passageId": "v3-c-01",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

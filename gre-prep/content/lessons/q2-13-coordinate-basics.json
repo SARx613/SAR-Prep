@@ -1,6 +1,6 @@
 {
  "id": "q2-13-coordinate-basics",
- "status": "draft",
+ "status": "published",
  "why": "Coordinate questions on the GRE ask you to locate points, reflect them and find lengths of segments, all of which reduce to a right triangle.",
  "rule": "A point $(x,y)$ is $x$ units right of the $y$-axis (left if negative) and $y$ units above the $x$-axis (below if negative). Quadrants: I $(+,+)$, II $(-,+)$, III $(-,-)$, IV $(+,-)$; a point on an axis is in no quadrant.\n\n**Reflections of $(a,b)$:** about the $x$-axis $(a,-b)$; about the $y$-axis $(-a,b)$; about the origin $(-a,-b)$; about the line $y=x$ $(b,a)$.\n\n**Distance:** draw the right triangle whose legs are the horizontal and vertical differences, then $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$. If the points share an $x$ or a $y$, just subtract.",
  "examples": [
@@ -34,12 +34,13 @@
     "coordinate-plane"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "coordinate-plane"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,12 +118,13 @@
     "coordinate-plane"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

@@ -1,6 +1,6 @@
 {
  "id": "q2-06-quadratic-formula",
- "status": "draft",
+ "status": "published",
  "why": "When factoring does not jump out, the quadratic formula always works, and its discriminant answers 'how many real solutions?' without solving anything.",
  "rule": "If $ax^2+bx+c=0$ with $a\\ne0$, then $x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$. First put the equation in the form \"something $=0$\", then read $a$, $b$, $c$ **with their signs**.\n\nThe **discriminant** $b^2-4ac$ counts the real solutions:\n- positive: two solutions (the $\\pm$ gives two values);\n- zero: one solution, $x=-\\dfrac{b}{2a}$;\n- negative: none, since a negative number has no real square root.\n\nIf a question only asks *how many* solutions, the discriminant is enough.",
  "examples": [
@@ -35,12 +35,13 @@
     "quadratic-formula"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "quadratic-formula"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -123,12 +125,13 @@
     "quadratic-formula"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

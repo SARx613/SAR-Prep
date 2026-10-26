@@ -1,6 +1,6 @@
 {
  "id": "q1-01-factors-multiples",
- "status": "draft",
+ "status": "published",
  "why": "GCD, LCM and \"how many…divisible by…\" questions appear directly in Arithmetic and sit underneath many word problems.",
  "rule": "If $a = bk$ for an integer $k$, then $b$ is a **factor** (divisor) of $a$ and $a$ is a **multiple** of $b$.\n\n- **GCD**: the largest positive integer that divides both numbers.\n- **LCM**: the smallest positive integer that both numbers divide.\n\nPrime-factorise both numbers. For the GCD take each shared prime to its *lowest* power; for the LCM take every prime to its *highest* power.\n\nFor two positive integers, $\\text{GCD}\\times\\text{LCM} = $ the product of the numbers.\n\nA number that divides two integers also divides their sum and their difference.",
  "examples": [
@@ -36,12 +36,13 @@
     "factors-multiples"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "factors-multiples"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -118,12 +120,13 @@
     "factors-multiples"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

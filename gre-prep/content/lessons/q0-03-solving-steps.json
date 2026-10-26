@@ -1,6 +1,6 @@
 {
  "id": "q0-03-solving-steps",
- "status": "draft",
+ "status": "published",
  "why": "Every Quant question, from a word problem to a data set, can be worked with the same three steps: understand, strategise, check.",
  "rule": "- **Understand**: what is given (quantities, formulas, conditions, data) and what is asked, including the form (units, rounding).\n- **Strategy**: pick a method *before* computing, then carry it out. If stuck, look for an error, then change method.\n- **Check**: Did you answer the question asked? Is the answer reasonable (a probability is from 0 to 1; an area is positive; estimate)? Any slip or key-entry error? Substitute solutions back.\n\nIn select-one items the correct answer is listed. If yours is not, reread, recompute and reconsider your method.",
  "examples": [
@@ -35,12 +35,13 @@
     "problem-solving-steps"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "problem-solving-steps"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -117,12 +119,13 @@
     "problem-solving-steps"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

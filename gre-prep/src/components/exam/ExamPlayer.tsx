@@ -326,7 +326,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
           )}
           <div className="min-w-0 flex-1">
             <p className="truncate text-sm font-bold">{title}</p>
-            <p className="text-xs text-muted">Question {idx + 1} of {questions.length}{done ? ' · review' : ''}</p>
+            <p className="whitespace-nowrap text-xs text-muted">Question {idx + 1} of {questions.length}{done ? ' · review' : ''}</p>
           </div>
 
           {!done && (

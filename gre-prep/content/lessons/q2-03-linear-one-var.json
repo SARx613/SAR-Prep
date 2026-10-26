@@ -1,6 +1,6 @@
 {
  "id": "q2-03-linear-one-var",
- "status": "draft",
+ "status": "published",
  "why": "Linear equations underlie almost every algebra word problem, and equations that look linear but have no solution (or every solution) are a favorite Quantitative Comparison twist.",
  "rule": "Do the same thing to both sides: add or subtract any number, multiply or divide by any **nonzero** number, or replace an expression by an equivalent one (expand brackets, combine like terms).\n\nPlan: clear fractions (multiply by the common denominator), expand, collect the variable terms on one side, then divide.\n\nIf the $x$-terms cancel, the equation is special:\n- it reduces to a false statement such as $5=9$: **no solution**;\n- it reduces to a true statement such as $0=0$: an **identity**, true for every $x$.",
  "examples": [
@@ -37,12 +37,13 @@
     "linear-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -69,12 +70,13 @@
     "linear-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -125,12 +127,13 @@
     "linear-equations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

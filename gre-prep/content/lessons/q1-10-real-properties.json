@@ -1,6 +1,6 @@
 {
  "id": "q1-10-real-properties",
- "status": "draft",
+ "status": "published",
  "why": "These properties justify the algebra and sign reasoning behind many \"must be true\" and QC questions.",
  "rule": "For real numbers $r,s,t$:\n\n- **Commutative:** $r+s = s+r$ and $rs = sr$.\n- **Distributive:** $r(s+t) = rs+rt$.\n- **Zero product:** if $rs = 0$, then $r=0$ or $s=0$ (or both).\n- **Division by 0 is undefined.**\n- **Signs:** positive + positive and positive $\\cdot$ positive are positive; negative + negative is negative; negative $\\cdot$ negative is positive; positive $\\cdot$ negative is negative.\n- **Absolute value:** $|rs| = |r|\\,|s|$ and $|r+s|\\le|r|+|s|$ (triangle inequality).\n- **Squares:** if $r>1$ then $r^2>r$; if $0<s<1$ then $s^2<s$.",
  "examples": [
@@ -35,12 +35,13 @@
     "real-properties"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "real-properties"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -117,12 +119,13 @@
     "real-properties"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

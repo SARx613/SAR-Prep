@@ -1,6 +1,6 @@
 {
  "id": "q4-08-probability-basics",
- "status": "draft",
+ "status": "published",
  "why": "Elementary probability, including compound events, is on ETS's list of GRE data-analysis topics; questions ask for the chance of an event, of \"not\", of \"or\" and of \"and\".",
  "rule": "A random experiment has a **sample space** (all outcomes); an **event** is a set of outcomes. If all outcomes are equally likely, $P(E) = \\frac{\\text{outcomes in } E}{\\text{all outcomes}}$.\n\n- $0 \\le P(E) \\le 1$, the probabilities of all outcomes add to 1, and $P(\\text{not } E) = 1 - P(E)$.\n- $P(E \\text{ or } F) = P(E) + P(F) - P(E \\text{ and } F)$.\n- Events that cannot occur together are **mutually exclusive**: $P(E \\text{ and } F) = 0$, so probabilities simply add.\n- **Limits**: $P(E \\text{ and } F)$ is at most the smaller of $P(E)$ and $P(F)$; because $P(E \\text{ or } F) \\le 1$, it is at least $P(E) + P(F) - 1$.\n- If outcomes are not equally likely, call one probability $p$, express the others in terms of $p$, and use sum $= 1$.",
  "examples": [
@@ -34,12 +34,13 @@
     "probability"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -64,12 +65,13 @@
     "mutually-exclusive"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -90,12 +92,13 @@
     "complement"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

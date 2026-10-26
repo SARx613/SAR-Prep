@@ -1,6 +1,6 @@
 {
  "id": "q2-16-function-graphs",
- "status": "draft",
+ "status": "published",
  "why": "GRE questions describe a function by a formula or a picture and ask you to read values, find where two graphs meet, or recognize a shifted or stretched graph.",
  "rule": "The graph of $f$ is all points $(x,f(x))$: the input is on the $x$-axis and the output is the height. The graphs of $f$ and $g$ meet where $f(x)=g(x)$.\n\nKnow the basic shapes: line, parabola $x^2$ and V-shaped $|x|$, both with vertex at the origin.\n\nFor $c>0$ the graph of ...\n\n- $h(x)+c$ / $h(x)-c$: up / down $c$.\n- $h(x+c)$ / $h(x-c)$: left / right $c$.\n- $-h(x)$: reflected in the $x$-axis.\n- $c\\,h(x)$: stretched vertically if $c>1$, shrunk if $0<c<1$.",
  "examples": [
@@ -41,12 +41,13 @@
     "function-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -91,12 +92,13 @@
     "function-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -117,12 +119,13 @@
     "function-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

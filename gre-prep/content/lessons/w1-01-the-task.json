@@ -1,6 +1,6 @@
 {
  "id": "w1-01-the-task",
- "status": "draft",
+ "status": "published",
  "why": "The Analytical Writing measure is a single Issue task, and raters judge how well you follow the specific instructions attached to your claim.",
  "rule": "The measure is one **30-minute \"Analyze an Issue\" task**: a claim plus instructions. Raters do not look for a \"right\" position; they reward the skill with which you follow the instructions and develop your argument.\n\nThe instructions come in six sets. Each adds a requirement:\n\n- **Statement:** consider ways it might or might not hold true.\n- **Recommendation:** describe specific circumstances where adopting it would or would not be advantageous.\n- **Claim + challenge:** address the most compelling reasons or examples against your position.\n- **Two views:** say which is closer to yours; address both.\n- **Claim + reason:** judge the claim *and* the reason it rests on.\n- **Policy:** consider the possible consequences of implementing it.",
  "examples": [
@@ -33,7 +33,7 @@
    "stem": "Which instruction set tells you to consider the possible consequences of implementing something?",
    "explanation": "The policy set asks you to give your views on a policy and consider the possible consequences of implementing it.",
    "choiceExplanations": {
-    "A": "The statement set asks you to consider ways the statement might or might not hold true.",
+    "A": "The statement set asks you to explore where the statement would be true and where it would not.",
     "B": "The recommendation set asks for circumstances in which adopting it would or would not be advantageous.",
     "C": "The two-views set asks which view is closer to yours and requires you to address both.",
     "E": "The claim-and-reason set asks you to judge the claim and the reason it is based on."
@@ -43,12 +43,13 @@
     "issue-instruction-sets"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -86,8 +87,8 @@
    "id": "w1-01-the-task-c2",
    "lessonId": "w1-01-the-task",
    "difficulty": 2,
-   "stem": "A prompt asks you to discuss the extent to which you agree or disagree with a recommendation. What must your response include besides a position and your reasoning?",
-   "explanation": "The recommendation set asks you to describe specific circumstances in which adopting it would or would not be advantageous and to explain how they shape your position.",
+   "stem": "A prompt asks how far you agree or disagree with a recommendation. Besides a position and your reasoning, what must your response include?",
+   "explanation": "The recommendation set asks for particular circumstances where adopting the recommendation would be advantageous and others where it would not, plus an account of how those circumstances shape your position.",
    "choiceExplanations": {
     "A": "That belongs to the claim-and-reason set.",
     "B": "That belongs to the two-views set.",
@@ -99,12 +100,13 @@
     "issue-instruction-sets"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -143,7 +145,7 @@
    "lessonId": "w1-01-the-task",
    "difficulty": 2,
    "stem": "Which statement about the Issue task is consistent with what ETS says about raters?",
-   "explanation": "ETS says there is no correct position to take; raters evaluate the skill with which you address the specific instructions and articulate and develop your argument.",
+   "explanation": "ETS says no position is the correct one; raters judge how well you follow the particular instructions and how well you build and develop an argument for your view of the issue.",
    "choiceExplanations": {
     "A": "ETS says raters are not looking for a \"right\" answer.",
     "C": "Any position can score well; disagreement is not rewarded as such.",
@@ -155,12 +157,13 @@
     "issue-instruction-sets"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

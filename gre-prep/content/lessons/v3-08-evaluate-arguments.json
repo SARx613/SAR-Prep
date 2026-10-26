@@ -1,6 +1,6 @@
 {
  "id": "v3-08-evaluate-arguments",
- "status": "draft",
+ "status": "published",
  "why": "ETS asks you to judge a position, find its weakness and consider other explanations for the same evidence.",
  "rule": "Find the **conclusion** and the **evidence**, then the gap between them. **Weaken** by showing the evidence has another explanation, the sample or comparison is unfair, or cause and effect run the other way. **Strengthen** by ruling out those alternatives (for instance, by comparing groups that differ only in the suspected cause) or adding independent support.\n\nA link between two things (correlation) does not show that one causes the other: ask whether a third factor, reversed direction or chance explains it. The best choice bears directly on the evidence-to-conclusion step; a statement that is merely on topic is not enough.",
  "examples": [
@@ -34,12 +34,13 @@
    ],
    "passageId": "v3-c-08",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -91,12 +92,13 @@
    ],
    "passageId": "v3-c-08",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

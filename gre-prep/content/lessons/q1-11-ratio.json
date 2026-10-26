@@ -1,6 +1,6 @@
 {
  "id": "q1-11-ratio",
- "status": "draft",
+ "status": "published",
  "why": "Ratios drive scaling, mixture, rate and percent problems in both PS and QC.",
  "rule": "The **ratio** of $s$ to $t$ is the fraction $\\frac{s}{t}$, also written \"$s$ to $t$\" or $s:t$. Reduce it by dividing by the GCD: $10:15 = 2:3$. Three or more quantities work the same way: $6:24:18 = 1:4:3$.\n\nA ratio $a:b$ means the quantities are $ak$ and $bk$ for some $k$, so a total splits into $a+b$ equal parts. A **proportion** equates two ratios; solve it by cross-multiplication. To link ratios through a shared quantity, multiply: $\\frac{a}{c} = \\frac{a}{b}\\cdot\\frac{b}{c}$.",
  "examples": [
@@ -34,12 +34,13 @@
     "ratio"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "ratio"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,12 +118,13 @@
     "ratio"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

@@ -1,13 +1,13 @@
 {
  "id": "q3-06-quadrilaterals",
- "status": "draft",
+ "status": "published",
  "why": "Rectangles, squares, parallelograms and trapezoids appear constantly in area, perimeter and diagonal problems, alone or inside composite figures.",
  "rule": "The interior angles of any quadrilateral add up to 360°.\n\n- **Rectangle**: four right angles; opposite sides equal and parallel; the two diagonals are equal. **Square**: a rectangle with four equal sides.\n- **Parallelogram**: both pairs of opposite sides parallel; opposite sides equal and opposite angles equal, so neighbouring angles add up to 180°. Every rectangle is one.\n- **Trapezoid**: at least one pair of parallel sides, called the **bases**.\n\n**Areas.** Parallelogram (including rectangle and square): $A=bh$, where $h$ is the *perpendicular* distance between the base and the opposite side. Trapezoid: $A=\\tfrac12(b_1+b_2)\\,h$. If $h$ is not given, drop a perpendicular and use the Pythagorean theorem.",
  "examples": [
   {
    "prompt": "A rectangle has width 5 and diagonal 13. Find its area and perimeter.",
    "steps": [
-    "The diagonal is the hypotenuse of a right triangle with legs 5 and the length $\\ell$: $5^2+\\ell^2=13^2$, so $\\ell^2=144$ and $\\ell=12$.",
+    "The diagonal cuts the rectangle into two right triangles; in each, the sides 5 and $\\ell$ form the right angle and the diagonal lies opposite it: $5^2+\\ell^2=13^2$, so $\\ell^2=144$ and $\\ell=12$.",
     "Area $=5\\cdot12=60$; perimeter $=2(5+12)=34$."
    ],
    "answer": "Area 60, perimeter 34"
@@ -34,12 +34,13 @@
     "area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -118,12 +120,13 @@
     "area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

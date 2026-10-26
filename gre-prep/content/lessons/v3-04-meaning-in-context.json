@@ -1,6 +1,6 @@
 {
  "id": "v3-04-meaning-in-context",
- "status": "draft",
+ "status": "published",
  "why": "ETS asks what a word or sentence means in this passage, and GRE-level words often have several meanings.",
  "rule": "Cover the word and supply your own word from the surrounding sentence (and the one before or after). Clues: a contrast word (*but*, *although*, *yet*) points to an opposite; a following example or explanation points to the meaning. Then choose the option closest to your word, even if its familiar sense is a different one.\n\nFor a sentence, paraphrase it and keep every qualifier. Quotation marks often show a borrowed or figurative use, not the author's own claim.",
  "examples": [
@@ -33,12 +33,13 @@
    ],
    "passageId": "v3-c-04",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -90,12 +91,13 @@
    ],
    "passageId": "v3-c-04",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

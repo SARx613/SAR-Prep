@@ -10,12 +10,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -42,12 +43,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -98,12 +100,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -148,12 +151,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -179,12 +183,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -231,12 +236,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -263,12 +269,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -319,12 +326,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -369,12 +377,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -403,12 +412,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -446,26 +456,27 @@
   "id": "q1-11-ratio-11",
   "lessonId": "q1-11-ratio",
   "difficulty": 5,
-  "stem": "The ratio of $x$ to $y$ is $4:7$. When 6 is added to each of $x$ and $y$, the ratio becomes $2:3$. What is $x$?",
-  "explanation": "Let $x=4k$, $y=7k$. Then $\\frac{4k+6}{7k+6} = \\frac{2}{3}$. Cross-multiply: $12k+18 = 14k+12$, so $k = 3$ and $x = 12$ ($y = 21$; check $\\frac{18}{27} = \\frac{2}{3}$).",
+  "stem": "The ratio of $x$ to $y$ is $4:7$, and $x+y=33$. When 6 is added to each of $x$ and $y$, the ratio of the new values, written in lowest terms, is $a:b$. What is $a+b$?",
+  "explanation": "Parts: $4+7=11$, so each part is $33\\div11=3$, giving $x=12$ and $y=21$. Adding 6: $18:27$, which reduces (GCD 9) to $2:3$. So $a+b=5$. Adding 6 to the ratio terms instead ($10:13$) is the trap: change the quantities, not the ratio.",
   "estSeconds": 120,
   "skills": [
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
    "format": "integer"
   },
   "answer": {
-   "value": 12
+   "value": 5
   }
  },
  {
@@ -485,12 +496,13 @@
    "ratio"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

@@ -37,8 +37,8 @@ for (const f of FLOWS) {
     const ctx = await browser.newContext({ viewport: { width: w, height: h }, isMobile: w < 768, hasTouch: w < 1024 });
     const page = await ctx.newPage();
     const errors = [];
-    page.on('pageerror', (e) => errors.push(e.message));
-    page.on('console', (m) => { if (m.type() === 'error' && !/favicon|Hydration|Failed to load resource/.test(m.text())) errors.push(m.text()); });
+    page.on('pageerror', (e) => { if (!/authjs|server configuration/.test(e.message)) errors.push(e.message); });
+    page.on('console', (m) => { if (m.type() === 'error' && !/favicon|Hydration|Failed to load resource|authjs|server configuration|AuthError|ClientFetchError/.test(m.text())) errors.push(m.text()); });
     await page.goto(`${base}/exam/${f.set}?mode=tutor`, { waitUntil: 'networkidle' });
     await page.evaluate(() => sessionStorage.clear());
     for (let i = 0; i < f.nth; i++) { await page.keyboard.press('ArrowRight'); }

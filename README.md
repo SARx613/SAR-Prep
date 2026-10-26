@@ -2,7 +2,7 @@
 
 A free, English-only GRE preparation platform: official-syllabus chapters, short lessons, and practice questions in the exact formats of the real test, on desktop and on phones.
 
-The product plan lives in [`docs/PLAN.md`](docs/PLAN.md).
+The product plan lives in [`docs/PLAN.md`](docs/PLAN.md); what is built and how content is verified is in [`docs/STATUS.md`](docs/STATUS.md).
 
 ## Stack
 
@@ -24,7 +24,11 @@ npm run dev
 |---|---|
 | `npm run lint` / `npm run typecheck` | ESLint / TypeScript |
 | `npm test` | Vitest (grading, generators, content schema, scheduling) |
-| `npm run content:check` | Validates every lesson and question in `content/` |
+| `npm run content:check` | Validates every lesson and question in `content/` (schema, GRE format rules, sources, duplicates) |
+| `npm run content:blind` / `content:solved` | Blind-solve pipeline: export questions without keys, record independent solvers' agreement |
+| `npm run content:originality -- --refs <dir>` | Fails if 8+ consecutive words are copied from the ETS texts in `<dir>` |
+| `npm run content:approve` | Publishes lessons that cleared solvers + source/pedagogy review |
+| `npm run flows` | Answers every question format at phone/tablet/desktop widths and screenshots it |
 | `npm run screens -- --routes /,/learn` | Screenshots each route at 8 widths (360–1920) and fails on horizontal overflow |
 
 ## Rules for content

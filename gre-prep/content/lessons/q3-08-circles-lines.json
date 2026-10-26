@@ -1,6 +1,6 @@
 {
  "id": "q3-08-circles-lines",
- "status": "draft",
+ "status": "published",
  "why": "Tangent lines and triangles inscribed in circles produce right angles, which let you bring in the Pythagorean theorem.",
  "rule": "A **tangent** is a line that touches a circle at exactly one point, the point of tangency. The radius to that point meets the tangent at a right angle; conversely, a line at right angles to a radius at its outer end is a tangent.\n\nA polygon is **inscribed** in a circle (and the circle **circumscribed** about the polygon) when every vertex sits on the circle. An inscribed triangle that has a diameter as a side is right-angled, with the diameter as hypotenuse; conversely, every inscribed right triangle has its hypotenuse as a diameter. So the diagonals of an inscribed rectangle are diameters.\n\nA polygon whose sides are all tangent to a circle is circumscribed about that circle.",
  "examples": [
@@ -35,12 +35,13 @@
     "inscribed-triangle"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -62,12 +63,13 @@
     "inscribed-triangle"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -89,12 +91,13 @@
     "inscribed-triangle"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

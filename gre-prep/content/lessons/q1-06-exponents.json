@@ -1,6 +1,6 @@
 {
  "id": "q1-06-exponents",
- "status": "draft",
+ "status": "published",
  "why": "Exponent evaluation, especially with negative bases and negative or zero exponents, drives many QC traps.",
  "rule": "$a^n$ (for a positive integer $n$) means $a$ multiplied by itself $n$ times. A negative base to an **even** power is positive, to an **odd** power negative. Parentheses matter: $(-4)^2 = 16$ but $-4^2 = -16$, because the exponent acts on 4 alone.\n\nFor $a\\ne0$: $a^0 = 1$ and $a^{-n} = \\dfrac{1}{a^n}$. For a fraction, flip it: $\\left(\\frac{3}{5}\\right)^{-1} = \\frac{5}{3}$.",
  "examples": [
@@ -34,12 +34,13 @@
     "exponents"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "exponents"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,12 +118,13 @@
     "exponents"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

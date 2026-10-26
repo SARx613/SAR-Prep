@@ -1,6 +1,6 @@
 {
  "id": "q4-12-di-examples",
- "status": "draft",
+ "status": "published",
  "why": "In a GRE Data Interpretation set, several questions share one table, graph or other display, and they combine this chapter's skills: reading the data, percents of a total, percent change and overlapping groups.",
  "rule": "1. **Read first**: title, units, notes, totals, and what each percent is a percent *of*.\n2. **Compare like with like**: percents of the *same* total compare directly (a ratio of sectors is a ratio of percents). Percents of *different* totals do not: convert to counts, count $=$ percent $\\times$ total.\n3. **Percent change** $= \\frac{\\text{new} - \\text{old}}{\\text{old}}$; \"25% greater than last year\" divides by the *old* value.\n4. **Overlapping groups**: fill a Venn diagram (both, then only each, then neither).",
  "examples": [
@@ -34,12 +34,13 @@
     "circle-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -60,12 +61,13 @@
     "percent-change"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -86,12 +88,13 @@
     "percent-of-total"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

@@ -1,6 +1,6 @@
 {
  "id": "q1-12-percent",
- "status": "draft",
+ "status": "published",
  "why": "Percent appears in PS, QC and data-interpretation questions, and it is the base of every percent-change problem.",
  "rule": "**Percent** means per hundred: $p\\% = \\frac{p}{100}$. So $45\\% = 0.45$, $0.8\\% = 0.008$ and $175\\% = 1.75$.\n\nWith **part**, **whole** and percent $p$: $\\text{part} = \\frac{p}{100}\\cdot\\text{whole}$. Hence $p = \\dfrac{\\text{part}}{\\text{whole}}\\cdot100$ and $\\text{whole} = \\dfrac{\\text{part}}{p/100}$. The part can exceed the whole: then $p>100$ (21 is $350\\%$ of 6).",
  "examples": [
@@ -34,12 +34,13 @@
     "percent"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "percent"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,12 +118,13 @@
     "percent"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

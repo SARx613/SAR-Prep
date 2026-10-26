@@ -1,6 +1,6 @@
 {
  "id": "q1-05-mixed-fractional",
- "status": "draft",
+ "status": "published",
  "why": "Mixed numbers and stacked fractions appear in word problems and in QC items that compare arithmetic expressions.",
  "rule": "A **mixed number** is a sum: $5\\frac{2}{7} = 5+\\frac{2}{7} = \\frac{5\\cdot7+2}{7} = \\frac{37}{7}$. Going back, divide: $37 = 5\\cdot7+2$ gives quotient 5, remainder 2. **Convert mixed numbers to fractions before multiplying or dividing.**\n\nA **fractional expression** has a numerator or denominator that is not an integer, e.g. $\\frac{x}{5}$; it follows the same rules as fractions. A stacked fraction means divide: $\\dfrac{a}{\\frac{b}{c}} = a\\cdot\\frac{c}{b}$.",
  "examples": [
@@ -33,12 +33,13 @@
     "mixed-fractional"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -65,12 +66,13 @@
     "mixed-fractional"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -115,12 +117,13 @@
     "mixed-fractional"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

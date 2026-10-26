@@ -1,6 +1,6 @@
 {
  "id": "q4-05-std-dev",
- "status": "draft",
+ "status": "published",
  "why": "Standard deviation is on ETS's list of GRE data-analysis topics: questions ask you to compute it, compare it across data sets, or locate a value a number of SDs from the mean.",
  "rule": "The **standard deviation (SD)** measures how far values typically lie from the mean. For $n$ values: find the mean; subtract it from each value; square each difference; average the squares (divide by $n$); take the positive square root.\n\nValues spread far from the mean give a larger SD; values clustered near it give a smaller SD; identical values give an SD of 0. Only distances from the mean matter: adding the same number to every value leaves the SD unchanged, while multiplying every value by a positive $k$ multiplies every distance, and the SD, by $k$.\n\n**Standardizing**: $z = \\frac{x - \\text{mean}}{\\text{SD}}$ says how many SDs $x$ is above (+) or below ($-$) the mean.",
  "examples": [
@@ -35,12 +35,13 @@
     "std-dev"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "standardization"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

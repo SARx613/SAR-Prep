@@ -1,6 +1,6 @@
 {
  "id": "v3-06-structure",
- "status": "draft",
+ "status": "published",
  "why": "ETS lists understanding how the parts of a text relate among the Reading Comprehension skills, so questions ask what a sentence or paragraph does.",
  "rule": "Ask what each part is doing: introducing a view, supporting it, contrasting it, qualifying it, giving an example, applying it, or concluding. Transition words tell you:\n\n- *but, yet, however, still*: contrast;\n- *although, granted*: concession, with the author's point coming next;\n- *for instance*: example;\n- *therefore, thus*: consequence;\n- *moreover, in addition*: extension;\n- *in other words*: restatement.\n\nAnswer function questions with a verb (*concedes*, *illustrates*, *qualifies*), not with a paraphrase of the content.",
  "examples": [
@@ -34,12 +34,13 @@
    ],
    "passageId": "v3-c-06",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -85,12 +86,13 @@
    ],
    "passageId": "v3-c-06",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

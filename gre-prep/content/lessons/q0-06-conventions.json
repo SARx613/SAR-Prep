@@ -1,6 +1,6 @@
 {
  "id": "q0-06-conventions",
- "status": "draft",
+ "status": "published",
  "why": "Every Quant section opens with the same assumptions about numbers and figures, and several wrong answers come from trusting a picture that was never to scale.",
  "rule": "- **Numbers** are real; a variable with no restriction can be any real number. A prime exceeds 1; distances are nonnegative; the positive direction points right (or up); $x/0$ is undefined.\n- **Geometry figures are not necessarily to scale.** Do not read lengths, angles or areas by sight. You *may* assume straight lines are straight, points on a line keep the order drawn, and objects are in their relative positions. Marks and labels are given facts.\n- **To scale** (read by sight): coordinate systems, number lines, bar, circle and line graphs.\n- **Order of operations**: exponents before negation, so $-5^2=-25$ but $(-5)^2=25$.\n- \"Difference\" means positive difference; numbers given are exact; \"from $m$ to $n$\" (inclusive or not) covers $n-m+1$ integers.",
  "examples": [
@@ -21,7 +21,7 @@
    "lessonId": "q0-06-conventions",
    "difficulty": 1,
    "stem": "Which of the following is drawn to scale?",
-   "explanation": "Bar graphs, circle graphs, line graphs, xy-planes and number lines are drawn to scale.",
+   "explanation": "Data graphs and coordinate systems are drawn to scale; ordinary geometry figures are not.",
    "choiceExplanations": {
     "A": "Not necessarily to scale.",
     "B": "Not necessarily to scale.",
@@ -33,12 +33,13 @@
     "math-conventions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -83,12 +84,13 @@
     "math-conventions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -109,12 +111,13 @@
     "math-conventions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

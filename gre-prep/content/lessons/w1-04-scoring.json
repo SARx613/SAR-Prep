@@ -1,6 +1,6 @@
 {
  "id": "w1-04-scoring",
- "status": "draft",
+ "status": "published",
  "why": "Your Issue response is scored with ETS's published 0 to 6 guide, so each level's description shows what to aim for.",
  "rule": "Scores run from 0 to 6 in half points. Raters weigh a position that follows the task, development, focus and organisation, fluent language, and control of standard written English.\n\n- **6:** insightful position, compelling reasons or persuasive examples, sustained focus, fluent and precise.\n- **5:** thoughtful and clear, logically sound reasons or well-chosen examples, generally well organised.\n- **4:** competent: clear position, relevant reasons or examples, adequate organisation.\n- **3:** obviously flawed: vague or limited, leans on unsupported claims, or unclear language.\n- **2:** largely disregards the directions, or seriously weak.\n- **1:** little understanding, organisation or coherence.\n- **0:** off topic, merely copies the topic, in a foreign language, or unreadable. **NS:** blank.\n\nMinor errors are tolerated; persistent ones that obscure meaning lower the score.",
  "examples": [
@@ -31,7 +31,7 @@
    "lessonId": "w1-04-scoring",
    "difficulty": 1,
    "stem": "What is the reported range for the Analytical Writing score?",
-   "explanation": "ETS reports Analytical Writing scores from 0 to 6, in half-point increments.",
+   "explanation": "ETS reports the Analytical Writing score from 0 to 6 in half-point steps.",
    "choiceExplanations": {
     "B": "Half points such as 4.5 are reported.",
     "C": "That is the scale for the Verbal and Quantitative measures.",
@@ -43,12 +43,13 @@
     "issue-scoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -99,12 +100,13 @@
     "issue-scoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -143,7 +145,7 @@
    "lessonId": "w1-04-scoring",
    "difficulty": 2,
    "stem": "Which statement about errors in an Issue response matches ETS?",
-   "explanation": "ETS says an occasional spelling or grammatical error will not affect your score, but serious and persistent errors detract from your writing and lower the score.",
+   "explanation": "ETS says a stray spelling or grammar slip will not change your score, but errors that are serious and keep recurring weaken the writing and lower it.",
    "choiceExplanations": {
     "A": "A single error does not carry a fixed penalty.",
     "C": "Control of standard written English is part of the guide.",
@@ -155,12 +157,13 @@
     "issue-scoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

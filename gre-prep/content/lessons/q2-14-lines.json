@@ -1,6 +1,6 @@
 {
  "id": "q2-14-lines",
- "status": "draft",
+ "status": "published",
  "why": "Slope, intercepts and parallel or perpendicular lines are tested directly, and they also decode graphs in Data Interpretation and Quantitative Comparison.",
  "rule": "**Slope** through $(x_1,y_1)$ and $(x_2,y_2)$: $m=\\dfrac{y_2-y_1}{x_2-x_1}$ (rise over run).\n\n**Slope-intercept form:** $y=mx+b$, where $b$ is the $y$-intercept. To find $b$, substitute one known point. To find the $x$-intercept, set $y=0$.\n\nHorizontal lines $y=b$ have slope 0; vertical lines $x=a$ have no slope.\n\n**Parallel** lines have equal slopes; **perpendicular** lines have slopes that are negative reciprocals. Two lines meet where their equations hold together, so solve the system. Rewrite $Ax+By=C$ as $y=\\dots$ to read the slope.",
  "examples": [
@@ -36,12 +36,13 @@
     "lines-slope"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -62,12 +63,13 @@
     "lines-slope"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -94,12 +96,13 @@
     "lines-slope"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

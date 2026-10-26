@@ -10,12 +10,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -43,12 +44,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -99,12 +101,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -149,12 +152,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -180,12 +184,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -232,12 +237,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -264,12 +270,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -314,12 +321,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -342,12 +350,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -374,12 +383,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -424,12 +434,13 @@
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -443,26 +454,27 @@
   "id": "q1-13-percent-change-12",
   "lessonId": "q1-13-percent-change",
   "difficulty": 5,
-  "stem": "A price is increased by $p\\%$, and the new price is then decreased by $p\\%$. The final price is $84\\%$ of the original price. What is $p$?",
-  "explanation": "The factors are $\\left(1+\\frac{p}{100}\\right)\\left(1-\\frac{p}{100}\\right) = 1-\\left(\\frac{p}{100}\\right)^2 = 0.84$. So $\\left(\\frac{p}{100}\\right)^2 = 0.16$ and $\\frac{p}{100} = 0.4$, giving $p = 40$. (Check: $1.4\\cdot0.6 = 0.84$.)",
+  "stem": "A price is increased by $60\\%$, and the new price is then decreased by $50\\%$. By what percent must the resulting price now be increased to return to the original price?",
+  "explanation": "Multiply the factors: $1.6\\cdot0.5=0.8$, so the price is $80\\%$ of the original. To get back, multiply by $\\frac{1}{0.8}=1.25$, an increase of $25\\%$. The base is the current price, 0.8, not the original: $\\frac{1-0.8}{0.8}=0.25$. Common slips: 10 (adding $+60$ and $-50$) and 20 (dividing the gap by the original price).",
   "estSeconds": 120,
   "skills": [
    "percent-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
    "format": "integer"
   },
   "answer": {
-   "value": 40
+   "value": 25
   }
  }
 ]

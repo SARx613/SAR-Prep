@@ -1,6 +1,6 @@
 {
  "id": "v1-03-signal-words",
- "status": "draft",
+ "status": "published",
  "why": "Structure words such as *although*, *because* and *moreover* tell you what the blank must do before you read a single choice.",
  "rule": "ETS advises marking words that emphasize the structure of the text, naming *although* and *moreover* as examples. The grouping below is our study aid, not an ETS list:\n\n- **Contrast** (*although, though, but, yet, however, while, whereas, unlike, rather than*): the blank opposes the other idea.\n- **Support** (*moreover, and, indeed*, a colon or semicolon): the blank agrees with, restates or explains the other idea.\n- **Cause or result** (*because, since, so ... that*): the blank is the reason for, or result of, the stated fact.\n\nNegation flips direction: *not* X, *far from* X, *by no means* X and *anything but* X all point to the opposite of X.",
  "examples": [
@@ -42,12 +42,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -105,12 +106,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -194,12 +196,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {

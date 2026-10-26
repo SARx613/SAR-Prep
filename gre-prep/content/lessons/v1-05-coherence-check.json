@@ -1,6 +1,6 @@
 {
  "id": "v1-05-coherence-check",
- "status": "draft",
+ "status": "published",
  "why": "ETS ends its method with a final check, which catches answers that sound right but break the logic, the grammar or the style.",
  "rule": "When every blank is filled, read the completed text from the start and test three things:\n\n- **Logic:** do the ideas agree or contrast as the structure words demand?\n- **Grammar:** does each word fit its slot (part of speech, form, the words it must combine with)?\n- **Style:** does its tone suit the sentence?\n\nA word that is a good synonym can still fail the check. If one blank fails, reconsider it and the blanks that depend on it.",
  "examples": [
@@ -33,12 +33,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -94,12 +95,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a2",
      "solver-b2"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -165,12 +167,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {

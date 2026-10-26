@@ -2,6 +2,7 @@
  * (every request in dev, so edits show without a restart). */
 
 import { loadContent, type RawContent } from './load';
+import { Rng, hashSeed } from '@/lib/generators/rng';
 import { sectionOf } from '@/types/questions';
 import type { ContentQuestionInput, SyllabusLesson } from './schema';
 import type { ClientQuestion, LessonView } from './types';
@@ -48,7 +49,12 @@ export function isPlayable(q: ContentQuestionInput): boolean {
 
 export function getSet(setId: string): ClientQuestion[] {
   const c = content();
-  return (c.questionSets.get(setId) ?? []).filter(isPlayable).map((q) => toClient(q, c));
+  // Easiest to hardest, as the lesson page promises; the sort is stable, so authors' order breaks ties.
+  return (c.questionSets.get(setId) ?? [])
+    .filter(isPlayable)
+    .map((q, i) => ({ q, i }))
+    .sort((a, b) => a.q.difficulty - b.q.difficulty || a.i - b.i)
+    .map(({ q }) => toClient(q, c));
 }
 
 export interface LessonCard {
@@ -108,4 +114,23 @@ export function getByIds(ids: string[]): ClientQuestion[] {
     const q = byId.get(id);
     return q && isPlayable(q) ? [toClient(q, c)] : [];
   });
+}
+
+/** A timed test for a whole chapter: up to 20 questions, round-robin across its lessons, levels 2–4 first. */
+export function getChapterTest(chapterId: string): ClientQuestion[] {
+  const c = content();
+  const lessons = c.syllabus.lessons.filter((l) => l.chapter === chapterId).sort((a, b) => a.order - b.order);
+  const rng = new Rng(hashSeed(`chapter-test:${chapterId}`));
+  const lists = lessons.map((l) => {
+    const qs = (c.questionSets.get(l.id) ?? []).filter(isPlayable);
+    const mid = qs.filter((q) => q.difficulty >= 2 && q.difficulty <= 4);
+    const rest = qs.filter((q) => q.difficulty < 2 || q.difficulty > 4);
+    const shuffle = <T,>(xs: T[]) => { const a = [...xs]; for (let i = a.length - 1; i > 0; i--) { const j = rng.int(0, i); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    return [...shuffle(mid), ...shuffle(rest)];
+  });
+  const picked: ContentQuestionInput[] = [];
+  for (let round = 0; picked.length < 20 && round < 40; round++) {
+    for (const l of lists) { if (picked.length < 20 && l[round]) picked.push(l[round]); }
+  }
+  return picked.map((q) => toClient(q, c));
 }

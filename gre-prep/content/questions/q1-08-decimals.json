@@ -16,12 +16,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -66,12 +67,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -98,12 +100,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -148,12 +151,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a2",
     "solver-b2"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -179,12 +183,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -231,12 +236,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -263,12 +269,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -313,12 +320,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -340,12 +348,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -360,9 +369,9 @@
   "lessonId": "q1-08-decimals",
   "difficulty": 4,
   "stem": "Which of the following are rational numbers? Indicate all such numbers.",
-  "explanation": "A terminating or repeating decimal is rational: $0.\\overline{36}$ repeats and $3.14159$ terminates. $\\sqrt{49} = 7$ is an integer. $\\sqrt{21}$ is not an integer and not the root of a perfect square, and the last decimal neither terminates nor repeats (the groups of zeros keep growing), so both are irrational.",
+  "explanation": "A terminating or repeating decimal is rational: $0.\\overline{36}$ repeats and $3.14159$ terminates. $\\sqrt{49}=7$ is an integer, and $\\sqrt{1.44}=\\sqrt{\\frac{144}{100}}=\\frac{12}{10}=1.2$ terminates. Only the decimal in D neither terminates nor repeats (the groups of zeros keep growing), so it is irrational.",
   "choiceExplanations": {
-   "C": "21 is not a perfect square, so $\\sqrt{21}$ is irrational.",
+   "C": "A root sign does not make a number irrational: $\\sqrt{1.44}=\\frac{\\sqrt{144}}{\\sqrt{100}}=1.2$, a terminating decimal, so it is rational.",
    "D": "The pattern keeps changing, so it never repeats; it is irrational."
   },
   "estSeconds": 90,
@@ -370,12 +379,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -391,7 +401,7 @@
     },
     {
      "id": "C",
-     "text": "$\\sqrt{21}$"
+     "text": "$\\sqrt{1.44}$"
     },
     {
      "id": "D",
@@ -407,6 +417,7 @@
    "choices": [
     "A",
     "B",
+    "C",
     "E"
    ]
   }
@@ -428,12 +439,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -478,12 +490,13 @@
    "decimals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {

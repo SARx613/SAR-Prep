@@ -53,12 +53,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -125,12 +126,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -224,12 +226,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -311,12 +314,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -370,12 +374,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -442,12 +447,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -465,13 +471,13 @@
   "id": "q0-07-di-sets-07",
   "lessonId": "q0-07-di-sets",
   "difficulty": 3,
-  "stem": "Between Q2 and Q3, which region's orders increased by the greatest percent?",
-  "explanation": "South: $\\frac{16-11}{11}\\approx45\\%$. West: $\\frac{12-10}{10}=20\\%$. North and East decreased. South wins.",
+  "stem": "From Q1 to Q4, which region's orders increased by the greatest number of orders?",
+  "explanation": "Subtract Q1 from Q4 for each region (in hundreds): North $19-12=7$, South $14-9=5$, East $21-20=1$, West $13-7=6$. North has the greatest increase.",
   "choiceExplanations": {
-   "A": "North fell from 15 to 14.",
-   "C": "East fell from 18 to 17.",
-   "D": "West rose from 10 to 12, a 20 percent increase, less than South's.",
-   "E": "Percent change is computed from the table values."
+   "B": "South rose by only $14-9=5$ hundred; its big jump from Q2 to Q3 was partly lost in Q4.",
+   "C": "East had the most orders in Q4, but it rose by only $21-20=1$ hundred.",
+   "D": "West rose by $13-7=6$ hundred, nearly doubling, but the question asks for the number of orders, and North's 7 hundred is more.",
+   "E": "Each increase is a difference of two table values, so the table is enough."
   },
   "estSeconds": 90,
   "skills": [
@@ -521,12 +527,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -556,7 +563,7 @@
   },
   "answer": {
    "choices": [
-    "B"
+    "A"
    ]
   }
  },
@@ -608,12 +615,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -634,8 +642,8 @@
   "id": "q0-07-di-sets-09",
   "lessonId": "q0-07-di-sets",
   "difficulty": 3,
-  "stem": "What was the percent increase in the Company's revenue from 2019 to 2023, rounded to the nearest percent?",
-  "explanation": "$\\frac{26-14}{14}=\\frac{12}{14}\\approx0.857$, which is about 86 percent.",
+  "stem": "From 2019 to 2023, the Company's revenue increased by how many more millions of dollars than the Competitor's revenue did?",
+  "explanation": "Company: $26-14=12$ million. Competitor: $25-20=5$ million. Difference: $12-5=7$ (millions of dollars).",
   "estSeconds": 75,
   "skills": [
    "data-interpretation-sets"
@@ -678,23 +686,23 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
    "format": "numeric_entry",
    "numeric": {
-    "format": "integer",
-    "round": 0
+    "format": "integer"
    }
   },
   "answer": {
-   "value": 86
+   "value": 7
   }
  },
  {
@@ -702,11 +710,11 @@
   "lessonId": "q0-07-di-sets",
   "difficulty": 3,
   "stem": "Which of the following statements are supported by the table? Indicate all such statements.",
-  "explanation": "East beats West in all four quarters. West's total is 42 of 228, about 18.4 percent. The other statements fail on the numbers.",
+  "explanation": "East beats West in all four quarters. West's total is 42 of 228 (hundreds), about 18.4 percent. The Q4 total (67) exceeds the Q1 total (48) by 19 hundred, only 1,900 orders, and the other statements fail on the numbers.",
   "choiceExplanations": {
    "B": "South fell from 16 in Q3 to 14 in Q4.",
    "C": "In Q3 North had 14 and South had 16.",
-   "D": "Q4 is 67 and Q1 is 48. 1.4 times 48 is 67.2, so Q4 is just under 40 percent greater."
+   "D": "Q4 totals 67 hundred and Q1 totals 48 hundred, a difference of 19 hundred, that is 1,900 orders, which is less than 2,000."
   },
   "estSeconds": 120,
   "skills": [
@@ -756,12 +764,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -781,7 +790,7 @@
     },
     {
      "id": "D",
-     "text": "Total orders in Q4 were at least 40 percent greater than in Q1."
+     "text": "Total orders in Q4 were more than 2,000 greater than total orders in Q1."
     },
     {
      "id": "E",
@@ -850,12 +859,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -930,12 +940,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {

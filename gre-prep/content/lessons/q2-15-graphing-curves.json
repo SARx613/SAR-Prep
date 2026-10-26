@@ -1,6 +1,6 @@
 {
  "id": "q2-15-graphing-curves",
- "status": "draft",
+ "status": "published",
  "why": "The GRE shows or describes regions, parabolas and circles in the coordinate plane and asks for intercepts, vertices, centers and which points fit.",
  "rule": "**Linear inequality:** graph the boundary line. $y\\le mx+b$ is the line and everything below it; $y\\ge mx+b$ is the line and everything above it ($<$ or $>$ leaves the line out). A system is the overlap of its regions.\n\n**Parabola** $y=ax^2+bx+c$: opens up if $a>0$, down if $a<0$. The $x$-intercepts solve $ax^2+bx+c=0$; the axis of symmetry is midway between them (in general $x=-\\frac{b}{2a}$), and the vertex lies on it. The $y$-intercept is $c$.\n\n**Circle:** $(x-a)^2+(y-b)^2=r^2$ has center $(a,b)$ and radius $r$. Inside means the left side is $<r^2$.",
  "examples": [
@@ -42,12 +42,13 @@
     "graphing-curves"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -92,12 +93,13 @@
     "graphing-curves"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -124,12 +126,13 @@
     "graphing-curves"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

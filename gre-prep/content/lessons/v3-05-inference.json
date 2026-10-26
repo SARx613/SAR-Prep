@@ -1,6 +1,6 @@
 {
  "id": "v3-05-inference",
- "status": "draft",
+ "status": "published",
  "why": "Inference questions ask what the passage implies and require you to reason from incomplete information without leaving the text.",
  "rule": "An inference is something that must be true, or is very probably true, given the passage: one short step beyond the words, not a leap. Test each choice by finding the lines that force it.\n\nReason carefully from partial data:\n\n- *All A are B* does not mean *all B are A*.\n- *Some* is not *most*, and *not every* is not *none*.\n- Missing evidence does not prove the opposite.\n\nReject choices that need outside knowledge, that cover more cases or speak more strongly than the passage, or that merely sound plausible.",
  "examples": [
@@ -33,12 +33,13 @@
    ],
    "passageId": "v3-c-05",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -87,12 +88,13 @@
    ],
    "passageId": "v3-c-05",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

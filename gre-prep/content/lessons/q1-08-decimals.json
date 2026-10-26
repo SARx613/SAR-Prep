@@ -1,6 +1,6 @@
 {
  "id": "q1-08-decimals",
- "status": "draft",
+ "status": "published",
  "why": "Decimal place value and decimal/fraction conversion are the base of percent, ratio and data problems.",
  "rule": "Each digit has a place value that is a power of 10: in $4{,}806.253$ the digits after the point are 2 tenths, 5 hundredths and 3 thousandths, that is $2\\cdot10^{-1}+5\\cdot10^{-2}+3\\cdot10^{-3}$. A terminating decimal is an integer over a power of 10: $3.7 = \\frac{37}{10}$, $0.248 = \\frac{248}{1000}$.\n\nCompute by converting to fractions (decimal places add in a product). For a quotient, scale top and bottom by the same power of 10.\n\nDividing numerator by denominator turns a fraction into a decimal that either **terminates** ($\\frac{7}{20} = 0.35$) or **repeats** ($\\frac{2}{9} = 0.\\overline{2}$). Exactly the rational numbers have such decimals; one that does neither (like $\\sqrt{2} = 1.41421\\ldots$) is **irrational**.",
  "examples": [
@@ -33,12 +33,13 @@
     "decimals"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -65,12 +66,13 @@
     "decimals"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -115,12 +117,13 @@
     "decimals"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

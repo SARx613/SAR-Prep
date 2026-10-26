@@ -1,6 +1,6 @@
 {
  "id": "q4-03-centre-spread-basic",
- "status": "draft",
+ "status": "published",
  "why": "Mean, median, mode and range appear in Quantitative Comparison, Problem Solving and data sets, often with a missing value or an outlier to reason about.",
  "rule": "- **Mean** $=$ sum $\\div$ number of values, so sum $=$ mean $\\times$ count. For repeated values use a weighted mean: add (value $\\times$ frequency) and divide by the total frequency.\n- **Median**: order the list; take the middle value, or the average of the two middle values when the count is even. In a frequency table, add up the frequencies in order to find which value sits in the middle position.\n- **Mode**: the most frequent value (a list can have several).\n- **Range** $=$ greatest $-$ least.\n\nAn outlier (a value far from the rest) pulls the mean and the range, but barely moves the median.",
  "examples": [
@@ -35,12 +35,13 @@
     "median"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "mean"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

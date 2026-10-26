@@ -10,12 +10,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -42,12 +43,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -98,12 +100,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -148,12 +151,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -179,12 +183,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -236,12 +241,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -268,12 +274,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -324,12 +331,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -374,12 +382,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -402,12 +411,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -421,25 +431,26 @@
   "id": "q1-07-roots-11",
   "lessonId": "q1-07-roots",
   "difficulty": 5,
-  "stem": "What is the value of $\\left(\\sqrt{5}+\\sqrt{3}\\right)\\left(\\sqrt{5}-\\sqrt{3}\\right)$?",
-  "explanation": "Distribute: $\\sqrt{5}\\sqrt{5}-\\sqrt{5}\\sqrt{3}+\\sqrt{3}\\sqrt{5}-\\sqrt{3}\\sqrt{3} = 5-3 = 2$. The two cross terms cancel.",
+  "stem": "Which of the following is equal to $\\sqrt{8}+\\sqrt{32}-\\sqrt{18}$?",
+  "explanation": "Pull out perfect squares: $\\sqrt{8}=2\\sqrt{2}$, $\\sqrt{32}=4\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$. All are multiples of $\\sqrt{2}$, so combine coefficients: $(2+4-3)\\sqrt{2}=3\\sqrt{2}$.",
   "choiceExplanations": {
-   "A": "This is $(\\sqrt{5}-\\sqrt{3})^2$.",
-   "C": "This is a cross term alone; the two cross terms cancel.",
-   "D": "This adds $5+3$; the last term is subtracted.",
-   "E": "This is $(\\sqrt{5}+\\sqrt{3})^2$."
+   "A": "This moves the coefficient 3 under the root unsquared; $3\\sqrt{2}=\\sqrt{9\\cdot2}=\\sqrt{18}$, not $\\sqrt{6}$.",
+   "C": "This combines the radicands, $8+32-18=22$, but roots of a sum or difference do not split that way.",
+   "D": "This adds $\\sqrt{18}$ instead of subtracting it: $(2+4+3)\\sqrt{2}$.",
+   "E": "This pulls out the perfect squares themselves instead of their roots: $4\\sqrt{2}+16\\sqrt{2}-9\\sqrt{2}$."
   },
   "estSeconds": 100,
   "skills": [
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -447,23 +458,23 @@
    "choices": [
     {
      "id": "A",
-     "text": "$8-2\\sqrt{15}$"
+     "text": "$\\sqrt{6}$"
     },
     {
      "id": "B",
-     "text": "$2$"
+     "text": "$3\\sqrt{2}$"
     },
     {
      "id": "C",
-     "text": "$2\\sqrt{15}$"
+     "text": "$\\sqrt{22}$"
     },
     {
      "id": "D",
-     "text": "$8$"
+     "text": "$9\\sqrt{2}$"
     },
     {
      "id": "E",
-     "text": "$8+2\\sqrt{15}$"
+     "text": "$11\\sqrt{2}$"
     }
    ]
   },
@@ -490,12 +501,13 @@
    "roots"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

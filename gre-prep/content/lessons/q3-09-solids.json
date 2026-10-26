@@ -1,6 +1,6 @@
 {
  "id": "q3-09-solids",
- "status": "draft",
+ "status": "published",
  "why": "Volume and surface area of boxes, cubes and cylinders appear in applied geometry questions, often combined with ratios or with pouring and rate ideas.",
  "rule": "A **rectangular solid** has length $\\ell$, width $w$ and height $h$; its 6 faces are rectangles. A **cube** has $\\ell=w=h$.\n$$V=\\ell wh,\\qquad \\text{surface area}=2(\\ell w+\\ell h+wh).$$\nA **right circular cylinder** has two circular bases of radius $r$ and height $h$ (its axis is perpendicular to the bases).\n$$V=\\pi r^2h,\\qquad \\text{surface area}=2\\pi r^2+2\\pi rh .$$\nSurface area adds the areas of *all* faces (both bases of a cylinder plus the curved side); volume counts the cubic units inside.",
  "examples": [
@@ -35,12 +35,13 @@
     "volume-surface-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "volume-surface-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -119,12 +121,13 @@
     "volume-surface-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

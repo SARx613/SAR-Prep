@@ -1,6 +1,6 @@
 {
  "id": "v4-01-words-in-context",
- "status": "draft",
+ "status": "published",
  "why": "This is a study aid, not an official topic: ETS publishes no word list, and vocabulary is tested in context (Text Completion, Sentence Equivalence and word meaning in Reading Comprehension), so learn words through the clues that fix their meaning.",
  "rule": "Learn a word by the **job it does in a sentence**, not as an isolated gloss.\n\n- Study each word as **sentence + clue + meaning**: a sentence with a blank, the word or phrase that fixes the meaning, then the word.\n- Learn in **series**: group words of one sense with their opposites, and note whether the tone is positive or negative.\n- Use **flashcards**: the sentence with a blank on the front; the word and its clue on the back.\n- On the test, **predict** a word from the clues (watch words such as *although*, *moreover*), then match it.\n- In Sentence Equivalence, the two answers need not be exact synonyms; the two completed sentences must mean the same.",
  "examples": [
@@ -43,12 +43,13 @@
     "vocab-context"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -104,12 +105,13 @@
     "vocab-context"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {
@@ -165,12 +167,13 @@
     "vocab-context"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {

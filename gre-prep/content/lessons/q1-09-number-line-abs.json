@@ -1,6 +1,6 @@
 {
  "id": "q1-09-number-line-abs",
- "status": "draft",
+ "status": "published",
  "why": "Ordering numbers and reading absolute value as a distance underlies inequalities, QC comparisons and data problems.",
  "rule": "Every real number (rational or irrational) is a point on the **number line**; the greater number is the one farther right, so $-2>-5$. Write $x<y$ for strict order and $x\\le y$ when equality is allowed. An **interval** is all numbers between endpoints: $-1<x<5$ excludes both, $-1\\le x\\le5$ includes both.\n\nThe **absolute value** $|x|$ is the distance from $x$ to 0: $|x| = x$ if $x\\ge0$ and $|x| = -x$ if $x<0$. So $|x| = 6$ means $x = \\pm6$, and $|x|<6$ means $-6<x<6$.",
  "examples": [
@@ -34,12 +34,13 @@
     "number-line-abs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +67,13 @@
     "number-line-abs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,12 +118,13 @@
     "number-line-abs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

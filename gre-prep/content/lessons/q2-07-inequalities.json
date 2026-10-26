@@ -1,6 +1,6 @@
 {
  "id": "q2-07-inequalities",
- "status": "draft",
+ "status": "published",
  "why": "Inequalities appear as given conditions in Quantitative Comparison items, and the sign flip is where most points are lost.",
  "rule": "Solve an inequality like an equation, with one extra rule: **multiplying or dividing both sides by a negative number reverses the sign**. Adding or subtracting any number, or multiplying or dividing by a positive number, keeps the direction.\n\nThe answer is a set of values, such as $x\\ge-4$. Signs with \"or equal to\" include the endpoint; strict signs ($<$, $>$) do not.\n\nWhen several conditions must hold, keep only the values satisfying all of them (the overlap). In a chain like $3\\le2x-1<9$, apply each step to all three parts.\n\nNever multiply or divide by an expression whose sign you do not know.",
  "examples": [
@@ -36,12 +36,13 @@
     "linear-inequalities"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "linear-inequalities"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -118,12 +120,13 @@
     "linear-inequalities"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

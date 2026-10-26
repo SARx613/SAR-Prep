@@ -1,6 +1,6 @@
 {
  "id": "v2-02-same-meaning",
- "status": "draft",
+ "status": "published",
  "why": "ETS's own Sentence Equivalence tips warn against simply picking two choices that mean the same thing, a trap any item can set.",
  "rule": "ETS warns of two traps:\n\n1. Two choices can mean the same thing in a dictionary and still **not fit the sentence**.\n2. The correct pair may **not be exact synonyms**; all that matters is that the two **completed sentences** mean the same.\n\nSo never compare the words with each other. Put each choice into the sentence alone and ask: does it work here, in this logic, direction and tone? Then confirm that the two surviving sentences say the same thing.",
  "examples": [
@@ -43,12 +43,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {
@@ -104,12 +105,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {
@@ -165,12 +167,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a2",
      "solver-b2"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {

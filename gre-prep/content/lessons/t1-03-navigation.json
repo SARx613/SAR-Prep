@@ -1,6 +1,6 @@
 {
  "id": "t1-03-navigation",
- "status": "draft",
+ "status": "published",
  "why": "The test lets you move around within a section, so using Mark and Review well is a pacing skill, not just a button to know.",
  "rule": "Within a section you can:\n\n- move **forward and backward** through the questions and choose which to answer first;\n- **Mark** and use **Review** to tag questions, skip them, and return later if time remains in the section;\n- **change or edit answers**.\n\nAn on-screen calculator is available in Quantitative Reasoning only.",
  "examples": [
@@ -40,12 +40,13 @@
     "test-navigation"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a2",
      "solver-b2"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -90,12 +91,13 @@
     "test-navigation"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -122,12 +124,13 @@
     "test-navigation"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

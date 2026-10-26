@@ -1,8 +1,8 @@
 {
  "id": "q3-01-lines-angles",
- "status": "draft",
+ "status": "published",
  "why": "Angle-chasing with crossing and parallel lines is a staple of GRE geometry, in Quantitative Comparison and problem solving alike.",
- "rule": "A **midpoint** splits a segment into two equal parts.\n\nAngles that together make a straight line add up to 180°; angles around a point add up to 360°. When two lines cross, **opposite (vertical) angles** are equal. Lines crossing at four equal angles are **perpendicular**: each is a 90° **right angle**. An angle below 90° is **acute**; one between 90° and 180° is **obtuse**.\n\n**Parallel lines** never meet. When a third line crosses two parallel lines, both crossings show the same four angles in the same positions: four equal $x^\\circ$ and four equal $y^\\circ$, with $x+y=180$.\n\nThe distance from a point to a line is the length of the perpendicular segment, the shortest path from the point to the line.",
+ "rule": "A **midpoint** splits a segment into two equal parts.\n\nAngles that together make a straight line add up to 180°; angles around a point add up to 360°. When two lines cross, **opposite (vertical) angles** are equal. Lines crossing at four equal angles are **perpendicular**: each is a 90° **right angle**. An angle below 90° is **acute**; one between 90° and 180° is **obtuse**.\n\n**Parallel lines** never meet. When a third line crosses two parallel lines, both crossings show the same four angles in the same positions: four equal $x^\\circ$ and four equal $y^\\circ$, with $x+y=180$.\n\nA point's distance from a line is measured along the segment that meets the line at a right angle; every other route is longer.",
  "examples": [
   {
    "prompt": "Two lines cross. One of the four angles measures $(3a+5)^\\circ$ and a neighbouring angle measures $(a+35)^\\circ$. Find all four angles.",
@@ -36,12 +36,13 @@
     "lines-angles"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "lines-angles"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -118,12 +120,13 @@
     "lines-angles"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

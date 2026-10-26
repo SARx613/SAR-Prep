@@ -1,6 +1,6 @@
 {
  "id": "q4-01-tables-bars",
- "status": "draft",
+ "status": "published",
  "why": "Almost every Data Interpretation set starts from a table or a bar graph, and the items test whether you read counts, totals and percents correctly.",
  "rule": "A **categorical** variable has labels (eye color); a **numerical** variable has numbers (height).\n\n- **Frequency** = count. **Relative frequency** = frequency $\\div$ total, as a fraction, decimal or percent; relative frequencies add up to 1 (100%).\n- **Table**: read the title, units and total row first.\n- In a frequency table, the data add up to the sum of (value $\\times$ frequency).\n- **Bar graph**: bar height is proportional to the value. A grouped graph has several bars per category.\n- **Segmented (stacked) bar**: one bar split into parts. A segment's value is its *length* (top minus bottom); the whole bar is the total.\n- Percents of *different* totals cannot be compared directly: convert to counts first, count = percent $\\times$ total.",
  "examples": [
@@ -35,12 +35,13 @@
     "relative-frequency"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "bar-graphs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -87,12 +89,13 @@
     "percent-of-total"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

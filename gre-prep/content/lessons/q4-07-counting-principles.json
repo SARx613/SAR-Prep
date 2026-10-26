@@ -1,6 +1,6 @@
 {
  "id": "q4-07-counting-principles",
- "status": "draft",
+ "status": "published",
  "why": "Counting methods such as permutations and combinations are on ETS's list of GRE data-analysis topics, and they supply the totals used in probability questions.",
  "rule": "**Multiplication principle**: for choices made one after another, multiply the number of options at each step. If repeats are not allowed, later steps have fewer options (26, then 25, then 24...).\n\n- $n! = n(n-1)\\cdots 2 \\cdot 1$, and $0! = 1$. $n$ objects can be put in order in $n!$ ways.\n- **Order matters** (permutations): choosing and ordering $k$ of $n$ objects gives $\\frac{n!}{(n-k)!}$.\n- **Order does not matter** (combinations): $\\binom{n}{k} = \\frac{n!}{k!\\,(n-k)!}$, and $\\binom{n}{k} = \\binom{n}{n-k}$.\n\nAsk first: does swapping two chosen items make a different outcome?\n\nConsequences:\n\n- Separate groups (2 men *and* 2 women): count each, then multiply.\n- A restricted position: fill it first.\n- Items kept together: order them as one block, then order inside the block.\n- \"At least\" or \"not both\": count all, then subtract the unwanted outcomes.",
  "examples": [
@@ -35,12 +35,13 @@
     "permutations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "combinations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -88,12 +90,13 @@
     "combinations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

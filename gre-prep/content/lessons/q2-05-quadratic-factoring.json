@@ -1,6 +1,6 @@
 {
  "id": "q2-05-quadratic-factoring",
- "status": "draft",
+ "status": "published",
  "why": "Many GRE equations are quadratics in disguise, and factoring is usually the fastest way to the solutions, or to the sign and size information a comparison needs.",
  "rule": "A quadratic equation $ax^2+bx+c=0$ ($a\\ne0$) has zero, one or two real solutions. To solve by factoring:\n1. Move every term to one side, so the other side is 0.\n2. Factor.\n3. Set each factor equal to 0: a product is 0 only when one of its factors is 0.\n\nFor $x^2+bx+c$, look for two numbers with product $c$ and sum $b$. When $a\\ne1$, try $(px+q)(rx+s)$ with $pr=a$, $qs=c$, $ps+qr=b$, and check by expanding.\n\nA repeated factor, as in $(x-3)^2=0$, gives only one solution.",
  "examples": [
@@ -36,12 +36,13 @@
     "quadratic-factoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "quadratic-factoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -124,12 +126,13 @@
     "quadratic-factoring"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

@@ -1,6 +1,6 @@
 {
  "id": "q0-05-calculator",
- "status": "draft",
+ "status": "published",
  "why": "A basic calculator is on screen for Quant, and it helps only if you know its order of operations, its limits and when to leave it alone.",
  "rule": "- **Use it** for tedious work (long division, square roots such as the hypotenuse $\\sqrt{a^2+b^2}$ of legs $a$ and $b$, multi-digit arithmetic); not for easy mental sums or to turn a fraction answer into decimals. Estimate first to catch mis-keys.\n- **Order of operations**: parentheses, exponents and roots, then $\\times\\div$, then $+-$ (left to right). So $6+2\\times3=12$. Use parentheses around a numerator or denominator.\n- **Limits**: eight digits. A result above 99,999,999 shows ERROR; a positive result below $10^{-7}$ shows 0. Division by zero or the root of a negative number gives ERROR. Press clear.\n- **Memory**: M+ adds the display to memory, MR recalls, MC clears it.\n- **Transfer Display** copies the display into a one-box Numeric Entry answer; re-check rounding and percent form.",
  "lengthJustification": "The calculator has five separate rules, each tested directly (order of operations, display limits, ERROR cases, memory, Transfer Display).",
@@ -35,12 +35,13 @@
     "calculator"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "calculator"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -123,12 +125,13 @@
     "calculator"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

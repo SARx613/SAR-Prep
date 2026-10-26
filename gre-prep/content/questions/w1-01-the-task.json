@@ -3,7 +3,7 @@
   "id": "w1-01-the-task-01",
   "lessonId": "w1-01-the-task",
   "difficulty": 1,
-  "stem": "Which description matches the Analytical Writing measure of the GRE General Test as ETS currently describes it?",
+  "stem": "Which description matches how ETS currently presents the Analytical Writing part of the GRE General Test?",
   "explanation": "The measure consists of one 30-minute Analyze an Issue task; reading, planning and writing all happen inside those 30 minutes.",
   "choiceExplanations": {
    "A": "That is the older format; ETS now describes the Argument task only for tests given before 22 September 2023.",
@@ -16,12 +16,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -72,12 +73,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -115,8 +117,8 @@
   "id": "w1-01-the-task-03",
   "lessonId": "w1-01-the-task",
   "difficulty": 2,
-  "stem": "A prompt gives the statement \"Talent matters more than effort in any field.\" The instructions ask you to discuss the extent to which you agree or disagree and to consider ways in which the statement might or might not hold true, explaining how these considerations shape your position. Which plan follows the instructions?",
-  "explanation": "The statement set requires a position plus consideration of ways the statement might or might not hold true, and an explanation of how those considerations shape the position.",
+  "stem": "A prompt gives the statement \"Talent matters more than effort in any field.\" The instructions ask how far you agree or disagree, and tell you to explore situations in which the statement would be true and situations in which it would not, showing how these shape your position. Which plan follows the instructions?",
+  "explanation": "The statement set requires a position, an exploration of where the statement would and would not be true, and an account of how that exploration shapes the position.",
   "choiceExplanations": {
    "A": "It never considers where the statement might hold true, so part of the instruction is missed.",
    "C": "Addressing the strongest challenges is the requirement of a different set (claim plus challenge).",
@@ -128,12 +130,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -171,25 +174,26 @@
   "id": "w1-01-the-task-04",
   "lessonId": "w1-01-the-task",
   "difficulty": 2,
-  "stem": "An Issue task presents a claim and tells you to discuss the extent to which you agree or disagree with it and, in developing and supporting your position, to address the most compelling reasons and/or examples that could be used to challenge your position. Which instruction set is this?",
-  "explanation": "The distinguishing requirement is to address the most compelling reasons or examples that could challenge your own position.",
+  "stem": "An Issue task presents a claim. The instructions ask how far you agree or disagree with it and, as you build your case, to take on the strongest reasons or examples someone could raise against your position. Which instruction set is this?",
+  "explanation": "Its distinguishing requirement is to confront the strongest reasons or examples that could be raised against your own position.",
   "choiceExplanations": {
-   "A": "The statement set asks you to consider ways the statement might or might not hold true.",
-   "B": "The recommendation set asks for circumstances in which adopting the recommendation would or would not be advantageous.",
+   "A": "The statement set asks you to explore where the statement would be true and where it would not.",
+   "B": "The recommendation set asks for circumstances where adopting the recommendation would be advantageous and others where it would not.",
    "D": "The claim-and-reason set asks you to judge the claim and the reason it rests on.",
-   "E": "The policy set asks for the possible consequences of implementing the policy."
+   "E": "The policy set asks what could follow from putting the policy into effect."
   },
   "estSeconds": 60,
   "skills": [
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -227,7 +231,7 @@
   "id": "w1-01-the-task-05",
   "lessonId": "w1-01-the-task",
   "difficulty": 2,
-  "stem": "A prompt presents two opposing views on whether companies should let employees choose their own working hours. The instructions ask which view more closely aligns with your own position, with your reasoning, and tell you to address both views. Select all the things the response must do.",
+  "stem": "A prompt presents two opposing views on whether companies should let employees choose their own working hours. The instructions ask you to say which view is nearer to your own position and why, and to deal with both views. Select all the things the response must do.",
   "explanation": "The two-views set requires choosing the closer view, explaining why, and addressing both views.",
   "choiceExplanations": {
    "D": "That is the requirement of the policy set; no policy is under discussion here.",
@@ -238,12 +242,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -263,7 +268,7 @@
     },
     {
      "id": "D",
-     "text": "Consider the possible consequences of implementing a policy"
+     "text": "Weigh what could result from putting a policy into effect"
     },
     {
      "id": "E",
@@ -296,12 +301,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -339,7 +345,7 @@
   "id": "w1-01-the-task-07",
   "lessonId": "w1-01-the-task",
   "difficulty": 3,
-  "stem": "Prompt: \"Public libraries have become obsolete, because nearly everything they offer is now freely available online.\" The instructions ask you to discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based. Which plan best follows the instructions?",
+  "stem": "Prompt: \"Public libraries have become obsolete, because nearly everything they offer is now freely available online.\" The instructions ask how far you agree or disagree both with the claim and with the reason given to support it. Which plan best follows the instructions?",
   "explanation": "This set requires judging both the claim (libraries are obsolete) and its reason (everything is available online). Plan B tests the reason and then asks whether it supports the claim.",
   "choiceExplanations": {
    "A": "It argues about the claim but ignores the reason, which the instructions require you to address.",
@@ -352,12 +358,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -395,12 +402,12 @@
   "id": "w1-01-the-task-08",
   "lessonId": "w1-01-the-task",
   "difficulty": 3,
-  "stem": "The instructions say: discuss the extent to which you agree or disagree with the claim, and in developing and supporting your position address the most compelling reasons and/or examples that could be used to challenge it. A test taker decides she fully agrees with the claim. Which statement is correct?",
+  "stem": "The instructions say: explain how far you agree or disagree with the claim itself, and as you build your position, take on the strongest reasons or examples someone could raise against it. A test taker decides she fully agrees with the claim. Which statement is correct?",
   "explanation": "ETS does not prescribe a position; full agreement is allowed. The instruction does require engaging with the most compelling challenges to whatever position you take.",
   "choiceExplanations": {
    "B": "No position is required or forbidden.",
    "C": "Addressing challenges is part of this instruction set, whatever your position.",
-   "D": "The instruction names the most compelling challenges, not the weakest.",
+   "D": "The instruction points to the strongest challenges, not the weakest.",
    "E": "Popularity of a claim is not a reason or example that challenges your position."
   },
   "estSeconds": 60,
@@ -408,12 +415,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -451,7 +459,7 @@
   "id": "w1-01-the-task-09",
   "lessonId": "w1-01-the-task",
   "difficulty": 4,
-  "stem": "Prompt: \"Governments should require all citizens to learn a second language.\" Instructions (recommendation set): discuss the extent to which you agree or disagree, describe specific circumstances in which adopting the recommendation would or would not be advantageous, and explain how these examples shape your position. A student drafts the parts below. Select all parts that satisfy the instruction.",
+  "stem": "Prompt: \"Governments should require all citizens to learn a second language.\" Instructions (recommendation set): say how far you agree or disagree, describe particular circumstances where adopting the recommendation would be advantageous and others where it would not, and show how those examples inform your position. A student drafts the parts below. Select all parts that satisfy the instruction.",
   "explanation": "A gives a circumstance where adopting the recommendation is advantageous, B one where it is not, and C ties both to a position, as the set requires.",
   "choiceExplanations": {
    "D": "Popularity with voters is not a circumstance in which the requirement is advantageous or not.",
@@ -462,12 +470,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -520,12 +529,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -563,7 +573,7 @@
   "id": "w1-01-the-task-11",
   "lessonId": "w1-01-the-task",
   "difficulty": 5,
-  "stem": "Prompt: \"Governments should fund only research that has immediate practical uses.\" Instructions (recommendation set): discuss the extent to which you agree or disagree, and describe specific circumstances in which adopting the recommendation would or would not be advantageous, explaining how these examples shape your position.\n\nWhich opening excerpt best sets up a response to these instructions?",
+  "stem": "Prompt: \"Governments should fund only research that has immediate practical uses.\" Instructions (recommendation set): say how far you agree or disagree, and describe particular circumstances where adopting the recommendation would be advantageous and others where it would not, showing how those examples inform your position.\n\nWhich opening excerpt best sets up a response to these instructions?",
   "explanation": "B states a position, gives one circumstance where the recommendation is advantageous and one where it is not, and says how these shape the position, which is exactly what the recommendation set asks for.",
   "choiceExplanations": {
    "A": "It announces background material but takes no position and names no circumstances.",
@@ -576,12 +586,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -619,7 +630,7 @@
   "id": "w1-01-the-task-12",
   "lessonId": "w1-01-the-task",
   "difficulty": 5,
-  "stem": "Prompt: \"Schools should abolish grades, because grades discourage curiosity.\" Instructions: discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based. Select all the plans that address both the claim and its reason.",
+  "stem": "Prompt: \"Schools should abolish grades, because grades discourage curiosity.\" Instructions: say how far you agree or disagree both with the claim and with the reason offered for it. Select all the plans that address both the claim and its reason.",
   "explanation": "The set requires judging both the claim and the reason. A accepts the reason but disputes that it supports the claim, B rejects the reason, and C evaluates the reason as incomplete; each takes a different stance, but all address both parts.",
   "choiceExplanations": {
    "D": "It argues against the claim without ever judging the reason about curiosity.",
@@ -630,12 +641,13 @@
    "issue-instruction-sets"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

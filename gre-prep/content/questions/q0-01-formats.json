@@ -16,12 +16,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -72,12 +73,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -122,12 +124,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -155,12 +158,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -209,12 +213,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -254,26 +259,27 @@
   "id": "q0-01-formats-06",
   "lessonId": "q0-01-formats",
   "difficulty": 2,
-  "stem": "How many integers are there from 7 to 19, inclusive?",
-  "explanation": "Inclusive endpoints count: $19-7+1=13$.",
+  "stem": "A theater has 18 rows of 24 seats. At one show, 37 seats are empty. How many seats are occupied? (Numeric Entry: type an integer in the single box.)",
+  "explanation": "Seats: $18\\cdot24=432$. Occupied: $432-37=395$. An integer goes in one box.",
   "estSeconds": 45,
   "skills": [
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
    "format": "integer"
   },
   "answer": {
-   "value": 13
+   "value": 395
   }
  },
  {
@@ -325,12 +331,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -398,12 +405,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -448,12 +456,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -476,12 +485,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -506,12 +516,13 @@
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -551,29 +562,30 @@
   "id": "q0-01-formats-12",
   "lessonId": "q0-01-formats",
   "difficulty": 4,
-  "stem": "A bag holds 5 red marbles, 7 blue marbles and 8 green marbles. One marble is chosen at random. What is the probability that it is not blue? Enter your answer as a fraction in lowest terms.",
-  "explanation": "The bag has $5+7+8=20$ marbles and $20-7=13$ are not blue, so the probability is $\\frac{13}{20}$.",
+  "stem": "A bag holds 8 red marbles, 10 blue marbles and 12 green marbles. What fraction of the marbles in the bag are not blue? Enter your answer as a fraction in lowest terms.",
+  "explanation": "The bag has $8+10+12=30$ marbles and $30-10=20$ are not blue. $\\frac{20}{30}$ reduces to $\\frac{2}{3}$: enter 2 in the numerator box and 3 in the denominator box.",
   "estSeconds": 75,
   "skills": [
    "quant-formats"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
    "format": "fraction"
   },
   "answer": {
-   "value": 0.65,
+   "value": 0.6666666666666666,
    "fraction": {
-    "numerator": 13,
-    "denominator": 20
+    "numerator": 2,
+    "denominator": 3
    }
   }
  }

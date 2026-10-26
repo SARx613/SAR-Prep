@@ -1,6 +1,6 @@
 {
  "id": "q2-08-functions",
- "status": "draft",
+ "status": "published",
  "why": "Function notation is a compact way the GRE hides substitution, domain and 'for what value of x' questions in algebra and Quantitative Comparison.",
  "rule": "A function gives each input $x$ exactly one output. For $f(x)=2x-7$, the value $f(a)$ comes from replacing **every** $x$ by $a$, in brackets: $f(4)=2(4)-7=1$. The input can be an expression: $f(a+1)=2(a+1)-7$.\n\nTwo different inputs may give the same output: if $g(x)=x^2-6x$, then $g(1)=g(5)=-5$.\n\nThe **domain** is the set of allowed inputs: all real numbers unless a restriction is stated or the expression breaks. It breaks when it divides by 0 or puts a negative number under a square root.",
  "examples": [
@@ -35,12 +35,13 @@
     "functions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -67,12 +68,13 @@
     "functions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -123,12 +125,13 @@
     "functions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

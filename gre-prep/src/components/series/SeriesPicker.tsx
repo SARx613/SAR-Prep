@@ -16,8 +16,8 @@ type Filter = 'all' | 'todo' | 'ongoing' | 'done';
 
 const FILTERS: { id: Filter; label: string }[] = [
   { id: 'all', label: 'All' },
-  { id: 'ongoing', label: 'En cours' },
-  { id: 'todo', label: 'Nouvelles' },
+  { id: 'ongoing', label: 'In progress' },
+  { id: 'todo', label: 'New' },
   { id: 'done', label: 'Mastered' },
 ];
 
@@ -68,7 +68,7 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
         <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '0.75rem' }} className="animate-fade-up page-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
             <Link href="/" className="back-link">
-              <ArrowLeft size={14} /> Dashboard
+              <ArrowLeft size={14} /> Home
             </Link>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', minWidth: 0 }}>
               {icon}

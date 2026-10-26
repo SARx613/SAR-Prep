@@ -1,6 +1,6 @@
 {
  "id": "w1-03-developing",
- "status": "draft",
+ "status": "published",
  "why": "ETS's tips for the Issue task say that clear ideas and skilful support matter more than any fixed essay shape, and the scoring guide rewards developed reasons and examples.",
  "rule": "ETS prescribes no form. Raters look for a position communicated clearly and skilfully.\n\n- **Organise freely.** Any strategy that conveys your position works, including methods from composition courses.\n- **Open as you like:** state your position and announce your points, or lead in with a prediction, questions, a scenario or a definition of key terms.\n- **Support every main point** with logically sound reasons and well-chosen examples, and connect ideas logically. Bare assertions score low.\n- **Examples:** several, or one extended example, can both earn high scores.\n- **Paragraphs:** as many as needed; start a new one for a new cluster of ideas.\n- Clarity and skill count for more than the number of examples or paragraphs.",
  "examples": [
@@ -31,7 +31,7 @@
    "lessonId": "w1-03-developing",
    "difficulty": 1,
    "stem": "Which statement about the structure of an Issue response is consistent with ETS's tips?",
-   "explanation": "ETS says you are free to organise and develop your response in any way that lets you communicate your position effectively.",
+   "explanation": "ETS leaves the organisation up to you: any structure works as long as it gets your position across effectively.",
    "choiceExplanations": {
     "A": "ETS sets no paragraph count; use as many as your argument needs.",
     "C": "Raters have seen high-scoring responses that open in many different ways.",
@@ -43,12 +43,13 @@
     "issue-developing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -87,7 +88,7 @@
    "lessonId": "w1-03-developing",
    "difficulty": 2,
    "stem": "When does ETS suggest you start a new paragraph?",
-   "explanation": "ETS says to use as many or as few paragraphs as needed, and that you will probably need a new paragraph whenever you shift to a new cluster of ideas.",
+   "explanation": "ETS sets no paragraph count: use whatever number your argument needs, and expect to begin a new paragraph each time you move on to a new group of ideas.",
    "choiceExplanations": {
     "A": "Paragraphs follow ideas, not a sentence count.",
     "C": "Most arguments need more than two paragraphs of development.",
@@ -99,12 +100,13 @@
     "issue-developing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
-     "solver-a",
-     "solver-b"
+     "solver-a4",
+     "solver-b4"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -116,7 +118,7 @@
      },
      {
       "id": "B",
-      "text": "Whenever you shift to a new cluster of ideas"
+      "text": "When you move on to a new group of ideas"
      },
      {
       "id": "C",
@@ -155,12 +157,13 @@
     "issue-developing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

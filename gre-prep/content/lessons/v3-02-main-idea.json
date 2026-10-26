@@ -1,6 +1,6 @@
 {
  "id": "v3-02-main-idea",
- "status": "draft",
+ "status": "published",
  "why": "ETS lists summarizing a passage and telling main from minor points among the Reading Comprehension skills, and other questions get easier once you know the author's point.",
  "rule": "The **main idea** is what the author is arguing about the topic, usually the claim the rest of the passage supports or leads to. Separate it from:\n\n- **support**: examples, data, quotations;\n- **setup**: views the author reports before a turn such as *but*, *yet*, *however*.\n\nBefore reading the choices, state the point in one sentence. A good summary covers the whole passage, neither one detail (too narrow) nor more than the passage says (too broad), and keeps the author's strength of claim (not too extreme).",
  "examples": [
@@ -34,12 +34,13 @@
    ],
    "passageId": "v3-c-02",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -85,12 +86,13 @@
    ],
    "passageId": "v3-c-02",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

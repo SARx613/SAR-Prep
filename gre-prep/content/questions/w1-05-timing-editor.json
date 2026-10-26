@@ -16,12 +16,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -60,7 +61,7 @@
   "lessonId": "w1-05-timing-editor",
   "difficulty": 1,
   "stem": "A test taker plans to rely on the word processor to catch misspellings. According to ETS, what is wrong with this plan?",
-  "explanation": "ETS says tools such as a spellchecker and grammar checker are not available in the word processor.",
+  "explanation": "ETS says its word processor has no spellchecker and no grammar checker, so you must catch misspellings yourself.",
   "choiceExplanations": {
    "A": "ETS says these tools are not available.",
    "C": "No spellchecker exists, in any paragraph.",
@@ -72,12 +73,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -116,7 +118,7 @@
   "lessonId": "w1-05-timing-editor",
   "difficulty": 2,
   "stem": "Which of the following does ETS list as functions of its word processor? Select all that apply.",
-  "explanation": "ETS lists insert text, delete text, cut-and-paste and undo the previous action.",
+  "explanation": "ETS lists four functions: inserting text, deleting text, cutting and pasting, and undoing the last action. It offers no spellchecker or grammar checker.",
   "choiceExplanations": {
    "C": "ETS says a spellchecker is not available.",
    "F": "ETS says a grammar checker is not available."
@@ -126,12 +128,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -176,7 +179,7 @@
   "id": "w1-05-timing-editor-04",
   "lessonId": "w1-05-timing-editor",
   "difficulty": 2,
-  "stem": "Why does ETS tell you to save a few minutes at the end of the timed task?",
+  "stem": "Why does ETS advise keeping a few minutes free at the end of the task?",
   "explanation": "The final minutes are for checking for obvious errors, because serious and persistent errors lower the score.",
   "choiceExplanations": {
    "A": "No grammar checker is available.",
@@ -189,12 +192,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -245,12 +249,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -301,12 +306,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -357,12 +363,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -413,12 +420,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -469,12 +477,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -523,12 +532,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -578,12 +588,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -625,7 +636,7 @@
   "lessonId": "w1-05-timing-editor",
   "difficulty": 5,
   "stem": "With three minutes left, a writer rereads her essay. She finds one misspelt word in paragraph two. She also notices that many sentences are structured so badly that their meaning is hard to follow, for example: \"Because the cost, people which cannot afford it, so the plan failing.\" Based on what ETS says about errors, which statement is best?",
-  "explanation": "ETS says an occasional error will not affect the score, but serious and persistent errors detract from the writing. With little time, fixing the obvious, meaning-obscuring sentences is the better use of it.",
+  "explanation": "ETS says an occasional slip will not change the score, but errors that are serious and keep recurring weaken the writing and lower it. With little time, fixing the obvious, meaning-obscuring sentences is the better use of it.",
   "choiceExplanations": {
    "A": "An occasional spelling error will not affect the score.",
    "C": "ETS says serious and persistent errors lower the score.",
@@ -637,12 +648,13 @@
    "issue-timing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

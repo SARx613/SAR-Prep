@@ -1,6 +1,6 @@
 {
  "id": "q3-03-triangles-pythagoras",
- "status": "draft",
+ "status": "published",
  "why": "Angle sums, isosceles triangles, the triangle inequality and the Pythagorean theorem appear in a large share of GRE geometry items.",
  "rule": "The interior angles of a triangle add up to 180°. Each side is shorter than the sum of the other two, so the third side lies between the difference and the sum of the other two.\n\n- **Equilateral**: three equal sides and three 60° angles.\n- **Isosceles**: two equal sides; the angles opposite them are equal, and conversely.\n- **Right**: one 90° angle. The side opposite it is the **hypotenuse** (the longest side); the other two are **legs**.\n\n**Pythagorean theorem**: in a right triangle\n$$\\text{leg}_1^{\\,2}+\\text{leg}_2^{\\,2}=\\text{hypotenuse}^2 .$$",
  "examples": [
@@ -35,12 +35,13 @@
     "pythagorean-theorem"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -68,12 +69,13 @@
     "pythagorean-theorem"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -119,12 +121,13 @@
     "pythagorean-theorem"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

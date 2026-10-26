@@ -1,6 +1,6 @@
 {
  "id": "v2-01-structure",
- "status": "draft",
+ "status": "published",
  "why": "Sentence Equivalence is one of the three Verbal question types, and choosing only one correct word out of two earns nothing.",
  "rule": "Each item is **one sentence with one blank and six choices**. You select **two**.\n\n- Each choice must complete the sentence coherently.\n- The two completed sentences must **mean the same thing**.\n- There is **no partial credit**: one right word and one wrong word scores nothing.\n\nThe item tests the meaning of the finished sentence, so understand the sentence first and the words second.",
  "examples": [
@@ -34,12 +34,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {
@@ -95,12 +96,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {
@@ -156,12 +158,13 @@
     "sentence-equivalence"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "SE",
    "content": {

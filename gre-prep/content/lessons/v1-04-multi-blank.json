@@ -1,6 +1,6 @@
 {
  "id": "v1-04-multi-blank",
- "status": "draft",
+ "status": "published",
  "why": "Two- and three-blank items reward a plan: settle the blank whose clue is clearest, then use it to reason about the others.",
  "rule": "Each blank has three choices and one correct answer, and **all must be right**.\n\n- You need not fill blanks in order. **Start with the blank whose clue is clearest.**\n- Make your choice, then see whether another blank has become easier.\n- If no choice then works for another blank, your first pick is probably wrong: **revisit it**.",
  "examples": [
@@ -33,12 +33,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -104,12 +105,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -177,12 +179,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {

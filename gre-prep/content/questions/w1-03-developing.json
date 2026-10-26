@@ -4,7 +4,7 @@
   "lessonId": "w1-03-developing",
   "difficulty": 1,
   "stem": "Which statement about organising an Issue response is consistent with ETS's tips?",
-  "explanation": "ETS says you are free to organise and develop your response in any way that enables you to communicate your position, and that raters look for no particular developmental strategy.",
+  "explanation": "ETS leaves the organisation up to you: any structure works as long as it gets your position across effectively, and raters do not look for one particular way of developing it.",
   "choiceExplanations": {
    "A": "ETS sets no paragraph count.",
    "B": "Raters have seen top responses that open with predictions, questions, scenarios or definitions instead.",
@@ -16,12 +16,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -60,24 +61,25 @@
   "lessonId": "w1-03-developing",
   "difficulty": 1,
   "stem": "How many paragraphs should an Issue response contain, according to ETS?",
-  "explanation": "ETS says to use as many or as few paragraphs as needed to support your argument.",
+  "explanation": "ETS sets no paragraph count: use whatever number your argument needs, starting a new one when your ideas move to a new group.",
   "choiceExplanations": {
    "A": "ETS sets no number.",
    "B": "A five-paragraph pattern is one possible shape, not a requirement.",
    "C": "ETS sets no minimum.",
-   "E": "A new paragraph is advisable when you shift to a new cluster of ideas."
+   "E": "ETS expects a new paragraph each time you move on to a new group of ideas, so a single paragraph rarely fits."
   },
   "estSeconds": 45,
   "skills": [
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -116,7 +118,7 @@
   "lessonId": "w1-03-developing",
   "difficulty": 2,
   "stem": "Which statement about examples in a high-scoring Issue response matches ETS?",
-  "explanation": "ETS says a writer can earn a high score by giving multiple examples or by presenting a single, extended example.",
+  "explanation": "ETS notes that raters know a high score can come from several examples or from one extended example.",
   "choiceExplanations": {
    "A": "No minimum number of examples is set.",
    "C": "A single, well-developed example can earn a high score.",
@@ -128,12 +130,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -184,12 +187,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -240,12 +244,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -294,12 +299,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -340,7 +346,7 @@
   "lessonId": "w1-03-developing",
   "difficulty": 3,
   "stem": "With ten minutes left, a writer has one well-developed example and a clear position. She is tempted to add three more examples, each in a single sentence, \"to look thorough.\" What is the best advice, according to ETS's tips?",
-  "explanation": "ETS says the clarity of your ideas and the skill with which you convey them are more important than the number of examples and paragraphs.",
+  "explanation": "ETS ranks clear ideas, conveyed with skill, above the number of examples or paragraphs. Sharpening the argument around the developed example is worth more than three one-line examples.",
   "choiceExplanations": {
    "A": "Raters do not count examples.",
    "C": "That would trade development for quantity.",
@@ -352,12 +358,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -396,7 +403,7 @@
   "lessonId": "w1-03-developing",
   "difficulty": 3,
   "stem": "A writer's draft passage is numbered by sentence.\n\n(1) Cheap flights have made travel available to people who once could not afford it. (2) A student on a small budget can now visit a distant relative twice a year. (3) Families separated by long distances stay closer. (4) However, cheap flights also carry costs for the environment. (5) Aircraft burn large amounts of fuel, adding to pollution. (6) Airports expand into farmland and quiet neighbourhoods.\n\nBefore which sentence is a new paragraph most appropriate?",
-  "explanation": "Sentences 1 to 3 form a cluster about benefits; sentence 4 shifts to costs. ETS suggests a new paragraph whenever you shift to a new cluster of ideas.",
+  "explanation": "Sentences 1 to 3 form a group about benefits; sentence 4 turns to costs. ETS suggests starting a new paragraph when you move to a new group of ideas.",
   "choiceExplanations": {
    "A": "Sentence 2 is an example of the benefit in sentence 1, so it stays in the same cluster.",
    "B": "Sentence 3 continues the same benefit.",
@@ -408,12 +415,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -464,12 +472,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -519,12 +528,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a2",
-    "solver-b2"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -540,7 +550,7 @@
     },
     {
      "id": "C",
-     "text": "It provides few, if any, relevant reasons or examples to support its claims."
+     "text": "It gives few or no relevant reasons or examples to back up its claims."
     },
     {
      "id": "D",
@@ -563,7 +573,7 @@
   "id": "w1-03-developing-11",
   "lessonId": "w1-03-developing",
   "difficulty": 5,
-  "stem": "Instructions: discuss the extent to which you agree or disagree with the claim \"Cities should invest more in cycling lanes than in car parks,\" and in developing your position address the most compelling reasons or examples that could be used to challenge it. Which plan best combines good development with these instructions?",
+  "stem": "Instructions: say how far you agree or disagree with the claim \"Cities should invest more in cycling lanes than in car parks,\" and, as you build your position, take on the strongest reasons or examples someone could raise against it. Which plan best combines good development with these instructions?",
   "explanation": "A uses an extended example (allowed by ETS) and also meets this instruction set's requirement to address the most compelling challenge, with a reasoned reply.",
   "choiceExplanations": {
    "B": "The examples are undeveloped and the challenge is dismissed, not addressed.",
@@ -576,12 +586,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a5",
+    "solver-b5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -631,12 +642,13 @@
    "issue-developing"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -644,7 +656,7 @@
    "choices": [
     {
      "id": "A",
-     "text": "A response can earn the top score level by presenting a single extended example."
+     "text": "A response can earn a high score by presenting a single extended example."
     },
     {
      "id": "B",
@@ -660,7 +672,7 @@
     },
     {
      "id": "E",
-     "text": "Highly diverse responses in content and form can display similar levels of critical thinking and persuasive writing."
+     "text": "Responses that differ widely in content and form can show the same quality of reasoning and persuasion."
     },
     {
      "id": "F",

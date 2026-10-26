@@ -1,6 +1,6 @@
 {
  "id": "q4-10-random-variables",
- "status": "draft",
+ "status": "published",
  "why": "Random variables and probability distributions are on ETS's list of GRE data-analysis topics; questions give a distribution as a table or graph and ask for probabilities, the expected value or other statistics.",
  "rule": "A **random variable** $X$ is a number whose value is decided by a random experiment.\n\n- Its **probability distribution** lists each value $x$ with $P(X = x)$. Each probability is between 0 and 1 and they add to 1.\n- For several values, add: $P(X \\ge 3) = P(3) + P(4) + \\cdots$.\n- **Mean (expected value)** $= \\sum x \\cdot P(x)$: each value times its probability.\n- **Mode**: the most probable value. **Median**: the first value where the running total of probabilities (from the least value up) passes 0.5; if it equals 0.5 exactly at a value, take the midpoint of that value and the next.\n- A randomly chosen data value has the data's relative frequency distribution.\n- A **continuous** random variable has probabilities equal to areas under a curve (total area 1), and $P(X = a) = 0$ for any single value $a$.",
  "examples": [
@@ -35,12 +35,13 @@
     "expected-value"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "probability-distribution"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -93,12 +95,13 @@
     "continuous"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

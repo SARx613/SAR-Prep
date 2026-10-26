@@ -6,7 +6,7 @@
   "stem": "Which of the following may be read, estimated or compared by sight?",
   "explanation": "Coordinate systems (including number lines) and data graphs are drawn to scale; ordinary geometric figures are not.",
   "choiceExplanations": {
-   "A": "Geometric figures are not necessarily drawn to scale.",
+   "A": "Geometry figures need not be to scale, so side lengths cannot be read off.",
    "B": "Angle measures in geometric figures cannot be taken from the picture.",
    "C": "Areas in geometric figures are not read by eye.",
    "E": "Lengths in geometric figures are not drawn to scale."
@@ -16,12 +16,13 @@
    "math-conventions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -59,26 +60,27 @@
   "id": "q0-06-conventions-02",
   "lessonId": "q0-06-conventions",
   "difficulty": 1,
-  "stem": "What is the value of $-3^2$?",
-  "explanation": "Exponentiation comes before negation: $-3^2=-(3^2)=-9$. Only $(-3)^2$ equals 9.",
+  "stem": "What is the value of $-6^2$?",
+  "explanation": "Exponentiation comes before negation: $-6^2=-(6^2)=-36$. Only $(-6)^2$ equals 36.",
   "estSeconds": 45,
   "skills": [
    "math-conventions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
    "format": "integer"
   },
   "answer": {
-   "value": -9
+   "value": -36
   }
  },
  {
@@ -107,12 +109,13 @@
    "notes": "Number lines are drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -163,12 +166,13 @@
    "math-conventions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -213,12 +217,13 @@
    "math-conventions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -233,7 +238,7 @@
   "lessonId": "q0-06-conventions",
   "difficulty": 2,
   "stem": "In the figure, which of the following may be assumed to be true? Indicate all such statements.",
-  "explanation": "Points on a line are in the order shown, and the square mark gives the right angle. Lengths and shapes that merely look right are not given.",
+  "explanation": "Points on a line keep the order drawn, so $D$ is between $A$ and $C$, and the square mark gives the right angle. Lengths and shapes that merely look right are not given.",
   "choiceExplanations": {
    "C": "It looks that way, but no equal-length mark or length is given.",
    "D": "Comparing lengths by eye is not allowed.",
@@ -253,12 +258,13 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -313,12 +319,13 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -345,12 +352,13 @@
    "math-conventions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -391,7 +399,7 @@
   "lessonId": "q0-06-conventions",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "explanation": "$B$ lies on segment $AC$ between $A$ and $C$ in the order shown, so $AC=AB+BC=4+5=9$, even though $AB$ looks longer than $BC$. The quantities are equal.",
+  "explanation": "Points on a line keep the order drawn, so $B$ is between $A$ and $C$ and $AC=AB+BC=4+5=9$, even though $AB$ looks longer than $BC$. The quantities are equal.",
   "estSeconds": 75,
   "skills": [
    "math-conventions"
@@ -406,18 +414,19 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
    "quantityA": "$AC$",
    "quantityB": "9",
-   "common": "Points $A$, $B$ and $C$ lie on a line in the order shown, with $AB=4$ and $BC=5$."
+   "common": "Points $A$, $B$ and $C$ lie on a line as drawn, with $AB=4$ and $BC=5$."
   },
   "answer": {
    "choice": "C"
@@ -428,7 +437,7 @@
   "lessonId": "q0-06-conventions",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "explanation": "The angles of a triangle sum to 180: $180-50-60=70$. The picture makes $R$ look different, but figures need not be to scale.",
+  "explanation": "Using the stated fact, angle $R$ measures $180-50-60=70$ degrees. The picture makes $R$ look different, but geometry figures need not be to scale: only the given numbers count.",
   "estSeconds": 75,
   "skills": [
    "math-conventions"
@@ -443,18 +452,19 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
    "quantityA": "The measure of angle $R$, in degrees",
    "quantityB": "70",
-   "common": "In triangle $PQR$, the measure of angle $P$ is 50 degrees and the measure of angle $Q$ is 60 degrees."
+   "common": "In triangle $PQR$, the measure of angle $P$ is 50 degrees and the measure of angle $Q$ is 60 degrees. The three angle measures of a triangle add up to 180 degrees."
   },
   "answer": {
    "choice": "C"
@@ -480,12 +490,13 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -521,12 +532,13 @@
    "notes": "Not necessarily drawn to scale."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

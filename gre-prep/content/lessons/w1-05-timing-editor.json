@@ -1,6 +1,6 @@
 {
  "id": "w1-05-timing-editor",
- "status": "draft",
+ "status": "published",
  "why": "You get one 30-minute Issue task in a basic ETS word processor with no spelling or grammar help, so your time plan and your editing habits must fit those conditions.",
  "rule": "- The Issue task lasts **30 minutes**; reading, planning and writing all come out of that time.\n- Topics span many subjects but need **no specific content knowledge**.\n- ETS's basic word processor lists only **insert, delete, cut and paste, and undo of your last action**: **no spellchecker or grammar checker**.\n- Allow time to consider the issue and instructions, plan and compose your best writing; **keep a few final minutes** to check for obvious errors.\n- An occasional error will not affect your score; serious and persistent errors lower it.\n- Practise on ETS's published topics: sketch responses, start untimed or timed, then write full 30-minute responses and compare them with the scoring guide or a fellow student's.",
  "examples": [
@@ -31,7 +31,7 @@
    "lessonId": "w1-05-timing-editor",
    "difficulty": 1,
    "stem": "Which tool is NOT available in the ETS word processor used for the Analytical Writing measure?",
-   "explanation": "ETS lists insert, delete, cut-and-paste and undo of the previous action, and says a spellchecker and grammar checker are not available.",
+   "explanation": "ETS lists inserting and deleting text, cutting and pasting, and undoing the last action, and says there is no spellchecker or grammar checker.",
    "choiceExplanations": {
     "A": "Cut-and-paste is listed.",
     "B": "Undoing the previous action is listed.",
@@ -43,12 +43,13 @@
     "issue-timing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -86,8 +87,8 @@
    "id": "w1-05-timing-editor-c2",
    "lessonId": "w1-05-timing-editor",
    "difficulty": 2,
-   "stem": "Why does ETS advise saving a few minutes at the end of the timed task?",
-   "explanation": "ETS says to save a few minutes at the end to check for obvious errors.",
+   "stem": "Why does ETS advise keeping a few minutes free at the end?",
+   "explanation": "ETS advises leaving a few minutes at the end to look for obvious errors.",
    "choiceExplanations": {
     "A": "No spellchecker is available.",
     "C": "There is only one task.",
@@ -99,12 +100,13 @@
     "issue-timing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
-     "solver-a",
-     "solver-b"
+     "solver-a4",
+     "solver-b4"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -155,12 +157,13 @@
     "issue-timing"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

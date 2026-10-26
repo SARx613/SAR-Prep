@@ -1,6 +1,6 @@
 {
  "id": "q4-06-sets-venn",
- "status": "draft",
+ "status": "published",
  "why": "Venn diagrams are on ETS's list of GRE counting topics; questions describe two overlapping groups and ask how many are in both, in only one, or in neither.",
  "rule": "A **set** is a collection of distinct objects (elements). Order and repeats do not matter, so $\\{1, 2, 2, 3\\}$ has 3 elements. $|S|$ is the number of elements of $S$.\n\n- **Union** $S \\cup T$: elements in $S$ or $T$ or both. **Intersection** $S \\cap T$: elements in both. Sets with no common element are **disjoint**.\n- **Inclusion-exclusion**: $|S \\cup T| = |S| + |T| - |S \\cap T|$.\n- In a Venn diagram: only $S$ $= |S| - |S \\cap T|$; exactly one $=$ only $S$ $+$ only $T$; neither $=$ total $- |S \\cup T|$.\n- **Limits on the overlap**: $|S \\cap T|$ cannot exceed the smaller of $|S|$ and $|T|$, and since $|S \\cup T|$ cannot exceed the total, $|S \\cap T| \\ge |S| + |T| - \\text{total}$.",
  "examples": [
@@ -35,12 +35,13 @@
     "inclusion-exclusion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,12 +62,13 @@
     "venn"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

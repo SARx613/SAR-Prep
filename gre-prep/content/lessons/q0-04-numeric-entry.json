@@ -1,6 +1,6 @@
 {
  "id": "q0-04-numeric-entry",
- "status": "draft",
+ "status": "published",
  "why": "Numeric Entry has no choices to reveal a mistake, so form, units and rounding decide whether a correct calculation scores.",
  "rule": "- **Form**: integers and decimals go in one box; a fraction goes in two (numerator, denominator).\n- **Labels**: note units (feet or miles), orders of magnitude (millions, billions) and percent versus decimal. If a percent sign follows the box, enter $37.5$, not $0.375$.\n- **Rounding**: if told to round, do it to the stated place. Keep all intermediate values exact and round **only the final answer**. A positive number exactly halfway rounds to the greater value. With no rounding instruction, enter the exact value.\n- **Check**: is the answer reasonable for the context?",
  "examples": [
@@ -34,12 +34,13 @@
     "numeric-entry"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -60,12 +61,13 @@
     "numeric-entry"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -92,12 +94,13 @@
     "numeric-entry"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

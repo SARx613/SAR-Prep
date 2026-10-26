@@ -1,6 +1,6 @@
 {
  "id": "v3-03-major-minor",
- "status": "draft",
+ "status": "published",
  "why": "ETS tests whether you can tell the author's own claims from views the author merely reports, and firm claims from hypothetical ones.",
  "rule": "For each idea ask two things.\n\n**Major or minor?** The major point is what the passage is built to support; illustrations and asides are minor.\n\n**Whose and how firm?**\n\n- **Reported**: attributed to others (*critics say*, *some hold*, *it is thought*). It is not the author's unless the author endorses it.\n- **Advanced**: the author asserts it.\n- **Speculative**: hedged (*may*, *perhaps*, *it seems likely*, *I suspect*).\n\nTurns such as *however* or *yet* often mark where the author leaves a reported view. Keep hedges: *may* is not *is*.",
  "examples": [
@@ -32,12 +32,13 @@
    ],
    "passageId": "v3-c-03",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -75,12 +76,13 @@
    ],
    "passageId": "v3-c-03",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

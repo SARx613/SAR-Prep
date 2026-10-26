@@ -16,12 +16,13 @@
    "text-completion"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "TC",
   "content": {
@@ -77,12 +78,13 @@
    "sentence-equivalence"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "SE",
   "content": {
@@ -138,12 +140,13 @@
    "text-completion"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "TC",
   "content": {
@@ -209,12 +212,13 @@
    "sentence-equivalence"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "SE",
   "content": {
@@ -271,12 +275,13 @@
   ],
   "passageId": "v0-02-urban-growth",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -328,12 +333,13 @@
   ],
   "passageId": "v0-02-urban-growth",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -385,12 +391,13 @@
   ],
   "passageId": "v0-02-moon-haze",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -436,12 +443,13 @@
   ],
   "passageId": "v0-02-moon-haze",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -469,12 +477,13 @@
   ],
   "passageId": "v0-02-loyalty",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -513,7 +522,7 @@
   "lessonId": "v0-02-active-reading",
   "difficulty": 5,
   "stem": "Consider each of the choices separately and select all that apply. Which of the following does the passage suggest?",
-  "explanation": "**Relationships between ideas.** The first choice restates the claim that those \"who already spend heavily are the ones most likely to join\". The random test produced a small rise compared with the large earlier gap, so the gap overstated the effect. The passage explicitly denies that programs are worthless.",
+  "explanation": "**Relationships between ideas.** Choice B restates the claim that heavy spenders are the ones most likely to join. Choice C follows from the random test: members' spending rose only slightly, far less than the large earlier gap, so the gap overstated the effect. Choice A is wrong because the passage explicitly denies that programs are worthless.",
   "choiceExplanations": {
    "A": "The author says the result does not show programs are worthless and mentions possible benefits such as better data."
   },
@@ -523,12 +532,13 @@
   ],
   "passageId": "v0-02-loyalty",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -573,12 +583,13 @@
   ],
   "passageId": "v0-02-frontier-photos",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -631,12 +642,13 @@
    "text-completion"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "TC",
   "content": {

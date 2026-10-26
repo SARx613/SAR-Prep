@@ -1,6 +1,6 @@
 {
  "id": "v1-02-method",
- "status": "draft",
+ "status": "published",
  "why": "Reading, predicting and then matching beats testing every combination of choices, which is slow and error-prone.",
  "rule": "Do not test every combination. Instead:\n\n1. **Read** the whole text for its overall sense.\n2. **Mark** significant words: structure words (*although*, *moreover*) and words central to the topic.\n3. **Predict** a word or phrase for each blank, then look for a similar one among the choices.\n4. **Check** that the finished text is coherent in logic, grammar and style.",
  "examples": [
@@ -35,12 +35,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -96,12 +97,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {
@@ -167,12 +169,13 @@
     "text-completion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "TC",
    "content": {

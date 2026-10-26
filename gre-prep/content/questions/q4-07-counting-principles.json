@@ -10,12 +10,13 @@
    "multiplication-principle"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -36,12 +37,13 @@
    "permutations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -68,12 +70,13 @@
    "combinations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -118,12 +121,13 @@
    "combinations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -145,12 +149,13 @@
    "multiplication-principle"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -177,12 +182,13 @@
    "permutations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -228,12 +234,13 @@
    "multiplication-principle"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -258,12 +265,13 @@
    "combinations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -306,12 +314,13 @@
    "permutations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -325,12 +334,12 @@
   "id": "q4-07-counting-principles-10",
   "lessonId": "q4-07-counting-principles",
   "difficulty": 4,
-  "stem": "How many three-digit positive integers can be formed using the digits 1, 2, 3, 4, 5 and 6, with no digit used more than once, so that the integer is even?",
-  "explanation": "Fill the restricted place first. The units digit must be 2, 4 or 6: 3 choices. The hundreds digit then has 5 choices, and the tens digit 4. Total $3 \\times 5 \\times 4 = 60$.",
+  "stem": "Three-digit numbers are made from the digits 2, 3, 5, 7, 8 and 9, with no digit appearing twice in the same number. How many of these numbers are even?",
+  "explanation": "Fill the restricted place first. The units digit must be even: 2 or 8, so 2 choices. The hundreds digit then has 5 choices, and the tens digit 4. Total $2 \\times 5 \\times 4 = 40$.",
   "choiceExplanations": {
-   "A": "36 is $6 \\times 6$, which has no meaning here.",
-   "C": "90 is $3 \\times 5 \\times 6$: the tens digit may not repeat a used digit.",
-   "D": "120 is $6 \\times 5 \\times 4$: it ignores the requirement that the integer be even.",
+   "B": "60 is half of $6 \\times 5 \\times 4 = 120$: only 2 of the 6 digits are even, so half the numbers are not even.",
+   "C": "72 is $6 \\times 6 \\times 2$: it lets digits repeat.",
+   "D": "120 is $6 \\times 5 \\times 4$: it ignores the requirement that the number be even.",
    "E": "216 is $6^3$: it allows repeated digits and ignores evenness."
   },
   "estSeconds": 100,
@@ -338,12 +347,13 @@
    "multiplication-principle"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
-    "solver-a",
-    "solver-b"
+    "solver-a4",
+    "solver-b4"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -351,7 +361,7 @@
    "choices": [
     {
      "id": "A",
-     "text": "$36$"
+     "text": "$40$"
     },
     {
      "id": "B",
@@ -359,7 +369,7 @@
     },
     {
      "id": "C",
-     "text": "$90$"
+     "text": "$72$"
     },
     {
      "id": "D",
@@ -373,7 +383,7 @@
   },
   "answer": {
    "choices": [
-    "B"
+    "A"
    ]
   }
  },
@@ -388,12 +398,13 @@
    "combinations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -415,12 +426,13 @@
    "complement"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-a",
     "solver-b"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {

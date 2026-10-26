@@ -1,6 +1,6 @@
 {
  "id": "q4-11-normal",
- "status": "draft",
+ "status": "published",
  "why": "Normal distributions are on ETS's list of GRE data-analysis topics; questions are answered with symmetry and the approximate shares within 1 and 2 standard deviations, not with statistical tables.",
  "rule": "A **normal distribution** is bell-shaped and symmetric about its mean $m$; mean, median and mode coincide. A larger SD $d$ gives a lower, wider curve; changing $m$ slides the same curve sideways. Areas under the curve are probabilities; the total area is 1.\n\n- About **two-thirds** of the data lie within 1 SD of the mean (from $m - d$ to $m + d$); almost all lie within 2 SDs.\n- By symmetry: $\\frac12$ lies above $m$, about $\\frac13$ between $m$ and $m + d$, and about $\\frac16$ above $m + d$ (the same below).\n- **Standardize** with $z = \\frac{x - m}{d}$ to count SDs from the mean; the value $k$ SDs above the mean is $m + kd$ (below: $m - kd$).",
  "examples": [
@@ -27,12 +27,13 @@
     "normal-distribution"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -57,12 +58,13 @@
     "standardization"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

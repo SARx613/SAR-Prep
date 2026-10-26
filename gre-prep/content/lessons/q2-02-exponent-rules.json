@@ -1,6 +1,6 @@
 {
  "id": "q2-02-exponent-rules",
- "status": "draft",
+ "status": "published",
  "why": "Exponent manipulation sits inside many Quantitative Comparison and numeric-entry items, especially ones that look huge until you rewrite them over a common base.",
  "rule": "For nonzero bases and integer exponents:\n- $x^{-a}=\\dfrac1{x^a}$ and $x^0=1$\n- same base: $x^ax^b=x^{a+b}$, $\\dfrac{x^a}{x^b}=x^{a-b}$, $(x^a)^b=x^{ab}$\n- same exponent: $x^ay^a=(xy)^a$, $\\left(\\dfrac xy\\right)^a=\\dfrac{x^a}{y^a}$\n\nIf $x>0$, $x\\ne1$ and $x^a=x^b$, then $a=b$: rewrite both sides over one base, then equate exponents.\n\nRules work only for products, quotients and powers. They fail for sums: $(x+y)^2\\ne x^2+y^2$. Also $(-x)^2=x^2$ but $-x^2$ is negative.",
  "examples": [
@@ -36,12 +36,13 @@
     "exponent-rules"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -62,12 +63,13 @@
     "exponent-rules"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -94,12 +96,13 @@
     "exponent-rules"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

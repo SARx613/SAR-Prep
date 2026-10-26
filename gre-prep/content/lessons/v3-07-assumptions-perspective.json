@@ -1,6 +1,6 @@
 {
  "id": "v3-07-assumptions-perspective",
- "status": "draft",
+ "status": "published",
  "why": "Reading Comprehension often asks what an author takes for granted and what attitude the author holds toward the subject.",
  "rule": "An **assumption** is an unstated premise that bridges the evidence and the conclusion. Test it by negating it: if the argument then collapses, the assumption was needed. It is not something the passage already says, and it is not merely helpful.\n\n**Perspective** is the author's stance. Read attitude words (*unfortunately*, *tempting*, *fair*), what the author calls obvious or doubtful, and which view gets the last word. Name the tone (tentative, skeptical, appreciative, mixed) and keep your own opinions out of it.",
  "examples": [
@@ -41,12 +41,13 @@
    ],
    "passageId": "v3-c-07",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -98,12 +99,13 @@
    ],
    "passageId": "v3-c-07",
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-a",
      "solver-b"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
