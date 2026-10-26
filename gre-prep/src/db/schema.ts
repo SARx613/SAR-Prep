@@ -7,7 +7,6 @@ import {
   smallint,
   text,
   timestamp,
-  uniqueIndex,
   index,
   uuid,
 } from 'drizzle-orm/pg-core';

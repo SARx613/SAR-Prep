@@ -104,7 +104,7 @@ export function reviewSeries(progress: UserProgress | null): WordSeries | null {
   return {
     id: 'review',
     themeId: 'review',
-    title: 'Mots à revoir',
+    title: 'Words to review',
     wordIds: progress.reviewIds.slice(0, SERIES_SIZE),
   };
 }

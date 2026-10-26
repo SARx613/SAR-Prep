@@ -40,7 +40,10 @@ export default function Home() {
   }, []);
 
   // ── Show local progress immediately — never wait on the network ──────────
+  // localStorage does not exist during server rendering, so reading it in the
+  // initial state would mismatch on hydration; it has to wait for the mount.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(loadProgress());
   }, []);
 
@@ -66,7 +69,7 @@ export default function Home() {
 
   // ── Handlers ─────────────────────────────────────────────────────────────
   const handleReset = () => {
-    if (confirm('Réinitialiser toute la progression ?')) {
+    if (confirm('Reset all progress?')) {
       resetProgress();
       // The per-series run counts are progress too; leaving them behind would
       // show "×4 tours" on a series with nothing mastered.
@@ -94,17 +97,17 @@ export default function Home() {
 
   const stats = [
     {
-      key: 'mastered', label: 'Maîtrisés', icon: Trophy,
+      key: 'mastered', label: 'Mastered', icon: Trophy,
       color: '#10b981', bg: 'rgba(16,185,129,0.12)', border: 'rgba(16,185,129,0.25)',
       value: progress?.masteredIds.length ?? 0,
     },
     {
-      key: 'review', label: 'À revoir', icon: Target,
+      key: 'review', label: 'To review', icon: Target,
       color: '#f43f5e', bg: 'rgba(244,63,94,0.1)', border: 'rgba(244,63,94,0.2)',
       value: progress?.reviewIds.length ?? 0,
     },
     {
-      key: 'seen', label: 'Vus', icon: Eye,
+      key: 'seen', label: 'Seen', icon: Eye,
       color: '#f59e0b', bg: 'rgba(245,158,11,0.1)', border: 'rgba(245,158,11,0.2)',
       value: progress?.totalSeen ?? 0,
     },
@@ -118,37 +121,37 @@ export default function Home() {
   const navCards = [
     {
       title: 'Flashcards',
-      description: 'Des séries courtes groupées par thème : tu en finis une, tu la refais. Idéal pour mémoriser.',
+      description: 'Short series grouped by theme: finish one, then replay it. Built for memorisation.',
       icon: Layers,
       color: 'var(--violet)',
       bg: 'rgba(139,92,246,0.08)',
       accentBg: 'rgba(139,92,246,0.18)',
       accentBorder: 'rgba(139,92,246,0.35)',
-      cta: 'Commencer',
+      cta: 'Start',
       href: '/flashcards',
       delay: 0.5,
     },
     {
-      title: "S'entraîner",
-      description: 'Les mêmes séries en QCM ou en frappe au clavier, pour vérifier ce qui est vraiment acquis.',
+      title: 'Train',
+      description: 'The same series as multiple choice or typing, to check what you really know.',
       icon: Gamepad2,
       color: 'var(--emerald)',
       bg: 'rgba(16,185,129,0.08)',
       accentBg: 'rgba(16,185,129,0.18)',
       accentBorder: 'rgba(16,185,129,0.35)',
-      cta: 'Jouer',
+      cta: 'Play',
       href: '/games',
       delay: 0.6,
     },
     {
-      title: 'Questions GRE',
-      description: "Questions d'entraînement originales : verbal et quantitatif, au format officiel.",
+      title: 'GRE Questions',
+      description: 'Original practice questions, Verbal and Quant, in the official GRE formats.',
       icon: ClipboardList,
       color: 'var(--amber)',
       bg: 'rgba(245,158,11,0.08)',
       accentBg: 'rgba(245,158,11,0.18)',
       accentBorder: 'rgba(245,158,11,0.35)',
-      cta: "S'entraîner",
+      cta: 'Practice',
       href: '/practice',
       delay: 0.7,
     },
@@ -188,7 +191,7 @@ export default function Home() {
                 SAR Prep
               </h1>
               <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.15em', margin: '0.2rem 0 0 0' }}>
-                Tableau de bord
+                Dashboard
               </p>
             </div>
           </div>
@@ -209,7 +212,7 @@ export default function Home() {
               onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--rose)'; e.currentTarget.style.color = 'var(--rose)'; }}
               onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.color = 'var(--text-muted)'; }}
             >
-              <RefreshCcw size={14} /> Réinitialiser
+              <RefreshCcw size={14} /> Reset
             </button>
 
             {/* ── Auth button ─────────────────────────────────────────── */}
@@ -239,7 +242,7 @@ export default function Home() {
                 </span>
                 <button
                   onClick={handleSignOut}
-                  title="Se déconnecter"
+                  title="Sign out"
                   style={{
                     display: 'flex', alignItems: 'center', gap: '0.3rem',
                     color: 'var(--text-muted)', background: 'transparent',
@@ -250,7 +253,7 @@ export default function Home() {
                   onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--rose)'; e.currentTarget.style.borderColor = 'var(--rose)'; }}
                   onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--text-muted)'; e.currentTarget.style.borderColor = 'var(--border)'; }}
                 >
-                  <LogOut size={13} /> Déconnexion
+                  <LogOut size={13} /> Sign out
                 </button>
               </div>
             ) : (
@@ -270,7 +273,7 @@ export default function Home() {
                 onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(255,255,255,0.04)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)'; }}
               >
                 <GoogleLogo size={17} />
-                Continuer avec Google
+                Continue with Google
               </button>
             )}
           </div>
@@ -285,7 +288,7 @@ export default function Home() {
           >
             <span style={{ width: 7, height: 7, background: 'var(--emerald)', borderRadius: '50%', display: 'inline-block', boxShadow: '0 0 8px var(--emerald)' }} />
             <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500 }}>
-              Progression sauvegardée dans le cloud
+              Progress saved to the cloud
             </span>
           </motion.div>
         )}
@@ -328,7 +331,7 @@ export default function Home() {
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
             <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-              Progression globale
+              Overall progress
             </span>
             <span style={{ fontSize: '0.875rem', fontWeight: 800 }} className="text-gradient-emerald">
               {progress?.masteredIds.length ?? 0} / {totalWords}

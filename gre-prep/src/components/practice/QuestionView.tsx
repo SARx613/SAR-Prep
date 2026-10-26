@@ -170,7 +170,7 @@ export function QuestionView({
             <div key={blank.index} className="space-y-2">
               {content.blanks.length > 1 && (
                 <p className="text-xs uppercase tracking-wide text-[var(--text-muted)]">
-                  Blanc {blank.index}
+                  Blank ({['i','ii','iii'][blank.index - 1]})
                 </p>
               )}
               {blank.choices.map((c) => (
@@ -229,7 +229,7 @@ export function QuestionView({
           ))}
         </div>
         <p className="text-xs text-[var(--text-muted)]">
-          Sélectionne exactement deux réponses — {picked.length}/2.
+          Select exactly two answers — {picked.length}/2.
         </p>
       </div>
     );
@@ -289,7 +289,7 @@ export function QuestionView({
             value={selection.numeric}
             disabled={locked}
             onChange={(e) => onSelect({ ...selection, numeric: e.target.value })}
-            placeholder="Ta réponse"
+            placeholder="Your answer"
             className={cx(
               'w-44 px-4 py-3 rounded-xl bg-white/[0.03] border text-lg outline-none',
               'focus:border-violet-400/60',
@@ -302,7 +302,7 @@ export function QuestionView({
           />
           {revealed && !revealed.isCorrect && (
             <span className="text-sm text-emerald-300">
-              Réponse : {revealed.expected[0]}
+              Answer: {revealed.expected[0]}
             </span>
           )}
         </div>
@@ -338,15 +338,15 @@ export function QuestionView({
       {content.format === 'select_in_passage' ? (
         <div className="space-y-2">
           <p className="text-xs text-[var(--text-muted)]">
-            Trouve la phrase du passage qui répond à la question, puis saisis ses
-            premiers mots.
+            Find the sentence in the passage that answers the question, then type its
+            first words.
           </p>
           <input
             type="text"
             value={selection.sentence}
             disabled={locked}
             onChange={(e) => onSelect({ ...selection, sentence: e.target.value })}
-            placeholder="Premiers mots de la phrase…"
+            placeholder="First words of the sentence…"
             className="w-full px-4 py-3 rounded-xl bg-white/[0.03] border border-white/12 outline-none focus:border-violet-400/60"
           />
           {revealed && (
@@ -384,7 +384,7 @@ export function QuestionView({
           </div>
           {multi && (
             <p className="text-xs text-[var(--text-muted)]">
-              Sélectionne toutes les bonnes réponses — et aucune autre.
+              Select all correct answers — and no others.
             </p>
           )}
         </>

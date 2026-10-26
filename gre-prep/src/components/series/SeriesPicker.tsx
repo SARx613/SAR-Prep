@@ -15,10 +15,10 @@ import {
 type Filter = 'all' | 'todo' | 'ongoing' | 'done';
 
 const FILTERS: { id: Filter; label: string }[] = [
-  { id: 'all', label: 'Toutes' },
+  { id: 'all', label: 'All' },
   { id: 'ongoing', label: 'En cours' },
   { id: 'todo', label: 'Nouvelles' },
-  { id: 'done', label: 'Maîtrisées' },
+  { id: 'done', label: 'Mastered' },
 ];
 
 /* One accent per theme, cycled, so neighbouring cards stay distinguishable
@@ -79,7 +79,7 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
           <div className="glass queue-badge" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.4rem 0.9rem', borderRadius: 99, flexShrink: 0, whiteSpace: 'nowrap' }}>
             <span style={{ width: 7, height: 7, background: accent, borderRadius: '50%', boxShadow: `0 0 10px ${accent}`, display: 'inline-block' }} />
             <span style={{ fontSize: '0.88rem', fontWeight: 800, color: '#fff' }}>
-              {totalMastered} <span style={{ color: 'var(--text-muted)', fontWeight: 600 }}>/ {totalWords} mots</span>
+              {totalMastered} <span style={{ color: 'var(--text-muted)', fontWeight: 600 }}>/ {totalWords} words</span>
             </span>
           </div>
         </header>
@@ -101,9 +101,9 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
                 <Target size={19} color="var(--rose)" />
               </span>
               <span style={{ minWidth: 0 }}>
-                <span style={{ display: 'block', fontWeight: 800, color: '#fff', fontSize: '0.98rem' }}>Mots à revoir</span>
+                <span style={{ display: 'block', fontWeight: 800, color: '#fff', fontSize: '0.98rem' }}>Words to review</span>
                 <span style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                  {review.wordIds.length} mot{review.wordIds.length > 1 ? 's' : ''} ratés, à reprendre maintenant
+                  {review.wordIds.length} missed word{review.wordIds.length > 1 ? 's' : ''}, ready to replay
                 </span>
               </span>
             </motion.div>
@@ -128,7 +128,7 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
 
         {/* Series grid */}
         {shown.length === 0 ? (
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Aucune série dans ce filtre.</p>
+          <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>No series in this filter.</p>
         ) : (
           <div className="series-grid">
             {shown.map((s, i) => (
@@ -192,7 +192,7 @@ function SeriesCard({
       </div>
 
       <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 600 }}>
-        {total} mots
+        {total} words
       </span>
 
       <div style={{ width: '100%', height: 6, background: 'rgba(255,255,255,0.06)', borderRadius: 99, overflow: 'hidden' }}>
@@ -200,7 +200,7 @@ function SeriesCard({
       </div>
 
       <span style={{ fontSize: '0.72rem', fontWeight: 700, color: complete ? 'var(--emerald)' : 'var(--text-secondary)' }}>
-        {mastered}/{total} maîtrisés
+        {mastered}/{total} mastered
       </span>
     </motion.a>
   );

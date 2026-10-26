@@ -10,7 +10,7 @@ export default function FlashcardsPage() {
       title="Flashcards"
       icon={<Layers size={22} color="var(--violet)" style={{ flexShrink: 0 }} />}
       accent="var(--violet)"
-      subtitle="Le deck est découpé en séries courtes, groupées par thème. Choisis-en une, va au bout, recommence-la : c’est la répétition qui fait rentrer les mots, pas la longueur de la liste."
+      subtitle="The deck is cut into short series grouped by theme. Pick one, finish it, then replay it: repetition is what makes words stick, not the length of the list."
     />
   );
 }

@@ -150,9 +150,9 @@ export function PracticeSession({ quiz, onRestart }: { quiz: Quiz; onRestart: ()
       >
         <div>
           <Trophy className="w-12 h-12 mx-auto text-amber-400 mb-4" />
-          <h2 className="text-3xl font-bold mb-2">Session terminée</h2>
+          <h2 className="text-3xl font-bold mb-2">Session complete</h2>
           <p className="text-[var(--text-secondary)]">
-            {correct} bonnes réponses sur {graded.length}
+            {correct} of {graded.length} correct
           </p>
         </div>
 
@@ -200,7 +200,7 @@ export function PracticeSession({ quiz, onRestart }: { quiz: Quiz; onRestart: ()
               {question.type}
             </span>
             <span className="text-xs text-[var(--text-muted)]">
-              Difficulté {question.difficulty}/5
+              Difficulty {question.difficulty}/5
             </span>
             <button
               onClick={() =>
@@ -211,7 +211,7 @@ export function PracticeSession({ quiz, onRestart }: { quiz: Quiz; onRestart: ()
                   return s;
                 })
               }
-              aria-label="Marquer pour révision"
+              aria-label="Mark for review"
               className={
                 flagged.has(question.id)
                   ? 'text-amber-400'
@@ -298,7 +298,7 @@ export function PracticeSession({ quiz, onRestart }: { quiz: Quiz; onRestart: ()
             onClick={next}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-500/15 border border-violet-400/40 hover:bg-violet-500/25 transition font-medium"
           >
-            {index + 1 === quiz.questions.length ? 'Voir les résultats' : 'Suivant'}
+            {index + 1 === quiz.questions.length ? 'See results' : 'Next'}
             <ArrowRight className="w-4 h-4" />
           </button>
         ) : (
@@ -307,7 +307,7 @@ export function PracticeSession({ quiz, onRestart }: { quiz: Quiz; onRestart: ()
             disabled={!isComplete(question, selection) || pending}
             className="px-6 py-3 rounded-xl bg-emerald-500/15 border border-emerald-400/40 hover:bg-emerald-500/25 transition font-medium disabled:opacity-35 disabled:cursor-not-allowed"
           >
-            {pending ? 'Vérification…' : 'Valider'}
+            {pending ? 'Checking…' : 'Submit'}
           </button>
         )}
       </div>

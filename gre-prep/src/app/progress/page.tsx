@@ -37,7 +37,7 @@ export default function ProgressPage() {
             className="inline-flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-white transition mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
-            Tableau de bord
+            Dashboard
           </Link>
           <h1 className="text-3xl font-bold mb-2 flex items-center gap-2.5">
             <BarChart3 className="w-7 h-7 text-violet-300" />
@@ -51,7 +51,7 @@ export default function ProgressPage() {
         {rows === null ? (
           <div className="flex items-center gap-2 text-[var(--text-secondary)] py-12">
             <Loader2 className="w-5 h-5 animate-spin" />
-            Chargement…
+            Loading…
           </div>
         ) : (
           <ProgressBreakdown rows={rows} tracked={status === 'authenticated'} />

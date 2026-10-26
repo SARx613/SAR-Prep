@@ -26,9 +26,9 @@ const LENGTHS = [5, 10, 20];
 
 /** Display order and labels for the verbal taxonomy. */
 const SHORT_VERBAL: { id: string; label: string }[] = [
-  { id: 'tc-1-blank', label: 'Text Completion — 1 blanc' },
-  { id: 'tc-2-blank', label: 'Text Completion — 2 blancs' },
-  { id: 'tc-3-blank', label: 'Text Completion — 3 blancs' },
+  { id: 'tc-1-blank', label: 'Text Completion — 1 blank' },
+  { id: 'tc-2-blank', label: 'Text Completion — 2 blanks' },
+  { id: 'tc-3-blank', label: 'Text Completion — 3 blanks' },
   { id: 'sentence-equivalence', label: 'Sentence Equivalence' },
 ];
 
@@ -114,7 +114,7 @@ export default function PracticePage() {
             className="inline-flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-white transition"
           >
             <ArrowLeft className="w-4 h-4" />
-            Quitter la session
+            Quit session
           </button>
         </div>
         <div className="page-container">
@@ -133,13 +133,13 @@ export default function PracticePage() {
             className="inline-flex items-center gap-2 text-sm text-[var(--text-secondary)] hover:text-white transition mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
-            Tableau de bord
+            Dashboard
           </Link>
-          <h1 className="text-3xl font-bold mb-2">Questions GRE</h1>
+          <h1 className="text-3xl font-bold mb-2">GRE Questions</h1>
           <p className="text-[var(--text-secondary)]">
-            Questions originales rédigées d&apos;après les spécifications officielles du
-            GRE, avec le vocabulaire de tes flashcards. Les énoncés sont en anglais,
-            comme à l&apos;examen.
+            Original questions written to the official GRE specifications,
+            using the vocabulary from your flashcards. Everything is in English,
+            as on the exam.
           </p>
         </div>
 
@@ -148,9 +148,9 @@ export default function PracticePage() {
           <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">Section</h2>
           <div className="grid sm:grid-cols-3 gap-3">
             {([
-              { id: 'mixed', label: 'Mixte', icon: Shuffle },
+              { id: 'mixed', label: 'Mixed', icon: Shuffle },
               { id: 'verbal', label: 'Verbal', icon: BookText },
-              { id: 'quant', label: 'Quantitatif', icon: Calculator },
+              { id: 'quant', label: 'Quant', icon: Calculator },
             ] as const).map(({ id, label, icon: Icon }) => (
               <button
                 key={id}
@@ -164,7 +164,7 @@ export default function PracticePage() {
                 <Icon className="w-5 h-5 mb-2 text-violet-300" />
                 <p className="font-medium">{label}</p>
                 <p className="text-xs text-[var(--text-muted)]">
-                  {available(id)} disponibles
+                  {available(id)} available
                 </p>
               </button>
             ))}
@@ -211,8 +211,8 @@ export default function PracticePage() {
 
               <p className="text-xs text-[var(--text-muted)]">
                 {subtopics.size === 0
-                  ? 'Aucun filtre : toutes les questions verbales.'
-                  : `${selectedTotal} question${selectedTotal > 1 ? 's' : ''} dans la sélection.`}
+                  ? 'No filter: all Verbal questions.'
+                  : `${selectedTotal} question${selectedTotal > 1 ? 's' : ''} selected.`}
               </p>
             </motion.section>
           )}
@@ -221,7 +221,7 @@ export default function PracticePage() {
         {/* Length */}
         <section className="space-y-3">
           <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">
-            Nombre de questions
+            Number of questions
           </h2>
           <div className="flex flex-wrap gap-3">
             {LENGTHS.map((n) => (
@@ -243,12 +243,12 @@ export default function PracticePage() {
 
         {/* Difficulty */}
         <section className="space-y-3">
-          <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">Difficulté</h2>
+          <h2 className="text-sm uppercase tracking-wide text-[var(--text-muted)]">Difficulty</h2>
           <div className="flex flex-wrap gap-3">
             {([
-              { id: 'all', label: 'Tous niveaux' },
-              { id: 'easy', label: 'Plus facile (1–3)' },
-              { id: 'hard', label: 'Plus difficile (3–5)' },
+              { id: 'all', label: 'All levels' },
+              { id: 'easy', label: 'Easier (1–3)' },
+              { id: 'hard', label: 'Harder (3–5)' },
             ] as const).map(({ id, label }) => (
               <button
                 key={id}
@@ -274,12 +274,12 @@ export default function PracticePage() {
           {loading ? (
             <>
               <Loader2 className="w-5 h-5 animate-spin" />
-              Préparation…
+              Preparing…
             </>
           ) : (
             <>
               <Play className="w-5 h-5" />
-              Commencer
+              Start
             </>
           )}
         </motion.button>

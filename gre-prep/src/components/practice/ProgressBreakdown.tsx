@@ -233,13 +233,13 @@ export function ProgressBreakdown({ rows, tracked }: Props) {
             icon={Trophy}
             color="#10b981"
             value={String(overall.mastered)}
-            caption="maîtrisées"
+            caption="mastered"
           />
           <Stat
             icon={RotateCcw}
             color="#f43f5e"
             value={String(overall.review)}
-            caption="à revoir"
+            caption="to review"
           />
           <Stat
             icon={Target}
@@ -251,14 +251,14 @@ export function ProgressBreakdown({ rows, tracked }: Props) {
             icon={Percent}
             color="#f59e0b"
             value={overall.attempts ? `${pct(overall.correct, overall.attempts)}%` : '—'}
-            caption="précision"
+            caption="accuracy"
           />
         </div>
         <Bar mastered={overall.mastered} review={overall.review} total={overall.total} />
         <p className="text-xs text-[var(--text-muted)]">
           {tracked
-            ? `${pct(overall.attempted, overall.total)} % de la banque vue — ${overall.attempts} réponse${overall.attempts > 1 ? 's' : ''} enregistrée${overall.attempts > 1 ? 's' : ''}.`
-            : 'Connecte-toi pour enregistrer ta progression : sans compte, les réponses sont corrigées mais pas conservées.'}
+            ? `${pct(overall.attempted, overall.total)} % of the bank seen — ${overall.attempts} answer${overall.attempts > 1 ? 's' : ''} recorded.`
+            : 'Sign in to save your progress: without an account, answers are graded but not kept.'}
         </p>
       </section>
 
@@ -275,7 +275,7 @@ export function ProgressBreakdown({ rows, tracked }: Props) {
                 {SECTION_LABEL[section]}
               </h2>
               <span className="text-xs text-[var(--text-muted)]">
-                {sum(groups, 'mastered')}/{sum(groups, 'total')} maîtrisées
+                {sum(groups, 'mastered')}/{sum(groups, 'total')} mastered
               </span>
             </div>
 
@@ -331,11 +331,11 @@ export function ProgressBreakdown({ rows, tracked }: Props) {
       <div className="flex flex-wrap items-center gap-4 text-xs text-[var(--text-muted)]">
         <span className="flex items-center gap-1.5">
           <span className="w-3 h-1.5 rounded-full bg-emerald-500 inline-block" />
-          maîtrisée — correcte à la dernière tentative
+          mastered — correct on the last attempt
         </span>
         <span className="flex items-center gap-1.5">
           <span className="w-3 h-1.5 rounded-full bg-rose-500/70 inline-block" />
-          à revoir — ratée à la dernière tentative
+          to review — missed on the last attempt
         </span>
       </div>
     </div>
