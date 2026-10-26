@@ -535,5 +535,227 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "q1-11-ratio-13",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 1,
+  "stem": "A bag holds 6 red marbles and 10 blue marbles. What is the ratio of red marbles to all the marbles in the bag?",
+  "explanation": "The total is $6+10 = 16$ marbles. The ratio of red to all is $6:16$, which reduces by dividing by 2 to $3:8$.",
+  "choiceExplanations": {
+   "B": "This is the ratio of red to blue marbles, not red to all marbles.",
+   "C": "This is the ratio of blue marbles to all marbles.",
+   "D": "This is the ratio of blue to red marbles.",
+   "E": "This is the ratio of all marbles to red marbles, in the wrong order."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3:8$"
+    },
+    {
+     "id": "B",
+     "text": "$3:5$"
+    },
+    {
+     "id": "C",
+     "text": "$5:8$"
+    },
+    {
+     "id": "D",
+     "text": "$5:3$"
+    },
+    {
+     "id": "E",
+     "text": "$8:3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-14",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "A car uses 6 gallons of gas to travel 150 miles. At the same rate, how many gallons are needed to travel 400 miles?",
+  "explanation": "Set up a proportion: $\\frac{6}{150} = \\frac{g}{400}$. Cross-multiplying gives $150g = 2{,}400$, so $g = 16$. (Equivalently, 150 miles per 6 gallons is 25 miles per gallon, and $400\\div25 = 16$.)",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q1-11-ratio-15",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A ratio of $3:4$ means $x = 3k$ and $y = 4k$ for some positive $k$. Then $y-x = k$, while $x = 3k$. Since $k<3k$ for positive $k$, Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$y-x$",
+   "quantityB": "$x$",
+   "common": "The ratio of $x$ to $y$ is 3 to 4, and $x$ and $y$ are positive."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-11-ratio-16",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "Red, white and blue paint are mixed in the ratio $2:3:7$. There are 20 liters more blue paint than red paint. How many liters of paint are there in all?",
+  "explanation": "Blue minus red is $7-2 = 5$ parts, and 5 parts are 20 liters, so one part is 4 liters. The total is $2+3+7 = 12$ parts, or $12\\cdot4 = 48$ liters.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  }
+ },
+ {
+  "id": "q1-11-ratio-17",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A ratio of boys to girls of $4:5$ means $\\frac{4}{4+5} = \\frac{4}{9}$ of class A are boys. A ratio of $5:7$ means $\\frac{5}{5+7} = \\frac{5}{12}$ of class B are boys. Compare over 36: $\\frac{16}{36}$ versus $\\frac{15}{36}$. Quantity A is greater, whatever the class sizes are.",
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The fraction of class A that is boys",
+   "quantityB": "The fraction of class B that is boys",
+   "common": "In class A the ratio of boys to girls is 4 to 5. In class B the ratio of boys to girls is 5 to 7."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-11-ratio-18",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "The ratio of $\\frac{2}{3}$ to $\\frac{5}{6}$ is written in lowest terms as $a:b$, where $a$ and $b$ are positive integers. What is $a+b$?",
+  "explanation": "The ratio is the fraction $\\frac{2}{3}\\div\\frac{5}{6} = \\frac{2}{3}\\cdot\\frac{6}{5} = \\frac{12}{15} = \\frac{4}{5}$. So the ratio is $4:5$ and $a+b = 9$. (Check by scaling both terms by 6: $4:5$.)",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q1-11-ratio-19",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "Jar A holds red and blue marbles in the ratio $1:3$. Jar B holds red and blue marbles in the ratio $2:3$. The two jars hold the same total number of marbles. All the marbles are poured into one large jar. What fraction of the marbles in the large jar are red? Enter your answer as a fraction.",
+  "explanation": "Let each jar hold $N$ marbles. Jar A is $\\frac{1}{1+3} = \\frac{1}{4}$ red and jar B is $\\frac{2}{2+3} = \\frac{2}{5}$ red. Red marbles: $\\frac{N}{4}+\\frac{2N}{5} = \\frac{13N}{20}$ out of $2N$ in all. The fraction is $\\frac{13}{20}\\cdot\\frac{1}{2} = \\frac{13}{40}$. (Try $N=20$: 5 + 8 red out of 40.)",
+  "estSeconds": 130,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.325,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 40
+   }
+  }
+ },
+ {
+  "id": "q1-11-ratio-20",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $4:3$. When 12 is added to $y$, the ratio of $x$ to the new value of $y$ is $4:5$. What is $x$?",
+  "explanation": "Write $x = 4k$ and $y = 3k$. Then $\\frac{4k}{3k+12} = \\frac{4}{5}$. Cross-multiplying: $20k = 12k+48$, so $8k = 48$ and $k=6$. Then $x = 24$ and $y=18$. Check: $y+12 = 30$ and $24:30 = 4:5$.",
+  "estSeconds": 130,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
  }
 ]

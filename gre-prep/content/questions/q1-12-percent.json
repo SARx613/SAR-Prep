@@ -507,5 +507,280 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "q1-12-percent-13",
+  "lessonId": "q1-12-percent",
+  "difficulty": 1,
+  "stem": "What is $25\\%$ of 48?",
+  "explanation": "$25\\% = \\frac{1}{4}$, and $\\frac{1}{4}\\cdot48 = 12$.",
+  "estSeconds": 45,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-12-percent-14",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "What is $0.6\\%$ of 500?",
+  "explanation": "$0.6\\% = \\frac{0.6}{100} = 0.006$. Then $0.006\\cdot500 = 3$.",
+  "choiceExplanations": {
+   "A": "This is $0.06\\%$ of 500: one decimal place too many.",
+   "C": "This is $6\\%$ of 500: the percent sign was treated as if it applied to 0.6 tenths.",
+   "D": "This is $60\\%$ of 500.",
+   "E": "This is $600\\%$ of 500."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.3"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "30"
+    },
+    {
+     "id": "D",
+     "text": "300"
+    },
+    {
+     "id": "E",
+     "text": "3,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-15",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$3\\%$ of 400 is $0.03\\cdot400 = 12$. $30\\%$ of 50 is $0.3\\cdot50 = 15$. Quantity B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$3\\%$ of 400",
+   "quantityB": "$30\\%$ of 50"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-12-percent-16",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "15 is $6\\%$ of what number?",
+  "explanation": "$0.06\\cdot w = 15$, so $w = \\frac{15}{0.06} = \\frac{1{,}500}{6} = 250$.",
+  "estSeconds": 75,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 250
+  }
+ },
+ {
+  "id": "q1-12-percent-17",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $20\\%$ of 60? Indicate all such quantities.",
+  "explanation": "$20\\%$ of 60 is $0.2\\cdot60 = 12$. Check each choice: $0.05\\cdot240 = 12$, $0.4\\cdot30 = 12$ and $0.002\\cdot6{,}000 = 12$. But $25\\%$ of 60 is 15 and $120\\%$ of 12 is 14.4.",
+  "choiceExplanations": {
+   "B": "This is 15, not 12.",
+   "E": "This is $1.2\\cdot12 = 14.4$, not 12."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\%$ of 240"
+    },
+    {
+     "id": "B",
+     "text": "$25\\%$ of 60"
+    },
+    {
+     "id": "C",
+     "text": "$40\\%$ of 30"
+    },
+    {
+     "id": "D",
+     "text": "$0.2\\%$ of 6,000"
+    },
+    {
+     "id": "E",
+     "text": "$120\\%$ of 12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-18",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "The number $x$ is $30\\%$ of $y$, and $y$ is $40\\%$ of $z$. $x$ is what percent of $z$?",
+  "explanation": "$x = 0.3y$ and $y = 0.4z$, so $x = 0.3\\cdot0.4z = 0.12z$. That is $12\\%$ of $z$.",
+  "choiceExplanations": {
+   "A": "The decimals were multiplied as $0.3\\cdot0.4 = 0.012$: the decimal point is misplaced.",
+   "C": "$x$ is $30\\%$ of $y$, not of $z$.",
+   "D": "The percents were added; successive percents multiply.",
+   "E": "$0.3\\cdot0.4 = 0.12$ is $12\\%$, not $120\\%$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$12\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$30\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$70\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$120\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-19",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "A survey has 200 respondents. $60\\%$ of the respondents are women. Among the women, $30\\%$ answered yes, and among the men, $20\\%$ answered yes. How many respondents answered yes?",
+  "explanation": "Women: $0.6\\cdot200 = 120$, and $0.3\\cdot120 = 36$ answered yes. Men: $200-120 = 80$, and $0.2\\cdot80 = 16$ answered yes. Total: $36+16 = 52$.",
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 52
+  }
+ },
+ {
+  "id": "q1-12-percent-20",
+  "lessonId": "q1-12-percent",
+  "difficulty": 5,
+  "stem": "In a box of marbles, $35\\%$ are red. Of the marbles that are not red, $40\\%$ are blue, and the remaining 78 marbles are green. How many marbles are in the box?",
+  "explanation": "Not red: $100\\%-35\\% = 65\\%$. Of these, $40\\%$ are blue, so $60\\%$ are green: $0.6\\cdot65\\% = 39\\%$ of all marbles are green. Then $0.39\\cdot T = 78$ gives $T = 200$. Check: 70 red, 52 blue and 78 green make 200.",
+  "estSeconds": 120,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 200
+  }
  }
 ]
