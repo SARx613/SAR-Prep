@@ -634,12 +634,13 @@
   ],
   "passageId": "v3w2-reflective-roofs",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -691,12 +692,13 @@
   ],
   "passageId": "v3w2-poll-nonresponse",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -742,12 +744,13 @@
   ],
   "passageId": "v3w2-camera-and-brush",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -775,12 +778,13 @@
   ],
   "passageId": "v3w2-cleaner-fish",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -832,12 +836,13 @@
   ],
   "passageId": "v3w2-open-plan",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -889,12 +894,13 @@
   ],
   "passageId": "v3w2-savings-circles",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -944,12 +950,13 @@
   ],
   "passageId": "v3w2-poetry-translation",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -993,12 +1000,13 @@
   ],
   "passageId": "v3w2-tool-library",
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {

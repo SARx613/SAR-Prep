@@ -865,12 +865,13 @@
    "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -929,12 +930,13 @@
    "notes": "Percent of total monthly spending. Total spending: 4,800 dollars per month."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1023,12 +1025,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1096,12 +1099,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1135,12 +1139,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1198,12 +1203,13 @@
    "notes": "Percent of this month's total spending. Total spending this month: 4,800 dollars."
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw2",
     "solver-bw2"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1236,12 +1242,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {
@@ -1315,12 +1322,13 @@
    }
   },
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-aw",
     "solver-bw"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "DI",
   "content": {

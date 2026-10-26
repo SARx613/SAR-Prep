@@ -7,7 +7,7 @@ What exists, how it is checked, and what is still open. Updated with the code.
 | Area | State |
 |---|---|
 | Learn: 12 chapters, 84 lessons, each tied to an ETS source (`officialRef`) | done (content in `content/`) |
-| Practice: ~1 250 original questions in the real GRE formats (TC 1/2/3 blanks, SE, RC ×3, QC, PS ×2, NE integer/decimal/fraction, DI) | done |
+| Practice: ~1 850 original questions in the real GRE formats (TC 1/2/3 blanks, SE, RC ×3, QC, PS ×2, NE integer/decimal/fraction, DI) | done |
 | Exam player: tutor and timed modes, Mark / Review / Back / Next, hideable timer, on-screen calculator (order of operations, 8 digits, ERROR rules, MR/MC/M+, Transfer Display), select-in-passage, keyboard shortcuts | done |
 | Qbank with filters (section, type, chapter, difficulty, unseen / missed / due) | done |
 | Review: spaced repetition of missed questions (1 and 3 days, two spaced successes) + error log with reasons | done |

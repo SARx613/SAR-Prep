@@ -17,14 +17,14 @@ fs.mkdirSync(out, { recursive: true });
 const FLOWS = [
   { name: 'ne-calc', set: 'q1-01-factors-multiples', nth: 1, calc: true, type: '12' },
   { name: 'ps-select-all', set: 'q1-01-factors-multiples', nth: 4, pick: [0, 2] },
-  { name: 'qc', set: 'q1-01-factors-multiples', nth: 3, pick: [2] },
+  { name: 'qc', set: 'q1-01-factors-multiples', nth: 4, pick: [2] },
   { name: 'tc', set: 'v1-02-method', nth: 0, pick: [0] },
-  { name: 'tc-multi', set: 'v1-02-method', nth: 5, pickBlanks: true },
-  { name: 'tc-3', set: 'v1-02-method', nth: 9, pickBlanks: true },
+  { name: 'tc-multi', set: 'v1-02-method', nth: 6, pickBlanks: true },
+  { name: 'tc-3', set: 'v1-02-method', nth: 12, pickBlanks: true },
   { name: 'se', set: 'v2-01-structure', nth: 0, pick: [0, 1] },
   { name: 'rc-all', set: 'v3-01-formats', nth: 0, pick: [0] },
   { name: 'rc-one', set: 'v3-01-formats', nth: 1, pick: [0] },
-  { name: 'rc-sentence', set: 'v3-01-formats', nth: 2, sentence: true },
+  { name: 'rc-sentence', set: 'v3-01-formats', nth: 6, sentence: true },
   { name: 'di-one', set: 'q0-07-di-sets', nth: 1, pick: [0] },
   { name: 'di-num', set: 'q0-07-di-sets', nth: 0, fill: '5' },
 ];
