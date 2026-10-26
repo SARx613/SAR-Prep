@@ -469,5 +469,297 @@
   "answer": {
    "value": 120
   }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-13",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 1,
+  "stem": "A triangle has two equal angles, each measuring $54^\\circ$. What is the measure, in degrees, of the third angle?",
+  "explanation": "The three angles add up to $180^\\circ$, so the third angle is $180-54-54=72$.",
+  "estSeconds": 40,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 72
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-14",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 2,
+  "stem": "One interior angle of an isosceles triangle measures $100^\\circ$. What is the measure of one of the other two interior angles?",
+  "explanation": "The $100^\\circ$ angle cannot be one of the two equal angles, since two of them would already total $200^\\circ>180^\\circ$. So the other two angles are equal and share $180-100=80^\\circ$, giving $40^\\circ$ each.",
+  "choiceExplanations": {
+   "A": "Nothing in the triangle produces $20^\\circ$; the other two angles share $80^\\circ$ and are equal.",
+   "C": "$50^\\circ$ is half of $100^\\circ$; the equal angles must split $180-100=80^\\circ$, not $100^\\circ$.",
+   "D": "$80^\\circ$ is the total of the other two angles, not one of them.",
+   "E": "A second $100^\\circ$ angle would give an angle total of at least $200^\\circ$."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$20^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$40^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$50^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$80^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$100^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-15",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "By the Pythagorean theorem the hypotenuse squared is $5^2+5^2=50$. Since $50>49=7^2$, the hypotenuse is longer than 7, so Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The length of the hypotenuse",
+   "quantityB": "7",
+   "common": "A right triangle has two legs, each of length 5."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-16",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 3,
+  "stem": "Two sides of an isosceles triangle have lengths 4 and 9. What is the perimeter of the triangle?",
+  "explanation": "The equal sides are either both 4 or both 9. Sides $4,4,9$ break the triangle inequality, since $4+4=8<9$. So the sides are $9,9,4$: here $4$ lies between $9-9=0$ and $9+9=18$, and the perimeter is $9+9+4=22$.",
+  "choiceExplanations": {
+   "A": "$13=4+9$ adds only two of the three sides.",
+   "B": "Sides $4,4,9$ cannot form a triangle because $4+4<9$.",
+   "C": "$18=9+9$ leaves out the third side.",
+   "E": "This treats the triangle as having three sides of length 9; the given lengths are 4 and 9."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "13"
+    },
+    {
+     "id": "B",
+     "text": "17"
+    },
+    {
+     "id": "C",
+     "text": "18"
+    },
+    {
+     "id": "D",
+     "text": "22"
+    },
+    {
+     "id": "E",
+     "text": "27"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-17",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 3,
+  "stem": "Two interior angles of a triangle measure $50^\\circ$ and $65^\\circ$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "The third angle is $180-50-65=65^\\circ$, so two angles are equal and the sides opposite them are equal. All three angles ($50^\\circ$, $65^\\circ$, $65^\\circ$) are below $90^\\circ$.",
+  "choiceExplanations": {
+   "C": "An equilateral triangle has three $60^\\circ$ angles; this one has $50^\\circ$, $65^\\circ$, $65^\\circ$.",
+   "E": "No angle equals $90^\\circ$; the angles are $50^\\circ$, $65^\\circ$, $65^\\circ$."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The third angle measures $65^\\circ$."
+    },
+    {
+     "id": "B",
+     "text": "Two of the sides have equal length."
+    },
+    {
+     "id": "C",
+     "text": "The triangle is equilateral."
+    },
+    {
+     "id": "D",
+     "text": "Every angle is less than $90^\\circ$."
+    },
+    {
+     "id": "E",
+     "text": "The triangle has a right angle."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-18",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 4,
+  "stem": "In the figure, angles $ABC$ and $ACD$ are right angles, $AB=3$, $BC=4$ and $CD=12$. What is the length of $AD$?",
+  "explanation": "In right triangle $ABC$, $AC^2=3^2+4^2=25$, so $AC=5$. Triangle $ACD$ has its right angle at $C$, so $AD^2=AC^2+CD^2=25+144=169$ and $AD=13$.",
+  "estSeconds": 110,
+  "skills": [
+   "triangles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 215\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"139\" x2=\"30\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"190\" x2=\"98\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"98\" y1=\"190\" x2=\"220.4\" y2=\"26.8\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"220.4\" y1=\"26.8\" x2=\"30\" y2=\"139\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"139\" x2=\"98\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"30,182 38,182 38,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"91.6,185.2 96.4,178.8 102.8,183.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"22\" y=\"137\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"22\" y=\"194\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"100\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"228.4\" y=\"28.8\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"22\" y=\"168.5\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"64\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"169.2\" y=\"122.4\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text></svg>",
+    "alt": "Quadrilateral ABCD. A is directly above B, and C is to the right of B on the same horizontal level. D is up and to the right of C. A dashed diagonal joins A to C. Right-angle marks are at B (angle ABC) and at C (angle ACD). AB is labeled 3, BC is labeled 4 and CD is labeled 12."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-19",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 4,
+  "stem": "In the figure, $AB=AC$, the points $B$, $C$ and $D$ lie on a line, and angle $ACD$ measures $110^\\circ$. What is the measure, in degrees, of angle $BAC$?",
+  "explanation": "Angles $ACB$ and $ACD$ lie on a straight line, so angle $ACB=180-110=70^\\circ$. Because $AB=AC$, the angles opposite them are equal: angle $B=$ angle $ACB=70^\\circ$. Then angle $BAC=180-70-70=40^\\circ$.",
+  "estSeconds": 100,
+  "skills": [
+   "triangles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"85\" y1=\"26.4\" x2=\"40\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"26.4\" x2=\"130\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"150\" x2=\"215\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"67.2\" y1=\"89.9\" x2=\"57.8\" y2=\"86.5\" stroke=\"currentColor\" stroke-width=\"1.2\"/><line x1=\"112.2\" y1=\"86.5\" x2=\"102.8\" y2=\"89.9\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"85\" y=\"18.4\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"34\" y=\"164\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"130\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"223\" y=\"154\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"146\" y=\"136\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">110°</text></svg>",
+    "alt": "Triangle ABC with AB and AC marked equal by tick marks. Side BC is extended past C to a point D, so B, C and D lie on one line. The angle ACD, outside the triangle at C, is labeled 110 degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 40
+  }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-20",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 5,
+  "stem": "The side lengths of a triangle are $12$, $x$ and $2x-3$, where $x$ is an integer. How many values of $x$ are possible?",
+  "explanation": "Each side must be shorter than the sum of the other two. From $12<x+(2x-3)$ we get $x>5$. From $2x-3<12+x$ we get $x<15$. The third condition, $x<12+(2x-3)$, holds whenever $x>-9$. So $x$ is an integer with $5<x<15$: $6,7,\\dots,14$, which is 9 values (all sides are then positive).",
+  "estSeconds": 130,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
  }
 ]
