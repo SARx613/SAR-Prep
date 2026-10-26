@@ -1,0 +1,217 @@
+{
+ "id": "v0-02-active-reading",
+ "status": "published",
+ "why": "Reading Comprehension rewards how you read, not what you already know, and the same habits help you decode every Text Completion and Sentence Equivalence sentence.",
+ "rule": "Read and analyze the whole passage before answering. As you read, separate:\n\n- **main ideas** from supporting ideas or evidence;\n- ideas the author **advances** from ideas merely **reported**;\n- ideas the author is **committed** to from ones offered as hypothetical or speculative;\n- the main **transitions**, and how neighboring ideas relate (contrast, consistency, support, elaboration, application).\n\nAnswer only from the passage, even when it clashes with your own views.",
+ "examples": [
+  {
+   "prompt": "Many commentators claim that remote work lowers productivity. One firm's data, however, show output rising 4 percent after it went remote. This may reflect self-selection, since employees chose whether to work remotely, so the finding is suggestive rather than conclusive. Which claim does the author most firmly commit to?",
+   "steps": [
+    "Reported idea: the commentators' claim. It is attributed to others and *however* sets it against the data.",
+    "Evidence: the firm's data. A report of a fact, not a conclusion.",
+    "Hedges: \"may reflect\" and \"suggestive\" mark speculation.",
+    "The author's firm commitment is the closing judgment: the finding is suggestive rather than conclusive."
+   ],
+   "answer": "The finding is suggestive rather than conclusive."
+  }
+ ],
+ "trap": "Treating every statement as the author's view, or choosing an answer just because it is true. Ask who is speaking and how firmly. The right choice is the one that most accurately and completely answers the question.",
+ "checks": [
+  {
+   "id": "v0-02-active-reading-c1",
+   "lessonId": "v0-02-active-reading",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Transitions and structure.** *Every later paragraph argues against it* means the theory is raised in order to be refuted.",
+   "choiceExplanations": {
+    "E": "She argues against it.",
+    "D": "Building on it would not be arguing against it.",
+    "B": "Illustrating something would not be arguing against it.",
+    "C": "The opposite of arguing against."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "Though the author discusses the older theory at length, she introduces it only to {{1}} it: every later paragraph argues against it.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "refute"
+       },
+       {
+        "id": "B",
+        "text": "illustrate"
+       },
+       {
+        "id": "C",
+        "text": "celebrate"
+       },
+       {
+        "id": "D",
+        "text": "extend"
+       },
+       {
+        "id": "E",
+        "text": "endorse"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "v0-02-active-reading-c2",
+   "lessonId": "v0-02-active-reading",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Advanced versus reported.** *Purported* and *alleged* both mark a claim that others make without the author vouching for it.",
+   "choiceExplanations": {
+    "C": "Would signal endorsement.",
+    "F": "Concerns importance, not whether she endorses it.",
+    "E": "Concerns importance, not whether she endorses it.",
+    "B": "Describes style, not who stands behind the claim."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "SE",
+   "content": {
+    "text": "The author describes the claim as {{1}}, signaling that she is reporting it rather than endorsing it.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "purported"
+     },
+     {
+      "id": "B",
+      "text": "ornate"
+     },
+     {
+      "id": "C",
+      "text": "proven"
+     },
+     {
+      "id": "D",
+      "text": "alleged"
+     },
+     {
+      "id": "E",
+      "text": "urgent"
+     },
+     {
+      "id": "F",
+      "text": "trivial"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "v0-02-active-reading-c3",
+   "lessonId": "v0-02-active-reading",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Committed versus speculative.** Hedged wording (*may*) and weak evidence (*suggestive*) show the author is not committed.",
+   "choiceExplanations": {
+    "1C": "A flat assertion; the sentence calls her wording cautious.",
+    "1B": "Too strong for cautious wording.",
+    "2C": "Would be a firm claim.",
+    "2B": "Would be a firm claim."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "The author's wording is cautious: she says the drug {{1}} improve recall, and she calls the evidence so far {{2}}.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "may"
+       },
+       {
+        "id": "1B",
+        "text": "always"
+       },
+       {
+        "id": "1C",
+        "text": "does"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "suggestive"
+       },
+       {
+        "id": "2B",
+        "text": "irrefutable"
+       },
+       {
+        "id": "2C",
+        "text": "conclusive"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2A"
+    ]
+   }
+  }
+ ]
+}

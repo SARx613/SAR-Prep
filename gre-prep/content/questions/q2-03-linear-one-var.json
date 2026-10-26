@@ -1,0 +1,792 @@
+[
+ {
+  "id": "q2-03-linear-one-var-01",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 1,
+  "stem": "If $4x-9=15$, what is the value of $x$?",
+  "explanation": "Add 9: $4x=24$. Divide by 4: $x=6$.",
+  "estSeconds": 45,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-02",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 1,
+  "stem": "If $5x+3=2x-9$, what is the value of $x$?",
+  "explanation": "Subtract $2x$ and $3$ from both sides: $3x=-12$, so $x=-4$.",
+  "choiceExplanations": {
+   "A": "$3x=-12$ was not divided by 3.",
+   "C": "The 3 was moved with the wrong sign: $3x=-6$.",
+   "D": "Sign error when dividing $-12$ by 3.",
+   "E": "Both the sign and the division were missed."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-12$"
+    },
+    {
+     "id": "B",
+     "text": "$-4$"
+    },
+    {
+     "id": "C",
+     "text": "$-2$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$12$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-03",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 2,
+  "stem": "If $3(2x-1)-(x-5)=22$, what is the value of $x$?",
+  "explanation": "Expand: $6x-3-x+5=5x+2$. Then $5x+2=22$, $5x=20$, $x=4$.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-04",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 2,
+  "stem": "If $\\dfrac x3+\\dfrac x4=14$, what is the value of $x$?",
+  "explanation": "Multiply every term by 12: $4x+3x=168$, so $7x=168$ and $x=24$. Check: $8+6=14$.",
+  "choiceExplanations": {
+   "A": "The 14 was not multiplied by 12 along with the other terms.",
+   "B": "This is the common denominator, not the solution.",
+   "D": "This adds numerators and denominators: $\\frac{2x}{7}$.",
+   "E": "This stops at $7x=168$ without dividing by 7."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$12$"
+    },
+    {
+     "id": "C",
+     "text": "$24$"
+    },
+    {
+     "id": "D",
+     "text": "$49$"
+    },
+    {
+     "id": "E",
+     "text": "$168$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-05",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Subtract $2x$ and add 3: $3x=15$, so $x=5$. That is greater than 4.",
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$4$",
+   "common": "$5x-3=2x+12$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-06",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 3,
+  "stem": "If $\\dfrac{2x+1}{3}-\\dfrac{x-2}{2}=1$, what is the value of $x$?",
+  "explanation": "Multiply by 6: $2(2x+1)-3(x-2)=6$. Expand: $4x+2-3x+6=6$, so $x+8=6$ and $x=-2$.",
+  "estSeconds": 100,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-07",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 3,
+  "stem": "Which of the following equations have exactly one solution? Indicate all such equations.",
+  "explanation": "C gives $4x=-4$, so $x=-1$. E gives $-2x=0$, so $x=0$. The others lose the variable.",
+  "choiceExplanations": {
+   "A": "This reduces to $7=6$: no solution.",
+   "B": "Both sides equal $5x-2$: every $x$ works.",
+   "D": "Both sides equal $4x-4$: every $x$ works."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3x+7=3(x+2)$"
+    },
+    {
+     "id": "B",
+     "text": "$5x-2=2(x-1)+3x$"
+    },
+    {
+     "id": "C",
+     "text": "$2x+9=5-2x$"
+    },
+    {
+     "id": "D",
+     "text": "$4(x-1)=2(2x-2)$"
+    },
+    {
+     "id": "E",
+     "text": "$3-x=x+3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-08",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Expand: $2x-6=5-x$, so $3x=11$ and $x=\\dfrac{11}{3}$. That is about 3.67, less than 4.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$4$",
+   "common": "$2(x-3)=5-x$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-09",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 4,
+  "stem": "If $\\dfrac{x+5}{3}=\\dfrac{2x-1}{5}+1$, what is the value of $x$?",
+  "explanation": "Multiply by 15: $5(x+5)=3(2x-1)+15$. Expand: $5x+25=6x+12$. So $x=13$. Check: both sides equal 6.",
+  "choiceExplanations": {
+   "A": "The 5 was not distributed over $x+5$ ($5x+5$).",
+   "B": "Sign error: $3(2x-1)$ was expanded as $6x+3$.",
+   "C": "The 3 was not distributed over $-1$ ($6x-1$).",
+   "E": "The $+1$ was not multiplied by 15."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-7$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$11$"
+    },
+    {
+     "id": "D",
+     "text": "$13$"
+    },
+    {
+     "id": "E",
+     "text": "$27$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-10",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 4,
+  "stem": "If $x=-3$ is the solution of $5x+k=2x-7$, what is the value of $k$?",
+  "explanation": "Substitute: $-15+k=-6-7=-13$, so $k=-13+15=2$.",
+  "choiceExplanations": {
+   "A": "Both $-13$ and $-15$ were combined with the wrong sign.",
+   "B": "This ignores the $x$ terms.",
+   "C": "Sign error on the 13: $13-15$.",
+   "E": "The 13 and 15 were added."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-28$"
+    },
+    {
+     "id": "B",
+     "text": "$-7$"
+    },
+    {
+     "id": "C",
+     "text": "$-2$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$28$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-11",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 5,
+  "stem": "For what value of the constant $k$ does the equation $k(x-2)=3x+5$ have no solution?",
+  "explanation": "Expand and collect: $kx-2k=3x+5$ gives $(k-3)x=2k+5$. If $k=3$ this becomes $0=11$, which is false for every $x$. Any other $k$ gives one solution.",
+  "estSeconds": 120,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-12",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 5,
+  "stem": "The equation $\\dfrac{3x+a}{4}=x-2$ has the same solution as $5x-7=2x+8$. What is the value of $a$?",
+  "explanation": "$5x-7=2x+8$ gives $3x=15$, so $x=5$. Substitute into the first equation: $\\dfrac{15+a}{4}=3$, so $15+a=12$ and $a=-3$.",
+  "estSeconds": 100,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -3
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-13",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 1,
+  "stem": "If $7x+5=-9$, what is the value of $x$?",
+  "explanation": "Subtract $5$ from both sides: $7x=-14$. Divide by $7$: $x=-2$.",
+  "estSeconds": 45,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-14",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 2,
+  "stem": "If $\\dfrac{3x-2}{4}=7$, what is the value of $x$?",
+  "explanation": "Multiply both sides by $4$: $3x-2=28$. Add $2$: $3x=30$. Divide by $3$: $x=10$.",
+  "choiceExplanations": {
+   "A": "The $4$ was added to $7$ instead of clearing the denominator: $3x-2=11$.",
+   "B": "After $3x-2=28$ the $2$ was subtracted instead of added: $3x=26$.",
+   "C": "The $-2$ was forgotten when moving terms: $3x=28$ instead of $3x=30$.",
+   "E": "$3x=30$ is not the answer: both sides must still be divided by $3$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{13}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{26}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{28}{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$10$"
+    },
+    {
+     "id": "E",
+     "text": "$30$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-15",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Expand: the left side is $2x-5$ and the right side is $2x-5$. The equation is an identity, true for every $x$, so $x$ can be $0$ (A equals B), $1$ (A is greater) or $-1$ (B is greater).",
+  "estSeconds": 75,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$0$",
+   "common": "$5(x-1)-3x=2(x-3)+1$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-16",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 3,
+  "stem": "If $\\dfrac{2x+1}{3}=\\dfrac{x-2}{4}+1$, what is the value of $x$? Enter your answer as a fraction.",
+  "explanation": "Multiply every term by $12$: $4(2x+1)=3(x-2)+12$. Expand: $8x+4=3x+6$. Collect: $5x=2$, so $x=\\dfrac25$.",
+  "estSeconds": 85,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.4,
+   "fraction": {
+    "numerator": 2,
+    "denominator": 5
+   }
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-17",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 3,
+  "stem": "Which of the following equations are true for every real number $x$? Indicate all such equations.",
+  "explanation": "An equation is true for every $x$ exactly when both sides simplify to the same expression. A, C and E do ($3x+6$; $x+2$; $2x+1$). In B the sides are $x+4$ and $x-4$; in D they are $-2x+1$ and $-2x-1$.",
+  "choiceExplanations": {
+   "B": "The left side is $2x-x+4=x+4$, so the equation says $x+4=x-4$: false for every $x$ (no solution).",
+   "D": "The left side is $-2x+1$, so the equation says $-2x+1=-2x-1$: false for every $x$ (no solution)."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3(x+2)=3x+6$"
+    },
+    {
+     "id": "B",
+     "text": "$2x-(x-4)=x-4$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{4x+8}{4}=x+2$"
+    },
+    {
+     "id": "D",
+     "text": "$-(2x-1)=-2x-1$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{6x+3}{3}=2x+1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-18",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 4,
+  "stem": "If $3(x-4)-2(x-1)=5x-2(x+3)$, what is the value of $x$?",
+  "explanation": "Expand with care: the left side is $3x-12-2x+2=x-10$; the right side is $5x-2x-6=3x-6$. So $x-10=3x-6$, which gives $-4=2x$ and $x=-2$.",
+  "estSeconds": 100,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-19",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 4,
+  "stem": "If $\\dfrac{x+8}{2}+\\dfrac{x-1}{3}=\\dfrac13$, what is the value of $2x+9$?",
+  "explanation": "Multiply by $6$: $3(x+8)+2(x-1)=2$, so $5x+22=2$, $5x=-20$ and $x=-4$. The question asks for $2x+9=2(-4)+9=1$.",
+  "choiceExplanations": {
+   "A": "This is $2x-9$ evaluated at $x=-4$; the question asks for $2x+9$.",
+   "B": "This is $2x$; the constant $9$ must be added.",
+   "C": "This is $x$, not $2x+9$. Re-read the last line of the question.",
+   "E": "This comes from a sign slip at the end ($5x=-20$ read as $x=4$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-17$"
+    },
+    {
+     "id": "B",
+     "text": "$-8$"
+    },
+    {
+     "id": "C",
+     "text": "$-4$"
+    },
+    {
+     "id": "D",
+     "text": "$1$"
+    },
+    {
+     "id": "E",
+     "text": "$17$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-03-linear-one-var-20",
+  "lessonId": "q2-03-linear-one-var",
+  "difficulty": 5,
+  "stem": "For constants $k$ and $m$, the equation $k(x+2)-3=4x+m$ is true for every real number $x$. What is the value of $k+m$?",
+  "explanation": "Expand and collect: $kx+2k-3=4x+m$, so $(k-4)x+(2k-3-m)=0$. If $k\\ne4$ there is exactly one solution, so an identity needs $k=4$. Then $0\\cdot x+(8-3-m)=0$ forces $m=5$. Hence $k+m=9$.",
+  "estSeconds": 130,
+  "skills": [
+   "linear-equations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ }
+]

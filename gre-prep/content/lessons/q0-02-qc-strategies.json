@@ -1,0 +1,143 @@
+{
+ "id": "q0-02-qc-strategies",
+ "status": "published",
+ "why": "Quantitative Comparison is one of the four Quant formats, and it rewards comparing quickly rather than solving fully.",
+ "rule": "- **Plug in numbers** when variables appear: try 0, negatives, positives, fractions, small and large values. If two cases favour different answers (even equal versus unequal), choose *cannot be determined*.\n- **Simplify the comparison**: write A ? B and transform both sides step by step, as with an equation or inequality, until the relation is clear. Adding or subtracting the same thing is always safe; multiply or divide both sides only by a number known to be positive.\n- **Don't over-compute**: simplify or estimate only as much as needed.\n- **Figures** are not necessarily to scale: redraw them, varying whatever is not fixed.\n\nNever choose *cannot be determined* if both values can be computed.",
+ "examples": [
+  {
+   "prompt": "Quantity A: $x^2$. Quantity B: $2x$. Here $x$ is a number.",
+   "steps": [
+    "$x=0$: both are 0 (equal).",
+    "$x=1$: 1 versus 2, so B is greater.",
+    "$x=3$: 9 versus 6, so A is greater."
+   ],
+   "answer": "The cases disagree, so the relationship cannot be determined."
+  },
+  {
+   "prompt": "Given $x>3$: Quantity A is $5(x+2)$ and Quantity B is $4x+13$.",
+   "steps": [
+    "Expand A: $5x+10$.",
+    "Compare $5x+10$ with $4x+13$; subtract $4x+10$ from both: $x$ versus 3.",
+    "Since $x>3$, A is greater (check $x=4$: 30 versus 29)."
+   ],
+   "answer": "Quantity A is greater."
+  }
+ ],
+ "trap": "Testing only positive whole numbers. Fractions between 0 and 1 and negative values often flip the comparison, as with $x^2$ versus $x$. The opposite error is choosing *cannot be determined* just because a variable appears, when it cancels out.",
+ "checks": [
+  {
+   "id": "q0-02-qc-strategies-c1",
+   "lessonId": "q0-02-qc-strategies",
+   "difficulty": 1,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\frac35=0.6<0.65$, so Quantity B is greater.",
+   "estSeconds": 45,
+   "skills": [
+    "qc-strategies"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\frac35$",
+    "quantityB": "0.65"
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "q0-02-qc-strategies-c2",
+   "lessonId": "q0-02-qc-strategies",
+   "difficulty": 2,
+   "stem": "Quantity A is 24 and Quantity B is the value of $18+9$ in a Quantitative Comparison question. Which choice is correct?",
+   "explanation": "$18+9=27>24$. Never pick \"cannot be determined\" when both values can be computed.",
+   "choiceExplanations": {
+    "A": "B is 27, which exceeds 24.",
+    "C": "24 does not equal 27.",
+    "D": "Both values are computable, so this choice is never right.",
+    "E": "One of the four fixed statements always applies."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "qc-strategies"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Quantity A is greater."
+     },
+     {
+      "id": "B",
+      "text": "Quantity B is greater."
+     },
+     {
+      "id": "C",
+      "text": "The two quantities are equal."
+     },
+     {
+      "id": "D",
+      "text": "The relationship cannot be determined from the information given."
+     },
+     {
+      "id": "E",
+      "text": "Both are positive, so no choice applies."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q0-02-qc-strategies-c3",
+   "lessonId": "q0-02-qc-strategies",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$x=1$: equal. $x=3$: A is greater. $x=0$: B is greater. Different outcomes: cannot be determined.",
+   "estSeconds": 60,
+   "skills": [
+    "qc-strategies"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$2x$",
+    "quantityB": "$x+1$",
+    "common": "$x$ is a number."
+   },
+   "answer": {
+    "choice": "D"
+   }
+  }
+ ]
+}

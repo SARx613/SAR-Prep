@@ -1,9 +1,10 @@
 'use client';
 
-import { Word, GameState } from '../types';
+import { GameState } from '../types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldAlert, Lightbulb, Type, Eye, ArrowRight, HelpCircle } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
+import { useShowTranslation } from '@/hooks/usePrefs';
 
 interface GameCardProps {
   state: GameState;
@@ -18,17 +19,23 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
   const [showSynonyms, setShowSynonyms] = useState(false);
   const [showFrench, setShowFrench] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  // The French gloss is a study aid, off by default (Settings → Show translations).
+  const showTranslation = useShowTranslation();
 
-  // Reset reveal state when word changes
-  useEffect(() => {
+  // Reset per-word state while rendering (React's documented alternative to
+  // an effect that sets state): the card never paints the stale reveal.
+  const [seenWord, setSeenWord] = useState(currentWord);
+  if (seenWord !== currentWord) {
+    setSeenWord(currentWord);
     setShowSynonyms(false);
     setShowFrench(false);
-  }, [currentWord]);
+    setInputValue('');
+  }
 
   useEffect(() => {
-    setInputValue('');
     if (mode === 'typing' && !answered) {
-      setTimeout(() => inputRef.current?.focus(), 100);
+      const t = setTimeout(() => inputRef.current?.focus(), 100);
+      return () => clearTimeout(t);
     }
   }, [currentWord, mode, answered]);
 
@@ -73,7 +80,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
                 <Lightbulb size={16} />
-                <span>Définition</span>
+                <span>Definition</span>
               </div>
               <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: '0.4rem 0.8rem', borderRadius: 99, border: '1px solid var(--border)' }}>
                 {getModeLabel()}
@@ -108,7 +115,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                             color: 'var(--violet)', fontSize: '0.72rem', fontWeight: 700,
                           }}
                         >
-                          <Eye size={12} /> Voir
+                          <Eye size={12} /> Show
                         </motion.button>
                       )}
                     </AnimatePresence>
@@ -130,10 +137,10 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
               )}
 
               {/* French translation */}
-              <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              {showTranslation && <div style={{ flex: '1 1 200px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: 20, padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                   <div style={{ color: 'var(--amber)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                    Français
+                    French
                   </div>
                   <AnimatePresence>
                     {!showFrench && (
@@ -149,7 +156,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           color: 'var(--amber)', fontSize: '0.72rem', fontWeight: 700,
                         }}
                       >
-                        <Eye size={12} /> Voir
+                        <Eye size={12} /> Show
                       </motion.button>
                     )}
                   </AnimatePresence>
@@ -163,7 +170,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                 }}>
                   {currentWord.french}
                 </div>
-              </div>
+              </div>}
             </div>
           </div>
 
@@ -222,7 +229,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
                     disabled={answered}
-                    placeholder="Tape le mot..."
+                    placeholder="Type the word..."
                     style={{
                       width: '100%',
                       padding: '1.25rem 1.25rem 1.25rem 3.5rem',
@@ -246,7 +253,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ marginTop: '1.5rem', padding: '1rem 1.5rem', background: 'rgba(16,185,129,0.1)', border: '1px solid rgba(16,185,129,0.3)', borderRadius: 16, display: 'flex', alignItems: 'center', gap: '1rem' }}>
                     <ShieldAlert color="var(--emerald)" size={24} />
                     <div>
-                      <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--emerald)' }}>Bonne réponse</div>
+                      <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--emerald)' }}>Correct answer</div>
                       <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#fff' }}>{currentWord.word}</div>
                     </div>
                   </motion.div>
@@ -265,7 +272,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                       transition: 'all 0.3s'
                     }}
                   >
-                    Valider
+                    Submit
                   </button>
                 )}
               </form>
@@ -297,7 +304,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                     }}
                   >
                     <HelpCircle size={32} />
-                    <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>Révéler le mot</span>
+                    <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>Reveal the word</span>
                   </button>
                 ) : (
                   <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', textAlign: 'center' }}>
@@ -357,7 +364,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                   onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-2px) scale(1.05)')}
                   onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0) scale(1)')}
                 >
-                  Continuer
+                  Continue
                   <ArrowRight size={20} />
                 </button>
               </motion.div>

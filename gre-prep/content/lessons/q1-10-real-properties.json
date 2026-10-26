@@ -1,0 +1,141 @@
+{
+ "id": "q1-10-real-properties",
+ "status": "published",
+ "why": "These properties justify the algebra and sign reasoning behind many \"must be true\" and QC questions.",
+ "rule": "For real numbers $r,s,t$:\n\n- **Commutative:** $r+s = s+r$ and $rs = sr$.\n- **Distributive:** $r(s+t) = rs+rt$.\n- **Zero product:** if $rs = 0$, then $r=0$ or $s=0$ (or both).\n- **Division by 0 is undefined.**\n- **Signs:** positive + positive and positive $\\cdot$ positive are positive; negative + negative is negative; negative $\\cdot$ negative is positive; positive $\\cdot$ negative is negative.\n- **Absolute value:** $|rs| = |r|\\,|s|$ and $|r+s|\\le|r|+|s|$ (triangle inequality).\n- **Squares:** if $r>1$ then $r^2>r$; if $0<s<1$ then $s^2<s$.",
+ "examples": [
+  {
+   "prompt": "Compute $36\\cdot47+36\\cdot53$.",
+   "steps": [
+    "Factor out 36: $36(47+53)$.",
+    "$36\\cdot100 = 3600$."
+   ],
+   "answer": "3600"
+  },
+  {
+   "prompt": "If $r=-4$ and $s=9$, compare $|r+s|$ and $|r|+|s|$.",
+   "steps": [
+    "$|r+s| = |5| = 5$.",
+    "$|r|+|s| = 4+9 = 13$.",
+    "Indeed $5\\le13$."
+   ],
+   "answer": "$|r+s|<|r|+|s|$"
+  }
+ ],
+ "trap": "Squaring does not always enlarge: $s^2<s$ when $0<s<1$ (and $s^2=s$ for $s=0,1$). Also $|r+s|$ is smaller than $|r|+|s|$ whenever $r$ and $s$ have opposite signs.",
+ "checks": [
+  {
+   "id": "q1-10-real-properties-c1",
+   "lessonId": "q1-10-real-properties",
+   "difficulty": 1,
+   "stem": "What is the value of $18\\cdot7+18\\cdot3$?",
+   "explanation": "Factor out 18 (distributive property): $18(7+3) = 18\\cdot10 = 180$.",
+   "estSeconds": 45,
+   "skills": [
+    "real-properties"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 180
+   }
+  },
+  {
+   "id": "q1-10-real-properties-c2",
+   "lessonId": "q1-10-real-properties",
+   "difficulty": 2,
+   "stem": "Which of the following values of $x$ satisfy $(x-5)(x+3)=0$? Indicate all such values.",
+   "explanation": "A product is 0 only if a factor is 0: $x-5=0$ gives $x=5$, and $x+3=0$ gives $x=-3$.",
+   "choiceExplanations": {
+    "A": "$(-5-5)(-5+3) = 20\\ne0$.",
+    "C": "$(0-5)(0+3) = -15\\ne0$.",
+    "D": "$(3-5)(3+3) = -12\\ne0$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "real-properties"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-5$"
+     },
+     {
+      "id": "B",
+      "text": "$-3$"
+     },
+     {
+      "id": "C",
+      "text": "$0$"
+     },
+     {
+      "id": "D",
+      "text": "$3$"
+     },
+     {
+      "id": "E",
+      "text": "$5$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "q1-10-real-properties-c3",
+   "lessonId": "q1-10-real-properties",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "For $0<s<1$, squaring makes $s$ smaller (try $s=\\frac{1}{2}$: $s^2 = \\frac{1}{4}$). B is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "real-properties"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$s^2$",
+    "quantityB": "$s$",
+    "common": "$0<s<1$"
+   },
+   "answer": {
+    "choice": "B"
+   }
+  }
+ ]
+}

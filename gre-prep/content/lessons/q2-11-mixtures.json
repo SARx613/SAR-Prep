@@ -1,0 +1,113 @@
+{
+ "id": "q2-11-mixtures",
+ "status": "published",
+ "why": "Mixture problems (solutions, alloys, blends of items with different prices) are a standard GRE story type, often hidden inside a percent question.",
+ "rule": "Track the **pure part**, because it is the only quantity that adds up cleanly:\n\n$$\\text{pure amount}=\\text{concentration}\\times\\text{total amount}.$$\n\nFor a mix, *pure in + pure in = pure out*: $c_1a+c_2b=c\\,(a+b)$.\n\nAdded water or oil has concentration 0; added pure substance has 100 percent. Blends of items priced differently work the same way: total cost $=\\sum(\\text{price}\\times\\text{amount})$.\n\nMixing two different concentrations gives one strictly between them, nearer the one used in the larger amount.",
+ "examples": [
+  {
+   "prompt": "How many liters of water must be added to 20 liters of a 30 percent salt solution to make a 12 percent solution?",
+   "steps": [
+    "Salt now: $0.30\\cdot20=6$ liters, and adding water does not change it.",
+    "Let $x$ be the water added: $0.12(20+x)=6$.",
+    "$20+x=50$, so $x=30$."
+   ],
+   "answer": "30 liters"
+  },
+  {
+   "prompt": "Coffee at \\$8 per pound is blended with coffee at \\$12 per pound to make 10 pounds worth \\$9.60 per pound. How many pounds of the \\$8 coffee are used?",
+   "steps": [
+    "Total value: $10\\cdot9.60=96$ dollars.",
+    "Let $a$ pounds be the cheaper coffee: $8a+12(10-a)=96$.",
+    "$120-4a=96$, so $a=6$."
+   ],
+   "answer": "6 pounds"
+  }
+ ],
+ "trap": "Percents of different totals cannot simply be averaged: mixing 30 liters of 20 percent with 10 liters of 40 percent gives 25 percent, not 30. And when something is added, the total in the denominator grows.",
+ "checks": [
+  {
+   "id": "q2-11-mixtures-c1",
+   "lessonId": "q2-11-mixtures",
+   "difficulty": 1,
+   "stem": "How many grams of sugar are in 250 grams of a 12 percent sugar solution (percent by weight)?",
+   "explanation": "$0.12\\cdot250=30$.",
+   "estSeconds": 75,
+   "skills": [
+    "mixtures"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "grams"
+   },
+   "answer": {
+    "value": 30
+   }
+  },
+  {
+   "id": "q2-11-mixtures-c2",
+   "lessonId": "q2-11-mixtures",
+   "difficulty": 2,
+   "stem": "6 liters of a 40 percent juice mixture are combined with 14 liters of a 20 percent juice mixture. What percent of the result is juice?",
+   "explanation": "Juice: $0.40\\cdot6+0.20\\cdot14=2.4+2.8=5.2$ liters out of 20 liters, which is $26$ percent.",
+   "estSeconds": 75,
+   "skills": [
+    "mixtures"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "percent"
+   },
+   "answer": {
+    "value": 26
+   }
+  },
+  {
+   "id": "q2-11-mixtures-c3",
+   "lessonId": "q2-11-mixtures",
+   "difficulty": 2,
+   "stem": "How many liters of water must be added to 8 liters of a 25 percent solution to make a 20 percent solution?",
+   "explanation": "The solute is $0.25\\cdot8=2$ liters. $0.20(8+x)=2$ gives $8+x=10$, so $x=2$.",
+   "estSeconds": 75,
+   "skills": [
+    "mixtures"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "liters"
+   },
+   "answer": {
+    "value": 2
+   }
+  }
+ ]
+}

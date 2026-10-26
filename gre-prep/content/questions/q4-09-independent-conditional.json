@@ -1,0 +1,972 @@
+[
+ {
+  "id": "q4-09-independent-conditional-01",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 1,
+  "stem": "A fair coin is tossed twice. What is the probability that both tosses land heads?",
+  "explanation": "The tosses are independent: $\\frac12 \\times \\frac12 = \\frac14$.",
+  "estSeconds": 45,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.25,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 4
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-02",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 1,
+  "stem": "Events $E$ and $F$ are independent, with $P(E) = 0.2$ and $P(F) = 0.5$. What is $P(E \\text{ and } F)$?",
+  "explanation": "For independent events, $P(E \\text{ and } F) = 0.2 \\times 0.5 = 0.1$.",
+  "choiceExplanations": {
+   "A": "0.07 is a slip in the multiplication.",
+   "C": "0.3 is the difference of the probabilities, $0.5 - 0.2$.",
+   "D": "0.5 is $P(F)$ alone.",
+   "E": "0.7 is the sum of the probabilities."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.07$"
+    },
+    {
+     "id": "B",
+     "text": "$0.1$"
+    },
+    {
+     "id": "C",
+     "text": "$0.3$"
+    },
+    {
+     "id": "D",
+     "text": "$0.5$"
+    },
+    {
+     "id": "E",
+     "text": "$0.7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-03",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "If one of the 200 people is chosen at random, what is the probability that the person prefers coffee? Give your answer as a decimal.",
+  "explanation": "The Total row shows 85 coffee drinkers among 200 people: $\\frac{85}{200} = 0.425$.",
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "probability"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Preferred drink by age group (200 people surveyed)",
+   "data": {
+    "columns": [
+     "Age group",
+     "Tea",
+     "Coffee",
+     "Juice",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Under 30",
+      20,
+      30,
+      30,
+      80
+     ],
+     [
+      "30 and over",
+      45,
+      55,
+      20,
+      120
+     ],
+     [
+      "Total",
+      65,
+      85,
+      50,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.425
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-04",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "A box contains 4 red disks and 6 blue disks. Two disks are drawn at random, without replacement. What is the probability that both are red?",
+  "explanation": "First red: $\\frac{4}{10}$. Given that, 3 red remain among 9 disks: $\\frac39$. Product: $\\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$.",
+  "estSeconds": 75,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.13333333333333333,
+   "fraction": {
+    "numerator": 2,
+    "denominator": 15
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-05",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "With replacement: $\\frac35 \\times \\frac35 = \\frac9{25} = 0.36$. Without replacement: $\\frac35 \\times \\frac24 = \\frac3{10} = 0.30$. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The probability of drawing 2 red marbles in a row, with replacement",
+   "quantityB": "The probability of drawing 2 red marbles in a row, without replacement",
+   "common": "A bag contains 3 red marbles and 2 blue marbles, and two marbles are drawn at random."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-06",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "If one of the people aged 30 and over is chosen at random, what is the probability that the person prefers tea?",
+  "explanation": "Restrict to the 120 people aged 30 and over; 45 of them prefer tea. $\\frac{45}{120} = \\frac38$.",
+  "estSeconds": 75,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Preferred drink by age group (200 people surveyed)",
+   "data": {
+    "columns": [
+     "Age group",
+     "Tea",
+     "Coffee",
+     "Juice",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Under 30",
+      20,
+      30,
+      30,
+      80
+     ],
+     [
+      "30 and over",
+      45,
+      55,
+      20,
+      120
+     ],
+     [
+      "Total",
+      65,
+      85,
+      50,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.375,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 8
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-07",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "A machine has three components that fail independently. The components work with probabilities 0.9, 0.8 and 0.5, respectively. What is the probability that all three components work?",
+  "explanation": "The components are independent, so multiply: $0.9 \\times 0.8 \\times 0.5 = 0.36$.",
+  "estSeconds": 60,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.36
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-08",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "A fair coin is tossed 4 times. What is the probability that at least one of the tosses lands heads?",
+  "explanation": "Use the complement. The probability of no heads is $\\left(\\frac12\\right)^4 = \\frac1{16}$, so $P(\\text{at least one}) = 1 - \\frac{1}{16} = \\frac{15}{16}$.",
+  "choiceExplanations": {
+   "A": "$\\frac1{16}$ is the probability of no heads at all.",
+   "B": "$\\frac14$ is $4 \\times \\frac1{16}$, which has no meaning here.",
+   "C": "$\\frac34$ would result from a miscount of the outcomes.",
+   "D": "$\\frac78$ is the answer for 3 tosses, not 4."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "complement",
+   "independence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{16}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{4}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{7}{8}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{15}{16}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-09",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "If one of the people who prefer juice is chosen at random, what is the probability that the person is under 30?",
+  "explanation": "Restrict to the 50 people who prefer juice; 30 of them are under 30. $\\frac{30}{50} = \\frac35$.",
+  "estSeconds": 75,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Preferred drink by age group (200 people surveyed)",
+   "data": {
+    "columns": [
+     "Age group",
+     "Tea",
+     "Coffee",
+     "Juice",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Under 30",
+      20,
+      30,
+      30,
+      80
+     ],
+     [
+      "30 and over",
+      45,
+      55,
+      20,
+      120
+     ],
+     [
+      "Total",
+      65,
+      85,
+      50,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.6,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 5
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-10",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "For events $E$ and $F$, $P(E) = 0.4$, $P(F) = 0.5$ and $P(E \\text{ or } F) = 0.7$. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$P(E \\text{ and } F) = 0.4 + 0.5 - 0.7 = 0.2$. This equals $P(E)P(F) = 0.2$, so the events are independent. They are not mutually exclusive since $P(E \\text{ and } F) \\neq 0$. $P(F \\text{ given } E) = \\frac{0.2}{0.4} = 0.5$.",
+  "choiceExplanations": {
+   "B": "Mutually exclusive events would have $P(E \\text{ and } F) = 0$ and $P(E \\text{ or } F) = 0.9$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "independence",
+   "conditional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$E$ and $F$ are independent."
+    },
+    {
+     "id": "B",
+     "text": "$E$ and $F$ are mutually exclusive."
+    },
+    {
+     "id": "C",
+     "text": "$P(E \\text{ and } F) = 0.2$."
+    },
+    {
+     "id": "D",
+     "text": "Given that $E$ occurs, the probability that $F$ occurs is 0.5."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-11",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 5,
+  "stem": "A box contains 4 red disks, 3 green disks and 3 blue disks. Two disks are drawn at random without replacement. What is the probability that the two disks are the same color?",
+  "explanation": "Add the three same-color cases. Red: $\\frac4{10} \\times \\frac39 = \\frac{12}{90}$. Green: $\\frac3{10} \\times \\frac29 = \\frac{6}{90}$. Blue: $\\frac{6}{90}$. Total $\\frac{24}{90} = \\frac{4}{15}$.",
+  "estSeconds": 150,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.26666666666666666,
+   "fraction": {
+    "numerator": 4,
+    "denominator": 15
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-12",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 5,
+  "stem": "Consider the events \"the person is under 30\" and \"the person prefers coffee\" for a person chosen at random from the 200. Which of the following is correct?",
+  "explanation": "$P(\\text{under 30}) = \\frac{80}{200} = 0.4$ and $P(\\text{coffee}) = \\frac{85}{200} = 0.425$, so the product is 0.17. But $P(\\text{under 30 and coffee}) = \\frac{30}{200} = 0.15$. The two numbers differ, so the events are not independent.",
+  "choiceExplanations": {
+   "A": "Independence requires the product rule to hold exactly, not that the probabilities are similar.",
+   "B": "Events with positive probabilities that can occur together (30 people are both) are not mutually exclusive.",
+   "D": "The joint probability is $\\frac{30}{200} = 0.15$, not 0.30 (30 is a count).",
+   "E": "The table gives all the counts needed to test the product rule."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "independence",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Preferred drink by age group (200 people surveyed)",
+   "data": {
+    "columns": [
+     "Age group",
+     "Tea",
+     "Coffee",
+     "Juice",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Under 30",
+      20,
+      30,
+      30,
+      80
+     ],
+     [
+      "30 and over",
+      45,
+      55,
+      20,
+      120
+     ],
+     [
+      "Total",
+      65,
+      85,
+      50,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The events are independent, because both probabilities are close to 0.4."
+    },
+    {
+     "id": "B",
+     "text": "The events are independent, because they are mutually exclusive."
+    },
+    {
+     "id": "C",
+     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.15$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
+    },
+    {
+     "id": "D",
+     "text": "The events are not independent: $P(\\text{under 30 and coffee}) = 0.30$ but $P(\\text{under 30}) \\times P(\\text{coffee}) = 0.17$."
+    },
+    {
+     "id": "E",
+     "text": "Independence cannot be checked from the table."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-13",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 1,
+  "stem": "A bag contains 3 red marbles and 7 blue marbles. A marble is drawn at random, its color is noted, and it is put back in the bag. Then a second marble is drawn at random. What is the probability that both marbles are red? Give your answer as a decimal.",
+  "explanation": "The draws are independent because the first marble is replaced: $\\frac{3}{10} \\times \\frac{3}{10} = 0.3 \\times 0.3 = 0.09$.",
+  "estSeconds": 60,
+  "skills": [
+   "independence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.09
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-14",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "If one of the 200 employees is chosen at random, what is the probability that the employee walks to work? Give your answer as a decimal.",
+  "explanation": "The Walk column total is 40 out of 200 employees: $\\frac{40}{200} = 0.2$.",
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "probability"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.2
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-15",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 2,
+  "stem": "A bag contains 5 red marbles and 3 blue marbles. Two marbles are drawn at random without replacement. What is the probability that both marbles are red?",
+  "explanation": "First marble red: $\\frac58$. Given that, 4 red remain among 7 marbles: $\\frac47$. $\\frac58 \\times \\frac47 = \\frac{20}{56} = \\frac{5}{14}$.",
+  "estSeconds": 75,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.35714285714285715,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 14
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-16",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "If one of the employees who drive to work is chosen at random, what is the probability that the employee works in the office?",
+  "explanation": "Restrict to the Drive column: 100 employees, of whom 48 work in the office. $\\frac{48}{100} = \\frac{12}{25}$.",
+  "estSeconds": 75,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.48,
+   "fraction": {
+    "numerator": 12,
+    "denominator": 25
+   }
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-17",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 3,
+  "stem": "Three independent events occur with probabilities 0.5, 0.4 and 0.2. What is the probability that at least one of the three events occurs?",
+  "explanation": "At least one $= 1 - P(\\text{none})$. $P(\\text{none}) = 0.5 \\times 0.6 \\times 0.8 = 0.24$. So $P(\\text{at least one}) = 1 - 0.24 = 0.76$.",
+  "estSeconds": 90,
+  "skills": [
+   "independence",
+   "complement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.76
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-18",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "If one of the employees who do not drive to work is chosen at random, what is the probability that the employee works in the office? Give your answer as a decimal.",
+  "explanation": "Employees who do not drive: $200 - 100 = 100$ (Public transport 60 plus Walk 40). Of these, the office employees number $42 + 30 = 72$. $\\frac{72}{100} = 0.72$.",
+  "estSeconds": 100,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Commute to work by department (200 employees surveyed)",
+   "data": {
+    "columns": [
+     "Department",
+     "Drive",
+     "Public transport",
+     "Walk",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Office",
+      48,
+      42,
+      30,
+      120
+     ],
+     [
+      "Warehouse",
+      52,
+      18,
+      10,
+      80
+     ],
+     [
+      "Total",
+      100,
+      60,
+      40,
+      200
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal"
+   }
+  },
+  "answer": {
+   "value": 0.72
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-19",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "Events $E$ and $F$ are independent, with $P(E) = 0.5$ and $P(E \\text{ or } F) = 0.8$. What is $P(F)$? Give your answer as a decimal.",
+  "explanation": "Let $P(F) = p$. Independence gives $P(E \\text{ and } F) = 0.5p$. Then $0.8 = 0.5 + p - 0.5p$, so $0.3 = 0.5p$ and $p = 0.6$. (Check with the complement: $P(\\text{neither}) = 0.5 \\times 0.4 = 0.2$, so $P(E \\text{ or } F) = 0.8$.)",
+  "estSeconds": 110,
+  "skills": [
+   "independence",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.6
+  }
+ },
+ {
+  "id": "q4-09-independent-conditional-20",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 5,
+  "stem": "A bag holds 6 red marbles, 4 green marbles and 2 yellow marbles. Three marbles are drawn at random without replacement. What is the probability that all three colors appear?",
+  "explanation": "One marble of each color can come out in $3! = 6$ different orders. For one order, say red, green, yellow: $\\frac{6}{12} \\times \\frac{4}{11} \\times \\frac{2}{10} = \\frac{48}{1320}$. Multiply by 6: $\\frac{288}{1320} = \\frac{12}{55}$.",
+  "estSeconds": 150,
+  "skills": [
+   "without-replacement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw3",
+    "solver-bw3"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.21818181818181817,
+   "fraction": {
+    "numerator": 12,
+    "denominator": 55
+   }
+  }
+ }
+]

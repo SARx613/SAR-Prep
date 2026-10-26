@@ -1,0 +1,169 @@
+{
+ "id": "q2-08-functions",
+ "status": "published",
+ "why": "Function notation is a compact way the GRE hides substitution, domain and 'for what value of x' questions in algebra and Quantitative Comparison.",
+ "rule": "A function gives each input $x$ exactly one output. For $f(x)=2x-7$, the value $f(a)$ comes from replacing **every** $x$ by $a$, in brackets: $f(4)=2(4)-7=1$. The input can be an expression: $f(a+1)=2(a+1)-7$.\n\nTwo different inputs may give the same output: if $g(x)=x^2-6x$, then $g(1)=g(5)=-5$.\n\nThe **domain** is the set of allowed inputs: all real numbers unless a restriction is stated or the expression breaks. It breaks when it divides by 0 or puts a negative number under a square root.",
+ "examples": [
+  {
+   "prompt": "If $f(x)=x^2-3x+1$, find $f(-2)$ and $f(a+1)$.",
+   "steps": [
+    "$f(-2)=(-2)^2-3(-2)+1=4+6+1=11$.",
+    "$f(a+1)=(a+1)^2-3(a+1)+1$.",
+    "Expand: $a^2+2a+1-3a-3+1=a^2-a-1$."
+   ],
+   "answer": "$f(-2)=11$ and $f(a+1)=a^2-a-1$"
+  },
+  {
+   "prompt": "What is the domain of $g(x)=\\dfrac{\\sqrt{x+3}}{x-5}$?",
+   "steps": [
+    "The square root needs $x+3\\ge0$, so $x\\ge-3$.",
+    "The denominator is 0 when $x=5$, so $x\\ne5$."
+   ],
+   "answer": "All $x$ with $x\\ge-3$ and $x\\ne5$"
+  }
+ ],
+ "trap": "Substitute into the whole expression, with brackets: for $f(x)=x^2$, $f(-3)=(-3)^2=9$, not $-9$. And $f(a+b)$ is generally not $f(a)+f(b)$, nor is $f(2x)$ generally $2f(x)$.",
+ "checks": [
+  {
+   "id": "q2-08-functions-c1",
+   "lessonId": "q2-08-functions",
+   "difficulty": 1,
+   "stem": "If $f(x)=2x^2-5$, what is the value of $f(-3)$?",
+   "explanation": "$f(-3)=2(-3)^2-5=2(9)-5=13$.",
+   "estSeconds": 45,
+   "skills": [
+    "functions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
+   }
+  },
+  {
+   "id": "q2-08-functions-c2",
+   "lessonId": "q2-08-functions",
+   "difficulty": 2,
+   "stem": "Which of the following numbers is **not** in the domain of $h(x)=\\dfrac{7}{x+4}$?",
+   "explanation": "The denominator $x+4$ is 0 when $x=-4$, where $h$ is undefined.",
+   "choiceExplanations": {
+    "A": "$h(-7)=-\\frac73$ is defined.",
+    "C": "$h(0)=\\frac74$ is defined.",
+    "D": "$h(4)=\\frac78$ is defined.",
+    "E": "$h(7)=\\frac{7}{11}$ is defined."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "functions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-7$"
+     },
+     {
+      "id": "B",
+      "text": "$-4$"
+     },
+     {
+      "id": "C",
+      "text": "$0$"
+     },
+     {
+      "id": "D",
+      "text": "$4$"
+     },
+     {
+      "id": "E",
+      "text": "$7$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q2-08-functions-c3",
+   "lessonId": "q2-08-functions",
+   "difficulty": 3,
+   "stem": "If $f(x)=3x-1$, which of the following is equal to $f(2a)$?",
+   "explanation": "Replace $x$ by $2a$: $3(2a)-1=6a-1$.",
+   "choiceExplanations": {
+    "A": "The 2 was dropped: this is $f(a)$.",
+    "B": "The bracket was misplaced: $3(2a-1)$.",
+    "C": "This is $2f(a)$, which is not $f(2a)$.",
+    "E": "Sign error on the $-1$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "functions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$3a-1$"
+     },
+     {
+      "id": "B",
+      "text": "$6a-3$"
+     },
+     {
+      "id": "C",
+      "text": "$6a-2$"
+     },
+     {
+      "id": "D",
+      "text": "$6a-1$"
+     },
+     {
+      "id": "E",
+      "text": "$6a+1$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  }
+ ]
+}

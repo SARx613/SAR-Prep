@@ -1,0 +1,136 @@
+{
+ "id": "v3-08-evaluate-arguments",
+ "status": "published",
+ "why": "ETS asks you to judge a position, find its weakness and consider other explanations for the same evidence.",
+ "rule": "Find the **conclusion** and the **evidence**, then the gap between them. **Weaken** by showing the evidence has another explanation, the sample or comparison is unfair, or cause and effect run the other way. **Strengthen** by ruling out those alternatives (for instance, by comparing groups that differ only in the suspected cause) or adding independent support.\n\nA link between two things (correlation) does not show that one causes the other: ask whether a third factor, reversed direction or chance explains it. The best choice bears directly on the evidence-to-conclusion step; a statement that is merely on topic is not enough.",
+ "examples": [
+  {
+   "prompt": "Passage: \"Employees who eat lunch away from their desks report higher job satisfaction, so a policy of leaving the desk would raise satisfaction.\"\n\nWhich would most weaken this? (A) Satisfied employees are more likely to take lunch breaks away from their desks. (B) Many employees eat lunch at their desks.",
+   "steps": [
+    "Conclusion: leaving the desk raises satisfaction. Evidence: a link between the two.",
+    "A reverses the direction: satisfaction may cause the lunch habit, so a policy might change nothing.",
+    "B is on topic but says nothing about whether the link is causal."
+   ],
+   "answer": "(A)"
+  }
+ ],
+ "trap": "Choosing a statement that touches the topic but not the gap in the argument, or one that weakens (or strengthens) a different claim from the one in the question.",
+ "checks": [
+  {
+   "id": "v3-08-evaluate-arguments-c1",
+   "lessonId": "v3-08-evaluate-arguments",
+   "difficulty": 2,
+   "stem": "Which of the following, if true, would most strengthen the study's conclusion?",
+   "explanation": "Random assignment rules out the alternative explanations, such as routines or households.",
+   "choiceExplanations": {
+    "A": "Sleep is another possible explanation and would weaken the conclusion.",
+    "B": "Enjoying school does not bear on whether breakfast raises grades.",
+    "C": "This supports the alternative explanation in the passage.",
+    "E": "Popularity of a meal says nothing about grades."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-evaluate"
+   ],
+   "passageId": "v3-c-08",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Students who eat breakfast also tend to sleep more."
+     },
+     {
+      "id": "B",
+      "text": "Students who earn high grades often enjoy school."
+     },
+     {
+      "id": "C",
+      "text": "Students with supportive households usually eat breakfast."
+     },
+     {
+      "id": "D",
+      "text": "Students randomly assigned to receive breakfast earned higher grades than students randomly assigned none."
+     },
+     {
+      "id": "E",
+      "text": "Breakfast is the most popular meal among students."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "v3-08-evaluate-arguments-c2",
+   "lessonId": "v3-08-evaluate-arguments",
+   "difficulty": 2,
+   "stem": "Which of the following does the passage offer as an alternative explanation of the study's finding?",
+   "explanation": "The final sentence names routines and supportive households as other factors that could explain both.",
+   "choiceExplanations": {
+    "B": "Not mentioned.",
+    "C": "Not mentioned.",
+    "D": "Not mentioned; the passage does not describe breakfast's contents.",
+    "E": "Not mentioned."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-alternative-explanations"
+   ],
+   "passageId": "v3-c-08",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Regular routines or supportive households may produce both breakfast-eating and good grades."
+     },
+     {
+      "id": "B",
+      "text": "Good grades make students hungrier for breakfast."
+     },
+     {
+      "id": "C",
+      "text": "Students who skip breakfast are lazy."
+     },
+     {
+      "id": "D",
+      "text": "Breakfast foods are rich in nutrients."
+     },
+     {
+      "id": "E",
+      "text": "Teachers favor students who eat breakfast."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

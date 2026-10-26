@@ -1,0 +1,169 @@
+{
+ "id": "q0-05-calculator",
+ "status": "published",
+ "why": "A basic calculator is on screen for Quant, and it helps only if you know its order of operations, its limits and when to leave it alone.",
+ "rule": "- **Use it** for tedious work (long division, square roots such as the hypotenuse $\\sqrt{a^2+b^2}$ of legs $a$ and $b$, multi-digit arithmetic); not for easy mental sums or to turn a fraction answer into decimals. Estimate first to catch mis-keys.\n- **Order of operations**: parentheses, exponents and roots, then $\\times\\div$, then $+-$ (left to right). So $6+2\\times3=12$. Use parentheses around a numerator or denominator.\n- **Limits**: eight digits. A result above 99,999,999 shows ERROR; a positive result below $10^{-7}$ shows 0. Division by zero or the root of a negative number gives ERROR. Press clear.\n- **Memory**: M+ adds the display to memory, MR recalls, MC clears it.\n- **Transfer Display** copies the display into a one-box Numeric Entry answer; re-check rounding and percent form.",
+ "lengthJustification": "The calculator has five separate rules, each tested directly (order of operations, display limits, ERROR cases, memory, Transfer Display).",
+ "examples": [
+  {
+   "prompt": "Compute $\\frac{7.2+4.8}{3\\times2}$ on the calculator.",
+   "steps": [
+    "Typing $7.2+4.8\\div3\\times2$ gives $7.2+3.2=10.4$: division happens first.",
+    "Enter $(7.2+4.8)\\div(3\\times2)=$, i.e. $12\\div6$."
+   ],
+   "answer": "2"
+  },
+  {
+   "prompt": "A shop sells 20 items at 14 dollars and 30 items at 22 dollars. Find the mean price per item.",
+   "steps": [
+    "Enter $20\\times14$ then M+; enter $30\\times22$ then M+ (memory now holds 940).",
+    "Press MR, then $\\div50$, then equals."
+   ],
+   "answer": "18.8 dollars"
+  }
+ ],
+ "trap": "Typing a fraction left to right without parentheses, and trusting the display. An ERROR is not an answer: it means a limit was crossed. Estimate first so an answer that is off by a mis-key looks wrong.",
+ "checks": [
+  {
+   "id": "q0-05-calculator-c1",
+   "lessonId": "q0-05-calculator",
+   "difficulty": 1,
+   "stem": "What does the on-screen calculator display for $2+3\\times4$?",
+   "explanation": "Multiplication first: $3\\times4=12$, then $2+12=14$.",
+   "estSeconds": 45,
+   "skills": [
+    "calculator"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 14
+   }
+  },
+  {
+   "id": "q0-05-calculator-c2",
+   "lessonId": "q0-05-calculator",
+   "difficulty": 2,
+   "stem": "Which button transfers the calculator display into a Numeric Entry answer box?",
+   "explanation": "Transfer Display copies the display into a single answer box; then check rounding or percent form.",
+   "choiceExplanations": {
+    "A": "That brings the stored number onto the display, not into the answer box.",
+    "B": "That adds the display to the stored number.",
+    "C": "That resets the display.",
+    "E": "That finishes a computation."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "calculator"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Memory recall"
+     },
+     {
+      "id": "B",
+      "text": "Memory sum"
+     },
+     {
+      "id": "C",
+      "text": "Clear"
+     },
+     {
+      "id": "D",
+      "text": "Transfer Display"
+     },
+     {
+      "id": "E",
+      "text": "Equals"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q0-05-calculator-c3",
+   "lessonId": "q0-05-calculator",
+   "difficulty": 2,
+   "stem": "You enter $5\\div0$ and see ERROR. What must you do before continuing?",
+   "explanation": "After ERROR, the display can only be cleared with the clear button.",
+   "choiceExplanations": {
+    "B": "Equals does not clear ERROR.",
+    "C": "Memory does not clear ERROR.",
+    "D": "The clear button must be used.",
+    "E": "Clear is enough."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "calculator"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Press the clear button"
+     },
+     {
+      "id": "B",
+      "text": "Press equals again"
+     },
+     {
+      "id": "C",
+      "text": "Press memory sum"
+     },
+     {
+      "id": "D",
+      "text": "Nothing; ERROR disappears by itself"
+     },
+     {
+      "id": "E",
+      "text": "Close and reopen the question"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

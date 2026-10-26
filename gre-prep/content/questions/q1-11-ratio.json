@@ -1,0 +1,793 @@
+[
+ {
+  "id": "q1-11-ratio-01",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 1,
+  "stem": "The ratio $24:36$ is written in lowest terms as $a:b$. What is $b$?",
+  "explanation": "$\\text{GCD}(24,36) = 12$, so $24:36 = 2:3$ and $b = 3$.",
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q1-11-ratio-02",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 1,
+  "stem": "A class has 12 boys and 18 girls. What is the ratio of boys to girls?",
+  "explanation": "$12:18$ reduces by 6 to $2:3$.",
+  "choiceExplanations": {
+   "A": "This is boys to the whole class, $12:30$.",
+   "B": "This is girls to the whole class, $18:30$.",
+   "D": "This is girls to boys: the order is reversed.",
+   "E": "This is whole class to boys, $30:12$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2:5$"
+    },
+    {
+     "id": "B",
+     "text": "$3:5$"
+    },
+    {
+     "id": "C",
+     "text": "$2:3$"
+    },
+    {
+     "id": "D",
+     "text": "$3:2$"
+    },
+    {
+     "id": "E",
+     "text": "$5:2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-03",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "The ratio of $x$ to 15 is equal to the ratio of 4 to 10. What is $x$?",
+  "explanation": "$\\frac{x}{15} = \\frac{4}{10}$, so $10x = 60$ and $x = 6$.",
+  "choiceExplanations": {
+   "A": "This copies the 4.",
+   "C": "This halves 15; the ratio is 4 to 10, which is 2 to 5, not 1 to 2.",
+   "D": "This adds 5 to 4 because the 10 became 15; ratios scale by multiplication, not addition.",
+   "E": "This cross-multiplies upside down: $\\frac{15\\cdot10}{4}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "7.5"
+    },
+    {
+     "id": "D",
+     "text": "9"
+    },
+    {
+     "id": "E",
+     "text": "37.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-04",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac{7}{9}$ versus $\\frac{8}{10} = \\frac{4}{5}$. Cross-multiplying: $7\\cdot5 = 35$ and $4\\cdot9 = 36$, so $\\frac{7}{9}<\\frac{4}{5}$. B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The ratio of 7 to 9",
+   "quantityB": "The ratio of 8 to 10"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-11-ratio-05",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "Which of the following ratios are equivalent to $6:9$? Indicate all such ratios.",
+  "explanation": "Divide $6:9$ by 3 to get $2:3$. Multiplying by 2 gives $12:18$ and by 3 gives $18:27$. $3:2$ is reversed and $6:10$ is $3:5$.",
+  "choiceExplanations": {
+   "B": "This is the reversed ratio, $\\frac{3}{2}\\ne\\frac{2}{3}$.",
+   "D": "$6:10 = 3:5\\ne2:3$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2:3$"
+    },
+    {
+     "id": "B",
+     "text": "$3:2$"
+    },
+    {
+     "id": "C",
+     "text": "$12:18$"
+    },
+    {
+     "id": "D",
+     "text": "$6:10$"
+    },
+    {
+     "id": "E",
+     "text": "$18:27$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-06",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "A basket holds apples, pears and oranges in the ratio $2:3:5$. If the basket holds 40 pieces of fruit, how many are oranges?",
+  "explanation": "The ratio has $2+3+5 = 10$ parts, so each part is $40\\div10 = 4$ pieces. Oranges: $5\\cdot4 = 20$.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q1-11-ratio-07",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "The ratio of boys to girls in a club is $3:4$. There are 12 more girls than boys. How many girls are in the club?",
+  "explanation": "Boys $=3k$, girls $=4k$, and the difference $4k-3k = k = 12$. Girls: $4\\cdot12 = 48$.",
+  "choiceExplanations": {
+   "A": "12 is the difference, i.e. one part.",
+   "B": "This treats 12 as the number of boys ($3k=12$).",
+   "C": "This is the number of boys, $3\\cdot12$.",
+   "E": "This is the whole club, $7\\cdot12$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "16"
+    },
+    {
+     "id": "C",
+     "text": "36"
+    },
+    {
+     "id": "D",
+     "text": "48"
+    },
+    {
+     "id": "E",
+     "text": "84"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-08",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "The ratio of boys to girls in a class is $3:5$. Which of the following could be the number of students in the class?",
+  "explanation": "Boys and girls come in groups of $3+5 = 8$ students, so the class size is a multiple of 8. Only 40 is ($40 = 5\\cdot8$).",
+  "choiceExplanations": {
+   "A": "$36\\div8 = 4.5$, not an integer.",
+   "C": "$42\\div8 = 5.25$.",
+   "D": "$44\\div8 = 5.5$.",
+   "E": "$52\\div8 = 6.5$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "36"
+    },
+    {
+     "id": "B",
+     "text": "40"
+    },
+    {
+     "id": "C",
+     "text": "42"
+    },
+    {
+     "id": "D",
+     "text": "44"
+    },
+    {
+     "id": "E",
+     "text": "52"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-09",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The ratio of $x$ to $y$ is $3:4$, so $x:y = 6:8$ (scale by 2 to match $y=8$). With $y:z = 8:5$ we get $x:y:z = 6:8:5$, so $\\frac{x}{z} = \\frac{6}{5}>1$. A is greater.",
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{x}{z}$",
+   "quantityB": "1",
+   "common": "The ratio of $x$ to $y$ is $3:4$, the ratio of $y$ to $z$ is $8:5$, and $x,y,z>0$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-11-ratio-10",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "$\\frac{a}{b} = \\frac{2}{3}$ and $\\frac{b}{c} = \\frac{9}{4}$, where $a,b,c$ are positive. What is $\\frac{a}{c}$?",
+  "explanation": "$\\frac{a}{c} = \\frac{a}{b}\\cdot\\frac{b}{c} = \\frac{2}{3}\\cdot\\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$. (The $b$ cancels.)",
+  "choiceExplanations": {
+   "A": "This divides $\\frac{a}{b}$ by $\\frac{b}{c}$ instead of multiplying.",
+   "B": "This is only $\\frac{a}{b}$.",
+   "D": "This adds tops and bottoms, $\\frac{2+9}{3+4}$.",
+   "E": "This is the reciprocal of the dividing mistake."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{8}{27}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{11}{7}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{27}{8}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-11",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $4:7$, and $x+y=33$. When 6 is added to each of $x$ and $y$, the ratio of the new values, written in lowest terms, is $a:b$. What is $a+b$?",
+  "explanation": "Parts: $4+7=11$, so each part is $33\\div11=3$, giving $x=12$ and $y=21$. Adding 6: $18:27$, which reduces (GCD 9) to $2:3$. So $a+b=5$. Adding 6 to the ratio terms instead ($10:13$) is the trap: change the quantities, not the ratio.",
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q1-11-ratio-12",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $3$ to $4$, with $x,y>0$. What is the ratio of $2x+y$ to $x+2y$?",
+  "explanation": "Let $x=3k$ and $y=4k$. Then $2x+y = 6k+4k = 10k$ and $x+2y = 3k+8k = 11k$. The ratio is $\\frac{10}{11}$.",
+  "choiceExplanations": {
+   "A": "The numerator 7 is $x+y = 7k$; this ignores the factor 2 in $2x+y$ and the factor 2 in $x+2y$.",
+   "B": "This is the original ratio; the new expressions change the weights.",
+   "C": "This adds 2 to each term, $\\frac{3+2}{4+2}$.",
+   "E": "This inverts the ratio."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7}{10}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{3}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{5}{6}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{10}{11}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{11}{10}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-13",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 1,
+  "stem": "A bag holds 6 red marbles and 10 blue marbles. What is the ratio of red marbles to all the marbles in the bag?",
+  "explanation": "The total is $6+10 = 16$ marbles. The ratio of red to all is $6:16$, which reduces by dividing by 2 to $3:8$.",
+  "choiceExplanations": {
+   "B": "This is the ratio of red to blue marbles, not red to all marbles.",
+   "C": "This is the ratio of blue marbles to all marbles.",
+   "D": "This is the ratio of blue to red marbles.",
+   "E": "This is the ratio of all marbles to red marbles, in the wrong order."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3:8$"
+    },
+    {
+     "id": "B",
+     "text": "$3:5$"
+    },
+    {
+     "id": "C",
+     "text": "$5:8$"
+    },
+    {
+     "id": "D",
+     "text": "$5:3$"
+    },
+    {
+     "id": "E",
+     "text": "$8:3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-11-ratio-14",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "A car uses 6 gallons of gas to travel 150 miles. At the same rate, how many gallons are needed to travel 400 miles?",
+  "explanation": "Set up a proportion: $\\frac{6}{150} = \\frac{g}{400}$. Cross-multiplying gives $150g = 2{,}400$, so $g = 16$. (Equivalently, 150 miles per 6 gallons is 25 miles per gallon, and $400\\div25 = 16$.)",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q1-11-ratio-15",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A ratio of $3:4$ means $x = 3k$ and $y = 4k$ for some positive $k$. Then $y-x = k$, while $x = 3k$. Since $k<3k$ for positive $k$, Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$y-x$",
+   "quantityB": "$x$",
+   "common": "The ratio of $x$ to $y$ is 3 to 4, and $x$ and $y$ are positive."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-11-ratio-16",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "Red, white and blue paint are mixed in the ratio $2:3:7$. There are 20 liters more blue paint than red paint. How many liters of paint are there in all?",
+  "explanation": "Blue minus red is $7-2 = 5$ parts, and 5 parts are 20 liters, so one part is 4 liters. The total is $2+3+7 = 12$ parts, or $12\\cdot4 = 48$ liters.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  }
+ },
+ {
+  "id": "q1-11-ratio-17",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A ratio of boys to girls of $4:5$ means $\\frac{4}{4+5} = \\frac{4}{9}$ of class A are boys. A ratio of $5:7$ means $\\frac{5}{5+7} = \\frac{5}{12}$ of class B are boys. Compare over 36: $\\frac{16}{36}$ versus $\\frac{15}{36}$. Quantity A is greater, whatever the class sizes are.",
+  "estSeconds": 100,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The fraction of class A that is boys",
+   "quantityB": "The fraction of class B that is boys",
+   "common": "In class A the ratio of boys to girls is 4 to 5. In class B the ratio of boys to girls is 5 to 7."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-11-ratio-18",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "The ratio of $\\frac{2}{3}$ to $\\frac{5}{6}$ is written in lowest terms as $a:b$, where $a$ and $b$ are positive integers. What is $a+b$?",
+  "explanation": "The ratio is the fraction $\\frac{2}{3}\\div\\frac{5}{6} = \\frac{2}{3}\\cdot\\frac{6}{5} = \\frac{12}{15} = \\frac{4}{5}$. So the ratio is $4:5$ and $a+b = 9$. (Check by scaling both terms by 6: $4:5$.)",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q1-11-ratio-19",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 4,
+  "stem": "Jar A holds red and blue marbles in the ratio $1:3$. Jar B holds red and blue marbles in the ratio $2:3$. The two jars hold the same total number of marbles. All the marbles are poured into one large jar. What fraction of the marbles in the large jar are red? Enter your answer as a fraction.",
+  "explanation": "Let each jar hold $N$ marbles. Jar A is $\\frac{1}{1+3} = \\frac{1}{4}$ red and jar B is $\\frac{2}{2+3} = \\frac{2}{5}$ red. Red marbles: $\\frac{N}{4}+\\frac{2N}{5} = \\frac{13N}{20}$ out of $2N$ in all. The fraction is $\\frac{13}{20}\\cdot\\frac{1}{2} = \\frac{13}{40}$. (Try $N=20$: 5 + 8 red out of 40.)",
+  "estSeconds": 130,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.325,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 40
+   }
+  }
+ },
+ {
+  "id": "q1-11-ratio-20",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 5,
+  "stem": "The ratio of $x$ to $y$ is $4:3$. When 12 is added to $y$, the ratio of $x$ to the new value of $y$ is $4:5$. What is $x$?",
+  "explanation": "Write $x = 4k$ and $y = 3k$. Then $\\frac{4k}{3k+12} = \\frac{4}{5}$. Cross-multiplying: $20k = 12k+48$, so $8k = 48$ and $k=6$. Then $x = 24$ and $y=18$. Check: $y+12 = 30$ and $24:30 = 4:5$.",
+  "estSeconds": 130,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
+ }
+]

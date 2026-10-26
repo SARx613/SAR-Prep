@@ -1,0 +1,1490 @@
+[
+ {
+  "id": "v2-03-method-01",
+  "lessonId": "v2-03-method",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** read, then predict. A twelve-hour climb followed by instant bed means *tired*; *exhausted* and *weary* both match.",
+  "choiceExplanations": {
+   "A": "Restless people do not go to bed at once.",
+   "D": "Anger is not suggested by the climb or the early bedtime.",
+   "B": "Means confused; unrelated to physical effort.",
+   "C": "Talkative hikers would stay up chatting."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The hikers were {{1}} after the twelve-hour climb and went to bed as soon as they reached camp.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "restless"
+    },
+    {
+     "id": "B",
+     "text": "bewildered"
+    },
+    {
+     "id": "C",
+     "text": "talkative"
+    },
+    {
+     "id": "D",
+     "text": "furious"
+    },
+    {
+     "id": "E",
+     "text": "exhausted"
+    },
+    {
+     "id": "F",
+     "text": "weary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-02",
+  "lessonId": "v2-03-method",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Unlike* reverses \"cheerful\"; \"rarely smiling\" confirms it. Predict *gloomy*; *glum* and *morose* match.",
+  "choiceExplanations": {
+   "D": "Means cheerful, the same as the brother; *unlike* needs the opposite.",
+   "C": "Says nothing about mood.",
+   "A": "Says nothing about mood.",
+   "E": "Describes speed, not mood."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Unlike her cheerful brother, Dana was usually {{1}}, rarely smiling or joking.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "generous"
+    },
+    {
+     "id": "B",
+     "text": "glum"
+    },
+    {
+     "id": "C",
+     "text": "adventurous"
+    },
+    {
+     "id": "D",
+     "text": "jovial"
+    },
+    {
+     "id": "E",
+     "text": "hasty"
+    },
+    {
+     "id": "F",
+     "text": "morose"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-03",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** the colon-like clue \"dozens of small businesses replacing\" one mill means many different sources of income. Predict *diverse*; *diverse* and *varied* match.",
+  "choiceExplanations": {
+   "B": "Means not growing; the new businesses do not imply stagnation.",
+   "A": "Means combined into one, the reverse of dozens of small firms.",
+   "F": "Means isolated; nothing in the sentence concerns isolation.",
+   "C": "Means out of date, which does not follow from new businesses."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The town's economy, once dominated by a single mill, has become far more {{1}}, with dozens of small businesses replacing it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "consolidated"
+    },
+    {
+     "id": "B",
+     "text": "stagnant"
+    },
+    {
+     "id": "C",
+     "text": "obsolete"
+    },
+    {
+     "id": "D",
+     "text": "varied"
+    },
+    {
+     "id": "E",
+     "text": "diverse"
+    },
+    {
+     "id": "F",
+     "text": "insular"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-04",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** \"surprised\" tells you her past was the opposite of her present ardent support. Predict *fought*; *opposed* and *resisted*.",
+  "choiceExplanations": {
+   "D": "Would mean she had always supported such measures, so there would be no surprise.",
+   "C": "Writing similar bills would also make her support unsurprising.",
+   "E": "Promoting them would not be surprising either.",
+   "A": "Changing them is neutral and would not produce surprise."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The senator's ardent support of the bill surprised those who knew that she had {{1}} similar measures for years.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "amended"
+    },
+    {
+     "id": "B",
+     "text": "opposed"
+    },
+    {
+     "id": "C",
+     "text": "drafted"
+    },
+    {
+     "id": "D",
+     "text": "championed"
+    },
+    {
+     "id": "E",
+     "text": "publicized"
+    },
+    {
+     "id": "F",
+     "text": "resisted"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-05",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Because* ... *could not reach a verdict*. Evidence that fails to settle the question is *inconclusive* or *ambiguous*.",
+  "choiceExplanations": {
+   "C": "Overwhelming evidence would make a verdict easy.",
+   "F": "Repetitive evidence does not make a verdict impossible.",
+   "E": "Vividness does not prevent a decision.",
+   "A": "Describes agreement among people, not a feature of evidence, and agreement would produce a verdict."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the evidence was {{1}}, the jury could not reach a verdict.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unanimous"
+    },
+    {
+     "id": "B",
+     "text": "ambiguous"
+    },
+    {
+     "id": "C",
+     "text": "overwhelming"
+    },
+    {
+     "id": "D",
+     "text": "inconclusive"
+    },
+    {
+     "id": "E",
+     "text": "vivid"
+    },
+    {
+     "id": "F",
+     "text": "redundant"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-06",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *While conceding* introduces something positive that the critics grant before the *but*-like claim that data are lacking. Predict a compliment: *elegant* and *ingenious*.",
+  "choiceExplanations": {
+   "D": "Critics would not need to concede this; it agrees with their complaint, so no concession is made.",
+   "A": "A criticism, not a concession.",
+   "B": "A criticism, not a concession.",
+   "E": "A serious criticism, not something to concede in the theory's favor."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "While conceding that the theory is {{1}}, its critics maintain that no existing data actually support it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "outdated"
+    },
+    {
+     "id": "B",
+     "text": "obscure"
+    },
+    {
+     "id": "C",
+     "text": "elegant"
+    },
+    {
+     "id": "D",
+     "text": "untenable"
+    },
+    {
+     "id": "E",
+     "text": "tautological"
+    },
+    {
+     "id": "F",
+     "text": "ingenious"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-07",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** a builder of a monument to learning who could barely read is the opposite of what we expect. Predict *ironic*; *ironic* and *paradoxical* match.",
+  "choiceExplanations": {
+   "D": "Would mean appropriate, but his illiteracy does not suit a library.",
+   "B": "Nothing suggests it had to happen.",
+   "C": "Illiteracy is not praiseworthy.",
+   "A": "The sentence presents the situation as striking, not usual."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "It is {{1}} that the architect who designed the city's most celebrated library, a monument to learning, was himself barely literate.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "typical"
+    },
+    {
+     "id": "B",
+     "text": "inevitable"
+    },
+    {
+     "id": "C",
+     "text": "commendable"
+    },
+    {
+     "id": "D",
+     "text": "fitting"
+    },
+    {
+     "id": "E",
+     "text": "paradoxical"
+    },
+    {
+     "id": "F",
+     "text": "ironic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "F",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-08",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** only heavy spending funded entirely by debt would leave a firm unable to pay. Predict *excessive*; *profligate* and *extravagant*.",
+  "choiceExplanations": {
+   "A": "Frugal spending would not ruin a firm.",
+   "D": "Tiny spending could not cause such trouble.",
+   "F": "Means hesitant; it does not explain the size of debts.",
+   "B": "Means careful and principled, the opposite of the problem."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The firm's {{1}} spending, financed entirely by borrowing, left it unable to pay its debts.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "frugal"
+    },
+    {
+     "id": "B",
+     "text": "scrupulous"
+    },
+    {
+     "id": "C",
+     "text": "profligate"
+    },
+    {
+     "id": "D",
+     "text": "negligible"
+    },
+    {
+     "id": "E",
+     "text": "extravagant"
+    },
+    {
+     "id": "F",
+     "text": "tentative"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-09",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** \"apparent\" ... \"in fact calculated\" and \"by yielding\". What looked like giving in was strategy. *Acquiescence* and *compliance*.",
+  "choiceExplanations": {
+   "E": "Stubbornness contradicts \"yielding on minor points\".",
+   "B": "Does not match yielding.",
+   "C": "Concerns spending, not yielding.",
+   "A": "Frankness has nothing to do with yielding."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The ruler's apparent {{1}} was in fact calculated: by yielding on minor points, he preserved his authority on the matters that counted.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "candor"
+    },
+    {
+     "id": "B",
+     "text": "ferocity"
+    },
+    {
+     "id": "C",
+     "text": "extravagance"
+    },
+    {
+     "id": "D",
+     "text": "acquiescence"
+    },
+    {
+     "id": "E",
+     "text": "obstinacy"
+    },
+    {
+     "id": "F",
+     "text": "compliance"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-10",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *though* sets presentation against reality. A self-justifying book would not claim to be one-sided, so it was presented as fair: *objective* and *impartial*.",
+  "choiceExplanations": {
+   "C": "A style label that does not contrast with self-justification.",
+   "B": "Comprehensiveness is not opposed to self-justification.",
+   "A": "Does not contrast with self-justification.",
+   "F": "Nostalgia is compatible with self-justification, so *though* would have no work to do."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The memoir, though presented as {{1}}, is regarded by historians as an exercise in self-justification.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "prophetic"
+    },
+    {
+     "id": "B",
+     "text": "exhaustive"
+    },
+    {
+     "id": "C",
+     "text": "ornate"
+    },
+    {
+     "id": "D",
+     "text": "objective"
+    },
+    {
+     "id": "E",
+     "text": "impartial"
+    },
+    {
+     "id": "F",
+     "text": "nostalgic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-11",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** the reaction owed \"less to its defects\" (so it was a hostile reaction) and later readers found it only \"accomplished\". Predict *condemned*; *reviled* and *vilified* both match.",
+  "choiceExplanations": {
+   "C": "A reaction to defects would be negative; praise does not fit \"owed less to its defects\".",
+   "D": "Imitation would not be linked to defects.",
+   "E": "Scholarly note-taking is not a reaction to defects or to a challenge.",
+   "F": "A publishing format, not a reaction."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "That the novelist's early work was {{1}} by contemporaries owed less to its defects than to its challenge to the reigning conventions; later readers, no longer holding those conventions sacred, found it merely accomplished.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "vilified"
+    },
+    {
+     "id": "B",
+     "text": "reviled"
+    },
+    {
+     "id": "C",
+     "text": "celebrated"
+    },
+    {
+     "id": "D",
+     "text": "emulated"
+    },
+    {
+     "id": "E",
+     "text": "annotated"
+    },
+    {
+     "id": "F",
+     "text": "serialized"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-12",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** the publicity was \"useful\" yet clashed with his austere image, so he sought it eagerly. Predict *fondness*: *penchant* and *predilection*.",
+  "choiceExplanations": {
+   "C": "Scorn for publicity would not conflict with an austere image, and could not help the budget.",
+   "D": "Means being unaffected; it does not suggest he pursued publicity.",
+   "E": "Fear of publicity would not clash with his image or help the budget.",
+   "B": "Means longing for the past, unrelated to publicity."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Even admirers of the physicist conceded that his {{1}} for publicity, though undeniably useful to his research budget, sat uneasily with the austere image of science he professed.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "predilection"
+    },
+    {
+     "id": "B",
+     "text": "nostalgia"
+    },
+    {
+     "id": "C",
+     "text": "disdain"
+    },
+    {
+     "id": "D",
+     "text": "immunity"
+    },
+    {
+     "id": "E",
+     "text": "apprehension"
+    },
+    {
+     "id": "F",
+     "text": "penchant"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "F",
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-13",
+  "lessonId": "v2-03-method",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** a queue down the block means it was full of people: *crowded* and *packed*.",
+  "choiceExplanations": {
+   "A": "Quiet places do not produce queues.",
+   "C": "Roomy shops would hold the customers inside.",
+   "D": "Condition does not explain queues.",
+   "F": "Age does not explain the Saturday crowd."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The bakery was so {{1}} on Saturdays that customers queued down the block.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "quiet"
+    },
+    {
+     "id": "B",
+     "text": "crowded"
+    },
+    {
+     "id": "C",
+     "text": "spacious"
+    },
+    {
+     "id": "D",
+     "text": "shabby"
+    },
+    {
+     "id": "E",
+     "text": "packed"
+    },
+    {
+     "id": "F",
+     "text": "historic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-14",
+  "lessonId": "v2-03-method",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** freezing rain makes ice, so drivers slow down: *slippery* and *slick*.",
+  "choiceExplanations": {
+   "A": "Freezing rain does not leave dust.",
+   "C": "Beauty does not slow drivers.",
+   "D": "Width does not slow drivers.",
+   "E": "An empty road does not explain a crawl."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the road was {{1}} after the freezing rain, drivers moved at a crawl.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "dusty"
+    },
+    {
+     "id": "B",
+     "text": "slippery"
+    },
+    {
+     "id": "C",
+     "text": "scenic"
+    },
+    {
+     "id": "D",
+     "text": "wide"
+    },
+    {
+     "id": "E",
+     "text": "empty"
+    },
+    {
+     "id": "F",
+     "text": "slick"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-15",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** a life with only the bare essentials: *austere* and *spartan*. *Cloistered* also fits a monk, but it means secluded, not bare, and has no partner.",
+  "choiceExplanations": {
+   "A": "Luxury, the opposite of the colon list.",
+   "C": "Fits a monk but means shut away, a different idea with no partner.",
+   "D": "Sociable, which the list does not suggest.",
+   "F": "Busy, which the list does not suggest."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The monk's life was {{1}}: a cot, a stool and one daily meal, with no comfort of any kind.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "opulent"
+    },
+    {
+     "id": "B",
+     "text": "austere"
+    },
+    {
+     "id": "C",
+     "text": "cloistered"
+    },
+    {
+     "id": "D",
+     "text": "convivial"
+    },
+    {
+     "id": "E",
+     "text": "spartan"
+    },
+    {
+     "id": "F",
+     "text": "hectic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-16",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** advisers who cannot predict him face quickly shifting moods: *mercurial* and *volatile*.",
+  "choiceExplanations": {
+   "A": "Calm moods would be predictable.",
+   "C": "Firm moods would be predictable.",
+   "E": "Does not explain unpredictability.",
+   "F": "Carefulness does not explain unpredictable moods."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The investor's moods were so {{1}} that his advisers could never predict what he would demand next.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "placid"
+    },
+    {
+     "id": "B",
+     "text": "mercurial"
+    },
+    {
+     "id": "C",
+     "text": "resolute"
+    },
+    {
+     "id": "D",
+     "text": "volatile"
+    },
+    {
+     "id": "E",
+     "text": "humorless"
+    },
+    {
+     "id": "F",
+     "text": "meticulous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-17",
+  "lessonId": "v2-03-method",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** half against half means a split: *divided* and *polarized*.",
+  "choiceExplanations": {
+   "A": "The opposite of half against half.",
+   "C": "Lukewarm; the clause describes two strong opposing camps.",
+   "D": "About timing, not the split.",
+   "F": "Half deplored it, so it was not ecstatic."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The critics' reception of the play was {{1}}: half praised its daring, half deplored its crudity.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "harmonious"
+    },
+    {
+     "id": "B",
+     "text": "divided"
+    },
+    {
+     "id": "C",
+     "text": "tepid"
+    },
+    {
+     "id": "D",
+     "text": "belated"
+    },
+    {
+     "id": "E",
+     "text": "polarized"
+    },
+    {
+     "id": "F",
+     "text": "ecstatic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-18",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** *nearly every argument had been heard before* anchors the blank: *originality* and *novelty*. *Eloquence* also fits the grammar but ignores the clue, and has no partner.",
+  "choiceExplanations": {
+   "A": "Contradicts *sheer length*.",
+   "B": "Fits the blank but does not use the clue about repeated arguments; no partner.",
+   "D": "Fits grammatically but ignores the clue and has no partner.",
+   "F": "Fits grammatically but ignores the clue and has no partner."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The senator's speech was notable less for its {{1}} than for its sheer length; nearly every argument in it had been heard before.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "brevity"
+    },
+    {
+     "id": "B",
+     "text": "eloquence"
+    },
+    {
+     "id": "C",
+     "text": "originality"
+    },
+    {
+     "id": "D",
+     "text": "humor"
+    },
+    {
+     "id": "E",
+     "text": "novelty"
+    },
+    {
+     "id": "F",
+     "text": "restraint"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-19",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** *lacking in feeling* gives *wooden* and *lifeless*. *Polished* repeats *flawless* and ignores *yet*.",
+  "choiceExplanations": {
+   "A": "Contradicts *lacking in feeling*.",
+   "C": "Matches *flawless* but not *yet curiously lacking*, so there is no contrast.",
+   "D": "Unsure, which *technically flawless* contradicts.",
+   "F": "Rough, the opposite of *flawless*."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The tenor's performance was {{1}}: technically flawless yet curiously lacking in feeling.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "electrifying"
+    },
+    {
+     "id": "B",
+     "text": "wooden"
+    },
+    {
+     "id": "C",
+     "text": "polished"
+    },
+    {
+     "id": "D",
+     "text": "hesitant"
+    },
+    {
+     "id": "E",
+     "text": "lifeless"
+    },
+    {
+     "id": "F",
+     "text": "ragged"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-20",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* ... *details of her own childhood* means she denied it was true: *fictitious* and *imaginary*.",
+  "choiceExplanations": {
+   "A": "Insisting it was autobiographical would not contrast with readers recognizing her childhood.",
+   "C": "Insisting it was tragic has no contrast with the details recognized.",
+   "D": "No contrast with the details recognized.",
+   "F": "No contrast with recognizing her childhood."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the novelist insisted that the story was entirely {{1}}, readers recognized in it the details of her own childhood.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "autobiographical"
+    },
+    {
+     "id": "B",
+     "text": "fictitious"
+    },
+    {
+     "id": "C",
+     "text": "tragic"
+    },
+    {
+     "id": "D",
+     "text": "candid"
+    },
+    {
+     "id": "E",
+     "text": "imaginary"
+    },
+    {
+     "id": "F",
+     "text": "wistful"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-21",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** reluctance to commit until all facts are in is slow and careful: *deliberate* and *measured*.",
+  "choiceExplanations": {
+   "A": "Hasty, the opposite of waiting for every fact.",
+   "C": "Showy, which the clue does not suggest.",
+   "E": "Harsh, not the same as slow and careful.",
+   "F": "Does not explain waiting for facts."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The detective's {{1}} manner, reluctant to commit to any theory until every fact was in, frustrated colleagues who wanted quick results.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "impetuous"
+    },
+    {
+     "id": "B",
+     "text": "deliberate"
+    },
+    {
+     "id": "C",
+     "text": "flamboyant"
+    },
+    {
+     "id": "D",
+     "text": "measured"
+    },
+    {
+     "id": "E",
+     "text": "abrasive"
+    },
+    {
+     "id": "F",
+     "text": "sentimental"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-22",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** a pledge repeated with no plan behind it has no substance: *hollow* and *empty*.",
+  "choiceExplanations": {
+   "A": "A commitment backed by no plan is not binding.",
+   "C": "Does not follow from the missing plan.",
+   "D": "A pledge with no plan is the opposite of specific.",
+   "F": "The sentence questions substance, not sincerity."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The governor's pledge to cut taxes, repeated at every rally but never accompanied by a plan, was essentially {{1}}.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "binding"
+    },
+    {
+     "id": "B",
+     "text": "hollow"
+    },
+    {
+     "id": "C",
+     "text": "radical"
+    },
+    {
+     "id": "D",
+     "text": "specific"
+    },
+    {
+     "id": "E",
+     "text": "empty"
+    },
+    {
+     "id": "F",
+     "text": "sincere"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-23",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Predict:** unknown origin and no confirmation make the claims doubtful: *dubious* and *apocryphal* (of doubtful authenticity). *Provisional* fits but means temporary, not suspect, and has no partner.",
+  "choiceExplanations": {
+   "A": "Unestablished origin makes claims easy to attack.",
+   "C": "Fits the blank but means tentative, a different claim with no partner.",
+   "D": "Decorative, with no link to origin.",
+   "F": "Harmless, with no link to origin."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the document's provenance had never been established, scholars treated its sensational claims as {{1}} until independent confirmation emerged.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unassailable"
+    },
+    {
+     "id": "B",
+     "text": "dubious"
+    },
+    {
+     "id": "C",
+     "text": "provisional"
+    },
+    {
+     "id": "D",
+     "text": "ornamental"
+    },
+    {
+     "id": "E",
+     "text": "apocryphal"
+    },
+    {
+     "id": "F",
+     "text": "benign"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-24",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Though ... never wounded* needs comments that could have wounded; *even her sharpest corrections* confirms they were strict: *exacting* and *unsparing*.",
+  "choiceExplanations": {
+   "A": "Gentle comments would not wound, so *though* has nothing to contrast.",
+   "C": "Friendly comments would not wound, so no contrast.",
+   "D": "Trivial comments would not be sharp.",
+   "F": "Timing is not the contrast."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Though the editor's marginal comments were {{1}}, they never wounded; even her sharpest corrections came with evident goodwill.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "gentle"
+    },
+    {
+     "id": "B",
+     "text": "exacting"
+    },
+    {
+     "id": "C",
+     "text": "cordial"
+    },
+    {
+     "id": "D",
+     "text": "trivial"
+    },
+    {
+     "id": "E",
+     "text": "unsparing"
+    },
+    {
+     "id": "F",
+     "text": "belated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ }
+]

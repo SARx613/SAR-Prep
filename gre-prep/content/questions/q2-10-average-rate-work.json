@@ -1,0 +1,822 @@
+[
+ {
+  "id": "q2-10-average-rate-work-01",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 1,
+  "stem": "What is the average (arithmetic mean) of 6, 9, 15 and 22?",
+  "explanation": "Sum $=6+9+15+22=52$; divide by 4 values: $52\\div4=13$.",
+  "estSeconds": 45,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-02",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 1,
+  "stem": "A cyclist rides at a constant 18 miles per hour for 40 minutes. How many miles does the cyclist ride?",
+  "explanation": "Convert to hours: $40\\text{ min}=\\frac23$ hour. Then $d=rt=18\\cdot\\frac23=12$.",
+  "choiceExplanations": {
+   "A": "This treats 40 minutes as 0.4 hour.",
+   "C": "This divides 18 by 0.4 instead of multiplying.",
+   "D": "This adds the speed and the minutes.",
+   "E": "This multiplies 18 by 40 without converting minutes to hours."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "7.2"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "45"
+    },
+    {
+     "id": "D",
+     "text": "58"
+    },
+    {
+     "id": "E",
+     "text": "720"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-03",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 2,
+  "stem": "Jo scored 70, 84, 91 and 77 on her first four tests. What score on the fifth test gives her an average of 80 for all five?",
+  "explanation": "Needed total: $5\\cdot80=400$. So far: $70+84+91+77=322$. Fifth score: $400-322=78$.",
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 78
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-04",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 2,
+  "stem": "The average of four numbers is 20. When one of the numbers is removed, the average of the remaining three is 18. What number was removed?",
+  "explanation": "Original total $=4\\cdot20=80$. Remaining total $=3\\cdot18=54$. Removed number $=80-54=26$.",
+  "choiceExplanations": {
+   "A": "This subtracts the two averages, but averages cannot be subtracted this way; use totals.",
+   "B": "18 is the new average, not the removed number.",
+   "C": "20 is the original average.",
+   "E": "This adds the averages, $20+18$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "18"
+    },
+    {
+     "id": "C",
+     "text": "20"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "38"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-05",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 2,
+  "stem": "Two towns are 330 miles apart. A bus covers the distance at 55 miles per hour and a car at 66 miles per hour. How many minutes less than the bus does the car take?",
+  "explanation": "Bus: $330\\div55=6$ hours. Car: $330\\div66=5$ hours. The difference is 1 hour, or 60 minutes.",
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "minutes"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-06",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let one leg be $d$ miles. Total time $=\\frac d{40}+\\frac d{60}=\\frac{5d}{120}=\\frac d{24}$. Average speed $=\\frac{2d}{d/24}=48$, which is less than 50.",
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The average speed for the whole round trip",
+   "quantityB": "50 miles per hour",
+   "common": "A driver goes to a town at 40 miles per hour and returns by the same route at 60 miles per hour."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-07",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "Pump A can empty a pool in 8 hours and pump B can empty it in 24 hours. How many hours do the two pumps take to empty the pool when working together?",
+  "explanation": "Rates: $\\frac18+\\frac1{24}=\\frac3{24}+\\frac1{24}=\\frac4{24}=\\frac16$ of the pool per hour, so 6 hours.",
+  "choiceExplanations": {
+   "A": "4 is half the faster pump's time; the slower pump contributes less than that.",
+   "C": "12 is half of 24, which ignores the first pump.",
+   "D": "16 is the mean of 8 and 24; combined time is always shorter than the faster pump's time.",
+   "E": "32 is the sum of the times."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "12"
+    },
+    {
+     "id": "D",
+     "text": "16"
+    },
+    {
+     "id": "E",
+     "text": "32"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-08",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "A class of 20 students has an average score of 72 on a test, and another class of 30 students has an average score of 82 on the same test. What is the average score of all 50 students?",
+  "explanation": "Totals: $20\\cdot72=1440$ and $30\\cdot82=2460$. Combined: $\\frac{1440+2460}{50}=\\frac{3900}{50}=78$.",
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 78
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-09",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 4,
+  "stem": "Pipe A fills an empty tank in 6 hours. Drain B, if open, empties a full tank in 12 hours. If both are open while the tank is empty at the start, how many hours does it take to fill the tank?",
+  "explanation": "Net rate $=\\frac16-\\frac1{12}=\\frac2{12}-\\frac1{12}=\\frac1{12}$ of the tank per hour, so 12 hours.",
+  "choiceExplanations": {
+   "A": "4 hours comes from adding the rates, as if both were filling.",
+   "B": "8 hours does not match the net rate of $\\frac1{12}$ per hour.",
+   "C": "9 is the mean of 6 and 12.",
+   "E": "18 is the sum of the times."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "9"
+    },
+    {
+     "id": "D",
+     "text": "12"
+    },
+    {
+     "id": "E",
+     "text": "18"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-10",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Together they take $t=\\frac{xy}{x+y}=y\\cdot\\frac{x}{x+y}$, and $\\frac{x}{x+y}<1$, so $t<y$. Working together is always faster than the faster machine alone, so Quantity B is greater.",
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The time for both machines, working together, to finish the job",
+   "quantityB": "$y$ hours",
+   "common": "Machine A alone finishes a job in $x$ hours and machine B alone finishes the same job in $y$ hours, where $x>y>0$."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-11",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 5,
+  "stem": "Hose A alone fills a pool in 10 hours and hose B alone fills it in 15 hours. They work together for 3 hours, then hose A is shut off. How many more hours does hose B need to finish filling the pool? (Enter a decimal.)",
+  "explanation": "Together: $\\frac1{10}+\\frac1{15}=\\frac16$ per hour, so in 3 hours they fill $\\frac12$ of the pool. The remaining $\\frac12$ at $\\frac1{15}$ per hour takes $\\frac12\\cdot15=7.5$ hours.",
+  "estSeconds": 120,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 7.5
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-12",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 5,
+  "stem": "The average of seven numbers is 15. The average of the first four is 13 and the average of the last four is 18. What is the fourth number?",
+  "explanation": "Total of all seven $=7\\cdot15=105$. First four total 52 and last four total 72, and the fourth number is counted in both: $52+72=124=105+(\\text{fourth})$. The fourth number is $19$.",
+  "choiceExplanations": {
+   "A": "13 is the average of the first four.",
+   "B": "15 is the average of all seven; the overlap is not the overall mean.",
+   "C": "17 would make the overlap total $105+17=122$, not 124.",
+   "E": "21 would make the overlap total $105+21=126$, not 124."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "13"
+    },
+    {
+     "id": "B",
+     "text": "15"
+    },
+    {
+     "id": "C",
+     "text": "17"
+    },
+    {
+     "id": "D",
+     "text": "19"
+    },
+    {
+     "id": "E",
+     "text": "21"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-13",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 1,
+  "stem": "A runner covers 12 kilometers in 90 minutes at a constant speed. What is the runner's speed, in kilometers per hour?",
+  "explanation": "Convert the time first: 90 minutes is $1.5$ hours. Speed $=\\frac{d}{t}=\\frac{12}{1.5}=8$ kilometers per hour.",
+  "choiceExplanations": {
+   "A": "$12\\div 90\\approx 0.13$ is a speed in kilometers per minute, not per hour.",
+   "C": "This adds the numbers ($12+1.5$) instead of dividing distance by time.",
+   "D": "This multiplies distance by 1.5 instead of dividing; speed is distance divided by time.",
+   "E": "This multiplies 12 by 90; speed is distance divided by time, and the minutes must become hours."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.13"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "13.5"
+    },
+    {
+     "id": "D",
+     "text": "18"
+    },
+    {
+     "id": "E",
+     "text": "1,080"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-14",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 2,
+  "stem": "The average (arithmetic mean) of five numbers is 30. Two of the numbers, 17 and 28, are removed. What is the average of the remaining three numbers?",
+  "explanation": "The five numbers sum to $5\\cdot 30=150$. Removing 17 and 28 leaves $150-45=105$ for three numbers, so their average is $\\frac{105}{3}=35$.",
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 35
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-15",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 2,
+  "stem": "A car travels for 2 hours at 60 miles per hour and then for 3 hours at 50 miles per hour. What is the car's average speed, in miles per hour, for the whole trip?",
+  "explanation": "Total distance: $60\\cdot 2+50\\cdot 3=120+150=270$ miles. Total time: $5$ hours. Average speed: $\\frac{270}{5}=54$ miles per hour.",
+  "choiceExplanations": {
+   "B": "This is the plain mean of 60 and 50. More time was spent at the slower speed, so the average is below 55.",
+   "C": "This weights the speeds by the wrong times (3 hours at 60 and 2 hours at 50).",
+   "D": "This adds the two speeds, which has no meaning here.",
+   "E": "This is the total distance, not the speed; it still has to be divided by the total time."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "54"
+    },
+    {
+     "id": "B",
+     "text": "55"
+    },
+    {
+     "id": "C",
+     "text": "56"
+    },
+    {
+     "id": "D",
+     "text": "110"
+    },
+    {
+     "id": "E",
+     "text": "270"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-16",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The original sum is $6\\cdot 20=120$. The replacement raises the sum by 12, to 132. The new average is $\\frac{132}{6}=22$, so the quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The average of the new list",
+   "quantityB": "22",
+   "common": "A list of 6 numbers has an average of 20. One number in the list is replaced by a number that is 12 greater, producing a new list of 6 numbers."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-17",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "Working alone, machine X finishes a job in 4 hours, machine Y in 6 hours and machine Z in 12 hours. How many hours do the three machines need to finish the job when they work together?",
+  "explanation": "Rates per hour: $\\frac14+\\frac16+\\frac1{12}=\\frac3{12}+\\frac2{12}+\\frac1{12}=\\frac{6}{12}=\\frac12$ of the job per hour. Time $=1\\div\\frac12=2$ hours.",
+  "choiceExplanations": {
+   "B": "This is the time of the fastest machine alone; adding two more machines makes the job quicker than that.",
+   "C": "This is the middle time. Working together must beat every single machine.",
+   "D": "This is the mean of the three times, $\\frac{22}{3}$. Combined work time is never the mean of the separate times; add the rates instead.",
+   "E": "This adds the three times; rates add, times do not."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "6"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{22}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "22"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-18",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 4,
+  "stem": "A cyclist rides a 120-mile route. She covers the first 60 miles at 12 miles per hour and the last 60 miles at 20 miles per hour. What is her average speed, in miles per hour, for the whole route?",
+  "explanation": "Times: $\\frac{60}{12}=5$ hours and $\\frac{60}{20}=3$ hours, so the total time is 8 hours. Average speed $=\\frac{120}{8}=15$ miles per hour (not the mean of the speeds, which is 16).",
+  "estSeconds": 100,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "miles per hour"
+  },
+  "answer": {
+   "value": 15
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-19",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 4,
+  "stem": "A freight train leaves a station at 8:00 a.m. and travels at 50 miles per hour. A second train leaves the same station on the same track at 9:30 a.m. and travels in the same direction at 65 miles per hour. How many hours after the second train departs does it overtake the first train?",
+  "explanation": "When the second train starts, the first is $50\\cdot 1.5=75$ miles ahead. In $t$ hours the second covers $65t$ and the first covers $50t+75$. Setting them equal: $65t=50t+75$, so $15t=75$ and $t=5$ hours.",
+  "choiceExplanations": {
+   "A": "This divides the head start by the sum of the speeds ($75\\div115$); the trains move the same way, so the gap closes at the difference of the speeds.",
+   "B": "This is the head start in hours, not the time needed to catch up.",
+   "D": "This is the time since the first train left ($5+1.5$), but the question asks from the second train's departure.",
+   "E": "This is the head start in miles, not a time."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.65"
+    },
+    {
+     "id": "B",
+     "text": "1.5"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "6.5"
+    },
+    {
+     "id": "E",
+     "text": "75"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-20",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 5,
+  "stem": "A driver covers the first 180 miles of a 300-mile trip at a constant 45 miles per hour. At what constant speed, in miles per hour, must she drive the last 120 miles so that her average speed for the whole trip is exactly 50 miles per hour?",
+  "explanation": "A 300-mile trip at an average of 50 miles per hour takes $\\frac{300}{50}=6$ hours. The first part took $\\frac{180}{45}=4$ hours, leaving 2 hours for 120 miles: $\\frac{120}{2}=60$ miles per hour. (Averaging the speeds, $2\\cdot 50-45=55$, ignores that the parts take different times.)",
+  "estSeconds": 130,
+  "skills": [
+   "average-rate-work"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "miles per hour"
+  },
+  "answer": {
+   "value": 60
+  }
+ }
+]

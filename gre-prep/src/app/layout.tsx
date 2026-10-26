@@ -1,11 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { SessionProvider } from "next-auth/react";
 import PWAProvider from "@/components/PWAProvider";
+import "katex/dist/katex.min.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SAR Prep — Vocabulary Builder",
-  description: "Learn 1000 GRE vocabulary words with spaced repetition. Multiple choice, typing, and flashcard modes.",
+  title: { default: "SAR Prep — GRE preparation", template: "%s · SAR Prep" },
+  description: "Free GRE preparation: official-syllabus lessons and practice questions in the real test formats.",
   applicationName: "SAR Prep",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#080b14",
+  themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#0b0f1a" }, { media: "(prefers-color-scheme: light)", color: "#f5f6fa" }],
   // Paint under the notch when installed; block pinch-zoom jitter on answer taps
   viewportFit: "cover",
   maximumScale: 1,
@@ -35,8 +36,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Apply a saved theme before first paint so there is no flash. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: "try{var t=localStorage.getItem('sar-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}",
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>

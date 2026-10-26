@@ -1,0 +1,78 @@
+{
+ "id": "q4-11-normal",
+ "status": "published",
+ "why": "Normal distributions are on ETS's list of GRE data-analysis topics; questions are answered with symmetry and the approximate shares within 1 and 2 standard deviations, not with statistical tables.",
+ "rule": "A **normal distribution** is bell-shaped and symmetric about its mean $m$; mean, median and mode coincide. A larger SD $d$ gives a lower, wider curve; changing $m$ slides the same curve sideways. Areas under the curve are probabilities; the total area is 1.\n\n- About **two-thirds** of the data lie within 1 SD of the mean (from $m - d$ to $m + d$); almost all lie within 2 SDs.\n- By symmetry: $\\frac12$ lies above $m$, about $\\frac13$ between $m$ and $m + d$, and about $\\frac16$ above $m + d$ (the same below).\n- **Standardize** with $z = \\frac{x - m}{d}$ to count SDs from the mean; the value $k$ SDs above the mean is $m + kd$ (below: $m - kd$).",
+ "examples": [
+  {
+   "prompt": "A random variable $W$ is normally distributed with a mean of 200 and a standard deviation of 20. Estimate $P(W > 200)$, $P(180 < W < 220)$ and $P(W > 220)$.",
+   "steps": [
+    "200 is the mean, so half of the area lies above it: $\\frac12$.",
+    "180 and 220 are 1 SD below and above the mean: about $\\frac23$.",
+    "Above 220 is the upper tail beyond 1 SD: $\\frac12 \\cdot \\left(1 - \\frac23\\right) = \\frac16$."
+   ],
+   "answer": "$\\frac12$, about $\\frac23$, about $\\frac16$"
+  }
+ ],
+ "trap": "Two-thirds is the share within 1 SD on *both* sides of the mean, so each side holds only about one-third. And \"almost all within 2 SDs\" does not mean \"all\": nothing is ruled out, only made unlikely.",
+ "checks": [
+  {
+   "id": "q4-11-normal-c1",
+   "lessonId": "q4-11-normal",
+   "difficulty": 1,
+   "stem": "A set of data is approximately normally distributed with a mean of 30 and a standard deviation of 4. Approximately what fraction of the data lie between 26 and 34?",
+   "explanation": "26 and 34 are 1 SD below and above the mean. About two-thirds of the data lie within 1 SD of the mean.",
+   "estSeconds": 45,
+   "skills": [
+    "normal-distribution"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.6666666666666666,
+    "fraction": {
+     "numerator": 2,
+     "denominator": 3
+    }
+   }
+  },
+  {
+   "id": "q4-11-normal-c2",
+   "lessonId": "q4-11-normal",
+   "difficulty": 2,
+   "stem": "A normal distribution has a mean of 60 and a standard deviation of 10. How many standard deviations above the mean is the value 85?",
+   "explanation": "$\\frac{85 - 60}{10} = 2.5$.",
+   "estSeconds": 45,
+   "skills": [
+    "standardization"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 2.5
+   }
+  }
+ ]
+}

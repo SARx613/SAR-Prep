@@ -1,0 +1,876 @@
+[
+ {
+  "id": "q1-10-real-properties-01",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 1,
+  "stem": "What is the value of $43\\cdot7+43\\cdot3$?",
+  "explanation": "Factor out 43: $43(7+3) = 430$.",
+  "estSeconds": 45,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 430
+  }
+ },
+ {
+  "id": "q1-10-real-properties-02",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 1,
+  "stem": "Which of the following is undefined?",
+  "explanation": "Division by 0 is undefined. The others are defined: $\\frac{0}{5} = 0$, $0\\cdot\\frac{1}{5} = 0$, $5^0 = 1$, $0^5 = 0$.",
+  "choiceExplanations": {
+   "A": "$\\frac{0}{5} = 0$; only a zero denominator is a problem.",
+   "B": "This is a product with 0, equal to 0.",
+   "D": "$5^0 = 1$.",
+   "E": "$0^5 = 0$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{0}{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$0\\cdot\\frac{1}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{5}{0}$"
+    },
+    {
+     "id": "D",
+     "text": "$5^0$"
+    },
+    {
+     "id": "E",
+     "text": "$0^5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-03",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 2,
+  "stem": "The real numbers $r$ and $s$ are both negative. Which of the following must be negative?",
+  "explanation": "The sum of two negative numbers is negative. The product of two negatives is positive, a square is positive, and absolute values are positive.",
+  "choiceExplanations": {
+   "A": "negative $\\cdot$ negative is positive.",
+   "C": "A square of a nonzero number is positive.",
+   "D": "$|r|>0$ for $r\\ne0$.",
+   "E": "A sum of positives is positive."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$rs$"
+    },
+    {
+     "id": "B",
+     "text": "$r+s$"
+    },
+    {
+     "id": "C",
+     "text": "$r^2$"
+    },
+    {
+     "id": "D",
+     "text": "$|r|$"
+    },
+    {
+     "id": "E",
+     "text": "$|r|+|s|$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-04",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(-3)(-4) = 12$ (negative times negative is positive) and $(-3)+(-4) = -7$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(-3)(-4)$",
+   "quantityB": "$(-3)+(-4)$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-10-real-properties-05",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $3(x+4)$ for every real $x$? Indicate all such expressions.",
+  "explanation": "Distribute: $3(x+4) = 3x+12$. Multiplication and addition are commutative, so $(x+4)\\cdot3$ and $12+3x$ are the same too. $3x+4$ forgets to multiply the 4, and $12x$ multiplies instead of adding.",
+  "choiceExplanations": {
+   "B": "The 3 must multiply both terms: $3\\cdot4 = 12$.",
+   "D": "$3\\cdot x\\cdot4$ would be $12x$, but the expression adds $x$ and 4 before multiplying by 3."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3x+12$"
+    },
+    {
+     "id": "B",
+     "text": "$3x+4$"
+    },
+    {
+     "id": "C",
+     "text": "$(x+4)\\cdot3$"
+    },
+    {
+     "id": "D",
+     "text": "$12x$"
+    },
+    {
+     "id": "E",
+     "text": "$12+3x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-06",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 3,
+  "stem": "If $(n-3)(n+8)=0$ and $n<0$, what is the value of $n$?",
+  "explanation": "A zero product means $n-3=0$ or $n+8=0$, so $n=3$ or $n=-8$. Only $-8$ is negative.",
+  "estSeconds": 60,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -8
+  }
+ },
+ {
+  "id": "q1-10-real-properties-07",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 3,
+  "stem": "Which of the following is true for all real numbers $r$ and $s$?",
+  "explanation": "This is the triangle inequality: $|r+s|\\le|r|+|s|$. Equality holds when $r$ and $s$ have the same sign, but with opposite signs the left side shrinks.",
+  "choiceExplanations": {
+   "A": "Test $r=2$, $s=-3$: $|-1| = 1\\ne5$.",
+   "B": "Test $r=2$, $s=-3$: $1\\ge5$ is false.",
+   "D": "Test $r=s=1$: $2<2$ is false (equality happens when signs agree).",
+   "E": "$|rs| = |r|\\,|s|$ always, so a strict inequality is never true."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$|r+s|=|r|+|s|$"
+    },
+    {
+     "id": "B",
+     "text": "$|r+s|\\ge|r|+|s|$"
+    },
+    {
+     "id": "C",
+     "text": "$|r+s|\\le|r|+|s|$"
+    },
+    {
+     "id": "D",
+     "text": "$|r+s|<|r|+|s|$"
+    },
+    {
+     "id": "E",
+     "text": "$|rs|<|r|\\,|s|$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-08",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "For a number greater than 1, squaring makes it bigger: $(1.1)^2 = 1.21>1.1$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(1.1)^2$",
+   "quantityB": "$1.1$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-10-real-properties-09",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 4,
+  "stem": "If $ab=0$ and $a+b=7$, what is the value of $a^2+b^2$?",
+  "explanation": "$ab=0$ means $a=0$ or $b=0$. With $a+b=7$ the other must be 7, so $a^2+b^2 = 0+49 = 49$.",
+  "choiceExplanations": {
+   "A": "This ignores that one of the numbers is 7.",
+   "B": "This forgets to square.",
+   "C": "This doubles 7 instead of squaring it.",
+   "E": "This counts the 49 twice."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$14$"
+    },
+    {
+     "id": "D",
+     "text": "$49$"
+    },
+    {
+     "id": "E",
+     "text": "$98$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-10",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 4,
+  "stem": "Which of the following are true for all real numbers $r$ and $s$? Indicate all such statements.",
+  "explanation": "The absolute value of a product is the product of absolute values, and $r(s+1) = rs+r$ is the distributive property. The others fail: $r=2,s=-3$ breaks the second; $r=\\frac{1}{2}$ breaks the third ($\\frac{1}{4}<\\frac{1}{2}$); $r=s=1$ breaks the last ($4\\ne2$).",
+  "choiceExplanations": {
+   "B": "With $r=2$, $s=-3$: $1\\ne5$.",
+   "C": "For $r=\\frac{1}{2}$, $r^2 = \\frac{1}{4}<r$.",
+   "E": "With $r=s=1$: $(r+s)^2 = 4$ but $r^2+s^2 = 2$ (the cross term $2rs$ is missing)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$|rs| = |r|\\,|s|$"
+    },
+    {
+     "id": "B",
+     "text": "$|r+s| = |r|+|s|$"
+    },
+    {
+     "id": "C",
+     "text": "$r^2\\ge r$"
+    },
+    {
+     "id": "D",
+     "text": "$r(s+1) = rs+r$"
+    },
+    {
+     "id": "E",
+     "text": "$(r+s)^2 = r^2+s^2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-11",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 5,
+  "stem": "How many integers $n$ satisfy $n^2<n$?",
+  "explanation": "Check by cases. If $n\\ge1$, then $n^2\\ge n$. If $n=0$, $n^2 = n$. If $n<0$, then $n^2>0>n$. So $n^2<n$ only for $0<n<1$, and no integer lies there: the answer is 0.",
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 0
+  }
+ },
+ {
+  "id": "q1-10-real-properties-12",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 5,
+  "stem": "For which of the following pairs $(r,s)$ does $|r+s| = |r|+|s|$? Indicate all such pairs.",
+  "explanation": "Compute both sides. $(3,5)$: $8 = 8$. $(-3,-5)$: $|-8| = 8 = 3+5$. $(0,-4)$: $4 = 0+4$. $(3,-5)$: $|-2| = 2$ but $3+5 = 8$. $(-2,2)$: $0$ but $4$. Equality needs the numbers to have the same sign (or one to be 0).",
+  "choiceExplanations": {
+   "C": "$|3+(-5)| = 2\\ne8$.",
+   "E": "$|-2+2| = 0\\ne4$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(3,5)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-3,-5)$"
+    },
+    {
+     "id": "C",
+     "text": "$(3,-5)$"
+    },
+    {
+     "id": "D",
+     "text": "$(0,-4)$"
+    },
+    {
+     "id": "E",
+     "text": "$(-2,2)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-13",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 1,
+  "stem": "What is the value of $(-6)(-2)(-1)$?",
+  "explanation": "$(-6)(-2) = 12$ since negative $\\cdot$ negative is positive. Then $12\\cdot(-1) = -12$. An odd number of negative factors gives a negative product.",
+  "estSeconds": 45,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -12
+  }
+ },
+ {
+  "id": "q1-10-real-properties-14",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 2,
+  "stem": "The real numbers $r$ and $s$ satisfy $rs = 0$ and $r\\ne0$. Which of the following must be true?",
+  "explanation": "If a product is 0, one of the factors is 0. Because $r\\ne0$, the other factor must be zero: $s=0$.",
+  "choiceExplanations": {
+   "A": "This contradicts the given fact $r\\ne0$.",
+   "C": "This would force $s=-r\\ne0$, but then $rs\\ne0$.",
+   "D": "This would make $rs = r^2\\ne0$.",
+   "E": "Since $s=0$, this would say $r>0$, but $r$ could be negative."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$r=0$"
+    },
+    {
+     "id": "B",
+     "text": "$s=0$"
+    },
+    {
+     "id": "C",
+     "text": "$r+s=0$"
+    },
+    {
+     "id": "D",
+     "text": "$s=r$"
+    },
+    {
+     "id": "E",
+     "text": "$r>s$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-15",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A square is positive for a nonzero number. $x^2>0$ and $y>0$ make $x^2y$ positive. $y^2>0$ and $x<0$ make $xy^2$ negative. A positive number exceeds a negative one, so Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x^2y$",
+   "quantityB": "$xy^2$",
+   "common": "$x<0<y$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-10-real-properties-16",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 3,
+  "stem": "What is the value of $\\dfrac{64\\cdot73-14\\cdot73}{25}$?",
+  "explanation": "Factor out 73: $64\\cdot73-14\\cdot73 = (64-14)\\cdot73 = 50\\cdot73$. Then $\\frac{50\\cdot73}{25} = 2\\cdot73 = 146$.",
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 146
+  }
+ },
+ {
+  "id": "q1-10-real-properties-17",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 3,
+  "stem": "The real numbers $a$ and $b$ satisfy $ab>0$ and $a+b<0$. Which of the following must be true?",
+  "explanation": "$ab>0$ means $a$ and $b$ have the same sign. If both were positive, $a+b$ would be positive, so both are negative.",
+  "choiceExplanations": {
+   "A": "Two positive numbers have a positive sum, but $a+b<0$.",
+   "B": "Numbers with opposite signs have a negative product, but $ab>0$.",
+   "D": "$a=-1,\\ b=-2$ satisfies both conditions and has $a>b$.",
+   "E": "$a=-1,\\ b=-2$ satisfies both conditions and $a\\ne b$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a>0$ and $b>0$"
+    },
+    {
+     "id": "B",
+     "text": "$a>0$ and $b<0$"
+    },
+    {
+     "id": "C",
+     "text": "$a<0$ and $b<0$"
+    },
+    {
+     "id": "D",
+     "text": "$a<b$"
+    },
+    {
+     "id": "E",
+     "text": "$a=b$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-18",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 4,
+  "stem": "The real numbers $r$ and $s$ are arbitrary. Which of the following must be true for all such $r$ and $s$? Indicate all such statements.",
+  "explanation": "Write $r-s = r+(-s)$. The triangle inequality gives $|r+(-s)|\\le|r|+|-s| = |r|+|s|$. And $|rs| = |r||s|$ with $s=r$ gives $|r^2| = |r|\\cdot|r|$. The other three statements fail for the values shown.",
+  "choiceExplanations": {
+   "B": "$r=3,\\ s=5$ gives $|r-s| = 2$ but $|r|-|s| = -2$.",
+   "D": "$r=2,\\ s=3$ gives $|rs| = 6$ but $|r+s| = 5$.",
+   "E": "$r=\\frac{1}{2}$ gives $r^2 = \\frac{1}{4}<r$, and $r=0$ gives equality."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$|r-s|\\le|r|+|s|$"
+    },
+    {
+     "id": "B",
+     "text": "$|r-s| = |r|-|s|$"
+    },
+    {
+     "id": "C",
+     "text": "$|r^2| = |r|\\cdot|r|$"
+    },
+    {
+     "id": "D",
+     "text": "$|rs|\\le|r+s|$"
+    },
+    {
+     "id": "E",
+     "text": "$r^2>r$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-19",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 4,
+  "stem": "The real numbers $r$, $s$ and $t$ satisfy $r<0$, $s<0$ and $t>0$. Which of the following must be positive? Indicate all such expressions.",
+  "explanation": "$rst = (rs)t$: $rs>0$ (negative $\\cdot$ negative) and $t>0$, so $rst>0$. And $s^2>0$ with $t>0$ gives $s^2t>0$. But $r^2s$ is positive times negative, hence negative, and the sign of $r+s+t$ or $r-s$ depends on the values.",
+  "choiceExplanations": {
+   "B": "$r=s=-5,\\ t=1$ gives $-9$.",
+   "C": "$r=-2,\\ s=-1$ gives $-1$.",
+   "D": "$r^2>0$ and $s<0$, so the product is negative."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$rst$"
+    },
+    {
+     "id": "B",
+     "text": "$r+s+t$"
+    },
+    {
+     "id": "C",
+     "text": "$r-s$"
+    },
+    {
+     "id": "D",
+     "text": "$r^2s$"
+    },
+    {
+     "id": "E",
+     "text": "$s^2t$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-10-real-properties-20",
+  "lessonId": "q1-10-real-properties",
+  "difficulty": 5,
+  "stem": "The real numbers $x$ and $y$ satisfy $x(y-3) = 0$ and $y(x+2) = 0$. What is the greatest possible value of $x+y$?",
+  "explanation": "From $x(y-3) = 0$: $x = 0$ or $y = 3$. If $x = 0$, then $y(0+2) = 0$ forces $y = 0$: the pair $(0,0)$ with sum 0. If $y = 3$, then $3(x+2) = 0$ forces $x=-2$: the pair $(-2,3)$ with sum 1. Both pairs satisfy both equations, so the greatest sum is 1.",
+  "estSeconds": 130,
+  "skills": [
+   "real-properties"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
+ }
+]

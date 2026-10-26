@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "v3-05-inference-01",
+  "lessonId": "v3-05-inference",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Only a minority have both measurements, and density needs both, so most lack one. The spectrum shift is the mass method. C overstates 'suggests rock or metal'.",
+  "choiceExplanations": {
+   "C": "The passage says high density 'suggests rock or metal', not that it must be metal."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-exoplanets",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Most known planets lack a density estimate."
+    },
+    {
+     "id": "B",
+     "text": "Shifts in a star's spectrum are used in estimating a planet's mass."
+    },
+    {
+     "id": "C",
+     "text": "A planet with a high density must consist mostly of metal."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-02",
+  "lessonId": "v3-05-inference",
+  "difficulty": 1,
+  "stem": "Which of the following can be inferred about the two groups of recipient mice?",
+  "explanation": "Both groups 'ate the same diet', so diet cannot explain a difference in weight gain.",
+  "choiceExplanations": {
+   "B": "Nothing in the passage says so.",
+   "C": "The lean-donor group gained fat; it simply gained less.",
+   "D": "The passage says nothing about housing.",
+   "E": "Donors' food intake is never discussed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-gut-bacteria",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A difference in their weight gain cannot be attributed to a difference in diet."
+    },
+    {
+     "id": "B",
+     "text": "They differed in genetic makeup."
+    },
+    {
+     "id": "C",
+     "text": "The group given lean-donor bacteria gained no fat."
+    },
+    {
+     "id": "D",
+     "text": "They were housed under different conditions."
+    },
+    {
+     "id": "E",
+     "text": "They ate less than the donor mice."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-03",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage implies which of the following about critics who insist on fidelity of incident?",
+  "explanation": "'Tend to confuse the surface of a book with its substance' shows both that they privilege events and that the author finds them mistaken.",
+  "choiceExplanations": {
+   "B": "They are said to confuse surface and substance; nothing says they reject interpretation altogether."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-adaptation",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They would count a film reproducing every plot event as faithful, even if it misses the tone."
+    },
+    {
+     "id": "B",
+     "text": "They hold that interpretation has no place in adaptation."
+    },
+    {
+     "id": "C",
+     "text": "The author thinks they are prone to a mistake."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-04",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "The passage implies that a platform that subsidizes buyers will succeed only if",
+  "explanation": "The last sentence says the strategy 'works only if the subsidized group... finds enough reason to stay'.",
+  "choiceExplanations": {
+   "A": "Sellers 'will not come without buyers'; the plan expects sellers to follow.",
+   "B": "Superiority is said not to guarantee entry.",
+   "C": "The strategy depends on sellers following.",
+   "E": "Slow growth is described as common, not required."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-platforms",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "sellers join before any buyers do"
+    },
+    {
+     "id": "B",
+     "text": "its product is technically superior"
+    },
+    {
+     "id": "C",
+     "text": "it ignores the sellers' side of the market"
+    },
+    {
+     "id": "D",
+     "text": "buyers continue to use it after the subsidy ends"
+    },
+    {
+     "id": "E",
+     "text": "it grows slowly at first"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-05",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "Select the sentence that implies the subsidy strategy can fail.",
+  "explanation": "'Works only if' implies that where the condition fails, the strategy fails. The preceding sentence describes the strategy without hinting at failure.",
+  "estSeconds": 77,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-platforms",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The strategy is costly, and it works only if the subsidized group, once the subsidy ends, finds enough reason to stay."
+  }
+ },
+ {
+  "id": "v3-05-inference-06",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following can be inferred from the passage?",
+  "explanation": "'Some narrow rings correspond to no known eruption' supports A, and 'eruptions known from ice cores' supports C. B is flatly contradicted.",
+  "choiceExplanations": {
+   "B": "Contradicted: 'Not every eruption leaves such a trace.'"
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-tree-rings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A narrow ring does not by itself prove that an eruption occurred."
+    },
+    {
+     "id": "B",
+     "text": "Every large eruption of the past thousand years left a narrow ring in cold-region forests."
+    },
+    {
+     "id": "C",
+     "text": "Ice cores contain evidence of eruptions that does not come from tree rings."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-07",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "It can be inferred from the passage that, at the time described, the chain had not yet",
+  "explanation": "The final sentence says that only such a before-and-after comparison could settle the question, which implies it had not been done.",
+  "choiceExplanations": {
+   "A": "Stated in the first sentence: the chain did observe this.",
+   "B": "Nothing in the passage says how many shoppers enrolled.",
+   "C": "The passage reports an increase, not a decrease.",
+   "D": "Frequent shoppers were 'most inclined to enroll', so some did."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "found that card holders spent more per visit than non-holders"
+    },
+    {
+     "id": "B",
+     "text": "persuaded most of its shoppers to enroll in the program"
+    },
+    {
+     "id": "C",
+     "text": "learned that the card lowered sales per customer"
+    },
+    {
+     "id": "D",
+     "text": "enrolled any frequent shoppers in the program"
+    },
+    {
+     "id": "E",
+     "text": "compared card holders' spending with the same shoppers' earlier spending"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-08",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "It can be inferred from the passage that a planet detected only through the dimming of its star",
+  "explanation": "Dimming gives size; mass needs the wobble. Without mass, density cannot be computed.",
+  "choiceExplanations": {
+   "A": "Gas richness would require a measured low density, which needs mass.",
+   "B": "Dimming works for stars of many kinds; only the wobble method is said to struggle with faint or distant ones.",
+   "D": "The planet has a mass; it just has not been measured by this method.",
+   "E": "Nothing compares sizes across the two methods."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-exoplanets",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "is likely to be rich in gas"
+    },
+    {
+     "id": "B",
+     "text": "orbits a faint or distant star"
+    },
+    {
+     "id": "C",
+     "text": "has no reliably estimated density"
+    },
+    {
+     "id": "D",
+     "text": "has no mass"
+    },
+    {
+     "id": "E",
+     "text": "is smaller than planets found through stellar wobble"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-09",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Because the method is 'best used to corroborate dates established by other means', other evidence is needed for confident dating. B and C go beyond the passage.",
+  "choiceExplanations": {
+   "B": "The passage says cold-region trees are sensitive; it says nothing as strong about warm regions.",
+   "C": "The passage says such a ring 'often marks a cool summer', not an eruption."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-tree-rings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Dating a particular eruption with confidence would require evidence besides tree rings."
+    },
+    {
+     "id": "B",
+     "text": "Trees in warm regions never record volcanic cooling."
+    },
+    {
+     "id": "C",
+     "text": "Frost damage in a ring is conclusive evidence of a nearby eruption."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-10",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "It can be inferred that the author would regard a film that changes several plot events but keeps the novel's skeptical tone as",
+  "explanation": "The fourth sentence says the plot-preserving film 'may be less faithful, in any useful sense' than the tone-preserving one.",
+  "choiceExplanations": {
+   "A": "The author denies that changing events is automatically unfaithful.",
+   "B": "The author says the two may differ in faithfulness.",
+   "C": "The author rejects the plot-only standard.",
+   "E": "Nothing is said about all critics; only about those who insist on fidelity of incident."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-adaptation",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unfaithful and therefore flawed"
+    },
+    {
+     "id": "B",
+     "text": "exactly as faithful as a film reproducing every event"
+    },
+    {
+     "id": "C",
+     "text": "inferior because it departs from the plot"
+    },
+    {
+     "id": "D",
+     "text": "possibly more faithful, in a useful sense, than a film that keeps every event but loses the tone"
+    },
+    {
+     "id": "E",
+     "text": "unlikely to be praised by any critic"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-11",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "A is the author's central point (self-selection). B is the reported finding. C contradicts 'signed up voluntarily'.",
+  "choiceExplanations": {
+   "C": "Contradicted: enrollment was voluntary."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Some of the twelve percent difference may stem from differences between the shoppers rather than from the card."
+    },
+    {
+     "id": "B",
+     "text": "Per visit, non-holders spent less than holders on average in the first year."
+    },
+    {
+     "id": "C",
+     "text": "Frequent shoppers were required to enroll in the program."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-12",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "The passage suggests that the author would consider which of the following necessary before concluding that gut bacteria cause obesity in people?",
+  "explanation": "The author's two objections are the leap from mice to people and the direction of cause in free-living animals.",
+  "choiceExplanations": {
+   "A": "The author already accepts the result in laboratory mice.",
+   "B": "Diet variation is a reason for caution, but a survey of diets alone says nothing about cause.",
+   "C": "The author already grants this.",
+   "E": "Studying only lean donors would not address the question of cause in people."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3-gut-bacteria",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A repetition of the experiment in more laboratory mice"
+    },
+    {
+     "id": "B",
+     "text": "A survey of people's diets alone"
+    },
+    {
+     "id": "C",
+     "text": "Confirmation that bacteria influence weight in mice"
+    },
+    {
+     "id": "D",
+     "text": "Evidence on whether the bacteria of free-living people precede or follow weight gain"
+    },
+    {
+     "id": "E",
+     "text": "A study of lean donors only"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-13",
+  "lessonId": "v3-05-inference",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Typists 'can keep up with the speaker', and copying verbatim 'demands little thought', which implies little decision about what matters. Nothing says handwritten notes are always more accurate.",
+  "choiceExplanations": {
+   "C": "Not stated; the passage compares memory of the lecture, not accuracy, and 'always' is too strong."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-note-taking",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A typist can record a speaker's words nearly as fast as they are spoken."
+    },
+    {
+     "id": "B",
+     "text": "A note-taker who copies sentences word for word does little selecting of what matters."
+    },
+    {
+     "id": "C",
+     "text": "Handwritten notes are always more accurate than typed notes."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-14",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "Select the sentence from which it can be inferred that a dark roof gives a building some advantage in winter.",
+  "explanation": "Only this sentence speaks of winter. It says a reflective roof forgoes warmth that a dark roof would have captured, which implies that the dark roof holds an advantage in the cold season.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "In winter, when the sun is low and heating is needed, the same reflective surface forgoes warmth that a dark roof would have captured, and in cold climates this can raise heating bills enough to cancel the summer savings."
+  }
+ },
+ {
+  "id": "v3-05-inference-15",
+  "lessonId": "v3-05-inference",
+  "difficulty": 2,
+  "stem": "The passage implies that before photography arrived, painters were",
+  "explanation": "Painters were 'freed from the obligation to document', which implies they had been under such an obligation before the camera.",
+  "choiceExplanations": {
+   "A": "Outside the passage; it says nothing about what painters knew.",
+   "B": "Unsupported; the passage speaks of 'representational painting' as the earlier practice.",
+   "C": "Unsupported; landscapes later became records of a painter's perception, but nothing is said about earlier disinterest.",
+   "E": "Too extreme; the passage mentions no rules against expressive color."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-camera-and-brush",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unaware that scenes could be recorded mechanically"
+    },
+    {
+     "id": "B",
+     "text": "mostly occupied with abstract subjects"
+    },
+    {
+     "id": "C",
+     "text": "uninterested in the appearance of landscapes"
+    },
+    {
+     "id": "D",
+     "text": "generally expected to record what they depicted"
+    },
+    {
+     "id": "E",
+     "text": "forbidden by guilds from using color expressively"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-16",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "The noise 'rises and falls with ocean storms', so more storms mean more noise. The method depends on sources being spread fairly evenly, so one dominant source is a problem. The third choice reverses what the passage says about depth.",
+  "choiceExplanations": {
+   "C": "Reversed: the passage says it resolves shallow structure better than deep."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-ocean-noise",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Microseismic noise would be expected to grow stronger during a period of frequent ocean storms."
+    },
+    {
+     "id": "B",
+     "text": "Noise-based imaging would be expected to work poorly where nearly all the noise arrives from a single direction."
+    },
+    {
+     "id": "C",
+     "text": "Noise-based imaging reveals deep structure better than it reveals shallow structure."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-17",
+  "lessonId": "v3-05-inference",
+  "difficulty": 3,
+  "stem": "It can be inferred from the passage that bats locate their prey in part by",
+  "explanation": "The first sentence says bats use calls 'to locate food', and the second hypothesis speaks of the 'returning echo' that the bat uses to judge position. Together these imply that bats read the echoes of their own calls.",
+  "choiceExplanations": {
+   "A": "The calls are the bats'; the moth's clicks are described as a response that may interfere, not as the way bats find prey.",
+   "B": "This is one researchers' hypothesis, not something the passage establishes about how bats locate prey.",
+   "D": "Outside knowledge; the passage never mentions heat.",
+   "E": "Too extreme; hearing lets a moth dive, but the passage does not say it ensures escape."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "listening for sounds that the prey itself makes"
+    },
+    {
+     "id": "B",
+     "text": "learning to avoid prey that click"
+    },
+    {
+     "id": "C",
+     "text": "interpreting the echoes of their own calls"
+    },
+    {
+     "id": "D",
+     "text": "sensing the heat given off by the prey's body"
+    },
+    {
+     "id": "E",
+     "text": "never succeeding against moths that can hear them"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-18",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "The passage implies that fluency in a minority language among schoolchildren",
+  "explanation": "Pupils became fluent yet used the majority language with friends, and the author calls schooling 'necessary but not sufficient'. So fluency alone does not ensure use outside school. One distractor reverses a conditional.",
+  "choiceExplanations": {
+   "A": "Contradicted: schools create 'the pool of speakers on which revival depends'.",
+   "B": "Contradicted: immersion pupils 'became fluent' in several regions.",
+   "D": "Reverses the logic: public settings are said to be needed for success, not to make fluency sufficient.",
+   "E": "Outside knowledge; the passage does not compare children with adults."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "is unnecessary for the revival of the language"
+    },
+    {
+     "id": "B",
+     "text": "is seldom reached through immersion schooling"
+    },
+    {
+     "id": "C",
+     "text": "does not by itself guarantee that the language will be used outside school"
+    },
+    {
+     "id": "D",
+     "text": "is enough to bring about revival wherever public settings for the language exist"
+    },
+    {
+     "id": "E",
+     "text": "is more easily gained by children than by adults"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-19",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "It can be inferred from the passage that a rise in the average lifetime revenue per customer after a firm switches to subscriptions",
+  "explanation": "The passage says the average 'may reflect the kinds of customers who remain', so the average can rise because some customers left, without anyone paying more.",
+  "choiceExplanations": {
+   "A": "Too extreme; the passage says only that some customers who disliked the terms have gone.",
+   "C": "Contradicted: those who found the terms unattractive have left, so the figure may reflect who remains.",
+   "D": "Reversed: subscriptions are said to make income more predictable.",
+   "E": "The passage does not judge the convenience explanation false, only incomplete."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "means that the firm has lost most of its customers"
+    },
+    {
+     "id": "B",
+     "text": "would not by itself show that any individual customer pays more than before"
+    },
+    {
+     "id": "C",
+     "text": "shows that customers like subscriptions better than purchases"
+    },
+    {
+     "id": "D",
+     "text": "occurs only when the firm's income becomes less predictable"
+    },
+    {
+     "id": "E",
+     "text": "proves that the convenience explanation of the change is false"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-20",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The passage supports which of the following?",
+  "explanation": "Because outsiders may be hired only when the firm is already healthy, their faster growth could partly reflect the firm's condition. And since heirs 'should not be excluded', an heir can fit some firms. The third choice turns 'may' into 'every'.",
+  "choiceExplanations": {
+   "C": "Too strong; the passage says heirs 'may' value it this way."
+  },
+  "estSeconds": 115,
+  "skills": [
+   "rc-inference"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The faster growth found under outside managers does not by itself show that outsiders lead better than heirs."
+    },
+    {
+     "id": "B",
+     "text": "An heir may be a suitable leader for some firms at some times."
+    },
+    {
+     "id": "C",
+     "text": "Every heir who leads a family firm values it mainly as a possession to be preserved."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ }
+]

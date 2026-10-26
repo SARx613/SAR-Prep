@@ -1,0 +1,112 @@
+{
+ "id": "q2-10-average-rate-work",
+ "status": "published",
+ "why": "Average, distance-rate-time and combined-work problems are the most common story problems in GRE Quant, in every format.",
+ "rule": "**Average** (arithmetic mean) $=\\dfrac{\\text{sum}}{\\text{number of values}}$, so *sum = average × count*. Use totals whenever a value is added, removed or missing.\n\n**Rate:** $d=rt$. Keep units matching (minutes to hours). Average speed is total distance divided by total time, not the mean of the speeds.\n\n**Work:** a job done alone in $a$ hours has rate $\\frac1a$ per hour, and work done is rate times time (part of the job). Rates working together add: $\\frac1a+\\frac1b=\\frac1t$. A drain has a negative rate.",
+ "examples": [
+  {
+   "prompt": "A student scored 78, 85 and 91 on three quizzes. What must the fourth score be for a mean of 86?",
+   "steps": [
+    "Needed total for 4 quizzes: $4\\cdot 86=344$.",
+    "Scores so far: $78+85+91=254$.",
+    "Fourth score: $344-254=90$."
+   ],
+   "answer": "90"
+  },
+  {
+   "prompt": "Pipe A fills a tank in 12 hours and pipe B fills it in 4 hours. How long do they take together?",
+   "steps": [
+    "Rates per hour: $\\frac1{12}$ and $\\frac14=\\frac3{12}$.",
+    "Combined: $\\frac1{12}+\\frac3{12}=\\frac4{12}=\\frac13$ of the tank per hour.",
+    "Time $=1\\div\\frac13=3$ hours."
+   ],
+   "answer": "3 hours"
+  }
+ ],
+ "trap": "A round trip at 40 and 60 miles per hour does **not** average 50: more time is spent at the slower speed. Compute total distance over total time. Likewise, combined work time is never the mean of the two times.",
+ "checks": [
+  {
+   "id": "q2-10-average-rate-work-c1",
+   "lessonId": "q2-10-average-rate-work",
+   "difficulty": 1,
+   "stem": "A car travels 135 miles in 2.5 hours at a constant speed. What is its speed, in miles per hour?",
+   "explanation": "$r=\\frac{d}{t}=\\frac{135}{2.5}=54$.",
+   "estSeconds": 75,
+   "skills": [
+    "average-rate-work"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "miles per hour"
+   },
+   "answer": {
+    "value": 54
+   }
+  },
+  {
+   "id": "q2-10-average-rate-work-c2",
+   "lessonId": "q2-10-average-rate-work",
+   "difficulty": 2,
+   "stem": "The average of 5 numbers is 12. A sixth number is added and the average of all six becomes 14. What is the sixth number?",
+   "explanation": "The old total is $5\\cdot12=60$; the new total is $6\\cdot14=84$. The sixth number is $84-60=24$.",
+   "estSeconds": 75,
+   "skills": [
+    "average-rate-work"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 24
+   }
+  },
+  {
+   "id": "q2-10-average-rate-work-c3",
+   "lessonId": "q2-10-average-rate-work",
+   "difficulty": 2,
+   "stem": "Machine A alone finishes a job in 10 hours and machine B alone in 15 hours. Working together, how many hours do they need?",
+   "explanation": "$\\frac1{10}+\\frac1{15}=\\frac3{30}+\\frac2{30}=\\frac5{30}=\\frac16$ of the job per hour, so the time is 6 hours.",
+   "estSeconds": 75,
+   "skills": [
+    "average-rate-work"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "hours"
+   },
+   "answer": {
+    "value": 6
+   }
+  }
+ ]
+}

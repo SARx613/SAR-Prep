@@ -1,0 +1,922 @@
+[
+ {
+  "id": "v3-01-formats-01",
+  "lessonId": "v3-01-formats",
+  "difficulty": 1,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is a benefit to a seed that ends up in an ant refuse chamber?",
+  "explanation": "The passage says the seed is 'sheltered from rodents and from the fires' in the chamber, so A and B are supported. Sunlight is never discussed, and an underground chamber would, if anything, reduce it.",
+  "choiceExplanations": {
+   "C": "The chamber is underground, and the passage never mentions sunlight."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "passageId": "v3-ant-seeds",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Protection from rodents"
+    },
+    {
+     "id": "B",
+     "text": "Protection from forest fires"
+    },
+    {
+     "id": "C",
+     "text": "More exposure to sunlight than seeds on the surface receive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-02",
+  "lessonId": "v3-01-formats",
+  "difficulty": 1,
+  "stem": "According to the passage, concrete hardens because of",
+  "explanation": "The second sentence states the cause directly: 'a chemical reaction between cement and water'.",
+  "choiceExplanations": {
+   "A": "This is the 'commonly supposed' view that the passage rejects.",
+   "B": "Hot dry air actually weakens the surface.",
+   "C": "Cracks are a defect, not the cause of hardening.",
+   "E": "Spraying is a measure that helps the reaction continue; it is not the cause."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "passageId": "v3-concrete",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "the evaporation of water from the mixture"
+    },
+    {
+     "id": "B",
+     "text": "exposure to hot, dry air"
+    },
+    {
+     "id": "C",
+     "text": "the formation of cracks at its surface"
+    },
+    {
+     "id": "D",
+     "text": "a chemical reaction between cement and water"
+    },
+    {
+     "id": "E",
+     "text": "periodic spraying with water"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-03",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Select the sentence that describes a belief researchers held earlier.",
+  "explanation": "Only one sentence is about an earlier belief: 'once assumed' marks it as past, and the next sentence ('however') shows the belief was revised.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-formats",
+   "rc-reported-vs-advanced"
+  ],
+  "passageId": "v3-ant-seeds",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Researchers once assumed that the chief benefit to the plant was distance, since a seed carried far from its parent should face less competition."
+  }
+ },
+ {
+  "id": "v3-01-formats-04",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Select the sentence that gives a reason the trial's result might not apply to every workplace.",
+  "explanation": "Only this sentence ties the limited reach of the result to the kind of work involved (self-paced versus dependent on presence). The earlier cautious sentence concerns observation, not the type of workplace.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3-four-day-week",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "It would also note that the firm's work is unusually self-paced, so that its result may not extend to a call center or a hospital ward, where output depends on being present."
+  }
+ },
+ {
+  "id": "v3-01-formats-05",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, the second account (the 'more modest interpretation') holds which of the following?",
+  "explanation": "A and C paraphrase the middle of the passage. B belongs to the first account.",
+  "choiceExplanations": {
+   "B": "This is the first account."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "passageId": "v3-nav-apps",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Following instructions requires little attention to landmarks."
+    },
+    {
+     "id": "B",
+     "text": "The apps have damaged an ability that people previously had."
+    },
+    {
+     "id": "C",
+     "text": "The apps may have prevented a mental map from forming."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-06",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the author's overall view of the trial?",
+  "explanation": "The first half of the passage qualifies the result; the last sentence rescues a limited lesson.",
+  "choiceExplanations": {
+   "B": "Too strong: the author calls for a 'more cautious reading'.",
+   "C": "Too extreme: the author still finds the trial 'valuable'.",
+   "D": "Contradicts the author's caution about call centers.",
+   "E": "The author lists specific qualifications."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-formats",
+   "rc-main-idea"
+  ],
+  "passageId": "v3-four-day-week",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It is limited as evidence but still teaches a modest lesson."
+    },
+    {
+     "id": "B",
+     "text": "It proves that long workweeks are wasteful."
+    },
+    {
+     "id": "C",
+     "text": "It is worthless because employees knew they were being observed."
+    },
+    {
+     "id": "D",
+     "text": "It shows that a four-day week would suit a call center."
+    },
+    {
+     "id": "E",
+     "text": "It was carefully designed and needs no qualification."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-07",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of the older advice about antibiotics?",
+  "explanation": "The first paragraph gives the older reasoning; the second paragraph reports the recent challenge. C contradicts the last sentence.",
+  "choiceExplanations": {
+   "C": "The passage says longer treatment is essential only for some infections and that the blanket advice was 'never well grounded'."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "passageId": "v3-antibiotics",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It rested on a worry that stopping early would leave resistant survivors."
+    },
+    {
+     "id": "B",
+     "text": "It has been questioned by recent reviews."
+    },
+    {
+     "id": "C",
+     "text": "It has been shown to be correct for every infection."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-08",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "Select the sentence that explains why the surviving scores leave gaps.",
+  "explanation": "This sentence says the scores were deliberately incomplete because performers relied on unwritten conventions. The next sentence draws the consequence for modern reconstruction.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3-early-music",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Composers of earlier centuries left scores that were deliberately incomplete, trusting performers to supply ornaments, tempos and dynamics according to conventions that were never written down."
+  }
+ },
+ {
+  "id": "v3-01-formats-09",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, a fresh concrete slab left in hot, dry air",
+  "explanation": "A and C paraphrase the third sentence. The passage says the interior may be sound, so B is wrong.",
+  "choiceExplanations": {
+   "B": "The interior 'may be perfectly sound'."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-formats",
+   "rc-detail"
+  ],
+  "passageId": "v3-concrete",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "may lose water at its surface faster than the hardening reaction uses it"
+    },
+    {
+     "id": "B",
+     "text": "will necessarily be weakened throughout its interior"
+    },
+    {
+     "id": "C",
+     "text": "may develop fine cracks in its surface"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-10",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "In the third paragraph, select the sentence that states a limit on the evidence for shorter courses.",
+  "explanation": "Within the third paragraph only this sentence limits the evidence ('mostly from a few common infections'). The first sentence is a caution about the rule, and the last gives the author's conclusion.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3-antibiotics",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 2
+  },
+  "answer": {
+   "sentence": "The evidence for shorter courses comes mostly from a few common infections, and for others, such as tuberculosis, longer treatment remains essential."
+  }
+ },
+ {
+  "id": "v3-01-formats-11",
+  "lessonId": "v3-01-formats",
+  "difficulty": 5,
+  "stem": "The passage is primarily concerned with",
+  "explanation": "The passage describes a pattern, offers two accounts and explains how they differ in what they predict.",
+  "choiceExplanations": {
+   "B": "The author calls the second account 'more modest' and treats both as possible; nothing is proved.",
+   "C": "The apps' operation is mentioned only to support an explanation.",
+   "D": "The passage makes no recommendation.",
+   "E": "Age groups are never mentioned."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats",
+   "rc-main-idea"
+  ],
+  "passageId": "v3-nav-apps",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "contrasting two explanations for a reported pattern"
+    },
+    {
+     "id": "B",
+     "text": "proving that navigation apps are harmful"
+    },
+    {
+     "id": "C",
+     "text": "describing how navigation apps work"
+    },
+    {
+     "id": "D",
+     "text": "recommending that travelers stop using navigation apps"
+    },
+    {
+     "id": "E",
+     "text": "comparing the sense of direction of different age groups"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-12",
+  "lessonId": "v3-01-formats",
+  "difficulty": 5,
+  "stem": "Which of the following best describes the author's attitude toward early-music practice?",
+  "explanation": "'Startlingly fresh' praises the results; 'claims more than the evidence can deliver' criticizes the label.",
+  "choiceExplanations": {
+   "A": "The author says the enterprise is not futile.",
+   "B": "The author thinks the claim to authenticity is overstated.",
+   "C": "The author expresses a definite view on the label.",
+   "D": "Reversed: the results are praised and the label criticized."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-formats",
+   "rc-perspective"
+  ],
+  "passageId": "v3-early-music",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Dismissive of it as futile"
+    },
+    {
+     "id": "B",
+     "text": "Enthusiastic about its claim to reproduce composers' intentions"
+    },
+    {
+     "id": "C",
+     "text": "Neutral toward both its results and its label"
+    },
+    {
+     "id": "D",
+     "text": "Skeptical of its results but accepting of its label"
+    },
+    {
+     "id": "E",
+     "text": "Appreciative of its results but critical of the label it uses"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-13",
+  "lessonId": "v3-01-formats",
+  "difficulty": 1,
+  "stem": "According to the passage, pollsters are chiefly concerned about whether",
+  "explanation": "The first sentence says pollsters worry less about how many decline than about whether decliners differ from responders. The other choices are not given as the worry.",
+  "choiceExplanations": {
+   "A": "Nothing in the passage questions the age of census figures.",
+   "C": "The passage says a ten percent rate can still yield an accurate portrait.",
+   "D": "Weighting is described as helpful, not as a worry.",
+   "E": "Dishonesty is never mentioned."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-poll-nonresponse",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "census figures are too old to be used for weighting"
+    },
+    {
+     "id": "B",
+     "text": "people who decline to answer differ from those who respond"
+    },
+    {
+     "id": "C",
+     "text": "the response rate has fallen below ten percent"
+    },
+    {
+     "id": "D",
+     "text": "a poll has been adjusted by weighting at all"
+    },
+    {
+     "id": "E",
+     "text": "respondents deliberately give false answers"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-14",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Select the sentence that describes what happens to buildings when ice-rich ground thaws.",
+  "explanation": "This sentence names the effect on buildings: the ground subsides unevenly and houses that were level begin to lean. The others state a rule, an attribution, a prediction or a recommendation.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-permafrost-footings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Where ice-rich permafrost thaws, the ground subsides unevenly, and houses that once stood level now lean."
+  }
+ },
+ {
+  "id": "v3-01-formats-15",
+  "lessonId": "v3-01-formats",
+  "difficulty": 2,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of subscription pricing compared with outright sale?",
+  "explanation": "The passage says a subscription 'steadies income' and that a dissatisfied customer can leave 'at any time' rather than only after the next upgrade. It makes no claim about satisfaction.",
+  "choiceExplanations": {
+   "A": "The passage says the higher revenue 'may reflect the kinds of customers who remain', not that they are more satisfied."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-subscription-pricing",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It leaves the remaining customers more satisfied with the product."
+    },
+    {
+     "id": "B",
+     "text": "It spreads a firm's revenue more evenly over time."
+    },
+    {
+     "id": "C",
+     "text": "It lets a dissatisfied customer stop paying sooner."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-16",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "According to the passage, a reflective roof in a cold climate may",
+  "explanation": "The passage says that in cold climates the forgone winter warmth 'can raise heating bills enough to cancel the summer savings'. The other choices reverse the winter effect or add a comparison the passage never makes.",
+  "choiceExplanations": {
+   "A": "Reversed: the reflective surface forgoes warmth that a dark roof would have captured.",
+   "C": "Returning sunlight to the sky is what costs the building winter warmth; it does not reduce heating needs.",
+   "D": "Reversed: a pale roof absorbs less energy in summer, so the air above it stays cooler.",
+   "E": "The passage makes no such comparison; it says the street-level effect is modest."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "absorb more winter sunlight than a dark roof would"
+    },
+    {
+     "id": "B",
+     "text": "raise heating costs by enough to offset what it saves in summer"
+    },
+    {
+     "id": "C",
+     "text": "remove the need for heating by returning sunlight to the sky"
+    },
+    {
+     "id": "D",
+     "text": "make the building hotter during summer afternoons"
+    },
+    {
+     "id": "E",
+     "text": "cool the air at street level more than it does in hot regions"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-17",
+  "lessonId": "v3-01-formats",
+  "difficulty": 3,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true of the survey of free-evening visitors?",
+  "explanation": "The survey found most visitors were from above-median households and many would have paid. It did not track later visits.",
+  "choiceExplanations": {
+   "C": "The passage says the survey did not follow anyone long enough to tell."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Many respondents said they would have paid for admission without a free evening."
+    },
+    {
+     "id": "B",
+     "text": "Most respondents came from households with above-median incomes."
+    },
+    {
+     "id": "C",
+     "text": "It followed visitors to see whether they later returned on paying days."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-18",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "Select the sentence that contrasts an older picture of moths with more recent findings.",
+  "explanation": "Only the opening sentence sets a long-held description ('helpless prey') against what several species have since evolved. Later sentences describe responses or report hypotheses.",
+  "estSeconds": 90,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-moth-clicks",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Moths have long been described as the helpless prey of bats, but several species have evolved ears tuned to the ultrasonic calls that bats use to locate food."
+  }
+ },
+ {
+  "id": "v3-01-formats-19",
+  "lessonId": "v3-01-formats",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, which of the following is true?",
+  "explanation": "The first sentence says family firms often outlast rivals, and the passage reports that comparison studies generally find outsiders deliver faster growth. The first choice swaps founders and heirs.",
+  "choiceExplanations": {
+   "A": "Reversed: the passage says heirs, not founders, may value it chiefly as a possession."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Founders tend to value the firm chiefly as a family possession to be preserved."
+    },
+    {
+     "id": "B",
+     "text": "Family-owned firms often outlast their rivals through downturns."
+    },
+    {
+     "id": "C",
+     "text": "Studies generally find faster growth under outside managers than under heirs."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-01-formats-20",
+  "lessonId": "v3-01-formats",
+  "difficulty": 5,
+  "stem": "Which of the following best describes the author's evaluation of the method described in the second paragraph?",
+  "explanation": "The final sentence concedes that the method is laborious and partial, 'but' says it restores muffled voices. The author therefore values it with open acknowledgment of its limits.",
+  "choiceExplanations": {
+   "B": "Too strong; the results are called partial and the method laborious.",
+   "C": "The author concedes limits but does not call the method unreliable or speculative.",
+   "D": "Nothing in the passage says it should be limited to such cases.",
+   "E": "The passage describes the method as one a historian 'can' use and gives no hint it is untried."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-formats"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It is worth using despite being laborious and yielding only partial results."
+    },
+    {
+     "id": "B",
+     "text": "It is precise enough to replace the study of ordinary records."
+    },
+    {
+     "id": "C",
+     "text": "It is unreliable because it depends on speculation about clerks' motives."
+    },
+    {
+     "id": "D",
+     "text": "It is a last resort that should be used only when other records are lost."
+    },
+    {
+     "id": "E",
+     "text": "It is promising but has not yet been tried on real records."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ }
+]

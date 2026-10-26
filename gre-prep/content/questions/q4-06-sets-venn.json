@@ -1,0 +1,824 @@
+[
+ {
+  "id": "q4-06-sets-venn-01",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 1,
+  "stem": "How many elements are in the union of the sets $\\{2, 4, 6, 8\\}$ and $\\{4, 8, 10\\}$?",
+  "explanation": "The union is $\\{2, 4, 6, 8, 10\\}$, listing the shared elements 4 and 8 once. It has 5 elements.",
+  "estSeconds": 45,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-02",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 1,
+  "stem": "How many elements does the set $\\{1, 2, 2, 3, 3, 3\\}$ have?",
+  "explanation": "In a set, repeats are not counted again: the distinct elements are 1, 2 and 3.",
+  "choiceExplanations": {
+   "A": "Only the value 1 appears once; the set has more elements than that.",
+   "B": "Only 2 and 3 are repeated; the set has three distinct elements.",
+   "D": "6 counts the repeats, as in a list.",
+   "E": "14 is the sum of the listed numbers, not the count."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1$"
+    },
+    {
+     "id": "B",
+     "text": "$2$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$6$"
+    },
+    {
+     "id": "E",
+     "text": "$14$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-03",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "How many of the residents surveyed use the library but not the gym?",
+  "explanation": "Library users who also use the gym are in the overlap, so library only $= 75 - 30 = 45$.",
+  "choiceExplanations": {
+   "A": "30 is the number who use both.",
+   "C": "75 is all library users, including those who also use the gym.",
+   "D": "105 is $75 + 30$, which counts the overlap twice.",
+   "E": "140 is the number who use at least one facility."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Facilities used by 200 residents surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Library: 75 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Gym: 95 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">30</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 residents surveyed. The Library circle has 75 residents in all, the Gym circle has 95 in all, and 30 residents are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$30$"
+    },
+    {
+     "id": "B",
+     "text": "$45$"
+    },
+    {
+     "id": "C",
+     "text": "$75$"
+    },
+    {
+     "id": "D",
+     "text": "$105$"
+    },
+    {
+     "id": "E",
+     "text": "$140$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-04",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "Of 40 students, 25 take Spanish, 18 take French, and 8 take both languages. How many of the 40 students take neither language?",
+  "explanation": "Students taking at least one: $25 + 18 - 8 = 35$. Neither: $40 - 35 = 5$.",
+  "estSeconds": 75,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-05",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$|A \\cup B| = 30 + 20 - 5 = 45$. Quantity B, 50, is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of elements in $A \\cup B$",
+   "quantityB": "50",
+   "common": "$|A| = 30$, $|B| = 20$ and $|A \\cap B| = 5$."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-06",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "In a group of 60 people, 38 speak French, 29 speak German, and 11 speak neither language. How many of the 60 people speak both languages?",
+  "explanation": "People speaking at least one language: $60 - 11 = 49$. Then $49 = 38 + 29 - \\text{both}$, so both $= 67 - 49 = 18$.",
+  "choiceExplanations": {
+   "A": "7 comes from $38 + 29 - 60$, which forgets that 11 people speak neither.",
+   "B": "11 is the number who speak neither language.",
+   "D": "27 is $38 - 11$, which has no meaning here.",
+   "E": "49 is the number who speak at least one language."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$7$"
+    },
+    {
+     "id": "B",
+     "text": "$11$"
+    },
+    {
+     "id": "C",
+     "text": "$18$"
+    },
+    {
+     "id": "D",
+     "text": "$27$"
+    },
+    {
+     "id": "E",
+     "text": "$49$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-07",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "How many of the residents surveyed use neither the library nor the gym?",
+  "explanation": "At least one facility: $75 + 95 - 30 = 140$. Neither: $200 - 140 = 60$.",
+  "estSeconds": 75,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Facilities used by 200 residents surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Library: 75 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Gym: 95 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">30</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 residents surveyed. The Library circle has 75 residents in all, the Gym circle has 95 in all, and 30 residents are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-08",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "Let $S = \\{1, 2, 3, 4\\}$, $T = \\{3, 4, 5\\}$ and $U = \\{5, 6\\}$. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$S$ and $U$ share no element. $T$ and $U$ share 5. Together the sets contain 1 through 6. $S \\cap T = \\{3, 4\\}$ has 2 elements.",
+  "choiceExplanations": {
+   "B": "Both $T$ and $U$ contain 5.",
+   "D": "$S \\cap T = \\{3, 4\\}$, which has 2 elements."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$S$ and $U$ are disjoint."
+    },
+    {
+     "id": "B",
+     "text": "$T$ and $U$ are disjoint."
+    },
+    {
+     "id": "C",
+     "text": "The union of $S$, $T$ and $U$ has 6 elements."
+    },
+    {
+     "id": "D",
+     "text": "The intersection of $S$ and $T$ has 3 elements."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-09",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "Of 100 students, 60 take math, 45 take physics, and 20 take neither subject. How many of the 100 students take exactly one of the two subjects?",
+  "explanation": "At least one subject: $100 - 20 = 80$. Both: $60 + 45 - 80 = 25$. Exactly one: $80 - 25 = 55$ (or $35 + 20$).",
+  "estSeconds": 120,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 55
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-10",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "What percent of the residents surveyed use exactly one of the two facilities?",
+  "explanation": "Library only: $75 - 30 = 45$. Gym only: $95 - 30 = 65$. Exactly one: $45 + 65 = 110$, and $\\frac{110}{200} = 55\\%$.",
+  "estSeconds": 100,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Facilities used by 200 residents surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Library: 75 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Gym: 95 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">30</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 residents surveyed. The Library circle has 75 residents in all, the Gym circle has 95 in all, and 30 residents are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 55
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-11",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 5,
+  "stem": "Of 80 employees, 50 use software A and 40 use software B. What is the least possible number of employees who use both?",
+  "explanation": "Those using A or B number at most 80, and $|A \\cup B| = 50 + 40 - |A \\cap B| \\le 80$. So $|A \\cap B| \\ge 10$. The least possible value is 10.",
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 10
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-12",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 5,
+  "stem": "A group of 40 people includes 25 who play chess and 22 who play checkers. Which of the following could be the number of people in the group who play both games? Indicate all such numbers.",
+  "explanation": "If $b$ people play both, then $25 + 22 - b$ people play at least one game, and this cannot exceed 40, so $b \\ge 7$. Also $b$ cannot exceed 22 (the checkers players). So $b$ can be any value from 7 to 22.",
+  "choiceExplanations": {
+   "A": "With 5 playing both, $25 + 22 - 5 = 42$ people would play at least one game, more than the 40 in the group."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$10$"
+    },
+    {
+     "id": "D",
+     "text": "$18$"
+    },
+    {
+     "id": "E",
+     "text": "$22$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-13",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 1,
+  "stem": "Set $A$ is $\\{1, 3, 5, 7, 9\\}$ and set $B$ is $\\{5, 7, 9, 11\\}$. How many elements are in the intersection of $A$ and $B$?",
+  "explanation": "The elements in both sets are 5, 7 and 9, so the intersection has 3 elements.",
+  "estSeconds": 45,
+  "skills": [
+   "sets"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-14",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "How many of the students surveyed belong to the chess club but not the drama club?",
+  "explanation": "The chess circle holds 84 students in all, and 26 of them are also in the drama circle. Chess only: $84 - 26 = 58$.",
+  "choiceExplanations": {
+   "A": "26 students belong to both clubs.",
+   "B": "40 is the number of drama-only students ($66 - 26$).",
+   "D": "84 includes the 26 students who are also in the drama club.",
+   "E": "124 students belong to at least one of the clubs."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "venn"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$26$"
+    },
+    {
+     "id": "B",
+     "text": "$40$"
+    },
+    {
+     "id": "C",
+     "text": "$58$"
+    },
+    {
+     "id": "D",
+     "text": "$84$"
+    },
+    {
+     "id": "E",
+     "text": "$124$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-15",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Disjoint sets have no common element, so $|S \\cup T| = |S| + |T| = 17 + 12 = 29$, which is greater than 28.",
+  "estSeconds": 60,
+  "skills": [
+   "sets",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of elements in $S \\cup T$",
+   "quantityB": "28",
+   "common": "Sets $S$ and $T$ are disjoint, $|S| = 17$ and $|T| = 12$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-16",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "What percent of the students surveyed belong to neither club?",
+  "explanation": "At least one club: $84 + 66 - 26 = 124$. Neither: $200 - 124 = 76$. $\\frac{76}{200} = 0.38 = 38\\%$.",
+  "estSeconds": 80,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 38
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-17",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 3,
+  "stem": "Let $S$ be the set of multiples of 3 from 1 to 30, and let $T$ be the set of even numbers from 1 to 30. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "$|S| = 10$, $|T| = 15$, and the common elements are the multiples of 6: 6, 12, 18, 24, 30, so $|S \\cap T| = 5$. Union: $10 + 15 - 5 = 20$. Exactly one set: $(10 - 5) + (15 - 5) = 15$. Neither: $30 - 20 = 10$.",
+  "choiceExplanations": {
+   "B": "$|S \\cup T| = 10 + 15 - 5 = 20$, not 25; 25 adds the overlap twice.",
+   "E": "They share the multiples of 6, such as 6 and 12."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "sets",
+   "inclusion-exclusion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$S$ and $T$ have 5 elements in common."
+    },
+    {
+     "id": "B",
+     "text": "The union of $S$ and $T$ has 25 elements."
+    },
+    {
+     "id": "C",
+     "text": "Exactly 15 of the numbers from 1 to 30 are in exactly one of the two sets."
+    },
+    {
+     "id": "D",
+     "text": "Exactly 10 of the numbers from 1 to 30 are in neither set."
+    },
+    {
+     "id": "E",
+     "text": "$S$ and $T$ are disjoint."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-18",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "In a class of 60 students, 36 play soccer and 30 play tennis. The number of students who play both sports is 3 times the number of students who play neither sport. How many students play both sports?",
+  "explanation": "Let $n$ be the number who play neither, so $3n$ play both. At least one sport: $36 + 30 - 3n = 60 - n$. So $66 - 3n = 60 - n$, which gives $2n = 6$ and $n = 3$. Both: $3n = 9$. Check: only soccer 27, only tennis 21, both 9, neither 3, total 60.",
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-19",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 4,
+  "stem": "Of the students surveyed who belong to at least one of the two clubs, what fraction belong to both clubs?",
+  "explanation": "Students in at least one club: $84 + 66 - 26 = 124$. Of these, 26 belong to both clubs, so the fraction is $\\frac{26}{124} = \\frac{13}{62}$.",
+  "estSeconds": 100,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Clubs joined by 200 students surveyed",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><rect x=\"15\" y=\"10\" width=\"490\" height=\"250\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"195\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"325\" cy=\"145\" r=\"80\" fill=\"none\" stroke=\"currentColor\"/><text x=\"165\" y=\"42\" text-anchor=\"middle\">Chess: 84 in all</text><text x=\"355\" y=\"42\" text-anchor=\"middle\">Drama: 66 in all</text><text x=\"260\" y=\"150\" text-anchor=\"middle\" font-size=\"16\">26</text><text x=\"260\" y=\"168\" text-anchor=\"middle\" font-size=\"11\">both</text><text x=\"25\" y=\"250\">Total surveyed: 200</text></svg>",
+    "alt": "Venn diagram inside a rectangle for 200 students surveyed. The Chess circle has 84 students in all, the Drama circle has 66 in all, and 26 students are in both circles."
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.20967741935483872,
+   "fraction": {
+    "numerator": 13,
+    "denominator": 62
+   }
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-20",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 5,
+  "stem": "In a survey of 100 people, 62 like tea and 71 like coffee. What is the least possible number of people who like exactly one of the two drinks?",
+  "explanation": "Exactly one $= |X| + |Y| - 2|X \\cap Y| = 133 - 2\\,|X \\cap Y|$, so make the overlap as large as possible. It cannot exceed the smaller group, 62. With 62 people liking both, everyone who likes tea also likes coffee: exactly one $= 133 - 124 = 9$ (all of them like only coffee). This is possible: 71 people like at least one drink and 29 like neither.",
+  "estSeconds": 140,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ }
+]

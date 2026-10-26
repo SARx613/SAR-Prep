@@ -1,0 +1,854 @@
+[
+ {
+  "id": "q1-05-mixed-fractional-01",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 1,
+  "stem": "$\\frac{29}{6} = a\\frac{b}{6}$, where $a$ and $b$ are integers and $0\\le b<6$. What is $a+b$?",
+  "explanation": "$29 = 4\\cdot6 + 5$, so $\\frac{29}{6} = 4\\frac{5}{6}$ and $a+b = 4+5 = 9$.",
+  "estSeconds": 60,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-02",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 1,
+  "stem": "What is $2\\frac{1}{2}+1\\frac{3}{4}$?",
+  "explanation": "Whole parts: $2+1 = 3$. Fraction parts: $\\frac{1}{2}+\\frac{3}{4} = \\frac{5}{4} = 1\\frac{1}{4}$. Total: $4\\frac{1}{4}$.",
+  "choiceExplanations": {
+   "A": "This adds the fractions by adding tops and bottoms: $\\frac{1+3}{2+4}$.",
+   "B": "This drops the $\\frac{1}{2}$ and keeps only the $\\frac{3}{4}$.",
+   "C": "This forgets that $\\frac{5}{4}$ is more than 1: the leftover $\\frac{1}{4}$ is missing.",
+   "E": "This counts the carried 1 twice."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3\\frac{2}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$3\\frac{3}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "$4\\frac{1}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "$5\\frac{1}{4}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-03",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "What is $\\frac{7}{2}\\div1\\frac{3}{4}$?",
+  "explanation": "Convert: $1\\frac{3}{4} = \\frac{7}{4}$. Then $\\frac{7}{2}\\cdot\\frac{4}{7} = 2$.",
+  "choiceExplanations": {
+   "A": "This inverts the wrong fraction: $\\frac{2}{7}\\cdot\\frac{7}{4}$.",
+   "C": "This divides by 1 only and drops the $\\frac{3}{4}$.",
+   "D": "This reads $1\\frac{3}{4}$ as $\\frac{3}{4}$: $\\frac{7}{2}\\cdot\\frac{4}{3}$.",
+   "E": "This multiplies by $\\frac{7}{4}$ instead of dividing."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{2}$"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{7}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{14}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{49}{8}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-04",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Quantity A: $3\\frac{1}{2} = \\frac{7}{2}$, so $2\\cdot\\frac{7}{2} = 7$. Quantity B: $6+\\frac{1}{2} = 6\\frac{1}{2}$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$2\\times3\\frac{1}{2}$",
+   "quantityB": "$2\\times3+\\frac{1}{2}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-05",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $2\\frac{3}{8}$? Indicate all such numbers.",
+  "explanation": "$2\\frac{3}{8} = \\frac{2\\cdot8+3}{8} = \\frac{19}{8}$, and $\\frac{38}{16}$ is the same value. A mixed number is a sum, so $2+\\frac{3}{8}$ also works. $\\frac{23}{8}$ is $2\\frac{7}{8}$; $2\\cdot\\frac{3}{8} = \\frac{3}{4}$.",
+  "choiceExplanations": {
+   "C": "$\\frac{23}{8} = 2\\frac{7}{8}$; the numerator should be $2\\cdot8+3 = 19$.",
+   "E": "A product, not a sum: it equals $\\frac{3}{4}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{19}{8}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{38}{16}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{23}{8}$"
+    },
+    {
+     "id": "D",
+     "text": "$2+\\frac{3}{8}$"
+    },
+    {
+     "id": "E",
+     "text": "$2\\cdot\\frac{3}{8}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-06",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "A board $7\\frac{1}{2}$ feet long is cut into pieces that are each $1\\frac{1}{4}$ feet long, with nothing left over. How many pieces are there?",
+  "explanation": "Convert: $\\frac{15}{2}\\div\\frac{5}{4} = \\frac{15}{2}\\cdot\\frac{4}{5} = \\frac{60}{10} = 6$.",
+  "estSeconds": 90,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-07",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "For $x \\ne 0$, what is $\\frac{x}{3}+\\frac{x}{4}$?",
+  "explanation": "Common denominator 12: $\\frac{4x}{12}+\\frac{3x}{12} = \\frac{7x}{12}$.",
+  "choiceExplanations": {
+   "A": "This multiplies the denominators and keeps one $x$, which is not addition.",
+   "B": "This adds tops and bottoms: $\\frac{x+x}{3+4}$.",
+   "C": "Denominator 24 would need numerators $8x$ and $6x$, giving $\\frac{14x}{24} = \\frac{7x}{12}$.",
+   "E": "This is the reciprocal of $\\frac{7x}{12}$ with $x$ moved up; it is not the sum."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{x}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2x}{7}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{7x}{24}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{7x}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{12x}{7}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-08",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac{x}{2}+\\frac{x}{3} = \\frac{3x}{6}+\\frac{2x}{6} = \\frac{5x}{6}$. For positive $x$ this is less than $x$. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{x}{2}+\\frac{x}{3}$",
+   "quantityB": "$x$",
+   "common": "$x>0$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-09",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "If $x = 1\\frac{1}{2}$ and $y = 2\\frac{1}{3}$, which of the following are greater than 3? Indicate all such expressions.",
+  "explanation": "With $x = \\frac{3}{2}$ and $y = \\frac{7}{3}$: $x+y = \\frac{23}{6}\\approx3.83$; $xy = \\frac{7}{2} = 3.5$; $2y-x = \\frac{28}{6}-\\frac{9}{6} = \\frac{19}{6}\\approx3.17$. But $y-x = \\frac{5}{6}$ and $y\\div x = \\frac{14}{9}$ are below 3.",
+  "choiceExplanations": {
+   "C": "$y-x = \\frac{14}{6}-\\frac{9}{6} = \\frac{5}{6}$.",
+   "D": "$\\frac{7}{3}\\cdot\\frac{2}{3} = \\frac{14}{9}$, about 1.6."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x+y$"
+    },
+    {
+     "id": "B",
+     "text": "$xy$"
+    },
+    {
+     "id": "C",
+     "text": "$y-x$"
+    },
+    {
+     "id": "D",
+     "text": "$y\\div x$"
+    },
+    {
+     "id": "E",
+     "text": "$2y-x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-10",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "What is the value of $2\\frac{1}{4}+\\dfrac{3}{\\frac{3}{4}}$?",
+  "explanation": "$\\dfrac{3}{\\frac{3}{4}} = 3\\cdot\\frac{4}{3} = 4$. Then $2\\frac{1}{4}+4 = 6\\frac{1}{4}$.",
+  "choiceExplanations": {
+   "A": "This cancels the 3s and treats the stacked fraction as 1.",
+   "B": "This computes $3\\cdot\\frac{3}{4}$ for the stacked fraction instead of dividing.",
+   "C": "This loses the $\\frac{1}{4}$ of the mixed number.",
+   "E": "This multiplies $2\\frac{1}{4}$ by 4 instead of adding 4."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3\\frac{1}{4}$"
+    },
+    {
+     "id": "B",
+     "text": "$4\\frac{1}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "6"
+    },
+    {
+     "id": "D",
+     "text": "$6\\frac{1}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "9"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-11",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 5,
+  "stem": "What is the value of $\\dfrac{1}{1+\\dfrac{1}{1+\\frac{1}{2}}}$? Enter your answer as a fraction.",
+  "explanation": "Work from the inside. $1+\\frac{1}{2} = \\frac{3}{2}$. Then $\\frac{1}{3/2} = \\frac{2}{3}$. Then $1+\\frac{2}{3} = \\frac{5}{3}$. Finally $\\frac{1}{5/3} = \\frac{3}{5}$.",
+  "estSeconds": 120,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.6,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 5
+   }
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-12",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 5,
+  "stem": "A cyclist covers $\\frac{2}{5}$ of a trip on the first day and $\\frac{3}{8}$ of the remaining distance on the second day. The 18 miles still to go are the last part of the trip. How many miles long is the trip?",
+  "explanation": "After day 1, $\\frac{3}{5}$ of the trip remains. Day 2 covers $\\frac{3}{8}\\cdot\\frac{3}{5} = \\frac{9}{40}$ of the trip. What is left is $1-\\frac{2}{5}-\\frac{9}{40} = \\frac{40-16-9}{40} = \\frac{15}{40} = \\frac{3}{8}$. So $\\frac{3}{8}$ of the trip is 18 miles and the trip is $18\\cdot\\frac{8}{3} = 48$.",
+  "estSeconds": 150,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-13",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 1,
+  "stem": "What is $4\\cdot1\\frac{1}{2}$?",
+  "explanation": "Convert first: $1\\frac{1}{2} = \\frac{3}{2}$, and $4\\cdot\\frac{3}{2} = \\frac{12}{2} = 6$. (Multiplying only the whole part would give $4\\frac{1}{2}$, which is wrong.)",
+  "estSeconds": 45,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-14",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "What is $3\\frac{1}{3}-1\\frac{3}{4}$?",
+  "explanation": "Convert both: $3\\frac{1}{3} = \\frac{10}{3} = \\frac{40}{12}$ and $1\\frac{3}{4} = \\frac{7}{4} = \\frac{21}{12}$. The difference is $\\frac{19}{12} = 1\\frac{7}{12}$.",
+  "choiceExplanations": {
+   "A": "This forgets that the whole numbers also subtract: after borrowing, $2-1=1$ remains in addition to $\\frac{7}{12}$.",
+   "B": "After borrowing, $2-\\frac{5}{12}$ is $1\\frac{7}{12}$; $1\\frac{5}{12}$ uses the wrong fractional part.",
+   "D": "This subtracts the smaller fraction from the larger one, $\\frac{3}{4}-\\frac{1}{3}$, instead of borrowing.",
+   "E": "This adds the two numbers instead of subtracting."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$1\\frac{5}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$1\\frac{7}{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$2\\frac{5}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$5\\frac{1}{12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-15",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Quantity A: $5\\frac{1}{2} = \\frac{11}{2}$, and $\\frac{11}{2}\\cdot\\frac{1}{2} = \\frac{11}{4} = 2\\frac{3}{4}$. Quantity B: $\\frac{5}{2}+\\frac{1}{2} = 3$. The whole mixed number is divided in A, but in B the $\\frac{1}{2}$ is added without being halved, so B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$5\\frac{1}{2}\\div2$",
+   "quantityB": "$5\\div2+\\frac{1}{2}$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-16",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "A recipe needs $2\\frac{1}{4}$ cups of sugar for one batch. How many cups of sugar are needed for $2\\frac{2}{3}$ batches?",
+  "explanation": "Convert and multiply: $2\\frac{1}{4} = \\frac{9}{4}$ and $2\\frac{2}{3} = \\frac{8}{3}$. Then $\\frac{9}{4}\\cdot\\frac{8}{3} = \\frac{72}{12} = 6$.",
+  "estSeconds": 75,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-17",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 3,
+  "stem": "What is the value of $\\dfrac{2\\frac{1}{2}}{\\frac{5}{6}}$?",
+  "explanation": "A stacked fraction means divide: $2\\frac{1}{2}\\div\\frac{5}{6} = \\frac{5}{2}\\cdot\\frac{6}{5} = \\frac{30}{10} = 3$.",
+  "choiceExplanations": {
+   "A": "This divides $\\frac{5}{6}$ by $2\\frac{1}{2}$, the wrong way round.",
+   "B": "This multiplies by $\\frac{5}{6}$ without inverting it.",
+   "D": "This adds the numerator and the denominator instead of dividing.",
+   "E": "This multiplies by 6 but forgets to divide by the 5."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$2\\frac{1}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$3\\frac{1}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$15$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-18",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "For $x\\ne0$, what is the value of $\\frac{x}{3}+\\frac{x}{4}-\\frac{x}{6}$?",
+  "explanation": "The common denominator is 12: $\\frac{4x}{12}+\\frac{3x}{12}-\\frac{2x}{12} = \\frac{5x}{12}$.",
+  "choiceExplanations": {
+   "A": "This combines the numerators over 12 without scaling them: $1+1-1$ is wrong because the fractions were not rewritten over 12.",
+   "C": "This leaves out the subtraction of $\\frac{x}{6}$.",
+   "D": "This adds all three fractions, $\\frac{4x+3x+2x}{12}$, instead of subtracting the last.",
+   "E": "This combines the denominators as $3+4-6=1$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{x}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5x}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{7x}{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{3x}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "$x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-19",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 4,
+  "stem": "What is the value of $\\dfrac{2\\frac{1}{2}+1\\frac{1}{4}}{3\\frac{3}{4}-1\\frac{1}{4}}$? Enter your answer as a fraction.",
+  "explanation": "Numerator: $\\frac{5}{2}+\\frac{5}{4} = \\frac{10}{4}+\\frac{5}{4} = \\frac{15}{4}$. Denominator: $\\frac{15}{4}-\\frac{5}{4} = \\frac{10}{4} = \\frac{5}{2}$. Then $\\frac{15}{4}\\div\\frac{5}{2} = \\frac{15}{4}\\cdot\\frac{2}{5} = \\frac{30}{20} = \\frac{3}{2}$.",
+  "estSeconds": 120,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 1.5,
+   "fraction": {
+    "numerator": 3,
+    "denominator": 2
+   }
+  }
+ },
+ {
+  "id": "q1-05-mixed-fractional-20",
+  "lessonId": "q1-05-mixed-fractional",
+  "difficulty": 5,
+  "stem": "Which of the following are greater than $2\\frac{3}{7}$? Indicate all such numbers.",
+  "explanation": "Convert $2\\frac{3}{7} = \\frac{17}{7}$, or convert each choice to a mixed number and compare the fractional parts by cross-multiplying. $\\frac{22}{9} = 2\\frac{4}{9}$ and $\\frac{4}{9}>\\frac{3}{7}$ because $28>27$. $\\frac{27}{11} = 2\\frac{5}{11}$ and $\\frac{5}{11}>\\frac{3}{7}$ because $35>33$. The other three are smaller or equal.",
+  "choiceExplanations": {
+   "A": "$\\frac{12}{5} = 2\\frac{2}{5}$, and $\\frac{2}{5}<\\frac{3}{7}$ because $14<15$.",
+   "B": "$\\frac{29}{12} = 2\\frac{5}{12}$, and $\\frac{5}{12}<\\frac{3}{7}$ because $35<36$.",
+   "C": "$\\frac{17}{7} = 2\\frac{3}{7}$ exactly, so it is equal, not greater."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "mixed-fractional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{12}{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{29}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{17}{7}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{22}{9}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{27}{11}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ }
+]

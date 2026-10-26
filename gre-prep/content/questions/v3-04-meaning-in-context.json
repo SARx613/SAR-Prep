@@ -1,0 +1,1043 @@
+[
+ {
+  "id": "v3-04-meaning-in-context-01",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 1,
+  "stem": "As used in the passage, 'sound' (in 'perfectly sound') most nearly means",
+  "explanation": "The surface is weakened and cracked 'even though' the interior is sound, so 'sound' means in good condition, without flaws.",
+  "choiceExplanations": {
+   "A": "The sense of noise does not apply to a slab's interior.",
+   "C": "A material is not described as 'sensible'.",
+   "D": "A financial sense is irrelevant here.",
+   "E": "Depth is not the issue; the contrast is with the weakened, cracked surface."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-concrete",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "audible"
+    },
+    {
+     "id": "B",
+     "text": "free of defects"
+    },
+    {
+     "id": "C",
+     "text": "sensible"
+    },
+    {
+     "id": "D",
+     "text": "financially stable"
+    },
+    {
+     "id": "E",
+     "text": "deep"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-02",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 1,
+  "stem": "Select the sentence that corrects a commonly held belief.",
+  "explanation": "'As is commonly supposed' flags the belief being corrected: that concrete hardens by drying.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-concrete",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Concrete does not harden by drying, as is commonly supposed."
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-03",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 2,
+  "stem": "In the passage, 'hardened' (in 'hardened into orthodoxy') most nearly means",
+  "explanation": "A reading that 'hardened into orthodoxy' became a fixed, standard view that people stopped questioning.",
+  "choiceExplanations": {
+   "A": "The literal physical sense does not fit an abstract 'reading'.",
+   "B": "Applies to people's feelings, not to an interpretation.",
+   "C": "A reading does not become 'more severe'; the point is that it became fixed.",
+   "D": "Nothing in the sentence concerns detection."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-painter",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "became physically stiff"
+    },
+    {
+     "id": "B",
+     "text": "grew callous"
+    },
+    {
+     "id": "C",
+     "text": "became more severe"
+    },
+    {
+     "id": "D",
+     "text": "became more difficult to detect"
+    },
+    {
+     "id": "E",
+     "text": "settled into an unquestioned view"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-04",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 2,
+  "stem": "As used in the passage, 'trace' (in 'leaves such a trace') most nearly means",
+  "explanation": "'Not every eruption leaves such a trace' means not every eruption leaves a visible mark in the rings, i.e., a detectable sign.",
+  "choiceExplanations": {
+   "A": "The sense of a 'tiny amount' does not fit: the question is whether the eruption leaves any mark in the ring.",
+   "C": "A drawn line is irrelevant here.",
+   "D": "Copying an outline is unrelated.",
+   "E": "The rings are not an investigation; they are the evidence."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-tree-rings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tiny quantity"
+    },
+    {
+     "id": "B",
+     "text": "detectable sign"
+    },
+    {
+     "id": "C",
+     "text": "line drawn on a surface"
+    },
+    {
+     "id": "D",
+     "text": "copy made by following an outline"
+    },
+    {
+     "id": "E",
+     "text": "investigation into origins"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-05",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 2,
+  "stem": "Select the sentence that says what those who use the term 'authenticity' take it to mean.",
+  "explanation": "The first sentence glosses the term: playing a work as its composer intended.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-early-music",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Musicians who specialize in early music often justify their practice by appeal to 'authenticity': the aim, they say, is to play a work as its composer intended."
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-06",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "The author places 'subtract' in quotation marks most likely because",
+  "explanation": "The word is quoted from her letters ('wrote repeatedly of her wish to subtract') and means removing everything not essential, a figurative use.",
+  "choiceExplanations": {
+   "A": "The author actually accepts her aim as a deliberate refinement.",
+   "B": "The critics are described as reading fatigue into the works; the word comes from her letters.",
+   "C": "She 'destroyed early studies' but 'subtract' describes composing, not scraping paint.",
+   "E": "Nothing in the passage ties the word to a painters' jargon."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-painter",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "the author doubts that Marchand succeeded in simplifying her pictures"
+    },
+    {
+     "id": "B",
+     "text": "the critics of the period used the word to mock her late style"
+    },
+    {
+     "id": "C",
+     "text": "Marchand literally removed paint from the canvases"
+    },
+    {
+     "id": "D",
+     "text": "the word is Marchand's own and is used figuratively for removing inessential elements"
+    },
+    {
+     "id": "E",
+     "text": "the word comes from a technical vocabulary of painters"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-07",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "As used in the passage, 'discipline' (in 'the discipline of ignoring it') most nearly means",
+  "explanation": "'Easier to endorse than to practice' shows that 'discipline' is a practised habit of ignoring sunk costs, a kind of self-restraint.",
+  "choiceExplanations": {
+   "B": "The phrase names a practice of ignoring sunk costs, not a subject area.",
+   "C": "Nothing in the sentence concerns punishment.",
+   "D": "The issue is managers restraining their own reasoning, not obeying others.",
+   "E": "The sentence concerns a mental habit, not learning a skill."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-sunk-cost",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "habit of self-restraint"
+    },
+    {
+     "id": "B",
+     "text": "field of academic study"
+    },
+    {
+     "id": "C",
+     "text": "punishment for wrongdoing"
+    },
+    {
+     "id": "D",
+     "text": "obedience to authority"
+    },
+    {
+     "id": "E",
+     "text": "training in a craft"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-08",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "As used in the passage, 'discount' (in 'discount accordingly') most nearly means",
+  "explanation": "Listeners who 'understand the convention' adjust the weight they give to compliments, treating them as less informative.",
+  "choiceExplanations": {
+   "A": "A price sense does not apply to compliments.",
+   "B": "If listeners ignored compliments entirely, the host could learn nothing; 'accordingly' suggests adjusting, not disregarding.",
+   "C": "Nothing concerns repeating.",
+   "D": "Forgiveness is irrelevant: the issue is how much to believe."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3-white-lies",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "reduce the price of"
+    },
+    {
+     "id": "B",
+     "text": "ignore entirely"
+    },
+    {
+     "id": "C",
+     "text": "refuse to repeat"
+    },
+    {
+     "id": "D",
+     "text": "forgive"
+    },
+    {
+     "id": "E",
+     "text": "treat as less reliable"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-09",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "The phrase 'independent clock for volcanic activity' most nearly refers to",
+  "explanation": "The author concludes that rings should corroborate dates 'rather than' be an 'independent clock', so the clock would be a method that dates eruptions on its own.",
+  "choiceExplanations": {
+   "B": "Nothing in the passage describes an instrument.",
+   "C": "Annual rings are the raw record, but the phrase asks about standing alone as a dating method.",
+   "D": "The cooling is the cause of the narrow ring, not the dating method.",
+   "E": "Ice cores are one of the 'other means' the rings corroborate."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-vocab-in-context",
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-tree-rings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "a source of eruption dates that does not need confirmation from other evidence"
+    },
+    {
+     "id": "B",
+     "text": "an instrument that times the interval between eruptions"
+    },
+    {
+     "id": "C",
+     "text": "the yearly regularity of tree growth"
+    },
+    {
+     "id": "D",
+     "text": "the cooling effect that follows an eruption"
+    },
+    {
+     "id": "E",
+     "text": "a record kept in ice cores"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-10",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. The statement that listeners 'discount accordingly' implies which of the following?",
+  "explanation": "To discount is to take compliments with a grain of salt, which makes them less informative (A and C). B is the opposite.",
+  "choiceExplanations": {
+   "B": "If they believed so, they would not discount."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-white-lies",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Listeners adjust their reading of a compliment because they know compliments are often inflated."
+    },
+    {
+     "id": "B",
+     "text": "Listeners believe every compliment is sincere."
+    },
+    {
+     "id": "C",
+     "text": "Listeners treat compliments as less informative than sincere praise alone would be."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-11",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. In the sentence 'abandoning a project crystallizes a loss that was previously only prospective', the author means that abandoning the project",
+  "explanation": "'Prospective' means anticipated, and 'crystallizes' means makes definite. A and B express this; C reverses it.",
+  "choiceExplanations": {
+   "C": "The loss was already anticipated; abandonment makes it definite, not new."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-sunk-cost",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "turns a loss that had merely been expected into one that must be acknowledged"
+    },
+    {
+     "id": "B",
+     "text": "makes a possible loss definite"
+    },
+    {
+     "id": "C",
+     "text": "creates a loss that would otherwise never have occurred"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-12",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 5,
+  "stem": "What does the author mean by saying that 'plausible' would be the more honest term?",
+  "explanation": "'More than the evidence can deliver' explains that 'authentic' overclaims; 'plausible' fits what conjecture can establish.",
+  "choiceExplanations": {
+   "A": "The author makes no comparison with the composer's time.",
+   "B": "The author says the enterprise is not futile.",
+   "D": "The author thinks informed conjecture is unavoidable, even valuable.",
+   "E": "The complaint concerns what the word claims, not how often it is used."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-sentences-in-context"
+  ],
+  "passageId": "v3-early-music",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Modern performances are less accurate than those of the composer's time."
+    },
+    {
+     "id": "B",
+     "text": "Early music should not be performed at all."
+    },
+    {
+     "id": "C",
+     "text": "Modern performances can be reasonable reconstructions but cannot be shown to reproduce what the composer intended."
+    },
+    {
+     "id": "D",
+     "text": "Performers should avoid conjecture entirely."
+    },
+    {
+     "id": "E",
+     "text": "The word 'authentic' is used too often."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-13",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 1,
+  "stem": "As used in the passage, 'modest' (in 'the cooling effect at street level is modest') most nearly means",
+  "explanation": "The sentence gives the reason: most pedestrians stand well below the roofline, so the roof's cooling barely reaches them. The effect is therefore small, which is what 'modest' means here.",
+  "choiceExplanations": {
+   "A": "This is the familiar sense for a person; a cooling effect is not shy or unassuming.",
+   "C": "Nothing in the sentence concerns how quickly the effect develops.",
+   "D": "The reason given (pedestrians stand below the roofline) explains why the effect is small, not why it is uncertain.",
+   "E": "The sentence is about the size of the effect, not its cost."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-reflective-roofs",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unassuming"
+    },
+    {
+     "id": "B",
+     "text": "slight"
+    },
+    {
+     "id": "C",
+     "text": "gradual"
+    },
+    {
+     "id": "D",
+     "text": "unreliable"
+    },
+    {
+     "id": "E",
+     "text": "inexpensive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-14",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 2,
+  "stem": "As used in the passage, 'warranted' (in 'skepticism ... is therefore warranted') most nearly means",
+  "explanation": "The author has just explained why weighting cannot fully correct for refusals, so some doubt is called for. 'Warranted' means justified by those reasons.",
+  "choiceExplanations": {
+   "B": "'Warranty' suggests a guarantee, but skepticism is not something anyone promises.",
+   "C": "The legal sense of a warrant does not fit an attitude of doubt.",
+   "D": "The passage says nothing about how common the skepticism is.",
+   "E": "The sentence is about whether the attitude is called for, not about whether it does harm."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-poll-nonresponse",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "justified"
+    },
+    {
+     "id": "B",
+     "text": "guaranteed"
+    },
+    {
+     "id": "C",
+     "text": "legally authorized"
+    },
+    {
+     "id": "D",
+     "text": "widespread"
+    },
+    {
+     "id": "E",
+     "text": "harmless"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-15",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 2,
+  "stem": "Select the sentence that explains what is meant by 'what a camera could not do'.",
+  "explanation": "The colon in this sentence introduces the explanation: painters exaggerated color, flattened space and left brushstrokes visible. No other sentence spells out what the camera could not do.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-camera-and-brush",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Freed from the obligation to document, painters turned toward what a camera could not do: they exaggerated color, flattened space and left their brushstrokes visible, treating the act of painting itself as a subject."
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-16",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "As used in the passage, 'held up as' (in 'is often held up as a textbook case') most nearly means",
+  "explanation": "The arrangement is offered as a standard illustration of cooperation, and the author then says the picture is incomplete. 'Held up as' therefore means 'cited as' an example.",
+  "choiceExplanations": {
+   "A": "The robbery sense does not fit; the next sentence says the picture is 'incomplete', not that it was stolen.",
+   "C": "Another familiar sense of 'held up', but nothing is being delayed.",
+   "D": "A literal sense that makes no sense with an abstract 'case'.",
+   "E": "The author finds the picture incomplete, but 'held up as' reports how others present the case, not that they criticize it."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-cleaner-fish",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "robbed as"
+    },
+    {
+     "id": "B",
+     "text": "cited as"
+    },
+    {
+     "id": "C",
+     "text": "delayed as"
+    },
+    {
+     "id": "D",
+     "text": "physically supported as"
+    },
+    {
+     "id": "E",
+     "text": "criticized as"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-17",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "The author refers to headphones as 'a kind of portable wall' most likely to suggest that headphones",
+  "explanation": "A wall separates people. People who feel watched put on headphones to withdraw, so headphones do the job walls once did. The comparison is about restoring privacy.",
+  "choiceExplanations": {
+   "A": "Nothing says employers supply them.",
+   "B": "Reversed: workers use headphones because they feel watched.",
+   "C": "The comparison is about function, not weight.",
+   "D": "The comparison is to a wall that separates people from colleagues, not to email."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-open-plan",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "are supplied by employers to divide the office into sections"
+    },
+    {
+     "id": "B",
+     "text": "make workers feel watched by colleagues"
+    },
+    {
+     "id": "C",
+     "text": "weigh less than the walls that were removed"
+    },
+    {
+     "id": "D",
+     "text": "block the sound of incoming email messages"
+    },
+    {
+     "id": "E",
+     "text": "give workers a measure of privacy that the layout no longer provides"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-18",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "As used in the passage, 'collateral' (in 'collateral that the poor possess') most nearly means",
+  "explanation": "The social penalty of losing standing makes members repay, so it serves as a guarantee. Because the poor 'own nothing else', the author is using 'collateral' figuratively, for a pledge that is not property.",
+  "choiceExplanations": {
+   "A": "A common adjective sense (as in 'collateral damage'), but the passage is about what backs a promise.",
+   "B": "The usual sense of loan security, but the sentence says the poor possess it 'even when they own nothing else', so it is not property.",
+   "C": "Nothing in the sentence concerns a reward.",
+   "E": "Relatives are mentioned earlier, but not as the thing being called collateral."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-savings-circles",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "a secondary consequence"
+    },
+    {
+     "id": "B",
+     "text": "a possession that can be sold"
+    },
+    {
+     "id": "C",
+     "text": "an unexpected reward"
+    },
+    {
+     "id": "D",
+     "text": "a pledge that gives others confidence a member will keep a promise"
+    },
+    {
+     "id": "E",
+     "text": "a relative of the member"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-19",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. In the sentence 'This view, though, mistakes a limit for a verdict,' which of the following does the author most likely mean?",
+  "explanation": "A 'limit' is the fact that a translation cannot reproduce the original; a 'verdict' would be a ruling that the enterprise is a fraud. The author says the critics move from the first to the second unjustly.",
+  "choiceExplanations": {
+   "B": "The author objects to a conclusion, not to the critics' right to hold views.",
+   "C": "The author says the critics are mistaken, not that the matter is open."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-poetry-translation",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "That a translation cannot match the original does not show that translating is worthless."
+    },
+    {
+     "id": "B",
+     "text": "That critics who see limits in translation are not entitled to judge translators."
+    },
+    {
+     "id": "C",
+     "text": "That the limits of translation are a matter on which critics may reasonably differ."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-20",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 5,
+  "stem": "The phrase 'whatever its prices' in the last sentence most nearly conveys that",
+  "explanation": "'Whatever its prices' means 'no matter what the store charges'. The social effect is not something even low prices could buy.",
+  "choiceExplanations": {
+   "A": "The phrase concedes that prices may vary, not that stores charge more.",
+   "B": "No advice about fees is given.",
+   "C": "Too extreme; savings are called the proponents' emphasis.",
+   "D": "The phrase is about what prices cannot achieve, not about how often they change."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "passageId": "v3w2-tool-library",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "hardware stores charge more than tool libraries do"
+    },
+    {
+     "id": "B",
+     "text": "tool libraries should lower their annual fees"
+    },
+    {
+     "id": "C",
+     "text": "prices are of no concern to borrowers"
+    },
+    {
+     "id": "D",
+     "text": "hardware store prices change too often to be compared"
+    },
+    {
+     "id": "E",
+     "text": "even a hardware store with very low prices would be unlikely to produce the same social effect"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ }
+]

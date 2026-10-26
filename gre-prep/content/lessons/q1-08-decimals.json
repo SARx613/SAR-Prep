@@ -1,0 +1,138 @@
+{
+ "id": "q1-08-decimals",
+ "status": "published",
+ "why": "Decimal place value and decimal/fraction conversion are the base of percent, ratio and data problems.",
+ "rule": "Each digit has a place value that is a power of 10: in $4{,}806.253$ the digits after the point are 2 tenths, 5 hundredths and 3 thousandths, that is $2\\cdot10^{-1}+5\\cdot10^{-2}+3\\cdot10^{-3}$. A terminating decimal is an integer over a power of 10: $3.7 = \\frac{37}{10}$, $0.248 = \\frac{248}{1000}$.\n\nCompute by converting to fractions (decimal places add in a product). For a quotient, scale top and bottom by the same power of 10.\n\nDividing numerator by denominator turns a fraction into a decimal that either **terminates** ($\\frac{7}{20} = 0.35$) or **repeats** ($\\frac{2}{9} = 0.\\overline{2}$). Exactly the rational numbers have such decimals; one that does neither (like $\\sqrt{2} = 1.41421\\ldots$) is **irrational**.",
+ "examples": [
+  {
+   "prompt": "Compute $2.5\\times0.12$.",
+   "steps": [
+    "$\\frac{25}{10}\\cdot\\frac{12}{100} = \\frac{300}{1000}$.",
+    "$=0.3$."
+   ],
+   "answer": "0.3"
+  },
+  {
+   "prompt": "Compute $1.2\\div0.03$.",
+   "steps": [
+    "Multiply top and bottom by 100: $\\frac{120}{3}$."
+   ],
+   "answer": "40"
+  }
+ ],
+ "trap": "Place value is easy to misplace: $0.05\\ne0.5$, and $0.6\\times0.7$ is $0.42$, not $4.2$ or $0.042$ (count decimal places).",
+ "checks": [
+  {
+   "id": "q1-08-decimals-c1",
+   "lessonId": "q1-08-decimals",
+   "difficulty": 1,
+   "stem": "What is $0.3\\times0.4$? Enter your answer as a decimal.",
+   "explanation": "$\\frac{3}{10}\\cdot\\frac{4}{10} = \\frac{12}{100} = 0.12$. (One decimal place each, so two in the product.)",
+   "estSeconds": 45,
+   "skills": [
+    "decimals"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 0.12
+   }
+  },
+  {
+   "id": "q1-08-decimals-c2",
+   "lessonId": "q1-08-decimals",
+   "difficulty": 2,
+   "stem": "Which of the following is equal to $0.045$?",
+   "explanation": "The last digit, 5, is in the thousandths place, so $0.045 = \\frac{45}{1000}$.",
+   "choiceExplanations": {
+    "A": "This is $0.0045$.",
+    "C": "This is $0.45$.",
+    "D": "This is $4.5$.",
+    "E": "This ignores the decimal point."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "decimals"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{45}{10000}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{45}{1000}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{45}{100}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{45}{10}$"
+     },
+     {
+      "id": "E",
+      "text": "$45$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q1-08-decimals-c3",
+   "lessonId": "q1-08-decimals",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$0.2\\times0.3 = \\frac{6}{100} = 0.06$ and $0.5\\times0.1 = \\frac{5}{100} = 0.05$. A is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "decimals"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$0.2\\times0.3$",
+    "quantityB": "$0.5\\times0.1$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

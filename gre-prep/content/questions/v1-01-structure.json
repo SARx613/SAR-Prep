@@ -1,0 +1,1760 @@
+[
+ {
+  "id": "v1-01-structure-01",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Cause clue:** *Because* ... *moved slowly and stopped often to rest*. Hills that tire hikers are *steep*.",
+  "choiceExplanations": {
+   "A": "Flat ground would not slow hikers or force rests.",
+   "C": "Beauty does not explain slowness and fatigue.",
+   "E": "Familiar hills would not tire them.",
+   "D": "Crowds could slow people, but they do not explain stopping to *rest*."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the hills were so {{1}}, the hikers moved slowly and stopped often to rest.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "flat"
+      },
+      {
+       "id": "B",
+       "text": "steep"
+      },
+      {
+       "id": "C",
+       "text": "scenic"
+      },
+      {
+       "id": "D",
+       "text": "crowded"
+      },
+      {
+       "id": "E",
+       "text": "familiar"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-02",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** *so ... that visitors lingered for hours, reluctant to leave*. Only something absorbing produces that: *captivating*.",
+  "choiceExplanations": {
+   "C": "Forgettable exhibits do not hold people for hours.",
+   "B": "Repetition makes visitors leave sooner.",
+   "A": "Describes pace, and would not make people linger.",
+   "D": "Hostile exhibits would repel visitors."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The museum's new exhibit was so {{1}} that visitors lingered for hours, reluctant to leave.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "hurried"
+      },
+      {
+       "id": "B",
+       "text": "repetitive"
+      },
+      {
+       "id": "C",
+       "text": "forgettable"
+      },
+      {
+       "id": "D",
+       "text": "hostile"
+      },
+      {
+       "id": "E",
+       "text": "captivating"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-03",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast clue:** *although it covered a great deal* suggests it might have been disorganized, but the colon-style clause says each point followed from the last. That is *coherent*.",
+  "choiceExplanations": {
+   "B": "The opposite: points that follow clearly are not rambling.",
+   "E": "Means sudden; the clause is about logical flow.",
+   "D": "Means argumentative; nothing says the lecture was disputed.",
+   "C": "Means hesitant, unrelated to logical order."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The professor's lecture was {{1}}: although it covered a great deal of material, every point followed clearly from the one before.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "coherent"
+      },
+      {
+       "id": "B",
+       "text": "rambling"
+      },
+      {
+       "id": "C",
+       "text": "tentative"
+      },
+      {
+       "id": "D",
+       "text": "contentious"
+      },
+      {
+       "id": "E",
+       "text": "abrupt"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-04",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Contrast + definition:** *although ... admired for generosity* and the clause after the colon (gave expecting a return) define a self-interested streak: *calculating*.",
+  "choiceExplanations": {
+   "B": "Expecting a return is planned, not impulsive.",
+   "E": "Means charitable, which is the admired image the sentence contradicts.",
+   "C": "Means careless of risk; the sentence describes careful self-interest.",
+   "A": "Someone who always expects something back is not naive."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the founder was widely admired for his generosity, a closer look at his dealings revealed a {{1}} streak: he rarely gave without expecting something in return.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "naive"
+      },
+      {
+       "id": "B",
+       "text": "impulsive"
+      },
+      {
+       "id": "C",
+       "text": "reckless"
+      },
+      {
+       "id": "D",
+       "text": "calculating"
+      },
+      {
+       "id": "E",
+       "text": "philanthropic"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-05",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** if both sides claim victory and neither knows its demands, the wording is open to several readings: *ambiguous*.",
+  "choiceExplanations": {
+   "D": "A complete treaty would spell out what it requires.",
+   "A": "A harsh treaty would not leave both sides claiming victory.",
+   "B": "Final and precise, which would remove the uncertainty.",
+   "E": "Careful drafting would remove, not create, the uncertainty."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The treaty was so {{1}} that each side could claim it as a victory and neither could be sure what it required.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "punitive"
+      },
+      {
+       "id": "B",
+       "text": "definitive"
+      },
+      {
+       "id": "C",
+       "text": "ambiguous"
+      },
+      {
+       "id": "D",
+       "text": "exhaustive"
+      },
+      {
+       "id": "E",
+       "text": "meticulous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-06",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks, three choices each. *aiming only to entertain* defines blank 1: *modest*. *far more* ... *justice and mortality* gives blank 2: *profound*.",
+  "choiceExplanations": {
+   "1C": "*Only to entertain* is the opposite of grand.",
+   "1A": "Ambitions are not described as hidden.",
+   "2C": "Questions of justice and mortality are not frivolous.",
+   "2B": "Means copying others; the clue is about seriousness."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The novelist's early work was {{1}} in its ambitions, aiming only to entertain; her later books are far more {{2}}, tackling questions of justice and mortality.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "secretive"
+      },
+      {
+       "id": "1B",
+       "text": "modest"
+      },
+      {
+       "id": "1C",
+       "text": "grandiose"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "profound"
+      },
+      {
+       "id": "2B",
+       "text": "derivative"
+      },
+      {
+       "id": "2C",
+       "text": "frivolous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-07",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast chain:** *though* ... *even its critics came to admit* shows a reversal from doubt to acceptance. Blank 2 is defined by the colon: no alternative explanation works, so the results are *compelling*. Blank 1: *implausible*.",
+  "choiceExplanations": {
+   "1C": "An obvious theory would not have critics to win over.",
+   "1B": "Means unimportant, which does not set up a reversal.",
+   "2A": "Inconsistent results would leave alternatives open.",
+   "2C": "Ambiguous results would allow other explanations."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the theory initially seemed {{1}}, even its critics came to admit that the experimental results were {{2}}: no alternative explanation could account for them.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "implausible"
+      },
+      {
+       "id": "1B",
+       "text": "trivial"
+      },
+      {
+       "id": "1C",
+       "text": "obvious"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "inconsistent"
+      },
+      {
+       "id": "2B",
+       "text": "compelling"
+      },
+      {
+       "id": "2C",
+       "text": "ambiguous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-08",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *contrary to* a rubber-stamp view. A rubber stamp approves everything, so the records show it *altered* proposals. A view held by many is *prevailing*.",
+  "choiceExplanations": {
+   "1B": "A hardly known view would not need rebutting.",
+   "1C": "Describes reluctant acceptance, not a view.",
+   "2B": "This is what a rubber stamp does; *contrary to* needs the opposite.",
+   "2A": "Praising proposals is not evidence against rubber-stamping."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Contrary to the {{1}} view that the committee was merely a rubber stamp, its records show that it frequently {{2}} the proposals put before it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "prevailing"
+      },
+      {
+       "id": "1B",
+       "text": "obscure"
+      },
+      {
+       "id": "1C",
+       "text": "grudging"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "praised"
+      },
+      {
+       "id": "2B",
+       "text": "approved"
+      },
+      {
+       "id": "2C",
+       "text": "altered"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-09",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *rather than immediate, accruing slowly* defines blank 2: *incremental*. *Overlook* tells you the dismissal was too complete: an *unmitigated* (total) failure.",
+  "choiceExplanations": {
+   "1C": "Means provisional; the historians dismiss the treaty outright, so the failure they claim is total, not provisional.",
+   "1A": "Means late; the issue is the verdict, not timing.",
+   "2B": "Means short-lived, the opposite of accruing over decades.",
+   "2A": "Means showy; the clue is slowness."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Historians who dismiss the treaty as an {{1}} failure overlook that its real achievements were {{2}} rather than immediate, accruing slowly over decades.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "belated"
+      },
+      {
+       "id": "1B",
+       "text": "unmitigated"
+      },
+      {
+       "id": "1C",
+       "text": "tentative"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "flamboyant"
+      },
+      {
+       "id": "2B",
+       "text": "ephemeral"
+      },
+      {
+       "id": "2C",
+       "text": "incremental"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-10",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Three blanks, work from the easiest.** *no specific plan* gives blank 2: *vague*. *unity and patience* gives blank 1: *conciliatory*. *Expected concrete proposals* but got none: *disappointed*.",
+  "choiceExplanations": {
+   "1C": "Calling for unity is not aggressive.",
+   "1B": "Nothing in the clue is joking.",
+   "2A": "The opposite of *no specific plan*.",
+   "2C": "Content that offers nothing is not provocative.",
+   "3C": "Reporters who got nothing would not be delighted.",
+   "3A": "No threat is described."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The mayor's speech was {{1}} in tone, calling for unity and patience, but its content was {{2}}, offering no specific plan; reporters who had expected concrete proposals left {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "conciliatory"
+      },
+      {
+       "id": "1B",
+       "text": "jocular"
+      },
+      {
+       "id": "1C",
+       "text": "belligerent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "detailed"
+      },
+      {
+       "id": "2B",
+       "text": "vague"
+      },
+      {
+       "id": "2C",
+       "text": "provocative"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "alarmed"
+      },
+      {
+       "id": "3B",
+       "text": "disappointed"
+      },
+      {
+       "id": "3C",
+       "text": "elated"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-11",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Contrast:** *quoted as authority* defines blank 1: *authoritative*. *Although* then flips: found *erroneous* (wrong) in details. Blank 3 contrasts with *merely careless*: deliberate dishonesty, *disingenuous*.",
+  "choiceExplanations": {
+   "1B": "Being quoted as authority is not about being boring.",
+   "1C": "Whimsical works would not be treated as authority.",
+   "2C": "Confirmed details would not trouble scholars.",
+   "2B": "Complete is not a flaw; *although* needs a negative.",
+   "3A": "Means shy; it does not contrast with careless.",
+   "3B": "Means traveling; he was an explorer, but that is not an alternative to carelessness."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the explorer's journals were long regarded as {{1}} and were quoted as authority, recent scholars have found them {{2}} in several details, which has led some to suspect he was {{3}} rather than merely careless.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "authoritative"
+      },
+      {
+       "id": "1B",
+       "text": "tedious"
+      },
+      {
+       "id": "1C",
+       "text": "whimsical"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "erroneous"
+      },
+      {
+       "id": "2B",
+       "text": "exhaustive"
+      },
+      {
+       "id": "2C",
+       "text": "corroborated"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "diffident"
+      },
+      {
+       "id": "3B",
+       "text": "itinerant"
+      },
+      {
+       "id": "3C",
+       "text": "disingenuous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-12",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *Far from being X* means the opposite of X. *Deliberately cultivating* a reputation that keeps her in the public eye: she welcomed attention. So *court* (seek out) and *notoriety*; and she was not *chastened* (subdued).",
+  "choiceExplanations": {
+   "1A": "Being pleased by controversy agrees with courting it, whereas *far from* needs the opposite.",
+   "1B": "Being encouraged by controversy agrees with courting it; *far from* needs the opposite.",
+   "2A": "Opposite of \"deliberately cultivating\".",
+   "2C": "No sorrow is implied.",
+   "3B": "Reserve would not keep her in the public eye.",
+   "3C": "Does not explain her visibility."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Far from being {{1}} by the controversy, the artist seemed to {{2}} it, deliberately cultivating a reputation for {{3}} that kept her work in the public eye.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "gratified"
+      },
+      {
+       "id": "1B",
+       "text": "emboldened"
+      },
+      {
+       "id": "1C",
+       "text": "chastened"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "shun"
+      },
+      {
+       "id": "2B",
+       "text": "court"
+      },
+      {
+       "id": "2C",
+       "text": "mourn"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "notoriety"
+      },
+      {
+       "id": "3B",
+       "text": "reticence"
+      },
+      {
+       "id": "3C",
+       "text": "mediocrity"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B",
+    "3A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-13",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Structure:** one blank, so five choices. *Few plants survive* and *rain falls only once or twice a year* both describe dryness: *arid*.",
+  "choiceExplanations": {
+   "A": "Fertile land supports many plants.",
+   "B": "Humid air means frequent moisture, the opposite of rare rain.",
+   "D": "Describes crowding, not climate.",
+   "E": "Means decorative; it says nothing about rainfall."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The desert is so {{1}} that few plants survive there and rain falls only once or twice a year.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "fertile"
+      },
+      {
+       "id": "B",
+       "text": "humid"
+      },
+      {
+       "id": "C",
+       "text": "arid"
+      },
+      {
+       "id": "D",
+       "text": "populous"
+      },
+      {
+       "id": "E",
+       "text": "ornamental"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-14",
+  "lessonId": "v1-01-structure",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Result clue:** *Because* ... *customers lined up before dawn*. Only excellent bread explains a queue: *delectable*.",
+  "choiceExplanations": {
+   "A": "Nobody queues at dawn for stale bread.",
+   "B": "Spoiled bread would drive customers away.",
+   "C": "Bland bread would not draw a queue.",
+   "D": "Soggy bread would not draw a queue."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the bakery's bread was always {{1}}, customers lined up before dawn to buy it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stale"
+      },
+      {
+       "id": "B",
+       "text": "moldy"
+      },
+      {
+       "id": "C",
+       "text": "tasteless"
+      },
+      {
+       "id": "D",
+       "text": "soggy"
+      },
+      {
+       "id": "E",
+       "text": "delectable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-15",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Colon clue:** the words after the colon (*changed the time twice*, *contradicted her own description*) restate the blank: *contradictory*.",
+  "choiceExplanations": {
+   "A": "The opposite: a changing story is not consistent.",
+   "B": "Length is not at issue.",
+   "C": "Nothing in the clue concerns feeling.",
+   "E": "Contradicting herself shows the reverse of thoroughness."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The witness's account was {{1}}: she changed the time of the accident twice and contradicted her own description of the driver.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "consistent"
+      },
+      {
+       "id": "B",
+       "text": "concise"
+      },
+      {
+       "id": "C",
+       "text": "emotional"
+      },
+      {
+       "id": "D",
+       "text": "contradictory"
+      },
+      {
+       "id": "E",
+       "text": "thorough"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-16",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks, three choices each, and both must be right. *Covering only a fraction of the costs* means the money fell short: *inadequate*. A shortfall forces the lab to cut back: *curtail*.",
+  "choiceExplanations": {
+   "1B": "Lavish funding would cover the costs.",
+   "1C": "Says the grant can be extended, not that it fell short.",
+   "2A": "More ambitious plans need more money, not less.",
+   "2B": "Announcing plans is not something a shortfall forces."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the grant was {{1}}, covering only a fraction of the costs, the lab had to {{2}} its plans for a larger study.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inadequate"
+      },
+      {
+       "id": "1B",
+       "text": "lavish"
+      },
+      {
+       "id": "1C",
+       "text": "renewable"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "broaden"
+      },
+      {
+       "id": "2B",
+       "text": "publicize"
+      },
+      {
+       "id": "2C",
+       "text": "curtail"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-17",
+  "lessonId": "v1-01-structure",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the columns are independent, so settle each from its own clue. *Building slowly from a whisper* is *restrained*; *every instrument at full volume* is *thunderous*, and *but* confirms the contrast.",
+  "choiceExplanations": {
+   "1A": "Loud, which contradicts a whisper.",
+   "1C": "Complexity is not mentioned; a slow build from a whisper does not make a movement elaborate.",
+   "2A": "Full volume is not hesitant.",
+   "2B": "The opposite of full volume."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The orchestra's opening movement was {{1}}, building slowly from a whisper, but the finale was {{2}}, with every instrument at full volume.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "raucous"
+      },
+      {
+       "id": "1B",
+       "text": "restrained"
+      },
+      {
+       "id": "1C",
+       "text": "elaborate"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "faltering"
+      },
+      {
+       "id": "2B",
+       "text": "hushed"
+      },
+      {
+       "id": "2C",
+       "text": "thunderous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-18",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Structure:** *though* contrasts the habits with the *enormous bequest*. A coat worn for thirty years and reused envelopes show thrift: *frugal*.",
+  "choiceExplanations": {
+   "B": "Wasteful people do not reuse envelopes.",
+   "C": "Laziness is not shown by the habits listed.",
+   "D": "Nothing mentions religion.",
+   "E": "Wearing one old coat for decades is not vanity."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The museum's founder was {{1}} in her habits, wearing the same coat for thirty years and reusing every envelope, though her bequest to the city was enormous.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "frugal"
+      },
+      {
+       "id": "B",
+       "text": "profligate"
+      },
+      {
+       "id": "C",
+       "text": "indolent"
+      },
+      {
+       "id": "D",
+       "text": "devout"
+      },
+      {
+       "id": "E",
+       "text": "vain"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-19",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** two blanks; start with the clearer one. *Shifting from support to opposition within a week* names blank 1: *vacillation*. A leader who flips this way makes allies *wary*.",
+  "choiceExplanations": {
+   "1A": "The opposite of shifting.",
+   "1B": "Honesty is not what the shifting describes.",
+   "2B": "Allies burned by a reversal would not be eager.",
+   "2C": "They would not be confident after a reversal."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The mayor's {{1}} on the issue, shifting from support to opposition within a week, made her allies {{2}} about trusting her again.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "steadfastness"
+      },
+      {
+       "id": "1B",
+       "text": "candor"
+      },
+      {
+       "id": "1C",
+       "text": "vacillation"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "wary"
+      },
+      {
+       "id": "2B",
+       "text": "eager"
+      },
+      {
+       "id": "2C",
+       "text": "confident"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-20",
+  "lessonId": "v1-01-structure",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** three blanks, three choices each, all must be right. *A handful of stalls* is *humble*; *so fast ... crowds* means popularity *swelled*; holding crowds means the grounds must *expand*.",
+  "choiceExplanations": {
+   "1A": "A handful of stalls is not lavish.",
+   "1C": "Nothing signals a bad reputation, and *but* needs a contrast with small.",
+   "2A": "Shrinking popularity would not require more room.",
+   "2C": "Stalled popularity would not produce crowds.",
+   "3A": "Crowds do not make organizers abandon the grounds.",
+   "3B": "The opposite of what crowds demand."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The festival's early years were {{1}}, with a handful of stalls and a few dozen visitors, but its popularity {{2}} so fast that by the tenth year the organizers had to {{3}} the grounds to hold the crowds.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lavish"
+      },
+      {
+       "id": "1B",
+       "text": "humble"
+      },
+      {
+       "id": "1C",
+       "text": "notorious"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "dwindled"
+      },
+      {
+       "id": "2B",
+       "text": "swelled"
+      },
+      {
+       "id": "2C",
+       "text": "stalled"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "abandon"
+      },
+      {
+       "id": "3B",
+       "text": "shrink"
+      },
+      {
+       "id": "3C",
+       "text": "expand"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-21",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** *not for X ... but for Y*. Carefully documented facts rule out *inaccuracy* as the fault; a tone that *keeps the reader at a distance* is *clinical*.",
+  "choiceExplanations": {
+   "1B": "Documented facts say nothing about length, so the *since* clause would not support it.",
+   "1C": "The documented facts do not explain why candor would not be criticized.",
+   "2A": "The opposite of keeping the reader at a distance.",
+   "2B": "Warmly expressive, not distant."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Critics have faulted the memoir not for {{1}}, since its facts are carefully documented, but for a {{2}} tone that keeps the reader at a distance.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inaccuracy"
+      },
+      {
+       "id": "1B",
+       "text": "brevity"
+      },
+      {
+       "id": "1C",
+       "text": "candor"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "intimate"
+      },
+      {
+       "id": "2B",
+       "text": "effusive"
+      },
+      {
+       "id": "2C",
+       "text": "clinical"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-22",
+  "lessonId": "v1-01-structure",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** *Although* contrasts a poor first season with a good second. *Only a few fragments* is *unproductive*; a rich find means patience was *rewarded*; tools, jewelry and inscriptions make the cache *bountiful*.",
+  "choiceExplanations": {
+   "1A": "A few fragments is not a triumph.",
+   "1C": "Contradicts *only a few fragments*.",
+   "2B": "A rich find would relieve, not strain, patience.",
+   "2C": "Nothing supports patience being ridiculed.",
+   "3A": "A trifling cache would not reward patience.",
+   "3B": "A fake cache would not reward patience."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the first excavation was {{1}}, yielding only a few fragments of pottery, the team's patience was {{2}} when a second season uncovered a {{3}} cache of tools, jewelry and inscriptions.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "triumphant"
+      },
+      {
+       "id": "1B",
+       "text": "unproductive"
+      },
+      {
+       "id": "1C",
+       "text": "sensational"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "rewarded"
+      },
+      {
+       "id": "2B",
+       "text": "strained"
+      },
+      {
+       "id": "2C",
+       "text": "mocked"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "trifling"
+      },
+      {
+       "id": "3B",
+       "text": "counterfeit"
+      },
+      {
+       "id": "3C",
+       "text": "bountiful"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-23",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the colon explains blank 1: *explaining nothing* and admitting *no fault* is *evasion*. With nothing explained, readers can only guess: *conjecture*.",
+  "choiceExplanations": {
+   "1B": "A letter that explains nothing is not candid.",
+   "1C": "It admitted no fault, so it shows no remorse.",
+   "2A": "With nothing explained, readers have nothing to verify.",
+   "2C": "Nothing in the sentence calls for applause."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The minister's resignation letter was a masterpiece of {{1}}: by thanking everyone and explaining nothing, it admitted no fault while leaving readers to {{2}} what had actually happened.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "evasion"
+      },
+      {
+       "id": "1B",
+       "text": "candor"
+      },
+      {
+       "id": "1C",
+       "text": "contrition"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "verify"
+      },
+      {
+       "id": "2B",
+       "text": "conjecture"
+      },
+      {
+       "id": "2C",
+       "text": "applaud"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-01-structure-24",
+  "lessonId": "v1-01-structure",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Structure:** the phrase *a pale copy* restates blank 1: *imitative*. Finding the film bolder after expecting a copy brings *relief*, and *more ... in its treatment of grief* needs a praising word: *nuanced*.",
+  "choiceExplanations": {
+   "1A": "Contradicts *a pale copy*.",
+   "1C": "Puzzling, not copied.",
+   "2B": "Finding it bolder would not dishearten them.",
+   "2C": "Reviewers would not be indifferent to a pleasant surprise.",
+   "3B": "A glib treatment of grief would not be a reason for relief.",
+   "3C": "A perfunctory treatment would not please reviewers."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Reviewers who had expected the sequel to be {{1}}, a pale copy of its predecessor, were {{2}} to find it bolder in structure and more {{3}} in its treatment of grief, though a few remained unpersuaded.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "innovative"
+      },
+      {
+       "id": "1B",
+       "text": "imitative"
+      },
+      {
+       "id": "1C",
+       "text": "cryptic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "relieved"
+      },
+      {
+       "id": "2B",
+       "text": "disheartened"
+      },
+      {
+       "id": "2C",
+       "text": "indifferent"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "nuanced"
+      },
+      {
+       "id": "3B",
+       "text": "glib"
+      },
+      {
+       "id": "3C",
+       "text": "perfunctory"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3A"
+   ]
+  }
+ }
+]

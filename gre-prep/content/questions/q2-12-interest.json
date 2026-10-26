@@ -1,0 +1,824 @@
+[
+ {
+  "id": "q2-12-interest-01",
+  "lessonId": "q2-12-interest",
+  "difficulty": 1,
+  "stem": "\\$2,500 is invested at 6 percent simple annual interest for 2 years. What is the value of the investment at the end of the 2 years, in dollars?",
+  "explanation": "$V=2500\\left(1+\\frac{6\\cdot2}{100}\\right)=2500(1.12)=2800$.",
+  "estSeconds": 60,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 2800
+  }
+ },
+ {
+  "id": "q2-12-interest-02",
+  "lessonId": "q2-12-interest",
+  "difficulty": 1,
+  "stem": "How many dollars of simple interest does \\$1,200 earn in one year at an annual rate of 5 percent?",
+  "explanation": "Interest $=1200\\cdot0.05=60$ dollars.",
+  "choiceExplanations": {
+   "A": "This moves the decimal point one place too far.",
+   "C": "This multiplies by 0.5, not 0.05.",
+   "D": "This is the value of the investment, which includes the principal.",
+   "E": "This multiplies by 5 instead of 5 percent."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "60"
+    },
+    {
+     "id": "C",
+     "text": "600"
+    },
+    {
+     "id": "D",
+     "text": "1,260"
+    },
+    {
+     "id": "E",
+     "text": "6,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-03",
+  "lessonId": "q2-12-interest",
+  "difficulty": 2,
+  "stem": "A deposit of \\$6,000 earns simple interest at 3.6 percent per year. How many dollars of interest does it earn in 8 months?",
+  "explanation": "One year earns $6000\\cdot0.036=216$ dollars. Eight months is $\\frac{8}{12}=\\frac23$ of a year, so the interest is $216\\cdot\\frac23=144$.",
+  "estSeconds": 75,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 144
+  }
+ },
+ {
+  "id": "q2-12-interest-04",
+  "lessonId": "q2-12-interest",
+  "difficulty": 2,
+  "stem": "\\$3,000 is invested at 10 percent annual interest, compounded annually. What is the value of the investment after 2 years?",
+  "explanation": "$V=3000(1.10)^2=3000(1.21)=3630$.",
+  "choiceExplanations": {
+   "A": "This is the value after only 1 year.",
+   "B": "This is simple interest for 2 years.",
+   "D": "This is simple interest for 3 years.",
+   "E": "This is the compounded value after 3 years."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$3,300"
+    },
+    {
+     "id": "B",
+     "text": "\\$3,600"
+    },
+    {
+     "id": "C",
+     "text": "\\$3,630"
+    },
+    {
+     "id": "D",
+     "text": "\\$3,900"
+    },
+    {
+     "id": "E",
+     "text": "\\$3,993"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-05",
+  "lessonId": "q2-12-interest",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Simple: $1000\\cdot0.05\\cdot3=150$. Compounded: $1000(1.05)^3-1000=1157.625-1000=157.625$. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The interest earned on \\$1,000 at 5 percent simple annual interest for 3 years",
+   "quantityB": "The interest earned on \\$1,000 at 5 percent annual interest, compounded annually, for 3 years"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-12-interest-06",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "\\$6,000 is invested at 8 percent annual interest, compounded semiannually. To the nearest dollar, how much interest does it earn in 1 year?",
+  "explanation": "Rate per period $\\frac{8}{200}=0.04$ and 2 periods: $V=6000(1.04)^2=6000(1.0816)=6489.60$. Interest $=489.60\\approx490$.",
+  "estSeconds": 90,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 490
+  }
+ },
+ {
+  "id": "q2-12-interest-07",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "What amount, invested at 5 percent simple annual interest for 4 years, will have a value of \\$3,000 at the end of the 4 years?",
+  "explanation": "$P\\left(1+\\frac{5\\cdot4}{100}\\right)=3000$, so $1.2P=3000$ and $P=2500$.",
+  "choiceExplanations": {
+   "A": "This takes 20 percent *off* 3,000, but the 20 percent is of $P$, not of the value.",
+   "C": "This subtracts 5 percent of 3,000 only once.",
+   "D": "This multiplies 3,000 by 1.2 instead of dividing.",
+   "E": "This divides 3,000 by 0.2 and forgets the principal itself."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$2,400"
+    },
+    {
+     "id": "B",
+     "text": "\\$2,500"
+    },
+    {
+     "id": "C",
+     "text": "\\$2,850"
+    },
+    {
+     "id": "D",
+     "text": "\\$3,600"
+    },
+    {
+     "id": "E",
+     "text": "\\$15,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-08",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "Each of the following investments is \\$1,000 held for 2 years. Which would be worth more than \\$1,200 at the end of the 2 years? Indicate all such investments.",
+  "explanation": "B: $1000(1.1)^2=1210>1200$. D: $1000(1.096)^2=1201.216>1200$.",
+  "choiceExplanations": {
+   "A": "$1000(1.20)=1200$, which equals 1,200 but is not more.",
+   "C": "$1000(1.095)^2=1199.025<1200$.",
+   "E": "$1000(1.192)=1192<1200$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "10 percent simple annual interest"
+    },
+    {
+     "id": "B",
+     "text": "10 percent annual interest, compounded annually"
+    },
+    {
+     "id": "C",
+     "text": "9.5 percent annual interest, compounded annually"
+    },
+    {
+     "id": "D",
+     "text": "9.6 percent annual interest, compounded annually"
+    },
+    {
+     "id": "E",
+     "text": "9.6 percent simple annual interest"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-09",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "With simple annual interest at 8 percent, in how many years will an investment triple in value?",
+  "explanation": "Tripling means $1+0.08t=3$, so $0.08t=2$ and $t=25$.",
+  "choiceExplanations": {
+   "A": "12.5 years is how long it takes to *double*: $0.08t=1$.",
+   "C": "37.5 years is the time to quadruple, or to earn interest equal to three times the principal.",
+   "D": "At 50 years the value is $1+4=5$ times the principal.",
+   "E": "At 100 years the value is $1+8=9$ times the principal."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12.5"
+    },
+    {
+     "id": "B",
+     "text": "25"
+    },
+    {
+     "id": "C",
+     "text": "37.5"
+    },
+    {
+     "id": "D",
+     "text": "50"
+    },
+    {
+     "id": "E",
+     "text": "100"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-10",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "An investment earns 5 percent annual interest, compounded annually. After 2 years its value is \\$2,646. What was the initial investment, in dollars?",
+  "explanation": "$P(1.05)^2=2646$, so $P=\\frac{2646}{1.1025}=2400$.",
+  "estSeconds": 90,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 2400
+  }
+ },
+ {
+  "id": "q2-12-interest-11",
+  "lessonId": "q2-12-interest",
+  "difficulty": 5,
+  "stem": "A total of \\$10,000 is split between two accounts. One pays 4 percent simple annual interest and the other pays 6 percent simple annual interest. After one year the total interest is \\$540. How many dollars were invested at 6 percent?",
+  "explanation": "Let $x$ be the amount at 4 percent: $0.04x+0.06(10000-x)=540$, so $600-0.02x=540$ and $x=3000$. The 6 percent account holds $10000-3000=7000$.",
+  "estSeconds": 120,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 7000
+  }
+ },
+ {
+  "id": "q2-12-interest-12",
+  "lessonId": "q2-12-interest",
+  "difficulty": 5,
+  "stem": "Two investments each start with the same principal $P$ for 2 years at 6 percent annual interest. Investment X is compounded annually and investment Y earns simple interest. After 2 years, X is worth \\$36 more than Y. What is $P$?",
+  "explanation": "X is worth $P(1.06)^2=1.1236P$ and Y is worth $P(1.12)=1.12P$. The difference is $0.0036P=36$, so $P=10{,}000$.",
+  "choiceExplanations": {
+   "A": "$0.0036\\cdot1000=3.6$, not 36.",
+   "B": "This uses a difference of 0.01 instead of 0.0036.",
+   "C": "$0.0036\\cdot5000=18$, not 36.",
+   "E": "$0.0036\\cdot36000=129.6$, not 36."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$1,000"
+    },
+    {
+     "id": "B",
+     "text": "\\$3,600"
+    },
+    {
+     "id": "C",
+     "text": "\\$5,000"
+    },
+    {
+     "id": "D",
+     "text": "\\$10,000"
+    },
+    {
+     "id": "E",
+     "text": "\\$36,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-13",
+  "lessonId": "q2-12-interest",
+  "difficulty": 1,
+  "stem": "\\$500 is invested at 8 percent simple annual interest for 3 years. What is the value of the investment at the end of the 3 years?",
+  "explanation": "$V=500\\left(1+\\frac{8\\cdot 3}{100}\\right)=500(1.24)=620$. Equivalently, the interest is $500\\cdot 0.08\\cdot 3=120$, and $500+120=620$.",
+  "choiceExplanations": {
+   "A": "This is one year of interest, $500\\cdot 0.08$.",
+   "B": "This is the interest earned over 3 years; the question asks for the value, which includes the \\$500.",
+   "C": "This is the value after only 1 year.",
+   "E": "This is close to the value with annual compounding ($\\approx \\$629.86$), but the interest here is simple."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$40"
+    },
+    {
+     "id": "B",
+     "text": "\\$120"
+    },
+    {
+     "id": "C",
+     "text": "\\$540"
+    },
+    {
+     "id": "D",
+     "text": "\\$620"
+    },
+    {
+     "id": "E",
+     "text": "\\$630"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-14",
+  "lessonId": "q2-12-interest",
+  "difficulty": 2,
+  "stem": "A deposit of \\$2,500 earns \\$150 in simple interest over 2 years. What is the annual interest rate, in percent?",
+  "explanation": "Simple interest $=P\\cdot\\frac{rt}{100}$, so $150=2500\\cdot\\frac{2r}{100}=50r$ and $r=3$. Check: 3 percent of \\$2,500 is \\$75 per year, so \\$150 in 2 years.",
+  "estSeconds": 75,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "percent"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q2-12-interest-15",
+  "lessonId": "q2-12-interest",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Eighteen months is $1.5$ years. Quantity A: $2400\\cdot 0.05\\cdot 1.5=180$. Quantity B: $3000\\cdot 0.04\\cdot 1.5=180$. The quantities are equal. (Each account earns \\$120 per year.)",
+  "estSeconds": 90,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The simple interest earned on \\$2,400 at 5 percent per year for 18 months",
+   "quantityB": "The simple interest earned on \\$3,000 at 4 percent per year for 18 months"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-12-interest-16",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "Each of the following investments starts with \\$1,000 and is held for 3 years. Which would be worth more than \\$1,300 at the end of the 3 years? Indicate all such investments.",
+  "explanation": "Simple interest at 10.5 percent: $1000(1+0.315)=1315$. Compounded at 9.2 percent: $1000(1.092)^3\\approx 1302.17$. Both exceed \\$1,300.",
+  "choiceExplanations": {
+   "A": "Simple 10 percent gives exactly $1000(1.30)=1300$, which is not more than \\$1,300.",
+   "B": "$1000(1.09)^3\\approx 1295.03$, just short of \\$1,300.",
+   "E": "$1000(1.08)^3\\approx 1259.71$, well short."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "10 percent simple annual interest"
+    },
+    {
+     "id": "B",
+     "text": "9 percent annual interest, compounded annually"
+    },
+    {
+     "id": "C",
+     "text": "9.2 percent annual interest, compounded annually"
+    },
+    {
+     "id": "D",
+     "text": "10.5 percent simple annual interest"
+    },
+    {
+     "id": "E",
+     "text": "8 percent annual interest, compounded annually"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-17",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "\\$8,000 is invested at 12 percent annual interest, compounded quarterly. To the nearest dollar, how much interest does it earn in 1 year?",
+  "explanation": "Quarterly compounding: rate per quarter $\\frac{12}{4}=3$ percent, and $4$ quarters. $V=8000(1.03)^4\\approx 9004.07$. Interest $=V-P\\approx 1004.07$, which is \\$1,004 to the nearest dollar.",
+  "estSeconds": 100,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 1004
+  }
+ },
+ {
+  "id": "q2-12-interest-18",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "\\$8,000 is invested at 5 percent annual interest, compounded annually. How many more dollars of interest does it earn during the second year than during the first year?",
+  "explanation": "First-year interest: $0.05\\cdot 8000=400$, so the value after one year is \\$8,400. Second-year interest: $0.05\\cdot 8400=420$. The difference is $420-400=20$ dollars, which is 5 percent of the first year's interest.",
+  "estSeconds": 100,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q2-12-interest-19",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "A total of \\$12,000 is divided between two accounts. One pays 4 percent simple annual interest and the other pays 6 percent simple annual interest. After one year the two accounts have earned exactly the same amount of interest. How many dollars were put in the 6 percent account?",
+  "explanation": "Let $x$ dollars be at 4 percent, so $12000-x$ is at 6 percent. Equal interest: $0.04x=0.06(12000-x)$, so $0.10x=720$ and $x=7200$. The 6 percent account holds $12000-7200=4800$. Check: $0.04\\cdot 7200=288=0.06\\cdot 4800$.",
+  "choiceExplanations": {
+   "A": "This is the interest each account earns, not an amount invested.",
+   "B": "This is 4 percent of the whole \\$12,000, which would be the interest if everything were at 4 percent.",
+   "D": "An even split earns more in the 6 percent account, so the interests would not be equal.",
+   "E": "This is the amount in the 4 percent account. The lower rate needs the larger deposit to earn the same interest, but the question asks for the 6 percent account."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-bw",
+    "solver-aw2",
+    "solver-bw2"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$288"
+    },
+    {
+     "id": "B",
+     "text": "\\$480"
+    },
+    {
+     "id": "C",
+     "text": "\\$4,800"
+    },
+    {
+     "id": "D",
+     "text": "\\$6,000"
+    },
+    {
+     "id": "E",
+     "text": "\\$7,200"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-12-interest-20",
+  "lessonId": "q2-12-interest",
+  "difficulty": 5,
+  "stem": "An amount is invested at a fixed annual interest rate, compounded annually. Its value is \\$3,125 after 2 years and \\$3,906.25 after 3 years. What was the amount originally invested, in dollars?",
+  "explanation": "Each year multiplies the value by $1+\\frac{r}{100}$. So $\\frac{3906.25}{3125}=1.25$ is that factor (25 percent per year). Going back 2 years from \\$3,125: $P=\\frac{3125}{1.25^2}=\\frac{3125}{1.5625}=2000$. Check: $2000\\cdot 1.25^2=3125$.",
+  "estSeconds": 130,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 2000
+  }
+ }
+]

@@ -1,0 +1,836 @@
+[
+ {
+  "id": "q1-01-factors-multiples-01",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 1,
+  "stem": "What is the greatest common divisor of 18 and 24?",
+  "explanation": "$18 = 2\\cdot 3^2$ and $24 = 2^3\\cdot 3$. Lowest shared powers: $2\\cdot 3 = 6$.",
+  "choiceExplanations": {
+   "A": "2 divides both but is not the greatest.",
+   "B": "3 divides both but 6 is larger.",
+   "D": "9 does not divide 24.",
+   "E": "12 does not divide 18."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "6"
+    },
+    {
+     "id": "D",
+     "text": "9"
+    },
+    {
+     "id": "E",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-02",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 1,
+  "stem": "What is the least common multiple of 4 and 6?",
+  "explanation": "Multiples of 6: 6, 12, … 12 is the first one divisible by 4.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-03",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 2,
+  "stem": "How many positive factors does 36 have?",
+  "explanation": "List them in pairs: 1·36, 2·18, 3·12, 4·9, and 6·6. The pair 6·6 contributes one factor, so there are $4\\cdot 2 + 1 = 9$.",
+  "choiceExplanations": {
+   "A": "This misses the larger factors 9, 12, 18, 36.",
+   "B": "The square root 6 pairs with itself and is counted once; 8 miscounts the pairs.",
+   "D": "Counting 6 twice gives 10.",
+   "E": "36 has no more factors than the nine listed."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "9"
+    },
+    {
+     "id": "D",
+     "text": "10"
+    },
+    {
+     "id": "E",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-04",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "LCM$(8,12) = 24$. GCD$(8,12) = 4$, and $6\\cdot 4 = 24$. Equal.",
+  "estSeconds": 75,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The least common multiple of 8 and 12",
+   "quantityB": "6 times the greatest common divisor of 8 and 12"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-05",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 2,
+  "stem": "Which of the following are multiples of 12? Indicate all such numbers.",
+  "explanation": "A number is a multiple of 12 when dividing by 12 leaves no remainder: $36 = 3\\cdot12$, $96 = 8\\cdot12$, $144 = 12\\cdot12$. 54 and 112 leave remainders 6 and 4.",
+  "choiceExplanations": {
+   "B": "$54 = 4\\cdot 12 + 6$.",
+   "D": "$112 = 9\\cdot 12 + 4$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "36"
+    },
+    {
+     "id": "B",
+     "text": "54"
+    },
+    {
+     "id": "C",
+     "text": "96"
+    },
+    {
+     "id": "D",
+     "text": "112"
+    },
+    {
+     "id": "E",
+     "text": "144"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-06",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "One bus leaves a depot every 15 minutes and another every 20 minutes. They leave together at 8:00. After how many minutes do they next leave together?",
+  "explanation": "The gap between joint departures is the least common multiple of 15 and 20. $15 = 3\\cdot5$ and $20 = 2^2\\cdot5$, so LCM $= 2^2\\cdot3\\cdot5 = 60$.",
+  "estSeconds": 75,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-07",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "The greatest common divisor of two positive integers is 6 and their least common multiple is 72. If one of the integers is 18, what is the other?",
+  "explanation": "For two positive integers, GCD × LCM = product. So $18\\cdot n = 6\\cdot 72 = 432$, giving $n = 24$. Check: GCD$(18,24)=6$ and LCM$=72$.",
+  "choiceExplanations": {
+   "A": "GCD(18, 12) = 6 but LCM(18, 12) = 36, not 72.",
+   "B": "Both integers would be 18, giving GCD 18.",
+   "D": "GCD(18, 36) = 18, not 6.",
+   "E": "GCD(18, 48) = 6 but LCM = 144."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "18"
+    },
+    {
+     "id": "C",
+     "text": "24"
+    },
+    {
+     "id": "D",
+     "text": "36"
+    },
+    {
+     "id": "E",
+     "text": "48"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-08",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Any common divisor of $x$ and $x+1$ divides their difference, which is 1. So the GCD is always 1, whatever $x$ is. Equal.",
+  "estSeconds": 75,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The greatest common divisor of $x$ and $x+1$",
+   "quantityB": "1",
+   "common": "$x$ is a positive integer."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-09",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "What is the greatest integer that divides both 84 and 126?",
+  "explanation": "$84 = 2^2\\cdot3\\cdot7$ and $126 = 2\\cdot3^2\\cdot7$. Lowest shared powers: $2\\cdot3\\cdot7 = 42$.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 42
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-10",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 4,
+  "stem": "What is the least positive integer $n$ such that $12n$ is a multiple of 90?",
+  "explanation": "$12n$ must contain $90 = 2\\cdot3^2\\cdot5$. $12 = 2^2\\cdot3$ already supplies $2$ and one $3$; $n$ must supply the missing $3\\cdot5 = 15$.",
+  "choiceExplanations": {
+   "A": "$12\\cdot5=60$, not a multiple of 90.",
+   "B": "$12\\cdot6=72$, not a multiple of 90.",
+   "C": "$12\\cdot9=108$, not a multiple of 90.",
+   "E": "$12\\cdot30=360$ works, but 15 is smaller."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "9"
+    },
+    {
+     "id": "D",
+     "text": "15"
+    },
+    {
+     "id": "E",
+     "text": "30"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-11",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 4,
+  "stem": "Positive integers $a$ and $b$ have a greatest common divisor of 1. Which of the following must be true? Indicate all such statements.",
+  "explanation": "GCD × LCM $= ab$, so GCD $=1$ forces LCM $= ab$. The others fail: $a=4,b=9$ are not prime; $a=1,b=3$ gives an even sum.",
+  "choiceExplanations": {
+   "A": "4 and 9 have GCD 1 but neither is prime.",
+   "C": "1 and 3 have GCD 1 and the sum 4 is even."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a$ and $b$ are both prime."
+    },
+    {
+     "id": "B",
+     "text": "The least common multiple of $a$ and $b$ is $ab$."
+    },
+    {
+     "id": "C",
+     "text": "$a+b$ is odd."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-12",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 5,
+  "stem": "The least common multiple of 12 and a positive integer $n$ is 60. What is the sum of all possible values of $n$?",
+  "explanation": "$60 = 2^2\\cdot3\\cdot5$. $n$ must supply the factor 5 and cannot exceed $2^2$ or $3^1$: $n = 5\\cdot2^a\\cdot3^b$ with $a\\in\\{0,1,2\\}$, $b\\in\\{0,1\\}$. That gives 5, 10, 20, 15, 30, 60, which sum to 140.",
+  "estSeconds": 150,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 140
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-13",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 1,
+  "stem": "Which of the following is a common multiple of 8 and 12?",
+  "explanation": "A common multiple of 8 and 12 must be divisible by both. $\\text{LCM}(8,12) = 24$, and the choice 48 equals $2\\cdot 24$; it is $6\\cdot 8$ and $4\\cdot 12$. Each other choice fails to be divisible by at least one of 8 and 12.",
+  "choiceExplanations": {
+   "A": "16 is a multiple of 8 but $16 = 1\\cdot 12 + 4$, so it is not a multiple of 12.",
+   "B": "28 is a multiple of neither 8 nor 12.",
+   "C": "36 is a multiple of 12 but $36 = 4\\cdot 8 + 4$, so it is not a multiple of 8.",
+   "D": "40 is a multiple of 8 but $40 = 3\\cdot 12 + 4$, so it is not a multiple of 12."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "16"
+    },
+    {
+     "id": "B",
+     "text": "28"
+    },
+    {
+     "id": "C",
+     "text": "36"
+    },
+    {
+     "id": "D",
+     "text": "40"
+    },
+    {
+     "id": "E",
+     "text": "48"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-14",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Pair the factors. 40: $1\\cdot 40,\\ 2\\cdot 20,\\ 4\\cdot 10,\\ 5\\cdot 8$, so 8 factors. 45: $1\\cdot 45,\\ 3\\cdot 15,\\ 5\\cdot 9$, so 6 factors. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of positive factors of 40",
+   "quantityB": "The number of positive factors of 45"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-15",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 2,
+  "stem": "A florist has 72 roses and 108 tulips. She arranges all the flowers into identical bouquets, each with the same number of roses and the same number of tulips, and no flower is left over. What is the greatest number of bouquets she can make?",
+  "explanation": "The number of bouquets must divide both 72 and 108, so the greatest possible number is the GCD. $72 = 2^3\\cdot 3^2$ and $108 = 2^2\\cdot 3^3$; lowest shared powers give $2^2\\cdot 3^2 = 36$. Each bouquet then holds 2 roses and 3 tulips.",
+  "estSeconds": 90,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-16",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "The positive integer $n$ is a multiple of 15. Which of the following must be a factor of $n$? Indicate all such numbers.",
+  "explanation": "Write $n = 15k$ for an integer $k$. Then $n = 3\\cdot(5k)$ and $n = 5\\cdot(3k)$, so 3, 5 and 15 always divide $n$. The multiple $n=15$ shows that 6 and 10 do not have to divide it.",
+  "choiceExplanations": {
+   "C": "$n = 15$ is a multiple of 15 and is not divisible by 6, so 6 need not divide $n$.",
+   "D": "$n = 15$ is not divisible by 10, so 10 need not divide $n$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "3"
+    },
+    {
+     "id": "B",
+     "text": "5"
+    },
+    {
+     "id": "C",
+     "text": "6"
+    },
+    {
+     "id": "D",
+     "text": "10"
+    },
+    {
+     "id": "E",
+     "text": "15"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-17",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 3,
+  "stem": "What is the least positive integer that is divisible by each of 4, 6, 9 and 10?",
+  "explanation": "Take each prime to its highest power: $4 = 2^2$, $6 = 2\\cdot3$, $9 = 3^2$, $10 = 2\\cdot5$. So the LCM is $2^2\\cdot3^2\\cdot5 = 180$.",
+  "choiceExplanations": {
+   "A": "90 is not divisible by 4: it has only one factor 2, while 4 needs $2^2$.",
+   "B": "120 is not divisible by 9: it has only one factor 3, while 9 needs $3^2$.",
+   "D": "360 is divisible by all four numbers, but it is $2\\cdot 180$, so it is not the least.",
+   "E": "2,160 is the product $4\\cdot6\\cdot9\\cdot10$, a common multiple but far from the least."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "90"
+    },
+    {
+     "id": "B",
+     "text": "120"
+    },
+    {
+     "id": "C",
+     "text": "180"
+    },
+    {
+     "id": "D",
+     "text": "360"
+    },
+    {
+     "id": "E",
+     "text": "2,160"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-18",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 4,
+  "stem": "How many positive integers less than 100 are multiples of both 6 and 8?",
+  "explanation": "A number divisible by both 6 and 8 is a multiple of $\\text{LCM}(6,8) = 24$. The multiples of 24 below 100 are 24, 48, 72 and 96, which makes 4.",
+  "choiceExplanations": {
+   "A": "The multiples of 24 below 100 are 24, 48, 72 and 96: that is four, so you dropped one.",
+   "C": "$100\\div 24$ is about 4.2, so there are four multiples below 100, not five; 120 is already above 100.",
+   "D": "12 is the count of multiples of 8 below 100; they must be multiples of 6 as well.",
+   "E": "16 is the count of multiples of 6 below 100; they must be multiples of 8 as well."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "3"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "12"
+    },
+    {
+     "id": "E",
+     "text": "16"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-19",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 4,
+  "stem": "The positive integer $n$ varies. What is the greatest possible value of the greatest common divisor of $n+5$ and $n+35$?",
+  "explanation": "A common divisor of $n+5$ and $n+35$ divides their difference, $(n+35)-(n+5) = 30$. So the GCD is at most 30. It reaches 30 when $n = 25$, since $30$ and $60$ have GCD 30.",
+  "estSeconds": 100,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 30
+  }
+ },
+ {
+  "id": "q1-01-factors-multiples-20",
+  "lessonId": "q1-01-factors-multiples",
+  "difficulty": 5,
+  "stem": "The positive integers $m$ and $n$ satisfy $m<n<100$, their greatest common divisor is 12 and their least common multiple is 144. What is $m+n$?",
+  "explanation": "GCD $\\times$ LCM $=$ product, so $mn = 12\\cdot144 = 1{,}728$. Both numbers are multiples of 12: $m=12a$, $n=12b$ with $ab = 12$ and no common factor between $a$ and $b$ (otherwise the GCD would exceed 12). The pairs are $(1,12)$ and $(3,4)$. The pair $(1,12)$ gives $n=144$, which is not below 100. So $m=36$, $n=48$ and $m+n=84$. The pair 24 and 72 has the same product but GCD 24.",
+  "estSeconds": 150,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 84
+  }
+ }
+]

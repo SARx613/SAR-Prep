@@ -6,24 +6,40 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "screens": "node scripts/qa/screens.mjs",
+    "content:check": "tsx scripts/content-check.ts",
+    "flows": "node scripts/qa/flows.mjs",
+    "content:blind": "tsx scripts/content-blind.ts",
+    "content:solved": "tsx scripts/content-solve-apply.ts",
+    "content:approve": "tsx scripts/content-approve.ts",
+    "content:originality": "tsx scripts/content-originality.ts",
+    "a11y": "node scripts/qa/a11y.mjs"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.3",
     "@neondatabase/serverless": "^1.1.0",
-    "@supabase/ssr": "^0.6.1",
-    "@supabase/supabase-js": "^2.49.4",
     "drizzle-orm": "^0.45.2",
     "framer-motion": "^12.38.0",
+    "katex": "^0.19.1",
     "lucide-react": "^1.8.0",
     "next": "16.2.3",
     "next-auth": "^5.0.0-beta.32",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/katex": "^0.16.8",
+    "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "dotenv": "^17.4.2",
@@ -31,6 +47,10 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vite": "^7.3.7",
+    "vitest": "^5.0.5",
+    "zod": "^4.6.7"
   }
 }

@@ -1,0 +1,141 @@
+{
+ "id": "q1-01-factors-multiples",
+ "status": "published",
+ "why": "GCD, LCM and \"how many…divisible by…\" questions appear directly in Arithmetic and sit underneath many word problems.",
+ "rule": "If $a = bk$ for an integer $k$, then $b$ is a **factor** (divisor) of $a$ and $a$ is a **multiple** of $b$.\n\n- **GCD**: the largest positive integer that divides both numbers.\n- **LCM**: the smallest positive integer that both numbers divide.\n\nPrime-factorise both numbers. For the GCD take each shared prime to its *lowest* power; for the LCM take every prime to its *highest* power.\n\nFor two positive integers, $\\text{GCD}\\times\\text{LCM} = $ the product of the numbers.\n\nA number that divides two integers also divides their sum and their difference.",
+ "examples": [
+  {
+   "prompt": "Find the GCD and LCM of 36 and 84.",
+   "steps": [
+    "$36 = 2^2\\cdot3^2$ and $84 = 2^2\\cdot3\\cdot7$.",
+    "GCD: lowest powers of shared primes: $2^2\\cdot3 = 12$.",
+    "LCM: highest powers of all primes: $2^2\\cdot3^2\\cdot7 = 252$.",
+    "Check: $12\\cdot252 = 3024 = 36\\cdot84$."
+   ],
+   "answer": "GCD = 12, LCM = 252"
+  },
+  {
+   "prompt": "Two lights blink together at time 0, then every 12 s and every 18 s. When do they next blink together?",
+   "steps": [
+    "\"Together again\" means a common multiple; the first one is the LCM.",
+    "$12 = 2^2\\cdot3$, $18 = 2\\cdot3^2$, so LCM $= 2^2\\cdot3^2 = 36$."
+   ],
+   "answer": "36 seconds"
+  }
+ ],
+ "trap": "The product $a\\times b$ is a common multiple, not the *least* one. For 36 and 84 it gives 3024, while the LCM is 252. Multiply only when the numbers share no prime factor.",
+ "checks": [
+  {
+   "id": "q1-01-factors-multiples-c1",
+   "lessonId": "q1-01-factors-multiples",
+   "difficulty": 1,
+   "stem": "What is the greatest common divisor of 48 and 180?",
+   "explanation": "$48 = 2^4\\cdot 3$ and $180 = 2^2\\cdot 3^2\\cdot 5$. Take each shared prime to its **lowest** power: $2^2\\cdot 3 = 12$.",
+   "estSeconds": 45,
+   "skills": [
+    "factors-multiples"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 12
+   }
+  },
+  {
+   "id": "q1-01-factors-multiples-c2",
+   "lessonId": "q1-01-factors-multiples",
+   "difficulty": 2,
+   "stem": "What is the least common multiple of 6, 8 and 15?",
+   "explanation": "$6 = 2\\cdot 3$, $8 = 2^3$, $15 = 3\\cdot 5$. Take each prime to its **highest** power: $2^3\\cdot 3\\cdot 5 = 120$.",
+   "choiceExplanations": {
+    "A": "60 is not a multiple of 8.",
+    "B": "90 is not a multiple of 8.",
+    "D": "180 is not a multiple of 8.",
+    "E": "240 is a common multiple, but not the least: 120 already works."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "factors-multiples"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "60"
+     },
+     {
+      "id": "B",
+      "text": "90"
+     },
+     {
+      "id": "C",
+      "text": "120"
+     },
+     {
+      "id": "D",
+      "text": "180"
+     },
+     {
+      "id": "E",
+      "text": "240"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-01-factors-multiples-c3",
+   "lessonId": "q1-01-factors-multiples",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$24 = 2^3\\cdot 3$, $36 = 2^2\\cdot 3^2$, so GCD $= 2^2\\cdot 3 = 12$. LCM of 3 and 4 $= 12$. The quantities are equal.",
+   "estSeconds": 75,
+   "skills": [
+    "factors-multiples"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The greatest common divisor of 24 and 36",
+    "quantityB": "The least common multiple of 3 and 4"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

@@ -1,0 +1,592 @@
+[
+ {
+  "id": "q0-01-formats-01",
+  "lessonId": "q0-01-formats",
+  "difficulty": 1,
+  "stem": "A Quantitative Reasoning question asks you to select one answer choice. How many choices does it list?",
+  "explanation": "Select-one Quant questions list five choices and exactly one is correct.",
+  "choiceExplanations": {
+   "A": "Two choices would not match any Quant format.",
+   "B": "Three is not a Quant choice count.",
+   "C": "Four is the number of fixed choices in a Quantitative Comparison question, not in select-one.",
+   "E": "Six choices belong to Verbal Sentence Equivalence, not Quant."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-02",
+  "lessonId": "q0-01-formats",
+  "difficulty": 1,
+  "stem": "A Numeric Entry question asks for a fraction. How do you enter it?",
+  "explanation": "A fraction answer uses two boxes: numerator and denominator.",
+  "choiceExplanations": {
+   "B": "Fractions use two boxes, one for each part, not a decimal in one box.",
+   "C": "A fraction is split across two boxes; there is no slash entry.",
+   "D": "Numeric Entry has no lettered choices.",
+   "E": "The second box is for the denominator."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Numerator in one box and denominator in the other"
+    },
+    {
+     "id": "B",
+     "text": "The decimal value in the first box, second box blank"
+    },
+    {
+     "id": "C",
+     "text": "The whole fraction typed in one box with a slash"
+    },
+    {
+     "id": "D",
+     "text": "The letter of the correct fraction"
+    },
+    {
+     "id": "E",
+     "text": "The numerator in both boxes"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-03",
+  "lessonId": "q0-01-formats",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac34\\cdot20=15$ and $0.8\\cdot20=16$. Quantity B is greater; take care not to reverse choices A and B.",
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{3}{4}$ of 20",
+   "quantityB": "80 percent of 20"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q0-01-formats-04",
+  "lessonId": "q0-01-formats",
+  "difficulty": 2,
+  "stem": "A question says: \"Which of the following integers are divisible by 6? Indicate all such integers.\" Five choices follow: 12, 16, 18, 21, 30. What is the best approach?",
+  "explanation": "\"Indicate all such\" means check every choice and select all and only those that qualify (12, 18 and 30 here).",
+  "choiceExplanations": {
+   "A": "Select-one-or-more items may have several correct choices.",
+   "C": "The stem says \"all such\", so the count is not fixed at two.",
+   "D": "There is no positional pattern; each choice must be checked.",
+   "E": "Unique answers belong to select-one items; here several choices qualify."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Stop at the first choice that works, since only one can be correct"
+    },
+    {
+     "id": "B",
+     "text": "Test every choice and select each one that qualifies"
+    },
+    {
+     "id": "C",
+     "text": "Select exactly two choices, since the stem mentions a multiple"
+    },
+    {
+     "id": "D",
+     "text": "Select the middle choice by pattern"
+    },
+    {
+     "id": "E",
+     "text": "Select none, because a unique answer is required"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-05",
+  "lessonId": "q0-01-formats",
+  "difficulty": 2,
+  "stem": "Which of the following statements about Quantitative Reasoning question formats are true? Indicate all such statements.",
+  "explanation": "Select-one-or-more items may have a single correct choice; QC choices never change; DI questions may be multiple-choice or Numeric Entry.",
+  "choiceExplanations": {
+   "C": "Fractions use two boxes, numerator and denominator.",
+   "D": "All questions in a DI set share the same data display."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A select-one-or-more question can have exactly one correct choice."
+    },
+    {
+     "id": "B",
+     "text": "Every Quantitative Comparison question has the same four answer choices."
+    },
+    {
+     "id": "C",
+     "text": "Every Numeric Entry answer is typed into a single box."
+    },
+    {
+     "id": "D",
+     "text": "Each question in a Data Interpretation set comes with its own, different data display."
+    },
+    {
+     "id": "E",
+     "text": "A Data Interpretation question can be a Numeric Entry question."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-06",
+  "lessonId": "q0-01-formats",
+  "difficulty": 2,
+  "stem": "A theater has 18 rows of 24 seats. At one show, 37 seats are empty. How many seats are occupied? (Numeric Entry: type an integer in the single box.)",
+  "explanation": "Seats: $18\\cdot24=432$. Occupied: $432-37=395$. An integer goes in one box.",
+  "estSeconds": 45,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 395
+  }
+ },
+ {
+  "id": "q0-01-formats-07",
+  "lessonId": "q0-01-formats",
+  "difficulty": 2,
+  "stem": "Using the table, what was the combined number of loans, in thousands, from the North and South branches in March?",
+  "explanation": "Read the March row: $14+10=24$ thousand. The table is in thousands, so enter 24 as the table is scaled.",
+  "estSeconds": 60,
+  "skills": [
+   "quant-formats"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Library loans, in thousands",
+   "data": {
+    "columns": [
+     "Month",
+     "North",
+     "Central",
+     "South"
+    ],
+    "rows": [
+     [
+      "January",
+      12,
+      18,
+      9
+     ],
+     [
+      "February",
+      15,
+      17,
+      11
+     ],
+     [
+      "March",
+      14,
+      21,
+      10
+     ],
+     [
+      "April",
+      16,
+      19,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 24
+  }
+ },
+ {
+  "id": "q0-01-formats-08",
+  "lessonId": "q0-01-formats",
+  "difficulty": 3,
+  "stem": "Using the table, in which month was the difference between Central and North loans greatest?",
+  "explanation": "Central minus North: January 6, February 2, March 7, April 3. The greatest is March.",
+  "choiceExplanations": {
+   "A": "Difference 6, less than March's 7.",
+   "B": "Difference only 2.",
+   "D": "Difference 3.",
+   "E": "The differences are 6, 2, 7 and 3."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Library loans, in thousands",
+   "data": {
+    "columns": [
+     "Month",
+     "North",
+     "Central",
+     "South"
+    ],
+    "rows": [
+     [
+      "January",
+      12,
+      18,
+      9
+     ],
+     [
+      "February",
+      15,
+      17,
+      11
+     ],
+     [
+      "March",
+      14,
+      21,
+      10
+     ],
+     [
+      "April",
+      16,
+      19,
+      13
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "January"
+    },
+    {
+     "id": "B",
+     "text": "February"
+    },
+    {
+     "id": "C",
+     "text": "March"
+    },
+    {
+     "id": "D",
+     "text": "April"
+    },
+    {
+     "id": "E",
+     "text": "The difference was the same in all four months"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-09",
+  "lessonId": "q0-01-formats",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Try $x=1$: both are 1 (equal). Try $x=2$: 4 is greater than 2. Try $x=\\tfrac12$: $\\tfrac14<\\tfrac12$. Different outcomes mean the relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x^2$",
+   "quantityB": "$x$",
+   "common": "$x$ is a positive number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q0-01-formats-10",
+  "lessonId": "q0-01-formats",
+  "difficulty": 3,
+  "stem": "The sum of three consecutive even integers is 78. What is the greatest of the three?",
+  "explanation": "The middle one is $78/3=26$, so the integers are 24, 26, 28. Greatest: 28.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 28
+  }
+ },
+ {
+  "id": "q0-01-formats-11",
+  "lessonId": "q0-01-formats",
+  "difficulty": 4,
+  "stem": "If $x$ is an integer, which of the following values of $x$ satisfy $10 < x^2 < 50$? Indicate all such values.",
+  "explanation": "Squares: 64, 49, 9, 16, 49. Only $-7$, 4 and 7 give a square strictly between 10 and 50. Negative values count too.",
+  "choiceExplanations": {
+   "A": "$(-8)^2=64$, which is not below 50.",
+   "C": "$(-3)^2=9$, which is not above 10."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-8$"
+    },
+    {
+     "id": "B",
+     "text": "$-7$"
+    },
+    {
+     "id": "C",
+     "text": "$-3$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q0-01-formats-12",
+  "lessonId": "q0-01-formats",
+  "difficulty": 4,
+  "stem": "A bag holds 8 red marbles, 10 blue marbles and 12 green marbles. What fraction of the marbles in the bag are not blue? Enter your answer as a fraction in lowest terms.",
+  "explanation": "The bag has $8+10+12=30$ marbles and $30-10=20$ are not blue. $\\frac{20}{30}$ reduces to $\\frac{2}{3}$: enter 2 in the numerator box and 3 in the denominator box.",
+  "estSeconds": 75,
+  "skills": [
+   "quant-formats"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.6666666666666666,
+   "fraction": {
+    "numerator": 2,
+    "denominator": 3
+   }
+  }
+ }
+]

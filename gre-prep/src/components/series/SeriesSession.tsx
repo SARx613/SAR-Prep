@@ -109,15 +109,15 @@ export function SeriesSession({ seriesId, playMode, basePath, accent, icon, mode
       <main className="page">
         <div className="page-container" style={{ textAlign: 'center', paddingTop: '4rem' }}>
           <h1 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff', marginBottom: '0.75rem' }}>
-            {seriesId === 'review' ? 'Rien à revoir' : 'Série introuvable'}
+            {seriesId === 'review' ? 'Nothing to review' : 'Series not found'}
           </h1>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
             {seriesId === 'review'
-              ? 'Aucun mot raté pour le moment. Fais une série, on remplira cette liste.'
-              : 'Cette série n’existe pas (ou plus).'}
+              ? 'No missed words yet. Play a series and this list will fill up.'
+              : 'This series does not exist (any more).'}
           </p>
           <Link href={basePath} className="back-link">
-            <ArrowLeft size={14} /> Toutes les séries
+            <ArrowLeft size={14} /> All series
           </Link>
         </div>
       </main>
@@ -138,7 +138,7 @@ export function SeriesSession({ seriesId, playMode, basePath, accent, icon, mode
         <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.75rem' }} className="animate-fade-up page-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', minWidth: 0 }}>
             <Link href={basePath} className="back-link">
-              <ArrowLeft size={14} /> Séries
+              <ArrowLeft size={14} /> Series
             </Link>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', minWidth: 0 }}>
               {icon}
@@ -233,7 +233,7 @@ function Recap({
         </span>
         <div style={{ minWidth: 0 }}>
           <div style={{ fontSize: 'clamp(1.3rem, 5vw, 1.8rem)', fontWeight: 900, color: '#fff', lineHeight: 1.2 }}>
-            Série terminée
+            Series complete
           </div>
           <div style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
             {result.correct} / {result.total} du premier coup · {pct}%
@@ -253,7 +253,7 @@ function Recap({
       {result.missed.length > 0 && (
         <div style={{ marginBottom: '1.75rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--rose)', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '0.85rem' }}>
-            <Target size={14} /> À retravailler ({result.missed.length})
+            <Target size={14} /> To rework ({result.missed.length})
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {result.missed.map(w => (
@@ -276,11 +276,11 @@ function Recap({
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
         <button onClick={onReplay} className="recap-button" style={{ background: '#fff', color: '#000' }}>
-          <RotateCcw size={17} /> Rejouer la série
+          <RotateCcw size={17} /> Replay the series
         </button>
         {result.missed.length > 0 && (
           <button onClick={onReplayMissed} className="recap-button" style={{ background: 'rgba(244,63,94,0.12)', color: '#fda4af', border: '1px solid rgba(244,63,94,0.3)' }}>
-            <Target size={17} /> Revoir les {result.missed.length} ratés
+            <Target size={17} /> Review the {result.missed.length} missed
           </button>
         )}
         {nextHref && (
@@ -289,7 +289,7 @@ function Recap({
           </Link>
         )}
         <Link href={basePath} className="recap-button" style={{ background: 'transparent', color: 'var(--text-secondary)', border: '1px solid var(--border)', textDecoration: 'none' }}>
-          <List size={17} /> Toutes les séries
+          <List size={17} /> All series
         </Link>
       </div>
     </motion.div>

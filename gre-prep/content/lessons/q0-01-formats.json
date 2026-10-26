@@ -1,0 +1,139 @@
+{
+ "id": "q0-01-formats",
+ "status": "published",
+ "why": "Every Quant section mixes four question formats, alone or inside Data Interpretation sets, and each one asks you to respond in a different way.",
+ "rule": "Quantitative Reasoning uses four formats.\n\n- **Quantitative Comparison (QC)**: compare Quantity A and Quantity B. The four choices never change: A is greater, B is greater, equal, cannot be determined.\n- **Select one answer choice**: five choices, one correct.\n- **Select one or more**: select all and only the correct choices. There may be just one, and the stem may or may not say how many.\n- **Numeric Entry (NE)**: no choices. Type an integer or decimal in one box, or a fraction in two boxes (numerator, denominator).\n\nA **Data Interpretation (DI) set** is a group of questions, in any of the last three formats, that share one table or graph.",
+ "examples": [
+  {
+   "prompt": "A question says: \"Which of the following numbers are prime? Indicate all such numbers.\" The choices are 2, 9, 11, 15, 17. What do you select?",
+   "steps": [
+    "\"Indicate all such\" signals select one or more, so check every choice.",
+    "2, 11 and 17 have no divisors other than 1 and themselves; $9=3\\cdot3$ and $15=3\\cdot5$ do not qualify."
+   ],
+   "answer": "2, 11 and 17 (three choices)"
+  },
+  {
+   "prompt": "A jar holds 8 marbles, 3 of them red. A Numeric Entry question gives two boxes and asks for the probability of drawing red as a fraction. What goes in the boxes?",
+   "steps": [
+    "The probability is $\\frac{3}{8}$.",
+    "A fraction is entered across two boxes."
+   ],
+   "answer": "3 in the numerator box and 8 in the denominator box"
+  }
+ ],
+ "trap": "In a select-one-or-more question, stopping at the first correct choice loses the item: there may be several correct choices, and the stem may not tell you how many. Check all of them.",
+ "checks": [
+  {
+   "id": "q0-01-formats-c1",
+   "lessonId": "q0-01-formats",
+   "difficulty": 1,
+   "stem": "Which Quantitative Reasoning question type has no listed answer choices?",
+   "explanation": "In Numeric Entry you type the answer in one box (integer or decimal) or two boxes (fraction).",
+   "choiceExplanations": {
+    "A": "QC always lists four fixed statements.",
+    "B": "It lists five choices.",
+    "C": "It lists choices to pick from.",
+    "E": "Numeric Entry has boxes, not choices."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "quant-formats"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Quantitative Comparison"
+     },
+     {
+      "id": "B",
+      "text": "Select one answer choice"
+     },
+     {
+      "id": "C",
+      "text": "Select one or more answer choices"
+     },
+     {
+      "id": "D",
+      "text": "Numeric Entry"
+     },
+     {
+      "id": "E",
+      "text": "None; every Quant question lists choices"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q0-01-formats-c2",
+   "lessonId": "q0-01-formats",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$0.15\\cdot40=6$ and $30/6=5$. Quantity A is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "quant-formats"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "15 percent of 40",
+    "quantityB": "$\\frac16$ of 30"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "q0-01-formats-c3",
+   "lessonId": "q0-01-formats",
+   "difficulty": 1,
+   "stem": "How many integers are there from 4 to 9, inclusive?",
+   "explanation": "$9-4+1=6$.",
+   "estSeconds": 45,
+   "skills": [
+    "quant-formats"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
+   }
+  }
+ ]
+}

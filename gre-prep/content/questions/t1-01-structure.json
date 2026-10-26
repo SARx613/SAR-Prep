@@ -1,0 +1,510 @@
+[
+ {
+  "id": "t1-01-structure-01",
+  "lessonId": "t1-01-structure",
+  "difficulty": 1,
+  "stem": "How long is the Analytical Writing section, which consists of one Issue task?",
+  "explanation": "The single Analyze an Issue task is allotted 30 minutes.",
+  "choiceExplanations": {
+   "A": "That is the first Verbal section.",
+   "B": "That is the first Quantitative section.",
+   "C": "That is the second Verbal section.",
+   "D": "That is the second Quantitative section."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "18 minutes"
+    },
+    {
+     "id": "B",
+     "text": "21 minutes"
+    },
+    {
+     "id": "C",
+     "text": "23 minutes"
+    },
+    {
+     "id": "D",
+     "text": "26 minutes"
+    },
+    {
+     "id": "E",
+     "text": "30 minutes"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-02",
+  "lessonId": "t1-01-structure",
+  "difficulty": 1,
+  "stem": "Which section is always first on the GRE General Test?",
+  "explanation": "Analytical Writing is always first; Verbal and Quantitative sections follow in any order.",
+  "choiceExplanations": {
+   "A": "Verbal sections may appear in any order after Analytical Writing.",
+   "B": "Quant sections may also come in any order after Analytical Writing.",
+   "D": "You do not choose the order.",
+   "E": "A research section, if present, comes at the end."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The first Verbal Reasoning section"
+    },
+    {
+     "id": "B",
+     "text": "The first Quantitative Reasoning section"
+    },
+    {
+     "id": "C",
+     "text": "Analytical Writing"
+    },
+    {
+     "id": "D",
+     "text": "Whichever measure you choose"
+    },
+    {
+     "id": "E",
+     "text": "An unscored research section"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-03",
+  "lessonId": "t1-01-structure",
+  "difficulty": 2,
+  "stem": "How many minutes in total are allotted across the five sections of the current GRE General Test?",
+  "explanation": "$30+18+23+21+26=118$ minutes, about 1 hour 58 minutes.",
+  "estSeconds": 60,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 118
+  }
+ },
+ {
+  "id": "t1-01-structure-04",
+  "lessonId": "t1-01-structure",
+  "difficulty": 2,
+  "stem": "A friend describes the order of the test sections. Which statement is accurate?",
+  "explanation": "Only the position of Analytical Writing is fixed.",
+  "choiceExplanations": {
+   "A": "The two measures may appear in any order.",
+   "B": "The two measures may appear in any order.",
+   "D": "Only Writing's place is fixed.",
+   "E": "It is always the first section."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Verbal always comes before Quant."
+    },
+    {
+     "id": "B",
+     "text": "Quant always comes before Verbal."
+    },
+    {
+     "id": "C",
+     "text": "Analytical Writing is first, and the Verbal and Quant sections can follow in any order."
+    },
+    {
+     "id": "D",
+     "text": "The order is fixed: Writing, Verbal, Quant, Verbal, Quant."
+    },
+    {
+     "id": "E",
+     "text": "Analytical Writing can appear at any point."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-05",
+  "lessonId": "t1-01-structure",
+  "difficulty": 2,
+  "stem": "How many Verbal and Quantitative questions are there in total across the four sections (two Verbal, two Quantitative)?",
+  "explanation": "Each measure has $12+15=27$ questions, so $27+27=54$.",
+  "estSeconds": 60,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 54
+  }
+ },
+ {
+  "id": "t1-01-structure-06",
+  "lessonId": "t1-01-structure",
+  "difficulty": 3,
+  "stem": "The second Quantitative section has 15 questions in 26 minutes. If you spend the same time on each question, how many seconds is that per question?",
+  "explanation": "$26\\times60=1560$ seconds, and $1560\\div15=104$.",
+  "estSeconds": 75,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 104
+  }
+ },
+ {
+  "id": "t1-01-structure-07",
+  "lessonId": "t1-01-structure",
+  "difficulty": 3,
+  "stem": "In the first Quantitative section (12 questions, 21 minutes), a test-taker has used 9 minutes and answered 4 questions. How many minutes per remaining question are left?",
+  "explanation": "$21-9=12$ minutes remain for $12-4=8$ questions: $12\\div8=1.5$ minutes each, below the original 1.75, so the pace must speed up.",
+  "choiceExplanations": {
+   "A": "$12$ minutes remain for 8 questions, not for 12.",
+   "B": "Not the ratio of remaining time to remaining questions.",
+   "D": "That was the original average, $21\\div12$.",
+   "E": "That is the pace so far, $9\\div4$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "1.25"
+    },
+    {
+     "id": "C",
+     "text": "1.5"
+    },
+    {
+     "id": "D",
+     "text": "1.75"
+    },
+    {
+     "id": "E",
+     "text": "2.25"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-08",
+  "lessonId": "t1-01-structure",
+  "difficulty": 3,
+  "stem": "Which of the following statements about the current GRE General Test are true? Indicate all such statements.",
+  "explanation": "Quant sections run 21 and 26 minutes; Verbal 12 and 15 questions; the total is 118 minutes; the Argument task and 20-question sections belong to the older format.",
+  "choiceExplanations": {
+   "B": "The current test has only one Analyze an Issue task.",
+   "D": "That was the format before September 22, 2023."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Verbal Reasoning has two sections, one with 12 questions and one with 15."
+    },
+    {
+     "id": "B",
+     "text": "Analytical Writing contains both an Issue task and an Argument task."
+    },
+    {
+     "id": "C",
+     "text": "The whole test takes roughly 1 hour 58 minutes."
+    },
+    {
+     "id": "D",
+     "text": "Each Quantitative section has 20 questions."
+    },
+    {
+     "id": "E",
+     "text": "The second Quantitative section is allotted more time than the first."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-09",
+  "lessonId": "t1-01-structure",
+  "difficulty": 3,
+  "stem": "What fraction of the total allotted test time is the Analytical Writing section? Enter your answer as a fraction in lowest terms.",
+  "explanation": "$\\frac{30}{118}=\\frac{15}{59}$.",
+  "estSeconds": 75,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.2542372881355932,
+   "fraction": {
+    "numerator": 15,
+    "denominator": 59
+   }
+  }
+ },
+ {
+  "id": "t1-01-structure-10",
+  "lessonId": "t1-01-structure",
+  "difficulty": 3,
+  "stem": "A friend who tested before September 22, 2023 remembers two 35-minute Quantitative sections of 20 questions each. What do the two Quantitative sections look like now?",
+  "explanation": "The current Quantitative sections are 12 questions in 21 minutes and 15 questions in 26 minutes.",
+  "choiceExplanations": {
+   "A": "That is the earlier format.",
+   "C": "There are two separate sections.",
+   "D": "The question counts and times are paired the other way round.",
+   "E": "Those are the Verbal sections."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Two sections of 20 questions, 35 minutes each"
+    },
+    {
+     "id": "B",
+     "text": "Sections of 12 questions in 21 minutes and 15 questions in 26 minutes"
+    },
+    {
+     "id": "C",
+     "text": "One section of 27 questions in 47 minutes"
+    },
+    {
+     "id": "D",
+     "text": "Sections of 15 questions in 21 minutes and 12 questions in 26 minutes"
+    },
+    {
+     "id": "E",
+     "text": "Sections of 12 questions in 18 minutes and 15 questions in 23 minutes"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "t1-01-structure-11",
+  "lessonId": "t1-01-structure",
+  "difficulty": 4,
+  "stem": "On average, how many more seconds per question does the second Quantitative section (15 questions, 26 minutes) allow than the second Verbal section (15 questions, 23 minutes)?",
+  "explanation": "Quant: $26\\cdot60/15=104$ s. Verbal: $23\\cdot60/15=92$ s. Difference: $104-92=12$.",
+  "estSeconds": 90,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "t1-01-structure-12",
+  "lessonId": "t1-01-structure",
+  "difficulty": 4,
+  "stem": "You plan to spend the last 3 minutes of the second Quantitative section (26 minutes, 15 questions) reviewing, and to split the rest equally among the 15 questions. How many seconds per question do you get?",
+  "explanation": "$26-3=23$ minutes $=1380$ seconds, and $1380\\div15=92$.",
+  "estSeconds": 90,
+  "skills": [
+   "test-structure"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 92
+  }
+ }
+]

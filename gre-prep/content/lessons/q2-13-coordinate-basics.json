@@ -1,0 +1,138 @@
+{
+ "id": "q2-13-coordinate-basics",
+ "status": "published",
+ "why": "Coordinate questions on the GRE ask you to locate points, reflect them and find lengths of segments, all of which reduce to a right triangle.",
+ "rule": "A point $(x,y)$ is $x$ units right of the $y$-axis (left if negative) and $y$ units above the $x$-axis (below if negative). Quadrants: I $(+,+)$, II $(-,+)$, III $(-,-)$, IV $(+,-)$; a point on an axis is in no quadrant.\n\n**Reflections of $(a,b)$:** about the $x$-axis $(a,-b)$; about the $y$-axis $(-a,b)$; about the origin $(-a,-b)$; about the line $y=x$ $(b,a)$.\n\n**Distance:** draw the right triangle whose legs are the horizontal and vertical differences, then $d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$. If the points share an $x$ or a $y$, just subtract.",
+ "examples": [
+  {
+   "prompt": "Find the distance between $(-3,2)$ and $(5,-4)$.",
+   "steps": [
+    "Horizontal leg: $5-(-3)=8$. Vertical leg: $2-(-4)=6$.",
+    "$d=\\sqrt{8^2+6^2}=\\sqrt{100}=10$."
+   ],
+   "answer": "10"
+  },
+  {
+   "prompt": "The point $P(4,-7)$ is reflected about the $y$-axis, and the result is reflected about the line $y=x$. What are the final coordinates?",
+   "steps": [
+    "About the $y$-axis: $(4,-7)\\to(-4,-7)$.",
+    "About $y=x$, swap the coordinates: $(-4,-7)\\to(-7,-4)$."
+   ],
+   "answer": "$(-7,-4)$"
+  }
+ ],
+ "trap": "Differences must be taken carefully with negatives: from $-3$ to $5$ the gap is $8$, not $2$. In reflections, only the coordinate perpendicular to the mirror changes sign, and reflecting about $y=x$ swaps without changing any sign.",
+ "checks": [
+  {
+   "id": "q2-13-coordinate-basics-c1",
+   "lessonId": "q2-13-coordinate-basics",
+   "difficulty": 1,
+   "stem": "What is the distance between the points $(1,2)$ and $(1,9)$?",
+   "explanation": "The $x$-coordinates match, so the segment is vertical and its length is $9-2=7$.",
+   "estSeconds": 75,
+   "skills": [
+    "coordinate-plane"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
+   }
+  },
+  {
+   "id": "q2-13-coordinate-basics-c2",
+   "lessonId": "q2-13-coordinate-basics",
+   "difficulty": 2,
+   "stem": "The point $(-5,3)$ is reflected about the $x$-axis. In which quadrant does the image lie?",
+   "explanation": "Reflecting about the $x$-axis changes the sign of $y$: $(-5,-3)$, with both coordinates negative, which is quadrant III.",
+   "choiceExplanations": {
+    "A": "Quadrant I needs both coordinates positive.",
+    "B": "$(-5,3)$ itself is in quadrant II, but the image has been reflected.",
+    "D": "Quadrant IV needs $x>0$ and $y<0$.",
+    "E": "Neither coordinate of $(-5,-3)$ is 0."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "coordinate-plane"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "I"
+     },
+     {
+      "id": "B",
+      "text": "II"
+     },
+     {
+      "id": "C",
+      "text": "III"
+     },
+     {
+      "id": "D",
+      "text": "IV"
+     },
+     {
+      "id": "E",
+      "text": "None; it lies on an axis"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q2-13-coordinate-basics-c3",
+   "lessonId": "q2-13-coordinate-basics",
+   "difficulty": 2,
+   "stem": "What is the distance between the points $(-2,3)$ and $(3,-9)$?",
+   "explanation": "Legs: $3-(-2)=5$ and $3-(-9)=12$. $d=\\sqrt{25+144}=\\sqrt{169}=13$.",
+   "estSeconds": 75,
+   "skills": [
+    "coordinate-plane"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
+   }
+  }
+ ]
+}

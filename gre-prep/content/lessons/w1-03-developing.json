@@ -1,0 +1,201 @@
+{
+ "id": "w1-03-developing",
+ "status": "published",
+ "why": "ETS's tips for the Issue task say that clear ideas and skilful support matter more than any fixed essay shape, and the scoring guide rewards developed reasons and examples.",
+ "rule": "ETS prescribes no form. Raters look for a position communicated clearly and skilfully.\n\n- **Organise freely.** Any strategy that conveys your position works, including methods from composition courses.\n- **Open as you like:** state your position and announce your points, or lead in with a prediction, questions, a scenario or a definition of key terms.\n- **Support every main point** with logically sound reasons and well-chosen examples, and connect ideas logically. Bare assertions score low.\n- **Examples:** several, or one extended example, can both earn high scores.\n- **Paragraphs:** as many as needed; start a new one for a new cluster of ideas.\n- Clarity and skill count for more than the number of examples or paragraphs.",
+ "examples": [
+  {
+   "prompt": "Develop this thin body paragraph for the claim \"Cities should invest more in public transport than in roads\": \"Public transport is better than cars. It is good for everyone.\"",
+   "steps": [
+    "Both sentences are assertions. Nothing explains why public transport is better.",
+    "Add one reason: a tram or train moves many more people through the same street space than cars do.",
+    "Add one illustration: in a mid-sized city, a new tram line removes thousands of daily car trips, so central streets become calmer and shops can use the space.",
+    "End the paragraph by tying the example back to the position."
+   ],
+   "answer": "Reason, then example, then link to the position, in place of two bare assertions."
+  },
+  {
+   "prompt": "A writer must decide between three brief examples and one extended example for an essay on whether apprenticeships beat university study. Which is allowed?",
+   "steps": [
+    "ETS notes that high scores come both from several examples and from one extended example.",
+    "The choice should follow what you can develop well: one example followed through its consequences can be more persuasive than three sketched in a line each.",
+    "Whichever you choose, each example must be linked to a reason and to the position."
+   ],
+   "answer": "Both are allowed; development and relevance decide the quality."
+  }
+ ],
+ "trap": "Believing a formula is required (five paragraphs, three examples) or that more examples always score better. ETS says clarity and skill outweigh counts, and unsupported claims are what lower the score.",
+ "checks": [
+  {
+   "id": "w1-03-developing-c1",
+   "lessonId": "w1-03-developing",
+   "difficulty": 1,
+   "stem": "Which statement about the structure of an Issue response is consistent with ETS's tips?",
+   "explanation": "ETS leaves the organisation up to you: any structure works as long as it gets your position across effectively.",
+   "choiceExplanations": {
+    "A": "ETS sets no paragraph count; use as many as your argument needs.",
+    "C": "Raters have seen high-scoring responses that open in many different ways.",
+    "D": "ETS sets no required number of examples.",
+    "E": "ETS requires no particular closing form."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "You must write exactly five paragraphs."
+     },
+     {
+      "id": "B",
+      "text": "You may organise and develop the response in any way that communicates your position effectively."
+     },
+     {
+      "id": "C",
+      "text": "The first sentence must restate the claim."
+     },
+     {
+      "id": "D",
+      "text": "Every response must contain exactly three examples."
+     },
+     {
+      "id": "E",
+      "text": "The last paragraph must be a summary of the first."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "w1-03-developing-c2",
+   "lessonId": "w1-03-developing",
+   "difficulty": 2,
+   "stem": "When does ETS suggest you start a new paragraph?",
+   "explanation": "ETS sets no paragraph count: use whatever number your argument needs, and expect to begin a new paragraph each time you move on to a new group of ideas.",
+   "choiceExplanations": {
+    "A": "Paragraphs follow ideas, not a sentence count.",
+    "C": "Most arguments need more than two paragraphs of development.",
+    "D": "One extended example can run across a whole paragraph or more.",
+    "E": "ETS does not suggest avoiding paragraphs."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a4",
+     "solver-b4"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Every time you have written about three sentences"
+     },
+     {
+      "id": "B",
+      "text": "When you move on to a new group of ideas"
+     },
+     {
+      "id": "C",
+      "text": "Only once, after the introduction"
+     },
+     {
+      "id": "D",
+      "text": "Every time you introduce an example"
+     },
+     {
+      "id": "E",
+      "text": "Never; one paragraph is clearer"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "w1-03-developing-c3",
+   "lessonId": "w1-03-developing",
+   "difficulty": 2,
+   "stem": "A writer has one strong example that she can develop for a full paragraph. A friend says she must add at least two more examples to score well. Which reply is consistent with ETS?",
+   "explanation": "ETS says raters know a writer can earn a high score with multiple examples or with a single extended example.",
+   "choiceExplanations": {
+    "A": "ETS sets no required number of examples.",
+    "C": "Several one-line examples would be less developed than the extended one.",
+    "D": "Reasons and examples are how a position is supported.",
+    "E": "ETS's planning questions allow real or hypothetical examples."
+   },
+   "estSeconds": 50,
+   "skills": [
+    "issue-developing"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The friend is right: three examples are required."
+     },
+     {
+      "id": "B",
+      "text": "A high score can be earned with a single, extended example, provided it is developed and linked to the position."
+     },
+     {
+      "id": "C",
+      "text": "She should replace it with several one-line examples."
+     },
+     {
+      "id": "D",
+      "text": "Examples are not needed if the position is strong."
+     },
+     {
+      "id": "E",
+      "text": "Only real events count as examples."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ]
+}

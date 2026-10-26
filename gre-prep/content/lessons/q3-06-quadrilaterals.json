@@ -1,0 +1,141 @@
+{
+ "id": "q3-06-quadrilaterals",
+ "status": "published",
+ "why": "Rectangles, squares, parallelograms and trapezoids appear constantly in area, perimeter and diagonal problems, alone or inside composite figures.",
+ "rule": "The interior angles of any quadrilateral add up to 360°.\n\n- **Rectangle**: four right angles; opposite sides equal and parallel; the two diagonals are equal. **Square**: a rectangle with four equal sides.\n- **Parallelogram**: both pairs of opposite sides parallel; opposite sides equal and opposite angles equal, so neighbouring angles add up to 180°. Every rectangle is one.\n- **Trapezoid**: at least one pair of parallel sides, called the **bases**.\n\n**Areas.** Parallelogram (including rectangle and square): $A=bh$, where $h$ is the *perpendicular* distance between the base and the opposite side. Trapezoid: $A=\\tfrac12(b_1+b_2)\\,h$. If $h$ is not given, drop a perpendicular and use the Pythagorean theorem.",
+ "examples": [
+  {
+   "prompt": "A rectangle has width 5 and diagonal 13. Find its area and perimeter.",
+   "steps": [
+    "The diagonal cuts the rectangle into two right triangles; in each, the sides 5 and $\\ell$ form the right angle and the diagonal lies opposite it: $5^2+\\ell^2=13^2$, so $\\ell^2=144$ and $\\ell=12$.",
+    "Area $=5\\cdot12=60$; perimeter $=2(5+12)=34$."
+   ],
+   "answer": "Area 60, perimeter 34"
+  },
+  {
+   "prompt": "A trapezoid has parallel sides of length 9 and 15, and the distance between them is 4. What is its area?",
+   "steps": [
+    "$A=\\tfrac12(9+15)\\cdot4=\\tfrac12\\cdot24\\cdot4=48$."
+   ],
+   "answer": "48"
+  }
+ ],
+ "trap": "The height is the perpendicular distance, not a slanted side: in a parallelogram or trapezoid, multiplying the two side lengths overstates the area. Also do not treat a quadrilateral as a rectangle just because it looks like one; diagonals are equal only if the figure is a rectangle.",
+ "checks": [
+  {
+   "id": "q3-06-quadrilaterals-c1",
+   "lessonId": "q3-06-quadrilaterals",
+   "difficulty": 1,
+   "stem": "A square has perimeter 28. What is its area?",
+   "explanation": "Each side is $28\\div4=7$, so the area is $7^2=49$.",
+   "estSeconds": 45,
+   "skills": [
+    "quadrilaterals",
+    "area"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 49
+   }
+  },
+  {
+   "id": "q3-06-quadrilaterals-c2",
+   "lessonId": "q3-06-quadrilaterals",
+   "difficulty": 2,
+   "stem": "Three interior angles of a quadrilateral measure $85^\\circ$, $95^\\circ$ and $110^\\circ$. What is the measure of the fourth angle?",
+   "explanation": "The four angles add to $360$: $360-85-95-110=70$.",
+   "choiceExplanations": {
+    "A": "The angles would add to $350$, not $360$.",
+    "C": "The angles would add to $370$.",
+    "D": "That would assume a right angle; the sum would be $380$.",
+    "E": "The angles would add to $400$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "quadrilaterals",
+    "area"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$60^\\circ$"
+     },
+     {
+      "id": "B",
+      "text": "$70^\\circ$"
+     },
+     {
+      "id": "C",
+      "text": "$80^\\circ$"
+     },
+     {
+      "id": "D",
+      "text": "$90^\\circ$"
+     },
+     {
+      "id": "E",
+      "text": "$110^\\circ$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q3-06-quadrilaterals-c3",
+   "lessonId": "q3-06-quadrilaterals",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "A: $10\\cdot4=40$. B: $5\\cdot8=40$. Equal.",
+   "estSeconds": 60,
+   "skills": [
+    "quadrilaterals",
+    "area"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The area of a parallelogram with base 10 and height 4",
+    "quantityB": "The area of a rectangle with sides 5 and 8"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

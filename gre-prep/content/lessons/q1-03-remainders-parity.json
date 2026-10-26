@@ -1,0 +1,139 @@
+{
+ "id": "q1-03-remainders-parity",
+ "status": "published",
+ "why": "Remainder and odd/even reasoning turns up in \"must be true\" questions and in problems about repeating cycles.",
+ "rule": "Dividing $c$ by a positive integer $d$ gives $c = qd + r$ with integers $q, r$ and $0 \\le r < d$. Find the greatest multiple of $d$ not above $c$; $r$ is the gap. For negative $c$ the multiple is below $c$: $-17 = (-4)(5) + 3$. If $c < d$, then $q=0$ and $r=c$. The remainder is 0 exactly when $d$ divides $c$.\n\nMultiples of $d$ never change the remainder. So if $n = qd + r$, then $n + k$ and $kn$ leave the same remainders as $r + k$ and $kr$: compute, then reduce below $d$.\n\n**Parity.** even + even, odd + odd = even; even + odd = odd. even $\\cdot$ any = even; odd $\\cdot$ odd = odd. Subtraction has the same parity as addition.",
+ "examples": [
+  {
+   "prompt": "What is the remainder when $-41$ is divided by 6?",
+   "steps": [
+    "The greatest multiple of 6 that is at most $-41$ is $-42 = (-7)(6)$.",
+    "$-41 - (-42) = 1$."
+   ],
+   "answer": "1"
+  },
+  {
+   "prompt": "A positive integer $n$ leaves remainder 4 when divided by 7. What is the remainder when $n + 10$ is divided by 7?",
+   "steps": [
+    "$n = 7q + 4$, so $n + 10 = 7q + 14 = 7(q+2)$."
+   ],
+   "answer": "0"
+  }
+ ],
+ "trap": "A remainder is never negative: $-17 \\div 5$ is quotient $-4$ and remainder 3, not remainder $-2$. And do not mix parity rules: odd + odd is even, but odd $\\cdot$ odd is odd.",
+ "checks": [
+  {
+   "id": "q1-03-remainders-parity-c1",
+   "lessonId": "q1-03-remainders-parity",
+   "difficulty": 1,
+   "stem": "What is the remainder when 100 is divided by 7?",
+   "explanation": "The greatest multiple of 7 not above 100 is $7\\cdot14 = 98$, and $100 - 98 = 2$.",
+   "estSeconds": 45,
+   "skills": [
+    "remainders-parity"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 2
+   }
+  },
+  {
+   "id": "q1-03-remainders-parity-c2",
+   "lessonId": "q1-03-remainders-parity",
+   "difficulty": 2,
+   "stem": "The integer $x$ is even and the integer $y$ is odd. Which of the following must be odd?",
+   "explanation": "even + odd is odd. Every other choice has an even factor, so it is even.",
+   "choiceExplanations": {
+    "A": "even $\\cdot$ odd is even.",
+    "B": "It has the factor 2, so it is even.",
+    "D": "$x^2$ is even, so the product is even.",
+    "E": "$y+1$ is even, so the product is even."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "remainders-parity"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$xy$"
+     },
+     {
+      "id": "B",
+      "text": "$2(x+y)$"
+     },
+     {
+      "id": "C",
+      "text": "$x+y$"
+     },
+     {
+      "id": "D",
+      "text": "$x^2y$"
+     },
+     {
+      "id": "E",
+      "text": "$x(y+1)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-03-remainders-parity-c3",
+   "lessonId": "q1-03-remainders-parity",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$4n + 3 = 4\\cdot n + 3$ and $0\\le3<4$, so the remainder is 3 for every integer $n$. Equal.",
+   "estSeconds": 60,
+   "skills": [
+    "remainders-parity"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The remainder when $4n+3$ is divided by 4",
+    "quantityB": "3",
+    "common": "$n$ is an integer."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

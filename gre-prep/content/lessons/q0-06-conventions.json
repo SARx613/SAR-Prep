@@ -1,0 +1,133 @@
+{
+ "id": "q0-06-conventions",
+ "status": "published",
+ "why": "Every Quant section opens with the same assumptions about numbers and figures, and several wrong answers come from trusting a picture that was never to scale.",
+ "rule": "- **Numbers** are real; a variable with no restriction can be any real number. A prime exceeds 1; distances are nonnegative; the positive direction points right (or up); $x/0$ is undefined.\n- **Geometry figures are not necessarily to scale.** Do not read lengths, angles or areas by sight. You *may* assume straight lines are straight, points on a line keep the order drawn, and objects are in their relative positions. Marks and labels are given facts.\n- **To scale** (read by sight): coordinate systems, number lines, bar, circle and line graphs.\n- **Order of operations**: exponents before negation, so $-5^2=-25$ but $(-5)^2=25$.\n- \"Difference\" means positive difference; numbers given are exact; \"from $m$ to $n$\" (inclusive or not) covers $n-m+1$ integers.",
+ "examples": [
+  {
+   "prompt": "A figure shows triangle PQR with S on side QR, segment PS drawn, a square mark where PS meets QR, and QS looking shorter than SR. What can you assume?",
+   "steps": [
+    "S is between Q and R, because points on a line keep the order drawn.",
+    "Angle PSR is a right angle: the square mark says so.",
+    "Do not assume QS is shorter than SR, or that any two sides are equal, however it looks."
+   ],
+   "answer": "S is between Q and R, and angle PSR is right; nothing about lengths."
+  }
+ ],
+ "trap": "Measuring a drawing: a triangle that looks isosceles or an angle that looks right is not given as such. The reverse error is distrusting a bar graph or number line, which are drawn to scale.",
+ "checks": [
+  {
+   "id": "q0-06-conventions-c1",
+   "lessonId": "q0-06-conventions",
+   "difficulty": 1,
+   "stem": "Which of the following is drawn to scale?",
+   "explanation": "Data graphs and coordinate systems are drawn to scale; ordinary geometry figures are not.",
+   "choiceExplanations": {
+    "A": "Not necessarily to scale.",
+    "B": "Not necessarily to scale.",
+    "D": "Not necessarily to scale.",
+    "E": "Not necessarily to scale."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A triangle in a geometry question"
+     },
+     {
+      "id": "B",
+      "text": "A circle with a chord"
+     },
+     {
+      "id": "C",
+      "text": "A bar graph"
+     },
+     {
+      "id": "D",
+      "text": "A quadrilateral"
+     },
+     {
+      "id": "E",
+      "text": "A pair of intersecting lines"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q0-06-conventions-c2",
+   "lessonId": "q0-06-conventions",
+   "difficulty": 2,
+   "stem": "What is the value of $-4^2$?",
+   "explanation": "Exponent first: $-(4^2)=-16$.",
+   "estSeconds": 45,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -16
+   }
+  },
+  {
+   "id": "q0-06-conventions-c3",
+   "lessonId": "q0-06-conventions",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$AB+BC=6+4=10$ since $B$ is between $A$ and $C$ on the line.",
+   "estSeconds": 60,
+   "skills": [
+    "math-conventions"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$AC$",
+    "quantityB": "10",
+    "common": "$A$, $B$, $C$ lie on a line in that order, with $AB=6$ and $BC=4$."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

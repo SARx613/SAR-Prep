@@ -1,0 +1,718 @@
+[
+ {
+  "id": "v0-02-active-reading-01",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Reading for attitude.** \"Neither praises nor condemns\" and \"only describes\" define a *neutral* tone.",
+  "choiceExplanations": {
+   "A": "Harshly critical; she does not condemn.",
+   "C": "Enthusiastic; she does not praise.",
+   "E": "Would be a judgment against the policy.",
+   "D": "Would signal anger, which she does not show."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The author's tone is {{1}}: she neither praises nor condemns the policy, only describes how it works.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "scathing"
+      },
+      {
+       "id": "B",
+       "text": "neutral"
+      },
+      {
+       "id": "C",
+       "text": "rapturous"
+      },
+      {
+       "id": "D",
+       "text": "indignant"
+      },
+      {
+       "id": "E",
+       "text": "mocking"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-02",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Separating evidence from guesswork.** A claim with no evidence is a guess: *speculation* and *conjecture*.",
+  "choiceExplanations": {
+   "C": "The claim lacked evidence, so it is not proof.",
+   "F": "A rebuttal is a reply to an argument.",
+   "A": "Longing for the past; unrelated.",
+   "E": "A formal ritual; unrelated."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the claim appeared without any supporting evidence, the editor treated it as mere {{1}}.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "nostalgia"
+    },
+    {
+     "id": "B",
+     "text": "conjecture"
+    },
+    {
+     "id": "C",
+     "text": "proof"
+    },
+    {
+     "id": "D",
+     "text": "speculation"
+    },
+    {
+     "id": "E",
+     "text": "ceremony"
+    },
+    {
+     "id": "F",
+     "text": "rebuttal"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-03",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Advanced versus reported ideas.** *Merely reports* contrasts with *endorse*. Her own view, that more data are needed, is a *caution*.",
+  "choiceExplanations": {
+   "1A": "*Merely reports* already means she quotes it, so *does not quote* would contradict the sentence.",
+   "1B": "She reports it; she does not ignore it.",
+   "2A": "Saying more data are needed is not a denial.",
+   "2B": "Boasting does not suit a call for more data."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The author does not {{1}} the theory but merely reports it; her own view appears only in the final sentence, where she {{2}} that more data are needed.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "quote"
+      },
+      {
+       "id": "1B",
+       "text": "ignore"
+      },
+      {
+       "id": "1C",
+       "text": "endorse"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "denies"
+      },
+      {
+       "id": "2B",
+       "text": "boasts"
+      },
+      {
+       "id": "2C",
+       "text": "cautions"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-04",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Reading for degree.** \"So briefly\" signals extreme economy of words: *terse* and *laconic*.",
+  "choiceExplanations": {
+   "C": "Wordy; the opposite of brief.",
+   "F": "Complete and detailed, the opposite of brief.",
+   "D": "Boring; length or brevity is not the point.",
+   "B": "Stirring; unrelated to brevity."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The memo was deliberately {{1}}, stating its conclusion so briefly that readers had to reconstruct the reasoning themselves.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "terse"
+    },
+    {
+     "id": "B",
+     "text": "rousing"
+    },
+    {
+     "id": "C",
+     "text": "verbose"
+    },
+    {
+     "id": "D",
+     "text": "tedious"
+    },
+    {
+     "id": "E",
+     "text": "laconic"
+    },
+    {
+     "id": "F",
+     "text": "exhaustive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-05",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 2,
+  "stem": "Which of the following best states the main idea of the passage?",
+  "explanation": "**Main idea versus supporting ideas.** The passage opens with a popular view, complicates it, and ends with its confident conclusion that causation ran both ways. The other choices are details, overstatements or the view being challenged.",
+  "choiceExplanations": {
+   "E": "Overstated: the passage says only that this happened in several regions.",
+   "D": "The passage says the evidence is not uniform and nothing is proven.",
+   "C": "Some historians warn that records are patchy; the author does not say they are useless.",
+   "B": "This is the view the passage complicates."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-urban-growth",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Nineteenth-century urban growth involved causation running both ways between jobs and population, which complicates a popular view."
+    },
+    {
+     "id": "B",
+     "text": "Jobs attract people to cities, as the popular view holds."
+    },
+    {
+     "id": "C",
+     "text": "Records from the period are too incomplete to be of any use."
+    },
+    {
+     "id": "D",
+     "text": "Historians have proven that population growth always preceded job creation."
+    },
+    {
+     "id": "E",
+     "text": "Migrants fleeing agricultural decline were the main cause of industrial growth everywhere."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-06",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 3,
+  "stem": "The passage presents which of the following as a conclusion the author endorses with confidence?",
+  "explanation": "**Committed versus reported.** Only the last sentence is introduced with \"What can be said with confidence\". The other statements are the popular view, a finding limited to \"several\" regions, or a warning attributed to \"some historians\".",
+  "choiceExplanations": {
+   "A": "The passage says \"several\" regions, and the evidence is \"not uniform\".",
+   "C": "A warning attributed to some historians, not the author's confident conclusion.",
+   "E": "The popular view, which the passage complicates.",
+   "D": "The passage says economists \"complicated\" the picture, not that they rejected it unanimously."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-urban-growth",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Population growth preceded job growth in every industrial region."
+    },
+    {
+     "id": "B",
+     "text": "Causation between jobs and population ran in both directions."
+    },
+    {
+     "id": "C",
+     "text": "Records from the period are too incomplete to be used."
+    },
+    {
+     "id": "D",
+     "text": "Economists are united in rejecting the popular view."
+    },
+    {
+     "id": "E",
+     "text": "Jobs attract people to cities."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-07",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the author's position on the two explanations for the haze?",
+  "explanation": "**Committed versus speculative.** The author states each group's proposal and ends with \"neither account can be ruled out\". Supporting detail for one account is not an endorsement.",
+  "choiceExplanations": {
+   "C": "The experiments support that account, but the author concludes that neither can be ruled out.",
+   "E": "A testable prediction is noted, but the author does not favor either.",
+   "B": "The hydrocarbon account is said to fit the haze's altitude.",
+   "D": "They are rival accounts that make different predictions."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-moon-haze",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Both are presented as live possibilities, and the author commits to neither."
+    },
+    {
+     "id": "B",
+     "text": "Both explanations are rejected as inconsistent with the haze's altitude."
+    },
+    {
+     "id": "C",
+     "text": "The hydrocarbon explanation is favored because laboratory experiments reproduced similar particles."
+    },
+    {
+     "id": "D",
+     "text": "The two explanations are shown to be equivalent."
+    },
+    {
+     "id": "E",
+     "text": "The ice-crystal explanation is favored because it makes a testable prediction."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-08",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 4,
+  "stem": "Select the sentence that expresses the author's own judgment about the current state of the evidence.",
+  "explanation": "**Author's voice versus reported voices.** Other sentences describe the haze or report what each group proposes. This sentence is the author's assessment of the evidence.",
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-moon-haze",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "Observations over the next few years may settle the matter, but for now neither account can be ruled out."
+  }
+ },
+ {
+  "id": "v0-02-active-reading-09",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 3,
+  "stem": "The statement \"Yet a closer reading of the data suggests a different order of events\" primarily serves to",
+  "explanation": "**Transitions.** *Yet* signals a contrast with the analysts' view in the first sentence, and the sentence then offers the alternative: the programs may identify big spenders rather than create them.",
+  "choiceExplanations": {
+   "D": "No program is described as successful.",
+   "B": "The test is introduced after this sentence.",
+   "E": "*Yet* signals disagreement.",
+   "A": "No definition is offered."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-loyalty",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "define the term \"loyalty program\""
+    },
+    {
+     "id": "B",
+     "text": "summarize the results of the grocery chain's test"
+    },
+    {
+     "id": "C",
+     "text": "introduce a challenge to the view reported in the preceding sentence"
+    },
+    {
+     "id": "D",
+     "text": "provide an example of a successful loyalty program"
+    },
+    {
+     "id": "E",
+     "text": "concede that analysts are correct about loyalty programs"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-10",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 5,
+  "stem": "Consider each of the choices separately and select all that apply. Which of the following does the passage suggest?",
+  "explanation": "**Relationships between ideas.** Choice B restates the claim that heavy spenders are the ones most likely to join. Choice C follows from the random test: members' spending rose only slightly, far less than the large earlier gap, so the gap overstated the effect. Choice A is wrong because the passage explicitly denies that programs are worthless.",
+  "choiceExplanations": {
+   "A": "The author says the result does not show programs are worthless and mentions possible benefits such as better data."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-loyalty",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Loyalty programs provide no benefit to retailers."
+    },
+    {
+     "id": "B",
+     "text": "Heavy spenders were disproportionately likely to join the program before it affected their spending."
+    },
+    {
+     "id": "C",
+     "text": "The earlier gap between members' and non-members' spending overstated the program's effect on spending."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-11",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 4,
+  "stem": "The second paragraph relates to the first primarily by",
+  "explanation": "**Structure.** The first paragraph reports an assumption of earlier critics; the second begins \"That assumption has not survived scrutiny\" and gives evidence against it.",
+  "choiceExplanations": {
+   "B": "The second paragraph opposes the assumption.",
+   "D": "No other art form is discussed.",
+   "C": "The author leaves the question of artistry open (\"remains disputed\").",
+   "A": "It reverses the first paragraph's point."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "reading-comprehension"
+  ],
+  "passageId": "v0-02-frontier-photos",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "restating the first paragraph in different words"
+    },
+    {
+     "id": "B",
+     "text": "providing further evidence for the assumption described in the first paragraph"
+    },
+    {
+     "id": "C",
+     "text": "introducing a rival assumption that the author fully endorses"
+    },
+    {
+     "id": "D",
+     "text": "applying the assumption in the first paragraph to a different art form"
+    },
+    {
+     "id": "E",
+     "text": "challenging an assumption that the first paragraph attributes to earlier critics"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v0-02-active-reading-12",
+  "lessonId": "v0-02-active-reading",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Commitment and balance.** Credit and a list of failures make her *ambivalent*; she *catalogs* the failures; the conclusion \"rather than discarded\" calls for improving it: *refined*.",
+  "choiceExplanations": {
+   "1A": "She credits the hypothesis, so she is not dismissive.",
+   "1B": "She notes its failures, so she is not reverent.",
+   "2A": "Denying its failures would not lead to refining it.",
+   "2C": "Overlooking the failures would not lead to a call to refine.",
+   "3A": "Formal approval does not follow from listed failures.",
+   "3B": "Mockery contradicts \"rather than discarded\"."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The author's attitude toward the older hypothesis is {{1}}: she credits it with explaining the early data, {{2}} its later failures, and concludes that it should be {{3}} rather than discarded.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "dismissive"
+      },
+      {
+       "id": "1B",
+       "text": "reverent"
+      },
+      {
+       "id": "1C",
+       "text": "ambivalent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "denies"
+      },
+      {
+       "id": "2B",
+       "text": "catalogs"
+      },
+      {
+       "id": "2C",
+       "text": "overlooks"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "ratified"
+      },
+      {
+       "id": "3B",
+       "text": "ridiculed"
+      },
+      {
+       "id": "3C",
+       "text": "refined"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B",
+    "3C"
+   ]
+  }
+ }
+]

@@ -1,0 +1,168 @@
+{
+ "id": "t1-02-adaptation",
+ "status": "published",
+ "why": "Because Verbal and Quant adapt between sections, your effort on the first section shapes both your score and the difficulty of the second.",
+ "rule": "Verbal Reasoning and Quantitative Reasoning are **section-level adaptive**.\n\n- The **first** section of each measure is of average difficulty.\n- How hard the **second** section is depends on how well you did on the first, overall: a very strong first section leads to a harder second one.\n- Scoring takes into account the **total number correct across both sections** and the **difficulty level of the sections**.\n\nAdaptation happens between sections, not question by question. Analytical Writing is not adaptive.",
+ "examples": [
+  {
+   "prompt": "In the first Quantitative section Alex answers nearly all questions correctly. What follows?",
+   "steps": [
+    "The first section was of average difficulty.",
+    "Strong performance leads to a second Quantitative section at a higher level of difficulty."
+   ],
+   "answer": "A harder second Quantitative section"
+  },
+  {
+   "prompt": "Two test-takers each answer 19 of 27 Verbal questions correctly, but faced different second-section difficulty. Must their scores match?",
+   "steps": [
+    "Scoring uses the total correct and the difficulty of the sections.",
+    "Different difficulty means equal totals need not give equal scores."
+   ],
+   "answer": "No, not necessarily"
+  }
+ ],
+ "trap": "Reading a hard second section as proof that you did badly. The second section is harder after a strong first one. Equally, the first section is not a warm-up: its answers count and they set the second section.",
+ "checks": [
+  {
+   "id": "t1-02-adaptation-c1",
+   "lessonId": "t1-02-adaptation",
+   "difficulty": 1,
+   "stem": "In which measure is the second section's difficulty set by the first section's performance?",
+   "explanation": "Verbal and Quant sections are section-level adaptive.",
+   "choiceExplanations": {
+    "A": "Writing has one task.",
+    "C": "Quant also adapts.",
+    "D": "Verbal also adapts.",
+    "E": "Both Verbal and Quant adapt."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "section-adaptation"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Analytical Writing"
+     },
+     {
+      "id": "B",
+      "text": "Verbal and Quantitative Reasoning"
+     },
+     {
+      "id": "C",
+      "text": "Only Verbal Reasoning"
+     },
+     {
+      "id": "D",
+      "text": "Only Quantitative Reasoning"
+     },
+     {
+      "id": "E",
+      "text": "None of them"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "t1-02-adaptation-c2",
+   "lessonId": "t1-02-adaptation",
+   "difficulty": 2,
+   "stem": "After a very strong first Verbal section, the second Verbal section will be",
+   "explanation": "A very strong first section leads to a higher difficulty level in the second.",
+   "choiceExplanations": {
+    "A": "A strong first section leads to a harder second one.",
+    "C": "Its difficulty depends on first-section performance.",
+    "D": "Both sections are given.",
+    "E": "Writing is separate."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "section-adaptation"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "easier"
+     },
+     {
+      "id": "B",
+      "text": "harder"
+     },
+     {
+      "id": "C",
+      "text": "unchanged in difficulty"
+     },
+     {
+      "id": "D",
+      "text": "skipped"
+     },
+     {
+      "id": "E",
+      "text": "a Writing task"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "t1-02-adaptation-c3",
+   "lessonId": "t1-02-adaptation",
+   "difficulty": 2,
+   "stem": "A test-taker answers 10 of 12 correctly in the first Quantitative section and 12 of 15 in the second. How many correct answers in total?",
+   "explanation": "$10+12=22$.",
+   "estSeconds": 45,
+   "skills": [
+    "section-adaptation"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 22
+   }
+  }
+ ]
+}

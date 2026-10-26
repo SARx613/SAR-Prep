@@ -1,0 +1,142 @@
+{
+ "id": "q2-09-word-problems",
+ "status": "published",
+ "why": "Almost every Algebra application on the GRE is a story that must be turned into an equation or inequality before any algebra happens.",
+ "rule": "**1.** Name the unknown that the question asks for (say $x$).\n\n**2.** Translate phrase by phrase: *is* means $=$; *k times* means multiply; *$p$ percent more than $s$* is $\\left(1+\\frac{p}{100}\\right)s$; *a less than b* is $b-a$ (order reverses); *at least* means $\\ge$, *at most* means $\\le$; *per* means divide; *consecutive odd* (or even) *integers* are $n$, $n+2$, $n+4$.\n\n**3.** One unknown needs one equation; two unknowns need two. Solve by substitution.\n\n**4.** Answer the question that was asked, then check it against the story.",
+ "examples": [
+  {
+   "prompt": "Maya is 4 years younger than three times Leo's age. In 5 years the sum of their ages will be 46. How old is Leo now?",
+   "steps": [
+    "Let $L$ be Leo's age now. Maya's age is $3L-4$.",
+    "In 5 years: $(3L-4+5)+(L+5)=46$.",
+    "$4L+6=46$, so $L=10$.",
+    "Check: Maya is 26; in 5 years $31+15=46$."
+   ],
+   "answer": "Leo is 10."
+  },
+  {
+   "prompt": "A cafe sold 40 drinks, coffees at \\$3 and teas at \\$2.50, for \\$112 in all. How many coffees were sold?",
+   "steps": [
+    "Let $c$ and $t$ be the numbers sold: $c+t=40$ and $3c+2.5t=112$.",
+    "Substitute $t=40-c$: $3c+100-2.5c=112$.",
+    "$0.5c=12$, so $c=24$.",
+    "Check: 16 teas, $72+40=112$."
+   ],
+   "answer": "24 coffees"
+  }
+ ],
+ "trap": "\"5 less than $x$\" is $x-5$, not $5-x$, and \"increased by 12 percent\" is $1.12s$, not $0.12s$. Also re-read the last sentence: the unknown you named may not be the quantity the question asks for.",
+ "checks": [
+  {
+   "id": "q2-09-word-problems-c1",
+   "lessonId": "q2-09-word-problems",
+   "difficulty": 1,
+   "stem": "A number is increased by 20 percent and the result is 54. What is the number?",
+   "explanation": "Increasing by 20 percent multiplies by 1.2, so $1.2n=54$ and $n=45$.",
+   "estSeconds": 75,
+   "skills": [
+    "word-problems"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 45
+   }
+  },
+  {
+   "id": "q2-09-word-problems-c2",
+   "lessonId": "q2-09-word-problems",
+   "difficulty": 2,
+   "stem": "Which expression represents 7 less than the product of 4 and $x$?",
+   "explanation": "\\\"The product of 4 and $x$\\\" is $4x$; \\\"7 less than\\\" that is $4x-7$.",
+   "choiceExplanations": {
+    "A": "This subtracts 7 from $x$ before multiplying.",
+    "C": "That is 7 *more* than the product.",
+    "D": "The order is reversed: \"less than\" subtracts from the product.",
+    "E": "A product is not a quotient."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "word-problems"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$4(x-7)$"
+     },
+     {
+      "id": "B",
+      "text": "$4x-7$"
+     },
+     {
+      "id": "C",
+      "text": "$4x+7$"
+     },
+     {
+      "id": "D",
+      "text": "$7-4x$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{4}{x}-7$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q2-09-word-problems-c3",
+   "lessonId": "q2-09-word-problems",
+   "difficulty": 2,
+   "stem": "Adult tickets cost \\$8 and child tickets cost \\$5. A total of 30 tickets were sold for \\$198. How many adult tickets were sold?",
+   "explanation": "Let $a$ be adult tickets: $8a+5(30-a)=198$, so $3a+150=198$ and $a=16$.",
+   "estSeconds": 75,
+   "skills": [
+    "word-problems"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 16
+   }
+  }
+ ]
+}

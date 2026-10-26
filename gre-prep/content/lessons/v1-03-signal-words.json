@@ -1,0 +1,245 @@
+{
+ "id": "v1-03-signal-words",
+ "status": "published",
+ "why": "Structure words such as *although*, *because* and *moreover* tell you what the blank must do before you read a single choice.",
+ "rule": "ETS advises marking words that emphasize the structure of the text, naming *although* and *moreover* as examples. The grouping below is our study aid, not an ETS list:\n\n- **Contrast** (*although, though, but, yet, however, while, whereas, unlike, rather than*): the blank opposes the other idea.\n- **Support** (*moreover, and, indeed*, a colon or semicolon): the blank agrees with, restates or explains the other idea.\n- **Cause or result** (*because, since, so ... that*): the blank is the reason for, or result of, the stated fact.\n\nNegation flips direction: *not* X, *far from* X, *by no means* X and *anything but* X all point to the opposite of X.",
+ "examples": [
+  {
+   "prompt": "The critic's praise was not ______; she meant every word. Choices: insincere, effusive, brief, public, belated.",
+   "steps": [
+    "\"She meant every word\" describes sincere praise.",
+    "The semicolon continues the thought, and *not* negates the blank, so the blank is the opposite of sincere.",
+    "*Insincere* fits; *effusive*, *brief*, *public* and *belated* say nothing about sincerity."
+   ],
+   "answer": "insincere"
+  },
+  {
+   "prompt": "Although the evidence for the claim was ______, the author presented it with great confidence. Choices: scanty, abundant, vivid, recent, notarized.",
+   "steps": [
+    "*Although* signals a contrast with \"great confidence\".",
+    "Confidence is the stance; the opposite fact is that the evidence was weak: *scanty*.",
+    "*Abundant* would agree with confidence, so *although* would have nothing to contrast."
+   ],
+   "answer": "scanty"
+  }
+ ],
+ "trap": "Missing the direction. A contrast word reverses what you expect, and a negative can hide in phrases like *hardly*, *far from* and *by no means*. Ask of each signal: does the blank agree with its clue or oppose it?",
+ "checks": [
+  {
+   "id": "v1-03-signal-words-c1",
+   "lessonId": "v1-03-signal-words",
+   "difficulty": 1,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Contrast word:** *unlike his careful colleagues* means he was the opposite of careful: *reckless*.",
+   "choiceExplanations": {
+    "E": "Prudent means careful, the colleagues' trait.",
+    "C": "A careful trait, like the colleagues'.",
+    "D": "Timid people would not enter a storm.",
+    "A": "Means very careful about details, again the colleagues' trait."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "The explorer was so {{1}} that, unlike his careful colleagues, he set out into the storm without a map.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "fastidious"
+       },
+       {
+        "id": "B",
+        "text": "reckless"
+       },
+       {
+        "id": "C",
+        "text": "methodical"
+       },
+       {
+        "id": "D",
+        "text": "timid"
+       },
+       {
+        "id": "E",
+        "text": "prudent"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "v1-03-signal-words-c2",
+   "lessonId": "v1-03-signal-words",
+   "difficulty": 2,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "**Cause chain:** contradictory evidence leads to a *divided* jury. *Moreover* adds another weakness in the same direction: *unreliable* testimony.",
+   "choiceExplanations": {
+    "1C": "Overwhelming evidence would unite a jury.",
+    "1A": "Does not explain a split.",
+    "2A": "Joy is not a reaction to uncertain evidence.",
+    "2C": "Contradicts the doubt created by the evidence.",
+    "3C": "Confirmed testimony is not a weakness, and *moreover* needs a point in the same direction.",
+    "3B": "Complete testimony is not a weakness."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "Because the evidence was {{1}}, the jury was {{2}} about the verdict, and, moreover, the judge noted that the case rested on {{3}} testimony.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "routine"
+       },
+       {
+        "id": "1B",
+        "text": "contradictory"
+       },
+       {
+        "id": "1C",
+        "text": "overwhelming"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "jubilant"
+       },
+       {
+        "id": "2B",
+        "text": "divided"
+       },
+       {
+        "id": "2C",
+        "text": "unanimous"
+       }
+      ]
+     },
+     {
+      "index": 3,
+      "choices": [
+       {
+        "id": "3A",
+        "text": "unreliable"
+       },
+       {
+        "id": "3B",
+        "text": "exhaustive"
+       },
+       {
+        "id": "3C",
+        "text": "corroborated"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2B",
+     "3A"
+    ]
+   }
+  },
+  {
+   "id": "v1-03-signal-words-c3",
+   "lessonId": "v1-03-signal-words",
+   "difficulty": 3,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "**Negation:** *anything but* X means the opposite of X. Invention and surprise are the opposite of *formulaic*. The other choices describe the film, so *anything but* would contradict the colon.",
+   "choiceExplanations": {
+    "B": "The film is inventive; *anything but* would deny it.",
+    "C": "The film is surprising.",
+    "D": "The film is original.",
+    "A": "Consistent with the description, so *anything but* fails."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "The film is anything but {{1}}: every scene bursts with invention and surprise.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "playful"
+       },
+       {
+        "id": "B",
+        "text": "inventive"
+       },
+       {
+        "id": "C",
+        "text": "surprising"
+       },
+       {
+        "id": "D",
+        "text": "original"
+       },
+       {
+        "id": "E",
+        "text": "formulaic"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "E"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1422 @@
+[
+ {
+  "id": "q4-01-tables-bars-01",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 1,
+  "stem": "Which of the following variables are categorical (nonnumerical)? Indicate all such variables.",
+  "explanation": "A categorical variable records a label or group. Eye color and favorite subject are labels; the other three are measured or counted numbers.",
+  "choiceExplanations": {
+   "B": "A count of siblings is numerical.",
+   "D": "Height is measured, so it is numerical.",
+   "E": "A number of minutes is numerical."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "variables"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Eye color of each student"
+    },
+    {
+     "id": "B",
+     "text": "Number of siblings of each student"
+    },
+    {
+     "id": "C",
+     "text": "Favorite school subject of each student"
+    },
+    {
+     "id": "D",
+     "text": "Height of each student"
+    },
+    {
+     "id": "E",
+     "text": "Minutes spent commuting by each student"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-02",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 1,
+  "stem": "In a survey of 50 students, 18 said they travel to school by bus. What percent of the students surveyed travel by bus?",
+  "explanation": "Relative frequency $= \\frac{18}{50} = 0.36 = 36\\%$.",
+  "estSeconds": 45,
+  "skills": [
+   "relative-frequency"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-03",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 2,
+  "stem": "What percent of the households surveyed have no pets?",
+  "explanation": "Households with no pets: 6 of 40. $\\frac{6}{40} = 0.15 = 15\\%$.",
+  "choiceExplanations": {
+   "A": "6 is the count, not the percent.",
+   "B": "12 is the frequency for one pet.",
+   "D": "20% of 40 is 8 households, not 6.",
+   "E": "60% of 40 would be 24 households."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "relative-frequency"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Pets per household (40 households surveyed)",
+   "data": {
+    "columns": [
+     "Number of pets",
+     "Number of households"
+    ],
+    "rows": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      12
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      5,
+      1
+     ],
+     [
+      "Total",
+      40
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$12\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$20\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$60\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-04",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 2,
+  "stem": "How many of the households surveyed have more than 2 pets?",
+  "explanation": "\"More than 2\" means 3, 4 or 5 pets: $8 + 3 + 1 = 12$ households.",
+  "choiceExplanations": {
+   "A": "Only 3 + 1 = 4 households have more than 3 pets.",
+   "B": "8 is only the households with exactly 3 pets.",
+   "D": "22 counts households with 2 or more pets.",
+   "E": "28 counts households with 2 or fewer pets."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Pets per household (40 households surveyed)",
+   "data": {
+    "columns": [
+     "Number of pets",
+     "Number of households"
+    ],
+    "rows": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      12
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      5,
+      1
+     ],
+     [
+      "Total",
+      40
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$8$"
+    },
+    {
+     "id": "C",
+     "text": "$12$"
+    },
+    {
+     "id": "D",
+     "text": "$22$"
+    },
+    {
+     "id": "E",
+     "text": "$28$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-05",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: $\\frac{9}{30} = 30\\%$. B: $\\frac{12}{50} = 24\\%$. Quantity A is greater even though its frequency is smaller, because its total is smaller.",
+  "estSeconds": 70,
+  "skills": [
+   "relative-frequency"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The relative frequency, as a percent, of a category with frequency 9 in a table whose total is 30",
+   "quantityB": "The relative frequency, as a percent, of a category with frequency 12 in a table whose total is 50"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-06",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "What is the total number of pets owned by the 40 households?",
+  "explanation": "Multiply each number of pets by its number of households and add: $0\\cdot6 + 1\\cdot12 + 2\\cdot10 + 3\\cdot8 + 4\\cdot3 + 5\\cdot1 = 0 + 12 + 20 + 24 + 12 + 5 = 73$.",
+  "estSeconds": 90,
+  "skills": [
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Pets per household (40 households surveyed)",
+   "data": {
+    "columns": [
+     "Number of pets",
+     "Number of households"
+    ],
+    "rows": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      12
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      5,
+      1
+     ],
+     [
+      "Total",
+      40
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 73
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-07",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "From the fall to the spring, which school had the greatest decrease in enrollment?",
+  "explanation": "Spring minus fall: P $-30$, Q $+15$, R $-60$, S $+10$, T $-30$. School R lost the most.",
+  "choiceExplanations": {
+   "A": "P fell by only 30.",
+   "B": "Q increased from 380 to 395.",
+   "D": "S increased from 290 to 300.",
+   "E": "T fell by only 30."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "bar-graphs"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Enrollment at five schools",
+   "data": {
+    "categories": [
+     "School P",
+     "School Q",
+     "School R",
+     "School S",
+     "School T"
+    ],
+    "series": [
+     {
+      "name": "Fall",
+      "values": [
+       420,
+       380,
+       510,
+       290,
+       460
+      ]
+     },
+     {
+      "name": "Spring",
+      "values": [
+       390,
+       395,
+       450,
+       300,
+       430
+      ]
+     }
+    ],
+    "yLabel": "Students"
+   },
+   "notes": "Each bar shows the number of students enrolled."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "School P"
+    },
+    {
+     "id": "B",
+     "text": "School Q"
+    },
+    {
+     "id": "C",
+     "text": "School R"
+    },
+    {
+     "id": "D",
+     "text": "School S"
+    },
+    {
+     "id": "E",
+     "text": "School T"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-08",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "A help desk received 8,000 complaints in 2020, and 25 percent of them concerned baggage. In 2021 it received 5,000 complaints, and 30 percent concerned baggage. By how many did the number of baggage complaints decrease from 2020 to 2021?",
+  "explanation": "Convert each percent to a count: $0.25 \\times 8000 = 2000$ and $0.30 \\times 5000 = 1500$. The decrease is $2000 - 1500 = 500$.",
+  "choiceExplanations": {
+   "A": "5 is the change in percentage points (30 - 25), but the count went down.",
+   "B": "100 is 5% of 2,000, which is not the change in counts.",
+   "D": "1,500 is the 2021 count, not the change.",
+   "E": "2,000 is the 2020 count, not the change."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent-of-total"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$100$"
+    },
+    {
+     "id": "C",
+     "text": "$500$"
+    },
+    {
+     "id": "D",
+     "text": "$1{,}500$"
+    },
+    {
+     "id": "E",
+     "text": "$2{,}000$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-09",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 4,
+  "stem": "Approximately by what percent did enrollment at School R decrease from the fall to the spring?",
+  "explanation": "The decrease is $510 - 450 = 60$. Percent decrease $= \\frac{60}{510} \\approx 0.118$, about 12%.",
+  "choiceExplanations": {
+   "A": "6% of 510 is about 31, much less than 60.",
+   "B": "9% of 510 is about 46, less than 60.",
+   "D": "18% of 510 is about 92, more than 60.",
+   "E": "30% of 510 is about 153, far more than 60."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "bar-graphs",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Enrollment at five schools",
+   "data": {
+    "categories": [
+     "School P",
+     "School Q",
+     "School R",
+     "School S",
+     "School T"
+    ],
+    "series": [
+     {
+      "name": "Fall",
+      "values": [
+       420,
+       380,
+       510,
+       290,
+       460
+      ]
+     },
+     {
+      "name": "Spring",
+      "values": [
+       390,
+       395,
+       450,
+       300,
+       430
+      ]
+     }
+    ],
+    "yLabel": "Students"
+   },
+   "notes": "Each bar shows the number of students enrolled."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$9\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$12\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$18\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$30\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-10",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 4,
+  "stem": "By what percent did the total enrollment at the five schools decrease from the fall to the spring? Round your answer to the nearest tenth of a percent.",
+  "explanation": "Fall total: $420 + 380 + 510 + 290 + 460 = 2060$. Spring total: $390 + 395 + 450 + 300 + 430 = 1965$. The decrease is 95, and $\\frac{95}{2060} \\approx 0.0461$, or 4.6%.",
+  "estSeconds": 120,
+  "skills": [
+   "bar-graphs",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Enrollment at five schools",
+   "data": {
+    "categories": [
+     "School P",
+     "School Q",
+     "School R",
+     "School S",
+     "School T"
+    ],
+    "series": [
+     {
+      "name": "Fall",
+      "values": [
+       420,
+       380,
+       510,
+       290,
+       460
+      ]
+     },
+     {
+      "name": "Spring",
+      "values": [
+       390,
+       395,
+       450,
+       300,
+       430
+      ]
+     }
+    ],
+    "yLabel": "Students"
+   },
+   "notes": "Each bar shows the number of students enrolled."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "%",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 4.6,
+   "tolerance": 0.05
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-11",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the table? Indicate all such statements.",
+  "explanation": "Convert percents to counts. Billing: 2,400 in 2019 and 1,750 in 2020. Login: 2,000 and 1,000, so exactly half. Shipping: 1,760 and 1,250. Billing plus shipping is 52% in 2019 and 60% in 2020, both above half.",
+  "choiceExplanations": {
+   "A": "The billing percent rose, but the total fell: 1,750 is less than 2,400.",
+   "D": "The shipping percent rose, but the count fell from 1,760 to 1,250."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Support tickets by type",
+   "data": {
+    "columns": [
+     "Ticket type",
+     "2019",
+     "2020"
+    ],
+    "rows": [
+     [
+      "Billing",
+      "30.0%",
+      "35.0%"
+     ],
+     [
+      "Login",
+      "25.0%",
+      "20.0%"
+     ],
+     [
+      "Shipping",
+      "22.0%",
+      "25.0%"
+     ],
+     [
+      "Other",
+      "23.0%",
+      "20.0%"
+     ],
+     [
+      "Total",
+      "100.0%",
+      "100.0%"
+     ],
+     [
+      "Total number of tickets",
+      "8,000",
+      "5,000"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The number of billing tickets was greater in 2020 than in 2019."
+    },
+    {
+     "id": "B",
+     "text": "In each year, billing and shipping tickets together made up more than half of all tickets."
+    },
+    {
+     "id": "C",
+     "text": "The number of login tickets in 2020 was exactly half the number in 2019."
+    },
+    {
+     "id": "D",
+     "text": "The number of shipping tickets increased from 2019 to 2020."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-12",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 5,
+  "stem": "By approximately what percent did the number of billing tickets decrease from 2019 to 2020? Give your answer to the nearest whole percent.",
+  "explanation": "Billing tickets: $0.30 \\times 8000 = 2400$ in 2019 and $0.35 \\times 5000 = 1750$ in 2020. The decrease is 650, and $\\frac{650}{2400} \\approx 0.271$, about 27%.",
+  "estSeconds": 120,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Support tickets by type",
+   "data": {
+    "columns": [
+     "Ticket type",
+     "2019",
+     "2020"
+    ],
+    "rows": [
+     [
+      "Billing",
+      "30.0%",
+      "35.0%"
+     ],
+     [
+      "Login",
+      "25.0%",
+      "20.0%"
+     ],
+     [
+      "Shipping",
+      "22.0%",
+      "25.0%"
+     ],
+     [
+      "Other",
+      "23.0%",
+      "20.0%"
+     ],
+     [
+      "Total",
+      "100.0%",
+      "100.0%"
+     ],
+     [
+      "Total number of tickets",
+      "8,000",
+      "5,000"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "%"
+   }
+  },
+  "answer": {
+   "value": 27
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-13",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 1,
+  "stem": "In a table of 80 observations, one category has a relative frequency of 0.35. What is the frequency of that category?",
+  "explanation": "Frequency $=$ relative frequency $\\times$ total $= 0.35 \\times 80 = 28$.",
+  "estSeconds": 45,
+  "skills": [
+   "relative-frequency"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 28
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-14",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 2,
+  "stem": "How many of the members visit the gym at least 3 times per week?",
+  "explanation": "\"At least 3\" means 3 or 4 visits: $12 + 6 = 18$ members.",
+  "choiceExplanations": {
+   "A": "6 is the frequency for exactly 4 visits only.",
+   "B": "12 is the frequency for exactly 3 visits only.",
+   "D": "42 counts members with fewer than 3 visits (0, 1 or 2).",
+   "E": "54 counts members with at least 1 visit."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Gym visits per week by 60 club members",
+   "data": {
+    "columns": [
+     "Visits per week",
+     "Number of members"
+    ],
+    "rows": [
+     [
+      0,
+      6
+     ],
+     [
+      1,
+      15
+     ],
+     [
+      2,
+      21
+     ],
+     [
+      3,
+      12
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      "Total",
+      60
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6$"
+    },
+    {
+     "id": "B",
+     "text": "$12$"
+    },
+    {
+     "id": "C",
+     "text": "$18$"
+    },
+    {
+     "id": "D",
+     "text": "$42$"
+    },
+    {
+     "id": "E",
+     "text": "$54$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-15",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: $\\frac{18}{60} = 0.30 = 30\\%$. B: $\\frac{45}{150} = 0.30 = 30\\%$. The two relative frequencies are equal, although the frequencies differ.",
+  "estSeconds": 70,
+  "skills": [
+   "relative-frequency"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The relative frequency, as a percent, of a category with frequency 18 in a table whose total is 60",
+   "quantityB": "The relative frequency, as a percent, of a category with frequency 45 in a table whose total is 150"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-16",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "In which month was the combined output of the two factories greatest?",
+  "explanation": "Add the two bars for each month: Jan 215, Feb $135 + 140 = 275$, Mar 260, Apr 215, May 205. February is greatest, even though March holds the tallest single bar.",
+  "choiceExplanations": {
+   "A": "January: 120 + 95 = 215, less than February.",
+   "C": "March has the tallest single bar (North, 150), but 150 + 110 = 260 is less than February's total.",
+   "D": "April: 90 + 125 = 215.",
+   "E": "May: 105 + 100 = 205."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "bar-graphs"
+  ],
+  "figure": {
+   "kind": "bar",
+   "title": "Monthly output of two factories",
+   "data": {
+    "categories": [
+     "January",
+     "February",
+     "March",
+     "April",
+     "May"
+    ],
+    "series": [
+     {
+      "name": "North factory",
+      "values": [
+       120,
+       135,
+       150,
+       90,
+       105
+      ]
+     },
+     {
+      "name": "South factory",
+      "values": [
+       95,
+       140,
+       110,
+       125,
+       100
+      ]
+     }
+    ],
+    "yLabel": "Units produced (hundreds)"
+   },
+   "notes": "Each bar shows the output of one factory in one month."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "January"
+    },
+    {
+     "id": "B",
+     "text": "February"
+    },
+    {
+     "id": "C",
+     "text": "March"
+    },
+    {
+     "id": "D",
+     "text": "April"
+    },
+    {
+     "id": "E",
+     "text": "May"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-17",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "For which region does the Premium plan segment represent the greatest number of subscriptions?",
+  "explanation": "A segment's value is its length, top minus bottom. Premium: West 90, North $210 - 100 = 110$, East 70, South 60, Central 80. North is greatest.",
+  "choiceExplanations": {
+   "A": "West: $240 - 150 = 90$.",
+   "C": "East has the tallest bar (250) and the highest lower segment, but its Premium segment is only $250 - 180 = 70$.",
+   "D": "South: $190 - 130 = 60$.",
+   "E": "Central: $200 - 120 = 80$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "bar-graphs"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Subscriptions sold in five regions",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 290\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"10\" y=\"16\">Subscriptions sold (hundreds)</text><line x1=\"50\" y1=\"240\" x2=\"500\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"244\" text-anchor=\"end\">0</text><line x1=\"50\" y1=\"200\" x2=\"500\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"204\" text-anchor=\"end\">50</text><line x1=\"50\" y1=\"160\" x2=\"500\" y2=\"160\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"164\" text-anchor=\"end\">100</text><line x1=\"50\" y1=\"120\" x2=\"500\" y2=\"120\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"124\" text-anchor=\"end\">150</text><line x1=\"50\" y1=\"80\" x2=\"500\" y2=\"80\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"84\" text-anchor=\"end\">200</text><line x1=\"50\" y1=\"40\" x2=\"500\" y2=\"40\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"44\" y=\"44\" text-anchor=\"end\">250</text><line x1=\"50\" y1=\"240\" x2=\"500\" y2=\"240\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"240\" x2=\"50\" y2=\"40\" stroke=\"currentColor\"/><rect x=\"78.3333\" y=\"120\" width=\"56\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"78.3333\" y=\"48\" width=\"56\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"138.333\" y=\"124\" font-size=\"11\">150</text><text x=\"138.333\" y=\"52\" font-size=\"11\">240</text><text x=\"106.333\" y=\"257\" text-anchor=\"middle\">West</text><rect x=\"162.667\" y=\"160\" width=\"56\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"162.667\" y=\"72\" width=\"56\" height=\"88\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"222.667\" y=\"164\" font-size=\"11\">100</text><text x=\"222.667\" y=\"76\" font-size=\"11\">210</text><text x=\"190.667\" y=\"257\" text-anchor=\"middle\">North</text><rect x=\"247\" y=\"96\" width=\"56\" height=\"144\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"247\" y=\"40\" width=\"56\" height=\"56\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"307\" y=\"100\" font-size=\"11\">180</text><text x=\"307\" y=\"44\" font-size=\"11\">250</text><text x=\"275\" y=\"257\" text-anchor=\"middle\">East</text><rect x=\"331.333\" y=\"136\" width=\"56\" height=\"104\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"331.333\" y=\"88\" width=\"56\" height=\"48\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"391.333\" y=\"140\" font-size=\"11\">130</text><text x=\"391.333\" y=\"92\" font-size=\"11\">190</text><text x=\"359.333\" y=\"257\" text-anchor=\"middle\">South</text><rect x=\"415.667\" y=\"144\" width=\"56\" height=\"96\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><rect x=\"415.667\" y=\"80\" width=\"56\" height=\"64\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"475.667\" y=\"148\" font-size=\"11\">120</text><text x=\"475.667\" y=\"84\" font-size=\"11\">200</text><text x=\"443.667\" y=\"257\" text-anchor=\"middle\">Central</text><rect x=\"150\" y=\"262\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\"/><text x=\"168\" y=\"272\">Standard plan</text><rect x=\"300\" y=\"262\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"318\" y=\"272\">Premium plan</text></svg>",
+    "alt": "Segmented bar graph with five bars. Each bar has a lower Standard plan segment and an upper Premium plan segment. West: lower segment ends at 150, bar ends at 240. North: 100 and 210. East: 180 and 250. South: 130 and 190. Central: 120 and 200."
+   },
+   "notes": "The number beside each bar edge is where that segment ends on the vertical axis."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "West"
+    },
+    {
+     "id": "B",
+     "text": "North"
+    },
+    {
+     "id": "C",
+     "text": "East"
+    },
+    {
+     "id": "D",
+     "text": "South"
+    },
+    {
+     "id": "E",
+     "text": "Central"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-18",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 4,
+  "stem": "How many more respondents in City P than in City Q travel to work by train?",
+  "explanation": "Convert percents to counts: City P, $0.31 \\times 4000 = 1240$; City Q, $0.20 \\times 2500 = 500$. The difference is $1240 - 500 = 740$.",
+  "estSeconds": 100,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Main way of travelling to work, by city",
+   "data": {
+    "columns": [
+     "Travel mode",
+     "City P",
+     "City Q"
+    ],
+    "rows": [
+     [
+      "Bus",
+      "24%",
+      "30%"
+     ],
+     [
+      "Train",
+      "31%",
+      "20%"
+     ],
+     [
+      "Car",
+      "35%",
+      "40%"
+     ],
+     [
+      "Bike",
+      "10%",
+      "10%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Number of respondents",
+      "4,000",
+      "2,500"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 740
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-19",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 4,
+  "stem": "Of all the respondents in the two cities together, what percent travel to work by bus? Round your answer to the nearest tenth of a percent.",
+  "explanation": "Bus riders: $0.24 \\times 4000 = 960$ in City P and $0.30 \\times 2500 = 750$ in City Q, so 1,710 in all. Total respondents: $4000 + 2500 = 6500$. $\\frac{1710}{6500} \\approx 0.263$, or 26.3%. Averaging 24% and 30% would give 27%, which ignores the different totals.",
+  "estSeconds": 120,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Main way of travelling to work, by city",
+   "data": {
+    "columns": [
+     "Travel mode",
+     "City P",
+     "City Q"
+    ],
+    "rows": [
+     [
+      "Bus",
+      "24%",
+      "30%"
+     ],
+     [
+      "Train",
+      "31%",
+      "20%"
+     ],
+     [
+      "Car",
+      "35%",
+      "40%"
+     ],
+     [
+      "Bike",
+      "10%",
+      "10%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Number of respondents",
+      "4,000",
+      "2,500"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "%",
+    "round": 1
+   }
+  },
+  "answer": {
+   "value": 26.3,
+   "tolerance": 0.05
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-20",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the table? Indicate all such statements.",
+  "explanation": "Counts: City P bus 960, train 1,240, car 1,400, bike 400; City Q bus 750, train 500, car 1,000, bike 250. Bus: $960 > 750$ although 24% is below 30%. Bike: $400 - 250 = 150$ although both percents are 10%. In City Q, $30\\% + 20\\% = 50\\%$. Car: $1400 - 1000 = 400$, not more than 500.",
+  "choiceExplanations": {
+   "D": "The counts are 1,400 and 1,000, a difference of 400."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Main way of travelling to work, by city",
+   "data": {
+    "columns": [
+     "Travel mode",
+     "City P",
+     "City Q"
+    ],
+    "rows": [
+     [
+      "Bus",
+      "24%",
+      "30%"
+     ],
+     [
+      "Train",
+      "31%",
+      "20%"
+     ],
+     [
+      "Car",
+      "35%",
+      "40%"
+     ],
+     [
+      "Bike",
+      "10%",
+      "10%"
+     ],
+     [
+      "Total",
+      "100%",
+      "100%"
+     ],
+     [
+      "Number of respondents",
+      "4,000",
+      "2,500"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "More respondents in City P than in City Q travel by bus."
+    },
+    {
+     "id": "B",
+     "text": "The number of City P respondents who travel by bike exceeds the number of City Q respondents who travel by bike by 150."
+    },
+    {
+     "id": "C",
+     "text": "Exactly half of the City Q respondents travel by bus or by train."
+    },
+    {
+     "id": "D",
+     "text": "The number of City P respondents who travel by car exceeds the number of City Q respondents who travel by car by more than 500."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ }
+]

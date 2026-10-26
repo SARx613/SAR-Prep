@@ -1,0 +1,141 @@
+{
+ "id": "q3-01-lines-angles",
+ "status": "published",
+ "why": "Angle-chasing with crossing and parallel lines is a staple of GRE geometry, in Quantitative Comparison and problem solving alike.",
+ "rule": "A **midpoint** splits a segment into two equal parts.\n\nAngles that together make a straight line add up to 180°; angles around a point add up to 360°. When two lines cross, **opposite (vertical) angles** are equal. Lines crossing at four equal angles are **perpendicular**: each is a 90° **right angle**. An angle below 90° is **acute**; one between 90° and 180° is **obtuse**.\n\n**Parallel lines** never meet. When a third line crosses two parallel lines, both crossings show the same four angles in the same positions: four equal $x^\\circ$ and four equal $y^\\circ$, with $x+y=180$.\n\nA point's distance from a line is measured along the segment that meets the line at a right angle; every other route is longer.",
+ "examples": [
+  {
+   "prompt": "Two lines cross. One of the four angles measures $(3a+5)^\\circ$ and a neighbouring angle measures $(a+35)^\\circ$. Find all four angles.",
+   "steps": [
+    "Neighbouring angles add to 180: $(3a+5)+(a+35)=180$.",
+    "$4a+40=180$, so $a=35$.",
+    "The angles are $3(35)+5=110$ and $35+35=70$; the two opposite angles repeat these values."
+   ],
+   "answer": "110°, 70°, 110°, 70°"
+  },
+  {
+   "prompt": "Two parallel lines are crossed by a third line. One of the eight angles is 40° larger than a neighbouring angle that shares a straight line with it. How large is the larger angle?",
+   "steps": [
+    "Call the smaller angle $x$; the neighbour is $x+40$ and together they make a straight line.",
+    "$x+(x+40)=180$, so $x=70$.",
+    "Every angle is therefore 70° or 110° (four of each)."
+   ],
+   "answer": "110°"
+  }
+ ],
+ "trap": "Figures are not drawn to scale. Two lines that look parallel, or an angle that looks like 90°, are only parallel or right if the text or a marking says so. Straight lines are straight and points sit in the order shown, but lengths and angle sizes must come from the given facts, never from your eye.",
+ "checks": [
+  {
+   "id": "q3-01-lines-angles-c1",
+   "lessonId": "q3-01-lines-angles",
+   "difficulty": 1,
+   "stem": "Two lines intersect. One of the four angles measures 125°. What is the measure of the angle opposite it?",
+   "explanation": "Opposite (vertical) angles are equal, so the angle opposite 125° is also 125°.",
+   "estSeconds": 45,
+   "skills": [
+    "lines-angles"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 125
+   }
+  },
+  {
+   "id": "q3-01-lines-angles-c2",
+   "lessonId": "q3-01-lines-angles",
+   "difficulty": 2,
+   "stem": "Two lines intersect and one of the four angles measures 52°. Which of the following could be the measure of another of the four angles?",
+   "explanation": "Opposite angles equal 52°, and the neighbours measure $180-52=128$. Only 52° appears among the choices (128° is not offered).",
+   "choiceExplanations": {
+    "A": "No angle of 38° is formed: the four angles are 52°, 128°, 52°, 128°.",
+    "C": "That would need perpendicular lines, but the angles are 52° and 128°.",
+    "D": "That is $90+52$; neighbours of 52° measure $180-52=128$.",
+    "E": "Each angle formed by two crossing lines is less than 180°."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "lines-angles"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "38°"
+     },
+     {
+      "id": "B",
+      "text": "52°"
+     },
+     {
+      "id": "C",
+      "text": "90°"
+     },
+     {
+      "id": "D",
+      "text": "142°"
+     },
+     {
+      "id": "E",
+      "text": "308°"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q3-01-lines-angles-c3",
+   "lessonId": "q3-01-lines-angles",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Perpendicular lines make four equal angles of 90° each, so the largest is 90°. The quantities are equal.",
+   "estSeconds": 45,
+   "skills": [
+    "lines-angles"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The measure of the largest angle formed by two perpendicular lines",
+    "quantityB": "90"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

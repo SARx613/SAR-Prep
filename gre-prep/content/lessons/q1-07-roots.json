@@ -1,0 +1,138 @@
+{
+ "id": "q1-07-roots",
+ "status": "published",
+ "why": "Square roots appear in simplification, QC comparisons and in geometry and statistics later on.",
+ "rule": "The symbol $\\sqrt{n}$ means the **nonnegative** number whose square is $n$: $\\sqrt{81} = 9$, not $\\pm9$. For $a,b\\ge0$:\n\n- $(\\sqrt{a})^2 = a$ and $\\sqrt{a^2} = a$\n- $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$ and $\\sqrt{\\dfrac{a}{b}} = \\dfrac{\\sqrt{a}}{\\sqrt{b}}$\n\nSimplify by pulling out perfect squares: $\\sqrt{54} = \\sqrt{9\\cdot6} = 3\\sqrt{6}$. Multiples of the same root combine by their coefficients: $4\\sqrt{3}+2\\sqrt{3} = 6\\sqrt{3}$, but $\\sqrt{2}+\\sqrt{3}$ does not combine. A larger number has a larger root, so compare with perfect squares (or cubes): $36<40<49$ gives $6<\\sqrt{40}<7$.\n\nThe cube root $\\sqrt[3]{n}$ cubes back to $n$; odd-order roots exist for every real number ($\\sqrt[3]{-8} = -2$), even-order roots only for $n\\ge0$.",
+ "examples": [
+  {
+   "prompt": "Simplify $\\sqrt{72}$.",
+   "steps": [
+    "$72 = 36\\cdot2$.",
+    "$\\sqrt{72} = \\sqrt{36}\\cdot\\sqrt{2} = 6\\sqrt{2}$."
+   ],
+   "answer": "$6\\sqrt{2}$"
+  },
+  {
+   "prompt": "Compute $\\dfrac{\\sqrt{45}}{\\sqrt{5}}$.",
+   "steps": [
+    "Combine: $\\sqrt{\\frac{45}{5}} = \\sqrt{9}$."
+   ],
+   "answer": "3"
+  }
+ ],
+ "trap": "$\\sqrt{a+b}\\ne\\sqrt{a}+\\sqrt{b}$: $\\sqrt{36+64} = 10$, not $6+8$. And $\\sqrt{x^2}$ is $x$ only when $x\\ge0$ (for $x=-3$ it is 3).",
+ "checks": [
+  {
+   "id": "q1-07-roots-c1",
+   "lessonId": "q1-07-roots",
+   "difficulty": 1,
+   "stem": "What is the value of $\\sqrt{144}$?",
+   "explanation": "$12\\cdot12 = 144$ and the symbol $\\sqrt{\\ }$ means the nonnegative root, so $\\sqrt{144} = 12$.",
+   "estSeconds": 45,
+   "skills": [
+    "roots"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 12
+   }
+  },
+  {
+   "id": "q1-07-roots-c2",
+   "lessonId": "q1-07-roots",
+   "difficulty": 2,
+   "stem": "Which of the following is equal to $\\sqrt{48}$?",
+   "explanation": "Pull out the largest perfect square: $\\sqrt{48} = \\sqrt{16\\cdot3} = \\sqrt{16}\\cdot\\sqrt{3} = 4\\sqrt{3}$.",
+   "choiceExplanations": {
+    "A": "$(2\\sqrt{3})^2 = 12$, not 48: this is $\\sqrt{12}$.",
+    "C": "This is $\\sqrt{72}$, since $36\\cdot2 = 72$.",
+    "D": "This divides 48 by 4 instead of taking a root.",
+    "E": "This halves 48 instead of taking a root."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "roots"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2\\sqrt{3}$"
+     },
+     {
+      "id": "B",
+      "text": "$4\\sqrt{3}$"
+     },
+     {
+      "id": "C",
+      "text": "$6\\sqrt{2}$"
+     },
+     {
+      "id": "D",
+      "text": "$12$"
+     },
+     {
+      "id": "E",
+      "text": "$24$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q1-07-roots-c3",
+   "lessonId": "q1-07-roots",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\sqrt{16+9} = \\sqrt{25} = 5$, but $\\sqrt{16}+\\sqrt{9} = 4+3 = 7$. A root of a sum is not the sum of the roots. B is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "roots"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\sqrt{16+9}$",
+    "quantityB": "$\\sqrt{16}+\\sqrt{9}$"
+   },
+   "answer": {
+    "choice": "B"
+   }
+  }
+ ]
+}

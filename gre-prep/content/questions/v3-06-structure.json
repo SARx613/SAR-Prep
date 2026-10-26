@@ -1,0 +1,932 @@
+[
+ {
+  "id": "v3-06-structure-01",
+  "lessonId": "v3-06-structure",
+  "difficulty": 1,
+  "stem": "In the second paragraph, select the sentence that draws a conclusion from the evidence given before it.",
+  "explanation": "'For this reason' marks a conclusion; the sentences before it supply the studies and surveys it rests on.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "passageId": "v3-bike-lanes",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "For this reason, the dispute should be approached less as a clash of interests than as a question that counting can answer."
+  }
+ },
+ {
+  "id": "v3-06-structure-02",
+  "lessonId": "v3-06-structure",
+  "difficulty": 1,
+  "stem": "In the second paragraph, select the sentence that marks a shift from reported results to a note of caution.",
+  "explanation": "'These reports are encouraging, but ...' turns from the reported results of the first paragraph to qualification.",
+  "estSeconds": 61,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "passageId": "v3-school-start",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "These reports are encouraging, but they should be handled with care."
+  }
+ },
+ {
+  "id": "v3-06-structure-03",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Sentence 1 reports the result, 'Yet' challenges the executives' reading, and the last sentence proposes a comparison that would settle it.",
+  "choiceExplanations": {
+   "A": "Only one program is discussed.",
+   "C": "There is one case, and it is used to question a claim.",
+   "D": "No history is given beyond the first-year result.",
+   "E": "The direction is reversed: the claim is questioned, not defended."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Two loyalty programs are compared and the cheaper one is recommended."
+    },
+    {
+     "id": "B",
+     "text": "A result is reported, its interpretation is challenged, and a better test is proposed."
+    },
+    {
+     "id": "C",
+     "text": "A theory is stated and then illustrated with several cases."
+    },
+    {
+     "id": "D",
+     "text": "A chain's history is traced from its founding to the present."
+    },
+    {
+     "id": "E",
+     "text": "An executive's claim is defended against a series of objections."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-04",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "The second paragraph is related to the first in that it",
+  "explanation": "'However' opens the second paragraph by turning to studies that cut against the merchants' expectation, and then questions their estimate of how customers arrive.",
+  "choiceExplanations": {
+   "A": "No history is given.",
+   "B": "The second paragraph disagrees with the premise rather than elaborating it.",
+   "C": "It does not add a further example of the fear; it questions its basis.",
+   "E": "The first paragraph does state the problem: shopkeepers' protests."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "passageId": "v3-bike-lanes",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "supplies the history of the dispute described in the first"
+    },
+    {
+     "id": "B",
+     "text": "restates the first paragraph's claim in more detail"
+    },
+    {
+     "id": "C",
+     "text": "offers a further example of the fear described in the first"
+    },
+    {
+     "id": "D",
+     "text": "presents evidence that challenges an assumption behind the concern raised in the first"
+    },
+    {
+     "id": "E",
+     "text": "proposes a solution to a problem the first does not mention"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-05",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "In the third paragraph, select the sentence that signals caution about the view presented in the second paragraph.",
+  "explanation": "'It would be premature, however' warns against over-reacting to the recent reviews.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "passageId": "v3-antibiotics",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 2
+  },
+  "answer": {
+   "sentence": "It would be premature, however, to replace one rule with its opposite."
+  }
+ },
+ {
+  "id": "v3-06-structure-06",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Paragraph 1: the old rule. Paragraph 2: the challenge. Paragraph 3: 'premature, however' qualification and a conditional conclusion.",
+  "choiceExplanations": {
+   "A": "No costs are compared, and no solutions to a problem are offered.",
+   "B": "No test is described; recent reviews are cited as questioning a rule.",
+   "C": "The author finds the old advice 'never well grounded' and warns against the opposite rule; neither is equally supported.",
+   "E": "The passage gives a brief history but concludes with a judgment about duration, not a prediction."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-antibiotics",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A problem is described, two solutions are compared, and the cheaper one is recommended."
+    },
+    {
+     "id": "B",
+     "text": "A hypothesis is proposed, tested and confirmed."
+    },
+    {
+     "id": "C",
+     "text": "Two views are presented and judged equally well supported."
+    },
+    {
+     "id": "D",
+     "text": "A conventional view is stated, challenged by a competing view, and then qualified in favor of a more conditional conclusion."
+    },
+    {
+     "id": "E",
+     "text": "A historical survey ends with a prediction."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-07",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "The second paragraph is related to the first in that it",
+  "explanation": "The first paragraph proposes an explanation; the second reports resistance and how the evidence overcame it.",
+  "choiceExplanations": {
+   "A": "The second paragraph concerns the same explanation.",
+   "B": "It does not give an example; it questions the explanation.",
+   "D": "It adds an objection and its resolution.",
+   "E": "No experiment is recommended; evidence has already been reported."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-reversals",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "presents a second, unrelated discovery"
+    },
+    {
+     "id": "B",
+     "text": "gives a detailed example of the observation in the first"
+    },
+    {
+     "id": "C",
+     "text": "describes an objection to the explanation proposed in the first and the evidence that overcame it"
+    },
+    {
+     "id": "D",
+     "text": "restates the first paragraph's conclusion in different words"
+    },
+    {
+     "id": "E",
+     "text": "recommends an experiment to test the explanation"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-08",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "In the second paragraph, select the sentence that supplies the evidence that settled the dispute.",
+  "explanation": "'The decisive evidence was ...' states what settled the matter. The sentence after it explains why it defeats the objection.",
+  "estSeconds": 69,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-reversals",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "The decisive evidence was that rocks of the same age, from widely separated continents and made of different minerals, showed the same pattern of reversals."
+  }
+ },
+ {
+  "id": "v3-06-structure-09",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes a function of the second paragraph?",
+  "explanation": "The second paragraph opens by urging care and goes on to suggest another cause (attention to students). It does not challenge the biology.",
+  "choiceExplanations": {
+   "C": "The second paragraph never disputes the claim about teenagers' clocks; it questions the evidence from districts."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-school-start",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It tempers the optimism of the end of the first paragraph."
+    },
+    {
+     "id": "B",
+     "text": "It offers an alternative explanation for the results reported in the first paragraph."
+    },
+    {
+     "id": "C",
+     "text": "It refutes the biological claim made by proponents."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-10",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "The last sentence of the passage serves primarily to",
+  "explanation": "'The two accounts predict different things' is followed by what differs: only the first implies a decline in people who once navigated well.",
+  "choiceExplanations": {
+   "A": "Only two accounts are discussed.",
+   "B": "It introduces a difference between them rather than repeating the evidence.",
+   "C": "The author does not decide between the accounts.",
+   "E": "No traveler is described."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-nav-apps",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "introduce a third explanation of the reported pattern"
+    },
+    {
+     "id": "B",
+     "text": "restate the evidence for the first explanation"
+    },
+    {
+     "id": "C",
+     "text": "conclude that the second explanation is correct"
+    },
+    {
+     "id": "D",
+     "text": "point out a way of telling the two explanations apart"
+    },
+    {
+     "id": "E",
+     "text": "give an example of a traveler who stopped using an app"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-11",
+  "lessonId": "v3-06-structure",
+  "difficulty": 5,
+  "stem": "The author's statement that 'the difference in spending may have existed before the card did' serves primarily to",
+  "explanation": "'In other words' restates the previous point in terms of what it implies for the executives' claim: the gap may predate the card.",
+  "choiceExplanations": {
+   "A": "It follows from, rather than contradicts, the previous sentence.",
+   "B": "It is a conclusion, not an example of a shopper.",
+   "D": "It does the opposite: it undermines the executives.",
+   "E": "It is not the last word; the following sentence proposes a test."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "passageId": "v3-loyalty-card",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "introduce evidence that contradicts the observation just made"
+    },
+    {
+     "id": "B",
+     "text": "give an example of the shoppers described in the previous sentence"
+    },
+    {
+     "id": "C",
+     "text": "spell out a consequence of the preceding observation for the executives' conclusion"
+    },
+    {
+     "id": "D",
+     "text": "defend the executives' reasoning against criticism"
+    },
+    {
+     "id": "E",
+     "text": "summarize the passage as a whole"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-12",
+  "lessonId": "v3-06-structure",
+  "difficulty": 5,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes how the two accounts relate to each other?",
+  "explanation": "Both accounts address the same report; they differ on whether skill was lost or never developed.",
+  "choiceExplanations": {
+   "B": "Both accounts explain the same evidence; the second does not replace it."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3-nav-apps",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They explain the same observation in different ways."
+    },
+    {
+     "id": "B",
+     "text": "The second is offered as a replacement for the evidence the first relies on."
+    },
+    {
+     "id": "C",
+     "text": "They differ in what they imply about people's skills before they adopted the apps."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-13",
+  "lessonId": "v3-06-structure",
+  "difficulty": 1,
+  "stem": "Select the sentence that draws a practical recommendation from the preceding discussion.",
+  "explanation": "The closing sentence turns the discussion into advice ('the safest course is to monitor ground temperature'). Earlier sentences state the old rule, describe the damage, report a view or predict a change.",
+  "estSeconds": 60,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-permafrost-footings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "For now, the safest course is to monitor ground temperature before any building is designed."
+  }
+ },
+ {
+  "id": "v3-06-structure-14",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "Select the sentence that marks the point where the passage turns from a common view to a complication of it.",
+  "explanation": "The first sentence gives the familiar story. 'The picture is incomplete' is the turn; everything after it supplies the complications.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-cleaner-fish",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "The picture is incomplete."
+  }
+ },
+ {
+  "id": "v3-06-structure-15",
+  "lessonId": "v3-06-structure",
+  "difficulty": 2,
+  "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Paragraph 1 describes the practice, gives the economists' explanation, and raises a problem ('would not last a year'). Paragraph 2 offers reputation as what holds groups together.",
+  "choiceExplanations": {
+   "A": "No cases are tested; the passage is explanatory.",
+   "C": "The reputation explanation is the author's, not one of two equals.",
+   "D": "Only one practice is discussed, and it is not a series of examples.",
+   "E": "The passage is not chronological."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-savings-circles",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A theory is stated, tested against several cases, and then revised."
+    },
+    {
+     "id": "B",
+     "text": "A practice and a common explanation of its appeal are presented, a difficulty with that explanation is raised, and another factor is then offered to resolve it."
+    },
+    {
+     "id": "C",
+     "text": "Two competing explanations are described and given equal weight."
+    },
+    {
+     "id": "D",
+     "text": "A general principle is illustrated with a series of examples."
+    },
+    {
+     "id": "E",
+     "text": "A historical development is traced from its origins to the present."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-16",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "The third paragraph is related to the second in that it",
+  "explanation": "The second paragraph gives the criticisms. The third says they do not make the networks unimportant, only that claims outran evidence, and it names a field experiment that would help.",
+  "choiceExplanations": {
+   "A": "The third paragraph discusses claims and tests, not an example of a transfer.",
+   "B": "No new evidence appears; the paragraph calls for experiments not yet done.",
+   "C": "It continues the same topic, the strength of the evidence.",
+   "E": "The third paragraph does not endorse the popular account."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-fungal-networks",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "gives an example of the transfers criticized in the second paragraph"
+    },
+    {
+     "id": "B",
+     "text": "offers new evidence that answers the second paragraph's criticisms"
+    },
+    {
+     "id": "C",
+     "text": "introduces a topic unrelated to the second paragraph"
+    },
+    {
+     "id": "D",
+     "text": "draws a measured conclusion from the criticisms and says how the question could be settled"
+    },
+    {
+     "id": "E",
+     "text": "restates the popular account that the second paragraph questions"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-17",
+  "lessonId": "v3-06-structure",
+  "difficulty": 3,
+  "stem": "The author notes that families may hire outsiders 'only when the firm is already healthy enough to attract capable candidates' primarily in order to",
+  "explanation": "The sentence begins with 'Yet' and calls the comparison imperfect. The firm's prior health could explain the growth, so the sentence qualifies the evidence for outsiders.",
+  "choiceExplanations": {
+   "B": "The conclusion explicitly does not exclude any kind of leader.",
+   "C": "The downturn point is made in the first sentence and is unrelated.",
+   "D": "The author does not conclude that heirs are better; the sentence only qualifies the comparison.",
+   "E": "The sentence concerns hiring outsiders, not founders."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-family-firms",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "suggest another possible explanation for the faster growth attributed to outside managers"
+    },
+    {
+     "id": "B",
+     "text": "argue that families should never hire outside managers"
+    },
+    {
+     "id": "C",
+     "text": "explain why family firms outlast their rivals in downturns"
+    },
+    {
+     "id": "D",
+     "text": "show that heirs are better leaders than outsiders"
+    },
+    {
+     "id": "E",
+     "text": "give an example of a founder's attachment to the firm"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-18",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "Consider each of the three answer choices separately and select all that apply. Which of the following describes what the sentence 'Critics conclude from such cases that schooling is irrelevant to revival.' does in the passage?",
+  "explanation": "The sentence reports what critics infer from the earlier cases ('such cases') and is rejected in the next sentence ('too hasty'). It is not evidence for the author's view.",
+  "choiceExplanations": {
+   "C": "The author's conclusion rests on the argument about purpose outside school, and the author calls the critics' conclusion hasty."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-immersion-schooling",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw4",
+    "solver-bw4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It reports a view that the author goes on to reject."
+    },
+    {
+     "id": "B",
+     "text": "It reports a conclusion that others draw from the cases described in the preceding sentence."
+    },
+    {
+     "id": "C",
+     "text": "It supplies the evidence on which the author's own conclusion rests."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-19",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "In the second paragraph, select the sentence that concedes a limitation of a method while affirming its value.",
+  "explanation": "The final sentence concedes that the method is laborious and its results partial ('but'), and then affirms that it restores muffled voices.",
+  "estSeconds": 90,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-archive-silences",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "The method is laborious and its results are partial, but it restores voices that the archive has otherwise muffled."
+  }
+ },
+ {
+  "id": "v3-06-structure-20",
+  "lessonId": "v3-06-structure",
+  "difficulty": 5,
+  "stem": "The author states that the survey 'did not follow anyone long enough to say whether that happens' primarily in order to",
+  "explanation": "The clause follows the possibility that first-time visitors return, and it admits the survey cannot say whether that happens. Its function is to mark a limit on what the survey shows.",
+  "choiceExplanations": {
+   "A": "That claim is a survey finding; this clause concerns what the survey did not measure.",
+   "B": "Too extreme; the author goes on to use the survey's findings.",
+   "C": "The recommendation comes in the following sentence and rests on the survey's findings.",
+   "E": "Reversed: the sentence says the policy is not shown to be pointless."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-structure"
+  ],
+  "passageId": "v3w2-free-evenings",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "support the claim that many visitors would have paid"
+    },
+    {
+     "id": "B",
+     "text": "criticize the survey as useless for any purpose"
+    },
+    {
+     "id": "C",
+     "text": "introduce a recommendation for outreach"
+    },
+    {
+     "id": "D",
+     "text": "acknowledge that the survey cannot rule out a benefit that the author has just described"
+    },
+    {
+     "id": "E",
+     "text": "show that free evenings have been proved ineffective"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ }
+]

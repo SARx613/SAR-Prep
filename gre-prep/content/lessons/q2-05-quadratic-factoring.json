@@ -1,0 +1,170 @@
+{
+ "id": "q2-05-quadratic-factoring",
+ "status": "published",
+ "why": "Many GRE equations are quadratics in disguise, and factoring is usually the fastest way to the solutions, or to the sign and size information a comparison needs.",
+ "rule": "A quadratic equation $ax^2+bx+c=0$ ($a\\ne0$) has zero, one or two real solutions. To solve by factoring:\n1. Move every term to one side, so the other side is 0.\n2. Factor.\n3. Set each factor equal to 0: a product is 0 only when one of its factors is 0.\n\nFor $x^2+bx+c$, look for two numbers with product $c$ and sum $b$. When $a\\ne1$, try $(px+q)(rx+s)$ with $pr=a$, $qs=c$, $ps+qr=b$, and check by expanding.\n\nA repeated factor, as in $(x-3)^2=0$, gives only one solution.",
+ "examples": [
+  {
+   "prompt": "Solve $x^2-5x-14=0$.",
+   "steps": [
+    "Find two numbers with product $-14$ and sum $-5$: $-7$ and $2$.",
+    "Factor: $(x-7)(x+2)=0$.",
+    "Set each factor to 0: $x=7$ or $x=-2$."
+   ],
+   "answer": "$x=7$ or $x=-2$"
+  },
+  {
+   "prompt": "Solve $6x^2+x=2$.",
+   "steps": [
+    "Move everything to one side: $6x^2+x-2=0$.",
+    "Factor: $(3x+2)(2x-1)=0$. (Check: $6x^2-3x+4x-2=6x^2+x-2$.)",
+    "$3x+2=0$ gives $x=-\\dfrac23$; $2x-1=0$ gives $x=\\dfrac12$."
+   ],
+   "answer": "$x=-\\dfrac23$ or $x=\\dfrac12$"
+  }
+ ],
+ "trap": "The zero-product rule needs a **0** on one side: from $(x-2)(x+3)=6$ you cannot conclude $x-2=6$. And never divide both sides by $x$ in $x^2=3x$: you lose the solution $x=0$; instead write $x(x-3)=0$.",
+ "checks": [
+  {
+   "id": "q2-05-quadratic-factoring-c1",
+   "lessonId": "q2-05-quadratic-factoring",
+   "difficulty": 1,
+   "stem": "What is the positive solution of $x^2-3x-10=0$?",
+   "explanation": "$x^2-3x-10=(x-5)(x+2)$, so $x=5$ or $x=-2$. The positive solution is $5$.",
+   "estSeconds": 60,
+   "skills": [
+    "quadratic-factoring"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 5
+   }
+  },
+  {
+   "id": "q2-05-quadratic-factoring-c2",
+   "lessonId": "q2-05-quadratic-factoring",
+   "difficulty": 2,
+   "stem": "Which of the following are solutions of $x^2-x-12=0$? Indicate all such numbers.",
+   "explanation": "$x^2-x-12=(x-4)(x+3)$, so $x=4$ or $x=-3$.",
+   "choiceExplanations": {
+    "A": "$(-4)^2-(-4)-12=8\\ne0$.",
+    "C": "$9-3-12=-6\\ne0$.",
+    "E": "$12$ is the constant term, not a solution."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "quadratic-factoring"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-4$"
+     },
+     {
+      "id": "B",
+      "text": "$-3$"
+     },
+     {
+      "id": "C",
+      "text": "$3$"
+     },
+     {
+      "id": "D",
+      "text": "$4$"
+     },
+     {
+      "id": "E",
+      "text": "$12$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q2-05-quadratic-factoring-c3",
+   "lessonId": "q2-05-quadratic-factoring",
+   "difficulty": 2,
+   "stem": "What are all the solutions of $x^2=7x$?",
+   "explanation": "Move $7x$ across: $x^2-7x=0$, so $x(x-7)=0$ and $x=0$ or $x=7$.",
+   "choiceExplanations": {
+    "A": "Dividing by $x$ loses the solution $x=0$.",
+    "B": "The factor $x-7$ also gives a solution.",
+    "D": "The second factor is $x-7$, so the solution is $+7$.",
+    "E": "$x=-7$ gives $49\\ne-49$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "quadratic-factoring"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$7$ only"
+     },
+     {
+      "id": "B",
+      "text": "$0$ only"
+     },
+     {
+      "id": "C",
+      "text": "$0$ and $7$"
+     },
+     {
+      "id": "D",
+      "text": "$-7$ and $0$"
+     },
+     {
+      "id": "E",
+      "text": "$-7$ and $7$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}

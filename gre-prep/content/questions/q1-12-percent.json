@@ -1,0 +1,818 @@
+[
+ {
+  "id": "q1-12-percent-01",
+  "lessonId": "q1-12-percent",
+  "difficulty": 1,
+  "stem": "What is $40\\%$ of 85?",
+  "explanation": "$0.4\\cdot85 = 34$.",
+  "estSeconds": 45,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 34
+  }
+ },
+ {
+  "id": "q1-12-percent-02",
+  "lessonId": "q1-12-percent",
+  "difficulty": 1,
+  "stem": "Which of the following equals $0.07$?",
+  "explanation": "Multiply by 100: $0.07 = \\frac{7}{100} = 7\\%$.",
+  "choiceExplanations": {
+   "A": "$0.07\\% = 0.0007$.",
+   "B": "$0.7\\% = 0.007$.",
+   "D": "$70\\% = 0.7$.",
+   "E": "$700\\% = 7$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.07\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$0.7\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$7\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$70\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$700\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-03",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "What is $8\\%$ of 350?",
+  "explanation": "$8\\% = 0.08$ and $0.08\\cdot350 = 28$.",
+  "choiceExplanations": {
+   "A": "This is $0.8\\%$ of 350: the decimal point is one place too far.",
+   "C": "This divides 350 by 8 instead of multiplying by 0.08.",
+   "D": "This is $80\\%$ of 350.",
+   "E": "This is $350\\div0.08$: it finds a whole, not a part."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2.8"
+    },
+    {
+     "id": "B",
+     "text": "28"
+    },
+    {
+     "id": "C",
+     "text": "43.75"
+    },
+    {
+     "id": "D",
+     "text": "280"
+    },
+    {
+     "id": "E",
+     "text": "4,375"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-04",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$0.5\\% = 0.005$, and $0.005\\cdot200 = 1$. $5\\% = 0.05$, and $0.05\\cdot20 = 1$. Equal.",
+  "estSeconds": 75,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$0.5\\%$ of 200",
+   "quantityB": "$5\\%$ of 20"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-12-percent-05",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $35\\%$? Indicate all such numbers.",
+  "explanation": "$35\\% = \\frac{35}{100} = 0.35 = \\frac{7}{20}$ (divide by 5). $0.035 = 3.5\\%$ and $3.5 = 350\\%$.",
+  "choiceExplanations": {
+   "A": "$0.035 = 3.5\\%$.",
+   "D": "$3.5 = 350\\%$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.035$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{7}{20}$"
+    },
+    {
+     "id": "C",
+     "text": "$0.35$"
+    },
+    {
+     "id": "D",
+     "text": "$3.5$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{35}{100}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-06",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "9 is what percent of 40? Enter your answer as a percent.",
+  "explanation": "$\\frac{9}{40} = 0.225$, and $0.225\\cdot100 = 22.5$.",
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 22.5
+  }
+ },
+ {
+  "id": "q1-12-percent-07",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "18 is $30\\%$ of what number?",
+  "explanation": "Let the number be $w$: $0.3w = 18$, so $w = \\frac{18}{0.3} = 60$.",
+  "choiceExplanations": {
+   "A": "This is $30\\%$ of 18, the reverse relationship.",
+   "B": "This subtracts: $30-18$.",
+   "C": "This multiplies 18 by 3 instead of dividing by 0.3.",
+   "E": "This multiplies 18 by 30."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5.4"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "54"
+    },
+    {
+     "id": "D",
+     "text": "60"
+    },
+    {
+     "id": "E",
+     "text": "540"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-08",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x = 1.5y$ and $y>0$, so $x$ is larger than $y$. A percent over 100 means more than the whole.",
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$y$",
+   "common": "$x$ is $150\\%$ of $y$, and $y>0$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-12-percent-09",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "A club has 60 members. $25\\%$ of them are seniors, and $40\\%$ of the members who are not seniors are juniors. How many juniors are in the club?",
+  "explanation": "Non-seniors: $60-0.25\\cdot60 = 60-15 = 45$. Juniors: $0.4\\cdot45 = 18$. (The 40% applies to 45, not to 60.)",
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
+  }
+ },
+ {
+  "id": "q1-12-percent-10",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "If $20\\%$ of $x$ equals $30\\%$ of $y$, where $x,y>0$, then $y$ is what percent of $x$?",
+  "explanation": "$0.2x = 0.3y$, so $y = \\frac{0.2}{0.3}x = \\frac{2}{3}x$, which is $66\\frac{2}{3}\\%$ of $x$.",
+  "choiceExplanations": {
+   "A": "This copies the 20% from the problem.",
+   "B": "This is $\\frac{30-20}{30}$, a difference, not the ratio.",
+   "C": "This averages or adds the percents; it does not follow from the equation.",
+   "E": "This is $x$ as a percent of $y$: the base is swapped."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$20\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$33\\frac{1}{3}\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$50\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$66\\frac{2}{3}\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$150\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-11",
+  "lessonId": "q1-12-percent",
+  "difficulty": 5,
+  "stem": "If $150\\%$ of $A$ equals $60\\%$ of $B$, where $A,B>0$, then $B$ is what percent of $A$? Enter your answer as a percent.",
+  "explanation": "$1.5A = 0.6B$, so $B = \\frac{1.5}{0.6}A = 2.5A$, which is $250\\%$ of $A$.",
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 250
+  }
+ },
+ {
+  "id": "q1-12-percent-12",
+  "lessonId": "q1-12-percent",
+  "difficulty": 5,
+  "stem": "Which of the following are greater than $30\\%$ of 90? Indicate all such quantities.",
+  "explanation": "$30\\%$ of 90 is $27$. Evaluate each: $25\\%$ of 120 is 30; $40\\%$ of 60 is 24; $60\\%$ of 50 is 30; $0.3\\%$ of 9,000 is 27 (equal, not greater); $150\\%$ of 20 is 30.",
+  "choiceExplanations": {
+   "B": "$0.4\\cdot60 = 24<27$.",
+   "D": "$0.003\\cdot9000 = 27$, which equals 27, not more."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$25\\%$ of 120"
+    },
+    {
+     "id": "B",
+     "text": "$40\\%$ of 60"
+    },
+    {
+     "id": "C",
+     "text": "$60\\%$ of 50"
+    },
+    {
+     "id": "D",
+     "text": "$0.3\\%$ of 9,000"
+    },
+    {
+     "id": "E",
+     "text": "$150\\%$ of 20"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-13",
+  "lessonId": "q1-12-percent",
+  "difficulty": 1,
+  "stem": "What is $25\\%$ of 48?",
+  "explanation": "$25\\% = \\frac{1}{4}$, and $\\frac{1}{4}\\cdot48 = 12$.",
+  "estSeconds": 45,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-12-percent-14",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "What is $0.6\\%$ of 500?",
+  "explanation": "$0.6\\% = \\frac{0.6}{100} = 0.006$. Then $0.006\\cdot500 = 3$.",
+  "choiceExplanations": {
+   "A": "This is $0.06\\%$ of 500: one decimal place too many.",
+   "C": "This is $6\\%$ of 500: the percent sign was treated as if it applied to 0.6 tenths.",
+   "D": "This is $60\\%$ of 500.",
+   "E": "This is $600\\%$ of 500."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.3"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "30"
+    },
+    {
+     "id": "D",
+     "text": "300"
+    },
+    {
+     "id": "E",
+     "text": "3,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-15",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$3\\%$ of 400 is $0.03\\cdot400 = 12$. $30\\%$ of 50 is $0.3\\cdot50 = 15$. Quantity B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$3\\%$ of 400",
+   "quantityB": "$30\\%$ of 50"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-12-percent-16",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "15 is $6\\%$ of what number?",
+  "explanation": "$0.06\\cdot w = 15$, so $w = \\frac{15}{0.06} = \\frac{1{,}500}{6} = 250$.",
+  "estSeconds": 75,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 250
+  }
+ },
+ {
+  "id": "q1-12-percent-17",
+  "lessonId": "q1-12-percent",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $20\\%$ of 60? Indicate all such quantities.",
+  "explanation": "$20\\%$ of 60 is $0.2\\cdot60 = 12$. Check each choice: $0.05\\cdot240 = 12$, $0.4\\cdot30 = 12$ and $0.002\\cdot6{,}000 = 12$. But $25\\%$ of 60 is 15 and $120\\%$ of 12 is 14.4.",
+  "choiceExplanations": {
+   "B": "This is 15, not 12.",
+   "E": "This is $1.2\\cdot12 = 14.4$, not 12."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\%$ of 240"
+    },
+    {
+     "id": "B",
+     "text": "$25\\%$ of 60"
+    },
+    {
+     "id": "C",
+     "text": "$40\\%$ of 30"
+    },
+    {
+     "id": "D",
+     "text": "$0.2\\%$ of 6,000"
+    },
+    {
+     "id": "E",
+     "text": "$120\\%$ of 12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-18",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "The number $x$ is $30\\%$ of $y$, and $y$ is $40\\%$ of $z$. $x$ is what percent of $z$?",
+  "explanation": "$x = 0.3y$ and $y = 0.4z$, so $x = 0.3\\cdot0.4z = 0.12z$. That is $12\\%$ of $z$.",
+  "choiceExplanations": {
+   "A": "The decimals were multiplied as $0.3\\cdot0.4 = 0.012$: the decimal point is misplaced.",
+   "C": "$x$ is $30\\%$ of $y$, not of $z$.",
+   "D": "The percents were added; successive percents multiply.",
+   "E": "$0.3\\cdot0.4 = 0.12$ is $12\\%$, not $120\\%$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$12\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$30\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$70\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$120\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-12-percent-19",
+  "lessonId": "q1-12-percent",
+  "difficulty": 4,
+  "stem": "A survey has 200 respondents. $60\\%$ of the respondents are women. Among the women, $30\\%$ answered yes, and among the men, $20\\%$ answered yes. How many respondents answered yes?",
+  "explanation": "Women: $0.6\\cdot200 = 120$, and $0.3\\cdot120 = 36$ answered yes. Men: $200-120 = 80$, and $0.2\\cdot80 = 16$ answered yes. Total: $36+16 = 52$.",
+  "estSeconds": 100,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 52
+  }
+ },
+ {
+  "id": "q1-12-percent-20",
+  "lessonId": "q1-12-percent",
+  "difficulty": 5,
+  "stem": "In a box of marbles, $35\\%$ are red. Of the marbles that are not red, $40\\%$ are blue, and the remaining 78 marbles are green. How many marbles are in the box?",
+  "explanation": "Not red: $100\\%-35\\% = 65\\%$. Of these, $40\\%$ are blue, so $60\\%$ are green: $0.6\\cdot65\\% = 39\\%$ of all marbles are green. Then $0.39\\cdot T = 78$ gives $T = 200$. Check: 70 red, 52 blue and 78 green make 200.",
+  "estSeconds": 120,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 200
+  }
+ }
+]

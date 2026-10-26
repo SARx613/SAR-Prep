@@ -1,0 +1,140 @@
+{
+ "id": "q2-02-exponent-rules",
+ "status": "published",
+ "why": "Exponent manipulation sits inside many Quantitative Comparison and numeric-entry items, especially ones that look huge until you rewrite them over a common base.",
+ "rule": "For nonzero bases and integer exponents:\n- $x^{-a}=\\dfrac1{x^a}$ and $x^0=1$\n- same base: $x^ax^b=x^{a+b}$, $\\dfrac{x^a}{x^b}=x^{a-b}$, $(x^a)^b=x^{ab}$\n- same exponent: $x^ay^a=(xy)^a$, $\\left(\\dfrac xy\\right)^a=\\dfrac{x^a}{y^a}$\n\nIf $x>0$, $x\\ne1$ and $x^a=x^b$, then $a=b$: rewrite both sides over one base, then equate exponents.\n\nRules work only for products, quotients and powers. They fail for sums: $(x+y)^2\\ne x^2+y^2$. Also $(-x)^2=x^2$ but $-x^2$ is negative.",
+ "examples": [
+  {
+   "prompt": "Simplify $\\dfrac{(3a^2)^3\\,a^{-4}}{9a}$.",
+   "steps": [
+    "Power of a product: $(3a^2)^3=27a^6$.",
+    "Multiply by $a^{-4}$: $27a^{6-4}=27a^2$.",
+    "Divide by $9a$: $\\dfrac{27}{9}\\,a^{2-1}$."
+   ],
+   "answer": "$3a$"
+  },
+  {
+   "prompt": "Solve $9^{x}=27^{x-1}$.",
+   "steps": [
+    "Same base 3: $9=3^2$ and $27=3^3$, so $3^{2x}=3^{3(x-1)}$.",
+    "Equal bases, so equal exponents: $2x=3x-3$.",
+    "Subtract $2x$ and add 3 on both sides: $x=3$. Check: $9^3=729=27^2$."
+   ],
+   "answer": "$x=3$"
+  }
+ ],
+ "trap": "Do not mix the rules: $x^2\\cdot x^3=x^5$ (add), but $(x^2)^3=x^6$ (multiply).",
+ "checks": [
+  {
+   "id": "q2-02-exponent-rules-c1",
+   "lessonId": "q2-02-exponent-rules",
+   "difficulty": 1,
+   "stem": "What is the value of $3^{-2}\\cdot3^{5}$?",
+   "explanation": "Same base, add exponents: $3^{-2+5}=3^3=27$.",
+   "estSeconds": 45,
+   "skills": [
+    "exponent-rules"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 27
+   }
+  },
+  {
+   "id": "q2-02-exponent-rules-c2",
+   "lessonId": "q2-02-exponent-rules",
+   "difficulty": 2,
+   "stem": "What is the value of $-3^2+(-3)^2$?",
+   "explanation": "$-3^2$ means $-(3^2)=-9$, while $(-3)^2=9$. The sum is $0$.",
+   "estSeconds": 45,
+   "skills": [
+    "exponent-rules"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 0
+   }
+  },
+  {
+   "id": "q2-02-exponent-rules-c3",
+   "lessonId": "q2-02-exponent-rules",
+   "difficulty": 2,
+   "stem": "Which of the following is equal to $\\dfrac{x^5y^{-2}}{x^2y^{-6}}$?",
+   "explanation": "Subtract exponents of each base: $x^{5-2}=x^3$ and $y^{-2-(-6)}=y^4$.",
+   "choiceExplanations": {
+    "A": "The $-6$ was subtracted as if it were $+6$.",
+    "B": "The subtraction was done in the wrong order.",
+    "D": "The $x$ exponents were added instead of subtracted.",
+    "E": "The exponents were multiplied."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "exponent-rules"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$x^3y^{-8}$"
+     },
+     {
+      "id": "B",
+      "text": "$x^3y^{-4}$"
+     },
+     {
+      "id": "C",
+      "text": "$x^3y^{4}$"
+     },
+     {
+      "id": "D",
+      "text": "$x^7y^{-8}$"
+     },
+     {
+      "id": "E",
+      "text": "$x^{10}y^{12}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}

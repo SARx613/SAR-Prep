@@ -1,0 +1,848 @@
+[
+ {
+  "id": "q2-08-functions-01",
+  "lessonId": "q2-08-functions",
+  "difficulty": 1,
+  "stem": "If $f(x)=4x-7$, what is the value of $f(5)$?",
+  "explanation": "$f(5)=4(5)-7=13$.",
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q2-08-functions-02",
+  "lessonId": "q2-08-functions",
+  "difficulty": 1,
+  "stem": "If $g(x)=x^2+1$, what is the value of $g(-3)$?",
+  "explanation": "$g(-3)=(-3)^2+1=9+1=10$.",
+  "choiceExplanations": {
+   "A": "This reads $(-3)^2$ as $-3^2=-9$.",
+   "B": "This computes $2x+1$ instead of $x^2+1$.",
+   "C": "This computes $x+1$.",
+   "D": "This computes $x^2-1$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-8$"
+    },
+    {
+     "id": "B",
+     "text": "$-5$"
+    },
+    {
+     "id": "C",
+     "text": "$-2$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$10$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-03",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "If $f(x)=x^2-2x$, which of the following is equal to $f(a+2)$?",
+  "explanation": "$f(a+2)=(a+2)^2-2(a+2)=a^2+4a+4-2a-4=a^2+2a$.",
+  "choiceExplanations": {
+   "A": "This is $f(a)+f(2)$, and $f(2)=0$; but $f(a+2)\\ne f(a)+f(2)$.",
+   "B": "This is $f(a)+2$.",
+   "D": "Sign error: $-2(a+2)$ was expanded as $-2a+4$.",
+   "E": "The $-2(a+2)$ part was forgotten."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a^2-2a$"
+    },
+    {
+     "id": "B",
+     "text": "$a^2-2a+2$"
+    },
+    {
+     "id": "C",
+     "text": "$a^2+2a$"
+    },
+    {
+     "id": "D",
+     "text": "$a^2+2a+8$"
+    },
+    {
+     "id": "E",
+     "text": "$a^2+4a+4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-04",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "Which of the following numbers is **not** in the domain of $f(x)=\\dfrac{x+1}{2x-8}$?",
+  "explanation": "The denominator $2x-8$ is 0 when $x=4$.",
+  "choiceExplanations": {
+   "A": "The numerator is 0 here, which is allowed: $f(-1)=0$.",
+   "B": "$f(0)=-\\frac18$ is defined.",
+   "C": "$f(1)=-\\frac13$ is defined.",
+   "E": "$f(8)=\\frac98$ is defined."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-1$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-05",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$f(-2)=5-(-2)^2=1$ and $f(2)=5-2^2=1$. Equal.",
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$f(-2)$",
+   "quantityB": "$f(2)$",
+   "common": "$f(x)=5-x^2$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-08-functions-06",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $f(x)=x^2-4x$ and $f(a)=5$ for a positive number $a$, what is the value of $a$?",
+  "explanation": "$a^2-4a=5$, so $a^2-4a-5=0$ and $(a-5)(a+1)=0$. Since $a>0$, $a=5$.",
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q2-08-functions-07",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $g(x)=x^2-4x+3$, for which of the following values of $x$ does $g(x)=3$? Indicate all such values.",
+  "explanation": "$x^2-4x+3=3$ gives $x^2-4x=0$, so $x(x-4)=0$: $x=0$ or $x=4$.",
+  "choiceExplanations": {
+   "B": "$g(1)=0$.",
+   "C": "$g(2)=-1$.",
+   "D": "$g(3)=0$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-08",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$f(x+y)=(x+y)^2=x^2+2xy+y^2$, while $f(x)+f(y)=x^2+y^2$. The difference is $2xy>0$ for positive $x,y$, so A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$f(x+y)$",
+   "quantityB": "$f(x)+f(y)$",
+   "common": "$f(x)=x^2$, and $x$ and $y$ are positive."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-08-functions-09",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "Which of the following numbers are **not** in the domain of $g(x)=\\dfrac{\\sqrt{x+5}}{x-2}$? Indicate all such numbers.",
+  "explanation": "The domain needs $x+5\\ge0$ (so $x\\ge-5$) and $x\\ne2$. So $-6$ and $2$ are excluded.",
+  "choiceExplanations": {
+   "B": "$x=-5$ gives $\\sqrt0=0$, which is allowed.",
+   "C": "$g(0)=\\frac{\\sqrt5}{-2}$ is defined.",
+   "E": "$g(7)=\\frac{\\sqrt{12}}{5}$ is defined."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-6$"
+    },
+    {
+     "id": "B",
+     "text": "$-5$"
+    },
+    {
+     "id": "C",
+     "text": "$0$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-10",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "The function $f$ is defined by $f(x)=ax+b$ for constants $a$ and $b$. If $f(2)=7$ and $f(-1)=-2$, what is the value of $f(5)$?",
+  "explanation": "$2a+b=7$ and $-a+b=-2$. Subtract: $3a=9$, so $a=3$ and $b=1$. Then $f(5)=3(5)+1=16$.",
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q2-08-functions-11",
+  "lessonId": "q2-08-functions",
+  "difficulty": 5,
+  "stem": "The function $f$ is defined by $f(x)=x^2+kx+c$ for constants $k$ and $c$. If $f(3)=f(-5)$, what is the value of $k$?",
+  "explanation": "$f(3)=9+3k+c$ and $f(-5)=25-5k+c$. Setting them equal, $c$ cancels: $9+3k=25-5k$, so $8k=16$ and $k=2$.",
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-08-functions-12",
+  "lessonId": "q2-08-functions",
+  "difficulty": 5,
+  "stem": "If $f(x)=3x-4$, for how many real numbers $x$ is $f(2x)=2f(x)$?",
+  "explanation": "$f(2x)=6x-4$ and $2f(x)=6x-8$. Setting them equal gives $-4=-8$, which is false for every $x$.",
+  "choiceExplanations": {
+   "B": "The $x$ terms cancel and the leftover statement is false, so no value of $x$ works.",
+   "C": "A linear equation cannot have exactly two solutions.",
+   "D": "A linear equation cannot have exactly three solutions.",
+   "E": "That would need the constants to match; here they differ ($-4$ versus $-8$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "None"
+    },
+    {
+     "id": "B",
+     "text": "One"
+    },
+    {
+     "id": "C",
+     "text": "Two"
+    },
+    {
+     "id": "D",
+     "text": "Three"
+    },
+    {
+     "id": "E",
+     "text": "Infinitely many"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-13",
+  "lessonId": "q2-08-functions",
+  "difficulty": 1,
+  "stem": "If $f(x)=5-2x$, what is the value of $f(-3)$?",
+  "explanation": "Replace $x$ by $-3$, with brackets: $f(-3)=5-2(-3)=5+6=11$.",
+  "estSeconds": 45,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 11
+  }
+ },
+ {
+  "id": "q2-08-functions-14",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "If $f(x)=4x-1$, which of the following is equal to $f(x+2)-f(x)$?",
+  "explanation": "$f(x+2)=4(x+2)-1=4x+7$. Then $f(x+2)-f(x)=(4x+7)-(4x-1)=8$.",
+  "choiceExplanations": {
+   "A": "The input was changed by $2$, so the output changes by $4\\cdot2$, not $4$.",
+   "B": "This is $f(2)$, not the difference.",
+   "D": "This is $f(x+2)$ alone; $f(x)$ was not subtracted.",
+   "E": "The two values were added instead of subtracted."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$8$"
+    },
+    {
+     "id": "D",
+     "text": "$4x+7$"
+    },
+    {
+     "id": "E",
+     "text": "$8x+6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-15",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$f(2a)=4a^2+1$ and $2f(a)=2a^2+2$. If $a=0$, A is $1$ and B is $2$ (B is greater). If $a=1$, A is $5$ and B is $4$ (A is greater). The relationship cannot be determined.",
+  "estSeconds": 80,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$f(2a)$",
+   "quantityB": "$2f(a)$",
+   "common": "$f(x)=x^2+1$ and $a$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-08-functions-16",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $g(x)=x^2-3x$, which of the following is equal to $g(a-1)$?",
+  "explanation": "Replace every $x$ by $(a-1)$: $g(a-1)=(a-1)^2-3(a-1)=a^2-2a+1-3a+3=a^2-5a+4$.",
+  "choiceExplanations": {
+   "A": "The $-3$ was multiplied by $-1$ with the wrong sign: $-3(a-1)=-3a+3$, not $-3a-3$.",
+   "C": "This is $g(a)-1$: the $-1$ was subtracted from the output instead of substituted into the input.",
+   "D": "$(a-1)^2$ was expanded as $a^2+1$ (no middle term).",
+   "E": "The sign of $-3(a-1)$ was flipped to $+3a-3$."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a^2-5a-2$"
+    },
+    {
+     "id": "B",
+     "text": "$a^2-5a+4$"
+    },
+    {
+     "id": "C",
+     "text": "$a^2-3a-1$"
+    },
+    {
+     "id": "D",
+     "text": "$a^2-3a+4$"
+    },
+    {
+     "id": "E",
+     "text": "$a^2+a-2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-17",
+  "lessonId": "q2-08-functions",
+  "difficulty": 3,
+  "stem": "If $f(x)=x^2+1$, which of the following are true for all real numbers $a$ and $b$? Indicate all such statements.",
+  "explanation": "$f(-a)=(-a)^2+1=a^2+1=f(a)$, so the first statement is true. Since $a^2\\ge0$, $f(a)=a^2+1\\ge1$: also true. The others fail for specific numbers.",
+  "choiceExplanations": {
+   "B": "$f(a+1)=a^2+2a+2$, but $f(a)+1=a^2+2$. They differ by $2a$.",
+   "C": "$f(2a)=4a^2+1$, but $2f(a)=2a^2+2$ (for $a=1$: $5$ versus $4$).",
+   "E": "$f(a+b)$ contains $2ab$, and $f(a)+f(b)$ has $+2$ where $f(a+b)$ has $+1$ (for $a=b=0$: $1$ versus $2$)."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$f(-a)=f(a)$"
+    },
+    {
+     "id": "B",
+     "text": "$f(a+1)=f(a)+1$"
+    },
+    {
+     "id": "C",
+     "text": "$f(2a)=2f(a)$"
+    },
+    {
+     "id": "D",
+     "text": "$f(a)\\ge1$"
+    },
+    {
+     "id": "E",
+     "text": "$f(a+b)=f(a)+f(b)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-18",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "The number $5$ is not in the domain of $f(x)=\\dfrac{7}{x^2-kx-10}$. What is the value of $k$?",
+  "explanation": "A number is excluded when it makes the denominator $0$. Substitute $x=5$: $25-5k-10=0$, so $5k=15$ and $k=3$. (Check: $25-15-10=0$.)",
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q2-08-functions-19",
+  "lessonId": "q2-08-functions",
+  "difficulty": 4,
+  "stem": "Which of the following describes the domain of $f(x)=\\dfrac{\\sqrt{10-2x}}{x+1}$?",
+  "explanation": "Two restrictions. The square root needs $10-2x\\ge0$, so $x\\le5$ ($0$ under the root is fine). The denominator needs $x+1\\ne0$, so $x\\ne-1$. Together: $x\\le5$ and $x\\ne-1$.",
+  "choiceExplanations": {
+   "A": "$x=-1$ makes the denominator $0$, so it must be excluded.",
+   "B": "A negative number under the square root is not allowed; for example $x=6$ gives $\\sqrt{-2}$.",
+   "D": "$x=5$ is allowed: $\\sqrt{10-10}=0$ and the denominator is $6$.",
+   "E": "The inequality is reversed: $10-2x\\ge0$ means $x\\le5$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "all real $x$ with $x\\le5$"
+    },
+    {
+     "id": "B",
+     "text": "all real $x$ with $x\\ne-1$"
+    },
+    {
+     "id": "C",
+     "text": "all real $x$ with $x\\le5$ and $x\\ne-1$"
+    },
+    {
+     "id": "D",
+     "text": "all real $x$ with $x<5$ and $x\\ne-1$"
+    },
+    {
+     "id": "E",
+     "text": "all real $x$ with $x\\ge5$ and $x\\ne-1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-08-functions-20",
+  "lessonId": "q2-08-functions",
+  "difficulty": 5,
+  "stem": "If $f(x)=x^2-4x+3$ and $f(t)=f(t+2)$, what is the value of $t$?",
+  "explanation": "Substitute: $f(t+2)=(t+2)^2-4(t+2)+3=t^2+4t+4-4t-8+3=t^2-1$. And $f(t)=t^2-4t+3$. Set them equal: $t^2-4t+3=t^2-1$. The $t^2$ terms cancel: $-4t=-4$, so $t=1$. (Check: $f(1)=0=f(3)$.)",
+  "estSeconds": 130,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
+ }
+]

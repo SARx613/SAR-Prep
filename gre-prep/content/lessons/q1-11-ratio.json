@@ -1,0 +1,140 @@
+{
+ "id": "q1-11-ratio",
+ "status": "published",
+ "why": "Ratios drive scaling, mixture, rate and percent problems in both PS and QC.",
+ "rule": "The **ratio** of $s$ to $t$ is the fraction $\\frac{s}{t}$, also written \"$s$ to $t$\" or $s:t$. Reduce it by dividing by the GCD: $10:15 = 2:3$. Three or more quantities work the same way: $6:24:18 = 1:4:3$.\n\nA ratio $a:b$ means the quantities are $ak$ and $bk$ for some $k$, so a total splits into $a+b$ equal parts. A **proportion** equates two ratios; solve it by cross-multiplication. To link ratios through a shared quantity, multiply: $\\frac{a}{c} = \\frac{a}{b}\\cdot\\frac{b}{c}$.",
+ "examples": [
+  {
+   "prompt": "The ratio of cats to dogs at a shelter is $2:7$, and there are 45 animals, all cats or dogs. How many cats?",
+   "steps": [
+    "Parts: $2+7 = 9$; each part is $45\\div9 = 5$.",
+    "Cats: $2\\cdot5 = 10$."
+   ],
+   "answer": "10"
+  },
+  {
+   "prompt": "Find $x$ so that the ratio of $x$ to 36 equals the ratio of 7 to 12.",
+   "steps": [
+    "$\\frac{x}{36} = \\frac{7}{12}$.",
+    "$12x = 252$, so $x = 21$."
+   ],
+   "answer": "21"
+  }
+ ],
+ "trap": "$4:5$ boys to girls does not mean $\\frac{4}{5}$ of the class are boys: boys are $\\frac{4}{9}$ of the class. Also keep the order of the ratio ($2:3$ is not $3:2$), and scale by multiplying, never by adding.",
+ "checks": [
+  {
+   "id": "q1-11-ratio-c1",
+   "lessonId": "q1-11-ratio",
+   "difficulty": 1,
+   "stem": "The ratio of $x$ to 12 equals the ratio of 5 to 3. What is $x$?",
+   "explanation": "$\\frac{x}{12} = \\frac{5}{3}$, so $3x = 60$ and $x = 20$.",
+   "estSeconds": 60,
+   "skills": [
+    "ratio"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 20
+   }
+  },
+  {
+   "id": "q1-11-ratio-c2",
+   "lessonId": "q1-11-ratio",
+   "difficulty": 2,
+   "stem": "The ratio of red marbles to blue marbles in a jar is $4:7$, and the jar holds 55 marbles in all. How many marbles are red?",
+   "explanation": "The ratio has $4+7 = 11$ equal parts, and $55\\div11 = 5$ marbles per part. Red is $4\\cdot5 = 20$.",
+   "choiceExplanations": {
+    "A": "4 is the ratio term, not the count.",
+    "C": "This is $7\\cdot4$, a product of the ratio terms.",
+    "D": "This is the blue count, $7\\cdot5$.",
+    "E": "This treats red as $\\frac{4}{5}$ of the jar."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "ratio"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "4"
+     },
+     {
+      "id": "B",
+      "text": "20"
+     },
+     {
+      "id": "C",
+      "text": "28"
+     },
+     {
+      "id": "D",
+      "text": "35"
+     },
+     {
+      "id": "E",
+      "text": "44"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q1-11-ratio-c3",
+   "lessonId": "q1-11-ratio",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$x:y = 3:5$ means $x=3k$, $y=5k$, so $\\frac{x}{x+y} = \\frac{3k}{8k} = \\frac{3}{8}$, which is less than $\\frac{3}{5}$. B is greater.",
+   "estSeconds": 75,
+   "skills": [
+    "ratio"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The ratio of $x$ to $x+y$",
+    "quantityB": "$\\frac{3}{5}$",
+    "common": "The ratio of $x$ to $y$ is 3 to 5, with $x,y>0$."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  }
+ ]
+}

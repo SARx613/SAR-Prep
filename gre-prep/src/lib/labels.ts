@@ -18,14 +18,14 @@ export const TYPE_LABEL: Record<string, string> = {
 
 export const SECTION_LABEL: Record<string, string> = {
   verbal: 'Verbal',
-  quant: 'Quantitatif',
+  quant: 'Quant',
 };
 
 export const TOPIC_LABEL: Record<string, string> = {
-  arithmetic: 'Arithmétique',
-  algebra: 'Algèbre',
-  geometry: 'Géométrie',
-  'data-analysis': 'Analyse de données',
+  arithmetic: 'Arithmetic',
+  algebra: 'Algebra',
+  geometry: 'Geometry',
+  'data-analysis': 'Data analysis',
   'text-completion': 'Text Completion',
   'sentence-equivalence': 'Sentence Equivalence',
   'reading-comprehension': 'Reading Comprehension',
@@ -46,24 +46,24 @@ export const SUBTOPIC_LABEL: Record<string, string> = {
   other: 'Other',
   // Quant
   percent: 'Pourcentages',
-  interest: 'Intérêts',
+  interest: 'Interest',
   ratio: 'Ratios',
   rate: 'Vitesses et taux',
-  mixture: 'Mélanges',
-  'integer-properties': 'Propriétés des entiers',
-  'linear-equations': 'Équations linéaires',
-  'quadratic-equations': 'Équations du second degré',
+  mixture: 'Mixtures',
+  'integer-properties': 'Integer properties',
+  'linear-equations': 'Linear equations',
+  'quadratic-equations': 'Quadratic equations',
   exponents: 'Exposants',
-  inequalities: 'Inégalités',
-  'coordinate-geometry': 'Géométrie analytique',
+  inequalities: 'Inequalities',
+  'coordinate-geometry': 'Coordinate geometry',
   functions: 'Fonctions',
   triangles: 'Triangles',
   circles: 'Cercles',
   polygons: 'Polygones',
   solids: 'Solides',
   statistics: 'Statistiques',
-  probability: 'Probabilités',
-  counting: 'Dénombrement',
+  probability: 'Probability',
+  counting: 'Counting',
   'data-interpretation': 'Lecture de graphiques',
 };
 

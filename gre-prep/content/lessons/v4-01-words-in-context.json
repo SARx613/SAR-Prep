@@ -1,0 +1,226 @@
+{
+ "id": "v4-01-words-in-context",
+ "status": "published",
+ "why": "This is a study aid, not an official topic: ETS publishes no word list, and vocabulary is tested in context (Text Completion, Sentence Equivalence and word meaning in Reading Comprehension), so learn words through the clues that fix their meaning.",
+ "rule": "Learn a word by the **job it does in a sentence**, not as an isolated gloss.\n\n- Study each word as **sentence + clue + meaning**: a sentence with a blank, the word or phrase that fixes the meaning, then the word.\n- Learn in **series**: group words of one sense with their opposites, and note whether the tone is positive or negative.\n- Use **flashcards**: the sentence with a blank on the front; the word and its clue on the back.\n- On the test, **predict** a word from the clues (watch words such as *although*, *moreover*), then match it.\n- In Sentence Equivalence, the two answers need not be exact synonyms; the two completed sentences must mean the same.",
+ "examples": [
+  {
+   "prompt": "Although the architect's early designs were praised as ______, her later buildings were dismissed as ordinary.",
+   "steps": [
+    "\"Although\" signals contrast: the early designs were the opposite of \"ordinary\".",
+    "Predict a word meaning new or original.",
+    "Match it: *innovative* fits; *conventional* or *derivative* would repeat \"ordinary\" and break the contrast."
+   ],
+   "answer": "innovative (or any word meaning original)"
+  },
+  {
+   "prompt": "Make a flashcard for *enervate*. Front: \"The long, humid afternoon began to ______ the hikers, who slowed to a crawl.\"",
+   "steps": [
+    "Clue: \"slowed to a crawl\" shows what the afternoon did to the hikers.",
+    "Back: *enervate* = drain of energy. Clue noted: slowed down.",
+    "Series: sap, weaken, debilitate (same sense); invigorate, energise (opposites).",
+    "The look of the word suggests *energise*, but its meaning is the reverse."
+   ],
+   "answer": "enervate: to drain of energy; opposite of invigorate"
+  }
+ ],
+ "trap": "Trusting a word's look or a one-word gloss. *Enervate* looks like *energise* but means the reverse, and two words that are near-synonyms in general may still not fit the sentence. Let the clues decide.",
+ "checks": [
+  {
+   "id": "v4-01-words-in-context-c1",
+   "lessonId": "v4-01-words-in-context",
+   "difficulty": 1,
+   "stem": "Choose the word that best completes the sentence.",
+   "explanation": "Listeners ended up more confused, so the explanation was tangled and hard to follow: convoluted.",
+   "choiceExplanations": {
+    "1A": "Cogent means convincing and clear; it would not leave listeners confused.",
+    "1C": "Lucid means clear, the opposite of what the sentence needs.",
+    "1D": "Pertinent means relevant; it does not explain the confusion.",
+    "1E": "Succinct means brief and clear, which would not confuse."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "Her explanation was so {{1}} that listeners left more confused than before.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "cogent"
+       },
+       {
+        "id": "1B",
+        "text": "convoluted"
+       },
+       {
+        "id": "1C",
+        "text": "lucid"
+       },
+       {
+        "id": "1D",
+        "text": "pertinent"
+       },
+       {
+        "id": "1E",
+        "text": "succinct"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B"
+    ]
+   }
+  },
+  {
+   "id": "v4-01-words-in-context-c2",
+   "lessonId": "v4-01-words-in-context",
+   "difficulty": 2,
+   "stem": "Select the two answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "Both *corroborated* and *substantiated* mean that the records supported the details, so the two sentences mean the same.",
+   "choiceExplanations": {
+    "A": "Contradicted is the opposite of supporting.",
+    "C": "Disguised does not describe what records do to details.",
+    "D": "Eclipsed means overshadowed, which does not fit records and details.",
+    "F": "Trivialized means made to seem unimportant, which does not fit."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "SE",
+   "content": {
+    "text": "Independent records {{1}} nearly every detail of the explorer's account.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "contradicted"
+     },
+     {
+      "id": "B",
+      "text": "corroborated"
+     },
+     {
+      "id": "C",
+      "text": "disguised"
+     },
+     {
+      "id": "D",
+      "text": "eclipsed"
+     },
+     {
+      "id": "E",
+      "text": "substantiated"
+     },
+     {
+      "id": "F",
+      "text": "trivialized"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "v4-01-words-in-context-c3",
+   "lessonId": "v4-01-words-in-context",
+   "difficulty": 3,
+   "stem": "For each blank, select the entry that best completes the text.",
+   "explanation": "\"Though ... at first\" sets up a reversal. The findings seemed convincing (compelling) but proved to be misleading on a weak sample (specious).",
+   "choiceExplanations": {
+    "1B": "Findings that seemed negligible would not be reversed by a sample problem.",
+    "1C": "Obscure (unclear) does not create the contrast.",
+    "2A": "Robust means strong, which a small sample does not show.",
+    "2C": "Axiomatic means self-evident, which does not fit a sample-based weakness."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "vocab-context"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "TC",
+   "content": {
+    "text": "Though the findings seemed {{1}} at first, closer analysis showed them to be {{2}}, resting on a small and unrepresentative sample.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "compelling"
+       },
+       {
+        "id": "1B",
+        "text": "negligible"
+       },
+       {
+        "id": "1C",
+        "text": "obscure"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "robust"
+       },
+       {
+        "id": "2B",
+        "text": "specious"
+       },
+       {
+        "id": "2C",
+        "text": "axiomatic"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2B"
+    ]
+   }
+  }
+ ]
+}

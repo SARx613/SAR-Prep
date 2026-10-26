@@ -1,0 +1,143 @@
+{
+ "id": "v3-07-assumptions-perspective",
+ "status": "published",
+ "why": "Reading Comprehension often asks what an author takes for granted and what attitude the author holds toward the subject.",
+ "rule": "An **assumption** is an unstated premise that bridges the evidence and the conclusion. Test it by negating it: if the argument then collapses, the assumption was needed. It is not something the passage already says, and it is not merely helpful.\n\n**Perspective** is the author's stance. Read attitude words (*unfortunately*, *tempting*, *fair*), what the author calls obvious or doubtful, and which view gets the last word. Name the tone (tentative, skeptical, appreciative, mixed) and keep your own opinions out of it.",
+ "examples": [
+  {
+   "prompt": "Passage: \"The mayor argues that because crime fell after new streetlights were installed, the lights reduced crime.\"\n\nWhich assumption does the argument need? (A) Streetlights are cheap. (B) Nothing else that happened over the same period explains the fall in crime.",
+   "steps": [
+    "Negate B: suppose a police surge started the same month. The argument collapses, so B is needed.",
+    "A is irrelevant to whether the lights reduced crime."
+   ],
+   "answer": "(B)"
+  },
+  {
+   "prompt": "Passage: \"Unfortunately, the committee again chose the cheaper design.\" What is the author's attitude?",
+   "steps": [
+    "'Unfortunately' marks regret about the choice.",
+    "'Again' shows a pattern the author finds disappointing."
+   ],
+   "answer": "Disapproving of the committee's choice."
+  }
+ ],
+ "trap": "Choosing a statement the passage already makes (an assumption is unstated), or one that would be nice to have but is not required, or taking a reported view for the author's.",
+ "checks": [
+  {
+   "id": "v3-07-assumptions-perspective-c1",
+   "lessonId": "v3-07-assumptions-perspective",
+   "difficulty": 2,
+   "stem": "The council's plan assumes which of the following?",
+   "explanation": "A deeper channel helps only if the channel's capacity is what limits flooding; the author attacks that unstated premise.",
+   "choiceExplanations": {
+    "A": "The council's argument does not mention the drains.",
+    "B": "Costs are not discussed.",
+    "D": "The plan is aimed at high river water; the river does rise.",
+    "E": "Nothing about the town's history is assumed."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-assumptions"
+   ],
+   "passageId": "v3-c-07",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The storm drains are in perfect condition."
+     },
+     {
+      "id": "B",
+      "text": "Dredging is cheaper than repairing drains."
+     },
+     {
+      "id": "C",
+      "text": "The river's limited capacity is the main cause of the town's flooding."
+     },
+     {
+      "id": "D",
+      "text": "The river never rises."
+     },
+     {
+      "id": "E",
+      "text": "The town has never flooded before."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "v3-07-assumptions-perspective-c2",
+   "lessonId": "v3-07-assumptions-perspective",
+   "difficulty": 2,
+   "stem": "The author's attitude toward the plan is best described as",
+   "explanation": "'But' and 'does nothing to make them drain faster' show the author thinks the plan neglects part of the problem.",
+   "choiceExplanations": {
+    "A": "No costs are mentioned.",
+    "C": "The author gives a specific reason the plan may fail.",
+    "D": "The tone is analytical, with no anger.",
+    "E": "The author criticizes that focus."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "rc-perspective"
+   ],
+   "passageId": "v3-c-07",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "enthusiastic about its low cost"
+     },
+     {
+      "id": "B",
+      "text": "skeptical, because it overlooks another cause of flooding"
+     },
+     {
+      "id": "C",
+      "text": "neutral about its likely success"
+     },
+     {
+      "id": "D",
+      "text": "angry at the council's carelessness"
+     },
+     {
+      "id": "E",
+      "text": "approving of its focus on the river"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ]
+}

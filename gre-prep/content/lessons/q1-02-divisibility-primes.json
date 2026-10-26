@@ -1,0 +1,168 @@
+{
+ "id": "q1-02-divisibility-primes",
+ "status": "published",
+ "why": "Prime and divisor reasoning underlies fraction reduction, LCM/GCD and many \"must be true\" integer questions.",
+ "rule": "An integer $c$ is **divisible** by $d$ when $c = dk$ for an integer $k$ (remainder 0). A **prime** is an integer greater than 1 whose only positive divisors are 1 and itself; 2 is the only even prime and 1 is not prime. To test whether $n$ is prime, try dividing only by primes $p$ with $p^2\\le n$.\n\nEvery integer greater than 1 has exactly one **prime factorisation**, e.g. $72 = 2^3\\cdot3^2$; squaring doubles each exponent: $72^2 = 2^6\\cdot3^4$. A number $d$ divides $c$ exactly when each prime of $d$ appears in $c$ at least as many times.\n\nTo build the divisors of $c$, pick for each prime an exponent from 0 up to its power in $c$. The number of positive divisors is the product of (exponent + 1) over all primes.",
+ "examples": [
+  {
+   "prompt": "Is 252 divisible by 18?",
+   "steps": [
+    "$252 = 2^2\\cdot3^2\\cdot7$ and $18 = 2\\cdot3^2$.",
+    "Each prime of 18 appears in 252 at least as often, so $18$ divides $252$ ($252 = 18\\cdot14$)."
+   ],
+   "answer": "Yes"
+  },
+  {
+   "prompt": "How many positive divisors does 360 have?",
+   "steps": [
+    "$360 = 2^3\\cdot3^2\\cdot5$.",
+    "Exponent choices: $(3+1)(2+1)(1+1) = 4\\cdot3\\cdot2$."
+   ],
+   "answer": "24"
+  }
+ ],
+ "trap": "1 is not prime, 2 is prime (and even), and being odd does not make a number prime: $69 = 3\\cdot23$ and $133 = 7\\cdot19$.",
+ "checks": [
+  {
+   "id": "q1-02-divisibility-primes-c1",
+   "lessonId": "q1-02-divisibility-primes",
+   "difficulty": 1,
+   "stem": "What is the greatest prime factor of 210?",
+   "explanation": "$210 = 2\\cdot3\\cdot5\\cdot7$, so the prime factors are 2, 3, 5 and 7. The greatest is 7.",
+   "estSeconds": 45,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
+   }
+  },
+  {
+   "id": "q1-02-divisibility-primes-c2",
+   "lessonId": "q1-02-divisibility-primes",
+   "difficulty": 2,
+   "stem": "Which of the following is a prime number?",
+   "explanation": "Test each: $39 = 3\\cdot13$, $49 = 7^2$, $51 = 3\\cdot17$, $57 = 3\\cdot19$. Only 53 has no divisor besides 1 and itself.",
+   "choiceExplanations": {
+    "A": "$39 = 3\\cdot13$.",
+    "B": "$49 = 7\\cdot7$.",
+    "C": "$51 = 3\\cdot17$.",
+    "E": "$57 = 3\\cdot19$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "39"
+     },
+     {
+      "id": "B",
+      "text": "49"
+     },
+     {
+      "id": "C",
+      "text": "51"
+     },
+     {
+      "id": "D",
+      "text": "53"
+     },
+     {
+      "id": "E",
+      "text": "57"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q1-02-divisibility-primes-c3",
+   "lessonId": "q1-02-divisibility-primes",
+   "difficulty": 2,
+   "stem": "Let $n = 2^3\\cdot 3\\cdot 5^2$. Which of the following is a divisor of $n$?",
+   "explanation": "A divisor must fit inside $2^3\\cdot3\\cdot5^2$. Only $60 = 2^2\\cdot3\\cdot5$ does.",
+   "choiceExplanations": {
+    "A": "$9 = 3^2$ needs two 3s; $n$ has one.",
+    "B": "$14 = 2\\cdot7$ needs a factor 7.",
+    "C": "$16 = 2^4$ needs four 2s; $n$ has three.",
+    "E": "$250 = 2\\cdot5^3$ needs three 5s; $n$ has two."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "9"
+     },
+     {
+      "id": "B",
+      "text": "14"
+     },
+     {
+      "id": "C",
+      "text": "16"
+     },
+     {
+      "id": "D",
+      "text": "60"
+     },
+     {
+      "id": "E",
+      "text": "250"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  }
+ ]
+}

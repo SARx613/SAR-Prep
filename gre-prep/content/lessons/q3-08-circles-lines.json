@@ -1,0 +1,112 @@
+{
+ "id": "q3-08-circles-lines",
+ "status": "published",
+ "why": "Tangent lines and triangles inscribed in circles produce right angles, which let you bring in the Pythagorean theorem.",
+ "rule": "A **tangent** is a line that touches a circle at exactly one point, the point of tangency. The radius to that point meets the tangent at a right angle; conversely, a line at right angles to a radius at its outer end is a tangent.\n\nA polygon is **inscribed** in a circle (and the circle **circumscribed** about the polygon) when every vertex sits on the circle. An inscribed triangle that has a diameter as a side is right-angled, with the diameter as hypotenuse; conversely, every inscribed right triangle has its hypotenuse as a diameter. So the diagonals of an inscribed rectangle are diameters.\n\nA polygon whose sides are all tangent to a circle is circumscribed about that circle.",
+ "examples": [
+  {
+   "prompt": "From a point $P$ outside a circle with center $O$ and radius 5, a tangent touches the circle at $T$. If $OP=13$, how long is $PT$?",
+   "steps": [
+    "The radius $OT$ is perpendicular to the tangent $PT$, so triangle $OTP$ has its right angle at $T$ and hypotenuse $OP$.",
+    "$PT^2=13^2-5^2=144$, so $PT=12$."
+   ],
+   "answer": "12"
+  },
+  {
+   "prompt": "A right triangle with legs 9 and 12 is inscribed in a circle. What is the circumference of the circle?",
+   "steps": [
+    "The hypotenuse of an inscribed right triangle is a diameter: $\\sqrt{81+144}=15$.",
+    "$C=\\pi d=15\\pi$."
+   ],
+   "answer": "$15\\pi$"
+  }
+ ],
+ "trap": "The right angle of a tangent triangle sits at the point of tangency, between the radius and the tangent line, so the segment from the centre to the outside point is the hypotenuse and you subtract. And only a triangle with a *diameter* as a side must be right-angled; a triangle inscribed in a circle does not have to be.",
+ "checks": [
+  {
+   "id": "q3-08-circles-lines-c1",
+   "lessonId": "q3-08-circles-lines",
+   "difficulty": 1,
+   "stem": "A line is tangent to a circle with center $O$ at point $T$, and $P$ is a point on the line with $PT=24$ and $OT=7$. What is the length of $OP$?",
+   "explanation": "$OT\\perp PT$, so $OP^2=7^2+24^2=625$ and $OP=25$.",
+   "estSeconds": 60,
+   "skills": [
+    "circle-tangent",
+    "inscribed-triangle"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 25
+   }
+  },
+  {
+   "id": "q3-08-circles-lines-c2",
+   "lessonId": "q3-08-circles-lines",
+   "difficulty": 2,
+   "stem": "A right triangle with legs of length 10 and 24 is inscribed in a circle. What is the radius of the circle?",
+   "explanation": "The hypotenuse is $\\sqrt{100+576}=26$ and it is a diameter, so the radius is 13.",
+   "estSeconds": 75,
+   "skills": [
+    "circle-tangent",
+    "inscribed-triangle"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
+   }
+  },
+  {
+   "id": "q3-08-circles-lines-c3",
+   "lessonId": "q3-08-circles-lines",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "The hypotenuse is $\\sqrt{36+64}=10$ and it is a diameter, so the radius is 5. Equal.",
+   "estSeconds": 75,
+   "skills": [
+    "circle-tangent",
+    "inscribed-triangle"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The radius of a circle that is circumscribed about a right triangle with legs 6 and 8",
+    "quantityB": "5"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

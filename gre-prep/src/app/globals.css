@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 @import "tailwindcss";
+@import "../styles-tokens.css";
 
 @layer base {
   * {
@@ -8,19 +9,12 @@
   }
 
   :root {
-    --bg-deep:    #080b14;
-    --bg-card:    #0f1420;
-    --bg-glass:   rgba(15, 20, 32, 0.6);
-    --border:     rgba(255,255,255,0.07);
     --emerald:    #10b981;
     --emerald-glow: rgba(16, 185, 129, 0.25);
     --violet:     #8b5cf6;
     --violet-glow: rgba(139, 92, 246, 0.2);
     --amber:      #f59e0b;
     --rose:       #f43f5e;
-    --text-primary:   #f0f4ff;
-    --text-secondary: #8892a4;
-    --text-muted:     #4a5468;
 
     /* Safe-area insets. Zero in a browser; on an installed PWA with
        viewport-fit=cover these carry the notch / Dynamic Island and the
@@ -39,10 +33,6 @@
 
   body {
     background-color: var(--bg-deep);
-    background-image:
-      radial-gradient(ellipse 80% 50% at 20% -10%, rgba(139,92,246,0.12) 0%, transparent 60%),
-      radial-gradient(ellipse 60% 40% at 80% 110%, rgba(16,185,129,0.08) 0%, transparent 60%);
-    background-attachment: fixed;
     color: var(--text-primary);
     min-height: 100vh;
     /* The layout is full-bleed under the notch; never let it scroll sideways. */

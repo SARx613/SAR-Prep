@@ -1,0 +1,832 @@
+[
+ {
+  "id": "q2-14-lines-01",
+  "lessonId": "q2-14-lines",
+  "difficulty": 1,
+  "stem": "What is the slope of the line through the points $(2,3)$ and $(6,11)$?",
+  "explanation": "$\\frac{11-3}{6-2}=\\frac84=2$.",
+  "estSeconds": 45,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-14-lines-02",
+  "lessonId": "q2-14-lines",
+  "difficulty": 1,
+  "stem": "What is the $y$-intercept of the line $4x+2y=10$?",
+  "explanation": "Solve for $y$: $2y=-4x+10$, so $y=-2x+5$. The $y$-intercept is 5 (or set $x=0$: $2y=10$).",
+  "choiceExplanations": {
+   "A": "This is a sign error.",
+   "B": "This is the slope, not the intercept.",
+   "C": "This is the $x$-intercept (set $y=0$: $4x=10$).",
+   "E": "This is the constant on the right side before dividing by 2."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-5$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$2.5$"
+    },
+    {
+     "id": "D",
+     "text": "$5$"
+    },
+    {
+     "id": "E",
+     "text": "$10$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-03",
+  "lessonId": "q2-14-lines",
+  "difficulty": 2,
+  "stem": "A line passes through the points $(1,4)$ and $(3,10)$. What is its $y$-intercept?",
+  "explanation": "Slope $=\\frac{10-4}{3-1}=3$. Then $4=3(1)+b$, so $b=1$.",
+  "estSeconds": 75,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
+ },
+ {
+  "id": "q2-14-lines-04",
+  "lessonId": "q2-14-lines",
+  "difficulty": 2,
+  "stem": "Which of the following is an equation of the line shown?",
+  "explanation": "The line crosses the $y$-axis at 2, so $b=2$. Going from $(0,2)$ to $(3,0)$ the rise is $-2$ and the run is $3$, so the slope is $-\\frac23$.",
+  "choiceExplanations": {
+   "A": "The slope is inverted (run over rise).",
+   "C": "3 is the $x$-intercept, not the $y$-intercept.",
+   "D": "The line falls to the right, so the slope is negative.",
+   "E": "Both the slope and the intercept are wrong."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 224 202\"><line x1=\"24.0\" y1=\"178.0\" x2=\"24.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46.0\" y1=\"178.0\" x2=\"46.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68.0\" y1=\"178.0\" x2=\"68.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90.0\" y1=\"178.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112.0\" y1=\"178.0\" x2=\"112.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134.0\" y1=\"178.0\" x2=\"134.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156.0\" y1=\"178.0\" x2=\"156.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178.0\" y1=\"178.0\" x2=\"178.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200.0\" y1=\"178.0\" x2=\"200.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"178.0\" x2=\"200.0\" y2=\"178.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"156.0\" x2=\"200.0\" y2=\"156.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"134.0\" x2=\"200.0\" y2=\"134.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"200.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"90.0\" x2=\"200.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"68.0\" x2=\"200.0\" y2=\"68.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"46.0\" x2=\"200.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"24.0\" x2=\"200.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"200.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"178.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"46.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"68.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"112.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"134.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"156.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"178.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"200.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"84.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"84.0\" y=\"160.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"84.0\" y=\"138.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"84.0\" y=\"94.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"84.0\" y=\"72.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"84.0\" y=\"50.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"84.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"208.0\" y=\"106.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"100.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><line x1=\"24.0\" y1=\"24.0\" x2=\"200.0\" y2=\"141.3\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"90.0\" cy=\"68.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"98.0\" y=\"62.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(0, 2)</text><circle cx=\"156.0\" cy=\"112.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"162.0\" y=\"104.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(3, 0)</text></svg>",
+    "alt": "A straight line in the coordinate plane that passes through the points (0, 2) and (3, 0) and slopes downward to the right."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y=-\\frac32x+2$"
+    },
+    {
+     "id": "B",
+     "text": "$y=-\\frac23x+2$"
+    },
+    {
+     "id": "C",
+     "text": "$y=-\\frac23x+3$"
+    },
+    {
+     "id": "D",
+     "text": "$y=\\frac23x+2$"
+    },
+    {
+     "id": "E",
+     "text": "$y=\\frac32x-2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-05",
+  "lessonId": "q2-14-lines",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "First slope: $\\frac{8-2}{3-1}=3$. Second slope: $\\frac{5-0}{2-0}=2.5$. A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The slope of the line through $(1,2)$ and $(3,8)$",
+   "quantityB": "The slope of the line through $(0,0)$ and $(2,5)$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-14-lines-06",
+  "lessonId": "q2-14-lines",
+  "difficulty": 3,
+  "stem": "What is the $x$-intercept of the line through the points $(-3,2)$ and $(3,6)$?",
+  "explanation": "Slope $=\\frac{6-2}{3-(-3)}=\\frac46=\\frac23$. From $(3,6)$: $6=\\frac23\\cdot3+b$ gives $b=4$, so $y=\\frac23x+4$. Set $y=0$: $x=-6$.",
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -6
+  }
+ },
+ {
+  "id": "q2-14-lines-07",
+  "lessonId": "q2-14-lines",
+  "difficulty": 3,
+  "stem": "Line $m$ is parallel to the line $2y-6x=5$ and passes through the point $(1,-1)$. What is the $y$-intercept of $m$?",
+  "explanation": "$2y-6x=5$ gives $y=3x+2.5$, so the slope is 3. Line $m$: $-1=3(1)+b$, so $b=-4$.",
+  "choiceExplanations": {
+   "B": "$-1$ is the $y$-coordinate of the given point, not the intercept.",
+   "C": "2.5 is the $y$-intercept of the given line, not of $m$.",
+   "D": "3 is the slope of $m$.",
+   "E": "This is a sign error when solving $-1=3+b$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-4$"
+    },
+    {
+     "id": "B",
+     "text": "$-1$"
+    },
+    {
+     "id": "C",
+     "text": "$2.5$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-08",
+  "lessonId": "q2-14-lines",
+  "difficulty": 3,
+  "stem": "A line passes through the points $(2,1)$ and $(6,3)$. Which of the following points are also on the line? Indicate all such points.",
+  "explanation": "The slope is $\\frac{3-1}{6-2}=\\frac12$ and $1=\\frac12(2)+b$ gives $b=0$, so the line is $y=\\frac x2$. The points with $y=\\frac x2$ are $(-2,-1)$, $(0,0)$ and $(4,2)$.",
+  "choiceExplanations": {
+   "D": "At $x=8$ the line has $y=4$, not 5.",
+   "E": "At $x=10$ the line has $y=5$, not 6."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-2,-1)$"
+    },
+    {
+     "id": "B",
+     "text": "$(0,0)$"
+    },
+    {
+     "id": "C",
+     "text": "$(4,2)$"
+    },
+    {
+     "id": "D",
+     "text": "$(8,5)$"
+    },
+    {
+     "id": "E",
+     "text": "$(10,6)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-09",
+  "lessonId": "q2-14-lines",
+  "difficulty": 4,
+  "stem": "Line $\\ell$ passes through the point $(-1,4)$ and is perpendicular to the line through $(2,-3)$ and $(6,5)$. What is the $x$-intercept of $\\ell$?",
+  "explanation": "The given line has slope $\\frac{5-(-3)}{6-2}=2$, so $\\ell$ has slope $-\\frac12$. $4=-\\frac12(-1)+b$ gives $b=3.5$. Set $y=0$: $0=-\\frac x2+3.5$, so $x=7$.",
+  "estSeconds": 120,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q2-14-lines-10",
+  "lessonId": "q2-14-lines",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Setting $y=0$: $0=kx+6$, so $x=-\\frac6k$. Since $k<0$, $-\\frac6k$ is positive. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The $x$-intercept of line $\\ell$",
+   "quantityB": "0",
+   "common": "Line $\\ell$ has equation $y=kx+6$, where $k$ is a negative constant."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-14-lines-11",
+  "lessonId": "q2-14-lines",
+  "difficulty": 5,
+  "stem": "The lines $y=2x$ and $y=-x+9$ and the $x$-axis enclose a triangle. What is the $y$-coordinate of the vertex of the triangle that is not on the $x$-axis?",
+  "explanation": "That vertex is where the two lines meet: $2x=-x+9$ gives $x=3$, and then $y=2\\cdot3=6$. (The other two vertices are the $x$-intercepts $(0,0)$ and $(9,0)$.)",
+  "estSeconds": 120,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q2-14-lines-12",
+  "lessonId": "q2-14-lines",
+  "difficulty": 5,
+  "stem": "For what value of $k$ are the lines $kx+2y=5$ and $3x-y=4$ perpendicular?",
+  "explanation": "Slopes: $kx+2y=5$ gives $y=-\\frac k2x+\\frac52$, slope $-\\frac k2$; $3x-y=4$ gives $y=3x-4$, slope 3. Perpendicular means the product is $-1$: $-\\frac{3k}{2}=-1$, so $k=\\frac23$.",
+  "choiceExplanations": {
+   "A": "$k=-6$ makes the slopes equal ($3$ and $3$), so the lines are parallel.",
+   "B": "This takes the slope of the first line to be $\\frac k2$, a sign error.",
+   "D": "With $k=\\frac32$ the slopes are $-\\frac34$ and $3$, product $-\\frac94$.",
+   "E": "This takes the first slope to be $\\frac k2$ and sets it equal to 3, not to the negative reciprocal."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-6$"
+    },
+    {
+     "id": "B",
+     "text": "$-\\frac23$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac23$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac32$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-13",
+  "lessonId": "q2-14-lines",
+  "difficulty": 1,
+  "stem": "What is the slope of the line $y-2x=9$?",
+  "explanation": "Solve for $y$: $y=2x+9$. In $y=mx+b$ the slope is the coefficient of $x$, so $m=2$.",
+  "choiceExplanations": {
+   "A": "The slope is a coefficient of $x$, not the constant, and here the sign is not negative anyway.",
+   "B": "Moving $2x$ to the right side makes it $+2x$, not $-2x$.",
+   "C": "This is the reciprocal of the slope.",
+   "E": "$9$ is the $y$-intercept, not the slope."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-9$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac12$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-14",
+  "lessonId": "q2-14-lines",
+  "difficulty": 2,
+  "stem": "A line has slope $-\\frac34$ and passes through the point $(8,1)$. What is its $y$-intercept?",
+  "explanation": "Write $y=-\\frac34x+b$ and substitute $(8,1)$: $1=-\\frac34\\cdot 8+b=-6+b$, so $b=7$.",
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q2-14-lines-15",
+  "lessonId": "q2-14-lines",
+  "difficulty": 2,
+  "stem": "The line shown passes through the two labeled points. What is its $y$-intercept?",
+  "explanation": "Slope: $\\frac{-3-3}{1-(-2)}=\\frac{-6}{3}=-2$. Then $y=-2x+b$ through $(-2,3)$: $3=4+b$, so $b=-1$. The line crosses the $y$-axis at $(0,-1)$.",
+  "choiceExplanations": {
+   "A": "This is the $y$-coordinate of one of the labeled points, not the intercept.",
+   "B": "This is the slope, not the $y$-intercept.",
+   "D": "This has the wrong sign: with slope $-2$, from $(-2,3)$ the line is at $-1$ when $x=0$.",
+   "E": "This is the $y$-coordinate of the other labeled point, $(-2,3)$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "lines-slope"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 202 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"178\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"178\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"178\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"178\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"178\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"178\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"178\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"178\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"46\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"90\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"134\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"178\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"106\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"106\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"106\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"106\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"106\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"106\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"106\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"106\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"186\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"122\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polyline points=\"57.0,24 145.0,200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"46\" r=\"3.2\" fill=\"currentColor\"/><text x=\"75\" y=\"40\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(-2, 3)</text><circle cx=\"134\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"141\" y=\"172\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(1, -3)</text></svg>",
+    "alt": "A straight line sloping steeply downward to the right in the coordinate plane, passing through the labeled points (-2, 3) and (1, -3)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-3$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$-1$"
+    },
+    {
+     "id": "D",
+     "text": "$1$"
+    },
+    {
+     "id": "E",
+     "text": "$3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-16",
+  "lessonId": "q2-14-lines",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Solve $3x+2y=12$ for $y$: $y=-\\frac32x+6$, so Quantity A is $-1.5$. Quantity B: $\\frac{-5-0}{4-0}=-1.25$. Since $-1.25>-1.5$, Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The slope of the line $3x+2y=12$",
+   "quantityB": "The slope of the line through $(0,0)$ and $(4,-5)$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-14-lines-17",
+  "lessonId": "q2-14-lines",
+  "difficulty": 3,
+  "stem": "Line $\\ell$ is perpendicular to the line $3x-2y=8$ and passes through the point $(0,4)$. What is the $x$-intercept of $\\ell$?",
+  "explanation": "$3x-2y=8$ becomes $y=\\frac32x-4$, slope $\\frac32$. A perpendicular slope is $-\\frac23$, and $\\ell$ has $y$-intercept 4: $y=-\\frac23x+4$. Set $y=0$: $\\frac23x=4$, so $x=6$.",
+  "choiceExplanations": {
+   "A": "This uses the slope $\\frac23$ (reciprocal only, sign not changed): $y=\\frac23x+4$ gives $x=-6$.",
+   "B": "This uses the slope $\\frac32$ of the given line (a parallel line) instead of the perpendicular slope.",
+   "C": "This uses slope $-\\frac32$ (sign changed but not flipped).",
+   "D": "This is the $y$-intercept of $\\ell$, not its $x$-intercept."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-6$"
+    },
+    {
+     "id": "B",
+     "text": "$-\\frac83$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac83$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-18",
+  "lessonId": "q2-14-lines",
+  "difficulty": 4,
+  "stem": "Which of the following lines are perpendicular to the line $2x+4y=7$? Indicate all such lines.",
+  "explanation": "$2x+4y=7$ gives $y=-\\frac12x+\\frac74$, slope $-\\frac12$, so a perpendicular line has slope $2$. $y=2x+1$ has slope 2. $4x-2y=5$ gives $y=2x-\\frac52$, slope 2. $6x-3y=1$ gives $y=2x-\\frac13$, slope 2.",
+  "choiceExplanations": {
+   "B": "The slope is $-2$: the sign changed but the number was not flipped.",
+   "D": "$x+2y=0$ gives $y=-\\frac12x$, the same slope as the given line, so it is parallel, not perpendicular."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y=2x+1$"
+    },
+    {
+     "id": "B",
+     "text": "$y=-2x+3$"
+    },
+    {
+     "id": "C",
+     "text": "$4x-2y=5$"
+    },
+    {
+     "id": "D",
+     "text": "$x+2y=0$"
+    },
+    {
+     "id": "E",
+     "text": "$6x-3y=1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-14-lines-19",
+  "lessonId": "q2-14-lines",
+  "difficulty": 4,
+  "stem": "Line $m$ passes through the origin and is perpendicular to the line $2x+y=10$. The two lines intersect at the point $(a,b)$. What is $a+b$?",
+  "explanation": "$2x+y=10$ gives $y=-2x+10$, slope $-2$. A perpendicular line has slope $\\frac12$, so $m$ is $y=\\frac12x$. Intersect: $2x+\\frac12x=10$, so $x=4$ and $y=2$. Then $a+b=6$.",
+  "estSeconds": 100,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q2-14-lines-20",
+  "lessonId": "q2-14-lines",
+  "difficulty": 5,
+  "stem": "Line $\\ell$ has equation $y=-\\frac34x+9$ and crosses the $x$-axis at point $A$. Line $m$ passes through $A$ and is perpendicular to $\\ell$. What is the $y$-intercept of $m$?",
+  "explanation": "At $A$, $y=0$: $\\frac34x=9$, so $x=12$ and $A=(12,0)$. The slope of $m$ is the negative reciprocal of $-\\frac34$, namely $\\frac43$. Then $y=\\frac43x+b$ through $(12,0)$: $0=16+b$, so $b=-16$.",
+  "estSeconds": 130,
+  "skills": [
+   "lines-slope"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -16
+  }
+ }
+]

@@ -1,0 +1,1760 @@
+[
+ {
+  "id": "v1-02-method-01",
+  "lessonId": "v1-02-method",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** laughing until crying means *extremely funny*. *Hilarious* matches your prediction.",
+  "choiceExplanations": {
+   "E": "Gloomy jokes would not cause tears of laughter.",
+   "B": "Dull jokes would not produce such laughter.",
+   "A": "Hard-to-grasp jokes would not make everyone laugh.",
+   "C": "Serious, the opposite of funny."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The comedian's jokes were so {{1}} that the audience laughed until they cried.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "obscure"
+      },
+      {
+       "id": "B",
+       "text": "bland"
+      },
+      {
+       "id": "C",
+       "text": "solemn"
+      },
+      {
+       "id": "D",
+       "text": "hilarious"
+      },
+      {
+       "id": "E",
+       "text": "gloomy"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-02",
+  "lessonId": "v1-02-method",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** *only* after a *long drought* means very little. *Meager* means scanty.",
+  "choiceExplanations": {
+   "D": "Means plenty; *only* signals little.",
+   "B": "Means too much, the reverse of the drought.",
+   "A": "Says nothing about quantity.",
+   "E": "A quantity cannot be concealed in this sense, and it does not match *only*."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "After the long drought, the reservoir held only a {{1}} amount of water.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "stable"
+      },
+      {
+       "id": "B",
+       "text": "excessive"
+      },
+      {
+       "id": "C",
+       "text": "meager"
+      },
+      {
+       "id": "D",
+       "text": "ample"
+      },
+      {
+       "id": "E",
+       "text": "concealed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-03",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal + predict:** *though ... did not survive careful examination* means they looked sound at first. Predict *convincing*: *persuasive*.",
+  "choiceExplanations": {
+   "C": "Unreadable conclusions would not look sound at first glance.",
+   "E": "Provocative, but the contrast is about soundness, not tone.",
+   "D": "Repetitive; no link to surviving examination.",
+   "B": "Does not contrast with failing careful examination."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The report's conclusions, though {{1}} at first glance, did not survive careful examination of the data.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "persuasive"
+      },
+      {
+       "id": "B",
+       "text": "outdated"
+      },
+      {
+       "id": "C",
+       "text": "illegible"
+      },
+      {
+       "id": "D",
+       "text": "redundant"
+      },
+      {
+       "id": "E",
+       "text": "inflammatory"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-04",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** a manner that relaxes nervous people is *warm* and friendly: *genial*.",
+  "choiceExplanations": {
+   "C": "Domineering manners increase nervousness.",
+   "D": "Brusque answers would intimidate.",
+   "B": "Distance would not make it feel like friendly conversation.",
+   "A": "Doubt would not put people at ease."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Her {{1}} manner put nervous interviewees at ease and made even difficult questions feel like friendly conversation.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "skeptical"
+      },
+      {
+       "id": "B",
+       "text": "aloof"
+      },
+      {
+       "id": "C",
+       "text": "imperious"
+      },
+      {
+       "id": "D",
+       "text": "curt"
+      },
+      {
+       "id": "E",
+       "text": "genial"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-05",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal:** *anything but* X means the opposite of X; the colon describes the prose as crammed with ornament. So X means plain: *spare*. Words that match the description (*ornate*, *intricate*, *digressive*) would make the sentence contradict itself.",
+  "choiceExplanations": {
+   "A": "The prose *is* ornate; *anything but ornate* contradicts the colon.",
+   "D": "Heavy prose could be crammed with qualification, so *anything but* fails.",
+   "B": "Wandering prose is consistent with the description, so *anything but* fails.",
+   "C": "Intricate fits the description, so *anything but intricate* contradicts the colon."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The author's prose is anything but {{1}}: every sentence is crammed with ornament and qualification.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "ornate"
+      },
+      {
+       "id": "B",
+       "text": "digressive"
+      },
+      {
+       "id": "C",
+       "text": "intricate"
+      },
+      {
+       "id": "D",
+       "text": "ponderous"
+      },
+      {
+       "id": "E",
+       "text": "spare"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-06",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *yet* opposes executives to analysts. Executives praised the merger (*hailed*); analysts called it a *gamble unlikely to pay off*: *imprudent*.",
+  "choiceExplanations": {
+   "1A": "Executives who call it bold are not dreading it.",
+   "1B": "Nothing suggests secrecy.",
+   "2B": "Something unavoidable is not a gamble.",
+   "2C": "A routine matter is not a bold gamble."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The merger was {{1}} by executives as a bold strategic move, yet analysts regarded it as {{2}}, a gamble unlikely to pay off.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "dreaded"
+      },
+      {
+       "id": "1B",
+       "text": "concealed"
+      },
+      {
+       "id": "1C",
+       "text": "hailed"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "imprudent"
+      },
+      {
+       "id": "2B",
+       "text": "inevitable"
+      },
+      {
+       "id": "2C",
+       "text": "routine"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-07",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *in fact* marks a contrast between the official image and the reality. Image: a dam *promoted* as clean power; reality: it *devastated* the river ecosystem.",
+  "choiceExplanations": {
+   "1C": "A dam cannot be prohibited as a source of power while it exists and harms the river.",
+   "1B": "No contrast with harm would arise.",
+   "2A": "Would agree with the positive image, but *in fact* needs a contrast.",
+   "2C": "Neutral; it does not state the contrasting harm."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Environmentalists argue that the dam, {{1}} as a source of clean power, has in fact {{2}} the ecosystem of the river downstream.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "promoted"
+      },
+      {
+       "id": "1B",
+       "text": "ignored"
+      },
+      {
+       "id": "1C",
+       "text": "prohibited"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "replenished"
+      },
+      {
+       "id": "2B",
+       "text": "devastated"
+      },
+      {
+       "id": "2C",
+       "text": "documented"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-08",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** avoiding any quotable remark is *discretion*. *However* introduces the critics' negative view of the same caution: *pusillanimous* (cowardly).",
+  "choiceExplanations": {
+   "1C": "Candor means frankness, the opposite of avoiding quotable remarks.",
+   "1A": "Skill in speaking is not the clue.",
+   "2A": "A compliment, but *however* needs criticism.",
+   "2B": "Also not a criticism."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The diplomat's reputation for {{1}} rested on a long record of avoiding any remark that might be quoted against her; critics, however, called her caution {{2}}, a refusal to commit to anything.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "eloquence"
+      },
+      {
+       "id": "1B",
+       "text": "discretion"
+      },
+      {
+       "id": "1C",
+       "text": "candor"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "prudent"
+      },
+      {
+       "id": "2B",
+       "text": "strategic"
+      },
+      {
+       "id": "2C",
+       "text": "pusillanimous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-09",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *Though* contrasts words with deeds: she scorned praise yet took every honor. Her professed *humility* is then suspected of being a pose.",
+  "choiceExplanations": {
+   "1C": "Accepting honors does not contradict scorning solitude.",
+   "1B": "Honors do not contradict scorning tradition.",
+   "2C": "Someone who professed to scorn acclaim would not claim ambition; and ambition is what the detractors suspect, not what she professed.",
+   "2B": "Honors say nothing about thrift."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the sculptor professed to scorn {{1}}, she accepted every honor offered, which led her detractors to suspect that her {{2}} was a pose.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "acclaim"
+      },
+      {
+       "id": "1B",
+       "text": "tradition"
+      },
+      {
+       "id": "1C",
+       "text": "solitude"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "humility"
+      },
+      {
+       "id": "2B",
+       "text": "frugality"
+      },
+      {
+       "id": "2C",
+       "text": "ambition"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-10",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict each:** a draft that lists everything with no main point is *diffuse*; the contrasting revision opens with one claim: *focused*; tying paragraphs to the claim: *anchoring* (and *to it* fits grammatically).",
+  "choiceExplanations": {
+   "1A": "Listing every detail is not brief.",
+   "1C": "Argumentative; the draft has no argument.",
+   "2C": "The same fault as the first draft, not an improvement.",
+   "2A": "Hesitant; unrelated to a single claim.",
+   "3B": "Would cut paragraphs off from the claim.",
+   "3A": "Hiding paragraphs from the claim is the opposite of focus."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the first draft was {{1}}, listing every detail but never stating a main point, the revision is admirably {{2}}, opening with a single claim and {{3}} every paragraph to it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "terse"
+      },
+      {
+       "id": "1B",
+       "text": "diffuse"
+      },
+      {
+       "id": "1C",
+       "text": "polemical"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "tentative"
+      },
+      {
+       "id": "2B",
+       "text": "focused"
+      },
+      {
+       "id": "2C",
+       "text": "sprawling"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "burying"
+      },
+      {
+       "id": "3B",
+       "text": "detaching"
+      },
+      {
+       "id": "3C",
+       "text": "anchoring"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-11",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal:** *only decades later* ... *was it* means it was long rejected and later proved right. Colleagues rejected it: *hostility*, *repudiation* (a rejection of principles); evidence then *vindicated* it.",
+  "choiceExplanations": {
+   "1C": "Indifference would not be a reaction to a theory seen as an attack on principles.",
+   "1A": "Admired theories are not vindicated only decades later.",
+   "2B": "Colleagues would not describe an attack on principles as confirming them.",
+   "2A": "A refinement would be accepted, not delayed.",
+   "3A": "New evidence that refuted it would not mark a reversal after decades of rejection.",
+   "3B": "Does not follow from new evidence emerging."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The biologist's theory was greeted with {{1}} by colleagues who saw it as a {{2}} of established principles; only decades later, when new evidence emerged, was it {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "admiration"
+      },
+      {
+       "id": "1B",
+       "text": "hostility"
+      },
+      {
+       "id": "1C",
+       "text": "indifference"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "refinement"
+      },
+      {
+       "id": "2B",
+       "text": "confirmation"
+      },
+      {
+       "id": "2C",
+       "text": "repudiation"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "refuted"
+      },
+      {
+       "id": "3B",
+       "text": "forgotten"
+      },
+      {
+       "id": "3C",
+       "text": "vindicated"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-12",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** behavior that defies the plot is arbitrary, so blank 2 is *caprice*; the critics' complaint about vivid scenes but weak plot is *uneven*. *Subordinated ... to* fits grammar and sense: scenes outranked the story.",
+  "choiceExplanations": {
+   "1B": "A seamless novel would not have behavior that defies the plot.",
+   "1A": "Means preachy; nothing in the sentence mentions teaching.",
+   "2B": "Consistent behavior would respect the plot's logic.",
+   "2C": "Restraint would not defy the plot's logic.",
+   "3A": "*Anticipated ... to* is ungrammatical and does not state a trade-off.",
+   "3C": "Reconcile works with *with*, not *to*, and the sentence implies a sacrifice, not a harmony."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Critics found the novel {{1}}: its characters, though vividly drawn, behaved with a {{2}} that defied the logic of the plot, as if the author had {{3}} the story's needs to the pleasures of individual scenes.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "didactic"
+      },
+      {
+       "id": "1B",
+       "text": "seamless"
+      },
+      {
+       "id": "1C",
+       "text": "uneven"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "caprice"
+      },
+      {
+       "id": "2B",
+       "text": "consistency"
+      },
+      {
+       "id": "2C",
+       "text": "restraint"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "anticipated"
+      },
+      {
+       "id": "3B",
+       "text": "subordinated"
+      },
+      {
+       "id": "3C",
+       "text": "reconciled"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-13",
+  "lessonId": "v1-02-method",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** a start so fast that no one can follow: *swift*. Then match.",
+  "choiceExplanations": {
+   "A": "A hesitant start would let rivals catch up.",
+   "B": "Clumsiness does not leave rivals behind.",
+   "D": "A cautious start is slow.",
+   "E": "An ordinary start would not outdistance anyone."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "After months of training, the sprinter's start was so {{1}} that no rival could keep up.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "hesitant"
+      },
+      {
+       "id": "B",
+       "text": "awkward"
+      },
+      {
+       "id": "C",
+       "text": "swift"
+      },
+      {
+       "id": "D",
+       "text": "cautious"
+      },
+      {
+       "id": "E",
+       "text": "ordinary"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-14",
+  "lessonId": "v1-02-method",
+  "difficulty": 1,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** something that makes a drinker wince, a harsh taste: *bitter*.",
+  "choiceExplanations": {
+   "A": "A soothing tea would not make her wince.",
+   "B": "Sweetness does not cause wincing.",
+   "C": "A mild temperature would not make her wince.",
+   "D": "A pleasant smell would not make her wince."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The tea was so {{1}} that she could not drink it without wincing.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "soothing"
+      },
+      {
+       "id": "B",
+       "text": "sweet"
+      },
+      {
+       "id": "C",
+       "text": "lukewarm"
+      },
+      {
+       "id": "D",
+       "text": "fragrant"
+      },
+      {
+       "id": "E",
+       "text": "bitter"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-15",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** one win in twenty-four is *terrible*, which explains why optimism seemed unrealistic: *dismal*.",
+  "choiceExplanations": {
+   "A": "One win in twenty-four is nothing to envy.",
+   "B": "The record shows no improvement, and the clue is about the numbers.",
+   "C": "A near-total losing record is blemished.",
+   "E": "Twenty-three losses in twenty-four games is predictable, not erratic."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Given the team's {{1}} record, with one win in twenty-four games, the owner's optimism struck many fans as unrealistic.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "enviable"
+      },
+      {
+       "id": "B",
+       "text": "improving"
+      },
+      {
+       "id": "C",
+       "text": "unblemished"
+      },
+      {
+       "id": "D",
+       "text": "dismal"
+      },
+      {
+       "id": "E",
+       "text": "unpredictable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-16",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict each blank:** designs that ignore the climate are *impractical*; windows and overhangs placed to manage sun and wind show *practicality*. *But* confirms the contrast.",
+  "choiceExplanations": {
+   "1A": "Ignoring climate does not make a building cozy.",
+   "1C": "Wealth is not mentioned.",
+   "2B": "Placing overhangs to manage sun and wind is purposeful, not whimsical.",
+   "2C": "Showiness is not what the clue describes."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The architect's early designs were {{1}}, ignoring the climate entirely, but her later buildings are models of {{2}}, every window and overhang placed to manage sun and wind.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "cozy"
+      },
+      {
+       "id": "1B",
+       "text": "impractical"
+      },
+      {
+       "id": "1C",
+       "text": "opulent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "practicality"
+      },
+      {
+       "id": "2B",
+       "text": "whimsy"
+      },
+      {
+       "id": "2C",
+       "text": "ostentation"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-17",
+  "lessonId": "v1-02-method",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** *joking easily* is *jovial*; *Although* flips it, and *humorless* predicts a stern, severe public manner: *austere*.",
+  "choiceExplanations": {
+   "1A": "Joking with staff is not solitary behavior.",
+   "1C": "Joking easily is not spiteful.",
+   "2A": "Bubbly is the opposite of humorless.",
+   "2B": "Talkative does not mean humorless."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the legislator was {{1}} in private, joking easily with her staff, in public she was so {{2}} that reporters called her humorless.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "reclusive"
+      },
+      {
+       "id": "1B",
+       "text": "jovial"
+      },
+      {
+       "id": "1C",
+       "text": "spiteful"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "ebullient"
+      },
+      {
+       "id": "2B",
+       "text": "garrulous"
+      },
+      {
+       "id": "2C",
+       "text": "austere"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-18",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Predict:** prose that only specialists can follow is *obscure* or *hard to grasp*: *recondite*.",
+  "choiceExplanations": {
+   "A": "Clear prose could be followed by many.",
+   "B": "Briefness is not the problem; density is.",
+   "D": "Humor is not mentioned.",
+   "E": "Plain prose would not need specialists."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The scholar's prose was {{1}}: so dense with allusion and qualification that only a handful of specialists could follow it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "lucid"
+      },
+      {
+       "id": "B",
+       "text": "succinct"
+      },
+      {
+       "id": "C",
+       "text": "recondite"
+      },
+      {
+       "id": "D",
+       "text": "jocular"
+      },
+      {
+       "id": "E",
+       "text": "plain"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-19",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** promising raises to all is *upbeat*: *buoyant*. People remembering broken promises feel *skepticism*.",
+  "choiceExplanations": {
+   "1B": "Promising raises is not grim.",
+   "1C": "The speech is described by what it promised, not by its length.",
+   "2A": "Remembering broken promises does not produce gratitude.",
+   "2C": "They remember a pattern, so they are doubtful, not confused."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the manager's speech was {{1}}, promising raises and promotions for all, those who knew her record greeted it with {{2}}, remembering earlier promises never kept.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "buoyant"
+      },
+      {
+       "id": "1B",
+       "text": "grim"
+      },
+      {
+       "id": "1C",
+       "text": "cursory"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "gratitude"
+      },
+      {
+       "id": "2B",
+       "text": "skepticism"
+      },
+      {
+       "id": "2C",
+       "text": "bewilderment"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-20",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** a text closed to most readers is *inaccessible*; making it readable takes years of *deciphering*; *though* signals a weakness, and readings reconstructed by guess are *conjectural*.",
+  "choiceExplanations": {
+   "1B": "Fame does not explain why it was closed to most readers.",
+   "1C": "Reliability is not the clue.",
+   "2A": "Shortening a text does not make an unreadable text readable.",
+   "2B": "Praise does not open a text to readers.",
+   "3A": "*Though* needs a weakness, not perfection.",
+   "3C": "*Though* needs a weakness; thoroughness is a strength."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the manuscript was {{1}} to all but a few scholars, its editor spent years {{2}} the text, and the published edition, though {{3}} in places, finally gave general readers access.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "inaccessible"
+      },
+      {
+       "id": "1B",
+       "text": "illustrious"
+      },
+      {
+       "id": "1C",
+       "text": "reliable"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "abridging"
+      },
+      {
+       "id": "2B",
+       "text": "praising"
+      },
+      {
+       "id": "2C",
+       "text": "deciphering"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "flawless"
+      },
+      {
+       "id": "3B",
+       "text": "conjectural"
+      },
+      {
+       "id": "3C",
+       "text": "exhaustive"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2C",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-21",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** a *complete break* is *revolutionary*; *merely ... a few cosmetic changes* means old programs were *repackaged*.",
+  "choiceExplanations": {
+   "1A": "The founder claims a break with the past, the opposite of derivative.",
+   "1C": "A new break with the past is not outdated.",
+   "2B": "Cosmetic changes do not condemn anything.",
+   "2C": "Surpassing existing programs is not what *merely ... cosmetic* says."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The company's founder insisted that the new software was {{1}}, a complete break with everything before it; analysts, however, noted that it merely {{2}} existing programs with a few cosmetic changes.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "derivative"
+      },
+      {
+       "id": "1B",
+       "text": "revolutionary"
+      },
+      {
+       "id": "1C",
+       "text": "obsolete"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "repackaged"
+      },
+      {
+       "id": "2B",
+       "text": "condemned"
+      },
+      {
+       "id": "2C",
+       "text": "eclipsed"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-22",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** every claim following the last is *rigorous*; joining unconnected propositions is *incoherent*; confident prose that hides gaps is *concealing* them.",
+  "choiceExplanations": {
+   "1A": "Popularity is not about logic.",
+   "1C": "Rambling contradicts *every claim followed from the one before*.",
+   "2B": "Unconnected propositions do not build on each other.",
+   "2C": "Thoroughness is not the flaw described.",
+   "3A": "Confident prose hides gaps; it does not expose them.",
+   "3B": "Listing the gaps would not hide them."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Scholars once praised the treatise as {{1}}, a work in which every claim followed from the one before; closer inspection, however, shows its argument to be {{2}}, joining propositions that have no logical connection and {{3}} the gaps with confident prose.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "popular"
+      },
+      {
+       "id": "1B",
+       "text": "rigorous"
+      },
+      {
+       "id": "1C",
+       "text": "discursive"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "incoherent"
+      },
+      {
+       "id": "2B",
+       "text": "cumulative"
+      },
+      {
+       "id": "2C",
+       "text": "exhaustive"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "exposing"
+      },
+      {
+       "id": "3B",
+       "text": "enumerating"
+      },
+      {
+       "id": "3C",
+       "text": "concealing"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-23",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** insisting on a source for every claim is *scrupulousness*; *yet* and *rather than the archives* predict footnotes that are *secondhand*.",
+  "choiceExplanations": {
+   "1A": "Talkativeness is not a refusal to let claims stand without sources.",
+   "1C": "Bias is not what the apposition describes.",
+   "2B": "Pioneering footnotes would come from the archives, not from other secondary works.",
+   "2C": "Quantity is not the issue; *rather than the archives* says where the sources come from."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Admirers praise the historian's {{1}}, her refusal to let any claim stand without a source, yet her footnotes, on inspection, are largely {{2}}, citing other secondary works rather than the archives she professes to have mined.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "loquacity"
+      },
+      {
+       "id": "1B",
+       "text": "scrupulousness"
+      },
+      {
+       "id": "1C",
+       "text": "partiality"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "secondhand"
+      },
+      {
+       "id": "2B",
+       "text": "pioneering"
+      },
+      {
+       "id": "2C",
+       "text": "voluminous"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-24",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Predict:** awarding by acquaintance rather than merit is *capricious*; a loyal panel that does not examine is *ornamental*; it therefore *ratified* the director's choices.",
+  "choiceExplanations": {
+   "1A": "Awards by acquaintance are not rigorous.",
+   "1C": "Being open is not what *by personal acquaintance than by merit* restates.",
+   "2A": "A loyal panel that does not examine has no real authority.",
+   "2B": "It *ratified* choices rather than questioning them.",
+   "3B": "The sentence says *rather than examined*.",
+   "3C": "A loyal panel that does not examine does not reject."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Because the foundation's grants were {{1}}, distributed more by personal acquaintance than by merit, its panel of experts, when finally consulted, proved largely {{2}}: its members, chosen for their loyalty, {{3}} rather than examined the director's choices.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "rigorous"
+      },
+      {
+       "id": "1B",
+       "text": "capricious"
+      },
+      {
+       "id": "1C",
+       "text": "transparent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "authoritative"
+      },
+      {
+       "id": "2B",
+       "text": "dissenting"
+      },
+      {
+       "id": "2C",
+       "text": "ornamental"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "ratified"
+      },
+      {
+       "id": "3B",
+       "text": "scrutinized"
+      },
+      {
+       "id": "3C",
+       "text": "rejected"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3A"
+   ]
+  }
+ }
+]

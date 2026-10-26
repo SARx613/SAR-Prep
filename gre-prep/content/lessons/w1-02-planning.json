@@ -1,0 +1,202 @@
+{
+ "id": "w1-02-planning",
+ "status": "published",
+ "why": "ETS's advice for the Issue task sets out planning steps and questions to work through before writing, all within the 30 minutes.",
+ "rule": "ETS's four planning steps:\n\n1. Read the claim and the instructions; be sure you understand both.\n2. Test the claim against your own ideas, experience, reading and observation: this is where reasons and examples come from.\n3. Decide the position you will defend.\n4. Choose your most compelling evidence (reasons, and real or hypothetical examples).\n\nAsk yourself:\n\n- What is the central issue, and what exactly do the instructions ask?\n- Do I agree with all or part of it? What does it assume, and is that reasonable?\n- Is it valid only under certain conditions? Which terms need my interpretation?\n- Who could refute me, and how will I acknowledge or answer them?\n\nThen note position, support and order.",
+ "examples": [
+  {
+   "prompt": "Claim: \"Employees work best when they are free to decide how to do their jobs.\" Instructions (paraphrased): say how far you agree or disagree, considering where the statement would and would not hold true.",
+   "steps": [
+    "Central issue: how much freedom produces the best work. Instructions: a position plus ways the statement does and does not hold.",
+    "Assumption: all employees are equally able to use freedom well. Not always reasonable: a new hire may need structure.",
+    "Conditions: holds for experienced staff on creative tasks; fails for safety-critical routines.",
+    "Position: agree for experienced staff. Reason: autonomy lets them use their expertise. Example: a design team that redesigned its own process and cut errors.",
+    "Possible objection: freedom causes inconsistency. Reply: agree it does for routine work, which is why my position is conditional."
+   ],
+   "answer": "Position: agree for experienced staff on open-ended work, with conditions, one reason, one example and a reply to the objection."
+  },
+  {
+   "prompt": "Claim: \"The most successful people are those who earn the most.\" What does the planning question about terms tell you to do?",
+   "steps": [
+    "\"Successful\" could mean income, influence, happiness or achievement; the claim fixes it as income only in its second half.",
+    "State in your plan how you read the term, for example: success measured by money alone versus by meaningful achievement.",
+    "Build reasons around the reading you defend, and say so in the essay."
+   ],
+   "answer": "Decide how you interpret key terms and say so, so that your reasons stay on one meaning."
+  }
+ ],
+ "trap": "Typing straight after reading, or planning only your own side. Without a position, evidence and an answer to the strongest objection, the essay drifts. Planning also lives inside your 30 minutes, so keep it short.",
+ "checks": [
+  {
+   "id": "w1-02-planning-c1",
+   "lessonId": "w1-02-planning",
+   "difficulty": 1,
+   "stem": "According to ETS, what is the first planning step?",
+   "explanation": "ETS's first step is to read the claim and the specific instructions carefully and make sure you understand them.",
+   "choiceExplanations": {
+    "A": "ETS does not list this; you plan position and support first.",
+    "C": "Choosing evidence is the fourth step, after you decide your position.",
+    "D": "ETS lets you use as many paragraphs as your argument needs.",
+    "E": "Raters have no preferred position."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Write the conclusion so you know where you are going"
+     },
+     {
+      "id": "B",
+      "text": "Read the claim and instructions and make sure you understand them"
+     },
+     {
+      "id": "C",
+      "text": "Choose the examples"
+     },
+     {
+      "id": "D",
+      "text": "Count how many paragraphs you will write"
+     },
+     {
+      "id": "E",
+      "text": "Pick the position most raters prefer"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "w1-02-planning-c2",
+   "lessonId": "w1-02-planning",
+   "difficulty": 2,
+   "stem": "A writer realises that a claim only makes sense for small companies and fails for large ones. Which planning question has she answered?",
+   "explanation": "Finding the circumstances (company size) in which the claim holds and fails answers the question about conditions.",
+   "choiceExplanations": {
+    "B": "She has not chosen examples yet.",
+    "C": "She is analysing the claim, not objections to her own position.",
+    "D": "No term was reinterpreted.",
+    "E": "That question concerns the instructions, not the claim's scope."
+   },
+   "estSeconds": 50,
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a4",
+     "solver-b4"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Does the claim hold only in some conditions, and if so, which?"
+     },
+     {
+      "id": "B",
+      "text": "Which examples are the most compelling?"
+     },
+     {
+      "id": "C",
+      "text": "How might someone argue against my position?"
+     },
+     {
+      "id": "D",
+      "text": "Which terms in the claim need my own interpretation?"
+     },
+     {
+      "id": "E",
+      "text": "What exactly do the instructions ask me to do?"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "w1-02-planning-c3",
+   "lessonId": "w1-02-planning",
+   "difficulty": 2,
+   "stem": "Once you have decided on a position, which step does ETS recommend?",
+   "explanation": "ETS advises considering reasons someone might use to refute or undermine your position and deciding how to acknowledge or defend against them.",
+   "choiceExplanations": {
+    "B": "ETS lists choosing compelling evidence as part of planning, before writing.",
+    "C": "An objection is something to answer, not a reason to abandon a position automatically.",
+    "D": "ETS suggests making notes about your position and its support.",
+    "E": "ETS says you may organise the response in any effective way."
+   },
+   "estSeconds": 50,
+   "skills": [
+    "issue-planning"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Consider the perspectives of people who might disagree and decide how to acknowledge or answer them"
+     },
+     {
+      "id": "B",
+      "text": "Start writing and decide on evidence while you type"
+     },
+     {
+      "id": "C",
+      "text": "Switch to the opposite position if one objection seems strong"
+     },
+     {
+      "id": "D",
+      "text": "Delete your notes to save time"
+     },
+     {
+      "id": "E",
+      "text": "Look for a template with a fixed number of paragraphs"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

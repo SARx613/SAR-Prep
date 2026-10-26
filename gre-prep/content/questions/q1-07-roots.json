@@ -1,0 +1,886 @@
+[
+ {
+  "id": "q1-07-roots-01",
+  "lessonId": "q1-07-roots",
+  "difficulty": 1,
+  "stem": "What is the value of $\\sqrt{49}\\cdot\\sqrt{4}$?",
+  "explanation": "$\\sqrt{49} = 7$ and $\\sqrt{4} = 2$, so the product is 14.",
+  "estSeconds": 45,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14
+  }
+ },
+ {
+  "id": "q1-07-roots-02",
+  "lessonId": "q1-07-roots",
+  "difficulty": 1,
+  "stem": "What is the value of $-\\sqrt{64}$?",
+  "explanation": "$\\sqrt{64} = 8$ (the nonnegative root); the minus sign outside gives $-8$.",
+  "choiceExplanations": {
+   "A": "This forgets to take the root.",
+   "B": "This halves 64 instead of taking a root.",
+   "D": "This drops the minus sign: $\\sqrt{64}$ alone is 8.",
+   "E": "This halves 64 and drops the sign."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-64$"
+    },
+    {
+     "id": "B",
+     "text": "$-32$"
+    },
+    {
+     "id": "C",
+     "text": "$-8$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$32$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-03",
+  "lessonId": "q1-07-roots",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $\\sqrt{75}$?",
+  "explanation": "$\\sqrt{75} = \\sqrt{25\\cdot3} = \\sqrt{25}\\cdot\\sqrt{3} = 5\\sqrt{3}$.",
+  "choiceExplanations": {
+   "A": "$(3\\sqrt{5})^2 = 45$, not 75: the 3 and 5 are swapped.",
+   "C": "$15^2 = 225$, not 75.",
+   "D": "This halves 75 instead of taking a root.",
+   "E": "This pulls 25 out without taking its root."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3\\sqrt{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$5\\sqrt{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$15$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{75}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$25\\sqrt{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-04",
+  "lessonId": "q1-07-roots",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$7^2 = 49 < 50$, and the nonnegative root is increasing, so $\\sqrt{50}>7$. A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{50}$",
+   "quantityB": "7"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-07-roots-05",
+  "lessonId": "q1-07-roots",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to 6? Indicate all such numbers.",
+  "explanation": "$\\sqrt{4}\\cdot\\sqrt{9} = 2\\cdot3 = 6$; $\\sqrt{20+16} = \\sqrt{36} = 6$; $6^3 = 216$; $\\sqrt{12}\\cdot\\sqrt{3} = \\sqrt{36} = 6$. But $\\sqrt{4}+\\sqrt{9} = 5$ and $-\\sqrt{36} = -6$.",
+  "choiceExplanations": {
+   "B": "$\\sqrt{4}+\\sqrt{9} = 2+3 = 5$; roots multiply under a product, not under a sum.",
+   "E": "The symbol gives the nonnegative root; with the minus sign outside the value is $-6$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{4}\\cdot\\sqrt{9}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{4}+\\sqrt{9}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt{20+16}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt[3]{216}$"
+    },
+    {
+     "id": "E",
+     "text": "$-\\sqrt{36}$"
+    },
+    {
+     "id": "F",
+     "text": "$\\sqrt{12}\\cdot\\sqrt{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-06",
+  "lessonId": "q1-07-roots",
+  "difficulty": 3,
+  "stem": "What is the value of $\\sqrt{18}\\cdot\\sqrt{8}$?",
+  "explanation": "Combine under one root: $\\sqrt{18\\cdot8} = \\sqrt{144} = 12$.",
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-07-roots-07",
+  "lessonId": "q1-07-roots",
+  "difficulty": 3,
+  "stem": "Which of the following is equal to $\\sqrt{50}+\\sqrt{18}$?",
+  "explanation": "$\\sqrt{50} = 5\\sqrt{2}$ and $\\sqrt{18} = 3\\sqrt{2}$. Add like terms: $5\\sqrt{2}+3\\sqrt{2} = 8\\sqrt{2}$.",
+  "choiceExplanations": {
+   "A": "This is only $\\sqrt{50}$.",
+   "B": "This adds the numbers under the roots; $\\sqrt{a}+\\sqrt{b}\\ne\\sqrt{a+b}$.",
+   "D": "This multiplies $8$ by $2$ instead of keeping $\\sqrt{2}$ ($8\\sqrt{2}\\approx11.3$).",
+   "E": "This is the product $\\sqrt{50}\\cdot\\sqrt{18} = \\sqrt{900}$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5\\sqrt{2}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{68}$"
+    },
+    {
+     "id": "C",
+     "text": "$8\\sqrt{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$16$"
+    },
+    {
+     "id": "E",
+     "text": "$30$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-08",
+  "lessonId": "q1-07-roots",
+  "difficulty": 3,
+  "stem": "Which of the following is NOT a real number?",
+  "explanation": "An even-order root of a negative number does not exist among the real numbers, so $\\sqrt[4]{-16}$ is not real. Odd-order roots of negatives exist: $\\sqrt[3]{-27} = -3$ and $\\sqrt[3]{-1} = -1$.",
+  "choiceExplanations": {
+   "A": "$(-3)^3 = -27$, so this is $-3$.",
+   "C": "$\\sqrt{0} = 0$.",
+   "D": "This is $-4$: the root is taken first, then negated.",
+   "E": "$(-1)^3 = -1$, so this is $-1$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt[3]{-27}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt[4]{-16}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt{0}$"
+    },
+    {
+     "id": "D",
+     "text": "$-\\sqrt{16}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\sqrt[3]{-1}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-09",
+  "lessonId": "q1-07-roots",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "If $x = 3$, both are 3. If $x = -3$, $\\sqrt{x^2} = \\sqrt{9} = 3$, but $x = -3$, so A is greater. The relationship depends on $x$.",
+  "estSeconds": 75,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{x^2}$",
+   "quantityB": "$x$",
+   "common": "$x$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-07-roots-10",
+  "lessonId": "q1-07-roots",
+  "difficulty": 4,
+  "stem": "What is the value of $\\dfrac{\\sqrt{12}\\cdot\\sqrt{18}}{\\sqrt{6}}$?",
+  "explanation": "Combine: $\\sqrt{\\dfrac{12\\cdot18}{6}} = \\sqrt{36} = 6$.",
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-07-roots-11",
+  "lessonId": "q1-07-roots",
+  "difficulty": 5,
+  "stem": "Which of the following is equal to $\\sqrt{8}+\\sqrt{32}-\\sqrt{18}$?",
+  "explanation": "Pull out perfect squares: $\\sqrt{8}=2\\sqrt{2}$, $\\sqrt{32}=4\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$. All are multiples of $\\sqrt{2}$, so combine coefficients: $(2+4-3)\\sqrt{2}=3\\sqrt{2}$.",
+  "choiceExplanations": {
+   "A": "This moves the coefficient 3 under the root unsquared; $3\\sqrt{2}=\\sqrt{9\\cdot2}=\\sqrt{18}$, not $\\sqrt{6}$.",
+   "C": "This combines the radicands, $8+32-18=22$, but roots of a sum or difference do not split that way.",
+   "D": "This adds $\\sqrt{18}$ instead of subtracting it: $(2+4+3)\\sqrt{2}$.",
+   "E": "This pulls out the perfect squares themselves instead of their roots: $4\\sqrt{2}+16\\sqrt{2}-9\\sqrt{2}$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{6}$"
+    },
+    {
+     "id": "B",
+     "text": "$3\\sqrt{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt{22}$"
+    },
+    {
+     "id": "D",
+     "text": "$9\\sqrt{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$11\\sqrt{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-12",
+  "lessonId": "q1-07-roots",
+  "difficulty": 5,
+  "stem": "Which of the following are greater than 5 and less than 6? Indicate all such numbers.",
+  "explanation": "Compare under the root: $25<26<36$, so $5<\\sqrt{26}<6$. For cube roots compare cubes: $125<200<216$, so $5<\\sqrt[3]{200}<6$. $\\sqrt{24}<5$; $\\sqrt{36} = 6$ exactly; $\\sqrt{37}>6$; $\\sqrt[3]{100}<5$ since $100<125$.",
+  "choiceExplanations": {
+   "A": "$24<25$, so $\\sqrt{24}<5$.",
+   "D": "$\\sqrt{36} = 6$, which is not less than 6.",
+   "E": "$37>36$, so $\\sqrt{37}>6$.",
+   "F": "$100<125 = 5^3$, so $\\sqrt[3]{100}<5$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{24}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{26}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt[3]{200}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{36}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\sqrt{37}$"
+    },
+    {
+     "id": "F",
+     "text": "$\\sqrt[3]{100}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-13",
+  "lessonId": "q1-07-roots",
+  "difficulty": 1,
+  "stem": "What is the value of $\\sqrt{169}$?",
+  "explanation": "$13\\cdot13 = 169$, and $\\sqrt{169}$ is the nonnegative number that squares to 169, so it is 13.",
+  "choiceExplanations": {
+   "A": "$12^2 = 144$, not 169.",
+   "C": "$14^2 = 196$, not 169.",
+   "D": "26 is $2\\cdot13$; a square root is not found by doubling.",
+   "E": "This halves 169; a square root is not found by halving."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "13"
+    },
+    {
+     "id": "C",
+     "text": "14"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "84.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-14",
+  "lessonId": "q1-07-roots",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $\\sqrt{160}$?",
+  "explanation": "Pull out the perfect square: $160 = 16\\cdot10$, so $\\sqrt{160} = \\sqrt{16}\\sqrt{10} = 4\\sqrt{10}$.",
+  "choiceExplanations": {
+   "A": "$2\\sqrt{10} = \\sqrt{40}$: only a factor 4 was pulled out of 160 as if it were 16.",
+   "C": "$8\\sqrt{5} = \\sqrt{64\\cdot5} = \\sqrt{320}$, twice too large.",
+   "D": "This divides 160 by 4 instead of taking a root.",
+   "E": "This halves 160 instead of taking a root."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2\\sqrt{10}$"
+    },
+    {
+     "id": "B",
+     "text": "$4\\sqrt{10}$"
+    },
+    {
+     "id": "C",
+     "text": "$8\\sqrt{5}$"
+    },
+    {
+     "id": "D",
+     "text": "$40$"
+    },
+    {
+     "id": "E",
+     "text": "$80$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-15",
+  "lessonId": "q1-07-roots",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Square first: $(-5)^2 = 25$. Then $\\sqrt{25} = 5$, because the root symbol gives the nonnegative root. (The root of $x^2$ is $|x|$, here $|-5| = 5$.) The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{(-5)^2}$",
+   "quantityB": "5"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-07-roots-16",
+  "lessonId": "q1-07-roots",
+  "difficulty": 3,
+  "stem": "What is the value of $\\sqrt[3]{-125}+\\sqrt{49}$?",
+  "explanation": "The cube root of a negative number exists: $\\sqrt[3]{-125} = -5$ since $(-5)^3 = -125$. And $\\sqrt{49} = 7$. The sum is $-5+7 = 2$.",
+  "estSeconds": 60,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q1-07-roots-17",
+  "lessonId": "q1-07-roots",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $4\\sqrt{3}$? Indicate all such numbers.",
+  "explanation": "$\\sqrt{48} = \\sqrt{16\\cdot3} = 4\\sqrt{3}$. And $2\\sqrt{12} = 2\\cdot\\sqrt{4\\cdot3} = 2\\cdot2\\sqrt{3} = 4\\sqrt{3}$. The others are $\\sqrt{19}\\approx4.36$, $3\\sqrt{3}\\approx5.20$ and $4+\\sqrt{3}\\approx5.73$, while $4\\sqrt{3}\\approx6.93$.",
+  "choiceExplanations": {
+   "A": "$4\\sqrt{3}$ equals $\\sqrt{16\\cdot3} = \\sqrt{48}$; the 4 multiplies the root, it is not squared and added to 3.",
+   "B": "$\\sqrt{12} = 2\\sqrt{3}$, so this sum is $3\\sqrt{3}$.",
+   "C": "A coefficient multiplies the root; $4+\\sqrt{3}$ is a sum, not a product."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{19}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{12}+\\sqrt{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$4+\\sqrt{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{48}$"
+    },
+    {
+     "id": "E",
+     "text": "$2\\sqrt{12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-18",
+  "lessonId": "q1-07-roots",
+  "difficulty": 4,
+  "stem": "What is the greatest integer less than $3\\sqrt{7}$?",
+  "explanation": "Move the 3 under the root: $3\\sqrt{7} = \\sqrt{9\\cdot7} = \\sqrt{63}$. Since $49<63<64$, we get $7<\\sqrt{63}<8$. The greatest integer below it is 7.",
+  "estSeconds": 90,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 7
+  }
+ },
+ {
+  "id": "q1-07-roots-19",
+  "lessonId": "q1-07-roots",
+  "difficulty": 4,
+  "stem": "Which of the following are integers? Indicate all such numbers.",
+  "explanation": "$\\sqrt{45}\\div\\sqrt{5} = \\sqrt{\\frac{45}{5}} = \\sqrt{9} = 3$ and $\\sqrt{2}\\cdot\\sqrt{8} = \\sqrt{16} = 4$. The others simplify to $\\sqrt{15}$, $2\\sqrt{5}$ and $3\\sqrt{3}$, which lie strictly between consecutive integers.",
+  "choiceExplanations": {
+   "B": "$\\sqrt{3}\\cdot\\sqrt{5} = \\sqrt{15}$, and $3^2<15<4^2$, so it is not an integer.",
+   "D": "$\\sqrt{20} = 2\\sqrt{5}$, and $4^2<20<5^2$, so it is not an integer.",
+   "E": "$\\sqrt{12}+\\sqrt{3} = 2\\sqrt{3}+\\sqrt{3} = 3\\sqrt{3}$, not an integer."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{45}\\div\\sqrt{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{3}\\cdot\\sqrt{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\sqrt{2}\\cdot\\sqrt{8}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{20}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\sqrt{12}+\\sqrt{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-07-roots-20",
+  "lessonId": "q1-07-roots",
+  "difficulty": 5,
+  "stem": "The integer $n$ is positive and $\\sqrt{72n}$ is an integer. What is the least possible value of $\\sqrt{72n}$?",
+  "explanation": "$\\sqrt{72n} = \\sqrt{36\\cdot2n} = 6\\sqrt{2n}$. This is an integer only if $2n$ is a perfect square, and the smallest such $n$ is 2, giving $6\\sqrt{4} = 12$. Check: $72\\cdot2 = 144 = 12^2$. Larger values such as $n=8$ give $\\sqrt{576} = 24$.",
+  "estSeconds": 120,
+  "skills": [
+   "roots"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ }
+]

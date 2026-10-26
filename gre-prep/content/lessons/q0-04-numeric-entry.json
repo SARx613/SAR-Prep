@@ -1,0 +1,138 @@
+{
+ "id": "q0-04-numeric-entry",
+ "status": "published",
+ "why": "Numeric Entry has no choices to reveal a mistake, so form, units and rounding decide whether a correct calculation scores.",
+ "rule": "- **Form**: integers and decimals go in one box; a fraction goes in two (numerator, denominator).\n- **Labels**: note units (feet or miles), orders of magnitude (millions, billions) and percent versus decimal. If a percent sign follows the box, enter $37.5$, not $0.375$.\n- **Rounding**: if told to round, do it to the stated place. Keep all intermediate values exact and round **only the final answer**. A positive number exactly halfway rounds to the greater value. With no rounding instruction, enter the exact value.\n- **Check**: is the answer reasonable for the context?",
+ "examples": [
+  {
+   "prompt": "What percent of 24 is 18, if the answer box is followed by a percent sign?",
+   "steps": [
+    "$18/24=0.75$.",
+    "The percent sign is already printed, so type the number of percent."
+   ],
+   "answer": "75"
+  },
+  {
+   "prompt": "Round 8.125 to the nearest hundredth.",
+   "steps": [
+    "8.125 lies exactly halfway between 8.12 and 8.13.",
+    "A positive halfway number goes to the greater value."
+   ],
+   "answer": "8.13"
+  }
+ ],
+ "trap": "Rounding along the way. If you replace $\\frac{100}{7}$ by 14.3 and multiply back by 7 you get 100.1, not the exact 100.",
+ "checks": [
+  {
+   "id": "q0-04-numeric-entry-c1",
+   "lessonId": "q0-04-numeric-entry",
+   "difficulty": 1,
+   "stem": "Round 31.5 to the nearest integer.",
+   "explanation": "A positive halfway value rounds up: 32.",
+   "estSeconds": 45,
+   "skills": [
+    "numeric-entry"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 32
+   }
+  },
+  {
+   "id": "q0-04-numeric-entry-c2",
+   "lessonId": "q0-04-numeric-entry",
+   "difficulty": 2,
+   "stem": "A total of 3,600,000 dollars is to be entered in a box labelled \"millions of dollars\". What do you enter?",
+   "explanation": "3,600,000 is 3.6 million.",
+   "estSeconds": 45,
+   "skills": [
+    "numeric-entry"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 3.6
+   }
+  },
+  {
+   "id": "q0-04-numeric-entry-c3",
+   "lessonId": "q0-04-numeric-entry",
+   "difficulty": 2,
+   "stem": "Which entry is correct for a question asking for a fraction, if the answer is $\\frac{5}{12}$?",
+   "explanation": "Numerator and denominator in their own boxes.",
+   "choiceExplanations": {
+    "B": "Fractions are entered as numerator and denominator, not rounded decimals.",
+    "C": "The numerator goes in the numerator box.",
+    "D": "The second box needs the denominator.",
+    "E": "A decimal in both boxes is not a fraction."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "numeric-entry"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "5 in the first box and 12 in the second"
+     },
+     {
+      "id": "B",
+      "text": "0.42 in the first box"
+     },
+     {
+      "id": "C",
+      "text": "12 in the first box and 5 in the second"
+     },
+     {
+      "id": "D",
+      "text": "5 in both boxes"
+     },
+     {
+      "id": "E",
+      "text": "0.4167 in both boxes"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

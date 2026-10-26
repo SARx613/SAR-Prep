@@ -1,0 +1,163 @@
+{
+ "id": "v3-01-formats",
+ "status": "published",
+ "why": "Reading Comprehension makes up about half of the Verbal Reasoning measure, and each of its three formats is graded and read differently.",
+ "rule": "**Select one:** five choices, one best answer. The key most accurately and completely answers the question; a true statement that does not answer it, or answers only part of it, is wrong.\n\n**Select one or more:** exactly three choices, with one to three correct. Judge each choice on its own merits. Credit only if you pick every correct choice and no wrong one, so do not worry if all three look right.\n\n**Select in passage:** click one sentence. If the question names a paragraph, only sentences there count. The sentence must fit every part of the description, though the description may leave parts of the sentence unmentioned.\n\nAll answers come from the passage, never from outside knowledge.",
+ "examples": [
+  {
+   "prompt": "Passage: \"Lichens survive on bare rock because they absorb moisture from fog as well as from rain. Their slow growth, however, makes them poor competitors where soil is available.\"\n\n**Select in passage:** Select the sentence that explains how lichens obtain water.",
+   "steps": [
+    "Read each sentence on its own against the description.",
+    "Sentence 1 names the sources of moisture: fog and rain.",
+    "Sentence 2 is about growth and competition, so part of the description does not apply."
+   ],
+   "answer": "The first sentence."
+  },
+  {
+   "prompt": "Same passage. **Select one or more:** Which of the following does the passage say about lichens? A. They grow quickly. B. They can take in water from fog. C. They compete poorly where soil is present.",
+   "steps": [
+    "A reverses 'slow growth': wrong.",
+    "B restates sentence 1: correct.",
+    "C paraphrases sentence 2: correct. Each choice is judged alone, so two correct is fine."
+   ],
+   "answer": "B and C"
+  }
+ ],
+ "trap": "Picking a choice because it is true, or because you know it from outside the passage, rather than because the passage supports it and the question asks for it. On select-all, stopping after the first correct choice loses the credit.",
+ "checks": [
+  {
+   "id": "v3-01-formats-c1",
+   "lessonId": "v3-01-formats",
+   "difficulty": 1,
+   "stem": "According to the passage, why must bakers feed a starter regularly?",
+   "explanation": "The second sentence gives the reason: the microbes exhaust their sugar within a day or so.",
+   "choiceExplanations": {
+    "A": "Not stated: a neglected starter can usually be revived.",
+    "C": "Commercial yeast is the thing sourdough avoids.",
+    "D": "The passage links neglect to sourness, not feeding to flavor.",
+    "E": "Contradicted: it 'can usually be revived'."
+   },
+   "estSeconds": 65,
+   "skills": [
+    "rc-formats"
+   ],
+   "passageId": "v3-c-01",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The starter would otherwise lose its wild yeasts permanently."
+     },
+     {
+      "id": "B",
+      "text": "The microbes in it use up their sugar quickly."
+     },
+     {
+      "id": "C",
+      "text": "Commercial yeast has to be replaced every day."
+     },
+     {
+      "id": "D",
+      "text": "Feeding makes the bread taste less sour."
+     },
+     {
+      "id": "E",
+      "text": "The starter cannot be revived once it has been neglected."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "v3-01-formats-c2",
+   "lessonId": "v3-01-formats",
+   "difficulty": 1,
+   "stem": "Consider each of the three answer choices separately and select all that apply. According to the passage, a neglected starter",
+   "explanation": "Select-all questions are graded choice by choice: A and B restate the last sentence, and C contradicts it. All three can be right, or only one.",
+   "choiceExplanations": {
+    "C": "The passage says it can usually be revived."
+   },
+   "estSeconds": 80,
+   "skills": [
+    "rc-formats"
+   ],
+   "passageId": "v3-c-01",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "becomes sluggish"
+     },
+     {
+      "id": "B",
+      "text": "becomes sour"
+     },
+     {
+      "id": "C",
+      "text": "can never be revived"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "v3-01-formats-c3",
+   "lessonId": "v3-01-formats",
+   "difficulty": 1,
+   "stem": "Select the sentence that explains what makes the bread rise.",
+   "explanation": "Only the first sentence says what produces the gas that raises the dough.",
+   "estSeconds": 53,
+   "skills": [
+    "rc-formats"
+   ],
+   "passageId": "v3-c-01",
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_in_passage"
+   },
+   "answer": {
+    "sentence": "Sourdough bread rises without commercial yeast because a starter culture of wild yeasts and bacteria produces gas as it ferments flour."
+   }
+  }
+ ]
+}

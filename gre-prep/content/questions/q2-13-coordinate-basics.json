@@ -1,0 +1,910 @@
+[
+ {
+  "id": "q2-13-coordinate-basics-01",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 1,
+  "stem": "In the coordinate plane shown, which point lies in quadrant III?",
+  "explanation": "Quadrant III has both coordinates negative. Only $C(-2,-3)$ qualifies.",
+  "choiceExplanations": {
+   "A": "$A(3,2)$ is in quadrant I.",
+   "B": "$B(-4,3)$ is in quadrant II.",
+   "D": "$D(5,-1)$ is in quadrant IV.",
+   "E": "Point $C$ is in quadrant III."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 290 224\"><line x1=\"24.0\" y1=\"200.0\" x2=\"24.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46.0\" y1=\"200.0\" x2=\"46.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68.0\" y1=\"200.0\" x2=\"68.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90.0\" y1=\"200.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112.0\" y1=\"200.0\" x2=\"112.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134.0\" y1=\"200.0\" x2=\"134.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156.0\" y1=\"200.0\" x2=\"156.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178.0\" y1=\"200.0\" x2=\"178.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200.0\" y1=\"200.0\" x2=\"200.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222.0\" y1=\"200.0\" x2=\"222.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244.0\" y1=\"200.0\" x2=\"244.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"266.0\" y1=\"200.0\" x2=\"266.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"200.0\" x2=\"266.0\" y2=\"200.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"178.0\" x2=\"266.0\" y2=\"178.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"156.0\" x2=\"266.0\" y2=\"156.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"134.0\" x2=\"266.0\" y2=\"134.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"266.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"90.0\" x2=\"266.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"68.0\" x2=\"266.0\" y2=\"68.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"46.0\" x2=\"266.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"24.0\" x2=\"266.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"266.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"134.0\" y1=\"200.0\" x2=\"134.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-5</text><text x=\"46.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"68.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"90.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"112.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"156.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"178.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"200.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"222.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"244.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"266.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"128.0\" y=\"204.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"128.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"128.0\" y=\"160.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"128.0\" y=\"138.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"128.0\" y=\"94.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"128.0\" y=\"72.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"128.0\" y=\"50.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"128.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"274.0\" y=\"106.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"144.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><circle cx=\"200.0\" cy=\"68.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"207.0\" y=\"62.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">A</text><circle cx=\"46.0\" cy=\"46.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"32.0\" y=\"40.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">B</text><circle cx=\"90.0\" cy=\"178.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"76.0\" y=\"172.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">C</text><circle cx=\"244.0\" cy=\"134.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"251.0\" y=\"128.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">D</text></svg>",
+    "alt": "A coordinate plane with four labeled points: A at (3, 2), B at (-4, 3), C at (-2, -3) and D at (5, -1)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$A$"
+    },
+    {
+     "id": "B",
+     "text": "$B$"
+    },
+    {
+     "id": "C",
+     "text": "$C$"
+    },
+    {
+     "id": "D",
+     "text": "$D$"
+    },
+    {
+     "id": "E",
+     "text": "None of the points"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-02",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 1,
+  "stem": "What is the distance between the origin and the point $(9,12)$?",
+  "explanation": "The legs are 9 and 12, so $d=\\sqrt{81+144}=\\sqrt{225}=15$.",
+  "estSeconds": 60,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-03",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 2,
+  "stem": "What are the coordinates of the reflection of the point $(-3,5)$ about the origin?",
+  "explanation": "Reflecting about the origin changes the sign of both coordinates: $(-3,5)\\to(3,-5)$.",
+  "choiceExplanations": {
+   "A": "This swaps the coordinates and changes one sign, which is not a reflection about the origin.",
+   "B": "This reflects about the $x$-axis only.",
+   "D": "This reflects about the $y$-axis only.",
+   "E": "This swaps and negates differently; it is not a reflection about the origin."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-5,3)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-3,-5)$"
+    },
+    {
+     "id": "C",
+     "text": "$(3,-5)$"
+    },
+    {
+     "id": "D",
+     "text": "$(3,5)$"
+    },
+    {
+     "id": "E",
+     "text": "$(5,-3)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-04",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 2,
+  "stem": "What is the distance between the points $(1,-3)$ and $(9,12)$?",
+  "explanation": "Legs: $9-1=8$ and $12-(-3)=15$. $d=\\sqrt{64+225}=\\sqrt{289}=17$.",
+  "estSeconds": 75,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 17
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-05",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The reflection of $(a,b)$ about the $y$-axis is $(-a,b)$. With $a<0$ the $x$-coordinate $-a$ is positive, while the $y$-coordinate $b$ is negative. So A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The $x$-coordinate of the reflection of $P$ about the $y$-axis",
+   "quantityB": "The $y$-coordinate of the reflection of $P$ about the $y$-axis",
+   "common": "Point $P$ has coordinates $(a,b)$, where $a<0$ and $b<0$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-06",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 3,
+  "stem": "In the figure, the vertices of triangle $ABC$ are $A(-2,-1)$, $B(6,-1)$ and $C(6,5)$. What is the sum of the lengths of the three sides of the triangle?",
+  "explanation": "$AB=8$ (same $y$) and $BC=6$ (same $x$). Triangle $ABC$ has a right angle at $B$, so $AC=\\sqrt{64+36}=10$. Perimeter $=8+6+10=24$.",
+  "choiceExplanations": {
+   "A": "This is $AB+BC$, leaving out the hypotenuse.",
+   "B": "This uses 6 for the hypotenuse, but the hypotenuse is longer than either leg.",
+   "D": "This would require $AC=14$, but $AC=10$.",
+   "E": "This is twice the area, $2\\cdot24$, where the area is $\\frac12\\cdot8\\cdot6=24$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 268 224\"><line x1=\"24.0\" y1=\"200.0\" x2=\"24.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46.0\" y1=\"200.0\" x2=\"46.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68.0\" y1=\"200.0\" x2=\"68.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90.0\" y1=\"200.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112.0\" y1=\"200.0\" x2=\"112.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134.0\" y1=\"200.0\" x2=\"134.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156.0\" y1=\"200.0\" x2=\"156.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178.0\" y1=\"200.0\" x2=\"178.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200.0\" y1=\"200.0\" x2=\"200.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222.0\" y1=\"200.0\" x2=\"222.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244.0\" y1=\"200.0\" x2=\"244.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"200.0\" x2=\"244.0\" y2=\"200.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"178.0\" x2=\"244.0\" y2=\"178.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"156.0\" x2=\"244.0\" y2=\"156.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"134.0\" x2=\"244.0\" y2=\"134.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"244.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"90.0\" x2=\"244.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"68.0\" x2=\"244.0\" y2=\"68.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"46.0\" x2=\"244.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"24.0\" x2=\"244.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"156.0\" x2=\"244.0\" y2=\"156.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"200.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"46.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"68.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"112.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"134.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"156.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"178.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"200.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"222.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"244.0\" y=\"170.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">7</text><text x=\"84.0\" y=\"204.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"84.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"84.0\" y=\"138.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"84.0\" y=\"116.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"84.0\" y=\"94.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"84.0\" y=\"72.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"84.0\" y=\"50.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">5</text><text x=\"84.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">6</text><text x=\"252.0\" y=\"150.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"100.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polygon points=\"46.0,178.0 222.0,178.0 222.0,46.0\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><line x1=\"46.0\" y1=\"178.0\" x2=\"222.0\" y2=\"178.0\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"222.0\" y1=\"178.0\" x2=\"222.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"46.0\" y1=\"178.0\" x2=\"222.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"46.0\" cy=\"178.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"30.0\" y=\"192.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">A</text><circle cx=\"222.0\" cy=\"178.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"230.0\" y=\"192.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">B</text><circle cx=\"222.0\" cy=\"46.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"230.0\" y=\"42.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">C</text></svg>",
+    "alt": "Triangle ABC in the coordinate plane with A at (-2, -1), B at (6, -1) and C at (6, 5)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "14"
+    },
+    {
+     "id": "B",
+     "text": "20"
+    },
+    {
+     "id": "C",
+     "text": "24"
+    },
+    {
+     "id": "D",
+     "text": "28"
+    },
+    {
+     "id": "E",
+     "text": "48"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-07",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 3,
+  "stem": "Which of the following points are exactly 5 units from the origin? Indicate all such points.",
+  "explanation": "A point $(x,y)$ is 5 units from the origin when $x^2+y^2=25$. $(3,4)$: $9+16$. $(-4,3)$: $16+9$. $(0,-5)$: $0+25$. All three work.",
+  "choiceExplanations": {
+   "C": "$16+16=32\\ne25$.",
+   "E": "$6.25+16=22.25\\ne25$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(3,4)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-4,3)$"
+    },
+    {
+     "id": "C",
+     "text": "$(4,4)$"
+    },
+    {
+     "id": "D",
+     "text": "$(0,-5)$"
+    },
+    {
+     "id": "E",
+     "text": "$(2.5,4)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-08",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 3,
+  "stem": "The point $(a,3)$, with $a>0$, is 5 units from the point $(-1,-1)$. What is $a$?",
+  "explanation": "The vertical leg is $3-(-1)=4$ and the distance is 5, so the horizontal leg is 3 (a 3-4-5 triangle): $|a+1|=3$. Then $a=2$ or $a=-4$; since $a>0$, $a=2$.",
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-09",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 4,
+  "stem": "The point $(x,0)$ on the $x$-axis is equally far from $(1,4)$ and $(7,2)$. What is $x$?",
+  "explanation": "Set squared distances equal: $(x-1)^2+16=(x-7)^2+4$. Expanding: $-2x+17=-14x+53$, so $12x=36$ and $x=3$. Check: both distances are $\\sqrt{20}$.",
+  "choiceExplanations": {
+   "A": "$(1,0)$ is 4 units from $(1,4)$ but farther from $(7,2)$.",
+   "B": "$(2,0)$ gives $\\sqrt{17}$ and $\\sqrt{29}$.",
+   "D": "4 is the average of the two $x$-coordinates; equal distance also depends on the $y$-coordinates.",
+   "E": "$(5,0)$ gives $\\sqrt{32}$ and $\\sqrt{8}$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "4"
+    },
+    {
+     "id": "E",
+     "text": "5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-10",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The distance is $\\sqrt{x^2+y^2}$. Since $(|x|+|y|)^2=x^2+y^2+2|xy|$ and $|xy|>0$, we have $(|x|+|y|)^2>x^2+y^2$. So B is greater. (A straight path is shorter than walking along the axes.)",
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The distance from $(x,y)$ to the origin",
+   "quantityB": "$|x|+|y|$",
+   "common": "$x$ and $y$ are both nonzero."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-11",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 5,
+  "stem": "A point $P$ is reflected about the line $y=x$, and the image is then reflected about the $x$-axis. The final point is $(-2,7)$. What is the sum of the coordinates of $P$?",
+  "explanation": "Work backward. Undo the $x$-axis reflection: $(-2,7)\\to(-2,-7)$. Undo the swap: $(-2,-7)\\to(-7,-2)$. So $P=(-7,-2)$ and the sum is $-9$. Check: swap gives $(-2,-7)$, then the $x$-axis reflection gives $(-2,7)$.",
+  "estSeconds": 120,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -9
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-12",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 5,
+  "stem": "How many points with integer coordinates are exactly 10 units from the origin?",
+  "explanation": "Need $x^2+y^2=100$ in integers: $(\\pm10,0)$ and $(0,\\pm10)$ give 4 points; $(\\pm6,\\pm8)$ gives 4; $(\\pm8,\\pm6)$ gives 4. Total $12$.",
+  "choiceExplanations": {
+   "A": "This counts only the points on the axes.",
+   "B": "This misses either the axis points or one of the 6-8 families.",
+   "D": "This overcounts by treating a family of 8 points where there are only 4.",
+   "E": "This doubles the correct count."
+  },
+  "estSeconds": 140,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "12"
+    },
+    {
+     "id": "D",
+     "text": "16"
+    },
+    {
+     "id": "E",
+     "text": "24"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-13",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 1,
+  "stem": "In the coordinate plane shown, what are the coordinates of point $P$?",
+  "explanation": "$P$ is 3 units to the left of the $y$-axis, so $x=-3$, and 2 units above the $x$-axis, so $y=2$. The point is $(-3,2)$.",
+  "choiceExplanations": {
+   "A": "The point is above the $x$-axis, so the $y$-coordinate is positive.",
+   "C": "This swaps the coordinates; the $x$-coordinate comes first and is $-3$.",
+   "D": "This swaps the coordinates and flips both signs.",
+   "E": "The point is to the left of the $y$-axis, so the $x$-coordinate is negative."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 246 202\"><line x1=\"24\" y1=\"178\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"178\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"178\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"178\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"178\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"178\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"178\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"178\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"178\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"178\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"222\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"222\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"222\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"222\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"222\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"222\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"222\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"222\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"178\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-5</text><text x=\"46\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"90\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"112\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"178\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"200\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"222\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"128\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"128\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"128\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"128\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"128\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"128\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"128\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"230\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"144\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><circle cx=\"68\" cy=\"68\" r=\"3.2\" fill=\"currentColor\"/><text x=\"75\" y=\"62\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">P</text></svg>",
+    "alt": "A coordinate plane with one labeled point, P, located 3 units left of the y-axis and 2 units above the x-axis, at (-3, 2)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-3,-2)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-3,2)$"
+    },
+    {
+     "id": "C",
+     "text": "$(-2,3)$"
+    },
+    {
+     "id": "D",
+     "text": "$(2,-3)$"
+    },
+    {
+     "id": "E",
+     "text": "$(3,2)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-14",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 2,
+  "stem": "The reflection of the point $(a,b)$ about the line $y=x$ is the point $(-3,8)$. What is the value of $a-b$?",
+  "explanation": "Reflecting about $y=x$ swaps the coordinates, so $(a,b)$ is the swap of $(-3,8)$, that is $(8,-3)$. Then $a=8$, $b=-3$ and $a-b=8-(-3)=11$.",
+  "estSeconds": 75,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 11
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-15",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 2,
+  "stem": "The point $(a,b)$ lies in quadrant II. Which of the following points must lie in quadrant IV?",
+  "explanation": "In quadrant II, $a<0$ and $b>0$. Then $-a>0$ and $-b<0$, so $(-a,-b)$ has a positive $x$ and a negative $y$: quadrant IV.",
+  "choiceExplanations": {
+   "A": "This is the original point, in quadrant II.",
+   "B": "Here $-a>0$ and $b>0$: quadrant I.",
+   "C": "Here $a<0$ and $-b<0$: quadrant III.",
+   "D": "Here $b>0$ and $-a>0$: quadrant I."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(a,b)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-a,b)$"
+    },
+    {
+     "id": "C",
+     "text": "$(a,-b)$"
+    },
+    {
+     "id": "D",
+     "text": "$(b,-a)$"
+    },
+    {
+     "id": "E",
+     "text": "$(-a,-b)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-16",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The reflection of $(a,b)$ about the $x$-axis is $(a,-b)$. The points share an $x$-coordinate, so the distance is $|b-(-b)|=|2b|=-2b$ (since $b<0$). That is positive, while $2b$ is negative. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The distance between $P$ and its reflection about the $x$-axis",
+   "quantityB": "$2b$",
+   "common": "Point $P$ has coordinates $(a,b)$, where $b<0$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-17",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 3,
+  "stem": "In the figure, $PQRS$ is a rectangle whose sides are parallel to the axes. What is the perimeter of the rectangle?",
+  "explanation": "Width: from $x=-2$ to $x=6$ is $6-(-2)=8$. Height: from $y=-3$ to $y=3$ is $3-(-3)=6$. Perimeter $=2(8+6)=28$.",
+  "choiceExplanations": {
+   "A": "This is the length of the diagonal $PR$, not the perimeter.",
+   "B": "This is half the perimeter, $8+6$.",
+   "D": "This is the product $8\\cdot 6$ (the area), not the perimeter.",
+   "E": "This doubles the correct perimeter."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 268 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"200\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244\" y1=\"200\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"244\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"244\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"244\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"244\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"244\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"244\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"244\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"244\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"244\" y2=\"112\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"46\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"68\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"112\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"134\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"156\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"178\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"200\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"222\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"244\" y=\"126\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">7</text><text x=\"84\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"84\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"84\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"84\" y=\"138\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"84\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"84\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"84\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"84\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"252\" y=\"106\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"100\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polygon points=\"46,178 222,178 222,46 46,46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"52\" y=\"194\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">P(-2, -3)</text><circle cx=\"222\" cy=\"178\" r=\"3.2\" fill=\"currentColor\"/><text x=\"229\" y=\"192\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">Q</text><circle cx=\"222\" cy=\"46\" r=\"3.2\" fill=\"currentColor\"/><text x=\"218\" y=\"38\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">R(6, 3)</text><circle cx=\"46\" cy=\"46\" r=\"3.2\" fill=\"currentColor\"/><text x=\"32\" y=\"40\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">S</text></svg>",
+    "alt": "A rectangle PQRS with sides parallel to the axes in the coordinate plane. P is at (-2, -3) at the lower left and R is at (6, 3) at the upper right; Q is the lower right vertex and S is the upper left vertex."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "10"
+    },
+    {
+     "id": "B",
+     "text": "14"
+    },
+    {
+     "id": "C",
+     "text": "28"
+    },
+    {
+     "id": "D",
+     "text": "48"
+    },
+    {
+     "id": "E",
+     "text": "56"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-18",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 4,
+  "stem": "Which of the following points are exactly 13 units from the point $(2,-1)$? Indicate all such points.",
+  "explanation": "For each point find the horizontal and vertical differences from $(2,-1)$. $(-10,4)$: $12$ and $5$, $d=13$. $(2,-14)$: $0$ and $13$, $d=13$. $(7,-13)$: $5$ and $12$, $d=13$.",
+  "choiceExplanations": {
+   "D": "The differences are 10 and 0, so the distance is 10.",
+   "E": "The differences are 8 and 12, so $d=\\sqrt{64+144}=\\sqrt{208}$, which is not 13."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-10,4)$"
+    },
+    {
+     "id": "B",
+     "text": "$(2,-14)$"
+    },
+    {
+     "id": "C",
+     "text": "$(7,-13)$"
+    },
+    {
+     "id": "D",
+     "text": "$(12,-1)$"
+    },
+    {
+     "id": "E",
+     "text": "$(10,11)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-19",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 4,
+  "stem": "Which of the following points is farthest from the origin?",
+  "explanation": "Distance from the origin is $\\sqrt{x^2+y^2}$, so compare $x^2+y^2$ directly: $64,\\ 53,\\ 61,\\ 65,\\ 61$. The largest is 65, for $(-4,-7)$.",
+  "choiceExplanations": {
+   "A": "$0^2+8^2=64$, one less than the largest value, 65.",
+   "B": "$49+4=53$, the smallest of the five.",
+   "C": "$25+36=61$, less than 65.",
+   "E": "$36+25=61$, less than 65."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(0,8)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-7,2)$"
+    },
+    {
+     "id": "C",
+     "text": "$(5,-6)$"
+    },
+    {
+     "id": "D",
+     "text": "$(-4,-7)$"
+    },
+    {
+     "id": "E",
+     "text": "$(6,5)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-13-coordinate-basics-20",
+  "lessonId": "q2-13-coordinate-basics",
+  "difficulty": 5,
+  "stem": "Point $P$ has coordinates $(5,12)$. Point $Q$ is the reflection of $P$ about the $y$-axis, and point $R$ is the reflection of $P$ about the origin. What is the perimeter of triangle $PQR$?",
+  "explanation": "$Q=(-5,12)$ and $R=(-5,-12)$. $PQ$: same $y$, so $5-(-5)=10$. $QR$: same $x$, so $12-(-12)=24$. $PR$: legs $10$ and $24$, so $\\sqrt{100+576}=26$. Perimeter $=10+24+26=60$.",
+  "estSeconds": 130,
+  "skills": [
+   "coordinate-plane"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ }
+]

@@ -1,0 +1,109 @@
+{
+ "id": "q4-12-di-examples",
+ "status": "published",
+ "why": "In a GRE Data Interpretation set, several questions share one table, graph or other display, and they combine this chapter's skills: reading the data, percents of a total, percent change and overlapping groups.",
+ "rule": "1. **Read first**: title, units, notes, totals, and what each percent is a percent *of*.\n2. **Compare like with like**: percents of the *same* total compare directly (a ratio of sectors is a ratio of percents). Percents of *different* totals do not: convert to counts, count $=$ percent $\\times$ total.\n3. **Percent change** $= \\frac{\\text{new} - \\text{old}}{\\text{old}}$; \"25% greater than last year\" divides by the *old* value.\n4. **Overlapping groups**: fill a Venn diagram (both, then only each, then neither).",
+ "examples": [
+  {
+   "prompt": "A circle graph shows a company's total expenses of 500 million dollars. The Marketing sector is 18% of the circle. Marketing spending is 25% greater than last year's. What was last year's Marketing spending?",
+   "steps": [
+    "This year: $0.18 \\times 500 = 90$ million.",
+    "If last year was $x$: $1.25x = 90$, so $x = \\frac{90}{1.25} = 72$ million."
+   ],
+   "answer": "72 million dollars"
+  },
+  {
+   "prompt": "In 2021, 30% of 4,000 respondents chose option X. In 2022, 35% of 2,000 respondents chose it. Did the number choosing X rise or fall?",
+   "steps": [
+    "The totals differ, so convert to counts: $0.30 \\times 4000 = 1200$ and $0.35 \\times 2000 = 700$.",
+    "The count fell by 500, even though the percent rose."
+   ],
+   "answer": "It fell, from 1,200 to 700"
+  }
+ ],
+ "trap": "Using the wrong base. \"25% greater than last year's\" means divide by 1.25; multiplying this year's 90 by 0.75 gives 67.5, which is wrong. And a percent that rose can hide a count that fell when the total shrank.",
+ "checks": [
+  {
+   "id": "q4-12-di-examples-c1",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 1,
+   "stem": "A circle graph shows a total of 440 units. A sector has a central angle of $90^\\circ$. How many units does the sector represent?",
+   "explanation": "The sector is $\\frac{90}{360} = \\frac14$ of the total: $\\frac14 \\times 440 = 110$.",
+   "estSeconds": 60,
+   "skills": [
+    "circle-graphs"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 110
+   }
+  },
+  {
+   "id": "q4-12-di-examples-c2",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 2,
+   "stem": "This year's sales of 60 units are 20 percent greater than last year's sales. How many units were sold last year?",
+   "explanation": "If last year was $x$, then $1.2x = 60$, so $x = 50$.",
+   "estSeconds": 60,
+   "skills": [
+    "percent-change"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 50
+   }
+  },
+  {
+   "id": "q4-12-di-examples-c3",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$0.30 \\times 1000 = 300$ and $0.40 \\times 700 = 280$. Quantity A is greater despite the smaller percent.",
+   "estSeconds": 60,
+   "skills": [
+    "percent-of-total"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "30 percent of 1,000",
+    "quantityB": "40 percent of 700"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

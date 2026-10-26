@@ -1,0 +1,834 @@
+[
+ {
+  "id": "q2-15-graphing-curves-01",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 1,
+  "stem": "What are the center and radius of the circle $(x-2)^2+(y+3)^2=16$?",
+  "explanation": "$(x-2)$ means center $x=2$; $(y+3)$ means center $y=-3$. The radius is $\\sqrt{16}=4$.",
+  "choiceExplanations": {
+   "A": "The signs of the center are flipped.",
+   "B": "The signs are flipped and 16 is $r^2$.",
+   "D": "16 is $r^2$; the radius is 4.",
+   "E": "$(y+3)$ means $y=-3$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Center $(-2,3)$, radius 4"
+    },
+    {
+     "id": "B",
+     "text": "Center $(-2,3)$, radius 16"
+    },
+    {
+     "id": "C",
+     "text": "Center $(2,-3)$, radius 4"
+    },
+    {
+     "id": "D",
+     "text": "Center $(2,-3)$, radius 16"
+    },
+    {
+     "id": "E",
+     "text": "Center $(2,3)$, radius 4"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-02",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 1,
+  "stem": "What is the $y$-intercept of the parabola $y=2x^2-3x-8$?",
+  "explanation": "Set $x=0$: $y=-8$. (It is the constant term.)",
+  "estSeconds": 45,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -8
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-03",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 2,
+  "stem": "Which of the following is an equation of the circle with center $(-1,4)$ and radius 3?",
+  "explanation": "Center $(a,b)=(-1,4)$ gives $(x-(-1))^2+(y-4)^2=(x+1)^2+(y-4)^2$, and $r^2=9$.",
+  "choiceExplanations": {
+   "B": "The right side must be $r^2=9$, not $r=3$.",
+   "C": "The signs of the center are flipped.",
+   "D": "Signs flipped and $r$ used instead of $r^2$.",
+   "E": "The $y$-part should be $(y-4)$ for a center at $y=4$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x+1)^2+(y-4)^2=9$"
+    },
+    {
+     "id": "B",
+     "text": "$(x+1)^2+(y-4)^2=3$"
+    },
+    {
+     "id": "C",
+     "text": "$(x-1)^2+(y+4)^2=9$"
+    },
+    {
+     "id": "D",
+     "text": "$(x-1)^2+(y+4)^2=3$"
+    },
+    {
+     "id": "E",
+     "text": "$(x+1)^2+(y+4)^2=9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-04",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 2,
+  "stem": "A parabola $y=ax^2+bx+c$ has $x$-intercepts $-3$ and $7$. What is the $x$-coordinate of its vertex?",
+  "explanation": "The axis of symmetry is midway between the intercepts: $\\frac{-3+7}{2}=2$.",
+  "estSeconds": 60,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-05",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The $y$-intercept is $c=5$. The intercepts are 1 and 5, so the axis is $x=3$ and the vertex $y$ is $9-18+5=-4$. $5>-4$, so A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The $y$-intercept of the parabola",
+   "quantityB": "The $y$-coordinate of the vertex of the parabola",
+   "common": "A parabola has equation $y=x^2-6x+5$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-06",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 3,
+  "stem": "The shaded region in the figure, including its boundary line, is the graph of which of the following inequalities?",
+  "explanation": "The line passes through $(0,2)$ and $(4,0)$, so its slope is $-\\frac12$ and its equation is $y=-\\frac12x+2$. The region is on and below the line: $y\\le-\\frac12x+2$. Check with $(0,0)$: $0\\le2$ is true.",
+  "choiceExplanations": {
+   "A": "This is the region on and above the line.",
+   "C": "The slope should be $-\\frac12$, not $+\\frac12$.",
+   "D": "The slope $-2$ would pass through $(1,0)$, not $(4,0)$.",
+   "E": "The strict inequality would leave the boundary line out of the region."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 268 224\"><line x1=\"24.0\" y1=\"200.0\" x2=\"24.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46.0\" y1=\"200.0\" x2=\"46.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68.0\" y1=\"200.0\" x2=\"68.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90.0\" y1=\"200.0\" x2=\"90.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112.0\" y1=\"200.0\" x2=\"112.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134.0\" y1=\"200.0\" x2=\"134.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156.0\" y1=\"200.0\" x2=\"156.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178.0\" y1=\"200.0\" x2=\"178.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200.0\" y1=\"200.0\" x2=\"200.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222.0\" y1=\"200.0\" x2=\"222.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244.0\" y1=\"200.0\" x2=\"244.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"200.0\" x2=\"244.0\" y2=\"200.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"178.0\" x2=\"244.0\" y2=\"178.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"156.0\" x2=\"244.0\" y2=\"156.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"134.0\" x2=\"244.0\" y2=\"134.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"244.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"90.0\" x2=\"244.0\" y2=\"90.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"68.0\" x2=\"244.0\" y2=\"68.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"46.0\" x2=\"244.0\" y2=\"46.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"24.0\" x2=\"244.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24.0\" y1=\"112.0\" x2=\"244.0\" y2=\"112.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"112.0\" y1=\"200.0\" x2=\"112.0\" y2=\"24.0\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"46.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"68.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"90.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"134.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"156.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"178.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"200.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"222.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"244.0\" y=\"126.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"106.0\" y=\"204.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"106.0\" y=\"182.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"106.0\" y=\"160.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"106.0\" y=\"138.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"106.0\" y=\"94.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"106.0\" y=\"72.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"106.0\" y=\"50.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"106.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"252.0\" y=\"106.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"122.0\" y=\"28.0\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><polygon points=\"24.0,24.0 244.0,134.0 244.0,200.0 24.0,200.0\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><line x1=\"24.0\" y1=\"24.0\" x2=\"244.0\" y2=\"134.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"112.0\" cy=\"68.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"120.0\" y=\"62.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(0, 2)</text><circle cx=\"200.0\" cy=\"112.0\" r=\"3.2\" fill=\"currentColor\"/><text x=\"206.0\" y=\"104.0\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(4, 0)</text></svg>",
+    "alt": "A straight line through (0, 2) and (4, 0) with the region below and on the line shaded."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y\\ge-\\frac12x+2$"
+    },
+    {
+     "id": "B",
+     "text": "$y\\le-\\frac12x+2$"
+    },
+    {
+     "id": "C",
+     "text": "$y\\le\\frac12x+2$"
+    },
+    {
+     "id": "D",
+     "text": "$y\\le-2x+2$"
+    },
+    {
+     "id": "E",
+     "text": "$y<-\\frac12x+2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-07",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 3,
+  "stem": "The circle with center $(3,4)$ and radius 5 crosses the $x$-axis at two points with $x$-coordinates $a<b$. What is $b-a$?",
+  "explanation": "Set $y=0$ in $(x-3)^2+(y-4)^2=25$: $(x-3)^2+16=25$, so $(x-3)^2=9$ and $x=0$ or $x=6$. Then $b-a=6$.",
+  "estSeconds": 90,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-08",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 3,
+  "stem": "Which of the following points lie strictly inside the circle $x^2+y^2=25$? Indicate all such points.",
+  "explanation": "A point is strictly inside when $x^2+y^2<25$. $(-2,4)$: $20$. $(3,3)$: $18$. Both are inside.",
+  "choiceExplanations": {
+   "B": "$0+25=25$: on the circle, not inside.",
+   "D": "$16+16=32>25$: outside.",
+   "E": "$25+1=26>25$: outside."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-2,4)$"
+    },
+    {
+     "id": "B",
+     "text": "$(0,-5)$"
+    },
+    {
+     "id": "C",
+     "text": "$(3,3)$"
+    },
+    {
+     "id": "D",
+     "text": "$(4,4)$"
+    },
+    {
+     "id": "E",
+     "text": "$(5,1)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-09",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 4,
+  "stem": "What is the greatest value of $y$ on the graph of $y=-x^2+6x+7$?",
+  "explanation": "Because $a=-1<0$, the parabola opens downward and its vertex is the highest point. $-x^2+6x+7=0$ gives $x^2-6x-7=(x-7)(x+1)=0$, so the axis is $x=\\frac{7+(-1)}{2}=3$. Then $y=-9+18+7=16$.",
+  "estSeconds": 100,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-10",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The radius is the distance from the center $(5,-2)$ to the origin: $\\sqrt{5^2+(-2)^2}=\\sqrt{29}$. Since $\\sqrt{29}>\\sqrt{25}=5$, A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The radius of the circle",
+   "quantityB": "5",
+   "common": "A circle in the $xy$-plane has center $(5,-2)$ and passes through the origin."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-11",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 5,
+  "stem": "How many points $(x,y)$ with integer coordinates satisfy $x^2+y^2\\le9$?",
+  "explanation": "Count by $x$: $x=0$ allows $y^2\\le9$, so $y=-3..3$ (7 points). $x=\\pm1$ allows $y^2\\le8$, so $y=-2..2$ (5 points each). $x=\\pm2$ allows $y^2\\le5$, so $y=-2..2$ (5 each). $x=\\pm3$ allows only $y=0$ (1 each). Total $7+10+10+2=29$.",
+  "estSeconds": 150,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 29
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-12",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 5,
+  "stem": "What is the greatest value of $y$ at any point of the $xy$-plane that satisfies all three inequalities $y\\ge0$, $y\\le x$ and $x+y\\le6$?",
+  "explanation": "Adding $y\\le x$ and $y\\le 6-x$ gives $2y\\le6$, so $y\\le3$. The value 3 is reached at $(3,3)$, where the lines $y=x$ and $x+y=6$ meet, so the greatest value is 3.",
+  "choiceExplanations": {
+   "A": "The region reaches higher than 1: the point (3, 3) satisfies all three inequalities.",
+   "B": "The point (3, 3) is in the region and has y = 3.",
+   "D": "No point of the region has y above 3, since 2y ≤ x + y ≤ 6.",
+   "E": "y = 6 would need x ≥ 6 and x + y ≤ 6, which cannot both hold."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "4"
+    },
+    {
+     "id": "E",
+     "text": "6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-13",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 1,
+  "stem": "Which of the following describes the graph of $y=-2x^2+5x-1$?",
+  "explanation": "The coefficient of $x^2$ is $a=-2<0$, so the parabola opens downward. The $y$-intercept is the constant term $c=-1$.",
+  "choiceExplanations": {
+   "A": "$a=-2$ is negative, so the parabola opens downward.",
+   "B": "The parabola opens downward, and $5$ is the coefficient of $x$, not the $y$-intercept.",
+   "C": "$-2$ is the coefficient of $x^2$; the $y$-intercept is the constant term, $-1$.",
+   "E": "$5$ is the coefficient of $x$, not the $y$-intercept."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Opens upward; $y$-intercept $-1$"
+    },
+    {
+     "id": "B",
+     "text": "Opens upward; $y$-intercept $5$"
+    },
+    {
+     "id": "C",
+     "text": "Opens downward; $y$-intercept $-2$"
+    },
+    {
+     "id": "D",
+     "text": "Opens downward; $y$-intercept $-1$"
+    },
+    {
+     "id": "E",
+     "text": "Opens downward; $y$-intercept $5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-14",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 2,
+  "stem": "What is the $y$-coordinate of the vertex of the graph of $y=x^2-8x+10$?",
+  "explanation": "The axis of symmetry is $x=-\\frac{b}{2a}=\\frac{8}{2}=4$, and the vertex lies on it. At $x=4$: $y=16-32+10=-6$.",
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -6
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-15",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 2,
+  "stem": "Which of the following is an equation of the circle shown in the figure?",
+  "explanation": "The center is $(-2,1)$ and the circle reaches $(1,1)$, so the radius is $1-(-2)=3$. The equation is $(x-(-2))^2+(y-1)^2=3^2$, that is $(x+2)^2+(y-1)^2=9$.",
+  "choiceExplanations": {
+   "A": "The center coordinates are swapped: this describes a circle centered at $(-1,2)$.",
+   "B": "The right side must be $r^2=9$, not $r=3$.",
+   "D": "The signs are not flipped: this circle is centered at $(2,-1)$.",
+   "E": "$36$ is the square of the diameter 6; the right side is the square of the radius."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 246 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"200\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"222\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"222\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"222\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"222\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"222\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"222\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"222\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"222\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"222\" y2=\"134\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-6</text><text x=\"46\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-5</text><text x=\"68\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-4</text><text x=\"90\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"112\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"134\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"178\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"200\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"222\" y=\"148\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"150\" y=\"204\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"150\" y=\"182\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"150\" y=\"160\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"150\" y=\"116\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"150\" y=\"94\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"150\" y=\"72\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"150\" y=\"50\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"150\" y=\"28\" font-size=\"11\" text-anchor=\"end\" fill=\"currentColor\">5</text><text x=\"230\" y=\"128\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"166\" y=\"28\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y</text><circle cx=\"112\" cy=\"112\" r=\"66\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"112\" cy=\"112\" r=\"3.2\" fill=\"currentColor\"/></svg>",
+    "alt": "A circle in the coordinate plane. Its center, marked with a dot, is at (-2, 1), and the circle passes through the points (1, 1), (-5, 1), (-2, 4) and (-2, -2)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x+1)^2+(y-2)^2=9$"
+    },
+    {
+     "id": "B",
+     "text": "$(x+2)^2+(y-1)^2=3$"
+    },
+    {
+     "id": "C",
+     "text": "$(x+2)^2+(y-1)^2=9$"
+    },
+    {
+     "id": "D",
+     "text": "$(x-2)^2+(y+1)^2=9$"
+    },
+    {
+     "id": "E",
+     "text": "$(x+2)^2+(y-1)^2=36$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-16",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The center is $(3,-2)$ and the radius is $\\sqrt{16}=4$. The highest point is straight above the center: $y=-2+4=2$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The greatest $y$-coordinate of any point on the circle",
+   "quantityB": "2",
+   "common": "A circle in the $xy$-plane has equation $(x-3)^2+(y+2)^2=16$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-17",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 3,
+  "stem": "Which of the following points satisfies both $y\\ge x-2$ and $y<-x+4$?",
+  "explanation": "Test each point in both inequalities. $(2,1)$: $1\\ge 0$ is true and $1<2$ is true. So $(2,1)$ works.",
+  "choiceExplanations": {
+   "A": "$-4\\ge -3$ is false: the point is below the first line.",
+   "B": "$5<4$ is false: the point is above the second line.",
+   "D": "$1<1$ is false: the point is on the boundary $y=-x+4$, which is excluded because the inequality is strict.",
+   "E": "$0\\ge 3$ is false: the point is below the first line."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-1,-4)$"
+    },
+    {
+     "id": "B",
+     "text": "$(0,5)$"
+    },
+    {
+     "id": "C",
+     "text": "$(2,1)$"
+    },
+    {
+     "id": "D",
+     "text": "$(3,1)$"
+    },
+    {
+     "id": "E",
+     "text": "$(5,0)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-18",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 4,
+  "stem": "The graph of $y=x^2+bx+7$ has the line $x=3$ as its axis of symmetry. What is the $y$-coordinate of the vertex of the graph?",
+  "explanation": "The axis is $x=-\\frac{b}{2}=3$, so $b=-6$ and the equation is $y=x^2-6x+7$. The vertex lies on the axis: $y=9-18+7=-2$.",
+  "estSeconds": 100,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-19",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 4,
+  "stem": "Which of the following statements are true of the graph of $y=-x^2+2x+8$? Indicate all such statements.",
+  "explanation": "$a=-1<0$ opens downward; $c=8$ is the $y$-intercept. The axis is $x=-\\frac{2}{2(-1)}=1$ and $y=-1+2+8=9$, so the vertex is $(1,9)$ and the greatest $y$ is 9. The $x$-intercepts solve $x^2-2x-8=(x-4)(x+2)=0$: $4$ and $-2$.",
+  "choiceExplanations": {
+   "B": "$x^2-2x-8=(x-4)(x+2)$ gives $x=4$ and $x=-2$; the signs are reversed in this statement.",
+   "E": "The maximum is at the vertex $(1,9)$, so the greatest $y$ is 9. The value 8 is the $y$-intercept."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The parabola opens downward."
+    },
+    {
+     "id": "B",
+     "text": "Its $x$-intercepts are $-4$ and $2$."
+    },
+    {
+     "id": "C",
+     "text": "Its vertex is $(1,9)$."
+    },
+    {
+     "id": "D",
+     "text": "Its $y$-intercept is $8$."
+    },
+    {
+     "id": "E",
+     "text": "The greatest value of $y$ on the graph is $8$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-15-graphing-curves-20",
+  "lessonId": "q2-15-graphing-curves",
+  "difficulty": 5,
+  "stem": "How many points $(x,y)$ with integer coordinates satisfy both $y\\le 0$ and $y\\ge x^2-4$?",
+  "explanation": "We need $x^2-4\\le y\\le 0$, which forces $x^2\\le 4$, so $x=-2,\\dots,2$. For $x=0$: $-4\\le y\\le 0$ gives 5 points. For $x=\\pm1$: $-3\\le y\\le 0$ gives 4 points each. For $x=\\pm2$: $0\\le y\\le 0$ gives 1 point each. Total: $5+4+4+1+1=15$.",
+  "estSeconds": 150,
+  "skills": [
+   "graphing-curves"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  }
+ }
+]

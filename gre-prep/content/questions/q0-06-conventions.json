@@ -1,0 +1,575 @@
+[
+ {
+  "id": "q0-06-conventions-01",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 1,
+  "stem": "Which of the following may be read, estimated or compared by sight?",
+  "explanation": "Coordinate systems (including number lines) and data graphs are drawn to scale; ordinary geometric figures are not.",
+  "choiceExplanations": {
+   "A": "Geometry figures need not be to scale, so side lengths cannot be read off.",
+   "B": "Angle measures in geometric figures cannot be taken from the picture.",
+   "C": "Areas in geometric figures are not read by eye.",
+   "E": "Lengths in geometric figures are not drawn to scale."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "math-conventions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The lengths of the sides of a triangle in a geometry problem"
+    },
+    {
+     "id": "B",
+     "text": "The angles of a quadrilateral in a geometry problem"
+    },
+    {
+     "id": "C",
+     "text": "The area of a circle in a geometry figure"
+    },
+    {
+     "id": "D",
+     "text": "Positions on a number line"
+    },
+    {
+     "id": "E",
+     "text": "The lengths of two chords in a circle figure"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q0-06-conventions-02",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 1,
+  "stem": "What is the value of $-6^2$?",
+  "explanation": "Exponentiation comes before negation: $-6^2=-(6^2)=-36$. Only $(-6)^2$ equals 36.",
+  "estSeconds": 45,
+  "skills": [
+   "math-conventions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -36
+  }
+ },
+ {
+  "id": "q0-06-conventions-03",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 2,
+  "stem": "In the figure, what is the distance between points $P$ and $Q$?",
+  "explanation": "Number lines are drawn to scale, so read the positions: $P=1.5$ and $Q=7$, giving $7-1.5=5.5$.",
+  "choiceExplanations": {
+   "A": "Read the scale again: P is at 1.5 and Q at 7.",
+   "B": "P is halfway between 1 and 2, not at 2.",
+   "D": "P is at 1.5, not 1.",
+   "E": "That subtracts from the wrong tick."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Number line",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 280 100\"><line x1=\"20\" y1=\"60\" x2=\"260\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"20\" y1=\"52\" x2=\"20\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"44\" y1=\"52\" x2=\"44\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"68\" y1=\"52\" x2=\"68\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"92\" y1=\"52\" x2=\"92\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"116\" y1=\"52\" x2=\"116\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"140\" y1=\"52\" x2=\"140\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"164\" y1=\"52\" x2=\"164\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"188\" y1=\"52\" x2=\"188\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"212\" y1=\"52\" x2=\"212\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"236\" y1=\"52\" x2=\"236\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"260\" y1=\"52\" x2=\"260\" y2=\"68\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"16\" y=\"88\" font-size=\"12\" fill=\"currentColor\">0</text><text x=\"40\" y=\"88\" font-size=\"12\" fill=\"currentColor\">1</text><text x=\"64\" y=\"88\" font-size=\"12\" fill=\"currentColor\">2</text><text x=\"88\" y=\"88\" font-size=\"12\" fill=\"currentColor\">3</text><text x=\"112\" y=\"88\" font-size=\"12\" fill=\"currentColor\">4</text><text x=\"136\" y=\"88\" font-size=\"12\" fill=\"currentColor\">5</text><text x=\"160\" y=\"88\" font-size=\"12\" fill=\"currentColor\">6</text><text x=\"184\" y=\"88\" font-size=\"12\" fill=\"currentColor\">7</text><text x=\"208\" y=\"88\" font-size=\"12\" fill=\"currentColor\">8</text><text x=\"232\" y=\"88\" font-size=\"12\" fill=\"currentColor\">9</text><text x=\"256\" y=\"88\" font-size=\"12\" fill=\"currentColor\">10</text><line x1=\"32\" y1=\"56\" x2=\"32\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"56\" y1=\"56\" x2=\"56\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"80\" y1=\"56\" x2=\"80\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"104\" y1=\"56\" x2=\"104\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"128\" y1=\"56\" x2=\"128\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"152\" y1=\"56\" x2=\"152\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"176\" y1=\"56\" x2=\"176\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"200\" y1=\"56\" x2=\"200\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"224\" y1=\"56\" x2=\"224\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"248\" y1=\"56\" x2=\"248\" y2=\"64\" stroke=\"currentColor\" stroke-width=\"1\"/><circle cx=\"56\" cy=\"60\" r=\"5\" fill=\"currentColor\"/><circle cx=\"188\" cy=\"60\" r=\"5\" fill=\"currentColor\"/><text x=\"50\" y=\"42\" font-size=\"14\" fill=\"currentColor\">P</text><text x=\"182\" y=\"42\" font-size=\"14\" fill=\"currentColor\">Q</text></svg>",
+    "alt": "A number line from 0 to 10 with point P halfway between 1 and 2 and point Q at 7"
+   },
+   "notes": "Number lines are drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4.5"
+    },
+    {
+     "id": "B",
+     "text": "5"
+    },
+    {
+     "id": "C",
+     "text": "5.5"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    },
+    {
+     "id": "E",
+     "text": "6.5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q0-06-conventions-04",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 2,
+  "stem": "Maya sold 35 items in the first quarter and 47 in the second. In the usual convention, what is the difference between the two quarters' sales?",
+  "explanation": "Unless stated otherwise, \"the difference between two quantities\" means the positive difference: $47-35=12$.",
+  "choiceExplanations": {
+   "A": "Distances and differences between quantities are taken as positive.",
+   "C": "That is only the first quarter's sales.",
+   "D": "That is only the second quarter's sales.",
+   "E": "That is the sum."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "math-conventions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-12$"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "35"
+    },
+    {
+     "id": "D",
+     "text": "47"
+    },
+    {
+     "id": "E",
+     "text": "82"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q0-06-conventions-05",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 2,
+  "stem": "How many years are there from 1996 to 2011, inclusive?",
+  "explanation": "$2011-1996+1=16$.",
+  "estSeconds": 45,
+  "skills": [
+   "math-conventions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q0-06-conventions-06",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 2,
+  "stem": "In the figure, which of the following may be assumed to be true? Indicate all such statements.",
+  "explanation": "Points on a line keep the order drawn, so $D$ is between $A$ and $C$, and the square mark gives the right angle. Lengths and shapes that merely look right are not given.",
+  "choiceExplanations": {
+   "C": "It looks that way, but no equal-length mark or length is given.",
+   "D": "Comparing lengths by eye is not allowed.",
+   "E": "It looks isosceles, but nothing given states it."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Triangle ABC with point D on AC",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><line x1=\"40\" y1=\"100\" x2=\"220\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"40\" y1=\"100\" x2=\"130\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"220\" y1=\"100\" x2=\"130\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"130\" y1=\"25\" x2=\"130\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"130,90 140,90 140,100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"26\" y=\"118\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"126\" y=\"118\" font-size=\"14\" fill=\"currentColor\">D</text><text x=\"222\" y=\"118\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"124\" y=\"18\" font-size=\"14\" fill=\"currentColor\">B</text></svg>",
+    "alt": "Triangle ABC with point D on side AC and segment BD meeting AC at a marked right angle"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Point $D$ lies between $A$ and $C$."
+    },
+    {
+     "id": "B",
+     "text": "Angle $BDC$ is a right angle."
+    },
+    {
+     "id": "C",
+     "text": "$AD=DC$."
+    },
+    {
+     "id": "D",
+     "text": "$BD<DC$."
+    },
+    {
+     "id": "E",
+     "text": "Triangle $ABC$ is isosceles."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q0-06-conventions-07",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Only $PQ=6$ is given. Although $QR$ looks the same length, figures are not necessarily to scale; $QR$ could be longer or shorter than 6. Cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Triangle with one labelled side",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><polygon points=\"30,100 130,100 210,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"22\" y=\"116\" font-size=\"14\" fill=\"currentColor\">P</text><text x=\"126\" y=\"116\" font-size=\"14\" fill=\"currentColor\">Q</text><text x=\"212\" y=\"38\" font-size=\"14\" fill=\"currentColor\">R</text><text x=\"76\" y=\"95\" font-size=\"13\" fill=\"currentColor\">6</text></svg>",
+    "alt": "Triangle PQR with side PQ labelled 6"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The length of $QR$",
+   "quantityB": "6",
+   "common": "In triangle $PQR$, $PQ=6$."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q0-06-conventions-08",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 3,
+  "stem": "Which of the following statements agree with the Quantitative Reasoning conventions? Indicate all such statements.",
+  "explanation": "Number lines point right; distances are nonnegative; division by zero is undefined; primes exceed 1; all numbers are real.",
+  "choiceExplanations": {
+   "B": "A prime is an integer greater than 1.",
+   "E": "All numbers used are real numbers."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "On a horizontal number line the positive direction is to the right."
+    },
+    {
+     "id": "B",
+     "text": "The integer 1 is a prime number."
+    },
+    {
+     "id": "C",
+     "text": "A distance is never negative."
+    },
+    {
+     "id": "D",
+     "text": "The expression $\\frac{x}{0}$ is not defined."
+    },
+    {
+     "id": "E",
+     "text": "Imaginary numbers may appear among the numbers used."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q0-06-conventions-09",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Points on a line keep the order drawn, so $B$ is between $A$ and $C$ and $AC=AB+BC=4+5=9$, even though $AB$ looks longer than $BC$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Points on a line",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><line x1=\"20\" y1=\"70\" x2=\"240\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"70\" r=\"3\" fill=\"currentColor\"/><circle cx=\"150\" cy=\"70\" r=\"3\" fill=\"currentColor\"/><circle cx=\"240\" cy=\"70\" r=\"3\" fill=\"currentColor\"/><text x=\"14\" y=\"95\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"146\" y=\"95\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"236\" y=\"95\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"78\" y=\"60\" font-size=\"14\" fill=\"currentColor\">4</text><text x=\"190\" y=\"60\" font-size=\"14\" fill=\"currentColor\">5</text></svg>",
+    "alt": "Segment AC with point B between A and C; AB is labelled 4 and BC is labelled 5"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$AC$",
+   "quantityB": "9",
+   "common": "Points $A$, $B$ and $C$ lie on a line as drawn, with $AB=4$ and $BC=5$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q0-06-conventions-10",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Using the stated fact, angle $R$ measures $180-50-60=70$ degrees. The picture makes $R$ look different, but geometry figures need not be to scale: only the given numbers count.",
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Triangle PQR",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><polygon points=\"30,110 220,110 120,20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"18\" y=\"125\" font-size=\"14\" fill=\"currentColor\">P</text><text x=\"222\" y=\"125\" font-size=\"14\" fill=\"currentColor\">Q</text><text x=\"116\" y=\"14\" font-size=\"14\" fill=\"currentColor\">R</text><text x=\"48\" y=\"104\" font-size=\"12\" fill=\"currentColor\">50°</text><text x=\"180\" y=\"104\" font-size=\"12\" fill=\"currentColor\">60°</text></svg>",
+    "alt": "Triangle PQR with angle P labelled 50 degrees and angle Q labelled 60 degrees"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The measure of angle $R$, in degrees",
+   "quantityB": "70",
+   "common": "In triangle $PQR$, the measure of angle $P$ is 50 degrees and the measure of angle $Q$ is 60 degrees. The three angle measures of a triangle add up to 180 degrees."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q0-06-conventions-11",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 3,
+  "stem": "In the figure, point $D$ lies on side $AC$, and the angles at $B$ are labelled as shown. What is the measure of angle $ABC$, in degrees?",
+  "explanation": "Points and objects are in the relative positions shown, so ray $BD$ lies inside angle $ABC$ and $30+40=70$.",
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Angles at B",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 130\"><line x1=\"30\" y1=\"110\" x2=\"230\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"30\" y1=\"110\" x2=\"150\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"230\" y1=\"110\" x2=\"150\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"110\" x2=\"150\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"22\" y=\"126\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"110\" y=\"126\" font-size=\"14\" fill=\"currentColor\">D</text><text x=\"232\" y=\"126\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"144\" y=\"14\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"122\" y=\"56\" font-size=\"11\" fill=\"currentColor\">30°</text><text x=\"150\" y=\"66\" font-size=\"11\" fill=\"currentColor\">40°</text></svg>",
+    "alt": "Triangle ABC with point D on side AC; segment BD splits the angle at B into two angles labelled 30 degrees and 40 degrees"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 70
+  }
+ },
+ {
+  "id": "q0-06-conventions-12",
+  "lessonId": "q0-06-conventions",
+  "difficulty": 3,
+  "stem": "In the figure, which of the following must be true?",
+  "explanation": "Only what is labelled can be used: $AB=5$ and $BC=5$.",
+  "choiceExplanations": {
+   "A": "It looks square, but figures need not be to scale; only two sides are given.",
+   "B": "No right-angle mark is given.",
+   "C": "Only $AB$ and $BC$ are labelled.",
+   "E": "That would need a square or rhombus, not given."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "math-conventions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Quadrilateral ABCD",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 160 130\"><polygon points=\"40,100 40,30 120,30 120,100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"26\" y=\"116\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"26\" y=\"28\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"124\" y=\"28\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"124\" y=\"116\" font-size=\"14\" fill=\"currentColor\">D</text><text x=\"26\" y=\"68\" font-size=\"13\" fill=\"currentColor\">5</text><text x=\"76\" y=\"24\" font-size=\"13\" fill=\"currentColor\">5</text></svg>",
+    "alt": "Quadrilateral ABCD with sides AB and BC each labelled 5"
+   },
+   "notes": "Not necessarily drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$ABCD$ is a square."
+    },
+    {
+     "id": "B",
+     "text": "Angle $ABC$ measures 90 degrees."
+    },
+    {
+     "id": "C",
+     "text": "$AD=5$."
+    },
+    {
+     "id": "D",
+     "text": "$AB=BC$."
+    },
+    {
+     "id": "E",
+     "text": "The diagonals of $ABCD$ are perpendicular."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ }
+]

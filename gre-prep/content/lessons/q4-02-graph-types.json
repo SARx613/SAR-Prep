@@ -1,0 +1,82 @@
+{
+ "id": "q4-02-graph-types",
+ "status": "published",
+ "why": "Histograms, circle graphs, scatterplots and line graphs all appear in Data Interpretation sets, and each has one reading skill the questions rely on.",
+ "rule": "- **Histogram**: equal-width intervals on a number line, no gaps between bars. Bar height shows frequency; a gap means no data.\n- **Circle graph**: each sector is a percent of one whole, so sector percents compare directly as a ratio. Central angle $=$ percent $\\times\\, 360^\\circ$.\n- **Scatterplot**: one point per individual, showing how two numerical variables go together. A **trend line** predicts $y$ from $x$. Its **slope** $=\\frac{\\text{change in } y}{\\text{change in } x}$ is the predicted change in $y$ per 1 unit of $x$.\n- **Line graph**: values over time. The steepest segment between consecutive points is the greatest increase.",
+ "examples": [
+  {
+   "prompt": "A sector of a circle graph represents 15% of the whole. What is its central angle?",
+   "steps": [
+    "Central angle $= 0.15 \\times 360^\\circ$.",
+    "$0.15 \\times 360 = 54$."
+   ],
+   "answer": "$54^\\circ$"
+  },
+  {
+   "prompt": "A trend line passes through $(0, 30)$ and $(20, 18)$. Find its slope, and predict $y$ when $x = 10$.",
+   "steps": [
+    "Slope $= \\frac{18 - 30}{20 - 0} = -0.6$ per unit of $x$.",
+    "From $x = 0$ to $x = 10$, $y$ changes by $10 \\times (-0.6) = -6$.",
+    "Predicted $y = 30 - 6 = 24$."
+   ],
+   "answer": "Slope $-0.6$; predicted $y = 24$"
+  }
+ ],
+ "trap": "\"Greatest increase\" is ambiguous until you check the wording: the biggest rise in value and the biggest percent rise can be different intervals. A rise from 40 to 60 is $+20$ (50%), while 100 to 125 is $+25$ (only 25%).",
+ "checks": [
+  {
+   "id": "q4-02-graph-types-c1",
+   "lessonId": "q4-02-graph-types",
+   "difficulty": 1,
+   "stem": "A sector of a circle graph has a central angle of $108^\\circ$. What percent of the whole does the sector represent?",
+   "explanation": "$\\frac{108}{360} = 0.30 = 30\\%$.",
+   "estSeconds": 45,
+   "skills": [
+    "circle-graphs"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 30
+   }
+  },
+  {
+   "id": "q4-02-graph-types-c2",
+   "lessonId": "q4-02-graph-types",
+   "difficulty": 2,
+   "stem": "A trend line on a scatterplot passes through $(2, 30)$ and $(10, 18)$. What is the slope of the line?",
+   "explanation": "Slope $= \\frac{18 - 30}{10 - 2} = \\frac{-12}{8} = -1.5$.",
+   "estSeconds": 60,
+   "skills": [
+    "scatterplots"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": -1.5
+   }
+  }
+ ]
+}

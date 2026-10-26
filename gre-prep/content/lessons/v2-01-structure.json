@@ -1,0 +1,207 @@
+{
+ "id": "v2-01-structure",
+ "status": "published",
+ "why": "Sentence Equivalence is one of the three Verbal question types, and choosing only one correct word out of two earns nothing.",
+ "rule": "Each item is **one sentence with one blank and six choices**. You select **two**.\n\n- Each choice must complete the sentence coherently.\n- The two completed sentences must **mean the same thing**.\n- There is **no partial credit**: one right word and one wrong word scores nothing.\n\nThe item tests the meaning of the finished sentence, so understand the sentence first and the words second.",
+ "examples": [
+  {
+   "prompt": "Although the founder was famously ______ with his money, his heirs spent it freely. Choices: thrifty, lavish, frugal, careless, indifferent, benevolent.",
+   "steps": [
+    "*Although* signals a contrast with \"spent it freely\", so the founder was the opposite of free-spending: careful with money.",
+    "Predict \"careful\" and look for two words near it: *thrifty* and *frugal*.",
+    "Check both: each sentence says the founder saved carefully, so the sentences mean the same.",
+    "*Lavish* and *careless* describe spending, the very thing *although* rules out."
+   ],
+   "answer": "thrifty and frugal"
+  }
+ ],
+ "trap": "Do not stop at the first word that fits. A single fitting word plus a loosely similar one earns zero; the second choice has to give a sentence with the same meaning.",
+ "checks": [
+  {
+   "id": "v2-01-structure-c1",
+   "lessonId": "v2-01-structure",
+   "difficulty": 1,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** \"committing her to nothing\". A speech that avoids taking a position is *noncommittal* or *equivocal*.",
+   "choiceExplanations": {
+    "D": "Means direct and open, the opposite of committing to nothing.",
+    "B": "Means aggressive; that would offend people.",
+    "A": "Means stirring; it would commit the speaker to something.",
+    "E": "Describes style, not the avoidance of commitment."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "SE",
+   "content": {
+    "text": "The mayor's speech was deliberately {{1}}, committing her to nothing and offending no one.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "rousing"
+     },
+     {
+      "id": "B",
+      "text": "belligerent"
+     },
+     {
+      "id": "C",
+      "text": "equivocal"
+     },
+     {
+      "id": "D",
+      "text": "forthright"
+     },
+     {
+      "id": "E",
+      "text": "ornate"
+     },
+     {
+      "id": "F",
+      "text": "noncommittal"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "F",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "v2-01-structure-c2",
+   "lessonId": "v2-01-structure",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Signal:** *though ... at first* followed by *confirmed*. The theory began by seeming unlikely: *improbable* and *implausible*.",
+   "choiceExplanations": {
+    "C": "A conclusive theory would not need later confirmation.",
+    "F": "Would not contrast with being confirmed later.",
+    "D": "Means clear; clarity is not contrasted with confirmation.",
+    "E": "Means complicated; it does not oppose being confirmed."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "SE",
+   "content": {
+    "text": "The detective's theory, though {{1}} at first, was gradually confirmed by new evidence.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "improbable"
+     },
+     {
+      "id": "B",
+      "text": "implausible"
+     },
+     {
+      "id": "C",
+      "text": "conclusive"
+     },
+     {
+      "id": "D",
+      "text": "lucid"
+     },
+     {
+      "id": "E",
+      "text": "elaborate"
+     },
+     {
+      "id": "F",
+      "text": "undisputed"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "v2-01-structure-c3",
+   "lessonId": "v2-01-structure",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "**Clue:** \"looking as fresh now as when they were completed\". The buildings last beyond fashion: *transcend* and *outlast*.",
+   "choiceExplanations": {
+    "C": "To imitate fashion would tie the buildings to it, so they would date.",
+    "F": "Praising fashion does not make a building timeless.",
+    "B": "Buildings do not resent; and resentment does not explain freshness.",
+    "A": "Accommodating fashion would make them dated, not fresh."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "SE",
+   "content": {
+    "text": "The architect was admired for designing buildings that {{1}} passing fashion, looking as fresh now as when they were completed.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "accommodate"
+     },
+     {
+      "id": "B",
+      "text": "resent"
+     },
+     {
+      "id": "C",
+      "text": "emulate"
+     },
+     {
+      "id": "D",
+      "text": "transcend"
+     },
+     {
+      "id": "E",
+      "text": "outlast"
+     },
+     {
+      "id": "F",
+      "text": "flatter"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D",
+     "E"
+    ]
+   }
+  }
+ ]
+}

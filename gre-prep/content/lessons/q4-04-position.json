@@ -1,0 +1,82 @@
+{
+ "id": "q4-04-position",
+ "status": "published",
+ "why": "Quartiles, the interquartile range and boxplots are the standard way the GRE compares the center and spread of two data sets.",
+ "rule": "Order the data from least $L$ to greatest $G$. The median is $Q_2$. Split the ordered list into two equal halves: $Q_1$ is the median of the lower half and $Q_3$ the median of the upper half. Each quartile group holds about 25% of the data.\n\n- **Interquartile range** $= Q_3 - Q_1$: the spread of the middle half, hardly affected by outliers.\n- **Percentiles** cut the data into 100 parts: $Q_1 = P_{25}$, median $= P_{50}$, $Q_3 = P_{75}$.\n- **Boxplot**: shows $L, Q_1, Q_2, Q_3, G$. The box runs from $Q_1$ to $Q_3$ with the median marked; whiskers reach $L$ and $G$.",
+ "examples": [
+  {
+   "prompt": "Find the median, quartiles, IQR and range of 6, 7, 9, 12, 14, 18, 21, 30.",
+   "steps": [
+    "Eight values: the median is the average of the 4th and 5th, $\\frac{12 + 14}{2} = 13$.",
+    "Lower half 6, 7, 9, 12: $Q_1 = \\frac{7 + 9}{2} = 8$. Upper half 14, 18, 21, 30: $Q_3 = \\frac{18 + 21}{2} = 19.5$.",
+    "IQR $= 19.5 - 8 = 11.5$; range $= 30 - 6 = 24$."
+   ],
+   "answer": "Median 13, $Q_1 = 8$, $Q_3 = 19.5$, IQR 11.5, range 24"
+  },
+  {
+   "prompt": "A boxplot has $L = 20$, $Q_1 = 35$, median 50, $Q_3 = 60$, $G = 95$. Find the range and IQR, and the share of the data between 35 and 60.",
+   "steps": [
+    "Range $= 95 - 20 = 75$. IQR $= 60 - 35 = 25$.",
+    "The box (from $Q_1$ to $Q_3$) holds the middle half of the data."
+   ],
+   "answer": "Range 75, IQR 25, about 50%"
+  }
+ ],
+ "trap": "Each part of a boxplot holds about 25% of the data, whatever its width. A long whisker or a wide half-box means the values there are spread thinly, not that there are more of them. One outlier stretches the range and a whisker, but not the IQR.",
+ "checks": [
+  {
+   "id": "q4-04-position-c1",
+   "lessonId": "q4-04-position",
+   "difficulty": 1,
+   "stem": "What is the interquartile range of the numbers 1, 3, 5, 7, 9 and 11?",
+   "explanation": "Lower half 1, 3, 5 has median $Q_1 = 3$. Upper half 7, 9, 11 has median $Q_3 = 9$. IQR $= 9 - 3 = 6$.",
+   "estSeconds": 60,
+   "skills": [
+    "iqr"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
+   }
+  },
+  {
+   "id": "q4-04-position-c2",
+   "lessonId": "q4-04-position",
+   "difficulty": 2,
+   "stem": "A data set has 400 values. About how many of them are below the third quartile?",
+   "explanation": "$Q_3$ is the 75th percentile, so about 75% of the data lie below it: $0.75 \\times 400 = 300$.",
+   "estSeconds": 45,
+   "skills": [
+    "quartiles"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 300
+   }
+  }
+ ]
+}

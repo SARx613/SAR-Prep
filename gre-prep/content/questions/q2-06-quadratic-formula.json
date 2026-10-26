@@ -1,0 +1,849 @@
+[
+ {
+  "id": "q2-06-quadratic-formula-01",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 1,
+  "stem": "What is the value of $b^2-4ac$ for the equation $2x^2+5x-3=0$?",
+  "explanation": "$a=2$, $b=5$, $c=-3$: $25-4(2)(-3)=25+24=49$.",
+  "estSeconds": 45,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 49
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-02",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 1,
+  "stem": "How many real solutions does $x^2-6x+9=0$ have?",
+  "explanation": "$b^2-4ac=36-36=0$, so there is exactly one solution, $x=3$. (Indeed $x^2-6x+9=(x-3)^2$.)",
+  "choiceExplanations": {
+   "A": "The discriminant is 0, not negative.",
+   "C": "Two solutions need a positive discriminant.",
+   "D": "A quadratic has at most two real solutions.",
+   "E": "A quadratic has at most two real solutions."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "None"
+    },
+    {
+     "id": "B",
+     "text": "One"
+    },
+    {
+     "id": "C",
+     "text": "Two"
+    },
+    {
+     "id": "D",
+     "text": "Three"
+    },
+    {
+     "id": "E",
+     "text": "Infinitely many"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-03",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 2,
+  "stem": "What is the greater solution of $2x^2-3x-2=0$?",
+  "explanation": "$b^2-4ac=9+16=25$. $x=\\dfrac{3\\pm5}{4}$, so $x=2$ or $x=-\\dfrac12$. The greater is 2.",
+  "choiceExplanations": {
+   "A": "This is the smaller solution.",
+   "B": "Sign error: $-b$ was taken as $-3$, giving $\\frac{-3+5}{4}$.",
+   "D": "The numerator was divided by 2 instead of $2a=4$.",
+   "E": "The numerator was not divided at all."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-\\dfrac12$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac12$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-04",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 2,
+  "stem": "The equation $x^2-6x+k=0$ has exactly one real solution. What is the value of $k$?",
+  "explanation": "One solution means the discriminant is 0: $36-4k=0$, so $k=9$.",
+  "estSeconds": 60,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-05",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "First: $16-28=-12<0$, so 0 solutions. Second: $16-16=0$, so 1 solution. B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of real solutions of $x^2+4x+7=0$",
+   "quantityB": "The number of real solutions of $x^2-4x+4=0$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-06",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 3,
+  "stem": "What is the greater solution of $x^2-4x-1=0$?",
+  "explanation": "$b^2-4ac=16+4=20$, $\\sqrt{20}=2\\sqrt5$. $x=\\dfrac{4\\pm2\\sqrt5}{2}=2\\pm\\sqrt5$. The greater is $2+\\sqrt5$.",
+  "choiceExplanations": {
+   "A": "$-b$ was taken as $-4$, and then only the root was kept.",
+   "C": "The root was divided by 2 but the 4 was not.",
+   "D": "Only the 4 was divided by 2.",
+   "E": "Nothing was divided by $2a$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2+\\sqrt5$"
+    },
+    {
+     "id": "B",
+     "text": "$2+\\sqrt5$"
+    },
+    {
+     "id": "C",
+     "text": "$4+\\sqrt5$"
+    },
+    {
+     "id": "D",
+     "text": "$2+\\sqrt{20}$"
+    },
+    {
+     "id": "E",
+     "text": "$4+2\\sqrt5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-07",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 3,
+  "stem": "For which of the following equations are there two distinct real solutions? Indicate all such equations.",
+  "explanation": "Test the discriminant: C: $25-12=13>0$; D: $9+32=41>0$.",
+  "choiceExplanations": {
+   "A": "$1-4=-3<0$: no real solution.",
+   "B": "$4-4=0$: exactly one solution.",
+   "E": "$4-12=-8<0$: no real solution."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x^2+x+1=0$"
+    },
+    {
+     "id": "B",
+     "text": "$x^2-2x+1=0$"
+    },
+    {
+     "id": "C",
+     "text": "$x^2+5x+3=0$"
+    },
+    {
+     "id": "D",
+     "text": "$2x^2-3x-4=0$"
+    },
+    {
+     "id": "E",
+     "text": "$3x^2+2x+1=0$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-08",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 3,
+  "stem": "What is the positive solution of $x^2-3x-1=0$? Round your answer to the nearest hundredth.",
+  "explanation": "$b^2-4ac=9+4=13$. $x=\\dfrac{3\\pm\\sqrt{13}}{2}$. The positive solution is $\\dfrac{3+3.6056}{2}\\approx3.30$.",
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 2
+  },
+  "answer": {
+   "value": 3.3
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-09",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 4,
+  "stem": "For which of the following values of $k$ does the equation $kx^2+6x+3=0$ have no real solution? Indicate all such values.",
+  "explanation": "The discriminant is $36-12k$, which is negative when $k>3$. So $k=4,5,6$ work.",
+  "choiceExplanations": {
+   "A": "$36-24=12>0$: two solutions.",
+   "B": "$36-36=0$: exactly one solution, not none."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$3$"
+    },
+    {
+     "id": "C",
+     "text": "$4$"
+    },
+    {
+     "id": "D",
+     "text": "$5$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-10",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 4,
+  "stem": "Which of the following is a solution of $3x^2=5x+4$?",
+  "explanation": "Rewrite as $3x^2-5x-4=0$: $a=3$, $b=-5$, $c=-4$. Discriminant $25+48=73$. So $x=\\dfrac{5\\pm\\sqrt{73}}{6}$.",
+  "choiceExplanations": {
+   "A": "$-b$ was taken as $-5$.",
+   "B": "The discriminant was computed with $a=1$: $25+16=41$.",
+   "D": "The denominator is $2a=6$, not $a=3$.",
+   "E": "The denominator is $2a=6$, not 2."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{-5+\\sqrt{73}}{6}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{5+\\sqrt{41}}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{5+\\sqrt{73}}{6}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{5+\\sqrt{73}}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{5+\\sqrt{73}}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-11",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 5,
+  "stem": "For how many integer values of $b$ does the equation $x^2+bx+9=0$ have no real solution?",
+  "explanation": "No real solution means $b^2-36<0$, i.e. $b^2<36$, so $-6<b<6$. The integers $-5,-4,\\dots,5$ give 11 values. ($b=\\pm6$ gives exactly one solution, so they do not count.)",
+  "estSeconds": 120,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 11
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-12",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The discriminant is $b^2-4c$. Since $b^2\\ge0$ and $-4c>0$ (because $c<0$), it is always positive. So there are always two distinct real solutions.",
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of distinct real solutions of $x^2+bx+c=0$",
+   "quantityB": "$2$",
+   "common": "$b$ and $c$ are real numbers and $c<0$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-13",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 1,
+  "stem": "How many real solutions does $3x^2-x-2=0$ have?",
+  "explanation": "The discriminant is $b^2-4ac=(-1)^2-4(3)(-2)=1+24=25$. It is positive, so there are two real solutions.",
+  "estSeconds": 55,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-14",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 2,
+  "stem": "What is the smaller solution of $x^2-2x-4=0$?",
+  "explanation": "Here $a=1$, $b=-2$, $c=-4$. The discriminant is $4+16=20$, and $\\sqrt{20}=2\\sqrt5$. So $x=\\dfrac{2\\pm2\\sqrt5}{2}=1\\pm\\sqrt5$. The smaller is $1-\\sqrt5$.",
+  "choiceExplanations": {
+   "A": "The square root term was not divided by $2$: $\\dfrac{2-\\sqrt{20}}{2}$ is $1-\\sqrt5$, not $1-\\sqrt{20}$.",
+   "B": "$-b$ was taken as $-2$; with $b=-2$, $-b=+2$.",
+   "D": "Only the square root was divided by $2$; the whole numerator sits over $2a$.",
+   "E": "This is the greater solution; the question asks for the smaller."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1-2\\sqrt5$"
+    },
+    {
+     "id": "B",
+     "text": "$-1-\\sqrt5$"
+    },
+    {
+     "id": "C",
+     "text": "$1-\\sqrt5$"
+    },
+    {
+     "id": "D",
+     "text": "$2-\\sqrt5$"
+    },
+    {
+     "id": "E",
+     "text": "$1+\\sqrt5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-15",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Two distinct real solutions need $b^2-4ac=k^2-16>0$, so $k^2>16$. Since $k>0$, this means $k>4$. Quantity A is greater.",
+  "estSeconds": 80,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$k$",
+   "quantityB": "$4$",
+   "common": "$k>0$ and the equation $x^2+kx+4=0$ has two distinct real solutions."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-16",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 3,
+  "stem": "What is the positive solution of $2x^2-3x-4=0$? Round your answer to the nearest hundredth. (Use $\\sqrt{41}\\approx6.403$.)",
+  "explanation": "Here $a=2$, $b=-3$, $c=-4$. The discriminant is $9+32=41$. So $x=\\dfrac{3\\pm\\sqrt{41}}{4}$. The positive solution is $\\dfrac{3+6.403}{4}=\\dfrac{9.403}{4}\\approx2.35$ (the other, $\\dfrac{3-6.403}{4}$, is negative).",
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 2
+  },
+  "answer": {
+   "value": 2.35
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-17",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 3,
+  "stem": "For which of the following equations is there no real solution? Indicate all such equations.",
+  "explanation": "Compute $b^2-4ac$: A $16-20=-4$; C $9-16=-7$; E $36-40=-4$. All are negative, so no real solution. B gives $5$ (two solutions) and D gives $0$ (one solution).",
+  "choiceExplanations": {
+   "B": "$1+4=5>0$: two real solutions.",
+   "D": "$144-144=0$: exactly one real solution (still a solution)."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x^2-4x+5=0$"
+    },
+    {
+     "id": "B",
+     "text": "$x^2+x-1=0$"
+    },
+    {
+     "id": "C",
+     "text": "$2x^2+3x+2=0$"
+    },
+    {
+     "id": "D",
+     "text": "$4x^2-12x+9=0$"
+    },
+    {
+     "id": "E",
+     "text": "$x^2+6x+10=0$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-18",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 4,
+  "stem": "If $k\\ne0$ and $x^2+kx+k=0$ has exactly one real solution, what is the value of $k$?",
+  "explanation": "Here $a=1$, $b=k$, $c=k$. One real solution means $b^2-4ac=k^2-4k=0$, so $k(k-4)=0$. Since $k\\ne0$, $k=4$.",
+  "choiceExplanations": {
+   "A": "With $k=-4$: $b^2-4ac=16+16=32\\ne0$.",
+   "B": "$k=0$ also gives a zero discriminant, but the problem says $k\\ne0$.",
+   "C": "With $k=2$: $b^2-4ac=4-8=-4$, no real solution.",
+   "E": "With $k=16$: $b^2-4ac=256-64=192\\ne0$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-4$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$16$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-19",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 4,
+  "stem": "Which of the following is a solution of $x(x+3)=3$?",
+  "explanation": "Expand and move everything to one side: $x^2+3x-3=0$, so $a=1$, $b=3$, $c=-3$. The discriminant is $9+12=21$, and $x=\\dfrac{-3\\pm\\sqrt{21}}{2}$. Only $\\dfrac{-3+\\sqrt{21}}{2}$ is listed.",
+  "choiceExplanations": {
+   "A": "$-b$ was taken as $+3$; with $b=3$, $-b=-3$.",
+   "B": "Only the square root was divided by $2$; the whole numerator sits over $2a$.",
+   "D": "This uses $c=-1$; the equation $x^2+3x-3=0$ has $c=-3$, so the discriminant is $9+12=21$.",
+   "E": "This comes from reading $c=+3$ without rearranging ($9-12<0$); first write $x^2+3x-3=0$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{3+\\sqrt{21}}{2}$"
+    },
+    {
+     "id": "B",
+     "text": "$-3+\\dfrac{\\sqrt{21}}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{-3+\\sqrt{21}}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{-3+\\sqrt{5}}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "There is no real solution."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-20",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 5,
+  "stem": "The two solutions of $x^2-6x+c=0$ differ by $4$. What is the value of $c$?",
+  "explanation": "By the formula, $x=\\dfrac{6\\pm\\sqrt{36-4c}}{2}=3\\pm\\sqrt{9-c}$. The two solutions differ by $2\\sqrt{9-c}=4$, so $\\sqrt{9-c}=2$ and $9-c=4$, giving $c=5$. (Check: $x^2-6x+5=0$ has solutions $1$ and $5$.)",
+  "estSeconds": 130,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ }
+]

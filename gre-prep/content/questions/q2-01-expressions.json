@@ -1,0 +1,891 @@
+[
+ {
+  "id": "q2-01-expressions-01",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 1,
+  "stem": "Which of the following is equal to $3(2x-1)-4x$?",
+  "explanation": "Distribute: $6x-3$. Then subtract $4x$: $2x-3$.",
+  "choiceExplanations": {
+   "B": "The 3 was multiplied by $2x$ but not by $-1$.",
+   "C": "Sign error: $3\\cdot(-1)$ is $-3$, not $+3$.",
+   "D": "This stops after distributing and ignores the $-4x$.",
+   "E": "The $4x$ was added instead of subtracted."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x-3$"
+    },
+    {
+     "id": "B",
+     "text": "$2x-1$"
+    },
+    {
+     "id": "C",
+     "text": "$2x+3$"
+    },
+    {
+     "id": "D",
+     "text": "$6x-3$"
+    },
+    {
+     "id": "E",
+     "text": "$10x-3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-02",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 1,
+  "stem": "What is the degree of the polynomial $5x^3y-2xy^4+7$?",
+  "explanation": "Add the exponents in each term: $5x^3y$ has degree $3+1=4$, $-2xy^4$ has degree $1+4=5$, and $7$ has degree $0$. The largest is $5$.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q2-01-expressions-03",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $(3x+2)(x-4)$?",
+  "explanation": "Multiply every term by every term: $3x^2-12x+2x-8=3x^2-10x-8$.",
+  "choiceExplanations": {
+   "A": "The $2x$ was subtracted instead of added.",
+   "B": "The constant is $2\\cdot(-4)=-8$, not $+8$.",
+   "D": "The $x$-term is $-12x+2x=-10x$, not $+10x$.",
+   "E": "The middle terms were dropped."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3x^2-14x-8$"
+    },
+    {
+     "id": "B",
+     "text": "$3x^2-10x+8$"
+    },
+    {
+     "id": "C",
+     "text": "$3x^2-10x-8$"
+    },
+    {
+     "id": "D",
+     "text": "$3x^2+10x-8$"
+    },
+    {
+     "id": "E",
+     "text": "$3x^2-8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-04",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 2,
+  "stem": "Which of the following are equal to $x^2-6x+9$? Indicate all such expressions.",
+  "explanation": "$(x-3)^2=x^2-6x+9$. Since $(3-x)^2=(x-3)^2$, that works too. And $x(x-6)+9=x^2-6x+9$.",
+  "choiceExplanations": {
+   "B": "$(x+3)^2=x^2+6x+9$: the middle sign is wrong.",
+   "D": "$(x+3)(x-3)=x^2-9$: no middle term."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x-3)^2$"
+    },
+    {
+     "id": "B",
+     "text": "$(x+3)^2$"
+    },
+    {
+     "id": "C",
+     "text": "$(3-x)^2$"
+    },
+    {
+     "id": "D",
+     "text": "$(x+3)(x-3)$"
+    },
+    {
+     "id": "E",
+     "text": "$x(x-6)+9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-05",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(x+4)^2=x^2+8x+16$, so A minus B is $8x$. For $x>0$ A is larger, for $x<0$ B is larger, and for $x=0$ they are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(x+4)^2$",
+   "quantityB": "$x^2+16$",
+   "common": "$x$ is a real number."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-01-expressions-06",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 3,
+  "stem": "If $x^2-y^2=40$ and $x-y=5$, what is the value of $x+y$?",
+  "explanation": "Use $x^2-y^2=(x-y)(x+y)$: $40=5(x+y)$, so $x+y=8$.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q2-01-expressions-07",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 3,
+  "stem": "For all $x\\ne3$, which of the following is equal to $\\dfrac{x^2-9}{x^2-6x+9}$?",
+  "explanation": "Factor: numerator $(x-3)(x+3)$, denominator $(x-3)^2$. Cancel one factor $x-3$ to get $\\dfrac{x+3}{x-3}$.",
+  "choiceExplanations": {
+   "A": "Numerator and denominator are swapped.",
+   "B": "This treats the denominator as $x^2-9$, ignoring the $-6x$.",
+   "D": "This cancels the $-9$ against the $+9$, which are terms, not factors.",
+   "E": "The denominator is $(x-3)^2$, so one factor $x-3$ remains below."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{x-3}{x+3}$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{x+3}{x-3}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{x}{x-6}$"
+    },
+    {
+     "id": "E",
+     "text": "$x+3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-08",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(x+y)^2=x^2+2xy+y^2$, so $x^2+y^2=49-2(10)=29$. That is less than 30.",
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x^2+y^2$",
+   "quantityB": "$30$",
+   "common": "$x+y=7$ and $xy=10$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-01-expressions-09",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 4,
+  "stem": "Which of the following are equal to $x^2-4y^2$? Indicate all such expressions.",
+  "explanation": "$x^2-4y^2=x^2-(2y)^2=(x-2y)(x+2y)$. In E, $(2y-x)(-x-2y)=-2xy-4y^2+x^2+2xy=x^2-4y^2$ as well.",
+  "choiceExplanations": {
+   "B": "Expands to $x^2-3xy-4y^2$.",
+   "C": "Expands to $x^2-4xy+4y^2$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(x-2y)(x+2y)$"
+    },
+    {
+     "id": "B",
+     "text": "$(x-4y)(x+y)$"
+    },
+    {
+     "id": "C",
+     "text": "$(x-2y)^2$"
+    },
+    {
+     "id": "D",
+     "text": "$x^2-(2y)^2$"
+    },
+    {
+     "id": "E",
+     "text": "$(2y-x)(-x-2y)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-10",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 4,
+  "stem": "If $x+\\dfrac1x=3$, what is the value of $x^2+\\dfrac1{x^2}$?",
+  "explanation": "Square both sides: $x^2+2\\cdot x\\cdot\\dfrac1x+\\dfrac1{x^2}=9$, so $x^2+\\dfrac1{x^2}+2=9$ and the answer is $7$.",
+  "choiceExplanations": {
+   "A": "This just repeats $x+\\frac1x$.",
+   "B": "Subtracting 4 instead of 2.",
+   "D": "The cross term $2$ was forgotten.",
+   "E": "The cross term was added instead of subtracted."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3$"
+    },
+    {
+     "id": "B",
+     "text": "$5$"
+    },
+    {
+     "id": "C",
+     "text": "$7$"
+    },
+    {
+     "id": "D",
+     "text": "$9$"
+    },
+    {
+     "id": "E",
+     "text": "$11$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-11",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 5,
+  "stem": "If $a+b=8$ and $a^2+b^2=40$, what is the value of $a^3+b^3$?",
+  "explanation": "From $(a+b)^2=a^2+2ab+b^2$: $64=40+2ab$, so $ab=12$. Then $a^3+b^3=(a+b)^3-3ab(a+b)=512-3(12)(8)=224$. (Check: $a,b=2,6$ gives $8+216$.)",
+  "choiceExplanations": {
+   "A": "This uses $ab=24$ (the $2ab$ was not halved).",
+   "C": "This treats $a^3+b^3$ as $(a+b)(a^2+b^2)$, which omits $-ab$.",
+   "D": "The factor 3 was dropped: $512-96$.",
+   "E": "This is $(a+b)^3$ with the cross terms ignored."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$128$"
+    },
+    {
+     "id": "B",
+     "text": "$224$"
+    },
+    {
+     "id": "C",
+     "text": "$320$"
+    },
+    {
+     "id": "D",
+     "text": "$416$"
+    },
+    {
+     "id": "E",
+     "text": "$512$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-12",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 5,
+  "stem": "What is the value of $\\dfrac{2025^2-2019^2}{2022}$?",
+  "explanation": "Factor with $a^2-b^2=(a-b)(a+b)$: $2025^2-2019^2=(6)(4044)$. Since $4044=2\\cdot2022$, the quotient is $6\\cdot2=12$.",
+  "estSeconds": 120,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q2-01-expressions-13",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 1,
+  "stem": "Which of the following is equal to $4(x+3)-2(x-5)$?",
+  "explanation": "Distribute: $4x+12-2x+10$. Combine like terms: $(4x-2x)+(12+10)=2x+22$.",
+  "choiceExplanations": {
+   "A": "The product $-2\\cdot(-5)$ is $+10$, not $-10$.",
+   "B": "The $-2$ was multiplied by $x$ but not by $-5$.",
+   "D": "The minus sign was not applied to the $x$ term ($4x+2x$), and the constant has a sign error.",
+   "E": "The minus sign was not applied to the $x$ term: $-2(x-5)$ gives $-2x$, not $+2x$."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x+2$"
+    },
+    {
+     "id": "B",
+     "text": "$2x+17$"
+    },
+    {
+     "id": "C",
+     "text": "$2x+22$"
+    },
+    {
+     "id": "D",
+     "text": "$6x+2$"
+    },
+    {
+     "id": "E",
+     "text": "$6x+22$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-14",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 2,
+  "stem": "When $(3x-2)(x+5)$ is written in the form $ax^2+bx+c$, what is the value of $b$?",
+  "explanation": "Multiply every term by every term: $3x^2+15x-2x-10=3x^2+13x-10$. So $b=15-2=13$.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q2-01-expressions-15",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(2x-1)^2=4x^2-4x+1$, so A minus B equals $1$ for every real $x$. Quantity A is always greater.",
+  "estSeconds": 60,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(2x-1)^2$",
+   "quantityB": "$4x^2-4x$",
+   "common": "$x$ is a real number."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-01-expressions-16",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 3,
+  "stem": "Which of the following is equal to $(x+3)^2-(x-3)^2$?",
+  "explanation": "Expand: $(x^2+6x+9)-(x^2-6x+9)=12x$. Or use $a^2-b^2=(a-b)(a+b)$ with $a=x+3$ and $b=x-3$: $(6)(2x)=12x$.",
+  "choiceExplanations": {
+   "A": "The two squares were subtracted in the wrong order.",
+   "B": "The squares do cancel, but the middle terms do not: $+6x$ minus $(-6x)$ is $12x$.",
+   "C": "Only one of the two middle terms was counted.",
+   "E": "The squares were added instead of subtracted."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-12x$"
+    },
+    {
+     "id": "B",
+     "text": "$0$"
+    },
+    {
+     "id": "C",
+     "text": "$6x$"
+    },
+    {
+     "id": "D",
+     "text": "$12x$"
+    },
+    {
+     "id": "E",
+     "text": "$2x^2+18$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-17",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $(2x-y)^2$? Indicate all such expressions.",
+  "explanation": "$(2x-y)^2=4x^2-4xy+y^2$. Since $(y-2x)^2=(2x-y)^2$, that works too. And $(2x+y)^2-8xy=4x^2+4xy+y^2-8xy=4x^2-4xy+y^2$.",
+  "choiceExplanations": {
+   "B": "The middle term $-4xy$ is missing: $(2x-y)^2\\ne(2x)^2+y^2$.",
+   "E": "$(2x-y)(2x+y)=4x^2-y^2$, which is a different expression."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4x^2-4xy+y^2$"
+    },
+    {
+     "id": "B",
+     "text": "$4x^2+y^2$"
+    },
+    {
+     "id": "C",
+     "text": "$(y-2x)^2$"
+    },
+    {
+     "id": "D",
+     "text": "$(2x+y)^2-8xy$"
+    },
+    {
+     "id": "E",
+     "text": "$(2x-y)(2x+y)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-18",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 4,
+  "stem": "If $x^3+3x^2+3x=26$, what is the value of $x$?",
+  "explanation": "Add $1$ to both sides: $x^3+3x^2+3x+1=(x+1)^3=27$. The only real number whose cube is $27$ is $3$, so $x+1=3$ and $x=2$.",
+  "estSeconds": 100,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-01-expressions-19",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 4,
+  "stem": "For all $x\\ne2$, which of the following is equal to $\\dfrac{3x^2-12}{x^2-4x+4}$?",
+  "explanation": "Factor the top: $3x^2-12=3(x^2-4)=3(x-2)(x+2)$. The bottom is $(x-2)^2$. Cancel one factor $x-2$ (allowed since $x\\ne2$): $\\dfrac{3(x+2)}{x-2}$.",
+  "choiceExplanations": {
+   "A": "The terms $3x^2$ and $x^2$ were cancelled with a shortcut; only common **factors** may be cancelled.",
+   "B": "The common factor $3$ in the numerator was lost.",
+   "C": "The denominator is $(x-2)^2$, not $(x+2)^2$; the cancelled factors were also swapped.",
+   "D": "One factor $x-2$ was cancelled from the numerator but the denominator was left squared; cancel one $x-2$ from the top and one from the bottom."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "algebraic-expressions",
+   "factoring"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{x+2}{x-2}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{3(x-2)}{x+2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{3(x+2)}{(x-2)^2}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{3(x+2)}{x-2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-01-expressions-20",
+  "lessonId": "q2-01-expressions",
+  "difficulty": 5,
+  "stem": "If $x>0$ and $x-\\dfrac1x=\\dfrac83$, what is the value of $x+\\dfrac1x$? Enter your answer as a fraction.",
+  "explanation": "Square the given equation: $x^2-2+\\dfrac1{x^2}=\\dfrac{64}{9}$, so $x^2+\\dfrac1{x^2}=\\dfrac{82}{9}$. Then $\\left(x+\\dfrac1x\\right)^2=x^2+2+\\dfrac1{x^2}=\\dfrac{100}{9}$. Since $x>0$, $x+\\dfrac1x$ is positive, so it equals $\\dfrac{10}{3}$.",
+  "estSeconds": 130,
+  "skills": [
+   "algebraic-expressions"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 3.3333333333333335,
+   "fraction": {
+    "numerator": 10,
+    "denominator": 3
+   }
+  }
+ }
+]

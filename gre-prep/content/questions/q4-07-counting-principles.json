@@ -1,0 +1,725 @@
+[
+ {
+  "id": "q4-07-counting-principles-01",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 1,
+  "stem": "A store sells 4 different shirts and 3 different pairs of pants. How many different outfits, each consisting of one shirt and one pair of pants, are possible?",
+  "explanation": "By the multiplication principle: $4 \\times 3 = 12$.",
+  "estSeconds": 45,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-02",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 1,
+  "stem": "In how many different ways can 4 different books be arranged in a row on a shelf?",
+  "explanation": "$4! = 4 \\times 3 \\times 2 \\times 1 = 24$.",
+  "estSeconds": 45,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-03",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "In how many different ways can a 2-person committee be chosen from a group of 5 people?",
+  "explanation": "Order does not matter: $\\binom{5}{2} = \\frac{5 \\times 4}{2 \\times 1} = 10$.",
+  "choiceExplanations": {
+   "A": "5 is the size of the group, not a count of committees.",
+   "C": "20 counts ordered pairs ($5 \\times 4$), so each committee is counted twice.",
+   "D": "25 would allow the same person to be chosen twice.",
+   "E": "32 is $2^5$, which has no meaning here."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$10$"
+    },
+    {
+     "id": "C",
+     "text": "$20$"
+    },
+    {
+     "id": "D",
+     "text": "$25$"
+    },
+    {
+     "id": "E",
+     "text": "$32$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-04",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\binom{n}{k} = \\binom{n}{n-k}$: choosing 3 people to include is the same as choosing the 5 to leave out. Both equal 56.",
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\binom{8}{3}$",
+   "quantityB": "$\\binom{8}{5}$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-05",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "A code consists of one letter of the alphabet (26 possibilities) followed by two digits (0 through 9). Digits may be repeated. How many different codes are possible?",
+  "explanation": "Multiplication principle: $26 \\times 10 \\times 10 = 2600$.",
+  "estSeconds": 60,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2600
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-06",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "A club has 7 members. In how many ways can a president, a vice president and a secretary be chosen, if no member holds more than one office?",
+  "explanation": "The offices are different, so order matters: $7 \\times 6 \\times 5 = 210$.",
+  "choiceExplanations": {
+   "A": "35 is $\\binom{7}{3}$: it ignores which office each person holds.",
+   "C": "343 is $7^3$, which lets one member hold several offices.",
+   "D": "840 is $7 \\times 6 \\times 5 \\times 4$: one factor too many.",
+   "E": "5040 is $7!$, which orders all 7 members."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$35$"
+    },
+    {
+     "id": "B",
+     "text": "$210$"
+    },
+    {
+     "id": "C",
+     "text": "$343$"
+    },
+    {
+     "id": "D",
+     "text": "$840$"
+    },
+    {
+     "id": "E",
+     "text": "$5040$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-07",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "A committee of 4 people is to be formed from 6 men and 5 women, with exactly 2 men and exactly 2 women. How many different committees are possible?",
+  "explanation": "Choose the men and the women separately and multiply: $\\binom{6}{2} \\times \\binom{5}{2} = 15 \\times 10 = 150$.",
+  "estSeconds": 100,
+  "skills": [
+   "combinations",
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 150
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-08",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "Which of the following expressions are equal to 90? Indicate all such expressions.",
+  "explanation": "$\\frac{10!}{8!} = 10 \\times 9 = 90$. $\\binom{10}{2} = 45$, so $2 \\times \\binom{10}{2} = 90$ but $\\binom{10}{2}$ alone is only 45.",
+  "choiceExplanations": {
+   "B": "$\\binom{10}{2} = 45$: it divides $10 \\times 9$ by $2!$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "factorials",
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{10!}{8!}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\binom{10}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$10 \\times 9$"
+    },
+    {
+     "id": "D",
+     "text": "$2 \\times \\binom{10}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-09",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "Five people are to be seated in a row of 5 chairs. In how many different ways can they be seated if two particular people, Ana and Ben, must sit next to each other?",
+  "explanation": "Treat Ana and Ben as one block. The 4 units (the block and the 3 others) can be ordered in $4! = 24$ ways, and inside the block Ana and Ben can swap: $24 \\times 2 = 48$.",
+  "estSeconds": 120,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 48
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-10",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "Three-digit numbers are made from the digits 2, 3, 5, 7, 8 and 9, with no digit appearing twice in the same number. How many of these numbers are even?",
+  "explanation": "Fill the restricted place first. The units digit must be even: 2 or 8, so 2 choices. The hundreds digit then has 5 choices, and the tens digit 4. Total $2 \\times 5 \\times 4 = 40$.",
+  "choiceExplanations": {
+   "B": "60 is half of $6 \\times 5 \\times 4 = 120$: only 2 of the 6 digits are even, so half the numbers are not even.",
+   "C": "72 is $6 \\times 6 \\times 2$: it lets digits repeat.",
+   "D": "120 is $6 \\times 5 \\times 4$: it ignores the requirement that the number be even.",
+   "E": "216 is $6^3$: it allows repeated digits and ignores evenness."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a4",
+    "solver-b4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$40$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$72$"
+    },
+    {
+     "id": "D",
+     "text": "$120$"
+    },
+    {
+     "id": "E",
+     "text": "$216$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-11",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 5,
+  "stem": "A committee of 3 people is to be chosen from 9 people. Two of the 9, Cara and Dev, refuse to serve together on the committee. How many different committees are possible?",
+  "explanation": "All committees: $\\binom{9}{3} = 84$. Committees containing both Cara and Dev: the third member is any of the other 7, so 7 committees. Allowed: $84 - 7 = 77$.",
+  "estSeconds": 120,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 77
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-12",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 5,
+  "stem": "A fair coin is tossed 6 times. How many of the $2^6$ possible sequences of heads and tails contain at least 2 heads?",
+  "explanation": "Count the complement. Sequences with 0 heads: 1. Sequences with exactly 1 head: $\\binom{6}{1} = 6$. So at least 2 heads: $64 - 1 - 6 = 57$.",
+  "estSeconds": 120,
+  "skills": [
+   "combinations",
+   "complement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 57
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-13",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 1,
+  "stem": "A menu offers 4 appetizers, 7 main dishes and 3 desserts. How many different meals consisting of one appetizer, one main dish and one dessert can be ordered?",
+  "explanation": "Multiply the options at each step: $4 \\times 7 \\times 3 = 84$.",
+  "estSeconds": 45,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 84
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-14",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "Five runners compete in a race with no ties. In how many different ways can the first, second and third places be filled?",
+  "explanation": "Order matters and no runner can take two places: $5 \\times 4 \\times 3 = 60$.",
+  "choiceExplanations": {
+   "A": "$\\binom{5}{3} = 10$ ignores the order of finish, but first, second and third are different places.",
+   "B": "15 is $5 \\times 3$, which does not use the 5, 4, 3 options.",
+   "D": "$5! = 120$ orders all five runners, but only three places are filled.",
+   "E": "$5^3 = 125$ allows the same runner to take several places."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$10$"
+    },
+    {
+     "id": "B",
+     "text": "$15$"
+    },
+    {
+     "id": "C",
+     "text": "$60$"
+    },
+    {
+     "id": "D",
+     "text": "$120$"
+    },
+    {
+     "id": "E",
+     "text": "$125$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-15",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "In how many different ways can a team of 4 people be chosen from a group of 8 people?",
+  "explanation": "Order does not matter: $\\binom{8}{4} = \\frac{8 \\times 7 \\times 6 \\times 5}{4 \\times 3 \\times 2 \\times 1} = 70$.",
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw3",
+    "solver-bw3"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 70
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-16",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: order matters, $10 \\times 9 \\times 8 = 720$. B: $5 \\times \\binom{10}{3} = 5 \\times 120 = 600$. Quantity A is greater. (Each committee corresponds to $3! = 6$ ordered selections, and $6 > 5$.)",
+  "estSeconds": 90,
+  "skills": [
+   "permutations",
+   "combinations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of ways to choose a president, a vice president and a treasurer from 10 people, if no person holds two offices",
+   "quantityB": "5 times the number of ways to choose a 3-person committee from 10 people"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-17",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 3,
+  "stem": "A locker code consists of 2 different letters of the alphabet (26 possibilities) followed by 2 digits (0 through 9), where the digits may repeat. How many different locker codes are possible?",
+  "explanation": "First letter: 26 options; second letter, different from the first: 25 options. Each digit: 10 options. Total $= 26 \\times 25 \\times 10 \\times 10 = 65{,}000$.",
+  "estSeconds": 80,
+  "skills": [
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw3",
+    "solver-bw3"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 65000
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-18",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "Six people are to be seated in a row of 6 chairs. In how many different ways can they be seated if three particular people must sit next to one another?",
+  "explanation": "Treat the three together as one block. The block and the other 3 people make 4 items, which can be ordered in $4! = 24$ ways. The 3 people inside the block can be ordered in $3! = 6$ ways. Total $= 24 \\times 6 = 144$.",
+  "estSeconds": 100,
+  "skills": [
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 144
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-19",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "A committee of 4 people is to be chosen from 5 men and 4 women. How many different committees include at least one woman?",
+  "explanation": "Count all committees and subtract those with no woman. All: $\\binom{9}{4} = 126$. No woman (all 4 chosen from the 5 men): $\\binom{5}{4} = 5$. So $126 - 5 = 121$.",
+  "choiceExplanations": {
+   "A": "5 is the number of all-men committees, the ones to exclude.",
+   "B": "40 counts only committees with exactly one woman ($4 \\times \\binom{5}{3}$).",
+   "D": "126 counts all committees, including the 5 with no woman.",
+   "E": "224 is $4 \\times \\binom{8}{3}$, which counts committees with several women more than once."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "combinations",
+   "complement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$40$"
+    },
+    {
+     "id": "C",
+     "text": "$121$"
+    },
+    {
+     "id": "D",
+     "text": "$126$"
+    },
+    {
+     "id": "E",
+     "text": "$224$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-07-counting-principles-20",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 5,
+  "stem": "How many 4-digit numbers have four different digits and are divisible by 5? (A 4-digit number cannot begin with 0.)",
+  "explanation": "A number divisible by 5 ends in 0 or 5. Ends in 0: the other three places use different digits from the remaining 9, in order: $9 \\times 8 \\times 7 = 504$. Ends in 5: the first digit cannot be 0 or 5, so it has 8 options; then the second has 8 (including 0, excluding the two used) and the third has 7: $8 \\times 8 \\times 7 = 448$. Total $= 504 + 448 = 952$.",
+  "estSeconds": 150,
+  "skills": [
+   "multiplication-principle",
+   "permutations"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 952
+  }
+ }
+]

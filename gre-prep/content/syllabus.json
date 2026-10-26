@@ -1,0 +1,1377 @@
+{
+ "chapters": [
+  {
+   "id": "q0",
+   "track": "quant",
+   "title": "Quant: format & strategy",
+   "order": 1,
+   "summary": "The four question formats, the on-screen calculator, and the official problem-solving steps.",
+   "supporting": false
+  },
+  {
+   "id": "q1",
+   "track": "quant",
+   "title": "Arithmetic",
+   "order": 2,
+   "summary": "Integers, fractions, exponents and roots, decimals, real numbers, ratio and percent.",
+   "supporting": false
+  },
+  {
+   "id": "q2",
+   "track": "quant",
+   "title": "Algebra",
+   "order": 3,
+   "summary": "Expressions, exponent rules, equations, inequalities, functions, word problems and coordinate geometry.",
+   "supporting": false
+  },
+  {
+   "id": "q3",
+   "track": "quant",
+   "title": "Geometry",
+   "order": 4,
+   "summary": "Lines and angles, polygons, triangles, quadrilaterals, circles and solids.",
+   "supporting": false
+  },
+  {
+   "id": "q4",
+   "track": "quant",
+   "title": "Data analysis",
+   "order": 5,
+   "summary": "Presenting data, descriptive statistics, counting, probability and distributions.",
+   "supporting": false
+  },
+  {
+   "id": "v0",
+   "track": "verbal",
+   "title": "Verbal: format & skills",
+   "order": 6,
+   "summary": "What the Verbal measure assesses and the three question types.",
+   "supporting": false
+  },
+  {
+   "id": "v1",
+   "track": "verbal",
+   "title": "Text Completion",
+   "order": 7,
+   "summary": "One to three blanks, no partial credit, and the official method.",
+   "supporting": false
+  },
+  {
+   "id": "v2",
+   "track": "verbal",
+   "title": "Sentence Equivalence",
+   "order": 8,
+   "summary": "One blank, six choices, two answers that give the same meaning.",
+   "supporting": false
+  },
+  {
+   "id": "v3",
+   "track": "verbal",
+   "title": "Reading Comprehension",
+   "order": 9,
+   "summary": "Passages from five fields, three question formats, and the skills ETS lists.",
+   "supporting": false
+  },
+  {
+   "id": "v4",
+   "track": "verbal",
+   "title": "Vocabulary toolkit",
+   "order": 10,
+   "summary": "Supports Text Completion and Sentence Equivalence. ETS publishes no word list; this is a study aid, not an official syllabus topic.",
+   "supporting": true
+  },
+  {
+   "id": "w1",
+   "track": "writing",
+   "title": "Analyze an Issue",
+   "order": 11,
+   "summary": "The single 30-minute essay task and how it is scored.",
+   "supporting": false
+  },
+  {
+   "id": "t1",
+   "track": "test",
+   "title": "Test day & scoring",
+   "order": 12,
+   "summary": "Structure, section-level adaptation and navigation features.",
+   "supporting": false
+  }
+ ],
+ "lessons": [
+  {
+   "id": "q0-01-formats",
+   "chapter": "q0",
+   "title": "The four Quant question formats",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Question types and Data Interpretation sets",
+    "label": "Question types"
+   },
+   "objectives": [
+    "Recognise QC, select-one, select-one-or-more and Numeric Entry",
+    "Know how Data Interpretation sets are built"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-02-qc-strategies",
+   "chapter": "q0",
+   "title": "Quantitative Comparison strategies",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Quantitative Comparison \u2014 Tips for answering",
+    "label": "Quantitative Comparison"
+   },
+   "objectives": [
+    "Memorise the four fixed choices",
+    "Plug in numbers, simplify the comparison, redraw figures"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-03-solving-steps",
+   "chapter": "q0",
+   "title": "The three problem-solving steps",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Problem-solving steps",
+    "label": "Understand, strategise, check"
+   },
+   "objectives": [
+    "Apply understand \u2192 strategy \u2192 check",
+    "Use reasonableness checks"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-04-numeric-entry",
+   "chapter": "q0",
+   "title": "Numeric Entry rules",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Numeric Entry \u2014 Tips for answering",
+    "label": "Numeric Entry"
+   },
+   "objectives": [
+    "Enter integers, decimals and fractions correctly",
+    "Round only the final answer"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-05-calculator",
+   "chapter": "q0",
+   "title": "The on-screen calculator",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-calculator",
+    "section": "Guidelines specific to the on-screen calculator",
+    "label": "On-screen calculator"
+   },
+   "objectives": [
+    "Know the buttons, memory and Transfer Display",
+    "Know when not to use it"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-06-conventions",
+   "chapter": "q0",
+   "title": "Figures, symbols and assumptions",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-math-conventions",
+    "section": "Assumptions about numbers and figures",
+    "label": "Math conventions"
+   },
+   "objectives": [
+    "Know what is and is not drawn to scale",
+    "Apply the standing assumptions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q0-07-di-sets",
+   "chapter": "q0",
+   "title": "Reading Data Interpretation sets",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Data Interpretation sets \u2014 Tips for answering",
+    "label": "Data Interpretation sets"
+   },
+   "objectives": [
+    "Read axes, units and notes first",
+    "Answer from the data only"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-01-factors-multiples",
+   "chapter": "q1",
+   "title": "Factors, multiples, GCD and LCM",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.1",
+    "label": "Integers"
+   },
+   "objectives": [
+    "Find GCD and LCM",
+    "Move between factors and multiples"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-02-divisibility-primes",
+   "chapter": "q1",
+   "title": "Divisibility, primes and factorisation",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.1",
+    "label": "Integers"
+   },
+   "objectives": [
+    "Decide divisibility from the remainder or the prime factorisation",
+    "Prime-factorise"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-03-remainders-parity",
+   "chapter": "q1",
+   "title": "Remainders, odd and even",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.1",
+    "label": "Integers"
+   },
+   "objectives": [
+    "Work with quotients and remainders",
+    "Predict odd/even results"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-04-fraction-operations",
+   "chapter": "q1",
+   "title": "Fraction operations",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.2",
+    "label": "Fractions"
+   },
+   "objectives": [
+    "Add, subtract, multiply, divide fractions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-05-mixed-fractional",
+   "chapter": "q1",
+   "title": "Mixed numbers and fractional expressions",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.2",
+    "label": "Fractions"
+   },
+   "objectives": [
+    "Convert mixed numbers",
+    "Simplify fractional expressions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-06-exponents",
+   "chapter": "q1",
+   "title": "Exponents",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.3",
+    "label": "Exponents and Roots"
+   },
+   "objectives": [
+    "Evaluate integer exponents"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-07-roots",
+   "chapter": "q1",
+   "title": "Roots",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.3",
+    "label": "Exponents and Roots"
+   },
+   "objectives": [
+    "Simplify and combine square roots"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-08-decimals",
+   "chapter": "q1",
+   "title": "Decimals",
+   "order": 8,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.4",
+    "label": "Decimals"
+   },
+   "objectives": [
+    "Compute with decimals and place value"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-09-number-line-abs",
+   "chapter": "q1",
+   "title": "Number line and absolute value",
+   "order": 9,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.5",
+    "label": "Real Numbers"
+   },
+   "objectives": [
+    "Order real numbers",
+    "Use absolute value"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-10-real-properties",
+   "chapter": "q1",
+   "title": "Properties of real numbers",
+   "order": 10,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.5",
+    "label": "Real Numbers"
+   },
+   "objectives": [
+    "Apply the properties of real numbers"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-11-ratio",
+   "chapter": "q1",
+   "title": "Ratio",
+   "order": 11,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.6",
+    "label": "Ratio"
+   },
+   "objectives": [
+    "Set up and scale ratios"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-12-percent",
+   "chapter": "q1",
+   "title": "Percent",
+   "order": 12,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.7",
+    "label": "Percent"
+   },
+   "objectives": [
+    "Convert and compute percents"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-13-percent-change",
+   "chapter": "q1",
+   "title": "Percent change",
+   "order": 13,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.7",
+    "label": "Percent"
+   },
+   "objectives": [
+    "Compute percent increase, decrease and successive changes"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-01-expressions",
+   "chapter": "q2",
+   "title": "Algebraic expressions and factoring",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.1",
+    "label": "Algebraic Expressions"
+   },
+   "objectives": [
+    "Simplify, expand and factor"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-02-exponent-rules",
+   "chapter": "q2",
+   "title": "Rules of exponents",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.2",
+    "label": "Rules of Exponents"
+   },
+   "objectives": [
+    "Apply the exponent rules"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-03-linear-one-var",
+   "chapter": "q2",
+   "title": "Linear equations in one variable",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.3",
+    "label": "Solving Linear Equations"
+   },
+   "objectives": [
+    "Solve linear equations"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-04-linear-two-var",
+   "chapter": "q2",
+   "title": "Simultaneous linear equations",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.3",
+    "label": "Solving Linear Equations"
+   },
+   "objectives": [
+    "Solve two equations in two unknowns"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-05-quadratic-factoring",
+   "chapter": "q2",
+   "title": "Quadratic equations by factoring",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.4",
+    "label": "Solving Quadratic Equations"
+   },
+   "objectives": [
+    "Solve by factoring"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-06-quadratic-formula",
+   "chapter": "q2",
+   "title": "The quadratic formula",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.4",
+    "label": "Solving Quadratic Equations"
+   },
+   "objectives": [
+    "Use the quadratic formula"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-07-inequalities",
+   "chapter": "q2",
+   "title": "Linear inequalities",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.5",
+    "label": "Solving Linear Inequalities"
+   },
+   "objectives": [
+    "Solve and combine inequalities"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-08-functions",
+   "chapter": "q2",
+   "title": "Functions",
+   "order": 8,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.6",
+    "label": "Functions"
+   },
+   "objectives": [
+    "Evaluate and interpret functions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-09-word-problems",
+   "chapter": "q2",
+   "title": "Translating word problems",
+   "order": 9,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.7",
+    "label": "Applications"
+   },
+   "objectives": [
+    "Set up equations from words"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-10-average-rate-work",
+   "chapter": "q2",
+   "title": "Average, rate and work problems",
+   "order": 10,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.7",
+    "label": "Applications"
+   },
+   "objectives": [
+    "Solve average, rate and work problems"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-11-mixtures",
+   "chapter": "q2",
+   "title": "Mixture problems",
+   "order": 11,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.7",
+    "label": "Applications"
+   },
+   "objectives": [
+    "Solve mixture problems"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-12-interest",
+   "chapter": "q2",
+   "title": "Simple and compound interest",
+   "order": 12,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.7",
+    "label": "Applications"
+   },
+   "objectives": [
+    "Compute simple and compound interest"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-13-coordinate-basics",
+   "chapter": "q2",
+   "title": "The coordinate plane and distance",
+   "order": 13,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.8",
+    "label": "Coordinate Geometry"
+   },
+   "objectives": [
+    "Plot points and find distance"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-14-lines",
+   "chapter": "q2",
+   "title": "Lines: slope and intercepts",
+   "order": 14,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.8",
+    "label": "Coordinate Geometry"
+   },
+   "objectives": [
+    "Find slope, intercepts and equations of lines"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-15-graphing-curves",
+   "chapter": "q2",
+   "title": "Graphing inequalities, quadratics and circles",
+   "order": 15,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.8",
+    "label": "Coordinate Geometry"
+   },
+   "objectives": [
+    "Graph inequalities, parabolas and circles"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-16-function-graphs",
+   "chapter": "q2",
+   "title": "Graphs of functions",
+   "order": 16,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.9",
+    "label": "Graphs of Functions"
+   },
+   "objectives": [
+    "Read and transform function graphs"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-01-lines-angles",
+   "chapter": "q3",
+   "title": "Lines and angles",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.1",
+    "label": "Lines and Angles"
+   },
+   "objectives": [
+    "Use parallel/perpendicular lines and angle relations"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-02-polygons",
+   "chapter": "q3",
+   "title": "Polygons",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.2",
+    "label": "Polygons"
+   },
+   "objectives": [
+    "Use polygon angle sums and perimeter"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-03-triangles-pythagoras",
+   "chapter": "q3",
+   "title": "Triangles and the Pythagorean theorem",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.3",
+    "label": "Triangles"
+   },
+   "objectives": [
+    "Classify triangles",
+    "Apply the Pythagorean theorem"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-04-special-triangles",
+   "chapter": "q3",
+   "title": "Special triangles and triangle area",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.3",
+    "label": "Triangles"
+   },
+   "objectives": [
+    "Use 45-45-90 and 30-60-90 triangles",
+    "Find areas"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-05-congruent-similar",
+   "chapter": "q3",
+   "title": "Congruent and similar triangles",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.3",
+    "label": "Triangles"
+   },
+   "objectives": [
+    "Use congruence and similarity"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-06-quadrilaterals",
+   "chapter": "q3",
+   "title": "Quadrilaterals",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.4",
+    "label": "Quadrilaterals"
+   },
+   "objectives": [
+    "Use properties and areas of quadrilaterals"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-07-circles-basics",
+   "chapter": "q3",
+   "title": "Circles: circumference, area, arcs, sectors",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.5",
+    "label": "Circles"
+   },
+   "objectives": [
+    "Compute circle measures"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-08-circles-lines",
+   "chapter": "q3",
+   "title": "Circles: chords, tangents and inscribed figures",
+   "order": 8,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.5",
+    "label": "Circles"
+   },
+   "objectives": [
+    "Apply circle theorems in the Math Review"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q3-09-solids",
+   "chapter": "q3",
+   "title": "Three-dimensional figures",
+   "order": 9,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "3.6",
+    "label": "Three-Dimensional Figures"
+   },
+   "objectives": [
+    "Compute volume and surface area"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-01-tables-bars",
+   "chapter": "q4",
+   "title": "Tables and bar graphs",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.1",
+    "label": "Methods for Presenting Data"
+   },
+   "objectives": [
+    "Read tables, bar and segmented bar graphs"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-02-graph-types",
+   "chapter": "q4",
+   "title": "Histograms, circle graphs, scatterplots, line graphs",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.1",
+    "label": "Methods for Presenting Data"
+   },
+   "objectives": [
+    "Read the other graph types"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-03-centre-spread-basic",
+   "chapter": "q4",
+   "title": "Mean, median, mode and range",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.2",
+    "label": "Numerical Methods for Describing Data"
+   },
+   "objectives": [
+    "Compute measures of centre and range"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-04-position",
+   "chapter": "q4",
+   "title": "Quartiles, percentiles and boxplots",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.2",
+    "label": "Numerical Methods for Describing Data"
+   },
+   "objectives": [
+    "Compute quartiles, IQR and read boxplots"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-05-std-dev",
+   "chapter": "q4",
+   "title": "Standard deviation",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.2",
+    "label": "Numerical Methods for Describing Data"
+   },
+   "objectives": [
+    "Compute and compare standard deviations"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-06-sets-venn",
+   "chapter": "q4",
+   "title": "Sets and Venn diagrams",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.3",
+    "label": "Counting Methods"
+   },
+   "objectives": [
+    "Count with sets and Venn diagrams"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-07-counting-principles",
+   "chapter": "q4",
+   "title": "Multiplication principle, permutations, combinations",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.3",
+    "label": "Counting Methods"
+   },
+   "objectives": [
+    "Count arrangements and selections"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-08-probability-basics",
+   "chapter": "q4",
+   "title": "Probability and compound events",
+   "order": 8,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.4",
+    "label": "Probability"
+   },
+   "objectives": [
+    "Compute probabilities of events and compounds"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-09-independent-conditional",
+   "chapter": "q4",
+   "title": "Independent events and conditional probability",
+   "order": 9,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.4",
+    "label": "Probability"
+   },
+   "objectives": [
+    "Use independence and conditional probability"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-10-random-variables",
+   "chapter": "q4",
+   "title": "Random variables and probability distributions",
+   "order": 10,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.5",
+    "label": "Distributions of Data, Random Variables, and Probability Distributions"
+   },
+   "objectives": [
+    "Work with random variables"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-11-normal",
+   "chapter": "q4",
+   "title": "The normal distribution",
+   "order": 11,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.5",
+    "label": "Distributions of Data, Random Variables, and Probability Distributions"
+   },
+   "objectives": [
+    "Use properties of the normal distribution"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q4-12-di-examples",
+   "chapter": "q4",
+   "title": "Data Interpretation examples",
+   "order": 12,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "4.6",
+    "label": "Data Interpretation Examples"
+   },
+   "objectives": [
+    "Solve multi-question data sets"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v0-01-overview",
+   "chapter": "v0",
+   "title": "What Verbal measures and its three types",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Overview of the Verbal Reasoning Measure",
+    "label": "Overview"
+   },
+   "objectives": [
+    "Name the three types and their balance"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v0-02-active-reading",
+   "chapter": "v0",
+   "title": "Reading actively",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 General advice",
+    "label": "General advice"
+   },
+   "objectives": [
+    "Read for structure, commitment and transitions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v1-01-structure",
+   "chapter": "v1",
+   "title": "Structure and scoring of Text Completion",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Text Completion \u2014 Question structure",
+    "label": "Text Completion"
+   },
+   "objectives": [
+    "Know blanks/choices counts and scoring"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v1-02-method",
+   "chapter": "v1",
+   "title": "The official method",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Text Completion \u2014 Tips for answering",
+    "label": "Text Completion"
+   },
+   "objectives": [
+    "Read, find signal words, predict, fill, check"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v1-03-signal-words",
+   "chapter": "v1",
+   "title": "Structure words and logic",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Text Completion \u2014 Tips for answering",
+    "label": "Text Completion"
+   },
+   "objectives": [
+    "Use contrast, support and cause words"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v1-04-multi-blank",
+   "chapter": "v1",
+   "title": "Two- and three-blank items",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Text Completion \u2014 Tips for answering",
+    "label": "Text Completion"
+   },
+   "objectives": [
+    "Start with the easiest blank; reconsider if stuck"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v1-05-coherence-check",
+   "chapter": "v1",
+   "title": "Checking the finished sentence",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Text Completion \u2014 Tips for answering",
+    "label": "Text Completion"
+   },
+   "objectives": [
+    "Verify logic, grammar and style"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v2-01-structure",
+   "chapter": "v2",
+   "title": "Structure and scoring of Sentence Equivalence",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Sentence Equivalence \u2014 Question structure",
+    "label": "Sentence Equivalence"
+   },
+   "objectives": [
+    "Pick two of six; no partial credit"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v2-02-same-meaning",
+   "chapter": "v2",
+   "title": "Same sentence meaning, not same dictionary entry",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Sentence Equivalence \u2014 Tips for answering",
+    "label": "Sentence Equivalence"
+   },
+   "objectives": [
+    "Avoid synonym-pair traps"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v2-03-method",
+   "chapter": "v2",
+   "title": "The official method",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Sentence Equivalence \u2014 Tips for answering",
+    "label": "Sentence Equivalence"
+   },
+   "objectives": [
+    "Predict, find two, check both sentences"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-01-formats",
+   "chapter": "v3",
+   "title": "The three RC formats",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Question types",
+    "label": "Question types"
+   },
+   "objectives": [
+    "Select one, select one or more, select-in-passage"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-02-main-idea",
+   "chapter": "v3",
+   "title": "Main idea and summary",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Introduction",
+    "label": "Introduction"
+   },
+   "objectives": [
+    "Summarise a passage",
+    "Tell main ideas from support"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-03-major-minor",
+   "chapter": "v3",
+   "title": "Major and minor points; reported vs. advanced ideas",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 General advice",
+    "label": "General advice"
+   },
+   "objectives": [
+    "Distinguish strong commitment from speculation"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-04-meaning-in-context",
+   "chapter": "v3",
+   "title": "Words and sentences in context",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Introduction",
+    "label": "Introduction"
+   },
+   "objectives": [
+    "Choose the meaning used in this passage"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-05-inference",
+   "chapter": "v3",
+   "title": "Inference and incomplete data",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Introduction",
+    "label": "Introduction"
+   },
+   "objectives": [
+    "Draw conclusions the passage supports"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-06-structure",
+   "chapter": "v3",
+   "title": "Structure and transitions",
+   "order": 6,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 General advice",
+    "label": "General advice"
+   },
+   "objectives": [
+    "Identify transitions and how ideas relate"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-07-assumptions-perspective",
+   "chapter": "v3",
+   "title": "Assumptions and perspective",
+   "order": 7,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Introduction",
+    "label": "Introduction"
+   },
+   "objectives": [
+    "Identify author assumptions and perspective"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v3-08-evaluate-arguments",
+   "chapter": "v3",
+   "title": "Strengths, weaknesses and alternative explanations",
+   "order": 8,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Reading Comprehension \u2014 Introduction",
+    "label": "Introduction"
+   },
+   "objectives": [
+    "Evaluate a position and consider alternatives"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "v4-01-words-in-context",
+   "chapter": "v4",
+   "title": "Learning words through context",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-verbal-overview",
+    "section": "Overview of the Verbal Reasoning Measure",
+    "label": "Understand relationships among words and concepts"
+   },
+   "objectives": [
+    "Use series and flashcards to support TC/SE"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "w1-01-the-task",
+   "chapter": "w1",
+   "title": "The Issue task and its instruction sets",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-aw-issue",
+    "section": "Task instruction sets",
+    "label": "Task instruction sets"
+   },
+   "objectives": [
+    "Read the six instruction sets and obey the one you get"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "w1-02-planning",
+   "chapter": "w1",
+   "title": "Planning your response",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-aw-issue",
+    "section": "Plan your response",
+    "label": "Plan your response"
+   },
+   "objectives": [
+    "Use the official planning questions"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "w1-03-developing",
+   "chapter": "w1",
+   "title": "Developing and organising the essay",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-aw-issue",
+    "section": "Tips for the Issue task",
+    "label": "Tips for the Issue task"
+   },
+   "objectives": [
+    "Support a position with reasons and examples"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "w1-04-scoring",
+   "chapter": "w1",
+   "title": "How the essay is scored",
+   "order": 4,
+   "officialRef": {
+    "source": "ets-aw-scoring",
+    "section": "Scoring guide",
+    "label": "Scoring guide"
+   },
+   "objectives": [
+    "Know what 0\u20136 mean"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "w1-05-timing-editor",
+   "chapter": "w1",
+   "title": "Timing and the ETS word processor",
+   "order": 5,
+   "officialRef": {
+    "source": "ets-aw-overview",
+    "section": "Overview of the Analytical Writing Measure",
+    "label": "Word processor and timing"
+   },
+   "objectives": [
+    "Budget 30 minutes; know the editor has no spellcheck"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "t1-01-structure",
+   "chapter": "t1",
+   "title": "Test structure and timing",
+   "order": 1,
+   "officialRef": {
+    "source": "ets-test-structure",
+    "section": "Test sections and timing",
+    "label": "Test structure"
+   },
+   "objectives": [
+    "Know the five sections and their times"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "t1-02-adaptation",
+   "chapter": "t1",
+   "title": "Section-level adaptation",
+   "order": 2,
+   "officialRef": {
+    "source": "ets-test-structure",
+    "section": "Section-level adaptation",
+    "label": "Section-level adaptation"
+   },
+   "objectives": [
+    "Understand how section 2 is chosen"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "t1-03-navigation",
+   "chapter": "t1",
+   "title": "Mark, Review and navigation",
+   "order": 3,
+   "officialRef": {
+    "source": "ets-test-structure",
+    "section": "Test design features",
+    "label": "Test design features"
+   },
+   "objectives": [
+    "Use Mark, Review and edit answers"
+   ],
+   "estMinutes": 6
+  }
+ ]
+}

@@ -1,0 +1,1490 @@
+[
+ {
+  "id": "v2-01-structure-01",
+  "lessonId": "v2-01-structure",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"months\" of waiting and \"finally\". A long wait ends in strong relief, so any word meaning *very great* works, and *immense* and *enormous* give the same sentence.",
+  "choiceExplanations": {
+   "B": "Months of drought point to strong relief, not a faint one.",
+   "C": "Relief cannot be hostile; the word is about the wrong kind of feeling.",
+   "D": "Means worn out by experience; it does not describe relief at all.",
+   "A": "Means severe, and describes a person's manner, not a feeling of relief."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Having waited months for rain, the farmers felt {{1}} relief when the storm finally broke.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "stern"
+    },
+    {
+     "id": "B",
+     "text": "slight"
+    },
+    {
+     "id": "C",
+     "text": "hostile"
+    },
+    {
+     "id": "D",
+     "text": "jaded"
+    },
+    {
+     "id": "E",
+     "text": "enormous"
+    },
+    {
+     "id": "F",
+     "text": "immense"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "F",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-02",
+  "lessonId": "v2-01-structure",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** finishing early and then helping others shows hard work. *Diligent* and *industrious* both mean hardworking and give the same sentence.",
+  "choiceExplanations": {
+   "C": "Means sluggish, the opposite of finishing early.",
+   "F": "Means careless of consequences; nothing in the sentence suggests carelessness.",
+   "B": "Means distant, but she offers to help, which is the opposite of distant.",
+   "D": "Means disrespectfully casual; the clue is about effort, not attitude."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The new employee was so {{1}} that she finished the whole report before lunch and then offered to help her colleagues.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "diligent"
+    },
+    {
+     "id": "B",
+     "text": "aloof"
+    },
+    {
+     "id": "C",
+     "text": "lethargic"
+    },
+    {
+     "id": "D",
+     "text": "flippant"
+    },
+    {
+     "id": "E",
+     "text": "industrious"
+    },
+    {
+     "id": "F",
+     "text": "reckless"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-03",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* sets up a contrast with \"lighthearted comedy\", and \"surprisingly\" confirms it. The second half must be serious: *somber* and *grim*.",
+  "choiceExplanations": {
+   "F": "Repeats the comedy idea; *although* demands a contrast.",
+   "A": "Means wordy, which does not contrast with lighthearted.",
+   "D": "Means elaborately decorated; it does not oppose a light tone.",
+   "C": "Means lukewarm; it is not the opposite of lighthearted."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the film was marketed as a lighthearted comedy, critics found its second half surprisingly {{1}}.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "verbose"
+    },
+    {
+     "id": "B",
+     "text": "grim"
+    },
+    {
+     "id": "C",
+     "text": "tepid"
+    },
+    {
+     "id": "D",
+     "text": "ornate"
+    },
+    {
+     "id": "E",
+     "text": "somber"
+    },
+    {
+     "id": "F",
+     "text": "hilarious"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-04",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Despite* contrasts great age with the pages' condition, and *because* ... sealed vault explains it: the pages stayed in perfect condition. *Pristine* and *unblemished*.",
+  "choiceExplanations": {
+   "A": "Age would explain tattered pages; *despite* needs the opposite.",
+   "C": "Fading is what age and light cause, so it contradicts *despite*.",
+   "F": "Unreadable pages would be expected after six centuries, not surprising.",
+   "B": "Also an expected effect of age; it does not contrast with *more than six centuries old*."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the manuscript had been kept in a sealed vault, its pages were remarkably {{1}} despite being more than six centuries old.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tattered"
+    },
+    {
+     "id": "B",
+     "text": "brittle"
+    },
+    {
+     "id": "C",
+     "text": "faded"
+    },
+    {
+     "id": "D",
+     "text": "pristine"
+    },
+    {
+     "id": "E",
+     "text": "unblemished"
+    },
+    {
+     "id": "F",
+     "text": "illegible"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-05",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"a few sentences\" versus \"an hour\". The remarks packed a lot into little space: *concise* and *succinct*.",
+  "choiceExplanations": {
+   "A": "Means wordy, the opposite of the clue and not something to admire.",
+   "E": "Means hesitant; the clue is about length, not confidence.",
+   "B": "Means mocking; nothing in the sentence concerns tone of that kind.",
+   "F": "Means full of strong feeling; the clue concerns brevity."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her remarks were admirably {{1}}, conveying in a few sentences what other speakers needed an hour to say.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "verbose"
+    },
+    {
+     "id": "B",
+     "text": "sarcastic"
+    },
+    {
+     "id": "C",
+     "text": "succinct"
+    },
+    {
+     "id": "D",
+     "text": "concise"
+    },
+    {
+     "id": "E",
+     "text": "tentative"
+    },
+    {
+     "id": "F",
+     "text": "impassioned"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-06",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"neither praising nor criticizing\" describes a lack of strong feeling. *Indifferent* and *apathetic* both mean unmoved.",
+  "choiceExplanations": {
+   "B": "Would mean praising them, which the sentence rules out.",
+   "C": "Would mean criticizing them.",
+   "A": "Implies praise or thanks.",
+   "F": "Implies doubt, which usually leads to criticism; it is not neutrality."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "A recent survey found that residents were largely {{1}} about the new bus routes, neither praising nor criticizing them.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "grateful"
+    },
+    {
+     "id": "B",
+     "text": "enthusiastic"
+    },
+    {
+     "id": "C",
+     "text": "furious"
+    },
+    {
+     "id": "D",
+     "text": "indifferent"
+    },
+    {
+     "id": "E",
+     "text": "apathetic"
+    },
+    {
+     "id": "F",
+     "text": "skeptical"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-07",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** refusing to bend *even when allies urged flexibility* describes stubbornness. *Obdurate* and *intransigent* both mean unyielding.",
+  "choiceExplanations": {
+   "D": "Means friendly; a friendly refusal would not cost her allies' support.",
+   "B": "Means unsure, but she refused outright.",
+   "C": "Means done carelessly or as a formality; it does not convey stubbornness.",
+   "F": "Tactful refusals do not alienate allies."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The senator's {{1}} refusal to compromise, even when allies urged flexibility, ultimately cost her the support of her own party.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "intransigent"
+    },
+    {
+     "id": "B",
+     "text": "hesitant"
+    },
+    {
+     "id": "C",
+     "text": "perfunctory"
+    },
+    {
+     "id": "D",
+     "text": "amiable"
+    },
+    {
+     "id": "E",
+     "text": "obdurate"
+    },
+    {
+     "id": "F",
+     "text": "tactful"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-08",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"existing more in the rhetoric ... than in any measurable result\". The benefits are unreal: *illusory* and *chimerical*.",
+  "choiceExplanations": {
+   "C": "Means real and sizable, contradicting the clue.",
+   "A": "Concerns timing, not whether benefits exist.",
+   "F": "Describes a policy that makes things worse; the clue says the benefits are only talked about.",
+   "E": "Means not predicted; the clue is about whether they exist."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Critics of the policy argued that its benefits were largely {{1}}, existing more in the rhetoric of its sponsors than in any measurable result.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "immediate"
+    },
+    {
+     "id": "B",
+     "text": "chimerical"
+    },
+    {
+     "id": "C",
+     "text": "substantial"
+    },
+    {
+     "id": "D",
+     "text": "illusory"
+    },
+    {
+     "id": "E",
+     "text": "unforeseen"
+    },
+    {
+     "id": "F",
+     "text": "regressive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-09",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** \"less a record of fact\" and \"embellished\" show a self-flattering story. *Glorification* and *aggrandizement* both mean making oneself seem greater.",
+  "choiceExplanations": {
+   "D": "Means a critical assessment; the explorer praises himself.",
+   "B": "A list of items would be a record of fact, which the sentence says it is *not*.",
+   "C": "Means a shortened version; embellishment adds rather than cuts.",
+   "F": "A diary is a factual record, again what the sentence denies."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The explorer's account of the journey was less a record of fact than a {{1}} of his own heroism, embellished at every turn.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "glorification"
+    },
+    {
+     "id": "B",
+     "text": "inventory"
+    },
+    {
+     "id": "C",
+     "text": "abridgment"
+    },
+    {
+     "id": "D",
+     "text": "critique"
+    },
+    {
+     "id": "E",
+     "text": "aggrandizement"
+    },
+    {
+     "id": "F",
+     "text": "diary"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-10",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Far from being* X means the opposite of X is true. She is fiercely active, so X means inactive: *passive* and *quiescent*.",
+  "choiceExplanations": {
+   "E": "Means persistent, which agrees with ambitious; *far from* needs the opposite.",
+   "F": "Means orderly; reorganizing departments is compatible with that.",
+   "C": "Means vengeful; unrelated to the contrast between ambition and inactivity.",
+   "B": "Means domineering; it fits an ambitious person rather than opposing one."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Far from being {{1}}, the new director proved fiercely ambitious, reorganizing three departments within her first month.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "quiescent"
+    },
+    {
+     "id": "B",
+     "text": "imperious"
+    },
+    {
+     "id": "C",
+     "text": "vindictive"
+    },
+    {
+     "id": "D",
+     "text": "passive"
+    },
+    {
+     "id": "E",
+     "text": "dogged"
+    },
+    {
+     "id": "F",
+     "text": "methodical"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-11",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* opposes the praise, and \"resting on assumptions that the evidence did not support\" explains the dissent: the argument is weakly founded. *Tenuous* and *flimsy*.",
+  "choiceExplanations": {
+   "D": "Means conventional; it says nothing about weak support.",
+   "E": "Means impossible to refute, the opposite of the dissenter's view.",
+   "B": "Means sharp and effective, also praise.",
+   "C": "Means long-winded; the clue is about weak assumptions, not length."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the committee's report was widely praised for its rigor, the author of the minority dissent found its central argument {{1}}, resting on assumptions that the evidence did not support.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "flimsy"
+    },
+    {
+     "id": "B",
+     "text": "trenchant"
+    },
+    {
+     "id": "C",
+     "text": "prolix"
+    },
+    {
+     "id": "D",
+     "text": "orthodox"
+    },
+    {
+     "id": "E",
+     "text": "irrefutable"
+    },
+    {
+     "id": "F",
+     "text": "tenuous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "F",
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-12",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** publishing damaging results under pressure shows moral honesty. *Probity* and *integrity* both name it.",
+  "choiceExplanations": {
+   "C": "Means deceit, the opposite of publishing inconvenient truths.",
+   "D": "Means doing what is convenient; she did the inconvenient thing.",
+   "F": "Means showiness; the clue is about honesty, not style.",
+   "B": "Someone who resists pressure is not timid."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The economist's reputation for {{1}} was well earned: she published findings unfavorable to her own institution despite pressure to suppress them.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "probity"
+    },
+    {
+     "id": "B",
+     "text": "timidity"
+    },
+    {
+     "id": "C",
+     "text": "duplicity"
+    },
+    {
+     "id": "D",
+     "text": "expediency"
+    },
+    {
+     "id": "E",
+     "text": "integrity"
+    },
+    {
+     "id": "F",
+     "text": "flamboyance"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-13",
+  "lessonId": "v2-01-structure",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *every bed ... thick with blossoms*. *Lush* and *luxuriant* both say the plants grew abundantly, so the two sentences match.",
+  "choiceExplanations": {
+   "A": "Would mean nothing grows.",
+   "C": "Crowding does not explain blossoms in every bed.",
+   "D": "A layout word; it does not explain the abundance.",
+   "F": "Shade does not account for beds thick with blossoms."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The garden was so {{1}} that every bed was thick with blossoms by midsummer.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "barren"
+    },
+    {
+     "id": "B",
+     "text": "lush"
+    },
+    {
+     "id": "C",
+     "text": "cramped"
+    },
+    {
+     "id": "D",
+     "text": "formal"
+    },
+    {
+     "id": "E",
+     "text": "luxuriant"
+    },
+    {
+     "id": "F",
+     "text": "shaded"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-14",
+  "lessonId": "v2-01-structure",
+  "difficulty": 1,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *still carrying heavy carts after nine hundred years* shows strength. *Robust* and *sturdy* give the same sentence. *Venerable* fits grammatically but says the bridge is old and respected, which is a different claim with no partner.",
+  "choiceExplanations": {
+   "A": "A fragile bridge would not still carry heavy carts.",
+   "B": "Says nothing about strength.",
+   "D": "Fits the blank but means old and respected; no second word shares that meaning, so it earns nothing.",
+   "E": "Out of use, which contradicts *still carrying heavy carts*."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The ancient bridge was remarkably {{1}}, still carrying heavy carts after nine hundred years.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "fragile"
+    },
+    {
+     "id": "B",
+     "text": "deserted"
+    },
+    {
+     "id": "C",
+     "text": "robust"
+    },
+    {
+     "id": "D",
+     "text": "venerable"
+    },
+    {
+     "id": "E",
+     "text": "obsolete"
+    },
+    {
+     "id": "F",
+     "text": "sturdy"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-15",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Signal:** *Although* ... *sharp-tongued* means her public manner is the opposite, friendly. *Genial* and *affable* both mean pleasant.",
+  "choiceExplanations": {
+   "A": "Sharp, like *sharp-tongued*, so *although* would have nothing to contrast.",
+   "C": "Gloomy, which has no contrast with sharp-tongued.",
+   "D": "Self-regard is not the opposite of sharp-tongued.",
+   "F": "Talkativeness does not contrast with sharp-tongued."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the senator is known for her {{1}} manner in public, in private she can be sharp-tongued.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "acerbic"
+    },
+    {
+     "id": "B",
+     "text": "genial"
+    },
+    {
+     "id": "C",
+     "text": "dour"
+    },
+    {
+     "id": "D",
+     "text": "vain"
+    },
+    {
+     "id": "E",
+     "text": "affable"
+    },
+    {
+     "id": "F",
+     "text": "garrulous"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-16",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *omitted every flaw* and *hagiography* mean the portrait was all praise. *Laudatory* and *adulatory* both mean full of admiration.",
+  "choiceExplanations": {
+   "A": "A candid portrait would include flaws.",
+   "C": "Condemning, the opposite of hagiography.",
+   "D": "Careful, but a portrait that omits every flaw is not careful.",
+   "E": "Ironic humor, not praise."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The memoir's {{1}} portrait of the author's father, which omitted every flaw, struck reviewers as more hagiography than biography.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "candid"
+    },
+    {
+     "id": "B",
+     "text": "laudatory"
+    },
+    {
+     "id": "C",
+     "text": "damning"
+    },
+    {
+     "id": "D",
+     "text": "meticulous"
+    },
+    {
+     "id": "E",
+     "text": "wry"
+    },
+    {
+     "id": "F",
+     "text": "adulatory"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-17",
+  "lessonId": "v2-01-structure",
+  "difficulty": 2,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *offering a long reply that never addressed it* is a way of dodging. *Evaded* and *sidestepped* both mean dodged.",
+  "choiceExplanations": {
+   "A": "The reply never addressed the question.",
+   "B": "He did not welcome a question he deflected; this does not fit *Rather than defend*.",
+   "D": "Nothing suggests enjoyment.",
+   "E": "Does not match *never addressed it*."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw4",
+    "solver-bw4"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Rather than defend the policy, the spokesman {{1}} the question, offering a long reply that never addressed it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "answered"
+    },
+    {
+     "id": "B",
+     "text": "welcomed"
+    },
+    {
+     "id": "C",
+     "text": "evaded"
+    },
+    {
+     "id": "D",
+     "text": "relished"
+    },
+    {
+     "id": "E",
+     "text": "endorsed"
+    },
+    {
+     "id": "F",
+     "text": "sidestepped"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-18",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** identical essays getting *wildly different marks* means grading by whim. *Capricious* and *arbitrary* both mean unpredictable and unprincipled.",
+  "choiceExplanations": {
+   "A": "A rigorous policy would give identical essays the same mark.",
+   "C": "A clear policy would not bewilder students.",
+   "D": "Leniency does not explain different marks for identical essays.",
+   "F": "Timeliness is not the issue."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The professor's {{1}} grading policy, in which identical essays received wildly different marks, left her students bewildered.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "rigorous"
+    },
+    {
+     "id": "B",
+     "text": "capricious"
+    },
+    {
+     "id": "C",
+     "text": "transparent"
+    },
+    {
+     "id": "D",
+     "text": "lenient"
+    },
+    {
+     "id": "E",
+     "text": "arbitrary"
+    },
+    {
+     "id": "F",
+     "text": "punctual"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-19",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Cause clue:** *so ... that historians cannot agree* means the sources disagree. *Conflicting* and *contradictory* give the same sentence. *Sparse* also fits, but it says the sources are few, which is not what the other two say, and it has no partner.",
+  "choiceExplanations": {
+   "A": "Agreeing sources would allow agreement.",
+   "C": "Vividness does not stop historians agreeing on a date.",
+   "D": "Fits the blank but means *scarce*, a different claim with no partner.",
+   "E": "A literary quality that does not prevent agreement."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Ancient accounts of the battle are so {{1}} that historians cannot agree on even its date.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unanimous"
+    },
+    {
+     "id": "B",
+     "text": "conflicting"
+    },
+    {
+     "id": "C",
+     "text": "vivid"
+    },
+    {
+     "id": "D",
+     "text": "sparse"
+    },
+    {
+     "id": "E",
+     "text": "lyrical"
+    },
+    {
+     "id": "F",
+     "text": "contradictory"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-20",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *likely to vanish as soon as subsidies ended* means short-lived. *Fleeting* and *transient* both mean temporary.",
+  "choiceExplanations": {
+   "A": "Would mean it lasts, the opposite of vanishing.",
+   "C": "A genuine recovery would not depend on subsidies; it also does not mean short-lived.",
+   "D": "Means late, not short-lived.",
+   "E": "Concerns the time of year, not how long it lasts."
+  },
+  "estSeconds": 65,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The economist warned that the apparent recovery was {{1}}, likely to vanish as soon as government subsidies ended.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "durable"
+    },
+    {
+     "id": "B",
+     "text": "fleeting"
+    },
+    {
+     "id": "C",
+     "text": "genuine"
+    },
+    {
+     "id": "D",
+     "text": "belated"
+    },
+    {
+     "id": "E",
+     "text": "unseasonal"
+    },
+    {
+     "id": "F",
+     "text": "transient"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-21",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *transformed the borrowed forms* tells what the scholars overlook: the scholars dismissed the work as *derivative* or *imitative*, both meaning copied from others.",
+  "choiceExplanations": {
+   "A": "Praise, which would not be a dismissal and would not need *overlook*.",
+   "C": "Hard to understand; it does not connect with borrowed forms.",
+   "D": "Productivity does not relate to borrowing.",
+   "E": "A mood, not a charge of copying."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Scholars who dismiss the poet's early work as merely {{1}} overlook how thoroughly she transformed the borrowed forms she used.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "innovative"
+    },
+    {
+     "id": "B",
+     "text": "derivative"
+    },
+    {
+     "id": "C",
+     "text": "obscure"
+    },
+    {
+     "id": "D",
+     "text": "prolific"
+    },
+    {
+     "id": "E",
+     "text": "melancholy"
+    },
+    {
+     "id": "F",
+     "text": "imitative"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-22",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** waiting out a silence and never rushing to fill it shows restraint over time. *Patience* and *forbearance* both capture that.",
+  "choiceExplanations": {
+   "A": "Talkativeness, the opposite of waiting silently.",
+   "C": "Rushing to act, the opposite.",
+   "D": "Boldness is not shown by waiting.",
+   "E": "Frankness is not what the silence shows."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The negotiator was noted for her {{1}}: she would wait out any silence without speaking and never rushed to fill the gap.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "garrulity"
+    },
+    {
+     "id": "B",
+     "text": "patience"
+    },
+    {
+     "id": "C",
+     "text": "impulsiveness"
+    },
+    {
+     "id": "D",
+     "text": "audacity"
+    },
+    {
+     "id": "E",
+     "text": "candor"
+    },
+    {
+     "id": "F",
+     "text": "forbearance"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-23",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *what they omitted* means the statements held information back. *Guarded* and *reticent* both mean reserved and withholding.",
+  "choiceExplanations": {
+   "A": "Statements meant to provoke do not hide what they omit.",
+   "C": "Gushing statements do not omit things.",
+   "D": "A candid statement would not need to be read for omissions.",
+   "F": "Humor does not explain omissions."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Though the minister's public statements were studiously {{1}}, a reader attentive to what they omitted could infer that policy had already shifted.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "provocative"
+    },
+    {
+     "id": "B",
+     "text": "guarded"
+    },
+    {
+     "id": "C",
+     "text": "effusive"
+    },
+    {
+     "id": "D",
+     "text": "candid"
+    },
+    {
+     "id": "E",
+     "text": "reticent"
+    },
+    {
+     "id": "F",
+     "text": "jocular"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-24",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** *not timidity but ___, since the evidence could not yet support* ... justifies her silence as wise caution: *prudence* and *restraint*. *Diffidence* is a synonym of *timidity*, which the sentence rules out.",
+  "choiceExplanations": {
+   "A": "Showy boldness, the opposite of caution.",
+   "C": "Dodging, which the *since* clause does not support: she had a good reason to wait.",
+   "D": "Laziness is not justified by thin evidence.",
+   "F": "Shyness, a synonym of the *timidity* the sentence denies."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-aw",
+    "solver-bw"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Her reluctance to name a cause was not timidity but {{1}}, since the evidence could not yet support any single explanation.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "bravado"
+    },
+    {
+     "id": "B",
+     "text": "prudence"
+    },
+    {
+     "id": "C",
+     "text": "evasion"
+    },
+    {
+     "id": "D",
+     "text": "indolence"
+    },
+    {
+     "id": "E",
+     "text": "restraint"
+    },
+    {
+     "id": "F",
+     "text": "diffidence"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ }
+]

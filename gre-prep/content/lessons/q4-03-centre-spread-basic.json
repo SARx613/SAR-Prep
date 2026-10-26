@@ -1,0 +1,82 @@
+{
+ "id": "q4-03-centre-spread-basic",
+ "status": "published",
+ "why": "Mean, median, mode and range appear in Quantitative Comparison, Problem Solving and data sets, often with a missing value or an outlier to reason about.",
+ "rule": "- **Mean** $=$ sum $\\div$ number of values, so sum $=$ mean $\\times$ count. For repeated values use a weighted mean: add (value $\\times$ frequency) and divide by the total frequency.\n- **Median**: order the list; take the middle value, or the average of the two middle values when the count is even. In a frequency table, add up the frequencies in order to find which value sits in the middle position.\n- **Mode**: the most frequent value (a list can have several).\n- **Range** $=$ greatest $-$ least.\n\nAn outlier (a value far from the rest) pulls the mean and the range, but barely moves the median.",
+ "examples": [
+  {
+   "prompt": "For the list 12, 4, 9, 4, 6, find the mean, median, mode and range. Then replace 12 by 40 and find the new mean and median.",
+   "steps": [
+    "Sum $= 35$, so mean $= \\frac{35}{5} = 7$. Ordered: 4, 4, 6, 9, 12, so median $= 6$, mode $= 4$, range $= 12 - 4 = 8$.",
+    "New sum $= 35 - 12 + 40 = 63$, so new mean $= 12.6$.",
+    "Ordered: 4, 4, 6, 9, 40; the median is still 6."
+   ],
+   "answer": "Mean 7, median 6, mode 4, range 8; after the change, mean 12.6 and median 6"
+  },
+  {
+   "prompt": "10 students have a mean score of 80 and 30 students have a mean score of 60. What is the mean score of all 40 students?",
+   "steps": [
+    "Total points: $10 \\times 80 + 30 \\times 60 = 800 + 1800 = 2600$.",
+    "Mean $= \\frac{2600}{40} = 65$."
+   ],
+   "answer": "65"
+  }
+ ],
+ "trap": "Sort before taking a median: in 9, 2, 7 the median is 7, not 2. And do not average two group means unless the groups are the same size; weight each mean by its group size (above, 65 and not 70).",
+ "checks": [
+  {
+   "id": "q4-03-centre-spread-basic-c1",
+   "lessonId": "q4-03-centre-spread-basic",
+   "difficulty": 1,
+   "stem": "What is the median of the numbers 8, 3, 10, 5, 6 and 4?",
+   "explanation": "Order them: 3, 4, 5, 6, 8, 10. There are six values, so the median is the average of the middle two: $\\frac{5 + 6}{2} = 5.5$.",
+   "estSeconds": 60,
+   "skills": [
+    "median"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 5.5
+   }
+  },
+  {
+   "id": "q4-03-centre-spread-basic-c2",
+   "lessonId": "q4-03-centre-spread-basic",
+   "difficulty": 2,
+   "stem": "The mean of four numbers is 9. Three of the numbers are 4, 10 and 12. What is the fourth number?",
+   "explanation": "The sum is $4 \\times 9 = 36$. The known numbers add to 26, so the fourth is $36 - 26 = 10$.",
+   "estSeconds": 60,
+   "skills": [
+    "mean"
+   ],
+   "review": {
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 10
+   }
+  }
+ ]
+}
