@@ -2,7 +2,7 @@
  "id": "q1-13-percent-change",
  "status": "published",
  "why": "Percent increase, decrease and successive changes are staples of word problems and QC items, and ETS tests the base of the percent.",
- "rule": "**Percent change** $=\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\cdot100\\%$. The base is always the **initial** amount: from 40 to 50 is a $25\\%$ increase, but from 50 to 40 is a $20\\%$ decrease.\n\nA change of $p\\%$ multiplies by $1+\\frac{p}{100}$ (increase) or $1-\\frac{p}{100}$ (decrease): $+15\\%$ is $\\times1.15$ and $-15\\%$ is $\\times0.85$.\n\n**Successive changes** multiply their factors, each change applying to the new base.",
+ "rule": "**Percent change** $=\\dfrac{\\text{new}-\\text{old}}{\\text{old}}\\cdot100\\%$. The base is always the **initial** amount: from 40 to 50 is a $25\\%$ increase, but from 50 to 40 is a $20\\%$ decrease.\n\nA change of $p\\%$ multiplies by $1+\\frac{p}{100}$ (increase) or $1-\\frac{p}{100}$ (decrease): $+15\\%$ is $\\times1.15$ and $-15\\%$ is $\\times0.85$.\n\n\"$x$ is $p\\%$ more (less) than $y$\" means $x = y\\left(1\\pm\\frac{p}{100}\\right)$: the base is the number after \"than\".\n\n**Successive changes** multiply their factors, each change applying to the new base.",
  "examples": [
   {
    "prompt": "A price rises from 80 to 92. What is the percent increase?",
