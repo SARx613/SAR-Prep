@@ -966,53 +966,59 @@
  {
   "id": "v1-04-multi-blank-13",
   "lessonId": "v1-04-multi-blank",
-  "difficulty": 1,
-  "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Clue first:** *since their tents had leaked all night* explains the feeling when the rain ends: *relieved*.",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *a night in their leaking tents* fixes the condition: *soaked*. Then blank 2: after a wet night, the end of the rain brings *relief*.",
   "choiceExplanations": {
-   "A": "The rain stopping is no reason for fury.",
-   "B": "Leaking tents and a night of rain do not lead to boredom at its end.",
-   "C": "Nothing is puzzling.",
-   "D": "Describes behavior, not a reaction to the rain stopping."
+   "1B": "Leaking tents and a night of rain do not leave anyone rested.",
+   "1C": "Rain, not sun, is the setting.",
+   "2B": "Nobody is dismayed when a miserable night of rain ends.",
+   "2C": "Nothing in the sentence makes the end of the rain amusing."
   },
-  "estSeconds": 60,
+  "estSeconds": 90,
   "skills": [
    "text-completion"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "The campers were {{1}} when the rain finally stopped, since their tents had leaked all night.",
+   "text": "The campers, {{1}} after a night in their leaking tents, were {{2}} when the rain finally stopped.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
-       "id": "A",
-       "text": "furious"
+       "id": "1A",
+       "text": "soaked"
       },
       {
-       "id": "B",
-       "text": "sullen"
+       "id": "1B",
+       "text": "rested"
       },
       {
-       "id": "C",
-       "text": "puzzled"
-      },
+       "id": "1C",
+       "text": "sunburned"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
       {
-       "id": "D",
-       "text": "careless"
-      },
-      {
-       "id": "E",
+       "id": "2A",
        "text": "relieved"
+      },
+      {
+       "id": "2B",
+       "text": "dismayed"
+      },
+      {
+       "id": "2C",
+       "text": "amused"
       }
      ]
     }
@@ -1020,60 +1026,67 @@
   },
   "answer": {
    "blanks": [
-    "E"
+    "1A",
+    "2A"
    ]
   }
  },
  {
   "id": "v1-04-multi-blank-14",
   "lessonId": "v1-04-multi-blank",
-  "difficulty": 1,
-  "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Clue first:** sleeping through three loud events shows a dog with little energy or alertness: *lethargic*.",
+  "difficulty": 2,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** sleeping through three loud events shows a dog with little energy: *lethargic*. *Yet* then reverses it: a rustling wrapper makes him suddenly *alert*.",
   "choiceExplanations": {
-   "A": "A vigilant dog would wake at the doorbell.",
-   "B": "A restless dog would not sleep through noise.",
-   "D": "A protective dog would respond to the doorbell.",
-   "E": "Hunger is not the clue."
+   "1A": "A vigilant dog would not sleep through the noise.",
+   "1B": "A restless dog would not sleep through the noise.",
+   "2A": "*Yet* signals a change, not more of the same.",
+   "2C": "Nothing in the sentence suggests fear."
   },
-  "estSeconds": 60,
+  "estSeconds": 90,
   "skills": [
    "text-completion"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "The old dog was so {{1}} that he slept through the doorbell, the thunder and the children's shouting.",
+   "text": "The old dog was so {{1}} that he slept through the doorbell, the thunder and the children's shouting, yet he became suddenly {{2}} the moment a biscuit wrapper rustled.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
-       "id": "A",
+       "id": "1A",
        "text": "vigilant"
       },
       {
-       "id": "B",
+       "id": "1B",
        "text": "restless"
       },
       {
-       "id": "C",
+       "id": "1C",
        "text": "lethargic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "indifferent"
       },
       {
-       "id": "D",
-       "text": "protective"
+       "id": "2B",
+       "text": "alert"
       },
       {
-       "id": "E",
-       "text": "ravenous"
+       "id": "2C",
+       "text": "frightened"
       }
      ]
     }
@@ -1081,7 +1094,8 @@
   },
   "answer": {
    "blanks": [
-    "C"
+    "1C",
+    "2B"
    ]
   }
  },
@@ -1089,52 +1103,58 @@
   "id": "v1-04-multi-blank-15",
   "lessonId": "v1-04-multi-blank",
   "difficulty": 2,
-  "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Dependency:** *Though* contrasts appearance with taste. The garnish and arrangement make it look good, and *tasted of almost nothing* is the letdown: *elegant*.",
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Dependency:** *Though* contrasts appearance with taste. The garnish and arrangement make the dish look *elegant*, and *disappointingly* needs a negative flavor word: *bland*.",
   "choiceExplanations": {
-   "A": "Describes taste or freshness, not how it looked, and the clue is *bright garnish*.",
-   "B": "*Bright garnish and careful arrangement* do not suggest grease.",
-   "C": "Careful arrangement is not burnt.",
-   "D": "*Though* needs a good look to contrast with the bland taste."
+   "1A": "Bright garnish and careful arrangement do not describe stale food.",
+   "1C": "Burnt food would not be described by its careful arrangement.",
+   "2B": "*Savory* is a positive flavor and cannot be a disappointment.",
+   "2C": "*Hearty* is a positive flavor and cannot be a disappointment."
   },
-  "estSeconds": 60,
+  "estSeconds": 90,
   "skills": [
    "text-completion"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "Though the dish looked {{1}}, with its bright garnish and careful arrangement, it tasted of almost nothing.",
+   "text": "Though the dish looked {{1}}, with its bright garnish and careful arrangement, it was disappointingly {{2}} in flavor.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
-       "id": "A",
+       "id": "1A",
        "text": "stale"
       },
       {
-       "id": "B",
-       "text": "greasy"
-      },
-      {
-       "id": "C",
-       "text": "burnt"
-      },
-      {
-       "id": "D",
-       "text": "unappealing"
-      },
-      {
-       "id": "E",
+       "id": "1B",
        "text": "elegant"
+      },
+      {
+       "id": "1C",
+       "text": "burnt"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "bland"
+      },
+      {
+       "id": "2B",
+       "text": "savory"
+      },
+      {
+       "id": "2C",
+       "text": "hearty"
       }
      ]
     }
@@ -1142,7 +1162,8 @@
   },
   "answer": {
    "blanks": [
-    "E"
+    "1B",
+    "2A"
    ]
   }
  },
@@ -1292,52 +1313,58 @@
   "id": "v1-04-multi-blank-18",
   "lessonId": "v1-04-multi-blank",
   "difficulty": 3,
-  "stem": "Select one entry from the choices that best completes the text.",
-  "explanation": "**Dependency:** *won over* means she was not already convinced. A critic who needed winning over had been *lukewarm*.",
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Dependency:** *finally* means she was not already convinced, so blank 1 is *lukewarm*. A critic who calls the restaurant the finest in the city was *captivated*.",
   "choiceExplanations": {
-   "A": "An already rapturous critic would not need to be won over.",
-   "B": "Devotion already means being won over.",
-   "D": "Adoration leaves nothing to win over.",
-   "E": "Gushing praise leaves nothing to win over."
+   "1A": "*Finally* shows she had not been enthusiastic before.",
+   "1C": "*Finally* shows she had not been enthusiastic before.",
+   "2A": "Calling the restaurant the finest in the city is not disillusion.",
+   "2C": "Calling it the finest shows she was impressed, not confused."
   },
-  "estSeconds": 60,
+  "estSeconds": 100,
   "skills": [
    "text-completion"
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "The restaurant critic, who had been {{1}} about the chef's earlier ventures, was so won over by this one that she called it the finest in the city.",
+   "text": "The restaurant critic, who had been {{1}} about the chef's earlier ventures, was finally {{2}} by this one, which she called the finest in the city.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
-       "id": "A",
+       "id": "1A",
        "text": "rhapsodic"
       },
       {
-       "id": "B",
-       "text": "devoted"
-      },
-      {
-       "id": "C",
+       "id": "1B",
        "text": "lukewarm"
       },
       {
-       "id": "D",
-       "text": "adoring"
+       "id": "1C",
+       "text": "devoted"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "disillusioned"
       },
       {
-       "id": "E",
-       "text": "effusive"
+       "id": "2B",
+       "text": "captivated"
+      },
+      {
+       "id": "2C",
+       "text": "bewildered"
       }
      ]
     }
@@ -1345,7 +1372,8 @@
   },
   "answer": {
    "blanks": [
-    "C"
+    "1B",
+    "2B"
    ]
   }
  },

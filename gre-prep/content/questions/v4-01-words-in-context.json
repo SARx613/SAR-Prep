@@ -1048,12 +1048,12 @@
   "lessonId": "v4-01-words-in-context",
   "difficulty": 1,
   "stem": "Choose the word that best completes the sentence.",
-  "explanation": "Putting nervous newcomers at ease points to a warm, approachable manner. Affable means friendly and pleasant.",
+  "explanation": "*Rarely spoke more than a word or two* defines the usual state: *taciturn* (habitually silent). The surprise of an hour of talk confirms the contrast.",
   "choiceExplanations": {
-   "1A": "Acerbic means harsh or sour; it would unsettle nervous newcomers, not calm them.",
-   "1C": "Aloof means distant and reserved, which would not put anyone at ease.",
-   "1D": "Pugnacious means inclined to fight; the opposite of soothing.",
-   "1E": "Surly means bad-tempered and unfriendly, which contradicts the clue."
+   "1A": "Garrulous (talkative) is the opposite of rarely speaking.",
+   "1C": "Ebullient (high-spirited) does not describe silence.",
+   "1D": "Pompous (self-important) does not describe silence.",
+   "1E": "Irascible (quick-tempered) says nothing about speech."
   },
   "estSeconds": 45,
   "skills": [
@@ -1062,38 +1062,35 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "Her {{1}} manner put even the most nervous newcomers at ease within minutes of their arrival.",
+   "text": "The usually {{1}} fisherman, who rarely spoke more than a word or two, surprised everyone by talking for an hour about his boat.",
    "blanks": [
     {
      "index": 1,
      "choices": [
       {
        "id": "1A",
-       "text": "acerbic"
+       "text": "garrulous"
       },
       {
        "id": "1B",
-       "text": "affable"
+       "text": "taciturn"
       },
       {
        "id": "1C",
-       "text": "aloof"
+       "text": "ebullient"
       },
       {
        "id": "1D",
-       "text": "pugnacious"
+       "text": "pompous"
       },
       {
        "id": "1E",
-       "text": "surly"
+       "text": "irascible"
       }
      ]
     }
@@ -3013,7 +3010,7 @@
   "lessonId": "v4-01-words-in-context",
   "difficulty": 4,
   "stem": "For each blank, select the entry that best completes the text.",
-  "explanation": "Wording that lets each side read the terms its own way is ambiguous; each government then construes (interprets) them to suit itself. Quarrels over what it required show the deal was precarious (unstable).",
+  "explanation": "Language that lets each side read the clauses its own way is ambiguous; each party then construes (interprets) them to suit itself. Arguments over what had been promised show the partnership was precarious (unstable).",
   "choiceExplanations": {
    "1B": "Explicit means fully stated; precise wording would leave no room to interpret it as one pleased.",
    "1C": "Unequivocal means leaving no doubt, which would prevent differing readings.",
@@ -3031,15 +3028,12 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "The treaty's wording was deliberately {{1}}, allowing each government to {{2}} its terms as it pleased; the agreement therefore proved {{3}} within a year, as the parties quarreled over what it required.",
+   "text": "The contract's language was deliberately {{1}}, letting each party {{2}} its clauses to its own advantage; the partnership therefore grew {{3}} within a year, as the two sides argued over what they had promised.",
    "blanks": [
     {
      "index": 1,
@@ -3170,7 +3164,7 @@
   "lessonId": "v4-01-words-in-context",
   "difficulty": 4,
   "stem": "For each blank, select the entry that best completes the text.",
-  "explanation": "\"Lavishing money\" defines munificent (very generous). Reusing envelopes and walking, in contrast, are spartan (frugal and austere) habits.",
+  "explanation": "\"Funding hospitals and scholarships with a flourish\" defines munificent (very generous). A narrow cot and a single plain suit, in contrast, are spartan (frugal and austere) tastes.",
   "choiceExplanations": {
    "1A": "Impecunious means penniless; a man lavishing money is not poor.",
    "1C": "Stingy means reluctant to spend, which contradicts \"lavishing money\".",
@@ -3185,15 +3179,12 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "TC",
   "content": {
-   "text": "The museum's founder was publicly {{1}}, lavishing money on grand gestures, but his private habits were surprisingly {{2}}: he reportedly reused envelopes and walked rather than hire a car.",
+   "text": "The shipping magnate was publicly {{1}}, funding hospitals and scholarships with a flourish, but his private tastes were surprisingly {{2}}: he slept on a narrow cot and owned a single plain suit.",
    "blanks": [
     {
      "index": 1,

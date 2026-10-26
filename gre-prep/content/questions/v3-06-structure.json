@@ -805,10 +805,7 @@
   "passageId": "v3w2-immersion-schooling",
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-aw",
-    "solver-bw"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "RC",
@@ -821,7 +818,7 @@
     },
     {
      "id": "B",
-     "text": "It draws a conclusion from the cases described in the preceding sentence."
+     "text": "It reports a conclusion that others draw from the cases described in the preceding sentence."
     },
     {
      "id": "C",
