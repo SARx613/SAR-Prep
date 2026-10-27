@@ -274,13 +274,13 @@
   "id": "q2-24-distance-rate-time-07",
   "lessonId": "q2-24-distance-rate-time",
   "difficulty": 3,
-  "stem": "Two trains leave stations 340 miles apart at the same time and travel toward each other on parallel tracks. They pass each other 2.5 hours later. If one train's average speed is 20 miles per hour greater than the other's, what is the slower train's average speed, in miles per hour?",
-  "explanation": "Together they close $\\frac{340}{2.5}=136$ miles per hour. With speeds $r$ and $r+20$: $2r+20=136$, so $r=58$.",
+  "stem": "Two trains leave stations 340 miles apart at the same time and travel toward each other on parallel tracks. They pass each other 2.5 hours later. If one train's average speed is $\\frac{5}{3}$ of the other's, what is the slower train's average speed, in miles per hour?",
+  "explanation": "Together they close $\\frac{340}{2.5}=136$ miles per hour. With speeds $r$ and $\\frac{5}{3}r$: $\\frac{8}{3}r=136$, so $r=51$ (the faster train goes 85).",
   "choiceExplanations": {
-   "A": "$(136-40)\\div2$ subtracts the 20 miles per hour twice.",
-   "C": "$136\\div2$ is the average of the two speeds, not the slower one.",
-   "D": "78 is the faster train's speed.",
-   "E": "$136-20=116$ is twice the slower speed; divide by 2."
+   "A": "34 is a quarter of the closing speed, not the slower train's speed.",
+   "C": "68 is half the closing speed; the trains do not go equally fast.",
+   "D": "85 is the faster train's speed.",
+   "E": "136 is the closing speed of the two trains together."
   },
   "estSeconds": 90,
   "skills": [
@@ -291,10 +291,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -303,11 +300,11 @@
    "choices": [
     {
      "id": "A",
-     "text": "$48$"
+     "text": "$34$"
     },
     {
      "id": "B",
-     "text": "$58$"
+     "text": "$51$"
     },
     {
      "id": "C",
@@ -315,11 +312,11 @@
     },
     {
      "id": "D",
-     "text": "$78$"
+     "text": "$85$"
     },
     {
      "id": "E",
-     "text": "$116$"
+     "text": "$136$"
     }
    ]
   },

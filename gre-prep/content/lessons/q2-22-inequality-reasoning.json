@@ -29,8 +29,8 @@
    "id": "q2-22-inequality-reasoning-c1",
    "lessonId": "q2-22-inequality-reasoning",
    "difficulty": 2,
-   "stem": "A phone plan charges \\$25 per month plus \\$0.07 per text message. Ines wants her monthly bill to be at most \\$40. What is the greatest number of text messages she can send in a month?",
-   "explanation": "$25+0.07t\\le40$ gives $0.07t\\le15$, so $t\\le214.2\\ldots$. A maximum you can afford rounds **down**: 214 texts (215 would cost \\$40.05).",
+   "stem": "A shipping box can hold at most 12 kilograms. Each jar weighs 0.7 kilogram. What is the greatest number of jars that can go in one box?",
+   "explanation": "$0.7j\\le12$ gives $j\\le17.1\\ldots$. A maximum you can fit rounds **down**: 17 jars (18 jars would weigh 12.6 kilograms).",
    "estSeconds": 60,
    "skills": [
     "linear-inequalities",
@@ -41,10 +41,7 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [
-     "solver-bw5",
-     "solver-aw5"
-    ],
+    "solvedBy": [],
     "sourceChecked": false
    },
    "type": "NE",
@@ -52,7 +49,7 @@
     "format": "integer"
    },
    "answer": {
-    "value": 214
+    "value": 17
    }
   },
   {

@@ -62,13 +62,13 @@
   "id": "q2-21-equation-shortcuts-02",
   "lessonId": "q2-21-equation-shortcuts",
   "difficulty": 1,
-  "stem": "If $a=3b+2$ and $2a-5b=9$, what is the value of $a$?",
-  "explanation": "Substitute the whole expression in brackets: $2(3b+2)-5b=9$, so $6b+4-5b=9$ and $b=5$. Then $a=3(5)+2=17$.",
+  "stem": "If $y=2x-1$ and $3y-4x=7$, what is the value of $x+y$?",
+  "explanation": "Substitute the whole expression in brackets: $3(2x-1)-4x=7$, so $2x-3=7$ and $x=5$. Then $y=2(5)-1=9$ and $x+y=14$.",
   "choiceExplanations": {
-   "A": "5 is the value of $b$; the question asks for $a$.",
-   "B": "Without brackets, $2\\cdot3b+2-5b=9$ gives $b=7$; the 2 must multiply all of $3b+2$.",
-   "C": "$a=3b+2$, not $3b-2$: with $b=5$, $a=17$.",
-   "E": "This uses $b=7$ from the missing-bracket error: $3(7)+2=23$."
+   "A": "5 is $x$ alone.",
+   "B": "9 is $y$ alone.",
+   "D": "19 does not satisfy both equations; substitute $x=5$ into $y=2x-1$ and check $3y-4x=7$.",
+   "E": "23 is not a value obtained from this system."
   },
   "estSeconds": 60,
   "skills": [
@@ -80,10 +80,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -96,15 +93,15 @@
     },
     {
      "id": "B",
-     "text": "$7$"
+     "text": "$9$"
     },
     {
      "id": "C",
-     "text": "$13$"
+     "text": "$14$"
     },
     {
      "id": "D",
-     "text": "$17$"
+     "text": "$19$"
     },
     {
      "id": "E",
@@ -114,7 +111,7 @@
   },
   "answer": {
    "choices": [
-    "D"
+    "C"
    ]
   }
  },

@@ -2,7 +2,7 @@
  "id": "q3-10-angle-and-side-facts",
  "status": "draft",
  "why": "Angle vocabulary, exterior angles, polygon angle counts and side-angle facts are the quick steps inside most GRE geometry questions.",
- "rule": "A **line** goes on without end both ways; **segment** $AB$ has endpoints $A$ and $B$ ($AB$ also means its length); **ray** $AB$ starts at $A$ and goes on through $B$ forever. For points on a line in the order $P,Q,R$: $PQ+QR=PR$.\n\n**Angle $ABC$** has its vertex at the middle letter, $B$. Acute: under $90^\\circ$; right: $90^\\circ$; obtuse: between $90^\\circ$ and $180^\\circ$; straight: $180^\\circ$. Two angles are **supplementary** if they add to $180^\\circ$, **complementary** if they add to $90^\\circ$.\n\n**Triangles** are equilateral, isosceles or **scalene** (no equal sides), and acute (all angles under $90^\\circ$), right or obtuse. At most one angle is $90^\\circ$ or more.\n- An **exterior angle** (one side extended) equals the sum of the two interior angles not next to it.\n- A polygon's exterior angles, one per vertex, add to $360^\\circ$. In a regular $n$-gon each is $\\frac{360^\\circ}{n}$, and interior $=180^\\circ-$ exterior.\n- A regular hexagon of side $s$ splits from its center into six equilateral triangles of side $s$, each of area $\\frac{\\sqrt3}{4}s^2$.\n- The longest side is opposite the largest angle, the shortest opposite the smallest.\n- Right-triangle side sets: 3-4-5, 5-12-13, 8-15-17, 7-24-25 and their multiples.\n- With longest side $c$: $c^2=a^2+b^2$ right, $c^2<a^2+b^2$ acute, $c^2>a^2+b^2$ obtuse.",
+ "rule": "A **line** goes on without end both ways; **segment** $AB$ has endpoints $A$ and $B$ ($AB$ also means its length); **ray** $AB$ starts at $A$ and goes on through $B$ forever. For points on a line in the order $P,Q,R$: $PQ+QR=PR$.\n\n**Angle $ABC$** has its vertex at the middle letter, $B$. Acute: under $90^\\circ$; right: $90^\\circ$; obtuse: between $90^\\circ$ and $180^\\circ$; straight: $180^\\circ$. Two angles are **supplementary** if they add to $180^\\circ$, **complementary** if they add to $90^\\circ$.\n\n**Triangles** are equilateral, isosceles or **scalene** (no equal sides), and acute (all angles under $90^\\circ$), right or obtuse. At most one angle is $90^\\circ$ or more.\n- An **exterior angle** (one side extended) equals the sum of the two interior angles not next to it.\n- A polygon's exterior angles, one per vertex, add to $360^\\circ$. In a regular $n$-gon each is $\\frac{360^\\circ}{n}$, and interior $=180^\\circ-$ exterior.\n- A regular hexagon of side $s$ splits from its center into six equilateral triangles of side $s$, each of area $\\frac{\\sqrt3}{4}s^2$. Two neighbouring small triangles form a rhombus with four sides $s$; a diagonal cuts it into two triangles with the same three sides, hence equal areas, so a corner triangle such as $ABC$ has the area of one small triangle.\n- The longest side is opposite the largest angle, the shortest opposite the smallest.\n- Right-triangle side sets: 3-4-5, 5-12-13, 8-15-17, 7-24-25 and their multiples.\n- With longest side $c$: $c^2=a^2+b^2$ right, $c^2<a^2+b^2$ acute, $c^2>a^2+b^2$ obtuse.",
  "lengthJustification": "The lesson collects ten separate geometry facts (naming, angle types, two exterior-angle rules, the hexagon, side order, triples and the side test), each in one line.",
  "examples": [
   {
@@ -30,8 +30,8 @@
    "id": "q3-10-angle-and-side-facts-c1",
    "lessonId": "q3-10-angle-and-side-facts",
    "difficulty": 1,
-   "stem": "In triangle $ABC$, angle $A$ measures $48^\\circ$ and angle $B$ measures $67^\\circ$. Side $AC$ is extended beyond $C$ to point $D$. What is the measure, in degrees, of angle $BCD$?",
-   "explanation": "Angle $BCD$ is the exterior angle at $C$, so it equals the two interior angles not next to it: $48+67=115$.",
+   "stem": "In triangle $ABC$, angle $A$ measures $53^\\circ$ and angle $B$ measures $72^\\circ$. Side $AC$ is extended beyond $C$ to point $D$. What is the measure, in degrees, of angle $BCD$?",
+   "explanation": "Angle $BCD$ is the exterior angle at $C$, so it equals the two interior angles not next to it: $53+72=125$.",
    "estSeconds": 45,
    "skills": [
     "triangles"
@@ -41,10 +41,7 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [
-     "solver-bw5",
-     "solver-aw5"
-    ],
+    "solvedBy": [],
     "sourceChecked": false
    },
    "type": "NE",
@@ -52,7 +49,7 @@
     "format": "integer"
    },
    "answer": {
-    "value": 115
+    "value": 125
    }
   },
   {
