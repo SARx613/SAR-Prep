@@ -294,7 +294,7 @@
   "id": "q1-25-ratio-techniques-08",
   "lessonId": "q1-25-ratio-techniques",
   "difficulty": 3,
-  "stem": "One-third of the marbles in a bag are red. If 12 more red marbles were added to the bag, half of the marbles in the bag would be red. How many marbles are in the bag now?",
+  "stem": "One-third of the marbles in a bag are red. If 12 more red marbles were added to the bag, half of the marbles in the bag would be red. How many marbles are in the bag now, before any red marbles are added?",
   "explanation": "Let $n$ be the number of marbles. Adding 12 red marbles raises both the red count and the total: $\\frac{\\frac{1}{3}n+12}{n+12} = \\frac{1}{2}$. So $\\frac{2}{3}n+24 = n+12$, $\\frac{1}{3}n = 12$ and $n = 36$. Check: $12+12 = 24$ of $48$.",
   "estSeconds": 90,
   "skills": [

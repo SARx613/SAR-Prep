@@ -265,7 +265,7 @@
   "id": "q1-21-radical-arithmetic-07",
   "lessonId": "q1-21-radical-arithmetic",
   "difficulty": 3,
-  "stem": "Which of the following values of $x$ satisfy $(x-1)^{2/3}=9$? Indicate all such values.",
+  "stem": "Which of the following values of $x$ satisfy $(x-1)^{2/3}=9$? Here $t^{2/3}$ means $\\left(\\sqrt[3]{t}\\right)^2$ for every real number $t$. Indicate all such values.",
   "explanation": "Raise both sides to the power $\\frac{3}{2}$. Because the exponent's numerator is even, both signs work: $x-1=27$ or $x-1=-27$ (indeed $\\left(\\sqrt[3]{-27}\\right)^2=(-3)^2=9$). So $x=28$ or $x=-26$.",
   "choiceExplanations": {
    "A": "From $x-1=-27$, $x=-26$, not $-28$; the 1 must be added back.",
