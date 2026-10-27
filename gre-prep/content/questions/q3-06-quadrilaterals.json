@@ -871,5 +871,40 @@
   "answer": {
    "value": 8
   }
+ },
+ {
+  "id": "q3-06-quadrilaterals-21",
+  "lessonId": "q3-06-quadrilaterals",
+  "difficulty": 4,
+  "stem": "In parallelogram $ABCD$ shown, $AB=11$, $AD=13$, and the perpendicular distance from $D$ to side $AB$ is 12. What is the length of diagonal $AC$?",
+  "explanation": "In the right triangle formed by $AD$ and the height, the horizontal leg is $\\sqrt{13^2-12^2}=5$. Side $BC$ makes the same 5-unit offset, so the perpendicular from $C$ meets line $AB$ extended at a point $G$ with $BG=5$. Triangle $AGC$ is right with legs $AG=11+5=16$ and $CG=12$, so $AC=\\sqrt{16^2+12^2}=\\sqrt{400}=20$. Using legs 11 and 12 forgets the offset, and using 13 as a leg mistakes the slanted side for the height.",
+  "estSeconds": 120,
+  "skills": [
+   "quadrilaterals"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,170 162,170 222,26 90,26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"170\" x2=\"222\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"26\" x2=\"90\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><polyline points=\"90,160 100,160 100,170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"24\" y=\"186\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"166\" y=\"186\" text-anchor=\"start\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"228\" y=\"24\" text-anchor=\"start\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"84\" y=\"20\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"132\" y=\"188\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">11</text><text x=\"52\" y=\"98\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">13</text><text x=\"96\" y=\"124\" text-anchor=\"start\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">12</text></svg>",
+    "alt": "Parallelogram ABCD with AB along the bottom, labelled 11, and side AD slanting up to the right, labelled 13. A dashed segment drops from D perpendicular to AB, with a right-angle mark at its foot, and is labelled 12. Diagonal AC is drawn from A to C."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  },
+  "topics": [
+   "q3.parallelograms",
+   "q3.pythagorean-theorem"
+  ]
  }
 ]

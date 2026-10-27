@@ -954,5 +954,61 @@
   "topics": [
    "q4.mean-extremes"
   ]
+ },
+ {
+  "id": "q4-03-centre-spread-basic-21",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 2,
+  "stem": "A soccer team scored the following numbers of goals in its last 9 matches: 3, 0, 4, 2, 4, 1, 2, 5, 6. Which of the following statements about this list are true? Indicate all such statements.",
+  "explanation": "Count how often each value occurs: 2 and 4 each occur twice and every other value once. When values tie for the highest count, each of them is a mode, so this list has two modes, 2 and 4.",
+  "choiceExplanations": {
+   "A": "2 and 4 tie with two occurrences each, so the list has two modes.",
+   "D": "3 occurs only once. It is the average of the two modes (and the median), but a mode must be a value that occurs most often.",
+   "E": "A mode only has to occur more often than the other values; twice is enough here."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "mode"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The list has exactly one mode."
+    },
+    {
+     "id": "B",
+     "text": "2 is a mode of the list."
+    },
+    {
+     "id": "C",
+     "text": "4 is a mode of the list."
+    },
+    {
+     "id": "D",
+     "text": "3 is a mode of the list."
+    },
+    {
+     "id": "E",
+     "text": "The list has no mode, because no value occurs more than twice."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  },
+  "topics": [
+   "q4.mode"
+  ]
  }
 ]

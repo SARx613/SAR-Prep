@@ -576,5 +576,62 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q1-24-operations-and-signs-13",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 1,
+  "stem": "Which of the following are equal to $-\\frac{5}{12}$? Indicate all such expressions.",
+  "explanation": "One minus sign can sit in the numerator, in the denominator or in front of the fraction without changing the value. So count the minus signs: an odd count gives $-\\frac{5}{12}$ and an even count gives $\\frac{5}{12}$. A and C have one sign and E has three; B and D have two.",
+  "choiceExplanations": {
+   "B": "The two negatives cancel: $\\frac{-5}{-12}=\\frac{5}{12}$, which is positive.",
+   "D": "The sign in front reverses $\\frac{-5}{12}$, giving $\\frac{5}{12}$."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "operations-signs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{-5}{12}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{-5}{-12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{5}{-12}$"
+    },
+    {
+     "id": "D",
+     "text": "$-\\frac{-5}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$-\\frac{-5}{-12}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "topics": [
+   "q1.sign-of-product-quotient",
+   "q1.equivalent-fractions"
+  ]
  }
 ]

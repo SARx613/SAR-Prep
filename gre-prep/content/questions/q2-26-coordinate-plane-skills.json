@@ -587,5 +587,62 @@
   "answer": {
    "value": -5
   }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-13",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 3,
+  "stem": "In the $xy$-plane, the line $y=-4x+8$ is reflected in the line $y=x$. Which of the following is an equation of the reflected line?",
+  "explanation": "Reflecting in $y=x$ swaps the coordinates of every point, so swap $x$ and $y$ in the equation: $x=-4y+8$. Solve for $y$: $4y=8-x$, so $y=-\\frac14x+2$. Check: $(2,0)$ is on the original line and its image $(0,2)$ is on the new one.",
+  "choiceExplanations": {
+   "A": "The constant has the wrong sign: from $4y=8-x$ it is $+2$.",
+   "C": "Slope $\\frac14$ is the perpendicular slope, not the slope of the mirror image.",
+   "D": "This is the reflection in the $x$-axis ($y$ replaced by $-y$).",
+   "E": "This is the reflection in the $y$-axis ($x$ replaced by $-x$)."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "coordinate-geometry",
+   "lines-slope"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y=-\\frac{1}{4}x-2$"
+    },
+    {
+     "id": "B",
+     "text": "$y=-\\frac{1}{4}x+2$"
+    },
+    {
+     "id": "C",
+     "text": "$y=\\frac{1}{4}x+2$"
+    },
+    {
+     "id": "D",
+     "text": "$y=4x-8$"
+    },
+    {
+     "id": "E",
+     "text": "$y=4x+8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "topics": [
+   "q2.reflect-over-diagonal"
+  ]
  }
 ]

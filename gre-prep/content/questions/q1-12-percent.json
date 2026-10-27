@@ -848,5 +848,33 @@
    "q1.percent-of-chains",
    "q2.fraction-of-remainder"
   ]
+ },
+ {
+  "id": "q1-12-percent-21",
+  "lessonId": "q1-12-percent",
+  "difficulty": 2,
+  "stem": "A seedling was 8 centimeters tall when it was planted. Four months later it was 34 centimeters tall. Its height after four months is what percent of its height when planted?",
+  "explanation": "Divide by the base, the height at planting: $\\frac{34}{8}=4.25=425\\%$. A percent above 100 just means the part is larger than the base. The answer 325 is the percent *increase*, $\\frac{34-8}{8}$, which answers a different question.",
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 425
+  },
+  "topics": [
+   "q1.what-percent",
+   "q1.fraction-decimal-percent"
+  ]
  }
 ]

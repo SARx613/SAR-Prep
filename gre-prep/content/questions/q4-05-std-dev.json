@@ -988,5 +988,69 @@
   "topics": [
    "q4.sd-add-value"
   ]
+ },
+ {
+  "id": "q4-05-std-dev-21",
+  "lessonId": "q4-05-std-dev",
+  "difficulty": 2,
+  "stem": "A coach recorded the 100-meter times, in seconds, of 15 sprinters, and the list of times has a single mode. The timer is later found to have added 0.4 second to every time, so 0.4 is subtracted from each of the 15 times. Which of the following statistics of the times decrease by exactly 0.4? Indicate all such statistics.",
+  "explanation": "Subtracting the same number from every value slides the whole list 0.4 to the left without changing its shape. Measures of centre move with it: the mean, the median and the mode each drop by 0.4. Measures of spread are distances between values, or from the mean, and those distances do not change: the range, the interquartile range and the standard deviation stay the same.",
+  "choiceExplanations": {
+   "D": "The greatest and least times both drop by 0.4, so their difference is unchanged.",
+   "E": "Both quartiles drop by 0.4, so $Q_3-Q_1$ is unchanged.",
+   "F": "Every distance from the mean is unchanged, so the standard deviation is unchanged."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "std-dev",
+   "transformations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The mean"
+    },
+    {
+     "id": "B",
+     "text": "The median"
+    },
+    {
+     "id": "C",
+     "text": "The mode"
+    },
+    {
+     "id": "D",
+     "text": "The range"
+    },
+    {
+     "id": "E",
+     "text": "The interquartile range"
+    },
+    {
+     "id": "F",
+     "text": "The standard deviation"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "topics": [
+   "q4.sd-add-constant",
+   "q4.range",
+   "q4.mode"
+  ]
  }
 ]

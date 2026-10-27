@@ -805,5 +805,38 @@
     "denominator": 18
    }
   }
+ },
+ {
+  "id": "q4-08-probability-basics-21",
+  "lessonId": "q4-08-probability-basics",
+  "difficulty": 3,
+  "stem": "A positive three-digit integer is chosen at random. What is the probability that at least one of its digits is 6? Enter your answer as a fraction.",
+  "explanation": "There are $999-100+1=900$ three-digit integers. Count the complement, no digit 6: the hundreds digit has 8 choices (neither 0 nor 6) and the tens and units digits have 9 each, so $8\\cdot9\\cdot9=648$. Then the probability is $1-\\frac{648}{900}=\\frac{252}{900}=\\frac{7}{25}$. Using 1,000 as the total, or letting the hundreds digit be 0, gives the wrong counts.",
+  "estSeconds": 100,
+  "skills": [
+   "probability",
+   "complement"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.28,
+   "fraction": {
+    "numerator": 7,
+    "denominator": 25
+   }
+  },
+  "topics": [
+   "q4.complement",
+   "q4.probability-formula",
+   "q4.counting-principle"
+  ]
  }
 ]

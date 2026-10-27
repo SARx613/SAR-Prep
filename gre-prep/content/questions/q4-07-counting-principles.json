@@ -790,5 +790,33 @@
    "q4.restricted-arrangements",
    "q4.restricted-first"
   ]
+ },
+ {
+  "id": "q4-07-counting-principles-21",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 2,
+  "stem": "Seven different books, one of which is a dictionary, can be placed side by side on a shelf in 5,040 different orders. In how many of these orders is the dictionary in the third position from the left?",
+  "explanation": "Place the restricted book first: the dictionary has exactly one place, position 3. The other 6 books then fill the remaining 6 positions in $6!=720$ ways. Check: by symmetry the dictionary sits in each of the 7 positions equally often, and $5{,}040\\div7=720$.",
+  "estSeconds": 60,
+  "skills": [
+   "permutations",
+   "multiplication-principle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 720
+  },
+  "topics": [
+   "q4.restricted-first",
+   "q4.restricted-arrangements"
+  ]
  }
 ]

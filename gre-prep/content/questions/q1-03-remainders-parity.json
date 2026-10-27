@@ -879,5 +879,60 @@
   "answer": {
    "value": 8
   }
+ },
+ {
+  "id": "q1-03-remainders-parity-21",
+  "lessonId": "q1-03-remainders-parity",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Since $0<m<15$, the greatest multiple of 15 that does not exceed $m$ is $0\\cdot15=0$, so $m=0\\cdot15+m$: the quotient is 0 and the remainder is $m$ itself. The quantities are equal for every allowed $m$. A remainder of 0 would need 15 to divide $m$, which no number from 1 to 14 allows.",
+  "estSeconds": 60,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $m$ is divided by 15",
+   "quantityB": "$m$",
+   "common": "$m$ is a positive integer less than 15."
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "topics": [
+   "q1.remainder-basics",
+   "q1.remainder-range"
+  ]
+ },
+ {
+  "id": "q1-03-remainders-parity-22",
+  "lessonId": "q1-03-remainders-parity",
+  "difficulty": 1,
+  "stem": "What is the remainder when 58 is divided by 245?",
+  "explanation": "245 is greater than 58, so the largest multiple of 245 that does not exceed 58 is $0\\cdot245=0$. Then $58=0\\cdot245+58$: the quotient is 0 and the remainder is 58. The answer 13 comes from dividing 245 by 58 instead.",
+  "estSeconds": 45,
+  "skills": [
+   "remainders-parity"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 58
+  },
+  "topics": [
+   "q1.remainder-basics"
+  ]
  }
 ]

@@ -868,5 +868,34 @@
   "answer": {
    "value": 1
   }
+ },
+ {
+  "id": "q2-08-functions-21",
+  "lessonId": "q2-08-functions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$|t|$ equals $t$ when $t>0$ and $-t$ when $t<0$, so $h(t)=1$ for positive $t$ and $h(t)=-1$ for negative $t$. Here $m<0$ and $-m>0$, so $h(m)-h(-m)=-1-1=-2$, which is less than 0. Cancelling $|t|$ with $t$ to get 1 every time would give 0 and the wrong answer C.",
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$h(m)-h(-m)$",
+   "quantityB": "0",
+   "common": "The function $h$ is defined by $h(t)=\\dfrac{|t|}{t}$ for every nonzero number $t$, and $m<0$."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "topics": [
+   "q2.function-notation",
+   "q1.opposites-and-absolute-value"
+  ]
  }
 ]

@@ -575,5 +575,33 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-13",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$169=13^2$, so its positive factors are 1, 13 and 169. A multiple of $k$ is also a multiple of $-k$, so $-1$, $-13$ and $-169$ count as well: 6 integers in all, and $6>4$. Counting only the three positive factors gives 3 and the wrong answer B.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of integers $k$ such that 169 is a multiple of $k$",
+   "quantityB": "4"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "topics": [
+   "q1.multiples",
+   "q1.factor-pairs"
+  ]
  }
 ]

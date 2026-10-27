@@ -540,5 +540,34 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-18-probability-rules-13",
+  "lessonId": "q4-18-probability-rules",
+  "difficulty": 4,
+  "stem": "Every file uploaded to a website goes through two independent checks, one on its size and one on its format. The probability that a file fails the size check is 0.3, and the probability that it fails at least one of the two checks is 0.58. What is the probability that a file fails the format check?",
+  "explanation": "Let $q$ be the probability of failing the format check. Independence makes the overlap a product, $0.3q$, so $0.58=0.3+q-0.3q=0.3+0.7q$. Then $0.7q=0.28$ and $q=0.4$. Check with the complement: passing both checks has probability $0.7\\cdot0.6=0.42=1-0.58$. The answer 0.28 subtracts as if the events could not happen together, but independent events with positive probabilities always overlap.",
+  "estSeconds": 110,
+  "skills": [
+   "independence",
+   "probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 0.4
+  },
+  "topics": [
+   "q4.exclusive-vs-independent",
+   "q4.or-overlapping",
+   "q4.and-independent"
+  ]
  }
 ]

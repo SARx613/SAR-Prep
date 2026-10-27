@@ -854,5 +854,33 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-13",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 1,
+  "stem": "The ages, in years, of the 24 members of a community choir are listed below.\n\n23, 41, 38, 50, 49, 40, 27, 35, 44, 39, 52, 47, 31, 60, 40, 29, 45, 58, 36, 49, 33, 41, 30, 55\n\nThe ages are grouped into the classes 20 to 29, 30 to 39, 40 to 49, and 50 to 60. How many members are in the class 40 to 49?",
+  "explanation": "Tally only the ages from 40 through 49, both ends included: 41, 49, 40, 44, 47, 40, 45, 49, 41, that is 9 ages. 39 belongs to the class 30 to 39 and 50 to the class 50 to 60, so neither counts. Check: the four classes hold 3, 7, 9 and 5 members, and $3+7+9+5=24$.",
+  "estSeconds": 60,
+  "skills": [
+   "grouped-data",
+   "tables"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  },
+  "topics": [
+   "q4.grouped-frequency-tables",
+   "q4.frequency-tables"
+  ]
  }
 ]

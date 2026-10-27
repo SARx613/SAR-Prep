@@ -829,5 +829,62 @@
   "answer": {
    "value": 9
   }
+ },
+ {
+  "id": "q3-03-triangles-pythagoras-21",
+  "lessonId": "q3-03-triangles-pythagoras",
+  "difficulty": 3,
+  "stem": "Two of the sides of an isosceles triangle have lengths 11 and 19. Which of the following could be the perimeter of the triangle? Indicate all such perimeters.",
+  "explanation": "The third side repeats one of the given lengths, so test both cases. Sides 11, 11, 19: valid, since $11+11=22>19$; perimeter 41. Sides 11, 19, 19: valid, since $11+19>19$; perimeter 49. Both pass the triangle inequality, so both perimeters are possible.",
+  "choiceExplanations": {
+   "A": "30 is just the sum of the two given sides; the triangle also has a third side.",
+   "B": "33 would need an equilateral triangle of side 11, but a side of 19 is given.",
+   "E": "57 would need an equilateral triangle of side 19, but a side of 11 is given."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "triangles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "30"
+    },
+    {
+     "id": "B",
+     "text": "33"
+    },
+    {
+     "id": "C",
+     "text": "41"
+    },
+    {
+     "id": "D",
+     "text": "49"
+    },
+    {
+     "id": "E",
+     "text": "57"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  },
+  "topics": [
+   "q3.triangle-inequality",
+   "q3.triangle-types"
+  ]
  }
 ]

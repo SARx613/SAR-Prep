@@ -580,5 +580,34 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-13",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The median of all 30 masses is the average of the 15th and 16th in order, and the two group medians do not fix where those values fall. If every X sample is 62 grams and Y has nine samples of 40 grams and ten of 74 grams, the 15th and 16th masses are both 62, so the median is 62 (B greater). If X has five samples of 50 grams, one of 62 and five of 90, and Y has ten of 74 and nine of 90, the 15th and 16th are both 74, so the median is 74 (A greater). Averaging the medians (68) or weighting them by group size (69.6) assumes information that medians do not carry.",
+  "estSeconds": 110,
+  "skills": [
+   "median"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The median mass of all 30 samples, in grams",
+   "quantityB": "68",
+   "common": "Laboratory X weighed 11 samples and found a median mass of 62 grams. Laboratory Y weighed 19 other samples and found a median mass of 74 grams."
+  },
+  "answer": {
+   "choice": "D"
+  },
+  "topics": [
+   "q4.median",
+   "q4.median-unknown-values"
+  ]
  }
 ]

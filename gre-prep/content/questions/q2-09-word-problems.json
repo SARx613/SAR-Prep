@@ -891,5 +891,118 @@
    "q1.percent-profit",
    "q2.profit-and-loss"
   ]
+ },
+ {
+  "id": "q2-09-word-problems-21",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 2,
+  "stem": "A bonus pool of $B$ dollars is shared by the 7 members of a sales team. The team leader receives \\$400, and the rest of the pool is divided equally among the other members. How many dollars does each of the other members receive?",
+  "explanation": "Take the leader's \\$400 out of the pool first, leaving $B-400$ dollars. That amount is shared by the $7-1=6$ other members, so each receives $\\frac{B-400}{6}$.",
+  "choiceExplanations": {
+   "A": "This splits the whole pool among all 7 members and then takes 400 from each share.",
+   "B": "The leader is already paid, so only 6 members share $B-400$.",
+   "D": "This takes 400 from each of the 6 shares instead of once from the pool.",
+   "E": "The leader's 400 must be subtracted from the pool, not added to it."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{B}{7}-400$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{B-400}{7}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{B-400}{6}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{B}{6}-400$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{B+400}{6}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "topics": [
+   "q2.translating-words"
+  ]
+ },
+ {
+  "id": "q2-09-word-problems-22",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 2,
+  "stem": "A bookseller pays $t$ dollars in total for a box of $k$ used textbooks and then sells every one of them for $p$ dollars each. Which of the following gives the bookseller's profit per textbook, in dollars?",
+  "explanation": "Total profit is revenue minus cost: $kp-t$. Shared over the $k$ textbooks, that is $\\frac{kp-t}{k}=p-\\frac{t}{k}$: the selling price minus what one textbook cost.",
+  "choiceExplanations": {
+   "A": "$t$ is the cost of all $k$ textbooks, not of one.",
+   "B": "Only the total cost needs sharing among the $k$ textbooks; the price $p$ is already per textbook.",
+   "D": "This is the total profit on all $k$ textbooks.",
+   "E": "This divides the total profit by the total cost, giving profit as a fraction of cost."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$p-t$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{p-t}{k}$"
+    },
+    {
+     "id": "C",
+     "text": "$p-\\frac{t}{k}$"
+    },
+    {
+     "id": "D",
+     "text": "$kp-t$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{kp-t}{t}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "topics": [
+   "q2.translating-words",
+   "q2.profit-and-loss"
+  ]
  }
 ]

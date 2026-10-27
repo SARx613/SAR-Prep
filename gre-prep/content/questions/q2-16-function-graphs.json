@@ -875,5 +875,120 @@
   "answer": {
    "value": 4
   }
+ },
+ {
+  "id": "q2-16-function-graphs-21",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 3,
+  "stem": "Which of the following describes the graph of $y=-\\sqrt{x-3}$ in the $xy$-plane?",
+  "explanation": "$\\sqrt{x-3}$ needs $x\\ge3$, so the graph begins at $(3,0)$ and runs to the right: it is the graph of $y=\\sqrt{x}$, the top half of a sideways parabola, shifted 3 units right. The leading minus sign reflects it in the $x$-axis, so every $y$-value is 0 or negative: the bottom half of that sideways parabola.",
+  "choiceExplanations": {
+   "A": "Both features are off: $x-3$ moves the start right, and the minus sign puts the graph below the axis.",
+   "B": "$x-3$ shifts the starting point 3 units right, to $(3,0)$, not left.",
+   "C": "That is the graph of $y=\\sqrt{x-3}$; the minus sign reflects it below the $x$-axis.",
+   "E": "The domain is $x\\ge3$, so the graph extends to the right; extending left would need $\\sqrt{3-x}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It starts at $(-3,0)$ and lies on or above the $x$-axis, extending to the right."
+    },
+    {
+     "id": "B",
+     "text": "It starts at $(-3,0)$ and lies on or below the $x$-axis, extending to the right."
+    },
+    {
+     "id": "C",
+     "text": "It starts at $(3,0)$ and lies on or above the $x$-axis, extending to the right."
+    },
+    {
+     "id": "D",
+     "text": "It starts at $(3,0)$ and lies on or below the $x$-axis, extending to the right."
+    },
+    {
+     "id": "E",
+     "text": "It starts at $(3,0)$ and lies on or below the $x$-axis, extending to the left."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "topics": [
+   "q2.domain",
+   "q2.range-root-functions"
+  ]
+ },
+ {
+  "id": "q2-16-function-graphs-22",
+  "lessonId": "q2-16-function-graphs",
+  "difficulty": 3,
+  "stem": "Let $f(x)=\\sqrt{x+9}$ and $g(x)=|x|-x$. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "For $f$, the radicand must be nonnegative, so the domain is $x\\ge-9$. Its graph is the top half of a sideways parabola starting at $(-9,0)$: the $x$-intercept is $-9$ and the $y$-intercept is $f(0)=\\sqrt9=3$. For $g$, split by the sign of $x$. If $x\\ge0$, then $|x|=x$ and $g(x)=0$, so the graph lies along the nonnegative $x$-axis and every $x\\ge0$ is an $x$-intercept. If $x<0$, then $|x|=-x$ and $g(x)=-2x$, a half-line rising to the left.",
+  "choiceExplanations": {
+   "B": "The graph starts at $x=-9$; at $x=9$ the value is $\\sqrt{18}$, not 0.",
+   "D": "$g(x)=0$ for every $x\\ge0$, so the graph has infinitely many $x$-intercepts."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "function-graphs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The domain of $f$ is all $x\\ge-9$."
+    },
+    {
+     "id": "B",
+     "text": "The graph of $f$ has $x$-intercept 9."
+    },
+    {
+     "id": "C",
+     "text": "The graph of $f$ has $y$-intercept 3."
+    },
+    {
+     "id": "D",
+     "text": "The graph of $g$ has exactly one $x$-intercept."
+    },
+    {
+     "id": "E",
+     "text": "For $x<0$, the graph of $g$ is part of the line $y=-2x$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  },
+  "topics": [
+   "q2.domain",
+   "q2.range-root-functions",
+   "q1.opposites-and-absolute-value"
+  ]
  }
 ]

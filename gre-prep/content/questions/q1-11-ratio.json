@@ -850,5 +850,61 @@
   "topics": [
    "q1.adjust-ratio-by-adding"
   ]
+ },
+ {
+  "id": "q1-11-ratio-21",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 3,
+  "stem": "For positive numbers $a$ and $b$, the quantities $7a$ and $3b$ are in the ratio $2:9$. What is the ratio $a:b$?",
+  "explanation": "Write the ratio as a fraction and cross-multiply: $\\frac{7a}{3b}=\\frac29$ gives $63a=6b$, so $\\frac ab=\\frac{6}{63}=\\frac{2}{21}$. Check: $a=2$ and $b=21$ give $7a=14$ and $3b=63$, and $14:63=2:9$.",
+  "choiceExplanations": {
+   "B": "$2:9$ is the ratio of $7a$ to $3b$; the coefficients 7 and 3 still have to be divided out.",
+   "C": "This multiplies by the coefficients ($2\\cdot7$ and $9\\cdot3$) instead of dividing by them.",
+   "D": "This multiplies by the coefficients and also inverts the ratio.",
+   "E": "This is the ratio $b:a$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2:21$"
+    },
+    {
+     "id": "B",
+     "text": "$2:9$"
+    },
+    {
+     "id": "C",
+     "text": "$14:27$"
+    },
+    {
+     "id": "D",
+     "text": "$27:14$"
+    },
+    {
+     "id": "E",
+     "text": "$21:2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "topics": [
+   "q1.proportions"
+  ]
  }
 ]

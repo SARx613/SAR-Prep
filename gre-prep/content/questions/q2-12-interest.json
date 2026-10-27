@@ -844,5 +844,61 @@
   "topics": [
    "q2.exponential-growth"
   ]
+ },
+ {
+  "id": "q2-12-interest-21",
+  "lessonId": "q2-12-interest",
+  "difficulty": 3,
+  "stem": "A family wants a savings account to be worth \\$25,000 at the end of 4 years. The account pays 4.5 percent annual interest, compounded annually, and nothing is added or withdrawn after the first deposit. To the nearest dollar, how much must the family deposit now?",
+  "explanation": "Let $P$ be the deposit. After 4 years it is worth $P(1.045)^4$. Set $P(1.045)^4=25{,}000$ and divide by the growth factor: $P=\\frac{25{,}000}{1.045^4}\\approx\\frac{25{,}000}{1.19252}\\approx20{,}964$. Taking 18 percent off \\$25,000 (\\$20,500) or dividing by 1.18 (simple interest) ignores compounding.",
+  "estSeconds": 100,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars",
+   "round": 0
+  },
+  "answer": {
+   "value": 20964
+  },
+  "topics": [
+   "q2.compound-interest"
+  ]
+ },
+ {
+  "id": "q2-12-interest-22",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "A museum deposits \\$15,000 in an account that pays $r$ percent annual interest, compounded semiannually. The museum needs the account to be worth at least \\$17,100 after 2 years. What is the least value of $r$ that meets this goal, to the nearest 0.1?",
+  "explanation": "Semiannual compounding gives 4 periods in 2 years, each at $\\frac{r}{2}$ percent: $15{,}000\\left(1+\\frac{r}{200}\\right)^4\\ge17{,}100$, so $\\left(1+\\frac{r}{200}\\right)^4\\ge1.14$. Take the square root twice on the calculator: $\\sqrt{1.14}\\approx1.06771$ and $\\sqrt{1.06771}\\approx1.03330$. Then $\\frac{r}{200}\\ge0.03330$, so $r\\ge6.66$, which is 6.7 to the nearest 0.1. Splitting the 14 percent growth evenly over 2 years (7.0) ignores compounding, and stopping at $\\sqrt{1.14}$ (6.8) treats the interest as compounded once a year.",
+  "estSeconds": 140,
+  "skills": [
+   "interest"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "round": 1
+  },
+  "answer": {
+   "value": 6.7
+  },
+  "topics": [
+   "q2.compounding-periods",
+   "q2.compound-interest"
+  ]
  }
 ]

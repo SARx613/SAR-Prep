@@ -572,5 +572,34 @@
   "answer": {
    "value": 11
   }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-13",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 3,
+  "stem": "A bakery spends \\$1.35 on ingredients for each loaf of bread it bakes. For a market day it bakes 240 loaves and sells all of them at the same price. What is the least price per loaf, in dollars, that gives a profit (total revenue minus total ingredient cost) of at least \\$444?",
+  "explanation": "With a price of $p$ dollars, each loaf earns $p-1.35$, so the profit on 240 loaves is $240(p-1.35)$. Require $240(p-1.35)\\ge444$: divide by 240 to get $p-1.35\\ge1.85$, so $p\\ge3.20$. The least price is \\$3.20. Stopping at 1.85 gives the profit per loaf, not the price.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities",
+   "word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 3.2
+  },
+  "topics": [
+   "q2.inequality-word-problems",
+   "q2.profit-and-loss"
+  ]
  }
 ]
