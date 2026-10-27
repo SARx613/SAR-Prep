@@ -122,7 +122,7 @@
   "lessonId": "q1-16-prime-factorization-tools",
   "difficulty": 2,
   "stem": "A rectangle has an area of 72 square centimeters, and its length and width, in centimeters, are both integers. How many rectangles with different dimensions are possible? (A 4-by-18 rectangle and an 18-by-4 rectangle count as the same.)",
-  "explanation": "Each rectangle is a factor pair of 72. Test divisors up to $\\sqrt{72}\\approx8.5$: $1\\cdot72$, $2\\cdot36$, $3\\cdot24$, $4\\cdot18$, $6\\cdot12$, $8\\cdot9$ (5 and 7 do not divide 72). That is 6 pairs.",
+  "explanation": "Each rectangle is a factor pair of 72. Test divisors $d$ with $d^2\\le72$: $1\\cdot72$, $2\\cdot36$, $3\\cdot24$, $4\\cdot18$, $6\\cdot12$, $8\\cdot9$ (5 and 7 do not divide 72). That is 6 pairs.",
   "estSeconds": 60,
   "skills": [
    "factors-multiples"
@@ -509,7 +509,7 @@
   "lessonId": "q1-16-prime-factorization-tools",
   "difficulty": 5,
   "stem": "$n = 2^a\\cdot3^b$, where $a$ and $b$ are positive integers, and $n$ has an odd number of positive divisors. Which of the following must be true? Indicate all such statements.",
-  "explanation": "An odd number of positive divisors means $n$ is a perfect square, so $\\sqrt{n}$ is an integer and $a$ and $b$ are both even; then $a + b$ is even. Positive even exponents are at least 2, so $2^2\\cdot3^2 = 36$ divides $n$.",
+  "explanation": "An odd number of positive divisors means $n$ is a perfect square, so $n$ is the square of an integer and $a$ and $b$ are both even; then $a + b$ is even. Positive even exponents are at least 2, so $2^2\\cdot3^2 = 36$ divides $n$.",
   "choiceExplanations": {
    "B": "$n = 36 = 2^2\\cdot3^2$ fits the conditions and is not divisible by 72.",
    "E": "$n = 144 = 2^4\\cdot3^2$ fits the conditions and has $5\\cdot3 = 15$ positive divisors."
@@ -548,7 +548,7 @@
     },
     {
      "id": "D",
-     "text": "$\\sqrt{n}$ is an integer."
+     "text": "$n$ is the square of an integer."
     },
     {
      "id": "E",

@@ -386,8 +386,8 @@
   "id": "q1-17-divisibility-reasoning-09",
   "lessonId": "q1-17-divisibility-reasoning",
   "difficulty": 4,
-  "stem": "At a conference, exactly 35 percent of the attendees are engineers and exactly $\\frac{4}{15}$ of the attendees are teachers. What is the least possible number of attendees at the conference?",
-  "explanation": "Both counts are whole numbers. 35 percent is $\\frac{7}{20}$, so the number of attendees is a multiple of 20; $\\frac{4}{15}$ is in lowest terms, so it is also a multiple of 15. The least common multiple of 20 and 15 is 60 (21 engineers and 16 teachers).",
+  "stem": "At a conference, exactly $\\frac{7}{20}$ of the attendees are engineers and exactly $\\frac{4}{15}$ of the attendees are teachers. What is the least possible number of attendees at the conference?",
+  "explanation": "Both counts are whole numbers. $\\frac{7}{20}$ is in lowest terms, so the number of attendees is a multiple of 20; $\\frac{4}{15}$ is in lowest terms, so it is also a multiple of 15. The least common multiple of 20 and 15 is 60 (21 engineers and 16 teachers).",
   "estSeconds": 90,
   "skills": [
    "divisibility-primes"
@@ -397,10 +397,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",

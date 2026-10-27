@@ -340,8 +340,8 @@
   "id": "q1-15-unit-conversions-08",
   "lessonId": "q1-15-unit-conversions",
   "difficulty": 3,
-  "stem": "Water is pumped into an empty cylindrical tank with radius 4 feet and height 9 feet at a constant rate of $12\\pi$ cubic feet per minute. How many minutes after the pumping begins will the water be 6 feet deep?",
-  "explanation": "Volume $=$ base area $\\times$ depth, so the depth rises at $\\frac{12\\pi}{\\pi\\cdot4^2}=\\frac{12\\pi}{16\\pi}=0.75$ foot per minute. Time $=\\frac{6}{0.75}=8$ minutes.",
+  "stem": "Water is pumped into an empty cylindrical tank whose circular base has area $16\\pi$ square feet and whose height is 9 feet at a constant rate of $12\\pi$ cubic feet per minute. How many minutes after the pumping begins will the water be 6 feet deep?",
+  "explanation": "Volume $=$ base area $\\times$ depth, so the depth rises at $\\frac{12\\pi}{16\\pi}=0.75$ foot per minute. Time $=\\frac{6}{0.75}=8$ minutes.",
   "choiceExplanations": {
    "A": "Uses $\\pi r=4\\pi$ as the base area instead of $\\pi r^2=16\\pi$.",
    "B": "Uses the circumference $2\\pi r=8\\pi$ as if it were the base area.",
@@ -358,10 +358,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -493,7 +490,7 @@
   "lessonId": "q1-15-unit-conversions",
   "difficulty": 5,
   "stem": "A flight leaves city F at 1:15 p.m. local time and lands in city G at 6:45 p.m. local time on the same day. The return flight leaves city G at 8:00 a.m. local time and lands in city F at 9:30 a.m. local time on the same day. Local time in city G is ahead of local time in city F, and the two flights take the same amount of time. How many hours does each flight take?",
-  "explanation": "Let each flight take $T$ hours, and let G be $z$ hours ahead of F. On F\\'s clock, the first flight lands at 6:45 p.m. minus $z$, so $T=5.5-z$. The return leaves at 8:00 a.m. minus $z$ on F\\'s clock and lands at 9:30 a.m., so $T=1.5+z$. Adding: $2T=7$, so $T=3.5$ (and $z=2$).",
+  "explanation": "Let each flight take $T$ hours and let G be $z$ hours ahead of F. The first flight shows a clock difference of $5.5=T+z$; the return shows $1.5=T-z$. $T$ is the average of the two differences: $\\frac{5.5+1.5}{2}=3.5$ (and $z=2$).",
   "estSeconds": 150,
   "skills": [
    "unit-conversion",

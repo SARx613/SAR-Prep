@@ -2,7 +2,7 @@
  "id": "q1-20-powers-roots-size-sign",
  "status": "draft",
  "why": "Quantitative Comparison often sets $x^2$ against $x$ or $\\sqrt{x}$, or gives a squared unknown, and the answer turns on whether a number is negative, between 0 and 1, or greater than 1.",
- "rule": "Know by heart $11^2=121$, $12^2=144$, $13^2=169$, $14^2=196$, $15^2=225$, $20^2=400$, $25^2=625$, and the cubes $1, 8, 27, 64, 125, 216$ of 1 to 6. Spot them under a root, or use them to trap a root between integers: $169<180<196$, so $13<\\sqrt{180}<14$.\n\n- **Fractions:** square or root top and bottom separately: $\\left(\\frac{2}{3}\\right)^2=\\frac{4}{9}$, $\\sqrt{\\frac{49}{64}}=\\frac{7}{8}$. A square root halves the number of decimal places: $\\sqrt{0.09}=0.3$, $\\sqrt{0.0025}=0.05$.\n- **Size by range:** if $x>1$, then $\\sqrt{x}<x<x^2<x^3$. If $0<x<1$, the order flips: $x^3<x^2<x<\\sqrt{x}$. At 0 and 1 all are equal. If $x<0$, then $x^2>0>x$, and $x^3<x$ only when $x<-1$ (for $-1<x<0$, $x<x^3<0$).\n- **Even powers hide the sign:** $x^2=16$ means $x=4$ or $x=-4$; $(x-2)^2=9$ means $x-2=3$ or $x-2=-3$. Odd powers keep it: $x^3=-8$ means only $x=-2$.\n- **The root symbol is never negative:** $\\sqrt{9}=3$, not $\\pm3$; the $\\pm$ appears only when you solve an equation. So $\\sqrt{a^2}=|a|$ and $\\sqrt{(x-y)^2}=|x-y|$, which is $y-x$ when $x<y$.",
+ "rule": "Know by heart $11^2=121$, $12^2=144$, $13^2=169$, $14^2=196$, $15^2=225$, $20^2=400$, $25^2=625$, and the cubes $1, 8, 27, 64, 125, 216$ of 1 to 6. Spot them under a root, or use them to trap a root between integers: $169<180<196$, so $13<\\sqrt{180}<14$.\n\n- **Fractions:** square or root top and bottom separately: $\\left(\\frac{2}{3}\\right)^2=\\frac{4}{9}$, $\\sqrt{\\frac{49}{64}}=\\frac{7}{8}$. A square root halves the number of decimal places: $\\sqrt{0.09}=0.3$, $\\sqrt{0.0025}=0.05$.\n- **Size by range** (multiplying both sides of an inequality by a positive number keeps its direction): if $x>1$, then $\\sqrt{x}<x<x^2<x^3$. If $0<x<1$, the order flips: $x^3<x^2<x<\\sqrt{x}$. At 0 and 1 all are equal. If $x<0$, then $x^2>0>x$, and $x^3<x$ only when $x<-1$ (for $-1<x<0$, $x<x^3<0$).\n- **Even powers hide the sign:** $x^2=16$ means $x=4$ or $x=-4$; $(x-2)^2=9$ means $x-2=3$ or $x-2=-3$. Odd powers keep it: $x^3=-8$ means only $x=-2$.\n- **The root symbol is never negative:** $\\sqrt{9}=3$, not $\\pm3$; the $\\pm$ appears only when you solve an equation. So $\\sqrt{a^2}=|a|$ (where $|a|$ is $a$ if $a\\ge0$ and $-a$ if $a<0$) and $\\sqrt{(x-y)^2}=|x-y|$, which is $y-x$ when $x<y$.",
  "examples": [
   {
    "prompt": "Put $x$, $x^2$ and $\\sqrt{x}$ in increasing order when $x=\\frac{9}{25}$.",
@@ -126,5 +126,6 @@
     "choice": "B"
    }
   }
- ]
+ ],
+ "lengthJustification": "Squares and cubes, fractions and decimals, size by range, even powers and the root symbol are each the key step of some question."
 }
