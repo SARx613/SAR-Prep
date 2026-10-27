@@ -139,6 +139,8 @@ export interface TopicView {
   id: string;
   title: string;
   kind: string;
+  scope?: 'official' | 'extended';
+  etsRef?: string;
   /** Playable questions anywhere in the bank that exercise this topic, easiest first. */
   questionIds: string[];
 }
@@ -159,6 +161,8 @@ export function getTopics(lessonId: string): TopicView[] {
     id: t.id,
     title: t.title,
     kind: t.kind,
+    scope: t.scope,
+    etsRef: t.etsRef,
     questionIds: (byTopic.get(t.id) ?? []).sort((a, b) => a.difficulty - b.difficulty).map((q) => q.id),
   }));
 }

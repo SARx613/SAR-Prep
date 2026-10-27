@@ -24,7 +24,15 @@ export function TopicChecklist({ topics }: { topics: TopicView[] }) {
               {ok
                 ? <Check size={16} className="mt-1 shrink-0 text-good" aria-label="Practised" />
                 : <Circle size={16} className="mt-1 shrink-0 text-faint" aria-label="Not practised yet" />}
-              <span className="min-w-0"><RichText inline>{t.title}</RichText></span>
+              <span className="min-w-0 flex-1"><RichText inline>{t.title}</RichText></span>
+              {t.scope && (
+                <span
+                  className={`mt-0.5 shrink-0 rounded-full px-2 py-0.5 text-[11px] font-semibold ${t.scope === 'official' ? 'bg-good-soft text-good' : 'bg-surface-2 text-muted'}`}
+                  title={t.scope === 'official' ? `Stated or illustrated by ETS${t.etsRef ? ` (${t.etsRef})` : ''}` : 'Standard prep content derived from the ETS material; ETS does not state it'}
+                >
+                  {t.scope === 'official' ? 'ETS' : 'Extended'}
+                </span>
+              )}
             </li>
           );
         })}

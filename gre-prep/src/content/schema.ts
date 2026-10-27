@@ -270,6 +270,9 @@ export const TopicSchema = z.object({
   /** Lesson that teaches it (an id in syllabus.json). */
   lessonId: z.string(),
   kind: z.enum(['concept', 'technique', 'trap', 'pattern']),
+  /** official: stated or directly illustrated in an ETS text (etsRef says where); extended: standard prep content derived from it. */
+  scope: z.enum(['official', 'extended']).optional(),
+  etsRef: z.string().optional(),
 });
 export const TopicsFileSchema = z.object({ topics: z.array(TopicSchema) });
 export type Topic = z.infer<typeof TopicSchema>;
