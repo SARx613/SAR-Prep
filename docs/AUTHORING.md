@@ -45,7 +45,7 @@ and KaTeX between single `$…$`. In JSON strings escape backslashes: `"$\\frac{
 - Mix formats **as the real GRE would for the topic**: PS select-one (5 choices), PS select-all, QC (the four fixed
   choices; use the standard stem shown in the exemplar), NE (integer / decimal / fraction), and DI where the topic has data.
 - Every question: `explanation` that teaches the shortest correct route, `choiceExplanations` for every wrong choice id
-  (select-one) or per wrong/misleading choice (select-all), `estSeconds` (45–150), `skills[]`, and
+  (select-one) or per wrong/misleading choice (select-all), `estSeconds` (45–150), `skills[]`, `topics[]` (ids from `content/topics.json`, see below), and
   `review: {"status":"draft","solvedBy":[],"sourceChecked":false}`.
 - Distractors must come from **real mistakes** (sign error, forgetting to halve, using the product instead of the LCM…).
   Exactly one defensible answer. Numbers must make the item well-defined (no division by zero, integer answers where
@@ -85,3 +85,11 @@ Folder: `/tmp/claude-0/-home-user-SAR-Prep/7164e49b-e907-5cc7-8c6d-40cc39fbd4ce/
 Author writes drafts → **Independent Solvers** (two, blind to keys) confirm every key → **Source Checker** confirms
 scope and originality → **Pedagogy Editor** trims/approves → only then `status: published`. Authors never set
 `verified`/`published` and never edit `review`.
+
+## Topic checklist (`content/topics.json`)
+
+`topics.json` lists every concept, technique, trap and question pattern a Quant learner must meet (about 480). Each topic has
+a hosting lesson (`lessonId`). Every question and lesson check tags the topics it tests in `topics[]`; a topic counts as covered when
+at least one *published* question carries it. `npm run content:check -- --topics` fails while any topic is uncovered (CI runs it).
+A lesson page shows its topics with a tick once the learner has answered a tagged question correctly. When you add a topic, host it in
+an existing lesson only if that lesson's rule can teach it in a line; otherwise add a new supplement lesson.
