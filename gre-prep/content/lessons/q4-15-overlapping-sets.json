@@ -1,0 +1,142 @@
+{
+ "id": "q4-15-overlapping-sets",
+ "status": "draft",
+ "why": "GRE word problems often sort one group by two yes/no traits, or by three overlapping activities, and ask for both, neither, exactly one or exactly two.",
+ "rule": "**Two traits of one group: draw a grid.** Rows are in $A$ / not in $A$, columns are in $B$ / not in $B$, plus a total row and a total column. Each row and each column adds up to its total, so a missing cell is a subtraction. *Neither* is the not-$A$, not-$B$ cell.\n\n- **Percents**: the same grid works with total $= 100\\%$. First turn a percent *of a subgroup* into a percent of everyone: $40\\%$ of the $60\\%$ who are women is $24\\%$ of the group.\n- **No total given**: choose one (100, or the LCM of the denominators) and answer as a fraction of it.\n- **Unknown cell**: call it $x$, write the other cells with $x$, and make the four cells add up to the total.\n- **Exactly one** $= |A| + |B| - 2|A \\cap B|$; **not both** $=$ total $- |A \\cap B|$.\n- **Neither** is greatest when the smaller set lies inside the larger (total $-$ larger set) and least when the overlap is least: total $- |A| - |B|$, or 0 if that is negative.\n\n**Three sets** make 8 regions: only $A$, only $B$, only $C$, three *exactly two* regions, all three, and none. Fill from the center out: all three; each exactly-two region $=$ pair count $-$ all three; each only region $=$ set count $-$ its 3 inner regions; none $=$ total $-$ the 7 inside. If a region is unknown, call it $x$ and make all 8 add up to the total. Or use\n\n$|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |A \\cap C| - |B \\cap C| + |A \\cap B \\cap C|$.\n\nA pair count such as $|A \\cap B|$ includes the all-three people. So exactly two $=$ (sum of pair counts) $- 3 \\times$ all three, and at least two $=$ exactly two $+$ all three. Given exactly two instead: $|A \\cup B \\cup C| = |A| + |B| + |C| -$ exactly two $- 2 \\times$ all three.",
+ "lengthJustification": "The objectives cover two-set grids with percents, unknowns and extremes plus three-set diagrams and the exactly-two/at-least-two distinction, and each line is used by a practice question.",
+ "examples": [
+  {
+   "prompt": "At a conference, 60% of the attendees are researchers. Of the researchers, 30% came by train; of the other attendees, 45% came by train. What percent of all attendees came by train, and what percent are non-researchers who did not come by train?",
+   "steps": [
+    "Use a total of 100: 60 researchers and 40 others.",
+    "By train: $0.30 \\cdot 60 = 18$ researchers and $0.45 \\cdot 40 = 18$ others, so $36\\%$ in all.",
+    "In the others row of the grid: $40 - 18 = 22$ did not come by train."
+   ],
+   "answer": "36% came by train; 22% are non-researchers who did not."
+  },
+  {
+   "prompt": "Of 90 students, 40 take art, 35 take music and 30 take drama. 12 take art and music, 10 take art and drama, and 9 take music and drama; these counts include the 4 who take all three. How many take exactly two, and how many take none?",
+   "steps": [
+    "Center: 4. Exactly two: art and music $12 - 4 = 8$, art and drama $10 - 4 = 6$, music and drama $9 - 4 = 5$, so exactly two $= 19$ (check: $31 - 3 \\cdot 4 = 19$).",
+    "Only art $= 40 - 4 - 8 - 6 = 22$, only music $= 35 - 4 - 8 - 5 = 18$, only drama $= 30 - 4 - 6 - 5 = 15$.",
+    "Inside the circles: $22 + 18 + 15 + 8 + 6 + 5 + 4 = 78$, as the formula gives: $105 - 31 + 4 = 78$. None $= 90 - 78 = 12$."
+   ],
+   "answer": "19 take exactly two; 12 take none."
+  }
+ ],
+ "trap": "A pair count (\"12 take art and music\") includes the people who take all three: subtract the center before writing it in an exactly-two region. And \"40% of the women\" is a percent of the women, not of the whole group.",
+ "checks": [
+  {
+   "id": "q4-15-overlapping-sets-c1",
+   "lessonId": "q4-15-overlapping-sets",
+   "difficulty": 1,
+   "stem": "Of the 90 teachers at a school, 50 are women. Of the 34 teachers who coach a sport, 15 are women. How many of the women teachers do not coach a sport?",
+   "explanation": "In the women row of the grid: $50 - 15 = 35$ women do not coach.",
+   "estSeconds": 45,
+   "skills": [
+    "two-way-table"
+   ],
+   "topics": [
+    "q4.two-way-grid"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 35
+   }
+  },
+  {
+   "id": "q4-15-overlapping-sets-c2",
+   "lessonId": "q4-15-overlapping-sets",
+   "difficulty": 2,
+   "stem": "At a company, 45 percent of the employees work remotely. Of the remote employees, 60 percent have a company laptop, and of the other employees, 20 percent have a company laptop. What percent of all employees have a company laptop?",
+   "explanation": "Turn each subgroup percent into a percent of everyone: $0.60 \\cdot 45 = 27\\%$ and $0.20 \\cdot 55 = 11\\%$. Total: $27 + 11 = 38\\%$.",
+   "choiceExplanations": {
+    "A": "$11\\%$ counts only the non-remote employees with a laptop.",
+    "B": "$27\\%$ counts only the remote employees with a laptop.",
+    "D": "$40\\%$ averages 60 and 20, but the two groups are not the same size.",
+    "E": "$60 + 20 = 80\\%$ adds percents of different groups."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "percent",
+    "two-way-table"
+   ],
+   "topics": [
+    "q4.two-set-percents"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$11\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$27\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$38\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$40\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$80\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q4-15-overlapping-sets-c3",
+   "lessonId": "q4-15-overlapping-sets",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "The pair counts include the 3 people in all three clubs, once in each of the three counts. Exactly two $= 21 - 3 \\cdot 3 = 12$; at least two $= 12 + 3 = 15$. Quantity B is greater.",
+   "estSeconds": 75,
+   "skills": [
+    "venn",
+    "inclusion-exclusion"
+   ],
+   "topics": [
+    "q4.exactly-vs-at-least-two"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of people who belong to at least two of the three clubs",
+    "quantityB": "$21$",
+    "common": "In a group of people, 9 belong to both club X and club Y, 7 belong to both X and Z, and 5 belong to both Y and Z. These counts include the 3 people who belong to all three clubs."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  }
+ ]
+}

@@ -1,0 +1,543 @@
+[
+ {
+  "id": "q2-26-coordinate-plane-skills-01",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 1,
+  "stem": "In the $xy$-plane, the point $(k,-5)$ lies on the line $3x-2y=25$. What is the value of $k$?",
+  "explanation": "A point is on the line exactly when its coordinates satisfy the equation: $3k-2(-5)=25$, so $3k+10=25$ and $k=5$.",
+  "estSeconds": 45,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.point-on-line"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-02",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 1,
+  "stem": "In the $xy$-plane, what is the midpoint of the line segment with endpoints $(-6,3)$ and $(4,-9)$?",
+  "explanation": "Average each coordinate: $\\left(\\frac{-6+4}{2},\\frac{3+(-9)}{2}\\right)=(-1,-3)$.",
+  "choiceExplanations": {
+   "A": "These are the sums of the coordinates; each sum must still be divided by 2.",
+   "C": "The $y$-coordinate here is half the *difference* $3-(-9)$, not the average of $3$ and $-9$.",
+   "D": "The signs are reversed: $-6+4=-2$ and $3-9=-6$ are both negative.",
+   "E": "These are half the differences of the coordinates, which give the distances to the midpoint, not the midpoint."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "coordinate-geometry"
+  ],
+  "topics": [
+   "q2.midpoint-formula"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-2,-6)$"
+    },
+    {
+     "id": "B",
+     "text": "$(-1,-3)$"
+    },
+    {
+     "id": "C",
+     "text": "$(-1,6)$"
+    },
+    {
+     "id": "D",
+     "text": "$(1,3)$"
+    },
+    {
+     "id": "E",
+     "text": "$(5,-6)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-03",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 2,
+  "stem": "To sketch the line $y=\\frac23x-1$, a student plots the $y$-intercept and then one more point of the line. Which of the following could be that second point?",
+  "explanation": "Start at the $y$-intercept $(0,-1)$. The slope $\\frac23$ means right 3 and up 2, which gives $(3,1)$. Check: $\\frac23\\cdot3-1=1$.",
+  "choiceExplanations": {
+   "A": "Going left 3 must go *down* 2 for a positive slope: the point would be $(-3,-3)$.",
+   "B": "This uses run 2 and rise 3, which is the slope $\\frac32$, the reciprocal.",
+   "C": "This moves down 2 instead of up 2, as for slope $-\\frac23$.",
+   "E": "This steps right 3 and up 2 from the origin instead of from the $y$-intercept $(0,-1)$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.graphing-lines",
+   "q2.point-on-line"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(-3,1)$"
+    },
+    {
+     "id": "B",
+     "text": "$(2,2)$"
+    },
+    {
+     "id": "C",
+     "text": "$(3,-3)$"
+    },
+    {
+     "id": "D",
+     "text": "$(3,1)$"
+    },
+    {
+     "id": "E",
+     "text": "$(3,2)$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-04",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 2,
+  "stem": "In the $xy$-plane, line $\\ell$ passes through the points $(-4,6)$ and $(-4,-1)$. Which of the following statements about $\\ell$ are true? Indicate all such statements.",
+  "explanation": "Both points have $x=-4$, so $\\ell$ is the vertical line $x=-4$. It is parallel to the $y$-axis, its slope is undefined, and it crosses the $x$-axis at $(-4,0)$.",
+  "choiceExplanations": {
+   "B": "$y=-4$ is a horizontal line; the shared coordinate here is $x$.",
+   "C": "Slope 0 belongs to horizontal lines. The run between the two points is 0, so the slope of a vertical line is undefined."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.horizontal-vertical-lines"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "An equation of $\\ell$ is $x=-4$."
+    },
+    {
+     "id": "B",
+     "text": "An equation of $\\ell$ is $y=-4$."
+    },
+    {
+     "id": "C",
+     "text": "The slope of $\\ell$ is $0$."
+    },
+    {
+     "id": "D",
+     "text": "Line $\\ell$ is parallel to the $y$-axis."
+    },
+    {
+     "id": "E",
+     "text": "Line $\\ell$ crosses the $x$-axis at the point $(-4,0)$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-05",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Reflecting $(a,b)$ about $y=-x$ gives $(-b,-a)$. Here $(a,b)=(-5,2)$, so the image is $(-2,5)$: $p=-2$ and $q=5$. Quantity B is greater. (Swapping without changing signs would give $(2,-5)$ and the wrong answer A.)",
+  "estSeconds": 60,
+  "skills": [
+   "coordinate-geometry"
+  ],
+  "topics": [
+   "q2.reflect-over-diagonal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "The point $(-5,2)$ is reflected about the line $y=-x$, and its image is the point $(p,q)$.",
+   "quantityA": "$p$",
+   "quantityB": "$q$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-06",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 3,
+  "stem": "In the $xy$-plane, $M(2,1)$ is the midpoint of line segment $PQ$, and $P$ has coordinates $(-3,7)$. What is the sum of the coordinates of $Q$?",
+  "explanation": "Double the midpoint and subtract $P$: $Q=(2\\cdot2-(-3),\\;2\\cdot1-7)=(7,-5)$. Check: $\\frac{-3+7}{2}=2$ and $\\frac{7-5}{2}=1$. The sum is $7+(-5)=2$.",
+  "estSeconds": 75,
+  "skills": [
+   "coordinate-geometry"
+  ],
+  "topics": [
+   "q2.midpoint-formula"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-07",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 3,
+  "stem": "In the $xy$-plane, line $\\ell$ has equation $y=-2x+7$. Which of the following lines have a negative slope and are steeper than $\\ell$? Indicate all such lines.",
+  "explanation": "Find each slope and keep those that are negative with absolute value greater than $|-2|=2$. A: $-3$. C: $y=-4x+9$, slope $-4$. E: $\\frac{-1-4}{3-1}=-\\frac52$. All three qualify.",
+  "choiceExplanations": {
+   "B": "It is steeper than $\\ell$ ($\\frac52>2$), but its slope is positive.",
+   "D": "Solved for $y$: $y=-\\frac23x+2$. The slope is negative, but $\\frac23<2$, so the line is less steep.",
+   "F": "A vertical line has undefined slope, so it does not have a negative slope."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.slope-signs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y=-3x+1$"
+    },
+    {
+     "id": "B",
+     "text": "$y=\\frac52x-4$"
+    },
+    {
+     "id": "C",
+     "text": "$4x+y=9$"
+    },
+    {
+     "id": "D",
+     "text": "$2x+3y=6$"
+    },
+    {
+     "id": "E",
+     "text": "The line through $(1,4)$ and $(3,-1)$"
+    },
+    {
+     "id": "F",
+     "text": "The line $x=4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-08",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 3,
+  "stem": "The figure shows the graph of the function $f$. What is the value of $f(f(2))$?",
+  "explanation": "Read from the inside out. At $x=2$ the graph is on the level segment, so $f(2)=4$. Then $f(4)$: the segment from $(3,4)$ to $(5,-2)$ falls 3 units per unit, so $f(4)=4-3=1$.",
+  "estSeconds": 75,
+  "skills": [
+   "function-graphs"
+  ],
+  "topics": [
+   "q2.function-graphs"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 298 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"200\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244\" y1=\"200\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"266\" y1=\"200\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"266\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"266\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"266\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"266\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"266\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"266\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-5</text><text x=\"46\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><text x=\"68\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><text x=\"90\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><text x=\"112\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><text x=\"156\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"178\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"222\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"244\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"266\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"128\" y=\"204\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-3</text><text x=\"128\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-2</text><text x=\"128\" y=\"160\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"128\" y=\"116\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"128\" y=\"94\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"128\" y=\"72\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"128\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"128\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"274\" y=\"128\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"144\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">y</text><polyline points=\"46,68 112,134 156,46 200,46 242.9,174.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"68\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"244\" cy=\"178\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"182.4\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y = f(x)</text></svg>",
+    "alt": "The graph of y = f(x) on a grid, made of four straight segments: from a filled dot at (-4, 3) down to (-1, 0), up to (1, 4), level to (3, 4), then down to an open circle at (5, -2)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 1
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-09",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 4,
+  "stem": "The figure shows the graph of the function $f$, defined for $-4\\le x<5$. Which of the following numbers are in the range of $f$? Indicate all such numbers.",
+  "explanation": "The range is the set of heights the graph reaches. The highest point is $y=4$ (on the level segment). The lowest height approached is $-2$, at $x=5$, but that endpoint is an open circle, so $-2$ is not reached. Every height in between is reached, so the range is $-2<y\\le4$: it contains $-1$, $0$, $3.5$ and $4$.",
+  "choiceExplanations": {
+   "A": "The only point at height $-2$ is the open circle at $x=5$, which is not on the graph.",
+   "F": "5 is the right end of the domain (an $x$-value). No point of the graph is as high as $y=5$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "function-graphs"
+  ],
+  "topics": [
+   "q2.domain-range-from-graph"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 298 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"200\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244\" y1=\"200\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"266\" y1=\"200\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"266\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"266\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"266\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"266\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"266\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"266\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-5</text><text x=\"46\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><text x=\"68\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><text x=\"90\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><text x=\"112\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><text x=\"156\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"178\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"222\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"244\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"266\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"128\" y=\"204\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-3</text><text x=\"128\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-2</text><text x=\"128\" y=\"160\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"128\" y=\"116\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"128\" y=\"94\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"128\" y=\"72\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"128\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"128\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"274\" y=\"128\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"144\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">y</text><polyline points=\"46,68 112,134 156,46 200,46 242.9,174.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"68\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"244\" cy=\"178\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"182.4\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y = f(x)</text></svg>",
+    "alt": "The graph of y = f(x) on a grid, made of four straight segments: from a filled dot at (-4, 3) down to (-1, 0), up to (1, 4), level to (3, 4), then down to an open circle at (5, -2)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2$"
+    },
+    {
+     "id": "B",
+     "text": "$-1$"
+    },
+    {
+     "id": "C",
+     "text": "$0$"
+    },
+    {
+     "id": "D",
+     "text": "$3.5$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    },
+    {
+     "id": "F",
+     "text": "$5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-10",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Draw the horizontal line $y=1$ and count its crossings with the graph. It meets the segment from $(-4,3)$ to $(-1,0)$ at $x=-2$, the segment from $(-1,0)$ to $(1,4)$ at $x=-\\frac12$ (between grid lines), and the segment from $(3,4)$ to $(5,-2)$ at $x=4$. That is 3 values, so the quantities are equal.",
+  "estSeconds": 90,
+  "skills": [
+   "function-graphs"
+  ],
+  "topics": [
+   "q2.function-graphs"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 298 224\"><line x1=\"24\" y1=\"200\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"200\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"200\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"200\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"200\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"200\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"200\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244\" y1=\"200\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"266\" y1=\"200\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"266\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"266\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"266\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"266\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"266\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"266\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"200\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-5</text><text x=\"46\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><text x=\"68\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><text x=\"90\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><text x=\"112\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><text x=\"156\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"178\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"200\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"222\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"244\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"266\" y=\"148\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"128\" y=\"204\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-3</text><text x=\"128\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-2</text><text x=\"128\" y=\"160\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"128\" y=\"116\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"128\" y=\"94\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"128\" y=\"72\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"128\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"128\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"274\" y=\"128\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"144\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">y</text><polyline points=\"46,68 112,134 156,46 200,46 242.9,174.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"68\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"244\" cy=\"178\" r=\"3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"182.4\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" font-style=\"italic\">y = f(x)</text></svg>",
+    "alt": "The graph of y = f(x) on a grid, made of four straight segments: from a filled dot at (-4, 3) down to (-1, 0), up to (1, 4), level to (3, 4), then down to an open circle at (5, -2)."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "The figure shows the graph of the function $f$, defined for $-4\\le x<5$.",
+   "quantityA": "The number of values of $x$ for which $f(x)=1$",
+   "quantityB": "3"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-11",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 5,
+  "stem": "In the figure, what is the area of quadrilateral $ABCD$?",
+  "explanation": "Enclose $ABCD$ in the rectangle $-3\\le x\\le6$, $-3\\le y\\le5$, of area $9\\cdot8=72$. Subtract the four corner right triangles: along $AB$ legs $4$ and $5$ (area $10$), along $BC$ legs $5$ and $3$ (area $7.5$), along $CD$ legs $4$ and $5$ (area $10$), along $DA$ legs $5$ and $3$ (area $7.5$). Area $=72-35=37$.",
+  "choiceExplanations": {
+   "A": "That is $BC^2=5^2+3^2$, the area only if $ABCD$ were a square with side $BC$; its sides are not all equal.",
+   "B": "That is the total area of the four corner triangles, which must be subtracted from the rectangle, not kept.",
+   "D": "That is $AB^2=4^2+5^2$, the area only if $ABCD$ were a square with side $AB$; $BC=\\sqrt{34}\\ne AB$.",
+   "E": "That is the enclosing rectangle; the four corner triangles lie outside $ABCD$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "coordinate-geometry"
+  ],
+  "topics": [
+   "q2.figures-on-the-plane"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 298 268\"><line x1=\"24\" y1=\"244\" x2=\"24\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"46\" y1=\"244\" x2=\"46\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"68\" y1=\"244\" x2=\"68\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"90\" y1=\"244\" x2=\"90\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"112\" y1=\"244\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"134\" y1=\"244\" x2=\"134\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"156\" y1=\"244\" x2=\"156\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"178\" y1=\"244\" x2=\"178\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"200\" y1=\"244\" x2=\"200\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"222\" y1=\"244\" x2=\"222\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"244\" y1=\"244\" x2=\"244\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"266\" y1=\"244\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"244\" x2=\"266\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"222\" x2=\"266\" y2=\"222\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"200\" x2=\"266\" y2=\"200\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"178\" x2=\"266\" y2=\"178\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"266\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"134\" x2=\"266\" y2=\"134\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"112\" x2=\"266\" y2=\"112\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"90\" x2=\"266\" y2=\"90\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"68\" x2=\"266\" y2=\"68\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"46\" x2=\"266\" y2=\"46\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"24\" x2=\"266\" y2=\"24\" stroke=\"currentColor\" stroke-opacity=\"0.12\"/><line x1=\"24\" y1=\"156\" x2=\"266\" y2=\"156\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"112\" y1=\"244\" x2=\"112\" y2=\"24\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><text x=\"46\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><text x=\"68\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><text x=\"90\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><text x=\"134\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"156\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"178\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"200\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"222\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">5</text><text x=\"244\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"266\" y=\"170\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">7</text><text x=\"106\" y=\"248\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-4</text><text x=\"106\" y=\"226\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-3</text><text x=\"106\" y=\"204\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-2</text><text x=\"106\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"106\" y=\"138\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"106\" y=\"116\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"106\" y=\"94\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">3</text><text x=\"106\" y=\"72\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">4</text><text x=\"106\" y=\"50\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">5</text><text x=\"106\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">6</text><text x=\"274\" y=\"150\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"122\" y=\"28\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\" font-style=\"italic\">y</text><polygon points=\"46,156 134,46 244,112 156,222\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"46\" cy=\"156\" r=\"3\" fill=\"currentColor\"/><text x=\"38\" y=\"150\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">A(-3, 0)</text><circle cx=\"134\" cy=\"46\" r=\"3\" fill=\"currentColor\"/><text x=\"134\" y=\"38\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">B(1, 5)</text><circle cx=\"244\" cy=\"112\" r=\"3\" fill=\"currentColor\"/><text x=\"252\" y=\"108\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">C(6, 2)</text><circle cx=\"156\" cy=\"222\" r=\"3\" fill=\"currentColor\"/><text x=\"162\" y=\"236\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">D(2, -3)</text></svg>",
+    "alt": "Quadrilateral ABCD on a grid with vertices A(-3, 0), B(1, 5), C(6, 2) and D(2, -3); none of its sides is parallel to an axis."
+   },
+   "notes": "Coordinate graph: both axes use the same scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "34"
+    },
+    {
+     "id": "B",
+     "text": "35"
+    },
+    {
+     "id": "C",
+     "text": "37"
+    },
+    {
+     "id": "D",
+     "text": "41"
+    },
+    {
+     "id": "E",
+     "text": "72"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-26-coordinate-plane-skills-12",
+  "lessonId": "q2-26-coordinate-plane-skills",
+  "difficulty": 5,
+  "stem": "In the $xy$-plane, line $\\ell$ crosses the $x$-axis at point $P$ and the $y$-axis at point $Q$, and the midpoint of segment $PQ$ is $(3,5)$. If the point $(9,t)$ lies on $\\ell$, what is the value of $t$?",
+  "explanation": "$P=(p,0)$ and $Q=(0,q)$ have midpoint $\\left(\\frac p2,\\frac q2\\right)=(3,5)$, so $P=(6,0)$ and $Q=(0,10)$. The slope is $\\frac{10-0}{0-6}=-\\frac53$ and the $y$-intercept is $10$, so $\\ell$ is $y=-\\frac53x+10$. Substitute $x=9$: $t=-15+10=-5$.",
+  "estSeconds": 120,
+  "skills": [
+   "coordinate-geometry",
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.midpoint-formula",
+   "q2.point-on-line"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -5
+  }
+ }
+]

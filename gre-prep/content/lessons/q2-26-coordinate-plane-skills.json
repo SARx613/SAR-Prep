@@ -1,0 +1,168 @@
+{
+ "id": "q2-26-coordinate-plane-skills",
+ "status": "draft",
+ "why": "Midpoints, reflections, areas on a grid, line equations and graph reading are the everyday tools of GRE coordinate questions, in Problem Solving and in Quantitative Comparison.",
+ "rule": "**Midpoint** of $(x_1,y_1)$ and $(x_2,y_2)$: $\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$, the average of each coordinate. For a missing endpoint, double the midpoint and subtract the known endpoint.\n\n**Reflection about $y=-x$:** $(a,b)\\to(-b,-a)$; swap and change both signs.\n\n**Area on a grid:** use a side parallel to an axis as base; the height is a coordinate difference. For a slanted figure, enclose it in an axis-parallel rectangle and subtract the corner right triangles.\n\n**Lines**\n- A point is on a line exactly when its coordinates satisfy the equation. Two points, or a point and the slope, fix the line.\n- To sketch $y=mx+b$, plot $(0,b)$, then go right by the run and up by the rise (down if $m<0$).\n- $m>0$ rises left to right, $m<0$ falls, $m=0$ is horizontal ($y=b$); a vertical line $x=a$ has no slope. The larger $|m|$, the steeper.\n\n**Graph of $f$**\n- $f(a)$ is the height of the graph at $x=a$; for $f(f(a))$ read twice.\n- $f(x)=k$ holds where the horizontal line $y=k$ meets the graph.\n- Domain: the $x$-values the graph covers; range: the $y$-values. A filled dot includes its point, an open dot excludes it.",
+ "lengthJustification": "The lesson gathers nine separate coordinate skills (midpoints, a reflection, grid areas, four line facts and three graph-reading facts), each needing one line.",
+ "examples": [
+  {
+   "prompt": "$M(2,-1)$ is the midpoint of segment $PQ$, and $P=(-4,3)$. Find $Q$, then decide whether $Q$ lies on the line $y=-x+3$.",
+   "steps": [
+    "Double the midpoint: $(4,-2)$. Subtract $P$: $Q=(4-(-4),\\,-2-3)=(8,-5)$.",
+    "Check: $\\frac{-4+8}{2}=2$ and $\\frac{3+(-5)}{2}=-1$.",
+    "Substitute $x=8$: $-8+3=-5$, which is the $y$-coordinate of $Q$."
+   ],
+   "answer": "$Q=(8,-5)$, and it lies on the line."
+  },
+  {
+   "prompt": "Find the area of the triangle with vertices $A(1,1)$, $B(7,3)$ and $C(3,6)$.",
+   "steps": [
+    "No side is parallel to an axis, so enclose the triangle in the rectangle $1\\le x\\le7$, $1\\le y\\le6$: area $6\\cdot5=30$.",
+    "Corner triangles: along $AB$ legs $6$ and $2$, area $6$; along $BC$ legs $4$ and $3$, area $6$; along $CA$ legs $2$ and $5$, area $5$.",
+    "$30-(6+6+5)=13$."
+   ],
+   "answer": "13"
+  }
+ ],
+ "trap": "Average **both** coordinates for a midpoint, and double before subtracting for a missing endpoint. A vertical line $x=a$ has no slope, not slope 0. Steepness is $|m|$: slope $-3$ is steeper than slope $2$. An open dot at the end of a graph means that $y$-value may be missing from the range.",
+ "checks": [
+  {
+   "id": "q2-26-coordinate-plane-skills-c1",
+   "lessonId": "q2-26-coordinate-plane-skills",
+   "difficulty": 1,
+   "stem": "The midpoint of the segment with endpoints $(-5,8)$ and $(9,-2)$ is $(a,b)$. What is the value of $a+b$?",
+   "explanation": "Average each coordinate: $a=\\frac{-5+9}{2}=2$ and $b=\\frac{8+(-2)}{2}=3$, so $a+b=5$.",
+   "estSeconds": 45,
+   "skills": [
+    "coordinate-geometry"
+   ],
+   "topics": [
+    "q2.midpoint-formula"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 5
+   }
+  },
+  {
+   "id": "q2-26-coordinate-plane-skills-c2",
+   "lessonId": "q2-26-coordinate-plane-skills",
+   "difficulty": 2,
+   "stem": "The point $(4,-7)$ is reflected about the line $y=-x$. What are the coordinates of its image?",
+   "explanation": "About $y=-x$, $(a,b)\\to(-b,-a)$: swap to $(-7,4)$, then change both signs to get $(7,-4)$.",
+   "choiceExplanations": {
+    "A": "That only swaps the coordinates, which is the reflection about $y=x$. About $y=-x$ the signs change too.",
+    "B": "That is the reflection about the $y$-axis.",
+    "C": "That is the reflection about the origin.",
+    "D": "That is the reflection about the $x$-axis."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "coordinate-geometry"
+   ],
+   "topics": [
+    "q2.reflect-over-diagonal"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$(-7,4)$"
+     },
+     {
+      "id": "B",
+      "text": "$(-4,-7)$"
+     },
+     {
+      "id": "C",
+      "text": "$(-4,7)$"
+     },
+     {
+      "id": "D",
+      "text": "$(4,7)$"
+     },
+     {
+      "id": "E",
+      "text": "$(7,-4)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "q2-26-coordinate-plane-skills-c3",
+   "lessonId": "q2-26-coordinate-plane-skills",
+   "difficulty": 2,
+   "stem": "Which of the following lines is the steepest?",
+   "explanation": "Steepness is the absolute value of the slope. The slopes are $2$, $-3$, $\\frac12$, $-1$ and $\\frac52$; the largest absolute value is $|-3|=3$.",
+   "choiceExplanations": {
+    "A": "$|2|=2$ is less than $|-3|=3$.",
+    "C": "$\\frac12$ is the flattest of the five slopes.",
+    "D": "$|-1|=1$; this line falls, but gently.",
+    "E": "$\\frac52$ is the greatest slope, but steepness compares absolute values, and $|-3|>\\frac52$."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "lines-slope"
+   ],
+   "topics": [
+    "q2.slope-signs"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$y=2x+5$"
+     },
+     {
+      "id": "B",
+      "text": "$y=-3x+1$"
+     },
+     {
+      "id": "C",
+      "text": "$y=\\frac12x-4$"
+     },
+     {
+      "id": "D",
+      "text": "$y=-x+8$"
+     },
+     {
+      "id": "E",
+      "text": "$y=\\frac52x$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ]
+}

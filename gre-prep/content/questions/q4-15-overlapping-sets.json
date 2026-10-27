@@ -1,0 +1,539 @@
+[
+ {
+  "id": "q4-15-overlapping-sets-01",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 1,
+  "stem": "Of the 200 apartments in a building, 120 have a balcony. Of the 80 apartments without a balcony, 35 have two bedrooms. In all, 90 of the apartments have two bedrooms. How many apartments have a balcony but do not have two bedrooms?",
+  "explanation": "Grid: two-bedroom apartments with a balcony $= 90 - 35 = 55$. In the balcony row, $120 - 55 = 65$ do not have two bedrooms.",
+  "estSeconds": 60,
+  "skills": [
+   "sets",
+   "two-way-table"
+  ],
+  "topics": [
+   "q4.two-way-grid"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 65
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-02",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 1,
+  "stem": "How many of the members take swimming but not yoga?",
+  "explanation": "Swimming but not yoga is the part of the Swimming circle outside the Yoga circle: swimming only plus swimming-and-tennis only, $34 + 9 = 43$.",
+  "choiceExplanations": {
+   "A": "34 is swimming only; the 9 who also play tennis (but not yoga) also count.",
+   "C": "$60 - 12 = 48$ removes the swimming-and-yoga region but forgets the center, where the 5 also take yoga.",
+   "D": "$60 - 5 = 55$ removes only the center; the 12 in swimming and yoga only also take yoga.",
+   "E": "60 is everyone who swims ($34 + 9 + 12 + 5$), including those who also take yoga."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "venn",
+   "sets"
+  ],
+  "topics": [
+   "q4.three-set-regions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Activities of the 150 members of a community center",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 380\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"13\"><rect x=\"10\" y=\"10\" width=\"500\" height=\"360\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"140\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"140\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"260\" cy=\"240\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><text x=\"95\" y=\"38\" text-anchor=\"middle\">Swimming</text><text x=\"425\" y=\"38\" text-anchor=\"middle\">Tennis</text><text x=\"400\" y=\"330\" text-anchor=\"middle\">Yoga</text><text x=\"150\" y=\"115\" text-anchor=\"middle\" font-size=\"16\">34</text><text x=\"370\" y=\"115\" text-anchor=\"middle\" font-size=\"16\">21</text><text x=\"260\" y=\"300\" text-anchor=\"middle\" font-size=\"16\">27</text><text x=\"260\" y=\"95\" text-anchor=\"middle\" font-size=\"16\">9</text><text x=\"200\" y=\"220\" text-anchor=\"middle\" font-size=\"16\">12</text><text x=\"320\" y=\"220\" text-anchor=\"middle\" font-size=\"16\">7</text><text x=\"260\" y=\"170\" text-anchor=\"middle\" font-size=\"16\">5</text><text x=\"22\" y=\"358\">In none of the three: 35</text></svg>",
+    "alt": "Three-circle Venn diagram inside a rectangle for 150 members. Swimming only 34, tennis only 21, yoga only 27, swimming and tennis but not yoga 9, swimming and yoga but not tennis 12, tennis and yoga but not swimming 7, all three 5, and 35 members in none of the three."
+   },
+   "notes": "Each number is the number of members in that region of the diagram."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$34$"
+    },
+    {
+     "id": "B",
+     "text": "$43$"
+    },
+    {
+     "id": "C",
+     "text": "$48$"
+    },
+    {
+     "id": "D",
+     "text": "$55$"
+    },
+    {
+     "id": "E",
+     "text": "$60$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-03",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 2,
+  "stem": "In a survey of the households in a town, 68 percent have a garden, 45 percent have a pet, and 17 percent have neither a garden nor a pet. What percent of the households have exactly one of the two?",
+  "explanation": "Use total $100\\%$. At least one $= 100 - 17 = 83\\%$, so both $= 68 + 45 - 83 = 30\\%$. Exactly one $=$ at least one $-$ both $= 83 - 30 = 53\\%$.",
+  "choiceExplanations": {
+   "A": "$15\\%$ have a pet only; the $38\\%$ with a garden only also have exactly one.",
+   "B": "$30\\%$ have both, not exactly one.",
+   "C": "$38\\%$ have a garden only; the $15\\%$ with a pet only also count.",
+   "E": "$83\\%$ have at least one, which includes the $30\\%$ who have both."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "inclusion-exclusion",
+   "percent"
+  ],
+  "topics": [
+   "q4.two-set-percents",
+   "q4.two-set-combined-cells"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$30\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$38\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$53\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$83\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-04",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 2,
+  "stem": "How many of the members take at least two of the three activities?",
+  "explanation": "At least two means the three exactly-two regions plus the center: $9 + 12 + 7 + 5 = 33$.",
+  "estSeconds": 60,
+  "skills": [
+   "venn",
+   "sets"
+  ],
+  "topics": [
+   "q4.three-set-regions",
+   "q4.exactly-vs-at-least-two"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Activities of the 150 members of a community center",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 520 380\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"13\"><rect x=\"10\" y=\"10\" width=\"500\" height=\"360\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"200\" cy=\"140\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"320\" cy=\"140\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><circle cx=\"260\" cy=\"240\" r=\"95\" fill=\"none\" stroke=\"currentColor\"/><text x=\"95\" y=\"38\" text-anchor=\"middle\">Swimming</text><text x=\"425\" y=\"38\" text-anchor=\"middle\">Tennis</text><text x=\"400\" y=\"330\" text-anchor=\"middle\">Yoga</text><text x=\"150\" y=\"115\" text-anchor=\"middle\" font-size=\"16\">34</text><text x=\"370\" y=\"115\" text-anchor=\"middle\" font-size=\"16\">21</text><text x=\"260\" y=\"300\" text-anchor=\"middle\" font-size=\"16\">27</text><text x=\"260\" y=\"95\" text-anchor=\"middle\" font-size=\"16\">9</text><text x=\"200\" y=\"220\" text-anchor=\"middle\" font-size=\"16\">12</text><text x=\"320\" y=\"220\" text-anchor=\"middle\" font-size=\"16\">7</text><text x=\"260\" y=\"170\" text-anchor=\"middle\" font-size=\"16\">5</text><text x=\"22\" y=\"358\">In none of the three: 35</text></svg>",
+    "alt": "Three-circle Venn diagram inside a rectangle for 150 members. Swimming only 34, tennis only 21, yoga only 27, swimming and tennis but not yoga 9, swimming and yoga but not tennis 12, tennis and yoga but not swimming 7, all three 5, and 35 members in none of the three."
+   },
+   "notes": "Each number is the number of members in that region of the diagram."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 33
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-05",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Not both $=$ total $-$ both $= 150 - 40 = 110$. Exactly one $= 90 + 70 - 2 \\cdot 40 = 80$. The difference, 30, is the people with neither document, who are counted in A but not in B. Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.two-set-combined-cells"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of respondents who do not have both documents",
+   "quantityB": "The number of respondents who have exactly one of the two documents",
+   "common": "Of 150 survey respondents, 90 have a passport, 70 have a driver's license, and 40 have both."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-06",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 3,
+  "stem": "Each of the 80 members of an outdoor club was asked whether he or she hikes and whether he or she cycles. Of the members, 45 hike and 50 cycle. The number of members who do both is twice the number who do neither. How many members do both?",
+  "explanation": "Let neither $= x$, so both $= 2x$. Hike only $= 45 - 2x$, cycle only $= 50 - 2x$. The four cells add up to 80: $(45 - 2x) + (50 - 2x) + 2x + x = 80$, so $95 - x = 80$ and $x = 15$. Both $= 30$.",
+  "choiceExplanations": {
+   "A": "15 is the number who do neither (and also $95 - 80$, the overlap you get if you forget the members who do neither).",
+   "B": "20 is the number who cycle only.",
+   "C": "If both were 25, neither would be 12.5, which is not a whole number of members.",
+   "E": "$50 - 15 = 35$ subtracts the neither count from the cyclists; it is not a cell of the grid."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "inclusion-exclusion",
+   "algebra"
+  ],
+  "topics": [
+   "q4.two-set-algebra"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15$"
+    },
+    {
+     "id": "B",
+     "text": "$20$"
+    },
+    {
+     "id": "C",
+     "text": "$25$"
+    },
+    {
+     "id": "D",
+     "text": "$30$"
+    },
+    {
+     "id": "E",
+     "text": "$35$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-07",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 3,
+  "stem": "In a survey of 200 commuters, 92 use the bus, 75 use the train, and 60 cycle. Of these, 30 use the bus and the train, 24 use the bus and cycle, and 18 use the train and cycle; these counts include the 10 commuters who do all three. How many of the commuters surveyed use exactly one of the three ways of getting to work?",
+  "explanation": "Fill from the center: all three $= 10$. Exactly two: bus and train $20$, bus and cycle $14$, train and cycle $8$. Only bus $= 92 - 10 - 20 - 14 = 48$; only train $= 75 - 10 - 20 - 8 = 37$; only cycle $= 60 - 10 - 14 - 8 = 28$. Exactly one $= 48 + 37 + 28 = 113$.",
+  "estSeconds": 120,
+  "skills": [
+   "venn",
+   "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.three-set-fill-inward-out"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 113
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-08",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 3,
+  "stem": "Of the 120 students in a language program, 58 study Arabic, 47 study Chinese, and 39 study Russian. Of these, 16 study Arabic and Chinese, 13 study Arabic and Russian, 11 study Chinese and Russian, and 6 study all three languages. How many of the 120 students study none of the three languages?",
+  "explanation": "$|A \\cup C \\cup R| = 58 + 47 + 39 - 16 - 13 - 11 + 6 = 110$, so none $= 120 - 110 = 10$.",
+  "choiceExplanations": {
+   "A": "$120 - 110 - 6 = 4$ wrongly removes the 6 again; the 6 are already inside the union.",
+   "C": "$120 - (144 - 40) = 16$ forgets to add back the 6 who study all three; subtracting the three pair counts removes them three times.",
+   "D": "$120 - (144 - 40 - 6) = 22$ subtracts the center a fourth time instead of adding it back.",
+   "E": "$120 - (144 - 40 - 2 \\cdot 6) = 28$ treats 16, 13 and 11 as exactly-two counts, but they include the 6 who study all three."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "topics": [
+   "q4.three-set-formula"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$10$"
+    },
+    {
+     "id": "C",
+     "text": "$16$"
+    },
+    {
+     "id": "D",
+     "text": "$22$"
+    },
+    {
+     "id": "E",
+     "text": "$28$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-09",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Choose 60 members (the LCM of 5, 4 and 3). Students: $\\frac25 \\cdot 60 = 24$, of whom $\\frac14 \\cdot 24 = 6$ own a car. Non-students: 36, of whom $\\frac23 \\cdot 36 = 24$ own a car. Car owners: $\\frac{30}{60} = \\frac12$. The quantities are equal.",
+  "estSeconds": 105,
+  "skills": [
+   "fractions",
+   "two-way-table"
+  ],
+  "topics": [
+   "q4.two-set-unknown-total",
+   "q4.two-set-percents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The fraction of the club's members who own a car",
+   "quantityB": "$\\frac{1}{2}$",
+   "common": "Two-fifths of the members of a club are students. One-fourth of the students and two-thirds of the members who are not students own a car."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-10",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 4,
+  "stem": "Each of the 140 people at a conference could attend any of three workshops, P, Q and R. Exactly 70 people attended P and 55 attended Q. Of the people at the conference, 20 attended P and Q, 18 attended P and R, and 15 attended Q and R; these counts include the 8 people who attended all three workshops. If 12 people attended none of the workshops, how many attended workshop R?",
+  "explanation": "Fill from the center: exactly two are $12$ (P and Q), $10$ (P and R), $7$ (Q and R); only P $= 70 - 8 - 12 - 10 = 40$; only Q $= 55 - 8 - 12 - 7 = 28$. Call only R $x$. All regions add up to 140: $40 + 28 + x + 12 + 10 + 7 + 8 + 12 = 140$, so $x = 23$. R $= 23 + 10 + 7 + 8 = 48$.",
+  "choiceExplanations": {
+   "A": "23 attended only R; R also contains the 10, 7 and 8 in its inner regions.",
+   "B": "$23 + 10 + 7 = 40$ leaves out the 8 in the center, who also attended R.",
+   "D": "56 comes from $128 = 70 + 55 + R - 53$, which forgets to add back the 8 who attended all three.",
+   "E": "60 comes from setting the union equal to 140, forgetting the 12 who attended none."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "venn",
+   "inclusion-exclusion",
+   "algebra"
+  ],
+  "topics": [
+   "q4.three-set-unknown-regions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$23$"
+    },
+    {
+     "id": "B",
+     "text": "$40$"
+    },
+    {
+     "id": "C",
+     "text": "$48$"
+    },
+    {
+     "id": "D",
+     "text": "$56$"
+    },
+    {
+     "id": "E",
+     "text": "$60$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-11",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 5,
+  "stem": "Each of 250 people in a survey was asked which of three cuisines, Thai, Indian and Mexican, he or she likes. Of these people, 100 like Thai, 85 like Indian, and 110 like Mexican. Exactly 52 people like exactly two of the three cuisines, and 13 like all three. How many of the people like none of the three cuisines?",
+  "explanation": "$100 + 85 + 110 = 295$ counts each exactly-two person twice and each all-three person 3 times. Union $= 295 - 52 - 2 \\cdot 13 = 217$, so none $= 250 - 217 = 33$.",
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "topics": [
+   "q4.exactly-vs-at-least-two"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 33
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-12",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 5,
+  "stem": "At a banquet, 55 percent of the guests ordered soup and 30 percent ordered salad. Which of the following could be the percent of the guests who ordered neither soup nor salad? Indicate all such percents.",
+  "explanation": "Neither $= 100 - (55 + 30 - \\text{both}) = 15 + \\text{both}$, and both can be anything from 0 to 30 (the smaller group). So neither runs from $15\\%$ (no overlap) to $45\\%$ (every salad orderer also ordered soup): $15\\%$, $30\\%$ and $45\\%$ are possible.",
+  "choiceExplanations": {
+   "A": "$0\\%$ would need $100\\%$ to order at least one, but at most $55 + 30 = 85\\%$ can.",
+   "B": "$10\\%$ is below the least possible value, $100 - 85 = 15\\%$.",
+   "F": "$100 - 30 = 70\\%$ would put the soup group inside the salad group, impossible because soup is the larger group; the greatest is $100 - 55 = 45\\%$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion",
+   "percent"
+  ],
+  "topics": [
+   "q4.set-overlap-extremes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$10\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$30\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$45\\%$"
+    },
+    {
+     "id": "F",
+     "text": "$70\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ }
+]
