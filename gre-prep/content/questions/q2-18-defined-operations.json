@@ -1,0 +1,551 @@
+[
+ {
+  "id": "q2-18-defined-operations-01",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 1,
+  "stem": "For all numbers $a$ and $b$, the operation $\\diamond$ is defined by $a\\diamond b=a^2-3b$. What is the value of $(-4)\\diamond2$?",
+  "explanation": "Substitute in position, keeping the brackets: $(-4)^2-3(2)=16-6=10$.",
+  "choiceExplanations": {
+   "A": "This treats $(-4)^2$ as $-16$: $-16-6=-22$.",
+   "B": "This uses $-16$ for $(-4)^2$ and also flips the sign of $3b$.",
+   "D": "This forgets the factor 3: $16-2=14$.",
+   "E": "$-3b$ is $-6$, not $+6$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "functions",
+   "defined-operations"
+  ],
+  "topics": [
+   "q2.defined-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-22$"
+    },
+    {
+     "id": "B",
+     "text": "$-10$"
+    },
+    {
+     "id": "C",
+     "text": "$10$"
+    },
+    {
+     "id": "D",
+     "text": "$14$"
+    },
+    {
+     "id": "E",
+     "text": "$22$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-02",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\boxed{-1}=(-1)(-1-3)=(-1)(-4)=4$ and $\\boxed{4}=4(4-3)=4$. The quantities are equal.",
+  "estSeconds": 50,
+  "skills": [
+   "functions",
+   "defined-operations"
+  ],
+  "topics": [
+   "q2.defined-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "For every number $k$, $\\boxed{k}$ is defined as the product of $k$ and $k-3$.",
+   "quantityA": "$\\boxed{-1}$",
+   "quantityB": "$\\boxed{4}$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-03",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 2,
+  "stem": "If $f(x)=3x-1$ and $g(x)=x^2+2$, what is the value of $f(g(2))$?",
+  "explanation": "Inner function first: $g(2)=2^2+2=6$. Then $f(6)=3(6)-1=17$.",
+  "choiceExplanations": {
+   "A": "This adds $f(2)+g(2)=5+6$; a composite feeds one output into the other function.",
+   "B": "This drops the brackets: $3x^2+2-1$ instead of $3(x^2+2)-1$.",
+   "D": "This is $g(f(2))=g(5)=27$: the order is reversed.",
+   "E": "This multiplies $f(2)\\cdot g(2)=5\\cdot6$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.composite-functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$11$"
+    },
+    {
+     "id": "B",
+     "text": "$13$"
+    },
+    {
+     "id": "C",
+     "text": "$17$"
+    },
+    {
+     "id": "D",
+     "text": "$27$"
+    },
+    {
+     "id": "E",
+     "text": "$30$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-04",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 2,
+  "stem": "The function $f$ is defined by $f(x)=\\sqrt{x+3}-4$ for all $x\\ge-3$. Which of the following describes the range of $f$?",
+  "explanation": "A square root is never negative and takes every value $\\ge0$ (here at $x\\ge-3$). Subtracting 4 shifts every output down by 4, so the outputs are exactly $y\\ge-4$, with $f(-3)=-4$.",
+  "choiceExplanations": {
+   "A": "The root alone is $\\ge0$, but every output is then lowered by 4.",
+   "B": "$x\\ge-3$ is the domain (allowed inputs), not the set of outputs.",
+   "D": "Adding to a root can only raise the output above $-4$; the minus sign is outside the root.",
+   "E": "A square root never takes negative values, so $f$ never goes below $-4$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.range-root-functions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y\\ge0$"
+    },
+    {
+     "id": "B",
+     "text": "$y\\ge-3$"
+    },
+    {
+     "id": "C",
+     "text": "$y\\ge-4$"
+    },
+    {
+     "id": "D",
+     "text": "$y\\le-4$"
+    },
+    {
+     "id": "E",
+     "text": "All real numbers"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-05",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 2,
+  "stem": "For all numbers $x$ and $y$, let $x\\odot y=xy-3x+2y$. If $x\\odot5=26$, what is the value of $x$?",
+  "explanation": "Replace $y$ by 5: $5x-3x+10=26$, so $2x=16$ and $x=8$.",
+  "estSeconds": 60,
+  "skills": [
+   "functions",
+   "defined-operations",
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.defined-operation-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-06",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Since $k^4\\ge0$, $h(k)=2-k^4\\le2$. If $k=0$, $h(k)=2$ and the quantities are equal; if $k=1$, $h(k)=1<2$. The relationship cannot be determined.",
+  "estSeconds": 60,
+  "skills": [
+   "functions",
+   "qc-strategies"
+  ],
+  "topics": [
+   "q2.range-even-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "$h(x)=2-x^4$ for all real numbers $x$, and $k$ is a real number.",
+   "quantityA": "$h(k)$",
+   "quantityB": "$2$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-07",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 3,
+  "stem": "The function $f$ is defined by $f(x)=3-|x|$ for $-2\\le x\\le5$. Which of the following numbers are in the range of $f$? Indicate all such numbers.",
+  "explanation": "On $-2\\le x\\le5$, $|x|$ takes every value from 0 (at $x=0$) to 5 (at $x=5$). So $f(x)=3-|x|$ takes every value from $3-5=-2$ to $3-0=3$: the range is $-2\\le y\\le3$. Only $-2$, $1$ and $3$ qualify.",
+  "choiceExplanations": {
+   "A": "$3-|x|=-3$ needs $|x|=6$, which lies outside the domain.",
+   "D": "$f(0)=3$: the maximum is inside the domain, not at an endpoint ($f(-2)=1$, $f(5)=-2$).",
+   "E": "$|x|\\ge0$, so $f(x)\\le3$ for every $x$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.range-meaning",
+   "q2.range-from-extremes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-3$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-08",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 3,
+  "stem": "Each function below is defined for every real number $x$ for which its value is a real number. Which of the functions have the set of all real numbers as their range? Indicate all such functions.",
+  "explanation": "Odd powers and non-constant linear functions take every real value: $4-x^3$, $\\frac{x}{2}-7$ and $(x-2)^3$. The others are bounded on one side: $x^4-1\\ge-1$, $\\sqrt{x+9}\\ge0$, $3-|x|\\le3$.",
+  "choiceExplanations": {
+   "A": "The minus sign only reflects $x^3$; it still takes every real value.",
+   "B": "$x^4\\ge0$, so $x^4-1$ never goes below $-1$.",
+   "D": "A square root is never negative.",
+   "E": "$|x|\\ge0$, so $3-|x|$ is never greater than 3.",
+   "F": "Shifting the input does not change the range of $x^3$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.range-odd-and-linear"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4-x^3$"
+    },
+    {
+     "id": "B",
+     "text": "$x^4-1$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{x}{2}-7$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{x+9}$"
+    },
+    {
+     "id": "E",
+     "text": "$3-|x|$"
+    },
+    {
+     "id": "F",
+     "text": "$(x-2)^3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-09",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 4,
+  "stem": "A workshop's total cost, in dollars, of making $n$ mugs is $C(n)=750+9n$. Each mug is sold for \\$24, and every mug made is sold. What is the least number of mugs the workshop must make for its profit (revenue minus cost) to be at least \\$1,600?",
+  "explanation": "Profit $=24n-(750+9n)=15n-750$. Set $15n-750\\ge1600$: $15n\\ge2350$, so $n\\ge156.\\overline{6}$. The number of mugs is a whole number, so the least is $157$.",
+  "estSeconds": 100,
+  "skills": [
+   "functions",
+   "word-problems",
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.function-word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 157
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-10",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 4,
+  "stem": "For all numbers $a$ and $b$, let $a\\triangledown b=a^2-2b$. If $x>0$ and $(x\\triangledown2)\\triangledown5=15$, what is the value of $x$?",
+  "explanation": "Inside first: $x\\triangledown2=x^2-4$. Then $(x^2-4)\\triangledown5=(x^2-4)^2-10=15$, so $(x^2-4)^2=25$ and $x^2-4=5$ or $-5$. $x^2=-1$ is impossible, so $x^2=9$ and, since $x>0$, $x=3$.",
+  "choiceExplanations": {
+   "A": "This computes $x\\triangledown(2\\triangledown5)=x^2+12$: the brackets say to start with $x\\triangledown2$.",
+   "C": "5 is the value of $x\\triangledown2$, not of $x$.",
+   "D": "The outer step squares its first input: $(x^2-4)^2-10$, not $(x^2-4)-10$.",
+   "E": "9 is $x^2$; take the positive square root."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "functions",
+   "defined-operations"
+  ],
+  "topics": [
+   "q2.defined-operation-several-inputs",
+   "q2.defined-operation-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$3$"
+    },
+    {
+     "id": "C",
+     "text": "$5$"
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{29}$"
+    },
+    {
+     "id": "E",
+     "text": "$9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-11",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 5,
+  "stem": "For all numbers $a$ and $b$, the operation $\\star$ is defined by $a\\star b=ab-a-b$. Which of the following statements are true for all numbers $a$, $b$ and $c$? Indicate all such statements.",
+  "explanation": "$ab-a-b$ is symmetric in $a$ and $b$, so the first is true. $a\\star1=a-a-1=-1$: true. $a\\star0=-a$, so $(a\\star0)\\star0=(-a)\\star0=a$: true. Grouping fails: $(0\\star0)\\star1=0\\star1=-1$ but $0\\star(0\\star1)=0\\star(-1)=1$. And $1\\star1=-1<0$.",
+  "choiceExplanations": {
+   "C": "Test numbers: $(0\\star0)\\star1=-1$ but $0\\star(0\\star1)=1$.",
+   "D": "$1\\star1=1-1-1=-1$, which is negative.",
+   "E": "Work from the inside: $a\\star0=-a$, then $(-a)\\star0=a$. True."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "functions",
+   "defined-operations"
+  ],
+  "topics": [
+   "q2.defined-operation-several-inputs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a\\star b=b\\star a$"
+    },
+    {
+     "id": "B",
+     "text": "$a\\star1=-1$"
+    },
+    {
+     "id": "C",
+     "text": "$(a\\star b)\\star c=a\\star(b\\star c)$"
+    },
+    {
+     "id": "D",
+     "text": "$a\\star a\\ge0$"
+    },
+    {
+     "id": "E",
+     "text": "$(a\\star0)\\star0=a$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-18-defined-operations-12",
+  "lessonId": "q2-18-defined-operations",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$g(x)=3-|x|$ takes every value $\\le3$, including 0, so $f(g(x))=(g(x))^2+2$ has least value $0^2+2=2$. Since $f(x)=x^2+2\\ge2$, $g(f(x))=3-(x^2+2)=1-x^2$ has greatest value 1. $2>1$.",
+  "estSeconds": 150,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.composite-functions",
+   "q2.range-from-extremes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "$f(x)=x^2+2$ and $g(x)=3-|x|$ for all real numbers $x$.",
+   "quantityA": "The least value of $f(g(x))$",
+   "quantityB": "The greatest value of $g(f(x))$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ }
+]

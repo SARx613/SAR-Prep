@@ -1,0 +1,142 @@
+{
+ "id": "q1-24-operations-and-signs",
+ "status": "draft",
+ "why": "Many GRE arithmetic items are decided by the order of operations, by tracking signs, or by how 0 and 1 behave, and quick rewrites save calculator time.",
+ "rule": "**Order of operations:** parentheses, then exponents, then $\\times$ and $\\div$ from left to right, then $+$ and $-$ from left to right. An exponent acts before a leading minus sign: $-3^2 = -9$ but $(-3)^2 = 9$. A fraction bar groups like brackets: $\\frac{a+b}{cd}$ means $(a+b)\\div(cd)$, so key it in with both pairs of parentheses.\n\n**Save work:**\n- Regroup into round products or sums: $4\\cdot37\\cdot25 = (4\\cdot25)\\cdot37 = 3700$.\n- Write a number as a round number plus or minus a little: $98\\cdot35 = (100-2)\\cdot35 = 3430$; $49\\cdot51 = (50-1)(50+1) = 2500-1$.\n- Estimate: bound each number, then drop the choices outside the range. A fraction is largest with the largest numerator over the smallest denominator.\n\n**Signs:**\n- $a-(-b) = a+b$. With unlike signs, subtract the absolute values and keep the sign of the larger one.\n- A product or quotient of nonzero numbers is negative exactly when it has an odd number of negative factors. An even power is never negative.\n\n**Zero and one:** 0 is even, neither positive nor negative, a multiple of every integer ($0 = 0\\cdot n$) and never a divisor; $0^n = 0$ for $n>0$. 1 is not prime, $1^n = 1$ and $1\\cdot x = x$. If integers have $ab = 1$, then $a = b = 1$ or $a = b = -1$.",
+ "lengthJustification": "Ten separate facts (operation order, fraction bar, three shortcuts, two sign rules, zero, one, integer product 1) are each the key step of a practice question, so each needs its own line.",
+ "examples": [
+  {
+   "prompt": "Evaluate $\\dfrac{-2^4+6}{(-1)^3\\cdot5}$.",
+   "steps": [
+    "Exponents first: $-2^4 = -16$ (the minus is applied after the power) and $(-1)^3 = -1$.",
+    "The bar groups each part: numerator $-16+6 = -10$, denominator $-1\\cdot5 = -5$.",
+    "Two negatives in the quotient give a positive: $\\frac{-10}{-5} = 2$."
+   ],
+   "answer": "2"
+  },
+  {
+   "prompt": "Integers $p$ and $q$ satisfy $(p+4)(3-q) = 1$. What values can $p-q$ take?",
+   "steps": [
+    "Two integers with product 1 are both 1 or both $-1$.",
+    "Both 1: $p = -3$, $q = 2$, so $p-q = -5$.",
+    "Both $-1$: $p = -5$, $q = 4$, so $p-q = -9$."
+   ],
+   "answer": "$-5$ or $-9$"
+  }
+ ],
+ "trap": "$-3^2$ is $-9$, not 9, and $a+b\\div c$ is not $\\frac{a+b}{c}$. Zero is even but not positive; 1 is not prime. When integers multiply to 1, do not forget the case where both are $-1$.",
+ "checks": [
+  {
+   "id": "q1-24-operations-and-signs-c1",
+   "lessonId": "q1-24-operations-and-signs",
+   "difficulty": 1,
+   "stem": "What is the value of $7-3\\cdot(-2)^3$?",
+   "explanation": "Exponent first: $(-2)^3 = -8$. Then multiply: $3\\cdot(-8) = -24$. Last, subtract: $7-(-24) = 7+24 = 31$.",
+   "estSeconds": 45,
+   "skills": [
+    "operations-signs"
+   ],
+   "topics": [
+    "q1.order-of-operations",
+    "q1.add-subtract-signed"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 31
+   }
+  },
+  {
+   "id": "q1-24-operations-and-signs-c2",
+   "lessonId": "q1-24-operations-and-signs",
+   "difficulty": 2,
+   "stem": "Which of the following statements are true? Indicate all such statements.",
+   "explanation": "0 is even ($0 = 2\\cdot0$) and a multiple of 7 ($0 = 7\\cdot0$). It is neither positive nor negative, it never divides a number, and 1 is not prime.",
+   "choiceExplanations": {
+    "B": "0 is neither positive nor negative.",
+    "C": "A prime has exactly two positive divisors; 1 has only one.",
+    "E": "Division by 0 is undefined, so 0 is not a factor of any number."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "operations-signs"
+   ],
+   "topics": [
+    "q1.properties-of-zero",
+    "q1.properties-of-one"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "0 is an even integer."
+     },
+     {
+      "id": "B",
+      "text": "0 is a positive integer."
+     },
+     {
+      "id": "C",
+      "text": "1 is a prime number."
+     },
+     {
+      "id": "D",
+      "text": "0 is a multiple of 7."
+     },
+     {
+      "id": "E",
+      "text": "0 is a factor of 14."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q1-24-operations-and-signs-c3",
+   "lessonId": "q1-24-operations-and-signs",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$x^3$ has three negative factors, so it is negative; times $-2$ (one more negative, four in all) the product is positive. Quantity A is greater than 0.",
+   "estSeconds": 45,
+   "skills": [
+    "operations-signs"
+   ],
+   "topics": [
+    "q1.sign-of-product-quotient"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$-2x^3$",
+    "quantityB": "0",
+    "common": "$x<0$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

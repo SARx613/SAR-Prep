@@ -1,0 +1,500 @@
+[
+ {
+  "id": "q1-22-decimal-expansions-01",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 1,
+  "stem": "A lab balance shows the mass of a sample as 0.08627 kilogram. What is the mass rounded to the nearest thousandth of a kilogram?",
+  "explanation": "The thousandths digit is 6 ($0.08\\mathbf{6}27$). The next digit, 2, is less than 5, so keep the 6 and drop the rest: $0.086$.",
+  "estSeconds": 45,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.rounding"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "kilogram",
+   "round": 3
+  },
+  "answer": {
+   "value": 0.086
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-02",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 1,
+  "stem": "What is the value of $0.0725\\times10^{4}$?",
+  "explanation": "Multiplying by $10^4$ moves the point 4 places right: $0.0725\\to725$.",
+  "choiceExplanations": {
+   "A": "This moves the point only 2 places.",
+   "B": "This moves the point only 3 places.",
+   "D": "This moves the point 5 places, one too many.",
+   "E": "This is $0.0725\\times10^{6}$: the point moved 6 places instead of 4."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.powers-of-ten"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$7.25$"
+    },
+    {
+     "id": "B",
+     "text": "$72.5$"
+    },
+    {
+     "id": "C",
+     "text": "$725$"
+    },
+    {
+     "id": "D",
+     "text": "$7{,}250$"
+    },
+    {
+     "id": "E",
+     "text": "$72{,}500$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-03",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 2,
+  "stem": "Which of the following lists the numbers $0.37$, $0.307$, $0.3$, and $0.3077$ in increasing order?",
+  "explanation": "Pad to four places: $0.3700$, $0.3070$, $0.3000$, $0.3077$. Compare from the left: $0.3000<0.3070<0.3077<0.3700$.",
+  "choiceExplanations": {
+   "A": "This orders by the number of digits; more digits does not mean larger.",
+   "C": "$0.37 = 0.3700$ is greater than $0.3077$.",
+   "D": "$0.307 = 0.3070$ is less than $0.3077$.",
+   "E": "This is decreasing order."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.ordering-decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.3,\\ 0.37,\\ 0.307,\\ 0.3077$"
+    },
+    {
+     "id": "B",
+     "text": "$0.3,\\ 0.307,\\ 0.3077,\\ 0.37$"
+    },
+    {
+     "id": "C",
+     "text": "$0.3,\\ 0.307,\\ 0.37,\\ 0.3077$"
+    },
+    {
+     "id": "D",
+     "text": "$0.3,\\ 0.3077,\\ 0.307,\\ 0.37$"
+    },
+    {
+     "id": "E",
+     "text": "$0.37,\\ 0.3077,\\ 0.307,\\ 0.3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-04",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 2,
+  "stem": "The fraction $\\frac{5}{37}$ equals the repeating decimal $0.\\overline{135} = 0.135135135\\ldots$ What is the 50th digit to the right of the decimal point?",
+  "explanation": "The block 135 has 3 digits. $50 = 16\\cdot3+2$, so the 50th digit is the 2nd digit of the block: 3.",
+  "estSeconds": 60,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.repeating-decimal-digit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-05",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: move the point 3 places left, $0.0475$. B: move it 2 places right, $0.475$. Since $0.475>0.0475$, B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.powers-of-ten"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$47.5\\times10^{-3}$",
+   "quantityB": "$0.00475\\times10^{2}$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-06",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 3,
+  "stem": "Which of the following is equal to $\\dfrac{(9\\times10^{-6})(4\\times10^{8})}{1.2\\times10^{-3}}$?",
+  "explanation": "Front parts: $\\frac{9\\cdot4}{1.2} = 30$. Exponents: $-6+8-(-3) = 5$. So the value is $30\\times10^{5} = 3\\times10^{6}$.",
+  "choiceExplanations": {
+   "A": "This adds $-3$ instead of subtracting it: $30\\times10^{-1} = 3$.",
+   "B": "This multiplies by $1.2\\times10^{-3}$ instead of dividing by it.",
+   "C": "Renormalizing $30\\times10^{5}$ needs one more power of ten, not one fewer.",
+   "D": "This turns 30 into 3 without adding 1 to the exponent."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.scientific-notation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3\\times10^{0}$"
+    },
+    {
+     "id": "B",
+     "text": "$4.32\\times10^{0}$"
+    },
+    {
+     "id": "C",
+     "text": "$3\\times10^{4}$"
+    },
+    {
+     "id": "D",
+     "text": "$3\\times10^{5}$"
+    },
+    {
+     "id": "E",
+     "text": "$3\\times10^{6}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-07",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 3,
+  "stem": "How many zeros are at the end of the integer $2^{8}\\cdot15^{3}\\cdot35^{2}$?",
+  "explanation": "$15^3 = 3^3\\cdot5^3$ and $35^2 = 5^2\\cdot7^2$, so the product is $2^8\\cdot3^3\\cdot5^5\\cdot7^2$. Each zero needs a pair $2\\cdot5$, and only five 5s are available: 5 zeros.",
+  "choiceExplanations": {
+   "A": "This counts only the 5s in $35^2$.",
+   "B": "This counts only the 5s in $15^3$.",
+   "D": "This uses the exponent of 2, but each 2 needs a 5 to make a 10.",
+   "E": "This adds the exponents $8+5$; zeros come from pairs, so take the smaller one."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.trailing-zeros"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2$"
+    },
+    {
+     "id": "B",
+     "text": "$3$"
+    },
+    {
+     "id": "C",
+     "text": "$5$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$13$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-08",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The hundredths digit is 8 and the next digit is 5, so the size $4.2851$ rounds up to $4.29$; A is $-4.29$. Since $-4.29<-4.28$, B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.rounding"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$-4.2851$ rounded to the nearest hundredth",
+   "quantityB": "$-4.28$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-09",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 4,
+  "stem": "Which of the following fractions are equal to terminating decimals? Indicate all such fractions.",
+  "explanation": "Reduce, then look at the denominator. $\\frac{13}{160}$: $160 = 2^5\\cdot5$. $\\frac{27}{225} = \\frac{3}{25}$. $\\frac{7}{56} = \\frac{1}{8}$. These three have only 2s and 5s, so they terminate. $\\frac{15}{140} = \\frac{3}{28}$ keeps a 7, and $\\frac{11}{48}$ keeps a 3.",
+  "choiceExplanations": {
+   "B": "Reducing removes the 5, but $\\frac{3}{28}$ still has 7 in the denominator, so it repeats.",
+   "C": "$225 = 3^2\\cdot5^2$ looks bad, but the 3s cancel: $\\frac{3}{25} = 0.12$.",
+   "D": "$56 = 2^3\\cdot7$ looks bad, but the 7 cancels: $\\frac{1}{8} = 0.125$.",
+   "E": "$48 = 2^4\\cdot3$ and 11 does not cancel the 3, so it repeats."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.terminating-decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{13}{160}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{15}{140}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{27}{225}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{7}{56}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{11}{48}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-10",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 4,
+  "stem": "When $\\frac{1}{2^{4}\\cdot5^{9}}$ is written as a decimal, how many zeros are between the decimal point and the first nonzero digit?",
+  "explanation": "Multiply top and bottom by $2^5$: $\\frac{2^5}{10^9} = 32\\times10^{-9} = 3.2\\times10^{-8}$. That is $0.000000032$: $8-1 = 7$ zeros.",
+  "choiceExplanations": {
+   "A": "This uses the exponent of 2.",
+   "B": "This subtracts the exponents, $9-4$.",
+   "D": "$3.2\\times10^{-8}$ has $8-1$ zeros before the 3, not 8.",
+   "E": "$10^{-9}$ alone has 8 zeros, and the factor 32 removes one more."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.leading-zeros-decimals"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$5$"
+    },
+    {
+     "id": "C",
+     "text": "$7$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$9$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-11",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 5,
+  "stem": "When the product $8^{5}\\cdot25^{8}\\cdot3$ is written out as an integer, how many digits does it have?",
+  "explanation": "$8^5 = 2^{15}$ and $25^8 = 5^{16}$. Pair fifteen 2s with fifteen 5s: $2^{15}\\cdot5^{16}\\cdot3 = 5\\cdot3\\cdot10^{15} = 15\\times10^{15}$. That is 15 followed by 15 zeros: $2+15 = 17$ digits.",
+  "estSeconds": 120,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.digit-count-from-zeros"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 17
+  }
+ },
+ {
+  "id": "q1-22-decimal-expansions-12",
+  "lessonId": "q1-22-decimal-expansions",
+  "difficulty": 5,
+  "stem": "The decimal expansion of $\\frac{3}{70}$ is $0.0\\overline{428571}$, where the block 428571 repeats forever. What is the 500th digit to the right of the decimal point?",
+  "explanation": "The first digit, 0, does not repeat, so the 500th digit is the 499th digit of the repeating part. $499 = 83\\cdot6+1$, so it is the 1st digit of the block 428571: 4.",
+  "estSeconds": 120,
+  "skills": [
+   "decimal-expansions"
+  ],
+  "topics": [
+   "q1.repeating-decimal-digit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  }
+ }
+]

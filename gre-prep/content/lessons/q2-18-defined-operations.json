@@ -1,0 +1,139 @@
+{
+ "id": "q2-18-defined-operations",
+ "status": "draft",
+ "why": "GRE questions often define a new symbol or rule in the stem, compose two functions, or ask which values a function can output.",
+ "rule": "A made-up symbol, or a rule given in words, is just a function: copy the definition and put each input in its own position, in brackets. If $a\\#b=ab-a+b$, then $3\\#(-2)=(3)(-2)-3+(-2)=-11$.\n\n- **Equation:** use the definition to turn it into an ordinary equation, then solve.\n- **Nested:** work from the innermost brackets out. Swap inputs only if $a\\#b=b\\#a$ for all $a,b$.\n- **Composite** $f(g(x))$: find $g(x)$ first, then feed that output to $f$. Usually $f(g(x))\\ne g(f(x))$.\n- **Model:** in $C(n)=500+12n$, $n$ is units made and $C$ is dollars. Set the function equal to a target and solve; keep only sensible inputs ($t\\ge0$, whole units).\n\nThe **range** is the set of outputs: $y$ is in it exactly when $f(x)=y$ has a solution in the domain.\n\n- $x^2$, $x^4$, $\\sqrt{x}$ and $|x|$ are never negative and take every value $\\ge0$. So $x^2+c$, $\\sqrt{x-a}+c$ and $k|x-h|+c$ ($k>0$) have range $y\\ge c$; a minus sign in front gives $y\\le c$.\n- $x^3$, $x^5$ and $mx+b$ ($m\\ne0$) take every real value.\n- On a restricted domain, check the endpoints and any minimum or maximum inside.",
+ "lengthJustification": "The lesson covers ten tested points (defined symbols, equations, nesting, composites, models and five kinds of range), each needed by a practice question.",
+ "examples": [
+  {
+   "prompt": "With $a\\#b=ab-a+b$, find $(2\\#3)\\#(-1)$, then solve $x\\#4=19$.",
+   "steps": [
+    "Inner first: $2\\#3=(2)(3)-2+3=7$.",
+    "Then $7\\#(-1)=(7)(-1)-7+(-1)=-15$.",
+    "Equation: $x\\#4=4x-x+4=3x+4$, so $3x+4=19$ and $x=5$."
+   ],
+   "answer": "$-15$; $x=5$"
+  },
+  {
+   "prompt": "Let $f(x)=2x+1$ and $g(x)=x^2$. Find $f(g(3))$, $g(f(3))$ and the range of $f(g(x))$.",
+   "steps": [
+    "$g(3)=9$, then $f(9)=19$.",
+    "$f(3)=7$, then $g(7)=49$: the order changes the answer.",
+    "$f(g(x))=2x^2+1$. Since $x^2$ takes every value $\\ge0$, $2x^2+1$ takes every value $\\ge1$."
+   ],
+   "answer": "$19$, $49$; range $y\\ge1$"
+  }
+ ],
+ "trap": "Keep brackets around a negative input: if $a\\star b=a^2-b$, then $(-3)\\star2=(-3)^2-2=7$, not $-9-2$. Do not compute $g(f(x))$ when asked for $f(g(x))$. And the range is not the domain: $\\sqrt{x-2}+5$ needs $x\\ge2$, but its outputs are $y\\ge5$.",
+ "checks": [
+  {
+   "id": "q2-18-defined-operations-c1",
+   "lessonId": "q2-18-defined-operations",
+   "difficulty": 1,
+   "stem": "For all numbers $p$ and $q$, the operation $\\triangle$ is defined by $p\\,\\triangle\\,q=2p-q^2$. What is the value of $3\\,\\triangle\\,(-4)$?",
+   "explanation": "Put each input in its place, in brackets: $2(3)-(-4)^2=6-16=-10$.",
+   "estSeconds": 45,
+   "skills": [
+    "functions"
+   ],
+   "topics": [
+    "q2.defined-operations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": -10
+   }
+  },
+  {
+   "id": "q2-18-defined-operations-c2",
+   "lessonId": "q2-18-defined-operations",
+   "difficulty": 2,
+   "stem": "If $f(x)=x-4$ and $g(x)=2x^2$, what is the value of $g(f(1))$?",
+   "explanation": "Inner function first: $f(1)=1-4=-3$. Then $g(-3)=2(-3)^2=2\\cdot9=18$.",
+   "choiceExplanations": {
+    "A": "$(-3)^2$ is $+9$, so $2(-3)^2=18$, not $-18$.",
+    "B": "This is $f(g(1))=f(2)=-2$: the order is reversed.",
+    "C": "This is $g(1)$; the input $1$ must go through $f$ first.",
+    "E": "Only $x$ is squared: $2(-3)^2=18$, not $(2\\cdot(-3))^2=36$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "functions"
+   ],
+   "topics": [
+    "q2.composite-functions"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-18$"
+     },
+     {
+      "id": "B",
+      "text": "$-2$"
+     },
+     {
+      "id": "C",
+      "text": "$2$"
+     },
+     {
+      "id": "D",
+      "text": "$18$"
+     },
+     {
+      "id": "E",
+      "text": "$36$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q2-18-defined-operations-c3",
+   "lessonId": "q2-18-defined-operations",
+   "difficulty": 2,
+   "stem": "A stone is thrown upward from the edge of a cliff. Its height above the water below, in feet, $t$ seconds after it is thrown is $h(t)=-16t^2+32t+48$. How many seconds after it is thrown does the stone hit the water?",
+   "explanation": "The stone hits the water when $h(t)=0$: $-16(t^2-2t-3)=0$, so $(t-3)(t+1)=0$. Time cannot be negative, so $t=3$.",
+   "estSeconds": 75,
+   "skills": [
+    "functions",
+    "quadratic-factoring"
+   ],
+   "topics": [
+    "q2.function-word-problems"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 3
+   }
+  }
+ ]
+}

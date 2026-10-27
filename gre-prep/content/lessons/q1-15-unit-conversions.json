@@ -1,0 +1,138 @@
+{
+ "id": "q1-15-unit-conversions",
+ "status": "draft",
+ "why": "GRE word problems mix units (minutes and hours, feet and yards, gallons and cubic feet), so converting cleanly is a step in many rate, fuel, travel and tank questions.",
+ "rule": "A **conversion factor** is a fraction equal to 1, such as $\\frac{60\\text{ min}}{1\\text{ h}}$: multiplying by it changes the unit, not the amount. Put the unit you want to remove in the denominator so it cancels. The GRE states every conversion except common ones (time units, dollars and cents, metric prefixes).\n\n- **Chains:** multiply factors in a row, writing the units; each unwanted unit must cancel.\n- **Rates:** convert the top and bottom units separately: $\\frac{\\text{km}}{\\text{h}}\\cdot\\frac{1000\\text{ m}}{1\\text{ km}}\\cdot\\frac{1\\text{ h}}{3600\\text{ s}}$.\n- **Area, volume:** square or cube the length factor: $1\\text{ yd}^2=9\\text{ ft}^2$, $1\\text{ m}^3=100^3\\text{ cm}^3$.\n- **Fuel:** fuel used $=$ distance $\\div$ efficiency; cost $=$ fuel used $\\times$ price. Fuel used varies inversely with efficiency.\n- **Time zones:** convert both clock times to one zone, then subtract.\n- **Filling:** time $=$ volume to fill $\\div$ net rate (inflow minus outflow), both in the same units; fill only the empty part. For a box or cylinder, volume $=$ base area $\\times$ depth, so the depth rises at rate $\\div$ base area.",
+ "lengthJustification": "The lesson hosts eight checklist topics (conversion technique plus fuel, time-zone and fill-rate applications), and each needs its own one-line method.",
+ "examples": [
+  {
+   "prompt": "Convert 54 kilometers per hour to meters per second.",
+   "steps": [
+    "$54\\,\\frac{\\text{km}}{\\text{h}}\\cdot\\frac{1000\\text{ m}}{1\\text{ km}}\\cdot\\frac{1\\text{ h}}{3600\\text{ s}}$: kilometers and hours cancel, leaving meters per second.",
+    "$\\frac{54\\cdot1000}{3600}=15$."
+   ],
+   "answer": "15 meters per second"
+  },
+  {
+   "prompt": "A tank shaped like a rectangular box, 5 feet by 4 feet by 3 feet, is 40 percent full. Water flows in at 6 gallons per minute. Given that 1 cubic foot = 7.5 gallons, how many minutes until the tank is full?",
+   "steps": [
+    "Volume $=5\\cdot4\\cdot3=60\\text{ ft}^3$; the empty part is 60 percent of it, $36\\text{ ft}^3$.",
+    "Match the units: $36\\text{ ft}^3\\cdot\\frac{7.5\\text{ gal}}{1\\text{ ft}^3}=270\\text{ gal}$.",
+    "Time $=\\frac{270}{6}=45$ minutes."
+   ],
+   "answer": "45 minutes"
+  }
+ ],
+ "trap": "Area and volume need the factor squared or cubed: $1\\text{ yd}=3\\text{ ft}$, but $1\\text{ yd}^2=9\\text{ ft}^2$ and $1\\text{ yd}^3=27\\text{ ft}^3$. Using the length factor once is the classic wrong choice. Likewise, never subtract clock times read in two different time zones.",
+ "checks": [
+  {
+   "id": "q1-15-unit-conversions-c1",
+   "lessonId": "q1-15-unit-conversions",
+   "difficulty": 1,
+   "stem": "Given that 1 foot = 12 inches and 1 inch = 2.54 centimeters, how many centimeters long is a shelf that is 2 feet long?",
+   "explanation": "Chain the factors so feet, then inches, cancel: $2\\text{ ft}\\cdot\\frac{12\\text{ in}}{1\\text{ ft}}\\cdot\\frac{2.54\\text{ cm}}{1\\text{ in}}=24\\cdot2.54=60.96\\text{ cm}$.",
+   "estSeconds": 60,
+   "skills": [
+    "unit-conversion"
+   ],
+   "topics": [
+    "q1.conversion-chains",
+    "q1.conversion-factors"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal"
+   },
+   "answer": {
+    "value": 60.96
+   }
+  },
+  {
+   "id": "q1-15-unit-conversions-c2",
+   "lessonId": "q1-15-unit-conversions",
+   "difficulty": 2,
+   "stem": "A rectangular rug measures 12 feet by 15 feet. Given that 1 yard = 3 feet, what is the area of the rug, in square yards?",
+   "explanation": "Area $=12\\cdot15=180\\text{ ft}^2$. Since $1\\text{ yd}^2=3^2=9\\text{ ft}^2$, the area is $\\frac{180}{9}=20$ square yards. (Or convert first: 4 yards by 5 yards.)",
+   "choiceExplanations": {
+    "B": "Divides by 3: the length factor was used once instead of squared.",
+    "C": "This is the area in square feet.",
+    "D": "Multiplies by 3: wrong direction and not squared.",
+    "E": "Multiplies by 9: the factor is squared but put the wrong way up."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "unit-conversion"
+   ],
+   "topics": [
+    "q1.area-volume-units"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "20"
+     },
+     {
+      "id": "B",
+      "text": "60"
+     },
+     {
+      "id": "C",
+      "text": "180"
+     },
+     {
+      "id": "D",
+      "text": "540"
+     },
+     {
+      "id": "E",
+      "text": "1,620"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "q1-15-unit-conversions-c3",
+   "lessonId": "q1-15-unit-conversions",
+   "difficulty": 2,
+   "stem": "An empty 300-gallon tank is filled by a hose that delivers 12 gallons per minute, while a leak drains 2 gallons per minute. How many minutes does it take to fill the tank?",
+   "explanation": "Net rate $=12-2=10$ gallons per minute. Time $=\\frac{300}{10}=30$ minutes.",
+   "estSeconds": 45,
+   "skills": [
+    "unit-conversion"
+   ],
+   "topics": [
+    "q3.volume-and-rate"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 30
+   }
+  }
+ ]
+}

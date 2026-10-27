@@ -1,0 +1,167 @@
+{
+ "id": "q1-18-remainders-units-digits",
+ "status": "draft",
+ "why": "Remainder, units-digit and \"must be even\" questions appear in all three Quant formats and reward a pattern over brute force.",
+ "rule": "Every division $c = qd + r$ has $0 \\le r < d$: a remainder of 9 means the divisor is at least 10, and $d$ divides $c - r$.\n\n- **Fraction form:** $\\frac{c}{d} = q + \\frac{r}{d}$, e.g. $\\frac{29}{4} = 7\\frac{1}{4} = 7.25$. Back: remainder $=$ decimal part $\\times$ divisor.\n- **Sums, products, powers:** replace each number by its remainder, compute, then reduce below $d$. If $a$ and $b$ leave $r$ and $s$, then $a+b$, $ab$ and $a^k$ leave what $r+s$, $rs$ and $r^k$ leave (for $a-b$, add $d$ if $r-s$ is negative).\n- **Last digits:** the remainder by 10, 100 or 1000 is the number formed by the last 1, 2 or 3 digits; by 5, use the last digit.\n- **Cycles:** remainders of $a, a^2, a^3, \\dots$ repeat (each is the previous remainder times $a$, reduced). Divide the exponent by the cycle length; its remainder gives the position, and 0 means the *last* term.\n- **Units digits** are remainders by 10, so only units digits matter: $\\dots24\\times\\dots13$ ends in 2. Cycles: 2, 4, 8, 6 for 2; 3, 9, 7, 1 for 3; 7, 9, 3, 1 for 7; 8, 4, 2, 6 for 8; 4, 6 for 4; 9, 1 for 9; 0, 1, 5, 6 never change.",
+ "lengthJustification": "Six independent remainder and units-digit techniques are each the key step of at least one practice question, so each needs its own line.",
+ "examples": [
+  {
+   "prompt": "For positive integers $n$ and $d$, $\\frac{n}{d} = 30.75$. If $d = 12$, what is the remainder when $n$ is divided by $d$? What is true of the remainder for any such $d$?",
+   "steps": [
+    "Remainder $=$ decimal part $\\times$ divisor $= 0.75\\cdot 12 = 9$. Check: $n = 30\\cdot12 + 9 = 369$ and $\\frac{369}{12} = 30.75$.",
+    "In general $0.75 = \\frac{3}{4}$, so $r = \\frac{3d}{4}$: the remainder is always a multiple of 3."
+   ],
+   "answer": "9; the remainder is always a multiple of 3"
+  },
+  {
+   "prompt": "What is the remainder when $4^{35}$ is divided by 7?",
+   "steps": [
+    "Remainders of $4, 4^2, 4^3$: 4, then $4\\cdot4 = 16 \\to 2$, then $2\\cdot4 = 8 \\to 1$. Next comes $1\\cdot4 = 4$ again, so the cycle 4, 2, 1 has length 3.",
+    "$35 = 3\\cdot11 + 2$: take the 2nd term of the cycle."
+   ],
+   "answer": "2"
+  }
+ ],
+ "trap": "Parity rules hold for integers only. Even $\\div$ even can be odd ($\\frac{6}{2} = 3$) or not an integer ($\\frac{2}{4}$); odd $\\div$ odd, when it is an integer, is odd. Always reduce: remainders 7 and 5 by 9 give $a+b$ remainder 3, not 12. The decimal part is not the remainder: multiply it by the divisor.",
+ "checks": [
+  {
+   "id": "q1-18-remainders-units-digits-c1",
+   "lessonId": "q1-18-remainders-units-digits",
+   "difficulty": 1,
+   "stem": "$\\frac{50}{8} = 6.25$. What is the remainder when 50 is divided by 8?",
+   "explanation": "Remainder $=$ decimal part $\\times$ divisor $= 0.25\\cdot 8 = 2$. Check: $6\\cdot 8 + 2 = 50$.",
+   "estSeconds": 45,
+   "skills": [
+    "remainders-units-digits"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 2
+   },
+   "topics": [
+    "q1.decimal-part-to-remainder"
+   ]
+  },
+  {
+   "id": "q1-18-remainders-units-digits-c2",
+   "lessonId": "q1-18-remainders-units-digits",
+   "difficulty": 2,
+   "stem": "What is the units digit of $7^{30}$?",
+   "explanation": "Units digits of powers of 7 cycle 7, 9, 3, 1 (length 4). $30 = 4\\cdot 7 + 2$, so take the 2nd term: 9.",
+   "choiceExplanations": {
+    "A": "No power of 7 ends in 0.",
+    "B": "1 is the 4th term; it would need an exponent that is a multiple of 4.",
+    "C": "3 is the 3rd term of the cycle, not the 2nd.",
+    "D": "7 is the 1st term; it ignores the cycle position."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "remainders-units-digits"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "0"
+     },
+     {
+      "id": "B",
+      "text": "1"
+     },
+     {
+      "id": "C",
+      "text": "3"
+     },
+     {
+      "id": "D",
+      "text": "7"
+     },
+     {
+      "id": "E",
+      "text": "9"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E"
+    ]
+   },
+   "topics": [
+    "q1.units-digit-cycles"
+   ]
+  },
+  {
+   "id": "q1-18-remainders-units-digits-c3",
+   "lessonId": "q1-18-remainders-units-digits",
+   "difficulty": 3,
+   "stem": "What is the remainder when $3^{22}$ is divided by 5?",
+   "explanation": "The remainder by 5 depends only on the units digit. Units digits of powers of 3 cycle 3, 9, 7, 1; $22 = 4\\cdot5 + 2$, so $3^{22}$ ends in 9. A number ending in 9 leaves remainder 4 on division by 5.",
+   "choiceExplanations": {
+    "A": "1 is the units digit for an exponent that is a multiple of 4; 22 is not.",
+    "B": "2 is the remainder for a units digit of 7, the 3rd term of the cycle, not the 2nd.",
+    "C": "3 is the remainder for a units digit of 3, the 1st term of the cycle.",
+    "E": "9 is the units digit, not the remainder: a remainder by 5 must be less than 5."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "remainders-units-digits"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "1"
+     },
+     {
+      "id": "B",
+      "text": "2"
+     },
+     {
+      "id": "C",
+      "text": "3"
+     },
+     {
+      "id": "D",
+      "text": "4"
+     },
+     {
+      "id": "E",
+      "text": "9"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   },
+   "topics": [
+    "q1.remainder-by-powers-of-ten",
+    "q1.units-digit-cycles"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,522 @@
+[
+ {
+  "id": "q1-20-powers-roots-size-sign-01",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 1,
+  "stem": "The number $\\sqrt{210}$ lies between which two consecutive integers?",
+  "explanation": "Find the perfect squares around 210: $14^2=196$ and $15^2=225$. Since $196<210<225$, $14<\\sqrt{210}<15$.",
+  "choiceExplanations": {
+   "A": "$14^2=196$ is still below 210, so the root is above 14.",
+   "C": "$15^2=225$ is already above 210, so the root is below 15.",
+   "D": "Dividing 210 by 10 is not taking a square root: $21^2=441$.",
+   "E": "Halving 210 is not taking a square root."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.squares-and-roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "13 and 14"
+    },
+    {
+     "id": "B",
+     "text": "14 and 15"
+    },
+    {
+     "id": "C",
+     "text": "15 and 16"
+    },
+    {
+     "id": "D",
+     "text": "20 and 21"
+    },
+    {
+     "id": "E",
+     "text": "105 and 106"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-02",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\sqrt{\\frac{36}{49}}=\\frac{6}{7}=\\frac{42}{49}$, which is greater than $\\frac{36}{49}$. For a number between 0 and 1, the square root is larger than the number. A is greater.",
+  "estSeconds": 45,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.squares-between-zero-and-one",
+   "q1.roots-of-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{\\dfrac{36}{49}}$",
+   "quantityB": "$\\dfrac{36}{49}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-03",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 2,
+  "stem": "What is the value of $\\sqrt{0.0016}+\\left(\\dfrac{3}{10}\\right)^2$?",
+  "explanation": "$\\sqrt{0.0016}=0.04$ (four decimal places become two) and $\\left(\\frac{3}{10}\\right)^2=\\frac{9}{100}=0.09$. Sum: $0.13$.",
+  "choiceExplanations": {
+   "A": "$\\sqrt{0.0016}$ is $0.04$, not $0.004$: the root has half as many decimal places (two), and $0.04^2=0.0016$.",
+   "C": "$\\sqrt{0.0016}$ is $0.04$, not $0.4$: $0.4^2=0.16$.",
+   "D": "Squaring $\\frac{3}{10}$ is not doubling it: $\\left(\\frac{3}{10}\\right)^2=0.09$, not $0.6$.",
+   "E": "Square the denominator too: $\\left(\\frac{3}{10}\\right)^2=\\frac{9}{100}$, not $\\frac{9}{10}$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.roots-of-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.094$"
+    },
+    {
+     "id": "B",
+     "text": "$0.13$"
+    },
+    {
+     "id": "C",
+     "text": "$0.49$"
+    },
+    {
+     "id": "D",
+     "text": "$0.64$"
+    },
+    {
+     "id": "E",
+     "text": "$0.94$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-04",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 2,
+  "stem": "Which of the following statements are true? Indicate all such statements.",
+  "explanation": "The symbol $\\sqrt{25}$ means the nonnegative root only, 5, so A is true and B false; its negative is $-\\sqrt{25}=-5$ (D true). The equation $x^2=25$ has two solutions, 5 and $-5$ (C true). $\\sqrt{(-5)^2}=\\sqrt{25}=5$, so E is false.",
+  "choiceExplanations": {
+   "B": "$\\sqrt{25}$ is never negative; $-5$ is a solution of $x^2=25$, not the value of $\\sqrt{25}$.",
+   "E": "Square first: $(-5)^2=25$, and $\\sqrt{25}=5$. In general $\\sqrt{a^2}=|a|$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.root-vs-squared-equation",
+   "q1.root-of-squared-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt{25}=5$"
+    },
+    {
+     "id": "B",
+     "text": "$\\sqrt{25}=-5$"
+    },
+    {
+     "id": "C",
+     "text": "If $x^2=25$, then $x$ could equal $-5$."
+    },
+    {
+     "id": "D",
+     "text": "$-\\sqrt{25}=-5$"
+    },
+    {
+     "id": "E",
+     "text": "$\\sqrt{(-5)^2}=-5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-05",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 2,
+  "stem": "How many positive integers $n$ satisfy $n^3<150$?",
+  "explanation": "The cubes are $1, 8, 27, 64, 125, 216$. Those below 150 are the cubes of 1 through 5; $6^3=216$ is too large. So 5 integers.",
+  "estSeconds": 45,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.squares-and-roots"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-06",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "An odd power keeps the sign: $x^3=-27$ gives only $x=-3$. An even power hides it: $y^2=9$ gives $y=3$ or $y=-3$. If $y=3$, B is greater; if $y=-3$, the quantities are equal. The relationship cannot be determined.",
+  "estSeconds": 60,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.even-power-hides-sign"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$y$",
+   "common": "$x^3=-27$ and $y^2=9$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-07",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 3,
+  "stem": "If $-1<x<0$, which of the following is true?",
+  "explanation": "Try $x=-\\frac{1}{2}$: $x=-0.5$, $x^3=-0.125$, $x^2=0.25$. So $x<x^3<x^2$. In general $x^2$ is positive, $x^3$ is negative, and cubing a number between $-1$ and 0 moves it toward 0.",
+  "choiceExplanations": {
+   "A": "$x^3<x$ holds only when $x<-1$; between $-1$ and 0, cubing moves the number closer to 0.",
+   "C": "$x^3$ is negative and $x^2$ is positive, so $x^2>x^3$.",
+   "D": "$x^2$ is positive, so it is the largest of the three, not the smallest.",
+   "E": "$x^2$ is positive while $x$ is negative, so $x^2>x$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.powers-and-roots-by-range"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x^3<x<x^2$"
+    },
+    {
+     "id": "B",
+     "text": "$x<x^3<x^2$"
+    },
+    {
+     "id": "C",
+     "text": "$x<x^2<x^3$"
+    },
+    {
+     "id": "D",
+     "text": "$x^2<x^3<x$"
+    },
+    {
+     "id": "E",
+     "text": "$x^3<x^2<x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-08",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 3,
+  "stem": "What is the sum of all values of $x$ that satisfy $(2x+1)^2=49$?",
+  "explanation": "The square hides the sign: $2x+1=7$ or $2x+1=-7$. So $x=3$ or $x=-4$, and the sum is $3+(-4)=-1$.",
+  "estSeconds": 60,
+  "skills": [
+   "roots",
+   "exponents",
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.hidden-quadratic",
+   "q1.even-power-hides-sign"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -1
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-09",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\sqrt{(a-b)^2}=|a-b|$. Since $a<b$, $a-b$ is negative, so $|a-b|=b-a$. Quantity A is $(b-a)+a=b$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "roots",
+   "exponents",
+   "number-line-abs"
+  ],
+  "topics": [
+   "q1.root-of-squared-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\sqrt{(a-b)^2}+a$",
+   "quantityB": "$b$",
+   "common": "$a<b$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-10",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 4,
+  "stem": "If $x<0<y$, which of the following is equal to $\\sqrt{(x-y)^2}+\\sqrt{x^2}$?",
+  "explanation": "$\\sqrt{(x-y)^2}=|x-y|$ and $\\sqrt{x^2}=|x|$. Since $x<y$, $|x-y|=y-x$; since $x<0$, $|x|=-x$. Sum: $(y-x)+(-x)=y-2x$. Check with $x=-1$, $y=2$: $\\sqrt{9}+\\sqrt{1}=4=2-2(-1)$.",
+  "choiceExplanations": {
+   "A": "This cancels each root against its square, giving $(x-y)+x$; but both roots are nonnegative, while $2x-y$ is negative here.",
+   "B": "This uses $\\sqrt{(x-y)^2}=x-y$, which is negative because $x<y$.",
+   "C": "This uses $\\sqrt{x^2}=x$, but $x$ is negative, so $\\sqrt{x^2}=-x$.",
+   "D": "$y-x$ is only the first root; the second root, $\\sqrt{x^2}=-x$, must still be added."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots",
+   "exponents",
+   "number-line-abs"
+  ],
+  "topics": [
+   "q1.root-of-squared-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x-y$"
+    },
+    {
+     "id": "B",
+     "text": "$-y$"
+    },
+    {
+     "id": "C",
+     "text": "$y$"
+    },
+    {
+     "id": "D",
+     "text": "$y-x$"
+    },
+    {
+     "id": "E",
+     "text": "$y-2x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-11",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x^2=y^2$ means $x=y$ or $x=-y$, since the square hides the sign. If $x=y$, then $x^3=y^3$, which contradicts $x^3<y^3$. So $x=-y$ and $x+y=0$. The quantities are equal.",
+  "estSeconds": 90,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.even-power-hides-sign",
+   "q2.hidden-quadratic"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x+y$",
+   "quantityB": "$0$",
+   "common": "$x^2=y^2$ and $x^3<y^3$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-12",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 5,
+  "stem": "If $x^2>x^3$, which of the following must be true? Indicate all such statements.",
+  "explanation": "Go range by range. For $x>1$, $x^3>x^2$; at 0 and 1 they are equal; for $0<x<1$, $x^3<x^2$; for $x<0$, $x^2>0>x^3$. So $x^2>x^3$ exactly when $x<1$ and $x\\neq0$: A must be true. Multiplying $x^2>x^3$ by the positive number $x^2$ gives $x^4>x^5$, so E must be true.",
+  "choiceExplanations": {
+   "B": "$x=\\frac{1}{2}$ satisfies $x^2>x^3$ but is positive.",
+   "C": "$x=-1$ satisfies $x^2>x^3$, yet $x^2=1>-1=x$.",
+   "D": "$x=-\\frac{1}{2}$ satisfies $x^2>x^3$, yet $x^3=-\\frac{1}{8}>-\\frac{1}{2}=x$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "roots",
+   "exponents",
+   "comparison"
+  ],
+  "topics": [
+   "q1.powers-and-roots-by-range",
+   "q1.squares-between-zero-and-one"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x<1$"
+    },
+    {
+     "id": "B",
+     "text": "$x<0$"
+    },
+    {
+     "id": "C",
+     "text": "$x^2<x$"
+    },
+    {
+     "id": "D",
+     "text": "$x^3<x$"
+    },
+    {
+     "id": "E",
+     "text": "$x^4>x^5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ }
+]

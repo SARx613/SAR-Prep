@@ -1,0 +1,533 @@
+[
+ {
+  "id": "q1-18-remainders-units-digits-01",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 1,
+  "stem": "What is the units digit of $3{,}418\\times2{,}957+4{,}606$?",
+  "explanation": "Only units digits matter. $8\\cdot7 = 56$ ends in 6, and $6+6 = 12$ ends in 2.",
+  "estSeconds": 45,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  },
+  "topics": [
+   "q1.units-digit-arithmetic"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-02",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 1,
+  "stem": "What is the remainder when 58,437 is divided by 5?",
+  "explanation": "58,430 is a multiple of 10, hence of 5, so only the last digit counts: 7 divided by 5 leaves 2.",
+  "choiceExplanations": {
+   "A": "Remainder 0 needs a last digit of 0 or 5.",
+   "C": "3 is the distance up to the next multiple of 5 (58,440), not the remainder.",
+   "D": "7 is the remainder by 10; by 5 it must be reduced below 5.",
+   "E": "The last two digits give the remainder by 100, not by 5."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "7"
+    },
+    {
+     "id": "E",
+     "text": "37"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "topics": [
+   "q1.remainder-by-powers-of-ten"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-03",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac{n}{8} = 11 + \\frac{5}{8} = 11.625$. Quantity A is greater. (Remainder 5 is the fraction $\\frac{5}{8}$, not the decimal .5.)",
+  "estSeconds": 60,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{n}{8}$",
+   "quantityB": "11.5",
+   "common": "When the positive integer $n$ is divided by 8, the quotient is 11 and the remainder is 5."
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "topics": [
+   "q1.remainder-as-fraction"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-04",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Work with the remainders. $a+b$: $7+5 = 12$, which leaves 3. $ab$: $7\\cdot5 = 35 = 3\\cdot9+8$, which leaves 8. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $a+b$ is divided by 9",
+   "quantityB": "The remainder when $ab$ is divided by 9",
+   "common": "When the positive integers $a$ and $b$ are divided by 9, the remainders are 7 and 5, respectively."
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "topics": [
+   "q1.adding-remainders",
+   "q1.multiplying-remainders"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-05",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 2,
+  "stem": "What is the units digit of $8^{27}$?",
+  "explanation": "Units digits of powers of 8 cycle 8, 4, 2, 6 (length 4). $27 = 4\\cdot6 + 3$, so take the 3rd term: 2.",
+  "choiceExplanations": {
+   "A": "No power of 8 ends in 0.",
+   "C": "4 is the 2nd term of the cycle; the position is the remainder 3.",
+   "D": "6 is the last term, used only when the exponent is a multiple of 4.",
+   "E": "8 is the 1st term; it ignores the cycle."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    },
+    {
+     "id": "E",
+     "text": "8"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "topics": [
+   "q1.units-digit-cycles"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-06",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 3,
+  "stem": "$x$ and $y$ are positive even integers. Which of the following must be even? Indicate all such expressions.",
+  "explanation": "Write $x = 2a$ and $y = 2b$. Then $x+y$ and $xy$ are even, and $\\frac{xy}{2} = 2ab$ is even. Quotients have no parity rule: $\\frac{x}{y}$ can be $\\frac{6}{2} = 3$ (odd) or $\\frac{2}{4}$ (not an integer), and $\\frac{x+y}{2}$ can be $\\frac{2+4}{2} = 3$.",
+  "choiceExplanations": {
+   "C": "$x = 6, y = 2$ gives 3, which is odd; $x = 2, y = 4$ gives $\\frac{1}{2}$, not even an integer.",
+   "E": "$x = 2, y = 4$ gives 3, which is odd."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x+y$"
+    },
+    {
+     "id": "B",
+     "text": "$xy$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{x}{y}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{xy}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{x+y}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  },
+  "topics": [
+   "q1.parity-divide"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-07",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 3,
+  "stem": "For a positive integer $x$, $\\frac{x}{24} = 37.625$. What is the remainder when $x$ is divided by 24?",
+  "explanation": "Remainder $=$ decimal part $\\times$ divisor $= 0.625\\cdot24 = 15$. Check: $x = 37\\cdot24 + 15 = 903$.",
+  "estSeconds": 60,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 15
+  },
+  "topics": [
+   "q1.decimal-part-to-remainder",
+   "q1.remainder-as-fraction"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-08",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 3,
+  "stem": "The positive integer $n$ leaves remainder 4 when divided by 7. What is the remainder when $n^2+3n$ is divided by 7?",
+  "explanation": "Replace $n$ by its remainder: $4^2 + 3\\cdot4 = 16 + 12 = 28 = 4\\cdot7$. The remainder is 0. Check with $n = 11$: $121 + 33 = 154 = 22\\cdot7$.",
+  "choiceExplanations": {
+   "B": "2 is the remainder of $n^2$ alone ($16 = 2\\cdot7+2$); the $3n$ term is missing.",
+   "C": "4 is the remainder of $n$ itself, not of $n^2+3n$.",
+   "D": "5 is the remainder of $3n$ alone ($12 = 7+5$).",
+   "E": "28 is not reduced; a remainder by 7 must be less than 7."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "28"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  },
+  "topics": [
+   "q1.multiplying-remainders",
+   "q1.adding-remainders"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-09",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 4,
+  "stem": "When 74 is divided by the positive integer $k$, the remainder is 9. Which of the following could be the value of $k$? Indicate all such values.",
+  "explanation": "$k$ divides $74 - 9 = 65 = 5\\cdot13$, and $k > 9$ because a remainder is less than the divisor. So $k$ is 13 or 65: $74 = 5\\cdot13 + 9$ and $74 = 1\\cdot65 + 9$.",
+  "choiceExplanations": {
+   "A": "5 divides 65, but a remainder of 9 is impossible with divisor 5: 74 leaves 4.",
+   "B": "A remainder is always less than the divisor, so the divisor cannot be 9 (74 leaves 2).",
+   "D": "26 does not divide 65: 74 leaves 22."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "9"
+    },
+    {
+     "id": "C",
+     "text": "13"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "65"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  },
+  "topics": [
+   "q1.remainder-range"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-10",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 4,
+  "stem": "What is the remainder when $5^{40}$ is divided by 13?",
+  "explanation": "Build the cycle, multiplying each remainder by 5: 5, $25 \\to 12$, $60 \\to 8$, $40 \\to 1$, then 5 again. Length 4, and $40 = 4\\cdot10$ leaves 0, so take the *last* term: 1.",
+  "choiceExplanations": {
+   "A": "An exponent remainder of 0 points to the last term of the cycle, not to a remainder of 0; no power of 5 is a multiple of 13.",
+   "C": "5 is the 1st term of the cycle; position 0 means the 4th term.",
+   "D": "8 is the 3rd term of the cycle.",
+   "E": "12 is the 2nd term of the cycle."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "1"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "8"
+    },
+    {
+     "id": "E",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "topics": [
+   "q1.remainder-cycles"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-11",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Units digits of powers of 7 cycle 7, 9, 3, 1 and those of 3 cycle 3, 9, 7, 1, each with length 4. $4n+3$ leaves remainder 3 on division by 4, so $7^{4n+3}$ ends in the 3rd term, 3. $4n+1$ leaves 1, so $3^{4n+1}$ ends in the 1st term, 3. Equal for every $n$.",
+  "estSeconds": 90,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The units digit of $7^{4n+3}$",
+   "quantityB": "The units digit of $3^{4n+1}$",
+   "common": "$n$ is a positive integer."
+  },
+  "answer": {
+   "choice": "C"
+  },
+  "topics": [
+   "q1.units-digit-cycles"
+  ]
+ },
+ {
+  "id": "q1-18-remainders-units-digits-12",
+  "lessonId": "q1-18-remainders-units-digits",
+  "difficulty": 5,
+  "stem": "$s$ and $t$ are positive integers, and $\\frac{s}{t} = 23.45$. Which of the following could be the remainder when $s$ is divided by $t$? Indicate all such values.",
+  "explanation": "Remainder $r = 0.45\\,t = \\frac{9}{20}t$. Since $t$ is an integer, $t$ is a multiple of 20 and $r$ is a multiple of 9: $t = 20, 60, 100$ give $r = 9, 27, 45$.",
+  "choiceExplanations": {
+   "B": "$15 = \\frac{9}{20}t$ gives $t = \\frac{100}{3}$, not an integer.",
+   "C": "20 is the smallest possible divisor, not a remainder: $20 = \\frac{9}{20}t$ gives $t = \\frac{400}{9}$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "remainders-units-digits"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "9"
+    },
+    {
+     "id": "B",
+     "text": "15"
+    },
+    {
+     "id": "C",
+     "text": "20"
+    },
+    {
+     "id": "D",
+     "text": "27"
+    },
+    {
+     "id": "E",
+     "text": "45"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  },
+  "topics": [
+   "q1.decimal-part-to-remainder"
+  ]
+ }
+]

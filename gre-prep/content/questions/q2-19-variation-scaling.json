@@ -1,0 +1,559 @@
+[
+ {
+  "id": "q2-19-variation-scaling-01",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 1,
+  "stem": "The quantity $y$ varies directly with $x$. If $y=18$ when $x=4$, what is the value of $y$ when $x=10$?",
+  "explanation": "$\\frac{y}{x}$ is constant: $\\frac{y}{10}=\\frac{18}{4}=4.5$, so $y=45$.",
+  "choiceExplanations": {
+   "A": "This keeps the product $xy$ fixed, which is inverse variation.",
+   "B": "This adds the change in $x$ (6) to $y$; direct variation multiplies.",
+   "D": "72 is $xy$ for the first pair, not the new $y$.",
+   "E": "This multiplies 18 by 10 instead of by $\\frac{10}{4}$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "ratio",
+   "variation"
+  ],
+  "topics": [
+   "q2.direct-variation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$7.2$"
+    },
+    {
+     "id": "B",
+     "text": "$24$"
+    },
+    {
+     "id": "C",
+     "text": "$45$"
+    },
+    {
+     "id": "D",
+     "text": "$72$"
+    },
+    {
+     "id": "E",
+     "text": "$180$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-02",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 1,
+  "stem": "The quantity $y$ varies inversely with $x$. If $y=8$ when $x=3$, what is the value of $y$ when $x=12$?",
+  "explanation": "$xy$ is constant: $3\\cdot8=24$, so $y=\\frac{24}{12}=2$.",
+  "estSeconds": 45,
+  "skills": [
+   "ratio",
+   "variation"
+  ],
+  "topics": [
+   "q2.inverse-variation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-03",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac{p}{q}=\\frac{9}{12}=\\frac34$. Quantity A: $p=\\frac34\\cdot20=15$. Quantity B: $q=12\\cdot\\frac43=16$. $15<16$.",
+  "estSeconds": 60,
+  "skills": [
+   "ratio",
+   "variation"
+  ],
+  "topics": [
+   "q2.direct-variation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "The quantity $p$ is directly proportional to $q$, and $p=9$ when $q=12$.",
+   "quantityA": "The value of $p$ when $q=20$",
+   "quantityB": "The value of $q$ when $p=12$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-04",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 2,
+  "stem": "Triangles $PQR$ and $STU$ are similar, and each side of triangle $STU$ is $\\frac52$ times as long as the corresponding side of triangle $PQR$. If the area of triangle $PQR$ is 12, what is the area of triangle $STU$?",
+  "explanation": "Areas scale with the square of the length ratio: $12\\cdot\\left(\\frac52\\right)^2=12\\cdot\\frac{25}{4}=75$.",
+  "choiceExplanations": {
+   "A": "This scales the area by $\\frac52$, as for a length.",
+   "B": "This multiplies by 5 and forgets the denominator 2.",
+   "D": "This squares the 5 but not the 2: $12\\cdot\\frac{25}{2}$.",
+   "E": "This uses the cube, which is the rule for volumes."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio",
+   "similarity"
+  ],
+  "topics": [
+   "q3.similar-figure-ratios"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$30$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$75$"
+    },
+    {
+     "id": "D",
+     "text": "$150$"
+    },
+    {
+     "id": "E",
+     "text": "$187.5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-05",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 2,
+  "stem": "In the formula $E=\\frac{ab^2}{c}$, the variables $a$, $b$ and $c$ are positive. Which of the following changes, with any variable not mentioned left unchanged, would double the value of $E$? Indicate all such changes.",
+  "explanation": "Multiply each input by its factor: doubling $a$ gives $\\times2$; halving $c$ gives $\\times2$; doubling $b$ and $c$ gives $\\times\\frac{2^2}{2}=2$. Doubling $b$ alone gives $\\times4$, doubling $c$ alone $\\times\\frac12$, doubling $a$ and $b$ $\\times8$.",
+  "choiceExplanations": {
+   "B": "$b$ is squared, so doubling it multiplies $E$ by 4.",
+   "C": "$c$ is in the denominator, so doubling it halves $E$.",
+   "E": "$\\frac{2^2}{2}=2$: the squared $b$ gains 4 and the doubled $c$ divides by 2.",
+   "F": "$2\\cdot2^2=8$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "ratio",
+   "algebraic-expressions"
+  ],
+  "topics": [
+   "q2.formula-factor-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a$ is doubled."
+    },
+    {
+     "id": "B",
+     "text": "$b$ is doubled."
+    },
+    {
+     "id": "C",
+     "text": "$c$ is doubled."
+    },
+    {
+     "id": "D",
+     "text": "$c$ is halved."
+    },
+    {
+     "id": "E",
+     "text": "$b$ and $c$ are both doubled."
+    },
+    {
+     "id": "F",
+     "text": "$a$ and $b$ are both doubled."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-06",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The distance is fixed, so time varies inversely with speed. Speed $\\times0.8=\\frac45$ means time $\\times\\frac54=1.25$: a 25 percent increase. $25>20$.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio",
+   "average-rate-work",
+   "percent-change"
+  ],
+  "topics": [
+   "q2.rate-time-distance-proportions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "A cyclist rides the same route twice. On the second ride her average speed is 20 percent lower than on the first.",
+   "quantityA": "The percent by which her time on the second ride exceeds her time on the first ride",
+   "quantityB": "$20$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-07",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 3,
+  "stem": "Eight identical printers, working together at a constant rate, complete a printing job in 15 hours. At the same rate, how many hours would 12 such printers need to complete a job twice as large?",
+  "explanation": "One job takes $8\\cdot15=120$ printer-hours, so the double job takes 240. With 12 printers: $240\\div12=20$ hours.",
+  "estSeconds": 75,
+  "skills": [
+   "ratio",
+   "average-rate-work"
+  ],
+  "topics": [
+   "q2.changing-workforce"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-08",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 3,
+  "stem": "Based on the table, which of the following statements are consistent with all of the data shown? Indicate all such statements.",
+  "explanation": "Check ratios and products. $\\frac{y}{x}=3.5$ in every row (direct). $xz=90$ in every row (inverse). $\\frac{w}{x}$ is $2,3,5,6$, not constant. $yz=3.5x\\cdot\\frac{90}{x}=315$ in every row. $wz$ is $180, 270, \\ldots$, not constant.",
+  "choiceExplanations": {
+   "C": "$w$ grows with $x$, but $\\frac{w}{x}$ changes from 2 to 6; $w=x^2$.",
+   "D": "Direct times inverse: $3.5x\\cdot\\frac{90}{x}=315$, so the product is constant.",
+   "E": "$wz$ is 180 in the first row and 270 in the second."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio",
+   "tables"
+  ],
+  "topics": [
+   "q2.direct-variation",
+   "q2.inverse-variation"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Corresponding values of four quantities",
+   "data": {
+    "columns": [
+     "$x$",
+     "$y$",
+     "$z$",
+     "$w$"
+    ],
+    "rows": [
+     [
+      2,
+      7,
+      45,
+      4
+     ],
+     [
+      3,
+      10.5,
+      30,
+      9
+     ],
+     [
+      5,
+      17.5,
+      18,
+      25
+     ],
+     [
+      6,
+      21,
+      15,
+      36
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$y$ varies directly with $x$."
+    },
+    {
+     "id": "B",
+     "text": "$z$ varies inversely with $x$."
+    },
+    {
+     "id": "C",
+     "text": "$w$ varies directly with $x$."
+    },
+    {
+     "id": "D",
+     "text": "The product $yz$ is the same in every row."
+    },
+    {
+     "id": "E",
+     "text": "$w$ varies inversely with $z$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-09",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 4,
+  "stem": "The quantity $z$ varies directly with $x$ and inversely with the square of $y$. If $z=10$ when $x=8$ and $y=2$, what is the value of $z$ when $x=36$ and $y=3$?",
+  "explanation": "$z=\\frac{kx}{y^2}$: $10=\\frac{8k}{4}$, so $k=5$. Then $z=\\frac{5\\cdot36}{9}=20$.",
+  "choiceExplanations": {
+   "A": "This inverts the roles: $z$ grows with $x$ and shrinks as $y$ grows.",
+   "C": "This divides by $y$ instead of $y^2$.",
+   "D": "This scales by $x$ only and ignores the change in $y$.",
+   "E": "This multiplies by the factor for $y^2$ instead of dividing."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "ratio",
+   "variation"
+  ],
+  "topics": [
+   "q2.joint-variation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$20$"
+    },
+    {
+     "id": "C",
+     "text": "$30$"
+    },
+    {
+     "id": "D",
+     "text": "$45$"
+    },
+    {
+     "id": "E",
+     "text": "$101.25$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-10",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 4,
+  "stem": "Two solid metal statues are similar in shape. The ratio of the surface area of the smaller statue to that of the larger statue is 4 to 9. If the volume of the smaller statue is 40 cubic centimeters, what is the volume, in cubic centimeters, of the larger statue?",
+  "explanation": "Area ratio $\\frac94=k^2$ gives length ratio $k=\\frac32$. Volumes scale by $k^3=\\frac{27}{8}$: $40\\cdot\\frac{27}{8}=135$.",
+  "estSeconds": 100,
+  "skills": [
+   "ratio",
+   "similarity",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q3.similar-figure-ratios"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "cubic centimeters"
+  },
+  "answer": {
+   "value": 135
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-11",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 5,
+  "stem": "A quantity $P$ is given by $P=\\frac{ka^2}{\\sqrt{b}}$, where $k$ is a positive constant and $a$ and $b$ are positive. If $a$ is increased by 20 percent and $b$ is increased by 44 percent, by what percent does $P$ increase?",
+  "explanation": "Multipliers: $a\\times1.2$, $b\\times1.44$; $k$ cancels. $P$ is multiplied by $\\frac{1.2^2}{\\sqrt{1.44}}=\\frac{1.44}{1.2}=1.2$, an increase of 20 percent.",
+  "estSeconds": 120,
+  "skills": [
+   "ratio",
+   "percent-change"
+  ],
+  "topics": [
+   "q2.formula-percent-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q2-19-variation-scaling-12",
+  "lessonId": "q2-19-variation-scaling",
+  "difficulty": 5,
+  "stem": "A train runs between two cities at a constant speed. If its speed were 15 miles per hour greater, the trip would take 20 percent less time. What is the train's actual speed, in miles per hour?",
+  "explanation": "The distance is fixed, so speed and time vary inversely. Time $\\times0.8=\\frac45$ means speed $\\times\\frac54$: the extra 15 miles per hour is $\\frac14$ of the speed, which is therefore $60$.",
+  "choiceExplanations": {
+   "A": "$12=0.8\\cdot15$ mixes the time factor with the speed change.",
+   "B": "45 is $60-15$; the actual speed is the slower one, 60.",
+   "D": "This assumes speed rises by 20 percent; a 20 percent time cut needs a 25 percent speed rise. 75 is the faster speed.",
+   "E": "This adds 15 to the wrong speed of 75."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio",
+   "average-rate-work"
+  ],
+  "topics": [
+   "q2.rate-time-distance-proportions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$12$"
+    },
+    {
+     "id": "B",
+     "text": "$45$"
+    },
+    {
+     "id": "C",
+     "text": "$60$"
+    },
+    {
+     "id": "D",
+     "text": "$75$"
+    },
+    {
+     "id": "E",
+     "text": "$90$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ }
+]

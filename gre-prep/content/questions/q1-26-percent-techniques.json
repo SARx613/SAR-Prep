@@ -1,0 +1,527 @@
+[
+ {
+  "id": "q1-26-percent-techniques-01",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 1,
+  "stem": "A shop had a stock of umbrellas. On Monday it sold $40\\%$ of them, and on Tuesday it sold $50\\%$ of the umbrellas left after Monday. What percent of the original stock was still unsold after Tuesday?",
+  "explanation": "Start with 100 umbrellas. Monday leaves $60$. Tuesday sells $50\\%$ of $60$, which is $30$, leaving $30$: $30\\%$ of the original stock.",
+  "choiceExplanations": {
+   "A": "$40\\%+50\\%$ treats Tuesday's percent as a percent of the original stock; it applies only to what was left.",
+   "B": "$0.4\\cdot0.5$ multiplies the percents sold; multiply the fractions that remain, $0.6\\cdot0.5$.",
+   "D": "$50\\%$ is the share of Monday's leftovers sold on Tuesday, not the share of the original stock left.",
+   "E": "$60\\%$ is what was left after Monday only."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent"
+  ],
+  "topics": [
+   "q1.start-with-100",
+   "q1.percent-of-chains"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$10\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$20\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$30\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$50\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$60\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-02",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 1,
+  "stem": "A vendor buys 120 T-shirts at \\$4.50 each. She sells 100 of them at \\$7 each and cannot sell the rest. What is her profit, in dollars?",
+  "explanation": "Revenue: $100\\cdot7 = 700$. Cost: all 120 shirts were bought, $120\\cdot4.50 = 540$. Profit $= 700-540 = 160$.",
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.profit-and-loss"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 160
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-03",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: $90\\cdot0.8 = 72$, then $72-15 = 57$. B: $90-15 = 75$, then $75\\cdot0.8 = 60$. B is greater: when the rebate comes first, the $20\\%$ is taken from a smaller amount and saves less.",
+  "estSeconds": 75,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.percent-operation-order"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The price after a $20\\%$ discount on the list price, followed by a \\$15 rebate",
+   "quantityB": "The price after a \\$15 rebate on the list price, followed by a $20\\%$ discount on the result",
+   "common": "A jacket has a list price of \\$90."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-04",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 2,
+  "stem": "After an $8\\%$ decrease, the population of a town is 23,000. What was the population before the decrease?",
+  "explanation": "After the decrease the population is $92\\%$ of the original: $0.92P = 23{,}000$, so $P = \\frac{23{,}000}{0.92} = 25{,}000$.",
+  "choiceExplanations": {
+   "A": "$23{,}000\\cdot0.92$ applies the decrease again instead of undoing it.",
+   "B": "$23{,}000\\cdot1.08$ adds $8\\%$ of the new value, but the $8\\%$ was a percent of the original. Check: $8\\%$ less than 24,840 is about 22,853.",
+   "D": "$\\frac{23{,}000}{0.8}$ divides by $0.8$ (a $20\\%$ decrease) instead of by $0.92$.",
+   "E": "$\\frac{23{,}000}{0.08}$ treats 23,000 as the $8\\%$ that was lost; it is the $92\\%$ that is left."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.original-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "21,160"
+    },
+    {
+     "id": "B",
+     "text": "24,840"
+    },
+    {
+     "id": "C",
+     "text": "25,000"
+    },
+    {
+     "id": "D",
+     "text": "28,750"
+    },
+    {
+     "id": "E",
+     "text": "287,500"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-05",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 2,
+  "stem": "A technician is paid \\$24 per hour for the first 35 hours she works in a week and 1.5 times that rate for each additional hour. How many dollars does she earn in a week in which she works 42 hours?",
+  "explanation": "Overtime rate: $1.5\\cdot24 = 36$. Regular pay: $35\\cdot24 = 840$. Overtime pay: $(42-35)\\cdot36 = 252$. Total: $840+252 = 1{,}092$. (Paying all 42 hours at \\$36 is wrong: the higher rate applies only to hours beyond 35.)",
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.salary-and-commission"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 1092
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-06",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "\"$150\\%$ greater than $y$\" is $(100+150)\\% = 250\\%$ of $y$, so $x = 2.5y$. Since $y>0$, $2.5y>2y$. (Reading it as $x = 1.5y$ would wrongly give B.)",
+  "estSeconds": 60,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.greater-than-as-of"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$2y$",
+   "common": "$x$ is $150\\%$ greater than $y$, and $y>0$."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-07",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 3,
+  "stem": "The price of camera $P$ is $25\\%$ greater than the price of camera $Q$, and the price of camera $R$ is $20\\%$ less than the price of camera $P$. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "Let $Q = 100$. Then $P = 125$ and $R = 0.8\\cdot125 = 100$. So $R = Q$ (A), $P$ is $125\\%$ of $Q$ (B), and $P$ is $25\\%$ greater than $R$, which equals $Q$ (D). $Q$ is $\\frac{25}{125} = 20\\%$ less than $P$, so C fails; E fails because $R = Q$.",
+  "choiceExplanations": {
+   "C": "The base changes: $Q$ is 25 below $P = 125$, which is $20\\%$ of $P$, not $25\\%$.",
+   "E": "Subtracting $20\\%$ from $25\\%$ ignores that the two percents have different bases; in fact $R = Q$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.start-with-100",
+   "q1.greater-than-as-of"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The price of $R$ equals the price of $Q$."
+    },
+    {
+     "id": "B",
+     "text": "The price of $P$ is $125\\%$ of the price of $Q$."
+    },
+    {
+     "id": "C",
+     "text": "The price of $Q$ is $25\\%$ less than the price of $P$."
+    },
+    {
+     "id": "D",
+     "text": "The price of $P$ is $25\\%$ greater than the price of $R$."
+    },
+    {
+     "id": "E",
+     "text": "The price of $R$ is $5\\%$ greater than the price of $Q$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-08",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 3,
+  "stem": "A store takes $25\\%$ off the marked price of a coat and then applies a \\$12 coupon to the discounted price. A customer pays \\$69 for the coat. What was the marked price, in dollars?",
+  "explanation": "Undo the steps in reverse order. Before the coupon: $69+12 = 81$. Before the discount, $81$ was $75\\%$ of the marked price: $\\frac{81}{0.75} = 108$. Check: $108\\cdot0.75 = 81$ and $81-12 = 69$. (Undoing in the wrong order, $\\frac{69}{0.75}+12$, gives 104.)",
+  "estSeconds": 90,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.percent-operation-order",
+   "q1.original-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "dollars"
+  },
+  "answer": {
+   "value": 108
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-09",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 4,
+  "stem": "Every unit of each appliance in the table was sold at its marked price. For which appliance was the total profit last month the greatest?",
+  "explanation": "Profit per unit = markup × cost; total profit = profit per unit × units sold. Kettle: $0.30\\cdot40 = 12$, $12\\cdot260 = 3{,}120$. Toaster: $0.60\\cdot25 = 15$, $15\\cdot200 = 3{,}000$. Blender: $0.20\\cdot70 = 14$, $14\\cdot230 = 3{,}220$. Mixer: $0.15\\cdot120 = 18$, $18\\cdot170 = 3{,}060$. Grill: $0.10\\cdot90 = 9$, $9\\cdot330 = 2{,}970$. The blender is greatest.",
+  "choiceExplanations": {
+   "A": "Kettle: \\$12 a unit, \\$3,120 in total, less than the blender's \\$3,220.",
+   "B": "The toaster has the highest markup percent, but on the lowest cost: \\$15 a unit, \\$3,000 in total.",
+   "D": "The mixer has the largest profit per unit (\\$18) but sells fewer units: \\$3,060 in total.",
+   "E": "The grill sells the most units, but at \\$9 profit each: \\$2,970 in total."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "tables",
+   "word-problems"
+  ],
+  "topics": [
+   "q1.percent-profit",
+   "q2.profit-and-loss"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "figure": {
+   "kind": "table",
+   "title": "Sales of five appliances last month",
+   "data": {
+    "columns": [
+     "Appliance",
+     "Unit cost (dollars)",
+     "Markup (percent of unit cost)",
+     "Units sold"
+    ],
+    "rows": [
+     [
+      "Kettle",
+      40,
+      30,
+      260
+     ],
+     [
+      "Toaster",
+      25,
+      60,
+      200
+     ],
+     [
+      "Blender",
+      70,
+      20,
+      230
+     ],
+     [
+      "Mixer",
+      120,
+      15,
+      170
+     ],
+     [
+      "Grill",
+      90,
+      10,
+      330
+     ]
+    ]
+   },
+   "notes": "The marked price of each appliance is its unit cost increased by its markup."
+  },
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Kettle"
+    },
+    {
+     "id": "B",
+     "text": "Toaster"
+    },
+    {
+     "id": "C",
+     "text": "Blender"
+    },
+    {
+     "id": "D",
+     "text": "Mixer"
+    },
+    {
+     "id": "E",
+     "text": "Grill"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-10",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 4,
+  "stem": "Under Plan A, a salesperson earns \\$2,400 per month plus a $3\\%$ commission on all of that month's sales. Under Plan B, the salesperson earns \\$1,500 per month plus an $8\\%$ commission on the part of that month's sales above \\$5,000. For what amount of monthly sales do the two plans pay the same?",
+  "explanation": "For sales $S$ above \\$5,000, A pays $2{,}400+0.03S$ and B pays $1{,}500+0.08(S-5{,}000) = 1{,}100+0.08S$. They are equal when $1{,}300 = 0.05S$, so $S = 26{,}000$. Check: A pays $2{,}400+780 = 3{,}180$; B pays $1{,}500+0.08\\cdot21{,}000 = 3{,}180$. (Below \\$5,000, B pays only \\$1,500, less than A.)",
+  "choiceExplanations": {
+   "A": "This adds the \\$400 ($8\\%$ of \\$5,000) instead of subtracting it: $1{,}900+0.08S$.",
+   "B": "This applies B's $8\\%$ to all sales, ignoring the \\$5,000 threshold.",
+   "C": "\\$21,000 is the part of the sales above the threshold, not the total sales.",
+   "E": "This adds the \\$5,000 threshold to the correct total a second time."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.salary-and-commission"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$10,000"
+    },
+    {
+     "id": "B",
+     "text": "\\$18,000"
+    },
+    {
+     "id": "C",
+     "text": "\\$21,000"
+    },
+    {
+     "id": "D",
+     "text": "\\$26,000"
+    },
+    {
+     "id": "E",
+     "text": "\\$31,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-11",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 5,
+  "stem": "A shop owner sets the marked price of a lamp $p\\%$ above its cost. When she sells the lamp at $25\\%$ off the marked price, her profit is $20\\%$ of the cost. What is $p$?",
+  "explanation": "Let the cost be 100. The sale price is $120$, and it is $75\\%$ of the marked price, so the marked price is $\\frac{120}{0.75} = 160$: $60\\%$ above cost. (Adding $20+25 = 45$, or computing $1.2\\cdot1.25 = 1.5$, mixes the bases: the $25\\%$ is a percent of the marked price, not of the cost.)",
+  "estSeconds": 120,
+  "skills": [
+   "percent-change",
+   "word-problems"
+  ],
+  "topics": [
+   "q1.start-with-100",
+   "q1.percent-profit"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-12",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "First bicycle: $1.2c = 360$, so $c = 300$. Second: $0.8c = 360$, so $c = 450$. Total cost $= 750>720$, so A is greater (overall she lost \\$30). The $20\\%$ loss is taken on the larger cost, so the profit and the loss do not cancel.",
+  "estSeconds": 105,
+  "skills": [
+   "percent-change",
+   "word-problems"
+  ],
+  "topics": [
+   "q1.original-value",
+   "q2.profit-and-loss"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The total cost of the two bicycles to the dealer",
+   "quantityB": "\\$720",
+   "common": "A dealer sold two used bicycles for \\$360 each. On one she made a profit equal to $20\\%$ of its cost, and on the other she had a loss equal to $20\\%$ of its cost."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ }
+]

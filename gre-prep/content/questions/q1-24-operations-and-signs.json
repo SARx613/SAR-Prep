@@ -1,0 +1,532 @@
+[
+ {
+  "id": "q1-24-operations-and-signs-01",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 1,
+  "stem": "What is the value of $12-2(3-5)^2$?",
+  "explanation": "Parentheses: $3-5 = -2$. Exponent: $(-2)^2 = 4$. Multiply: $2\\cdot4 = 8$. Subtract: $12-8 = 4$.",
+  "choiceExplanations": {
+   "B": "This treats $(3-5)^2$ as 2; it is $(-2)^2 = 4$.",
+   "C": "This skips the exponent: $12-2(-2) = 16$.",
+   "D": "This squares to $-4$; the square of $-2$ is $+4$.",
+   "E": "This subtracts first, $(12-2)\\cdot4$; multiplication comes before subtraction."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.order-of-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "16"
+    },
+    {
+     "id": "D",
+     "text": "20"
+    },
+    {
+     "id": "E",
+     "text": "40"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-02",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 1,
+  "stem": "By how many degrees Celsius was the highest of the five low temperatures greater than the lowest of them?",
+  "explanation": "Highest low: 9 (Sandy Cape). Lowest low: $-12$ (North Ridge). Difference: $9-(-12) = 9+12 = 21$.",
+  "estSeconds": 45,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.add-subtract-signed"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Lowest overnight temperature, five weather stations",
+   "data": {
+    "columns": [
+     "Station",
+     "Low (degrees Celsius)"
+    ],
+    "rows": [
+     [
+      "North Ridge",
+      -12
+     ],
+     [
+      "Bay Point",
+      4
+     ],
+     [
+      "Cedar Falls",
+      -7
+     ],
+     [
+      "Elm Hollow",
+      -3
+     ],
+     [
+      "Sandy Cape",
+      9
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 21
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-03",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 2,
+  "stem": "What is the value of $125\\cdot7\\cdot16$?",
+  "explanation": "Split $16 = 8\\cdot2$ and pair $125\\cdot8 = 1000$. Then $1000\\cdot(7\\cdot2) = 14{,}000$.",
+  "estSeconds": 45,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.regroup-terms"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 14000
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-04",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 2,
+  "stem": "How many integers $n$ with $-4\\le n\\le4$ are even and not positive?",
+  "explanation": "The even integers in the range are $-4, -2, 0, 2, 4$. Not positive leaves $-4$, $-2$ and $0$ (0 is even and is not positive). That is 3.",
+  "choiceExplanations": {
+   "A": "This leaves out 0, which is even and is not positive.",
+   "C": "This counts the nonzero even integers $\\pm2, \\pm4$ and ignores the sign condition.",
+   "D": "This counts all five even integers, including the positive 2 and 4.",
+   "E": "This counts every integer in the range."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.properties-of-zero"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "9"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-05",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Count negative factors. Quantity A: $a^3$ gives three and $c^2$ gives two, five in all (odd), so A is negative. Quantity B: $a$ and $c$ give two (even) and $b^2>0$, so B is positive. B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.sign-of-product-quotient"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{a^3b}{c^2}$",
+   "quantityB": "$\\dfrac{ab^2}{c}$",
+   "common": "$a<0$, $b>0$ and $c<0$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-06",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Write $68\\cdot72 = (70-2)(70+2) = 70^2-2^2 = 70^2-4$. Since $70^2-4 < 70^2-3$, Quantity B is greater (4896 versus 4897).",
+  "estSeconds": 60,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.rewrite-as-sum-or-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$68\\cdot72$",
+   "quantityB": "$70^2-3$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-07",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 3,
+  "stem": "Integers $x$ and $y$ satisfy $(x-4)(y+1) = 1$. Which of the following could be the value of $x+y$? Indicate all such values.",
+  "explanation": "Integers with product 1 are both 1 or both $-1$. Both 1: $x = 5$, $y = 0$, so $x+y = 5$. Both $-1$: $x = 3$, $y = -2$, so $x+y = 1$.",
+  "choiceExplanations": {
+   "A": "No case gives $-1$: the only solutions are $(5, 0)$ and $(3, -2)$.",
+   "C": "This mixes the cases, e.g. $x = 5$ with $y = -2$, whose product is $1\\cdot(-1) = -1$.",
+   "E": "This solves $y+1 = 1$ as $y = 2$; in fact $y = 0$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.product-equals-one"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-1$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$5$"
+    },
+    {
+     "id": "E",
+     "text": "$7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-08",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 3,
+  "stem": "To evaluate $\\dfrac{18+6}{3\\times2}$, a student enters $18+6\\div3\\times2$ on a calculator that follows the order of operations. The value displayed is how much greater than the correct value?",
+  "explanation": "Displayed: $6\\div3 = 2$, $2\\times2 = 4$, $18+4 = 22$. Correct: the bar groups, so $24\\div6 = 4$. Difference: $22-4 = 18$.",
+  "estSeconds": 75,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.fraction-bar-grouping",
+   "q1.order-of-operations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-09",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Bound the fraction: the numerator $a+b$ is less than $1.2$ and the denominator $c+d$ is greater than $0.8$, so $\\frac{a+b}{c+d} < \\frac{1.2}{0.8} = 1.5$. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q0.estimation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{a+b}{c+d}$",
+   "quantityB": "$1.5$",
+   "common": "Each of the numbers $a$, $b$, $c$ and $d$ is between $0.4$ and $0.6$."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-10",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 4,
+  "stem": "Integers $m$ and $n$ satisfy $n>0$ and $m^n = 1$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "$m\\cdot m^{n-1} = 1$ is a product of integers equal to 1, so $m = 1$ or $m = -1$ (and $n$ is even when $m = -1$). Then $m^2 = 1$, and $m^{n+1} = m^n\\cdot m = 1\\cdot m = m$.",
+  "choiceExplanations": {
+   "A": "$m = -1$, $n = 2$ also works: an even power of $-1$ is 1.",
+   "C": "$m = 1$, $n = 3$ works, since $1^n = 1$ for every $n$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.properties-of-one",
+   "q1.product-equals-one"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$m = 1$"
+    },
+    {
+     "id": "B",
+     "text": "$m^2 = 1$"
+    },
+    {
+     "id": "C",
+     "text": "$n$ is even."
+    },
+    {
+     "id": "D",
+     "text": "$m^{n+1} = m$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-11",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 5,
+  "stem": "The numbers $x$, $y$ and $z$ are nonzero, $\\dfrac{x^3y}{z}<0$ and $xz>0$. Which of the following must be negative?",
+  "explanation": "$x$ and $z$ have the same sign, since $xz>0$. In $\\frac{x^3y}{z}$, the factors $x^3$ and $z$ then have the same sign, so their quotient is positive, and $y$ must be negative. Hence $xyz = (xz)\\cdot y$ is positive times negative: negative.",
+  "choiceExplanations": {
+   "A": "$x = z = 1$, $y = -1$ fits the conditions with $x>0$.",
+   "B": "$x$ and $z$ share a sign, but it may be positive: $x = z = 1$, $y = -1$ gives $x+z = 2$.",
+   "C": "$z^2>0$, so $xz^2$ has the sign of $x$, which is not fixed.",
+   "D": "$y<0$, so $\\frac{y}{x}$ is negative only when $x>0$; $x = z = -1$, $y = -1$ gives $\\frac{y}{x} = 1$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.sign-of-product-quotient"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x$"
+    },
+    {
+     "id": "B",
+     "text": "$x+z$"
+    },
+    {
+     "id": "C",
+     "text": "$xz^2$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{y}{x}$"
+    },
+    {
+     "id": "E",
+     "text": "$xyz$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-24-operations-and-signs-12",
+  "lessonId": "q1-24-operations-and-signs",
+  "difficulty": 5,
+  "stem": "Integers $a$ and $b$ satisfy $a^2b = ab^2$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "$a^2b-ab^2 = ab(a-b) = 0$, so $a = 0$, $b = 0$ or $a = b$. In every case $ab\\ge0$ (it is 0, or $a^2\\ge0$). And $ab(a-b)$ equals 0, which is a multiple of every integer, including 13.",
+  "choiceExplanations": {
+   "A": "$a = 0$, $b = 5$ satisfies the equation (both sides are 0) with $a\\ne b$.",
+   "D": "$ab(a-b) = 0$, and 0 is neither positive nor negative.",
+   "E": "$a = 0$, $b = 3$ satisfies the equation and $a+b = 3$ is odd."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "operations-signs"
+  ],
+  "topics": [
+   "q1.properties-of-zero",
+   "q1.sign-of-product-quotient"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a = b$"
+    },
+    {
+     "id": "B",
+     "text": "$ab\\ge0$"
+    },
+    {
+     "id": "C",
+     "text": "$ab(a-b)$ is a multiple of 13."
+    },
+    {
+     "id": "D",
+     "text": "$ab(a-b)$ is positive."
+    },
+    {
+     "id": "E",
+     "text": "$a+b$ is even."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ }
+]

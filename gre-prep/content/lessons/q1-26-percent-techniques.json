@@ -1,0 +1,141 @@
+{
+ "id": "q1-26-percent-techniques",
+ "status": "draft",
+ "why": "Percent questions on the GRE rarely stop at one step: they chain percents, hide the base, reverse a change, or wrap the percent in a profit or pay story.",
+ "rule": "When a problem gives only percents, **start with 100** (or $x$): every percent becomes a number, and the final percent or ratio does not depend on that choice.\n\n- **Chains multiply:** $20\\%$ of $30\\%$ of $x$ is $0.2\\cdot0.3x = 0.06x$. For \"of the rest\", apply the percent to the part named, not to the whole.\n- **Greater than:** \"$p\\%$ greater than $y$\" is $(100+p)\\%$ of $y$, so $150\\%$ greater than $y$ is $2.5y$.\n- **Order:** apply percents and flat amounts in the order stated.\n- **Original value:** if $N$ is the result of a $p\\%$ change, the original is $N\\div\\left(1\\pm\\frac{p}{100}\\right)$.\n- **Profit** = revenue − cost, where revenue = price × units sold; a negative profit is a loss, zero is break-even. Percent profit and markup are percents of the **cost**; a discount is a percent of the **marked price**.\n- **Pay** = base salary + commission rate × sales (only the sales above any threshold); overtime pays its higher rate only on the hours beyond the threshold.",
+ "lengthJustification": "The lesson hosts eight distinct percent techniques, each needed by at least one practice question, so the rule lists each in one line.",
+ "examples": [
+  {
+   "prompt": "A tablet costs $150\\%$ more than a keyboard, and the keyboard costs $20\\%$ less than a monitor. The tablet's price is what percent of the monitor's price?",
+   "steps": [
+    "No prices are given, so let the monitor cost $100$.",
+    "Keyboard: $20\\%$ less, so $100\\cdot0.8 = 80$.",
+    "Tablet: $150\\%$ more than $80$ is $250\\%$ of $80$, so $80\\cdot2.5 = 200$.",
+    "$\\frac{200}{100} = 200\\%$."
+   ],
+   "answer": "$200\\%$"
+  },
+  {
+   "prompt": "A store marks a coat up $40\\%$ above its cost, then sells it at $25\\%$ off the marked price for \\$84. What did the coat cost the store, and what was the percent profit?",
+   "steps": [
+    "Let the cost be $c$. Markup is on cost: marked price $= 1.4c$.",
+    "Discount is on the marked price: sale price $= 0.75\\cdot1.4c = 1.05c$.",
+    "Undo by dividing: $c = \\frac{84}{1.05} = 80$.",
+    "Profit: $84-80 = 4$, and $\\frac{4}{80} = 5\\%$ of cost."
+   ],
+   "answer": "Cost \\$80; profit $5\\%$"
+  }
+ ],
+ "trap": "\"$150\\%$ greater than $y$\" is $2.5y$, while \"$150\\%$ of $y$\" is $1.5y$. To undo a $20\\%$ cut, divide: \\$48 came from $48\\div0.8 = 60$, not from $48\\cdot1.2 = 57.6$. A markup and a discount of the same percent do not cancel: they use different bases.",
+ "checks": [
+  {
+   "id": "q1-26-percent-techniques-c1",
+   "lessonId": "q1-26-percent-techniques",
+   "difficulty": 1,
+   "stem": "What is $20\\%$ of $45\\%$ of 600?",
+   "explanation": "Multiply the decimal factors: $0.2\\cdot0.45\\cdot600 = 0.09\\cdot600 = 54$.",
+   "estSeconds": 45,
+   "skills": [
+    "percent"
+   ],
+   "topics": [
+    "q1.percent-of-chains"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 54
+   }
+  },
+  {
+   "id": "q1-26-percent-techniques-c2",
+   "lessonId": "q1-26-percent-techniques",
+   "difficulty": 2,
+   "stem": "After a $25\\%$ increase, the annual fee for a gym membership is \\$90. What was the fee before the increase?",
+   "explanation": "The new fee is $125\\%$ of the old one: $1.25f = 90$, so $f = \\frac{90}{1.25} = 72$. Check: $72\\cdot1.25 = 90$.",
+   "choiceExplanations": {
+    "A": "This subtracts 25 as if the increase had been \\$25, not $25\\%$.",
+    "B": "$90\\cdot0.75$ takes $25\\%$ of the new fee, but the $25\\%$ was a percent of the old fee.",
+    "D": "$90\\cdot1.25$ applies the increase a second time instead of undoing it.",
+    "E": "This adds 25 to the new fee; the change must be undone, and it is a percent, not \\$25."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "percent-change"
+   ],
+   "topics": [
+    "q1.original-value"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "\\$65"
+     },
+     {
+      "id": "B",
+      "text": "\\$67.50"
+     },
+     {
+      "id": "C",
+      "text": "\\$72"
+     },
+     {
+      "id": "D",
+      "text": "\\$112.50"
+     },
+     {
+      "id": "E",
+      "text": "\\$115"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-26-percent-techniques-c3",
+   "lessonId": "q1-26-percent-techniques",
+   "difficulty": 2,
+   "stem": "A sales representative earns \\$500 per week plus a $6\\%$ commission on the part of her weekly sales above \\$2,000. How many dollars does she earn in a week in which her sales total \\$7,000?",
+   "explanation": "The commission applies only to $7{,}000-2{,}000 = 5{,}000$: $0.06\\cdot5{,}000 = 300$. Earnings: $500+300 = 800$. (Taking $6\\%$ of all \\$7,000 gives the wrong 920.)",
+   "estSeconds": 60,
+   "skills": [
+    "word-problems"
+   ],
+   "topics": [
+    "q2.salary-and-commission"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "dollars"
+   },
+   "answer": {
+    "value": 800
+   }
+  }
+ ]
+}

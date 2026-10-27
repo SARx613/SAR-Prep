@@ -1,0 +1,142 @@
+{
+ "id": "q2-19-variation-scaling",
+ "status": "draft",
+ "why": "GRE word problems and formula questions often hinge on how one quantity changes when another is multiplied, divided or changed by a percent.",
+ "rule": "**Direct variation:** $y=kx$ for a constant $k$, so the ratio $\\frac{y}{x}$ is fixed: $\\frac{y_1}{x_1}=\\frac{y_2}{x_2}$.\n\n**Inverse variation:** $y=\\frac{k}{x}$, so the product is fixed: $x_1y_1=x_2y_2$. Doubling $x$ halves $y$.\n\n**Combined:** multiply the pieces. \"$z$ varies directly with $x$ and inversely with the square of $y$\" means $z=\\frac{kx}{y^2}$. Find $k$ from one data set, then substitute.\n\n**Scaling a formula:** multiply each input by its factor and apply the formula; constants cancel. Turn percent changes into multipliers ($+50\\%\\to1.5$, $-20\\%\\to0.8$), multiply, then subtract 1 for the percent change.\n\n- Similar figures with length ratio $k$: perimeters $k$, areas $k^2$, volumes $k^3$.\n- $d=rt$: with $t$ fixed, $d$ is proportional to $r$; with $d$ fixed, $r$ and $t$ vary inversely (speed $\\times\\frac54$ means time $\\times\\frac45$).\n- Identical workers on a fixed job: workers $\\times$ time is constant, $n_1t_1=n_2t_2$.",
+ "examples": [
+  {
+   "prompt": "$z$ varies directly with $x$ and inversely with the square of $y$. If $z=12$ when $x=6$ and $y=2$, find $z$ when $x=15$ and $y=5$.",
+   "steps": [
+    "$z=\\frac{kx}{y^2}$, so $12=\\frac{6k}{4}$ and $k=8$.",
+    "$z=\\frac{8\\cdot15}{5^2}=\\frac{120}{25}=4.8$."
+   ],
+   "answer": "$4.8$"
+  },
+  {
+   "prompt": "The volume of a cone is $V=\\frac13\\pi r^2h$. If $r$ increases by 20 percent and $h$ decreases by 25 percent, by what percent does $V$ change?",
+   "steps": [
+    "Multipliers: $r\\times1.2$, $h\\times0.75$; $\\frac13\\pi$ cancels.",
+    "$V$ is multiplied by $1.2^2\\times0.75=1.44\\times0.75=1.08$."
+   ],
+   "answer": "An 8 percent increase"
+  }
+ ],
+ "trap": "Changes multiply, they do not add: $+50\\%$ then $-20\\%$ is $1.5\\times0.8=1.2$, a 20 percent rise, not 30. A 25 percent faster speed cuts time by 20 percent, not 25. Doubling every side of a figure multiplies its area by 4, not 2.",
+ "checks": [
+  {
+   "id": "q2-19-variation-scaling-c1",
+   "lessonId": "q2-19-variation-scaling",
+   "difficulty": 1,
+   "stem": "The quantity $a$ is directly proportional to $b$. If $a=6$ when $b=15$, what is $a$ when $b=25$?",
+   "explanation": "The ratio is fixed: $\\frac{a}{25}=\\frac{6}{15}$, so $a=25\\cdot\\frac{2}{5}=10$.",
+   "estSeconds": 45,
+   "skills": [
+    "ratio",
+    "variation"
+   ],
+   "topics": [
+    "q2.direct-variation"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 10
+   }
+  },
+  {
+   "id": "q2-19-variation-scaling-c2",
+   "lessonId": "q2-19-variation-scaling",
+   "difficulty": 2,
+   "stem": "Five identical pumps can empty a tank in 12 hours. Working at the same rate, how many hours would 3 such pumps take to empty the tank?",
+   "explanation": "Pump-hours are fixed: $5\\cdot12=60$. With 3 pumps, $60\\div3=20$ hours.",
+   "choiceExplanations": {
+    "A": "Fewer pumps need more time, not less: $12\\div3$ goes the wrong way.",
+    "B": "This treats time as proportional to the number of pumps: $12\\cdot\\frac35$.",
+    "D": "$12\\cdot3$ ignores that there were 5 pumps at first.",
+    "E": "60 is the total pump-hours; divide by the 3 pumps."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "ratio",
+    "average-rate-work"
+   ],
+   "topics": [
+    "q2.changing-workforce",
+    "q2.inverse-variation"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$4$"
+     },
+     {
+      "id": "B",
+      "text": "$7.2$"
+     },
+     {
+      "id": "C",
+      "text": "$20$"
+     },
+     {
+      "id": "D",
+      "text": "$36$"
+     },
+     {
+      "id": "E",
+      "text": "$60$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q2-19-variation-scaling-c3",
+   "lessonId": "q2-19-variation-scaling",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Areas scale with the square of the length ratio: $\\frac{\\pi(3r)^2}{\\pi r^2}=9$. $9>6$.",
+   "estSeconds": 45,
+   "skills": [
+    "ratio",
+    "circles"
+   ],
+   "topics": [
+    "q3.similar-figure-ratios",
+    "q2.formula-factor-change"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "common": "The radius of circle $B$ is 3 times the radius of circle $A$.",
+    "quantityA": "The ratio of the area of circle $B$ to the area of circle $A$",
+    "quantityB": "$6$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

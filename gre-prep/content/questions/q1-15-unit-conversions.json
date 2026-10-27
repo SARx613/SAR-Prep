@@ -1,0 +1,516 @@
+[
+ {
+  "id": "q1-15-unit-conversions-01",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 1,
+  "stem": "A printer prints 4 pages per second. At this rate, how many pages does it print in 3 minutes?",
+  "explanation": "Convert the time with a factor that cancels minutes: $3\\text{ min}\\cdot\\frac{60\\text{ s}}{1\\text{ min}}=180\\text{ s}$. Then $180\\cdot4=720$ pages.",
+  "choiceExplanations": {
+   "A": "Multiplies 4 by 3 without converting minutes to seconds.",
+   "B": "Divides 180 seconds by 4; a rate in pages per second is multiplied by the seconds.",
+   "C": "This is the number of pages printed in one minute, not three.",
+   "E": "Uses 3,600 seconds per minute; 3,600 is the number of seconds in an hour."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "unit-conversion"
+  ],
+  "topics": [
+   "q1.conversion-factors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "45"
+    },
+    {
+     "id": "C",
+     "text": "240"
+    },
+    {
+     "id": "D",
+     "text": "720"
+    },
+    {
+     "id": "E",
+     "text": "43,200"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-02",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Chain the factors: $1\\text{ wk}\\cdot\\frac{7\\text{ d}}{1\\text{ wk}}\\cdot\\frac{24\\text{ h}}{1\\text{ d}}\\cdot\\frac{60\\text{ min}}{1\\text{ h}}=10{,}080$ minutes, which is greater than 10,000.",
+  "estSeconds": 45,
+  "skills": [
+   "unit-conversion"
+  ],
+  "topics": [
+   "q1.conversion-chains"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of minutes in 1 week",
+   "quantityB": "10,000"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-03",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 2,
+  "stem": "A train travels at a constant speed of 90 kilometers per hour. What is its speed, in meters per second?",
+  "explanation": "Convert the top and bottom units separately: $90\\,\\frac{\\text{km}}{\\text{h}}\\cdot\\frac{1000\\text{ m}}{1\\text{ km}}\\cdot\\frac{1\\text{ h}}{3600\\text{ s}}=\\frac{90{,}000}{3600}=25$ meters per second.",
+  "choiceExplanations": {
+   "A": "Divides 90 by 60: that is kilometers per minute, and the kilometers were never converted.",
+   "C": "Multiplies by 3.6 instead of dividing: the hour factor was put the wrong way up.",
+   "D": "This is meters per minute; minutes still have to be converted to seconds.",
+   "E": "This is meters per hour; the hours were never converted."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "unit-conversion"
+  ],
+  "topics": [
+   "q1.compound-unit-conversion"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1.5"
+    },
+    {
+     "id": "B",
+     "text": "25"
+    },
+    {
+     "id": "C",
+     "text": "324"
+    },
+    {
+     "id": "D",
+     "text": "1,500"
+    },
+    {
+     "id": "E",
+     "text": "90,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-04",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 2,
+  "stem": "If gasoline costs \\$3.80 per gallon, what is the cost, in dollars, of the gasoline that car Q uses to travel 285 miles?",
+  "explanation": "Fuel used $=\\frac{\\text{distance}}{\\text{efficiency}}=\\frac{285}{30}=9.5$ gallons. Cost $=9.5\\cdot3.80=36.10$ dollars. The tank capacity is not needed.",
+  "estSeconds": 75,
+  "skills": [
+   "unit-conversion",
+   "tables"
+  ],
+  "topics": [
+   "q2.fuel-efficiency"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Four cars: fuel efficiency and tank size",
+   "data": {
+    "columns": [
+     "Car",
+     "Fuel efficiency (miles per gallon)",
+     "Fuel tank capacity (gallons)"
+    ],
+    "rows": [
+     [
+      "P",
+      24,
+      15
+     ],
+     [
+      "Q",
+      30,
+      12
+     ],
+     [
+      "R",
+      36,
+      14
+     ],
+     [
+      "S",
+      42,
+      11
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "decimal",
+    "unit": "dollars"
+   }
+  },
+  "answer": {
+   "value": 36.1
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-05",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Square or cube the length factor. $1\\text{ yd}^3=3^3\\text{ ft}^3=27\\text{ ft}^3$ and $1\\text{ ft}^2=12^2\\text{ in}^2=144\\text{ in}^2$. Quantity B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "unit-conversion"
+  ],
+  "topics": [
+   "q1.area-volume-units"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "1 yard = 3 feet and 1 foot = 12 inches",
+   "quantityA": "The number of cubic feet in 1 cubic yard",
+   "quantityB": "The number of square inches in 1 square foot"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-06",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 3,
+  "stem": "A storage tank in the shape of a rectangular box measures 2 meters by 1.5 meters by 0.8 meter. Given that 1 liter = 1,000 cubic centimeters, what is the capacity of the tank, in liters?",
+  "explanation": "Volume $=2\\cdot1.5\\cdot0.8=2.4\\text{ m}^3$. Since $1\\text{ m}=100\\text{ cm}$, $1\\text{ m}^3=100^3\\text{ cm}^3=1{,}000{,}000\\text{ cm}^3$, so the tank holds $2{,}400{,}000\\text{ cm}^3$, which is $\\frac{2{,}400{,}000}{1000}=2{,}400$ liters.",
+  "choiceExplanations": {
+   "A": "Uses the length factor 100 once: $2.4\\cdot100=240\\text{ cm}^3$, then divides by 1,000.",
+   "B": "This is the volume in cubic meters, not liters.",
+   "C": "Squares the factor ($100^2$) instead of cubing it.",
+   "E": "This is the volume in cubic centimeters; divide by 1,000 to get liters."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "unit-conversion",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q1.area-volume-units"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.24"
+    },
+    {
+     "id": "B",
+     "text": "2.4"
+    },
+    {
+     "id": "C",
+     "text": "240"
+    },
+    {
+     "id": "D",
+     "text": "2,400"
+    },
+    {
+     "id": "E",
+     "text": "2,400,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-07",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 3,
+  "stem": "A flight leaves city P at 9:40 a.m. local time and lands in city Q at 11:10 a.m. local time on the same day. Local time in city Q is 3 hours behind local time in city P. If the flight covers 2,295 miles, what is its average speed, in miles per hour?",
+  "explanation": "Put both times on P\\'s clock: 11:10 a.m. in Q is 2:10 p.m. in P. The flight lasts from 9:40 a.m. to 2:10 p.m., which is 4.5 hours. Speed $=\\frac{2295}{4.5}=510$ miles per hour. (Subtracting the local times directly gives 1.5 hours, a wrong 1,530.)",
+  "estSeconds": 90,
+  "skills": [
+   "unit-conversion",
+   "average-rate-work"
+  ],
+  "topics": [
+   "q2.time-zone-travel"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "miles per hour"
+  },
+  "answer": {
+   "value": 510
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-08",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 3,
+  "stem": "Water is pumped into an empty cylindrical tank with radius 4 feet and height 9 feet at a constant rate of $12\\pi$ cubic feet per minute. How many minutes after the pumping begins will the water be 6 feet deep?",
+  "explanation": "Volume $=$ base area $\\times$ depth, so the depth rises at $\\frac{12\\pi}{\\pi\\cdot4^2}=\\frac{12\\pi}{16\\pi}=0.75$ foot per minute. Time $=\\frac{6}{0.75}=8$ minutes.",
+  "choiceExplanations": {
+   "A": "Uses $\\pi r=4\\pi$ as the base area instead of $\\pi r^2=16\\pi$.",
+   "B": "Uses the circumference $2\\pi r=8\\pi$ as if it were the base area.",
+   "D": "This is the time to fill the whole tank (9 feet deep), not to reach 6 feet.",
+   "E": "Uses the diameter 8 in $\\pi r^2$, giving a base area of $64\\pi$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "unit-conversion",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q3.volume-and-rate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "8"
+    },
+    {
+     "id": "D",
+     "text": "12"
+    },
+    {
+     "id": "E",
+     "text": "32"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-09",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Fuel used $=\\frac{\\text{distance}}{\\text{efficiency}}$, so for a fixed distance it is inversely proportional to efficiency. New fuel $\\div$ old fuel $=\\frac{24}{30}=0.8$: a 20 percent decrease. The 25 percent rise in efficiency does not cut fuel by 25 percent. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "unit-conversion",
+   "percent-change"
+  ],
+  "topics": [
+   "q2.fuel-efficiency"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "A driver replaces a car that averages 24 miles per gallon with a car that averages 30 miles per gallon and drives the same distance each month.",
+   "quantityA": "The percent decrease in the amount of fuel the driver uses each month",
+   "quantityB": "25"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-10",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 4,
+  "stem": "A pump moves water at a constant rate of 0.6 cubic meter per minute. Given that 1 liter = 1,000 cubic centimeters, which of the following rates are equal to this rate? Indicate all such rates.",
+  "explanation": "Convert the volume and the time separately. $0.6\\cdot60=36$ cubic meters per hour. $0.6\\text{ m}^3=0.6\\cdot100^3\\text{ cm}^3=600{,}000\\text{ cm}^3$ per minute, which is 600 liters per minute, or $\\frac{600}{60}=10$ liters per second. Correct: B, C and E.",
+  "choiceExplanations": {
+   "A": "Divides by 60 instead of multiplying: an hour has 60 minutes, so the hourly amount is 60 times larger.",
+   "D": "Uses $100^2$ instead of $100^3$: cubic units need the length factor cubed."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "unit-conversion"
+  ],
+  "topics": [
+   "q1.compound-unit-conversion",
+   "q1.area-volume-units"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0.01 cubic meter per hour"
+    },
+    {
+     "id": "B",
+     "text": "36 cubic meters per hour"
+    },
+    {
+     "id": "C",
+     "text": "10 liters per second"
+    },
+    {
+     "id": "D",
+     "text": "6,000 cubic centimeters per minute"
+    },
+    {
+     "id": "E",
+     "text": "600,000 cubic centimeters per minute"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-11",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 5,
+  "stem": "A flight leaves city F at 1:15 p.m. local time and lands in city G at 6:45 p.m. local time on the same day. The return flight leaves city G at 8:00 a.m. local time and lands in city F at 9:30 a.m. local time on the same day. Local time in city G is ahead of local time in city F, and the two flights take the same amount of time. How many hours does each flight take?",
+  "explanation": "Let each flight take $T$ hours, and let G be $z$ hours ahead of F. On F\\'s clock, the first flight lands at 6:45 p.m. minus $z$, so $T=5.5-z$. The return leaves at 8:00 a.m. minus $z$ on F\\'s clock and lands at 9:30 a.m., so $T=1.5+z$. Adding: $2T=7$, so $T=3.5$ (and $z=2$).",
+  "estSeconds": 150,
+  "skills": [
+   "unit-conversion",
+   "average-rate-work"
+  ],
+  "topics": [
+   "q2.time-zone-travel"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 3.5
+  }
+ },
+ {
+  "id": "q1-15-unit-conversions-12",
+  "lessonId": "q1-15-unit-conversions",
+  "difficulty": 5,
+  "stem": "A rectangular tank is 6 feet long, 4 feet wide, and 2.5 feet deep, and it contains water to a depth of 9 inches. Water is pumped in at 15 gallons per minute while a drain removes 3 gallons per minute. Given that 1 foot = 12 inches and 1 cubic foot = 7.5 gallons, how many minutes will it take to fill the tank?",
+  "explanation": "Work in feet: 9 inches $=0.75$ foot, so the empty part is $6\\cdot4\\cdot(2.5-0.75)=42$ cubic feet, or $42\\cdot7.5=315$ gallons. Net rate $=15-3=12$ gallons per minute. Time $=\\frac{315}{12}=26.25$ minutes.",
+  "estSeconds": 150,
+  "skills": [
+   "unit-conversion",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q3.volume-rate-traps",
+   "q3.volume-and-rate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 26.25
+  }
+ }
+]
