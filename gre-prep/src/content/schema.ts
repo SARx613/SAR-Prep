@@ -136,6 +136,8 @@ const base = {
   choiceExplanations: z.record(z.string(), z.string()).optional(),
   estSeconds: z.number().int().min(15).max(300),
   skills: z.array(z.string()).default([]),
+  /** Ids from content/topics.json this item exercises (coverage is enforced by content:check). */
+  topics: z.array(z.string()).default([]),
   passageId: z.string().optional(),
   figure: FigureSchema.optional(),
   review: ReviewSchema,
@@ -259,3 +261,15 @@ export function wordCount(rich: string): number {
     .split(/\s+/)
     .filter((t) => /[\p{L}\p{N}]/u.test(t)).length;
 }
+
+/** Master checklist of concepts, techniques and traps; each needs at least one published question. */
+export const TopicSchema = z.object({
+  id: z.string().regex(/^[a-z0-9][a-z0-9.-]*$/),
+  group: z.string(),
+  title: z.string().min(3),
+  /** Lesson that teaches it (an id in syllabus.json). */
+  lessonId: z.string(),
+  kind: z.enum(['concept', 'technique', 'trap', 'pattern']),
+});
+export const TopicsFileSchema = z.object({ topics: z.array(TopicSchema) });
+export type Topic = z.infer<typeof TopicSchema>;

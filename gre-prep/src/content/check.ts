@@ -18,6 +18,8 @@ export interface CheckResult {
     questions: number;
     questionsPublished: number;
     passages: number;
+    topics: number;
+    topicsCovered: number;
   };
 }
 
@@ -239,6 +241,25 @@ export function checkContent(c: RawContent): CheckResult {
     if (words > 600) warn(`passages/${id}.json`, `passage is ${words} words`);
   }
 
+  // Topic coverage: every topic needs a hosting lesson and at least one published question.
+  const topicIds = new Set<string>();
+  for (const t of c.topics) {
+    if (topicIds.has(t.id)) err('topics.json', `duplicate topic id ${t.id}`);
+    topicIds.add(t.id);
+    if (!lessonIds.has(t.lessonId)) err('topics.json', `${t.id}: unknown lesson ${t.lessonId}`);
+  }
+  const covered = new Set<string>();
+  const tagged = (qs: ContentQuestionInput[], file: string) => {
+    for (const q of qs) for (const t of q.topics) {
+      if (!topicIds.has(t)) err(file, `${q.id}: unknown topic ${t}`);
+      else if (q.review.status === 'published') covered.add(t);
+    }
+  };
+  for (const [id, l] of c.lessons) tagged(l.checks, `lessons/${id}.json`);
+  for (const [id, qs] of c.questionSets) tagged(qs, `questions/${id}.json`);
+  const uncovered = c.topics.filter((t) => !covered.has(t.id));
+  if (uncovered.length) warn('topics.json', `${uncovered.length} topic(s) without a published question, e.g. ${uncovered.slice(0, 3).map((t) => t.id).join(', ')}`);
+
   const missing = c.syllabus.lessons.filter((l) => !c.lessons.has(l.id)).length;
   if (missing) warn('syllabus.json', `${missing} syllabus lessons have no lesson file yet`);
 
@@ -253,6 +274,8 @@ export function checkContent(c: RawContent): CheckResult {
       questions,
       questionsPublished,
       passages: c.passages.size,
+      topics: c.topics.length,
+      topicsCovered: covered.size,
     },
   };
 }

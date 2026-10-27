@@ -3,6 +3,7 @@ import { loadContent } from '../src/content/load';
 import { checkContent } from '../src/content/check';
 
 const strict = process.argv.includes('--strict'); // also fail on unwritten lessons
+const topicsStrict = process.argv.includes('--topics'); // also fail while any topic has no published question
 // --only q2   → report only files whose path contains "q2" (authors check their own slice
 // while other authors are mid-edit). Not for CI.
 const onlyIdx = process.argv.indexOf('--only');
@@ -16,6 +17,8 @@ for (const e of result.errors) console.error(`ERROR ${e.file}: ${e.message}`);
 console.log(JSON.stringify(result.stats));
 
 const unwritten = result.stats.lessonsInSyllabus - result.stats.lessonsWritten;
+const uncoveredTopics = result.stats.topics - result.stats.topicsCovered;
+if (topicsStrict && uncoveredTopics > 0) result.errors.push({ file: 'topics.json', message: `${uncoveredTopics} topic(s) without a published question` });
 if (result.errors.length || (strict && unwritten > 0)) {
   console.error(`content:check failed — ${result.errors.length} error(s)${strict ? `, ${unwritten} unwritten lesson(s)` : ''}`);
   process.exit(1);

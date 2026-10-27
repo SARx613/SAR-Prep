@@ -6,6 +6,7 @@
  *   content/lessons/<id>.json       one lesson body per syllabus lesson
  *   content/questions/<set>.json    array of questions; <set> is a lesson id or a pool id
  *   content/passages/<id>.json      one RC passage per file
+ *   content/topics.json             master topic checklist (coverage target)
  */
 
 import fs from 'node:fs';
@@ -17,7 +18,9 @@ import {
   QuestionSchema,
   SourceSchema,
   SyllabusSchema,
+  TopicsFileSchema,
   type LessonContent,
+  type Topic,
   type PassageSpec,
   type Source,
 } from './schema';
@@ -35,6 +38,7 @@ export interface RawContent {
   lessons: Map<string, LessonContent>;
   questionSets: Map<string, z.infer<typeof QuestionSchema>[]>;
   passages: Map<string, PassageSpec>;
+  topics: Topic[];
   /** Schema failures; semantic checks live in check.ts. */
   issues: LoadIssue[];
 }
@@ -91,5 +95,8 @@ export function loadContent(dir: string = CONTENT_DIR): RawContent {
     if (p) passages.set(p.id, p);
   }
 
-  return { sources, syllabus, lessons, questionSets, passages, issues };
+  const topicsFile = path.join(dir, 'topics.json');
+  const topics = fs.existsSync(topicsFile) ? (parse(topicsFile, TopicsFileSchema)?.topics ?? []) : [];
+
+  return { sources, syllabus, lessons, questionSets, passages, topics, issues };
 }
