@@ -1,0 +1,145 @@
+{
+ "id": "q2-25-work-rates",
+ "status": "draft",
+ "why": "Combined-work problems (machines, pipes, crews) appear regularly in GRE Quant, and they all run on one idea: rates add, times do not.",
+ "rule": "Work = rate × time, with work measured as a fraction of one job. A worker who finishes alone in $a$ hours has a rate of $\\frac1a$ job per hour. Rates add; times never do. In a table, use one row per worker or phase; the work column adds up to 1 job.\n\n- **Output rates:** $x$ units in $y$ minutes is $\\frac{x}{y}$ per minute, so $\\frac{60hx}{y}$ units in $h$ hours. Check variable answer choices with easy numbers.\n- **Part of the job:** rate × time; percent = fraction × 100; part left = 1 − part done. Workers on a shared job split it in the ratio of their rates.\n- **Two workers:** together they take $\\frac{ab}{a+b}$ hours, less than either alone (this shortcut is for two workers only).\n- **Unknown worker:** $\\frac1b=\\frac1t-\\frac1a$, where $t$ is the time together; then invert to get the time $b$.\n- **Phases:** work together, then the rest = 1 − (work done together) at the remaining rate.\n- **$k$ times as fast:** rate × $k$, time ÷ $k$.\n- **$p$ percent more time:** time × $(1+\\frac{p}{100})$, so rate ÷ $(1+\\frac{p}{100})$. Convert to rates before adding.",
+ "lengthJustification": "Eight distinct work setups are tested in the practice set, and each needs its own one-line method.",
+ "examples": [
+  {
+   "prompt": "Pump A fills a tank in 4 hours and pump B fills it in 12 hours. Both run for 2 hours, then pump A is switched off. How many more hours does pump B need to fill the tank?",
+   "steps": [
+    "Row 1, together: rate $\\frac14+\\frac1{12}=\\frac13$ tank per hour, time 2, work $\\frac23$.",
+    "Row 2, B alone: rate $\\frac1{12}$, time $x$, work $1-\\frac23=\\frac13$.",
+    "$x=\\frac13\\div\\frac1{12}=4$."
+   ],
+   "answer": "4 hours"
+  },
+  {
+   "prompt": "Worker Q takes 50 percent more time than worker P to do a job. Together they do it in 6 hours. How long does P take alone?",
+   "steps": [
+    "Let P take $p$ hours; Q takes $1.5p$ hours.",
+    "Rates: $\\frac1p$ and $\\frac1{1.5p}=\\frac2{3p}$.",
+    "Add the rates: $\\frac1p+\\frac2{3p}=\\frac5{3p}=\\frac16$, so $3p=30$ and $p=10$.",
+    "Check: $\\frac{10\\cdot15}{10+15}=6$."
+   ],
+   "answer": "10 hours"
+  }
+ ],
+ "trap": "Never add or average times: workers who take 4 and 12 hours alone need 3 hours together, not 8 or 16. After subtracting rates, invert to get a time. Taking 25 percent more time means working at 80 percent of the rate (20 percent less), not 25 percent less.",
+ "checks": [
+  {
+   "id": "q2-25-work-rates-c1",
+   "lessonId": "q2-25-work-rates",
+   "difficulty": 1,
+   "stem": "A crew can paint a house in 10 days. Working at that rate, what fraction of the house does the crew paint in 4 days?",
+   "explanation": "The rate is $\\frac1{10}$ of the house per day, so in 4 days the crew paints $4\\cdot\\frac1{10}=\\frac25$.",
+   "estSeconds": 45,
+   "skills": [
+    "work-rates"
+   ],
+   "topics": [
+    "q2.percent-of-job"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.4,
+    "fraction": {
+     "numerator": 2,
+     "denominator": 5
+    }
+   }
+  },
+  {
+   "id": "q2-25-work-rates-c2",
+   "lessonId": "q2-25-work-rates",
+   "difficulty": 2,
+   "stem": "Working together, two cranes unload a ship in 4 hours. The first crane alone would need 12 hours. How many hours would the second crane need alone?",
+   "explanation": "Subtract rates: $\\frac14-\\frac1{12}=\\frac3{12}-\\frac1{12}=\\frac2{12}=\\frac16$ of the job per hour. Invert: 6 hours.",
+   "estSeconds": 60,
+   "skills": [
+    "work-rates"
+   ],
+   "topics": [
+    "q2.unknown-worker-time"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "hours"
+   },
+   "answer": {
+    "value": 6
+   }
+  },
+  {
+   "id": "q2-25-work-rates-c3",
+   "lessonId": "q2-25-work-rates",
+   "difficulty": 2,
+   "stem": "Machine A works 3 times as fast as machine B. Working alone, machine B does a job in 12 hours. How many hours do the two machines take to do the job working together?",
+   "explanation": "Three times as fast means a third of the time: A alone takes $\\frac{12}{3}=4$ hours. Together: $\\frac{4\\cdot12}{4+12}=\\frac{48}{16}=3$ hours.",
+   "choiceExplanations": {
+    "B": "4 hours is machine A alone; with B helping, the job goes faster.",
+    "C": "$\\frac{12}{2}$ treats the two machines as equally fast.",
+    "D": "8 is the average of 4 and 12; times do not average.",
+    "E": "$3\\cdot12$ multiplies B's time by 3; the faster machine takes *less* time."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "work-rates"
+   ],
+   "topics": [
+    "q2.rate-as-multiple",
+    "q2.two-worker-shortcut"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$3$"
+     },
+     {
+      "id": "B",
+      "text": "$4$"
+     },
+     {
+      "id": "C",
+      "text": "$6$"
+     },
+     {
+      "id": "D",
+      "text": "$8$"
+     },
+     {
+      "id": "E",
+      "text": "$36$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

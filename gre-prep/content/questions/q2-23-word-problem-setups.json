@@ -1,0 +1,494 @@
+[
+ {
+  "id": "q2-23-word-problem-setups-01",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 1,
+  "stem": "Lia sits in a row of chairs. She is 11th from the left end of the row and 6th from the right end. If every chair in the row is filled, how many chairs are in the row?",
+  "explanation": "Counting from both ends counts Lia twice: $11+6-1=16$.",
+  "choiceExplanations": {
+   "A": "$11-6$ has no meaning here; Lia has 10 people on her left and 5 on her right.",
+   "B": "Subtracting 2 removes Lia completely.",
+   "D": "$11+6$ counts Lia twice.",
+   "E": "There are $10+5=15$ others plus Lia: 16."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.positions-in-a-line"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "15"
+    },
+    {
+     "id": "C",
+     "text": "16"
+    },
+    {
+     "id": "D",
+     "text": "17"
+    },
+    {
+     "id": "E",
+     "text": "18"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-02",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 1,
+  "stem": "Tank A holds 340 liters of water and is drained at 6 liters per minute. At the same moment, Tank B holds 60 liters and is filled at 8 liters per minute. After how many minutes will the two tanks hold equal amounts of water?",
+  "explanation": "Write each as start $+$ rate $\\times\\,t$: $340-6t=60+8t$. Then $280=14t$ and $t=20$. Check: both hold 220 liters.",
+  "estSeconds": 60,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.quantities-become-equal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-03",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 2,
+  "stem": "In a club, $\\frac{1}{4}$ of the members play only chess, $\\frac{2}{5}$ play only bridge, and the remaining 21 members play neither game. How many members does the club have?",
+  "explanation": "The shares add to 1, so the rest is $1-\\frac14-\\frac25=\\frac{7}{20}$ of the club. Then $\\frac{7}{20}$ of the club is 21 members, so the club has $21\\cdot\\frac{20}{7}=60$.",
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.fraction-parts-of-whole"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-04",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "\"12 is subtracted from 5 times $x$\" is $5x-12$; \"3 more than twice $x$\" is $2x+3$. So $5x-12=2x+3$, $x=5$ and $3x=15$. Quantity B is greater. (Writing \"3 more than twice $x$\" as $2(x+3)$ would give $x=6$ and the wrong answer A.)",
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q0.translating-in-qc"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$3x$",
+   "quantityB": "16",
+   "common": "When 12 is subtracted from 5 times the number $x$, the result is 3 more than twice $x$."
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-05",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 2,
+  "stem": "In a line of 30 people, Dev is 24th from the front and Eva is 11th from the back. How many people stand between Dev and Eva?",
+  "explanation": "Eva is $30-11+1=20$th from the front. Strictly between positions 20 and 24: $24-20-1=3$ people (positions 21, 22, 23).",
+  "choiceExplanations": {
+   "A": "Positions 21, 22 and 23 lie between them: three people.",
+   "C": "$24-20=4$ counts one of the two endpoints; subtract 1 more.",
+   "D": "$30-24-11=-5$ assumes Eva stands behind Dev; she is in front of him.",
+   "E": "Taking Eva as $30-11=19$th forgets to add 1, and then also counts an endpoint."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.positions-in-a-line"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "6"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-06",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 3,
+  "stem": "Eight years ago, Marta was 3 times as old as Theo. In 6 years, Marta will be twice as old as Theo will be then. How old is Theo now?",
+  "explanation": "Shift both ages. Eight years ago: $M-8=3(T-8)$, so $M=3T-16$. In 6 years: $M+6=2(T+6)$, so $3T-10=2T+12$ and $T=22$. Check: $M=50$; eight years ago 42 and 14; in six years 56 and 28.",
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.age-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 22
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-07",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 3,
+  "stem": "A baker uses $\\frac{3}{8}$ of a bag of flour on Monday and $\\frac{2}{5}$ of the remaining flour on Tuesday. What fraction of the original bag of flour does she use on Tuesday?",
+  "explanation": "After Monday $\\frac58$ of the bag is left. Tuesday uses $\\frac25$ of that: $\\frac25\\cdot\\frac58=\\frac14$ of the bag.",
+  "choiceExplanations": {
+   "A": "$\\frac25\\cdot\\frac38$ takes the fraction of the part used on Monday, not of what remained.",
+   "C": "$\\frac38$ is what is left after Tuesday ($\\frac35\\cdot\\frac58$), not what Tuesday used.",
+   "D": "$\\frac25$ is a fraction of the remainder, not of the original bag.",
+   "E": "$\\frac38+\\frac25$ treats both fractions as parts of the original bag."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.fraction-of-remainder"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{3}{20}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{4}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{8}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{2}{5}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{31}{40}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-08",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 3,
+  "stem": "The table shows the monthly cost of two phone plans. For which of the following numbers of minutes used in a month would Plan P cost less than Plan Q? Indicate all such numbers.",
+  "explanation": "Plan P costs $18+0.06m$ and Plan Q costs $0.15m$ dollars. They are equal when $18=0.09m$, at $m=200$. Above the break-even the plan with the lower rate, P, is cheaper; at 200 they cost the same. So 240 and 300 minutes.",
+  "choiceExplanations": {
+   "A": "At 120 minutes P costs \\$25.20 and Q costs \\$18.00: below the break-even the no-fee plan is cheaper.",
+   "B": "At 180 minutes P costs \\$28.80 and Q costs \\$27.00.",
+   "C": "At 200 minutes both cost \\$30.00, so P is not less."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "word-problems",
+   "data-interpretation"
+  ],
+  "topics": [
+   "q2.compare-price-plans"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Monthly cost of two phone plans",
+   "data": {
+    "columns": [
+     "Plan",
+     "Monthly fee",
+     "Charge per minute"
+    ],
+    "rows": [
+     [
+      "P",
+      "$18.00",
+      "$0.06"
+     ],
+     [
+      "Q",
+      "$0.00",
+      "$0.15"
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "120"
+    },
+    {
+     "id": "B",
+     "text": "180"
+    },
+    {
+     "id": "C",
+     "text": "200"
+    },
+    {
+     "id": "D",
+     "text": "240"
+    },
+    {
+     "id": "E",
+     "text": "300"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-09",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 4,
+  "stem": "A two-digit positive integer is equal to 7 times the sum of its digits. When its digits are reversed, the resulting number is 36 less than the original integer. What is the original integer?",
+  "explanation": "Write it as $10t+u$. First condition: $10t+u=7(t+u)$, so $3t=6u$ and $t=2u$. Reversing: $(10t+u)-(10u+t)=9(t-u)=36$, so $t-u=4$. Then $u=4$, $t=8$: the integer is 84. Check: $7\\cdot12=84$ and $84-48=36$.",
+  "estSeconds": 120,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.digit-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 84
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-10",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 4,
+  "stem": "A group of friends agreed to split the \\$360 cost of a cabin equally. Then 3 of them dropped out, and each of the others paid \\$20 more than originally planned. How many friends were in the original group?",
+  "explanation": "With $n$ friends: $\\frac{360}{n-3}-\\frac{360}{n}=20$. Multiply by $n(n-3)$: $360\\cdot3=20n(n-3)$, so $n(n-3)=54$ and $n=9$. Check: \\$40 each for 9, \\$60 each for 6.",
+  "choiceExplanations": {
+   "A": "6 is the number who paid in the end: \\$60 each instead of \\$40.",
+   "B": "With 8, each would pay \\$45, then \\$72: an increase of \\$27.",
+   "D": "With 12, each would pay \\$30, then \\$40: an increase of \\$10.",
+   "E": "With 18, each would pay \\$20, then \\$24: an increase of \\$4."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.shared-cost"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "9"
+    },
+    {
+     "id": "D",
+     "text": "12"
+    },
+    {
+     "id": "E",
+     "text": "18"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-11",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 5,
+  "stem": "A charity divided a shipment of blankets. Shelter A received $\\frac{2}{7}$ of the blankets, Shelter B received $\\frac{3}{5}$ of the remaining blankets, and Shelter C received $\\frac{1}{4}$ of the blankets then left. The last 60 blankets went to Shelter D. How many blankets were in the shipment?",
+  "explanation": "Track what is left as a fraction of the whole: after A, $\\frac57$; after B, $\\frac25\\cdot\\frac57=\\frac27$; after C, $\\frac34\\cdot\\frac27=\\frac{3}{14}$. So $\\frac{3}{14}$ of the shipment is 60 and the shipment is $60\\cdot\\frac{14}{3}=280$. Check: $80+120+20+60=280$.",
+  "estSeconds": 150,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.fraction-of-remainder",
+   "q2.fraction-parts-of-whole"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 280
+  }
+ },
+ {
+  "id": "q2-23-word-problem-setups-12",
+  "lessonId": "q2-23-word-problem-setups",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Measure $t$ in minutes from 1:00 p.m. for both tanks. Tank X: $900-15t$. Tank Y starts filling 12 minutes later: $120+25(t-12)$ for $t\\ge12$. Set equal: $900-15t=25t-180$, so $40t=1080$ and $t=27$. Quantity A is greater. Ignoring the 12-minute delay gives $t=19.5$ and the wrong answer B.",
+  "estSeconds": 150,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.quantities-become-equal",
+   "q0.translating-in-qc"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of minutes after 1:00 p.m. at which the two tanks hold equal amounts of water",
+   "quantityB": "25",
+   "common": "At 1:00 p.m., Tank X holds 900 liters and is being drained at a constant 15 liters per minute. Tank Y holds 120 liters, and starting at 1:12 p.m. it is filled at a constant 25 liters per minute."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ }
+]

@@ -1,0 +1,528 @@
+[
+ {
+  "id": "q2-22-inequality-reasoning-01",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 1,
+  "stem": "A storage shelf holds at most 14 binders. What is the least number of such shelves needed to store 100 binders?",
+  "explanation": "With $s$ shelves, $14s\\ge100$, so $s\\ge7.14\\ldots$. A number *needed* rounds **up**: 7 shelves hold only 98 binders, so 8 shelves are needed.",
+  "estSeconds": 45,
+  "skills": [
+   "linear-inequalities",
+   "word-problems"
+  ],
+  "topics": [
+   "q2.inequality-word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-02",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 1,
+  "stem": "Which of the following inequalities describes the values of $x$ shown in bold on the number line?",
+  "explanation": "The open dot at $-2$ means $-2$ is excluded ($<$); the closed dot at 3 means 3 is included ($\\le$). The bold segment between them is $-2<x\\le3$.",
+  "choiceExplanations": {
+   "A": "The dot at 3 is closed, so 3 is included.",
+   "C": "The dots are swapped: $-2$ is open and 3 is closed.",
+   "D": "The dot at $-2$ is open, so $-2$ is excluded.",
+   "E": "The bold part lies between the dots, not outside them."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.inequalities-on-number-line"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Number line",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 320 70\"><line x1=\"10\" y1=\"34\" x2=\"310\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"4,34 13,30 13,38\" fill=\"currentColor\"/><polygon points=\"316,34 307,30 307,38\" fill=\"currentColor\"/><line x1=\"30\" y1=\"29\" x2=\"30\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"23\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-4</text><line x1=\"58.8889\" y1=\"29\" x2=\"58.8889\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"51.8889\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-3</text><line x1=\"87.7778\" y1=\"29\" x2=\"87.7778\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"80.7778\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-2</text><line x1=\"116.667\" y1=\"29\" x2=\"116.667\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"109.667\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-1</text><line x1=\"145.556\" y1=\"29\" x2=\"145.556\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"141.556\" y=\"56\" font-size=\"12\" fill=\"currentColor\">0</text><line x1=\"174.444\" y1=\"29\" x2=\"174.444\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"170.444\" y=\"56\" font-size=\"12\" fill=\"currentColor\">1</text><line x1=\"203.333\" y1=\"29\" x2=\"203.333\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"199.333\" y=\"56\" font-size=\"12\" fill=\"currentColor\">2</text><line x1=\"232.222\" y1=\"29\" x2=\"232.222\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228.222\" y=\"56\" font-size=\"12\" fill=\"currentColor\">3</text><line x1=\"261.111\" y1=\"29\" x2=\"261.111\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"257.111\" y=\"56\" font-size=\"12\" fill=\"currentColor\">4</text><line x1=\"290\" y1=\"29\" x2=\"290\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"286\" y=\"56\" font-size=\"12\" fill=\"currentColor\">5</text><line x1=\"93.7778\" y1=\"34\" x2=\"232.222\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"5\"/><circle cx=\"87.7778\" cy=\"34\" r=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"232.222\" cy=\"34\" r=\"6\" fill=\"currentColor\"/></svg>",
+    "alt": "Number line from -4 to 5 with an open dot at -2, a closed dot at 3, and the segment between them in bold"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2<x<3$"
+    },
+    {
+     "id": "B",
+     "text": "$-2<x\\le3$"
+    },
+    {
+     "id": "C",
+     "text": "$-2\\le x<3$"
+    },
+    {
+     "id": "D",
+     "text": "$-2\\le x\\le3$"
+    },
+    {
+     "id": "E",
+     "text": "$x<-2$ or $x\\ge3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-03",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 2,
+  "stem": "If $m>k$, $p<k$, and $n>m$, which of the following orders is correct?",
+  "explanation": "Write each with $<$: $k<m$, $p<k$, $m<n$. Link the shared letters: $p<k<m<n$.",
+  "choiceExplanations": {
+   "A": "$p<k$, so $p$ cannot come after $k$.",
+   "B": "This reverses $p<k$.",
+   "C": "This is the order from greatest to least written with $<$; every sign is reversed.",
+   "E": "$m>k$, so $k$ comes before $m$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.chaining-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$k<m<p<n$"
+    },
+    {
+     "id": "B",
+     "text": "$k<p<m<n$"
+    },
+    {
+     "id": "C",
+     "text": "$n<m<k<p$"
+    },
+    {
+     "id": "D",
+     "text": "$p<k<m<n$"
+    },
+    {
+     "id": "E",
+     "text": "$p<m<k<n$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-04",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "From the equation, $y=20-3x$. Since $x>4$, $3x>12$, so $-3x<-12$ (reverse when multiplying by $-1$) and $y=20-3x<8$. Quantity B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.inequality-with-equation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$y$",
+   "quantityB": "8",
+   "common": "$3x+y=20$ and $x>4$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-05",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 2,
+  "stem": "If $4<p<9$ and $-3<q<1$, which of the following describes all possible values of $p+q$?",
+  "explanation": "Both inequalities point the same way, so add them part by part: $4+(-3)<p+q<9+1$, that is $1<p+q<10$.",
+  "choiceExplanations": {
+   "A": "The upper end adds the two upper ends: $9+1=10$, not $9-3$.",
+   "C": "This pairs each lower end with the other upper end.",
+   "D": "The lower end adds the two lower ends: $4+(-3)=1$.",
+   "E": "This subtracts the inequalities, which is not allowed."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.adding-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1<p+q<6$"
+    },
+    {
+     "id": "B",
+     "text": "$1<p+q<10$"
+    },
+    {
+     "id": "C",
+     "text": "$5<p+q<6$"
+    },
+    {
+     "id": "D",
+     "text": "$5<p+q<10$"
+    },
+    {
+     "id": "E",
+     "text": "$7<p+q<8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-06",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 3,
+  "stem": "The number line shows, in bold, all solutions of which of the following?",
+  "explanation": "The figure shows $x\\le-1$ (closed dot, ray to the left) or $x>4$ (open dot, ray to the right). In B, $2x+3\\le1$ gives $x\\le-1$ and $x-4>0$ gives $x>4$, joined by *or*.",
+  "choiceExplanations": {
+   "A": "No number is both $\\le-1$ and $>4$; *and* keeps only the overlap, which is empty.",
+   "C": "This gives $x<-1$ or $x\\ge4$: the open and closed dots are swapped.",
+   "D": "$2x+3\\ge1$ gives $x\\ge-1$, a ray to the right.",
+   "E": "$4-x>0$ gives $x<4$ (dividing by $-1$ reverses the sign), so the solution set is all $x<4$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.inequalities-on-number-line"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Number line",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 320 70\"><line x1=\"10\" y1=\"34\" x2=\"310\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"4,34 13,30 13,38\" fill=\"currentColor\"/><polygon points=\"316,34 307,30 307,38\" fill=\"currentColor\"/><line x1=\"30\" y1=\"29\" x2=\"30\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"23\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-3</text><line x1=\"58.8889\" y1=\"29\" x2=\"58.8889\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"51.8889\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-2</text><line x1=\"87.7778\" y1=\"29\" x2=\"87.7778\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"80.7778\" y=\"56\" font-size=\"12\" fill=\"currentColor\">-1</text><line x1=\"116.667\" y1=\"29\" x2=\"116.667\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"112.667\" y=\"56\" font-size=\"12\" fill=\"currentColor\">0</text><line x1=\"145.556\" y1=\"29\" x2=\"145.556\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"141.556\" y=\"56\" font-size=\"12\" fill=\"currentColor\">1</text><line x1=\"174.444\" y1=\"29\" x2=\"174.444\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"170.444\" y=\"56\" font-size=\"12\" fill=\"currentColor\">2</text><line x1=\"203.333\" y1=\"29\" x2=\"203.333\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"199.333\" y=\"56\" font-size=\"12\" fill=\"currentColor\">3</text><line x1=\"232.222\" y1=\"29\" x2=\"232.222\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"228.222\" y=\"56\" font-size=\"12\" fill=\"currentColor\">4</text><line x1=\"261.111\" y1=\"29\" x2=\"261.111\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"257.111\" y=\"56\" font-size=\"12\" fill=\"currentColor\">5</text><line x1=\"290\" y1=\"29\" x2=\"290\" y2=\"39\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"286\" y=\"56\" font-size=\"12\" fill=\"currentColor\">6</text><line x1=\"8\" y1=\"34\" x2=\"87.7778\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"5\"/><line x1=\"238.222\" y1=\"34\" x2=\"312\" y2=\"34\" stroke=\"currentColor\" stroke-width=\"5\"/><circle cx=\"87.7778\" cy=\"34\" r=\"6\" fill=\"currentColor\"/><circle cx=\"232.222\" cy=\"34\" r=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+    "alt": "Number line from -3 to 6 with a closed dot at -1 and a bold ray to the left, and an open dot at 4 and a bold ray to the right"
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2x+3\\le1$ and $x-4>0$"
+    },
+    {
+     "id": "B",
+     "text": "$2x+3\\le1$ or $x-4>0$"
+    },
+    {
+     "id": "C",
+     "text": "$2x+3<1$ or $x-4\\ge0$"
+    },
+    {
+     "id": "D",
+     "text": "$2x+3\\ge1$ or $x-4>0$"
+    },
+    {
+     "id": "E",
+     "text": "$3-2x\\ge5$ or $4-x>0$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-07",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Both start from $15n$ and 400: $\\frac{400}{15}=26.67\\ldots$. To raise *at least* \\$400 you need $15n\\ge400$, rounded **up**: 27. To *afford* $15n\\le400$, round **down**: 26. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-inequalities",
+   "word-problems"
+  ],
+  "topics": [
+   "q2.inequality-word-problems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The least number of \\$15 tickets that must be sold to raise at least \\$400",
+   "quantityB": "The greatest number of \\$15 tickets that can be bought with \\$400"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-08",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Multiplying $\\frac{p}{q}>3$ by $q$ keeps the sign only if $q>0$. If $q=1$ and $p=4$, then $p>3q$. If $q=-1$ and $p=-4$, then $\\frac{p}{q}=4>3$ but $p=-4<-3=3q$. Cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.unknown-sign-multiplier"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$p$",
+   "quantityB": "$3q$",
+   "common": "$\\frac{p}{q}>3$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-09",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 4,
+  "stem": "If $a>b$ and $c>d$, which of the following must be true? Indicate all such statements.",
+  "explanation": "Adding same-direction inequalities is valid: $a+c>b+d$ (A). From $c>d$, multiplying by $-1$ gives $-d>-c$; adding $a>b$ gives $a-d>b-c$ (D). From $2a>2b$ and $c>d$, adding gives $2a+c>2b+d$ (E). Subtracting or multiplying is not valid: with $a=1$, $b=0$, $c=10$, $d=0$, $a-c=-9<0=b-d$; with $a=1$, $b=0$, $c=-1$, $d=-5$, $ac=-1<0=bd$.",
+  "choiceExplanations": {
+   "B": "Subtracting inequalities is not allowed: $a=1$, $b=0$, $c=10$, $d=0$ gives $-9>0$, false.",
+   "C": "Multiplying fails with negatives: $a=1$, $b=0$, $c=-1$, $d=-5$ gives $-1>0$, false.",
+   "D": "True: reverse $c>d$ to $-d>-c$, then add it to $a>b$.",
+   "E": "True: double $a>b$ to $2a>2b$, then add $c>d$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.several-unknowns-trap",
+   "q2.adding-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$a+c>b+d$"
+    },
+    {
+     "id": "B",
+     "text": "$a-c>b-d$"
+    },
+    {
+     "id": "C",
+     "text": "$ac>bd$"
+    },
+    {
+     "id": "D",
+     "text": "$a-d>b-c$"
+    },
+    {
+     "id": "E",
+     "text": "$2a+c>2b+d$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-10",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Test all endpoint pairs: $(-5)(-3)=15$, $(-5)(4)=-20$, $(2)(-3)=-6$, $(2)(4)=8$. The greatest is 15, from the two lower ends, so Quantity A is greater. Using only $2\\cdot4=8$ would wrongly suggest B.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.extremes-of-product"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The greatest possible value of $ab$",
+   "quantityB": "10",
+   "common": "$-5\\le a\\le2$ and $-3\\le b\\le4$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-11",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 5,
+  "stem": "If $-2<x<3$ and $1<y<4$, which of the following could be the value of $xy$? Indicate all such values.",
+  "explanation": "Endpoint products: $(-2)(1)=-2$, $(-2)(4)=-8$, $(3)(1)=3$, $(3)(4)=12$. So $-8<xy<12$, with both ends excluded because the inequalities are strict. Of the choices, $-7$, $-1$ and 11 lie strictly inside; for example $x=-1.9$ with $y=\\frac{70}{19}\\approx3.7$ gives $-7$, and $x=-0.5$ with $y=2$ gives $-1$.",
+  "choiceExplanations": {
+   "A": "The least possible product is just above $-8$.",
+   "B": "$-8$ needs $x=-2$ and $y=4$, which the strict inequalities exclude.",
+   "C": "Possible: the least product is near $(-2)(4)=-8$, not $(-2)(1)=-2$.",
+   "F": "12 needs $x=3$ and $y=4$, which are excluded."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.extremes-of-product"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-9$"
+    },
+    {
+     "id": "B",
+     "text": "$-8$"
+    },
+    {
+     "id": "C",
+     "text": "$-7$"
+    },
+    {
+     "id": "D",
+     "text": "$-1$"
+    },
+    {
+     "id": "E",
+     "text": "11"
+    },
+    {
+     "id": "F",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-22-inequality-reasoning-12",
+  "lessonId": "q2-22-inequality-reasoning",
+  "difficulty": 5,
+  "stem": "If $3x+2y=12$ and $-2<x<6$, how many integers are possible values of $y$?",
+  "explanation": "Write $y$ through $x$: $y=\\frac{12-3x}{2}$. Push the bound through: $-2<x<6$ gives $-18<-3x<6$ (reversed), then $-6<12-3x<18$, then $-3<y<9$. Since $x$ need not be an integer, $y$ can be any integer from $-2$ to 8: 11 values.",
+  "estSeconds": 120,
+  "skills": [
+   "linear-inequalities"
+  ],
+  "topics": [
+   "q2.inequality-with-equation"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 11
+  }
+ }
+]

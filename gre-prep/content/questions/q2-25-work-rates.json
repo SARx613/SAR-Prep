@@ -1,0 +1,507 @@
+[
+ {
+  "id": "q2-25-work-rates-01",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 1,
+  "stem": "A bottling machine fills 240 bottles every 8 minutes. At this rate, how many bottles does it fill in 1.5 hours?",
+  "explanation": "The rate is $\\frac{240}{8}=30$ bottles per minute, and 1.5 hours is 90 minutes: $30\\cdot90=2{,}700$ bottles.",
+  "estSeconds": 45,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.single-worker"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "bottles"
+  },
+  "answer": {
+   "value": 2700
+  }
+ },
+ {
+  "id": "q2-25-work-rates-02",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 1,
+  "stem": "Working alone, Ravi can paint a fence in 6 hours, and Mia can paint the same fence in 10 hours. Working together at these rates, how many hours do they need to paint the fence?",
+  "explanation": "For two workers, time together $=\\frac{ab}{a+b}=\\frac{6\\cdot10}{6+10}=\\frac{60}{16}=3.75$ hours. (Rates: $\\frac16+\\frac1{10}=\\frac4{15}$ per hour.)",
+  "choiceExplanations": {
+   "B": "$10-6$ subtracts the times; only rates can be combined.",
+   "C": "Together they must finish sooner than Ravi alone.",
+   "D": "8 is the average of the times; times do not average.",
+   "E": "16 adds the times; with help the job takes less time, not more."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.two-worker-shortcut"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3.75$"
+    },
+    {
+     "id": "B",
+     "text": "$4$"
+    },
+    {
+     "id": "C",
+     "text": "$6$"
+    },
+    {
+     "id": "D",
+     "text": "$8$"
+    },
+    {
+     "id": "E",
+     "text": "$16$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-25-work-rates-03",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 2,
+  "stem": "Machine A alone can complete a job in 8 hours, and machine B alone can complete it in 12 hours. The two machines work together on the job for 3 hours. What percent of the job is still left to do?",
+  "explanation": "Together: $\\frac18+\\frac1{12}=\\frac5{24}$ of the job per hour. In 3 hours: $\\frac{15}{24}=\\frac58=62.5\\%$ done, so $37.5\\%$ is left.",
+  "choiceExplanations": {
+   "A": "$\\frac3{20}$ uses the sum of the times, 20 hours, as the combined time, and gives work done rather than left.",
+   "C": "62.5% is the part done; the question asks for the part left.",
+   "D": "Uses the average time, 10 hours, as the combined time: $1-\\frac3{10}$.",
+   "E": "$1-\\frac3{20}$ uses the sum of the times as the combined time."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.percent-of-job",
+   "q2.work-table"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$37.5\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$62.5\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$70\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$85\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-25-work-rates-04",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Together: $\\frac{5\\cdot7}{5+7}=\\frac{35}{12}=2\\frac{11}{12}$ hours, which is less than 3. Quantity B is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.two-worker-shortcut"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Working alone, pump X can empty a tank in 5 hours, and pump Y can empty the same tank in 7 hours.",
+   "quantityA": "The number of hours the two pumps, working together, need to empty the tank",
+   "quantityB": "$3$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-25-work-rates-05",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 2,
+  "stem": "A printer prints $p$ pages every $m$ minutes. At this rate, how many pages does it print in $h$ hours?",
+  "explanation": "The rate is $\\frac{p}{m}$ pages per minute, and $h$ hours is $60h$ minutes: $\\frac{p}{m}\\cdot60h=\\frac{60hp}{m}$. Check with $p=10$, $m=5$, $h=1$: 2 pages per minute for 60 minutes is 120 pages, and only $\\frac{60hp}{m}$ gives 120.",
+  "choiceExplanations": {
+   "A": "Divides by 60; hours become minutes by multiplying by 60.",
+   "B": "Uses $\\frac{m}{p}$ (minutes per page) as the rate and divides by 60.",
+   "D": "Uses minutes per page as if it were pages per minute.",
+   "E": "Gives minutes per page divided by hours; it is not a number of pages."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.single-worker"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{hp}{60m}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{hm}{60p}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{60hp}{m}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{60hm}{p}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{60m}{hp}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-25-work-rates-06",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Both hoses run for the same time, so each supplies water in proportion to its rate: $\\frac14:\\frac16=3:2$. Hose Y supplies $\\frac{2}{3+2}=\\frac25$. The quantities are equal.",
+  "estSeconds": 90,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.percent-of-job"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Working alone, hose X can fill an empty pond in 4 hours, and hose Y can fill it in 6 hours. Both hoses are turned on at the same time and together fill the empty pond.",
+   "quantityA": "The fraction of the pond's water that came from hose Y",
+   "quantityB": "$\\frac25$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-25-work-rates-07",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 3,
+  "stem": "Working together, two pumps can drain a pool in 3 hours 36 minutes. Working alone, the first pump can drain the pool in 6 hours. How many hours would the second pump take to drain the pool alone?",
+  "explanation": "3 hours 36 minutes is 3.6 hours, so together the rate is $\\frac1{3.6}=\\frac5{18}$ pool per hour. Subtract the first pump's rate: $\\frac5{18}-\\frac16=\\frac5{18}-\\frac3{18}=\\frac19$. Invert: 9 hours.",
+  "estSeconds": 90,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.unknown-worker-time"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q2-25-work-rates-08",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 3,
+  "stem": "Each machine works at the constant rate shown in the table. Machines P and Q start an order of 1,520 units at 8:00 a.m. At 10:00 a.m. machine R joins them, and all three machines work until the order is finished. How many hours after 8:00 a.m. is the order finished?",
+  "explanation": "Phase 1: P and Q make $100+60=160$ units per hour for 2 hours, so 320 units. Phase 2: the remaining $1{,}520-320=1{,}200$ units at $160+140=300$ units per hour take 4 hours. Total: $2+4=6$ hours.",
+  "estSeconds": 90,
+  "skills": [
+   "work-rates",
+   "tables"
+  ],
+  "topics": [
+   "q2.work-table",
+   "q2.single-worker"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Production rates of three machines",
+   "data": {
+    "columns": [
+     "Machine",
+     "Units produced per hour"
+    ],
+    "rows": [
+     [
+      "P",
+      100
+     ],
+     [
+      "Q",
+      60
+     ],
+     [
+      "R",
+      140
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer",
+    "unit": "hours"
+   }
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q2-25-work-rates-09",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 4,
+  "stem": "Machine A works 1.5 times as fast as machine B. Working together at their constant rates, the two machines finish a job in 6 hours. How many hours would machine A take to finish the job alone?",
+  "explanation": "Let B's rate be $r$ jobs per hour; A's is $1.5r$. Together $2.5r=\\frac16$, so $r=\\frac1{15}$. A's rate is $\\frac{1.5}{15}=\\frac1{10}$, so A alone takes 10 hours. (Check: $\\frac{10\\cdot15}{25}=6$.)",
+  "choiceExplanations": {
+   "A": "$\\frac{6}{1.5}$ divides the combined time by 1.5; A alone must take longer than the two together.",
+   "B": "$1.5\\cdot6$ multiplies the combined time by 1.5; set up the rates instead.",
+   "D": "$2\\cdot6$ treats the machines as equally fast.",
+   "E": "15 hours is machine B's time alone."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.rate-as-multiple"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$9$"
+    },
+    {
+     "id": "C",
+     "text": "$10$"
+    },
+    {
+     "id": "D",
+     "text": "$12$"
+    },
+    {
+     "id": "E",
+     "text": "$15$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-25-work-rates-10",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 4,
+  "stem": "Working alone, Pilar takes 25 percent more time than Sam to assemble a bookcase. Working together at their constant rates, they assemble one bookcase in 5 hours. How many hours does Sam take to assemble a bookcase alone?",
+  "explanation": "Let Sam take $s$ hours; Pilar takes $1.25s$, so her rate is $\\frac1{1.25s}=\\frac{0.8}{s}$. Together: $\\frac1s+\\frac{0.8}s=\\frac{1.8}{s}=\\frac15$, so $s=9$. (Taking 25% more time means 20% less rate, not 25% less.)",
+  "estSeconds": 120,
+  "skills": [
+   "work-rates",
+   "percent"
+  ],
+  "topics": [
+   "q2.time-percent-more-less"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q2-25-work-rates-11",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 5,
+  "stem": "Working alone, machine A can complete a job in 6 hours, and machine B can complete it in 10 hours. The two machines start the job together, but machine A is turned off 2 hours before the job is finished, and machine B completes the job alone. How many hours does the whole job take?",
+  "explanation": "Let the job take $T$ hours. Table: A works $T-2$ hours at $\\frac16$, B works $T$ hours at $\\frac1{10}$, and the work adds to 1: $\\frac{T-2}6+\\frac{T}{10}=1$. Multiply by 30: $5T-10+3T=30$, so $T=5$. (Check: A does $\\frac36$, B does $\\frac5{10}$.)",
+  "estSeconds": 135,
+  "skills": [
+   "work-rates"
+  ],
+  "topics": [
+   "q2.worker-leaves-early",
+   "q2.work-table"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q2-25-work-rates-12",
+  "lessonId": "q2-25-work-rates",
+  "difficulty": 5,
+  "stem": "Working alone, machine A takes 25 percent more time than machine B to do a certain job. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "Let B take $b$ hours, so A takes $1.25b$. Rates: B $\\frac1b$, A $\\frac1{1.25b}=\\frac{0.8}{b}$. So A's rate is 80% of B's (A true), B's rate is $\\frac1{0.8}=1.25$ times A's, 25% greater (B true), and in A's time $1.25b$ machine B does $1.25$ jobs (E true). Together they take $\\frac{1}{1.8/b}=\\frac59b$, more than half of $b$, so D is false.",
+  "choiceExplanations": {
+   "C": "A's rate is 80 percent of B's, which is 20 percent less, not 25 percent less.",
+   "D": "Together they take $\\frac59$ of B's time, which is more than half: half would need two machines as fast as B."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "work-rates",
+   "percent"
+  ],
+  "topics": [
+   "q2.time-percent-more-less",
+   "q2.two-worker-shortcut"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Machine A's rate is 80 percent of machine B's rate."
+    },
+    {
+     "id": "B",
+     "text": "Machine B's rate is 25 percent greater than machine A's rate."
+    },
+    {
+     "id": "C",
+     "text": "Machine A's rate is 25 percent less than machine B's rate."
+    },
+    {
+     "id": "D",
+     "text": "Working together, the two machines do the job in less than half the time machine B takes alone."
+    },
+    {
+     "id": "E",
+     "text": "In the time machine A takes to do the job once, machine B does the job 1.25 times."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "E"
+   ]
+  }
+ }
+]

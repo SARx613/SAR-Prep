@@ -1,0 +1,117 @@
+{
+ "id": "q2-23-word-problem-setups",
+ "status": "draft",
+ "why": "A handful of story types (ages, digits, lines, shares, split costs, price plans) recur on the GRE, and each has a standard setup that turns it into one easy equation.",
+ "rule": "Name one unknown, translate each sentence into an equation, solve, and answer what was asked. In a Quantitative Comparison, translate the centered information first, then compute both quantities.\n\n- **Ages.** A shift of $k$ years applies to **both** people: $A+k$ and $B+k$ in $k$ years; $A-k$ and $B-k$ $k$ years ago.\n- **Digits.** Tens digit $t$, units digit $u$: the number is $10t+u$ (not $tu$). Reversed it is $10u+t$; the difference is $9(t-u)$. Digits are integers 0 to 9, with $t\\ge1$.\n- **Line positions.** $p$th from the front and $q$th from the back: $p+q-1$ people. Strictly between positions $a$ and $b$: $|a-b|-1$ people.\n- **Shares of a whole** add to 1; the rest is 1 minus their sum. If the rest is $N$ items, the whole is $N$ divided by that fraction.\n- **Fraction of the remainder** multiplies what is left: use $\\frac13$, then $\\frac14$ of the rest; the second part is $\\frac14\\cdot\\frac23=\\frac16$ of the whole.\n- **Shared cost.** Total $C$ split by $n$ people is $\\frac{C}{n}$ each; if $k$ drop out, set $\\frac{C}{n-k}-\\frac{C}{n}$ equal to the increase.\n- **Price plans.** Each plan costs fee $+$ rate $\\times$ usage. Set the costs equal for the break-even usage; below it the lower fee is cheaper, above it the lower rate.\n- **Steady change.** Write each quantity as start $+$ rate $\\times\\, t$ (negative rate if decreasing), with $t$ measured from one common starting time; set them equal and solve.",
+ "lengthJustification": "Nine recurring story types are tested in the practice set, and each needs its own one-line setup.",
+ "examples": [
+  {
+   "prompt": "Six years ago Rosa was 4 times as old as her son. In 4 years she will be twice as old as he will be then. How old is Rosa now?",
+   "steps": [
+    "Let $R$ and $S$ be their ages now. Six years ago: $R-6=4(S-6)$, so $R=4S-18$.",
+    "In 4 years, shift **both**: $R+4=2(S+4)$.",
+    "Substitute: $4S-14=2S+8$, so $S=11$ and $R=26$.",
+    "Check: six years ago 20 and 5; in four years 30 and 15."
+   ],
+   "answer": "Rosa is 26."
+  },
+  {
+   "prompt": "Some friends split a \\$120 boat rental equally. When 2 of them drop out, each of the others pays \\$5 more. How many friends were in the group at first?",
+   "steps": [
+    "With $n$ friends: $\\frac{120}{n-2}-\\frac{120}{n}=5$.",
+    "Multiply by $n(n-2)$: $120n-120(n-2)=5n(n-2)$, so $240=5n(n-2)$ and $n(n-2)=48$.",
+    "$n=8$ (since $8\\cdot6=48$). Check: \\$15 each for 8, \\$20 each for 6."
+   ],
+   "answer": "8 friends"
+  }
+ ],
+ "trap": "Shift **both** ages when the story moves in time, not only one. A two-digit number is $10t+u$, never $tu$. And \"$\\frac14$ of the rest\" is $\\frac14$ of what is left, not of the original amount.",
+ "checks": [
+  {
+   "id": "q2-23-word-problem-setups-c1",
+   "lessonId": "q2-23-word-problem-setups",
+   "difficulty": 1,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Translate: $3n+5=2n+9$, so $n=4$. Quantity B is greater.",
+   "estSeconds": 45,
+   "skills": [
+    "word-problems"
+   ],
+   "topics": [
+    "q0.translating-in-qc"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$n$",
+    "quantityB": "5",
+    "common": "Five more than three times the number $n$ is 9 more than twice $n$."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "q2-23-word-problem-setups-c2",
+   "lessonId": "q2-23-word-problem-setups",
+   "difficulty": 2,
+   "stem": "Leah spends $\\frac{2}{5}$ of her monthly pay on rent and $\\frac{1}{3}$ of the remaining pay on food. What fraction of her monthly pay is left? Enter your answer as a fraction.",
+   "explanation": "After rent, $\\frac35$ is left. Food takes $\\frac13$ of that, so $\\frac23$ of it remains: $\\frac23\\cdot\\frac35=\\frac25$.",
+   "estSeconds": 60,
+   "skills": [
+    "word-problems"
+   ],
+   "topics": [
+    "q2.fraction-of-remainder"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.4,
+    "fraction": {
+     "numerator": 2,
+     "denominator": 5
+    }
+   }
+  },
+  {
+   "id": "q2-23-word-problem-setups-c3",
+   "lessonId": "q2-23-word-problem-setups",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Plan X: $30+0.04\\cdot600=54$ dollars. Plan Y: $0.10\\cdot600=60$ dollars. Quantity B is greater. (The break-even is $30+0.04m=0.10m$, or $m=500$ minutes; 600 is above it, so the lower rate, Plan X, is cheaper.)",
+   "estSeconds": 60,
+   "skills": [
+    "word-problems"
+   ],
+   "topics": [
+    "q2.compare-price-plans"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The cost under Plan X of using 600 minutes",
+    "quantityB": "The cost under Plan Y of using 600 minutes",
+    "common": "Phone Plan X costs \\$30 per month plus \\$0.04 per minute used. Plan Y costs \\$0.10 per minute used, with no monthly fee."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  }
+ ]
+}
