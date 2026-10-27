@@ -1,0 +1,160 @@
+{
+ "id": "t1-04-retakes-and-score-reports",
+ "status": "draft",
+ "why": "Knowing the retake limits and how scores are sent lets you plan your test dates and your applications without wasting an attempt.",
+ "rule": "**Retakes.** You may test once every **21 days**, up to **five times in any continuous rolling 12-month period**, even if you **canceled scores** from a previous test. A **missed or canceled appointment** counts toward neither the limit nor the wait.\n\n**Sending scores.** On test day you can send scores to **up to four** institutions or fellowship sponsors at no extra charge. Otherwise order **Additional Score Reports (ASRs)** for a fee at any time in the **5 years** your scores are valid. **ScoreSelect** lets you send the **Most Recent**, **All** or **Any specific** test administration. An ASR request cannot be canceled, changed or refunded, and takes about **5 business days**.",
+ "examples": [
+  {
+   "prompt": "Sam has taken the test 4 times in the past 12 months, the last time 30 days ago. Can he take it again now?",
+   "steps": [
+    "The 21-day wait has passed (30 days).",
+    "He has used 4 of the 5 attempts allowed in a rolling 12-month period.",
+    "One attempt remains."
+   ],
+   "answer": "Yes, one more attempt"
+  },
+  {
+   "prompt": "Your scores stop being reportable in 3 days, and you want a school to receive them. Is ordering an ASR today a safe plan?",
+   "steps": [
+    "Processing takes approximately 5 business days.",
+    "The request cannot be canceled or changed once it is submitted."
+   ],
+   "answer": "No: the scores may not be sent in time"
+  }
+ ],
+ "trap": "Assuming that canceling scores resets the clock. The 21-day wait and the five-test limit still count a canceled attempt, but a missed or canceled appointment does not.",
+ "checks": [
+  {
+   "id": "t1-04-retakes-and-score-reports-c1",
+   "lessonId": "t1-04-retakes-and-score-reports",
+   "difficulty": 1,
+   "stem": "After a GRE General Test, how long must you wait before taking it again?",
+   "explanation": "One attempt every 21 days.",
+   "choiceExplanations": {
+    "A": "Too short.",
+    "B": "Too short.",
+    "D": "Longer than needed.",
+    "E": "Longer than needed."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "test-policy"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "7 days"
+     },
+     {
+      "id": "B",
+      "text": "14 days"
+     },
+     {
+      "id": "C",
+      "text": "21 days"
+     },
+     {
+      "id": "D",
+      "text": "30 days"
+     },
+     {
+      "id": "E",
+      "text": "12 months"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "t1-04-retakes-and-score-reports-c2",
+   "lessonId": "t1-04-retakes-and-score-reports",
+   "difficulty": 2,
+   "stem": "Which options does ScoreSelect offer for sending scores?",
+   "explanation": "ScoreSelect lets you send Most Recent, All or Any specific test administration.",
+   "choiceExplanations": {
+    "B": "Not offered.",
+    "C": "Not offered.",
+    "D": "Not offered.",
+    "E": "Not offered."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "test-policy"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Most Recent, All or Any specific test administration"
+     },
+     {
+      "id": "B",
+      "text": "Best section only"
+     },
+     {
+      "id": "C",
+      "text": "Highest total across attempts"
+     },
+     {
+      "id": "D",
+      "text": "Verbal only"
+     },
+     {
+      "id": "E",
+      "text": "Only the first attempt"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "t1-04-retakes-and-score-reports-c3",
+   "lessonId": "t1-04-retakes-and-score-reports",
+   "difficulty": 2,
+   "stem": "Alex has used 4 of the 5 attempts allowed in a rolling 12-month period. How many more attempts does he have in that period?",
+   "explanation": "He has used 4 of 5, so $5-4=1$ more attempt.",
+   "estSeconds": 45,
+   "skills": [
+    "test-policy"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 1
+   }
+  }
+ ]
+}

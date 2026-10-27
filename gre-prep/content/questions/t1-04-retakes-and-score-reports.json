@@ -1,0 +1,590 @@
+[
+ {
+  "id": "t1-04-retakes-and-score-reports-01",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 1,
+  "stem": "According to ETS, you can take the GRE General Test once every how many days?",
+  "explanation": "ETS allows one attempt every 21 days.",
+  "choiceExplanations": {
+   "A": "Too short a wait.",
+   "B": "Too short a wait.",
+   "D": "Longer than the stated wait.",
+   "E": "Longer than the stated wait."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "7"
+    },
+    {
+     "id": "B",
+     "text": "14"
+    },
+    {
+     "id": "C",
+     "text": "21"
+    },
+    {
+     "id": "D",
+     "text": "28"
+    },
+    {
+     "id": "E",
+     "text": "30"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-02",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 1,
+  "stem": "What is the greatest number of times you can take the GRE General Test within any continuous rolling 12-month period?",
+  "explanation": "ETS allows up to five attempts in any continuous rolling 12-month period.",
+  "choiceExplanations": {
+   "A": "The limit is higher.",
+   "B": "The limit is higher.",
+   "D": "The limit is lower.",
+   "E": "The limit is lower."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "3"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    },
+    {
+     "id": "E",
+     "text": "12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-03",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 2,
+  "stem": "Which of the following statements about the ETS retake policy are true? Indicate all such statements.",
+  "explanation": "ETS states the 21-day policy applies even if scores were canceled, the five-test limit covers any continuous rolling 12-month period, and a missed or canceled appointment counts toward neither the limit nor the wait.",
+  "choiceExplanations": {
+   "B": "The period is a rolling 12 months, not a calendar year.",
+   "E": "There is a limit of five in a rolling 12-month period."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The 21-day wait applies even if you canceled your scores from the previous test."
+    },
+    {
+     "id": "B",
+     "text": "The limit of five attempts is counted per calendar year."
+    },
+    {
+     "id": "C",
+     "text": "The limit of five attempts applies to any continuous rolling 12-month period."
+    },
+    {
+     "id": "D",
+     "text": "A test appointment that you miss or cancel does not count toward the five-test limit."
+    },
+    {
+     "id": "E",
+     "text": "There is no limit on the number of attempts."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-04",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 2,
+  "stem": "Nia canceled her scores after her GRE General Test. Ten days later she wants to take the test again. What does ETS policy say?",
+  "explanation": "The policy applies even if you canceled scores from a previous test administration, so she must wait 21 days between attempts.",
+  "choiceExplanations": {
+   "A": "The policy applies even when scores were canceled.",
+   "C": "Where she tests does not change the wait.",
+   "D": "A fee does not waive the wait.",
+   "E": "The wait applies from the first retake onward."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "She may retest, because canceled scores do not count."
+    },
+    {
+     "id": "B",
+     "text": "She may not retest yet: the 21-day policy applies even if scores were canceled."
+    },
+    {
+     "id": "C",
+     "text": "She may retest only at a test center."
+    },
+    {
+     "id": "D",
+     "text": "She may retest once she pays a fee."
+    },
+    {
+     "id": "E",
+     "text": "She may retest only if she has taken the test fewer than three times."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-05",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 2,
+  "stem": "Over the past 12 months, Omar has already taken the GRE General Test 3 times (one attempt had canceled scores). Counting only the five-test limit for any rolling 12-month period, what is the greatest number of additional attempts he could make in that period?",
+  "explanation": "Canceled scores still count toward the limit, so he has used 3 of 5 attempts and can make $5-3=2$ more (spaced at least 21 days apart).",
+  "estSeconds": 60,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-06",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 1,
+  "stem": "On test day, how many graduate institutions or fellowship sponsors can you designate to receive your scores as part of your test fee?",
+  "explanation": "ETS lets you designate up to four institutions or fellowship sponsors on test day at no extra charge.",
+  "choiceExplanations": {
+   "A": "More than that are included.",
+   "B": "More than that are included.",
+   "C": "More than that are included.",
+   "E": "Only four are included in the test fee."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "4"
+    },
+    {
+     "id": "E",
+     "text": "5"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-07",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 2,
+  "stem": "What does the ScoreSelect option let you choose?",
+  "explanation": "With ScoreSelect you can send scores from Most Recent, All or Any specific test administration of the GRE General Test (and/or Subject Tests).",
+  "choiceExplanations": {
+   "A": "ScoreSelect works at the level of whole test administrations, not sections.",
+   "C": "It does not affect scoring.",
+   "D": "Score validity is fixed.",
+   "E": "It does not change percentiles."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Which section's score is hidden from schools"
+    },
+    {
+     "id": "B",
+     "text": "Whether to send scores from Most Recent, All or Any specific test administration"
+    },
+    {
+     "id": "C",
+     "text": "Which questions are scored"
+    },
+    {
+     "id": "D",
+     "text": "The date on which your scores expire"
+    },
+    {
+     "id": "E",
+     "text": "The percentile shown on your score report"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-08",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 3,
+  "stem": "Which of the following statements about Additional Score Reports (ASRs) are true? Indicate all such statements.",
+  "explanation": "ASRs cost a fee per recipient, are available during the 5 years that scores are valid, and take about 5 business days to process. A submitted request cannot be canceled, changed or refunded.",
+  "choiceExplanations": {
+   "C": "Once you submit a request it cannot be canceled, changed or refunded.",
+   "E": "Only four recipients are included in the test fee; ASRs cost extra."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They can be ordered for a fee."
+    },
+    {
+     "id": "B",
+     "text": "They can be ordered at any time during the 5-year period that your scores are valid."
+    },
+    {
+     "id": "C",
+     "text": "Once submitted, a request can be canceled and refunded."
+    },
+    {
+     "id": "D",
+     "text": "Processing takes approximately 5 business days."
+    },
+    {
+     "id": "E",
+     "text": "They are free for any number of institutions."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-09",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 3,
+  "stem": "For how many years are your GRE General Test scores valid for reporting?",
+  "explanation": "Scores can be ordered through ASRs during the 5-year period that they are valid.",
+  "choiceExplanations": {
+   "A": "The period is longer.",
+   "B": "The period is longer.",
+   "C": "The period is longer.",
+   "E": "The period is shorter."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "4"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    },
+    {
+     "id": "E",
+     "text": "10"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-10",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 3,
+  "stem": "Priya's scores will stop being reportable in 3 days, and she wants to send them to a school. Which statement is correct?",
+  "explanation": "Processing takes approximately 5 business days, and ETS warns that scores near the end of the reporting period may not be sent if you do not allow enough time.",
+  "choiceExplanations": {
+   "A": "Processing is not immediate.",
+   "C": "A submitted request cannot be canceled or refunded.",
+   "D": "ScoreSelect only chooses which administrations to send.",
+   "E": "ASRs always carry a fee."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "An ASR request is processed immediately, so ordering on the last day is safe."
+    },
+    {
+     "id": "B",
+     "text": "Processing takes about 5 business days, so her scores may not be sent in time."
+    },
+    {
+     "id": "C",
+     "text": "She can cancel the request after the deadline and get a refund."
+    },
+    {
+     "id": "D",
+     "text": "ScoreSelect can extend the 5-year period."
+    },
+    {
+     "id": "E",
+     "text": "She can send them free because they are about to expire."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-11",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 3,
+  "stem": "Dev has taken the GRE General Test twice in the past 12 months: once with scores reported and once with scores canceled. He also missed one appointment he had booked. Counting only the five-test limit, how many more attempts can he make in that rolling 12-month period?",
+  "explanation": "Both completed attempts count, even though one had canceled scores. The missed appointment does not count. So he has used 2 of 5 attempts and can make $5-2=3$ more.",
+  "estSeconds": 75,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "t1-04-retakes-and-score-reports-12",
+  "lessonId": "t1-04-retakes-and-score-reports",
+  "difficulty": 4,
+  "stem": "Which of the following test schedules respect both the 21-day wait and the five-test limit for any rolling 12-month period? Indicate all such statements.",
+  "explanation": "A: 28 days is at least 21. B: only 14 days apart. C: five tests spanning 120 days. D: six tests span 300 days, which is within one 12-month period, so the limit of five is exceeded. E: the missed appointment does not count.",
+  "choiceExplanations": {
+   "B": "Fewer than 21 days apart.",
+   "D": "The sixth test falls inside the same rolling 12-month period as the first five."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "test-policy"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Tests on January 5 and February 2 (28 days later)."
+    },
+    {
+     "id": "B",
+     "text": "Tests on January 5 and January 19 (14 days later)."
+    },
+    {
+     "id": "C",
+     "text": "Five tests, each 30 days after the previous one."
+    },
+    {
+     "id": "D",
+     "text": "Six tests, each 60 days after the previous one."
+    },
+    {
+     "id": "E",
+     "text": "Five tests in the first five months, followed by an appointment that is missed in the sixth month."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ }
+]
