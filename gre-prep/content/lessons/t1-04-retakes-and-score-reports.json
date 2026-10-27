@@ -1,6 +1,6 @@
 {
  "id": "t1-04-retakes-and-score-reports",
- "status": "draft",
+ "status": "published",
  "why": "Knowing the retake limits and how scores are sent lets you plan your test dates and your applications without wasting an attempt.",
  "rule": "**Retakes.** You may test once every **21 days**, up to **five times in any continuous rolling 12-month period**, even if you **canceled scores** from a previous test. A **missed or canceled appointment** counts toward neither the limit nor the wait.\n\n**Sending scores.** On test day you can send scores to **up to four** institutions or fellowship sponsors at no extra charge. Otherwise order **Additional Score Reports (ASRs)** for a fee at any time in the **5 years** your scores are valid. **ScoreSelect** lets you send the **Most Recent**, **All** or **Any specific** test administration. An ASR request cannot be canceled, changed or refunded, and takes about **5 business days**.",
  "examples": [
@@ -42,9 +42,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-aw8",
+     "solver-bw8"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -96,9 +100,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-aw8",
+     "solver-bw8"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -144,9 +152,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-aw8",
+     "solver-bw8"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
