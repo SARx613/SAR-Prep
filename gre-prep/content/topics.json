@@ -11,7 +11,7 @@
    "id": "q1.least-common-denominator",
    "group": "Arithmetic foundations",
    "title": "Finding the least common denominator of several fractions",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
@@ -32,49 +32,49 @@
    "id": "q1.whole-and-fraction",
    "group": "Arithmetic foundations",
    "title": "Adding a whole number to a fraction or subtracting a fraction from a whole number",
-   "lessonId": "q1-05-mixed-fractional",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.multiply-divide-fractions",
    "group": "Arithmetic foundations",
    "title": "Multiplying and dividing fractions and whole numbers, cancelling common factors first",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.reciprocals",
    "group": "Arithmetic foundations",
    "title": "Reciprocals and the value of 1 divided by a fraction",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "concept"
   },
   {
    "id": "q1.complex-fractions",
    "group": "Arithmetic foundations",
    "title": "Simplifying stacked fractions whose numerator or denominator holds fractions",
-   "lessonId": "q1-05-mixed-fractional",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.compare-fractions-cross-multiply",
    "group": "Arithmetic foundations",
    "title": "Comparing two fractions by cross-multiplying",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.compare-fractions-common-terms",
    "group": "Arithmetic foundations",
    "title": "Comparing fractions by rewriting them with a common denominator or a common numerator",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.add-same-to-top-and-bottom",
    "group": "Arithmetic foundations",
    "title": "How adding or subtracting the same amount to numerator and denominator moves a positive fraction toward or away from 1",
-   "lessonId": "q1-04-fraction-operations",
+   "lessonId": "q1-19-fraction-techniques",
    "kind": "concept"
   },
   {
@@ -88,14 +88,14 @@
    "id": "q1.rounding",
    "group": "Arithmetic foundations",
    "title": "Rounding a number to a stated place value",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "technique"
   },
   {
    "id": "q1.ordering-decimals",
    "group": "Arithmetic foundations",
    "title": "Ordering decimals of different lengths by size",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "technique"
   },
   {
@@ -116,21 +116,21 @@
    "id": "q1.squares-and-roots",
    "group": "Arithmetic foundations",
    "title": "Squares and square roots of common integers",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "concept"
   },
   {
    "id": "q1.roots-of-fractions",
    "group": "Arithmetic foundations",
    "title": "Squares and square roots of fractions",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "technique"
   },
   {
    "id": "q1.squares-between-zero-and-one",
    "group": "Arithmetic foundations",
    "title": "For numbers between 0 and 1, squaring makes them smaller and square-rooting makes them larger",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "trap"
   },
   {
@@ -144,7 +144,7 @@
    "id": "q0.estimation",
    "group": "Arithmetic foundations",
    "title": "Estimating to rule out answer choices without exact computation",
-   "lessonId": "q0-03-solving-steps",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "technique"
   },
   {
@@ -158,28 +158,28 @@
    "id": "q1.opposites-and-absolute-value",
    "group": "Arithmetic foundations",
    "title": "Opposite numbers and absolute value as distance from zero",
-   "lessonId": "q1-09-number-line-abs",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "concept"
   },
   {
    "id": "q1.order-of-operations",
    "group": "Arithmetic foundations",
    "title": "Order of operations (parentheses, exponents, multiplication/division, addition/subtraction)",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "concept"
   },
   {
    "id": "q1.fraction-bar-grouping",
    "group": "Arithmetic foundations",
    "title": "A fraction bar groups its whole numerator and whole denominator in the order of operations",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "trap"
   },
   {
    "id": "q1.regroup-terms",
    "group": "Arithmetic foundations",
    "title": "Reordering and regrouping terms of a sum or factors of a product to simplify arithmetic",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "technique"
   },
   {
@@ -193,7 +193,7 @@
    "id": "q1.rewrite-as-sum-or-difference",
    "group": "Arithmetic foundations",
    "title": "Time-saving arithmetic: rewriting numbers as sums or differences (e.g. 98 = 100 - 2) and other shortcuts",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "technique"
   },
   {
@@ -207,7 +207,7 @@
    "id": "q4.factoring-factorials",
    "group": "Arithmetic foundations",
    "title": "Simplifying sums, differences and quotients of factorials by factoring out the smaller factorial",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "technique"
   },
   {
@@ -221,7 +221,7 @@
    "id": "q2.solve-for-expression",
    "group": "Linear & quadratic equations",
    "title": "Solving directly for a requested expression (e.g. 3x - 2) rather than for x",
-   "lessonId": "q2-03-linear-one-var",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "technique"
   },
   {
@@ -249,14 +249,14 @@
    "id": "q2.three-variable-systems",
    "group": "Linear & quadratic equations",
    "title": "Solving or combining three equations in three unknowns",
-   "lessonId": "q2-04-linear-two-var",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "technique"
   },
   {
    "id": "q2.substitute-expressions",
    "group": "Linear & quadratic equations",
    "title": "Substituting an expression for a variable from one equation into another",
-   "lessonId": "q2-03-linear-one-var",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "technique"
   },
   {
@@ -270,7 +270,7 @@
    "id": "q2.solve-in-terms-of",
    "group": "Linear & quadratic equations",
    "title": "Isolating one variable in terms of the others",
-   "lessonId": "q2-03-linear-one-var",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "technique"
   },
   {
@@ -284,7 +284,7 @@
    "id": "q1.product-equals-one",
    "group": "Linear & quadratic equations",
    "title": "Two integers with product 1 must both be 1 or both be -1",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "pattern"
   },
   {
@@ -333,14 +333,14 @@
    "id": "q2.factor-out-negative-one",
    "group": "Linear & quadratic equations",
    "title": "Rewriting b - a as -(a - b) so factors match and cancel",
-   "lessonId": "q2-01-expressions",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "technique"
   },
   {
    "id": "q2.quadratic-from-fractions",
    "group": "Linear & quadratic equations",
    "title": "Equations with a variable in a denominator that become quadratics once cleared",
-   "lessonId": "q2-05-quadratic-factoring",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "pattern"
   },
   {
@@ -361,7 +361,7 @@
    "id": "q2.square-of-sum-vs-sum-of-squares",
    "group": "Linear & quadratic equations",
    "title": "Comparing (x + y)^2 with x^2 + y^2: the sign of 2xy decides",
-   "lessonId": "q2-01-expressions",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "pattern"
   },
   {
@@ -375,7 +375,7 @@
    "id": "q2.one-equation-enough",
    "group": "Linear & quadratic equations",
    "title": "When a single equation is enough to fix the value asked for despite two unknowns",
-   "lessonId": "q2-04-linear-two-var",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "pattern"
   },
   {
@@ -389,14 +389,14 @@
    "id": "q2.hidden-quadratic",
    "group": "Linear & quadratic equations",
    "title": "A squared variable signals two possible values even in a seemingly simple equation",
-   "lessonId": "q2-05-quadratic-factoring",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "trap"
   },
   {
    "id": "q2.three-or-more-solutions",
    "group": "Linear & quadratic equations",
    "title": "Higher-degree equations with three or more solutions found by factoring out a variable",
-   "lessonId": "q2-05-quadratic-factoring",
+   "lessonId": "q2-21-equation-shortcuts",
    "kind": "pattern"
   },
   {
@@ -410,14 +410,14 @@
    "id": "q1.properties-of-zero",
    "group": "Number properties",
    "title": "Properties of zero: even, neither positive nor negative, a multiple of every integer, not a divisor",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "concept"
   },
   {
    "id": "q1.properties-of-one",
    "group": "Number properties",
    "title": "Properties of one: multiplicative identity, not prime, unchanged by any power",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "concept"
   },
   {
@@ -438,21 +438,21 @@
    "id": "q1.parity-divide",
    "group": "Number properties",
    "title": "Quotients of even and odd integers need not be integers, so parity rules do not carry over",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "trap"
   },
   {
    "id": "q1.add-subtract-signed",
    "group": "Number properties",
    "title": "Adding and subtracting signed numbers (subtracting a negative adds its opposite)",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "technique"
   },
   {
    "id": "q1.sign-of-product-quotient",
    "group": "Number properties",
    "title": "Sign of a product or quotient from the count of negative factors",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-24-operations-and-signs",
    "kind": "concept"
   },
   {
@@ -466,14 +466,14 @@
    "id": "q1.factor-pairs",
    "group": "Number properties",
    "title": "Listing all positive factors of an integer with factor pairs",
-   "lessonId": "q1-01-factors-multiples",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "technique"
   },
   {
    "id": "q1.multiples",
    "group": "Number properties",
    "title": "Multiples of an integer, including zero and negative multiples",
-   "lessonId": "q1-01-factors-multiples",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
@@ -501,14 +501,14 @@
    "id": "q1.distinct-prime-factors",
    "group": "Number properties",
    "title": "Counting prime factors with repetition versus counting distinct prime factors",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
    "id": "q1.powers-keep-prime-set",
    "group": "Number properties",
    "title": "Raising an integer to a positive power does not change its set of distinct prime factors",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
@@ -522,14 +522,14 @@
    "id": "q1.lcm-gcf-by-listing",
    "group": "Number properties",
    "title": "Finding the LCM or GCF of small numbers by listing multiples or testing factors",
-   "lessonId": "q1-01-factors-multiples",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "technique"
   },
   {
    "id": "q1.lcm-three-or-more",
    "group": "Number properties",
    "title": "LCM of three or more integers that share repeated prime factors",
-   "lessonId": "q1-01-factors-multiples",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "technique"
   },
   {
@@ -550,7 +550,7 @@
    "id": "q1.lcm-gcf-nested",
    "group": "Number properties",
    "title": "When one integer divides another, the smaller is the GCF and the larger is the LCM",
-   "lessonId": "q1-01-factors-multiples",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
@@ -578,42 +578,42 @@
    "id": "q1.factors-of-factors",
    "group": "Number properties",
    "title": "A factor of a factor of n is also a factor of n",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "concept"
   },
   {
    "id": "q1.divisibility-of-powers",
    "group": "Number properties",
    "title": "Deciding whether one power or product of powers divides another",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "technique"
   },
   {
    "id": "q1.must-be-integer",
    "group": "Number properties",
    "title": "Deciding which expressions must be integers given that n/k is an integer",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q1.divisible-by-several",
    "group": "Number properties",
    "title": "An integer divisible by several integers is divisible by their LCM",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "concept"
   },
   {
    "id": "q1.divisibility-from-percents",
    "group": "Number properties",
    "title": "Using the fact that a percent or fraction of a group must be a whole number to restrict the group size",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q1.divisibility-rules",
    "group": "Number properties",
    "title": "Quick divisibility tests for 2, 3, 4, 5, 6, 8, 9 and 10",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "technique"
   },
   {
@@ -627,154 +627,154 @@
    "id": "q1.remainder-as-fraction",
    "group": "Number properties",
    "title": "Converting a remainder to the fractional or decimal part of a quotient and back",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "technique"
   },
   {
    "id": "q1.decimal-part-to-remainder",
    "group": "Number properties",
    "title": "Recovering an integer remainder from a decimal quotient (decimal part x divisor)",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "pattern"
   },
   {
    "id": "q1.multiplying-remainders",
    "group": "Number properties",
    "title": "Finding the remainder of a product from the remainders of its factors",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "technique"
   },
   {
    "id": "q1.adding-remainders",
    "group": "Number properties",
    "title": "Finding the remainder of a sum or difference from individual remainders, then reducing",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "technique"
   },
   {
    "id": "q1.remainder-range",
    "group": "Number properties",
    "title": "A remainder is at least 0 and less than the divisor",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "concept"
   },
   {
    "id": "q1.trailing-zeros",
    "group": "Number properties",
    "title": "Counting trailing zeros by pairing factors of 2 with factors of 5",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "technique"
   },
   {
    "id": "q1.digit-count-from-zeros",
    "group": "Number properties",
    "title": "Counting the digits of a number given as a product of powers of 2 and 5",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "pattern"
   },
   {
    "id": "q1.leading-zeros-decimals",
    "group": "Number properties",
    "title": "Counting zeros between the decimal point and the first nonzero digit, including decimals of 1/N",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "technique"
   },
   {
    "id": "q1.factorial-divisors",
    "group": "Number properties",
    "title": "n! is divisible by every integer from 1 to n and by any product of them",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "concept"
   },
   {
    "id": "q1.prime-power-in-factorial",
    "group": "Number properties",
    "title": "Highest power of a prime that divides n! by repeated division",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "technique"
   },
   {
    "id": "q1.composite-power-in-factorial",
    "group": "Number properties",
    "title": "Highest power of a composite base (e.g. 4, 9, 12) dividing n!, limited by its scarcest prime",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "technique"
   },
   {
    "id": "q1.consecutive-product-divisibility",
    "group": "Number properties",
    "title": "The product of k consecutive integers is divisible by k!",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "concept"
   },
   {
    "id": "q1.consecutive-products-in-algebra",
    "group": "Number properties",
    "title": "Spotting consecutive-integer products (including consecutive evens) in expressions such as n^3 - n",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q1.perfect-square-exponents",
    "group": "Number properties",
    "title": "Perfect squares have only even exponents in their prime factorization",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
    "id": "q1.perfect-square-factor-count",
    "group": "Number properties",
    "title": "Perfect squares, and only they, have an odd number of positive factors",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
    "id": "q1.perfect-cube-exponents",
    "group": "Number properties",
    "title": "Perfect cubes have exponents that are multiples of 3 in their prime factorization",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-16-prime-factorization-tools",
    "kind": "concept"
   },
   {
    "id": "q1.terminating-decimals",
    "group": "Number properties",
    "title": "A reduced fraction terminates exactly when its denominator has no prime factors other than 2 and 5",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "concept"
   },
   {
    "id": "q1.remainder-cycles",
    "group": "Number properties",
    "title": "Remainders of successive integers or of successive powers repeat in a cycle",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "pattern"
   },
   {
    "id": "q1.units-digit-cycles",
    "group": "Number properties",
    "title": "Units digit of a large power from its repeating cycle",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "pattern"
   },
   {
    "id": "q1.units-digit-arithmetic",
    "group": "Number properties",
    "title": "Units digit of a sum or product from the units digits alone",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "technique"
   },
   {
    "id": "q1.repeating-decimal-digit",
    "group": "Number properties",
    "title": "Finding a particular digit far into a repeating decimal",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "pattern"
   },
   {
    "id": "q1.remainder-by-powers-of-ten",
    "group": "Number properties",
    "title": "Reading the remainder on division by 5, 10, 100 or 1000 from the last digits",
-   "lessonId": "q1-03-remainders-parity",
+   "lessonId": "q1-18-remainders-units-digits",
    "kind": "technique"
   },
   {
@@ -788,7 +788,7 @@
    "id": "q1.consecutive-share-no-primes",
    "group": "Number properties",
    "title": "Two consecutive integers share no prime factor (their GCF is 1)",
-   "lessonId": "q1-02-divisibility-primes",
+   "lessonId": "q1-17-divisibility-reasoning",
    "kind": "concept"
   },
   {
@@ -809,7 +809,7 @@
    "id": "q1.root-vs-squared-equation",
    "group": "Roots & exponents",
    "title": "x^2 = 9 has two solutions while the square root of 9 is only 3",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "trap"
   },
   {
@@ -830,7 +830,7 @@
    "id": "q1.multiply-divide-radicals",
    "group": "Roots & exponents",
    "title": "Multiplying and dividing radicals, keeping coefficients and radicands separate",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
@@ -851,28 +851,28 @@
    "id": "q1.rationalize-monomial",
    "group": "Roots & exponents",
    "title": "Removing a single radical from a denominator",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
    "id": "q1.rationalize-conjugate",
    "group": "Roots & exponents",
    "title": "Removing a radical from a two-term denominator with its conjugate",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
    "id": "q1.root-of-squared-difference",
    "group": "Roots & exponents",
    "title": "The square root of (x - y)^2 is |x - y|, not x - y",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "trap"
   },
   {
    "id": "q2.radical-equations",
    "group": "Roots & exponents",
    "title": "Solving equations with square roots by isolating and squaring, then checking for extraneous roots",
-   "lessonId": "q2-03-linear-one-var",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
@@ -914,42 +914,42 @@
    "id": "q2.prime-bases-in-fractions",
    "group": "Roots & exponents",
    "title": "Simplifying fractions of powers by breaking every base into primes",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q2.fractional-exponents",
    "group": "Roots & exponents",
    "title": "Writing roots as fractional exponents, including roots nested inside roots",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "concept"
   },
   {
    "id": "q2.fractional-exponent-equations",
    "group": "Roots & exponents",
    "title": "Solving equations that contain fractional exponents",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
    "id": "q2.compare-roots-and-powers",
    "group": "Roots & exponents",
    "title": "Comparing radicals of different indexes by raising them to a common power",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "technique"
   },
   {
    "id": "q2.factor-out-powers",
    "group": "Roots & exponents",
    "title": "Factoring a common power out of a sum or difference of powers",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q1.squaring-radical-binomial",
    "group": "Roots & exponents",
    "title": "Squaring a sum that contains radicals produces a middle term",
-   "lessonId": "q1-07-roots",
+   "lessonId": "q1-21-radical-arithmetic",
    "kind": "trap"
   },
   {
@@ -963,7 +963,7 @@
    "id": "q2.quadratic-in-exponent",
    "group": "Roots & exponents",
    "title": "Exponential equations whose exponents form a quadratic equation",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "pattern"
   },
   {
@@ -977,70 +977,70 @@
    "id": "q2.adding-equal-powers",
    "group": "Roots & exponents",
    "title": "Adding identical powers, such as 3^n + 3^n + 3^n = 3^(n+1)",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q2.sum-of-powers-trap",
    "group": "Roots & exponents",
    "title": "Sums of powers cannot be combined by adding exponents",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "trap"
   },
   {
    "id": "q2.fractions-with-powers",
    "group": "Roots & exponents",
    "title": "Adding and subtracting fractions that contain powers",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q2.compare-fractions-with-powers",
    "group": "Roots & exponents",
    "title": "Comparing fractions whose numerators and denominators are powers",
-   "lessonId": "q2-02-exponent-rules",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q1.powers-and-roots-by-range",
    "group": "Roots & exponents",
    "title": "How x, x^2, x^3 and the square root of x compare for x above 1, between 0 and 1, and negative",
-   "lessonId": "q1-06-exponents",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "pattern"
   },
   {
    "id": "q1.even-power-hides-sign",
    "group": "Roots & exponents",
    "title": "An even power loses the sign of its base, so x^2 = 16 leaves two candidates while x^3 = -8 leaves one",
-   "lessonId": "q1-06-exponents",
+   "lessonId": "q1-20-powers-roots-size-sign",
    "kind": "trap"
   },
   {
    "id": "q1.estimating-powers",
    "group": "Roots & exponents",
    "title": "Estimating large powers (e.g. 2^10 is about 10^3) to compare magnitudes",
-   "lessonId": "q1-06-exponents",
+   "lessonId": "q2-20-sums-of-powers",
    "kind": "technique"
   },
   {
    "id": "q1.powers-of-ten",
    "group": "Roots & exponents",
    "title": "Multiplying and dividing by powers of ten as shifting the decimal point",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "concept"
   },
   {
    "id": "q1.scientific-notation",
    "group": "Roots & exponents",
    "title": "Multiplying and dividing numbers in scientific notation",
-   "lessonId": "q1-08-decimals",
+   "lessonId": "q1-22-decimal-expansions",
    "kind": "technique"
   },
   {
    "id": "q2.inequalities-on-number-line",
    "group": "Inequalities & absolute value",
    "title": "Inequalities on the number line, with open and closed endpoints",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "concept"
   },
   {
@@ -1061,21 +1061,21 @@
    "id": "q2.unknown-sign-multiplier",
    "group": "Inequalities & absolute value",
    "title": "Multiplying or dividing an inequality by a variable whose sign is unknown",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "trap"
   },
   {
    "id": "q2.adding-inequalities",
    "group": "Inequalities & absolute value",
    "title": "Combining two inequalities by adding them when they point the same way",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "technique"
   },
   {
    "id": "q2.inequality-with-equation",
    "group": "Inequalities & absolute value",
    "title": "Substituting from an equation into an inequality to bound another variable",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "technique"
   },
   {
@@ -1089,49 +1089,49 @@
    "id": "q2.several-unknowns-trap",
    "group": "Inequalities & absolute value",
    "title": "Subtracting or multiplying inequalities with several unknowns gives invalid conclusions",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "trap"
   },
   {
    "id": "q2.chaining-inequalities",
    "group": "Inequalities & absolute value",
    "title": "Ordering several variables from a set of inequalities",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "technique"
   },
   {
    "id": "q2.squared-inequalities",
    "group": "Inequalities & absolute value",
    "title": "Solving inequalities involving x^2 (e.g. x^2 < 9 gives -3 < x < 3)",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "technique"
   },
   {
    "id": "q2.extremes-of-product",
    "group": "Inequalities & absolute value",
    "title": "Largest or smallest possible value of a product or difference of bounded variables by testing endpoints",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q1.absolute-value-equations",
    "group": "Inequalities & absolute value",
    "title": "Solving an absolute-value equation by splitting into two cases",
-   "lessonId": "q1-09-number-line-abs",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "technique"
   },
   {
    "id": "q1.isolate-absolute-value",
    "group": "Inequalities & absolute value",
    "title": "Isolating the absolute value before splitting into cases",
-   "lessonId": "q1-09-number-line-abs",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "technique"
   },
   {
    "id": "q1.two-absolute-values-equal",
    "group": "Inequalities & absolute value",
    "title": "Solving |A| = |B| as A = B or A = -B",
-   "lessonId": "q1-09-number-line-abs",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "technique"
   },
   {
@@ -1145,21 +1145,21 @@
    "id": "q1.abs-of-difference",
    "group": "Inequalities & absolute value",
    "title": "When |a - b| equals |a| - |b|",
-   "lessonId": "q1-10-real-properties",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "concept"
   },
   {
    "id": "q2.absolute-value-inequalities",
    "group": "Inequalities & absolute value",
    "title": "Solving |x - a| < k as a single interval and |x - a| > k as two rays",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "technique"
   },
   {
    "id": "q1.check-absolute-solutions",
    "group": "Inequalities & absolute value",
    "title": "Checking candidate solutions of absolute-value equations for extraneous roots",
-   "lessonId": "q1-09-number-line-abs",
+   "lessonId": "q1-23-absolute-value-equations",
    "kind": "trap"
   },
   {
@@ -1173,7 +1173,7 @@
    "id": "q2.age-problems",
    "group": "Word problems",
    "title": "Age problems with past and future ages",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
@@ -1187,7 +1187,7 @@
    "id": "q0.translating-in-qc",
    "group": "Word problems",
    "title": "Translating verbal statements into algebra inside a quantitative comparison",
-   "lessonId": "q0-02-qc-strategies",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "technique"
   },
   {
@@ -1201,56 +1201,56 @@
    "id": "q2.profit-and-loss",
    "group": "Word problems",
    "title": "Profit as revenue minus cost, and loss when cost exceeds revenue",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "concept"
   },
   {
    "id": "q2.shared-cost",
    "group": "Word problems",
    "title": "Splitting a cost when the number of people sharing it changes",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
    "id": "q2.salary-and-commission",
    "group": "Word problems",
    "title": "Earnings from salary plus commission or hourly pay with overtime",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "pattern"
   },
   {
    "id": "q2.compare-price-plans",
    "group": "Word problems",
    "title": "Comparing pricing plans and finding the break-even quantity",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
    "id": "q2.quantities-become-equal",
    "group": "Word problems",
    "title": "When two quantities changing at different steady rates become equal",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
    "id": "q2.fraction-parts-of-whole",
    "group": "Word problems",
    "title": "Fractional shares that together make up a whole, and the share left over",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
    "id": "q2.fraction-of-remainder",
    "group": "Word problems",
    "title": "A fraction of what remains versus a fraction of the original amount",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "trap"
   },
   {
    "id": "q2.hypothetical-fraction-change",
    "group": "Word problems",
    "title": "Problems where adding or removing items would change a fraction to a stated value",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "pattern"
   },
   {
@@ -1278,28 +1278,28 @@
    "id": "q2.linear-growth",
    "group": "Word problems",
    "title": "Linear growth: a fixed amount added every period",
-   "lessonId": "q2-12-interest",
+   "lessonId": "q2-17-sequences",
    "kind": "concept"
   },
   {
    "id": "q2.exponential-growth",
    "group": "Word problems",
    "title": "Exponential growth: identifying the growth factor and the length of one period, tracked period by period",
-   "lessonId": "q2-12-interest",
+   "lessonId": "q2-17-sequences",
    "kind": "concept"
   },
   {
    "id": "q2.exponential-decay",
    "group": "Word problems",
    "title": "Exponential decay, including half-life style problems",
-   "lessonId": "q2-12-interest",
+   "lessonId": "q2-17-sequences",
    "kind": "concept"
   },
   {
    "id": "q2.digit-problems",
    "group": "Word problems",
    "title": "Problems about the digits of a number (e.g. a two-digit number written as 10t + u)",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
@@ -1334,14 +1334,14 @@
    "id": "q2.inequality-word-problems",
    "group": "Word problems",
    "title": "Word problems that lead to inequalities (at least, at most, minimum number needed)",
-   "lessonId": "q2-07-inequalities",
+   "lessonId": "q2-22-inequality-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q2.positions-in-a-line",
    "group": "Word problems",
    "title": "Positions of people or objects in a line counted from either end",
-   "lessonId": "q2-09-word-problems",
+   "lessonId": "q2-23-word-problem-setups",
    "kind": "pattern"
   },
   {
@@ -1383,14 +1383,14 @@
    "id": "q2.rate-table",
    "group": "Distance, rate & time",
    "title": "Organizing motion problems in a rate-time-distance table",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "technique"
   },
   {
    "id": "q2.single-trip-rate",
    "group": "Distance, rate & time",
    "title": "Basic one-traveller rate questions, including variable answer choices",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
@@ -1404,84 +1404,84 @@
    "id": "q2.toward-each-other-same-start",
    "group": "Distance, rate & time",
    "title": "Two travellers moving toward each other who start at the same time",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.toward-each-other-staggered",
    "group": "Distance, rate & time",
    "title": "Two travellers moving toward each other who start at different times",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.toward-each-other-relative-speed",
    "group": "Distance, rate & time",
    "title": "Converging travellers when one speed is given relative to the other",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.moving-apart",
    "group": "Distance, rate & time",
    "title": "Two travellers moving away from each other",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.round-trip",
    "group": "Distance, rate & time",
    "title": "Round trips with different speeds out and back",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.catch-up",
    "group": "Distance, rate & time",
    "title": "A faster traveller catching up with a slower one who started earlier",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.catch-up-and-pass",
    "group": "Distance, rate & time",
    "title": "Catching up and then getting a stated distance ahead",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.relative-motion",
    "group": "Distance, rate & time",
    "title": "Relative speed: add rates for opposite directions, subtract for the same direction",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "concept"
   },
   {
    "id": "q2.hypothetical-speed-change",
    "group": "Distance, rate & time",
    "title": "Questions of the form 'had it gone faster, it would have arrived earlier'",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-24-distance-rate-time",
    "kind": "pattern"
   },
   {
    "id": "q2.time-zone-travel",
    "group": "Distance, rate & time",
    "title": "Travel time problems that cross time zones",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "pattern"
   },
   {
    "id": "q2.fuel-efficiency",
    "group": "Distance, rate & time",
    "title": "Fuel efficiency (distance per unit of fuel) and fuel cost",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "pattern"
   },
   {
    "id": "q2.rate-time-distance-proportions",
    "group": "Distance, rate & time",
    "title": "Proportional links in d = rt: distance with rate or time, and rate inversely with time",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "concept"
   },
   {
@@ -1495,14 +1495,14 @@
    "id": "q2.work-table",
    "group": "Work rates",
    "title": "Organizing work problems in a rate-time-work table",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "technique"
   },
   {
    "id": "q2.single-worker",
    "group": "Work rates",
    "title": "Single-worker problems, including variable answer choices",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
@@ -1516,21 +1516,21 @@
    "id": "q2.worker-leaves-early",
    "group": "Work rates",
    "title": "Two workers start together and one stops before the job is done",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
    "id": "q2.unknown-worker-time",
    "group": "Work rates",
    "title": "Finding one worker's time from the combined time and the other's time",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
    "id": "q2.percent-of-job",
    "group": "Work rates",
    "title": "Expressing work completed as a fraction or percent of the job",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
@@ -1544,28 +1544,28 @@
    "id": "q2.two-worker-shortcut",
    "group": "Work rates",
    "title": "Combined time of two workers as product over sum",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "technique"
   },
   {
    "id": "q2.rate-as-multiple",
    "group": "Work rates",
    "title": "One worker's rate stated as a multiple of another's",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
    "id": "q2.time-percent-more-less",
    "group": "Work rates",
    "title": "One worker taking a given percent or fraction more or less time than another",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-25-work-rates",
    "kind": "pattern"
   },
   {
    "id": "q2.changing-workforce",
    "group": "Work rates",
    "title": "Changing the number of identical workers or machines (worker-hours stay constant)",
-   "lessonId": "q2-10-average-rate-work",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "pattern"
   },
   {
@@ -1586,7 +1586,7 @@
    "id": "q1.ratio-not-counts",
    "group": "Ratios & variation",
    "title": "A ratio alone does not give the actual quantities",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "trap"
   },
   {
@@ -1607,42 +1607,42 @@
    "id": "q1.fractional-multiplier",
    "group": "Ratios & variation",
    "title": "The multiplier need not be an integer for measured quantities, but must give whole counts for countable items",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "concept"
   },
   {
    "id": "q1.ratio-total-multiple",
    "group": "Ratios & variation",
    "title": "For countable items, a possible total must be a multiple of the sum of the ratio parts",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "pattern"
   },
   {
    "id": "q1.sufficient-ratio-info",
    "group": "Ratios & variation",
    "title": "Recognizing when ratio information is enough to answer the question",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "concept"
   },
   {
    "id": "q1.ratio-common-variable",
    "group": "Ratios & variation",
    "title": "Cancelling a common variable in ratios such as 3x : 5x",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.multipart-ratios",
    "group": "Ratios & variation",
    "title": "Merging two ratios that share a term by matching that term with the LCM",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "technique"
   },
   {
    "id": "q1.adjust-ratio-by-adding",
    "group": "Ratios & variation",
    "title": "Adding or removing items to reach a new ratio",
-   "lessonId": "q1-11-ratio",
+   "lessonId": "q1-25-ratio-techniques",
    "kind": "pattern"
   },
   {
@@ -1691,7 +1691,7 @@
    "id": "q1.start-with-100",
    "group": "Percent problems",
    "title": "Using 100 or a variable as a convenient starting value",
-   "lessonId": "q1-12-percent",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "technique"
   },
   {
@@ -1705,7 +1705,7 @@
    "id": "q1.percent-of-chains",
    "group": "Percent problems",
    "title": "Chains of percents and fractions of a quantity (e.g. 20 percent of 30 percent of x)",
-   "lessonId": "q1-12-percent",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "pattern"
   },
   {
@@ -1740,14 +1740,14 @@
    "id": "q1.greater-than-as-of",
    "group": "Percent problems",
    "title": "'p percent greater than' equals '(100 + p) percent of', so 150 percent greater means 2.5 times",
-   "lessonId": "q1-13-percent-change",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "trap"
   },
   {
    "id": "q1.percent-operation-order",
    "group": "Percent problems",
    "title": "Applying percent changes and other operations in the order the problem states",
-   "lessonId": "q1-13-percent-change",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "trap"
   },
   {
@@ -1782,21 +1782,21 @@
    "id": "q1.original-value",
    "group": "Percent problems",
    "title": "Recovering the original value after a percent change",
-   "lessonId": "q1-13-percent-change",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "pattern"
   },
   {
    "id": "q1.percent-profit",
    "group": "Percent problems",
    "title": "Percent profit, markup and discount relative to cost or price",
-   "lessonId": "q1-13-percent-change",
+   "lessonId": "q1-26-percent-techniques",
    "kind": "pattern"
   },
   {
    "id": "q4.two-way-grid",
    "group": "Overlapping sets",
    "title": "Laying out a two-set problem as a grid with totals",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "technique"
   },
   {
@@ -1810,28 +1810,28 @@
    "id": "q4.two-set-percents",
    "group": "Overlapping sets",
    "title": "Two-set problems given in percents or fractions",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "pattern"
   },
   {
    "id": "q4.two-set-unknown-total",
    "group": "Overlapping sets",
    "title": "Choosing a convenient total when all information is in percents or fractions",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "technique"
   },
   {
    "id": "q4.two-set-algebra",
    "group": "Overlapping sets",
    "title": "Introducing a variable for an unknown cell of a two-set grid",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "technique"
   },
   {
    "id": "q4.two-set-combined-cells",
    "group": "Overlapping sets",
    "title": "Finding a sum of cells without finding each cell",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "pattern"
   },
   {
@@ -1845,42 +1845,42 @@
    "id": "q4.set-overlap-extremes",
    "group": "Overlapping sets",
    "title": "Greatest or least possible overlap or 'neither' count",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "pattern"
   },
   {
    "id": "q4.three-set-regions",
    "group": "Overlapping sets",
    "title": "The regions of a three-circle Venn diagram",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "concept"
   },
   {
    "id": "q4.three-set-fill-inward-out",
    "group": "Overlapping sets",
    "title": "Filling a three-set Venn diagram from the centre outward",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "technique"
   },
   {
    "id": "q4.three-set-unknown-regions",
    "group": "Overlapping sets",
    "title": "Three-set problems where some single-set regions are unknown",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "pattern"
   },
   {
    "id": "q4.three-set-formula",
    "group": "Overlapping sets",
    "title": "Three-set inclusion-exclusion formula",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "technique"
   },
   {
    "id": "q4.exactly-vs-at-least-two",
    "group": "Overlapping sets",
    "title": "'Exactly two' versus 'at least two' in three-set problems",
-   "lessonId": "q4-06-sets-venn",
+   "lessonId": "q4-15-overlapping-sets",
    "kind": "trap"
   },
   {
@@ -1901,7 +1901,7 @@
    "id": "q4.mean-with-variables",
    "group": "Statistics",
    "title": "Means of lists that contain variable terms",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "technique"
   },
   {
@@ -1915,7 +1915,7 @@
    "id": "q4.mean-extremes",
    "group": "Statistics",
    "title": "Largest or smallest possible value of one member given the mean and constraints",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "pattern"
   },
   {
@@ -1985,21 +1985,21 @@
    "id": "q4.weighting-pull",
    "group": "Statistics",
    "title": "A weighted average lies closer to the more heavily weighted value",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "concept"
   },
   {
    "id": "q4.weighted-average-percents",
    "group": "Statistics",
    "title": "Weighted averages of percents or rates across groups of different size",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "pattern"
   },
   {
    "id": "q4.weighted-average-ratio",
    "group": "Statistics",
    "title": "Finding the ratio of group sizes from a weighted average",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "technique"
   },
   {
@@ -2020,14 +2020,14 @@
    "id": "q4.mean-equals-median",
    "group": "Statistics",
    "title": "When the mean equals the median (symmetric and evenly spaced sets)",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "concept"
   },
   {
    "id": "q4.median-unknown-values",
    "group": "Statistics",
    "title": "Median when some values are unknown or given as variables",
-   "lessonId": "q4-03-centre-spread-basic",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "pattern"
   },
   {
@@ -2062,14 +2062,14 @@
    "id": "q4.sd-multiply-constant",
    "group": "Statistics",
    "title": "Multiplying or dividing every value by a factor scales the standard deviation by that factor's absolute value",
-   "lessonId": "q4-05-std-dev",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "concept"
   },
   {
    "id": "q4.sd-add-value",
    "group": "Statistics",
    "title": "Adding a value equal to the mean lowers the standard deviation; adding a far-off value raises it",
-   "lessonId": "q4-05-std-dev",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "pattern"
   },
   {
@@ -2139,7 +2139,7 @@
    "id": "q4.or-adds",
    "group": "Counting",
    "title": "Choosing one of several separate cases ('or'): add the counts",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "technique"
   },
   {
@@ -2153,28 +2153,28 @@
    "id": "q4.must-include",
    "group": "Counting",
    "title": "Selections in which certain items must be included",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
    "id": "q4.must-exclude",
    "group": "Counting",
    "title": "Selections in which certain items must be left out",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
    "id": "q4.include-and-exclude",
    "group": "Counting",
    "title": "Selections in which some items are required and others forbidden",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
    "id": "q4.layered-selections",
    "group": "Counting",
    "title": "Layered selections: first choose groups, then members from them",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
@@ -2202,7 +2202,7 @@
    "id": "q4.unknown-size-combinations",
    "group": "Counting",
    "title": "Finding an unknown group size from a given number of combinations",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
@@ -2216,14 +2216,14 @@
    "id": "q4.identical-items",
    "group": "Counting",
    "title": "Arrangements with repeated identical items (divide by the repeats' factorials)",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "technique"
   },
   {
    "id": "q4.circular-arrangements",
    "group": "Counting",
    "title": "Arrangements around a circle: (n - 1)!",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "technique"
   },
   {
@@ -2251,14 +2251,14 @@
    "id": "q4.items-apart",
    "group": "Counting",
    "title": "Items that may not be adjacent: total minus arrangements with them together",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "technique"
   },
   {
    "id": "q4.unknown-size-permutations",
    "group": "Counting",
    "title": "Finding an unknown number of items from a given number of arrangements",
-   "lessonId": "q4-07-counting-principles",
+   "lessonId": "q4-16-arrangements",
    "kind": "pattern"
   },
   {
@@ -2279,7 +2279,7 @@
    "id": "q4.sample-space",
    "group": "Probability",
    "title": "Listing a sample space systematically (e.g. a grid for two dice)",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "technique"
   },
   {
@@ -2314,7 +2314,7 @@
    "id": "q4.exclusive-vs-independent",
    "group": "Probability",
    "title": "Confusing mutually exclusive events with independent events",
-   "lessonId": "q4-09-independent-conditional",
+   "lessonId": "q4-18-probability-rules",
    "kind": "trap"
   },
   {
@@ -2328,84 +2328,84 @@
    "id": "q4.count-the-orders",
    "group": "Probability",
    "title": "Multiplying by the number of orders in which the outcomes can occur (e.g. exactly two heads in four tosses)",
-   "lessonId": "q4-09-independent-conditional",
+   "lessonId": "q4-18-probability-rules",
    "kind": "technique"
   },
   {
    "id": "q4.at-least-one",
    "group": "Probability",
    "title": "'At least one' (event or particular object) as 1 minus the probability of none",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "technique"
   },
   {
    "id": "q4.complement-wording",
    "group": "Probability",
    "title": "Writing the correct complement ('not all' is not 'none')",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "trap"
   },
   {
    "id": "q4.counting-based-probability",
    "group": "Probability",
    "title": "Probability as favourable selections over total selections using combinations",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-17-selections",
    "kind": "technique"
   },
   {
    "id": "q4.prob-include-or-exclude",
    "group": "Probability",
    "title": "Probability that a random selection includes, or leaves out, particular items",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
    "id": "q4.prob-include-and-exclude",
    "group": "Probability",
    "title": "Probability that a selection includes some items and excludes others",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-17-selections",
    "kind": "pattern"
   },
   {
    "id": "q4.at-least-k-events",
    "group": "Probability",
    "title": "Probability that at least k of n independent events occur",
-   "lessonId": "q4-09-independent-conditional",
+   "lessonId": "q4-18-probability-rules",
    "kind": "pattern"
   },
   {
    "id": "q4.probability-quadratic",
    "group": "Probability",
    "title": "Setting up a quadratic to find an unknown count from a given probability",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "pattern"
   },
   {
    "id": "q4.probability-as-ratio",
    "group": "Probability",
    "title": "Using a probability as a ratio, possibly with variables, to find the counts behind it",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "pattern"
   },
   {
    "id": "q4.probability-integer-counts",
    "group": "Probability",
    "title": "A probability written as a fraction forces the total to be a multiple of the reduced denominator",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-18-probability-rules",
    "kind": "pattern"
   },
   {
    "id": "q4.probability-arrangements",
    "group": "Probability",
    "title": "Probability of a particular arrangement or ordering",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-16-arrangements",
    "kind": "pattern"
   },
   {
    "id": "q4.probability-codes",
    "group": "Probability",
    "title": "Probability that a randomly formed code has a given property",
-   "lessonId": "q4-08-probability-basics",
+   "lessonId": "q4-16-arrangements",
    "kind": "pattern"
   },
   {
@@ -2419,14 +2419,14 @@
    "id": "q3.lines-segments-rays",
    "group": "Geometry",
    "title": "Lines, segments and rays, and how they are named",
-   "lessonId": "q3-01-lines-angles",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
    "id": "q3.angle-types",
    "group": "Geometry",
    "title": "Naming angles and classifying them as acute, right, obtuse or straight",
-   "lessonId": "q3-01-lines-angles",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
@@ -2440,7 +2440,7 @@
    "id": "q3.supplementary-complementary",
    "group": "Geometry",
    "title": "Supplementary and complementary angles",
-   "lessonId": "q3-01-lines-angles",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
@@ -2468,7 +2468,7 @@
    "id": "q3.triangle-types",
    "group": "Geometry",
    "title": "Classifying triangles by sides and by angles",
-   "lessonId": "q3-03-triangles-pythagoras",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
@@ -2482,14 +2482,14 @@
    "id": "q3.angle-side-order",
    "group": "Geometry",
    "title": "The largest angle is opposite the longest side, the smallest opposite the shortest",
-   "lessonId": "q3-03-triangles-pythagoras",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
    "id": "q3.exterior-angle",
    "group": "Geometry",
    "title": "A triangle's exterior angle equals the sum of the two non-adjacent interior angles",
-   "lessonId": "q3-03-triangles-pythagoras",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
@@ -2517,14 +2517,14 @@
    "id": "q3.pythagorean-converse",
    "group": "Geometry",
    "title": "Using side lengths to decide whether a triangle is right, acute or obtuse",
-   "lessonId": "q3-03-triangles-pythagoras",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
    "id": "q3.pythagorean-triples",
    "group": "Geometry",
    "title": "Recognizing common right-triangle side sets (3-4-5, 5-12-13, 8-15-17) and their multiples",
-   "lessonId": "q3-03-triangles-pythagoras",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "technique"
   },
   {
@@ -2587,28 +2587,28 @@
    "id": "q3.rectangle-diagonal",
    "group": "Geometry",
    "title": "Rectangle properties and its diagonal as the longest segment inside",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "technique"
   },
   {
    "id": "q3.square-properties",
    "group": "Geometry",
    "title": "Square properties, including area from the diagonal",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "technique"
   },
   {
    "id": "q3.max-area-fixed-perimeter",
    "group": "Geometry",
    "title": "For a fixed perimeter, a rectangle's area is greatest when it is a square",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "pattern"
   },
   {
    "id": "q3.min-perimeter-fixed-area",
    "group": "Geometry",
    "title": "For a fixed area, a rectangle's perimeter is smallest when it is a square",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "pattern"
   },
   {
@@ -2636,14 +2636,14 @@
    "id": "q3.regular-hexagon",
    "group": "Geometry",
    "title": "A regular hexagon as six equilateral triangles, and its area",
-   "lessonId": "q3-02-polygons",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "technique"
   },
   {
    "id": "q3.exterior-angle-sum",
    "group": "Geometry",
    "title": "The exterior angles of any convex polygon sum to 360 degrees",
-   "lessonId": "q3-02-polygons",
+   "lessonId": "q3-10-angle-and-side-facts",
    "kind": "concept"
   },
   {
@@ -2685,7 +2685,7 @@
    "id": "q3.inscribed-angle",
    "group": "Geometry",
    "title": "An inscribed angle is half the central angle on the same arc",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "concept"
   },
   {
@@ -2699,35 +2699,35 @@
    "id": "q3.triangle-for-arc",
    "group": "Geometry",
    "title": "Using a triangle in the circle to find an arc length",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
    "id": "q3.radii-isosceles",
    "group": "Geometry",
    "title": "Two radii form an isosceles triangle with the chord between them",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "technique"
   },
   {
    "id": "q3.circle-and-equilateral",
    "group": "Geometry",
    "title": "Equilateral triangle inscribed in a circle, or circle inscribed in an equilateral triangle",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
    "id": "q3.circle-and-square",
    "group": "Geometry",
    "title": "Square inscribed in a circle (diagonal = diameter) or circle inscribed in a square (side = diameter)",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
    "id": "q3.triangle-in-square",
    "group": "Geometry",
    "title": "Triangle drawn inside a square or rectangle sharing a side (half the area)",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "pattern"
   },
   {
@@ -2741,42 +2741,42 @@
    "id": "q3.square-in-square",
    "group": "Geometry",
    "title": "Square inscribed in a larger square",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "pattern"
   },
   {
    "id": "q3.rectangle-in-semicircle",
    "group": "Geometry",
    "title": "Rectangle inscribed in a semicircle",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
    "id": "q3.regular-polygon-in-circle",
    "group": "Geometry",
    "title": "Regular polygon inscribed in a circle (radii to the vertices)",
-   "lessonId": "q3-08-circles-lines",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
    "id": "q3.shaded-regions",
    "group": "Geometry",
    "title": "Shaded area as the whole figure minus the unshaded parts",
-   "lessonId": "q3-07-circles-basics",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "technique"
   },
   {
    "id": "q3.uniform-border",
    "group": "Geometry",
    "title": "Uniform borders or walkways around a rectangle",
-   "lessonId": "q3-06-quadrilaterals",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "pattern"
   },
   {
    "id": "q3.ring-area",
    "group": "Geometry",
    "title": "Area of the ring between two concentric circles",
-   "lessonId": "q3-07-circles-basics",
+   "lessonId": "q3-12-circles-inscribed-figures",
    "kind": "pattern"
   },
   {
@@ -2790,7 +2790,7 @@
    "id": "q3.space-diagonal",
    "group": "Geometry",
    "title": "The longest segment inside a rectangular solid",
-   "lessonId": "q3-09-solids",
+   "lessonId": "q3-11-composite-quadrilaterals",
    "kind": "technique"
   },
   {
@@ -2811,21 +2811,21 @@
    "id": "q3.volume-and-rate",
    "group": "Geometry",
    "title": "Filling or draining a container at a given rate",
-   "lessonId": "q3-09-solids",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "pattern"
   },
   {
    "id": "q3.volume-rate-traps",
    "group": "Geometry",
    "title": "Mismatched units and partially filled containers in volume-rate problems",
-   "lessonId": "q3-09-solids",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "trap"
   },
   {
    "id": "q3.similar-figure-ratios",
    "group": "Geometry",
    "title": "In similar figures, areas scale with the square and volumes with the cube of the length ratio",
-   "lessonId": "q3-05-congruent-similar",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "concept"
   },
   {
@@ -2846,7 +2846,7 @@
    "id": "q2.graphing-lines",
    "group": "Coordinate geometry",
    "title": "Sketching a line from plotted points or from its slope-intercept equation",
-   "lessonId": "q2-14-lines",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "technique"
   },
   {
@@ -2860,7 +2860,7 @@
    "id": "q2.slope-signs",
    "group": "Coordinate geometry",
    "title": "Positive, negative, zero and undefined slope, and steepness from its absolute value",
-   "lessonId": "q2-14-lines",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "concept"
   },
   {
@@ -2881,14 +2881,14 @@
    "id": "q2.horizontal-vertical-lines",
    "group": "Coordinate geometry",
    "title": "Equations of horizontal and vertical lines",
-   "lessonId": "q2-14-lines",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "concept"
   },
   {
    "id": "q2.point-on-line",
    "group": "Coordinate geometry",
    "title": "Using the fact that a point lies on a line exactly when it satisfies the equation (two points or point and slope fix a line)",
-   "lessonId": "q2-14-lines",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "technique"
   },
   {
@@ -2923,7 +2923,7 @@
    "id": "q2.reflect-over-diagonal",
    "group": "Coordinate geometry",
    "title": "Reflecting points over the lines y = x and y = -x",
-   "lessonId": "q2-13-coordinate-basics",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "technique"
   },
   {
@@ -2937,14 +2937,14 @@
    "id": "q2.midpoint-formula",
    "group": "Coordinate geometry",
    "title": "Midpoint of a segment",
-   "lessonId": "q2-13-coordinate-basics",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "technique"
   },
   {
    "id": "q2.figures-on-the-plane",
    "group": "Coordinate geometry",
    "title": "Areas and perimeters of figures drawn on the coordinate plane",
-   "lessonId": "q2-13-coordinate-basics",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "pattern"
   },
   {
@@ -2986,56 +2986,56 @@
    "id": "q2.range-meaning",
    "group": "Functions & sequences",
    "title": "Range as the set of possible outputs",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "concept"
   },
   {
    "id": "q2.range-root-functions",
    "group": "Functions & sequences",
    "title": "Range of functions like f(x) = square root of x + b",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.range-even-powers",
    "group": "Functions & sequences",
    "title": "Range of x^n + c for even n",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.range-odd-and-linear",
    "group": "Functions & sequences",
    "title": "Range of odd powers and non-constant linear functions",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.range-from-extremes",
    "group": "Functions & sequences",
    "title": "Finding a range from a function's minimum or maximum value",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.composite-functions",
    "group": "Functions & sequences",
    "title": "Evaluating composite functions such as f(g(x))",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.function-graphs",
    "group": "Functions & sequences",
    "title": "Reading function values from a graph",
-   "lessonId": "q2-16-function-graphs",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "concept"
   },
   {
    "id": "q2.domain-range-from-graph",
    "group": "Functions & sequences",
    "title": "Reading the domain and range from a graph",
-   "lessonId": "q2-16-function-graphs",
+   "lessonId": "q2-26-coordinate-plane-skills",
    "kind": "technique"
   },
   {
@@ -3070,7 +3070,7 @@
    "id": "q2.function-word-problems",
    "group": "Functions & sequences",
    "title": "Word problems modelled by a function (cost, revenue, height)",
-   "lessonId": "q2-08-functions",
+   "lessonId": "q2-18-defined-operations",
    "kind": "pattern"
   },
   {
@@ -3126,7 +3126,7 @@
    "id": "q0.di-titles-legends",
    "group": "Data interpretation",
    "title": "Using titles and legends to identify what each series measures",
-   "lessonId": "q0-07-di-sets",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "concept"
   },
   {
@@ -3147,21 +3147,21 @@
    "id": "q4.truncated-axis",
    "group": "Data interpretation",
    "title": "A vertical axis that does not start at zero exaggerates differences",
-   "lessonId": "q4-01-tables-bars",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "trap"
   },
   {
    "id": "q4.columns-without-scale",
    "group": "Data interpretation",
    "title": "Column charts without a numeric scale: compare by relative heights",
-   "lessonId": "q4-01-tables-bars",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "pattern"
   },
   {
    "id": "q4.pareto-charts",
    "group": "Data interpretation",
    "title": "Sorted column charts with a cumulative-percent line",
-   "lessonId": "q4-01-tables-bars",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "concept"
   },
   {
@@ -3189,7 +3189,7 @@
    "id": "q4.grouped-frequency-tables",
    "group": "Data interpretation",
    "title": "Frequency tables with value intervals",
-   "lessonId": "q4-01-tables-bars",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "technique"
   },
   {
@@ -3224,7 +3224,7 @@
    "id": "q4.normal-probabilities",
    "group": "Data interpretation",
    "title": "Estimating probabilities for a normally distributed variable using standard-deviation bands",
-   "lessonId": "q4-11-normal",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "technique"
   },
   {
@@ -3245,14 +3245,14 @@
    "id": "q4.dual-axes",
    "group": "Data interpretation",
    "title": "Graphs with separate left and right vertical axes",
-   "lessonId": "q4-02-graph-types",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "trap"
   },
   {
    "id": "q4.scatterplots",
    "group": "Data interpretation",
    "title": "Scatterplots and the direction of association",
-   "lessonId": "q4-02-graph-types",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "concept"
   },
   {
@@ -3266,7 +3266,7 @@
    "id": "q4.scatterplot-multiple-series",
    "group": "Data interpretation",
    "title": "Scatterplots that use different symbols for different groups",
-   "lessonId": "q4-02-graph-types",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "concept"
   },
   {
@@ -3287,7 +3287,7 @@
    "id": "q4.two-way-tables",
    "group": "Data interpretation",
    "title": "Reading two-way contingency tables with row and column totals",
-   "lessonId": "q4-01-tables-bars",
+   "lessonId": "q4-13-reading-tricky-displays",
    "kind": "technique"
   },
   {
@@ -3301,7 +3301,7 @@
    "id": "q4.percentiles",
    "group": "Data interpretation",
    "title": "Percentiles",
-   "lessonId": "q4-04-position",
+   "lessonId": "q4-14-centre-spread-reasoning",
    "kind": "concept"
   },
   {
