@@ -69,7 +69,8 @@
   },
   "estSeconds": 60,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "systems-of-equations"
   ],
   "topics": [
    "q2.substitute-expressions"
@@ -154,7 +155,8 @@
   },
   "estSeconds": 60,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "factoring"
   ],
   "topics": [
    "q2.factor-out-negative-one"
@@ -204,7 +206,8 @@
   "explanation": "Move everything to one side: $x^3-6x^2+8x=0$. Factor out $x$: $x(x^2-6x+8)=x(x-2)(x-4)=0$. The solutions are $0$, $2$ and $4$: three. Dividing by $x$ would lose the solution $0$.",
   "estSeconds": 60,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "factoring"
   ],
   "topics": [
    "q2.three-or-more-solutions"
@@ -286,7 +289,8 @@
   "explanation": "Add all three equations: $2x+2y+2z=50$, so $x+y+z=25$. Subtract $x+y=13$: $z=12$.",
   "estSeconds": 60,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "systems-of-equations"
   ],
   "topics": [
    "q2.three-variable-systems"
@@ -312,7 +316,8 @@
   "explanation": "$(x+y)^2=x^2+y^2+2xy$, so Quantity A minus Quantity B is $2xy$. With $x=3$ and $y=2$, A is $25$ and B is $13$; with $x=3$ and $y=-2$, A is $1$ and B is $13$. The relationship cannot be determined.",
   "estSeconds": 75,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "algebraic-expressions"
   ],
   "topics": [
    "q2.square-of-sum-vs-sum-of-squares"
@@ -346,7 +351,8 @@
   },
   "estSeconds": 120,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "systems-of-equations"
   ],
   "topics": [
    "q2.three-variable-systems"
@@ -396,7 +402,8 @@
   "explanation": "Multiply every term by $x(x-3)$, so $x\\ne0$ and $x\\ne3$: $x^2+2(x-3)=3x$, so $x^2-x-6=0$ and $(x-3)(x+2)=0$. $x=3$ makes a denominator 0, so reject it. Only $x=-2$ remains, and the sum is $-2$.",
   "estSeconds": 90,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "quadratic-factoring"
   ],
   "topics": [
    "q2.quadratic-from-fractions"
@@ -428,7 +435,8 @@
   },
   "estSeconds": 105,
   "skills": [
-   "linear-equations"
+   "linear-equations",
+   "factoring"
   ],
   "topics": [
    "q2.three-or-more-solutions",

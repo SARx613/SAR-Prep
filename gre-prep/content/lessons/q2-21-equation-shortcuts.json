@@ -62,7 +62,8 @@
    "explanation": "$(x+y)^2=x^2+y^2+2xy$, so Quantity A minus Quantity B is $2xy$, which is negative when $x$ and $y$ have opposite signs. Quantity B is greater.",
    "estSeconds": 60,
    "skills": [
-    "linear-equations"
+    "linear-equations",
+    "algebraic-expressions"
    ],
    "topics": [
     "q2.square-of-sum-vs-sum-of-squares"
@@ -96,7 +97,8 @@
    },
    "estSeconds": 60,
    "skills": [
-    "linear-equations"
+    "linear-equations",
+    "factoring"
    ],
    "topics": [
     "q2.factor-out-negative-one"

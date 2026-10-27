@@ -1,0 +1,465 @@
+[
+ {
+  "id": "q3-10-angle-and-side-facts-01",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 1,
+  "stem": "An angle measures $34^\\circ$. What is the measure of the supplement of its complement?",
+  "explanation": "The complement is $90-34=56^\\circ$. Its supplement is $180-56=124^\\circ$.",
+  "choiceExplanations": {
+   "A": "$56^\\circ$ is only the complement; the question asks for the supplement of that.",
+   "B": "$90^\\circ$ is the difference between the supplement and the complement of $34^\\circ$, not the requested angle.",
+   "D": "$146^\\circ$ is the supplement of $34^\\circ$ itself, not of its complement.",
+   "E": "This adds $180+56$; the supplement is $180$ minus the angle."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "lines-angles"
+  ],
+  "topics": [
+   "q3.supplementary-complementary"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$56^\\circ$"
+    },
+    {
+     "id": "B",
+     "text": "$90^\\circ$"
+    },
+    {
+     "id": "C",
+     "text": "$124^\\circ$"
+    },
+    {
+     "id": "D",
+     "text": "$146^\\circ$"
+    },
+    {
+     "id": "E",
+     "text": "$236^\\circ$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-02",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 1,
+  "stem": "A right triangle has a hypotenuse of length 34 and a leg of length 16. What is the length of the other leg?",
+  "explanation": "$16$ and $34$ are $2\\cdot8$ and $2\\cdot17$, so this is the 8-15-17 triangle doubled: the other leg is $2\\cdot15=30$. Check: $34^2-16^2=1156-256=900=30^2$.",
+  "estSeconds": 45,
+  "skills": [
+   "triangles",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.pythagorean-triples"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 30
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-03",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 2,
+  "stem": "Points $J$, $K$ and $L$ lie on a line in that order, with $JK=6$ and $KL=10$. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "In the order $J,K,L$: $JL=JK+KL=16$. Ray $JK$ starts at $J$ and runs through $K$ and on to $L$. Rays $KJ$ and $KL$ point in opposite directions, so angle $JKL$ is a straight angle.",
+  "choiceExplanations": {
+   "B": "Ray $KJ$ starts at $K$ and runs toward $J$, away from $L$.",
+   "E": "$JK=6$ and $KL=10$ are not equal, so $K$ is not the midpoint."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "lines-angles"
+  ],
+  "topics": [
+   "q3.lines-segments-rays",
+   "q3.angle-types"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$JL=16$"
+    },
+    {
+     "id": "B",
+     "text": "Ray $KJ$ contains point $L$."
+    },
+    {
+     "id": "C",
+     "text": "Ray $JK$ contains point $L$."
+    },
+    {
+     "id": "D",
+     "text": "Angle $JKL$ is a straight angle."
+    },
+    {
+     "id": "E",
+     "text": "$K$ is the midpoint of segment $JL$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-04",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 2,
+  "stem": "In the figure, $A$, $B$ and $C$ lie on a line. Which of the following angles are obtuse? Indicate all such angles.",
+  "explanation": "Angle $DBE=180-40-75=65^\\circ$. Then angle $ABE=40+65=105^\\circ$ and angle $DBC=65+75=140^\\circ$ are obtuse. Angle $ABD=40^\\circ$ is acute and angle $ABC=180^\\circ$ is straight.",
+  "choiceExplanations": {
+   "A": "Angle $ABD$ is the $40^\\circ$ angle, which is acute.",
+   "C": "$A$, $B$, $C$ are on a line, so angle $ABC$ is $180^\\circ$, a straight angle; obtuse means strictly between $90^\\circ$ and $180^\\circ$.",
+   "E": "Angle $DBE=180-40-75=65^\\circ$, which is acute."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "lines-angles"
+  ],
+  "topics": [
+   "q3.angle-types"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 300 160\"><line x1=\"20\" y1=\"130\" x2=\"280\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"150\" cy=\"130\" r=\"2.5\" fill=\"currentColor\"/><line x1=\"150\" y1=\"130\" x2=\"58.1\" y2=\"52.9\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"130\" x2=\"181.1\" y2=\"14.1\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"58.1\" cy=\"52.9\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"181.1\" cy=\"14.1\" r=\"2.5\" fill=\"currentColor\"/><text x=\"20\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">A</text><text x=\"280\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">C</text><text x=\"150\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">B</text><text x=\"50.1\" y=\"48.9\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">D</text><text x=\"185.1\" y=\"8.1\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">E</text><text x=\"110.5\" y=\"115.6\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">40°</text><text x=\"183.5\" y=\"104.7\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\">75°</text></svg>",
+    "alt": "Points A, B and C lie on a horizontal line with B between A and C. Rays BD and BE rise from B; D is toward the A side. The angle between BA and BD is labeled 40 degrees and the angle between BE and BC is labeled 75 degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Angle $ABD$"
+    },
+    {
+     "id": "B",
+     "text": "Angle $ABE$"
+    },
+    {
+     "id": "C",
+     "text": "Angle $ABC$"
+    },
+    {
+     "id": "D",
+     "text": "Angle $DBC$"
+    },
+    {
+     "id": "E",
+     "text": "Angle $DBE$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-05",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A triangle can have at most one angle of $90^\\circ$ or more, because two such angles would already add to at least $180^\\circ$. So the other two angles of $T$ are acute: exactly 2. The quantities are equal.",
+  "estSeconds": 45,
+  "skills": [
+   "triangles"
+  ],
+  "topics": [
+   "q3.triangle-types"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Triangle $T$ has an obtuse interior angle.",
+   "quantityA": "The number of acute interior angles of $T$",
+   "quantityB": "2"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-06",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 3,
+  "stem": "In the figure, side $BC$ of triangle $ABC$ is extended to point $D$. What is the measure, in degrees, of angle $ACB$?",
+  "explanation": "Angle $ACD$ is exterior at $C$, so it equals angles $A$ and $B$ together: $6x-12=(2x+10)+(3x+4)$, which gives $x=26$. Then angle $ACD=6\\cdot26-12=144^\\circ$, and angle $ACB=180-144=36^\\circ$. Check: $62+82+36=180$.",
+  "estSeconds": 90,
+  "skills": [
+   "triangles"
+  ],
+  "topics": [
+   "q3.exterior-angle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 310 170\"><polygon points=\"53,57.7 40,150 180,150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"180\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"53\" y=\"49.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">A</text><text x=\"30\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">B</text><text x=\"180\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">C</text><text x=\"278\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">D</text><text x=\"61\" y=\"87.7\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\">(2x + 10)°</text><text x=\"54\" y=\"142\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\">(3x + 4)°</text><text x=\"210\" y=\"140\" font-size=\"11\" text-anchor=\"start\" fill=\"currentColor\">(6x − 12)°</text></svg>",
+    "alt": "Triangle ABC with side BC extended beyond C to point D. The interior angle at A is labeled (2x + 10) degrees, the interior angle at B is labeled (3x + 4) degrees, and the angle ACD outside the triangle is labeled (6x - 12) degrees."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-07",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 3,
+  "stem": "A regular hexagon has a perimeter of 36. Its area is $k\\sqrt3$. What is the value of $k$?",
+  "explanation": "Each side is $36\\div6=6$. The hexagon is six equilateral triangles of side 6, each of area $\\frac{\\sqrt3}{4}\\cdot36=9\\sqrt3$. Total: $6\\cdot9\\sqrt3=54\\sqrt3$, so $k=54$.",
+  "estSeconds": 75,
+  "skills": [
+   "polygons"
+  ],
+  "topics": [
+   "q3.regular-hexagon"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 54
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-08",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Angle $R=180-52-71=57^\\circ$. Side $QR$ is opposite angle $P$ ($52^\\circ$) and side $PQ$ is opposite angle $R$ ($57^\\circ$). The larger angle faces the longer side, so $PQ>QR$: Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "triangles"
+  ],
+  "topics": [
+   "q3.angle-side-order"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "In triangle $PQR$, angle $P$ measures $52^\\circ$ and angle $Q$ measures $71^\\circ$.",
+   "quantityA": "$QR$",
+   "quantityB": "$PQ$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-09",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 4,
+  "stem": "Which of the following sets of three lengths are the side lengths of an obtuse triangle? Indicate all such sets.",
+  "explanation": "First check that a triangle exists (the two shorter sides must add to more than the longest), then compare the square of the longest side with the sum of the other two squares. $5,6,8$: $64>61$, obtuse. $7,8,12$: $144>113$, obtuse.",
+  "choiceExplanations": {
+   "A": "$4+5=9$, so these lengths do not form a triangle at all, even though $81>16+25$.",
+   "C": "$100=36+64$: this is the 3-4-5 set doubled, a right triangle.",
+   "E": "$144<64+81=145$, so the triangle is acute (only just)."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "triangles"
+  ],
+  "topics": [
+   "q3.pythagorean-converse"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4, 5, 9"
+    },
+    {
+     "id": "B",
+     "text": "5, 6, 8"
+    },
+    {
+     "id": "C",
+     "text": "6, 8, 10"
+    },
+    {
+     "id": "D",
+     "text": "7, 8, 12"
+    },
+    {
+     "id": "E",
+     "text": "8, 9, 12"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-10",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 4,
+  "stem": "Each interior angle of a regular polygon is 7 times as large as each of its exterior angles. How many sides does the polygon have?",
+  "explanation": "At each vertex the interior and exterior angles are supplementary: $7e+e=180$, so $e=22.5^\\circ$. The exterior angles add to $360^\\circ$, so there are $\\frac{360}{22.5}=16$ sides.",
+  "estSeconds": 90,
+  "skills": [
+   "polygons"
+  ],
+  "topics": [
+   "q3.exterior-angle-sum"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 16
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-11",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let $O$ be the center. The hexagon is six equal equilateral triangles such as $OAB$ and $OBC$. Together $OAB$ and $OBC$ form $ABCO$, whose diagonal $AC$ cuts it into two congruent halves (all four sides equal $s$), so triangle $ABC$ has the area of one small triangle. The three corner triangles $ABC$, $CDE$, $EFA$ therefore make 3 of the 6 small triangles, and $ACE$ is the other 3. The quantities are equal.",
+  "estSeconds": 120,
+  "skills": [
+   "polygons"
+  ],
+  "topics": [
+   "q3.regular-hexagon"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 210\"><polygon points=\"40,105 80,35.7 160,35.7 200,105 160,174.3 80,174.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><polygon points=\"40,105 160,35.7 160,174.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"27\" y=\"109\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">A</text><text x=\"73.5\" y=\"28.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">B</text><text x=\"166.5\" y=\"28.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">C</text><text x=\"213\" y=\"109\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">D</text><text x=\"166.5\" y=\"189.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">E</text><text x=\"73.5\" y=\"189.5\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">F</text></svg>",
+    "alt": "Regular hexagon ABCDEF with diagonals AC, CE and EA drawn, forming triangle ACE inside it."
+   }
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "$ABCDEF$ is a regular hexagon.",
+   "quantityA": "The area of triangle $ACE$",
+   "quantityB": "The sum of the areas of triangles $ABC$, $CDE$ and $EFA$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-10-angle-and-side-facts-12",
+  "lessonId": "q3-10-angle-and-side-facts",
+  "difficulty": 5,
+  "stem": "A triangle has sides of lengths 5, 12 and $x$, where $x$ is an integer. For how many values of $x$ is the triangle obtuse?",
+  "explanation": "The triangle exists for $7<x<17$. If $x$ is the longest side ($x\\ge13$), it is obtuse when $x^2>25+144=169$: $x=14,15,16$ ($x=13$ is right). If 12 is the longest side ($x\\le12$), it is obtuse when $144>25+x^2$, so $x^2<119$: $x=8,9,10$. That makes 6 values.",
+  "estSeconds": 150,
+  "skills": [
+   "triangles"
+  ],
+  "topics": [
+   "q3.pythagorean-converse"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ }
+]
