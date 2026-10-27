@@ -3,13 +3,13 @@
   "id": "q3-12-circles-inscribed-figures-01",
   "lessonId": "q3-12-circles-inscribed-figures",
   "difficulty": 1,
-  "stem": "A circular fountain of radius 4 meters is surrounded by a path 2 meters wide. What is the area of the path, in square meters?",
-  "explanation": "The outer radius is $4+2=6$. Path $=\\pi\\cdot6^2-\\pi\\cdot4^2=36\\pi-16\\pi=20\\pi$.",
+  "stem": "A circular fountain of radius 4 meters is surrounded by a path of uniform width. The area of the path is $20\\pi$ square meters. How wide is the path, in meters?",
+  "explanation": "If the path is $w$ wide, the outer radius is $4+w$ and the path is $\\pi(4+w)^2-\\pi\\cdot4^2=20\\pi$. So $(4+w)^2=36$, $4+w=6$ and $w=2$.",
   "choiceExplanations": {
-   "A": "$\\pi(6-4)^2$ squares the difference of the radii; subtract the two areas instead.",
-   "B": "$16\\pi$ is the fountain itself.",
-   "D": "$36\\pi$ is the fountain and the path together.",
-   "E": "$36\\pi+16\\pi$ adds the areas instead of subtracting."
+   "A": "A 1-meter path has area $9\\pi$.",
+   "C": "A 3-meter path has area $33\\pi$.",
+   "D": "A 4-meter path has area $48\\pi$.",
+   "E": "6 is the outer radius, not the width of the path."
   },
   "estSeconds": 60,
   "skills": [
@@ -21,10 +21,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -33,29 +30,29 @@
    "choices": [
     {
      "id": "A",
-     "text": "$4\\pi$"
+     "text": "1"
     },
     {
      "id": "B",
-     "text": "$16\\pi$"
+     "text": "2"
     },
     {
      "id": "C",
-     "text": "$20\\pi$"
+     "text": "3"
     },
     {
      "id": "D",
-     "text": "$36\\pi$"
+     "text": "4"
     },
     {
      "id": "E",
-     "text": "$52\\pi$"
+     "text": "6"
     }
    ]
   },
   "answer": {
    "choices": [
-    "C"
+    "B"
    ]
   }
  },

@@ -102,13 +102,13 @@
   "id": "q4-15-overlapping-sets-03",
   "lessonId": "q4-15-overlapping-sets",
   "difficulty": 2,
-  "stem": "In a survey of the households in a town, 68 percent have a garden, 45 percent have a pet, and 17 percent have neither a garden nor a pet. What percent of the households have exactly one of the two?",
-  "explanation": "Use total $100\\%$. At least one $= 100 - 17 = 83\\%$, so both $= 68 + 45 - 83 = 30\\%$. Exactly one $=$ at least one $-$ both $= 83 - 30 = 53\\%$.",
+  "stem": "In a survey of the households in a town, 68 percent have a garden, exactly 53 percent have exactly one of a garden and a pet, and 17 percent have neither. What percent of the households have a pet?",
+  "explanation": "At least one $=100-17=83\\%$, so both $=83-53=30\\%$. Garden only $=68-30=38\\%$, pet only $=53-38=15\\%$, and pet in all $=15+30=45\\%$.",
   "choiceExplanations": {
-   "A": "$15\\%$ have a pet only; the $38\\%$ with a garden only also have exactly one.",
-   "B": "$30\\%$ have both, not exactly one.",
-   "C": "$38\\%$ have a garden only; the $15\\%$ with a pet only also count.",
-   "E": "$83\\%$ have at least one, which includes the $30\\%$ who have both."
+   "A": "15% have a pet only; the 30% with both also have a pet.",
+   "B": "30% have both a garden and a pet.",
+   "C": "38% have a garden only.",
+   "E": "53% have exactly one of the two."
   },
   "estSeconds": 75,
   "skills": [
@@ -121,10 +121,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -145,11 +142,11 @@
     },
     {
      "id": "D",
-     "text": "$53\\%$"
+     "text": "$45\\%$"
     },
     {
      "id": "E",
-     "text": "$83\\%$"
+     "text": "$53\\%$"
     }
    ]
   },
@@ -237,13 +234,13 @@
   "id": "q4-15-overlapping-sets-06",
   "lessonId": "q4-15-overlapping-sets",
   "difficulty": 3,
-  "stem": "Each of the 80 members of an outdoor club was asked whether he or she hikes and whether he or she cycles. Of the members, 45 hike and 50 cycle. The number of members who do both is twice the number who do neither. How many members do both?",
-  "explanation": "Let neither $= x$, so both $= 2x$. Hike only $= 45 - 2x$, cycle only $= 50 - 2x$. The four cells add up to 80: $(45 - 2x) + (50 - 2x) + 2x + x = 80$, so $95 - x = 80$ and $x = 15$. Both $= 30$.",
+  "stem": "Each of the 80 members of an outdoor club was asked whether he or she hikes and whether he or she cycles. Of the members, 45 hike and 50 cycle. The number of members who only cycle is twice the number who only hike. How many members do neither?",
+  "explanation": "Let hike only $=h$ and cycle only $=2h$. Both $=45-h=50-2h$, so $h=5$ and both $=40$. The cells hold $5+10+40=55$ members, so neither $=80-55=25$.",
   "choiceExplanations": {
-   "A": "15 is the number who do neither (and also $95 - 80$, the overlap you get if you forget the members who do neither).",
-   "B": "20 is the number who cycle only.",
-   "C": "If both were 25, neither would be 12.5, which is not a whole number of members.",
-   "E": "$50 - 15 = 35$ subtracts the neither count from the cyclists; it is not a cell of the grid."
+   "A": "5 is the number who only hike.",
+   "B": "15 is not a cell of the grid.",
+   "D": "35 is not a cell of the grid.",
+   "E": "40 is the number who do both."
   },
   "estSeconds": 90,
   "skills": [
@@ -255,10 +252,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -267,11 +261,11 @@
    "choices": [
     {
      "id": "A",
-     "text": "$15$"
+     "text": "$5$"
     },
     {
      "id": "B",
-     "text": "$20$"
+     "text": "$15$"
     },
     {
      "id": "C",
@@ -279,17 +273,17 @@
     },
     {
      "id": "D",
-     "text": "$30$"
+     "text": "$35$"
     },
     {
      "id": "E",
-     "text": "$35$"
+     "text": "$40$"
     }
    ]
   },
   "answer": {
    "choices": [
-    "D"
+    "C"
    ]
   }
  },

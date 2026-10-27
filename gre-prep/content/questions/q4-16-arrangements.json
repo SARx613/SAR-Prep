@@ -271,8 +271,8 @@
   "id": "q4-16-arrangements-07",
   "lessonId": "q4-16-arrangements",
   "difficulty": 3,
-  "stem": "Six people, including Rita and Sam, are to stand in a line for a photograph. If Rita and Sam may not stand next to each other, how many different orders are possible?",
-  "explanation": "All orders: $6! = 720$. Together: treat Rita and Sam as one block, so 5 units in $5! = 120$ orders, times 2 orders inside the block, $= 240$. Apart: $720 - 240 = 480$.",
+  "stem": "Seven people, including Rita and Sam, are to stand in a line for a photograph. If Rita and Sam may not stand next to each other, how many different orders are possible?",
+  "explanation": "All orders: $7! = 5040$. Together: treat Rita and Sam as one block, so 6 units in $6! = 720$ orders, times 2 orders inside the block, $=1440$. Apart: $5040-1440=3600$.",
   "estSeconds": 90,
   "skills": [
    "permutations",
@@ -283,10 +283,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -294,7 +291,7 @@
    "format": "integer"
   },
   "answer": {
-   "value": 480
+   "value": 3600
   }
  },
  {

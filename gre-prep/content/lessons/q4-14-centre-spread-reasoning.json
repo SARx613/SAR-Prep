@@ -2,17 +2,18 @@
  "id": "q4-14-centre-spread-reasoning",
  "status": "draft",
  "why": "Harder GRE statistics questions rarely ask you to compute a mean or SD from scratch; they ask what must be true when terms are unknown, groups are combined or data are changed.",
- "rule": "- **Mean with variable terms**: add the terms and set the sum equal to mean $\\times$ count.\n- **Extreme value of one member**: fix the sum. For the *greatest* possible value, make every other value as small as the conditions allow (positive, different, given median), then subtract. For the *least possible greatest* value, make the values as close together as allowed.\n- **Median with an unknown**: find where the unknown can sit in the ordered list; the given median then forces an inequality. Test both ends.\n- **Evenly spaced or symmetric list**: mean $=$ median $= \\frac{\\text{first} + \\text{last}}{2}$.\n- **Combining groups**: the combined mean lies between the group means, closer to the larger group's. Turn percents or rates into counts before combining. If means $a$ and $b$ combine to $m$, then $n_a : n_b = (b - m) : (m - a)$.\n- **SD**: multiplying every value by $k$ multiplies the SD by $|k|$. A new value at the mean, or within 1 SD of it, lowers the SD; one far away (2 SDs or more) raises it.\n- **Percentile**: the $p$th percentile has about $p\\%$ of the data at or below it. It is a position, not a score.\n- **Normal**: about 68% (two-thirds) lies within 1 SD and 95% within 2 SDs, so about 16% lies beyond 1 SD and 2.5% beyond 2 SDs on each side.",
+ "rule": "- **Mean with variable terms**: add the terms and set the sum equal to mean $\\times$ count.\n- **Extreme value of one member**: fix the sum. For the *greatest* possible value, make every other value as small as the conditions allow (positive, different, given median), then subtract. For the *least possible greatest* value, make the values as close together as allowed.\n- **Median with an unknown**: find where the unknown can sit in the ordered list; the given median then forces an inequality. Test both ends.\n- **Evenly spaced or symmetric list**: mean $=$ median $= \\frac{\\text{first} + \\text{last}}{2}$.\n- **Combining groups**: the combined mean lies between the group means, closer to the larger group's. Turn percents or rates into counts before combining. If means $a$ and $b$ combine to $m$, then $n_a : n_b = (b - m) : (m - a)$.\n- **SD**: multiplying every value by $k$ multiplies the SD by $|k|$. A new value at the mean, or within 1 SD of it, lowers the SD; one far away (2 SDs or more) raises it.\n- **Percentile**: the $p$th percentile has about $p\\%$ of the data at or below it. It is a position, not a score.\n- **Normal**: a bell curve symmetric about its mean, half the data on each side. About 68% (two-thirds) lies within 1 SD and about 95% (almost all) within 2 SDs, so about 34% lies between the mean and 1 SD on each side, 16% beyond 1 SD and 2.5% beyond 2 SDs.",
  "lengthJustification": "The lesson gathers eight separate reasoning patterns, each tested directly in the practice set.",
  "examples": [
   {
-   "prompt": "Five different positive integers have a mean of 11 and a median of 9. What is the greatest possible value of the largest?",
+   "prompt": "Five different positive integers have a mean of 11 and a median of 9. What is the least possible value of the largest?",
    "steps": [
-    "Sum $= 5 \\times 11 = 55$.",
-    "Make the others as small as allowed: the two below the median are 1 and 2; the one above it must exceed 9, so 10.",
-    "Largest $= 55 - (1 + 2 + 9 + 10) = 33$."
+    "Sum $= 5\\times11 = 55$.",
+    "To make the largest small, make the others large: the two below the median are at most 8 and 7, and $7+8+9 = 24$.",
+    "The two largest are different integers above 9 with sum $55-24 = 31$; closest together they are 15 and 16.",
+    "Largest $= 16$."
    ],
-   "answer": "33"
+   "answer": "16"
   },
   {
    "prompt": "A shop sells tea at \\$12 per kilogram and coffee at \\$20 per kilogram. A blend of the two costs \\$15 per kilogram. In what ratio are tea and coffee mixed?",
