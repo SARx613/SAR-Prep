@@ -3,7 +3,6 @@ import { getChapters, content } from '@/content';
 import { StatsPanel } from '@/components/stats/StatsPanel';
 
 export const metadata: Metadata = { title: 'Stats' };
-export const dynamic = 'force-dynamic';
 
 export default function StatsPage() {
   const chapters = getChapters();

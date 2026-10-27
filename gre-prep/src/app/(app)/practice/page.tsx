@@ -4,7 +4,6 @@ import { questionIndex } from '@/content/qindex';
 import { QBank } from '@/components/practice/QBank';
 
 export const metadata: Metadata = { title: 'Practice' };
-export const dynamic = 'force-dynamic';
 
 export default function PracticePage() {
   const chapters = getChapters().map((c) => ({ id: c.id, title: c.title, track: c.track }));

@@ -5,7 +5,6 @@ import { getChapters } from '@/content';
 import { ChapterProgress } from '@/components/learn/Progress';
 
 export const metadata: Metadata = { title: 'Learn' };
-export const dynamic = 'force-dynamic';
 
 const TRACKS = [
   ['quant', 'Quantitative Reasoning', 'Follows the ETS Math Review.'],

@@ -2,13 +2,17 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { AlertTriangle, ArrowLeft, ArrowRight, BookOpen, Clock, ExternalLink, Lightbulb } from 'lucide-react';
-import { getChapter, getLesson, getSource, getTopics, neighbours } from '@/content';
+import { getChapter, getChapters, getLesson, getSource, getTopics, neighbours } from '@/content';
 import { RichText } from '@/components/RichText';
 import { LessonChecks } from '@/components/learn/LessonChecks';
 import { LessonProgress } from '@/components/learn/Progress';
 import { TopicChecklist } from '@/components/learn/TopicChecklist';
+import { OfflineWarm } from '@/components/OfflineWarm';
 
-export const dynamic = 'force-dynamic';
+
+export function generateStaticParams() {
+  return getChapters().flatMap((ch) => ch.lessons.filter((l) => l.available).map((l) => ({ chapter: ch.id, lesson: l.meta.id })));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ lesson: string }> }): Promise<Metadata> {
   const l = getLesson((await params).lesson);
@@ -25,6 +29,7 @@ export default async function LessonPage({ params }: { params: Promise<{ chapter
   const src = getSource(meta.officialRef.source);
   const { prev, next } = neighbours(meta.id);
   const topics = getTopics(meta.id);
+  const warm = [`/exam/${meta.id}`, `/learn/${meta.chapter}`, ...[prev, next].flatMap((n) => (n ? [`/learn/${n.meta.chapter}/${n.meta.id}`] : []))];
 
   return (
     <article className="mx-auto max-w-3xl px-4 pb-12 sm:px-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
@@ -95,6 +100,8 @@ export default async function LessonPage({ params }: { params: Promise<{ chapter
           <p className="mt-1 text-sm text-muted">The practice set for this lesson is not available yet.</p>
         )}
       </section>
+
+      <OfflineWarm urls={warm} />
 
       <nav aria-label="Lesson navigation" className="mt-8 grid grid-cols-2 gap-3">
         {prev ? (

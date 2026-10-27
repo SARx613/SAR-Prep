@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { CloudDownload } from 'lucide-react';
+import { fontUrls, savePage } from '@/lib/offline';
 
 /* Fetches every lesson and practice page once so the service worker has them. */
 export function OfflineButton() {
@@ -11,11 +12,12 @@ export function OfflineButton() {
   const run = async () => {
     setError('');
     try {
-      const { urls } = (await (await fetch('/api/offline-manifest')).json()) as { urls: string[] };
+      const { urls: pages } = (await (await fetch('/api/offline-manifest')).json()) as { urls: string[] };
+      const urls = [...pages, ...fontUrls()];
       setState({ done: 0, total: urls.length });
       let done = 0;
       for (let i = 0; i < urls.length; i += 4) {
-        await Promise.all(urls.slice(i, i + 4).map((u) => fetch(u).catch(() => null)));
+        await Promise.all(urls.slice(i, i + 4).map((u) => savePage(u)));
         done = Math.min(urls.length, i + 4);
         setState({ done, total: urls.length });
       }

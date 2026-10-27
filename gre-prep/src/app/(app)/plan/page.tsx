@@ -3,7 +3,6 @@ import { content, getChapters } from '@/content';
 import { PlanPanel, type PlanSource } from '@/components/mock/PlanPanel';
 
 export const metadata: Metadata = { title: 'Study plan' };
-export const dynamic = 'force-dynamic';
 
 export default function PlanPage() {
   const c = content();

@@ -2,7 +2,6 @@ import { getChapters, getSet } from '@/content';
 import { HomePanel, type HomeLesson } from '@/components/home/HomePanel';
 import wordsData from '../../../public/words.json';
 
-export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const lessons: HomeLesson[] = getChapters().flatMap((ch) =>

@@ -3,7 +3,6 @@ import { content } from '@/content';
 import { ReviewPanel } from '@/components/practice/ReviewPanel';
 
 export const metadata: Metadata = { title: 'Review' };
-export const dynamic = 'force-dynamic';
 
 export default function ReviewPage() {
   const titles = Object.fromEntries(content().syllabus.lessons.map((l) => [l.id, l.title]));

@@ -5,7 +5,6 @@ import { ArrowLeft, Clock, Lock } from 'lucide-react';
 import { getChapter, getChapters } from '@/content';
 import { LessonProgress } from '@/components/learn/Progress';
 
-export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: Promise<{ chapter: string }> }): Promise<Metadata> {
   const ch = getChapter((await params).chapter);
