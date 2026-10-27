@@ -1,5 +1,5 @@
 /**
- * SAR Prep service worker (v3).
+ * SAR Prep service worker (v4).
  *
  * Goals: pages open instantly on a slow line, and everything the learner has
  * opened (or saved with "Save for offline") keeps working with no connection.
@@ -17,7 +17,7 @@
  *  - Static assets (/_next/static, icons, fonts, words.json): cache first.
  */
 
-const VERSION = 'sar-prep-v3';
+const VERSION = 'sar-prep-v4';
 const PRECACHE = [
   '/',
   '/offline',

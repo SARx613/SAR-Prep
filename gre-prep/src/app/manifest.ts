@@ -5,13 +5,13 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'SAR Prep — GRE',
     short_name: 'SAR Prep',
     description:
-      'Master GRE vocabulary with adaptive flashcards and games. Your progress syncs across devices.',
+      'Free GRE preparation: official-syllabus lessons and practice questions in the real test formats. Works offline.',
     start_url: '/',
     scope: '/',
     display: 'standalone',
     orientation: 'portrait',
-    background_color: '#080b14',
-    theme_color: '#080b14',
+    background_color: '#0b0f1a',
+    theme_color: '#0b0f1a',
     categories: ['education', 'productivity'],
     icons: [
       {

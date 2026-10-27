@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { CloudSync } from '@/components/CloudSync';
+import { Logo } from '@/components/Logo';
 import { MORE_TAB, NAV, isActive } from './nav';
 
 /* Sidebar from 1024px, bottom tab bar below. The content column owns the
@@ -20,9 +21,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         className="hidden lg:flex lg:flex-col lg:w-60 lg:shrink-0 lg:sticky lg:top-0 lg:h-screen border-r border-line bg-surface/60 px-3 py-5"
         aria-label="Primary"
       >
-        <Link href="/" className="flex items-center gap-2 px-3 pb-6">
-          <span className="grid place-items-center w-9 h-9 rounded-xl bg-accent text-accent-fg font-black">S</span>
-          <span className="font-extrabold tracking-tight text-lg">SAR Prep</span>
+        <Link href="/" className="flex items-center px-3 pb-6" aria-label="SAR Prep home">
+          <Logo size={38} />
         </Link>
         <nav className="flex flex-col gap-1">
           {NAV.map(({ href, label, icon: Icon }) => {
