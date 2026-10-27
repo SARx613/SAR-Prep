@@ -10,6 +10,7 @@ What exists, how it is checked, and what is still open. Updated with the code.
 | Practice: 2 371 original questions in the real GRE formats; 476 checklist topics (`content/topics.json`) each have at least one published question, enforced by `content:check --topics` (TC 1/2/3 blanks, SE, RC ×3, QC, PS ×2, NE integer/decimal/fraction, DI) | done |
 | Exam player: tutor and timed modes, Mark / Review / Back / Next, hideable timer, on-screen calculator (order of operations, 8 digits, ERROR rules, MR/MC/M+, Transfer Display), select-in-passage, keyboard shortcuts | done |
 | Qbank with filters (section, type, chapter, difficulty, unseen / missed / due) | done |
+| Progress: every checked answer is saved on the spot (tutor mode); a practice set reopens at the first unanswered question, earlier ones shown as done; the screen survives closing the app; signed-in users sync a few seconds after each answer | done |
 | Review: spaced repetition of missed questions (1 and 3 days, two spaced successes) + error log with reasons | done |
 | Stats: accuracy by chapter / type / difficulty, pace, weakest lessons, miss reasons | done |
 | Mock tests ×6 + diagnostic: Verbal 12+15, Quant 12+15, section 2 adapts to section 1, estimated 130–170 score (clearly labelled as an estimate) | done |

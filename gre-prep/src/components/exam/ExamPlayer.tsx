@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, Clock, Eye, EyeOff, LayoutGrid, X } from 'lucide-react';
 import { grade as gradeQuestion, type Grade } from '@/lib/grading';
-import { recordAttempts, type Attempt } from '@/lib/attempts';
+import { answeredBefore, readAttempts, recordAttempts, type Attempt } from '@/lib/attempts';
+import { SESSION_TTL, clearSession, loadSession, pruneSessions, saveSession } from '@/lib/session';
 import type { ClientQuestion } from '@/content/types';
 import { Calculator } from './Calculator';
 import { Feedback } from './Feedback';
@@ -43,8 +44,10 @@ interface Props {
   onRetryMissed?: (ids: string[]) => void;
   onComplete?: (results: PlayerResult[]) => void;
   attemptMode?: Attempt['mode'];
-  /** sessionStorage key to survive a reload. */
+  /** Key under which the session is kept on this device (survives closing the app). */
   storageKey?: string;
+  /** Practice sets: open at the first question not answered before and show the earlier ones as done. */
+  skipAnswered?: boolean;
   /** If it returns a URL the player navigates there instead of showing results (mock section 1 → 2). */
   afterFinish?: (results: PlayerResult[]) => string | null;
 }
@@ -56,7 +59,7 @@ const fmtClock = (s: number) => {
 
 interface Saved { idx: number; sels: Record<string, Selection>; marked: string[]; elapsed: number; graded: Record<string, { grade: Grade; ms: number }> }
 
-export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish }: Props) {
+export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered }: Props) {
   const router = useRouter();
   const [idx, setIdx] = useState(0);
   const [sels, setSels] = useState<Record<string, Selection>>({});
@@ -70,10 +73,15 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
   const [tab, setTab] = useState<'stim' | 'q'>('q');
   const [confirmExit, setConfirmExit] = useState(false);
   const [results, setResults] = useState<PlayerResult[] | null>(null);
+  const [resumeNote, setResumeNote] = useState<string | null>(null);
 
   const spent = useRef<Record<string, number>>({});
   const enteredAt = useRef(0);
   const restored = useRef(false);
+  /** Set when the learner leaves on purpose, so the clock cannot write the session back. */
+  const leaving = useRef(false);
+  /** Questions already written to the attempt log, so finishing never counts one twice. */
+  const recorded = useRef<Set<string>>(new Set());
 
   const q = questions[idx];
   const sel = sels[q.id] ?? emptySelection(q);
@@ -106,27 +114,55 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
   useEffect(() => {
     if (!storageKey || restored.current) return;
     restored.current = true;
+    pruneSessions();
+    /* eslint-disable react-hooks/set-state-in-effect */
     try {
-      const raw = sessionStorage.getItem(storageKey);
-      if (!raw) return;
-      const s = JSON.parse(raw) as Saved;
-      /* eslint-disable react-hooks/set-state-in-effect */
-      setIdx(Math.min(s.idx, questions.length - 1));
-      setSels(s.sels);
-      setMarked(new Set(s.marked));
-      setElapsed(s.elapsed);
-      setGraded(s.graded);
-      /* eslint-enable react-hooks/set-state-in-effect */
+      const s = loadSession<Saved>(storageKey, SESSION_TTL[mode]);
+      if (s) {
+        setIdx(Math.min(s.idx, questions.length - 1));
+        setSels(s.sels);
+        setMarked(new Set(s.marked));
+        setElapsed(s.elapsed);
+        setGraded(s.graded);
+        // What was checked before the app closed is already in the attempt log.
+        if (mode === 'tutor') for (const id of Object.keys(s.graded)) recorded.current.add(id);
+        const n = Object.keys(s.graded).length;
+        if (n > 0 && mode === 'tutor') setResumeNote(`Picking up where you left off: ${n} of ${questions.length} answered.`);
+        return;
+      }
+      if (skipAnswered && mode === 'tutor') {
+        // No saved screen (cleared storage, or another device): rebuild it from the answers on record.
+        const before = answeredBefore(readAttempts(), questions.map((x) => x.id));
+        const firstNew = questions.findIndex((x) => !before.has(x.id));
+        if (before.size > 0 && firstNew > 0) {
+          const g: Record<string, { grade: Grade; ms: number }> = {};
+          for (const x of questions) {
+            const ok = before.get(x.id);
+            if (ok === undefined) continue;
+            const expected = gradeQuestion(x, toResponse(x, emptySelection(x))).expected;
+            g[x.id] = { grade: { isCorrect: ok, expected, incomplete: false }, ms: 0 };
+            recorded.current.add(x.id);
+          }
+          setGraded(g);
+          setIdx(firstNew);
+          setResumeNote(`Picking up at question ${firstNew + 1}: ${before.size} of ${questions.length} already answered.`);
+        }
+      }
     } catch { /* corrupt or blocked: start fresh */ }
-  }, [storageKey, questions.length]);
+    /* eslint-enable react-hooks/set-state-in-effect */
+  }, [storageKey, questions, mode, skipAnswered]);
 
   useEffect(() => {
-    if (!storageKey || !restored.current || done) return;
-    try {
-      const s: Saved = { idx, sels, marked: [...marked], elapsed, graded };
-      sessionStorage.setItem(storageKey, JSON.stringify(s));
-    } catch { /* ignore */ }
+    if (!storageKey || !restored.current || done || leaving.current) return;
+    saveSession<Saved>(storageKey, { idx, sels, marked: [...marked], elapsed, graded });
   }, [storageKey, idx, sels, marked, elapsed, graded, done]);
+
+  /** Write one answer to the attempt log; each question at most once per run. */
+  const record = useCallback((qq: ClientQuestion, g: Grade, ms: number) => {
+    if (g.incomplete || recorded.current.has(qq.id)) return;
+    recorded.current.add(qq.id);
+    recordAttempts([{ qid: qq.id, lessonId: qq.lessonId, type: qq.type, difficulty: qq.difficulty, correct: g.isCorrect, ms, ts: Date.now(), mode: attemptMode ?? mode }]);
+  }, [attemptMode, mode]);
 
   /* ── Actions ──────────────────────────────────────────────────────────── */
   const setSel = useCallback((next: Selection) => setSels((p) => ({ ...p, [questions[idx].id]: next })), [idx, questions]);
@@ -148,21 +184,15 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       const g = prior?.grade ?? gradeQuestion(qq, toResponse(qq, s));
       return { q: qq, sel: s, grade: g, ms: spent.current[qq.id] ?? prior?.ms ?? 0 };
     });
-    const answered = out.filter((r) => !r.grade.incomplete);
-    recordAttempts(
-      answered.map((r) => ({
-        qid: r.q.id, lessonId: r.q.lessonId, type: r.q.type, difficulty: r.q.difficulty,
-        correct: r.grade.isCorrect, ms: r.ms, ts: Date.now(), mode: attemptMode ?? mode,
-      })),
-    );
-    if (storageKey) try { sessionStorage.removeItem(storageKey); } catch { /* ignore */ }
+    for (const r of out) record(r.q, r.grade, r.ms);
+    if (storageKey) clearSession(storageKey);
     onComplete?.(out);
     const next = afterFinish?.(out) ?? null;
     if (next) { router.push(next); return; }
     setResults(out);
     setView('results');
     setReviewing(false);
-  }, [bank, questions, sels, graded, attemptMode, mode, storageKey, onComplete, afterFinish, router]);
+  }, [bank, questions, sels, graded, record, storageKey, onComplete, afterFinish, router]);
 
   // Time's up in timed mode ends the section, as on the real test.
   const remaining = mode === 'timed' && timeLimitSec ? timeLimitSec - elapsed : null;
@@ -175,6 +205,21 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
     const g = gradeQuestion(q, toResponse(q, sel));
     const ms = spent.current[q.id] ?? 0;
     setGraded((p) => ({ ...p, [q.id]: { grade: g, ms } }));
+    // Tutor mode: the answer is on record now, so leaving at any point keeps it.
+    if (mode === 'tutor') record(q, g, ms);
+  };
+
+  /** Leaving for good: tutor answers are already saved; a timed attempt is graded as far as it got. */
+  const leave = () => {
+    if (mode === 'timed') {
+      leaving.current = true;
+      bank();
+      for (const qq of questions) {
+        const s = sels[qq.id];
+        if (s && hasAnswer(qq, s)) record(qq, gradeQuestion(qq, toResponse(qq, s)), spent.current[qq.id] ?? 0);
+      }
+      if (storageKey) clearSession(storageKey);
+    }
   };
 
   const toggleMark = () =>
@@ -371,10 +416,10 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
         <div role="alertdialog" aria-label="Leave this set?" className="fixed inset-0 z-[60] grid place-items-center bg-black/50 p-4">
           <div className="w-full max-w-sm rounded-lg border border-line-strong bg-surface p-5">
             <p className="font-semibold">Leave this set?</p>
-            <p className="mt-1 text-sm text-muted">Your answers so far are not graded or saved.</p>
+            <p className="mt-1 text-sm text-muted">{mode === 'tutor' ? 'Every answer you checked is saved. You can pick up where you left off.' : 'The questions you answered so far will be graded and saved.'}</p>
             <div className="mt-4 flex justify-end gap-2">
               <button type="button" onClick={() => setConfirmExit(false)} className={btn}>Stay</button>
-              <Link href={backHref} onClick={() => { if (storageKey) try { sessionStorage.removeItem(storageKey); } catch { /* ignore */ } }} className="inline-flex h-10 items-center rounded-[var(--radius)] bg-bad px-4 text-sm font-semibold text-white">Leave</Link>
+              <Link href={backHref} onClick={leave} className="inline-flex h-10 items-center rounded-[var(--radius)] bg-bad px-4 text-sm font-semibold text-white">Leave</Link>
             </div>
           </div>
         </div>
@@ -386,6 +431,13 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
           {([['stim', stimulus === 'passage' ? 'Passage' : 'Figure'], ['q', 'Question']] as const).map(([k, label]) => (
             <button key={k} role="tab" aria-selected={tab === k} onClick={() => setTab(k)} className={`h-11 text-sm font-semibold ${tab === k ? 'border-b-2 border-accent text-accent-ink' : 'text-muted'}`}>{label}</button>
           ))}
+        </div>
+      )}
+
+      {resumeNote && !done && (
+        <div role="status" className="flex items-center justify-between gap-3 border-b border-line bg-accent-soft px-4 py-2 text-sm">
+          <span>{resumeNote}</span>
+          <button type="button" onClick={() => setResumeNote(null)} aria-label="Dismiss" className="grid h-7 w-7 shrink-0 place-items-center rounded-full hover:bg-surface-2"><X size={14} aria-hidden /></button>
         </div>
       )}
 

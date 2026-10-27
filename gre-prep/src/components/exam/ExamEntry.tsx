@@ -24,6 +24,7 @@ export function ExamEntry({
       timeLimitSec={timed ? limit : undefined}
       backHref={backHref}
       storageKey={`exam:${setId}:${timed ? 't' : 'u'}`}
+      skipAnswered={!timed && !chapterTest}
     />
   );
 }

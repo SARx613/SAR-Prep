@@ -2,12 +2,13 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { AlertTriangle, ArrowLeft, ArrowRight, BookOpen, Clock, ExternalLink, Lightbulb } from 'lucide-react';
-import { getChapter, getChapters, getLesson, getSource, getTopics, neighbours } from '@/content';
+import { getChapter, getChapters, getLesson, getSet, getSource, getTopics, neighbours } from '@/content';
 import { RichText } from '@/components/RichText';
 import { LessonChecks } from '@/components/learn/LessonChecks';
 import { LessonProgress } from '@/components/learn/Progress';
 import { TopicChecklist } from '@/components/learn/TopicChecklist';
 import { OfflineWarm } from '@/components/OfflineWarm';
+import { PracticeActions } from '@/components/learn/PracticeActions';
 
 
 export function generateStaticParams() {
@@ -91,10 +92,7 @@ export default async function LessonPage({ params }: { params: Promise<{ chapter
           <>
             <p className="mt-1 text-sm text-muted">{practiceCount} questions in the real GRE formats, easiest to hardest.</p>
             <div className="mt-3 max-w-sm"><LessonProgress lessonId={meta.id} total={practiceCount} /></div>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <Link href={`/exam/${meta.id}?mode=tutor`} className="inline-flex h-11 items-center rounded-[var(--radius)] bg-accent px-5 text-sm font-bold text-accent-fg">Practice with explanations</Link>
-              <Link href={`/exam/${meta.id}?mode=timed`} className="inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong px-5 text-sm font-semibold">Timed, like the test</Link>
-            </div>
+            <PracticeActions lessonId={meta.id} qids={getSet(meta.id).map((q) => q.id)} />
           </>
         ) : (
           <p className="mt-1 text-sm text-muted">The practice set for this lesson is not available yet.</p>

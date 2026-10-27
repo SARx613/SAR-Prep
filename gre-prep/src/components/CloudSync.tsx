@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { mergeProgress } from '@/app/actions/progress';
 import { pullAttempts, pullState, pushAttempts, pushState } from '@/app/actions/sync';
-import { ATTEMPTS_KEY, readAttempts } from '@/lib/attempts';
+import { ATTEMPTS_EVENT, ATTEMPTS_KEY, readAttempts } from '@/lib/attempts';
 import { MOCKS_KEY, parseMocks } from '@/lib/mock';
 import { EXAM_DATE_KEY, REASONS_KEY, WEEKLY_HOURS_KEY, parseNumber, parseReasons, parseString } from '@/lib/prefs';
 import { mergeAttempts, mergeState, type SyncState } from '@/lib/sync';
@@ -38,7 +38,13 @@ export function CloudSync() {
   useEffect(() => {
     if (status !== 'authenticated') return;
     let cancelled = false;
-    (async () => {
+    let running = false;
+    let again = false;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+
+    const sync = async () => {
+      if (running) { again = true; return; }
+      running = true;
       try {
         const merged = await mergeProgress(loadProgress());
         if (!cancelled) saveProgress(merged);
@@ -52,9 +58,27 @@ export function CloudSync() {
         if (!cancelled) writeState(state);
         await pushState(state);
         if (!cancelled) notify();
-      } catch { /* offline or server hiccup: local stays valid */ }
-    })();
-    return () => { cancelled = true; };
+      } catch { /* offline or server hiccup: local stays valid, the next answer or visit retries */ }
+      running = false;
+      if (again && !cancelled) { again = false; void sync(); }
+    };
+
+    void sync();
+    // New answers go to the account a few seconds after the last one, not only when the app opens.
+    const onAttempt = () => {
+      if (!navigator.onLine) return;
+      clearTimeout(timer);
+      timer = setTimeout(() => void sync(), 5000);
+    };
+    const onOnline = () => void sync();
+    window.addEventListener(ATTEMPTS_EVENT, onAttempt);
+    window.addEventListener('online', onOnline);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+      window.removeEventListener(ATTEMPTS_EVENT, onAttempt);
+      window.removeEventListener('online', onOnline);
+    };
   }, [status]);
   return null;
 }
