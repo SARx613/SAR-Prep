@@ -1,0 +1,209 @@
+{
+ "id": "q4-13-reading-tricky-displays",
+ "status": "draft",
+ "why": "Data Interpretation sets often use displays with two axes, cut-off scales, cumulative lines or grouped tables, and most wrong answers come from reading the right number off the wrong scale.",
+ "rule": "Before taking any value, read the title, axis labels, units and **legend**. The legend says which color, shading or symbol is which series; read only the series the question names.\n\n- **Two vertical axes**: read each series on its own axis. Where a line meets a column says nothing about equal values.\n- **Axis not starting at 0**: heights are not proportional to values. Read the values, then compare.\n- **No numeric scale**: heights are proportional to values, so one given value fixes the rest.\n- **Sorted columns with a cumulative-percent line**: the line at a column is the share of that column and all columns to its left; a column's own share is the rise of the line there.\n- **Grouped frequency table** (rows like 10–14): only the count per interval is known. You can count values above a boundary and find the interval holding the median, and bound the mean by using the low or high ends of the intervals, but not find exact values.\n- **Two-way table**: \"of the X, what fraction are Y\" divides by the X row or column total, not the grand total.\n- **Scatterplot**: points drifting up to the right show a positive association, down a negative one, no drift none. A trend describes the group, not every point, and does not prove cause. With several symbols, keep only the asked group's points.",
+ "lengthJustification": "Each bullet is a different display type that the practice set tests on its own.",
+ "examples": [
+  {
+   "prompt": "A graph shows monthly rainfall as columns on the left axis (0 to 100 millimeters) and average temperature as a line on the right axis (0 to 40 °C). In July the line point sits exactly at the top of the rainfall column, which reaches 25 mm. What was July's average temperature?",
+   "steps": [
+    "The line belongs to the right axis, so ignore the left-axis reading of 25.",
+    "The point is $\\frac{25}{100} = \\frac14$ of the way up the axis.",
+    "On the right axis, $\\frac14$ of 40 is 10."
+   ],
+   "answer": "10 °C, not 25 °C"
+  },
+  {
+   "prompt": "A sorted column chart of 250 product returns has a cumulative-percent line reading 44%, 70%, 86%, 95% and 100%. How many returns were for the third most common reason, and what percent came from the top two reasons?",
+   "steps": [
+    "Third reason's own share = rise of the line at its column: $86\\% - 70\\% = 16\\%$.",
+    "Count: $0.16 \\times 250 = 40$.",
+    "Top two together: the line at the second column, $70\\%$."
+   ],
+   "answer": "40 returns; 70%"
+  }
+ ],
+ "trap": "Reading a series against the wrong axis, and trusting heights on an axis that starts above 0 (a bar 5 times as tall can stand for a value only 13% larger). In two-way tables, dividing by the grand total when the question says \"of the X\".",
+ "checks": [
+  {
+   "id": "q4-13-reading-tricky-displays-c1",
+   "lessonId": "q4-13-reading-tricky-displays",
+   "difficulty": 1,
+   "stem": "How many of the applicants scored at least 80?",
+   "explanation": "\"At least 80\" starts at the row 80–89: $15 + 8 = 23$.",
+   "estSeconds": 45,
+   "skills": [
+    "grouped-data"
+   ],
+   "topics": [
+    "q4.grouped-frequency-tables"
+   ],
+   "figure": {
+    "kind": "table",
+    "title": "Scores of 50 applicants on a skills test",
+    "data": {
+     "columns": [
+      "Score",
+      "Number of applicants"
+     ],
+     "rows": [
+      [
+       "60–69",
+       8
+      ],
+      [
+       "70–79",
+       19
+      ],
+      [
+       "80–89",
+       15
+      ],
+      [
+       "90–99",
+       8
+      ],
+      [
+       "Total",
+       50
+      ]
+     ]
+    },
+    "notes": "All scores are whole numbers."
+   },
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "integer"
+    }
+   },
+   "answer": {
+    "value": 23
+   }
+  },
+  {
+   "id": "q4-13-reading-tricky-displays-c2",
+   "lessonId": "q4-13-reading-tricky-displays",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Read values, not heights: $\\frac{260}{220} \\approx 1.18$, which is less than 2. The bar for Q only looks 3 times as tall because the axis starts at 200.",
+   "estSeconds": 60,
+   "skills": [
+    "axis-scales"
+   ],
+   "topics": [
+    "q4.truncated-axis"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The value shown by bar Q divided by the value shown by bar P",
+    "quantityB": "2",
+    "common": "In a column chart whose vertical axis starts at 200, bar P reaches 220 and bar Q reaches 260."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "q4-13-reading-tricky-displays-c3",
+   "lessonId": "q4-13-reading-tricky-displays",
+   "difficulty": 2,
+   "stem": "Of the junior members, what fraction play tennis?",
+   "explanation": "\"Of the junior members\" means divide by the Junior total, 80: $\\frac{45}{80} = \\frac{9}{16}$.",
+   "choiceExplanations": {
+    "A": "$\\frac{45}{200}$ divides by the grand total.",
+    "B": "$\\frac{45}{120}$ is the fraction of tennis players who are juniors: the reverse question.",
+    "C": "$\\frac{35}{80}$ is the fraction of juniors who swim.",
+    "E": "$\\frac{75}{120} = \\frac{5}{8}$ is the fraction of adult members who play tennis: wrong group."
+   },
+   "estSeconds": 50,
+   "skills": [
+    "conditional-fractions"
+   ],
+   "topics": [
+    "q4.two-way-tables"
+   ],
+   "figure": {
+    "kind": "table",
+    "title": "Members of a sports club, by membership type",
+    "data": {
+     "columns": [
+      "",
+      "Adult",
+      "Junior",
+      "Total"
+     ],
+     "rows": [
+      [
+       "Swimming",
+       45,
+       35,
+       80
+      ],
+      [
+       "Tennis",
+       75,
+       45,
+       120
+      ],
+      [
+       "Total",
+       120,
+       80,
+       200
+      ]
+     ]
+    },
+    "notes": "Each member plays exactly one sport."
+   },
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{9}{40}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{3}{8}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{7}{16}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{9}{16}$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{5}{8}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "q4-17-selections",
+ "status": "draft",
+ "why": "GRE counting and probability questions often attach a condition to a selection (someone must serve, someone refuses, couples cannot both join) or give the number of groups and ask for the size.",
+ "rule": "Choosing $k$ of $n$ items without order: $\\binom{n}{k}$ ways. A condition changes the pool, not the method.\n\n- **Must include** $r$ given items: put them in, then choose the other $k-r$ members from the other $n-r$ items: $\\binom{n-r}{k-r}$.\n- **Must leave out** $r$ given items: remove them and choose all $k$ from the rest: $\\binom{n-r}{k}$.\n- **Both** ($r$ required, $s$ forbidden): $\\binom{n-r-s}{k-r}$.\n- **Groups, then members**: multiply the stages. Choose 2 of 4 pairs, then one person from each chosen pair: $\\binom{4}{2}\\cdot 2^2 = 24$.\n- **Unknown size**: if each pair of $n$ items gives one game (or handshake) and there are $N$ in all, then $\\frac{n(n-1)}{2} = N$. Find consecutive integers with product $2N$.\n\n**Probability by counting**: for a group chosen at random, $P = \\frac{\\text{favourable groups}}{\\text{all groups}}$, counted as above. So:\n\n- a given item is chosen with probability $\\frac{\\binom{n-1}{k-1}}{\\binom{n}{k}} = \\frac{k}{n}$, and left out with probability $\\frac{n-k}{n}$;\n- $r$ given items in and $s$ others out: $\\frac{\\binom{n-r-s}{k-r}}{\\binom{n}{k}}$.",
+ "examples": [
+  {
+   "prompt": "A coach picks a team of 5 from 11 players, including Kim and Lee. (a) How many teams include Kim but not Lee? (b) If the team is picked at random, what is the probability that Kim is on it and Lee is not?",
+   "steps": [
+    "Kim is in, so 4 places remain. Lee is out, so the pool is the $11 - 1 - 1 = 9$ other players.",
+    "(a) $\\binom{9}{4} = \\frac{9\\cdot8\\cdot7\\cdot6}{4\\cdot3\\cdot2\\cdot1} = 126$.",
+    "(b) All teams: $\\binom{11}{5} = 462$. $P = \\frac{126}{462} = \\frac{3}{11}$.",
+    "Check: $P(\\text{Kim in}) = \\frac{5}{11}$; then Lee must miss the 6 places left out of the other 10: $\\frac{5}{11}\\cdot\\frac{6}{10} = \\frac{3}{11}$."
+   ],
+   "answer": "(a) 126, (b) $\\frac{3}{11}$"
+  },
+  {
+   "prompt": "Every two of a region's towns are joined by exactly one direct road, and there are 36 such roads. How many towns are there?",
+   "steps": [
+    "Each road joins one pair of towns: $\\frac{n(n-1)}{2} = 36$, so $n(n-1) = 72$.",
+    "Two consecutive integers with product 72: $9\\cdot 8$. So $n = 9$."
+   ],
+   "answer": "9 towns"
+  }
+ ],
+ "trap": "After putting the $r$ required items in, choose only $k-r$ more, and only from the $n-r$ items left (minus any forbidden ones): $\\binom{n-r}{k}$ and $\\binom{n}{k-r}$ are the usual slips. A team or committee is unordered, so a product like $n(n-1)(n-2)$ must still be divided by $k!$.",
+ "checks": [
+  {
+   "id": "q4-17-selections-c1",
+   "lessonId": "q4-17-selections",
+   "difficulty": 2,
+   "stem": "A panel of 3 judges is to be chosen from 8 judges, and Judge Rossi must be on the panel. How many different panels are possible?",
+   "explanation": "Rossi takes one seat. The other 2 seats are filled from the other 7 judges: $\\binom{7}{2} = \\frac{7\\cdot6}{2} = 21$.",
+   "estSeconds": 45,
+   "skills": [
+    "combinations"
+   ],
+   "topics": [
+    "q4.must-include"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 21
+   }
+  },
+  {
+   "id": "q4-17-selections-c2",
+   "lessonId": "q4-17-selections",
+   "difficulty": 2,
+   "stem": "A teacher picks 4 of the 20 students in a class at random to present their projects today. What is the probability that Omar, one of the students, is picked?",
+   "explanation": "Each student is equally likely to fill the 4 places: $P = \\frac{k}{n} = \\frac{4}{20} = \\frac15$. (By counting: $\\frac{\\binom{19}{3}}{\\binom{20}{4}} = \\frac{969}{4845} = \\frac15$.)",
+   "choiceExplanations": {
+    "A": "That is the chance if only one student were picked.",
+    "C": "Omar must stay in the denominator: there are 20 students, not 19.",
+    "D": "This treats Omar as certain to be picked and asks which of the 4 places he takes.",
+    "E": "This is the probability that Omar is *not* picked."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "combinations",
+    "probability"
+   ],
+   "topics": [
+    "q4.prob-include-or-exclude"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{1}{20}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{1}{5}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{4}{19}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{1}{4}$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{4}{5}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q4-17-selections-c3",
+   "lessonId": "q4-17-selections",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\frac{n(n-1)}{2} = 28$ gives $n(n-1) = 56 = 8\\cdot7$, so $n = 8$, which is greater than 7. (Taking the smaller factor, 7, is the trap.)",
+   "estSeconds": 60,
+   "skills": [
+    "combinations"
+   ],
+   "topics": [
+    "q4.unknown-size-combinations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "common": "At a meeting, each person shook hands exactly once with each of the other people, for 28 handshakes in all.",
+    "quantityA": "The number of people at the meeting",
+    "quantityB": "7"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

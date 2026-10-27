@@ -1,0 +1,515 @@
+[
+ {
+  "id": "q4-17-selections-01",
+  "lessonId": "q4-17-selections",
+  "difficulty": 1,
+  "stem": "Maya will choose 4 of the 10 novels on her shelf to take on a trip. Two of the novels are too heavy, so she will not take either of them. How many different selections of 4 novels are possible?",
+  "explanation": "Remove the 2 heavy novels; choose all 4 from the other 8: $\\binom{8}{4} = \\frac{8\\cdot7\\cdot6\\cdot5}{4\\cdot3\\cdot2\\cdot1} = 70$.",
+  "estSeconds": 50,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.must-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 70
+  }
+ },
+ {
+  "id": "q4-17-selections-02",
+  "lessonId": "q4-17-selections",
+  "difficulty": 1,
+  "stem": "A delegation of 3 people is to be chosen from the 12 members of a club, and the club president must be in the delegation. How many different delegations are possible?",
+  "explanation": "The president takes one place; the other 2 places are filled from the other 11 members: $\\binom{11}{2} = \\frac{11\\cdot10}{2} = 55$.",
+  "choiceExplanations": {
+   "B": "$11\\cdot10$ counts ordered choices; a delegation has no order, so divide by 2.",
+   "C": "$\\binom{11}{3}$ still chooses 3 people after the president is already in.",
+   "D": "$\\binom{12}{3}$ ignores the condition.",
+   "E": "$12\\cdot11\\cdot10$ ignores the condition and treats the delegation as ordered."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.must-include"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "55"
+    },
+    {
+     "id": "B",
+     "text": "110"
+    },
+    {
+     "id": "C",
+     "text": "165"
+    },
+    {
+     "id": "D",
+     "text": "220"
+    },
+    {
+     "id": "E",
+     "text": "1,320"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-03",
+  "lessonId": "q4-17-selections",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "With Pat: Pat is in, choose 3 of the other 8: $\\binom{8}{3} = 56$. Without Pat: choose all 4 from the other 8: $\\binom{8}{4} = 70$. Quantity B is greater. (Check: $56 + 70 = 126 = \\binom{9}{4}$.)",
+  "estSeconds": 75,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.must-include",
+   "q4.must-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "A 4-person committee is to be chosen from a group of 9 people that includes Pat.",
+   "quantityA": "The number of possible committees that include Pat",
+   "quantityB": "The number of possible committees that do not include Pat"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q4-17-selections-04",
+  "lessonId": "q4-17-selections",
+  "difficulty": 2,
+  "stem": "A group of 3 people is chosen at random from 6 teachers and 4 parents. What is the probability that all 3 people chosen are teachers?",
+  "explanation": "Favourable groups: $\\binom{6}{3} = 20$. All groups: $\\binom{10}{3} = 120$. $P = \\frac{20}{120} = \\frac16$. (Same as $\\frac{6}{10}\\cdot\\frac{5}{9}\\cdot\\frac{4}{8}$.)",
+  "choiceExplanations": {
+   "A": "This divides the 20 unordered groups by the $10\\cdot9\\cdot8 = 720$ ordered choices; count both the same way.",
+   "B": "$\\frac{6}{10}\\cdot\\frac{5}{10}\\cdot\\frac{4}{10}$ lowers the teachers but not the total; after each pick the total drops too.",
+   "D": "$\\left(\\frac35\\right)^3$ treats the choices as made with replacement.",
+   "E": "$\\frac{6}{10}$ is the chance that one chosen person is a teacher."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "combinations",
+   "probability"
+  ],
+  "topics": [
+   "q4.counting-based-probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{36}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{3}{25}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{6}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{27}{125}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{3}{5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-05",
+  "lessonId": "q4-17-selections",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Lena's response is left out with probability $\\frac{n-k}{n} = \\frac{15-6}{15} = \\frac{9}{15} = 0.6$, which is greater than $\\frac12$. (The chance it *is* selected is $\\frac{6}{15} = 0.4$.)",
+  "estSeconds": 60,
+  "skills": [
+   "probability"
+  ],
+  "topics": [
+   "q4.prob-include-or-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "An auditor selects 6 of 15 survey responses at random. One of the 15 responses is Lena's.",
+   "quantityA": "The probability that Lena's response is not selected",
+   "quantityB": "$\\frac{1}{2}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-17-selections-06",
+  "lessonId": "q4-17-selections",
+  "difficulty": 3,
+  "stem": "A 5-member committee is to be chosen from 13 people. Ortiz must be on the committee, and neither Park nor Quinn may be on it. How many different committees are possible?",
+  "explanation": "Put Ortiz in (4 places left) and remove Park and Quinn. The pool is $13 - 1 - 2 = 10$ people: $\\binom{10}{4} = 210$.",
+  "choiceExplanations": {
+   "B": "$\\binom{10}{5}$ still chooses 5 people although Ortiz already holds one place.",
+   "C": "$\\binom{11}{4}$ removes Park and Quinn but leaves Ortiz in the pool he was already taken from.",
+   "D": "$\\binom{12}{4}$ places Ortiz but forgets to remove Park and Quinn.",
+   "E": "$\\binom{13}{5}$ ignores both conditions."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.include-and-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "210"
+    },
+    {
+     "id": "B",
+     "text": "252"
+    },
+    {
+     "id": "C",
+     "text": "330"
+    },
+    {
+     "id": "D",
+     "text": "495"
+    },
+    {
+     "id": "E",
+     "text": "1,287"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-07",
+  "lessonId": "q4-17-selections",
+  "difficulty": 3,
+  "stem": "In a soccer league, each team played every other team exactly once. A total of 45 games were played. How many teams are in the league?",
+  "explanation": "Each game is one pair of teams: $\\frac{n(n-1)}{2} = 45$, so $n(n-1) = 90 = 10\\cdot9$ and $n = 10$.",
+  "estSeconds": 60,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.unknown-size-combinations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 10
+  }
+ },
+ {
+  "id": "q4-17-selections-08",
+  "lessonId": "q4-17-selections",
+  "difficulty": 3,
+  "stem": "A 3-person team is chosen at random from 10 employees, including Sofia and Raj. What is the probability that both Sofia and Raj are on the team?",
+  "explanation": "Put both in; the third member comes from the other 8: $\\binom{8}{1} = 8$ teams. All teams: $\\binom{10}{3} = 120$. $P = \\frac{8}{120} = \\frac{1}{15}$. (Also $\\frac{3}{10}\\cdot\\frac{2}{9}$.)",
+  "choiceExplanations": {
+   "A": "That is the chance of one particular team; 8 different teams contain both.",
+   "B": "$\\frac{1}{\\binom{10}{2}}$ is the chance that a randomly chosen *pair* is Sofia and Raj; the team has a third place.",
+   "D": "$\\left(\\frac{3}{10}\\right)^2$ treats the two memberships as independent, but once Sofia is in, only 2 of the 9 others join.",
+   "E": "That is the chance that Sofia alone is on the team."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "combinations",
+   "probability"
+  ],
+  "topics": [
+   "q4.prob-include-or-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{120}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{45}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{15}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{9}{100}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{3}{10}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-09",
+  "lessonId": "q4-17-selections",
+  "difficulty": 4,
+  "stem": "A company has 7 regional offices, each with 4 managers. An auditor will choose 3 of the offices and then, at each chosen office, will choose 2 of its managers to interview. How many different groups of 6 managers can the auditor end up interviewing?",
+  "explanation": "Choose the offices, then the managers at each: $\\binom{7}{3}\\cdot\\binom{4}{2}^3 = 35\\cdot6\\cdot6\\cdot6 = 7{,}560$.",
+  "choiceExplanations": {
+   "A": "$35\\cdot6$ chooses managers at only one office; each of the 3 offices needs its own $\\binom{4}{2}$.",
+   "B": "$35\\cdot(6+6+6)$ adds the manager choices; the three offices are filled together, so multiply.",
+   "C": "$35\\cdot4^3$ picks one manager per office instead of two.",
+   "E": "$7\\cdot6\\cdot5\\cdot216$ treats the 3 offices as ordered."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "combinations",
+   "multiplication-principle"
+  ],
+  "topics": [
+   "q4.layered-selections"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "210"
+    },
+    {
+     "id": "B",
+     "text": "630"
+    },
+    {
+     "id": "C",
+     "text": "2,240"
+    },
+    {
+     "id": "D",
+     "text": "7,560"
+    },
+    {
+     "id": "E",
+     "text": "45,360"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-10",
+  "lessonId": "q4-17-selections",
+  "difficulty": 4,
+  "stem": "A school will choose 5 of 12 applicants at random for a scholarship. Ana and Ben are two of the applicants. What is the probability that Ana is chosen and Ben is not?",
+  "explanation": "Ana in, Ben out: choose the other 4 winners from the remaining 10, $\\binom{10}{4} = 210$. All choices: $\\binom{12}{5} = 792$. $P = \\frac{210}{792} = \\frac{35}{132}$. (Also $\\frac{5}{12}\\cdot\\frac{7}{11}$.)",
+  "estSeconds": 110,
+  "skills": [
+   "combinations",
+   "probability"
+  ],
+  "topics": [
+   "q4.prob-include-and-exclude"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.26515151515151514,
+   "fraction": {
+    "numerator": 35,
+    "denominator": 132
+   }
+  }
+ },
+ {
+  "id": "q4-17-selections-11",
+  "lessonId": "q4-17-selections",
+  "difficulty": 5,
+  "stem": "Six married couples (12 people) are at a party. A team of 4 of these people is to be chosen so that no married couple is on the team together. Which of the following expressions are equal to the number of possible teams? Indicate all such expressions.",
+  "explanation": "The 4 people come from 4 different couples: choose the couples, $\\binom{6}{4} = 15$, then one spouse from each, $2^4 = 16$: 240 teams. Choice C gives the same number by choosing in order (12 people, then 10 not married to the first, then 8, then 6) and dividing by the $4!$ orders: $\\frac{5760}{24} = 240$.",
+  "choiceExplanations": {
+   "B": "$495 - 270 = 225$: a team containing two couples is subtracted twice, once for each couple.",
+   "D": "$15\\cdot2 = 30$ chooses a spouse only once; each of the 4 chosen couples has its own 2 options.",
+   "E": "5,760 counts ordered choices; each team is counted $4! = 24$ times."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "combinations",
+   "multiplication-principle"
+  ],
+  "topics": [
+   "q4.layered-selections"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\binom{6}{4}\\cdot 2^4$"
+    },
+    {
+     "id": "B",
+     "text": "$\\binom{12}{4} - 6\\binom{10}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{12\\cdot10\\cdot8\\cdot6}{4!}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\binom{6}{4}\\cdot 2$"
+    },
+    {
+     "id": "E",
+     "text": "$12\\cdot10\\cdot8\\cdot6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-17-selections-12",
+  "lessonId": "q4-17-selections",
+  "difficulty": 5,
+  "stem": "A committee of 4 people is chosen at random from 7 women and 5 men. Dana is one of the women. What is the probability that the committee includes Dana and at least one man?",
+  "explanation": "Dana in: the other 3 come from the remaining 11 people (6 women, 5 men), $\\binom{11}{3} = 165$ ways. Of these, $\\binom{6}{3} = 20$ have no man, so $165 - 20 = 145$ are favourable. All committees: $\\binom{12}{4} = 495$. $P = \\frac{145}{495} = \\frac{29}{99}$.",
+  "estSeconds": 140,
+  "skills": [
+   "combinations",
+   "probability",
+   "complement"
+  ],
+  "topics": [
+   "q4.prob-include-and-exclude",
+   "q4.counting-based-probability"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.29292929292929293,
+   "fraction": {
+    "numerator": 29,
+    "denominator": 99
+   }
+  }
+ }
+]

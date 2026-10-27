@@ -232,7 +232,7 @@
   "lessonId": "q1-20-powers-roots-size-sign",
   "difficulty": 3,
   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
-  "explanation": "An odd power keeps the sign: $x^3=-27$ gives only $x=-3$. An even power hides it: $y^2=9$ gives $y=3$ or $y=-3$. If $y=3$, B is greater; if $y=-3$, the quantities are equal. The relationship cannot be determined.",
+  "explanation": "An odd power keeps the sign: $x^3=-27$ gives only $x=-3$. An even power hides it: $y^2=9$ gives $y=3$ or $y=-3$. If $y=3$, B is greater; if $y=-3$, A equals B. Two different outcomes, so the answer is D.",
   "estSeconds": 60,
   "skills": [
    "roots",

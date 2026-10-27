@@ -1,0 +1,810 @@
+[
+ {
+  "id": "q4-13-reading-tricky-displays-01",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 1,
+  "stem": "How many of the callers waited at least 15 minutes?",
+  "explanation": "\"At least 15\" starts at the row 15–19: $10 + 8 + 5 = 23$ callers.",
+  "estSeconds": 50,
+  "skills": [
+   "tables",
+   "grouped-data"
+  ],
+  "topics": [
+   "q4.grouped-frequency-tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Waiting times of 60 callers to a help line",
+   "data": {
+    "columns": [
+     "Waiting time (minutes)",
+     "Number of callers"
+    ],
+    "rows": [
+     [
+      "0–4",
+      16
+     ],
+     [
+      "5–9",
+      12
+     ],
+     [
+      "10–14",
+      9
+     ],
+     [
+      "15–19",
+      10
+     ],
+     [
+      "20–24",
+      8
+     ],
+     [
+      "25–29",
+      5
+     ],
+     [
+      "Total",
+      60
+     ]
+    ]
+   },
+   "notes": "Each waiting time was recorded as a whole number of minutes."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 23
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-02",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 1,
+  "stem": "How many units did Store K sell in March?",
+  "explanation": "The legend says units sold are shown by the line, read on the right axis. In March the line point is at 2,000.",
+  "choiceExplanations": {
+   "A": "175 is March's revenue column read on the left axis (thousands of dollars), not units.",
+   "B": "1,000 is April's units.",
+   "D": "2,500 is February's units.",
+   "E": "3,500 is the right-axis value at the top of March's revenue column: the column belongs to the left axis."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "line-graphs",
+   "dual-axes"
+  ],
+  "topics": [
+   "q4.dual-axes",
+   "q0.di-titles-legends"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Monthly revenue and units sold at Store K",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"66\" y1=\"244\" x2=\"404\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"248\" text-anchor=\"end\">0</text><text x=\"410\" y=\"248\" text-anchor=\"start\">0</text><line x1=\"66\" y1=\"219\" x2=\"404\" y2=\"219\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"223\" text-anchor=\"end\">25</text><text x=\"410\" y=\"223\" text-anchor=\"start\">500</text><line x1=\"66\" y1=\"194\" x2=\"404\" y2=\"194\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"198\" text-anchor=\"end\">50</text><text x=\"410\" y=\"198\" text-anchor=\"start\">1,000</text><line x1=\"66\" y1=\"169\" x2=\"404\" y2=\"169\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"173\" text-anchor=\"end\">75</text><text x=\"410\" y=\"173\" text-anchor=\"start\">1,500</text><line x1=\"66\" y1=\"144\" x2=\"404\" y2=\"144\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"148\" text-anchor=\"end\">100</text><text x=\"410\" y=\"148\" text-anchor=\"start\">2,000</text><line x1=\"66\" y1=\"119\" x2=\"404\" y2=\"119\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"123\" text-anchor=\"end\">125</text><text x=\"410\" y=\"123\" text-anchor=\"start\">2,500</text><line x1=\"66\" y1=\"94\" x2=\"404\" y2=\"94\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"98\" text-anchor=\"end\">150</text><text x=\"410\" y=\"98\" text-anchor=\"start\">3,000</text><line x1=\"66\" y1=\"69\" x2=\"404\" y2=\"69\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"73\" text-anchor=\"end\">175</text><text x=\"410\" y=\"73\" text-anchor=\"start\">3,500</text><line x1=\"66\" y1=\"44\" x2=\"404\" y2=\"44\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"48\" text-anchor=\"end\">200</text><text x=\"410\" y=\"48\" text-anchor=\"start\">4,000</text><line x1=\"66\" y1=\"44\" x2=\"66\" y2=\"244\" stroke=\"currentColor\"/><line x1=\"404\" y1=\"44\" x2=\"404\" y2=\"244\" stroke=\"currentColor\"/><line x1=\"66\" y1=\"244\" x2=\"404\" y2=\"244\" stroke=\"currentColor\"/><rect x=\"78.2\" y=\"94\" width=\"32\" height=\"150\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"94.2\" y=\"260\" text-anchor=\"middle\">Jan</text><rect x=\"134.5\" y=\"144\" width=\"32\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"150.5\" y=\"260\" text-anchor=\"middle\">Feb</text><rect x=\"190.8\" y=\"69\" width=\"32\" height=\"175\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"206.8\" y=\"260\" text-anchor=\"middle\">Mar</text><rect x=\"247.2\" y=\"119\" width=\"32\" height=\"125\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"263.2\" y=\"260\" text-anchor=\"middle\">Apr</text><rect x=\"303.5\" y=\"169\" width=\"32\" height=\"75\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"319.5\" y=\"260\" text-anchor=\"middle\">May</text><rect x=\"359.8\" y=\"44\" width=\"32\" height=\"200\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"375.8\" y=\"260\" text-anchor=\"middle\">Jun</text><polyline points=\"94.2,94 150.5,119 206.8,144 263.2,194 319.5,169 375.8,69\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"94.2\" cy=\"94\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"150.5\" cy=\"119\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"206.8\" cy=\"144\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"263.2\" cy=\"194\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"319.5\" cy=\"169\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"375.8\" cy=\"69\" r=\"3.5\" fill=\"currentColor\"/><text x=\"16\" y=\"144\" text-anchor=\"middle\" transform=\"rotate(-90 16 144)\">Revenue (thousands of dollars)</text><text x=\"458\" y=\"144\" text-anchor=\"middle\" transform=\"rotate(-90 458 144)\">Units sold</text><rect x=\"66\" y=\"10\" width=\"14\" height=\"10\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"86\" y=\"19\">Revenue (left axis)</text><line x1=\"230\" y1=\"15\" x2=\"252\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"241\" cy=\"15\" r=\"3.5\" fill=\"currentColor\"/><text x=\"258\" y=\"19\">Units sold (right axis)</text><text x=\"235\" y=\"280\" text-anchor=\"middle\">Month</text></svg>",
+    "alt": "Columns show revenue in thousands of dollars on the left axis (0 to 200): Jan 150, Feb 100, Mar 175, Apr 125, May 75, Jun 200. A line shows units sold on the right axis (0 to 4,000): Jan 3,000, Feb 2,500, Mar 2,000, Apr 1,000, May 1,500, Jun 3,500."
+   },
+   "notes": "Revenue (columns) is read on the left axis; units sold (line) is read on the right axis."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "175"
+    },
+    {
+     "id": "B",
+     "text": "1,000"
+    },
+    {
+     "id": "C",
+     "text": "2,000"
+    },
+    {
+     "id": "D",
+     "text": "2,500"
+    },
+    {
+     "id": "E",
+     "text": "3,500"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-03",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 2,
+  "stem": "Approximately how many visitors did the Space exhibit have last Saturday?",
+  "explanation": "With no scale, compare heights. Fossils is 4 grid spaces tall and had 1,200 visitors, so one space stands for 300 visitors. Space is 7 spaces tall: $7 \\times 300 = 2{,}100$.",
+  "estSeconds": 60,
+  "skills": [
+   "bar-graphs",
+   "proportional-reasoning"
+  ],
+  "topics": [
+   "q4.columns-without-scale"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Visitors to four museum exhibits last Saturday",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"30\" y1=\"187\" x2=\"380\" y2=\"187\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"164\" x2=\"380\" y2=\"164\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"141\" x2=\"380\" y2=\"141\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"118\" x2=\"380\" y2=\"118\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"95\" x2=\"380\" y2=\"95\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"72\" x2=\"380\" y2=\"72\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"49\" x2=\"380\" y2=\"49\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"26\" x2=\"380\" y2=\"26\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"210\" stroke=\"currentColor\"/><line x1=\"30\" y1=\"210\" x2=\"380\" y2=\"210\" stroke=\"currentColor\"/><rect x=\"49.8\" y=\"118\" width=\"48\" height=\"92\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"73.8\" y=\"226\" text-anchor=\"middle\">Fossils</text><rect x=\"137.2\" y=\"49\" width=\"48\" height=\"161\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"161.2\" y=\"226\" text-anchor=\"middle\">Space</text><rect x=\"224.8\" y=\"141\" width=\"48\" height=\"69\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"248.8\" y=\"226\" text-anchor=\"middle\">Insects</text><rect x=\"312.2\" y=\"72\" width=\"48\" height=\"138\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"336.2\" y=\"226\" text-anchor=\"middle\">Oceans</text><text x=\"16\" y=\"115\" text-anchor=\"middle\" transform=\"rotate(-90 16 115)\">Visitors</text><text x=\"205\" y=\"244\" text-anchor=\"middle\">Exhibit</text></svg>",
+    "alt": "Column chart with no numbers on the vertical axis and equally spaced grid lines. Bar heights in grid spaces: Fossils 4, Space 7, Insects 3, Oceans 6."
+   },
+   "notes": "No numeric scale is shown. The graph is drawn to scale and the grid lines are equally spaced. The Fossils exhibit had 1,200 visitors."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 2100
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-04",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 2,
+  "stem": "Of the respondents who prefer online news, what percent are under 35?",
+  "explanation": "\"Of the respondents who prefer online news\" means divide by the Online column total, 160. Under 35 and online: 72. $\\frac{72}{160} = 0.45 = 45\\%$.",
+  "choiceExplanations": {
+   "A": "$\\frac{72}{300}$ divides by the grand total instead of the Online total.",
+   "B": "$\\frac{100}{300}$ is the share of all respondents who are under 35.",
+   "D": "$\\frac{160}{300}$ is the share of all respondents who prefer online news.",
+   "E": "$\\frac{72}{100}$ is the percent of under-35 respondents who prefer online news: the reverse question."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "tables",
+   "conditional-fractions"
+  ],
+  "topics": [
+   "q4.two-way-tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Preferred news source of 300 survey respondents, by age group",
+   "data": {
+    "columns": [
+     "Age group",
+     "Online",
+     "Television",
+     "Print",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Under 35",
+      72,
+      20,
+      8,
+      100
+     ],
+     [
+      "35 to 54",
+      56,
+      34,
+      10,
+      100
+     ],
+     [
+      "55 and over",
+      32,
+      46,
+      22,
+      100
+     ],
+     [
+      "Total",
+      160,
+      100,
+      40,
+      300
+     ]
+    ]
+   },
+   "notes": "Each respondent chose exactly one source."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$24\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$33\\frac{1}{3}\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$45\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$53\\frac{1}{3}\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$72\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-05",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 2,
+  "stem": "Complaints of the three most common types together made up what percent of all the complaints?",
+  "explanation": "The cumulative line at a bar gives the share of that bar and every bar to its left. At the third bar (Wrong item) it reads 80%.",
+  "choiceExplanations": {
+   "A": "15% is the third type's own share (the rise of the line from 65% to 80%), not the total of the top three.",
+   "B": "40% is the most common type alone.",
+   "C": "65% covers only the top two types.",
+   "E": "90% covers the top four types."
+  },
+  "estSeconds": 50,
+  "skills": [
+   "bar-graphs",
+   "cumulative-percent"
+  ],
+  "topics": [
+   "q4.pareto-charts"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Complaints received by a delivery company last year, by type (400 complaints in all)",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 470 290\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"60\" y1=\"234\" x2=\"450\" y2=\"234\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"238\" text-anchor=\"end\">0%</text><line x1=\"60\" y1=\"195.2\" x2=\"450\" y2=\"195.2\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"199.2\" text-anchor=\"end\">20%</text><line x1=\"60\" y1=\"156.4\" x2=\"450\" y2=\"156.4\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"160.4\" text-anchor=\"end\">40%</text><line x1=\"60\" y1=\"117.6\" x2=\"450\" y2=\"117.6\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"121.6\" text-anchor=\"end\">60%</text><line x1=\"60\" y1=\"78.8\" x2=\"450\" y2=\"78.8\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"82.8\" text-anchor=\"end\">80%</text><line x1=\"60\" y1=\"40\" x2=\"450\" y2=\"40\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"44\" text-anchor=\"end\">100%</text><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"234\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"234\" x2=\"450\" y2=\"234\" stroke=\"currentColor\"/><rect x=\"68.5\" y=\"156.4\" width=\"48\" height=\"77.6\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"92.5\" y=\"250\" text-anchor=\"middle\">Late</text><rect x=\"133.5\" y=\"185.5\" width=\"48\" height=\"48.5\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"157.5\" y=\"250\" text-anchor=\"middle\">Damaged</text><rect x=\"198.5\" y=\"204.9\" width=\"48\" height=\"29.1\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"222.5\" y=\"250\" text-anchor=\"middle\">Wrong item</text><rect x=\"263.5\" y=\"214.6\" width=\"48\" height=\"19.4\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"287.5\" y=\"250\" text-anchor=\"middle\">Billing</text><rect x=\"328.5\" y=\"222.4\" width=\"48\" height=\"11.6\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"352.5\" y=\"250\" text-anchor=\"middle\">Staff</text><rect x=\"393.5\" y=\"226.2\" width=\"48\" height=\"7.8\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"417.5\" y=\"250\" text-anchor=\"middle\">Other</text><polyline points=\"92.5,156.4 157.5,107.9 222.5,78.8 287.5,59.4 352.5,47.8 417.5,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"92.5\" cy=\"156.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"92.5\" y=\"148.4\" text-anchor=\"middle\">40%</text><circle cx=\"157.5\" cy=\"107.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"157.5\" y=\"99.9\" text-anchor=\"middle\">65%</text><circle cx=\"222.5\" cy=\"78.8\" r=\"3.5\" fill=\"currentColor\"/><text x=\"222.5\" y=\"70.8\" text-anchor=\"middle\">80%</text><circle cx=\"287.5\" cy=\"59.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"287.5\" y=\"51.4\" text-anchor=\"middle\">90%</text><circle cx=\"352.5\" cy=\"47.8\" r=\"3.5\" fill=\"currentColor\"/><text x=\"352.5\" y=\"39.8\" text-anchor=\"middle\">96%</text><circle cx=\"417.5\" cy=\"40\" r=\"3.5\" fill=\"currentColor\"/><text x=\"417.5\" y=\"32\" text-anchor=\"middle\">100%</text><text x=\"16\" y=\"137\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Percent of all complaints</text><rect x=\"60\" y=\"8\" width=\"14\" height=\"10\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"80\" y=\"17\">Percent of complaints of that type</text><line x1=\"270\" y1=\"13\" x2=\"292\" y2=\"13\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"281\" cy=\"13\" r=\"3.5\" fill=\"currentColor\"/><text x=\"298\" y=\"17\">Cumulative percent</text><text x=\"255\" y=\"270\" text-anchor=\"middle\">Type of complaint</text></svg>",
+    "alt": "Columns sorted from largest to smallest for six complaint types (Late, Damaged, Wrong item, Billing, Staff, Other), with a cumulative-percent line whose points read 40%, 65%, 80%, 90%, 96% and 100%."
+   },
+   "notes": "Each complaint is of exactly one type."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$40\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$65\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$80\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$90\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-06",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 3,
+  "stem": "Which of the following statements are supported by the graph? Indicate all such statements.",
+  "explanation": "The axis starts at 300, so heights are not proportional to the values; read the values: Alton 310, Brook 340, Carver 350, Dell 320. Carver $-$ Alton $= 40$ liters (B). Brook is $\\frac{30}{310} \\approx 9.7\\%$ above Alton (C). Carver is only $\\frac{350}{310} \\approx 1.13$ times Alton, and Dell is far from double Alton.",
+  "choiceExplanations": {
+   "A": "Carver's bar is 5 times as tall as Alton's only because the axis starts at 300: $\\frac{350}{310} \\approx 1.13$.",
+   "D": "Dell's bar is twice as tall as Alton's, but $320$ is not twice $310$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "bar-graphs",
+   "axis-scales"
+  ],
+  "topics": [
+   "q4.truncated-axis"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Average daily water use per household in four towns",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"66\" y1=\"224\" x2=\"400\" y2=\"224\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"228\" text-anchor=\"end\">300</text><line x1=\"66\" y1=\"190\" x2=\"400\" y2=\"190\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"194\" text-anchor=\"end\">310</text><line x1=\"66\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"160\" text-anchor=\"end\">320</text><line x1=\"66\" y1=\"122\" x2=\"400\" y2=\"122\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"126\" text-anchor=\"end\">330</text><line x1=\"66\" y1=\"88\" x2=\"400\" y2=\"88\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"92\" text-anchor=\"end\">340</text><line x1=\"66\" y1=\"54\" x2=\"400\" y2=\"54\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"58\" text-anchor=\"end\">350</text><line x1=\"66\" y1=\"20\" x2=\"400\" y2=\"20\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"24\" text-anchor=\"end\">360</text><line x1=\"66\" y1=\"20\" x2=\"66\" y2=\"224\" stroke=\"currentColor\"/><line x1=\"66\" y1=\"224\" x2=\"400\" y2=\"224\" stroke=\"currentColor\"/><rect x=\"85.8\" y=\"190\" width=\"44\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"107.8\" y=\"240\" text-anchor=\"middle\">Alton</text><rect x=\"169.2\" y=\"88\" width=\"44\" height=\"136\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"191.2\" y=\"240\" text-anchor=\"middle\">Brook</text><rect x=\"252.8\" y=\"54\" width=\"44\" height=\"170\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"274.8\" y=\"240\" text-anchor=\"middle\">Carver</text><rect x=\"336.2\" y=\"156\" width=\"44\" height=\"68\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"358.2\" y=\"240\" text-anchor=\"middle\">Dell</text><text x=\"16\" y=\"122\" text-anchor=\"middle\" transform=\"rotate(-90 16 122)\">Water use (liters per day)</text><text x=\"233\" y=\"260\" text-anchor=\"middle\">Town</text></svg>",
+    "alt": "Column chart with a vertical axis from 300 to 360 liters per day: Alton 310, Brook 340, Carver 350, Dell 320."
+   },
+   "notes": "The vertical axis begins at 300 liters, not at 0."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Average daily water use in Carver is about 5 times that in Alton."
+    },
+    {
+     "id": "B",
+     "text": "Average daily water use in Carver exceeds that in Alton by 40 liters."
+    },
+    {
+     "id": "C",
+     "text": "Average daily water use in Brook is less than 10 percent greater than that in Alton."
+    },
+    {
+     "id": "D",
+     "text": "Average daily water use in Dell is twice that in Alton."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-07",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 3,
+  "stem": "Which interval contains the median waiting time?",
+  "explanation": "With 60 callers, the median is the average of the 30th and 31st times. Running totals: 16 (0–4), 28 (5–9), 37 (10–14). The 30th and 31st callers both fall in 10–14.",
+  "choiceExplanations": {
+   "A": "0–4 holds the most callers (the mode), but only the first 16 in order.",
+   "B": "Only 28 callers are in the first two rows, fewer than the 30 needed.",
+   "D": "15–19 is the middle of the time range 0 to 29, not the interval holding the middle caller.",
+   "E": "By 20–24, 47 callers are already counted before it begins."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "tables",
+   "median"
+  ],
+  "topics": [
+   "q4.grouped-frequency-tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Waiting times of 60 callers to a help line",
+   "data": {
+    "columns": [
+     "Waiting time (minutes)",
+     "Number of callers"
+    ],
+    "rows": [
+     [
+      "0–4",
+      16
+     ],
+     [
+      "5–9",
+      12
+     ],
+     [
+      "10–14",
+      9
+     ],
+     [
+      "15–19",
+      10
+     ],
+     [
+      "20–24",
+      8
+     ],
+     [
+      "25–29",
+      5
+     ],
+     [
+      "Total",
+      60
+     ]
+    ]
+   },
+   "notes": "Each waiting time was recorded as a whole number of minutes."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "0–4"
+    },
+    {
+     "id": "B",
+     "text": "5–9"
+    },
+    {
+     "id": "C",
+     "text": "10–14"
+    },
+    {
+     "id": "D",
+     "text": "15–19"
+    },
+    {
+     "id": "E",
+     "text": "20–24"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-08",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 3,
+  "stem": "How many of the street shops had weekly sales of more than \\$30 thousand?",
+  "explanation": "The legend says street shops are the hollow triangles. Only three triangles lie above the 30 grid line: at about 35, 41 and 34 (floor areas 1, 3 and 6).",
+  "estSeconds": 60,
+  "skills": [
+   "scatterplots",
+   "legends"
+  ],
+  "topics": [
+   "q4.scatterplot-multiple-series",
+   "q0.di-titles-legends"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Floor area and weekly sales of 16 shops",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"60\" y1=\"246\" x2=\"440\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"250\" text-anchor=\"end\">0</text><line x1=\"60\" y1=\"211\" x2=\"440\" y2=\"211\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"215\" text-anchor=\"end\">10</text><line x1=\"60\" y1=\"176\" x2=\"440\" y2=\"176\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"180\" text-anchor=\"end\">20</text><line x1=\"60\" y1=\"141\" x2=\"440\" y2=\"141\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"145\" text-anchor=\"end\">30</text><line x1=\"60\" y1=\"106\" x2=\"440\" y2=\"106\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"110\" text-anchor=\"end\">40</text><line x1=\"60\" y1=\"71\" x2=\"440\" y2=\"71\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"75\" text-anchor=\"end\">50</text><line x1=\"60\" y1=\"36\" x2=\"440\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"40\" text-anchor=\"end\">60</text><line x1=\"60\" y1=\"36\" x2=\"60\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"262\" text-anchor=\"middle\">0</text><line x1=\"98\" y1=\"36\" x2=\"98\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"98\" y=\"262\" text-anchor=\"middle\">1</text><line x1=\"136\" y1=\"36\" x2=\"136\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"136\" y=\"262\" text-anchor=\"middle\">2</text><line x1=\"174\" y1=\"36\" x2=\"174\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"174\" y=\"262\" text-anchor=\"middle\">3</text><line x1=\"212\" y1=\"36\" x2=\"212\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\">4</text><line x1=\"250\" y1=\"36\" x2=\"250\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"250\" y=\"262\" text-anchor=\"middle\">5</text><line x1=\"288\" y1=\"36\" x2=\"288\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"288\" y=\"262\" text-anchor=\"middle\">6</text><line x1=\"326\" y1=\"36\" x2=\"326\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"326\" y=\"262\" text-anchor=\"middle\">7</text><line x1=\"364\" y1=\"36\" x2=\"364\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"364\" y=\"262\" text-anchor=\"middle\">8</text><line x1=\"402\" y1=\"36\" x2=\"402\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"402\" y=\"262\" text-anchor=\"middle\">9</text><line x1=\"440\" y1=\"36\" x2=\"440\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"440\" y=\"262\" text-anchor=\"middle\">10</text><line x1=\"60\" y1=\"36\" x2=\"60\" y2=\"246\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"246\" x2=\"440\" y2=\"246\" stroke=\"currentColor\"/><circle cx=\"136\" cy=\"183\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"174\" cy=\"162\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"212\" cy=\"151.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"250\" cy=\"130.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"288\" cy=\"113\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"326\" cy=\"120\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"364\" cy=\"81.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"402\" cy=\"57\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><polygon points=\"98,118.5 93,127.5 103,127.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"136,157 131,166 141,166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"174,97.5 169,106.5 179,106.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"212,167.5 207,176.5 217,176.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"250,150 245,159 255,159\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"288,122 283,131 293,131\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"326,164 321,173 331,173\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"364,146.5 359,155.5 369,155.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"16\" y=\"141\" text-anchor=\"middle\" transform=\"rotate(-90 16 141)\">Weekly sales (thousands of dollars)</text><text x=\"250\" y=\"282\" text-anchor=\"middle\">Floor area (hundreds of square meters)</text><circle cx=\"67\" cy=\"14\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><text x=\"78\" y=\"18\">Mall shop</text><polygon points=\"177,9 172,18 182,18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"188\" y=\"18\">Street shop</text></svg>",
+    "alt": "Scatterplot of weekly sales (thousands of dollars) against floor area (hundreds of square meters). Mall shops (filled circles): (2, 18), (3, 24), (4, 27), (5, 33), (6, 38), (7, 36), (8, 47), (9, 54). Street shops (hollow triangles): (1, 35), (2, 24), (3, 41), (4, 21), (5, 26), (6, 34), (7, 22), (8, 27)."
+   },
+   "notes": "Each symbol represents one shop."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-09",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 4,
+  "stem": "In which month was Store K's revenue per unit sold the greatest?",
+  "explanation": "Read revenue on the left axis and units on the right axis, then divide. Jan \\$150,000 ÷ 3,000 = \\$50; Mar \\$175,000 ÷ 2,000 = \\$87.50; Apr \\$125,000 ÷ 1,000 = \\$125; May \\$75,000 ÷ 1,500 = \\$50; Jun \\$200,000 ÷ 3,500 ≈ \\$57. April is greatest.",
+  "choiceExplanations": {
+   "A": "In January the line meets the top of the column, but that says nothing about equal values: \\$150,000 ÷ 3,000 = \\$50.",
+   "B": "March shows a large gap between column and line, but \\$175,000 ÷ 2,000 = \\$87.50 < \\$125.",
+   "D": "\\$75,000 ÷ 1,500 = \\$50.",
+   "E": "June has the most revenue but also the most units: \\$200,000 ÷ 3,500 ≈ \\$57."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "dual-axes",
+   "ratios"
+  ],
+  "topics": [
+   "q4.dual-axes"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Monthly revenue and units sold at Store K",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"66\" y1=\"244\" x2=\"404\" y2=\"244\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"248\" text-anchor=\"end\">0</text><text x=\"410\" y=\"248\" text-anchor=\"start\">0</text><line x1=\"66\" y1=\"219\" x2=\"404\" y2=\"219\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"223\" text-anchor=\"end\">25</text><text x=\"410\" y=\"223\" text-anchor=\"start\">500</text><line x1=\"66\" y1=\"194\" x2=\"404\" y2=\"194\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"198\" text-anchor=\"end\">50</text><text x=\"410\" y=\"198\" text-anchor=\"start\">1,000</text><line x1=\"66\" y1=\"169\" x2=\"404\" y2=\"169\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"173\" text-anchor=\"end\">75</text><text x=\"410\" y=\"173\" text-anchor=\"start\">1,500</text><line x1=\"66\" y1=\"144\" x2=\"404\" y2=\"144\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"148\" text-anchor=\"end\">100</text><text x=\"410\" y=\"148\" text-anchor=\"start\">2,000</text><line x1=\"66\" y1=\"119\" x2=\"404\" y2=\"119\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"123\" text-anchor=\"end\">125</text><text x=\"410\" y=\"123\" text-anchor=\"start\">2,500</text><line x1=\"66\" y1=\"94\" x2=\"404\" y2=\"94\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"98\" text-anchor=\"end\">150</text><text x=\"410\" y=\"98\" text-anchor=\"start\">3,000</text><line x1=\"66\" y1=\"69\" x2=\"404\" y2=\"69\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"73\" text-anchor=\"end\">175</text><text x=\"410\" y=\"73\" text-anchor=\"start\">3,500</text><line x1=\"66\" y1=\"44\" x2=\"404\" y2=\"44\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"48\" text-anchor=\"end\">200</text><text x=\"410\" y=\"48\" text-anchor=\"start\">4,000</text><line x1=\"66\" y1=\"44\" x2=\"66\" y2=\"244\" stroke=\"currentColor\"/><line x1=\"404\" y1=\"44\" x2=\"404\" y2=\"244\" stroke=\"currentColor\"/><line x1=\"66\" y1=\"244\" x2=\"404\" y2=\"244\" stroke=\"currentColor\"/><rect x=\"78.2\" y=\"94\" width=\"32\" height=\"150\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"94.2\" y=\"260\" text-anchor=\"middle\">Jan</text><rect x=\"134.5\" y=\"144\" width=\"32\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"150.5\" y=\"260\" text-anchor=\"middle\">Feb</text><rect x=\"190.8\" y=\"69\" width=\"32\" height=\"175\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"206.8\" y=\"260\" text-anchor=\"middle\">Mar</text><rect x=\"247.2\" y=\"119\" width=\"32\" height=\"125\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"263.2\" y=\"260\" text-anchor=\"middle\">Apr</text><rect x=\"303.5\" y=\"169\" width=\"32\" height=\"75\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"319.5\" y=\"260\" text-anchor=\"middle\">May</text><rect x=\"359.8\" y=\"44\" width=\"32\" height=\"200\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"375.8\" y=\"260\" text-anchor=\"middle\">Jun</text><polyline points=\"94.2,94 150.5,119 206.8,144 263.2,194 319.5,169 375.8,69\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"94.2\" cy=\"94\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"150.5\" cy=\"119\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"206.8\" cy=\"144\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"263.2\" cy=\"194\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"319.5\" cy=\"169\" r=\"3.5\" fill=\"currentColor\"/><circle cx=\"375.8\" cy=\"69\" r=\"3.5\" fill=\"currentColor\"/><text x=\"16\" y=\"144\" text-anchor=\"middle\" transform=\"rotate(-90 16 144)\">Revenue (thousands of dollars)</text><text x=\"458\" y=\"144\" text-anchor=\"middle\" transform=\"rotate(-90 458 144)\">Units sold</text><rect x=\"66\" y=\"10\" width=\"14\" height=\"10\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"86\" y=\"19\">Revenue (left axis)</text><line x1=\"230\" y1=\"15\" x2=\"252\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"241\" cy=\"15\" r=\"3.5\" fill=\"currentColor\"/><text x=\"258\" y=\"19\">Units sold (right axis)</text><text x=\"235\" y=\"280\" text-anchor=\"middle\">Month</text></svg>",
+    "alt": "Columns show revenue in thousands of dollars on the left axis (0 to 200): Jan 150, Feb 100, Mar 175, Apr 125, May 75, Jun 200. A line shows units sold on the right axis (0 to 4,000): Jan 3,000, Feb 2,500, Mar 2,000, Apr 1,000, May 1,500, Jun 3,500."
+   },
+   "notes": "Revenue (columns) is read on the left axis; units sold (line) is read on the right axis."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "January"
+    },
+    {
+     "id": "B",
+     "text": "March"
+    },
+    {
+     "id": "C",
+     "text": "April"
+    },
+    {
+     "id": "D",
+     "text": "May"
+    },
+    {
+     "id": "E",
+     "text": "June"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-10",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 4,
+  "stem": "Of the complaints that were not about late delivery, what fraction were about damaged goods?",
+  "explanation": "Shares come from the rises of the cumulative line: Late 40%, Damaged $65 - 40 = 25\\%$. Complaints not about late delivery: $100 - 40 = 60\\%$. Fraction: $\\frac{25}{60} = \\frac{5}{12}$ (counts: 100 of 240).",
+  "estSeconds": 105,
+  "skills": [
+   "cumulative-percent",
+   "conditional-fractions"
+  ],
+  "topics": [
+   "q4.pareto-charts",
+   "q4.two-way-tables"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Complaints received by a delivery company last year, by type (400 complaints in all)",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 470 290\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"60\" y1=\"234\" x2=\"450\" y2=\"234\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"238\" text-anchor=\"end\">0%</text><line x1=\"60\" y1=\"195.2\" x2=\"450\" y2=\"195.2\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"199.2\" text-anchor=\"end\">20%</text><line x1=\"60\" y1=\"156.4\" x2=\"450\" y2=\"156.4\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"160.4\" text-anchor=\"end\">40%</text><line x1=\"60\" y1=\"117.6\" x2=\"450\" y2=\"117.6\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"121.6\" text-anchor=\"end\">60%</text><line x1=\"60\" y1=\"78.8\" x2=\"450\" y2=\"78.8\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"82.8\" text-anchor=\"end\">80%</text><line x1=\"60\" y1=\"40\" x2=\"450\" y2=\"40\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"44\" text-anchor=\"end\">100%</text><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"234\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"234\" x2=\"450\" y2=\"234\" stroke=\"currentColor\"/><rect x=\"68.5\" y=\"156.4\" width=\"48\" height=\"77.6\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"92.5\" y=\"250\" text-anchor=\"middle\">Late</text><rect x=\"133.5\" y=\"185.5\" width=\"48\" height=\"48.5\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"157.5\" y=\"250\" text-anchor=\"middle\">Damaged</text><rect x=\"198.5\" y=\"204.9\" width=\"48\" height=\"29.1\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"222.5\" y=\"250\" text-anchor=\"middle\">Wrong item</text><rect x=\"263.5\" y=\"214.6\" width=\"48\" height=\"19.4\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"287.5\" y=\"250\" text-anchor=\"middle\">Billing</text><rect x=\"328.5\" y=\"222.4\" width=\"48\" height=\"11.6\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"352.5\" y=\"250\" text-anchor=\"middle\">Staff</text><rect x=\"393.5\" y=\"226.2\" width=\"48\" height=\"7.8\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"417.5\" y=\"250\" text-anchor=\"middle\">Other</text><polyline points=\"92.5,156.4 157.5,107.9 222.5,78.8 287.5,59.4 352.5,47.8 417.5,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"92.5\" cy=\"156.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"92.5\" y=\"148.4\" text-anchor=\"middle\">40%</text><circle cx=\"157.5\" cy=\"107.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"157.5\" y=\"99.9\" text-anchor=\"middle\">65%</text><circle cx=\"222.5\" cy=\"78.8\" r=\"3.5\" fill=\"currentColor\"/><text x=\"222.5\" y=\"70.8\" text-anchor=\"middle\">80%</text><circle cx=\"287.5\" cy=\"59.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"287.5\" y=\"51.4\" text-anchor=\"middle\">90%</text><circle cx=\"352.5\" cy=\"47.8\" r=\"3.5\" fill=\"currentColor\"/><text x=\"352.5\" y=\"39.8\" text-anchor=\"middle\">96%</text><circle cx=\"417.5\" cy=\"40\" r=\"3.5\" fill=\"currentColor\"/><text x=\"417.5\" y=\"32\" text-anchor=\"middle\">100%</text><text x=\"16\" y=\"137\" text-anchor=\"middle\" transform=\"rotate(-90 16 137)\">Percent of all complaints</text><rect x=\"60\" y=\"8\" width=\"14\" height=\"10\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\"/><text x=\"80\" y=\"17\">Percent of complaints of that type</text><line x1=\"270\" y1=\"13\" x2=\"292\" y2=\"13\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"281\" cy=\"13\" r=\"3.5\" fill=\"currentColor\"/><text x=\"298\" y=\"17\">Cumulative percent</text><text x=\"255\" y=\"270\" text-anchor=\"middle\">Type of complaint</text></svg>",
+    "alt": "Columns sorted from largest to smallest for six complaint types (Late, Damaged, Wrong item, Billing, Staff, Other), with a cumulative-percent line whose points read 40%, 65%, 80%, 90%, 96% and 100%."
+   },
+   "notes": "Each complaint is of exactly one type."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "fraction"
+   }
+  },
+  "answer": {
+   "value": 0.4166666666666667,
+   "fraction": {
+    "numerator": 5,
+    "denominator": 12
+   }
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-11",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 5,
+  "stem": "Which of the following statements are supported by the scatterplot? Indicate all such statements.",
+  "explanation": "Filled circles (mall shops) drift upward to the right: a positive association (A). Hollow triangles (street shops) show no upward trend. A trend is not a rule for every pair: the mall shops at 600 and 700 square meters break it (C). The mall shop at 900 square meters sold about \\$54 thousand, more than the best street shop, about \\$41 thousand (D).",
+  "choiceExplanations": {
+   "B": "The triangles do not drift upward; if anything they fall slightly. The upward trend belongs to the circles.",
+   "C": "The mall shop with 700 square meters (about 36) sold less than the one with 600 (about 38): a trend describes the group, not every pair."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "scatterplots",
+   "association"
+  ],
+  "topics": [
+   "q4.scatterplots",
+   "q4.scatterplot-multiple-series"
+  ],
+  "figure": {
+   "kind": "svg",
+   "title": "Floor area and weekly sales of 16 shops",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"11\"><line x1=\"60\" y1=\"246\" x2=\"440\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"250\" text-anchor=\"end\">0</text><line x1=\"60\" y1=\"211\" x2=\"440\" y2=\"211\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"215\" text-anchor=\"end\">10</text><line x1=\"60\" y1=\"176\" x2=\"440\" y2=\"176\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"180\" text-anchor=\"end\">20</text><line x1=\"60\" y1=\"141\" x2=\"440\" y2=\"141\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"145\" text-anchor=\"end\">30</text><line x1=\"60\" y1=\"106\" x2=\"440\" y2=\"106\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"110\" text-anchor=\"end\">40</text><line x1=\"60\" y1=\"71\" x2=\"440\" y2=\"71\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"75\" text-anchor=\"end\">50</text><line x1=\"60\" y1=\"36\" x2=\"440\" y2=\"36\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"54\" y=\"40\" text-anchor=\"end\">60</text><line x1=\"60\" y1=\"36\" x2=\"60\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"60\" y=\"262\" text-anchor=\"middle\">0</text><line x1=\"98\" y1=\"36\" x2=\"98\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"98\" y=\"262\" text-anchor=\"middle\">1</text><line x1=\"136\" y1=\"36\" x2=\"136\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"136\" y=\"262\" text-anchor=\"middle\">2</text><line x1=\"174\" y1=\"36\" x2=\"174\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"174\" y=\"262\" text-anchor=\"middle\">3</text><line x1=\"212\" y1=\"36\" x2=\"212\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"212\" y=\"262\" text-anchor=\"middle\">4</text><line x1=\"250\" y1=\"36\" x2=\"250\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"250\" y=\"262\" text-anchor=\"middle\">5</text><line x1=\"288\" y1=\"36\" x2=\"288\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"288\" y=\"262\" text-anchor=\"middle\">6</text><line x1=\"326\" y1=\"36\" x2=\"326\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"326\" y=\"262\" text-anchor=\"middle\">7</text><line x1=\"364\" y1=\"36\" x2=\"364\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"364\" y=\"262\" text-anchor=\"middle\">8</text><line x1=\"402\" y1=\"36\" x2=\"402\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"402\" y=\"262\" text-anchor=\"middle\">9</text><line x1=\"440\" y1=\"36\" x2=\"440\" y2=\"246\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"440\" y=\"262\" text-anchor=\"middle\">10</text><line x1=\"60\" y1=\"36\" x2=\"60\" y2=\"246\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"246\" x2=\"440\" y2=\"246\" stroke=\"currentColor\"/><circle cx=\"136\" cy=\"183\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"174\" cy=\"162\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"212\" cy=\"151.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"250\" cy=\"130.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"288\" cy=\"113\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"326\" cy=\"120\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"364\" cy=\"81.5\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><circle cx=\"402\" cy=\"57\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><polygon points=\"98,118.5 93,127.5 103,127.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"136,157 131,166 141,166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"174,97.5 169,106.5 179,106.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"212,167.5 207,176.5 217,176.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"250,150 245,159 255,159\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"288,122 283,131 293,131\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"326,164 321,173 331,173\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"364,146.5 359,155.5 369,155.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"16\" y=\"141\" text-anchor=\"middle\" transform=\"rotate(-90 16 141)\">Weekly sales (thousands of dollars)</text><text x=\"250\" y=\"282\" text-anchor=\"middle\">Floor area (hundreds of square meters)</text><circle cx=\"67\" cy=\"14\" r=\"4.5\" fill=\"currentColor\" fill-opacity=\"0.6\"/><text x=\"78\" y=\"18\">Mall shop</text><polygon points=\"177,9 172,18 182,18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"188\" y=\"18\">Street shop</text></svg>",
+    "alt": "Scatterplot of weekly sales (thousands of dollars) against floor area (hundreds of square meters). Mall shops (filled circles): (2, 18), (3, 24), (4, 27), (5, 33), (6, 38), (7, 36), (8, 47), (9, 54). Street shops (hollow triangles): (1, 35), (2, 24), (3, 41), (4, 21), (5, 26), (6, 34), (7, 22), (8, 27)."
+   },
+   "notes": "Each symbol represents one shop."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Among the mall shops, weekly sales tend to increase as floor area increases."
+    },
+    {
+     "id": "B",
+     "text": "Among the street shops, weekly sales tend to increase as floor area increases."
+    },
+    {
+     "id": "C",
+     "text": "Among the mall shops, a shop with more floor area always had greater weekly sales than a shop with less floor area."
+    },
+    {
+     "id": "D",
+     "text": "The mall shop with the greatest floor area had greater weekly sales than every street shop."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-13-reading-tricky-displays-12",
+  "lessonId": "q4-13-reading-tricky-displays",
+  "difficulty": 5,
+  "stem": "Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "Only interval counts are known. The median is in 10–14 (running totals 16, 28, 37), so it is at least 10 (A). Least possible mean: every caller at the low end of the row, $\\frac{0(16) + 5(12) + 10(9) + 15(10) + 20(8) + 25(5)}{60} = 9.75$, so the mean is at least 9 (C). Greatest possible mean: add 4 to each, 13.75, so it cannot exceed 14 (B false). No row tells whether anyone waited exactly 12 minutes (D).",
+  "choiceExplanations": {
+   "B": "Even if every caller waited the longest time in the row (4, 9, 14, …, 29), the mean would be only 13.75 minutes.",
+   "D": "The row 10–14 holds 9 callers, but their exact times are unknown; none need be 12."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "grouped-data",
+   "mean-bounds"
+  ],
+  "topics": [
+   "q4.grouped-frequency-tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Waiting times of 60 callers to a help line",
+   "data": {
+    "columns": [
+     "Waiting time (minutes)",
+     "Number of callers"
+    ],
+    "rows": [
+     [
+      "0–4",
+      16
+     ],
+     [
+      "5–9",
+      12
+     ],
+     [
+      "10–14",
+      9
+     ],
+     [
+      "15–19",
+      10
+     ],
+     [
+      "20–24",
+      8
+     ],
+     [
+      "25–29",
+      5
+     ],
+     [
+      "Total",
+      60
+     ]
+    ]
+   },
+   "notes": "Each waiting time was recorded as a whole number of minutes."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The median waiting time is at least 10 minutes."
+    },
+    {
+     "id": "B",
+     "text": "The mean waiting time is greater than 14 minutes."
+    },
+    {
+     "id": "C",
+     "text": "The mean waiting time is at least 9 minutes."
+    },
+    {
+     "id": "D",
+     "text": "At least one caller waited exactly 12 minutes."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ }
+]

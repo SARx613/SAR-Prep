@@ -1,0 +1,148 @@
+{
+ "id": "q4-18-probability-rules",
+ "status": "draft",
+ "why": "Many GRE probability questions turn on one correct move: the right sample space, the right complement, the number of orders, or reading a probability back as counts.",
+ "rule": "- **Sample space**: list outcomes in a fixed order. Two dice give a $6\\times6$ grid of 36 equally likely *ordered* pairs: $(2,6)$ and $(6,2)$ are two outcomes, $(4,4)$ only one.\n- **Complements**: $P(\\text{not } E) = 1 - P(E)$, once the complement is worded correctly. The opposite of \"at least one\" is \"none\"; of \"all\" it is \"not all\" (at least one fails); of \"at least 2\" it is \"0 or 1\".\n- **At least one** $= 1 - P(\\text{none})$. Find \"none\" directly: every trial fails, or the whole group comes from the other items, $\\frac{\\binom{n-r}{k}}{\\binom{n}{k}}$.\n- **Exactly $k$, in any order**: probability of one order $\\times$ number of orders. Exactly 2 heads in 4 tosses: $\\binom{4}{2}\\left(\\frac12\\right)^4 = \\frac38$.\n- **At least $k$ of $n$**: add the \"exactly\" cases from $k$ up, or subtract the cases below $k$ from 1.\n- **Probability as a ratio**: $P = \\frac{\\text{favourable}}{\\text{total}}$. If $P(\\text{red}) = \\frac38$ and 15 are not red, then $\\frac58$ of the total is 15: total 24, red 9. Counts are whole numbers, so if $P = \\frac{a}{b}$ in lowest terms, the total is a multiple of $b$.\n- **Unknown count**: write the probability with the unknown and solve. Two draws without replacement give a quadratic, such as $\\frac{r(r-1)}{n(n-1)} = P$; keep the positive whole-number root.",
+ "lengthJustification": "Nine practised rules (sample space, complement wording, at least one, orders, at least k, ratio, whole-number totals, quadratic) each need one line; the exclusive-versus-independent warning sits in the trap.",
+ "examples": [
+  {
+   "prompt": "A player makes each free throw with probability 0.7, independently. What is the probability that she makes at least 2 of her next 3 free throws?",
+   "steps": [
+    "Exactly 2: one order (make, make, miss) has probability $0.7\\cdot0.7\\cdot0.3 = 0.147$; the miss can be in 3 places, so $3\\cdot0.147 = 0.441$.",
+    "Exactly 3: $0.7^3 = 0.343$.",
+    "At least 2: $0.441 + 0.343 = 0.784$."
+   ],
+   "answer": "0.784"
+  },
+  {
+   "prompt": "A bag holds $n$ tokens, 3 of them gold. Two tokens are drawn at random without replacement, and the probability that both are gold is $\\frac{1}{15}$. Find $n$.",
+   "steps": [
+    "$\\frac{3}{n}\\cdot\\frac{2}{n-1} = \\frac{1}{15}$, so $n(n-1) = 90$.",
+    "$n^2 - n - 90 = 0$ factors as $(n-10)(n+9) = 0$; keep the positive root."
+   ],
+   "answer": "$n = 10$"
+  }
+ ],
+ "trap": "**Mutually exclusive is not independent.** If $P(E)$ and $P(F)$ are positive and $E$ and $F$ cannot both happen, then $P(E \\text{ and } F) = 0 \\ne P(E)P(F)$: knowing $E$ happened makes $F$ impossible. Also, the complement of \"all three succeed\" is \"at least one fails\", not \"all three fail\".",
+ "checks": [
+  {
+   "id": "q4-18-probability-rules-c1",
+   "lessonId": "q4-18-probability-rules",
+   "difficulty": 2,
+   "stem": "Two fair six-sided dice are rolled. What is the probability that the product of the two numbers is 6?",
+   "explanation": "Of the 36 ordered outcomes, the product is 6 for $(1,6)$, $(6,1)$, $(2,3)$ and $(3,2)$: 4 outcomes. $P = \\frac{4}{36} = \\frac19$.",
+   "estSeconds": 60,
+   "skills": [
+    "probability"
+   ],
+   "topics": [
+    "q4.sample-space"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.1111111111111111,
+    "fraction": {
+     "numerator": 1,
+     "denominator": 9
+    }
+   }
+  },
+  {
+   "id": "q4-18-probability-rules-c2",
+   "lessonId": "q4-18-probability-rules",
+   "difficulty": 2,
+   "stem": "Events $E$ and $F$ each have a positive probability, and they are mutually exclusive. Which of the following must be true?",
+   "explanation": "Mutually exclusive means $P(E \\text{ and } F) = 0$, so $P(E \\text{ or } F) = P(E) + P(F)$.",
+   "choiceExplanations": {
+    "A": "They cannot be independent: $P(E \\text{ and } F) = 0$ but $P(E)P(F) > 0$.",
+    "B": "The left side is 0 and the right side is positive.",
+    "D": "Exclusive events need not cover every outcome; a die showing 1 or showing 2 are exclusive, with sum $\\frac13$.",
+    "E": "Given $E$, $F$ is impossible, so $P(F \\text{ given } E) = 0$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "mutually-exclusive",
+    "independence"
+   ],
+   "topics": [
+    "q4.exclusive-vs-independent"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$E$ and $F$ are independent."
+     },
+     {
+      "id": "B",
+      "text": "$P(E \\text{ and } F) = P(E)\\,P(F)$"
+     },
+     {
+      "id": "C",
+      "text": "$P(E \\text{ or } F) = P(E) + P(F)$"
+     },
+     {
+      "id": "D",
+      "text": "$P(E) + P(F) = 1$"
+     },
+     {
+      "id": "E",
+      "text": "$P(F \\text{ given } E) = P(F)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q4-18-probability-rules-c3",
+   "lessonId": "q4-18-probability-rules",
+   "difficulty": 3,
+   "stem": "A hand of 3 cards is dealt at random from 10 cards, 4 of which are marked with a star. What is the probability that the hand contains at least one starred card?",
+   "explanation": "None starred: all 3 cards come from the 6 unstarred ones, $\\frac{\\binom{6}{3}}{\\binom{10}{3}} = \\frac{20}{120} = \\frac16$. At least one: $1 - \\frac16 = \\frac56$.",
+   "estSeconds": 75,
+   "skills": [
+    "probability",
+    "complement",
+    "combinations"
+   ],
+   "topics": [
+    "q4.at-least-one"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.8333333333333334,
+    "fraction": {
+     "numerator": 5,
+     "denominator": 6
+    }
+   }
+  }
+ ]
+}
