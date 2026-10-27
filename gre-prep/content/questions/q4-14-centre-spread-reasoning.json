@@ -1,0 +1,536 @@
+[
+ {
+  "id": "q4-14-centre-spread-reasoning-01",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 1,
+  "stem": "The mean of the three numbers $x + 3$, $2x$, and $5x - 7$ is 12. What is the value of $x$?",
+  "explanation": "Sum $=$ mean $\\times$ count $= 12 \\times 3 = 36$. The terms add to $8x - 4$, so $8x - 4 = 36$ and $x = 5$.",
+  "estSeconds": 50,
+  "skills": [
+   "mean",
+   "linear-equations"
+  ],
+  "topics": [
+   "q4.mean-with-variables"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-02",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 1,
+  "stem": "A list of numbers has a standard deviation of 5. If every number in the list is multiplied by $-3$, what is the standard deviation of the new list?",
+  "explanation": "Multiplying every value by $k$ multiplies every distance from the mean, and so the SD, by $|k| = 3$: $3 \\times 5 = 15$. An SD is never negative.",
+  "choiceExplanations": {
+   "A": "A standard deviation is never negative: the SD is multiplied by $|-3| = 3$.",
+   "B": "$5 + (-3)$ treats the change as adding a constant, which it is not.",
+   "C": "Flipping signs alone keeps the SD, but the factor 3 also stretches every distance.",
+   "E": "$5 \\times 9$ multiplies by $k^2$; that would be the change in the variance, not the SD."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "standard-deviation"
+  ],
+  "topics": [
+   "q4.sd-multiply-constant"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-15$"
+    },
+    {
+     "id": "B",
+     "text": "$2$"
+    },
+    {
+     "id": "C",
+     "text": "$5$"
+    },
+    {
+     "id": "D",
+     "text": "$15$"
+    },
+    {
+     "id": "E",
+     "text": "$45$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-03",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 2,
+  "stem": "The scores on a test are approximately normally distributed with a mean of 150 and a standard deviation of 10. Which of the following is the best estimate of the percent of scores that are greater than 170?",
+  "explanation": "$170 = 150 + 2(10)$, two SDs above the mean. About 95% of scores lie within 2 SDs, so about 5% lie outside, split equally: about 2.5% above 170.",
+  "choiceExplanations": {
+   "B": "5% is the total of both tails beyond 2 SDs; only the upper tail is asked.",
+   "C": "16% is the share above 1 SD (160), not 2 SDs.",
+   "D": "32% is the share outside 1 SD on both sides.",
+   "E": "47.5% is the share between the mean and 170, not above 170."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "normal-distribution"
+  ],
+  "topics": [
+   "q4.normal-probabilities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2.5\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$5\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$16\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$32\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$47.5\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-04",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 2,
+  "stem": "At a factory, 30 percent of the 200 day-shift workers and 45 percent of the 300 night-shift workers take the company bus. What percent of all the workers at the factory take the company bus?",
+  "explanation": "Turn each percent into a count: $0.30 \\times 200 = 60$ and $0.45 \\times 300 = 135$. Together $195$ of $500$ workers: $\\frac{195}{500} = 39\\%$. (Averaging 30 and 45 gives 37.5, which ignores the larger night shift.)",
+  "estSeconds": 75,
+  "skills": [
+   "weighted-average",
+   "percents"
+  ],
+  "topics": [
+   "q4.weighted-average-percents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "%"
+  },
+  "answer": {
+   "value": 39
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-05",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The combined mean lies between 18 and 26 and closer to the mean of the larger group (20 seniors), so it is above the midpoint 22. Check: $\\frac{12(18) + 20(26)}{32} = \\frac{736}{32} = 23$.",
+  "estSeconds": 60,
+  "skills": [
+   "weighted-average"
+  ],
+  "topics": [
+   "q4.weighting-pull"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The mean age of all 32 members",
+   "quantityB": "22",
+   "common": "A club has 12 junior members with a mean age of 18 years and 20 senior members with a mean age of 26 years."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-06",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The list is evenly spaced, so its mean equals the average of its first and last terms. The first multiple of 7 above 30 is 35 and the last below 100 is 98: $\\frac{35 + 98}{2} = 66.5$, which is greater than 65. (65 is the average of the bounds 30 and 100, which are not in the list.)",
+  "estSeconds": 75,
+  "skills": [
+   "mean",
+   "evenly-spaced-lists"
+  ],
+  "topics": [
+   "q4.mean-equals-median"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The mean of the numbers in list L",
+   "quantityB": "65",
+   "common": "List L consists of all the multiples of 7 that are between 30 and 100."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-07",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 3,
+  "stem": "In a class, the boys' mean test score is 72, the girls' mean test score is 84, and the mean score of the whole class is 79. What is the ratio of the number of boys to the number of girls in the class?",
+  "explanation": "With means $a = 72$ (boys) and $b = 84$ (girls) combining to $m = 79$: boys : girls $= (b - m) : (m - a) = 5 : 7$. Check: $\\frac{5(72) + 7(84)}{12} = \\frac{948}{12} = 79$. The class mean is closer to 84, so there are more girls.",
+  "choiceExplanations": {
+   "A": "$5:12$ compares the boys with the whole class.",
+   "B": "$7:12$ compares the girls with the whole class.",
+   "D": "Equal groups would give a class mean of 78, the midpoint.",
+   "E": "$7:5$ is the right ratio reversed: the mean is closer to the girls' 84, so girls outnumber boys."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "weighted-average",
+   "ratios"
+  ],
+  "topics": [
+   "q4.weighted-average-ratio"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5:12$"
+    },
+    {
+     "id": "B",
+     "text": "$7:12$"
+    },
+    {
+     "id": "C",
+     "text": "$5:7$"
+    },
+    {
+     "id": "D",
+     "text": "$1:1$"
+    },
+    {
+     "id": "E",
+     "text": "$7:5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-08",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 3,
+  "stem": "In a class of 400 students, Maya scored 72 out of 100 points on an exam, and her score was at the 90th percentile of the class's scores. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "A percentile is a position in the data: about 90% of the scores are at or below 72 (A), so about 10% of 400, or 40 students, scored higher (C). The median is the 50th percentile, which cannot be above the 90th percentile (D). The 90 is not a percent of the questions answered correctly.",
+  "choiceExplanations": {
+   "B": "She earned 72 of 100 points, 72%; the 90th percentile describes her position in the class, not her score.",
+   "E": "About 90 percent of 400, about 360 students, scored at or below her, not 90 students."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "percentiles"
+  ],
+  "topics": [
+   "q4.percentiles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "About 90 percent of the students scored 72 or lower."
+    },
+    {
+     "id": "B",
+     "text": "Maya earned about 90 percent of the available points."
+    },
+    {
+     "id": "C",
+     "text": "About 40 students scored higher than 72."
+    },
+    {
+     "id": "D",
+     "text": "The median score of the class was at most 72."
+    },
+    {
+     "id": "E",
+     "text": "About 90 students scored lower than Maya."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-09",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 4,
+  "stem": "Six different positive integers have a mean of 9. What is the least possible value of the greatest of the six integers?",
+  "explanation": "The sum is $6 \\times 9 = 54$. To make the greatest as small as possible, make the integers as close together as allowed: consecutive. If the greatest is $g$, the sum is at most $g + (g-1) + \\dots + (g-5) = 6g - 15$, so $6g - 15 \\ge 54$ and $g \\ge 11.5$, so $g \\ge 12$. It works: 4, 8, 9, 10, 11, 12 add to 54.",
+  "estSeconds": 120,
+  "skills": [
+   "mean",
+   "extreme-values"
+  ],
+  "topics": [
+   "q4.mean-extremes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-10",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 4,
+  "stem": "The median of the six numbers 4, 6, 10, 12, 15, and $n$ is 11. Which of the following could be the value of $n$? Indicate all such values.",
+  "explanation": "With six numbers, the median is the average of the 3rd and 4th. If $n \\le 10$, those are at most 10 and 10, giving a median of at most 10. If $10 \\le n \\le 12$, they are 10 and $n$: $\\frac{10 + n}{2} = 11$ gives $n = 12$. If $n \\ge 12$, they are 10 and 12, median 11. So $n \\ge 12$: 12, 14 and 30 work.",
+  "choiceExplanations": {
+   "A": "With $n = 8$ the middle pair is 8 and 10, median 9.",
+   "B": "With $n = 11$ the middle pair is 10 and 11, median 10.5, not 11."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "median",
+   "inequalities"
+  ],
+  "topics": [
+   "q4.median-unknown-values"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "8"
+    },
+    {
+     "id": "B",
+     "text": "11"
+    },
+    {
+     "id": "C",
+     "text": "12"
+    },
+    {
+     "id": "D",
+     "text": "14"
+    },
+    {
+     "id": "E",
+     "text": "30"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-11",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 5,
+  "stem": "A list of 8 numbers has a mean of 20 and a standard deviation of 4. Which of the following changes would increase the standard deviation? Indicate all such changes.",
+  "explanation": "Multiplying by $-2$ multiplies the SD by $|-2| = 2$, giving 8 (D). Adding 32, which is 3 SDs from the mean, adds a large squared distance and raises the SD (C). Adding 20 (the mean) or 23 (within 1 SD) adds little or nothing to the squared distances while the count grows, so the SD falls. Adding 5 to every number shifts the data without spreading it.",
+  "choiceExplanations": {
+   "A": "A value equal to the mean adds 0 to the squared distances but raises the count, so the SD falls.",
+   "B": "23 is less than 1 SD from the mean, so it pulls the SD down a little.",
+   "E": "Adding a constant moves every value and the mean together; the SD stays 4."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "standard-deviation"
+  ],
+  "topics": [
+   "q4.sd-add-value",
+   "q4.sd-multiply-constant"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Add the number 20 to the list."
+    },
+    {
+     "id": "B",
+     "text": "Add the number 23 to the list."
+    },
+    {
+     "id": "C",
+     "text": "Add the number 32 to the list."
+    },
+    {
+     "id": "D",
+     "text": "Multiply every number in the list by $-2$."
+    },
+    {
+     "id": "E",
+     "text": "Add 5 to every number in the list."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-12",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 5,
+  "stem": "The weights of 2,000 packages are approximately normally distributed with a mean of 40 kilograms and a standard deviation of 5 kilograms. About how many of the packages weigh between 30 and 45 kilograms?",
+  "explanation": "30 is 2 SDs below the mean and 45 is 1 SD above. By symmetry, about $\\frac{95\\%}{2} = 47.5\\%$ lie between 30 and 40, and about $\\frac{68\\%}{2} = 34\\%$ between 40 and 45. Total about $81.5\\%$: $0.815 \\times 2000 = 1{,}630$.",
+  "choiceExplanations": {
+   "A": "$47.5\\%$ counts only 30 to 40 and leaves out 40 to 45.",
+   "B": "$68\\%$ is the share from 35 to 45, within 1 SD on both sides.",
+   "D": "$95\\%$ is the share from 30 to 50.",
+   "E": "$97.5\\%$ is the share above 30, with no upper limit."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "normal-distribution"
+  ],
+  "topics": [
+   "q4.normal-probabilities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "950"
+    },
+    {
+     "id": "B",
+     "text": "1,360"
+    },
+    {
+     "id": "C",
+     "text": "1,630"
+    },
+    {
+     "id": "D",
+     "text": "1,900"
+    },
+    {
+     "id": "E",
+     "text": "1,950"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ }
+]

@@ -1,0 +1,140 @@
+{
+ "id": "q4-14-centre-spread-reasoning",
+ "status": "draft",
+ "why": "Harder GRE statistics questions rarely ask you to compute a mean or SD from scratch; they ask what must be true when terms are unknown, groups are combined or data are changed.",
+ "rule": "- **Mean with variable terms**: add the terms and set the sum equal to mean $\\times$ count.\n- **Extreme value of one member**: fix the sum. For the *greatest* possible value, make every other value as small as the conditions allow (positive, different, given median), then subtract. For the *least possible greatest* value, make the values as close together as allowed.\n- **Median with an unknown**: find where the unknown can sit in the ordered list; the given median then forces an inequality. Test both ends.\n- **Evenly spaced or symmetric list**: mean $=$ median $= \\frac{\\text{first} + \\text{last}}{2}$.\n- **Combining groups**: the combined mean lies between the group means, closer to the larger group's. Turn percents or rates into counts before combining. If means $a$ and $b$ combine to $m$, then $n_a : n_b = (b - m) : (m - a)$.\n- **SD**: multiplying every value by $k$ multiplies the SD by $|k|$. A new value at the mean, or within 1 SD of it, lowers the SD; one far away (2 SDs or more) raises it.\n- **Percentile**: the $p$th percentile has about $p\\%$ of the data at or below it. It is a position, not a score.\n- **Normal**: about 68% (two-thirds) lies within 1 SD and 95% within 2 SDs, so about 16% lies beyond 1 SD and 2.5% beyond 2 SDs on each side.",
+ "lengthJustification": "The lesson gathers eight separate reasoning patterns, each tested directly in the practice set.",
+ "examples": [
+  {
+   "prompt": "Five different positive integers have a mean of 11 and a median of 9. What is the greatest possible value of the largest?",
+   "steps": [
+    "Sum $= 5 \\times 11 = 55$.",
+    "Make the others as small as allowed: the two below the median are 1 and 2; the one above it must exceed 9, so 10.",
+    "Largest $= 55 - (1 + 2 + 9 + 10) = 33$."
+   ],
+   "answer": "33"
+  },
+  {
+   "prompt": "A shop sells tea at \\$12 per kilogram and coffee at \\$20 per kilogram. A blend of the two costs \\$15 per kilogram. In what ratio are tea and coffee mixed?",
+   "steps": [
+    "Tea : coffee $= (20 - 15) : (15 - 12) = 5 : 3$.",
+    "Check: $\\frac{5(12) + 3(20)}{8} = \\frac{120}{8} = 15$. The blend price is closer to 12, so there is more tea."
+   ],
+   "answer": "5 : 3"
+  }
+ ],
+ "trap": "Averaging two percents or means from groups of different sizes (20% of 100 people and 50% of 400 people combine to 44%, not 35%). Scaling the SD by $k$ instead of $|k|$: an SD is never negative. And reading the 90th percentile as a score of 90%.",
+ "checks": [
+  {
+   "id": "q4-14-centre-spread-reasoning-c1",
+   "lessonId": "q4-14-centre-spread-reasoning",
+   "difficulty": 1,
+   "stem": "The mean of $2x$, $x + 4$, and $3x - 1$ is 7. What is the value of $x$?",
+   "explanation": "Sum $= 7 \\times 3 = 21$. The terms add to $6x + 3$, so $6x = 18$ and $x = 3$.",
+   "estSeconds": 45,
+   "skills": [
+    "mean"
+   ],
+   "topics": [
+    "q4.mean-with-variables"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 3
+   }
+  },
+  {
+   "id": "q4-14-centre-spread-reasoning-c2",
+   "lessonId": "q4-14-centre-spread-reasoning",
+   "difficulty": 2,
+   "stem": "Group P has a mean of 60 and group Q has a mean of 90. Together, the two groups have a mean of 70. What is the ratio of the number of members in P to the number in Q?",
+   "explanation": "P : Q $= (90 - 70) : (70 - 60) = 20 : 10 = 2 : 1$. The combined mean is closer to 60, so P is the larger group.",
+   "choiceExplanations": {
+    "A": "$1:3$ would give $\\frac{60 + 3(90)}{4} = 82.5$.",
+    "B": "$1:2$ is the right ratio reversed: the mean 70 is closer to P's 60, so P is larger.",
+    "C": "Equal groups would give the midpoint, 75.",
+    "E": "$3:1$ would give $\\frac{3(60) + 90}{4} = 67.5$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "weighted-average"
+   ],
+   "topics": [
+    "q4.weighted-average-ratio",
+    "q4.weighting-pull"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$1:3$"
+     },
+     {
+      "id": "B",
+      "text": "$1:2$"
+     },
+     {
+      "id": "C",
+      "text": "$1:1$"
+     },
+     {
+      "id": "D",
+      "text": "$2:1$"
+     },
+     {
+      "id": "E",
+      "text": "$3:1$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q4-14-centre-spread-reasoning-c3",
+   "lessonId": "q4-14-centre-spread-reasoning",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Dividing every value by $-2$ divides the SD by $|-2| = 2$: the new SD is 5. A standard deviation is never negative, so A is greater.",
+   "estSeconds": 45,
+   "skills": [
+    "standard-deviation"
+   ],
+   "topics": [
+    "q4.sd-multiply-constant"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The standard deviation of list M",
+    "quantityB": "$-5$",
+    "common": "List L has a standard deviation of 10. List M is formed by dividing every number in L by $-2$."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}
