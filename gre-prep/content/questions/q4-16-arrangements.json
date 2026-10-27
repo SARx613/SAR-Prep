@@ -1,0 +1,482 @@
+[
+ {
+  "id": "q4-16-arrangements-01",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 1,
+  "stem": "What is the value of $\\frac{15!}{13!}$?",
+  "explanation": "$15! = 15 \\cdot 14 \\cdot 13!$, so the $13!$ cancels: $15 \\cdot 14 = 210$.",
+  "estSeconds": 45,
+  "skills": [
+   "factorials"
+  ],
+  "topics": [
+   "q4.factoring-factorials"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 210
+  }
+ },
+ {
+  "id": "q4-16-arrangements-02",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 1,
+  "stem": "Six delegates are to be seated around a round table. Two seatings are considered the same if every delegate has the same neighbor on the left and the same neighbor on the right in both. How many different seatings are possible?",
+  "explanation": "Only relative positions count. Seat one delegate anywhere; the other 5 can be ordered in $5! = 120$ ways.",
+  "choiceExplanations": {
+   "A": "$24 = 4!$ fixes one delegate too many; after seating one, 5 others remain.",
+   "B": "$60 = \\frac{5!}{2}$ also treats mirror-image seatings as the same, but those change who is on the left.",
+   "D": "$360 = \\frac{6!}{2}$ divides by the wrong number; rotating the table gives 6 copies of each seating, not 2.",
+   "E": "$720 = 6!$ counts each seating 6 times, once for every rotation of the table."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "permutations",
+   "factorials"
+  ],
+  "topics": [
+   "q4.circular-arrangements"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$24$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$120$"
+    },
+    {
+     "id": "D",
+     "text": "$360$"
+    },
+    {
+     "id": "E",
+     "text": "$720$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-16-arrangements-03",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 2,
+  "stem": "A door lock accepts codes that are either 2 or 3 letters long, made from the letters A, B, C, D and E, with no letter used more than once in a code. How many different codes does the lock accept?",
+  "explanation": "Two cases that cannot overlap, so add. 2-letter codes: $5 \\cdot 4 = 20$. 3-letter codes: $5 \\cdot 4 \\cdot 3 = 60$. Total: $20 + 60 = 80$.",
+  "choiceExplanations": {
+   "A": "20 counts only the 2-letter codes.",
+   "B": "60 counts only the 3-letter codes.",
+   "D": "$5^2 + 5^3 = 150$ allows a letter to repeat.",
+   "E": "$20 \\cdot 60 = 1{,}200$ multiplies the two cases; a code is 2 letters *or* 3 letters, so the counts add."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "permutations",
+   "multiplication-principle"
+  ],
+  "topics": [
+   "q4.or-adds"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$20$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$80$"
+    },
+    {
+     "id": "D",
+     "text": "$150$"
+    },
+    {
+     "id": "E",
+     "text": "$1{,}200$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-16-arrangements-04",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 2,
+  "stem": "A ship signals by hoisting 7 flags in a vertical row: 3 identical red flags, 2 identical blue flags and 2 identical white flags. How many different signals can be made using all 7 flags?",
+  "explanation": "Divide $7!$ by the orders of each group of identical flags: $\\frac{7!}{3!\\,2!\\,2!} = \\frac{5040}{24} = 210$.",
+  "choiceExplanations": {
+   "A": "$\\binom{7}{3} = 35$ only places the red flags; the blue and white flags still have $\\binom{4}{2} = 6$ arrangements.",
+   "C": "$\\frac{7!}{3!\\,2!} = 420$ divides for only one of the two pairs of identical flags.",
+   "D": "$\\frac{7!}{3! + 2! + 2!} = 504$ adds the factorials; they must be multiplied.",
+   "E": "$7! = 5{,}040$ treats identical flags as different."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "permutations",
+   "factorials"
+  ],
+  "topics": [
+   "q4.identical-items"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$35$"
+    },
+    {
+     "id": "B",
+     "text": "$210$"
+    },
+    {
+     "id": "C",
+     "text": "$420$"
+    },
+    {
+     "id": "D",
+     "text": "$504$"
+    },
+    {
+     "id": "E",
+     "text": "$5{,}040$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-16-arrangements-05",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 2,
+  "stem": "In a contest, a first prize and a second prize are to be awarded to two different entrants. If there are 156 different ways to award the two prizes, how many entrants are in the contest?",
+  "explanation": "Order matters, so the count is $n(n-1) = 156$. Two consecutive integers with product 156: $13 \\cdot 12$. So $n = 13$.",
+  "estSeconds": 60,
+  "skills": [
+   "permutations"
+  ],
+  "topics": [
+   "q4.unknown-size-permutations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 13
+  }
+ },
+ {
+  "id": "q4-16-arrangements-06",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Factor out $8!$: $\\frac{9! - 8!}{7!} = \\frac{8!\\,(9 - 1)}{7!} = 8 \\cdot 8 = 64$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "factorials"
+  ],
+  "topics": [
+   "q4.factoring-factorials"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{9! - 8!}{7!}$",
+   "quantityB": "$64$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q4-16-arrangements-07",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 3,
+  "stem": "Six people, including Rita and Sam, are to stand in a line for a photograph. If Rita and Sam may not stand next to each other, how many different orders are possible?",
+  "explanation": "All orders: $6! = 720$. Together: treat Rita and Sam as one block, so 5 units in $5! = 120$ orders, times 2 orders inside the block, $= 240$. Apart: $720 - 240 = 480$.",
+  "estSeconds": 90,
+  "skills": [
+   "permutations",
+   "complement"
+  ],
+  "topics": [
+   "q4.items-apart"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 480
+  }
+ },
+ {
+  "id": "q4-16-arrangements-08",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 3,
+  "stem": "A 3-digit code is formed by choosing each digit at random from the digits 0 through 9, with repetition allowed (so 007 is a code). What is the probability that the three digits of the code are all different?",
+  "explanation": "All codes: $10^3 = 1{,}000$. All different: $10 \\cdot 9 \\cdot 8 = 720$. $P = \\frac{720}{1{,}000} = \\frac{18}{25}$.",
+  "estSeconds": 75,
+  "skills": [
+   "probability",
+   "multiplication-principle"
+  ],
+  "topics": [
+   "q4.probability-codes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.72,
+   "fraction": {
+    "numerator": 18,
+    "denominator": 25
+   }
+  }
+ },
+ {
+  "id": "q4-16-arrangements-09",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Orders with Mei and Omar together: a block (2 inner orders) plus 5 others, $2 \\cdot 6!$. All orders: $7!$. $P = \\frac{2 \\cdot 6!}{7!} = \\frac{2}{7} \\approx 0.286$, which is greater than $\\frac14$.",
+  "estSeconds": 90,
+  "skills": [
+   "probability",
+   "permutations"
+  ],
+  "topics": [
+   "q4.probability-arrangements"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The probability that Mei and Omar sit next to each other",
+   "quantityB": "$\\frac{1}{4}$",
+   "common": "Seven people, including Mei and Omar, take seats at random in a row of 7 chairs."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q4-16-arrangements-10",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 4,
+  "stem": "Six people, including Ana and Bo, are to be seated around a round table. Two seatings are considered the same if every person has the same neighbor on the left and the same neighbor on the right in both. In how many different seatings are Ana and Bo not next to each other?",
+  "explanation": "All seatings: $(6-1)! = 120$. Together: Ana and Bo form one block, so 5 units around the table in $(5-1)! = 24$ ways, times 2 orders inside the block $= 48$. Apart: $120 - 48 = 72$.",
+  "choiceExplanations": {
+   "A": "48 is the number of seatings in which Ana and Bo *are* next to each other.",
+   "C": "$120 - 24 = 96$ forgets that the Ana-Bo block can be in 2 orders.",
+   "D": "$6! - 2 \\cdot 5! = 480$ counts a row of chairs, not a round table.",
+   "E": "$6! - 5! = 600$ uses $6!$ for the table and also forgets the 2 orders of the block."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "permutations",
+   "complement"
+  ],
+  "topics": [
+   "q4.circular-arrangements",
+   "q4.items-apart"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$48$"
+    },
+    {
+     "id": "B",
+     "text": "$72$"
+    },
+    {
+     "id": "C",
+     "text": "$96$"
+    },
+    {
+     "id": "D",
+     "text": "$480$"
+    },
+    {
+     "id": "E",
+     "text": "$600$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-16-arrangements-11",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 5,
+  "stem": "The 6 letters of the word TATTOO are written on tiles and put in a row in random order. What is the probability that the three T's are next to one another?",
+  "explanation": "Distinct arrangements: $\\frac{6!}{3!\\,2!} = 60$. With the T's together, TTT is one block, leaving the units TTT, A, O, O: $\\frac{4!}{2!} = 12$. $P = \\frac{12}{60} = \\frac15$.",
+  "estSeconds": 120,
+  "skills": [
+   "probability",
+   "permutations"
+  ],
+  "topics": [
+   "q4.identical-items",
+   "q4.probability-arrangements"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.2,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 5
+   }
+  }
+ },
+ {
+  "id": "q4-16-arrangements-12",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 5,
+  "stem": "A 4-digit code is formed by choosing each digit at random from the digits 0 through 9, with repetition allowed. Which of the following events have a probability greater than $\\frac{1}{2}$? Indicate all such events.",
+  "explanation": "Out of $10^4$ codes: all different, $\\frac{10 \\cdot 9 \\cdot 8 \\cdot 7}{10^4} = 0.504$ (yes). At least one 0: $1 - 0.9^4 \\approx 0.344$ (no). Last digit greater than first: of the 100 first-last pairs, 10 are ties and half of the other 90 have the last digit greater, $0.45$ (no). At least one odd digit: $1 - \\left(\\frac12\\right)^4 = \\frac{15}{16}$ (yes).",
+  "choiceExplanations": {
+   "A": "Correct, though barely: $\\frac{5{,}040}{10{,}000} = 0.504$.",
+   "B": "$P(\\text{no } 0) = 0.9^4 = 0.6561$, so at least one 0 has probability $0.3439$.",
+   "C": "Symmetry gives $\\frac12$ only after removing ties: the 10 equal pairs leave $\\frac{45}{100} = 0.45$."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "probability",
+   "complement"
+  ],
+  "topics": [
+   "q4.probability-codes"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "All four digits are different."
+    },
+    {
+     "id": "B",
+     "text": "The code contains at least one 0."
+    },
+    {
+     "id": "C",
+     "text": "The last digit is greater than the first digit."
+    },
+    {
+     "id": "D",
+     "text": "At least one digit is odd."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ }
+]

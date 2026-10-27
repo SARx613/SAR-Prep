@@ -1,0 +1,504 @@
+[
+ {
+  "id": "q2-21-equation-shortcuts-01",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 1,
+  "stem": "If $5x+3=11$, what is the value of $10x+6$?",
+  "explanation": "$10x+6$ is twice $5x+3$, so it equals $2\\cdot11=22$. There is no need to find $x$.",
+  "choiceExplanations": {
+   "A": "$\\dfrac85$ is the value of $x$, not of the expression asked for.",
+   "B": "Doubling the left side doubles the right side too.",
+   "C": "$16$ is $10x$ alone; the $+6$ is missing.",
+   "D": "Doubling must double every term: $2(5x+3)=10x+6=22$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.solve-for-expression"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac85$"
+    },
+    {
+     "id": "B",
+     "text": "$11$"
+    },
+    {
+     "id": "C",
+     "text": "$16$"
+    },
+    {
+     "id": "D",
+     "text": "$19$"
+    },
+    {
+     "id": "E",
+     "text": "$22$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-02",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 1,
+  "stem": "If $a=3b+2$ and $2a-5b=9$, what is the value of $a$?",
+  "explanation": "Substitute the whole expression in brackets: $2(3b+2)-5b=9$, so $6b+4-5b=9$ and $b=5$. Then $a=3(5)+2=17$.",
+  "choiceExplanations": {
+   "A": "5 is the value of $b$; the question asks for $a$.",
+   "B": "Without brackets, $2\\cdot3b+2-5b=9$ gives $b=7$; the 2 must multiply all of $3b+2$.",
+   "C": "$a=3b+2$, not $3b-2$: with $b=5$, $a=17$.",
+   "E": "This uses $b=7$ from the missing-bracket error: $3(7)+2=23$."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.substitute-expressions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$7$"
+    },
+    {
+     "id": "C",
+     "text": "$13$"
+    },
+    {
+     "id": "D",
+     "text": "$17$"
+    },
+    {
+     "id": "E",
+     "text": "$23$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-03",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x$ and $y$ cannot be found, but $2x-3y$ is the left side divided by 3: $2x-3y=\\dfrac{24}{3}=8$. The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.one-equation-enough",
+   "q2.solve-for-expression"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$2x-3y$",
+   "quantityB": "$8$",
+   "common": "$6x-9y=24$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-04",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 2,
+  "stem": "For $x\\ne4$, which of the following is equal to $\\dfrac{x^2-4x}{8-2x}$?",
+  "explanation": "Factor: $x^2-4x=x(x-4)$ and $8-2x=2(4-x)=-2(x-4)$. Cancel $x-4$: $\\dfrac{x}{-2}=-\\dfrac{x}{2}$. Check with $x=2$: $\\dfrac{4-8}{8-4}=-1=-\\dfrac22$.",
+  "choiceExplanations": {
+   "A": "This is the reciprocal: the 2 belongs in the denominator.",
+   "B": "Pairing terms ($\\dfrac{x^2}{-2x}$ and $\\dfrac{-4x}{8}$) splits the fraction illegally; only common factors cancel.",
+   "D": "$x-4$ and $4-x$ are opposites; cancelling them leaves a factor $-1$.",
+   "E": "Reciprocal and lost sign together."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.factor-out-negative-one"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-2x$"
+    },
+    {
+     "id": "B",
+     "text": "$-x$"
+    },
+    {
+     "id": "C",
+     "text": "$-\\dfrac{x}{2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{x}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$2x$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-05",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 2,
+  "stem": "How many different real numbers $x$ satisfy $x^3+8x=6x^2$?",
+  "explanation": "Move everything to one side: $x^3-6x^2+8x=0$. Factor out $x$: $x(x^2-6x+8)=x(x-2)(x-4)=0$. The solutions are $0$, $2$ and $4$: three. Dividing by $x$ would lose the solution $0$.",
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.three-or-more-solutions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-06",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 3,
+  "stem": "If $p=\\dfrac{2q+5}{q-4}$, where $q\\ne4$ and $p\\ne2$, which of the following expresses $q$ in terms of $p$?",
+  "explanation": "Multiply by $q-4$: $pq-4p=2q+5$. Collect the $q$-terms on the left: $pq-2q=4p+5$. Factor out $q$: $q(p-2)=4p+5$, so $q=\\dfrac{4p+5}{p-2}$. Check: $q=5$ gives $p=15$, and $\\dfrac{4(15)+5}{13}=5$.",
+  "choiceExplanations": {
+   "A": "$p$ must multiply both terms of $q-4$: $p(q-4)=pq-4p$, not $pq-4$.",
+   "B": "Moving $-4p$ to the right makes it $+4p$, and the $+5$ stays $+5$.",
+   "D": "Moving $2q$ to the left makes it $-2q$, so the factor is $p-2$.",
+   "E": "$-4p$ changes sign when it moves to the right side: $4p+5$, not $5-4p$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.solve-in-terms-of"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{9}{p-2}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{4p-5}{p-2}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{4p+5}{p-2}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{4p+5}{p+2}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{5-4p}{p-2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-07",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 3,
+  "stem": "If $x+y=13$, $y+z=17$ and $x+z=20$, what is the value of $z$?",
+  "explanation": "Add all three equations: $2x+2y+2z=50$, so $x+y+z=25$. Subtract $x+y=13$: $z=12$.",
+  "estSeconds": 60,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.three-variable-systems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-08",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$(x+y)^2=x^2+y^2+2xy$, so Quantity A minus Quantity B is $2xy$. With $x=3$ and $y=2$, A is $25$ and B is $13$; with $x=3$ and $y=-2$, A is $1$ and B is $13$. The relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.square-of-sum-vs-sum-of-squares"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$(x+y)^2$",
+   "quantityB": "$x^2+y^2$",
+   "common": "$x^2=9$ and $y^2=4$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-09",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 4,
+  "stem": "If $2x+y-z=1$, $x-y+2z=6$ and $3x+2y+z=13$, what is the value of $z$?",
+  "explanation": "Eliminate $y$ twice. First plus second: $3x+z=7$. Twice the second plus the third: $5x+5z=25$, so $x+z=5$. Subtract: $2x=2$, so $x=1$ and $z=4$. (Then $y=3$; check in the third equation: $3+6+4=13$.)",
+  "choiceExplanations": {
+   "A": "1 is the value of $x$.",
+   "B": "2 is $2x$; one more step gives $x$, then $z$.",
+   "C": "3 is the value of $y$.",
+   "E": "5 is $x+z$, not $z$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.three-variable-systems"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1$"
+    },
+    {
+     "id": "B",
+     "text": "$2$"
+    },
+    {
+     "id": "C",
+     "text": "$3$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-10",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 4,
+  "stem": "What is the sum of all solutions of $\\dfrac{x}{x-3}+\\dfrac{2}{x}=\\dfrac{3}{x-3}$?",
+  "explanation": "Multiply every term by $x(x-3)$, so $x\\ne0$ and $x\\ne3$: $x^2+2(x-3)=3x$, so $x^2-x-6=0$ and $(x-3)(x+2)=0$. $x=3$ makes a denominator 0, so reject it. Only $x=-2$ remains, and the sum is $-2$.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.quadratic-from-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-11",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 5,
+  "stem": "Which of the following values of $x$ satisfy $\\dfrac{x^3}{x+2}=\\dfrac{4x}{x+2}$? Indicate all such values.",
+  "explanation": "Multiply by $x+2$, so $x\\ne-2$: $x^3=4x$. Move everything to one side and factor out $x$: $x(x-2)(x+2)=0$, giving $0$, $2$ and $-2$. Reject $-2$, which makes the denominators 0. The solutions are $0$ and $2$.",
+  "choiceExplanations": {
+   "A": "$(-4)^3=-64$, but $4(-4)=-16$.",
+   "B": "$x=-2$ makes both denominators 0, so it is not a solution.",
+   "C": "Dividing both sides by $x$ would hide this solution; $0$ works, since both sides equal 0.",
+   "E": "$x^2=4$ gives $x=\\pm2$, not 4."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.three-or-more-solutions",
+   "q2.quadratic-from-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-4$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$0$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-21-equation-shortcuts-12",
+  "lessonId": "q2-21-equation-shortcuts",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Cross-multiply: $8x=3x+3y$, so $5x=3y$. Here $x\\ne0$ (otherwise $y=0$ too and $x+y=0$), so $\\dfrac{y}{x}=\\dfrac53$, which is greater than $\\dfrac32$. One equation is enough because only the ratio is asked for.",
+  "estSeconds": 90,
+  "skills": [
+   "linear-equations"
+  ],
+  "topics": [
+   "q2.one-equation-enough",
+   "q2.solve-for-expression"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{y}{x}$",
+   "quantityB": "$\\dfrac32$",
+   "common": "$\\dfrac{2x}{x+y}=\\dfrac34$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ }
+]
