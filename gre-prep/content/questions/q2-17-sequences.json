@@ -1,0 +1,507 @@
+[
+ {
+  "id": "q2-17-sequences-01",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Substitute $n=7$: $a_7=20-3\\cdot7=-1$, which is less than 0. Quantity B is greater.",
+  "estSeconds": 45,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.sequence-basics"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "The $n$th term of a sequence is $a_n=20-3n$ for each positive integer $n$.",
+   "quantityA": "$a_7$",
+   "quantityB": "0"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-17-sequences-02",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 1,
+  "stem": "In a sequence, $a_1=3$ and $a_n=2a_{n-1}+1$ for each integer $n\\ge2$. What is the value of $a_4$?",
+  "explanation": "Compute the terms in order: $a_2=2\\cdot3+1=7$, $a_3=2\\cdot7+1=15$, $a_4=2\\cdot15+1=31$.",
+  "estSeconds": 60,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.recursive-sequences"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 31
+  }
+ },
+ {
+  "id": "q2-17-sequences-03",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 2,
+  "stem": "The sequence $4, -1, 7, 2, 4, -1, 7, 2, \\dots$ repeats the same four terms indefinitely. What is the sum of the first 50 terms of the sequence?",
+  "explanation": "One block of four terms sums to $4-1+7+2=12$. $50=4\\cdot12+2$, so the first 50 terms are 12 full blocks plus the first 2 terms of a block: $12\\cdot12+4+(-1)=147$.",
+  "choiceExplanations": {
+   "A": "Counts only the 12 complete blocks and drops the 49th and 50th terms.",
+   "C": "Adds the 49th term (4) but forgets the 50th term ($-1$).",
+   "D": "Treats the extra half block as half of 12; its two terms are 4 and $-1$, which sum to 3.",
+   "E": "Counts 13 full blocks, which is 52 terms."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.sequence-basics"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "144"
+    },
+    {
+     "id": "B",
+     "text": "147"
+    },
+    {
+     "id": "C",
+     "text": "148"
+    },
+    {
+     "id": "D",
+     "text": "150"
+    },
+    {
+     "id": "E",
+     "text": "156"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-04",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 2,
+  "stem": "A bacterial culture contains 1,500 cells at noon, and the number of cells doubles every 3 hours. If the growth continues at this rate, how many cells will the culture contain at 3:00 a.m. the next day?",
+  "explanation": "From noon to 3:00 a.m. is 15 hours, which is $\\frac{15}{3}=5$ doubling periods: 3,000 at 3 p.m., 6,000 at 6 p.m., 12,000 at 9 p.m., 24,000 at midnight, 48,000 at 3 a.m. In one step: $1500\\cdot2^5=48{,}000$.",
+  "choiceExplanations": {
+   "A": "Adds 1,500 cells per period (linear growth) instead of doubling.",
+   "B": "Uses 4 periods instead of 5: noon itself is period 0.",
+   "D": "Uses 6 periods; 15 hours contain 5 periods of 3 hours.",
+   "E": "Doubles every hour ($2^{15}$) instead of every 3 hours."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sequences",
+   "exponential-growth"
+  ],
+  "topics": [
+   "q2.exponential-growth"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "9,000"
+    },
+    {
+     "id": "B",
+     "text": "24,000"
+    },
+    {
+     "id": "C",
+     "text": "48,000"
+    },
+    {
+     "id": "D",
+     "text": "96,000"
+    },
+    {
+     "id": "E",
+     "text": "49,152,000"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-05",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A fixed percent loss multiplies by $0.85$ each year: $30{,}000\\cdot0.85^2=21{,}675$. The second year loses 15 percent of \\$25,500, which is less than \\$4,500, so the value stays above \\$21,000. Quantity A is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "sequences",
+   "percent-change"
+  ],
+  "topics": [
+   "q2.exponential-decay"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "A car's value was \\$30,000 when it was new. Each year, its value decreases by 15 percent of its value at the start of that year.",
+   "quantityA": "The value of the car, in dollars, 2 years after it was new",
+   "quantityB": "21,000"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-17-sequences-06",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 3,
+  "stem": "In an arithmetic sequence, $a_5=23$ and $a_{12}=58$. What is the sum of the first 30 terms of the sequence?",
+  "explanation": "$d=\\frac{58-23}{12-5}=5$, so $a_1=23-4\\cdot5=3$ and $a_{30}=3+29\\cdot5=148$. Sum $=30\\cdot\\frac{3+148}{2}=2{,}265$.",
+  "estSeconds": 120,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.arithmetic-sequences",
+   "q2.arithmetic-sums"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2265
+  }
+ },
+ {
+  "id": "q2-17-sequences-07",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 3,
+  "stem": "In a geometric sequence, $a_3=12$ and $a_6=-96$. What is the value of $a_8$?",
+  "explanation": "$r^{6-3}=\\frac{-96}{12}=-8$, so $r=-2$. Then $a_7=-96\\cdot(-2)=192$ and $a_8=192\\cdot(-2)=-384$.",
+  "choiceExplanations": {
+   "B": "Treats the sequence as arithmetic, adding $-36$ each step.",
+   "C": "This is $a_7$, one step short.",
+   "D": "Drops the sign: with $r^3=-8$ the ratio is $-2$, not 2.",
+   "E": "Uses $r^{n}$ instead of $r^{n-1}$: $3\\cdot(-2)^8=768$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.geometric-sequences"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-384$"
+    },
+    {
+     "id": "B",
+     "text": "$-168$"
+    },
+    {
+     "id": "C",
+     "text": "$192$"
+    },
+    {
+     "id": "D",
+     "text": "$384$"
+    },
+    {
+     "id": "E",
+     "text": "$768$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-08",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "X grows linearly: $8000+6\\cdot400=10{,}400$. Y grows exponentially: $8000\\cdot1.05^6\\approx10{,}721$. After the first year both are 8,400; from then on, 5 percent of a population above 8,000 exceeds 400, so Y gains more every year. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "sequences",
+   "exponential-growth"
+  ],
+  "topics": [
+   "q2.linear-growth",
+   "q2.exponential-growth"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Towns X and Y each had a population of 8,000 in 2020. In each year since then, the population of X has increased by 400 people and the population of Y has increased by 5 percent.",
+   "quantityA": "The population of X in 2026",
+   "quantityB": "The population of Y in 2026"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-17-sequences-09",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 4,
+  "stem": "In a geometric sequence, $a_2=12$ and $a_4=48$. Which of the following could be the value of $a_5$? Indicate all such values.",
+  "explanation": "$r^{4-2}=\\frac{48}{12}=4$, so $r=2$ or $r=-2$. Then $a_5=48r$ is $96$ or $-96$. Correct: A and D.",
+  "choiceExplanations": {
+   "B": "This is $a_3$ when $r=-2$, not $a_5$.",
+   "C": "Treats the sequence as arithmetic ($d=18$).",
+   "E": "Multiplies by $r^2=4$ once more: that would be $a_6$ when $r=2$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.geometric-sequences"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-96$"
+    },
+    {
+     "id": "B",
+     "text": "$-24$"
+    },
+    {
+     "id": "C",
+     "text": "$66$"
+    },
+    {
+     "id": "D",
+     "text": "$96$"
+    },
+    {
+     "id": "E",
+     "text": "$192$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-10",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 4,
+  "stem": "A sample of a radioactive substance has a mass of 240 grams. Its half-life is 8 days; that is, the mass that remains is halved every 8 days. After how many days will exactly 15 grams of the substance remain?",
+  "explanation": "$\\frac{15}{240}=\\frac{1}{16}=\\left(\\frac12\\right)^4$, so 4 half-lives pass: $4\\cdot8=32$ days. (240, 120, 60, 30, 15.)",
+  "choiceExplanations": {
+   "A": "This is the number of half-lives, not the number of days.",
+   "B": "This is the ratio 240 to 15, not a time.",
+   "C": "Stops after 3 halvings, at 30 grams.",
+   "E": "Multiplies 8 days by the ratio 16; each halving takes 8 days, and only 4 halvings are needed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sequences",
+   "exponential-growth"
+  ],
+  "topics": [
+   "q2.exponential-decay"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "16"
+    },
+    {
+     "id": "C",
+     "text": "24"
+    },
+    {
+     "id": "D",
+     "text": "32"
+    },
+    {
+     "id": "E",
+     "text": "128"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-11",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 5,
+  "stem": "In an arithmetic sequence, the sum of the first 10 terms is 155 and the sum of the first 20 terms is 610. What is the 30th term of the sequence?",
+  "explanation": "Sum of $n$ terms $=n\\cdot\\frac{a_1+a_n}{2}=\\frac{n}{2}\\left(2a_1+(n-1)d\\right)$. So $5(2a_1+9d)=155$ gives $2a_1+9d=31$, and $10(2a_1+19d)=610$ gives $2a_1+19d=61$. Subtracting: $10d=30$, $d=3$, $a_1=2$. Then $a_{30}=2+29\\cdot3=89$.",
+  "estSeconds": 150,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.arithmetic-sums",
+   "q2.arithmetic-sequences"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 89
+  }
+ },
+ {
+  "id": "q2-17-sequences-12",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 5,
+  "stem": "For each integer $k\\ge2$, let $b_k=1-\\frac{1}{k^2}$. What is the value of the product $b_2b_3b_4\\cdots b_{50}$?",
+  "explanation": "$b_k=\\frac{(k-1)(k+1)}{k^2}=\\frac{k-1}{k}\\cdot\\frac{k+1}{k}$. The product of $\\frac{k-1}{k}$ for $k=2$ to 50 telescopes to $\\frac{1}{50}$; the product of $\\frac{k+1}{k}$ telescopes to $\\frac{51}{2}$. Total: $\\frac{1}{50}\\cdot\\frac{51}{2}=\\frac{51}{100}$.",
+  "choiceExplanations": {
+   "A": "Keeps only the product of the factors $\\frac{k-1}{k}$ and forgets the factors $\\frac{k+1}{k}$.",
+   "C": "This is $b_2$ alone; the other 48 factors do not cancel to 1.",
+   "D": "This is $b_{50}$ alone, as if everything before it cancelled.",
+   "E": "Keeps only the product of the factors $\\frac{k+1}{k}$."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.telescoping"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{50}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{51}{100}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{4}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{2499}{2500}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{51}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ }
+]

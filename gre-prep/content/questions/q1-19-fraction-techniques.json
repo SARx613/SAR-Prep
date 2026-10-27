@@ -1,0 +1,516 @@
+[
+ {
+  "id": "q1-19-fraction-techniques-01",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 1,
+  "stem": "What is $3-\\frac{4}{9}$? Enter your answer as a fraction.",
+  "explanation": "Write 3 over 9: $\\frac{27}{9}-\\frac{4}{9} = \\frac{23}{9}$.",
+  "estSeconds": 45,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 2.5555555555555554,
+   "fraction": {
+    "numerator": 23,
+    "denominator": 9
+   }
+  },
+  "topics": [
+   "q1.whole-and-fraction"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-02",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 1,
+  "stem": "If $\\frac{1}{x} = 2\\frac{2}{5}$, what is the value of $x$?",
+  "explanation": "$2\\frac{2}{5} = \\frac{12}{5}$, so $x$ is its reciprocal, $\\frac{5}{12}$.",
+  "choiceExplanations": {
+   "A": "A reciprocal keeps the sign; this is the opposite, not the reciprocal.",
+   "C": "This is $\\frac{1}{x}$ itself, not $x$.",
+   "D": "This inverts the parts separately: $\\frac{1}{2}+\\frac{5}{2}$. Convert to $\\frac{12}{5}$ first.",
+   "E": "This inverts only the fraction part: $2+\\frac{5}{2}$."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-\\frac{12}{5}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{12}{5}$"
+    },
+    {
+     "id": "D",
+     "text": "3"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{9}{2}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  },
+  "topics": [
+   "q1.reciprocals"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-03",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 2,
+  "stem": "What is $\\frac{5}{6}+\\frac{3}{8}-\\frac{7}{20}$? Enter your answer as a fraction.",
+  "explanation": "$6 = 2\\cdot3$, $8 = 2^3$, $20 = 2^2\\cdot5$, so the least common denominator is $2^3\\cdot3\\cdot5 = 120$. Then $\\frac{100}{120}+\\frac{45}{120}-\\frac{42}{120} = \\frac{103}{120}$.",
+  "estSeconds": 90,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.8583333333333333,
+   "fraction": {
+    "numerator": 103,
+    "denominator": 120
+   }
+  },
+  "topics": [
+   "q1.least-common-denominator"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-04",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Cross-multiply (both denominators positive): $13\\cdot21 = 273$ and $17\\cdot16 = 272$. Since $273>272$, $\\frac{13}{17}>\\frac{16}{21}$. Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{13}{17}$",
+   "quantityB": "$\\frac{16}{21}$"
+  },
+  "answer": {
+   "choice": "A"
+  },
+  "topics": [
+   "q1.compare-fractions-cross-multiply"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-05",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 2,
+  "stem": "What is $\\frac{14}{15}\\cdot\\frac{25}{28}\\div\\frac{9}{10}$?",
+  "explanation": "Invert the divisor and cancel before multiplying: $\\frac{14}{15}\\cdot\\frac{25}{28}\\cdot\\frac{10}{9}$. 14 against 28 leaves $\\frac{1}{2}$; 25 against 15 leaves $\\frac{5}{3}$; 10 against the 2 leaves 5. Result: $\\frac{5\\cdot5}{3\\cdot9} = \\frac{25}{27}$.",
+  "choiceExplanations": {
+   "A": "This multiplies by $\\frac{9}{10}$ instead of dividing by it.",
+   "B": "This is only $\\frac{14}{15}\\cdot\\frac{25}{28}$; the division by $\\frac{9}{10}$ is missing.",
+   "D": "This divides $\\frac{9}{10}$ by $\\frac{5}{6}$: the wrong fraction was inverted.",
+   "E": "This is the reciprocal of the product with $\\frac{9}{10}$, not the quotient."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{3}{4}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{5}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{25}{27}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{27}{25}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{4}{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "topics": [
+   "q1.multiply-divide-fractions"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-06",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 3,
+  "stem": "Which of the following fractions are greater than $\\frac{4}{11}$? Indicate all such fractions.",
+  "explanation": "Give each the same numerator as a multiple of $\\frac{4}{11}$: $\\frac{4}{11} = \\frac{8}{22} = \\frac{12}{33}$. Then $\\frac{1}{3} = \\frac{4}{12}$, $\\frac{8}{23}$ and $\\frac{6}{17} = \\frac{12}{34}$ have larger denominators, so they are smaller; $\\frac{12}{31}$ and $\\frac{2}{5} = \\frac{4}{10}$ have smaller denominators, so they are greater.",
+  "choiceExplanations": {
+   "A": "$\\frac{1}{3} = \\frac{4}{12}<\\frac{4}{11}$.",
+   "B": "$\\frac{8}{23}<\\frac{8}{22} = \\frac{4}{11}$.",
+   "C": "$\\frac{6}{17} = \\frac{12}{34}<\\frac{12}{33} = \\frac{4}{11}$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{8}{23}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{6}{17}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{12}{31}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{2}{5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  },
+  "topics": [
+   "q1.compare-fractions-common-terms"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-07",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 3,
+  "stem": "What is the value of $\\dfrac{\\frac{3}{4}-\\frac{2}{3}}{\\frac{5}{6}+\\frac{1}{4}}$? Enter your answer as a fraction.",
+  "explanation": "Multiply top and bottom by 12, the LCD of all the small fractions: $\\dfrac{9-8}{10+3} = \\frac{1}{13}$.",
+  "estSeconds": 75,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 0.07692307692307693,
+   "fraction": {
+    "numerator": 1,
+    "denominator": 13
+   }
+  },
+  "topics": [
+   "q1.complex-fractions"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-08",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 3,
+  "stem": "Which of the following is between $\\frac{5}{9}$ and $\\frac{4}{7}$?",
+  "explanation": "Cross-multiply against each bound. $\\frac{9}{16}$: $9\\cdot9 = 81>16\\cdot5 = 80$, so it exceeds $\\frac{5}{9}$; $9\\cdot7 = 63<16\\cdot4 = 64$, so it is below $\\frac{4}{7}$.",
+  "choiceExplanations": {
+   "A": "$\\frac{1}{2}<\\frac{5}{9}$ since $9<10$.",
+   "B": "$11\\cdot9 = 99<20\\cdot5 = 100$, so $\\frac{11}{20}<\\frac{5}{9}$.",
+   "D": "$7\\cdot7 = 49>12\\cdot4 = 48$, so $\\frac{7}{12}>\\frac{4}{7}$.",
+   "E": "$3\\cdot7 = 21>5\\cdot4 = 20$, so $\\frac{3}{5}>\\frac{4}{7}$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{2}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{11}{20}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{9}{16}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{7}{12}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{3}{5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  },
+  "topics": [
+   "q1.compare-fractions-cross-multiply"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-09",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$\\frac{a}{b}>1$, and adding the same positive $k$ to top and bottom moves the fraction toward 1, so it gets smaller. Check by cross-multiplying: $(a+k)b = ab+kb$ and $a(b+k) = ab+ka$; since $b<a$, $kb<ka$. Quantity B is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\frac{a+k}{b+k}$",
+   "quantityB": "$\\frac{a}{b}$",
+   "common": "$a>b>0$ and $k>0$"
+  },
+  "answer": {
+   "choice": "B"
+  },
+  "topics": [
+   "q1.add-same-to-top-and-bottom"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-10",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 4,
+  "stem": "For $x>1$, which of the following is equal to $\\dfrac{1+\\frac{1}{x}}{1-\\frac{1}{x}}$?",
+  "explanation": "Multiply top and bottom by $x$: $\\dfrac{x+1}{x-1}$.",
+  "choiceExplanations": {
+   "A": "Terms of a sum cannot be cancelled; try $x = 2$: the value is $\\frac{3/2}{1/2} = 3$.",
+   "B": "The 1s and the $\\frac{1}{x}$s do not cancel; $x = 2$ gives 3, not 1.",
+   "C": "This is the reciprocal: top and bottom were swapped.",
+   "E": "This is the numerator $1+\\frac{1}{x}$ alone; it still has to be divided by $\\frac{x-1}{x}$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-1$"
+    },
+    {
+     "id": "B",
+     "text": "$1$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{x-1}{x+1}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{x+1}{x-1}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{x+1}{x}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  },
+  "topics": [
+   "q1.complex-fractions"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-11",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 5,
+  "stem": "$x$ and $y$ are integers with $1<x<y$. Which of the following must be greater than $\\frac{x}{y}$? Indicate all such expressions.",
+  "explanation": "$\\frac{x}{y}$ is a positive fraction less than 1. Adding the same positive number to top and bottom moves it up toward 1, so $\\frac{x+1}{y+1}$ and $\\frac{x+5}{y+5}$ are greater. Its reciprocal $\\frac{y}{x}$ is greater than 1. Subtracting 1 from both moves it away from 1 (down); a larger denominator alone makes it smaller; $\\frac{2x}{2y}$ is equal.",
+  "choiceExplanations": {
+   "A": "Subtracting moves a fraction below 1 away from 1: $x = 2, y = 3$ gives $\\frac{1}{2}<\\frac{2}{3}$.",
+   "B": "Same numerator, larger denominator: smaller.",
+   "C": "$\\frac{2x}{2y} = \\frac{x}{y}$, equal, not greater."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{x-1}{y-1}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{x}{y+1}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{2x}{2y}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{x+1}{y+1}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{x+5}{y+5}$"
+    },
+    {
+     "id": "F",
+     "text": "$\\frac{y}{x}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E",
+    "F"
+   ]
+  },
+  "topics": [
+   "q1.add-same-to-top-and-bottom",
+   "q1.reciprocals"
+  ]
+ },
+ {
+  "id": "q1-19-fraction-techniques-12",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 5,
+  "stem": "If $\\dfrac{1}{\\frac{1}{3}+\\frac{1}{b}} = \\frac{12}{7}$, what is the value of $b$?",
+  "explanation": "Take reciprocals of both sides: $\\frac{1}{3}+\\frac{1}{b} = \\frac{7}{12}$. Then $\\frac{1}{b} = \\frac{7}{12}-\\frac{4}{12} = \\frac{3}{12} = \\frac{1}{4}$, so $b = 4$. (The reciprocal of a sum is not the sum of the reciprocals: $\\frac{1}{\\frac13+\\frac1b}\\ne3+b$.)",
+  "estSeconds": 105,
+  "skills": [
+   "fraction-techniques"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 4
+  },
+  "topics": [
+   "q1.reciprocals",
+   "q1.complex-fractions"
+  ]
+ }
+]

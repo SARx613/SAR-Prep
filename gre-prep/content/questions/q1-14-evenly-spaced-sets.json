@@ -1,0 +1,478 @@
+[
+ {
+  "id": "q1-14-evenly-spaced-sets-01",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 1,
+  "stem": "A box office sells numbered tickets in order. The first ticket it sold today was number 2,317 and the last was number 2,402. If no number was skipped, how many tickets did it sell today?",
+  "explanation": "Both the first and the last ticket count: $2{,}402-2{,}317+1 = 86$. (The difference alone, 85, misses one.)",
+  "estSeconds": 45,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.count-integers-inclusive"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 86
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-02",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 1,
+  "stem": "If $n$ is the least of five consecutive even integers, which of the following is the greatest of the five?",
+  "explanation": "Consecutive even integers step by 2: $n, n+2, n+4, n+6, n+8$. The greatest is $n+8$: five terms have four gaps of 2.",
+  "choiceExplanations": {
+   "A": "$n+4$ is the middle term here; it would be the greatest of five consecutive integers, whose gap is 1.",
+   "B": "This adds the number of terms; the gap between consecutive even integers is 2, and five terms span four gaps.",
+   "D": "$n+10$ counts five gaps of 2, but five terms have only four gaps between them.",
+   "E": "$5n+20$ is the sum of the five integers, not the greatest one."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.evenly-spaced-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$n+4$"
+    },
+    {
+     "id": "B",
+     "text": "$n+5$"
+    },
+    {
+     "id": "C",
+     "text": "$n+8$"
+    },
+    {
+     "id": "D",
+     "text": "$n+10$"
+    },
+    {
+     "id": "E",
+     "text": "$5n+20$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-03",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 2,
+  "stem": "How many even integers $n$ satisfy $-13\\le n\\le58$?",
+  "explanation": "The first even integer in the range is $-12$ and the last is $58$. Count: $\\frac{58-(-12)}{2}+1 = 35+1 = 36$.",
+  "estSeconds": 60,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.count-evens-odds"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-04",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 2,
+  "stem": "How many multiples of 7 are there from 120 to 300, inclusive?",
+  "explanation": "First multiple of 7 in the range: $126$; last: $294$. Count: $\\frac{294-126}{7}+1 = 24+1 = 25$.",
+  "choiceExplanations": {
+   "A": "17 is the number of multiples of 7 below 120, not in the range.",
+   "B": "24 forgets to add 1 for the first term (the fencepost error).",
+   "D": "$\\frac{300-120}{7}\\approx25.7$ rounded up uses the ends of the range instead of the first and last multiples.",
+   "E": "42 counts all the multiples of 7 from 1 to 300."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.count-multiples-in-range"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "17"
+    },
+    {
+     "id": "B",
+     "text": "24"
+    },
+    {
+     "id": "C",
+     "text": "25"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "42"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-05",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Chapter 3 runs from page 48 through page 111: the endpoint 112 is excluded, so the count is $112-48 = 64$ (or $111-48+1 = 64$). The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.count-endpoints-excluded"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of pages in Chapter 3",
+   "quantityB": "64",
+   "common": "The pages of a report are numbered consecutively. Chapter 3 begins on page 48, and Chapter 4 begins on page 112, immediately after the last page of Chapter 3."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-06",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Both sets are evenly spaced, so each mean is the average of the first and last terms. A: $\\frac{18+114}{2} = 66$. B: $\\frac{20+110}{2} = 65$. A is greater; nothing needs to be listed or counted.",
+  "estSeconds": 75,
+  "skills": [
+   "evenly-spaced-sets",
+   "mean"
+  ],
+  "topics": [
+   "q1.mean-of-evenly-spaced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The average (arithmetic mean) of the multiples of 6 from 18 to 114, inclusive",
+   "quantityB": "The average (arithmetic mean) of the even integers from 20 to 110, inclusive"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-07",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 3,
+  "stem": "How many integers from 1 to 300, inclusive, are divisible by 8 or by 12 (or by both)?",
+  "explanation": "Multiples of 8: 8 to 296, $\\frac{296-8}{8}+1 = 37$. Multiples of 12: 12 to 300, $\\frac{300-12}{12}+1 = 25$. Both: multiples of $\\text{LCM}(8,12) = 24$, from 24 to 288: $12$. Total: $37+25-12 = 50$. (Using $8\\cdot12 = 96$ for the overlap gives the wrong 59.)",
+  "estSeconds": 90,
+  "skills": [
+   "evenly-spaced-sets",
+   "inclusion-exclusion"
+  ],
+  "topics": [
+   "q1.count-multiples-a-or-b"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 50
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-08",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 3,
+  "stem": "The average (arithmetic mean) of 11 consecutive odd integers is 47. What is the least of these integers?",
+  "explanation": "With 11 terms, the mean 47 is the 6th (middle) term, and five terms lie below it. Five steps of 2: $47-5\\cdot2 = 37$. The integers are $37, 39, \\dots, 57$.",
+  "choiceExplanations": {
+   "A": "$47-20$ goes ten steps of 2 below the mean; only five terms lie below the middle term.",
+   "B": "$47-11$ subtracts the number of terms.",
+   "D": "$47-5$ steps by 1; consecutive odd integers step by 2.",
+   "E": "57 is the greatest of the integers, not the least."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "evenly-spaced-sets",
+   "mean"
+  ],
+  "topics": [
+   "q1.mean-of-evenly-spaced",
+   "q1.evenly-spaced-sets"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "27"
+    },
+    {
+     "id": "B",
+     "text": "36"
+    },
+    {
+     "id": "C",
+     "text": "37"
+    },
+    {
+     "id": "D",
+     "text": "42"
+    },
+    {
+     "id": "E",
+     "text": "57"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-09",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 4,
+  "stem": "What is the sum of all the odd integers from 51 to 149, inclusive?",
+  "explanation": "Count: $\\frac{149-51}{2}+1 = 50$. Mean: $\\frac{51+149}{2} = 100$. Sum: $50\\cdot100 = 5{,}000$.",
+  "estSeconds": 90,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.sum-of-evenly-spaced",
+   "q1.count-evens-odds"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 5000
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-10",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 4,
+  "stem": "Let $S$ be the sum of four consecutive integers, and let $T$ be the sum of five consecutive integers. Which of the following statements must be true? Indicate all such statements.",
+  "explanation": "$S = n+(n+1)+(n+2)+(n+3) = 4n+6$: four times a mean ending in $.5$, so $S$ is 2 more than a multiple of 4. It is always even and never divisible by 4. $T = 5\\times$(middle term), so 5 divides $T$. But $T$ can be odd or even: $1+2+3+4+5 = 15$ and $2+3+4+5+6 = 20$, so D and E need not hold.",
+  "choiceExplanations": {
+   "A": "$S = 4n+6$ is always 2 more than a multiple of 4; for example, $0+1+2+3 = 6$.",
+   "D": "$2+3+4+5+6 = 20$ is even.",
+   "E": "$1+2+3+4+5 = 15$ is not divisible by 10."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "evenly-spaced-sets",
+   "remainders-parity"
+  ],
+  "topics": [
+   "q1.consecutive-sum-divisibility"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$S$ is divisible by 4."
+    },
+    {
+     "id": "B",
+     "text": "$S$ is even."
+    },
+    {
+     "id": "C",
+     "text": "$T$ is divisible by 5."
+    },
+    {
+     "id": "D",
+     "text": "$T$ is odd."
+    },
+    {
+     "id": "E",
+     "text": "$T$ is divisible by 10."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-11",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 5,
+  "stem": "How many integers from 1 to 500, inclusive, are divisible by 6 or by 15, but not by both?",
+  "explanation": "Multiples of 6: 6 to 498, $\\frac{498-6}{6}+1 = 83$. Multiples of 15: 15 to 495, $33$. Both: multiples of $\\text{LCM}(6,15) = 30$, from 30 to 480: $16$. Exactly one: $83+33-2\\cdot16 = 84$.",
+  "choiceExplanations": {
+   "B": "$83+33-16 = 100$ counts the numbers divisible by 6 or 15, which still includes the 16 divisible by both.",
+   "C": "$83+33-2\\cdot5$ takes the overlap as multiples of $6\\cdot15 = 90$; numbers divisible by both are the multiples of the LCM, 30.",
+   "D": "$83+33-5$ uses multiples of 90 for the overlap and keeps the numbers divisible by both.",
+   "E": "$83+33$ counts the 16 multiples of 30 twice instead of removing them."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "evenly-spaced-sets",
+   "inclusion-exclusion"
+  ],
+  "topics": [
+   "q1.count-multiples-a-or-b",
+   "q1.count-multiples-in-range"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "84"
+    },
+    {
+     "id": "B",
+     "text": "100"
+    },
+    {
+     "id": "C",
+     "text": "106"
+    },
+    {
+     "id": "D",
+     "text": "111"
+    },
+    {
+     "id": "E",
+     "text": "116"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-12",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A: $2+4+\\dots+2n$ has $n$ terms with mean $\\frac{2+2n}{2} = n+1$, so it equals $n(n+1)$. B: $1+2+\\dots+(n+1)$ has $n+1$ terms with mean $\\frac{n+2}{2}$, so it equals $\\frac{(n+1)(n+2)}{2}$. For $n=1$: A is 2 and B is 3. For $n=2$: both are 6. For $n=3$: A is 12 and B is 10. The relationship cannot be determined.",
+  "estSeconds": 120,
+  "skills": [
+   "evenly-spaced-sets"
+  ],
+  "topics": [
+   "q1.sum-of-evenly-spaced",
+   "q1.mean-of-evenly-spaced"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The sum of the first $n$ positive even integers",
+   "quantityB": "The sum of the first $n+1$ positive integers",
+   "common": "$n$ is a positive integer."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ }
+]

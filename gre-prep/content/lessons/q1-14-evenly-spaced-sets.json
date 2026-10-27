@@ -1,0 +1,141 @@
+{
+ "id": "q1-14-evenly-spaced-sets",
+ "status": "draft",
+ "why": "Counting the terms of a range, and averaging or adding them without listing them, turns up in arithmetic, word problems and Quantitative Comparison.",
+ "rule": "An **evenly spaced set** has the same gap $d$ between successive terms: consecutive integers $n, n+1, n+2, \\dots$ ($d=1$), consecutive even or odd integers $n, n+2, n+4, \\dots$ ($d=2$), consecutive multiples of $k$ ($d=k$). It is fixed by its first term, last term and gap.\n\n- **Integers from $a$ to $b$ inclusive:** $b-a+1$. One endpoint excluded: $b-a$; both excluded: $b-a-1$. Turn $<$ and $\\le$ into the first and last allowed integers first.\n- **Terms of any evenly spaced set:** $\\frac{\\text{last}-\\text{first}}{d}+1$, using the first and last terms that qualify (even, odd, multiple of $k$) inside the range, not the range's ends.\n- **Divisible by $A$ or $B$:** multiples of $A$ + multiples of $B$ − multiples of $\\text{LCM}(A,B)$. Divisible by exactly one: subtract the LCM count twice.\n- **Mean and median** are both $\\frac{\\text{first}+\\text{last}}{2}$: the middle term, or the average of the two middle terms.\n- **Sum** = number of terms × mean.\n- **Sum of $k$ consecutive integers** = $k$ × mean. For odd $k$ the mean is an integer, so $k$ divides the sum; for even $k$ the mean ends in $.5$, so $k$ never divides the sum.",
+ "lengthJustification": "The lesson hosts nine linked counting, mean and sum facts, each needed by at least one practice question, so the rule lists each in one line.",
+ "examples": [
+  {
+   "prompt": "How many multiples of 6 are there from 50 to 200, and what is their sum?",
+   "steps": [
+    "First multiple of 6 in the range: $54$; last: $198$ (not 50 and 200).",
+    "Count: $\\frac{198-54}{6}+1 = 24+1 = 25$.",
+    "Mean: $\\frac{54+198}{2} = 126$.",
+    "Sum: $25\\cdot126 = 3{,}150$."
+   ],
+   "answer": "25 multiples; sum 3,150"
+  },
+  {
+   "prompt": "How many integers from 1 to 100 are divisible by 4 or by 6?",
+   "steps": [
+    "Multiples of 4: 4 to 100, $\\frac{100-4}{4}+1 = 25$. Multiples of 6: 6 to 96, $\\frac{96-6}{6}+1 = 16$.",
+    "Both: multiples of $\\text{LCM}(4,6) = 12$, from 12 to 96: $\\frac{96-12}{12}+1 = 8$.",
+    "$25+16-8 = 33$."
+   ],
+   "answer": "33"
+  }
+ ],
+ "trap": "Fencepost: from 13 to 40 inclusive there are $40-13+1 = 28$ integers, not 27. Count multiples from the first and last *multiples* in the range, not from its ends. Numbers divisible by both 4 and 6 are the multiples of 12, not only those of 24.",
+ "checks": [
+  {
+   "id": "q1-14-evenly-spaced-sets-c1",
+   "lessonId": "q1-14-evenly-spaced-sets",
+   "difficulty": 1,
+   "stem": "The seats in a row of a theater are numbered 38 through 97, with no number skipped. How many seats are in the row?",
+   "explanation": "Both end seats count: $97-38+1 = 60$.",
+   "estSeconds": 45,
+   "skills": [
+    "evenly-spaced-sets"
+   ],
+   "topics": [
+    "q1.count-integers-inclusive"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 60
+   }
+  },
+  {
+   "id": "q1-14-evenly-spaced-sets-c2",
+   "lessonId": "q1-14-evenly-spaced-sets",
+   "difficulty": 2,
+   "stem": "What is the average (arithmetic mean) of all the odd integers from 15 to 63, inclusive?",
+   "explanation": "The odd integers from 15 to 63 are evenly spaced, so their mean is $\\frac{15+63}{2} = 39$.",
+   "choiceExplanations": {
+    "A": "$\\frac{63-15}{2} = 24$ halves the difference; the mean halves the sum.",
+    "B": "25 is the number of terms, $\\frac{63-15}{2}+1$, not their mean.",
+    "D": "48 is the range, $63-15$.",
+    "E": "78 is $15+63$; it still has to be halved."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "evenly-spaced-sets",
+    "mean"
+   ],
+   "topics": [
+    "q1.mean-of-evenly-spaced"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "24"
+     },
+     {
+      "id": "B",
+      "text": "25"
+     },
+     {
+      "id": "C",
+      "text": "39"
+     },
+     {
+      "id": "D",
+      "text": "48"
+     },
+     {
+      "id": "E",
+      "text": "78"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-14-evenly-spaced-sets-c3",
+   "lessonId": "q1-14-evenly-spaced-sets",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Both endpoints are excluded: $50-12-1 = 37$ (the integers 13 through 49). The quantities are equal.",
+   "estSeconds": 60,
+   "skills": [
+    "evenly-spaced-sets"
+   ],
+   "topics": [
+    "q1.count-endpoints-excluded"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of integers $x$ such that $12<x<50$",
+    "quantityB": "37"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  }
+ ]
+}

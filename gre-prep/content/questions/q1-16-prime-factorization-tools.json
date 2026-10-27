@@ -1,0 +1,531 @@
+[
+ {
+  "id": "q1-16-prime-factorization-tools-01",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 1,
+  "stem": "What is the greatest common factor of 52 and 78?",
+  "explanation": "Test the factors of the smaller number from the top down: 52 does not divide 78, but 26 does ($78 = 3\\cdot26$). So the greatest common factor is 26.",
+  "choiceExplanations": {
+   "A": "2 divides both numbers, but larger common factors exist.",
+   "B": "4 does not divide 78.",
+   "C": "13 divides both, but 26 is larger and also divides both.",
+   "E": "52 does not divide 78."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "factors-multiples"
+  ],
+  "topics": [
+   "q1.lcm-gcf-by-listing"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "2"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "13"
+    },
+    {
+     "id": "D",
+     "text": "26"
+    },
+    {
+     "id": "E",
+     "text": "52"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-02",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 1,
+  "stem": "Which of the following integers is divisible by 4?",
+  "explanation": "Only the last two digits matter. Of 18, 46, 24, 62 and 10, only 24 is divisible by 4, so 3,524 is the answer.",
+  "choiceExplanations": {
+   "A": "Its last two digits, 18, are not divisible by 4; being even is not enough.",
+   "B": "Its last two digits, 46, are not divisible by 4.",
+   "D": "Its last two digits, 62, are not divisible by 4.",
+   "E": "It ends in 0, so it is divisible by 10, but its last two digits, 10, are not divisible by 4."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisibility-rules"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1,318"
+    },
+    {
+     "id": "B",
+     "text": "2,146"
+    },
+    {
+     "id": "C",
+     "text": "3,524"
+    },
+    {
+     "id": "D",
+     "text": "4,362"
+    },
+    {
+     "id": "E",
+     "text": "5,610"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-03",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 2,
+  "stem": "A rectangle has an area of 72 square centimeters, and its length and width, in centimeters, are both integers. How many rectangles with different dimensions are possible? (A 4-by-18 rectangle and an 18-by-4 rectangle count as the same.)",
+  "explanation": "Each rectangle is a factor pair of 72. Test divisors up to $\\sqrt{72}\\approx8.5$: $1\\cdot72$, $2\\cdot36$, $3\\cdot24$, $4\\cdot18$, $6\\cdot12$, $8\\cdot9$ (5 and 7 do not divide 72). That is 6 pairs.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "topics": [
+   "q1.factor-pairs"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-04",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 2,
+  "stem": "Which of the following integers have exactly the same distinct prime factors as $12^5$? Indicate all such integers.",
+  "explanation": "A power keeps the distinct primes of its base, so $12^5$ has the primes of $12 = 2^2\\cdot3$, namely 2 and 3. $6^7$ and $18^2$ have bases built from both 2 and 3 and nothing else.",
+  "choiceExplanations": {
+   "A": "$2^{10}$ has only the prime 2.",
+   "C": "$9^5 = 3^{10}$ has only the prime 3.",
+   "E": "$30 = 2\\cdot3\\cdot5$, so $30^3$ also has the prime 5."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.powers-keep-prime-set"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2^{10}$"
+    },
+    {
+     "id": "B",
+     "text": "$6^7$"
+    },
+    {
+     "id": "C",
+     "text": "$9^5$"
+    },
+    {
+     "id": "D",
+     "text": "$18^2$"
+    },
+    {
+     "id": "E",
+     "text": "$30^3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-05",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Multiples of 6 include 0 and negative numbers: $-18, -12, -6, 0, 6, 12, 18$. That is 7, so Quantity A is greater. Counting only the positive multiples gives 3, and adding just the negatives gives 6; both miss part of the list.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "topics": [
+   "q1.multiples"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of integers $k$ with $-20\\le k\\le20$ that are multiples of 6",
+   "quantityB": "6"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-06",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "When one integer divides another, the smaller is the GCD and the larger is the LCM. 12 divides $n$, so LCM$(n, 12) = n$. $n$ divides $3n$, so GCD$(n, 3n) = n$. The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "factors-multiples"
+  ],
+  "topics": [
+   "q1.lcm-gcf-nested"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The least common multiple of $n$ and 12",
+   "quantityB": "The greatest common divisor of $n$ and $3n$",
+   "common": "$n$ is a positive multiple of 12."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-07",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$720 = 2^4\\cdot3^2\\cdot5$ has 3 distinct prime factors: 2, 3 and 5 (counting with repetition would give 7, but Quantity A asks for distinct ones). $462 = 2\\cdot3\\cdot7\\cdot11$ has 4 prime factors. Quantity B is greater.",
+  "estSeconds": 75,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.distinct-prime-factors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of distinct prime factors of 720",
+   "quantityB": "The number of prime factors of 462, counted with repetition"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-08",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 3,
+  "stem": "Which of the following are squares of integers? Indicate all such numbers.",
+  "explanation": "Rewrite each in primes and check that every exponent is even. $2^4\\cdot3^6$ already is. $6^3\\cdot24 = 2^3\\cdot3^3\\cdot2^3\\cdot3 = 2^6\\cdot3^4$. $50\\cdot2^5 = 2\\cdot5^2\\cdot2^5 = 2^6\\cdot5^2$.",
+  "choiceExplanations": {
+   "B": "$8\\cdot3^4 = 2^3\\cdot3^4$: the exponent of 2 is odd.",
+   "C": "$12^3 = 2^6\\cdot3^3$: the exponent of 3 is odd.",
+   "D": "Odd exponents in $6^3$ and $24$ combine: $2^6\\cdot3^4$ is a square ($72^2$)."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.perfect-square-exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2^4\\cdot3^6$"
+    },
+    {
+     "id": "B",
+     "text": "$8\\cdot3^4$"
+    },
+    {
+     "id": "C",
+     "text": "$12^3$"
+    },
+    {
+     "id": "D",
+     "text": "$6^3\\cdot24$"
+    },
+    {
+     "id": "E",
+     "text": "$50\\cdot2^5$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-09",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 4,
+  "stem": "What is the least positive integer $k$ such that $2{,}160k$ is the cube of an integer?",
+  "explanation": "$2{,}160 = 2^4\\cdot3^3\\cdot5$. Raise each exponent to the next multiple of 3: $2^4$ needs $2^2$ more, $3^3$ is already fine, $5^1$ needs $5^2$ more. So $k = 2^2\\cdot5^2 = 100$, and $2{,}160\\cdot100 = 216{,}000 = 60^3$.",
+  "choiceExplanations": {
+   "A": "$2{,}160\\cdot5 = 2^4\\cdot3^3\\cdot5^2$: the exponents of 2 and 5 are still not multiples of 3.",
+   "B": "$2{,}160\\cdot10 = 2^5\\cdot3^3\\cdot5^2$: adding one of each missing prime is not enough.",
+   "C": "$2{,}160\\cdot20 = 2^6\\cdot3^3\\cdot5^2$: the 2s are fixed but the 5s are not.",
+   "D": "$2{,}160\\cdot50 = 2^5\\cdot3^3\\cdot5^3$: the 5s are fixed but the 2s are not."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.perfect-cube-exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "10"
+    },
+    {
+     "id": "C",
+     "text": "20"
+    },
+    {
+     "id": "D",
+     "text": "50"
+    },
+    {
+     "id": "E",
+     "text": "100"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-10",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 4,
+  "stem": "How many integers $n$ with $50 < n < 300$ have an odd number of positive divisors?",
+  "explanation": "Divisors pair up as $d$ and $\\frac{n}{d}$ except when $d = \\sqrt{n}$, so only perfect squares have an odd number of divisors. The squares strictly between 50 and 300 are $8^2 = 64$ through $17^2 = 289$, which is $17 - 8 + 1 = 10$ integers.",
+  "estSeconds": 75,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.perfect-square-factor-count"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 10
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-11",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 5,
+  "stem": "What is the least positive integer that is divisible by each of 8, 12 and 15 and is also the square of an integer?",
+  "explanation": "Every common multiple of 8, 12 and 15 is a multiple of their LCM: $8 = 2^3$, $12 = 2^2\\cdot3$, $15 = 3\\cdot5$, so LCM $= 2^3\\cdot3\\cdot5$. A square needs even exponents, so raise each to the next even number: $2^4\\cdot3^2\\cdot5^2 = 3{,}600 = 60^2$.",
+  "choiceExplanations": {
+   "A": "120 is the LCM, but $2^3\\cdot3\\cdot5$ is not a square.",
+   "B": "$900 = 30^2$ is a square, but it is not divisible by 8.",
+   "C": "1,440 is the product $8\\cdot12\\cdot15 = 2^5\\cdot3^2\\cdot5$, which is not a square.",
+   "E": "$14{,}400 = 120^2$ qualifies but is not the least; squaring the LCM overshoots."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "factors-multiples"
+  ],
+  "topics": [
+   "q1.lcm-three-or-more",
+   "q1.perfect-square-exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "120"
+    },
+    {
+     "id": "B",
+     "text": "900"
+    },
+    {
+     "id": "C",
+     "text": "1,440"
+    },
+    {
+     "id": "D",
+     "text": "3,600"
+    },
+    {
+     "id": "E",
+     "text": "14,400"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-16-prime-factorization-tools-12",
+  "lessonId": "q1-16-prime-factorization-tools",
+  "difficulty": 5,
+  "stem": "$n = 2^a\\cdot3^b$, where $a$ and $b$ are positive integers, and $n$ has an odd number of positive divisors. Which of the following must be true? Indicate all such statements.",
+  "explanation": "An odd number of positive divisors means $n$ is a perfect square, so $\\sqrt{n}$ is an integer and $a$ and $b$ are both even; then $a + b$ is even. Positive even exponents are at least 2, so $2^2\\cdot3^2 = 36$ divides $n$.",
+  "choiceExplanations": {
+   "B": "$n = 36 = 2^2\\cdot3^2$ fits the conditions and is not divisible by 72.",
+   "E": "$n = 144 = 2^4\\cdot3^2$ fits the conditions and has $5\\cdot3 = 15$ positive divisors."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.perfect-square-factor-count",
+   "q1.perfect-square-exponents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$n$ is divisible by 36."
+    },
+    {
+     "id": "B",
+     "text": "$n$ is divisible by 72."
+    },
+    {
+     "id": "C",
+     "text": "$a+b$ is even."
+    },
+    {
+     "id": "D",
+     "text": "$\\sqrt{n}$ is an integer."
+    },
+    {
+     "id": "E",
+     "text": "$n$ has exactly 9 positive divisors."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
+ }
+]

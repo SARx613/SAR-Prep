@@ -1,0 +1,445 @@
+[
+ {
+  "id": "q1-23-absolute-value-equations-01",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$-(-a) = a = -7$, while $|-a| = |7| = 7$. B is greater.",
+  "estSeconds": 45,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.opposites-and-absolute-value"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$-(-a)$",
+   "quantityB": "$|-a|$",
+   "common": "$a = -7$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-02",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 1,
+  "stem": "What is the sum of the two solutions of $|x-6| = 10$?",
+  "explanation": "$x-6 = 10$ or $x-6 = -10$, so $x = 16$ or $x = -4$. The sum is $12$.",
+  "estSeconds": 45,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.absolute-value-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-03",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 2,
+  "stem": "What is the product of all solutions of $3|2x-1|+4 = 19$?",
+  "explanation": "Isolate: $3|2x-1| = 15$, so $|2x-1| = 5$. Then $2x-1 = 5$ gives $x = 3$, and $2x-1 = -5$ gives $x = -2$. The product is $-6$.",
+  "choiceExplanations": {
+   "A": "This splits before isolating: $3(2x-1)+4 = -19$ gives $x = -\\frac{10}{3}$, not a solution.",
+   "B": "In the negative case, $2x = -5+1 = -4$, so $x = -2$, not $-3$.",
+   "D": "This is the sum of the solutions, not the product.",
+   "E": "This keeps only the positive case."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.isolate-absolute-value",
+   "q1.absolute-value-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-10$"
+    },
+    {
+     "id": "B",
+     "text": "$-9$"
+    },
+    {
+     "id": "C",
+     "text": "$-6$"
+    },
+    {
+     "id": "D",
+     "text": "$1$"
+    },
+    {
+     "id": "E",
+     "text": "$3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-04",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 2,
+  "stem": "Which of the following is equivalent to $|2x-5|<9$?",
+  "explanation": "Write $-9<2x-5<9$. Add 5: $-4<2x<14$. Divide by 2: $-2<x<7$.",
+  "choiceExplanations": {
+   "A": "This solves $|2x+5|<9$; the sign inside the bars was flipped.",
+   "C": "The left side is $-9+5 = -4$, so the lower bound is $-2$, not 2.",
+   "D": "This keeps only $2x-5<9$ and drops the lower bound.",
+   "E": "Two rays describe $|2x-5|>9$; a less-than inequality gives one interval."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q2.absolute-value-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-7<x<2$"
+    },
+    {
+     "id": "B",
+     "text": "$-2<x<7$"
+    },
+    {
+     "id": "C",
+     "text": "$2<x<7$"
+    },
+    {
+     "id": "D",
+     "text": "$x<7$"
+    },
+    {
+     "id": "E",
+     "text": "$x<-2$ or $x>7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-05",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x^2<25$ means $-5<x<5$, so $x$ is always greater than $-5$. A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q2.squared-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$-5$",
+   "common": "$x^2<25$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-06",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The distance condition is $|r-(-4)| = 7$, so $r+4 = 7$ or $r+4 = -7$: $r = 3$ or $r = -11$. One is positive, one is negative, so the relationship cannot be determined.",
+  "estSeconds": 60,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.opposites-and-absolute-value",
+   "q1.absolute-value-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$r$",
+   "quantityB": "$0$",
+   "common": "On the number line, the distance between $r$ and $-4$ is $7$."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-07",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 3,
+  "stem": "What is the sum of all solutions of $|3x-2| = |x+6|$?",
+  "explanation": "$|A| = |B|$ means $A = B$ or $A = -B$. $3x-2 = x+6$ gives $x = 4$. $3x-2 = -(x+6)$ gives $4x = -4$, so $x = -1$. The sum is $4+(-1) = 3$.",
+  "estSeconds": 75,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.two-absolute-values-equal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-08",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Since $b<0$, $a-b = 5+|b|$, so A is $5+|b|$. B is $5-|b|$. Because $|b|>0$, A is greater. (Equality needs $a$ and $b$ of the same sign or $b = 0$.)",
+  "estSeconds": 60,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.abs-of-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$|a-b|$",
+   "quantityB": "$|a|-|b|$",
+   "common": "$a = 5$ and $b<0$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-09",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 4,
+  "stem": "Which of the following are solutions of $|x-5| = 3x+1$? Indicate all such values.",
+  "explanation": "Case 1: $x-5 = 3x+1$ gives $x = -3$. Case 2: $x-5 = -(3x+1)$ gives $4x = 4$, so $x = 1$. Check: $x = 1$ gives $|-4| = 4$ and $3(1)+1 = 4$, true. $x = -3$ gives $|-8| = 8$ but $3(-3)+1 = -8$, so it is rejected. Only $x = 1$ works.",
+  "choiceExplanations": {
+   "A": "Case 1 produces $-3$, but the right side $3x+1 = -8$ is negative there, so it fails the check.",
+   "B": "$|-1-5| = 6$, but $3(-1)+1 = -2$.",
+   "D": "This comes from writing $-(3x+1)$ as $-3x+1$; $|\\frac{3}{2}-5| = \\frac{7}{2}$, but $3\\cdot\\frac{3}{2}+1 = \\frac{11}{2}$.",
+   "E": "$|3-5| = 2$, but $3(3)+1 = 10$."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.check-absolute-solutions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-3$"
+    },
+    {
+     "id": "B",
+     "text": "$-1$"
+    },
+    {
+     "id": "C",
+     "text": "$1$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{3}{2}$"
+    },
+    {
+     "id": "E",
+     "text": "$3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-10",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 4,
+  "stem": "How many integers $n$ satisfy $10<n^2<50$?",
+  "explanation": "$n^2<50$ means $-\\sqrt{50}<n<\\sqrt{50}$, about $-7.07<n<7.07$. $n^2>10$ means $n<-\\sqrt{10}$ or $n>\\sqrt{10}$, about $3.16$. So $n = 4, 5, 6, 7$ or $n = -4, -5, -6, -7$: 8 integers.",
+  "estSeconds": 90,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q2.squared-inequalities"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 8
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-11",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 5,
+  "stem": "If $y = -2$ and $|x-y| = |x|-|y|$, which of the following could be the value of $x$? Indicate all such values.",
+  "explanation": "Since $y\\ne0$, equality needs $x$ to have the same sign as $y$ (negative) and $|x|\\ge|y| = 2$, so $x\\le-2$. Check: $x = -5$ gives $|-3| = 3 = 5-2$; $x = -2$ gives $0 = 2-2$.",
+  "choiceExplanations": {
+   "C": "$|-1+2| = 1$, but $|-1|-|-2| = -1$; $|x|$ is smaller than $|y|$.",
+   "D": "$|0+2| = 2$, but $0-2 = -2$.",
+   "E": "$|3+2| = 5$, but $3-2 = 1$; $x$ and $y$ have opposite signs."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.abs-of-difference"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-5$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$-1$"
+    },
+    {
+     "id": "D",
+     "text": "$0$"
+    },
+    {
+     "id": "E",
+     "text": "$3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-23-absolute-value-equations-12",
+  "lessonId": "q1-23-absolute-value-equations",
+  "difficulty": 5,
+  "stem": "How many real numbers $x$ satisfy $\\big||x-3|-4\\big| = 5$?",
+  "explanation": "Split the outer bars: $|x-3|-4 = 5$ or $|x-3|-4 = -5$. Isolate: $|x-3| = 9$ or $|x-3| = -1$. The second is impossible (negative). The first gives $x = 12$ or $x = -6$: 2 solutions.",
+  "estSeconds": 120,
+  "skills": [
+   "absolute-value-equations"
+  ],
+  "topics": [
+   "q1.isolate-absolute-value",
+   "q1.absolute-value-equations"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ }
+]

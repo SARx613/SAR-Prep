@@ -1,0 +1,143 @@
+{
+ "id": "q1-19-fraction-techniques",
+ "status": "draft",
+ "why": "Fraction arithmetic and fraction comparisons sit inside many Quantitative Comparison items, where a fast shortcut beats long division.",
+ "rule": "- **Least common denominator** = the LCM of the denominators: for $\\frac{1}{4}, \\frac{1}{6}, \\frac{1}{10}$ it is $2^2\\cdot3\\cdot5 = 60$. Any common multiple works; the least keeps numbers small.\n- **Whole $\\pm$ fraction:** write the whole number over the same denominator: $2-\\frac{3}{7} = \\frac{14}{7}-\\frac{3}{7} = \\frac{11}{7}$. What is left after $\\frac{a}{b}$ is used is $\\frac{b-a}{b}$.\n- **Cancel first:** any numerator factor cancels any denominator factor, even across fractions: $\\frac{4}{9}\\cdot\\frac{3}{8} = \\frac{1}{3}\\cdot\\frac{1}{2}$. A whole number $n$ is $\\frac{n}{1}$.\n- **Reciprocal** of $\\frac{a}{b}$ is $\\frac{b}{a}$ (product 1, same sign; 0 has none), so $1\\div\\frac{a}{b} = \\frac{b}{a}$ and $5\\div\\frac{5}{8} = 8$. If $0<x<1$, then $\\frac{1}{x}>1$.\n- **Stacked fractions:** turn the top and the bottom into single fractions, or multiply both by the LCD of the small fractions; work nested ones from the inside out.\n- **Compare:** with positive denominators, $\\frac{a}{b}>\\frac{c}{d}$ exactly when $ad>bc$. Or give them a common numerator: then the smaller denominator wins ($\\frac{2}{5} = \\frac{6}{15} > \\frac{6}{17}$).\n- **Same amount on top and bottom:** for positive $a$, $b$ and $k$, $\\frac{a+k}{b+k}$ lies between $\\frac{a}{b}$ and 1. Subtracting $k$ (terms staying positive) moves it away from 1.",
+ "lengthJustification": "Eight separate fraction techniques are each the key step of a practice question, so each needs one line.",
+ "examples": [
+  {
+   "prompt": "Simplify $\\dfrac{2-\\frac{1}{3}}{\\frac{1}{2}+\\frac{1}{6}}$.",
+   "steps": [
+    "The LCD of $\\frac{1}{3}, \\frac{1}{2}, \\frac{1}{6}$ is 6. Multiply top and bottom by 6.",
+    "Top: $12-2 = 10$. Bottom: $3+1 = 4$.",
+    "$\\frac{10}{4} = \\frac{5}{2}$."
+   ],
+   "answer": "$\\frac{5}{2}$"
+  },
+  {
+   "prompt": "Which is greater, $\\frac{7}{12}$ or $\\frac{9}{14}$?",
+   "steps": [
+    "Cross-multiply (denominators positive): $7\\cdot14 = 98$ and $12\\cdot9 = 108$. Since $98<108$, $\\frac{7}{12}<\\frac{9}{14}$.",
+    "Or: $\\frac{9}{14} = \\frac{7+2}{12+2}$, and adding 2 to top and bottom moves a fraction below 1 up toward 1."
+   ],
+   "answer": "$\\frac{9}{14}$"
+  }
+ ],
+ "trap": "Cross-multiply only when both denominators are positive: $\\frac{1}{-2}<\\frac{1}{3}$, yet $1\\cdot3>(-2)\\cdot1$. And adding the same number to top and bottom does not always increase a fraction: $\\frac{5}{3}>\\frac{6}{4}$, because a fraction above 1 moves down toward 1.",
+ "checks": [
+  {
+   "id": "q1-19-fraction-techniques-c1",
+   "lessonId": "q1-19-fraction-techniques",
+   "difficulty": 1,
+   "stem": "What is $\\frac{6}{35}\\cdot\\frac{14}{9}$? Enter your answer as a fraction.",
+   "explanation": "Cancel before multiplying: 6 against 9 leaves $\\frac{2}{3}$, and 14 against 35 leaves $\\frac{2}{5}$. So $\\frac{2}{5}\\cdot\\frac{2}{3} = \\frac{4}{15}$.",
+   "estSeconds": 45,
+   "skills": [
+    "fraction-techniques"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.26666666666666666,
+    "fraction": {
+     "numerator": 4,
+     "denominator": 15
+    }
+   },
+   "topics": [
+    "q1.multiply-divide-fractions"
+   ]
+  },
+  {
+   "id": "q1-19-fraction-techniques-c2",
+   "lessonId": "q1-19-fraction-techniques",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Give both fractions the numerator 6: $\\frac{3}{7} = \\frac{6}{14}$. With equal numerators, the smaller denominator gives the larger fraction, so $\\frac{6}{13} > \\frac{6}{14}$. Quantity B is greater.",
+   "estSeconds": 60,
+   "skills": [
+    "fraction-techniques"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\frac{3}{7}$",
+    "quantityB": "$\\frac{6}{13}$"
+   },
+   "answer": {
+    "choice": "B"
+   },
+   "topics": [
+    "q1.compare-fractions-common-terms"
+   ]
+  },
+  {
+   "id": "q1-19-fraction-techniques-c3",
+   "lessonId": "q1-19-fraction-techniques",
+   "difficulty": 3,
+   "stem": "What is the value of $\\dfrac{1+\\frac{1}{2}}{2-\\frac{1}{3}}$?",
+   "explanation": "Multiply top and bottom by 6, the LCD of the small fractions: $\\dfrac{6+3}{12-2} = \\frac{9}{10}$.",
+   "choiceExplanations": {
+    "A": "This ignores the $\\frac{1}{3}$ in the denominator: $\\frac{3}{2}\\div2$.",
+    "C": "This divides the denominator by the numerator: the fraction is upside down.",
+    "D": "This multiplies $\\frac{3}{2}$ by $\\frac{5}{3}$ instead of dividing.",
+    "E": "$2-\\frac{1}{3}$ is $\\frac{5}{3}$, not $\\frac{1}{3}$."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "fraction-techniques"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{3}{4}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{9}{10}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{10}{9}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{5}{2}$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac{9}{2}$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   },
+   "topics": [
+    "q1.complex-fractions",
+    "q1.whole-and-fraction"
+   ]
+  }
+ ]
+}

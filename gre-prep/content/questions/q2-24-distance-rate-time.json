@@ -1,0 +1,538 @@
+[
+ {
+  "id": "q2-24-distance-rate-time-01",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 1,
+  "stem": "A ferry crosses a 9-mile channel at a constant speed of 12 miles per hour. How many minutes does one crossing take?",
+  "explanation": "$t=\\frac{d}{r}=\\frac{9}{12}=\\frac34$ hour, and $\\frac34\\cdot60=45$ minutes.",
+  "choiceExplanations": {
+   "A": "That is the time in hours; the question asks for minutes.",
+   "C": "0.75 hour is three quarters of 60 minutes, which is 45 minutes, not 75.",
+   "D": "$\\frac{12}{9}\\cdot60$ divides the speed by the distance; time is distance divided by speed.",
+   "E": "$9\\cdot12$ multiplies the distance by the speed, which is not a time."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.single-trip-rate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$0.75$"
+    },
+    {
+     "id": "B",
+     "text": "$45$"
+    },
+    {
+     "id": "C",
+     "text": "$75$"
+    },
+    {
+     "id": "D",
+     "text": "$80$"
+    },
+    {
+     "id": "E",
+     "text": "$108$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-02",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 1,
+  "stem": "Two towns are 273 kilometers apart. At noon a bus leaves each town and heads toward the other town, one bus at a constant 60 kilometers per hour and the other at a constant 70 kilometers per hour. How many hours after noon do the buses pass each other? (Enter a decimal.)",
+  "explanation": "Moving toward each other, they close the gap at $60+70=130$ kilometers per hour, so they meet after $\\frac{273}{130}=2.1$ hours.",
+  "estSeconds": 60,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.toward-each-other-same-start"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 2.1
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-03",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 2,
+  "stem": "A courier cycles from an office to a warehouse at a constant 12 miles per hour and returns along the same road at a constant 18 miles per hour. The cycling time for the round trip is 2.5 hours. How many miles is it from the office to the warehouse?",
+  "explanation": "The distance $d$ is the same each way, so the times add: $\\frac{d}{12}+\\frac{d}{18}=2.5$. Multiply by 36: $3d+2d=90$, so $d=18$.",
+  "choiceExplanations": {
+   "A": "$12\\cdot2.5\\div2$ uses the slower speed for both legs.",
+   "C": "$15\\cdot2.5\\div2$ averages the speeds; more time is spent at 12 miles per hour, so the average speed is below 15.",
+   "D": "$18\\cdot2.5\\div2$ uses the faster speed for both legs.",
+   "E": "36 miles is the round-trip distance; the question asks for one way."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.round-trip",
+   "q2.rate-table"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15$"
+    },
+    {
+     "id": "B",
+     "text": "$18$"
+    },
+    {
+     "id": "C",
+     "text": "$18.75$"
+    },
+    {
+     "id": "D",
+     "text": "$22.5$"
+    },
+    {
+     "id": "E",
+     "text": "$36$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-04",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let $t$ be the hours at 60 miles per hour; then $1.5-t$ hours were at 40. Distances add: $60t+40(1.5-t)=80$, so $20t=20$ and $t=1$. Lena drove 1 hour at 60 and 0.5 hour at 40, so Quantity A is greater.",
+  "estSeconds": 90,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.rate-table"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Lena drove 80 miles in 1.5 hours. She drove part of the distance at a constant 60 miles per hour and the rest at a constant 40 miles per hour.",
+   "quantityA": "The number of hours Lena drove at 60 miles per hour",
+   "quantityB": "The number of hours Lena drove at 40 miles per hour"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-05",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "In opposite directions the cars separate at $45+60=105$ miles per hour: $\\frac{84}{105}=0.8$ hour $=48$ minutes. In the same direction they separate at $60-45=15$ miles per hour: $\\frac{12}{15}=0.8$ hour $=48$ minutes. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.relative-motion",
+   "q2.moving-apart"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "common": "Two cars leave the same gas station at the same time and drive along a straight highway, one at a constant 45 miles per hour and the other at a constant 60 miles per hour.",
+   "quantityA": "The number of minutes until the cars are 84 miles apart, if they drive in opposite directions",
+   "quantityB": "The number of minutes until the cars are 12 miles apart, if they drive in the same direction"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-06",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 2,
+  "stem": "A train travels $k$ kilometers in $h$ hours at a constant speed. At this speed, how many minutes does it take the train to travel $m$ kilometers?",
+  "explanation": "The speed is $\\frac{k}{h}$ kilometers per hour, so $m$ kilometers take $m\\div\\frac{k}{h}=\\frac{mh}{k}$ hours, which is $\\frac{60mh}{k}$ minutes. Check with $k=20$, $h=2$, $m=30$: the speed is 10, so 30 kilometers take 3 hours, or 180 minutes, and only $\\frac{60mh}{k}$ gives 180.",
+  "choiceExplanations": {
+   "A": "Divides by 60 instead of multiplying: hours become minutes by multiplying by 60.",
+   "B": "Uses $\\frac{h}{k}$ as the speed (it is hours per kilometer) and divides by 60.",
+   "D": "Multiplies the distance by the speed instead of dividing by it.",
+   "E": "This is the reciprocal of the correct answer: it divides speed by distance."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.single-trip-rate"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{mh}{60k}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{mk}{60h}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{60mh}{k}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{60mk}{h}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{60k}{mh}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-07",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 3,
+  "stem": "Two trains leave stations 340 miles apart at the same time and travel toward each other on parallel tracks. They pass each other 2.5 hours later. If one train's average speed is 20 miles per hour greater than the other's, what is the slower train's average speed, in miles per hour?",
+  "explanation": "Together they close $\\frac{340}{2.5}=136$ miles per hour. With speeds $r$ and $r+20$: $2r+20=136$, so $r=58$.",
+  "choiceExplanations": {
+   "A": "$(136-40)\\div2$ subtracts the 20 miles per hour twice.",
+   "C": "$136\\div2$ is the average of the two speeds, not the slower one.",
+   "D": "78 is the faster train's speed.",
+   "E": "$136-20=116$ is twice the slower speed; divide by 2."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.toward-each-other-relative-speed"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$48$"
+    },
+    {
+     "id": "B",
+     "text": "$58$"
+    },
+    {
+     "id": "C",
+     "text": "$68$"
+    },
+    {
+     "id": "D",
+     "text": "$78$"
+    },
+    {
+     "id": "E",
+     "text": "$116$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-08",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 3,
+  "stem": "Two joggers leave the same corner at the same time. One runs due north at a constant 6 miles per hour and the other runs due east at a constant 8 miles per hour, each along a straight path. How many minutes after they start are the joggers 12.5 miles apart?",
+  "explanation": "After $t$ hours they are $6t$ and $8t$ miles from the corner, at a right angle, so they are $\\sqrt{(6t)^2+(8t)^2}=10t$ miles apart. $10t=12.5$ gives $t=1.25$ hours $=75$ minutes. (Adding the speeds, 14, works only for opposite directions.)",
+  "estSeconds": 90,
+  "skills": [
+   "distance-rate-time",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q2.moving-apart"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "minutes"
+  },
+  "answer": {
+   "value": 75
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-09",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 4,
+  "stem": "Ana and Ben ride bicycles toward each other along a 62-mile road. Ana starts from one end at 9:00 a.m. and rides at a constant 16 miles per hour; Ben starts from the other end at 9:30 a.m. and rides at a constant 20 miles per hour. How many minutes after 9:00 a.m. do they meet?",
+  "explanation": "From 9:00 to 9:30 Ana rides alone: $16\\cdot0.5=8$ miles, leaving 54 miles. From 9:30 the gap closes at $16+20=36$ miles per hour: $\\frac{54}{36}=1.5$ hours. They meet at 11:00 a.m., which is 120 minutes after 9:00. (Check: Ana 32 miles, Ben 30 miles.)",
+  "estSeconds": 120,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.toward-each-other-staggered",
+   "q2.rate-table"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "minutes"
+  },
+  "answer": {
+   "value": 120
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-10",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 4,
+  "stem": "Runner P starts a long-distance course at a constant 9 kilometers per hour. Ten minutes later, runner Q starts from the same point on the same course at a constant 12 kilometers per hour. How many minutes after Q starts is Q 0.5 kilometer ahead of P?",
+  "explanation": "In 10 minutes ($\\frac16$ hour) P covers $9\\cdot\\frac16=1.5$ kilometers. Q must gain $1.5+0.5=2$ kilometers at $12-9=3$ kilometers per hour: $\\frac23$ hour $=40$ minutes.",
+  "choiceExplanations": {
+   "A": "$\\frac{0.5}{3}$ hour ignores P's 1.5-kilometer head start.",
+   "B": "$\\frac{1.5-0.5}{3}$ hour subtracts the 0.5 kilometer; Q must gain the head start *plus* 0.5.",
+   "C": "30 minutes is when Q only draws level with P.",
+   "E": "50 minutes is measured from P's start, not from Q's."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.catch-up-and-pass",
+   "q2.catch-up"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$10$"
+    },
+    {
+     "id": "B",
+     "text": "$20$"
+    },
+    {
+     "id": "C",
+     "text": "$30$"
+    },
+    {
+     "id": "D",
+     "text": "$40$"
+    },
+    {
+     "id": "E",
+     "text": "$50$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-11",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 5,
+  "stem": "A bus covers a 180-kilometer route at a constant speed. If its constant speed had been 15 kilometers per hour greater, the trip would have taken 36 minutes less. What was the bus's speed, in kilometers per hour?",
+  "explanation": "36 minutes is 0.6 hour. Same distance, two times: $\\frac{180}{r}-\\frac{180}{r+15}=0.6$. Testing choices is quickest: at 60, the trip takes 3 hours; at 75, it takes 2.4 hours; the difference is 0.6 hour. (Algebra: $2700=0.6r(r+15)$, so $r^2+15r-4500=0$ and $r=60$.)",
+  "choiceExplanations": {
+   "A": "At 45 the trip takes 4 hours and at 60 it takes 3 hours: a saving of 60 minutes, not 36.",
+   "B": "At 50 the trip takes 3.6 hours and at 65 about 2.77 hours: a saving of about 50 minutes.",
+   "D": "At 72 the trip takes 2.5 hours and at 87 about 2.07 hours: a saving of about 26 minutes.",
+   "E": "75 is the faster, hypothetical speed, not the actual one."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "distance-rate-time",
+   "quadratic-equations"
+  ],
+  "topics": [
+   "q2.hypothetical-speed-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$45$"
+    },
+    {
+     "id": "B",
+     "text": "$50$"
+    },
+    {
+     "id": "C",
+     "text": "$60$"
+    },
+    {
+     "id": "D",
+     "text": "$72$"
+    },
+    {
+     "id": "E",
+     "text": "$75$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-12",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 5,
+  "stem": "Two cyclists start at the same time from the two ends of a straight 30-mile road and ride toward each other, one at a constant 9 miles per hour and the other at a constant 6 miles per hour. After they pass each other, each keeps riding at the same speed. At which of the following times after the start are the cyclists exactly 6 miles apart? Indicate all such times.",
+  "explanation": "The distance between them changes at $9+6=15$ miles per hour both before and after they pass. Before passing: $30-15t=6$, so $t=1.6$ hours $=96$ minutes. After passing: $15t-30=6$, so $t=2.4$ hours $=144$ minutes (both are still on the road).",
+  "choiceExplanations": {
+   "A": "At 24 minutes they have closed only 6 miles and are 24 miles apart.",
+   "C": "At 120 minutes they meet: the distance is 0.",
+   "E": "At 160 minutes they have covered 40 miles together, so they are 10 miles apart."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.relative-motion",
+   "q2.toward-each-other-same-start"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "24 minutes"
+    },
+    {
+     "id": "B",
+     "text": "96 minutes"
+    },
+    {
+     "id": "C",
+     "text": "120 minutes"
+    },
+    {
+     "id": "D",
+     "text": "144 minutes"
+    },
+    {
+     "id": "E",
+     "text": "160 minutes"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ }
+]

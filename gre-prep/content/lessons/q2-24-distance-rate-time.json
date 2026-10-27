@@ -1,0 +1,143 @@
+{
+ "id": "q2-24-distance-rate-time",
+ "status": "draft",
+ "why": "Meeting, chasing, round-trip and \"what if it had gone faster\" stories are standard GRE word problems, and each one reduces to a short table built on $d=rt$.",
+ "rule": "Build a small table: one row per traveller or leg, with columns rate × time = distance. Fill in what you know, put one unknown in one cell, then link the rows by what the story says they share: the same distance, a total time, or a difference in time. Convert minutes to hours before multiplying by a speed in miles per hour.\n\n- **One trip:** $d$ miles at $r$ miles per hour takes $\\frac{d}{r}$ hours, or $\\frac{60d}{r}$ minutes. Check variable answer choices by plugging in easy numbers.\n- **Round trip:** the same $d$ each way, so the total time is $\\frac{d}{r_1}+\\frac{d}{r_2}$.\n- **\"Had it gone $v$ faster, it would have taken $t$ hours less\":** $\\frac{d}{r}-\\frac{d}{r+v}=t$. Testing the answer choices is often quickest.\n- **Relative speed:** the distance between two travellers changes at the *sum* of their speeds when they move in opposite directions (toward or away from each other) and at the *difference* when they move in the same direction. Time = change in distance ÷ relative speed.\n- **Meeting:** if one starts earlier, first subtract the distance it covers alone. If one speed is given through the other ($r$ and $r+10$), use one variable.\n- **Right-angle paths** (one north, one east): the distance apart is $\\sqrt{d_1^2+d_2^2}$.\n- **Catching up:** the head start is the slower speed × its extra time. To end $k$ miles ahead, the faster one must gain the head start plus $k$.",
+ "lengthJustification": "The lesson must cover eleven distinct motion setups that the practice set tests, one line each.",
+ "examples": [
+  {
+   "prompt": "Two towns are 110 miles apart. A van leaves the first town at 1:00 p.m. at 40 miles per hour, heading for the second town. A truck leaves the second town at 1:30 p.m. at 50 miles per hour, heading for the first. At what time do they meet?",
+   "steps": [
+    "Table rows: van (rate 40, time $t+0.5$), truck (rate 50, time $t$), where $t$ is hours after 1:30.",
+    "Alone from 1:00 to 1:30 the van covers $40\\cdot0.5=20$ miles, leaving $110-20=90$ miles.",
+    "From 1:30 they close the gap at $40+50=90$ miles per hour: $t=\\frac{90}{90}=1$ hour.",
+    "Check: van $40\\cdot1.5=60$, truck $50\\cdot1=50$, and $60+50=110$."
+   ],
+   "answer": "2:30 p.m."
+  },
+  {
+   "prompt": "A cyclist rides 60 miles. Had she ridden 3 miles per hour faster, she would have finished 1 hour sooner. What was her speed?",
+   "steps": [
+    "Same distance, two times: $\\frac{60}{r}-\\frac{60}{r+3}=1$.",
+    "Multiply by $r(r+3)$: $60(r+3)-60r=r(r+3)$, so $r^2+3r-180=0$.",
+    "Factor: $(r+15)(r-12)=0$, and a speed is positive, so $r=12$.",
+    "Check: $\\frac{60}{12}=5$ hours and $\\frac{60}{15}=4$ hours."
+   ],
+   "answer": "12 miles per hour"
+  }
+ ],
+ "trap": "Never average two speeds: a round trip at 30 and 60 miles per hour averages 40, not 45, because more time is spent at the slower speed. Convert minutes to hours before using a speed, and count the head start covered before the second traveller leaves.",
+ "checks": [
+  {
+   "id": "q2-24-distance-rate-time-c1",
+   "lessonId": "q2-24-distance-rate-time",
+   "difficulty": 1,
+   "stem": "Two cyclists start at the same time from the two ends of a 45-mile trail and ride toward each other, one at 14 miles per hour and the other at 16 miles per hour. After how many hours do they meet? (Enter a decimal.)",
+   "explanation": "They close the gap at $14+16=30$ miles per hour, so they meet after $\\frac{45}{30}=1.5$ hours.",
+   "estSeconds": 60,
+   "skills": [
+    "distance-rate-time"
+   ],
+   "topics": [
+    "q2.toward-each-other-same-start",
+    "q2.relative-motion"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal",
+    "unit": "hours"
+   },
+   "answer": {
+    "value": 1.5
+   }
+  },
+  {
+   "id": "q2-24-distance-rate-time-c2",
+   "lessonId": "q2-24-distance-rate-time",
+   "difficulty": 2,
+   "stem": "A bus leaves a depot traveling at a constant 48 kilometers per hour. Thirty minutes later, a car leaves the same depot on the same road, in the same direction, at a constant 64 kilometers per hour. How many hours after the car leaves does it catch up with the bus?",
+   "explanation": "Head start: $48\\cdot0.5=24$ kilometers. The car gains $64-48=16$ kilometers per hour, so it needs $\\frac{24}{16}=1.5$ hours.",
+   "choiceExplanations": {
+    "A": "$\\frac{24}{112}$ adds the speeds; in the same direction the car gains only the difference.",
+    "B": "That is the head-start time, not the catch-up time.",
+    "D": "That is the time since the bus left, not since the car left.",
+    "E": "$\\frac{48}{16}$ uses the bus's speed as the head start; in 30 minutes the bus covers only 24 kilometers."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "distance-rate-time"
+   ],
+   "topics": [
+    "q2.catch-up"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{3}{14}$"
+     },
+     {
+      "id": "B",
+      "text": "$0.5$"
+     },
+     {
+      "id": "C",
+      "text": "$1.5$"
+     },
+     {
+      "id": "D",
+      "text": "$2$"
+     },
+     {
+      "id": "E",
+      "text": "$3$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q2-24-distance-rate-time-c3",
+   "lessonId": "q2-24-distance-rate-time",
+   "difficulty": 2,
+   "stem": "A hiker walks up a trail at 3 miles per hour and comes back down the same trail at 5 miles per hour. Her total walking time is 4 hours. How many miles long is the trail, one way? (Enter a decimal.)",
+   "explanation": "Same distance $d$ each way: $\\frac{d}{3}+\\frac{d}{5}=4$. Multiply by 15: $5d+3d=60$, so $d=7.5$.",
+   "estSeconds": 75,
+   "skills": [
+    "distance-rate-time"
+   ],
+   "topics": [
+    "q2.round-trip"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "decimal",
+    "unit": "miles"
+   },
+   "answer": {
+    "value": 7.5
+   }
+  }
+ ]
+}

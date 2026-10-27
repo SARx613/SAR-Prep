@@ -1,0 +1,474 @@
+[
+ {
+  "id": "q1-25-ratio-techniques-01",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 1,
+  "stem": "If $\\frac{x}{y} = \\frac{5}{3}$, where $x$ and $y$ are positive, what is the value of $\\frac{x-y}{y}$?",
+  "explanation": "Let $x = 5k$ and $y = 3k$. Then $\\frac{x-y}{y} = \\frac{2k}{3k} = \\frac{2}{3}$.",
+  "choiceExplanations": {
+   "A": "This divides by $x+y$: $\\frac{2k}{8k}$.",
+   "B": "This divides by $x$: $\\frac{2k}{5k}$.",
+   "C": "This is $\\frac{y}{x}$.",
+   "E": "This is $\\frac{x+y}{y}$; the sign was lost."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.ratio-common-variable"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{1}{4}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{5}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{2}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{8}{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-02",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 1,
+  "stem": "At a concert, the ratio of the number of adults to the number of children is $7:2$, and there are 30 more adults than children. How many children are at the concert?",
+  "explanation": "Adults $7k$, children $2k$. The difference $5k = 30$ gives $k = 6$, so there are $2\\cdot6 = 12$ children.",
+  "estSeconds": 45,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.sufficient-ratio-info"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 12
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-03",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 2,
+  "stem": "A box holds only red tiles and white tiles, in the ratio $4:7$. Which of the following could be the number of tiles in the box? Indicate all such numbers.",
+  "explanation": "Counts are $4k$ and $7k$ with $k$ a positive integer, so the total $11k$ is a multiple of 11. Only 33 ($k = 3$) and 44 ($k = 4$) qualify.",
+  "choiceExplanations": {
+   "A": "21 is a multiple of 7, which only the white tiles must be; the total must be a multiple of 11.",
+   "B": "28 is a multiple of both 4 and 7, but the total must be a multiple of $4+7 = 11$.",
+   "E": "60 is a multiple of 4, not of 11."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.ratio-total-multiple"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "21"
+    },
+    {
+     "id": "B",
+     "text": "28"
+    },
+    {
+     "id": "C",
+     "text": "33"
+    },
+    {
+     "id": "D",
+     "text": "44"
+    },
+    {
+     "id": "E",
+     "text": "60"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-04",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 3,
+  "stem": "A paint mixture contains only red, yellow and blue paint. The ratio of red to yellow is $5:2$, and the ratio of yellow to blue is $3:4$. What fraction of the mixture is blue paint?",
+  "explanation": "Match yellow at the LCM of 2 and 3, which is 6: red:yellow $= 15:6$ and yellow:blue $= 6:8$. So red:yellow:blue $= 15:6:8$, and blue is $\\frac{8}{29}$ of the mixture.",
+  "choiceExplanations": {
+   "B": "This adds all four terms, $4\\div(5+2+3+4)$, as if yellow appeared twice.",
+   "C": "This writes $5:2:4$ without matching the yellow terms.",
+   "D": "This is the fraction that is red.",
+   "E": "This is blue as a fraction of yellow and blue only."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.multipart-ratios"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{8}{29}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{7}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{4}{11}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{15}{29}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{4}{7}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-05",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let $x = 5k$ and $y = 7k$. Then $\\frac{x+y}{y-x} = \\frac{12k}{2k} = 6$ for every $k$. The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.sufficient-ratio-info",
+   "q1.ratio-common-variable"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{x+y}{y-x}$",
+   "quantityB": "6",
+   "common": "The ratio of $x$ to $y$ is $5:7$, and $x$ and $y$ are positive."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-06",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The ratios give only relative sizes. Club P could have 3 men (3 men, 2 women) while club Q has 400 men; or club P could have 300 men while club Q has 4. The relationship cannot be determined.",
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.ratio-not-counts"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of men in club P",
+   "quantityB": "The number of men in club Q",
+   "common": "In club P, the ratio of the number of men to the number of women is 3 to 2. In club Q, the ratio of the number of men to the number of women is 4 to 5."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-07",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 2,
+  "stem": "A gardener mixes compost and sand in the ratio 5 to 3 by volume to make 26 liters of potting mix. How many liters of compost are in the mix?",
+  "explanation": "Volumes are measured, so $k$ need not be an integer: $8k = 26$ gives $k = 3.25$, and compost is $5\\cdot3.25 = 16.25$ liters.",
+  "estSeconds": 60,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.fractional-multiplier"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 16.25
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-08",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 3,
+  "stem": "One-third of the marbles in a bag are red. If 12 more red marbles were added to the bag, half of the marbles in the bag would be red. How many marbles are in the bag now?",
+  "explanation": "Let $n$ be the number of marbles. Adding 12 red marbles raises both the red count and the total: $\\frac{\\frac{1}{3}n+12}{n+12} = \\frac{1}{2}$. So $\\frac{2}{3}n+24 = n+12$, $\\frac{1}{3}n = 12$ and $n = 36$. Check: $12+12 = 24$ of $48$.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q2.hypothetical-fraction-change"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 36
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-09",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Match $b$ at the LCM of 4 and 6, which is 12: $a:b = 9:12$ and $b:c = 12:14$, so $a = 9k$, $b = 12k$, $c = 14k$. Then $a+b = 21k$ and $\\frac{3}{2}c = 21k$. The quantities are equal.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.multipart-ratios",
+   "q1.sufficient-ratio-info"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$a+b$",
+   "quantityB": "$\\dfrac{3}{2}c$",
+   "common": "$a$, $b$ and $c$ are positive. The ratio of $a$ to $b$ is $3:4$, and the ratio of $b$ to $c$ is $6:7$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-10",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 5,
+  "stem": "In a class, the ratio of boys to girls is $5:3$. After 6 boys leave the class and 6 girls join it, there are 4 more girls than boys. What is the new ratio of boys to girls?",
+  "explanation": "Originally $5k$ boys and $3k$ girls. Afterwards $(3k+6)-(5k-6) = 4$, so $12-2k = 4$ and $k = 4$. Now there are $20-6 = 14$ boys and $12+6 = 18$ girls: $14:18 = 7:9$.",
+  "choiceExplanations": {
+   "B": "This forgets that 6 boys left: $20:18$.",
+   "C": "This sets up the difference with the wrong sign, $(5k-6)-(3k+6) = 4$, giving $k = 8$ and $34:30$.",
+   "D": "This forgets the 6 girls who joined: $14:12$.",
+   "E": "This is girls to boys, the reverse order."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.adjust-ratio-by-adding"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$7:9$"
+    },
+    {
+     "id": "B",
+     "text": "$10:9$"
+    },
+    {
+     "id": "C",
+     "text": "$17:15$"
+    },
+    {
+     "id": "D",
+     "text": "$7:6$"
+    },
+    {
+     "id": "E",
+     "text": "$9:7$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-11",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 4,
+  "stem": "A jar holds only red, blue and green beads, in the ratio $2:3:5$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "Counts are $2k$, $3k$, $5k$ with $k$ a positive integer, total $10k$. Green is $\\frac{5k}{10k} = \\frac{1}{2}$ of the beads, and the total is a multiple of 10. The actual counts depend on $k$.",
+  "choiceExplanations": {
+   "B": "A ratio is not a count: with $k = 4$ there are 8 red beads.",
+   "D": "The difference is $3k$, which is 3 only when $k = 1$.",
+   "E": "With $k = 1$ there are 3 blue beads."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.sufficient-ratio-info",
+   "q1.ratio-total-multiple"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Exactly half of the beads are green."
+    },
+    {
+     "id": "B",
+     "text": "The jar holds exactly 2 red beads."
+    },
+    {
+     "id": "C",
+     "text": "The total number of beads is a multiple of 10."
+    },
+    {
+     "id": "D",
+     "text": "There are exactly 3 more green beads than red beads."
+    },
+    {
+     "id": "E",
+     "text": "The number of blue beads is even."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-25-ratio-techniques-12",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 4,
+  "stem": "A drawer contains only black socks and white socks, in the ratio $5:3$. If 4 black socks are removed, more black socks than white socks remain. What is the least possible number of socks in the drawer before any are removed?",
+  "explanation": "Socks are counted, so there are $5k$ black and $3k$ white with $k$ a positive integer. After removal $5k-4>3k$, so $k>2$. The least integer is $k = 3$: $8\\cdot3 = 24$ socks (15 black, 9 white; 11 black remain). With $k = 2$ the counts end equal, 6 and 6.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.adjust-ratio-by-adding",
+   "q1.ratio-total-multiple"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
+ }
+]

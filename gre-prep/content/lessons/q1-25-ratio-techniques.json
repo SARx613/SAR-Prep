@@ -1,0 +1,168 @@
+{
+ "id": "q1-25-ratio-techniques",
+ "status": "draft",
+ "why": "Ratio questions appear throughout the Quantitative section, and the harder ones test whether the ratio is enough information rather than the arithmetic.",
+ "rule": "Write the ratio $a:b$ as the amounts $ak$ and $bk$, with one multiplier $k>0$.\n\n- **A common factor cancels:** if $x:y = 3:4$, then $\\frac{2x+y}{x+2y} = \\frac{10k}{11k} = \\frac{10}{11}$.\n- **A ratio is not a count.** It fixes fractions of the whole, other ratios, and any comparison in which $k$ cancels. To find amounts you need one more number: a total, a difference or one amount.\n- **What $k$ can be:** for measured amounts, any positive number (flour to sugar $5:3$ in $10\\text{ kg}$ gives $k = 1.25$ and $6.25\\text{ kg}$ of flour). For countable items, $k$ is a positive integer, so each count is a multiple of its term and the total is a multiple of $a+b$.\n- **Merge** $a:b$ and $b:c$ by rescaling both so the shared term equals the LCM of its two values: $2:3$ and $4:5$ become $8:12$ and $12:15$, so $a:b:c = 8:12:15$.\n- **Adding or removing items:** set $\\frac{ak+m}{bk+n}$ equal to the new ratio, solve for $k$, then compute. Items added to a part are also added to the total.",
+ "lengthJustification": "Five independent ratio techniques (cancelling k, ratio versus count, the allowed values of k, merging, adding or removing items) are each the key step of practice questions, so each needs its own line.",
+ "examples": [
+  {
+   "prompt": "The ratio of $a$ to $b$ is $2:3$, the ratio of $b$ to $c$ is $4:5$, and $a+b+c = 70$. Find $c$.",
+   "steps": [
+    "The shared term $b$ is 3 in one ratio and 4 in the other; the LCM is 12.",
+    "Rescale: $a:b = 8:12$ and $b:c = 12:15$, so $a:b:c = 8:12:15$.",
+    "The parts sum to 35, so $35k = 70$, $k = 2$, and $c = 15\\cdot2 = 30$."
+   ],
+   "answer": "30"
+  },
+  {
+   "prompt": "$\\frac{3}{8}$ of the books on a shelf are novels. If 12 more novels were added, half of the books would be novels. How many books are on the shelf now?",
+   "steps": [
+    "Let $n$ be the number of books; there are $\\frac{3}{8}n$ novels.",
+    "The 12 new novels raise both the novels and the total: $\\frac{\\frac{3}{8}n+12}{n+12} = \\frac{1}{2}$.",
+    "Cross-multiply: $\\frac{3}{4}n+24 = n+12$, so $\\frac{1}{4}n = 12$ and $n = 48$. Check: $18+12 = 30$ of $60$."
+   ],
+   "answer": "48"
+  }
+ ],
+ "trap": "A group in the ratio $3:2$ could hold 3 or 300 of the first kind, so comparing counts from ratios alone gives (D). Never add a change to the ratio terms: adding 2 of each to a $3:5$ group of 6 and 10 gives $8:12 = 2:3$, not $5:7$.",
+ "checks": [
+  {
+   "id": "q1-25-ratio-techniques-c1",
+   "lessonId": "q1-25-ratio-techniques",
+   "difficulty": 1,
+   "stem": "If the ratio of $x$ to $y$ is $2:5$, with $x$ and $y$ positive, what is the ratio of $3x+y$ to $x+y$?",
+   "explanation": "Let $x = 2k$ and $y = 5k$. Then $3x+y = 11k$ and $x+y = 7k$, so the ratio is $\\frac{11}{7}$.",
+   "choiceExplanations": {
+    "A": "This is the ratio of $x+y$ to $3x+y$, in the wrong order.",
+    "B": "This is $\\frac{3x}{y}$; the $y$ in the numerator was dropped.",
+    "D": "This divides by $y$ alone instead of by $x+y$.",
+    "E": "This cancels $x$ and drops $y$: $\\frac{3x}{x}$."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "ratio"
+   ],
+   "topics": [
+    "q1.ratio-common-variable"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$\\frac{7}{11}$"
+     },
+     {
+      "id": "B",
+      "text": "$\\frac{6}{5}$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac{11}{7}$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac{11}{5}$"
+     },
+     {
+      "id": "E",
+      "text": "$3$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-25-ratio-techniques-c2",
+   "lessonId": "q1-25-ratio-techniques",
+   "difficulty": 2,
+   "stem": "The ratio of $a$ to $b$ is $3:4$ and the ratio of $b$ to $c$ is $6:5$, where $a$, $b$ and $c$ are positive. What is the ratio of $a$ to $c$?",
+   "explanation": "Match $b$ at the LCM of 4 and 6, which is 12: $a:b = 9:12$ and $b:c = 12:10$. So $a:b:c = 9:12:10$ and $a:c = 9:10$.",
+   "choiceExplanations": {
+    "A": "This pairs the first term of one ratio with the last of the other without matching $b$.",
+    "B": "This divides the ratios: $\\frac{3}{4}\\div\\frac{6}{5} = \\frac{5}{8}$.",
+    "D": "This adds the terms, $(3+6):(4+5)$; ratios are rescaled, not added.",
+    "E": "This is $c:a$, the reverse order."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "ratio"
+   ],
+   "topics": [
+    "q1.multipart-ratios"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$3:5$"
+     },
+     {
+      "id": "B",
+      "text": "$5:8$"
+     },
+     {
+      "id": "C",
+      "text": "$9:10$"
+     },
+     {
+      "id": "D",
+      "text": "$1:1$"
+     },
+     {
+      "id": "E",
+      "text": "$10:9$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-25-ratio-techniques-c3",
+   "lessonId": "q1-25-ratio-techniques",
+   "difficulty": 3,
+   "stem": "The ratio of cats to dogs at a shelter is $5:4$. After 6 of the cats are adopted, the shelter has equal numbers of cats and dogs. How many dogs are at the shelter?",
+   "explanation": "Cats $5k$, dogs $4k$. After the adoptions $5k-6 = 4k$, so $k = 6$ and there are $4\\cdot6 = 24$ dogs.",
+   "estSeconds": 60,
+   "skills": [
+    "ratio"
+   ],
+   "topics": [
+    "q1.adjust-ratio-by-adding"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 24
+   }
+  }
+ ]
+}

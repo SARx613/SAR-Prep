@@ -1,0 +1,140 @@
+{
+ "id": "q1-23-absolute-value-equations",
+ "status": "draft",
+ "why": "Absolute value equations and inequalities appear in Problem Solving and in Quantitative Comparison, where a forgotten case or an unchecked root changes the answer.",
+ "rule": "The **opposite** $-x$ is the same distance from 0 as $x$, on the other side, so $-(-x) = x$ and $|-x| = |x|$. Hence $|a-b| = |b-a|$ is the **distance between** $a$ and $b$; $|x+3| = |x-(-3)|$ is the distance from $x$ to $-3$.\n\n**Equations**\n- First **isolate** the absolute value: $3|x+2|-4 = 11$ gives $|x+2| = 5$.\n- $|E| = c$: if $c>0$, then $E = c$ or $E = -c$; if $c = 0$, $E = 0$; if $c<0$, no solution.\n- $|A| = |B|$ means $A = B$ or $A = -B$.\n- If the variable also appears outside the bars, **check every candidate** in the original equation and discard those that fail.\n\n**Inequalities** ($k>0$)\n- $|x-a|<k$ means $a-k<x<a+k$; so $|2x-3|\\le7$ means $-7\\le2x-3\\le7$.\n- $|x-a|>k$ means $x<a-k$ or $x>a+k$.\n- $x^2<k$ is $|x|<\\sqrt{k}$, so $-\\sqrt{k}<x<\\sqrt{k}$; $x^2>k$ means $x<-\\sqrt{k}$ or $x>\\sqrt{k}$.\n\n**Difference**: $|a-b|\\ge|a|-|b|$ always, with equality exactly when $b = 0$, or $a$ and $b$ have the same sign and $|a|\\ge|b|$.",
+ "examples": [
+  {
+   "prompt": "Solve $|x+5| = 3x-1$.",
+   "steps": [
+    "Case 1: $x+5 = 3x-1$, so $x = 3$.",
+    "Case 2: $x+5 = -(3x-1) = -3x+1$, so $4x = -4$ and $x = -1$.",
+    "Check: $x = 3$ gives $|8| = 8$, true. $x = -1$ gives $|4| = 4$ on the left but $-4$ on the right, so reject it."
+   ],
+   "answer": "$x = 3$ only"
+  },
+  {
+   "prompt": "How many integers satisfy $2|x-1|+3<11$?",
+   "steps": [
+    "Isolate: $2|x-1|<8$, so $|x-1|<4$.",
+    "Within 4 of 1: $-3<x<5$.",
+    "The integers are $-2,-1,0,1,2,3,4$."
+   ],
+   "answer": "7"
+  }
+ ],
+ "trap": "Split only after isolating: $|x|+3 = 7$ means $|x| = 4$, so $x = \\pm4$; writing $x+3 = \\pm7$ gives the false root $-10$. Check candidates when the variable sits outside the bars. And $x^2<9$ means $-3<x<3$, not just $x<3$.",
+ "checks": [
+  {
+   "id": "q1-23-absolute-value-equations-c1",
+   "lessonId": "q1-23-absolute-value-equations",
+   "difficulty": 1,
+   "stem": "On the number line, what is the distance between $-\\frac{7}{2}$ and its opposite?",
+   "explanation": "The opposite of $-\\frac{7}{2}$ is $\\frac{7}{2}$. Each is $\\frac{7}{2}$ from 0, on opposite sides, so the distance is $\\frac{7}{2}+\\frac{7}{2} = 7$.",
+   "estSeconds": 45,
+   "skills": [
+    "absolute-value-equations"
+   ],
+   "topics": [
+    "q1.opposites-and-absolute-value"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 7
+   }
+  },
+  {
+   "id": "q1-23-absolute-value-equations-c2",
+   "lessonId": "q1-23-absolute-value-equations",
+   "difficulty": 2,
+   "stem": "What are all the solutions of $4-|x+1| = 1$?",
+   "explanation": "Isolate first: $|x+1| = 3$. Then $x+1 = 3$ or $x+1 = -3$, so $x = 2$ or $x = -4$.",
+   "choiceExplanations": {
+    "A": "This uses $|x+1| = 5$, adding 4 instead of subtracting it while isolating.",
+    "C": "This solves $|x-1| = 3$; the sign inside the bars was flipped.",
+    "D": "This drops the case $x+1 = -3$.",
+    "E": "The isolated value $|x+1| = 3$ is positive, so there are two solutions."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "absolute-value-equations"
+   ],
+   "topics": [
+    "q1.isolate-absolute-value",
+    "q1.absolute-value-equations"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-6$ and $4$"
+     },
+     {
+      "id": "B",
+      "text": "$-4$ and $2$"
+     },
+     {
+      "id": "C",
+      "text": "$-2$ and $4$"
+     },
+     {
+      "id": "D",
+      "text": "$2$ only"
+     },
+     {
+      "id": "E",
+      "text": "There is no solution."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "q1-23-absolute-value-equations-c3",
+   "lessonId": "q1-23-absolute-value-equations",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$x^2>16$ means $x<-4$ or $x>4$. With $x = 5$, A is greater; with $x = -5$, B is greater. The relationship cannot be determined.",
+   "estSeconds": 60,
+   "skills": [
+    "absolute-value-equations"
+   ],
+   "topics": [
+    "q2.squared-inequalities"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$x$",
+    "quantityB": "$4$",
+    "common": "$x^2>16$"
+   },
+   "answer": {
+    "choice": "D"
+   }
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "id": "q1-16-prime-factorization-tools",
+ "status": "draft",
+ "why": "GRE number-property questions hide prime factorization behind factor counts, LCMs of several numbers, and 'least $k$ that makes a square or cube' setups.",
+ "rule": "**Factors and multiples.** List the positive factors of $n$ in pairs, testing divisors only up to $\\sqrt{n}$: $36 = 1\\cdot36 = 2\\cdot18 = 3\\cdot12 = 4\\cdot9 = 6\\cdot6$. Each pair gives two factors; a square root pairs with itself, so 36 has 9. The multiples of $n$ are $kn$ for every integer $k$, so 0 and negative numbers count; *positive* multiples exclude them.\n\n**Divisibility tests.**\n\n- 2, 5, 10: last digit even; 0 or 5; 0.\n- 3 or 9: digit sum divisible by 3 or 9.\n- 4 or 8: last two (three) digits divisible by 4 (8).\n- 6: passes the tests for both 2 and 3.\n\n**LCM and GCD (also called GCF).** For small numbers, list multiples of the largest until the others divide one (LCM), or test factors of the smallest from the top down (GCD). Otherwise use prime powers; this works for any number of integers. If $a$ divides $b$, then GCD $= a$ and LCM $= b$.\n\n**Reading exponents.** $72 = 2^3\\cdot3^2$ has five prime factors counted with repetition but two distinct ones; any power $72^k$ keeps the same distinct primes. A perfect square has every exponent even; a perfect cube has every exponent a multiple of 3. Only perfect squares have an odd number of positive factors.",
+ "lengthJustification": "Eleven checklist topics (factor pairs, multiples, divisibility tests, LCM/GCD shortcuts, prime-exponent facts) each need one line that a practice question relies on.",
+ "examples": [
+  {
+   "prompt": "Find the LCM and the GCD of 12, 18 and 30.",
+   "steps": [
+    "$12 = 2^2\\cdot3$, $18 = 2\\cdot3^2$, $30 = 2\\cdot3\\cdot5$.",
+    "LCM: highest power of every prime: $2^2\\cdot3^2\\cdot5 = 180$.",
+    "GCD: lowest power of each prime common to all three: $2\\cdot3 = 6$.",
+    "Note $6\\cdot180 = 1{,}080$, while $12\\cdot18\\cdot30 = 6{,}480$: GCD × LCM = product holds for two numbers only."
+   ],
+   "answer": "LCM = 180, GCD = 6"
+  },
+  {
+   "prompt": "What is the least positive integer $k$ such that $48k$ is the cube of an integer?",
+   "steps": [
+    "$48 = 2^4\\cdot3$.",
+    "Raise each exponent to the next multiple of 3: $2^4$ needs $2^2$ more to reach $2^6$; $3^1$ needs $3^2$ more to reach $3^3$.",
+    "$k = 2^2\\cdot3^2 = 36$; check: $48\\cdot36 = 1{,}728 = 12^3$."
+   ],
+   "answer": "36"
+  }
+ ],
+ "trap": "The LCM of several numbers is not their product (12, 18 and 30 give 180, not 6,480), and GCD × LCM = product only for two numbers. Read whether a question counts prime factors *with repetition* or *distinct* prime factors.",
+ "checks": [
+  {
+   "id": "q1-16-prime-factorization-tools-c1",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 1,
+   "stem": "Which of the following are multiples of 9? Indicate all such numbers.",
+   "explanation": "A multiple of 9 is $9k$ for some integer $k$: $-27 = 9\\cdot(-3)$, $0 = 9\\cdot0$ and $9 = 9\\cdot1$.",
+   "choiceExplanations": {
+    "C": "3 is a factor of 9, not a multiple: no integer $k$ gives $9k = 3$.",
+    "E": "$96 = 10\\cdot9 + 6$; its digit sum, 15, is not divisible by 9."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "factors-multiples"
+   ],
+   "topics": [
+    "q1.multiples"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-27$"
+     },
+     {
+      "id": "B",
+      "text": "$0$"
+     },
+     {
+      "id": "C",
+      "text": "$3$"
+     },
+     {
+      "id": "D",
+      "text": "$9$"
+     },
+     {
+      "id": "E",
+      "text": "$96$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "q1-16-prime-factorization-tools-c2",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 2,
+   "stem": "Which of the following integers are divisible by 6? Indicate all such integers.",
+   "explanation": "Divisible by 6 means even **and** digit sum divisible by 3. 4,182 (digit sum 15), 5,214 (12) and 9,042 (15) pass both tests.",
+   "choiceExplanations": {
+    "C": "Its digit sum, 15, is divisible by 3, but 7,323 is odd.",
+    "D": "8,516 is even, but its digit sum, 20, is not divisible by 3."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "topics": [
+    "q1.divisibility-rules"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "4,182"
+     },
+     {
+      "id": "B",
+      "text": "5,214"
+     },
+     {
+      "id": "C",
+      "text": "7,323"
+     },
+     {
+      "id": "D",
+      "text": "8,516"
+     },
+     {
+      "id": "E",
+      "text": "9,042"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "q1-16-prime-factorization-tools-c3",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 2,
+   "stem": "Which of the following is the cube of an integer?",
+   "explanation": "A cube has every prime exponent a multiple of 3. Only $2^6\\cdot5^3 = (2^2\\cdot5)^3 = 20^3$ qualifies.",
+   "choiceExplanations": {
+    "A": "The exponent 2 on the prime 3 is not a multiple of 3.",
+    "B": "The exponent 4 on the prime 2 is not a multiple of 3.",
+    "D": "The exponent 2 on the prime 7 is not a multiple of 3.",
+    "E": "The exponent 1 on the prime 2 is not a multiple of 3."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "topics": [
+    "q1.perfect-cube-exponents"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2^3\\cdot3^2$"
+     },
+     {
+      "id": "B",
+      "text": "$2^4\\cdot3^3$"
+     },
+     {
+      "id": "C",
+      "text": "$2^6\\cdot5^3$"
+     },
+     {
+      "id": "D",
+      "text": "$3^6\\cdot7^2$"
+     },
+     {
+      "id": "E",
+      "text": "$2\\cdot5^9$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}
