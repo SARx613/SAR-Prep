@@ -1,0 +1,141 @@
+{
+ "id": "q2-20-sums-of-powers",
+ "status": "draft",
+ "why": "Hard GRE exponent items hide sums, mixed bases and huge powers, and adding exponents across a sum is the classic wrong answer.",
+ "rule": "The exponent rules cover products and quotients only. A **sum** of powers needs one of these moves:\n\n- **Equal copies:** $k$ copies of $a^n$ make $k\\cdot a^n$, so $3^n+3^n+3^n=3\\cdot3^n=3^{n+1}$.\n- **Factor out the smallest power:** $2^{n+3}-2^n=2^n(2^3-1)=7\\cdot2^n$.\n- **Fractions:** use the largest power as common denominator: $\\dfrac1{3^4}+\\dfrac1{3^5}=\\dfrac{3+1}{3^5}=\\dfrac4{3^5}$.\n\nWith mixed bases (6, 12, 18…), write every base as primes, $12^n=2^{2n}3^n$, and collect exponents prime by prime.\n\nTo compare powers, give them a common exponent: $2^{30}=8^{10}$ and $3^{20}=9^{10}$, so $\\dfrac{2^{30}}{3^{20}}=\\left(\\dfrac89\\right)^{10}<1$. For size, use $2^{10}=1{,}024\\approx10^3$.\n\nWith one base on both sides, equate the exponents; if that gives a quadratic, keep every root that checks.",
+ "examples": [
+  {
+   "prompt": "Simplify $\\dfrac{3^{20}+3^{21}}{4\\cdot9^{9}}$.",
+   "steps": [
+    "Factor out the smaller power: $3^{20}+3^{21}=3^{20}(1+3)=4\\cdot3^{20}$.",
+    "Write 9 with its prime: $9^9=(3^2)^9=3^{18}$.",
+    "Cancel the 4 and subtract exponents: $\\dfrac{3^{20}}{3^{18}}=3^2$."
+   ],
+   "answer": "9"
+  },
+  {
+   "prompt": "Solve $3^{x^2}=9^{x}\\cdot27$.",
+   "steps": [
+    "One base: $9^x\\cdot27=3^{2x}\\cdot3^3=3^{2x+3}$.",
+    "Equate exponents: $x^2=2x+3$, so $x^2-2x-3=0$.",
+    "Factor: $(x-3)(x+1)=0$, so $x=3$ or $x=-1$.",
+    "Check both: $3^9=3^6\\cdot3^3$ and $3^1=3^{-2}\\cdot3^3$."
+   ],
+   "answer": "$x=3$ or $x=-1$"
+  }
+ ],
+ "trap": "$x^a+x^b\\ne x^{a+b}$ and $a^n+b^n\\ne(a+b)^n$: $2^3+2^4=8+16=24$, not $2^7=128$. Factor or compute instead, and factor out the **smallest** power, not the largest.",
+ "checks": [
+  {
+   "id": "q2-20-sums-of-powers-c1",
+   "lessonId": "q2-20-sums-of-powers",
+   "difficulty": 1,
+   "stem": "If $2^x+2^x=2^9$, what is the value of $x$?",
+   "explanation": "Two copies of $2^x$ make $2\\cdot2^x=2^{x+1}$. So $x+1=9$ and $x=8$.",
+   "estSeconds": 45,
+   "skills": [
+    "exponent-rules"
+   ],
+   "topics": [
+    "q2.adding-equal-powers"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
+   }
+  },
+  {
+   "id": "q2-20-sums-of-powers-c2",
+   "lessonId": "q2-20-sums-of-powers",
+   "difficulty": 2,
+   "stem": "Which of the following is equal to $\\dfrac{3^8+3^7}{3^7}$?",
+   "explanation": "Factor out the smaller power: $3^8+3^7=3^7(3+1)$. Dividing by $3^7$ leaves $4$.",
+   "choiceExplanations": {
+    "A": "$\\dfrac{3^8}{3^7}$ is 3, not 1.",
+    "B": "This drops the second term: $\\dfrac{3^7}{3^7}=1$ must be added.",
+    "D": "Adding the exponents in the numerator ($3^{15}$) treats the sum as a product.",
+    "E": "You cannot cancel $3^7$ from one term only; every term of the numerator is divided by $3^7$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "exponent-rules"
+   ],
+   "topics": [
+    "q2.factor-out-powers",
+    "q2.sum-of-powers-trap"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$3$"
+     },
+     {
+      "id": "C",
+      "text": "$4$"
+     },
+     {
+      "id": "D",
+      "text": "$3^8$"
+     },
+     {
+      "id": "E",
+      "text": "$3^8+1$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q2-20-sums-of-powers-c3",
+   "lessonId": "q2-20-sums-of-powers",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Give both a common exponent, 10: $3^{30}=(3^3)^{10}=27^{10}$ and $5^{20}=(5^2)^{10}=25^{10}$. Since $27>25$, Quantity A is greater.",
+   "estSeconds": 75,
+   "skills": [
+    "exponent-rules"
+   ],
+   "topics": [
+    "q2.compare-fractions-with-powers",
+    "q1.estimating-powers"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$3^{30}$",
+    "quantityB": "$5^{20}$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  }
+ ]
+}

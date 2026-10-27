@@ -1,0 +1,143 @@
+{
+ "id": "q3-11-composite-quadrilaterals",
+ "status": "draft",
+ "why": "Composite figures (a triangle or a square drawn inside a square, a border around a rectangle, the longest rod in a box) are frequent GRE geometry items, and each has a one-line shortcut.",
+ "rule": "A rectangle's diagonal is the hypotenuse of a right triangle with legs $\\ell$ and $w$: $d=\\sqrt{\\ell^2+w^2}$. It is the longest segment that fits inside the rectangle.\n\n- **Square**, side $s$: $d=s\\sqrt2$, so area $=s^2=\\frac{d^2}{2}$. The diagonals are equal, perpendicular and cut each other in half.\n- **Rectangular solid (box)**, edges $\\ell, w, h$: the longest segment inside joins opposite corners. Apply Pythagoras twice (floor diagonal, then height): $d=\\sqrt{\\ell^2+w^2+h^2}$; a cube gives $s\\sqrt3$.\n- **Triangle on a side**: its base is one side of a rectangle and its third vertex is anywhere on the opposite side. Its height is the other side, so it is half the rectangle.\n- **Square in a square**: a square with a vertex on each side of a larger one cuts off four congruent right triangles with legs $a$ and $b$. Outer side $a+b$, inner side $\\sqrt{a^2+b^2}$; at the midpoints the inner square has half the area.\n- **Border** of width $x$ around an $\\ell\\times w$ rectangle: the outer rectangle is $(\\ell+2x)\\times(w+2x)$; border area = outer area − inner area.\n\n**Same perimeter** $P$: the square has the greatest area, $\\frac{P^2}{16}$; more unequal sides give less area, down toward 0. **Same area** $A$: the square has the least perimeter, $4\\sqrt A$.",
+ "lengthJustification": "The lesson gathers eight separate figure patterns, each tested in the practice set and each needing its own one-line fact.",
+ "examples": [
+  {
+   "prompt": "A closed box measures 2 by 6 by 9. How long is the longest straight rod that fits inside it?",
+   "steps": [
+    "The rod runs from a bottom corner to the opposite top corner.",
+    "Floor diagonal: $\\sqrt{2^2+6^2}=\\sqrt{40}$.",
+    "That diagonal and the height 9 are the legs of a second right triangle: $\\sqrt{40+9^2}=\\sqrt{121}=11$."
+   ],
+   "answer": "11"
+  },
+  {
+   "prompt": "A 12 m by 8 m lawn is surrounded by a path of uniform width. The path alone has area $96\\text{ m}^2$. How wide is the path?",
+   "steps": [
+    "Let the width be $x$. The path adds $x$ on *both* sides, so the outer rectangle is $(12+2x)$ by $(8+2x)$.",
+    "Path = outer − lawn: $(12+2x)(8+2x)-96=96$, so $4x^2+40x-96=0$, i.e. $x^2+10x-24=0$.",
+    "$(x+12)(x-2)=0$, and a width is positive, so $x=2$. Check: $16\\cdot12-96=96$."
+   ],
+   "answer": "2 m"
+  }
+ ],
+ "trap": "A border of width $x$ adds $2x$ to each dimension (one $x$ on each side), not $x$. And a fixed perimeter does not fix the area: perimeter 20 allows a $5\\times5$ square (area 25) or a $1\\times9$ rectangle (area 9).",
+ "checks": [
+  {
+   "id": "q3-11-composite-quadrilaterals-c1",
+   "lessonId": "q3-11-composite-quadrilaterals",
+   "difficulty": 1,
+   "stem": "A square has a diagonal of length 10. What is the area of the square?",
+   "explanation": "Area $=\\frac{d^2}{2}=\\frac{100}{2}=50$. (The side is $\\frac{10}{\\sqrt2}=5\\sqrt2$, and $(5\\sqrt2)^2=50$.)",
+   "estSeconds": 45,
+   "skills": [
+    "quadrilaterals",
+    "special-triangles"
+   ],
+   "topics": [
+    "q3.square-properties"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 50
+   }
+  },
+  {
+   "id": "q3-11-composite-quadrilaterals-c2",
+   "lessonId": "q3-11-composite-quadrilaterals",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Take $AB$ as the base. The height from $P$ to $AB$ is the distance between the parallel sides $AB$ and $CD$, which is $BC=6$, wherever $P$ is. Area $=\\tfrac12\\cdot10\\cdot6=30$, half the rectangle.",
+   "estSeconds": 60,
+   "skills": [
+    "quadrilaterals",
+    "triangle-area"
+   ],
+   "topics": [
+    "q3.triangle-in-square"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The area of triangle $ABP$",
+    "quantityB": "30",
+    "common": "$ABCD$ is a rectangle with $AB=10$ and $BC=6$. Point $P$ lies on side $CD$."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "q3-11-composite-quadrilaterals-c3",
+   "lessonId": "q3-11-composite-quadrilaterals",
+   "difficulty": 2,
+   "stem": "A rectangular garden has an area of 48 square meters, and its length and width, in meters, are integers. What is the least possible perimeter of the garden, in meters?",
+   "explanation": "The closer to a square, the smaller the perimeter. Integer pairs with product 48: $1\\times48$, $2\\times24$, $3\\times16$, $4\\times12$, $6\\times8$. The closest pair, $6\\times8$, gives $2(6+8)=28$.",
+   "choiceExplanations": {
+    "A": "$16\\sqrt3=4\\sqrt{48}$ is the perimeter of a square of area 48, but its side $\\sqrt{48}$ is not an integer.",
+    "C": "32 comes from $4\\times12$; $6\\times8$ is closer to a square.",
+    "D": "38 comes from $3\\times16$.",
+    "E": "52 comes from $2\\times24$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "quadrilaterals",
+    "area"
+   ],
+   "topics": [
+    "q3.min-perimeter-fixed-area"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$16\\sqrt3$"
+     },
+     {
+      "id": "B",
+      "text": "28"
+     },
+     {
+      "id": "C",
+      "text": "32"
+     },
+     {
+      "id": "D",
+      "text": "38"
+     },
+     {
+      "id": "E",
+      "text": "52"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ]
+}

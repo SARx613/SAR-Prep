@@ -1,0 +1,169 @@
+{
+ "id": "q1-17-divisibility-reasoning",
+ "status": "draft",
+ "why": "GRE questions that ask what must divide a number, which expressions must be integers, or the greatest power dividing $n!$ all reduce to counting prime factors.",
+ "rule": "Divisibility is a prime count: $a$ divides $b$ when every prime of $a$ appears in $b$ at least as often. Rewrite powers in primes first: $12^3 = 2^6\\cdot3^3$ does not divide $6^5 = 2^5\\cdot3^5$ (one 2 short).\n\n- **Chains:** if $a$ divides $b$ and $b$ divides $n$, then $a$ divides $n$. The converse fails.\n- **Several divisors:** divisible by $a$ and by $b$ means divisible by their LCM, not necessarily by $ab$.\n- **Given that $\\frac{n}{k}$ is an integer:** write $n = km$; only the primes of $k$ are guaranteed. Test other claims with $n = k$.\n- **Whole counts:** if 35%, which is $\\frac{7}{20}$, of a group is a count of people, the group size is a multiple of 20. With several fractions, use the LCM of the reduced denominators.\n- **Consecutive integers** share no prime factor (a common factor would divide their difference, 1). The product of $k$ consecutive integers is divisible by $k!$: by 2, 6, 24 for $k = 2, 3, 4$. Spot them: $n^3-n = (n-1)n(n+1)$. Two consecutive even integers multiply to a multiple of 8.\n- **Factorials:** $n!$ is divisible by every integer from 1 to $n$ and by products of different ones, so $n!+k$ is divisible by $k$ for $2\\le k\\le n$.\n- **Prime $p$ in $n!$:** its exponent is the number of multiples of $p$ up to $n$, plus the number of multiples of $p^2$, plus those of $p^3$, and so on. For a composite base, count each of its primes, divide by that prime's exponent in the base, and take the smallest result.",
+ "lengthJustification": "Eleven checklist topics (divisor chains, LCM of divisors, must-be-integer, whole counts, consecutive products, factorial divisors and prime powers in n!) each need one line that a practice question relies on.",
+ "examples": [
+  {
+   "prompt": "If $\\frac{n}{12}$ is an integer, must $\\frac{n}{8}$ be an integer? Must $\\frac{n^2}{48}$?",
+   "steps": [
+    "Write $n = 12m = 2^2\\cdot3\\cdot m$: only two 2s and one 3 are guaranteed.",
+    "$8 = 2^3$ needs three 2s; $n = 12$ gives $\\frac{12}{8}$, not an integer.",
+    "$n^2 = 144m^2$ and $\\frac{144m^2}{48} = 3m^2$, always an integer."
+   ],
+   "answer": "$\\frac{n}{8}$ need not be; $\\frac{n^2}{48}$ must be."
+  },
+  {
+   "prompt": "What is the greatest integer $k$ such that $12^k$ divides $20!$?",
+   "steps": [
+    "$12 = 2^2\\cdot3$, so count 2s and 3s in $20!$.",
+    "2s: multiples of 2, 4, 8, 16 up to 20: $10+5+2+1 = 18$, enough for $\\frac{18}{2} = 9$ twelves.",
+    "3s: multiples of 3, 9 up to 20: $6+2 = 8$, enough for 8 twelves.",
+    "The scarcer prime sets the limit: $k = 8$."
+   ],
+   "answer": "8"
+  }
+ ],
+ "trap": "Divisible by 6 and by 8 does not mean divisible by 48: 24 is a counterexample. In $n!$, count the extra factors from $p^2$, $p^3$, …, and for a composite base let the scarcest prime (after dividing by its exponent in the base) decide.",
+ "checks": [
+  {
+   "id": "q1-17-divisibility-reasoning-c1",
+   "lessonId": "q1-17-divisibility-reasoning",
+   "difficulty": 1,
+   "stem": "A positive integer $n$ is divisible by both 4 and 6. Which of the following must also be a divisor of $n$?",
+   "explanation": "$n$ is a multiple of LCM$(4, 6) = 12$, and $n = 12$ itself is possible, so only the divisors of 12 are guaranteed. Of the choices, that is 12.",
+   "choiceExplanations": {
+    "A": "$n = 12$ is divisible by 4 and 6 but not by 8.",
+    "B": "$n = 12$ is not divisible by 9.",
+    "D": "$n = 12$ is not divisible by 18.",
+    "E": "24 is the product $4\\cdot6$; $n = 12$ is not divisible by 24."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "topics": [
+    "q1.divisible-by-several"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "8"
+     },
+     {
+      "id": "B",
+      "text": "9"
+     },
+     {
+      "id": "C",
+      "text": "12"
+     },
+     {
+      "id": "D",
+      "text": "18"
+     },
+     {
+      "id": "E",
+      "text": "24"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q1-17-divisibility-reasoning-c2",
+   "lessonId": "q1-17-divisibility-reasoning",
+   "difficulty": 2,
+   "stem": "How many of the seven integers $8!+2$, $8!+3$, $8!+4$, $8!+5$, $8!+6$, $8!+7$, $8!+8$ are prime?",
+   "explanation": "For each $k$ from 2 to 8, $k$ divides both $8!$ and $k$, so $k$ divides $8!+k$, which is larger than $k$. Each number has a divisor other than 1 and itself, so none is prime.",
+   "choiceExplanations": {
+    "B": "Every one of the seven numbers is divisible by its own $k$, so none is prime.",
+    "C": "Odd-looking entries such as $8!+3$ and $8!+7$ are still divisible by 3 and by 7.",
+    "D": "$8!+3$, $8!+5$ and $8!+7$ are divisible by 3, 5 and 7 respectively.",
+    "E": "Adding a small number to $8!$ does not make it prime; $8!+k$ is a multiple of $k$."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "topics": [
+    "q1.factorial-divisors"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "0"
+     },
+     {
+      "id": "B",
+      "text": "1"
+     },
+     {
+      "id": "C",
+      "text": "2"
+     },
+     {
+      "id": "D",
+      "text": "3"
+     },
+     {
+      "id": "E",
+      "text": "7"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "q1-17-divisibility-reasoning-c3",
+   "lessonId": "q1-17-divisibility-reasoning",
+   "difficulty": 2,
+   "stem": "What is the greatest integer $k$ such that $5^k$ divides $60!$?",
+   "explanation": "Multiples of 5 up to 60 give one 5 each: 12. Multiples of 25 (25 and 50) give a second 5: 2. $125 > 60$, so stop. $k = 12 + 2 = 14$.",
+   "estSeconds": 60,
+   "skills": [
+    "divisibility-primes"
+   ],
+   "topics": [
+    "q1.prime-power-in-factorial"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 14
+   }
+  }
+ ]
+}

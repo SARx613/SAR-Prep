@@ -1,0 +1,546 @@
+[
+ {
+  "id": "q3-11-composite-quadrilaterals-01",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 1,
+  "stem": "A rectangular photograph 8 inches by 5 inches is surrounded by a frame of uniform width 1 inch. What is the area, in square inches, of the frame alone?",
+  "explanation": "With the frame, each dimension grows by $2\\cdot1$, so the outer rectangle is $10\\times7=70$. Frame $=70-8\\cdot5=30$.",
+  "choiceExplanations": {
+   "A": "$9\\times6-40=14$ adds the width only once per dimension; the frame sits on both sides.",
+   "B": "$2(8+5)\\cdot1=26$ covers the four strips but misses the four $1\\times1$ corner squares.",
+   "D": "40 is the photograph itself.",
+   "E": "70 is the photograph and the frame together."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.uniform-border"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "14"
+    },
+    {
+     "id": "B",
+     "text": "26"
+    },
+    {
+     "id": "C",
+     "text": "30"
+    },
+    {
+     "id": "D",
+     "text": "40"
+    },
+    {
+     "id": "E",
+     "text": "70"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-02",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 1,
+  "stem": "A rectangular sign is 30 inches wide and 16 inches tall. What is the length, in inches, of the longest straight line segment that can be drawn on the sign?",
+  "explanation": "The longest segment inside a rectangle is a diagonal: $\\sqrt{30^2+16^2}=\\sqrt{900+256}=\\sqrt{1156}=34$.",
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.rectangle-diagonal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "inches"
+  },
+  "answer": {
+   "value": 34
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-03",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 2,
+  "stem": "The diagonals of square $ABCD$ intersect at point $E$. If $AE=4$, what is the area of the square?",
+  "explanation": "The diagonals of a square cut each other in half, so $AC=2\\cdot4=8$. Area $=\\frac{d^2}{2}=\\frac{64}{2}=32$.",
+  "choiceExplanations": {
+   "A": "$\\frac{4^2}{2}=8$ puts half the diagonal into $\\frac{d^2}{2}$.",
+   "B": "$4^2=16$ treats $AE$ as a side.",
+   "D": "$8^2=64$ treats the diagonal as a side; the side is $\\frac{8}{\\sqrt2}=4\\sqrt2$.",
+   "E": "$2\\cdot8^2$ multiplies by 2 instead of dividing."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "quadrilaterals",
+   "special-triangles"
+  ],
+  "topics": [
+   "q3.square-properties"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "8"
+    },
+    {
+     "id": "B",
+     "text": "16"
+    },
+    {
+     "id": "C",
+     "text": "32"
+    },
+    {
+     "id": "D",
+     "text": "64"
+    },
+    {
+     "id": "E",
+     "text": "128"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-04",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 2,
+  "stem": "In the figure, the vertices of square $PQRS$ lie on the sides of square $ABCD$ and divide each side of $ABCD$ into segments of lengths 3 and 4. What is the area of square $PQRS$?",
+  "explanation": "Each corner triangle is right-angled with legs 3 and 4, so each side of $PQRS$ is $\\sqrt{3^2+4^2}=5$ and its area is 25. (Check: $7^2-4\\cdot\\tfrac12\\cdot3\\cdot4=49-24=25$.)",
+  "choiceExplanations": {
+   "A": "$49-4\\cdot12=1$ forgets the $\\tfrac12$ in each triangle's area.",
+   "B": "$3\\cdot4=12$ is not the square of a side.",
+   "C": "24 is the four corner triangles together, the part outside $PQRS$.",
+   "E": "49 is the area of $ABCD$, whose side is $3+4=7$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.square-in-square"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 232\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"36,36 204,36 204,204 36,204\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"108,36 204,108 132,204 36,132\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"28\" y=\"30\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"212\" y=\"30\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"212\" y=\"216\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"28\" y=\"216\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"108\" y=\"26\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"214\" y=\"112\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"132\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"26\" y=\"136\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">S</text><text x=\"72\" y=\"30\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"156\" y=\"30\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text><text x=\"212\" y=\"74\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"212\" y=\"160\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">4</text></svg>",
+    "alt": "Square ABCD with a smaller tilted square PQRS inside it. P is on AB, Q on BC, R on CD and S on DA. Side AB is split by P into a segment labeled 3 next to A and a segment labeled 4 next to B; side BC is split by Q into 3 next to B and 4 next to C."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "24"
+    },
+    {
+     "id": "D",
+     "text": "25"
+    },
+    {
+     "id": "E",
+     "text": "49"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-05",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 2,
+  "stem": "A rectangular tabletop is 5 feet wide and 12 feet long. A thin straight rod is to be laid flat on the tabletop so that the whole rod lies on it. Which of the following could be the length of the rod? Indicate all such lengths.",
+  "explanation": "The longest segment on the tabletop is its diagonal, $\\sqrt{5^2+12^2}=13$ feet. Any rod up to 13 feet fits along the diagonal; a longer one does not.",
+  "choiceExplanations": {
+   "B": "Longer than the 12-foot side, but it fits along the 13-foot diagonal.",
+   "C": "$12.9<13$, so it fits along the diagonal.",
+   "D": "13.2 feet is longer than the diagonal, 13 feet.",
+   "E": "14 feet is longer than the diagonal, 13 feet."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.rectangle-diagonal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "11 feet"
+    },
+    {
+     "id": "B",
+     "text": "12.5 feet"
+    },
+    {
+     "id": "C",
+     "text": "12.9 feet"
+    },
+    {
+     "id": "D",
+     "text": "13.2 feet"
+    },
+    {
+     "id": "E",
+     "text": "14 feet"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-06",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Triangle $ABP$ has base $AB$ and height $BC$, the distance between $AB$ and $CD$, so its area is half the rectangle wherever $P$ sits. Triangles $APD$ and $BPC$ fill the rest, the other half. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "triangle-area"
+  ],
+  "topics": [
+   "q3.triangle-in-square"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 280 185\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,160 250,160 250,40 30,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"160\" x2=\"100\" y2=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"250\" y1=\"160\" x2=\"100\" y2=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"22\" y=\"174\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"258\" y=\"174\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"258\" y=\"44\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"22\" y=\"44\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"100\" y=\"30\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text></svg>",
+    "alt": "Rectangle ABCD with A at the bottom left, B at the bottom right, C at the top right and D at the top left. Point P is on the top side CD, closer to D. Segments AP and BP are drawn, splitting the rectangle into three triangles: APD, ABP and BPC."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of triangle $ABP$",
+   "quantityB": "The sum of the areas of triangles $APD$ and $BPC$",
+   "common": "$ABCD$ is a rectangle, and $P$ is a point on side $CD$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-07",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The length and width add to 20. A $10\\times10$ square has area 100 (equal); a $5\\times15$ rectangle has area 75 (B greater). The square gives the greatest area, so A is never greater, but it can be equal or smaller: the relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.max-area-fixed-perimeter"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of $R$",
+   "quantityB": "100",
+   "common": "Rectangle $R$ has perimeter 40."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-08",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 3,
+  "stem": "A closed rectangular box has inside dimensions 3 feet by 4 feet by 12 feet. What is the length, in feet, of the longest straight rod that fits entirely inside the box?",
+  "explanation": "Diagonal of the $3\\times4$ floor: 5. That diagonal and the height 12 are the legs of a second right triangle: $\\sqrt{5^2+12^2}=13$. (In one step: $\\sqrt{3^2+4^2+12^2}=\\sqrt{169}=13$.)",
+  "choiceExplanations": {
+   "A": "5 is the diagonal of the $3\\times4$ face only.",
+   "B": "12 is the longest edge; the rod can be longer by running corner to corner.",
+   "C": "$\\sqrt{4^2+12^2}=4\\sqrt{10}$ is the diagonal of one face; the rod can also use the third dimension.",
+   "E": "$3+4+12$ adds the edges; the rod is one straight segment."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "solids",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.space-diagonal"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "12"
+    },
+    {
+     "id": "C",
+     "text": "$4\\sqrt{10}$"
+    },
+    {
+     "id": "D",
+     "text": "13"
+    },
+    {
+     "id": "E",
+     "text": "19"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-09",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 4,
+  "stem": "A rectangular swimming pool measures 30 meters by 20 meters. A walkway of uniform width surrounds the pool, and the area of the walkway alone is 336 square meters. What is the width of the walkway, in meters?",
+  "explanation": "With width $x$, the outer rectangle is $(30+2x)$ by $(20+2x)$: $(30+2x)(20+2x)-600=336$, so $4x^2+100x-336=0$, i.e. $x^2+25x-84=0$. Then $(x+28)(x-3)=0$ and $x=3$. Check: $36\\cdot26=936=600+336$.",
+  "estSeconds": 120,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.uniform-border"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "meters"
+  },
+  "answer": {
+   "value": 3
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-10",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "For a fixed area the square has the least perimeter: side $\\sqrt{50}\\approx7.07$, perimeter $4\\sqrt{50}\\approx28.3$. Every other rectangle of area 50 has a larger perimeter, so the perimeter of $R$ is always greater than 28.",
+  "estSeconds": 90,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.min-perimeter-fixed-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The perimeter of $R$",
+   "quantityB": "28",
+   "common": "Rectangle $R$ has area 50."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-11",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 5,
+  "stem": "Rectangle $R$ has perimeter 20. Which of the following could be the length of a diagonal of $R$? Indicate all such lengths.",
+  "explanation": "Let the sides be $a$ and $b$, so $a+b=10$ and $d^2=a^2+b^2=(a+b)^2-2ab=100-2ab$. The area $ab$ is at most 25 (the $5\\times5$ square) and can be any smaller positive value, so $50\\le d^2<100$, i.e. $5\\sqrt2\\le d<10$, where $5\\sqrt2\\approx7.07$. Only 7.5, 8 and 9.5 lie in that range.",
+  "choiceExplanations": {
+   "A": "$6<5\\sqrt2$: even the square, which has the shortest diagonal, has a longer one.",
+   "B": "$7$ is just below $5\\sqrt2\\approx7.07$, the shortest possible diagonal.",
+   "F": "A diagonal of 10 would need $ab=0$, a rectangle with no width."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "quadrilaterals",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.rectangle-diagonal",
+   "q3.max-area-fixed-perimeter"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "7"
+    },
+    {
+     "id": "C",
+     "text": "7.5"
+    },
+    {
+     "id": "D",
+     "text": "8"
+    },
+    {
+     "id": "E",
+     "text": "9.5"
+    },
+    {
+     "id": "F",
+     "text": "10"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-12",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 5,
+  "stem": "In the figure, the vertices of square $WXYZ$ lie on the sides of square $ABCD$, and $AB=8$. The area of $WXYZ$ is $\\frac58$ of the area of $ABCD$. Each vertex of $WXYZ$ divides a side of $ABCD$ into a shorter and a longer segment. What is the length of the shorter segment?",
+  "explanation": "The four corner triangles are congruent right triangles with legs $a$ and $b$, where $a+b=8$. They cover $64-\\frac58\\cdot64=24$, so $4\\cdot\\tfrac12ab=24$ and $ab=12$. Two numbers with sum 8 and product 12 are 2 and 6, so the shorter segment is 2.",
+  "estSeconds": 150,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.square-in-square"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 232 226\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"36,36 196,36 196,196 36,196\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"88,36 196,88 144,196 36,144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"28\" y=\"30\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"204\" y=\"30\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"204\" y=\"210\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"28\" y=\"210\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"88\" y=\"26\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">W</text><text x=\"206\" y=\"92\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">X</text><text x=\"144\" y=\"212\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Y</text><text x=\"26\" y=\"148\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Z</text><text x=\"150\" y=\"28\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+    "alt": "Square ABCD with side AB labeled 8. A smaller tilted square WXYZ has W on AB, X on BC, Y on CD and Z on DA; each of these points is closer to one end of its side than to the other."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ }
+]

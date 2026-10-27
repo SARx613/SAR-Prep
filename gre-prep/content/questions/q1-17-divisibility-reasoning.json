@@ -1,0 +1,531 @@
+[
+ {
+  "id": "q1-17-divisibility-reasoning-01",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 1,
+  "stem": "The positive integer $n$ is a multiple of 28. Which of the following must be a factor of $n$?",
+  "explanation": "14 divides 28 and 28 divides $n$, so 14 divides $n$. Each other choice fails for $n = 28$.",
+  "choiceExplanations": {
+   "A": "$n = 28$ is not divisible by 3.",
+   "B": "8 does not divide 28, so $n = 28$ fails.",
+   "D": "$n = 28$ is not divisible by 21.",
+   "E": "56 is a multiple of 28, not a factor of it; $n = 28$ fails."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.factors-of-factors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "3"
+    },
+    {
+     "id": "B",
+     "text": "8"
+    },
+    {
+     "id": "C",
+     "text": "14"
+    },
+    {
+     "id": "D",
+     "text": "21"
+    },
+    {
+     "id": "E",
+     "text": "56"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-02",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 1,
+  "stem": "Which of the following is a divisor of $6^4$?",
+  "explanation": "$6^4 = 2^4\\cdot3^4$. $48 = 2^4\\cdot3$ needs four 2s and one 3, which fit.",
+  "choiceExplanations": {
+   "A": "5 is not a prime factor of $6^4$.",
+   "B": "$32 = 2^5$ needs five 2s; $6^4$ has four.",
+   "D": "$64 = 2^6$ needs six 2s; $6^4$ has four.",
+   "E": "$243 = 3^5$ needs five 3s; $6^4$ has four."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisibility-of-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "32"
+    },
+    {
+     "id": "C",
+     "text": "48"
+    },
+    {
+     "id": "D",
+     "text": "64"
+    },
+    {
+     "id": "E",
+     "text": "243"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-03",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$n$ must be a multiple of LCM$(6, 8) = 24$, not necessarily of $6\\cdot8 = 48$. If $n = 48$, the remainder is 0 and the quantities are equal; if $n = 24$, the remainder is 24 and Quantity A is greater.",
+  "estSeconds": 60,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisible-by-several"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $n$ is divided by 48",
+   "quantityB": "0",
+   "common": "$n$ is a positive integer that is divisible by both 6 and 8."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-04",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 2,
+  "stem": "Which of the following are divisors of $10!$? Indicate all such numbers.",
+  "explanation": "$10! = 1\\cdot2\\cdot3\\cdots10$ is divisible by any product of different integers from 1 to 10: $32 = 4\\cdot8$, $150 = 3\\cdot5\\cdot10$ and $630 = 7\\cdot9\\cdot10$.",
+  "choiceExplanations": {
+   "A": "11 is a prime greater than 10, so it is not a factor of $10!$.",
+   "C": "$49 = 7^2$, but 7 is the only multiple of 7 from 1 to 10, so $10!$ contains a single 7."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.factorial-divisors"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "11"
+    },
+    {
+     "id": "B",
+     "text": "32"
+    },
+    {
+     "id": "C",
+     "text": "49"
+    },
+    {
+     "id": "D",
+     "text": "150"
+    },
+    {
+     "id": "E",
+     "text": "630"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-05",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Three consecutive integers include a multiple of 2 and a multiple of 3, so their product is divisible by $3! = 6$. The remainder is always 0.",
+  "estSeconds": 45,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.consecutive-product-divisibility"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $k(k+1)(k+2)$ is divided by 6",
+   "quantityB": "0",
+   "common": "$k$ is a positive integer."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-06",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 3,
+  "stem": "If $\\frac{n}{18}$ is an integer, which of the following must be integers? Indicate all such expressions.",
+  "explanation": "Write $n = 18m$ for an integer $m$. Then $\\frac{n}{6} = 3m$, $\\frac{n^2}{108} = \\frac{324m^2}{108} = 3m^2$ and $\\frac{n+9}{9} = 2m+1$ are integers for every $m$.",
+  "choiceExplanations": {
+   "B": "$n = 18$ gives $\\frac{18}{12}$, not an integer: $18 = 2\\cdot3^2$ guarantees only one 2, and 12 needs two.",
+   "C": "$n = 18$ gives $\\frac{36}{27}$, not an integer: 27 needs three 3s, and $n$ is guaranteed only two."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.must-be-integer"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{n}{6}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{n}{12}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{2n}{27}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{n^2}{108}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{n+9}{9}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-07",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 3,
+  "stem": "The positive integer $n$ is such that $n(n+1)$ is divisible by 9. Which of the following must be true? Indicate all such statements.",
+  "explanation": "$n$ and $n+1$ share no prime factor, so the two 3s in 9 cannot be split between them: one of the two numbers is divisible by 9. Also one of two consecutive integers is even, so $n(n+1)$ is divisible by 2 and by 9, hence by their LCM, 18.",
+  "choiceExplanations": {
+   "A": "$n = 8$: $8\\cdot9 = 72$ is divisible by 9, but 8 is not divisible by 3.",
+   "D": "$n = 8$: $72$ is not divisible by 27."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.consecutive-share-no-primes",
+   "q1.consecutive-product-divisibility"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$n$ is divisible by 3."
+    },
+    {
+     "id": "B",
+     "text": "Either $n$ or $n+1$ is divisible by 9."
+    },
+    {
+     "id": "C",
+     "text": "$n(n+1)$ is divisible by 18."
+    },
+    {
+     "id": "D",
+     "text": "$n(n+1)$ is divisible by 27."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-08",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$6^{10} = 2^{10}\\cdot3^{10}$. $12^k = 2^{2k}\\cdot3^k$ needs $2k\\le10$, so $k = 5$. $18^k = 2^k\\cdot3^{2k}$ needs $2k\\le10$, so $k = 5$. The quantities are equal.",
+  "estSeconds": 75,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisibility-of-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The greatest integer $k$ such that $12^k$ divides $6^{10}$",
+   "quantityB": "The greatest integer $k$ such that $18^k$ divides $6^{10}$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-09",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 4,
+  "stem": "At a conference, exactly 35 percent of the attendees are engineers and exactly $\\frac{4}{15}$ of the attendees are teachers. What is the least possible number of attendees at the conference?",
+  "explanation": "Both counts are whole numbers. 35 percent is $\\frac{7}{20}$, so the number of attendees is a multiple of 20; $\\frac{4}{15}$ is in lowest terms, so it is also a multiple of 15. The least common multiple of 20 and 15 is 60 (21 engineers and 16 teachers).",
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisibility-from-percents"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-10",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 4,
+  "stem": "What is the greatest integer $k$ such that $3^k$ divides $40!$?",
+  "explanation": "Multiples of 3 up to 40 give one 3 each: 13. Multiples of 9 give a second 3: 4. Multiples of 27 give a third: 1. $81 > 40$, so stop. $k = 13 + 4 + 1 = 18$.",
+  "estSeconds": 75,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.prime-power-in-factorial"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 18
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-11",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 5,
+  "stem": "If $n$ is an odd integer greater than 1, which of the following must be a divisor of $n^3-n$? Indicate all such integers.",
+  "explanation": "$n^3-n = (n-1)n(n+1)$, a product of three consecutive integers, so it is divisible by 6. Since $n$ is odd, $n-1$ and $n+1$ are consecutive even integers, so their product is divisible by 8. Divisible by 3 and by 8 means divisible by 24, hence also by 4, 6 and 8.",
+  "choiceExplanations": {
+   "D": "$n = 3$ gives $27 - 3 = 24$, which is not divisible by 16.",
+   "F": "$n = 3$ gives 24, which is not divisible by 48."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.consecutive-products-in-algebra"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "8"
+    },
+    {
+     "id": "D",
+     "text": "16"
+    },
+    {
+     "id": "E",
+     "text": "24"
+    },
+    {
+     "id": "F",
+     "text": "48"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-12",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 5,
+  "stem": "What is the greatest integer $k$ such that $18^k$ divides $30!$?",
+  "explanation": "$18 = 2\\cdot3^2$. 3s in $30!$: multiples of 3, 9, 27 give $10 + 3 + 1 = 14$, enough for $\\frac{14}{2} = 7$ eighteens. 2s: $15 + 7 + 3 + 1 = 26$, more than enough. The scarcer requirement decides: $k = 7$.",
+  "choiceExplanations": {
+   "A": "5 is $\\frac{10}{2}$: it forgets the extra 3s from 9, 18 and 27.",
+   "C": "10 is just the number of multiples of 3 up to 30; each 18 needs two 3s, and 9, 18, 27 supply extra 3s.",
+   "D": "13 is half the number of 2s; 2 is not the scarce prime here.",
+   "E": "14 is the number of 3s in $30!$, but each 18 uses two of them."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.composite-power-in-factorial",
+   "q1.prime-power-in-factorial"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "7"
+    },
+    {
+     "id": "C",
+     "text": "10"
+    },
+    {
+     "id": "D",
+     "text": "13"
+    },
+    {
+     "id": "E",
+     "text": "14"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ }
+]

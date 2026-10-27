@@ -1,0 +1,472 @@
+[
+ {
+  "id": "q2-20-sums-of-powers-01",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$3^2+3^3=9+27=36$, while $3^5=243$. Exponents add only when powers are **multiplied** ($3^2\\cdot3^3=3^5$), never when they are added.",
+  "estSeconds": 45,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.sum-of-powers-trap"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$3^2+3^3$",
+   "quantityB": "$3^5$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-02",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 1,
+  "stem": "Which of the following is equal to $4^6+4^6+4^6+4^6$?",
+  "explanation": "Four equal copies make $4\\cdot4^6=4^1\\cdot4^6=4^7$.",
+  "choiceExplanations": {
+   "B": "Four copies multiply the power by 4, which raises the exponent by 1, not by 4.",
+   "C": "Bases are never added: $16^6=4^{12}$, far more than the sum.",
+   "D": "Adding the exponents gives the **product** $4^6\\cdot4^6\\cdot4^6\\cdot4^6$, not the sum.",
+   "E": "This adds both the bases and the exponents; neither step is allowed for a sum."
+  },
+  "estSeconds": 45,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.adding-equal-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4^7$"
+    },
+    {
+     "id": "B",
+     "text": "$4^{10}$"
+    },
+    {
+     "id": "C",
+     "text": "$16^6$"
+    },
+    {
+     "id": "D",
+     "text": "$4^{24}$"
+    },
+    {
+     "id": "E",
+     "text": "$16^{24}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-03",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 2,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Use the larger power, $2^8$, as common denominator: $\\dfrac{1}{2^7}=\\dfrac{2}{2^8}$, so Quantity A is $\\dfrac{2-1}{2^8}=\\dfrac{1}{2^8}$. The quantities are equal.",
+  "estSeconds": 60,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.fractions-with-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{1}{2^7}-\\dfrac{1}{2^8}$",
+   "quantityB": "$\\dfrac{1}{2^8}$"
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-04",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 2,
+  "stem": "If $5^{n+2}-5^{n}=600$, what is the value of $n$?",
+  "explanation": "Factor out the smaller power: $5^{n+2}-5^n=5^n(5^2-1)=24\\cdot5^n$. So $24\\cdot5^n=600$, $5^n=25$ and $n=2$.",
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.factor-out-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 2
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-05",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $\\dfrac{12^4}{6^3\\cdot2^4}$?",
+  "explanation": "Write every base in primes: $12^4=(2^2\\cdot3)^4=2^8\\cdot3^4$ and $6^3\\cdot2^4=2^3\\cdot3^3\\cdot2^4=2^7\\cdot3^3$. Collect prime by prime: $2^{8-7}\\cdot3^{4-3}=2\\cdot3=6$.",
+  "choiceExplanations": {
+   "A": "Dividing the bases ($12\\div6=2$) while subtracting exponents gives $2^1$, then $\\dfrac{2}{2^4}=\\dfrac18$. Different bases with different exponents cannot be divided that way.",
+   "B": "$12$ is $2^2\\cdot3$, so $12^4$ contains $2^8$, not $2^4$.",
+   "C": "$(2^2)^4=2^{2\\cdot4}=2^8$; adding the exponents gives $2^6$ and the wrong result.",
+   "E": "This leaves out the $2^4$ in the denominator: $\\dfrac{12^4}{6^3}=96$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.prime-bases-in-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac18$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac38$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac32$"
+    },
+    {
+     "id": "D",
+     "text": "$6$"
+    },
+    {
+     "id": "E",
+     "text": "$96$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-06",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 3,
+  "stem": "If $9^n+9^n+9^n=3^{19}$, what is the value of $n$?",
+  "explanation": "Three equal copies: $3\\cdot9^n$. In primes, $9^n=3^{2n}$, so the sum is $3\\cdot3^{2n}=3^{2n+1}$. Then $2n+1=19$ and $n=9$.",
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.adding-equal-powers",
+   "q2.prime-bases-in-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 9
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-07",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 3,
+  "stem": "Which of the following are equal to $2^{12}$? Indicate all such expressions.",
+  "explanation": "B: two copies of $2^{11}$ make $2\\cdot2^{11}=2^{12}$. C: factor out $2^{12}$: $2^{12}(2-1)=2^{12}$. D: four copies of $4^5$ make $4^6=(2^2)^6=2^{12}$.",
+  "choiceExplanations": {
+   "A": "$2^6+2^6=2\\cdot2^6=2^7$. Adding the exponents works only for a product.",
+   "E": "$8^3+8^3=2\\cdot2^9=2^{10}$. Adding the bases to get $16^3=2^{12}$ is not allowed."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.adding-equal-powers",
+   "q2.sum-of-powers-trap"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2^6+2^6$"
+    },
+    {
+     "id": "B",
+     "text": "$2^{11}+2^{11}$"
+    },
+    {
+     "id": "C",
+     "text": "$2^{13}-2^{12}$"
+    },
+    {
+     "id": "D",
+     "text": "$4^5+4^5+4^5+4^5$"
+    },
+    {
+     "id": "E",
+     "text": "$8^3+8^3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-08",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 3,
+  "stem": "Which of the following is equal to $\\dfrac{1}{2^9}+\\dfrac{1}{2^{10}}+\\dfrac{1}{2^{11}}$?",
+  "explanation": "Use the largest power, $2^{11}$, as common denominator: $\\dfrac{1}{2^9}=\\dfrac{4}{2^{11}}$ and $\\dfrac{1}{2^{10}}=\\dfrac{2}{2^{11}}$. The sum is $\\dfrac{4+2+1}{2^{11}}=\\dfrac{7}{2^{11}}$.",
+  "choiceExplanations": {
+   "A": "$\\dfrac{1}{2^{30}}$ is the **product** of the three fractions, not their sum.",
+   "B": "Fractions do not add by adding numerators and adding the exponents of the denominators.",
+   "C": "$2^{30}$ is not the common denominator used with numerators 4, 2 and 1; those numerators belong over $2^{11}$.",
+   "D": "Over $2^{11}$ the numerators must be rescaled: $\\dfrac{1}{2^9}=\\dfrac{4}{2^{11}}$ and $\\dfrac{1}{2^{10}}=\\dfrac{2}{2^{11}}$, not 1 each."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.fractions-with-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\dfrac{1}{2^{30}}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\dfrac{3}{2^{30}}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\dfrac{7}{2^{30}}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\dfrac{3}{2^{11}}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\dfrac{7}{2^{11}}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-09",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$2^{50}=(2^{10})^5=1{,}024^5$ and $10^{15}=(10^3)^5=1{,}000^5$. Since $1{,}024>1{,}000$, Quantity A is greater. The estimate $2^{10}\\approx10^3$ alone suggests a tie; comparing $1{,}024$ with $1{,}000$ settles it.",
+  "estSeconds": 75,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q1.estimating-powers"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$2^{50}$",
+   "quantityB": "$10^{15}$"
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-10",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 4,
+  "stem": "If $5^{x^2+x}=25^{x+3}$, which of the following could be the value of $x$? Indicate all such values.",
+  "explanation": "Write 25 as $5^2$: $25^{x+3}=5^{2(x+3)}=5^{2x+6}$. Equate exponents: $x^2+x=2x+6$, so $x^2-x-6=0$ and $(x-3)(x+2)=0$. Both $x=3$ and $x=-2$ work.",
+  "choiceExplanations": {
+   "A": "Sign slip: the factor $x+2$ gives $x=-2$, and $x-3$ gives $x=3$; $-3$ is not a root.",
+   "C": "Sign slip: $x=2$ makes the left exponent 6 but the right exponent 10.",
+   "E": "From $x(x-1)=6$ you cannot set $x=6$; the zero-product rule needs 0 on one side."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.quadratic-in-exponent"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-3$"
+    },
+    {
+     "id": "B",
+     "text": "$-2$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$6$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-11",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Primes first: $8^{15}=2^{45}$. Then a common exponent, 5: $2^{45}=(2^9)^5=512^5$ and $5^{20}=(5^4)^5=625^5$. So Quantity A is $\\left(\\dfrac{512}{625}\\right)^5<1$. (Size check: $2^{45}=2^5\\cdot2^{40}\\approx32\\cdot10^{12}$, while $5^{20}=\\dfrac{10^{20}}{2^{20}}\\approx10^{14}$.)",
+  "estSeconds": 120,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.compare-fractions-with-powers",
+   "q2.prime-bases-in-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{8^{15}}{5^{20}}$",
+   "quantityB": "$1$"
+  },
+  "answer": {
+   "choice": "B"
+  }
+ },
+ {
+  "id": "q2-20-sums-of-powers-12",
+  "lessonId": "q2-20-sums-of-powers",
+  "difficulty": 5,
+  "stem": "What is the sum of all values of $x$ for which $\\left(\\dfrac12\\right)^{x^2}=4^{x}\\cdot8^{-5}$?",
+  "explanation": "Use base 2 throughout: $\\left(\\dfrac12\\right)^{x^2}=2^{-x^2}$ and $4^x\\cdot8^{-5}=2^{2x}\\cdot2^{-15}=2^{2x-15}$. Equate exponents: $-x^2=2x-15$, so $x^2+2x-15=0$ and $(x+5)(x-3)=0$. The solutions are $-5$ and $3$; their sum is $-2$.",
+  "estSeconds": 120,
+  "skills": [
+   "exponent-rules"
+  ],
+  "topics": [
+   "q2.quadratic-in-exponent",
+   "q2.prime-bases-in-fractions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -2
+  }
+ }
+]
