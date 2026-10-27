@@ -91,12 +91,12 @@
   "id": "q1-25-ratio-techniques-03",
   "lessonId": "q1-25-ratio-techniques",
   "difficulty": 2,
-  "stem": "A box holds only red tiles and white tiles, in the ratio $4:7$. Which of the following could be the number of tiles in the box? Indicate all such numbers.",
-  "explanation": "Counts are $4k$ and $7k$ with $k$ a positive integer, so the total $11k$ is a multiple of 11. Only 33 ($k = 3$) and 44 ($k = 4$) qualify.",
+  "stem": "A box holds only red tiles and white tiles, in the ratio $4:7$, and there are more than 12 red tiles. Which of the following could be the number of tiles in the box? Indicate all such numbers.",
+  "explanation": "Counts are $4k$ and $7k$ with $k$ a positive integer, so the total $11k$ is a multiple of 11. More than 12 red tiles means $4k>12$, so $k\\ge4$: totals 44 and 55. The total 33 has $k=3$ and exactly 12 red tiles.",
   "choiceExplanations": {
-   "A": "21 is a multiple of 7, which only the white tiles must be; the total must be a multiple of 11.",
-   "B": "28 is a multiple of both 4 and 7, but the total must be a multiple of $4+7 = 11$.",
-   "E": "60 is a multiple of 4, not of 11."
+   "A": "28 is not a multiple of 11.",
+   "B": "33 is a multiple of 11 but gives $k=3$ and 12 red tiles, which is not more than 12.",
+   "E": "60 is not a multiple of 11."
   },
   "estSeconds": 60,
   "skills": [
@@ -107,10 +107,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "PS",
@@ -119,19 +116,19 @@
    "choices": [
     {
      "id": "A",
-     "text": "21"
-    },
-    {
-     "id": "B",
      "text": "28"
     },
     {
-     "id": "C",
+     "id": "B",
      "text": "33"
     },
     {
-     "id": "D",
+     "id": "C",
      "text": "44"
+    },
+    {
+     "id": "D",
+     "text": "55"
     },
     {
      "id": "E",
@@ -301,8 +298,8 @@
   "id": "q1-25-ratio-techniques-08",
   "lessonId": "q1-25-ratio-techniques",
   "difficulty": 3,
-  "stem": "One-third of the marbles in a bag are red. If 12 more red marbles were added to the bag, half of the marbles in the bag would be red. How many marbles are in the bag now, before any red marbles are added?",
-  "explanation": "Let $n$ be the number of marbles. Adding 12 red marbles raises both the red count and the total: $\\frac{\\frac{1}{3}n+12}{n+12} = \\frac{1}{2}$. So $\\frac{2}{3}n+24 = n+12$, $\\frac{1}{3}n = 12$ and $n = 36$. Check: $12+12 = 24$ of $48$.",
+  "stem": "One-third of the marbles in a bag are red. If 12 marbles that are not red were removed, half of the remaining marbles would be red. How many marbles are in the bag?",
+  "explanation": "Let $n$ be the number of marbles; $\\frac{n}{3}$ are red. Removing 12 non-red marbles leaves $n-12$ marbles with the same red count: $\\frac{n/3}{n-12}=\\frac{1}{2}$. So $\\frac{2n}{3}=n-12$, $\\frac{n}{3}=12$ and $n=36$. Check: 12 red and 24 not red; after removing 12 not red, 12 of 24.",
   "estSeconds": 90,
   "skills": [
    "ratio"
@@ -312,10 +309,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",

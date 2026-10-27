@@ -426,7 +426,7 @@
    "A": "This uses the exponent of 2.",
    "B": "This subtracts the exponents, $9-4$.",
    "D": "$3.2\\times10^{-8}$ has $8-1$ zeros before the 3, not 8.",
-   "E": "$10^{-9}$ alone has 8 zeros, and the factor 32 removes one more."
+   "E": "This uses the exponent of 5, or reads $10^{-9}$ as nine zeros; $3.2\\times10^{-8}$ has $8-1=7$ zeros."
   },
   "estSeconds": 100,
   "skills": [
@@ -508,8 +508,8 @@
   "id": "q1-22-decimal-expansions-12",
   "lessonId": "q1-22-decimal-expansions",
   "difficulty": 5,
-  "stem": "The decimal expansion of $\\frac{3}{70}$ is $0.0\\overline{428571}$, where the block 428571 repeats forever. What is the 500th digit to the right of the decimal point?",
-  "explanation": "The first digit, 0, does not repeat, so the 500th digit is the 499th digit of the repeating part. $499 = 83\\cdot6+1$, so it is the 1st digit of the block 428571: 4.",
+  "stem": "The decimal expansion of $\\frac{9}{70}$ is $0.1\\overline{285714}$, where the block 285714 repeats forever. What is the 500th digit to the right of the decimal point?",
+  "explanation": "The first digit, 1, does not repeat, so the 500th digit is the 499th digit of the repeating part. $499 = 83\\cdot6+1$, so it is the 1st digit of the block 285714: 2.",
   "estSeconds": 120,
   "skills": [
    "decimal-expansions"
@@ -519,10 +519,7 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [
-    "solver-bw5",
-    "solver-aw5"
-   ],
+   "solvedBy": [],
    "sourceChecked": false
   },
   "type": "NE",
@@ -530,7 +527,7 @@
    "format": "integer"
   },
   "answer": {
-   "value": 4
+   "value": 2
   }
  }
 ]

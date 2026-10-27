@@ -385,7 +385,7 @@
   "content": {
    "quantityA": "$\\dfrac{a+b}{c+d}$",
    "quantityB": "$1.5$",
-   "common": "Each of the numbers $a$, $b$, $c$ and $d$ is between $0.4$ and $0.6$."
+   "common": "Each of the numbers $a$, $b$, $c$ and $d$ is greater than $0.4$ and less than $0.6$."
   },
   "answer": {
    "choice": "B"
