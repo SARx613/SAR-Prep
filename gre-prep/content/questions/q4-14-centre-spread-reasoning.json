@@ -591,10 +591,18 @@
   "skills": [
    "median"
   ],
+  "topics": [
+   "q4.median",
+   "q4.median-unknown-values"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -604,10 +612,6 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q4.median",
-   "q4.median-unknown-values"
-  ]
+  }
  }
 ]

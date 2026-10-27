@@ -9,6 +9,7 @@
   "skills": [
    "independence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -46,6 +47,7 @@
   "skills": [
    "independence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -98,6 +100,7 @@
    "tables",
    "probability"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Preferred drink by age group (200 people surveyed)",
@@ -164,6 +167,9 @@
   "skills": [
    "without-replacement"
   ],
+  "topics": [
+   "q4.and-dependent"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -183,10 +189,7 @@
     "numerator": 2,
     "denominator": 15
    }
-  },
-  "topics": [
-   "q4.and-dependent"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-05",
@@ -198,6 +201,7 @@
   "skills": [
    "without-replacement"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -227,6 +231,9 @@
   "skills": [
    "conditional",
    "tables"
+  ],
+  "topics": [
+   "q4.two-way-conditional"
   ],
   "figure": {
    "kind": "table",
@@ -286,10 +293,7 @@
     "numerator": 3,
     "denominator": 8
    }
-  },
-  "topics": [
-   "q4.two-way-conditional"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-07",
@@ -300,6 +304,9 @@
   "estSeconds": 60,
   "skills": [
    "independence"
+  ],
+  "topics": [
+   "q4.and-independent"
   ],
   "review": {
    "status": "published",
@@ -316,10 +323,7 @@
   },
   "answer": {
    "value": 0.36
-  },
-  "topics": [
-   "q4.and-independent"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-08",
@@ -337,6 +341,9 @@
   "skills": [
    "complement",
    "independence"
+  ],
+  "topics": [
+   "q4.at-least-one"
   ],
   "review": {
    "status": "published",
@@ -377,10 +384,7 @@
    "choices": [
     "E"
    ]
-  },
-  "topics": [
-   "q4.at-least-one"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-09",
@@ -392,6 +396,9 @@
   "skills": [
    "conditional",
    "tables"
+  ],
+  "topics": [
+   "q4.two-way-conditional"
   ],
   "figure": {
    "kind": "table",
@@ -451,10 +458,7 @@
     "numerator": 3,
     "denominator": 5
    }
-  },
-  "topics": [
-   "q4.two-way-conditional"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-10",
@@ -469,6 +473,10 @@
   "skills": [
    "independence",
    "conditional"
+  ],
+  "topics": [
+   "q4.exclusive-vs-independent",
+   "q4.mutually-exclusive"
   ],
   "review": {
    "status": "published",
@@ -507,11 +515,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q4.exclusive-vs-independent",
-   "q4.mutually-exclusive"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-11",
@@ -523,6 +527,7 @@
   "skills": [
    "without-replacement"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -560,6 +565,9 @@
   "skills": [
    "independence",
    "tables"
+  ],
+  "topics": [
+   "q4.exclusive-vs-independent"
   ],
   "figure": {
    "kind": "table",
@@ -636,10 +644,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.exclusive-vs-independent"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-13",
@@ -650,6 +655,9 @@
   "estSeconds": 60,
   "skills": [
    "independence"
+  ],
+  "topics": [
+   "q4.and-independent"
   ],
   "review": {
    "status": "published",
@@ -666,10 +674,7 @@
   },
   "answer": {
    "value": 0.09
-  },
-  "topics": [
-   "q4.and-independent"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-14",
@@ -682,6 +687,7 @@
    "tables",
    "probability"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Commute to work by department (200 employees surveyed)",
@@ -748,6 +754,9 @@
   "skills": [
    "without-replacement"
   ],
+  "topics": [
+   "q4.and-dependent"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -767,10 +776,7 @@
     "numerator": 5,
     "denominator": 14
    }
-  },
-  "topics": [
-   "q4.and-dependent"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-16",
@@ -782,6 +788,10 @@
   "skills": [
    "conditional",
    "tables"
+  ],
+  "topics": [
+   "q4.two-way-conditional",
+   "q4.two-way-tables"
   ],
   "figure": {
    "kind": "table",
@@ -841,11 +851,7 @@
     "numerator": 12,
     "denominator": 25
    }
-  },
-  "topics": [
-   "q4.two-way-conditional",
-   "q4.two-way-tables"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-17",
@@ -857,6 +863,9 @@
   "skills": [
    "independence",
    "complement"
+  ],
+  "topics": [
+   "q4.at-least-one"
   ],
   "review": {
    "status": "published",
@@ -873,10 +882,7 @@
   },
   "answer": {
    "value": 0.76
-  },
-  "topics": [
-   "q4.at-least-one"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-18",
@@ -888,6 +894,9 @@
   "skills": [
    "conditional",
    "tables"
+  ],
+  "topics": [
+   "q4.two-way-tables"
   ],
   "figure": {
    "kind": "table",
@@ -943,10 +952,7 @@
   },
   "answer": {
    "value": 0.72
-  },
-  "topics": [
-   "q4.two-way-tables"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-19",
@@ -959,6 +965,7 @@
    "independence",
    "inclusion-exclusion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -986,6 +993,9 @@
   "skills": [
    "without-replacement"
   ],
+  "topics": [
+   "q4.count-the-orders"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1005,10 +1015,7 @@
     "numerator": 12,
     "denominator": 55
    }
-  },
-  "topics": [
-   "q4.count-the-orders"
-  ]
+  }
  },
  {
   "id": "q4-09-independent-conditional-21",
@@ -1021,10 +1028,18 @@
    "independence",
    "probability"
   ],
+  "topics": [
+   "q4.and-independent",
+   "q4.probability-formula"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -1036,10 +1051,6 @@
     "numerator": 10,
     "denominator": 49
    }
-  },
-  "topics": [
-   "q4.and-independent",
-   "q4.probability-formula"
-  ]
+  }
  }
 ]

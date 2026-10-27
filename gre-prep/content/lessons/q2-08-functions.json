@@ -34,6 +34,9 @@
    "skills": [
     "functions"
    ],
+   "topics": [
+    "q2.function-notation"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 13
-   },
-   "topics": [
-    "q2.function-notation"
-   ]
+   }
   },
   {
    "id": "q2-08-functions-c2",
@@ -69,6 +69,9 @@
    "estSeconds": 60,
    "skills": [
     "functions"
+   ],
+   "topics": [
+    "q2.domain"
    ],
    "review": {
     "status": "published",
@@ -109,10 +112,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q2.domain"
-   ]
+   }
   },
   {
    "id": "q2-08-functions-c3",
@@ -129,6 +129,9 @@
    "estSeconds": 60,
    "skills": [
     "functions"
+   ],
+   "topics": [
+    "q2.function-of-expression"
    ],
    "review": {
     "status": "published",
@@ -169,10 +172,7 @@
     "choices": [
      "D"
     ]
-   },
-   "topics": [
-    "q2.function-of-expression"
-   ]
+   }
   }
  ]
 }

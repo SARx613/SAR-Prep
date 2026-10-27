@@ -34,6 +34,9 @@
    "skills": [
     "independence"
    ],
+   "topics": [
+    "q4.and-independent"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -53,10 +56,7 @@
      "numerator": 1,
      "denominator": 36
     }
-   },
-   "topics": [
-    "q4.and-independent"
-   ]
+   }
   },
   {
    "id": "q4-09-independent-conditional-c2",
@@ -67,6 +67,9 @@
    "estSeconds": 60,
    "skills": [
     "without-replacement"
+   ],
+   "topics": [
+    "q4.and-dependent"
    ],
    "review": {
     "status": "published",
@@ -87,10 +90,7 @@
      "numerator": 1,
      "denominator": 10
     }
-   },
-   "topics": [
-    "q4.and-dependent"
-   ]
+   }
   },
   {
    "id": "q4-09-independent-conditional-c3",
@@ -102,6 +102,7 @@
    "skills": [
     "conditional"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

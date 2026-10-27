@@ -32,6 +32,9 @@
    "skills": [
     "remainders-parity"
    ],
+   "topics": [
+    "q1.remainder-basics"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -47,10 +50,7 @@
    },
    "answer": {
     "value": 2
-   },
-   "topics": [
-    "q1.remainder-basics"
-   ]
+   }
   },
   {
    "id": "q1-03-remainders-parity-c2",
@@ -67,6 +67,9 @@
    "estSeconds": 60,
    "skills": [
     "remainders-parity"
+   ],
+   "topics": [
+    "q1.parity-multiply"
    ],
    "review": {
     "status": "published",
@@ -107,10 +110,7 @@
     "choices": [
      "C"
     ]
-   },
-   "topics": [
-    "q1.parity-multiply"
-   ]
+   }
   },
   {
    "id": "q1-03-remainders-parity-c3",
@@ -122,6 +122,7 @@
    "skills": [
     "remainders-parity"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

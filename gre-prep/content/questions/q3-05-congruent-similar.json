@@ -10,6 +10,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -44,6 +45,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -96,6 +98,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -124,6 +127,9 @@
    "congruence",
    "similarity"
   ],
+  "topics": [
+   "q3.similar-triangles"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -141,10 +147,7 @@
   },
   "answer": {
    "choice": "C"
-  },
-  "topics": [
-   "q3.similar-triangles"
-  ]
+  }
  },
  {
   "id": "q3-05-congruent-similar-05",
@@ -163,6 +166,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -219,6 +223,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -273,6 +278,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -306,6 +312,9 @@
   "skills": [
    "congruence",
    "similarity"
+  ],
+  "topics": [
+   "q3.spot-similar-triangles"
   ],
   "figure": {
    "kind": "svg",
@@ -354,10 +363,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.spot-similar-triangles"
-  ]
+  }
  },
  {
   "id": "q3-05-congruent-similar-09",
@@ -369,6 +375,9 @@
   "skills": [
    "congruence",
    "similarity"
+  ],
+  "topics": [
+   "q3.spot-similar-triangles"
   ],
   "figure": {
    "kind": "svg",
@@ -393,10 +402,7 @@
   },
   "answer": {
    "value": 3
-  },
-  "topics": [
-   "q3.spot-similar-triangles"
-  ]
+  }
  },
  {
   "id": "q3-05-congruent-similar-10",
@@ -409,6 +415,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -445,6 +452,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -481,6 +489,7 @@
    "congruence",
    "similarity"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -517,6 +526,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -550,6 +560,9 @@
   "skills": [
    "similarity",
    "congruence"
+  ],
+  "topics": [
+   "q3.similar-triangles"
   ],
   "review": {
    "status": "published",
@@ -590,10 +603,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.similar-triangles"
-  ]
+  }
  },
  {
   "id": "q3-05-congruent-similar-15",
@@ -606,6 +616,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -636,6 +647,9 @@
    "similarity",
    "congruence"
   ],
+  "topics": [
+   "q3.spot-similar-triangles"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -659,10 +673,7 @@
   },
   "answer": {
    "value": 12
-  },
-  "topics": [
-   "q3.spot-similar-triangles"
-  ]
+  }
  },
  {
   "id": "q3-05-congruent-similar-17",
@@ -675,6 +686,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -709,6 +721,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -763,6 +776,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -799,6 +813,7 @@
    "similarity",
    "congruence"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -834,6 +849,11 @@
   "skills": [
    "similarity"
   ],
+  "topics": [
+   "q3.spot-similar-triangles",
+   "q3.similar-figure-ratios",
+   "q3.similar-triangles"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -843,9 +863,13 @@
    "notes": "Note: Figure not drawn to scale."
   },
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -853,11 +877,6 @@
   },
   "answer": {
    "value": 96
-  },
-  "topics": [
-   "q3.spot-similar-triangles",
-   "q3.similar-figure-ratios",
-   "q3.similar-triangles"
-  ]
+  }
  }
 ]

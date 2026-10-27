@@ -15,6 +15,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -66,6 +67,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -99,6 +101,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -150,6 +153,9 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [
+   "q2.money-problems"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -165,10 +171,7 @@
   },
   "answer": {
    "value": 18
-  },
-  "topics": [
-   "q2.money-problems"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-05",
@@ -185,6 +188,9 @@
   "estSeconds": 75,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.inequality-word-problems"
   ],
   "review": {
    "status": "published",
@@ -225,10 +231,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.inequality-word-problems"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-06",
@@ -239,6 +242,9 @@
   "estSeconds": 75,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q0.translating-in-qc"
   ],
   "review": {
    "status": "published",
@@ -257,10 +263,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q0.translating-in-qc"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-07",
@@ -275,6 +278,10 @@
   "estSeconds": 90,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.translating-words",
+   "q2.unit-price"
   ],
   "review": {
    "status": "published",
@@ -317,11 +324,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q2.translating-words",
-   "q2.unit-price"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-08",
@@ -332,6 +335,10 @@
   "estSeconds": 75,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q1.evenly-spaced-sets",
+   "q2.consecutive-integer-problems"
   ],
   "review": {
    "status": "published",
@@ -348,11 +355,7 @@
   },
   "answer": {
    "value": 41
-  },
-  "topics": [
-   "q1.evenly-spaced-sets",
-   "q2.consecutive-integer-problems"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-09",
@@ -369,6 +372,9 @@
   "estSeconds": 100,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.money-problems"
   ],
   "review": {
    "status": "published",
@@ -409,10 +415,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.money-problems"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-10",
@@ -423,6 +426,9 @@
   "estSeconds": 90,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q0.translating-in-qc"
   ],
   "review": {
    "status": "published",
@@ -441,10 +447,7 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q0.translating-in-qc"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-11",
@@ -456,6 +459,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -488,6 +492,9 @@
   "estSeconds": 130,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.unit-price"
   ],
   "review": {
    "status": "published",
@@ -528,10 +535,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.unit-price"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-13",
@@ -548,6 +552,9 @@
   "estSeconds": 45,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.translating-words"
   ],
   "review": {
    "status": "published",
@@ -588,10 +595,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.translating-words"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-14",
@@ -603,6 +607,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -636,6 +641,9 @@
   "estSeconds": 60,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q1.less-than-as-of"
   ],
   "review": {
    "status": "published",
@@ -676,10 +684,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q1.less-than-as-of"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-16",
@@ -690,6 +695,9 @@
   "estSeconds": 90,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q0.translating-in-qc"
   ],
   "review": {
    "status": "published",
@@ -708,10 +716,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q0.translating-in-qc"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-17",
@@ -727,6 +732,9 @@
   "estSeconds": 90,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.inequality-word-problems"
   ],
   "review": {
    "status": "published",
@@ -768,10 +776,7 @@
     "A",
     "C"
    ]
-  },
-  "topics": [
-   "q2.inequality-word-problems"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-18",
@@ -783,6 +788,7 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -815,6 +821,9 @@
   "estSeconds": 100,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q2.salary-and-commission"
   ],
   "review": {
    "status": "published",
@@ -855,10 +864,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.salary-and-commission"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-20",
@@ -869,6 +875,10 @@
   "estSeconds": 130,
   "skills": [
    "word-problems"
+  ],
+  "topics": [
+   "q1.percent-profit",
+   "q2.profit-and-loss"
   ],
   "review": {
    "status": "published",
@@ -886,11 +896,7 @@
   },
   "answer": {
    "value": 50
-  },
-  "topics": [
-   "q1.percent-profit",
-   "q2.profit-and-loss"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-21",
@@ -908,10 +914,17 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [
+   "q2.translating-words"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -943,10 +956,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.translating-words"
-  ]
+  }
  },
  {
   "id": "q2-09-word-problems-22",
@@ -964,10 +974,18 @@
   "skills": [
    "word-problems"
   ],
+  "topics": [
+   "q2.translating-words",
+   "q2.profit-and-loss"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -999,10 +1017,6 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.translating-words",
-   "q2.profit-and-loss"
-  ]
+  }
  }
 ]

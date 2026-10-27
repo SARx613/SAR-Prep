@@ -15,6 +15,9 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [
+   "q4.sd-zero"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -54,10 +57,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.sd-zero"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-02",
@@ -69,6 +69,7 @@
   "skills": [
    "standardization"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -96,6 +97,7 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -123,6 +125,9 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [
+   "q4.sd-add-constant"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,10 +144,7 @@
   },
   "answer": {
    "choice": "C"
-  },
-  "topics": [
-   "q4.sd-add-constant"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-05",
@@ -160,6 +162,10 @@
   "skills": [
    "std-dev",
    "comparison"
+  ],
+  "topics": [
+   "q4.sd-compare-sets",
+   "q4.sd-meaning"
   ],
   "review": {
    "status": "published",
@@ -200,11 +206,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.sd-compare-sets",
-   "q4.sd-meaning"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-06",
@@ -216,6 +218,7 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -249,6 +252,10 @@
   "skills": [
    "std-dev",
    "comparison"
+  ],
+  "topics": [
+   "q4.sd-compare-sets",
+   "q4.sd-meaning"
   ],
   "figure": {
    "kind": "table",
@@ -332,11 +339,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.sd-compare-sets",
-   "q4.sd-meaning"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-08",
@@ -348,6 +351,7 @@
   "skills": [
    "standardization"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -379,6 +383,7 @@
    "std-dev",
    "median"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Quiz scores (1 to 5 points) in two classes of 20 students",
@@ -472,6 +477,9 @@
    "std-dev",
    "comparison"
   ],
+  "topics": [
+   "q4.sd-add-value"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -488,10 +496,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q4.sd-add-value"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-11",
@@ -506,6 +511,10 @@
   "skills": [
    "std-dev",
    "transformations"
+  ],
+  "topics": [
+   "q4.sd-add-constant",
+   "q4.sd-multiply-constant"
   ],
   "review": {
    "status": "published",
@@ -544,11 +553,7 @@
     "B",
     "D"
    ]
-  },
-  "topics": [
-   "q4.sd-add-constant",
-   "q4.sd-multiply-constant"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-12",
@@ -560,6 +565,7 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Quiz scores (1 to 5 points) in two classes of 20 students",
@@ -642,6 +648,9 @@
    "std-dev",
    "transformations"
   ],
+  "topics": [
+   "q4.sd-add-constant"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -681,10 +690,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.sd-add-constant"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-14",
@@ -696,6 +702,7 @@
   "skills": [
    "std-dev"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -724,6 +731,9 @@
    "std-dev",
    "comparison"
   ],
+  "topics": [
+   "q4.sd-compare-sets"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -740,10 +750,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q4.sd-compare-sets"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-16",
@@ -755,6 +762,7 @@
   "skills": [
    "standardization"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -785,6 +793,9 @@
    "std-dev",
    "transformations"
   ],
+  "topics": [
+   "q4.sd-multiply-constant"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -800,10 +811,7 @@
   },
   "answer": {
    "value": 18
-  },
-  "topics": [
-   "q4.sd-multiply-constant"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-18",
@@ -815,6 +823,7 @@
   "skills": [
    "standardization"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -849,6 +858,7 @@
    "std-dev",
    "estimation"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Ratings (1 to 5) of two products by 20 reviewers each",
@@ -948,6 +958,9 @@
    "std-dev",
    "comparison"
   ],
+  "topics": [
+   "q4.sd-add-value"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -984,10 +997,7 @@
     "A",
     "B"
    ]
-  },
-  "topics": [
-   "q4.sd-add-value"
-  ]
+  }
  },
  {
   "id": "q4-05-std-dev-21",
@@ -1005,10 +1015,19 @@
    "std-dev",
    "transformations"
   ],
+  "topics": [
+   "q4.sd-add-constant",
+   "q4.range",
+   "q4.mode"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -1046,11 +1065,6 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q4.sd-add-constant",
-   "q4.range",
-   "q4.mode"
-  ]
+  }
  }
 ]

@@ -37,6 +37,7 @@
    "skills": [
     "word-problems"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -69,6 +70,9 @@
    "estSeconds": 60,
    "skills": [
     "word-problems"
+   ],
+   "topics": [
+    "q2.translating-words"
    ],
    "review": {
     "status": "published",
@@ -109,10 +113,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q2.translating-words"
-   ]
+   }
   },
   {
    "id": "q2-09-word-problems-c3",
@@ -123,6 +124,9 @@
    "estSeconds": 75,
    "skills": [
     "word-problems"
+   ],
+   "topics": [
+    "q2.money-problems"
    ],
    "review": {
     "status": "published",
@@ -139,10 +143,7 @@
    },
    "answer": {
     "value": 16
-   },
-   "topics": [
-    "q2.money-problems"
-   ]
+   }
   }
  ]
 }

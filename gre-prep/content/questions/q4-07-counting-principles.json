@@ -9,6 +9,10 @@
   "skills": [
    "multiplication-principle"
   ],
+  "topics": [
+   "q4.and-multiplies",
+   "q4.counting-principle"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,11 +28,7 @@
   },
   "answer": {
    "value": 12
-  },
-  "topics": [
-   "q4.and-multiplies",
-   "q4.counting-principle"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-02",
@@ -39,6 +39,9 @@
   "estSeconds": 45,
   "skills": [
    "permutations"
+  ],
+  "topics": [
+   "q4.factorial-basics"
   ],
   "review": {
    "status": "published",
@@ -55,10 +58,7 @@
   },
   "answer": {
    "value": 24
-  },
-  "topics": [
-   "q4.factorial-basics"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-03",
@@ -75,6 +75,9 @@
   "estSeconds": 60,
   "skills": [
    "combinations"
+  ],
+  "topics": [
+   "q4.combination-formula"
   ],
   "review": {
    "status": "published",
@@ -115,10 +118,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.combination-formula"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-04",
@@ -130,6 +130,7 @@
   "skills": [
    "combinations"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -158,6 +159,10 @@
   "skills": [
    "multiplication-principle"
   ],
+  "topics": [
+   "q4.codes",
+   "q4.counting-principle"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -173,11 +178,7 @@
   },
   "answer": {
    "value": 2600
-  },
-  "topics": [
-   "q4.codes",
-   "q4.counting-principle"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-06",
@@ -194,6 +195,11 @@
   "estSeconds": 75,
   "skills": [
    "permutations"
+  ],
+  "topics": [
+   "q4.dependent-selections",
+   "q4.order-matters",
+   "q4.permutation-formula"
   ],
   "review": {
    "status": "published",
@@ -234,12 +240,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.dependent-selections",
-   "q4.order-matters",
-   "q4.permutation-formula"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-07",
@@ -251,6 +252,10 @@
   "skills": [
    "combinations",
    "multiplication-principle"
+  ],
+  "topics": [
+   "q4.and-multiplies",
+   "q4.multistep-selections"
   ],
   "review": {
    "status": "published",
@@ -267,11 +272,7 @@
   },
   "answer": {
    "value": 150
-  },
-  "topics": [
-   "q4.and-multiplies",
-   "q4.multistep-selections"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-08",
@@ -286,6 +287,9 @@
   "skills": [
    "factorials",
    "combinations"
+  ],
+  "topics": [
+   "q4.factorial-basics"
   ],
   "review": {
    "status": "published",
@@ -324,10 +328,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q4.factorial-basics"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-09",
@@ -338,6 +339,9 @@
   "estSeconds": 120,
   "skills": [
    "permutations"
+  ],
+  "topics": [
+   "q4.items-together"
   ],
   "review": {
    "status": "published",
@@ -354,10 +358,7 @@
   },
   "answer": {
    "value": 48
-  },
-  "topics": [
-   "q4.items-together"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-10",
@@ -374,6 +375,10 @@
   "estSeconds": 100,
   "skills": [
    "multiplication-principle"
+  ],
+  "topics": [
+   "q4.restricted-arrangements",
+   "q4.restricted-first"
   ],
   "review": {
    "status": "published",
@@ -414,11 +419,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q4.restricted-arrangements",
-   "q4.restricted-first"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-11",
@@ -429,6 +430,9 @@
   "estSeconds": 120,
   "skills": [
    "combinations"
+  ],
+  "topics": [
+   "q4.never-together"
   ],
   "review": {
    "status": "published",
@@ -445,10 +449,7 @@
   },
   "answer": {
    "value": 77
-  },
-  "topics": [
-   "q4.never-together"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-12",
@@ -460,6 +461,9 @@
   "skills": [
    "combinations",
    "complement"
+  ],
+  "topics": [
+   "q4.at-least-selections"
   ],
   "review": {
    "status": "published",
@@ -476,10 +480,7 @@
   },
   "answer": {
    "value": 57
-  },
-  "topics": [
-   "q4.at-least-selections"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-13",
@@ -490,6 +491,9 @@
   "estSeconds": 45,
   "skills": [
    "multiplication-principle"
+  ],
+  "topics": [
+   "q4.counting-principle"
   ],
   "review": {
    "status": "published",
@@ -506,10 +510,7 @@
   },
   "answer": {
    "value": 84
-  },
-  "topics": [
-   "q4.counting-principle"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-14",
@@ -526,6 +527,9 @@
   "estSeconds": 60,
   "skills": [
    "permutations"
+  ],
+  "topics": [
+   "q4.permutation-formula"
   ],
   "review": {
    "status": "published",
@@ -566,10 +570,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.permutation-formula"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-15",
@@ -580,6 +581,9 @@
   "estSeconds": 60,
   "skills": [
    "combinations"
+  ],
+  "topics": [
+   "q4.combination-formula"
   ],
   "review": {
    "status": "published",
@@ -596,10 +600,7 @@
   },
   "answer": {
    "value": 70
-  },
-  "topics": [
-   "q4.combination-formula"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-16",
@@ -611,6 +612,9 @@
   "skills": [
    "permutations",
    "combinations"
+  ],
+  "topics": [
+   "q4.order-matters"
   ],
   "review": {
    "status": "published",
@@ -628,10 +632,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q4.order-matters"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-17",
@@ -642,6 +643,11 @@
   "estSeconds": 80,
   "skills": [
    "multiplication-principle"
+  ],
+  "topics": [
+   "q4.codes",
+   "q4.dependent-selections",
+   "q4.multistep-selections"
   ],
   "review": {
    "status": "published",
@@ -658,12 +664,7 @@
   },
   "answer": {
    "value": 65000
-  },
-  "topics": [
-   "q4.codes",
-   "q4.dependent-selections",
-   "q4.multistep-selections"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-18",
@@ -674,6 +675,9 @@
   "estSeconds": 100,
   "skills": [
    "permutations"
+  ],
+  "topics": [
+   "q4.items-together"
   ],
   "review": {
    "status": "published",
@@ -690,10 +694,7 @@
   },
   "answer": {
    "value": 144
-  },
-  "topics": [
-   "q4.items-together"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-19",
@@ -711,6 +712,10 @@
   "skills": [
    "combinations",
    "complement"
+  ],
+  "topics": [
+   "q4.at-least-one-from-group",
+   "q4.at-least-selections"
   ],
   "review": {
    "status": "published",
@@ -751,11 +756,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.at-least-one-from-group",
-   "q4.at-least-selections"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-20",
@@ -767,6 +768,12 @@
   "skills": [
    "multiplication-principle",
    "permutations"
+  ],
+  "topics": [
+   "q4.dependent-selections",
+   "q4.or-adds",
+   "q4.restricted-arrangements",
+   "q4.restricted-first"
   ],
   "review": {
    "status": "published",
@@ -783,13 +790,7 @@
   },
   "answer": {
    "value": 952
-  },
-  "topics": [
-   "q4.dependent-selections",
-   "q4.or-adds",
-   "q4.restricted-arrangements",
-   "q4.restricted-first"
-  ]
+  }
  },
  {
   "id": "q4-07-counting-principles-21",
@@ -802,10 +803,18 @@
    "permutations",
    "multiplication-principle"
   ],
+  "topics": [
+   "q4.restricted-first",
+   "q4.restricted-arrangements"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -813,10 +822,6 @@
   },
   "answer": {
    "value": 720
-  },
-  "topics": [
-   "q4.restricted-first",
-   "q4.restricted-arrangements"
-  ]
+  }
  }
 ]

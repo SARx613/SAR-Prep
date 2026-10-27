@@ -10,6 +10,9 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [
+   "q3.triangle-angle-sum"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -25,10 +28,7 @@
   },
   "answer": {
    "value": 65
-  },
-  "topics": [
-   "q3.triangle-angle-sum"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-02",
@@ -47,6 +47,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -99,6 +100,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -127,6 +129,9 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [
+   "q3.triangle-inequality"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -144,10 +149,7 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q3.triangle-inequality"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-05",
@@ -164,6 +166,9 @@
   "skills": [
    "triangles",
    "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.triangle-inequality"
   ],
   "review": {
    "status": "published",
@@ -205,10 +210,7 @@
     "B",
     "D"
    ]
-  },
-  "topics": [
-   "q3.triangle-inequality"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-06",
@@ -220,6 +222,10 @@
   "skills": [
    "triangles",
    "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.pythagorean-theorem",
+   "q3.pythagorean-triples"
   ],
   "review": {
    "status": "published",
@@ -236,11 +242,7 @@
   },
   "answer": {
    "value": 20
-  },
-  "topics": [
-   "q3.pythagorean-theorem",
-   "q3.pythagorean-triples"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-07",
@@ -253,6 +255,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -289,6 +292,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -349,6 +353,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -388,6 +393,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -438,6 +444,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -466,6 +473,9 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [
+   "q3.pythagorean-triples"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -481,10 +491,7 @@
   },
   "answer": {
    "value": 120
-  },
-  "topics": [
-   "q3.pythagorean-triples"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-13",
@@ -496,6 +503,9 @@
   "skills": [
    "triangles",
    "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.triangle-angle-sum"
   ],
   "review": {
    "status": "published",
@@ -512,10 +522,7 @@
   },
   "answer": {
    "value": 72
-  },
-  "topics": [
-   "q3.triangle-angle-sum"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-14",
@@ -533,6 +540,9 @@
   "skills": [
    "triangles",
    "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.triangle-types"
   ],
   "review": {
    "status": "published",
@@ -573,10 +583,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.triangle-types"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-15",
@@ -589,6 +596,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -625,6 +633,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -681,6 +690,9 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [
+   "q3.triangle-types"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -722,10 +734,7 @@
     "B",
     "D"
    ]
-  },
-  "topics": [
-   "q3.triangle-types"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-18",
@@ -737,6 +746,9 @@
   "skills": [
    "triangles",
    "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.pythagorean-theorem"
   ],
   "figure": {
    "kind": "svg",
@@ -761,10 +773,7 @@
   },
   "answer": {
    "value": 13
-  },
-  "topics": [
-   "q3.pythagorean-theorem"
-  ]
+  }
  },
  {
   "id": "q3-03-triangles-pythagoras-19",
@@ -777,6 +786,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -813,6 +823,7 @@
    "triangles",
    "pythagorean-theorem"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -845,10 +856,18 @@
   "skills": [
    "triangles"
   ],
+  "topics": [
+   "q3.triangle-inequality",
+   "q3.triangle-types"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -881,10 +900,6 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q3.triangle-inequality",
-   "q3.triangle-types"
-  ]
+  }
  }
 ]

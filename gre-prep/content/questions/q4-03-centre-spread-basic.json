@@ -9,6 +9,9 @@
   "skills": [
    "mean"
   ],
+  "topics": [
+   "q4.mean-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 7
-  },
-  "topics": [
-   "q4.mean-basics"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-02",
@@ -44,6 +44,9 @@
   "estSeconds": 45,
   "skills": [
    "median"
+  ],
+  "topics": [
+   "q4.median"
   ],
   "review": {
    "status": "published",
@@ -84,10 +87,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.median"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-03",
@@ -98,6 +98,9 @@
   "estSeconds": 45,
   "skills": [
    "mode"
+  ],
+  "topics": [
+   "q4.mode"
   ],
   "figure": {
    "kind": "table",
@@ -153,10 +156,7 @@
   },
   "answer": {
    "value": 2
-  },
-  "topics": [
-   "q4.mode"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-04",
@@ -167,6 +167,9 @@
   "estSeconds": 60,
   "skills": [
    "median"
+  ],
+  "topics": [
+   "q4.median"
   ],
   "review": {
    "status": "published",
@@ -183,10 +186,7 @@
   },
   "answer": {
    "value": 15.5
-  },
-  "topics": [
-   "q4.median"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-05",
@@ -199,6 +199,7 @@
    "mean",
    "median"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -227,6 +228,9 @@
   "estSeconds": 90,
   "skills": [
    "mean"
+  ],
+  "topics": [
+   "q4.mean-from-frequency-table"
   ],
   "figure": {
    "kind": "table",
@@ -282,10 +286,7 @@
   },
   "answer": {
    "value": 1.85
-  },
-  "topics": [
-   "q4.mean-from-frequency-table"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-07",
@@ -303,6 +304,9 @@
   "skills": [
    "mean",
    "weighted-mean"
+  ],
+  "topics": [
+   "q4.weighted-average"
   ],
   "review": {
    "status": "published",
@@ -343,10 +347,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.weighted-average"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-08",
@@ -357,6 +358,10 @@
   "estSeconds": 75,
   "skills": [
    "mean"
+  ],
+  "topics": [
+   "q4.mean-after-change",
+   "q4.missing-value-from-mean"
   ],
   "review": {
    "status": "published",
@@ -373,11 +378,7 @@
   },
   "answer": {
    "value": 24
-  },
-  "topics": [
-   "q4.mean-after-change",
-   "q4.missing-value-from-mean"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-09",
@@ -388,6 +389,9 @@
   "estSeconds": 100,
   "skills": [
    "median"
+  ],
+  "topics": [
+   "q4.median-position"
   ],
   "figure": {
    "kind": "table",
@@ -443,10 +447,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q4.median-position"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-10",
@@ -462,6 +463,10 @@
    "mean",
    "median",
    "range"
+  ],
+  "topics": [
+   "q4.mean-after-change",
+   "q4.range"
   ],
   "review": {
    "status": "published",
@@ -495,11 +500,7 @@
     "A",
     "C"
    ]
-  },
-  "topics": [
-   "q4.mean-after-change",
-   "q4.range"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-11",
@@ -511,6 +512,9 @@
   "skills": [
    "mean",
    "median"
+  ],
+  "topics": [
+   "q4.mean-extremes"
   ],
   "review": {
    "status": "published",
@@ -527,10 +531,7 @@
   },
   "answer": {
    "value": 43
-  },
-  "topics": [
-   "q4.mean-extremes"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-12",
@@ -542,6 +543,9 @@
   "skills": [
    "mean",
    "median"
+  ],
+  "topics": [
+   "q4.median-unknown-values"
   ],
   "review": {
    "status": "published",
@@ -560,10 +564,7 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q4.median-unknown-values"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-13",
@@ -574,6 +575,9 @@
   "estSeconds": 45,
   "skills": [
    "range"
+  ],
+  "topics": [
+   "q4.range"
   ],
   "review": {
    "status": "published",
@@ -590,10 +594,7 @@
   },
   "answer": {
    "value": 19
-  },
-  "topics": [
-   "q4.range"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-14",
@@ -604,6 +605,9 @@
   "estSeconds": 75,
   "skills": [
    "median"
+  ],
+  "topics": [
+   "q4.median-position"
   ],
   "figure": {
    "kind": "table",
@@ -659,10 +663,7 @@
   },
   "answer": {
    "value": 2
-  },
-  "topics": [
-   "q4.median-position"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-15",
@@ -675,6 +676,7 @@
    "mean",
    "median"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -709,6 +711,9 @@
   "estSeconds": 90,
   "skills": [
    "mean"
+  ],
+  "topics": [
+   "q4.sum-from-mean"
   ],
   "review": {
    "status": "published",
@@ -749,10 +754,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.sum-from-mean"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-17",
@@ -764,6 +766,9 @@
   "skills": [
    "mean",
    "weighted-mean"
+  ],
+  "topics": [
+   "q4.mean-from-frequency-table"
   ],
   "figure": {
    "kind": "table",
@@ -819,10 +824,7 @@
   },
   "answer": {
    "value": 1.72
-  },
-  "topics": [
-   "q4.mean-from-frequency-table"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-18",
@@ -833,6 +835,9 @@
   "estSeconds": 100,
   "skills": [
    "median"
+  ],
+  "topics": [
+   "q4.median-position"
   ],
   "figure": {
    "kind": "table",
@@ -888,10 +893,7 @@
   },
   "answer": {
    "value": 3.5
-  },
-  "topics": [
-   "q4.median-position"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-19",
@@ -903,6 +905,9 @@
   "skills": [
    "mean",
    "weighted-mean"
+  ],
+  "topics": [
+   "q4.weighted-average"
   ],
   "review": {
    "status": "published",
@@ -919,10 +924,7 @@
   },
   "answer": {
    "value": 80.7
-  },
-  "topics": [
-   "q4.weighted-average"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-20",
@@ -934,6 +936,9 @@
   "skills": [
    "mean",
    "median"
+  ],
+  "topics": [
+   "q4.mean-extremes"
   ],
   "review": {
    "status": "published",
@@ -950,10 +955,7 @@
   },
   "answer": {
    "value": 36
-  },
-  "topics": [
-   "q4.mean-extremes"
-  ]
+  }
  },
  {
   "id": "q4-03-centre-spread-basic-21",
@@ -970,10 +972,17 @@
   "skills": [
    "mode"
   ],
+  "topics": [
+   "q4.mode"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -1006,9 +1015,6 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q4.mode"
-  ]
+  }
  }
 ]

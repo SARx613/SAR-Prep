@@ -584,10 +584,18 @@
    "linear-inequalities",
    "word-problems"
   ],
+  "topics": [
+   "q2.inequality-word-problems",
+   "q2.profit-and-loss"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -596,10 +604,6 @@
   },
   "answer": {
    "value": 3.2
-  },
-  "topics": [
-   "q2.inequality-word-problems",
-   "q2.profit-and-loss"
-  ]
+  }
  }
 ]

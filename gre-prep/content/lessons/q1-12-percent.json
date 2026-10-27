@@ -33,6 +33,9 @@
    "skills": [
     "percent"
    ],
+   "topics": [
+    "q1.percent-of"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -48,10 +51,7 @@
    },
    "answer": {
     "value": 21
-   },
-   "topics": [
-    "q1.percent-of"
-   ]
+   }
   },
   {
    "id": "q1-12-percent-c2",
@@ -68,6 +68,9 @@
    "estSeconds": 60,
    "skills": [
     "percent"
+   ],
+   "topics": [
+    "q1.what-percent"
    ],
    "review": {
     "status": "published",
@@ -108,10 +111,7 @@
     "choices": [
      "C"
     ]
-   },
-   "topics": [
-    "q1.what-percent"
-   ]
+   }
   },
   {
    "id": "q1-12-percent-c3",
@@ -123,6 +123,7 @@
    "skills": [
     "percent"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

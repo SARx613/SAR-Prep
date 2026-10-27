@@ -552,10 +552,19 @@
    "independence",
    "probability"
   ],
+  "topics": [
+   "q4.exclusive-vs-independent",
+   "q4.or-overlapping",
+   "q4.and-independent"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -563,11 +572,6 @@
   },
   "answer": {
    "value": 0.4
-  },
-  "topics": [
-   "q4.exclusive-vs-independent",
-   "q4.or-overlapping",
-   "q4.and-independent"
-  ]
+  }
  }
 ]

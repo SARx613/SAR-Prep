@@ -866,10 +866,18 @@
    "grouped-data",
    "tables"
   ],
+  "topics": [
+   "q4.grouped-frequency-tables",
+   "q4.frequency-tables"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -877,10 +885,6 @@
   },
   "answer": {
    "value": 9
-  },
-  "topics": [
-   "q4.grouped-frequency-tables",
-   "q4.frequency-tables"
-  ]
+  }
  }
 ]

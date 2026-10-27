@@ -9,6 +9,9 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.remainder-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 3
-  },
-  "topics": [
-   "q1.remainder-basics"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-02",
@@ -45,6 +45,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -102,6 +103,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -153,6 +155,9 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.parity-add-subtract"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -170,10 +175,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q1.parity-add-subtract"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-05",
@@ -188,6 +190,9 @@
   "estSeconds": 75,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.parity-add-subtract"
   ],
   "review": {
    "status": "published",
@@ -230,10 +235,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q1.parity-add-subtract"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-06",
@@ -245,6 +247,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -277,6 +280,9 @@
   "estSeconds": 90,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.multiplying-remainders"
   ],
   "review": {
    "status": "published",
@@ -317,10 +323,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q1.multiplying-remainders"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-08",
@@ -332,6 +335,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -361,6 +365,9 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.count-multiples-in-range"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -376,10 +383,7 @@
   },
   "answer": {
    "value": 14
-  },
-  "topics": [
-   "q1.count-multiples-in-range"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-10",
@@ -396,6 +400,10 @@
   "estSeconds": 90,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.consecutive-product-divisibility",
+   "q1.parity-multiply"
   ],
   "review": {
    "status": "published",
@@ -436,11 +444,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q1.consecutive-product-divisibility",
-   "q1.parity-multiply"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-11",
@@ -455,6 +459,9 @@
   "estSeconds": 90,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.parity-add-subtract"
   ],
   "review": {
    "status": "published",
@@ -492,10 +499,7 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q1.parity-add-subtract"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-12",
@@ -507,6 +511,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -539,6 +544,9 @@
   "estSeconds": 45,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.parity-multiply"
   ],
   "review": {
    "status": "published",
@@ -579,10 +587,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q1.parity-multiply"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-14",
@@ -594,6 +599,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -621,6 +627,9 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.multiplying-remainders"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -638,10 +647,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q1.multiplying-remainders"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-16",
@@ -656,6 +662,9 @@
   "estSeconds": 100,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.adding-remainders"
   ],
   "review": {
    "status": "published",
@@ -698,10 +707,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q1.adding-remainders"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-17",
@@ -718,6 +724,9 @@
   "estSeconds": 80,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.remainder-basics"
   ],
   "review": {
    "status": "published",
@@ -758,10 +767,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q1.remainder-basics"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-18",
@@ -778,6 +784,9 @@
   "estSeconds": 100,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.adding-remainders"
   ],
   "review": {
    "status": "published",
@@ -818,10 +827,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q1.adding-remainders"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-19",
@@ -832,6 +838,9 @@
   "estSeconds": 110,
   "skills": [
    "remainders-parity"
+  ],
+  "topics": [
+   "q1.count-multiples-in-range"
   ],
   "review": {
    "status": "published",
@@ -848,10 +857,7 @@
   },
   "answer": {
    "value": 12
-  },
-  "topics": [
-   "q1.count-multiples-in-range"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-20",
@@ -863,6 +869,7 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -890,10 +897,18 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.remainder-basics",
+   "q1.remainder-range"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -903,11 +918,7 @@
   },
   "answer": {
    "choice": "C"
-  },
-  "topics": [
-   "q1.remainder-basics",
-   "q1.remainder-range"
-  ]
+  }
  },
  {
   "id": "q1-03-remainders-parity-22",
@@ -919,10 +930,17 @@
   "skills": [
    "remainders-parity"
   ],
+  "topics": [
+   "q1.remainder-basics"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -930,9 +948,6 @@
   },
   "answer": {
    "value": 58
-  },
-  "topics": [
-   "q1.remainder-basics"
-  ]
+  }
  }
 ]

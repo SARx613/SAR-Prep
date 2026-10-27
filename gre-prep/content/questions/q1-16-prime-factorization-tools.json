@@ -586,10 +586,18 @@
   "skills": [
    "factors-multiples"
   ],
+  "topics": [
+   "q1.multiples",
+   "q1.factor-pairs"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -598,10 +606,6 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q1.multiples",
-   "q1.factor-pairs"
-  ]
+  }
  }
 ]

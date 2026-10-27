@@ -9,6 +9,9 @@
   "skills": [
    "probability"
   ],
+  "topics": [
+   "q4.probability-formula"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -28,10 +31,7 @@
     "numerator": 1,
     "denominator": 3
    }
-  },
-  "topics": [
-   "q4.probability-formula"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-02",
@@ -48,6 +48,9 @@
   "estSeconds": 60,
   "skills": [
    "complement"
+  ],
+  "topics": [
+   "q4.complement"
   ],
   "review": {
    "status": "published",
@@ -88,10 +91,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.complement"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-03",
@@ -102,6 +102,10 @@
   "estSeconds": 45,
   "skills": [
    "mutually-exclusive"
+  ],
+  "topics": [
+   "q4.mutually-exclusive",
+   "q4.or-exclusive"
   ],
   "review": {
    "status": "published",
@@ -118,11 +122,7 @@
   },
   "answer": {
    "value": 0.75
-  },
-  "topics": [
-   "q4.mutually-exclusive",
-   "q4.or-exclusive"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-04",
@@ -134,6 +134,7 @@
   "skills": [
    "probability"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -167,6 +168,9 @@
   "estSeconds": 60,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.or-overlapping"
   ],
   "review": {
    "status": "published",
@@ -207,10 +211,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.or-overlapping"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-06",
@@ -222,6 +223,7 @@
   "skills": [
    "weighted-outcomes"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -259,6 +261,7 @@
   "skills": [
    "inclusion-exclusion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -310,6 +313,9 @@
   "skills": [
    "probability"
   ],
+  "topics": [
+   "q4.sample-space"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -329,10 +335,7 @@
     "numerator": 5,
     "denominator": 36
    }
-  },
-  "topics": [
-   "q4.sample-space"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-09",
@@ -348,6 +351,7 @@
   "skills": [
    "inclusion-exclusion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -401,6 +405,9 @@
   "skills": [
    "complement"
   ],
+  "topics": [
+   "q4.at-least-one"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -420,10 +427,7 @@
     "numerator": 7,
     "denominator": 8
    }
-  },
-  "topics": [
-   "q4.at-least-one"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-11",
@@ -434,6 +438,10 @@
   "estSeconds": 150,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.or-overlapping",
+   "q4.sample-space"
   ],
   "review": {
    "status": "published",
@@ -454,11 +462,7 @@
     "numerator": 4,
     "denominator": 9
    }
-  },
-  "topics": [
-   "q4.or-overlapping",
-   "q4.sample-space"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-12",
@@ -470,6 +474,7 @@
   "skills": [
    "inclusion-exclusion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -499,6 +504,9 @@
   "skills": [
    "probability"
   ],
+  "topics": [
+   "q4.probability-formula"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -518,10 +526,7 @@
     "numerator": 1,
     "denominator": 6
    }
-  },
-  "topics": [
-   "q4.probability-formula"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-14",
@@ -538,6 +543,9 @@
   "estSeconds": 60,
   "skills": [
    "complement"
+  ],
+  "topics": [
+   "q4.complement"
   ],
   "review": {
    "status": "published",
@@ -578,10 +586,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.complement"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-15",
@@ -592,6 +597,9 @@
   "estSeconds": 70,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.or-overlapping"
   ],
   "review": {
    "status": "published",
@@ -608,10 +616,7 @@
   },
   "answer": {
    "value": 0.15
-  },
-  "topics": [
-   "q4.or-overlapping"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-16",
@@ -622,6 +627,9 @@
   "estSeconds": 90,
   "skills": [
    "probability"
+  ],
+  "topics": [
+   "q4.sample-space"
   ],
   "review": {
    "status": "published",
@@ -642,10 +650,7 @@
     "numerator": 2,
     "denominator": 9
    }
-  },
-  "topics": [
-   "q4.sample-space"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-17",
@@ -656,6 +661,10 @@
   "estSeconds": 75,
   "skills": [
    "mutually-exclusive"
+  ],
+  "topics": [
+   "q4.mutually-exclusive",
+   "q4.or-exclusive"
   ],
   "review": {
    "status": "published",
@@ -674,11 +683,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q4.mutually-exclusive",
-   "q4.or-exclusive"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-18",
@@ -695,6 +700,7 @@
    "inclusion-exclusion",
    "complement"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -749,6 +755,10 @@
    "probability",
    "combinations"
   ],
+  "topics": [
+   "q4.count-the-orders",
+   "q4.counting-based-probability"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -768,11 +778,7 @@
     "numerator": 3,
     "denominator": 8
    }
-  },
-  "topics": [
-   "q4.count-the-orders",
-   "q4.counting-based-probability"
-  ]
+  }
  },
  {
   "id": "q4-08-probability-basics-20",
@@ -785,6 +791,7 @@
    "inclusion-exclusion",
    "probability"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -817,10 +824,19 @@
    "probability",
    "complement"
   ],
+  "topics": [
+   "q4.complement",
+   "q4.probability-formula",
+   "q4.counting-principle"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -832,11 +848,6 @@
     "numerator": 7,
     "denominator": 25
    }
-  },
-  "topics": [
-   "q4.complement",
-   "q4.probability-formula",
-   "q4.counting-principle"
-  ]
+  }
  }
 ]

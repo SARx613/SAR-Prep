@@ -9,6 +9,9 @@
   "skills": [
    "functions"
   ],
+  "topics": [
+   "q2.function-notation"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 13
-  },
-  "topics": [
-   "q2.function-notation"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-02",
@@ -45,6 +45,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -102,6 +103,9 @@
   "skills": [
    "functions"
   ],
+  "topics": [
+   "q2.function-of-expression"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -141,10 +145,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.function-of-expression"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-04",
@@ -162,6 +163,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -213,6 +215,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -242,6 +245,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -274,6 +278,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -326,6 +331,9 @@
   "skills": [
    "functions"
   ],
+  "topics": [
+   "q2.square-of-sum-vs-sum-of-squares"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -343,10 +351,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q2.square-of-sum-vs-sum-of-squares"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-09",
@@ -362,6 +367,9 @@
   "estSeconds": 90,
   "skills": [
    "functions"
+  ],
+  "topics": [
+   "q2.domain"
   ],
   "review": {
    "status": "published",
@@ -403,10 +411,7 @@
     "A",
     "D"
    ]
-  },
-  "topics": [
-   "q2.domain"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-10",
@@ -418,6 +423,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -445,6 +451,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -478,6 +485,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -529,6 +537,9 @@
   "skills": [
    "functions"
   ],
+  "topics": [
+   "q2.function-notation"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -544,10 +555,7 @@
   },
   "answer": {
    "value": 11
-  },
-  "topics": [
-   "q2.function-notation"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-14",
@@ -565,6 +573,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -616,6 +625,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -650,6 +660,9 @@
   "estSeconds": 80,
   "skills": [
    "functions"
+  ],
+  "topics": [
+   "q2.function-of-expression"
   ],
   "review": {
    "status": "published",
@@ -690,10 +703,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.function-of-expression"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-17",
@@ -709,6 +719,9 @@
   "estSeconds": 100,
   "skills": [
    "functions"
+  ],
+  "topics": [
+   "q2.range-even-powers"
   ],
   "review": {
    "status": "published",
@@ -750,10 +763,7 @@
     "A",
     "D"
    ]
-  },
-  "topics": [
-   "q2.range-even-powers"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-18",
@@ -765,6 +775,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -797,6 +808,9 @@
   "estSeconds": 90,
   "skills": [
    "functions"
+  ],
+  "topics": [
+   "q2.domain"
   ],
   "review": {
    "status": "published",
@@ -837,10 +851,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.domain"
-  ]
+  }
  },
  {
   "id": "q2-08-functions-20",
@@ -852,6 +863,7 @@
   "skills": [
    "functions"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -879,10 +891,18 @@
   "skills": [
    "functions"
   ],
+  "topics": [
+   "q2.function-notation",
+   "q1.opposites-and-absolute-value"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -892,10 +912,6 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.function-notation",
-   "q1.opposites-and-absolute-value"
-  ]
+  }
  }
 ]

@@ -15,6 +15,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -66,6 +67,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -99,6 +101,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -156,6 +159,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -215,6 +219,9 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [
+   "q2.range-from-extremes"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -232,10 +239,7 @@
   },
   "answer": {
    "choice": "C"
-  },
-  "topics": [
-   "q2.range-from-extremes"
-  ]
+  }
  },
  {
   "id": "q2-16-function-graphs-06",
@@ -247,6 +251,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -280,6 +285,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -343,6 +349,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -396,6 +403,10 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [
+   "q1.absolute-value-equations",
+   "q1.isolate-absolute-value"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -411,11 +422,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q1.absolute-value-equations",
-   "q1.isolate-absolute-value"
-  ]
+  }
  },
  {
   "id": "q2-16-function-graphs-10",
@@ -427,6 +434,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -462,6 +470,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -513,6 +522,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -546,6 +556,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -597,6 +608,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -630,6 +642,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -681,6 +694,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -716,6 +730,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -775,6 +790,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -806,6 +822,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -859,6 +876,7 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -892,10 +910,18 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [
+   "q2.domain",
+   "q2.range-root-functions"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -927,11 +953,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.domain",
-   "q2.range-root-functions"
-  ]
+  }
  },
  {
   "id": "q2-16-function-graphs-22",
@@ -947,10 +969,19 @@
   "skills": [
    "function-graphs"
   ],
+  "topics": [
+   "q2.domain",
+   "q2.range-root-functions",
+   "q1.opposites-and-absolute-value"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -984,11 +1015,6 @@
     "C",
     "E"
    ]
-  },
-  "topics": [
-   "q2.domain",
-   "q2.range-root-functions",
-   "q1.opposites-and-absolute-value"
-  ]
+  }
  }
 ]

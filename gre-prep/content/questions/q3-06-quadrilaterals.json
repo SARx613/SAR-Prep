@@ -10,6 +10,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -44,6 +45,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -96,6 +98,9 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [
+   "q3.trapezoid-area"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -119,10 +124,7 @@
   },
   "answer": {
    "value": 55
-  },
-  "topics": [
-   "q3.trapezoid-area"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-04",
@@ -134,6 +136,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.compare-polygons"
   ],
   "review": {
    "status": "published",
@@ -151,10 +156,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q3.compare-polygons"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-05",
@@ -172,6 +174,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.parallelograms"
   ],
   "figure": {
    "kind": "svg",
@@ -220,10 +225,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.parallelograms"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-06",
@@ -235,6 +237,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.rectangle-diagonal"
   ],
   "review": {
    "status": "published",
@@ -251,10 +256,7 @@
   },
   "answer": {
    "value": 46
-  },
-  "topics": [
-   "q3.rectangle-diagonal"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-07",
@@ -272,6 +274,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +328,9 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [
+   "q3.square-properties"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -341,10 +347,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q3.square-properties"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-09",
@@ -356,6 +359,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.trapezoid-area"
   ],
   "figure": {
    "kind": "svg",
@@ -380,10 +386,7 @@
   },
   "answer": {
    "value": 128
-  },
-  "topics": [
-   "q3.trapezoid-area"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-10",
@@ -401,6 +404,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.parallelograms"
   ],
   "figure": {
    "kind": "svg",
@@ -449,10 +455,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q3.parallelograms"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-11",
@@ -464,6 +467,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.rectangle-diagonal"
   ],
   "review": {
    "status": "published",
@@ -480,10 +486,7 @@
   },
   "answer": {
    "value": 52
-  },
-  "topics": [
-   "q3.rectangle-diagonal"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-12",
@@ -496,6 +499,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -534,6 +538,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -567,6 +572,9 @@
   "skills": [
    "quadrilaterals",
    "area"
+  ],
+  "topics": [
+   "q3.parallelograms"
   ],
   "review": {
    "status": "published",
@@ -607,10 +615,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q3.parallelograms"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-15",
@@ -623,6 +628,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -653,6 +659,9 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [
+   "q3.trapezoid-area"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -676,10 +685,7 @@
   },
   "answer": {
    "value": 66
-  },
-  "topics": [
-   "q3.trapezoid-area"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-17",
@@ -696,6 +702,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -750,6 +757,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -792,6 +800,9 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [
+   "q3.rectangle-diagonal"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -831,10 +842,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.rectangle-diagonal"
-  ]
+  }
  },
  {
   "id": "q3-06-quadrilaterals-20",
@@ -847,6 +855,7 @@
    "quadrilaterals",
    "area"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -882,6 +891,10 @@
   "skills": [
    "quadrilaterals"
   ],
+  "topics": [
+   "q3.parallelograms",
+   "q3.pythagorean-theorem"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -891,9 +904,13 @@
    "notes": "Note: Figure not drawn to scale."
   },
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -901,10 +918,6 @@
   },
   "answer": {
    "value": 20
-  },
-  "topics": [
-   "q3.parallelograms",
-   "q3.pythagorean-theorem"
-  ]
+  }
  }
 ]

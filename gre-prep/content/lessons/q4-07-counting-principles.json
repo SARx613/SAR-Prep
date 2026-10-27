@@ -34,6 +34,9 @@
    "skills": [
     "permutations"
    ],
+   "topics": [
+    "q4.factorial-basics"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 24
-   },
-   "topics": [
-    "q4.factorial-basics"
-   ]
+   }
   },
   {
    "id": "q4-07-counting-principles-c2",
@@ -63,6 +63,9 @@
    "estSeconds": 60,
    "skills": [
     "combinations"
+   ],
+   "topics": [
+    "q4.combination-formula"
    ],
    "review": {
     "status": "published",
@@ -79,10 +82,7 @@
    },
    "answer": {
     "value": 28
-   },
-   "topics": [
-    "q4.combination-formula"
-   ]
+   }
   },
   {
    "id": "q4-07-counting-principles-c3",
@@ -94,6 +94,9 @@
    "skills": [
     "permutations",
     "combinations"
+   ],
+   "topics": [
+    "q4.order-matters"
    ],
    "review": {
     "status": "published",
@@ -111,10 +114,7 @@
    },
    "answer": {
     "choice": "B"
-   },
-   "topics": [
-    "q4.order-matters"
-   ]
+   }
   }
  ]
 }

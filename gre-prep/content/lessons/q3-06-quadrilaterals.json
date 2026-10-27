@@ -33,6 +33,9 @@
     "quadrilaterals",
     "area"
    ],
+   "topics": [
+    "q3.square-properties"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -48,10 +51,7 @@
    },
    "answer": {
     "value": 49
-   },
-   "topics": [
-    "q3.square-properties"
-   ]
+   }
   },
   {
    "id": "q3-06-quadrilaterals-c2",
@@ -69,6 +69,9 @@
    "skills": [
     "quadrilaterals",
     "area"
+   ],
+   "topics": [
+    "q3.quadrilateral-basics"
    ],
    "review": {
     "status": "published",
@@ -109,10 +112,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q3.quadrilateral-basics"
-   ]
+   }
   },
   {
    "id": "q3-06-quadrilaterals-c3",
@@ -124,6 +124,9 @@
    "skills": [
     "quadrilaterals",
     "area"
+   ],
+   "topics": [
+    "q3.compare-polygons"
    ],
    "review": {
     "status": "published",
@@ -141,10 +144,7 @@
    },
    "answer": {
     "choice": "C"
-   },
-   "topics": [
-    "q3.compare-polygons"
-   ]
+   }
   }
  ]
 }

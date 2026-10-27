@@ -605,10 +605,17 @@
    "coordinate-geometry",
    "lines-slope"
   ],
+  "topics": [
+   "q2.reflect-over-diagonal"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -640,9 +647,6 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.reflect-over-diagonal"
-  ]
+  }
  }
 ]

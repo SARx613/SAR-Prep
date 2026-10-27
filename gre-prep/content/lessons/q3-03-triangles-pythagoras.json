@@ -34,6 +34,9 @@
     "triangles",
     "pythagorean-theorem"
    ],
+   "topics": [
+    "q3.triangle-angle-sum"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 65
-   },
-   "topics": [
-    "q3.triangle-angle-sum"
-   ]
+   }
   },
   {
    "id": "q3-03-triangles-pythagoras-c2",
@@ -70,6 +70,9 @@
    "skills": [
     "triangles",
     "pythagorean-theorem"
+   ],
+   "topics": [
+    "q3.pythagorean-theorem"
    ],
    "review": {
     "status": "published",
@@ -110,10 +113,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q3.pythagorean-theorem"
-   ]
+   }
   },
   {
    "id": "q3-03-triangles-pythagoras-c3",
@@ -125,6 +125,9 @@
    "skills": [
     "triangles",
     "pythagorean-theorem"
+   ],
+   "topics": [
+    "q3.triangle-inequality"
    ],
    "review": {
     "status": "published",
@@ -143,10 +146,7 @@
    },
    "answer": {
     "choice": "B"
-   },
-   "topics": [
-    "q3.triangle-inequality"
-   ]
+   }
   }
  ]
 }

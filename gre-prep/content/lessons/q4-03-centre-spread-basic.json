@@ -34,6 +34,9 @@
    "skills": [
     "median"
    ],
+   "topics": [
+    "q4.median"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 5.5
-   },
-   "topics": [
-    "q4.median"
-   ]
+   }
   },
   {
    "id": "q4-03-centre-spread-basic-c2",
@@ -63,6 +63,9 @@
    "estSeconds": 60,
    "skills": [
     "mean"
+   ],
+   "topics": [
+    "q4.missing-value-from-mean"
    ],
    "review": {
     "status": "published",
@@ -79,10 +82,7 @@
    },
    "answer": {
     "value": 10
-   },
-   "topics": [
-    "q4.missing-value-from-mean"
-   ]
+   }
   }
  ]
 }

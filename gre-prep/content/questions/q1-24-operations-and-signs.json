@@ -591,10 +591,18 @@
   "skills": [
    "operations-signs"
   ],
+  "topics": [
+   "q1.sign-of-product-quotient",
+   "q1.equivalent-fractions"
+  ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw7",
+    "solver-bw7"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -628,10 +636,6 @@
     "C",
     "E"
    ]
-  },
-  "topics": [
-   "q1.sign-of-product-quotient",
-   "q1.equivalent-fractions"
-  ]
+  }
  }
 ]
