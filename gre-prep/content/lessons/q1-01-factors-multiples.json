@@ -50,7 +50,10 @@
    },
    "answer": {
     "value": 12
-   }
+   },
+   "topics": [
+    "q1.gcf-by-primes"
+   ]
   },
   {
    "id": "q1-01-factors-multiples-c2",
@@ -107,7 +110,11 @@
     "choices": [
      "C"
     ]
-   }
+   },
+   "topics": [
+    "q1.lcm-by-primes",
+    "q1.lcm-three-or-more"
+   ]
   },
   {
    "id": "q1-01-factors-multiples-c3",

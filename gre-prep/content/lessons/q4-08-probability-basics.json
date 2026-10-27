@@ -52,7 +52,10 @@
      "numerator": 3,
      "denominator": 8
     }
-   }
+   },
+   "topics": [
+    "q4.probability-formula"
+   ]
   },
   {
    "id": "q4-08-probability-basics-c2",
@@ -79,7 +82,10 @@
    },
    "answer": {
     "value": 0.8
-   }
+   },
+   "topics": [
+    "q4.or-exclusive"
+   ]
   },
   {
    "id": "q4-08-probability-basics-c3",
@@ -107,7 +113,10 @@
    },
    "answer": {
     "choice": "A"
-   }
+   },
+   "topics": [
+    "q4.complement"
+   ]
   }
  ]
 }

@@ -54,7 +54,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.gcf-by-primes",
+   "q1.lcm-gcf-by-listing"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-02",
@@ -81,7 +85,10 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q1.lcm-gcf-by-listing"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-03",
@@ -138,7 +145,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.factor-pairs"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-04",
@@ -166,7 +176,10 @@
   },
   "answer": {
    "choice": "C"
-  }
+  },
+  "topics": [
+   "q1.lcm-times-gcf"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-05",
@@ -223,7 +236,10 @@
     "C",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.multiples"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-06",
@@ -250,7 +266,11 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q1.lcm-by-primes",
+   "q1.lcm-repeating-cycles"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-07",
@@ -307,7 +327,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.lcm-times-gcf"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-08",
@@ -336,7 +359,10 @@
   },
   "answer": {
    "choice": "C"
-  }
+  },
+  "topics": [
+   "q1.consecutive-share-no-primes"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-09",
@@ -363,7 +389,10 @@
   },
   "answer": {
    "value": 42
-  }
+  },
+  "topics": [
+   "q1.gcf-by-primes"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-10",
@@ -420,7 +449,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.divisibility-by-primes"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-11",
@@ -467,7 +499,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.product-vs-lcm"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-12",
@@ -551,7 +586,10 @@
    "choices": [
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.multiples"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-14",
@@ -579,7 +617,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.factor-pairs"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-15",
@@ -663,7 +704,11 @@
     "B",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.factors-of-factors",
+   "q1.must-be-integer"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-17",
@@ -720,7 +765,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.lcm-by-primes",
+   "q1.lcm-three-or-more"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-18",
@@ -777,7 +826,11 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.count-multiples-in-range",
+   "q1.divisible-by-several"
+  ]
  },
  {
   "id": "q1-01-factors-multiples-19",
@@ -831,6 +884,9 @@
   },
   "answer": {
    "value": 84
-  }
+  },
+  "topics": [
+   "q1.lcm-times-gcf"
+  ]
  }
 ]

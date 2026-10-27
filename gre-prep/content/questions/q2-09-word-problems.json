@@ -165,7 +165,10 @@
   },
   "answer": {
    "value": 18
-  }
+  },
+  "topics": [
+   "q2.money-problems"
+  ]
  },
  {
   "id": "q2-09-word-problems-05",
@@ -222,7 +225,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.inequality-word-problems"
+  ]
  },
  {
   "id": "q2-09-word-problems-06",
@@ -251,7 +257,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q0.translating-in-qc"
+  ]
  },
  {
   "id": "q2-09-word-problems-07",
@@ -308,7 +317,11 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.translating-words",
+   "q2.unit-price"
+  ]
  },
  {
   "id": "q2-09-word-problems-08",
@@ -335,7 +348,11 @@
   },
   "answer": {
    "value": 41
-  }
+  },
+  "topics": [
+   "q1.evenly-spaced-sets",
+   "q2.consecutive-integer-problems"
+  ]
  },
  {
   "id": "q2-09-word-problems-09",
@@ -392,7 +409,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.money-problems"
+  ]
  },
  {
   "id": "q2-09-word-problems-10",
@@ -421,7 +441,10 @@
   },
   "answer": {
    "choice": "D"
-  }
+  },
+  "topics": [
+   "q0.translating-in-qc"
+  ]
  },
  {
   "id": "q2-09-word-problems-11",
@@ -505,7 +528,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.unit-price"
+  ]
  },
  {
   "id": "q2-09-word-problems-13",
@@ -562,7 +588,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q2.translating-words"
+  ]
  },
  {
   "id": "q2-09-word-problems-14",
@@ -647,7 +676,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.less-than-as-of"
+  ]
  },
  {
   "id": "q2-09-word-problems-16",
@@ -676,7 +708,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q0.translating-in-qc"
+  ]
  },
  {
   "id": "q2-09-word-problems-17",
@@ -733,7 +768,10 @@
     "A",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.inequality-word-problems"
+  ]
  },
  {
   "id": "q2-09-word-problems-18",
@@ -817,7 +855,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.salary-and-commission"
+  ]
  },
  {
   "id": "q2-09-word-problems-20",
@@ -845,6 +886,10 @@
   },
   "answer": {
    "value": 50
-  }
+  },
+  "topics": [
+   "q1.percent-profit",
+   "q2.profit-and-loss"
+  ]
  }
 ]

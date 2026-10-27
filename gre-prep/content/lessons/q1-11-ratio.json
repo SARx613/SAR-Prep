@@ -48,7 +48,11 @@
    },
    "answer": {
     "value": 20
-   }
+   },
+   "topics": [
+    "q1.proportions",
+    "q1.ratio-notation"
+   ]
   },
   {
    "id": "q1-11-ratio-c2",
@@ -105,7 +109,10 @@
     "choices": [
      "B"
     ]
-   }
+   },
+   "topics": [
+    "q1.find-multiplier"
+   ]
   },
   {
    "id": "q1-11-ratio-c3",
@@ -134,7 +141,12 @@
    },
    "answer": {
     "choice": "B"
-   }
+   },
+   "topics": [
+    "q1.part-part-part-whole",
+    "q1.ratio-common-variable",
+    "q1.ratio-multiplier"
+   ]
   }
  ]
 }

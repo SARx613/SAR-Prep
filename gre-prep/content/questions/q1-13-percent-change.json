@@ -25,7 +25,10 @@
   },
   "answer": {
    "value": 15
-  }
+  },
+  "topics": [
+   "q1.percent-change-formula"
+  ]
  },
  {
   "id": "q1-13-percent-change-02",
@@ -82,7 +85,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-greater-than"
+  ]
  },
  {
   "id": "q1-13-percent-change-03",
@@ -139,7 +145,10 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-change-formula"
+  ]
  },
  {
   "id": "q1-13-percent-change-04",
@@ -167,7 +176,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.percent-change-asymmetry"
+  ]
  },
  {
   "id": "q1-13-percent-change-05",
@@ -224,7 +236,10 @@
     "C",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-greater-than"
+  ]
  },
  {
   "id": "q1-13-percent-change-06",
@@ -251,7 +266,11 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q1.less-than-as-of",
+   "q1.original-value"
+  ]
  },
  {
   "id": "q1-13-percent-change-07",
@@ -308,7 +327,10 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q1.start-with-100"
+  ]
  },
  {
   "id": "q1-13-percent-change-08",
@@ -337,7 +359,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q1.percent-change-asymmetry"
+  ]
  },
  {
   "id": "q1-13-percent-change-09",
@@ -364,7 +389,10 @@
   },
   "answer": {
    "value": 150
-  }
+  },
+  "topics": [
+   "q1.original-value"
+  ]
  },
  {
   "id": "q1-13-percent-change-10",
@@ -421,7 +449,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.successive-percent-changes"
+  ]
  },
  {
   "id": "q1-13-percent-change-11",
@@ -448,7 +479,11 @@
   },
   "answer": {
    "value": 1
-  }
+  },
+  "topics": [
+   "q1.start-with-100",
+   "q1.successive-percent-changes"
+  ]
  },
  {
   "id": "q1-13-percent-change-12",
@@ -475,7 +510,10 @@
   },
   "answer": {
    "value": 25
-  }
+  },
+  "topics": [
+   "q1.percent-change-asymmetry"
+  ]
  },
  {
   "id": "q1-13-percent-change-13",
@@ -532,7 +570,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-less-than"
+  ]
  },
  {
   "id": "q1-13-percent-change-14",
@@ -588,7 +629,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q1.percent-less-than"
+  ]
  },
  {
   "id": "q1-13-percent-change-16",
@@ -757,7 +801,11 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-less-than",
+   "q1.start-with-100"
+  ]
  },
  {
   "id": "q1-13-percent-change-20",
@@ -784,6 +832,9 @@
   },
   "answer": {
    "value": 20
-  }
+  },
+  "topics": [
+   "q1.variable-percent-change"
+  ]
  }
 ]

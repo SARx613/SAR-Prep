@@ -111,7 +111,10 @@
   },
   "answer": {
    "value": 16
-  }
+  },
+  "topics": [
+   "q3.circle-basics"
+  ]
  },
  {
   "id": "q3-07-circles-basics-04",
@@ -177,7 +180,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q3.sectors"
+  ]
  },
  {
   "id": "q3-07-circles-basics-05",
@@ -234,7 +240,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q3.arcs"
+  ]
  },
  {
   "id": "q3-07-circles-basics-07",
@@ -300,7 +309,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q3.ring-area",
+   "q3.shaded-regions"
+  ]
  },
  {
   "id": "q3-07-circles-basics-08",
@@ -386,7 +399,10 @@
   },
   "answer": {
    "value": 15
-  }
+  },
+  "topics": [
+   "q3.arcs"
+  ]
  },
  {
   "id": "q3-07-circles-basics-10",
@@ -596,7 +612,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q3.sectors"
+  ]
  },
  {
   "id": "q3-07-circles-basics-15",
@@ -719,7 +738,10 @@
   },
   "answer": {
    "value": 44
-  }
+  },
+  "topics": [
+   "q3.ring-area"
+  ]
  },
  {
   "id": "q3-07-circles-basics-18",
@@ -806,7 +828,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q3.ring-area"
+  ]
  },
  {
   "id": "q3-07-circles-basics-20",
@@ -834,6 +859,9 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q3.sectors"
+  ]
  }
 ]

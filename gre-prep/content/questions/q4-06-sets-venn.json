@@ -24,7 +24,10 @@
   },
   "answer": {
    "value": 5
-  }
+  },
+  "topics": [
+   "q4.either-set-count"
+  ]
  },
  {
   "id": "q4-06-sets-venn-02",
@@ -146,7 +149,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.venn-displays"
+  ]
  },
  {
   "id": "q4-06-sets-venn-04",
@@ -173,7 +179,10 @@
   },
   "answer": {
    "value": 5
-  }
+  },
+  "topics": [
+   "q4.two-set-counts"
+  ]
  },
  {
   "id": "q4-06-sets-venn-05",
@@ -202,7 +211,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q4.either-set-count"
+  ]
  },
  {
   "id": "q4-06-sets-venn-06",
@@ -259,7 +271,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.two-set-counts"
+  ]
  },
  {
   "id": "q4-06-sets-venn-07",
@@ -297,7 +312,10 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q4.venn-displays"
+  ]
  },
  {
   "id": "q4-06-sets-venn-08",
@@ -377,7 +395,11 @@
   },
   "answer": {
    "value": 55
-  }
+  },
+  "topics": [
+   "q4.two-set-combined-cells",
+   "q4.two-set-counts"
+  ]
  },
  {
   "id": "q4-06-sets-venn-10",
@@ -443,7 +465,10 @@
   },
   "answer": {
    "value": 10
-  }
+  },
+  "topics": [
+   "q4.set-overlap-extremes"
+  ]
  },
  {
   "id": "q4-06-sets-venn-12",
@@ -500,7 +525,10 @@
     "D",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q4.set-overlap-extremes"
+  ]
  },
  {
   "id": "q4-06-sets-venn-13",
@@ -720,7 +748,10 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.count-multiples-a-or-b"
+  ]
  },
  {
   "id": "q4-06-sets-venn-18",
@@ -748,7 +779,10 @@
   },
   "answer": {
    "value": 9
-  }
+  },
+  "topics": [
+   "q4.two-set-algebra"
+  ]
  },
  {
   "id": "q4-06-sets-venn-19",
@@ -819,6 +853,10 @@
   },
   "answer": {
    "value": 9
-  }
+  },
+  "topics": [
+   "q4.set-overlap-extremes",
+   "q4.two-set-combined-cells"
+  ]
  }
 ]

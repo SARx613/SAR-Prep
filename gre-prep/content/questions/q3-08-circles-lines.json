@@ -33,7 +33,10 @@
   },
   "answer": {
    "value": 10
-  }
+  },
+  "topics": [
+   "q3.tangents"
+  ]
  },
  {
   "id": "q3-08-circles-lines-02",
@@ -99,7 +102,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q3.diameter-right-angle"
+  ]
  },
  {
   "id": "q3-08-circles-lines-03",
@@ -193,7 +199,10 @@
   },
   "answer": {
    "value": 5
-  }
+  },
+  "topics": [
+   "q3.tangents"
+  ]
  },
  {
   "id": "q3-08-circles-lines-05",
@@ -312,7 +321,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q3.rectangle-in-circle"
+  ]
  },
  {
   "id": "q3-08-circles-lines-07",
@@ -660,7 +672,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q3.tangents"
+  ]
  },
  {
   "id": "q3-08-circles-lines-15",
@@ -718,7 +733,10 @@
   },
   "answer": {
    "value": 240
-  }
+  },
+  "topics": [
+   "q3.rectangle-in-circle"
+  ]
  },
  {
   "id": "q3-08-circles-lines-17",
@@ -776,7 +794,10 @@
     "C",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q3.diameter-right-angle"
+  ]
  },
  {
   "id": "q3-08-circles-lines-18",
@@ -878,7 +899,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q3.shaded-regions"
+  ]
  },
  {
   "id": "q3-08-circles-lines-20",
@@ -914,6 +938,9 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q3.radii-isosceles"
+  ]
  }
 ]

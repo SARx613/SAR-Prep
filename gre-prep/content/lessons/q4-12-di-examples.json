@@ -75,7 +75,11 @@
    },
    "answer": {
     "value": 50
-   }
+   },
+   "topics": [
+    "q1.original-value",
+    "q1.percent-greater-than"
+   ]
   },
   {
    "id": "q4-12-di-examples-c3",
@@ -103,7 +107,10 @@
    },
    "answer": {
     "choice": "A"
-   }
+   },
+   "topics": [
+    "q4.percent-vs-count"
+   ]
   }
  ]
 }

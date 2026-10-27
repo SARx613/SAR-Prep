@@ -54,7 +54,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-zero"
+  ]
  },
  {
   "id": "q4-05-std-dev-02",
@@ -136,7 +139,10 @@
   },
   "answer": {
    "choice": "C"
-  }
+  },
+  "topics": [
+   "q4.sd-add-constant"
+  ]
  },
  {
   "id": "q4-05-std-dev-05",
@@ -194,7 +200,11 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-compare-sets",
+   "q4.sd-meaning"
+  ]
  },
  {
   "id": "q4-05-std-dev-06",
@@ -322,7 +332,11 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-compare-sets",
+   "q4.sd-meaning"
+  ]
  },
  {
   "id": "q4-05-std-dev-08",
@@ -474,7 +488,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q4.sd-add-value"
+  ]
  },
  {
   "id": "q4-05-std-dev-11",
@@ -527,7 +544,11 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-add-constant",
+   "q4.sd-multiply-constant"
+  ]
  },
  {
   "id": "q4-05-std-dev-12",
@@ -660,7 +681,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-add-constant"
+  ]
  },
  {
   "id": "q4-05-std-dev-14",
@@ -716,7 +740,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q4.sd-compare-sets"
+  ]
  },
  {
   "id": "q4-05-std-dev-16",
@@ -773,7 +800,10 @@
   },
   "answer": {
    "value": 18
-  }
+  },
+  "topics": [
+   "q4.sd-multiply-constant"
+  ]
  },
  {
   "id": "q4-05-std-dev-18",
@@ -954,6 +984,9 @@
     "A",
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.sd-add-value"
+  ]
  }
 ]

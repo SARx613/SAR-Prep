@@ -141,7 +141,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q3.thirty-sixty-ninety"
+  ]
  },
  {
   "id": "q3-04-special-triangles-04",
@@ -206,7 +209,10 @@
   },
   "answer": {
    "value": 30
-  }
+  },
+  "topics": [
+   "q3.triangle-area"
+  ]
  },
  {
   "id": "q3-04-special-triangles-06",
@@ -264,7 +270,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q3.isosceles-right"
+  ]
  },
  {
   "id": "q3-04-special-triangles-07",
@@ -292,7 +301,10 @@
   },
   "answer": {
    "value": 25
-  }
+  },
+  "topics": [
+   "q3.equilateral-triangle"
+  ]
  },
  {
   "id": "q3-04-special-triangles-08",
@@ -321,7 +333,11 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q3.equilateral-halves",
+   "q3.equilateral-triangle"
+  ]
  },
  {
   "id": "q3-04-special-triangles-09",
@@ -387,7 +403,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q3.thirty-sixty-ninety"
+  ]
  },
  {
   "id": "q3-04-special-triangles-10",
@@ -419,7 +438,10 @@
     "numerator": 60,
     "denominator": 13
    }
-  }
+  },
+  "topics": [
+   "q3.triangle-area"
+  ]
  },
  {
   "id": "q3-04-special-triangles-11",
@@ -447,7 +469,10 @@
   },
   "answer": {
    "value": 36
-  }
+  },
+  "topics": [
+   "q3.equilateral-triangle"
+  ]
  },
  {
   "id": "q3-04-special-triangles-12",
@@ -599,7 +624,12 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.rationalize-monomial",
+   "q3.isosceles-right",
+   "q3.square-properties"
+  ]
  },
  {
   "id": "q3-04-special-triangles-15",
@@ -686,7 +716,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q3.equilateral-halves"
+  ]
  },
  {
   "id": "q3-04-special-triangles-18",
@@ -838,6 +871,9 @@
   },
   "answer": {
    "value": 18
-  }
+  },
+  "topics": [
+   "q3.equilateral-halves"
+  ]
  }
 ]

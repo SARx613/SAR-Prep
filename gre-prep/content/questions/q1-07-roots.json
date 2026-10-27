@@ -81,7 +81,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.principal-square-root"
+  ]
  },
  {
   "id": "q1-07-roots-03",
@@ -138,7 +141,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.simplifying-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-04",
@@ -166,7 +172,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.squares-and-roots"
+  ]
  },
  {
   "id": "q1-07-roots-05",
@@ -255,7 +264,10 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-07",
@@ -312,7 +324,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.adding-like-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-08",
@@ -369,7 +384,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.even-index-roots"
+  ]
  },
  {
   "id": "q1-07-roots-09",
@@ -398,7 +416,10 @@
   },
   "answer": {
    "choice": "D"
-  }
+  },
+  "topics": [
+   "q1.root-of-squared-difference"
+  ]
  },
  {
   "id": "q1-07-roots-10",
@@ -425,7 +446,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-11",
@@ -482,7 +506,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.adding-like-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-12",
@@ -544,7 +571,10 @@
     "B",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.cube-roots"
+  ]
  },
  {
   "id": "q1-07-roots-13",
@@ -601,7 +631,11 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.principal-square-root",
+   "q1.squares-and-roots"
+  ]
  },
  {
   "id": "q1-07-roots-14",
@@ -658,7 +692,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.simplifying-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-15",
@@ -686,7 +723,10 @@
   },
   "answer": {
    "choice": "C"
-  }
+  },
+  "topics": [
+   "q1.root-of-squared-difference"
+  ]
  },
  {
   "id": "q1-07-roots-16",
@@ -713,7 +753,10 @@
   },
   "answer": {
    "value": 2
-  }
+  },
+  "topics": [
+   "q1.cube-roots"
+  ]
  },
  {
   "id": "q1-07-roots-17",
@@ -770,7 +813,10 @@
     "D",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.adding-like-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-18",
@@ -854,7 +900,10 @@
     "A",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-radicals"
+  ]
  },
  {
   "id": "q1-07-roots-20",
@@ -881,6 +930,9 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q1.perfect-square-exponents"
+  ]
  }
 ]

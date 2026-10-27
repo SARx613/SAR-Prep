@@ -28,7 +28,10 @@
     "numerator": 1,
     "denominator": 3
    }
-  }
+  },
+  "topics": [
+   "q4.probability-formula"
+  ]
  },
  {
   "id": "q4-08-probability-basics-02",
@@ -85,7 +88,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.complement"
+  ]
  },
  {
   "id": "q4-08-probability-basics-03",
@@ -112,7 +118,11 @@
   },
   "answer": {
    "value": 0.75
-  }
+  },
+  "topics": [
+   "q4.mutually-exclusive",
+   "q4.or-exclusive"
+  ]
  },
  {
   "id": "q4-08-probability-basics-04",
@@ -197,7 +207,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.or-overlapping"
+  ]
  },
  {
   "id": "q4-08-probability-basics-06",
@@ -316,7 +329,10 @@
     "numerator": 5,
     "denominator": 36
    }
-  }
+  },
+  "topics": [
+   "q4.sample-space"
+  ]
  },
  {
   "id": "q4-08-probability-basics-09",
@@ -404,7 +420,10 @@
     "numerator": 7,
     "denominator": 8
    }
-  }
+  },
+  "topics": [
+   "q4.at-least-one"
+  ]
  },
  {
   "id": "q4-08-probability-basics-11",
@@ -435,7 +454,11 @@
     "numerator": 4,
     "denominator": 9
    }
-  }
+  },
+  "topics": [
+   "q4.or-overlapping",
+   "q4.sample-space"
+  ]
  },
  {
   "id": "q4-08-probability-basics-12",
@@ -495,7 +518,10 @@
     "numerator": 1,
     "denominator": 6
    }
-  }
+  },
+  "topics": [
+   "q4.probability-formula"
+  ]
  },
  {
   "id": "q4-08-probability-basics-14",
@@ -552,7 +578,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.complement"
+  ]
  },
  {
   "id": "q4-08-probability-basics-15",
@@ -579,7 +608,10 @@
   },
   "answer": {
    "value": 0.15
-  }
+  },
+  "topics": [
+   "q4.or-overlapping"
+  ]
  },
  {
   "id": "q4-08-probability-basics-16",
@@ -610,7 +642,10 @@
     "numerator": 2,
     "denominator": 9
    }
-  }
+  },
+  "topics": [
+   "q4.sample-space"
+  ]
  },
  {
   "id": "q4-08-probability-basics-17",
@@ -639,7 +674,11 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q4.mutually-exclusive",
+   "q4.or-exclusive"
+  ]
  },
  {
   "id": "q4-08-probability-basics-18",
@@ -729,7 +768,11 @@
     "numerator": 3,
     "denominator": 8
    }
-  }
+  },
+  "topics": [
+   "q4.count-the-orders",
+   "q4.counting-based-probability"
+  ]
  },
  {
   "id": "q4-08-probability-basics-20",

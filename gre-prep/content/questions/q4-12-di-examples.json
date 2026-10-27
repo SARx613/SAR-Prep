@@ -83,7 +83,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q0.estimation"
+  ]
  },
  {
   "id": "q4-12-di-examples-02",
@@ -181,7 +184,10 @@
   },
   "answer": {
    "value": 100
-  }
+  },
+  "topics": [
+   "q4.venn-displays"
+  ]
  },
  {
   "id": "q4-12-di-examples-04",
@@ -506,7 +512,11 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.clustered-columns",
+   "q4.column-charts"
+  ]
  },
  {
   "id": "q4-12-di-examples-09",
@@ -732,7 +742,10 @@
     "A",
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.percent-vs-count"
+  ]
  },
  {
   "id": "q4-12-di-examples-12",
@@ -823,7 +836,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.greatest-change"
+  ]
  },
  {
   "id": "q4-12-di-examples-13",
@@ -882,7 +898,10 @@
   },
   "answer": {
    "value": 1056
-  }
+  },
+  "topics": [
+   "q0.di-big-picture"
+  ]
  },
  {
   "id": "q4-12-di-examples-14",
@@ -1220,7 +1239,10 @@
   },
   "answer": {
    "value": 960
-  }
+  },
+  "topics": [
+   "q1.less-than-as-of"
+  ]
  },
  {
   "id": "q4-12-di-examples-19",
@@ -1357,6 +1379,9 @@
     "A",
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.percent-vs-count"
+  ]
  }
 ]

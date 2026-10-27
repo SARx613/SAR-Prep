@@ -25,7 +25,10 @@
   },
   "answer": {
    "value": 2800
-  }
+  },
+  "topics": [
+   "q2.simple-interest"
+  ]
  },
  {
   "id": "q2-12-interest-02",
@@ -110,7 +113,10 @@
   },
   "answer": {
    "value": 144
-  }
+  },
+  "topics": [
+   "q2.simple-interest"
+  ]
  },
  {
   "id": "q2-12-interest-04",
@@ -167,7 +173,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.compound-interest"
+  ]
  },
  {
   "id": "q2-12-interest-05",
@@ -223,7 +232,10 @@
   },
   "answer": {
    "value": 490
-  }
+  },
+  "topics": [
+   "q2.compounding-periods"
+  ]
  },
  {
   "id": "q2-12-interest-07",
@@ -422,7 +434,10 @@
   },
   "answer": {
    "value": 2400
-  }
+  },
+  "topics": [
+   "q2.compound-interest"
+  ]
  },
  {
   "id": "q2-12-interest-11",
@@ -705,7 +720,10 @@
   },
   "answer": {
    "value": 1004
-  }
+  },
+  "topics": [
+   "q2.compounding-periods"
+  ]
  },
  {
   "id": "q2-12-interest-18",
@@ -733,7 +751,10 @@
   },
   "answer": {
    "value": 20
-  }
+  },
+  "topics": [
+   "q2.exponential-growth"
+  ]
  },
  {
   "id": "q2-12-interest-19",
@@ -819,6 +840,9 @@
   },
   "answer": {
    "value": 2000
-  }
+  },
+  "topics": [
+   "q2.exponential-growth"
+  ]
  }
 ]

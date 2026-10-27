@@ -183,7 +183,10 @@
     "numerator": 2,
     "denominator": 15
    }
-  }
+  },
+  "topics": [
+   "q4.and-dependent"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-05",
@@ -283,7 +286,10 @@
     "numerator": 3,
     "denominator": 8
    }
-  }
+  },
+  "topics": [
+   "q4.two-way-conditional"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-07",
@@ -310,7 +316,10 @@
   },
   "answer": {
    "value": 0.36
-  }
+  },
+  "topics": [
+   "q4.and-independent"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-08",
@@ -368,7 +377,10 @@
    "choices": [
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q4.at-least-one"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-09",
@@ -439,7 +451,10 @@
     "numerator": 3,
     "denominator": 5
    }
-  }
+  },
+  "topics": [
+   "q4.two-way-conditional"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-10",
@@ -492,7 +507,11 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.exclusive-vs-independent",
+   "q4.mutually-exclusive"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-11",
@@ -617,7 +636,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.exclusive-vs-independent"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-13",
@@ -644,7 +666,10 @@
   },
   "answer": {
    "value": 0.09
-  }
+  },
+  "topics": [
+   "q4.and-independent"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-14",
@@ -742,7 +767,10 @@
     "numerator": 5,
     "denominator": 14
    }
-  }
+  },
+  "topics": [
+   "q4.and-dependent"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-16",
@@ -813,7 +841,11 @@
     "numerator": 12,
     "denominator": 25
    }
-  }
+  },
+  "topics": [
+   "q4.two-way-conditional",
+   "q4.two-way-tables"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-17",
@@ -841,7 +873,10 @@
   },
   "answer": {
    "value": 0.76
-  }
+  },
+  "topics": [
+   "q4.at-least-one"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-18",
@@ -908,7 +943,10 @@
   },
   "answer": {
    "value": 0.72
-  }
+  },
+  "topics": [
+   "q4.two-way-tables"
+  ]
  },
  {
   "id": "q4-09-independent-conditional-19",
@@ -967,6 +1005,9 @@
     "numerator": 12,
     "denominator": 55
    }
-  }
+  },
+  "topics": [
+   "q4.count-the-orders"
+  ]
  }
 ]

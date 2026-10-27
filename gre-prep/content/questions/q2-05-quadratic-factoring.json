@@ -54,7 +54,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.zero-product-property"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-02",
@@ -195,7 +198,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.assume-nonzero-trap"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-05",
@@ -251,7 +257,10 @@
   },
   "answer": {
    "value": 3
-  }
+  },
+  "topics": [
+   "q2.factoring-trinomials"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-07",
@@ -308,7 +317,10 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.factoring-trinomials"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-08",
@@ -365,7 +377,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.zero-product-needs-zero"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-09",
@@ -450,7 +465,12 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.even-power-hides-sign",
+   "q1.root-vs-squared-equation",
+   "q2.hidden-quadratic"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-11",
@@ -506,7 +526,10 @@
   },
   "answer": {
    "choice": "D"
-  }
+  },
+  "topics": [
+   "q2.hidden-quadratic"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-13",
@@ -619,7 +642,10 @@
   },
   "answer": {
    "choice": "D"
-  }
+  },
+  "topics": [
+   "q2.hidden-quadratic"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-16",
@@ -734,7 +760,10 @@
     "B",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.zero-product-needs-zero"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-18",
@@ -818,7 +847,10 @@
   },
   "answer": {
    "value": 1
-  }
+  },
+  "topics": [
+   "q2.quadratic-from-fractions"
+  ]
  },
  {
   "id": "q2-05-quadratic-factoring-20",
@@ -846,6 +878,10 @@
   },
   "answer": {
    "value": 4
-  }
+  },
+  "topics": [
+   "q2.factor-common-factor",
+   "q2.one-equation-enough"
+  ]
  }
 ]

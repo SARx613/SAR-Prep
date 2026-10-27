@@ -24,7 +24,10 @@
   },
   "answer": {
    "value": 34
-  }
+  },
+  "topics": [
+   "q1.percent-of"
+  ]
  },
  {
   "id": "q1-12-percent-02",
@@ -81,7 +84,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-meaning"
+  ]
  },
  {
   "id": "q1-12-percent-03",
@@ -138,7 +144,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-of"
+  ]
  },
  {
   "id": "q1-12-percent-04",
@@ -166,7 +175,10 @@
   },
   "answer": {
    "choice": "C"
-  }
+  },
+  "topics": [
+   "q1.percent-meaning"
+  ]
  },
  {
   "id": "q1-12-percent-05",
@@ -223,7 +235,10 @@
     "C",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.fraction-decimal-percent"
+  ]
  },
  {
   "id": "q1-12-percent-06",
@@ -251,7 +266,10 @@
   },
   "answer": {
    "value": 22.5
-  }
+  },
+  "topics": [
+   "q1.what-percent"
+  ]
  },
  {
   "id": "q1-12-percent-07",
@@ -364,7 +382,10 @@
   },
   "answer": {
    "value": 18
-  }
+  },
+  "topics": [
+   "q1.percent-of-chains"
+  ]
  },
  {
   "id": "q1-12-percent-10",
@@ -421,7 +442,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.what-percent"
+  ]
  },
  {
   "id": "q1-12-percent-11",
@@ -590,7 +614,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-meaning"
+  ]
  },
  {
   "id": "q1-12-percent-15",
@@ -759,7 +786,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.percent-of-chains"
+  ]
  },
  {
   "id": "q1-12-percent-19",
@@ -813,6 +843,10 @@
   },
   "answer": {
    "value": 200
-  }
+  },
+  "topics": [
+   "q1.percent-of-chains",
+   "q2.fraction-of-remainder"
+  ]
  }
 ]

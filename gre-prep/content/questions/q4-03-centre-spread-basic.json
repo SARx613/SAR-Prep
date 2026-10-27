@@ -24,7 +24,10 @@
   },
   "answer": {
    "value": 7
-  }
+  },
+  "topics": [
+   "q4.mean-basics"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-02",
@@ -81,7 +84,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.median"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-03",
@@ -147,7 +153,10 @@
   },
   "answer": {
    "value": 2
-  }
+  },
+  "topics": [
+   "q4.mode"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-04",
@@ -174,7 +183,10 @@
   },
   "answer": {
    "value": 15.5
-  }
+  },
+  "topics": [
+   "q4.median"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-05",
@@ -270,7 +282,10 @@
   },
   "answer": {
    "value": 1.85
-  }
+  },
+  "topics": [
+   "q4.mean-from-frequency-table"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-07",
@@ -328,7 +343,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.weighted-average"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-08",
@@ -355,7 +373,11 @@
   },
   "answer": {
    "value": 24
-  }
+  },
+  "topics": [
+   "q4.mean-after-change",
+   "q4.missing-value-from-mean"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-09",
@@ -421,7 +443,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q4.median-position"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-10",
@@ -470,7 +495,11 @@
     "A",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.mean-after-change",
+   "q4.range"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-11",
@@ -498,7 +527,10 @@
   },
   "answer": {
    "value": 43
-  }
+  },
+  "topics": [
+   "q4.mean-extremes"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-12",
@@ -528,7 +560,10 @@
   },
   "answer": {
    "choice": "D"
-  }
+  },
+  "topics": [
+   "q4.median-unknown-values"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-13",
@@ -555,7 +590,10 @@
   },
   "answer": {
    "value": 19
-  }
+  },
+  "topics": [
+   "q4.range"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-14",
@@ -621,7 +659,10 @@
   },
   "answer": {
    "value": 2
-  }
+  },
+  "topics": [
+   "q4.median-position"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-15",
@@ -708,7 +749,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.sum-from-mean"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-17",
@@ -775,7 +819,10 @@
   },
   "answer": {
    "value": 1.72
-  }
+  },
+  "topics": [
+   "q4.mean-from-frequency-table"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-18",
@@ -841,7 +888,10 @@
   },
   "answer": {
    "value": 3.5
-  }
+  },
+  "topics": [
+   "q4.median-position"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-19",
@@ -869,7 +919,10 @@
   },
   "answer": {
    "value": 80.7
-  }
+  },
+  "topics": [
+   "q4.weighted-average"
+  ]
  },
  {
   "id": "q4-03-centre-spread-basic-20",
@@ -897,6 +950,9 @@
   },
   "answer": {
    "value": 36
-  }
+  },
+  "topics": [
+   "q4.mean-extremes"
+  ]
  }
 ]

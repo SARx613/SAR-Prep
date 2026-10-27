@@ -24,7 +24,11 @@
   },
   "answer": {
    "value": 3
-  }
+  },
+  "topics": [
+   "q1.ratio-notation",
+   "q1.scale-ratio"
+  ]
  },
  {
   "id": "q1-11-ratio-02",
@@ -81,7 +85,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.ratio-notation"
+  ]
  },
  {
   "id": "q1-11-ratio-03",
@@ -138,7 +145,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.proportions"
+  ]
  },
  {
   "id": "q1-11-ratio-04",
@@ -223,7 +233,10 @@
     "C",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.scale-ratio"
+  ]
  },
  {
   "id": "q1-11-ratio-06",
@@ -307,7 +320,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.find-multiplier"
+  ]
  },
  {
   "id": "q1-11-ratio-08",
@@ -364,7 +380,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.ratio-total-multiple"
+  ]
  },
  {
   "id": "q1-11-ratio-09",
@@ -393,7 +412,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.multipart-ratios"
+  ]
  },
  {
   "id": "q1-11-ratio-10",
@@ -450,7 +472,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.multipart-ratios"
+  ]
  },
  {
   "id": "q1-11-ratio-11",
@@ -477,7 +502,10 @@
   },
   "answer": {
    "value": 5
-  }
+  },
+  "topics": [
+   "q1.adjust-ratio-by-adding"
+  ]
  },
  {
   "id": "q1-11-ratio-12",
@@ -534,7 +562,11 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.ratio-common-variable",
+   "q1.ratio-multiplier"
+  ]
  },
  {
   "id": "q1-11-ratio-13",
@@ -591,7 +623,11 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q1.part-part-part-whole",
+   "q1.ratio-to-fractions"
+  ]
  },
  {
   "id": "q1-11-ratio-14",
@@ -618,7 +654,11 @@
   },
   "answer": {
    "value": 16
-  }
+  },
+  "topics": [
+   "q1.proportions",
+   "q2.fuel-efficiency"
+  ]
  },
  {
   "id": "q1-11-ratio-15",
@@ -647,7 +687,11 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q1.ratio-multiplier",
+   "q1.sufficient-ratio-info"
+  ]
  },
  {
   "id": "q1-11-ratio-16",
@@ -674,7 +718,10 @@
   },
   "answer": {
    "value": 48
-  }
+  },
+  "topics": [
+   "q1.find-multiplier"
+  ]
  },
  {
   "id": "q1-11-ratio-17",
@@ -703,7 +750,12 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.part-part-part-whole",
+   "q1.ratio-to-fractions",
+   "q1.sufficient-ratio-info"
+  ]
  },
  {
   "id": "q1-11-ratio-18",
@@ -730,7 +782,10 @@
   },
   "answer": {
    "value": 9
-  }
+  },
+  "topics": [
+   "q1.scale-ratio"
+  ]
  },
  {
   "id": "q1-11-ratio-19",
@@ -761,7 +816,10 @@
     "numerator": 13,
     "denominator": 40
    }
-  }
+  },
+  "topics": [
+   "q1.ratio-to-fractions"
+  ]
  },
  {
   "id": "q1-11-ratio-20",
@@ -788,6 +846,9 @@
   },
   "answer": {
    "value": 24
-  }
+  },
+  "topics": [
+   "q1.adjust-ratio-by-adding"
+  ]
  }
 ]

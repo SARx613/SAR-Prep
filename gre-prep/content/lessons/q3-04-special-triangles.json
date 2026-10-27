@@ -79,7 +79,10 @@
     "choices": [
      "B"
     ]
-   }
+   },
+   "topics": [
+    "q3.isosceles-right"
+   ]
   },
   {
    "id": "q3-04-special-triangles-c2",
@@ -107,7 +110,10 @@
    },
    "answer": {
     "value": 35
-   }
+   },
+   "topics": [
+    "q3.triangle-area"
+   ]
   },
   {
    "id": "q3-04-special-triangles-c3",
@@ -135,7 +141,10 @@
    },
    "answer": {
     "value": 10
-   }
+   },
+   "topics": [
+    "q3.thirty-sixty-ninety"
+   ]
   }
  ]
 }

@@ -81,7 +81,10 @@
   },
   "answer": {
    "value": 36
-  }
+  },
+  "topics": [
+   "q4.relative-frequency"
+  ]
  },
  {
   "id": "q4-01-tables-bars-03",
@@ -276,7 +279,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.frequency-tables"
+  ]
  },
  {
   "id": "q4-01-tables-bars-05",
@@ -304,7 +310,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q4.relative-frequency"
+  ]
  },
  {
   "id": "q4-01-tables-bars-06",
@@ -374,7 +383,10 @@
   },
   "answer": {
    "value": 73
-  }
+  },
+  "topics": [
+   "q4.frequency-tables"
+  ]
  },
  {
   "id": "q4-01-tables-bars-07",
@@ -468,7 +480,12 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q0.di-titles-legends",
+   "q4.clustered-columns",
+   "q4.column-charts"
+  ]
  },
  {
   "id": "q4-01-tables-bars-08",
@@ -620,7 +637,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q0.estimation"
+  ]
  },
  {
   "id": "q4-01-tables-bars-10",
@@ -889,7 +909,10 @@
   },
   "answer": {
    "value": 28
-  }
+  },
+  "topics": [
+   "q4.relative-frequency"
+  ]
  },
  {
   "id": "q4-01-tables-bars-14",
@@ -982,7 +1005,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.frequency-tables"
+  ]
  },
  {
   "id": "q4-01-tables-bars-15",
@@ -1104,7 +1130,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.clustered-columns"
+  ]
  },
  {
   "id": "q4-01-tables-bars-17",
@@ -1170,7 +1199,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.stacked-columns"
+  ]
  },
  {
   "id": "q4-01-tables-bars-18",
@@ -1321,7 +1353,10 @@
   "answer": {
    "value": 26.3,
    "tolerance": 0.05
-  }
+  },
+  "topics": [
+   "q4.weighted-average-percents"
+  ]
  },
  {
   "id": "q4-01-tables-bars-20",

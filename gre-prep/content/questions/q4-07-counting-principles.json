@@ -24,7 +24,11 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q4.and-multiplies",
+   "q4.counting-principle"
+  ]
  },
  {
   "id": "q4-07-counting-principles-02",
@@ -51,7 +55,10 @@
   },
   "answer": {
    "value": 24
-  }
+  },
+  "topics": [
+   "q4.factorial-basics"
+  ]
  },
  {
   "id": "q4-07-counting-principles-03",
@@ -108,7 +115,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.combination-formula"
+  ]
  },
  {
   "id": "q4-07-counting-principles-04",
@@ -163,7 +173,11 @@
   },
   "answer": {
    "value": 2600
-  }
+  },
+  "topics": [
+   "q4.codes",
+   "q4.counting-principle"
+  ]
  },
  {
   "id": "q4-07-counting-principles-06",
@@ -220,7 +234,12 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.dependent-selections",
+   "q4.order-matters",
+   "q4.permutation-formula"
+  ]
  },
  {
   "id": "q4-07-counting-principles-07",
@@ -248,7 +267,11 @@
   },
   "answer": {
    "value": 150
-  }
+  },
+  "topics": [
+   "q4.and-multiplies",
+   "q4.multistep-selections"
+  ]
  },
  {
   "id": "q4-07-counting-principles-08",
@@ -301,7 +324,10 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.factorial-basics"
+  ]
  },
  {
   "id": "q4-07-counting-principles-09",
@@ -328,7 +354,10 @@
   },
   "answer": {
    "value": 48
-  }
+  },
+  "topics": [
+   "q4.items-together"
+  ]
  },
  {
   "id": "q4-07-counting-principles-10",
@@ -385,7 +414,11 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q4.restricted-arrangements",
+   "q4.restricted-first"
+  ]
  },
  {
   "id": "q4-07-counting-principles-11",
@@ -412,7 +445,10 @@
   },
   "answer": {
    "value": 77
-  }
+  },
+  "topics": [
+   "q4.never-together"
+  ]
  },
  {
   "id": "q4-07-counting-principles-12",
@@ -440,7 +476,10 @@
   },
   "answer": {
    "value": 57
-  }
+  },
+  "topics": [
+   "q4.at-least-selections"
+  ]
  },
  {
   "id": "q4-07-counting-principles-13",
@@ -467,7 +506,10 @@
   },
   "answer": {
    "value": 84
-  }
+  },
+  "topics": [
+   "q4.counting-principle"
+  ]
  },
  {
   "id": "q4-07-counting-principles-14",
@@ -524,7 +566,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.permutation-formula"
+  ]
  },
  {
   "id": "q4-07-counting-principles-15",
@@ -551,7 +596,10 @@
   },
   "answer": {
    "value": 70
-  }
+  },
+  "topics": [
+   "q4.combination-formula"
+  ]
  },
  {
   "id": "q4-07-counting-principles-16",
@@ -580,7 +628,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q4.order-matters"
+  ]
  },
  {
   "id": "q4-07-counting-principles-17",
@@ -607,7 +658,12 @@
   },
   "answer": {
    "value": 65000
-  }
+  },
+  "topics": [
+   "q4.codes",
+   "q4.dependent-selections",
+   "q4.multistep-selections"
+  ]
  },
  {
   "id": "q4-07-counting-principles-18",
@@ -634,7 +690,10 @@
   },
   "answer": {
    "value": 144
-  }
+  },
+  "topics": [
+   "q4.items-together"
+  ]
  },
  {
   "id": "q4-07-counting-principles-19",
@@ -692,7 +751,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.at-least-one-from-group",
+   "q4.at-least-selections"
+  ]
  },
  {
   "id": "q4-07-counting-principles-20",
@@ -720,6 +783,12 @@
   },
   "answer": {
    "value": 952
-  }
+  },
+  "topics": [
+   "q4.dependent-selections",
+   "q4.or-adds",
+   "q4.restricted-arrangements",
+   "q4.restricted-first"
+  ]
  }
 ]

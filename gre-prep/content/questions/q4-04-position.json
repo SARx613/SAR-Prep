@@ -81,7 +81,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.percentiles"
+  ]
  },
  {
   "id": "q4-04-position-03",
@@ -108,7 +111,10 @@
   },
   "answer": {
    "value": 13.5
-  }
+  },
+  "topics": [
+   "q4.quartiles"
+  ]
  },
  {
   "id": "q4-04-position-04",
@@ -148,7 +154,10 @@
   },
   "answer": {
    "value": 20
-  }
+  },
+  "topics": [
+   "q4.boxplots"
+  ]
  },
  {
   "id": "q4-04-position-05",
@@ -244,7 +253,10 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q4.boxplots"
+  ]
  },
  {
   "id": "q4-04-position-07",
@@ -418,7 +430,10 @@
     "A",
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q4.boxplot-width-trap"
+  ]
  },
  {
   "id": "q4-04-position-11",
@@ -446,7 +461,10 @@
   },
   "answer": {
    "value": 16.3
-  }
+  },
+  "topics": [
+   "q4.median-unknown-values"
+  ]
  },
  {
   "id": "q4-04-position-12",
@@ -504,7 +522,10 @@
   },
   "answer": {
    "value": 50
-  }
+  },
+  "topics": [
+   "q4.percentiles"
+  ]
  },
  {
   "id": "q4-04-position-14",
@@ -531,7 +552,10 @@
   },
   "answer": {
    "value": 8
-  }
+  },
+  "topics": [
+   "q4.quartiles"
+  ]
  },
  {
   "id": "q4-04-position-15",
@@ -571,7 +595,10 @@
   },
   "answer": {
    "value": 44
-  }
+  },
+  "topics": [
+   "q4.range"
+  ]
  },
  {
   "id": "q4-04-position-16",
@@ -633,7 +660,11 @@
     "B",
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q4.boxplot-width-trap",
+   "q4.boxplots"
+  ]
  },
  {
   "id": "q4-04-position-17",
@@ -661,7 +692,10 @@
   },
   "answer": {
    "value": 15
-  }
+  },
+  "topics": [
+   "q4.quartiles"
+  ]
  },
  {
   "id": "q4-04-position-18",

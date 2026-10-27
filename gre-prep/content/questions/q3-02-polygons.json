@@ -81,7 +81,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q3.regular-polygon-angle"
+  ]
  },
  {
   "id": "q3-02-polygons-03",
@@ -108,7 +111,10 @@
   },
   "answer": {
    "value": 12
-  }
+  },
+  "topics": [
+   "q3.interior-angle-sum"
+  ]
  },
  {
   "id": "q3-02-polygons-04",
@@ -171,7 +177,10 @@
   },
   "answer": {
    "value": 110
-  }
+  },
+  "topics": [
+   "q3.interior-angle-sum"
+  ]
  },
  {
   "id": "q3-02-polygons-06",
@@ -340,7 +349,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q3.regular-polygon-angle"
+  ]
  },
  {
   "id": "q3-02-polygons-10",
@@ -478,7 +490,10 @@
   },
   "answer": {
    "value": 7
-  }
+  },
+  "topics": [
+   "q3.polygon-basics"
+  ]
  },
  {
   "id": "q3-02-polygons-14",
@@ -563,7 +578,11 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q3.compare-polygons",
+   "q3.polygon-basics"
+  ]
  },
  {
   "id": "q3-02-polygons-16",

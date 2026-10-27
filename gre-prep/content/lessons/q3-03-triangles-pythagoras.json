@@ -49,7 +49,10 @@
    },
    "answer": {
     "value": 65
-   }
+   },
+   "topics": [
+    "q3.triangle-angle-sum"
+   ]
   },
   {
    "id": "q3-03-triangles-pythagoras-c2",
@@ -107,7 +110,10 @@
     "choices": [
      "B"
     ]
-   }
+   },
+   "topics": [
+    "q3.pythagorean-theorem"
+   ]
   },
   {
    "id": "q3-03-triangles-pythagoras-c3",
@@ -137,7 +143,10 @@
    },
    "answer": {
     "choice": "B"
-   }
+   },
+   "topics": [
+    "q3.triangle-inequality"
+   ]
   }
  ]
 }

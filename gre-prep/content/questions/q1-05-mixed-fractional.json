@@ -24,7 +24,10 @@
   },
   "answer": {
    "value": 9
-  }
+  },
+  "topics": [
+   "q1.fraction-types"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-02",
@@ -223,7 +226,10 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.fraction-types"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-06",
@@ -450,7 +456,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.reciprocals"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-11",
@@ -481,7 +490,10 @@
     "numerator": 3,
     "denominator": 5
    }
-  }
+  },
+  "topics": [
+   "q1.complex-fractions"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-12",
@@ -508,7 +520,10 @@
   },
   "answer": {
    "value": 48
-  }
+  },
+  "topics": [
+   "q2.fraction-of-remainder"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-13",
@@ -761,7 +776,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.least-common-denominator"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-19",
@@ -792,7 +810,10 @@
     "numerator": 3,
     "denominator": 2
    }
-  }
+  },
+  "topics": [
+   "q1.complex-fractions"
+  ]
  },
  {
   "id": "q1-05-mixed-fractional-20",
@@ -849,6 +870,9 @@
     "D",
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q1.compare-fractions-cross-multiply"
+  ]
  }
 ]

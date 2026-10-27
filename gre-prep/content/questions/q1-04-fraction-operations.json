@@ -28,7 +28,10 @@
     "numerator": 1,
     "denominator": 4
    }
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-02",
@@ -85,7 +88,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.add-sub-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-03",
@@ -142,7 +148,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q1.add-sub-fractions",
+   "q1.least-common-denominator"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-04",
@@ -170,7 +180,11 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q1.compare-fractions-common-terms",
+   "q1.compare-fractions-cross-multiply"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-05",
@@ -227,7 +241,10 @@
     "B",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.equivalent-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-06",
@@ -284,7 +301,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-07",
@@ -313,7 +333,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.reciprocals"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-08",
@@ -458,7 +481,10 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q1.complex-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-11",
@@ -485,7 +511,10 @@
   },
   "answer": {
    "value": 36
-  }
+  },
+  "topics": [
+   "q2.fraction-parts-of-whole"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-12",
@@ -516,7 +545,10 @@
     "numerator": 4,
     "denominator": 5
    }
-  }
+  },
+  "topics": [
+   "q1.least-common-denominator"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-13",
@@ -600,7 +632,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q1.multiply-divide-fractions"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-15",
@@ -628,7 +663,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q1.compare-fractions-common-terms"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-16",
@@ -716,7 +754,11 @@
     "numerator": 5,
     "denominator": 12
    }
-  }
+  },
+  "topics": [
+   "q1.whole-and-fraction",
+   "q2.fraction-parts-of-whole"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-18",
@@ -804,7 +846,11 @@
     "numerator": 2,
     "denominator": 7
    }
-  }
+  },
+  "topics": [
+   "q1.whole-and-fraction",
+   "q2.fraction-of-remainder"
+  ]
  },
  {
   "id": "q1-04-fraction-operations-20",

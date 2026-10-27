@@ -62,7 +62,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.coordinate-plane",
+   "q2.quadrants"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-02",
@@ -146,7 +150,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.reflect-over-axes"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-04",
@@ -173,7 +180,10 @@
   },
   "answer": {
    "value": 17
-  }
+  },
+  "topics": [
+   "q2.distance-formula"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-05",
@@ -202,7 +212,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q2.reflect-over-axes"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-06",
@@ -267,7 +280,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.figures-on-the-plane"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-07",
@@ -351,7 +367,10 @@
   },
   "answer": {
    "value": 2
-  }
+  },
+  "topics": [
+   "q2.distance-formula"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-09",
@@ -464,7 +483,10 @@
   },
   "answer": {
    "value": -9
-  }
+  },
+  "topics": [
+   "q2.reflect-over-diagonal"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-12",
@@ -586,7 +608,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q2.coordinate-plane"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-14",
@@ -613,7 +638,10 @@
   },
   "answer": {
    "value": 11
-  }
+  },
+  "topics": [
+   "q2.reflect-over-diagonal"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-15",
@@ -670,7 +698,10 @@
    "choices": [
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q2.quadrants"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-16",
@@ -699,7 +730,10 @@
   },
   "answer": {
    "choice": "A"
-  }
+  },
+  "topics": [
+   "q2.reflect-over-axes"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-17",
@@ -764,7 +798,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.figures-on-the-plane"
+  ]
  },
  {
   "id": "q2-13-coordinate-basics-18",
@@ -905,6 +942,9 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q2.figures-on-the-plane"
+  ]
  }
 ]

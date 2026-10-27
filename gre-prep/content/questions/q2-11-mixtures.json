@@ -167,7 +167,10 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q2.dry-mixtures"
+  ]
  },
  {
   "id": "q2-11-mixtures-05",
@@ -196,7 +199,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q2.liquid-mixtures"
+  ]
  },
  {
   "id": "q2-11-mixtures-06",
@@ -281,7 +287,10 @@
    "choices": [
     "B"
    ]
-  }
+  },
+  "topics": [
+   "q2.liquid-mixtures"
+  ]
  },
  {
   "id": "q2-11-mixtures-08",
@@ -424,7 +433,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q4.weighting-pull"
+  ]
  },
  {
   "id": "q2-11-mixtures-11",
@@ -452,7 +464,10 @@
   },
   "answer": {
    "value": 6
-  }
+  },
+  "topics": [
+   "q2.mixture-unknowns"
+  ]
  },
  {
   "id": "q2-11-mixtures-12",
@@ -622,7 +637,11 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.dry-mixtures",
+   "q4.weighted-average-ratio"
+  ]
  },
  {
   "id": "q2-11-mixtures-16",
@@ -764,7 +783,11 @@
   },
   "answer": {
    "value": 8
-  }
+  },
+  "topics": [
+   "q2.mixture-unknowns",
+   "q4.weighted-average-ratio"
+  ]
  },
  {
   "id": "q2-11-mixtures-20",
@@ -792,6 +815,9 @@
   },
   "answer": {
    "value": 60
-  }
+  },
+  "topics": [
+   "q2.dry-mixtures"
+  ]
  }
 ]

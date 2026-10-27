@@ -49,7 +49,10 @@
    },
    "answer": {
     "value": 24
-   }
+   },
+   "topics": [
+    "q4.factorial-basics"
+   ]
   },
   {
    "id": "q4-07-counting-principles-c2",
@@ -76,7 +79,10 @@
    },
    "answer": {
     "value": 28
-   }
+   },
+   "topics": [
+    "q4.combination-formula"
+   ]
   },
   {
    "id": "q4-07-counting-principles-c3",
@@ -105,7 +111,10 @@
    },
    "answer": {
     "choice": "B"
-   }
+   },
+   "topics": [
+    "q4.order-matters"
+   ]
   }
  ]
 }

@@ -168,7 +168,11 @@
    "choices": [
     "E"
    ]
-  }
+  },
+  "topics": [
+   "q2.power-of-a-power",
+   "q2.same-exponent-different-bases"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-04",
@@ -195,7 +199,10 @@
   },
   "answer": {
    "value": 4
-  }
+  },
+  "topics": [
+   "q2.equal-bases-equal-exponents"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-05",
@@ -281,7 +288,10 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.sum-of-powers-trap"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-07",
@@ -309,7 +319,10 @@
   },
   "answer": {
    "choice": "B"
-  }
+  },
+  "topics": [
+   "q2.rewrite-to-common-base"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-08",
@@ -397,7 +410,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.factor-out-powers"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-10",
@@ -424,7 +440,10 @@
   },
   "answer": {
    "value": 48
-  }
+  },
+  "topics": [
+   "q2.power-of-a-power"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-11",
@@ -451,7 +470,10 @@
   },
   "answer": {
    "value": 3
-  }
+  },
+  "topics": [
+   "q2.equal-bases-equal-exponents"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-12",
@@ -508,7 +530,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.factor-out-powers"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-13",
@@ -565,7 +590,10 @@
    "choices": [
     "C"
    ]
-  }
+  },
+  "topics": [
+   "q2.multiply-divide-same-base"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-14",
@@ -622,7 +650,10 @@
    "choices": [
     "A"
    ]
-  }
+  },
+  "topics": [
+   "q2.rewrite-to-common-base"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-15",
@@ -765,7 +796,10 @@
     "C",
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.sum-of-powers-trap"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-18",
@@ -822,7 +856,11 @@
    "choices": [
     "D"
    ]
-  }
+  },
+  "topics": [
+   "q2.equal-bases-equal-exponents",
+   "q2.rewrite-to-common-base"
+  ]
  },
  {
   "id": "q2-02-exponent-rules-19",
@@ -880,6 +918,10 @@
   },
   "answer": {
    "value": 4
-  }
+  },
+  "topics": [
+   "q2.prime-bases-in-fractions",
+   "q2.same-exponent-different-bases"
+  ]
  }
 ]
