@@ -21,7 +21,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -72,14 +74,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "For every number $k$, $\\boxed{k}$ is defined as the product of $k$ and $k-3$.",
    "quantityA": "$\\boxed{-1}$",
-   "quantityB": "$\\boxed{4}$"
+   "quantityB": "$\\boxed{4}$",
+   "common": "For every number $k$, $\\boxed{k}$ is defined as the product of $k$ and $k-3$."
   },
   "answer": {
    "choice": "C"
@@ -106,7 +110,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -162,7 +168,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -214,7 +222,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -241,14 +251,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "$h(x)=2-x^4$ for all real numbers $x$, and $k$ is a real number.",
    "quantityA": "$h(k)$",
-   "quantityB": "$2$"
+   "quantityB": "$2$",
+   "common": "$h(x)=2-x^4$ for all real numbers $x$, and $k$ is a real number."
   },
   "answer": {
    "choice": "D"
@@ -275,7 +287,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -334,7 +348,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -392,7 +408,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -426,7 +444,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -482,7 +502,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -535,14 +557,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "$f(x)=x^2+2$ and $g(x)=3-|x|$ for all real numbers $x$.",
    "quantityA": "The least value of $f(g(x))$",
-   "quantityB": "The greatest value of $g(f(x))$"
+   "quantityB": "The greatest value of $g(f(x))$",
+   "common": "$f(x)=x^2+2$ and $g(x)=3-|x|$ for all real numbers $x$."
   },
   "answer": {
    "choice": "A"

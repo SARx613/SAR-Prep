@@ -35,9 +35,14 @@
    "skills": [
     "fraction-techniques"
    ],
+   "topics": [
+    "q1.multiply-divide-fractions"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "NE",
@@ -50,10 +55,7 @@
      "numerator": 4,
      "denominator": 15
     }
-   },
-   "topics": [
-    "q1.multiply-divide-fractions"
-   ]
+   }
   },
   {
    "id": "q1-19-fraction-techniques-c2",
@@ -65,9 +67,14 @@
    "skills": [
     "fraction-techniques"
    ],
+   "topics": [
+    "q1.compare-fractions-common-terms"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "QC",
@@ -77,10 +84,7 @@
    },
    "answer": {
     "choice": "B"
-   },
-   "topics": [
-    "q1.compare-fractions-common-terms"
-   ]
+   }
   },
   {
    "id": "q1-19-fraction-techniques-c3",
@@ -98,9 +102,15 @@
    "skills": [
     "fraction-techniques"
    ],
+   "topics": [
+    "q1.complex-fractions",
+    "q1.whole-and-fraction"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "PS",
@@ -133,11 +143,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q1.complex-fractions",
-    "q1.whole-and-fraction"
-   ]
+   }
   }
  ]
 }

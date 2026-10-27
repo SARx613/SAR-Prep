@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { AlertTriangle, ArrowLeft, ArrowRight, BookOpen, Clock, ExternalLink, Lightbulb } from 'lucide-react';
-import { getChapter, getLesson, getSource, neighbours } from '@/content';
+import { getChapter, getLesson, getSource, getTopics, neighbours } from '@/content';
 import { RichText } from '@/components/RichText';
 import { LessonChecks } from '@/components/learn/LessonChecks';
 import { LessonProgress } from '@/components/learn/Progress';
+import { TopicChecklist } from '@/components/learn/TopicChecklist';
 
 export const dynamic = 'force-dynamic';
 
@@ -23,6 +24,7 @@ export default async function LessonPage({ params }: { params: Promise<{ chapter
   const { meta, body, checks, practiceCount } = view;
   const src = getSource(meta.officialRef.source);
   const { prev, next } = neighbours(meta.id);
+  const topics = getTopics(meta.id);
 
   return (
     <article className="mx-auto max-w-3xl px-4 pb-12 sm:px-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
@@ -70,6 +72,8 @@ export default async function LessonPage({ params }: { params: Promise<{ chapter
           <div className="mt-1 text-[15px]"><RichText>{body.trap}</RichText></div>
         </div>
       </section>
+
+      {topics.length > 0 && <section className="mt-8" aria-label="Topics"><TopicChecklist topics={topics} /></section>}
 
       <section className="mt-10" aria-labelledby="check">
         <h2 id="check" className="mb-3 flex items-center gap-2 text-lg font-bold"><Lightbulb size={18} aria-hidden /> Check yourself</h2>

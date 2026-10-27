@@ -21,7 +21,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -71,7 +73,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -98,7 +102,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -132,7 +138,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -182,7 +190,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -209,7 +219,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -242,7 +254,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -295,7 +309,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -328,12 +344,6 @@
    "q1.percent-profit",
    "q2.profit-and-loss"
   ],
-  "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
-  },
-  "type": "DI",
   "figure": {
    "kind": "table",
    "title": "Sales of five appliances last month",
@@ -379,6 +389,14 @@
    },
    "notes": "The marked price of each appliance is its unit cost increased by its markup."
   },
+  "review": {
+   "status": "draft",
+   "solvedBy": [
+    "solver-bw5"
+   ],
+   "sourceChecked": false
+  },
+  "type": "DI",
   "content": {
    "format": "select_one",
    "choices": [
@@ -431,7 +449,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -483,7 +503,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -511,7 +533,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",

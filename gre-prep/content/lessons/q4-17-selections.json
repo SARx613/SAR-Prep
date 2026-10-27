@@ -40,7 +40,9 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "NE",
@@ -73,7 +75,9 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "PS",
@@ -123,14 +127,16 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "QC",
    "content": {
-    "common": "At a meeting, each person shook hands exactly once with each of the other people, for 28 handshakes in all.",
     "quantityA": "The number of people at the meeting",
-    "quantityB": "7"
+    "quantityB": "7",
+    "common": "At a meeting, each person shook hands exactly once with each of the other people, for 28 handshakes in all."
    },
    "answer": {
     "choice": "A"

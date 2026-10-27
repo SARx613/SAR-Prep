@@ -134,3 +134,31 @@ export function getChapterTest(chapterId: string): ClientQuestion[] {
   }
   return picked.map((q) => toClient(q, c));
 }
+
+export interface TopicView {
+  id: string;
+  title: string;
+  kind: string;
+  /** Playable questions anywhere in the bank that exercise this topic, easiest first. */
+  questionIds: string[];
+}
+
+/** The topics a lesson hosts (content/topics.json) with the questions that practise each. */
+export function getTopics(lessonId: string): TopicView[] {
+  const c = content();
+  const mine = c.topics.filter((t) => t.lessonId === lessonId);
+  if (mine.length === 0) return [];
+  const byTopic = new Map<string, ContentQuestionInput[]>();
+  const add = (q: ContentQuestionInput) => {
+    if (!isPlayable(q)) return;
+    for (const t of q.topics) byTopic.set(t, [...(byTopic.get(t) ?? []), q]);
+  };
+  for (const l of c.lessons.values()) l.checks.forEach(add);
+  for (const qs of c.questionSets.values()) qs.forEach(add);
+  return mine.map((t) => ({
+    id: t.id,
+    title: t.title,
+    kind: t.kind,
+    questionIds: (byTopic.get(t.id) ?? []).sort((a, b) => a.difficulty - b.difficulty).map((q) => q.id),
+  }));
+}

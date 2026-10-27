@@ -20,7 +20,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -70,7 +72,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
@@ -103,7 +107,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -187,7 +193,9 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -217,14 +225,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "1 yard = 3 feet and 1 foot = 12 inches",
    "quantityA": "The number of cubic feet in 1 cubic yard",
-   "quantityB": "The number of square inches in 1 square foot"
+   "quantityB": "The number of square inches in 1 square foot",
+   "common": "1 yard = 3 feet and 1 foot = 12 inches"
   },
   "answer": {
    "choice": "B"
@@ -252,7 +262,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -303,7 +315,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -337,7 +351,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -388,14 +404,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "A driver replaces a car that averages 24 miles per gallon with a car that averages 30 miles per gallon and drives the same distance each month.",
    "quantityA": "The percent decrease in the amount of fuel the driver uses each month",
-   "quantityB": "25"
+   "quantityB": "25",
+   "common": "A driver replaces a car that averages 24 miles per gallon with a car that averages 30 miles per gallon and drives the same distance each month."
   },
   "answer": {
    "choice": "B"
@@ -421,7 +439,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -474,7 +494,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -502,7 +524,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",

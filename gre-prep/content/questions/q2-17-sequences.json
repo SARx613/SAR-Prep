@@ -14,14 +14,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "The $n$th term of a sequence is $a_n=20-3n$ for each positive integer $n$.",
    "quantityA": "$a_7$",
-   "quantityB": "0"
+   "quantityB": "0",
+   "common": "The $n$th term of a sequence is $a_n=20-3n$ for each positive integer $n$."
   },
   "answer": {
    "choice": "B"
@@ -42,7 +44,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -74,7 +78,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -131,7 +137,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -182,14 +190,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "A car's value was \\$30,000 when it was new. Each year, its value decreases by 15 percent of its value at the start of that year.",
    "quantityA": "The value of the car, in dollars, 2 years after it was new",
-   "quantityB": "21,000"
+   "quantityB": "21,000",
+   "common": "A car's value was \\$30,000 when it was new. Each year, its value decreases by 15 percent of its value at the start of that year."
   },
   "answer": {
    "choice": "A"
@@ -211,7 +221,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -243,7 +255,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -295,14 +309,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Towns X and Y each had a population of 8,000 in 2020. In each year since then, the population of X has increased by 400 people and the population of Y has increased by 5 percent.",
    "quantityA": "The population of X in 2026",
-   "quantityB": "The population of Y in 2026"
+   "quantityB": "The population of Y in 2026",
+   "common": "Towns X and Y each had a population of 8,000 in 2020. In each year since then, the population of X has increased by 400 people and the population of Y has increased by 5 percent."
   },
   "answer": {
    "choice": "B"
@@ -328,7 +344,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -386,7 +404,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -437,7 +457,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -469,7 +491,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",

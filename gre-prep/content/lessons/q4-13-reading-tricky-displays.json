@@ -74,7 +74,9 @@
    },
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "DI",
@@ -103,7 +105,9 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "QC",
@@ -170,7 +174,9 @@
    },
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "DI",

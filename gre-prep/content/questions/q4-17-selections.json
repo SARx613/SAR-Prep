@@ -14,7 +14,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -46,7 +48,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -97,14 +101,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "A 4-person committee is to be chosen from a group of 9 people that includes Pat.",
    "quantityA": "The number of possible committees that include Pat",
-   "quantityB": "The number of possible committees that do not include Pat"
+   "quantityB": "The number of possible committees that do not include Pat",
+   "common": "A 4-person committee is to be chosen from a group of 9 people that includes Pat."
   },
   "answer": {
    "choice": "B"
@@ -132,7 +138,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -182,14 +190,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "An auditor selects 6 of 15 survey responses at random. One of the 15 responses is Lena's.",
    "quantityA": "The probability that Lena's response is not selected",
-   "quantityB": "$\\frac{1}{2}$"
+   "quantityB": "$\\frac{1}{2}$",
+   "common": "An auditor selects 6 of 15 survey responses at random. One of the 15 responses is Lena's."
   },
   "answer": {
    "choice": "A"
@@ -216,7 +226,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -266,7 +278,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -299,7 +313,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -356,7 +372,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -407,7 +425,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -443,7 +463,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -497,7 +519,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",

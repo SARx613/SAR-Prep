@@ -20,7 +20,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -70,7 +72,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -104,7 +108,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -154,14 +160,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Lena drove 80 miles in 1.5 hours. She drove part of the distance at a constant 60 miles per hour and the rest at a constant 40 miles per hour.",
    "quantityA": "The number of hours Lena drove at 60 miles per hour",
-   "quantityB": "The number of hours Lena drove at 40 miles per hour"
+   "quantityB": "The number of hours Lena drove at 40 miles per hour",
+   "common": "Lena drove 80 miles in 1.5 hours. She drove part of the distance at a constant 60 miles per hour and the rest at a constant 40 miles per hour."
   },
   "answer": {
    "choice": "A"
@@ -183,14 +191,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Two cars leave the same gas station at the same time and drive along a straight highway, one at a constant 45 miles per hour and the other at a constant 60 miles per hour.",
    "quantityA": "The number of minutes until the cars are 84 miles apart, if they drive in opposite directions",
-   "quantityB": "The number of minutes until the cars are 12 miles apart, if they drive in the same direction"
+   "quantityB": "The number of minutes until the cars are 12 miles apart, if they drive in the same direction",
+   "common": "Two cars leave the same gas station at the same time and drive along a straight highway, one at a constant 45 miles per hour and the other at a constant 60 miles per hour."
   },
   "answer": {
    "choice": "C"
@@ -217,7 +227,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -273,7 +285,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -324,7 +338,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -352,7 +368,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -386,7 +404,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -443,7 +463,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -499,7 +521,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",

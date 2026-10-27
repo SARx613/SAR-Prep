@@ -39,7 +39,9 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "NE",
@@ -73,7 +75,9 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "PS",
@@ -125,14 +129,16 @@
    ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "QC",
    "content": {
-    "common": "The radius of circle $B$ is 3 times the radius of circle $A$.",
     "quantityA": "The ratio of the area of circle $B$ to the area of circle $A$",
-    "quantityB": "$6$"
+    "quantityB": "$6$",
+    "common": "The radius of circle $B$ is 3 times the radius of circle $A$."
    },
    "answer": {
     "choice": "A"

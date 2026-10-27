@@ -34,9 +34,14 @@
    "skills": [
     "remainders-units-digits"
    ],
+   "topics": [
+    "q1.decimal-part-to-remainder"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "NE",
@@ -45,10 +50,7 @@
    },
    "answer": {
     "value": 2
-   },
-   "topics": [
-    "q1.decimal-part-to-remainder"
-   ]
+   }
   },
   {
    "id": "q1-18-remainders-units-digits-c2",
@@ -66,9 +68,14 @@
    "skills": [
     "remainders-units-digits"
    ],
+   "topics": [
+    "q1.units-digit-cycles"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "PS",
@@ -101,10 +108,7 @@
     "choices": [
      "E"
     ]
-   },
-   "topics": [
-    "q1.units-digit-cycles"
-   ]
+   }
   },
   {
    "id": "q1-18-remainders-units-digits-c3",
@@ -122,9 +126,15 @@
    "skills": [
     "remainders-units-digits"
    ],
+   "topics": [
+    "q1.remainder-by-powers-of-ten",
+    "q1.units-digit-cycles"
+   ],
    "review": {
     "status": "draft",
-    "solvedBy": [],
+    "solvedBy": [
+     "solver-bw5"
+    ],
     "sourceChecked": false
    },
    "type": "PS",
@@ -157,11 +167,7 @@
     "choices": [
      "D"
     ]
-   },
-   "topics": [
-    "q1.remainder-by-powers-of-ten",
-    "q1.units-digit-cycles"
-   ]
+   }
   }
  ]
 }

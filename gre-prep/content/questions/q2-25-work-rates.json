@@ -14,7 +14,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -47,7 +49,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -104,7 +108,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -154,14 +160,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Working alone, pump X can empty a tank in 5 hours, and pump Y can empty the same tank in 7 hours.",
    "quantityA": "The number of hours the two pumps, working together, need to empty the tank",
-   "quantityB": "$3$"
+   "quantityB": "$3$",
+   "common": "Working alone, pump X can empty a tank in 5 hours, and pump Y can empty the same tank in 7 hours."
   },
   "answer": {
    "choice": "B"
@@ -188,7 +196,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -238,14 +248,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Working alone, hose X can fill an empty pond in 4 hours, and hose Y can fill it in 6 hours. Both hoses are turned on at the same time and together fill the empty pond.",
    "quantityA": "The fraction of the pond's water that came from hose Y",
-   "quantityB": "$\\frac25$"
+   "quantityB": "$\\frac25$",
+   "common": "Working alone, hose X can fill an empty pond in 4 hours, and hose Y can fill it in 6 hours. Both hoses are turned on at the same time and together fill the empty pond."
   },
   "answer": {
    "choice": "C"
@@ -266,7 +278,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -319,7 +333,9 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "DI",
@@ -355,7 +371,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -406,7 +424,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -434,7 +454,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -467,7 +489,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",

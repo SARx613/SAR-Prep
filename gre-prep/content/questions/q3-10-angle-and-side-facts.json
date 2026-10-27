@@ -20,7 +20,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -71,7 +73,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -102,7 +106,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -167,7 +173,9 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -218,14 +226,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "Triangle $T$ has an obtuse interior angle.",
    "quantityA": "The number of acute interior angles of $T$",
-   "quantityB": "2"
+   "quantityB": "2",
+   "common": "Triangle $T$ has an obtuse interior angle."
   },
   "answer": {
    "choice": "C"
@@ -254,7 +264,9 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -280,7 +292,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -306,14 +320,16 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "In triangle $PQR$, angle $P$ measures $52^\\circ$ and angle $Q$ measures $71^\\circ$.",
    "quantityA": "$QR$",
-   "quantityB": "$PQ$"
+   "quantityB": "$PQ$",
+   "common": "In triangle $PQR$, angle $P$ measures $52^\\circ$ and angle $Q$ measures $71^\\circ$."
   },
   "answer": {
    "choice": "B"
@@ -339,7 +355,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "PS",
@@ -390,7 +408,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
@@ -423,14 +443,16 @@
   },
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "QC",
   "content": {
-   "common": "$ABCDEF$ is a regular hexagon.",
    "quantityA": "The area of triangle $ACE$",
-   "quantityB": "The sum of the areas of triangles $ABC$, $CDE$ and $EFA$"
+   "quantityB": "The sum of the areas of triangles $ABC$, $CDE$ and $EFA$",
+   "common": "$ABCDEF$ is a regular hexagon."
   },
   "answer": {
    "choice": "C"
@@ -451,7 +473,9 @@
   ],
   "review": {
    "status": "draft",
-   "solvedBy": [],
+   "solvedBy": [
+    "solver-bw5"
+   ],
    "sourceChecked": false
   },
   "type": "NE",
