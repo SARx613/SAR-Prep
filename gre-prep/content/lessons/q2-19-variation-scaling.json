@@ -1,6 +1,6 @@
 {
  "id": "q2-19-variation-scaling",
- "status": "draft",
+ "status": "published",
  "why": "GRE word problems and formula questions often hinge on how one quantity changes when another is multiplied, divided or changed by a percent.",
  "rule": "**Direct variation:** $y=kx$ for a constant $k$, so the ratio $\\frac{y}{x}$ is fixed: $\\frac{y_1}{x_1}=\\frac{y_2}{x_2}$.\n\n**Inverse variation:** $y=\\frac{k}{x}$, so the product is fixed: $x_1y_1=x_2y_2$. Doubling $x$ halves $y$.\n\n**Combined:** multiply the pieces. \"$z$ varies directly with $x$ and inversely with the square of $y$\" means $z=\\frac{kx}{y^2}$. Find $k$ from one data set, then substitute.\n\n**Scaling a formula:** multiply each input by its factor and apply the formula; constants cancel. Turn percent changes into multipliers ($+50\\%\\to1.5$, $-20\\%\\to0.8$), multiply, then subtract 1 for the percent change.\n\n- Similar figures (any two circles, squares or cubes are similar) with length ratio $k$: perimeters $k$, areas $k^2$, volumes $k^3$.\n- $d=rt$: with $t$ fixed, $d$ is proportional to $r$; with $d$ fixed, $r$ and $t$ vary inversely (speed $\\times\\frac54$ means time $\\times\\frac45$).\n- Identical workers on a fixed job: workers $\\times$ time is constant, $n_1t_1=n_2t_2$.",
  "examples": [
@@ -38,12 +38,13 @@
     "q2.direct-variation"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -75,12 +76,13 @@
     "q2.inverse-variation"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -130,12 +132,13 @@
     "q2.formula-factor-change"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

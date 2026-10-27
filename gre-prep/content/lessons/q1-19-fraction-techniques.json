@@ -1,6 +1,6 @@
 {
  "id": "q1-19-fraction-techniques",
- "status": "draft",
+ "status": "published",
  "why": "Fraction arithmetic and fraction comparisons sit inside many Quantitative Comparison items, where a fast shortcut beats long division.",
  "rule": "- **Least common denominator** = the LCM of the denominators: for $\\frac{1}{4}, \\frac{1}{6}, \\frac{1}{10}$ it is $2^2\\cdot3\\cdot5 = 60$. Any common multiple works; the least keeps numbers small.\n- **Whole $\\pm$ fraction:** write the whole number over the same denominator: $2-\\frac{3}{7} = \\frac{14}{7}-\\frac{3}{7} = \\frac{11}{7}$.\n- **Cancel first:** any numerator factor cancels any denominator factor, even across fractions: $\\frac{4}{9}\\cdot\\frac{3}{8} = \\frac{1}{3}\\cdot\\frac{1}{2}$. A whole number $n$ is $\\frac{n}{1}$.\n- **Reciprocal** of $\\frac{a}{b}$ is $\\frac{b}{a}$ (product 1, same sign; 0 has none), so $1\\div\\frac{a}{b} = \\frac{b}{a}$ and $5\\div\\frac{5}{8} = 8$. If $0<x<1$, then $\\frac{1}{x}>1$.\n- **Stacked fractions:** turn the top and the bottom into single fractions, or multiply both by the LCD of the small fractions; work nested ones from the inside out.\n- **Compare:** with positive denominators, $\\frac{a}{b}>\\frac{c}{d}$ exactly when $ad>bc$. Or give them a common numerator: then the smaller denominator wins ($\\frac{2}{5} = \\frac{6}{15} > \\frac{6}{17}$).\n- **Same amount on top and bottom:** for positive $a$, $b$ and $k$, $\\frac{a+k}{b+k}$ lies between $\\frac{a}{b}$ and 1. Subtracting $k$ (terms staying positive) moves it away from 1.",
  "lengthJustification": "Seven separate fraction techniques are each the key step of a practice question, so each needs one line.",
@@ -39,12 +39,13 @@
     "q1.multiply-divide-fractions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -72,12 +73,13 @@
     "q1.compare-fractions-common-terms"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -109,12 +111,13 @@
     "q1.whole-and-fraction"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

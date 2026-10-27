@@ -1,6 +1,6 @@
 {
  "id": "q3-11-composite-quadrilaterals",
- "status": "draft",
+ "status": "published",
  "why": "Composite figures (a triangle or a square drawn inside a square, a border around a rectangle, the longest rod in a box) are frequent GRE geometry items, and each has a one-line shortcut.",
  "rule": "A diagonal cuts a rectangle into two right triangles whose legs are $\\ell$ and $w$, so $d=\\sqrt{\\ell^2+w^2}$. It is the longest segment that fits inside the rectangle.\n\n- **Square**, side $s$: $d=s\\sqrt2$, so area $=s^2=\\frac{d^2}{2}$. The diagonals are equal, perpendicular and cut each other in half.\n- **Rectangular solid (box)**, edges $\\ell, w, h$: the longest segment inside joins opposite corners. Apply Pythagoras twice (floor diagonal, then height): $d=\\sqrt{\\ell^2+w^2+h^2}$; a cube gives $s\\sqrt3$.\n- **Triangle on a side**: its base is one side of a rectangle and its third vertex is anywhere on the opposite side. Its height is the other side, so it is half the rectangle.\n- **Square in a square**: a square with a vertex on each side of a larger one cuts off four congruent right triangles with legs $a$ and $b$. Outer side $a+b$, inner side $\\sqrt{a^2+b^2}$; at the midpoints the inner square has half the area.\n- **Border** of width $x$ around an $\\ell\\times w$ rectangle: the outer rectangle is $(\\ell+2x)\\times(w+2x)$; border area = outer area − inner area.\n\n**Same perimeter** $P$: the square has the greatest area, $\\frac{P^2}{16}$; more unequal sides give less area, down toward 0. **Same area** $A$: the square has the least perimeter, $4\\sqrt A$.",
  "lengthJustification": "The lesson gathers eight separate figure patterns, each tested in the practice set and each needing its own one-line fact.",
@@ -41,12 +41,13 @@
     "q3.square-properties"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -71,12 +72,13 @@
     "q3.triangle-in-square"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -109,12 +111,13 @@
     "q3.min-perimeter-fixed-area"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

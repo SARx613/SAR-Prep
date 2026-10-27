@@ -1,6 +1,6 @@
 {
  "id": "q1-22-decimal-expansions",
- "status": "draft",
+ "status": "published",
  "why": "Rounding, scientific notation, and questions about the digits or zeros of a number test place value directly and reward a quick rewrite with powers of ten.",
  "rule": "**Rounding**: look at the digit just right of the stated place: 5 or more rounds up, less than 5 keeps it. A negative number rounds by its size: $-2.735\\to-2.74$. Round only the final answer.\n\n**Ordering**: pad with zeros to equal length and compare from the left: $0.3 = 0.300>0.125$. More digits does not mean larger. Turn fractions into decimals first.\n\n**Powers of ten**: multiplying by $10^k$ moves the point $k$ places right; multiplying by $10^{-k}$ (dividing by $10^k$) moves it left.\n\n**Scientific notation** $a\\times10^n$ has $1\\le a<10$. Multiply or divide the $a$-parts, add or subtract exponents, renormalize: $35\\times10^{-5} = 3.5\\times10^{-4}$.\n\n**Terminating or repeating**: reduce first; the fraction terminates exactly when its denominator has no prime factors other than 2 and 5 ($\\frac{21}{60} = \\frac{7}{20}$ terminates, $\\frac{7}{30}$ repeats).\n\n**Digit far out**: with a repeating block of $L$ digits, the $n$th repeating digit is position $r$ of the block, $r$ = remainder of $n\\div L$ ($r = 0$: last digit). Count from where the block begins.\n\n**Zeros and digits**\n- $c\\times10^{-k}$ with $1\\le c<10$ has $k-1$ zeros between the point and the first nonzero digit: $\\frac{1}{400} = 2.5\\times10^{-3} = 0.0025$.\n- For $\\frac{1}{2^a5^b}$, multiply top and bottom by the missing 2s or 5s to get a power of ten below.\n- Each trailing zero needs one $10 = 2\\cdot5$: trailing zeros = the smaller exponent of 2 and 5.\n- Pair 2s with 5s to write the number as $m\\times10^k$; digits = digits of $m$ plus $k$.",
  "lengthJustification": "Nine distinct place-value techniques, each needed by at least one practice question, are stated in one line each.",
@@ -40,12 +40,13 @@
     "q1.rounding"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -76,12 +77,13 @@
     "q1.terminating-decimals"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -129,12 +131,13 @@
     "q1.trailing-zeros"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

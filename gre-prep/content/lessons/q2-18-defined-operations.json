@@ -1,6 +1,6 @@
 {
  "id": "q2-18-defined-operations",
- "status": "draft",
+ "status": "published",
  "why": "GRE questions often define a new symbol or rule in the stem, compose two functions, or ask which values a function can output.",
  "rule": "A made-up symbol, or a rule given in words, is just a function: copy the definition and put each input in its own position, in brackets. If $a\\#b=ab-a+b$, then $3\\#(-2)=(3)(-2)-3+(-2)=-11$.\n\n- **Equation:** use the definition to turn it into an ordinary equation, then solve.\n- **Nested:** work from the innermost brackets out. Swap inputs only if $a\\#b=b\\#a$ for all $a,b$.\n- **Composite** $f(g(x))$: find $g(x)$ first, then feed that output to $f$. Usually $f(g(x))\\ne g(f(x))$.\n- **Model:** in $C(n)=500+12n$, $n$ is units made and $C$ is dollars. Set the function equal to a target and solve; keep only sensible inputs ($t\\ge0$, whole units).\n\nThe **range** is the set of outputs: $y$ is in it exactly when $f(x)=y$ has a solution in the domain.\n\n- $x^2$, $x^4$, $\\sqrt{x}$ and $|x|$ are never negative and take every value $\\ge0$. So $x^2+c$, $\\sqrt{x-a}+c$ and $k|x-h|+c$ ($k>0$) have range $y\\ge c$; a minus sign in front gives $y\\le c$.\n- $x^3$, $x^5$ and $mx+b$ ($m\\ne0$) take every real value.\n- On a restricted domain, check the endpoints and any minimum or maximum inside.",
  "lengthJustification": "The lesson covers ten tested points (defined symbols, equations, nesting, composites, models and five kinds of range), each needed by a practice question.",
@@ -40,12 +40,13 @@
     "q2.defined-operations"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -75,12 +76,13 @@
     "q2.composite-functions"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -129,12 +131,13 @@
     "q2.function-word-problems"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

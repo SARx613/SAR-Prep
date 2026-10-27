@@ -1,6 +1,6 @@
 {
  "id": "q2-17-sequences",
- "status": "draft",
+ "status": "published",
  "why": "The GRE lists sequences of numbers among its arithmetic topics: questions ask for a term, a sum, or the result of growth or decay repeated over many periods.",
  "rule": "A **sequence** $a_1, a_2, a_3, \\dots$ lists terms in order; $n$ is a term's position.\n\n- **Formula:** an explicit rule gives $a_n$ from $n$: if $a_n=3n-1$, then $a_5=14$.\n- **Repeating block** of length $p$: the $n$th term sits at position (remainder of $n\\div p$) in the block; remainder 0 means the last one.\n- **Recursive rule:** each term comes from earlier ones, e.g. $a_n=3a_{n-1}-1$; start from the given first term(s) and compute in order.\n- **Arithmetic** (add $d$): $a_n=a_1+(n-1)d$, and $d=\\frac{a_m-a_k}{m-k}$. Sum $=n\\cdot\\frac{a_1+a_n}{2}$; number of terms $=\\frac{\\text{last}-\\text{first}}{d}+1$.\n- **Geometric** (multiply by $r$): $a_n=a_1r^{n-1}$, and $r^{m-k}=\\frac{a_m}{a_k}$.\n- **Telescoping:** split terms so neighbours cancel: $\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\dots+\\left(\\frac1n-\\frac1{n+1}\\right)=1-\\frac1{n+1}$, and $\\frac21\\cdot\\frac32\\cdots\\frac{n+1}{n}=n+1$.\n- **Growth:** a fixed amount $k$ per period is arithmetic (linear): start $+\\,nk$. A fixed percent is geometric (exponential): multiply by $1+\\frac{r}{100}$ (growth) or $1-\\frac{r}{100}$ (decay) once per period, where periods $=$ elapsed time $\\div$ period length. Half-life $h$: amount $=$ start $\\times\\left(\\frac12\\right)^{t/h}$.",
  "examples": [
@@ -38,12 +38,13 @@
     "q2.sequence-basics"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -73,12 +74,13 @@
     "q2.geometric-sequences"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -126,12 +128,13 @@
     "q2.arithmetic-sums"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

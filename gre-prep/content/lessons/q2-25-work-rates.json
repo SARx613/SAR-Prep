@@ -1,6 +1,6 @@
 {
  "id": "q2-25-work-rates",
- "status": "draft",
+ "status": "published",
  "why": "Combined-work problems (machines, pipes, crews) appear regularly in GRE Quant, and they all run on one idea: rates add, times do not.",
  "rule": "Work = rate × time, with work measured as a fraction of one job. A worker who finishes alone in $a$ hours has a rate of $\\frac1a$ job per hour. Rates add; times never do. In a table, use one row per worker or phase; the work column adds up to 1 job.\n\n- **Output rates:** $x$ units in $y$ minutes is $\\frac{x}{y}$ per minute, so $\\frac{60hx}{y}$ units in $h$ hours. Check variable answer choices with easy numbers.\n- **Part of the job:** rate × time; percent = fraction × 100; part left = 1 − part done. Workers on a shared job split it in the ratio of their rates.\n- **Two workers:** together they take $\\frac{ab}{a+b}$ hours, less than either alone (this shortcut is for two workers only).\n- **Unknown worker:** $\\frac1b=\\frac1t-\\frac1a$, where $t$ is the time together; then invert to get the time $b$.\n- **Phases:** work together, then the rest = 1 − (work done together) at the remaining rate.\n- **$k$ times as fast:** rate × $k$, time ÷ $k$.\n- **$p$ percent more time:** time × $(1+\\frac{p}{100})$, so rate ÷ $(1+\\frac{p}{100})$. Convert to rates before adding.",
  "lengthJustification": "Eight distinct work setups are tested in the practice set, and each needs its own one-line method.",
@@ -41,12 +41,13 @@
     "q2.percent-of-job"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -74,12 +75,13 @@
     "q2.unknown-worker-time"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -111,12 +113,13 @@
     "q2.two-worker-shortcut"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

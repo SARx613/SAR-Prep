@@ -1,6 +1,6 @@
 {
  "id": "q2-23-word-problem-setups",
- "status": "draft",
+ "status": "published",
  "why": "A handful of story types (ages, digits, lines, shares, split costs, price plans) recur on the GRE, and each has a standard setup that turns it into one easy equation.",
  "rule": "Name one unknown, translate each sentence into an equation, solve, and answer what was asked. In a Quantitative Comparison, translate the centered information first, then compute both quantities.\n\n- **Ages.** A shift of $k$ years applies to **both** people: $A+k$ and $B+k$ in $k$ years; $A-k$ and $B-k$ $k$ years ago.\n- **Digits.** Tens digit $t$, units digit $u$: the number is $10t+u$ (not $tu$). Reversed it is $10u+t$; the difference is $9(t-u)$. Digits are integers 0 to 9, with $t\\ge1$.\n- **Line positions.** $p$th from the front and $q$th from the back: $p+q-1$ people. Strictly between positions $a$ and $b$: $|a-b|-1$ people.\n- **Shares of a whole** add to 1; the rest is 1 minus their sum. If the rest is $N$ items, the whole is $N$ divided by that fraction.\n- **Fraction of the remainder** multiplies what is left: use $\\frac13$, then $\\frac14$ of the rest; the second part is $\\frac14\\cdot\\frac23=\\frac16$ of the whole.\n- **Shared cost.** Total $C$ split by $n$ people is $\\frac{C}{n}$ each; if $k$ drop out, set $\\frac{C}{n-k}-\\frac{C}{n}$ equal to the increase.\n- **Price plans.** Each plan costs fee $+$ rate $\\times$ usage. Set the costs equal for the break-even usage; below it the lower fee is cheaper, above it the lower rate.\n- **Steady change.** Write each quantity as start $+$ rate $\\times\\, t$ (negative rate if decreasing), with $t$ measured from one common starting time; set them equal and solve.",
  "lengthJustification": "Nine recurring story types are tested in the practice set, and each needs its own one-line setup.",
@@ -41,12 +41,13 @@
     "q0.translating-in-qc"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -72,12 +73,13 @@
     "q2.fraction-of-remainder"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -105,12 +107,13 @@
     "q2.compare-price-plans"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

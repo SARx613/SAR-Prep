@@ -19,12 +19,13 @@
    "q2.solve-for-expression"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -79,9 +80,13 @@
    "q2.substitute-expressions"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -130,12 +135,13 @@
    "q2.solve-for-expression"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -168,12 +174,13 @@
    "q2.factor-out-negative-one"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -222,12 +229,13 @@
    "q2.three-or-more-solutions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -257,12 +265,13 @@
    "q2.solve-in-terms-of"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -311,12 +320,13 @@
    "q2.three-variable-systems"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -341,12 +351,13 @@
    "q2.square-of-sum-vs-sum-of-squares"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -379,12 +390,13 @@
    "q2.three-variable-systems"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -433,12 +445,13 @@
    "q2.quadratic-from-fractions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -470,12 +483,13 @@
    "q2.quadratic-from-fractions"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -525,12 +539,13 @@
    "q2.solve-for-expression"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {

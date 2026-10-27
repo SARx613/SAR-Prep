@@ -19,12 +19,13 @@
    "q1.ratio-common-variable"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -72,12 +73,13 @@
    "q1.sufficient-ratio-info"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -106,9 +108,13 @@
    "q1.ratio-total-multiple"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -163,12 +169,13 @@
    "q1.multipart-ratios"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -217,12 +224,13 @@
    "q1.ratio-common-variable"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -248,12 +256,13 @@
    "q1.ratio-not-counts"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -279,12 +288,13 @@
    "q1.fractional-multiplier"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -308,9 +318,13 @@
    "q2.hypothetical-fraction-change"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -335,12 +349,13 @@
    "q1.sufficient-ratio-info"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -372,12 +387,13 @@
    "q1.adjust-ratio-by-adding"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -431,12 +447,13 @@
    "q1.ratio-total-multiple"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -486,12 +503,13 @@
    "q1.ratio-total-multiple"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {

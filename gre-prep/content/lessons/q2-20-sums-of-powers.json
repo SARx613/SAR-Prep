@@ -1,6 +1,6 @@
 {
  "id": "q2-20-sums-of-powers",
- "status": "draft",
+ "status": "published",
  "why": "Hard GRE exponent items hide sums, mixed bases and huge powers, and adding exponents across a sum is the classic wrong answer.",
  "rule": "The exponent rules cover products and quotients only. A **sum** of powers needs one of these moves:\n\n- **Equal copies:** $k$ copies of $a^n$ make $k\\cdot a^n$, so $3^n+3^n+3^n=3\\cdot3^n=3^{n+1}$.\n- **Factor out the smallest power:** $2^{n+3}-2^n=2^n(2^3-1)=7\\cdot2^n$.\n- **Fractions:** use the largest power as common denominator: $\\dfrac1{3^4}+\\dfrac1{3^5}=\\dfrac{3+1}{3^5}=\\dfrac4{3^5}$.\n\nWith mixed bases (6, 12, 18…), write every base as primes, $12^n=2^{2n}3^n$, and collect exponents prime by prime.\n\nTo compare powers, give them a common exponent: $2^{30}=8^{10}$ and $3^{20}=9^{10}$, so $\\dfrac{2^{30}}{3^{20}}=\\left(\\dfrac89\\right)^{10}<1$. For size, use $2^{10}=1{,}024\\approx10^3$.\n\nWith one base on both sides, equate the exponents; if that gives a quadratic, keep every root that checks.",
  "examples": [
@@ -40,12 +40,13 @@
     "q2.adding-equal-powers"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -76,12 +77,13 @@
     "q2.sum-of-powers-trap"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -130,12 +132,13 @@
     "q1.estimating-powers"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

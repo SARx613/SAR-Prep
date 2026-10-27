@@ -1,6 +1,6 @@
 {
  "id": "q2-22-inequality-reasoning",
- "status": "draft",
+ "status": "published",
  "why": "GRE items often give bounds on several variables and ask what must be true, how the variables are ordered, or how large an expression can get.",
  "rule": "**Number line.** A closed dot means the endpoint is included ($\\le$ or $\\ge$); an open dot means it is not ($<$ or $>$). *And* keeps only the overlap (one segment); *or* keeps either piece (often two rays pointing apart).\n\n**Word problems.** *At least* is $\\ge$, *at most* is $\\le$, *more than* is $>$. Solve, then round as the story needs: the least number *needed* rounds **up**; the most you can *afford* rounds **down**.\n\n**Combining**\n\n- Same direction: **add** them. $a<b$ and $c<d$ give $a+c<b+d$. If they point opposite ways, multiply one by $-1$ first.\n- Never subtract or multiply two inequalities.\n- Chain: write each with $<$ and link shared variables: $a<b$, $c>b$, $d<a$ give $d<a<b<c$. Variables not on one chain cannot be ordered.\n- With an equation: write the asked variable through the bounded one, then push the bound through: $x+y=10$ and $x>3$ give $y=10-x<7$.\n- Variable divisor: $\\frac{x}{y}>1$ gives $x>y$ only if $y>0$ (if $y<0$, then $x<y$). Split by sign, or multiply by $y^2$, which is positive.\n\n**Extremes.** For bounded $x$ and $y$, the largest and smallest $x-y$ or $xy$ occur at endpoints: try every pair of endpoints.",
  "lengthJustification": "Eight distinct inequality techniques are tested in the practice set, each needing its own one-line rule.",
@@ -40,9 +40,13 @@
     "q2.inequality-word-problems"
    ],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-aw6",
+     "solver-bw6"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -66,12 +70,13 @@
     "q2.chaining-inequalities"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -104,12 +109,13 @@
     "q2.several-unknowns-trap"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

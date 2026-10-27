@@ -19,12 +19,13 @@
    "q1.multiply-divide-radicals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -78,12 +79,13 @@
    "q1.rationalize-monomial"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -138,12 +140,13 @@
    "q2.fractional-exponents"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -191,12 +194,13 @@
    "q1.multiply-divide-radicals"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -221,12 +225,13 @@
    "q2.fractional-exponents"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -251,12 +256,13 @@
    "q1.squaring-radical-binomial"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -287,9 +293,13 @@
    "q2.fractional-exponent-equations"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -343,9 +353,13 @@
    "q2.radical-equations"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -401,12 +415,13 @@
    "q1.rationalize-conjugate"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -461,12 +476,13 @@
    "q2.fractional-exponents"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -517,12 +533,13 @@
    "q2.fractional-exponents"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -548,9 +565,13 @@
    "q2.radical-equations"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {

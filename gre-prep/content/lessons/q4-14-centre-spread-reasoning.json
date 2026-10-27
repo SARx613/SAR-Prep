@@ -1,6 +1,6 @@
 {
  "id": "q4-14-centre-spread-reasoning",
- "status": "draft",
+ "status": "published",
  "why": "Harder GRE statistics questions rarely ask you to compute a mean or SD from scratch; they ask what must be true when terms are unknown, groups are combined or data are changed.",
  "rule": "- **Mean with variable terms**: add the terms and set the sum equal to mean $\\times$ count.\n- **Extreme value of one member**: fix the sum. For the *greatest* possible value, make every other value as small as the conditions allow (positive, different, given median), then subtract. For the *least possible greatest* value, make the values as close together as allowed.\n- **Median with an unknown**: find where the unknown can sit in the ordered list; the given median then forces an inequality. Test both ends.\n- **Evenly spaced or symmetric list**: mean $=$ median $= \\frac{\\text{first} + \\text{last}}{2}$.\n- **Combining groups**: the combined mean lies between the group means, closer to the larger group's. Turn percents or rates into counts before combining. If means $a$ and $b$ combine to $m$, then $n_a : n_b = (b - m) : (m - a)$.\n- **SD**: multiplying every value by $k$ multiplies the SD by $|k|$. A new value at the mean, or within 1 SD of it, lowers the SD; one far away (2 SDs or more) raises it.\n- **Percentile**: the $p$th percentile has about $p\\%$ of the data at or below it. It is a position, not a score.\n- **Normal**: a bell curve symmetric about its mean, half the data on each side. About 68% (two-thirds) lies within 1 SD and about 95% (almost all) within 2 SDs, so about 34% lies between the mean and 1 SD on each side, 16% beyond 1 SD and 2.5% beyond 2 SDs.",
  "lengthJustification": "The lesson gathers eight separate reasoning patterns, each tested directly in the practice set.",
@@ -40,12 +40,13 @@
     "q4.mean-with-variables"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -76,12 +77,13 @@
     "q4.weighting-pull"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -129,12 +131,13 @@
     "q4.sd-multiply-constant"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {

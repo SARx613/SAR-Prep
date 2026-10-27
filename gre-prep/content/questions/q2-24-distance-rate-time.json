@@ -19,12 +19,13 @@
    "q2.single-trip-rate"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -72,12 +73,13 @@
    "q2.toward-each-other-same-start"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -109,12 +111,13 @@
    "q2.rate-table"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -162,12 +165,13 @@
    "q2.rate-table"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -194,12 +198,13 @@
    "q2.moving-apart"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -231,12 +236,13 @@
    "q2.single-trip-rate"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -290,9 +296,13 @@
    "q2.toward-each-other-relative-speed"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -341,12 +351,13 @@
    "q2.moving-apart"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -372,12 +383,13 @@
    "q2.rate-table"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -409,12 +421,13 @@
    "q2.catch-up"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -469,12 +482,13 @@
    "q2.hypothetical-speed-change"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -528,12 +542,13 @@
    "q2.toward-each-other-same-start"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

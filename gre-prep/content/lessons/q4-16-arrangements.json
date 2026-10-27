@@ -1,6 +1,6 @@
 {
  "id": "q4-16-arrangements",
- "status": "draft",
+ "status": "published",
  "why": "GRE counting and probability questions add conditions to plain orderings: repeated items, round tables, people kept apart, or a random code with a property.",
  "rule": "Build on the multiplication principle and $n!$.\n\n- **Factorials**: $n! = n \\cdot (n-1)!$. Cancel or factor out the smallest factorial instead of multiplying out: $\\frac{12!}{10!} = 12 \\cdot 11$ and $10! + 11! = 10!\\,(1 + 11) = 12 \\cdot 10!$.\n- **Separate cases (\"or\")**: if the outcomes split into cases that cannot overlap, count each case and **add**; multiply only within a case.\n- **Identical items**: $n$ items with $a$ alike, $b$ alike, ... form $\\frac{n!}{a!\\,b!\\cdots}$ distinct rows. LEVEL: $\\frac{5!}{2!\\,2!} = 30$.\n- **Circle**: $n$ people around a round table (only who sits next to whom matters) can sit in $(n-1)!$ ways: seat one person, then order the rest.\n- **Kept apart**: all orders minus the orders with them together (one block with 2 inner orders). In a row of $n$: $n! - 2 \\cdot (n-1)!$.\n- **Unknown $n$**: if $n(n-1) = 132$, find two consecutive integers with that product: $12 \\cdot 11$, so $n = 12$.\n\n**Probability**: when all outcomes are equally likely, $P = \\frac{\\text{favorable outcomes}}{\\text{all outcomes}}$, both counted as above. For a random code whose positions are chosen independently, multiply the per-position probabilities: $P(\\text{3 even digits}) = \\left(\\frac12\\right)^3$. Symmetry saves work: $A$ comes before $B$ in exactly half of all orders, and two given people in a random row of $n$ are adjacent with probability $\\frac{2(n-1)!}{n!} = \\frac{2}{n}$.",
  "lengthJustification": "The objectives list eight separate counting and probability techniques, each needed by at least one practice question.",
@@ -42,12 +42,13 @@
     "q4.identical-items"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -77,12 +78,13 @@
     "q4.factoring-factorials"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -131,12 +133,13 @@
     "q4.probability-arrangements"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

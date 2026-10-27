@@ -13,12 +13,13 @@
    "q4.factoring-factorials"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -49,12 +50,13 @@
    "q4.circular-arrangements"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -109,12 +111,13 @@
    "q4.or-adds"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -169,12 +172,13 @@
    "q4.identical-items"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -222,12 +226,13 @@
    "q4.unknown-size-permutations"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -251,12 +256,13 @@
    "q4.factoring-factorials"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -282,9 +288,13 @@
    "q4.items-apart"
   ],
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-aw6",
+    "solver-bw6"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -309,12 +319,13 @@
    "q4.probability-codes"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -343,12 +354,13 @@
    "q4.probability-arrangements"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "QC",
   "content": {
@@ -382,12 +394,13 @@
    "q4.items-apart"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {
@@ -437,12 +450,13 @@
    "q4.probability-arrangements"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "NE",
   "content": {
@@ -476,12 +490,13 @@
    "q4.probability-codes"
   ],
   "review": {
-   "status": "draft",
+   "status": "published",
    "solvedBy": [
     "solver-bw5",
     "solver-aw5"
    ],
-   "sourceChecked": false
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "PS",
   "content": {

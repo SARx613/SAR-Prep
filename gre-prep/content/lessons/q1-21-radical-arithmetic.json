@@ -1,8 +1,9 @@
 {
  "id": "q1-21-radical-arithmetic",
- "status": "draft",
+ "status": "published",
  "why": "Answers in geometry and algebra are often given in simplified radical form, and some questions write roots as fractional exponents, so you must reshape radicals the way the choices do.",
  "rule": "- **Multiply or divide:** coefficients with coefficients, radicands with radicands, then simplify: $2\\sqrt{3}\\cdot5\\sqrt{6}=10\\sqrt{18}=30\\sqrt{2}$ and $\\dfrac{12\\sqrt{10}}{4\\sqrt{2}}=3\\sqrt{5}$.\n- **Squaring a sum keeps a middle term:** $(a+\\sqrt{b})^2=a^2+2a\\sqrt{b}+b$, so $(\\sqrt{3}+\\sqrt{2})^2=5+2\\sqrt{6}$. The **conjugate** product has none: $(a+\\sqrt{b})(a-\\sqrt{b})=a^2-b$.\n- **Radical in a denominator:** multiply top and bottom by it: $\\dfrac{14}{\\sqrt{2}}=\\dfrac{14\\sqrt{2}}{2}=7\\sqrt{2}$ (for $3\\sqrt{2}$ below, still multiply by $\\sqrt{2}$ only). For a two-term denominator, use its conjugate (same terms, opposite sign): $\\dfrac{1}{\\sqrt{3}-1}=\\dfrac{\\sqrt{3}+1}{3-1}=\\dfrac{\\sqrt{3}+1}{2}$.\n- **Fractional exponents** (for $x>0$ the usual rules hold: $x^ax^b=x^{a+b}$ and $(x^a)^b=x^{ab}$): $x^{1/n}=\\sqrt[n]{x}$ and $x^{m/n}=(\\sqrt[n]{x})^m$; take the root first: $8^{2/3}=2^2=4$. Nested roots multiply exponents: $\\sqrt{x\\sqrt[3]{x}}=(x^{1+1/3})^{1/2}=x^{2/3}$.\n- **Solving $x^{m/n}=k$:** raise both sides to $\\frac{n}{m}$; $x^{3/2}=27$ gives $x=27^{2/3}=9$. When the equation reduces to an even power, the negative works too: $\\sqrt[3]{x^2}=4$ gives $x^2=64$, so $x=8$ or $x=-8$.\n- **Roots of different index:** raise both to the LCM of the indexes: $(\\sqrt[3]{3})^6=9>8=(\\sqrt{2})^6$, so $\\sqrt[3]{3}>\\sqrt{2}$.\n- **Radical equations:** isolate the root, square both sides, solve, then test the answer in the original. A root is never negative, so $\\sqrt{t}=-3$ has no solution, however $t$ is chosen.",
+ "lengthJustification": "Seven radical techniques (products, squared sums and conjugates, rationalising, fractional exponents, equations with roots, comparing roots) are each the key step of a question.",
  "examples": [
   {
    "prompt": "Simplify $(\\sqrt{6}+\\sqrt{2})^2$ and $\\dfrac{8}{\\sqrt{6}-\\sqrt{2}}$.",
@@ -39,12 +40,13 @@
     "q1.multiply-divide-radicals"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -75,12 +77,13 @@
     "q2.fractional-exponents"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -128,12 +131,13 @@
     "q1.rationalize-conjugate"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -144,6 +148,5 @@
     "choice": "C"
    }
   }
- ],
- "lengthJustification": "Seven radical techniques (products, squared sums and conjugates, rationalising, fractional exponents, equations with roots, comparing roots) are each the key step of a question."
+ ]
 }

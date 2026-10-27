@@ -1,6 +1,6 @@
 {
  "id": "q2-26-coordinate-plane-skills",
- "status": "draft",
+ "status": "published",
  "why": "Midpoints, reflections, areas on a grid, line equations and graph reading are the everyday tools of GRE coordinate questions, in Problem Solving and in Quantitative Comparison.",
  "rule": "**Midpoint** of $(x_1,y_1)$ and $(x_2,y_2)$: $\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$, the average of each coordinate. For a missing endpoint, double the midpoint and subtract the known endpoint.\n\n**Reflection about $y=-x$:** $(a,b)\\to(-b,-a)$; swap and change both signs.\n\n**Area on a grid:** rectangle area $=$ length $\\times$ width; triangle area $=\\frac12bh$ (a right triangle: half the product of its legs). Use a side parallel to an axis as base; the height is a coordinate difference. For a slanted figure, enclose it in an axis-parallel rectangle and subtract the corner right triangles.\n\n**Lines**\n- A point is on a line exactly when its coordinates satisfy the equation. Two points, or a point and the slope, fix the line.\n- To sketch $y=mx+b$, plot $(0,b)$, then go right by the run and up by the rise (down if $m<0$).\n- $m>0$ rises left to right, $m<0$ falls, $m=0$ is horizontal ($y=b$); a vertical line $x=a$ has no slope. The larger $|m|$, the steeper.\n\n**Graph of $f$**\n- $f(a)$ is the height of the graph at $x=a$; for $f(f(a))$ read twice.\n- $f(x)=k$ holds where the horizontal line $y=k$ meets the graph.\n- Domain: the $x$-values the graph covers; range: the $y$-values. A filled dot includes its point, an open dot excludes it.",
  "lengthJustification": "The lesson gathers nine separate coordinate skills (midpoints, a reflection, grid areas, four line facts and three graph-reading facts), each needing one line.",
@@ -40,12 +40,13 @@
     "q2.midpoint-formula"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -75,12 +76,13 @@
     "q2.reflect-over-diagonal"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -134,12 +136,13 @@
     "q2.slope-signs"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

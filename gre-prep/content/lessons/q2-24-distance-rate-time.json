@@ -1,6 +1,6 @@
 {
  "id": "q2-24-distance-rate-time",
- "status": "draft",
+ "status": "published",
  "why": "Meeting, chasing, round-trip and \"what if it had gone faster\" stories are standard GRE word problems, and each one reduces to a short table built on $d=rt$.",
  "rule": "Use a table: one row per traveller or leg, columns rate × time = distance. Fill in what you know, put one unknown in one cell, and link the rows by what they share: the same distance, a total time, or a time difference. Convert minutes to hours first.\n\n- **One trip:** $d$ miles at $r$ miles per hour takes $\\frac{d}{r}$ hours, or $\\frac{60d}{r}$ minutes. Check variable answer choices with easy numbers.\n- **Round trip:** the same $d$ each way, so the total time is $\\frac{d}{r_1}+\\frac{d}{r_2}$.\n- **\"Had it gone $v$ faster, it would have taken $t$ hours less\":** $\\frac{d}{r}-\\frac{d}{r+v}=t$.\n- **Relative speed:** the distance between two travellers changes at the *sum* of their speeds in opposite directions (toward or away) and at the *difference* in the same direction. Time = change in distance ÷ relative speed.\n- **Meeting:** if one starts earlier, first subtract the distance it covers alone. If one speed is given through the other ($r$ and $r+10$), use one variable.\n- **Right-angle paths** (one north, one east): the distance apart is $\\sqrt{d_1^2+d_2^2}$.\n- **Catching up:** the head start is the slower speed × its extra time. To end $k$ miles ahead, the faster one must gain the head start plus $k$.",
  "lengthJustification": "The table method plus seven distinct motion setups, each tested in the practice set, one line each.",
@@ -43,12 +43,13 @@
     "q2.relative-motion"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -79,9 +80,13 @@
     "q2.catch-up"
    ],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-aw6",
+     "solver-bw6"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -129,12 +134,13 @@
     "q2.round-trip"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

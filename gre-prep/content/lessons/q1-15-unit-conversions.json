@@ -1,6 +1,6 @@
 {
  "id": "q1-15-unit-conversions",
- "status": "draft",
+ "status": "published",
  "why": "GRE word problems mix units (minutes and hours, feet and yards, gallons and cubic feet), so converting cleanly is a step in many rate, fuel, travel and tank questions.",
  "rule": "A **conversion factor** is a fraction equal to 1, such as $\\frac{60\\text{ min}}{1\\text{ h}}$: multiplying by it changes the unit, not the amount. Put the unit you want to remove in the denominator so it cancels. The GRE states every conversion except common ones (time units, dollars and cents, metric prefixes).\n\n- **Chains:** multiply factors in a row, writing the units; each unwanted unit must cancel.\n- **Rates:** convert the top and bottom units separately: $\\frac{\\text{km}}{\\text{h}}\\cdot\\frac{1000\\text{ m}}{1\\text{ km}}\\cdot\\frac{1\\text{ h}}{3600\\text{ s}}$.\n- **Area, volume:** square or cube the length factor: $1\\text{ yd}^2=9\\text{ ft}^2$, $1\\text{ m}^3=100^3\\text{ cm}^3$.\n- **Fuel:** fuel used $=$ distance $\\div$ efficiency; cost $=$ fuel used $\\times$ price. Fuel used varies inversely with efficiency.\n- **Time zones:** convert both clock times to one zone, then subtract. On a round trip with equal flight times, the two clock differences are $T+z$ and $T-z$ ($z$ is the zone shift), so $T$ is their average.\n- **Filling:** time $=$ volume to fill $\\div$ net rate (inflow minus outflow), both in the same units; fill only the empty part. For a box or cylinder, volume $=$ base area $\\times$ depth, so the depth rises at rate $\\div$ base area.",
  "lengthJustification": "The lesson hosts eight checklist topics (conversion technique plus fuel, time-zone and fill-rate applications), and each needs its own one-line method.",
@@ -40,12 +40,13 @@
     "q1.conversion-factors"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -75,12 +76,13 @@
     "q1.area-volume-units"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -128,12 +130,13 @@
     "q3.volume-and-rate"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

@@ -1,6 +1,6 @@
 {
  "id": "q2-21-equation-shortcuts",
- "status": "draft",
+ "status": "published",
  "why": "Many GRE algebra items ask for an expression, a ratio or one unknown among several, and the fast route skips solving for every variable.",
  "rule": "Work toward what the question asks for.\n\n- **An expression:** scale the equation to produce it. From $6x-4=10$, halve both sides: $3x-2=5$.\n- **One equation, two unknowns:** $x$ and $y$ stay unknown, but any multiple of the left side is fixed: $4x+6y=18$ gives $2x+3y=9$. A ratio $\\frac{y}{x}$ can be fixed too.\n- **In terms of:** treat the other letters as numbers, collect the target's terms on one side, factor it out, divide: $ax+b=cx$ gives $x=\\dfrac{b}{c-a}$.\n- **Substituting:** replace the variable by the whole expression in brackets: with $y=2x-1$, $3y$ becomes $3(2x-1)$.\n- **Three unknowns** need three equations: eliminate the same variable from two pairs, leaving two equations in two unknowns. For pairwise sums ($x+y$, $y+z$, $x+z$), add all three: the total is $2(x+y+z)$.\n- **Opposites:** $b-a=-(a-b)$, so $\\dfrac{x^2-9}{3-x}=-(x+3)$. But $(a-b)^2=(b-a)^2$.\n- **Squares:** $(x+y)^2-(x^2+y^2)=2xy$; its sign decides which is larger.\n- **Variable in a denominator:** multiply through, solve, then reject any value that makes an original denominator 0.\n- **Higher degree:** move everything to one side and factor out $x$: $x^3=9x$ gives $x(x-3)(x+3)=0$, three solutions.",
  "lengthJustification": "The lesson gathers nine separate shortcuts, each needed by at least one practice question, so one line apiece exceeds 120 words.",
@@ -42,12 +42,13 @@
     "q2.solve-for-expression"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -72,12 +73,13 @@
     "q2.square-of-sum-vs-sum-of-squares"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
@@ -110,12 +112,13 @@
     "q2.factor-out-negative-one"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

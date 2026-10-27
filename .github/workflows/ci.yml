@@ -19,9 +19,9 @@ jobs:
       - run: npm ci --legacy-peer-deps
       - run: npm run lint
       - run: npm run typecheck
-      - run: npm run content:check
+      - run: npm run content:check -- --topics
       - run: npm test
       - run: npm run build
         env:
-          DATABASE_URL: postgres://placeholder
+          DATABASE_URL: postgres://user:pass@localhost/db
           AUTH_SECRET: ci-placeholder

@@ -1,6 +1,6 @@
 {
  "id": "q3-12-circles-inscribed-figures",
- "status": "draft",
+ "status": "published",
  "why": "GRE circle questions often draw a triangle, square or hexagon inside or around a circle; one shared length (a radius, a diagonal or a side) links the two figures.",
  "rule": "Two radii $OA$ and $OB$ are equal, so triangle $OAB$ is isosceles: its base angles are equal, and the perpendicular from $O$ to chord $AB$ cuts both the chord and angle $AOB$ in half.\n\n- **Central angle from a chord**: join the chord's ends to $O$. Chord $=r$ gives an equilateral triangle, $60^\\circ$; chord $=r\\sqrt2$ gives a right isosceles triangle, $90^\\circ$. Then arc $=\\frac{\\theta}{360}\\cdot2\\pi r$.\n- **Inscribed angle** (vertex on the circle): half the central angle on the same arc, so half the arc's degree measure. Inscribed angles on the same arc are equal.\n- **Square in a circle**: diagonal = diameter, so area $=\\frac{d^2}{2}$. **Circle in a square**: diameter = side.\n- **Equilateral triangle**, side $s$, altitude $h=\\frac{s\\sqrt3}{2}$: the centre lies $\\frac23$ of the way down each altitude, so the circle around it has $R=\\frac{2h}{3}=\\frac{s}{\\sqrt3}$ and the circle inside has $r=\\frac h3$; $R=2r$.\n- **Regular polygon** with $n$ sides in a circle: radii to the vertices make $n$ congruent isosceles triangles with apex angle $\\frac{360^\\circ}{n}$. For a hexagon they are equilateral, so side = radius.\n- **Rectangle in a semicircle**, base $b$ on the diameter: it is centred, so half the base, the height and a radius form a right triangle: $\\left(\\frac b2\\right)^2+h^2=r^2$.\n\n**Shaded area** = whole figure − unshaded parts. Ring between concentric circles: $\\pi R^2-\\pi r^2=\\pi(R^2-r^2)$; a path of width $w$ around a circle of radius $r$ has $R=r+w$.",
  "lengthJustification": "The lesson gathers seven circle-and-polygon pairings plus the subtraction method, each tested in the practice set and each needing its own one-line fact.",
@@ -41,12 +41,13 @@
     "q3.radii-isosceles"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -78,12 +79,13 @@
     "q3.circle-and-square"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -132,12 +134,13 @@
     "q3.inscribed-angle"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {

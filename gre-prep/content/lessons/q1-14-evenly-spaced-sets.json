@@ -1,6 +1,6 @@
 {
  "id": "q1-14-evenly-spaced-sets",
- "status": "draft",
+ "status": "published",
  "why": "Counting the terms of a range, and averaging or adding them without listing them, turns up in arithmetic, word problems and Quantitative Comparison.",
  "rule": "An **evenly spaced set** has the same gap $d$ between successive terms: consecutive integers $n, n+1, n+2, \\dots$ ($d=1$), consecutive even or odd integers $n, n+2, n+4, \\dots$ ($d=2$), consecutive multiples of $k$ ($d=k$). It is fixed by its first term, last term and gap.\n\n- **Integers from $a$ to $b$ inclusive:** $b-a+1$. One endpoint excluded: $b-a$; both excluded: $b-a-1$. Turn $<$ and $\\le$ into the first and last allowed integers first.\n- **Terms of any evenly spaced set:** $\\frac{\\text{last}-\\text{first}}{d}+1$, using the first and last terms that qualify (even, odd, multiple of $k$) inside the range, not the range's ends.\n- **Divisible by $A$ or $B$:** multiples of $A$ + multiples of $B$ − multiples of $\\text{LCM}(A,B)$. Divisible by exactly one: subtract the LCM count twice.\n- **Mean and median** are both $\\frac{\\text{first}+\\text{last}}{2}$: the middle term, or the average of the two middle terms.\n- **Sum** = number of terms × mean.\n- **Sum of $k$ consecutive integers** = $k$ × mean. For odd $k$ the mean is an integer, so $k$ divides the sum; for even $k$ the mean ends in $.5$, so $k$ never divides the sum.",
  "lengthJustification": "The lesson hosts nine linked counting, mean and sum facts, each needed by at least one practice question, so the rule lists each in one line.",
@@ -41,12 +41,13 @@
     "q1.count-integers-inclusive"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -77,12 +78,13 @@
     "q1.mean-of-evenly-spaced"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
@@ -130,12 +132,13 @@
     "q1.count-endpoints-excluded"
    ],
    "review": {
-    "status": "draft",
+    "status": "published",
     "solvedBy": [
      "solver-bw5",
      "solver-aw5"
     ],
-    "sourceChecked": false
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "QC",
    "content": {
