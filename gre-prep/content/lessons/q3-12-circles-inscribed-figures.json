@@ -1,0 +1,143 @@
+{
+ "id": "q3-12-circles-inscribed-figures",
+ "status": "draft",
+ "why": "GRE circle questions often draw a triangle, square or hexagon inside or around a circle; one shared length (a radius, a diagonal or a side) links the two figures.",
+ "rule": "Two radii $OA$ and $OB$ are equal, so triangle $OAB$ is isosceles: its base angles are equal, and the perpendicular from $O$ to chord $AB$ cuts both the chord and angle $AOB$ in half.\n\n- **Central angle from a chord**: join the chord's ends to $O$. Chord $=r$ gives an equilateral triangle, $60^\\circ$; chord $=r\\sqrt2$ gives a right isosceles triangle, $90^\\circ$. Then arc $=\\frac{\\theta}{360}\\cdot2\\pi r$.\n- **Inscribed angle** (vertex on the circle): half the central angle on the same arc, so half the arc's degree measure. Inscribed angles on the same arc are equal.\n- **Square in a circle**: diagonal = diameter, so area $=\\frac{d^2}{2}$. **Circle in a square**: diameter = side.\n- **Equilateral triangle**, side $s$, altitude $h=\\frac{s\\sqrt3}{2}$: the centre lies $\\frac23$ of the way down each altitude, so the circle around it has $R=\\frac{2h}{3}=\\frac{s}{\\sqrt3}$ and the circle inside has $r=\\frac h3$; $R=2r$.\n- **Regular polygon** with $n$ sides in a circle: radii to the vertices make $n$ congruent isosceles triangles with apex angle $\\frac{360^\\circ}{n}$. For a hexagon they are equilateral, so side = radius.\n- **Rectangle in a semicircle**, base $b$ on the diameter: it is centred, so half the base, the height and a radius form a right triangle: $\\left(\\frac b2\\right)^2+h^2=r^2$.\n\n**Shaded area** = whole figure − unshaded parts. Ring between concentric circles: $\\pi R^2-\\pi r^2=\\pi(R^2-r^2)$; a path of width $w$ around a circle of radius $r$ has $R=r+w$.",
+ "lengthJustification": "The lesson gathers seven circle-and-polygon pairings plus the subtraction method, each tested in the practice set and each needing its own one-line fact.",
+ "examples": [
+  {
+   "prompt": "A circle with center $O$ has radius 10, chord $AB$ has length 10, and $C$ is a point on the major arc $AB$. Find angle $AOB$, the length of minor arc $AB$, and angle $ACB$.",
+   "steps": [
+    "$OA=OB=AB=10$, so triangle $OAB$ is equilateral and angle $AOB=60^\\circ$.",
+    "Minor arc $AB=\\frac{60}{360}\\cdot2\\pi\\cdot10=\\frac{10\\pi}{3}$.",
+    "Angle $ACB$ is inscribed on the same arc: $\\frac{60^\\circ}{2}=30^\\circ$."
+   ],
+   "answer": "$60^\\circ$, $\\frac{10\\pi}{3}$, $30^\\circ$"
+  },
+  {
+   "prompt": "A square is inscribed in a circle of radius 5. Find the area inside the circle but outside the square.",
+   "steps": [
+    "The square's diagonal is a diameter: $d=10$.",
+    "Square: $\\frac{d^2}{2}=50$. Circle: $\\pi\\cdot5^2=25\\pi$.",
+    "Shaded = whole − unshaded $=25\\pi-50$."
+   ],
+   "answer": "$25\\pi-50\\approx28.5$"
+  }
+ ],
+ "trap": "An inscribed angle is half its arc: a $25^\\circ$ inscribed angle stands on a $50^\\circ$ arc, not a $25^\\circ$ one. In a semicircle use *half* the base: $\\left(\\frac b2\\right)^2+h^2=r^2$. A ring is $\\pi(R^2-r^2)$, never $\\pi(R-r)^2$.",
+ "checks": [
+  {
+   "id": "q3-12-circles-inscribed-figures-c1",
+   "lessonId": "q3-12-circles-inscribed-figures",
+   "difficulty": 1,
+   "stem": "Points $A$ and $B$ lie on a circle with center $O$, and angle $OAB$ measures $50^\\circ$. What is the measure of angle $AOB$, in degrees?",
+   "explanation": "$OA=OB$ (radii), so angle $OBA$ is also $50^\\circ$ and angle $AOB=180-50-50=80$.",
+   "estSeconds": 45,
+   "skills": [
+    "circles",
+    "triangles"
+   ],
+   "topics": [
+    "q3.radii-isosceles"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "degrees"
+   },
+   "answer": {
+    "value": 80
+   }
+  },
+  {
+   "id": "q3-12-circles-inscribed-figures-c2",
+   "lessonId": "q3-12-circles-inscribed-figures",
+   "difficulty": 2,
+   "stem": "A circle is inscribed in a square with side length 6. What is the area of the circle?",
+   "explanation": "The circle's diameter equals the side, 6, so $r=3$ and the area is $\\pi\\cdot3^2=9\\pi$.",
+   "choiceExplanations": {
+    "A": "$3\\pi$ is $\\pi r$, not $\\pi r^2$.",
+    "B": "$6\\pi$ is the circumference, not the area.",
+    "D": "$18\\pi$ is the circle *around* the square, whose diameter is the diagonal $6\\sqrt2$.",
+    "E": "$36\\pi$ uses the side 6 as the radius."
+   },
+   "estSeconds": 45,
+   "skills": [
+    "circles",
+    "inscribed-triangle"
+   ],
+   "topics": [
+    "q3.circle-and-square"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$3\\pi$"
+     },
+     {
+      "id": "B",
+      "text": "$6\\pi$"
+     },
+     {
+      "id": "C",
+      "text": "$9\\pi$"
+     },
+     {
+      "id": "D",
+      "text": "$18\\pi$"
+     },
+     {
+      "id": "E",
+      "text": "$36\\pi$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "q3-12-circles-inscribed-figures-c3",
+   "lessonId": "q3-12-circles-inscribed-figures",
+   "difficulty": 2,
+   "stem": "Points $A$, $B$ and $C$ lie on a circle with center $O$, with $C$ on the major arc $AB$. Angle $AOB$ measures $110^\\circ$. What is the measure of angle $ACB$, in degrees?",
+   "explanation": "Angle $ACB$ is inscribed on the same arc as central angle $AOB$, so it is half of it: $\\frac{110}{2}=55$.",
+   "estSeconds": 45,
+   "skills": [
+    "circles",
+    "arcs-sectors"
+   ],
+   "topics": [
+    "q3.inscribed-angle"
+   ],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "degrees"
+   },
+   "answer": {
+    "value": 55
+   }
+  }
+ ]
+}

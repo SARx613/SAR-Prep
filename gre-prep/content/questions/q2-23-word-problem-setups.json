@@ -6,10 +6,10 @@
   "stem": "Lia sits in a row of chairs. She is 11th from the left end of the row and 6th from the right end. If every chair in the row is filled, how many chairs are in the row?",
   "explanation": "Counting from both ends counts Lia twice: $11+6-1=16$.",
   "choiceExplanations": {
-   "A": "$11-6$ has no meaning here; Lia has 10 people on her left and 5 on her right.",
+   "A": "5 is the difference between her two positions, not the length of the row.",
    "B": "Subtracting 2 removes Lia completely.",
    "D": "$11+6$ counts Lia twice.",
-   "E": "There are $10+5=15$ others plus Lia: 16."
+   "E": "There are 10 chairs on her left, 5 on her right, and her own: 16, not 18."
   },
   "estSeconds": 45,
   "skills": [
@@ -144,8 +144,8 @@
   "choiceExplanations": {
    "A": "Positions 21, 22 and 23 lie between them: three people.",
    "C": "$24-20=4$ counts one of the two endpoints; subtract 1 more.",
-   "D": "$30-24-11=-5$ assumes Eva stands behind Dev; she is in front of him.",
-   "E": "Taking Eva as $30-11=19$th forgets to add 1, and then also counts an endpoint."
+   "D": "5 counts every position from 20 to 24, including Dev and Eva themselves.",
+   "E": "Placing Eva $30-11=19$th forgets the $+1$; she is 20th from the front."
   },
   "estSeconds": 75,
   "skills": [

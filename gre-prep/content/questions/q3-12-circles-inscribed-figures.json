@@ -1,0 +1,555 @@
+[
+ {
+  "id": "q3-12-circles-inscribed-figures-01",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 1,
+  "stem": "A circular fountain of radius 4 meters is surrounded by a path 2 meters wide. What is the area of the path, in square meters?",
+  "explanation": "The outer radius is $4+2=6$. Path $=\\pi\\cdot6^2-\\pi\\cdot4^2=36\\pi-16\\pi=20\\pi$.",
+  "choiceExplanations": {
+   "A": "$\\pi(6-4)^2$ squares the difference of the radii; subtract the two areas instead.",
+   "B": "$16\\pi$ is the fountain itself.",
+   "D": "$36\\pi$ is the fountain and the path together.",
+   "E": "$36\\pi+16\\pi$ adds the areas instead of subtracting."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "circles",
+   "area"
+  ],
+  "topics": [
+   "q3.ring-area"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$16\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$20\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$36\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$52\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-02",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 1,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The side is $40\\div4=10$, and the circle's diameter equals the side, so $r=5$. Area $=25\\pi\\approx78.5>75$.",
+  "estSeconds": 60,
+  "skills": [
+   "circles",
+   "area"
+  ],
+  "topics": [
+   "q3.circle-and-square"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of the circle",
+   "quantityB": "75",
+   "common": "A circle is inscribed in a square whose perimeter is 40."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-03",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 2,
+  "stem": "A circle with center $O$ has radius 13. The perpendicular distance from $O$ to chord $AB$ is 5. What is the length of $AB$?",
+  "explanation": "Let $M$ be the foot of the perpendicular from $O$. Triangle $OAB$ is isosceles, so $M$ is the midpoint of $AB$. In right triangle $OMA$, $AM=\\sqrt{13^2-5^2}=12$, so $AB=24$.",
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.radii-isosceles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-04",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 2,
+  "stem": "A square with side length 4 is inscribed in a circle. Which of the following statements are true? Indicate all such statements.",
+  "explanation": "The square's diagonal, $4\\sqrt2$, is a diameter, so $r=2\\sqrt2$ and $r^2=8$. Circle area $8\\pi$; circumference $2\\pi\\cdot2\\sqrt2=4\\sqrt2\\,\\pi$; area outside the square $8\\pi-16$.",
+  "choiceExplanations": {
+   "B": "Radius 2 belongs to the circle *inside* the square (diameter = side); here the diameter is the diagonal.",
+   "D": "$4\\pi$ uses $r=2$; the circumference is $4\\sqrt2\\,\\pi$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "circles",
+   "special-triangles"
+  ],
+  "topics": [
+   "q3.circle-and-square",
+   "q3.shaded-regions"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The diameter of the circle is $4\\sqrt2$."
+    },
+    {
+     "id": "B",
+     "text": "The radius of the circle is 2."
+    },
+    {
+     "id": "C",
+     "text": "The area of the circle is $8\\pi$."
+    },
+    {
+     "id": "D",
+     "text": "The circumference of the circle is $4\\pi$."
+    },
+    {
+     "id": "E",
+     "text": "The area inside the circle but outside the square is $8\\pi-16$."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-05",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 2,
+  "stem": "Points $A$, $B$ and $C$ lie on a circle of radius 9, with $C$ on the major arc $AB$. If angle $ACB$ measures $35^\\circ$, what is the length of minor arc $AB$?",
+  "explanation": "The central angle on arc $AB$ is twice the inscribed angle: $70^\\circ$. Arc $=\\frac{70}{360}\\cdot2\\pi\\cdot9=\\frac{7\\pi}{2}$.",
+  "choiceExplanations": {
+   "A": "This uses $35^\\circ$ as the central angle; the inscribed angle is only half of it.",
+   "C": "$7\\pi$ comes from using the diameter 18 as the radius (or doubling the angle twice, to $140^\\circ$).",
+   "D": "$\\frac{63\\pi}{4}$ is the area of the $70^\\circ$ sector, not the arc length.",
+   "E": "$18\\pi$ is the whole circumference."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "topics": [
+   "q3.inscribed-angle"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{7\\pi}{4}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{7\\pi}{2}$"
+    },
+    {
+     "id": "C",
+     "text": "$7\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{63\\pi}{4}$"
+    },
+    {
+     "id": "E",
+     "text": "$18\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-06",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$OA=OB=AB=12$, so triangle $OAB$ is equilateral and the central angle is $60^\\circ$. Arc $=\\frac{60}{360}\\cdot2\\pi\\cdot12=4\\pi\\approx12.6>12$. (An arc is always longer than its chord.)",
+  "estSeconds": 75,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "topics": [
+   "q3.triangle-for-arc"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 205\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"110\" r=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"40.7\" x2=\"150\" y2=\"40.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"70\" y2=\"40.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"150\" y2=\"40.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"110\" y=\"126\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"64\" y=\"36.7\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"156\" y=\"36.7\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text></svg>",
+    "alt": "A circle with center O. Chord AB is near the top of the circle, and radii OA and OB are drawn, forming triangle OAB."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The length of minor arc $AB$",
+   "quantityB": "12",
+   "common": "In the circle with center $O$, chord $AB$ has length 12, which equals the radius."
+  },
+  "answer": {
+   "choice": "A"
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-07",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 3,
+  "stem": "In the figure, rectangle $PQRS$ is inscribed in a semicircle with center $O$ and radius 5, with side $PQ$ on the diameter. If $PQ=8$, what is the area of the rectangle?",
+  "explanation": "The rectangle is centred on $O$, so $OQ=\\frac82=4$. Radius $OR=5$ is the hypotenuse of right triangle $OQR$: $QR=\\sqrt{5^2-4^2}=3$. Area $=8\\cdot3=24$.",
+  "estSeconds": 90,
+  "skills": [
+   "circles",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.rectangle-in-semicircle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 175\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 150 A 100 100 0 0 1 230 150 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"50,150 210,150 210,90 50,90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"130\" cy=\"150\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"50\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"210\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"218\" y=\"86\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"42\" y=\"86\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">S</text><text x=\"130\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text></svg>",
+    "alt": "A semicircle with center O on its diameter. Rectangle PQRS has side PQ on the diameter, with P and Q on either side of O, and its top corners R and S on the arc."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-08",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 3,
+  "stem": "Points $A$, $B$ and $C$ lie on a circle with center $O$ and radius 18, with $C$ on the major arc $AB$. Angle $ACB$ measures $40^\\circ$. Which of the following must be true? Indicate all such statements.",
+  "explanation": "Central angle $AOB=2\\cdot40^\\circ=80^\\circ$, the measure of minor arc $AB$. Triangle $OAB$ is isosceles ($OA=OB$), so angle $OAB=\\frac{180-80}{2}=50^\\circ$. Arc length $=\\frac{80}{360}\\cdot2\\pi\\cdot18=8\\pi$.",
+  "choiceExplanations": {
+   "A": "The central angle is twice the inscribed angle: $80^\\circ$.",
+   "E": "A chord equals the radius only when the central angle is $60^\\circ$; here it is $80^\\circ$, so $AB>18$."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "topics": [
+   "q3.inscribed-angle",
+   "q3.radii-isosceles"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Angle $AOB$ measures $40^\\circ$."
+    },
+    {
+     "id": "B",
+     "text": "Minor arc $AB$ measures $80^\\circ$."
+    },
+    {
+     "id": "C",
+     "text": "Angle $OAB$ measures $50^\\circ$."
+    },
+    {
+     "id": "D",
+     "text": "Minor arc $AB$ has length $8\\pi$."
+    },
+    {
+     "id": "E",
+     "text": "Chord $AB$ has length 18."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-09",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 4,
+  "stem": "An equilateral triangle with side length 6 is inscribed in a circle. What is the area of the circle?",
+  "explanation": "The altitude is $h=\\frac{6\\sqrt3}{2}=3\\sqrt3$. The centre is $\\frac23$ of the way down it, so $R=\\frac23\\cdot3\\sqrt3=2\\sqrt3$ and the area is $\\pi(2\\sqrt3)^2=12\\pi$.",
+  "choiceExplanations": {
+   "A": "$r=\\frac h3=\\sqrt3$ is the radius of the circle *inside* the triangle.",
+   "B": "$R=3$ takes half a side as the radius.",
+   "D": "$R=3\\sqrt3$ uses the whole altitude as the radius.",
+   "E": "$R=6$ uses the side as the radius."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "circles",
+   "special-triangles"
+  ],
+  "topics": [
+   "q3.circle-and-equilateral"
+  ],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$3\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$9\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$12\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$27\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$36\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-10",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Both circles are centred where the altitudes meet, $\\frac23$ of the way down each altitude $h$: $R=\\frac{2h}{3}$ and $r=\\frac h3$, so $R=2r$. Then $\\pi R^2=\\pi(2r)^2=4\\pi r^2$. The quantities are equal.",
+  "estSeconds": 90,
+  "skills": [
+   "circles",
+   "special-triangles"
+  ],
+  "topics": [
+   "q3.circle-and-equilateral"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 225\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"120\" cy=\"125\" r=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"120,35 42.1,170 197.9,170\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"120\" cy=\"125\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+    "alt": "An equilateral triangle with a small circle inside it touching all three sides, and a large circle around it passing through all three vertices."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of $C_2$",
+   "quantityB": "4 times the area of $C_1$",
+   "common": "Circle $C_1$ is inscribed in an equilateral triangle $T$, and circle $C_2$ is circumscribed about $T$."
+  },
+  "answer": {
+   "choice": "C"
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-11",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 5,
+  "stem": "In the figure, a regular hexagon is inscribed in a circle of radius 6. What is the area of the shaded region, inside the circle but outside the hexagon?",
+  "explanation": "Radii to the six vertices make six isosceles triangles with apex $60^\\circ$, so they are equilateral with side 6. Each has height $3\\sqrt3$ (half of it is a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle) and area $\\tfrac12\\cdot6\\cdot3\\sqrt3=9\\sqrt3$, so the hexagon is $54\\sqrt3$. Shaded $=36\\pi-54\\sqrt3$.",
+  "choiceExplanations": {
+   "A": "$108=6\\cdot\\tfrac12\\cdot6\\cdot6$ uses the side 6 as each triangle's height; the height is $3\\sqrt3$.",
+   "C": "$54\\sqrt3$ is the hexagon, the unshaded part.",
+   "D": "$36\\pi$ is the whole circle; the hexagon must be subtracted.",
+   "E": "$144\\pi$ uses the diameter 12 as the radius."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "circles",
+   "polygon-angles"
+  ],
+  "topics": [
+   "q3.regular-polygon-in-circle",
+   "q3.shaded-regions"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 20 110 A 90 90 0 1 0 200 110 A 90 90 0 1 0 20 110 Z M 200 110 L 155 32.1 L 65 32.1 L 20 110 L 65 187.9 L 155 187.9 Z\" fill=\"currentColor\" fill-opacity=\"0.15\" fill-rule=\"evenodd\" stroke=\"none\"/><circle cx=\"110\" cy=\"110\" r=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"200,110 155,32.1 65,32.1 20,110 65,187.9 155,187.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><line x1=\"110\" y1=\"110\" x2=\"200\" y2=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"155\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "A regular hexagon inscribed in a circle. A radius from the center to one vertex is labeled 6. The six regions between the hexagon's sides and the circle are shaded."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$36\\pi-108$"
+    },
+    {
+     "id": "B",
+     "text": "$36\\pi-54\\sqrt3$"
+    },
+    {
+     "id": "C",
+     "text": "$54\\sqrt3$"
+    },
+    {
+     "id": "D",
+     "text": "$36\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$144\\pi-54\\sqrt3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q3-12-circles-inscribed-figures-12",
+  "lessonId": "q3-12-circles-inscribed-figures",
+  "difficulty": 5,
+  "stem": "In the figure, square $JKLM$ is inscribed in a semicircle of radius 5, with side $JK$ on the diameter. What is the area of the square?",
+  "explanation": "Let the side be $s$. The square is centred on the diameter, so the centre $O$ is $\\frac s2$ from $K$, and the radius to corner $L$ closes a right triangle whose legs are $\\frac s2$ and $s$: $\\left(\\frac s2\\right)^2+s^2=25$, so $\\frac54s^2=25$ and $s^2=20$.",
+  "estSeconds": 120,
+  "skills": [
+   "circles",
+   "pythagorean-theorem"
+  ],
+  "topics": [
+   "q3.rectangle-in-semicircle"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 260 172\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 150 A 100 100 0 0 1 230 150 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"85.3,150 174.7,150 174.7,60.6 85.3,60.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"85.3\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">J</text><text x=\"174.7\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">K</text><text x=\"182.7\" y=\"56.6\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">L</text><text x=\"77.3\" y=\"56.6\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">M</text></svg>",
+    "alt": "A semicircle with a square JKLM inside it. Side JK lies on the diameter, and the top corners L and M lie on the arc."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 20
+  }
+ }
+]
