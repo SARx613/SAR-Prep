@@ -1372,6 +1372,85 @@
     "Use Mark, Review and edit answers"
    ],
    "estMinutes": 6
+  },
+  {
+   "id": "q1-14-evenly-spaced-sets",
+   "chapter": "q1",
+   "title": "Evenly spaced sets and consecutive integers",
+   "order": 14,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Arithmetic topics: sequences of numbers",
+    "label": "Sequences of numbers"
+   },
+   "objectives": [
+    "Count terms in a consecutive or evenly spaced set",
+    "Use the mean-and-sum shortcuts for evenly spaced sets"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q1-15-unit-conversions",
+   "chapter": "q1",
+   "title": "Unit conversions",
+   "order": 15,
+   "officialRef": {
+    "source": "ets-math-conventions",
+    "section": "Conventions about units (conversions given unless common)",
+    "label": "Unit conversions"
+   },
+   "objectives": [
+    "Chain conversion factors and cancel units",
+    "Convert area, volume and compound units"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-17-sequences",
+   "chapter": "q2",
+   "title": "Sequences",
+   "order": 17,
+   "officialRef": {
+    "source": "ets-quant-overview",
+    "section": "Arithmetic topics: sequences of numbers",
+    "label": "Sequences of numbers"
+   },
+   "objectives": [
+    "Work with explicit and recursive sequence rules",
+    "Use arithmetic and geometric sequences"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-18-defined-operations",
+   "chapter": "q2",
+   "title": "Operations defined by a rule",
+   "order": 18,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "2.6",
+    "label": "Functions"
+   },
+   "objectives": [
+    "Evaluate and solve with an operation defined in words or by a symbol"
+   ],
+   "estMinutes": 6
+  },
+  {
+   "id": "q2-19-variation-scaling",
+   "chapter": "q2",
+   "title": "Variation and scaling",
+   "order": 19,
+   "officialRef": {
+    "source": "ets-math-review",
+    "section": "1.6",
+    "label": "Ratio"
+   },
+   "objectives": [
+    "Apply direct, inverse and joint variation",
+    "Find how a formula result changes when its inputs change"
+   ],
+   "estMinutes": 6
   }
  ]
 }

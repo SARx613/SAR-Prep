@@ -781,7 +781,7 @@
    "id": "q1.evenly-spaced-sets",
    "group": "Number properties",
    "title": "Evenly spaced sets and consecutive integers: definition and common types",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "concept"
   },
   {
@@ -795,7 +795,7 @@
    "id": "q1.consecutive-sum-divisibility",
    "group": "Number properties",
    "title": "When the sum of k consecutive integers is divisible by k (k odd versus k even)",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "pattern"
   },
   {
@@ -1348,28 +1348,28 @@
    "id": "q1.conversion-factors",
    "group": "Unit conversion",
    "title": "Conversion factors as fractions equal to 1",
-   "lessonId": "NEW:q1-15-unit-conversions",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "concept"
   },
   {
    "id": "q1.conversion-chains",
    "group": "Unit conversion",
    "title": "Chaining conversion factors so that unwanted units cancel",
-   "lessonId": "NEW:q1-15-unit-conversions",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "technique"
   },
   {
    "id": "q1.compound-unit-conversion",
    "group": "Unit conversion",
    "title": "Converting quantities with two units at once (e.g. kilometres per hour to metres per second)",
-   "lessonId": "NEW:q1-15-unit-conversions",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "technique"
   },
   {
    "id": "q1.area-volume-units",
    "group": "Unit conversion",
    "title": "Squaring or cubing the conversion factor for area and volume units",
-   "lessonId": "NEW:q1-15-unit-conversions",
+   "lessonId": "q1-15-unit-conversions",
    "kind": "trap"
   },
   {
@@ -1670,21 +1670,21 @@
    "id": "q2.direct-variation",
    "group": "Ratios & variation",
    "title": "Direct variation: y = kx and constant ratio y/x",
-   "lessonId": "NEW:q2-19-variation-scaling",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "concept"
   },
   {
    "id": "q2.inverse-variation",
    "group": "Ratios & variation",
    "title": "Inverse variation: y = k/x and constant product xy",
-   "lessonId": "NEW:q2-19-variation-scaling",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "concept"
   },
   {
    "id": "q2.joint-variation",
    "group": "Ratios & variation",
    "title": "Combined and joint variation with several variables",
-   "lessonId": "NEW:q2-19-variation-scaling",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "concept"
   },
   {
@@ -1929,49 +1929,49 @@
    "id": "q1.count-integers-inclusive",
    "group": "Statistics",
    "title": "Counting integers from a to b inclusive (b - a + 1)",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "technique"
   },
   {
    "id": "q1.count-evens-odds",
    "group": "Statistics",
    "title": "Counting even or odd integers in a range",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "technique"
   },
   {
    "id": "q1.count-multiples-in-range",
    "group": "Statistics",
    "title": "Counting multiples of k in a range",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "technique"
   },
   {
    "id": "q1.count-endpoints-excluded",
    "group": "Statistics",
    "title": "Counting when one or both endpoints are excluded",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "trap"
   },
   {
    "id": "q1.mean-of-evenly-spaced",
    "group": "Statistics",
    "title": "The mean (and median) of an evenly spaced set is the average of its first and last terms",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "concept"
   },
   {
    "id": "q1.sum-of-evenly-spaced",
    "group": "Statistics",
    "title": "Sum of an evenly spaced set as mean times number of terms",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "technique"
   },
   {
    "id": "q1.count-multiples-a-or-b",
    "group": "Statistics",
    "title": "Counting integers in a range divisible by A or by B, or by exactly one of them",
-   "lessonId": "NEW:q1-14-evenly-spaced-sets",
+   "lessonId": "q1-14-evenly-spaced-sets",
    "kind": "pattern"
   },
   {
@@ -2090,14 +2090,14 @@
    "id": "q2.formula-factor-change",
    "group": "Formula scaling",
    "title": "By what factor a formula's result changes when its inputs are multiplied",
-   "lessonId": "NEW:q2-19-variation-scaling",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "pattern"
   },
   {
    "id": "q2.formula-percent-change",
    "group": "Formula scaling",
    "title": "Percent change in a formula's result when an input changes by a given percent",
-   "lessonId": "NEW:q2-19-variation-scaling",
+   "lessonId": "q2-19-variation-scaling",
    "kind": "pattern"
   },
   {
@@ -3049,21 +3049,21 @@
    "id": "q2.defined-operations",
    "group": "Functions & sequences",
    "title": "Operations defined in words or by a made-up symbol",
-   "lessonId": "NEW:q2-18-defined-operations",
+   "lessonId": "q2-18-defined-operations",
    "kind": "pattern"
   },
   {
    "id": "q2.defined-operation-equations",
    "group": "Functions & sequences",
    "title": "Solving equations that involve a defined operation",
-   "lessonId": "NEW:q2-18-defined-operations",
+   "lessonId": "q2-18-defined-operations",
    "kind": "technique"
   },
   {
    "id": "q2.defined-operation-several-inputs",
    "group": "Functions & sequences",
    "title": "Defined operations with two or more variables, or applied repeatedly",
-   "lessonId": "NEW:q2-18-defined-operations",
+   "lessonId": "q2-18-defined-operations",
    "kind": "pattern"
   },
   {
@@ -3077,42 +3077,42 @@
    "id": "q2.sequence-basics",
    "group": "Functions & sequences",
    "title": "Sequences, terms and explicit formulas for the nth term",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "concept"
   },
   {
    "id": "q2.recursive-sequences",
    "group": "Functions & sequences",
    "title": "Computing terms of a recursively defined sequence",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "technique"
   },
   {
    "id": "q2.arithmetic-sequences",
    "group": "Functions & sequences",
    "title": "Arithmetic sequences and the nth-term formula",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "technique"
   },
   {
    "id": "q2.arithmetic-sums",
    "group": "Functions & sequences",
    "title": "Sum of the terms of an arithmetic sequence",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "technique"
   },
   {
    "id": "q2.geometric-sequences",
    "group": "Functions & sequences",
    "title": "Geometric sequences and the nth-term formula",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "technique"
   },
   {
    "id": "q2.telescoping",
    "group": "Functions & sequences",
    "title": "Sums or products of sequence terms in which consecutive terms cancel",
-   "lessonId": "NEW:q2-17-sequences",
+   "lessonId": "q2-17-sequences",
    "kind": "pattern"
   },
   {
