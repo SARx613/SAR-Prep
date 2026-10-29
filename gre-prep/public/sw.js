@@ -17,6 +17,8 @@
  *  - Static assets (/_next/static, icons, fonts, words.json): cache first.
  */
 
+// The cache name is deliberately NOT bumped with the code: renaming it would delete everything the learner
+// saved for offline on each update. Pages are replaced by the network copy; assets are hashed, so old ones are harmless.
 const VERSION = 'sar-prep-v4';
 const PRECACHE = [
   '/',

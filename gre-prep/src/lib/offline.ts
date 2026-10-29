@@ -51,22 +51,39 @@ export async function saveAll(onProgress?: (done: number, total: number) => void
   const { urls: pages } = (await (await fetch('/api/offline-manifest')).json()) as { urls: string[] };
   const urls = [...pages, ...fontUrls()];
   onProgress?.(0, urls.length);
+  let saved = 0;
   for (let i = 0; i < urls.length; i += 4) {
-    await Promise.all(urls.slice(i, i + 4).map((u) => savePage(u)));
+    const results = await Promise.all(urls.slice(i, i + 4).map((u) => savePage(u)));
+    saved += results.filter(Boolean).length;
     onProgress?.(Math.min(urls.length, i + 4), urls.length);
+  }
+  try { localStorage.setItem(SAVED_KEY, JSON.stringify({ at: Date.now(), pages: saved })); } catch { /* storage blocked */ }
+}
+
+const SAVED_KEY = 'sar-offline-saved';
+const CACHE = 'sar-prep-v4';
+
+/** What is really on the device: the cache is the truth, the stored note only says when we last saved. */
+export async function offlineStatus(): Promise<{ at: number; pages: number; intact: boolean } | null> {
+  try {
+    const note = JSON.parse(localStorage.getItem(SAVED_KEY) ?? 'null') as { at: number; pages: number } | null;
+    if (!note) return null;
+    const have = (await (await caches.open(CACHE)).keys()).length;
+    return { ...note, intact: have >= note.pages * 0.9 };
+  } catch {
+    return null;
   }
 }
 
-const AUTO_KEY = 'sar-offline-saved-at';
 const AUTO_EVERY_MS = 7 * 24 * 3600 * 1000;
 
 /** On a normal connection, downloads everything once and then refreshes it weekly, so offline works without a manual step. */
 export async function autoSave(): Promise<void> {
   if (!canSaveQuietly()) return;
   try {
-    const last = Number(localStorage.getItem(AUTO_KEY) ?? 0);
-    if (Date.now() - last < AUTO_EVERY_MS) return;
+    const status = await offlineStatus();
+    // Refresh weekly, and straight away if the browser emptied the cache.
+    if (status?.intact && Date.now() - status.at < AUTO_EVERY_MS) return;
     await saveAll();
-    localStorage.setItem(AUTO_KEY, String(Date.now()));
   } catch { /* offline or storage blocked: the next launch retries */ }
 }
