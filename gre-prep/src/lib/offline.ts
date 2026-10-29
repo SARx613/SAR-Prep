@@ -45,3 +45,28 @@ export function fontUrls(): string[] {
 
 export const canSaveQuietly = () =>
   typeof navigator !== 'undefined' && navigator.onLine && !(navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData;
+
+/** Downloads every page listed by /api/offline-manifest (plus the maths fonts), four at a time. */
+export async function saveAll(onProgress?: (done: number, total: number) => void): Promise<void> {
+  const { urls: pages } = (await (await fetch('/api/offline-manifest')).json()) as { urls: string[] };
+  const urls = [...pages, ...fontUrls()];
+  onProgress?.(0, urls.length);
+  for (let i = 0; i < urls.length; i += 4) {
+    await Promise.all(urls.slice(i, i + 4).map((u) => savePage(u)));
+    onProgress?.(Math.min(urls.length, i + 4), urls.length);
+  }
+}
+
+const AUTO_KEY = 'sar-offline-saved-at';
+const AUTO_EVERY_MS = 7 * 24 * 3600 * 1000;
+
+/** On a normal connection, downloads everything once and then refreshes it weekly, so offline works without a manual step. */
+export async function autoSave(): Promise<void> {
+  if (!canSaveQuietly()) return;
+  try {
+    const last = Number(localStorage.getItem(AUTO_KEY) ?? 0);
+    if (Date.now() - last < AUTO_EVERY_MS) return;
+    await saveAll();
+    localStorage.setItem(AUTO_KEY, String(Date.now()));
+  } catch { /* offline or storage blocked: the next launch retries */ }
+}

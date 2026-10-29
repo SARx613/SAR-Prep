@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { autoSave } from '@/lib/offline';
 
 /**
  * Registers the service worker and asks the browser to keep our storage.
@@ -15,6 +16,8 @@ export default function PWAProvider() {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/sw.js')
+        .then(() => navigator.serviceWorker.ready)
+        .then(() => window.setTimeout(() => void autoSave(), 5000))
         .catch((e) => console.warn('[PWA] SW registration failed:', e));
     }
 
