@@ -18,6 +18,8 @@ What exists, how it is checked, and what is still open. Updated with the code.
 | Writing: 30-minute editor without spell-check, scoring-guide self-check, optional AI estimate (needs `ANTHROPIC_API_KEY`, signed-in users, daily cap) | done |
 | Vocabulary (flashcards, series, games) kept as a TC/SE study aid; French translation off by default | done |
 | Offline: service worker, "Save for offline" in Settings | done |
+| Official tests (`/official-tests`): the two ETS Official Guide practice tests as timed, computer-style sessions with 130–170 scoring and official explanations; Math Review exercise deck (`/math-review`) — ETS material: code only in the repo, data private (`gre-prep/private/`, git-ignored; routes 404 on public builds) | done |
+| Coverage audit against the Math Review: see `docs/COVERAGE.md`; two supplement lessons added as **drafts** (`q1-27`, `q2-27`) pending the solver pipeline | done |
 | Cloud sync of attempts and preferences (Neon): `attempt_log`, `user_state` | code + migrations done; **run `drizzle-kit migrate` on the real database** |
 | Light / dark / system theme, exam screens always light | done |
 

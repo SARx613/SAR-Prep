@@ -1,4 +1,4 @@
-import { BarChart3, CalendarDays, BookOpen, Dumbbell, Home, Layers, MoreHorizontal, PenLine, Repeat, Settings, Timer, type LucideIcon } from 'lucide-react';
+import { BarChart3, CalendarDays, BookOpen, ClipboardCheck, Dumbbell, Home, Layers, MoreHorizontal, PencilRuler, PenLine, Repeat, Settings, Timer, type LucideIcon } from 'lucide-react';
 
 export interface NavItem {
   href: string;
@@ -20,6 +20,16 @@ export const NAV: NavItem[] = [
   { href: '/stats', label: 'Stats', icon: BarChart3 },
   { href: '/settings', label: 'Settings', icon: Settings },
 ];
+
+/** Private study mode (ETS's own tests and exercises, never shipped): set NEXT_PUBLIC_PRIVATE_STUDY=1 locally. */
+const PRIVATE_STUDY = process.env.NEXT_PUBLIC_PRIVATE_STUDY === '1';
+if (PRIVATE_STUDY) {
+  const at = NAV.findIndex((n) => n.href === '/plan');
+  NAV.splice(at, 0,
+    { href: '/official-tests', label: 'Official tests', icon: ClipboardCheck },
+    { href: '/math-review', label: 'Math Review', icon: PencilRuler },
+  );
+}
 
 export const MORE_TAB: NavItem = { href: '/more', label: 'More', icon: MoreHorizontal, tab: true };
 

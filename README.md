@@ -37,4 +37,20 @@ npm run dev
 - Lessons follow one template and a word budget (see the plan, §3.2).
 - Questions are original. Never copy text from ETS or any prep company.
 
+## Private study mode (ETS material, never shipped)
+
+The repository contains the **code** for two features that use ETS's own copyrighted material, but **not the material**. It lives in
+`gre-prep/private/` and `gre-prep/public/{official-tests,math-review}/`, all git-ignored, and is read at request time. On a public build
+(the folder is absent) the routes return 404 and the nav entries stay hidden; set `NEXT_PUBLIC_PRIVATE_STUDY=1` locally to show them.
+
+| Route | What it is |
+|---|---|
+| `/official-tests` | The two full-length tests of the *Official Guide to the GRE General Test* (3rd ed.), run like the computer-delivered exam: a clock per section, Mark / Review, calculator, optional break, 130–170 score, official explanations. Answers stay on the server (`src/app/actions/official.ts`); results are kept in the browser. |
+| `/math-review` | The exercises of the ETS *GRE Math Review*, typed as text with their official answers, self-assessed. |
+
+The public product stays original: the bank in `content/` is authored from the official *skills and formats*, never from ETS text. To
+rebuild the private data from your own copies of the PDFs (not committed): `python3 -I scripts/content/build_exams.py <Official Guide PDF>`
+and `python3 -I scripts/content/build_math_course.py <Math Review PDF>` (needs poppler, Pillow with WebP, PyMuPDF, and the transcription
+modules in `gre-prep/private/scripts/`).
+
 GRE® is a registered trademark of ETS. SAR Prep is not affiliated with or endorsed by ETS.

@@ -2,3 +2,10 @@
 .env*
 .DS_Store
 gre-prep/screenshots/
+*.pdf
+GRE_Practice_Tests_1-2.txt
+__pycache__/
+# ETS-derived study material: private, never shipped (see README "Private study mode")
+gre-prep/private/
+gre-prep/public/official-tests/
+gre-prep/public/math-review/

@@ -1,0 +1,129 @@
+{
+ "id": "q1-27-associative-identity-laws",
+ "status": "draft",
+ "why": "Regrouping a sum or product is the quickest way to simplify many calculations, but only addition and multiplication allow it.",
+ "rule": "For real numbers $r$, $s$, $t$:\n\n- **Associative:** $(r+s)+t=r+(s+t)$ and $(rs)t=r(st)$. Grouping does not matter, so regroup into friendly numbers: $(7+3)+8=7+(3+8)=18$.\n- **Identity:** $r+0=r$ and $r\\cdot1=r$.\n\nTogether with the commutative law you may reorder and regroup any sum or product freely. **Subtraction and division are neither commutative nor associative:** $8-(5-2)=5$ but $(8-5)-2=1$.",
+ "examples": [
+  {
+   "prompt": "Evaluate $(4\\cdot19)\\cdot25$.",
+   "steps": [
+    "Regroup to pair the 4 and the 25: $19\\cdot(4\\cdot25)$.",
+    "$4\\cdot25=100$, so the product is $19\\cdot100=1{,}900$."
+   ],
+   "answer": "1,900"
+  },
+  {
+   "prompt": "Rewrite $30-(12-5)$ without a bracket and evaluate it.",
+   "steps": [
+    "A minus sign in front of a bracket changes the sign of every term inside: $30-12+5$.",
+    "$30-12+5=23$, which matches $30-7=23$."
+   ],
+   "answer": "$30-12+5=23$"
+  }
+ ],
+ "trap": "Never move a bracket across a subtraction or division: $(a-b)-c$ and $a-(b-c)$ differ by $2c$, and $(a\\div b)\\div c\\ne a\\div(b\\div c)$.",
+ "checks": [
+  {
+   "id": "q1-27-associative-identity-laws-c1",
+   "lessonId": "q1-27-associative-identity-laws",
+   "difficulty": 1,
+   "stem": "What is $(36+19)+64$?",
+   "explanation": "Regroup: $(36+64)+19=100+19=119$.",
+   "estSeconds": 40,
+   "skills": [
+    "associative"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 119
+   }
+  },
+  {
+   "id": "q1-27-associative-identity-laws-c2",
+   "lessonId": "q1-27-associative-identity-laws",
+   "difficulty": 2,
+   "stem": "What is $8\\cdot(12.5\\cdot3)$?",
+   "explanation": "Regroup: $(8\\cdot12.5)\\cdot3=100\\cdot3=300$.",
+   "estSeconds": 45,
+   "skills": [
+    "associative"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 300
+   }
+  },
+  {
+   "id": "q1-27-associative-identity-laws-c3",
+   "lessonId": "q1-27-associative-identity-laws",
+   "difficulty": 2,
+   "stem": "Which of the following is equal to $20-(8-3)$?",
+   "explanation": "$20-5=15$, and removing the bracket gives $20-8+3=15$.",
+   "choiceExplanations": {
+    "A": "$20-8-3=9$: the bracket flips the sign of the 3.",
+    "C": "$20+8-3=25$.",
+    "D": "$20+8+3=31$.",
+    "E": "$20-(8+3)=9$."
+   },
+   "estSeconds": 75,
+   "skills": [
+    "associative"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$20-8-3$"
+     },
+     {
+      "id": "B",
+      "text": "$20-8+3$"
+     },
+     {
+      "id": "C",
+      "text": "$20+8-3$"
+     },
+     {
+      "id": "D",
+      "text": "$20+8+3$"
+     },
+     {
+      "id": "E",
+      "text": "$20-(8+3)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ]
+}

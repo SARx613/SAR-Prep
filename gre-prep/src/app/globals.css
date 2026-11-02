@@ -412,3 +412,44 @@
     transform: translateY(-2px);
   }
 }
+
+/* ── Pictures cropped from the official books ──────────────────────────────
+ *
+ * Quantitative explanations (page crops) and the figures of questions and
+ * exercises. The inner box is the size container: crops are sized in cqw of
+ * it, so a crop keeps its scale however the paper is laid out. Below 520px the
+ * paper scrolls sideways instead of shrinking the print. */
+.exam-paper {
+  background: #fff;
+  color: #111827;
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+}
+
+.exam-paper-inner {
+  container-type: inline-size;
+  min-width: 520px;
+}
+
+.exam-img {
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* A single cropped figure: a card as small as the picture. */
+.exam-figure {
+  display: inline-block;
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 0.5rem;
+  line-height: 0;
+  border: 1px solid var(--line);
+}
+
+/* Typed tables (question tables, group exhibits, exercises). */
+.exam-table { border-collapse: collapse; font-size: 0.95rem; }
+.exam-table th, .exam-table td { border: 1px solid var(--line-strong); padding: 0.4rem 0.8rem; text-align: left; }
+.exam-table th { background: var(--surface-2); font-weight: 600; }

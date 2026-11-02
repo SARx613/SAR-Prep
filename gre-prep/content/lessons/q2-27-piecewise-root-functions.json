@@ -1,0 +1,131 @@
+{
+ "id": "q2-27-piecewise-root-functions",
+ "status": "draft",
+ "why": "Section 2.9 of the Math Review includes functions defined by cases and the square-root function; both appear in graph-reading and function-evaluation questions.",
+ "rule": "A **piecewise-defined** function uses a different formula on each part of its domain, for example $f(x)=\\begin{cases}2x, & x\\ge 0\\\\ 0, & x<0\\end{cases}$. To evaluate it, first find which condition the input satisfies, then use that formula. Its graph is the pieces drawn side by side.\n\nThe absolute-value function is piecewise: $|x|=x$ for $x\\ge0$ and $|x|=-x$ for $x<0$.\n\n$g(x)=\\sqrt{x}$ is defined only for $x\\ge0$; its graph is the upper half of a parabola lying on its side, starting at the origin. $-\\sqrt{x}$ is the lower half. The shifts of the previous lesson apply: $\\sqrt{x}+c$ moves it up $c$, and $\\sqrt{x+c}$ starts at $x=-c$.",
+ "examples": [
+  {
+   "prompt": "With $f(x)=\\begin{cases}x^2, & x<1\\\\ 3x-1, & x\\ge 1\\end{cases}$, find $f(-2)+f(3)$.",
+   "steps": [
+    "$-2<1$, so $f(-2)=(-2)^2=4$.",
+    "$3\\ge1$, so $f(3)=3(3)-1=8$.",
+    "$4+8=12$."
+   ],
+   "answer": "12"
+  },
+  {
+   "prompt": "Find the domain and the intercepts of $g(x)=\\sqrt{x+4}$.",
+   "steps": [
+    "The radicand must satisfy $x+4\\ge0$, so the domain is $x\\ge-4$.",
+    "$g(x)=0$ when $x+4=0$: the $x$-intercept is $-4$.",
+    "$g(0)=\\sqrt4=2$: the $y$-intercept is 2."
+   ],
+   "answer": "Domain $x\\ge-4$; $x$-intercept $-4$; $y$-intercept 2"
+  }
+ ],
+ "trap": "Check which side of the break point the input is on, and which piece owns the break point itself ($x\\ge1$ includes 1). For roots, $\\sqrt{x+4}$ is defined for $x\\ge-4$, not for $x\\ge4$.",
+ "checks": [
+  {
+   "id": "q2-27-piecewise-root-functions-c1",
+   "lessonId": "q2-27-piecewise-root-functions",
+   "difficulty": 1,
+   "stem": "The function $f$ is defined by $f(x)=\\begin{cases}3x, & x\\ge 0\\\\ x+5, & x<0\\end{cases}$ What is $f(-2)$?",
+   "explanation": "$-2<0$, so use $x+5$: $f(-2)=3$.",
+   "estSeconds": 45,
+   "skills": [
+    "piecewise"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 3
+   }
+  },
+  {
+   "id": "q2-27-piecewise-root-functions-c2",
+   "lessonId": "q2-27-piecewise-root-functions",
+   "difficulty": 2,
+   "stem": "What is the value of $x$ for which $\\sqrt{x+3}=4$?",
+   "explanation": "Square both sides: $x+3=16$, so $x=13$. Check: $\\sqrt{16}=4$.",
+   "estSeconds": 45,
+   "skills": [
+    "sqrt-function"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 13
+   }
+  },
+  {
+   "id": "q2-27-piecewise-root-functions-c3",
+   "lessonId": "q2-27-piecewise-root-functions",
+   "difficulty": 2,
+   "stem": "The smallest value of $x$ for which $\\sqrt{x+9}$ is a real number is",
+   "explanation": "The radicand must be $\\ge0$: $x+9\\ge0$, so $x\\ge-9$.",
+   "choiceExplanations": {
+    "B": "$-3$ would be the boundary of $\\sqrt{x+3}$... but here the radicand is $x+9$.",
+    "C": "At $x=0$ the root is defined ($\\sqrt9$), but smaller $x$ also work.",
+    "D": "The root is defined well below 3.",
+    "E": "The boundary is where $x+9=0$, which is $x=-9$, not $9$."
+   },
+   "estSeconds": 50,
+   "skills": [
+    "sqrt-function"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-9$"
+     },
+     {
+      "id": "B",
+      "text": "$-3$"
+     },
+     {
+      "id": "C",
+      "text": "$0$"
+     },
+     {
+      "id": "D",
+      "text": "$3$"
+     },
+     {
+      "id": "E",
+      "text": "$9$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+[
+ {
+  "id": "q1-27-associative-identity-laws-01",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 1,
+  "stem": "What is $47+(53+18)$?",
+  "explanation": "Regroup: $(47+53)+18=100+18=118$.",
+  "estSeconds": 40,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 118
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-02",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 1,
+  "stem": "What is $(25\\cdot7)\\cdot4$?",
+  "explanation": "Regroup: $7\\cdot(25\\cdot4)=7\\cdot100=700$.",
+  "estSeconds": 40,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 700
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-03",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 2,
+  "stem": "Which of the following is equal to $12-(7-4)$?",
+  "explanation": "$12-(7-4)=12-3=9$. Removing the bracket flips the sign of $4$: $12-7+4=(12-7)+4=9$.",
+  "choiceExplanations": {
+   "A": "$(12-7)-4=1$: subtraction is not associative, so moving the bracket changes the value.",
+   "C": "$12-7-4=1$, the same mistake.",
+   "D": "$12+(7-4)=15$.",
+   "E": "$(12+7)-4=15$."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(12-7)-4$"
+    },
+    {
+     "id": "B",
+     "text": "$(12-7)+4$"
+    },
+    {
+     "id": "C",
+     "text": "$12-7-4$"
+    },
+    {
+     "id": "D",
+     "text": "$12+(7-4)$"
+    },
+    {
+     "id": "E",
+     "text": "$(12+7)-4$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-04",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 2,
+  "stem": "What is $3.6+(2.5+6.4)$?",
+  "explanation": "Regroup to make a round number: $(3.6+6.4)+2.5=10+2.5=12.5$.",
+  "estSeconds": 40,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal"
+  },
+  "answer": {
+   "value": 12.5
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-05",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 2,
+  "stem": "What is $0.25\\cdot(17\\cdot4)$?",
+  "explanation": "Regroup: $(0.25\\cdot4)\\cdot17=1\\cdot17=17$.",
+  "estSeconds": 40,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 17
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-06",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 3,
+  "stem": "For all real numbers $r$, $s$ and $t$ (with no denominator equal to 0), which of the following is always true?",
+  "explanation": "Only addition (and multiplication) is associative: $r+(s+t)=(r+s)+t$.",
+  "choiceExplanations": {
+   "A": "Fails for $r=s=t=1$: $-1\\ne1$.",
+   "B": "Fails for $r=s=t=2$: $\\tfrac12\\ne2$.",
+   "D": "Fails unless $r=s$: subtraction is not commutative.",
+   "E": "Fails unless $r=\\pm s$: division is not commutative."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$(r-s)-t=r-(s-t)$"
+    },
+    {
+     "id": "B",
+     "text": "$(r\\div s)\\div t=r\\div(s\\div t)$"
+    },
+    {
+     "id": "C",
+     "text": "$r+(s+t)=(r+s)+t$"
+    },
+    {
+     "id": "D",
+     "text": "$r-s=s-r$"
+    },
+    {
+     "id": "E",
+     "text": "$r\\div s=s\\div r$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-07",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 3,
+  "stem": "What is $125\\cdot(0.8\\cdot37)$?",
+  "explanation": "Regroup: $(125\\cdot0.8)\\cdot37=100\\cdot37=3{,}700$.",
+  "estSeconds": 50,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 3700
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-08",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 3,
+  "stem": "What is the value of $(100\\div10)\\div5-100\\div(10\\div5)$?",
+  "explanation": "$(100\\div10)\\div5=10\\div5=2$ and $100\\div(10\\div5)=100\\div2=50$. So $2-50=-48$.",
+  "estSeconds": 70,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -48
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-09",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 4,
+  "stem": "If $x-(y-z)=10$ and $x-y=4$, what is $z$?",
+  "explanation": "Remove the bracket: $x-y+z=10$. Since $x-y=4$, $4+z=10$ and $z=6$.",
+  "estSeconds": 75,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 6
+  }
+ },
+ {
+  "id": "q1-27-associative-identity-laws-10",
+  "lessonId": "q1-27-associative-identity-laws",
+  "difficulty": 4,
+  "stem": "The operation $\\circ$ is defined for all real numbers by $a\\circ b=a-b$. What is $(10\\circ4)\\circ2-10\\circ(4\\circ2)$?",
+  "explanation": "$(10\\circ4)\\circ2=(10-4)-2=4$ and $10\\circ(4\\circ2)=10-(4-2)=8$. The difference is $4-8=-4$ (the operation is not associative).",
+  "estSeconds": 90,
+  "skills": [
+   "associative"
+  ],
+  "topics": [],
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": -4
+  }
+ }
+]
