@@ -1,0 +1,704 @@
+{
+ "models": [
+  {
+   "promptId": "p09",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "Leaders who consult widely usually decide better, because consultation surfaces information and objections a single mind misses; the strongest counterexample, the crisis that demands speed, shows only that consultation must happen in advance, not that it should be abandoned."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Wide consultation improves decisions when the problem is complex and time allows, but when the advisers share one blind spot or an emergency leaves no time, a leader's own judgment, shaped by earlier listening, is the better guide."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "Consulting widely often dilutes responsibility and produces timid compromises, so the best decisions come from leaders with sound judgment who consult selectively; the strongest objection, that a lone leader misses vital information, is answered by targeted rather than wide consultation."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Hidden local knowledge",
+     "example": "A hospital director planning to cut night shifts learns from ward nurses that the most serious emergencies arrive after midnight, a pattern invisible in the summary reports.",
+     "use": "Shows consultation supplying evidence the leader could not see from the top; direct support for the claim."
+    },
+    {
+     "angle": "Like-minded advisers",
+     "example": "A board whose members all come from the same industry unanimously approves an expansion, and no one questions the shared assumption that demand will keep rising.",
+     "use": "Tests the claim: many voices that think alike add little, so the breadth of perspective matters more than the number consulted; useful for a qualified thesis."
+    },
+    {
+     "angle": "Crisis speed",
+     "example": "A ship's captain facing a sudden fire cannot poll the crew; she must order the evacuation sequence herself within minutes.",
+     "use": "The strongest objection; answer it by showing that her quick judgment rests on drills and earlier conversations, which are consultation done in advance."
+    },
+    {
+     "angle": "Design by committee",
+     "example": "A city's new emblem, revised after rounds of public feedback, ends up as a bland compromise that nobody dislikes and nobody remembers.",
+     "use": "Shows consultation erasing a clear vision; supports the disagree side, or lets a qualified essay argue that consulting should not turn into voting."
+    }
+   ],
+   "counter": {
+    "objection": "Consultation is slow and pulls decisions toward compromise; in emergencies or matters of vision, a decisive leader using her own judgment does better.",
+    "response": "Concede that a crisis leaves no time to ask and that committees can blur a bold idea. Then show that good crisis judgment usually rests on consultation done earlier (drills, briefings, past debriefs), and that consulting means gathering input, not holding a vote: the leader can listen widely and still make a clear, even unpopular, decision."
+   },
+   "outline": [
+    "Intro: decisions often fail because someone who knew was never asked; thesis: consultation usually improves decisions, provided it is diverse and the leader still decides.",
+    "Body 1: information. The hospital night-shift case shows consultation correcting incomplete evidence rather than replacing judgment.",
+    "Body 2: criticism and diversity. The like-minded board shows that breadth of perspective, not head count, is what improves a decision.",
+    "Body 3 (counter): crisis speed and design by committee; concede both, then show the captain relies on earlier consultation and that consulting is not voting.",
+    "Conclusion: one's own judgment is the final stage of good consultation; where time is short, consult in advance."
+   ],
+   "pitfalls": [
+    "Treating 'consult widely' as 'decide by majority vote'; the claim is about gathering input, and a leader can consult and still decide alone.",
+    "Meeting the claim-challenge instruction with a single 'some people disagree' sentence instead of stating the crisis or design-by-committee objection in full and answering it.",
+    "Naming famous leaders without showing what consultation changed in the decision; the example must show input altering the decision's quality."
+   ],
+   "samples": [
+    {
+     "score": 6,
+     "essay": [
+      "When a decision goes wrong, the review afterwards often reveals that someone in the organisation saw the problem coming but was never asked. That pattern explains why I largely agree that leaders who consult widely make better decisions than leaders who rely on their own judgment. Consultation does not guarantee wisdom, and it can be done badly, but on most consequential decisions it supplies information and criticism that no single mind can generate. The claim needs one qualification: consultation improves decisions only when it is broad in perspective, not merely in numbers, and when the leader still takes responsibility for the final choice.",
+      "The first advantage of consultation is information. Leaders typically see an organisation through summaries, and summaries smooth away exactly the details that matter. Imagine a hospital director who plans to reduce night staffing because average admissions are low. If she speaks with the nurses on the wards, she may learn that the averages hide a cluster of serious emergencies after midnight, when the fewest staff are present. Her own judgment was not poor; it was working with incomplete evidence. Consultation corrected the evidence, and a better decision followed.",
+      "The second advantage is criticism. A leader who decides alone has no one whose role is to find the flaw in the plan, and confident people are rarely the best critics of their own ideas. Wide consultation, however, is only as useful as it is diverse. A board whose members share the same background can endorse a risky expansion unanimously because all of them hold the same unexamined assumption about future demand. Twenty agreeing voices are, in effect, one voice. The lesson is not that consultation fails but that a leader must seek out people who see the problem differently.",
+      "The strongest objection is that consultation is slow and tends toward compromise. In a crisis there is no time to ask, and a captain whose ship catches fire must order the evacuation herself within minutes. Similarly, a design shaped by rounds of committee feedback can lose the coherence that made it worth pursuing. I accept both points as far as they go. Yet the captain's split-second judgment is good largely because of earlier consultation: drills, briefings and conversations with her crew about what can go wrong. And the committee problem arises when consultation turns into voting. A leader can listen to everyone and still make a clear, even unpopular, decision.",
+      "Relying on one's own judgment is therefore not the opposite of consulting widely; at its best, it is the final stage of it. The leaders who decide best are those who gather information and dissent from people unlike themselves, and then accept the burden of choosing. Where time is short, the consultation must happen in advance. Where it is not, refusing to consult is less a sign of decisiveness than of an untested plan."
+     ],
+     "annotations": [
+      {
+       "quote": "That pattern explains why I largely agree",
+       "note": "States a position and its strength in the first paragraph, so every later paragraph can be read as support for a clear stance."
+      },
+      {
+       "quote": "consultation improves decisions only when it is broad in perspective, not merely in numbers",
+       "note": "A precise qualification that sets the conditions for the claim; raters reward positions that are qualified rather than absolute."
+      },
+      {
+       "quote": "Her own judgment was not poor; it was working with incomplete evidence.",
+       "note": "Explains exactly how the example supports the claim instead of leaving the reader to infer it; this analysis is what separates a 6 from a list of examples."
+      },
+      {
+       "quote": "Twenty agreeing voices are, in effect, one voice.",
+       "note": "Turns a possible counterexample into a refinement of the thesis, a mark of insightful reasoning."
+      },
+      {
+       "quote": "The strongest objection is that consultation is slow and tends toward compromise.",
+       "note": "Follows the claim-challenge directions explicitly by naming the best opposing case, not a weak one."
+      },
+      {
+       "quote": "the captain's split-second judgment is good largely because of earlier consultation",
+       "note": "Concedes the objection's truth, then shows its limit; a reply that grants and answers is more persuasive than denial."
+      },
+      {
+       "quote": "at its best, it is the final stage of it",
+       "note": "The conclusion reframes the debate rather than repeating the thesis, sustaining focus to the end."
+      }
+     ],
+     "whyThisScore": "The essay takes a clear, qualified position and sustains it: each body paragraph develops a distinct reason through a specific scenario and explains how the scenario supports the claim. It follows the claim-challenge directions by stating the strongest objection and answering it after conceding what is true in it. The qualification about diverse perspectives turns a counterexample into insight, and transitions keep the argument tightly organised. Language is precise and varied with no distracting errors, matching the 6 descriptors of insightful, compelling and fluent.",
+     "toReachNext": [
+      "Cut 'and it can be done badly' from the opening paragraph; paragraph 3 makes the same point more precisely.",
+      "Give the design-by-committee half of the objection its own concrete reply, as the captain example has, so both halves get equal weight.",
+      "Vary the repeated 'largely' (used in paragraphs 1 and 4) so the hedging reads as deliberate rather than habitual.",
+      "End on the idea of seeking dissent from unlike advisers, the essay's most original point, rather than on a general line about decisiveness."
+     ]
+    },
+    {
+     "score": 4,
+     "essay": [
+      "I agree with the claim that leaders who consult widely make better decisions than leaders who only rely on their own judgment. No one person can know everything, and when a leader listens to other people they get more ideas and information. In this essay I will explain why consulting is better and also discuss the other side.",
+      "First, consulting gives the leader more information. For example, the manager of a restaurant might want to change the menu to save money. If he asks the cooks and the waiters, they can tell him which dishes customers really order and which ingredients are wasted. Without asking them he might remove a popular dish and lose customers. This shows that the people who does the work often know things that the leader does not know.",
+      "Second, when many people are consulted, they feel included and they will support the decision more. If employees are part of the process they will work harder to make the plan succeed. Also a leader who listen to others is respected more. In my experience in a student club, the president who asked members for opinions had more people come to events than the president who decided everything alone.",
+      "Some people say that consulting takes too much time, especially in an emergency, and that a strong leader should just decide. This is true in some cases, like when there is a fire and there is no time for a meeting. However most decisions are not emergencies, so the leader has time to ask. In conclusion, leaders who consult widely make better decisions because they have more information and more support, even if sometimes they must decide alone."
+     ],
+     "annotations": [
+      {
+       "quote": "I agree with the claim that leaders who consult widely make better decisions",
+       "note": "A clear position from the first sentence, which raters require; but it is unqualified, so the essay never considers when consultation might not help."
+      },
+      {
+       "quote": "In this essay I will explain why consulting is better and also discuss the other side.",
+       "note": "A formulaic roadmap that adds no idea; the space would be better used for a qualified thesis."
+      },
+      {
+       "quote": "they can tell him which dishes customers really order and which ingredients are wasted",
+       "note": "A concrete, relevant example that shows how consultation supplies information; this is the essay's strongest support."
+      },
+      {
+       "quote": "they feel included and they will support the decision more",
+       "note": "Drifts from the claim: staff support improves how a decision is carried out, not whether the decision itself is better."
+      },
+      {
+       "quote": "In my experience in a student club",
+       "note": "A relevant personal example, but it is asserted in one sentence with no analysis of why attendance rose."
+      },
+      {
+       "quote": "However most decisions are not emergencies, so the leader has time to ask.",
+       "note": "Addresses the objection, as the directions require, but answers only its weakest form and does not engage the crisis case seriously."
+      }
+     ],
+     "whyThisScore": "The position is clear and supported by two relevant reasons, and the restaurant example concretely shows how consultation supplies information. Organisation is adequate, with a paragraph for each point and a conclusion. However, the second reason drifts from decision quality to employee support, the club anecdote is asserted rather than analysed, and the objection is answered in a single sentence. Occasional grammar errors ('who does', 'who listen') do not obscure meaning; together these features fit a competent 4.",
+     "toReachNext": [
+      "Replace the roadmap sentence with a qualified thesis that says when consultation helps and when it may not.",
+      "Keep the second reason on decision quality: explain how hearing different views catches flaws in a plan, not only how it raises morale.",
+      "Develop the objection into a full paragraph: concede that crises need speed, then show how earlier consultation still shapes a leader's quick judgment.",
+      "Proofread for subject-verb agreement, which slips twice in the body."
+     ]
+    },
+    {
+     "score": 2,
+     "essay": [
+      "Leaders should consult with other people because it is better. When a leader decide alone they can make mistakes and nobody will tell them. Consulting is important in every situation, in business, in politics and in school. If you ask many people you will get many opinions and so the decision will be better. A good leader always listen to the people. Some people think a leader should decide alone because he is the leader, but this is not true because everyone can make mistakes, even leaders. For example many leaders in history made bad decisions because they did not listen. So I think consulting widely is the best way for a leader. In conclusion, leaders who consult make better decisions than leaders who use there own judgment because more opinions is better."
+     ],
+     "annotations": [
+      {
+       "quote": "Leaders should consult with other people because it is better.",
+       "note": "Circular: the reason simply restates the claim, so the essay starts without an argument."
+      },
+      {
+       "quote": "When a leader decide alone they can make mistakes and nobody will tell them.",
+       "note": "The germ of a real reason (no one checks the leader's plan); developed with an example, it could anchor a stronger essay."
+      },
+      {
+       "quote": "Consulting is important in every situation",
+       "note": "An absolute generalisation that ignores situations where the claim might fail, such as emergencies."
+      },
+      {
+       "quote": "Some people think a leader should decide alone because he is the leader",
+       "note": "Credit for gesturing at the other side, but this is a weak version of the objection, and the reply is only a general assertion."
+      },
+      {
+       "quote": "many leaders in history made bad decisions because they did not listen",
+       "note": "Points toward evidence without giving any; no leader, decision or outcome is named, so it supports nothing."
+      },
+      {
+       "quote": "more opinions is better",
+       "note": "Repeats the opening idea with an agreement error; the conclusion adds nothing new."
+      }
+     ],
+     "whyThisScore": "The essay states a position but supports it mainly through repetition and circular reasoning ('because it is better', 'more opinions is better'). It offers no specific example, and the reference to leaders in history is too vague to count as evidence. The opposing view appears only in a weak form and is dismissed, so the claim-challenge directions are largely unmet. Grammar errors recur but stay readable; the serious weakness is the lack of analysis and organisation, which fits a 2.",
+     "toReachNext": [
+      "Replace 'because it is better' with an actual reason, such as the information a leader cannot see from the top of an organisation.",
+      "Add one concrete scenario and explain what consultation changed in that decision.",
+      "State the strongest objection fairly (a crisis leaves no time to consult) and answer it in its own paragraph.",
+      "Organise the response into paragraphs: position, reason with example, objection and reply, conclusion."
+     ]
+    }
+   ]
+  },
+  {
+   "promptId": "p10",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "Over the long run technological progress has left societies better off, because it expands what people can know and do; even its worst harms, such as pollution, have usually been checked by further technology and the institutions it made possible."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Technological progress tends to make societies better off, but not inevitably: whether its gains outweigh its harms depends on who controls it and how quickly its costs are regulated, so improvement is likely rather than guaranteed."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "Technological progress does not inevitably improve society, because every gain in capability also enlarges the capacity for harm, and whether a society ends up better off is decided by its institutions and choices, not by the inventions themselves."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Everyday safety",
+     "example": "Household refrigeration let families store food safely for days, reducing spoilage and food-borne illness in ordinary homes.",
+     "use": "The claim's strongest support: a broad, quiet benefit that reached almost everyone, not only the wealthy."
+    },
+    {
+     "angle": "Displaced livelihoods",
+     "example": "When mechanical looms spread, skilled hand-weavers in some towns lost their trade within a generation, even as cloth became cheaper for everyone else.",
+     "use": "Tests 'inevitably': aggregate gains can coexist with concentrated, lasting losses; supports a qualified thesis."
+    },
+    {
+     "angle": "Dual-use knowledge",
+     "example": "The chemistry that makes fertiliser for larger harvests can also be used to make explosives.",
+     "use": "Shows that the same advance serves opposite ends, so the outcome depends on use rather than on progress itself."
+    },
+    {
+     "angle": "Correction lag",
+     "example": "Lead was added to petrol for decades to make engines run smoothly before its health effects led governments to phase it out.",
+     "use": "Shows that harms can persist for a long time before correction; 'eventually better' hides the costs borne in between."
+    }
+   ],
+   "counter": {
+    "objection": "Across centuries, health, literacy and material comfort have risen alongside technology, so the long-run record suggests that progress reliably improves society.",
+    "response": "Concede that the long-run trend is real and largely driven by technology. Then argue that the trend is an average built on choices such as regulation, public investment and support for displaced workers, and that those harmed in the meantime did not experience improvement as inevitable; the record shows likelihood, not necessity."
+   },
+   "outline": [
+    "Intro: define 'better off' (health, security, freedom, not mere convenience) and state that progress tends to improve society but not inevitably.",
+    "Body 1: broad gains. Refrigeration-type technologies show why the long-run trend is real and widely shared.",
+    "Body 2: losses and dual use. The displaced weavers and fertiliser chemistry show one advance helping some people and harming others.",
+    "Body 3 (counter): the long-run record of rising living standards; concede it, then argue it reflects corrections and policy choices (the leaded-petrol lag) rather than necessity.",
+    "Conclusion: improvement is a likely outcome that societies must steer; 'inevitably' excuses them from doing so."
+   ],
+   "pitfalls": [
+    "Ignoring the word 'inevitably' and arguing only that technology often helps, which defends a weaker claim than the one given.",
+    "Listing gadgets without explaining how they change a society's welfare, or treating 'better off' as 'more convenient'.",
+    "Answering the strongest objection with a slogan such as 'technology is neutral' instead of weighing a specific case of displaced workers or a dual-use invention."
+   ]
+  },
+  {
+   "promptId": "p11",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "Competition among students does more harm than good to learning, because ranking turns attention from understanding toward outperforming others; the strongest objection, that competition motivates, is better met by goals measured against a student's own earlier work."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Competition harms learning when it ranks students against one another on high-stakes measures, but it can help when it is voluntary, low-stakes or team-based, so its effect depends on how the contest is designed."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "Competition does more good than harm to learning, since it gives students a visible standard and a reason to practise; its real harms come from poor design, such as public high-stakes rankings, rather than from competition itself."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Curve grading",
+     "example": "In a course graded on a curve, classmates stop sharing notes because another student's higher mark lowers their own.",
+     "use": "Shows competition undermining the cooperation that helps everyone learn; supports the claim."
+    },
+    {
+     "angle": "Voluntary quiz team",
+     "example": "Members of a school quiz team prepare for weekly matches by reading widely on subjects their classes never cover.",
+     "use": "Shows competition driving self-directed study; supports the disagree or qualified side."
+    },
+    {
+     "angle": "Avoiding hard courses",
+     "example": "A student aiming for the top class rank skips an advanced physics elective she is curious about because a lower grade there could cost her position.",
+     "use": "Shows competition steering students toward safe performance and away from challenge; strong support for the claim."
+    },
+    {
+     "angle": "Team contests",
+     "example": "In a robotics challenge, students compete as teams against other schools, so they must teach one another inside the team to win.",
+     "use": "Shows that design can channel competition into collaboration; supports a qualified thesis."
+    }
+   ],
+   "counter": {
+    "objection": "Competition motivates: without a contest, many students would do the minimum, and adult careers are competitive anyway, so school should prepare them for it.",
+    "response": "Concede that a contest can spark effort, especially among confident students, and that some competition is realistic. Then distinguish the motivation to win from the motivation to understand: ranking can push students toward safe choices and away from helping peers. Preparation for competitive careers is better served by team contests or personal-best goals than by zero-sum class rankings."
+   },
+   "outline": [
+    "Intro: separate learning from grades; thesis that competition harms learning when ranked and high-stakes but helps when voluntary or team-based.",
+    "Body 1: curve grading and the student who avoids the physics elective show ranking discouraging sharing and risk-taking.",
+    "Body 2: the quiz team and the robotics contest show competition driving independent study and peer teaching.",
+    "Body 3 (counter): 'competition motivates and prepares for work'; concede that it motivates some students, then show that winning and understanding are different goals.",
+    "Conclusion: the design of the contest, not competition itself, decides the effect; favour team and personal-best formats."
+   ],
+   "pitfalls": [
+    "Treating learning as grades: showing that competition raises scores does not show that it deepens understanding.",
+    "Discussing only one kind of competition, such as class rank, and generalising, when the strongest objection comes from voluntary or team contests.",
+    "Answering 'competition motivates' by simply denying it instead of conceding whom it motivates and showing what it costs others."
+   ]
+  },
+  {
+   "promptId": "p12",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "Living in a culture gives an understanding that study cannot, because many of its rules are unspoken and learned only through daily practice; the strongest objection, that residents can live in a bubble, shows how one should live there, not that study is better."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Living in a culture reveals its everyday habits better than study, but study reveals its history and structures, which residents often take for granted, so the deepest understanding comes from combining the two."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "Study is the better route to understanding a culture, because immersion without background knowledge tends to produce vivid but misread impressions, while study supplies the history and language that make experience intelligible."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Unspoken etiquette",
+     "example": "A newcomer to a village learns only after attending several weddings that gifts are given privately afterwards, never at the ceremony, a rule no guidebook mentioned.",
+     "use": "Shows tacit knowledge available only through living there; supports the claim."
+    },
+    {
+     "angle": "Expatriate bubble",
+     "example": "An engineer posted abroad for three years lives in a compound with other foreigners and returns knowing restaurant names but little of the local language.",
+     "use": "The strongest objection: residence alone does not produce understanding; supports a qualified thesis."
+    },
+    {
+     "angle": "Historian's view",
+     "example": "A scholar of a region's land reforms can explain why families there distrust official records, something many residents feel but cannot trace to its origin.",
+     "use": "Shows study explaining what living alone cannot; supports the qualified or disagree side."
+    },
+    {
+     "angle": "Misread custom",
+     "example": "A traveller who sees shops closing for a long midday break concludes that the owners are unambitious, not knowing the custom grew from the climate and the shape of the working day.",
+     "use": "Shows immersion without context producing misjudgment; supports the disagree side."
+    }
+   ],
+   "counter": {
+    "objection": "Residents often cannot explain where their customs came from, and a visitor without background reading may misinterpret what she sees, so study gives a deeper understanding than living there.",
+    "response": "Concede that history and institutions require study and that raw experience can mislead. Then argue that knowing why a custom exists differs from knowing how to live within it, and that study tends to capture the rules people state rather than the ones they practise; the best immersion includes learning the language and reading about the place."
+   },
+   "outline": [
+    "Intro: distinguish knowing about a culture from knowing how to live within it; thesis that living reveals more, but works best combined with study.",
+    "Body 1: the wedding-gift rule shows tacit knowledge that only daily life provides.",
+    "Body 2: the historian of land reform shows study explaining structures that residents take for granted.",
+    "Body 3 (counter): the expatriate bubble and the misread midday break; concede that residence alone can mislead, then argue that the remedy is engaged living plus study, not study alone.",
+    "Conclusion: 'best' means the route to the fullest understanding, which is living there, informed by study."
+   ],
+   "pitfalls": [
+    "Treating living and studying as all-or-nothing, when 'the best way' invites a comparison of degree and a possible combination.",
+    "Defining 'understand' too loosely: enjoying a culture's food or festivals is not the same as understanding its values and unwritten rules.",
+    "Using a short holiday as the example of living in a culture, which makes the strongest objection too easy to win or to lose."
+   ]
+  },
+  {
+   "promptId": "p13",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "The first view is closer to mine: training can teach technique, but the originality that separates a memorable work from a competent one depends on temperament and insight that no course reliably supplies."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Creativity is partly a matter of temperament, yet the second view is closer to the truth: training cannot make people equal, but it reliably raises each person's creative output by building habits, knowledge and tolerance for failure."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "The second view is right: creativity is a set of learnable habits, such as generating many options, combining distant ideas and revising, and treating it as an inborn gift discourages the very practice that develops it."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Constraint exercises",
+     "example": "A writing workshop asks participants to tell a complete story in exactly fifty words, and many find twists they would never have reached with no limit.",
+     "use": "Shows a teachable technique producing original work; supports the second view."
+    },
+    {
+     "angle": "Same lessons, different results",
+     "example": "Two siblings take the same piano lessons for years; one improvises freely while the other plays accurately but never departs from the score.",
+     "use": "The first view's best evidence; a strong essay answers that training raised both players even though their ceilings differ."
+    },
+    {
+     "angle": "Material to combine",
+     "example": "A cook who has mastered dozens of regional sauces invents a new dish by joining two of them, something a novice could not attempt.",
+     "use": "Shows creativity depending on learned knowledge; supports the second view."
+    },
+    {
+     "angle": "Fear of judgment",
+     "example": "An office team that criticises failed proposals hears few new ideas, while the same people suggest many more after a manager starts praising well-reasoned failures.",
+     "use": "Shows that environment and training can unlock creativity that was already present; supports the second view."
+    }
+   ],
+   "counter": {
+    "objection": "Identical training produces very unequal results, and the people who transform a field seem to have something no programme supplies, so creativity must be at least partly innate.",
+    "response": "Concede that temperament and ceilings differ. Then point out that the two views disagree about whether training raises everyone, not about whether everyone ends up equal; unequal results from equal teaching are true of every skill, from mathematics to sport, yet nobody concludes that those skills cannot be taught."
+   },
+   "outline": [
+    "Intro: question the lone-genius picture; choose the second view while granting that temperament differs.",
+    "Body 1: learnable techniques. Constraint exercises and the cook who combines sauces show creativity built from practice and knowledge.",
+    "Body 2: removing obstacles. The team that proposes more once failure is praised shows training and environment releasing existing ability.",
+    "Body 3 (counter): the first view's best case, siblings with the same lessons and different results; concede unequal ceilings, then show that unequal outcomes hold for every teachable skill.",
+    "Conclusion: the gift belief is costly because it stops people practising; for nearly everyone, creativity behaves like a skill."
+   ],
+   "pitfalls": [
+    "Choosing a view and discussing only that view; the two-views directions require engaging the other view's best case, not a one-line dismissal.",
+    "Arguing that creativity is important or valuable, which answers a different question from whether it can be taught.",
+    "Using only famous geniuses as examples; they prove little about whether ordinary people can become more creative."
+   ],
+   "samples": [
+    {
+     "score": 6,
+     "essay": [
+      "Discussions of creativity often picture a lone genius struck by an idea no one else could have had. That picture makes creativity look like a gift, something a person either has or lacks. I find the second view closer to the truth: most people can become noticeably more creative with the right training, even though training cannot erase differences in temperament or remove the role of chance. The first view captures something real about the extremes of achievement, but it misdescribes how ordinary creative ability grows.",
+      "The strongest support for the trainable view is that much of creative work consists of habits that can be practised. A creative idea usually emerges from combining materials the person already knows, and knowing more materials gives the mind more to combine. Consider a beginner who joins a weekly sketching group where the rule is to produce twenty rough thumbnails before choosing one to develop. After several months, she generates options faster and abandons weak ones with less regret. No one has given her a gift; she has learned to treat first ideas as raw material rather than as finished answers.",
+      "Training also works by removing obstacles rather than adding talent. Many people believe they are 'not creative' because their early attempts were judged against polished work. A teacher who grades experiments on effort and variety instead of on finish can change what students are willing to try. In a classroom where a failed science model earns credit for an interesting hypothesis, students who once copied the textbook design begin proposing their own. Their capacity was there; the environment had trained them to suppress it.",
+      "The gift view nonetheless deserves a serious hearing. Two people can attend the same composition course and leave with very different results, and the handful of figures who transform a field seem to possess something no curriculum could supply. I accept that individuals differ in curiosity, tolerance for ambiguity and the luck of what they encounter. But this concedes only that training does not make everyone equally creative, which no sensible advocate of training claims. Height varies among athletes, yet coaching still makes every runner faster. The question is not whether ceilings differ but whether practice raises each person toward their own, and everyday learning suggests that it does.",
+      "The belief that creativity is an inborn gift is not merely inaccurate for most people; it is costly, because those who think they lack the gift stop practising the habits that would develop it. Exceptional talent exists, and training will not manufacture it on demand. For everyone else, which is nearly everyone, creativity behaves like other complex skills: it improves with deliberate practice, useful feedback and an environment that tolerates failure."
+     ],
+     "annotations": [
+      {
+       "quote": "I find the second view closer to the truth",
+       "note": "Chooses between the views explicitly, as the two-views directions require, rather than declaring both partly right."
+      },
+      {
+       "quote": "even though training cannot erase differences in temperament or remove the role of chance",
+       "note": "Qualifies the position at the outset, preparing an honest treatment of the opposing view."
+      },
+      {
+       "quote": "twenty rough thumbnails before choosing one to develop",
+       "note": "A specific, believable training method; precise detail makes the example persuasive rather than generic."
+      },
+      {
+       "quote": "Training also works by removing obstacles rather than adding talent.",
+       "note": "Introduces a second, distinct reason instead of restating the first, which shows development and organisation."
+      },
+      {
+       "quote": "The gift view nonetheless deserves a serious hearing.",
+       "note": "Engages the opposing view on its strongest ground, the core demand of a two-views prompt."
+      },
+      {
+       "quote": "Height varies among athletes, yet coaching still makes every runner faster.",
+       "note": "A compact analogy that reframes the debate around improvement rather than equality; this is the insight raters reward."
+      },
+      {
+       "quote": "it is costly, because those who think they lack the gift stop practising",
+       "note": "The conclusion adds a consequence of the argument instead of repeating it."
+      }
+     ],
+     "whyThisScore": "The essay chooses a view, qualifies it, and engages the opposing view's strongest evidence rather than a weak version, which is exactly what the two-views directions ask. Two distinct reasons, learnable habits and removed obstacles, are each developed through a specific scenario with clear analysis of why it matters. The athletic analogy reframes the debate insightfully, and the conclusion adds a consequence instead of repeating the thesis. Language is precise, varied and controlled throughout, fitting the 6 level.",
+     "toReachNext": [
+      "Merge the introduction's first two sentences; the second partly repeats the first before the views are formally named.",
+      "Replace the general 'composition course' with one concrete case of unequal results, so the concession is as vivid as the support.",
+      "Drop 'which is nearly everyone' in the conclusion; the point is already made and the aside slightly overstates it.",
+      "Tie paragraph 3's classroom example explicitly to training, since a reader could see it as a change in grading policy only."
+     ]
+    },
+    {
+     "score": 4,
+     "essay": [
+      "There are two views about creativity. Some people think it is a gift you are born with, and others think anyone can become more creative with training. In my opinion the second view is more correct, because creativity is a skill like other skills and skills can be improved with practise.",
+      "For example, when I started to learn guitar I could only play songs written by other people. After two years of lessons my teacher asked me to write my own songs and at first it was very difficult. But slowly I learned how chords work together and I was able to make my own melodies. This shows that training gave me the tools to be creative. Without the lessons I would never have written a song.",
+      "Also, many schools today teach brainstorming and design thinking to their students. Students learn to think of many ideas and not to judge them too quickly. My sister took a design course where every student had to draw fifty ideas for one poster, and she said it made her less afraid of bad ideas. Companies also send there employees to creativity workshops because they believe it helps them to have new ideas. If creativity could not be taught, these programs would not exist.",
+      "On the other hand, it is true that some people like famous painters or composers seem to have a special talent that cannot be learned. Not everyone can be a genius even with training. However, even these people practised a lot to develop their talent. So I think that creativity is partly a gift but mostly it can be trained, and that anyone can become more creative if they have the right training and work hard."
+     ],
+     "annotations": [
+      {
+       "quote": "In my opinion the second view is more correct",
+       "note": "Makes the required choice clearly in the introduction."
+      },
+      {
+       "quote": "I learned how chords work together and I was able to make my own melodies",
+       "note": "A relevant personal example that shows a mechanism: knowledge of chords made original melodies possible."
+      },
+      {
+       "quote": "If creativity could not be taught, these programs would not exist.",
+       "note": "Weak reasoning: the existence of a programme does not prove that it works, so this paragraph adds little support."
+      },
+      {
+       "quote": "send there employees",
+       "note": "A spelling slip of the kind raters tolerate when it is occasional and meaning stays clear."
+      },
+      {
+       "quote": "Not everyone can be a genius even with training.",
+       "note": "Engages the first view, as required, but only briefly and without its strongest evidence."
+      },
+      {
+       "quote": "even these people practised a lot to develop their talent",
+       "note": "A promising reply to the gift view, but asserted without any example, so it does not persuade."
+      }
+     ],
+     "whyThisScore": "The essay chooses the second view clearly and supports it with a relevant personal example that shows how lessons built creative ability. It addresses the first view, as the directions require, but only briefly and with an unsupported reply. The second body paragraph treats the existence of creativity programmes as proof, which is weak reasoning. Organisation is adequate and errors are minor, so the response is competent rather than thoughtful: a 4.",
+     "toReachNext": [
+      "Replace the 'programmes exist' argument with a reason that explains how one specific technique builds creativity.",
+      "Give the first view a full paragraph with its strongest evidence (same training, different results) and a developed reply.",
+      "In the guitar example, explain what changed in the writer's thinking, so it shows creativity and not only technical progress.",
+      "Sharpen the final position: say what training can and cannot do instead of 'partly a gift but mostly it can be trained'."
+     ]
+    },
+    {
+     "score": 2,
+     "essay": [
+      "I think creativity can be teached to anyone. Some people say it is a gift but I dont agree with that. Creativity is very important in the modern world for jobs and for life. If you train creativity you will be more creative, that is why schools must teach it. Everyone have creativity inside them, they just need to find it. When people say they are not creative it is because nobody train them. Training is the best way to be creative and it can help everybody in many ways. Some people are born with a talent like artists, but other people can also learn it. So creativity is not only a gift. In conclusion I believe that anyone can become more creative with the right training because creativity is something you can learn and it is very important."
+     ],
+     "annotations": [
+      {
+       "quote": "Some people say it is a gift but I dont agree with that.",
+       "note": "Names the other view but dismisses it without a reason, ignoring the directions to deal with both views."
+      },
+      {
+       "quote": "Creativity is very important in the modern world for jobs and for life.",
+       "note": "Off the question: the prompt asks whether creativity can be taught, not whether it matters."
+      },
+      {
+       "quote": "If you train creativity you will be more creative",
+       "note": "Restates the position as if it were a reason; circular support."
+      },
+      {
+       "quote": "Everyone have creativity inside them, they just need to find it.",
+       "note": "A plausible idea that could become a real argument, but it is left undeveloped and contains an agreement error."
+      },
+      {
+       "quote": "Some people are born with a talent like artists, but other people can also learn it.",
+       "note": "The germ of a balanced position; with an example, it could become a genuine concession and reply."
+      },
+      {
+       "quote": "can be teached",
+       "note": "A grammar error that stays readable; alone it would cost little, but such slips recur throughout."
+      }
+     ],
+     "whyThisScore": "The writer picks the second view but supports it with restatement ('if you train creativity you will be more creative') and general claims about importance. There is no specific example, and the first view is dismissed without reasons, so the two-views directions are largely ignored. Several grammar errors recur, although meaning remains clear. The lack of analysis, development and organisation places the response at a 2.",
+     "toReachNext": [
+      "Give one reason that explains how training works, such as practising producing many ideas before judging any of them.",
+      "Add a concrete example of someone becoming more creative through a specific kind of practice.",
+      "Present the first view's best evidence and respond to it instead of writing only 'I dont agree'.",
+      "Cut the sentences about creativity's importance; they answer a different question."
+     ]
+    }
+   ]
+  },
+  {
+   "promptId": "p14",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "The first view is closer to mine: a government's authority and resources come from its citizens and it answers to them, so it owes them first priority, though that priority never licenses seriously harming outsiders for small gains."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "A nation owes its citizens special priority, as the first view holds, but the second view rightly sets limits on it: a duty not to inflict serious harm abroad and a duty to help in emergencies when the cost at home is modest."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "The second view is more defensible: a person's needs do not matter less because of where she was born, so a nation should weigh outsiders' interests equally, while recognising that it usually serves everyone best by governing its own territory well."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Accountability",
+     "example": "A finance ministry that spread its road budget equally across every country would leave its own taxpayers, who fund and elect it, with crumbling bridges.",
+     "use": "Supports the first view: special duties follow from funding, consent and accountability."
+    },
+    {
+     "angle": "Shared river",
+     "example": "An upstream country considers a dam that would give its citizens modestly cheaper electricity but would dry out farmland across the border downstream.",
+     "use": "Tests the first view: priority for citizens cannot justify serious harm to outsiders."
+    },
+    {
+     "angle": "Disaster relief",
+     "example": "After an earthquake in a neighbouring state, a wealthy country sends field hospitals at a cost its own citizens barely notice.",
+     "use": "Shows duties to outsiders that barely conflict with citizens' interests; supports a qualified thesis."
+    },
+    {
+     "angle": "Contagious outbreak",
+     "example": "During an epidemic, a country that keeps scarce treatments for its low-risk citizens while neighbours lack them for nurses prolongs an outbreak that later returns across its borders.",
+     "use": "Shows national and global interests converging, which complicates the choice between the two views."
+    }
+   ],
+   "counter": {
+    "objection": "Birthplace is morally arbitrary; favouring citizens means treating some people's lives as worth more than others'.",
+    "response": "Concede that every person has equal moral worth. Then argue that equal worth does not require every institution to owe everyone identical duties, just as parents owe special care to their own children without denying strangers' worth, and that a world of states caring first for their own, within firm limits, may serve people everywhere better than states trying to serve all equally."
+   },
+   "outline": [
+    "Intro: choose the first view with limits; define 'first duty' as priority, not exclusive concern.",
+    "Body 1: accountability. The finance-ministry case shows why a government funded and elected by citizens owes them special care.",
+    "Body 2: limits drawn from the second view. The upstream dam and disaster relief show a duty not to harm and a duty to help when the cost is low.",
+    "Body 3 (counter): birthplace is morally arbitrary; concede equal moral worth, then distinguish equal worth from equal institutional duty, using the parent analogy.",
+    "Conclusion: priority within limits; note cases such as the outbreak, where national and global interests converge."
+   ],
+   "pitfalls": [
+    "Choosing a view without saying how strong the 'first duty' is; raters reward specifying what the priority permits and what it forbids.",
+    "Treating the second view as naive charity instead of engaging its best reason, that birthplace does not change a person's moral worth.",
+    "Building the essay on current political controversies and named governments; generic cases such as a shared river or disaster relief keep the analysis on principles."
+   ]
+  },
+  {
+   "promptId": "p15",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "Expertise is best built by sustained focus on one field, because mastery requires deep knowledge and long feedback loops that constant moving interrupts; breadth is valuable, but it serves expertise best once depth exists."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Focus builds expertise best in stable fields with clear rules, while range matters more where problems keep changing, so the strongest path is a deep base in one field followed by deliberate moves into neighbouring ones."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "Expertise is best built by moving among fields, since the most valuable expert judgment comes from recognising patterns across domains, and early specialisation narrows the problems a person can even see."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Repetition in surgery",
+     "example": "A trainee surgeon performs the same procedure hundreds of times under supervision until she senses complications before they appear.",
+     "use": "Supports the first view: some expertise demands focused repetition that frequent moving would interrupt."
+    },
+    {
+     "angle": "Borrowed method",
+     "example": "A hospital analyst who once worked on traffic flow applies queue models from road planning to cut emergency-room waiting times.",
+     "use": "Supports the second view: transferring a method between fields can solve problems specialists missed."
+    },
+    {
+     "angle": "Stable versus shifting rules",
+     "example": "A chess player improves by studying thousands of positions because the rules never change, whereas a product designer faces users whose needs shift every year.",
+     "use": "Lets the thesis depend on the field's stability; supports a qualified position."
+    },
+    {
+     "angle": "Shallow generalist",
+     "example": "A consultant who changes industry every year can talk fluently about each but is never trusted with the hardest technical decisions in any of them.",
+     "use": "Tests the second view: range without depth produces fluency, not expertise."
+    }
+   ],
+   "counter": {
+    "objection": "Many breakthroughs come from outsiders who brought methods from another field, and specialists are often blinded by their own field's assumptions.",
+    "response": "Concede that cross-field insight produces breakthroughs and that specialists can become narrow. Then show that such outsiders usually had deep expertise somewhere: the transfer works because they mastered a method first. Range adds the most value on top of depth, not in place of it."
+   },
+   "outline": [
+    "Intro: define expertise as reliable judgment on hard problems; thesis that depth comes first and range adds value later.",
+    "Body 1: depth. The trainee surgeon shows why some expertise requires focused repetition.",
+    "Body 2: range. The analyst who borrows queue models shows how methods from one field can solve problems in another.",
+    "Body 3 (counter): outsiders' breakthroughs; concede them, then show that transfer works because the outsider first mastered a method, while the shallow consultant shows range without depth.",
+    "Conclusion: the answer depends on how stable the field is, as chess and product design show; build depth, then branch."
+   ],
+   "pitfalls": [
+    "Leaving expertise undefined and confusing it with versatility or career success, so the two views are compared on different measures.",
+    "Presenting the second view as 'trying many hobbies', a weak version that misses its strongest case: transferring methods between fields.",
+    "Concluding that both matter without saying which view is closer to yours or in which kinds of field each wins, which ignores the instruction to choose."
+   ]
+  },
+  {
+   "promptId": "p16",
+   "thesisOptions": [
+    {
+     "stance": "agree",
+     "thesis": "The first view is closer to mine: exceptional individuals shape history more than impersonal forces allow, because at turning points a single choice can decide which of several possible outcomes actually occurs."
+    },
+    {
+     "stance": "qualified",
+     "thesis": "Impersonal forces such as climate, technology and prices set the range of what is possible, but individuals often decide which possibility is realised, so the second view better explains long-term trends and the first better explains turning points."
+    },
+    {
+     "stance": "disagree",
+     "thesis": "History is shaped mainly by large impersonal forces, as the second view holds, since individuals succeed only when conditions favour their aims; remove a celebrated figure and similar changes usually arrive through someone else."
+    }
+   ],
+   "ideaBank": [
+    {
+     "angle": "Simultaneous discovery",
+     "example": "The same mathematical method is worked out independently by two researchers in different countries within a few years of each other.",
+     "use": "Supports the second view: conditions produce ideas, and the individual who reaches them first is partly interchangeable."
+    },
+    {
+     "angle": "A choice not to escalate",
+     "example": "During a tense border standoff, an officer with ambiguous orders decides not to fire, and the confrontation ends without war.",
+     "use": "Supports the first view: at a turning point, one person's judgment can decide the outcome."
+    },
+    {
+     "angle": "Harvests and unrest",
+     "example": "A run of failed harvests raises bread prices, and protests spread through the cities whatever local leaders do to calm or direct them.",
+     "use": "Supports the second view: economic pressure drives events beyond any individual's control."
+    },
+    {
+     "angle": "Same drought, different rulers",
+     "example": "Two neighbouring states face the same drought; one ruler organises grain storage and rationing while the other denies the crisis, and their histories diverge.",
+     "use": "Supports a qualified thesis: forces set the problem, individuals shape the outcome."
+    }
+   ],
+   "counter": {
+    "objection": "If impersonal forces set the range of possibilities, individuals merely choose among outcomes the forces had already made likely, so the real credit belongs to the forces.",
+    "response": "Concede that forces narrow the options and that many celebrated figures rode trends already under way. Then argue that the gap between the remaining options can be enormous, war or peace, famine or survival, and in such cases the individual's choice is not a detail but the decisive cause of what follows, as the two drought-struck states show."
+   },
+   "outline": [
+    "Intro: frame the question as which view explains more; thesis that forces set the possibilities and individuals often decide among them.",
+    "Body 1: impersonal forces. Failed harvests driving unrest and simultaneous discovery show conditions producing events.",
+    "Body 2: individuals. The officer who declines to fire shows a single choice deciding a turning point.",
+    "Body 3 (counter): 'individuals only pick among outcomes forces made likely'; concede it, then show that the gap between those outcomes can be decisive, as with the two states facing one drought.",
+    "Conclusion: the second view explains long trends, the first explains turning points; a full account of history needs both."
+   ],
+   "pitfalls": [
+    "Listing famous names as if fame proved influence, without asking whether the change would have happened without them.",
+    "Leaving 'impersonal forces' vague; name specific ones such as climate, technology, prices or population so they can be weighed.",
+    "Developing only the favoured view; the two-views directions require showing what the other view explains well before arguing past it."
+   ]
+  }
+ ]
+}

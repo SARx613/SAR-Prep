@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Clock, Eye, EyeOff, Sparkles } from 'lucide-react';
 import { saveEssay, wordCount, type Essay } from '@/lib/essays';
+import { LEVEL_TIPS, bandOf, diagnose, type CriterionKey } from '@/lib/writing-tips';
 
 /* The writing screen: ETS's own word processor offers insert, delete, cut,
  * paste and undo, and no spell-checker or grammar checker — so this is a bare
@@ -21,9 +22,9 @@ const CRITERIA = [
 const LEVELS = [['6', 'Outstanding'], ['5', 'Strong'], ['4', 'Adequate'], ['3', 'Limited'], ['2', 'Seriously flawed'], ['1', 'Deficient']] as const;
 const fmt = (s: number) => `${Math.floor(Math.max(0, s) / 60)}:${String(Math.max(0, s) % 60).padStart(2, '0')}`;
 
-interface Props { claim: string; instruction: string; aiEnabled: boolean }
+interface Props { claim: string; instruction: string; aiEnabled: boolean; promptId?: string; hasModel?: boolean }
 
-export function EssayEditor({ claim, instruction, aiEnabled }: Props) {
+export function EssayEditor({ claim, instruction, aiEnabled, promptId, hasModel }: Props) {
   const [text, setText] = useState('');
   const [left, setLeft] = useState(SECONDS);
   const [showTimer, setShowTimer] = useState(true);
@@ -77,6 +78,17 @@ export function EssayEditor({ claim, instruction, aiEnabled }: Props) {
         <div className="mx-auto max-w-3xl px-4 pb-16" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
           <h1 className="text-2xl font-bold">Check your essay against the scoring guide</h1>
           <p className="mt-1 text-sm text-muted">{wordCount(text)} words · {fmt(SECONDS - Math.max(0, left))} used. Be strict: raters are.</p>
+          <section className="mt-5 rounded-[var(--radius)] border border-line bg-surface p-4" aria-label="Automatic checks">
+            <h2 className="font-bold">Automatic checks <span className="text-xs font-medium text-muted">(quick text checks, not a score)</span></h2>
+            <ul className="mt-2 space-y-1.5 text-sm">
+              {diagnose(text).map((c) => (
+                <li key={c.label} className="flex gap-2">
+                  <span aria-hidden className={`mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full text-[10px] font-bold ${c.ok ? 'bg-good-soft text-good' : 'bg-accent-soft text-accent-ink'}`}>{c.ok ? '✓' : '!'}</span>
+                  <span><span className="font-semibold">{c.label}.</span> {c.detail}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
           <div className="mt-5 space-y-4">
             {CRITERIA.map(([k, label, hint]) => (
               <fieldset key={k} className="rounded-[var(--radius)] border border-line bg-surface p-4">
@@ -87,6 +99,14 @@ export function EssayEditor({ claim, instruction, aiEnabled }: Props) {
                       className={`min-h-[40px] rounded-full border px-3 text-sm font-semibold ${levels[k] === Number(n) ? 'border-accent bg-accent text-accent-fg' : 'border-line-strong bg-surface text-muted'}`}>{n} · {name}</button>
                   ))}
                 </div>
+                {levels[k] !== undefined && (
+                  <div className="mt-3 rounded-[var(--radius)] bg-surface-2 p-3 text-sm">
+                    <p className="font-semibold">{levels[k] >= 6 ? 'To keep this level' : `To move up from ${levels[k]}`}</p>
+                    <ul className="mt-1 list-disc space-y-1 pl-5">
+                      {LEVEL_TIPS[k as CriterionKey][bandOf(levels[k])].map((t, i) => <li key={i}>{t}</li>)}
+                    </ul>
+                  </div>
+                )}
               </fieldset>
             ))}
           </div>
@@ -105,6 +125,11 @@ export function EssayEditor({ claim, instruction, aiEnabled }: Props) {
                 </div>
               )}
             </div>
+          )}
+          {promptId && hasModel && (
+            <p className="mt-6 text-sm">
+              <Link href={`/writing/models/${promptId}`} className="font-semibold text-accent-ink hover:underline">Compare with annotated sample essays and the idea bank for this topic →</Link>
+            </p>
           )}
           <div className="mt-8 flex flex-wrap gap-3">
             <button onClick={() => persist({ selfScore })} className={btn}>Save my check</button>

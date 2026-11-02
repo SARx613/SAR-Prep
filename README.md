@@ -50,6 +50,10 @@ time. Access is closed by default: the pages, the server actions and the figure 
 | `/official-tests` | The two full-length tests of the *Official Guide to the GRE General Test* (3rd ed.), run like the computer-delivered exam: a clock per section, Mark / Review, calculator, optional break, 130–170 score, official explanations. Answers stay on the server (`src/app/actions/official.ts`); results are kept in the browser. |
 | `/math-review` | The exercises of the ETS *GRE Math Review*, typed as text with their official answers, self-assessed. |
 
+**Online, for the owner only.** Set `PRIVATE_STUDY_EMAILS=simon5.amar@gmail.com` and deploy the build that contains `gre-prep/private/` to its
+own Vercel project with `gre-prep/scripts/deploy-private.sh` (setup steps are at the top of the script). Anyone else, signed in or not,
+gets a 404; nothing is added to the public deployment or to Git.
+
 The public product stays original: the bank in `content/` is authored from the official *skills and formats*, never from ETS text. To
 rebuild the private data from your own copies of the PDFs (not committed): `python3 -I scripts/content/build_exams.py <Official Guide PDF>`
 and `python3 -I scripts/content/build_math_course.py <Math Review PDF>` (needs poppler, Pillow with WebP, PyMuPDF, and the transcription

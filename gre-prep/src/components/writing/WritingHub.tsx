@@ -36,13 +36,16 @@ export function WritingHub({ prompts, instructions }: { prompts: Prompt[]; instr
 
       <section>
         <h2 className="text-lg font-bold">Practice prompts</h2>
-        <p className="text-sm text-muted">Original prompts in the style of the ETS tasks, one family per instruction set.</p>
+        <p className="text-sm text-muted">Original prompts in the style of the ETS tasks, one family per instruction set. Each has an idea bank, an outline and common mistakes; some also have annotated sample essays at levels 6, 4 and 2.</p>
         <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Instruction set">
           {['all', ...Object.keys(instructions)].map((k) => <button key={k} aria-pressed={filter === k} onClick={() => setFilter(k)} className={`min-h-[36px] rounded-full border px-3 text-xs font-semibold ${filter === k ? 'border-accent bg-accent text-accent-fg' : 'border-line-strong bg-surface text-muted'}`}>{k === 'all' ? 'All' : k.replace('-', ' ')}</button>)}
         </div>
         <ul className="mt-3 divide-y divide-line overflow-hidden rounded-[var(--radius)] border border-line bg-surface">
           {shown.map((p) => (
-            <li key={p.id}><Link href={`/writing/session?prompt=${p.id}`} className="flex items-start gap-3 px-4 py-3 hover:bg-surface-2"><span className="mt-0.5 rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-bold text-accent-ink">{p.set.replace('-', ' ')}</span><span className="text-sm">{p.claim}</span></Link></li>
+            <li key={p.id} className="flex items-start hover:bg-surface-2">
+              <Link href={`/writing/session?prompt=${p.id}`} className="flex flex-1 items-start gap-3 px-4 py-3"><span className="mt-0.5 rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-bold text-accent-ink">{p.set.replace('-', ' ')}</span><span className="text-sm">{p.claim}</span></Link>
+              <Link href={`/writing/models/${p.id}`} className="shrink-0 px-4 py-3 text-xs font-semibold text-accent-ink hover:underline">Model answers</Link>
+            </li>
           ))}
         </ul>
       </section>

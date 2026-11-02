@@ -1,0 +1,366 @@
+{"models":[
+{
+"promptId":"p17",
+"thesisOptions":[
+{"stance":"agree","thesis":"Scientists should explain their work in plain language, and the reason is sound: research paid for and carried out with citizens depends on their consent, although clear explanation also serves a purpose beyond securing support."},
+{"stance":"qualified","thesis":"Scientists generally should explain their work plainly, but the reason offered is too narrow: public support is essential for publicly funded fields and matters far less for others, so the stronger justification is that people are entitled to understand knowledge that shapes their lives."},
+{"stance":"disagree","thesis":"Requiring every scientist to act as a public explainer is a mistake, because the reason overstates the public's role: much research continues on expert review and private money, and translation is better done by specialists who are trained for it."}
+],
+"ideaBank":[
+{"angle":"Trust in a crisis","example":"During a hypothetical outbreak, a region whose researchers had explained their methods in clear terms for years accepts new health guidance quickly, while a neighbouring region that only ever received decrees resists it.","use":"Extends the reason: public support means cooperation and trust, not only funding."},
+{"angle":"Research that sounds absurd","example":"A study of how insect wings fold is mocked as a waste of money until its findings help engineers design compact solar panels for satellites.","use":"Shows plain explanation can protect curiosity-driven work, but also that its value cannot always be predicted, which tests how far explanation can win support."},
+{"angle":"Privately financed labs","example":"A company laboratory develops a new compound for years on investors' money, largely indifferent to whether the public follows its chemistry.","use":"Tests the reason: public support is not essential everywhere, so a duty to explain must rest on something else, such as the public's stake in the results."},
+{"angle":"Clarity versus distortion","example":"A press release turns a study's cautious 'linked to' into 'causes', and readers who see a food praised one month and condemned the next stop trusting nutrition research.","use":"Qualifies the claim: plain language helps only if it keeps the uncertainty, so the duty is to explain accurately, not merely simply."}
+],
+"counter":{"objection":"Scientists' time and skills are specialised; pushing them to communicate pulls them away from research and may produce poor explanations, while journalists and teachers already do this job.","response":"Concede that not every researcher should become a public figure and that translators do much of the work, then answer that translators can only work with what scientists make intelligible: a short, accurate summary of aims, findings and limits costs little and prevents the distortions the objection fears."},
+"outline":[
+"Intro: separate the claim from the reason; agree with the claim, judge the reason only partly true, and name the deeper justification.",
+"Body 1: where the reason holds best: publicly funded research and studies that need volunteers or residents' cooperation.",
+"Body 2: where the reason fails: privately funded or highly abstract research, and why a duty to explain survives anyway.",
+"Body 3 (counter): the cost of scientists' time and the risk of oversimplification; concede the division of labour, answer with accurate short summaries.",
+"Conclusion: the claim is stronger than its reason; clear explanation earns more durable support than excitement does."
+],
+"pitfalls":[
+"Judging only whether scientists should explain and never asking whether public support really is essential for all research, which the claim-reason directions require.",
+"Treating public support as money alone and missing trust, volunteers, regulation and public cooperation.",
+"Equating plain language with dumbing down instead of distinguishing clear explanation from distorted simplification."
+],
+"samples":[
+{
+"score":6,
+"essay":[
+"Few people would object to scientists speaking clearly, yet the claim and its reason deserve to be judged separately. I agree that scientists should explain their work to the public in plain language, but the reason offered, that public support is essential for research to continue, is only partly true. It holds strongly for publicly funded and publicly applied research, holds weakly for privately financed work, and in any case misses the deeper justification: citizens live with the consequences of science and are entitled to understand it.",
+"The reason is strongest where research depends directly on public money and public cooperation. A national space agency, for instance, competes for funding with roads and hospitals; if taxpayers cannot see what a new telescope might reveal, legislators have little incentive to defend its budget. Public support also means more than funding. Medical studies need volunteers, and environmental surveys often rely on residents who report what they observe in their gardens and rivers. When researchers explain plainly why the work matters and what participants will experience, they are not merely seeking approval; they are securing the cooperation without which the research could not be done at all.",
+"Yet the reason overstates the case when applied to every field. A company laboratory may continue for years on investors' money, largely indifferent to whether the public follows its chemistry, and much pure mathematics proceeds with almost no public awareness. If public support were the only justification, these scientists would have no obligation to explain anything. I think they still do, because the products of their work, a new drug or a new encryption method, eventually shape ordinary lives. The duty to explain therefore rests less on what the public gives to science than on what science does to the public.",
+"The strongest objection is that explanation has costs. Scientists are trained to do research, not to write for general readers, and time spent simplifying is time taken from the laboratory. Worse, plain language can distort: a cautious finding that a habit is 'associated with' an illness easily becomes a headline claiming that it causes the illness. This objection is partly right; not every researcher needs to become a public figure, and journalists and teachers do much of the translating. But translators can only work with what scientists make intelligible. A short, accurate summary of what a study asked, what it found and what it cannot show costs a researcher little and gives journalists something sound to build on. Plain language, done well, is a defence against distortion rather than a cause of it.",
+"In the end, the claim is wiser than the reason given for it. Scientists should explain their work clearly, not only because funding may depend on it, but because a public that understands both the promise and the limits of research can judge it fairly. Support won through clear explanation is also more durable than support won through excitement, since it survives the inevitable study that fails."
+],
+"annotations":[
+{"quote":"the claim and its reason deserve to be judged separately","note":"Announces in the first sentence that the essay will follow the claim-reason directions, evaluating both parts rather than treating them as one."},
+{"quote":"Public support also means more than funding.","note":"A short pivot that deepens the reason instead of repeating it; extending a concept like this is the kind of insight raters associate with a 6."},
+{"quote":"Yet the reason overstates the case when applied to every field.","note":"Tests the reason against counterexamples, which is exactly what the task asks and what most mid-range essays skip."},
+{"quote":"The duty to explain therefore rests less on what the public gives to science than on what science does to the public.","note":"Reframes the justification in a precise, balanced sentence; it shows the writer's position is reasoned, not merely asserted."},
+{"quote":"This objection is partly right","note":"An honest concession that makes the following reply more credible and shows control of a nuanced position."},
+{"quote":"Plain language, done well, is a defence against distortion rather than a cause of it.","note":"Turns the objection's own concern into support for the claim, a compelling counter-reply rather than a dismissal."},
+{"quote":"Support won through clear explanation is also more durable than support won through excitement","note":"The conclusion adds a final idea instead of restating the introduction, sustaining development to the last line."}
+],
+"whyThisScore":"The essay takes an insightful, qualified position that follows the claim-reason directions by accepting the claim while showing exactly where the reason holds and where it fails. Each body paragraph develops one idea with a concrete, relevant example, and the counter paragraph concedes real costs before answering them persuasively. Organisation is sustained from introduction to conclusion, and the language is fluent and precise with no meaningful errors.",
+"toReachNext":[
+"Trim the second sentence of the introduction; the three-part preview in the third sentence already carries the thesis.",
+"Name one concrete form a short accurate summary could take, such as a plain abstract written by the study's own authors, to make the counter-reply even more specific.",
+"Replace the general 'much pure mathematics' with a single illustrative case so every example in the essay is equally concrete.",
+"Tighten the space agency example by stating what the public would gain from understanding it, not only what legislators would lose."
+]
+},
+{
+"score":4,
+"essay":[
+"I agree that scientists should explain their work to the public in plain language. The reason given is that public support is essential for research to continue, and I think this is mostly true. In this essay I will explain why clear communication helps science and also why some people disagree.",
+"First, a lot of research is paid for by the government, which means it is paid for by taxpayers. If people do not understand what scientists are doing, they may think the money is wasted. For example, a project studying insects might sound silly to someone reading about it in the news, but if the scientist explains that it could help farmers protect their crops, people will be more likely to support it. When scientists use complicated words, the public feel left out and may vote for politicians who cut science budgets.",
+"Second, explaining science clearly builds trust. During a health emergency people need to follow advice from experts. If they already understand how scientists work, they are more likely to listen. For example, a town that has a good relationship with a local university might be more willing to accept a new water treatment plan. Trust is very important for science and for society in general, so scientists have a responsibility to communicate.",
+"Some people say that scientists are too busy and that explaining should be left to journalists. This is a fair point, because scientists are not always good writers. However, journalists sometimes make mistakes when they report on studies, so it is better if scientists explain their own work. In conclusion, scientists should use plain language because public support is essential, and without it research can not continue. Even though it takes time, the benefits are bigger than the costs."
+],
+"annotations":[
+{"quote":"and I think this is mostly true","note":"A promising hint of qualification, but the essay never says where the reason fails, so the claim-reason task is only half done."},
+{"quote":"but if the scientist explains that it could help farmers protect their crops, people will be more likely to support it","note":"A relevant, concrete example that directly links plain explanation to public support; this is the essay's strongest moment."},
+{"quote":"Trust is very important for science and for society in general","note":"A generic assertion that adds no reasoning; raters read sentences like this as filler."},
+{"quote":"This is a fair point, because scientists are not always good writers.","note":"Credits the opposing view honestly, which shows awareness of the counterargument."},
+{"quote":"so it is better if scientists explain their own work","note":"The reply ignores the objection's real concern, scientists' limited time, and simply asserts the opposite conclusion."},
+{"quote":"without it research can not continue","note":"Repeats the reason as an absolute fact even though privately funded research is an obvious exception; 'can not' is also a minor slip."}
+],
+"whyThisScore":"The essay presents a clear position and supports it with relevant reasons and one well-chosen example, in adequately organised paragraphs. However, it accepts the reason almost without examination, which leaves the claim-reason directions only partly addressed. The second body paragraph is thin and generic, and the counterargument is answered with an assertion rather than an argument. Language is clear with only minor errors, which fits the competent profile of a 4.",
+"toReachNext":[
+"Test the reason directly: add a paragraph on research that continues without public support, such as company laboratories, and explain what that means for the claim.",
+"Replace 'Trust is very important' with an explanation of how trust built in calm times changes behaviour in a crisis.",
+"Answer the time objection on its own terms, for instance by proposing a short summary written by the researchers that journalists can build on.",
+"Give the conclusion its own paragraph and make it state the refined view rather than repeat the prompt."
+]
+},
+{
+"score":2,
+"essay":[
+"Scientists should explain there work in plain language because it is important. Science is very complicated and most people dont understand it. If scientists talk in a way nobody understand then people will not care about science. Public support is essential for research so this is true. Scientists need money for there research and the money comes from people so they need to explain. Also people need to understand science because science is everywhere in our life today, like phones and medicine and many other things.",
+"In conclusion I agree with the statement. Scientists should use plain language so everybody can understand and support them. If they dont do this research will stop and that would be bad for everyone. So it is very important that scientists explain there work in plain language to the public."
+],
+"annotations":[
+{"quote":"because it is important","note":"Circular support: saying the claim is important does not explain why it is true."},
+{"quote":"Public support is essential for research so this is true.","note":"Restates the prompt's reason as if it proved itself; the task asks the writer to evaluate the reason, not repeat it."},
+{"quote":"the money comes from people so they need to explain","note":"A reasonable seed of an argument, linking funding to explanation, but it is never developed with an example."},
+{"quote":"like phones and medicine and many other things","note":"A list in place of an example; naming topics does not show how understanding them matters."},
+{"quote":"nobody understand","note":"One of several recurring errors (also 'there' for 'their' and 'dont'); meaning stays clear, but the pattern shows weak language control."},
+{"quote":"If they dont do this research will stop and that would be bad for everyone","note":"An exaggerated, unsupported prediction that the conclusion repeats instead of adding anything new."}
+],
+"whyThisScore":"The writer takes a position but offers almost no analysis: the reason in the prompt is repeated as proof, and the only supporting idea, the link between funding and explanation, is never developed. There are no concrete examples, the conclusion largely repeats the opening, and recurring errors in spelling and agreement weaken control even though the meaning stays readable. These serious weaknesses in analysis and development match a 2.",
+"toReachNext":[
+"Explain why the reason might be true or false instead of declaring 'so this is true'; even one sentence of evaluation moves the essay toward a 3.",
+"Develop the money point with one concrete scenario, such as a project that lost funding because voters could not see its purpose.",
+"Fix the recurring errors (their, don't, nobody understands) by rereading for them in the last two minutes.",
+"Use the conclusion to state a refined view in one or two sentences rather than repeating the opening."
+]
+}
+]
+},
+{
+"promptId":"p18",
+"thesisOptions":[
+{"stance":"agree","thesis":"Schools should start later, and the reason is persuasive: adolescent body clocks shift later at night, so an early bell forces students to learn during the hours when their attention is weakest."},
+{"stance":"qualified","thesis":"The reason is largely sound, since sleep clearly shapes learning, but it does not by itself justify a later start everywhere, because transport, family work hours and after-school jobs can cancel the gain unless the change is planned around them."},
+{"stance":"disagree","thesis":"Moving the bell is the wrong remedy, because the reason, though true, points to causes such as late-night screens and heavy homework that a later start may simply push back rather than solve."}
+],
+"ideaBank":[
+{"angle":"The shifted body clock","example":"In adolescence the body tends to signal sleep later at night, so a fifteen-year-old sent to bed at nine may lie awake for an hour regardless of discipline.","use":"Supports the reason by showing that tired teenagers are not simply making poor choices, which a later start can address."},
+{"angle":"First-period slump","example":"A chemistry teacher notices that her early-morning class repeats mistakes in a lab procedure that her afternoon class handles easily.","use":"Makes the learning cost concrete and connects sleep directly to performance in class."},
+{"angle":"Ripple effects on families","example":"A later bell pushes dismissal into the evening, so a student who minds younger siblings or works a part-time shift loses the hours that made those duties possible.","use":"Tests the claim: a benefit for sleep can create costs elsewhere that a strong essay must weigh."},
+{"angle":"Bedtime creep","example":"After the bell moves, some students simply stay up later on their phones, so their total sleep barely changes.","use":"Tests the link between the reason and the claim, and suggests pairing the change with attention to evening habits."}
+],
+"counter":{"objection":"A later start disrupts buses, sports and parents' work schedules, and teenagers may just go to bed later, erasing any gain.","response":"Concede that logistics are real and that some bedtime creep is likely; answer that the biological shift is not chosen, so part of the gain persists, and that logistics are problems of design, such as staggered bus routes, rather than reasons to keep a timetable that conflicts with how students learn."},
+"outline":[
+"Intro: accept the reason that sleep shapes learning, then state how far it supports a later start.",
+"Body 1: why the reason is sound: the adolescent body clock and the cost of learning while drowsy.",
+"Body 2: whether a later start actually delivers more sleep, including the risk of bedtime creep.",
+"Body 3 (counter): logistics and family costs; concede them and show which can be designed around.",
+"Conclusion: a later start is justified when planned with transport and evening habits in mind."
+],
+"pitfalls":[
+"Arguing only that sleep is good without asking whether a later start actually produces more sleep, the gap between the reason and the claim.",
+"Ignoring the practical consequences, such as transport, after-school jobs and sports, that the claim must survive.",
+"Treating all teenagers as the same and missing early risers, long commutes or students with family duties."
+]
+},
+{
+"promptId":"p19",
+"thesisOptions":[
+{"stance":"agree","thesis":"Governments should fund the arts, and the reason, though dramatic, captures something real: shared stories, music and buildings are how a society recognises itself, and markets alone produce too few of them."},
+{"stance":"qualified","thesis":"Public arts funding is justified, but the reason is overstated, since no society is ever without art; the real case is that funding preserves forms the market neglects and widens who can take part in shaping a shared identity."},
+{"stance":"disagree","thesis":"Governments should be cautious about funding the arts, because the reason assumes art needs the state, whereas art has long thrived on private patrons and popular audiences, and state money can tilt it toward official taste."}
+],
+"ideaBank":[
+{"angle":"Traditions that survive unfunded","example":"Work songs and quilt patterns passed down in rural families persisted for generations without any public money.","use":"Tests the reason: a society is rarely truly without art, so the case for funding must rest on something narrower."},
+{"angle":"Fragile forms","example":"A regional puppet theatre whose craft is known by only a few elderly masters will close unless someone pays apprentices to learn it.","use":"Supports funding as preservation where audiences are too small for the market to sustain the art."},
+{"angle":"Official taste","example":"A ministry grants money only to works celebrating the nation's founding story, and artists who question that story find themselves shut out.","use":"Tests the claim: funding can narrow a society's identity instead of expressing it, which argues for independent, arm's-length grant bodies."},
+{"angle":"Wider participation","example":"A funded mural programme in a neglected district invites residents to paint scenes from their own neighbourhood's history.","use":"Supports the reason in a refined form: funding broadens who gets to shape a shared identity."}
+],
+"counter":{"objection":"Tax money has urgent competing uses such as hospitals and schools, many citizens do not value the art that gets funded, and popular art sustains itself without help.","response":"Concede that priorities matter and that funding should be modest and independent of politics; answer that arts budgets are small next to those needs and that funding targets what popularity alone cannot sustain: heritage crafts, experimental work and access in poorer areas."},
+"outline":[
+"Intro: evaluate the claim and the reason separately; support funding while calling the reason overstated.",
+"Body 1: where the reason holds: fragile traditions and shared spaces that markets will not preserve.",
+"Body 2: where the reason fails: art that thrives without the state, and the risk of official taste.",
+"Body 3 (counter): competing priorities; concede scale and independence, answer with targeted funding.",
+"Conclusion: fund the arts for preservation and participation, at arm's length, rather than to save an identity that is never wholly lost."
+],
+"pitfalls":[
+"Accepting the dramatic reason at face value instead of testing whether a society can actually be without art.",
+"Defending art in general rather than government funding specifically, which is what the claim proposes.",
+"Ignoring the risk that state money shapes which art, and whose identity, receives support."
+]
+},
+{
+"promptId":"p20",
+"thesisOptions":[
+{"stance":"agree","thesis":"Remote work should be the default for office jobs, because control over one's time, with no commute and more flexible hours, lets most employees work when they are sharpest, while offices remain available for tasks that truly need them."},
+{"stance":"qualified","thesis":"Remote work should be widely available, but making it the default rests on a reason that is only half true: it gives employees control over their time while often taking away informal learning and clear boundaries between work and home."},
+{"stance":"disagree","thesis":"Remote work should not be the default, because the reason mistakes flexibility for control: many remote employees find their evenings filled with messages, and new staff lose the in-person guidance that builds careers."}
+],
+"ideaBank":[
+{"angle":"The commute returned","example":"An analyst who spent two hours a day on trains now uses that time for exercise and collecting her children from school.","use":"Supports the reason with a concrete gain in control over time."},
+{"angle":"The always-on trap","example":"A remote team gradually comes to expect replies late in the evening, because no one ever physically leaves the office.","use":"Tests the reason: flexibility can quietly turn into less control, not more."},
+{"angle":"Learning by overhearing","example":"A new graduate working from home never hears how a senior colleague calms an angry client on the phone.","use":"Tests the claim: the costs of a remote default fall unevenly on newcomers."},
+{"angle":"Default is not exclusive","example":"A firm makes remote work the default but gathers each team in person two days a month for planning and mentoring.","use":"Supports a qualified thesis by showing that a default can preserve the benefits of the office."}
+],
+"counter":{"objection":"Collaboration, creativity and mentoring depend on unplanned in-person contact, so a remote default weakens teams and slows the development of junior staff.","response":"Concede that some interaction is hard to replace, especially for newcomers; answer that a default can include scheduled in-person time and that the benefits of chance encounters, though real, do not justify a daily commute for everyone."},
+"outline":[
+"Intro: separate the claim from the reason; judge whether remote work truly gives control over time and whether that justifies a default.",
+"Body 1: where the reason holds: commutes, flexible hours, work fitted around life.",
+"Body 2: where it fails: always-on expectations and blurred boundaries at home.",
+"Body 3 (counter): mentoring and collaboration; concede the cost to newcomers, answer with a hybrid default.",
+"Conclusion: a remote default is justified if it protects both time boundaries and in-person learning."
+],
+"pitfalls":[
+"Listing the general pros and cons of remote work without evaluating the specific reason, control over one's time.",
+"Overlooking that a default differs from a requirement, a distinction strong essays use to refine their position.",
+"Generalising from one kind of worker and ignoring jobs, homes or career stages where remote work reduces control."
+]
+},
+{
+"promptId":"p21",
+"thesisOptions":[
+{"stance":"agree","thesis":"The tax is a sound policy, because its likeliest consequences, reformulated drinks, lower consumption and revenue for health programmes, outweigh its costs, provided the revenue visibly returns to the communities that pay most of it."},
+{"stance":"qualified","thesis":"A tax on sugary drinks can improve public health, but only within a broader package: on its own it falls hardest on low-income households and invites substitution, so its value depends on how it is designed and how the revenue is spent."},
+{"stance":"disagree","thesis":"The tax is a poor instrument, because its predictable consequences, a regressive burden, switching to untaxed sweets and shopping across borders, may cost the poor more than they improve anyone's health."}
+],
+"ideaBank":[
+{"angle":"Producers reformulate","example":"Faced with a tax that applies only above a certain sugar level, a drinks maker quietly reduces the sugar in its best-selling soda to fall below the threshold.","use":"Supports the policy: a consequence that reaches consumers who never respond to price changes."},
+{"angle":"A regressive burden","example":"A family on a tight budget that buys soft drinks every week pays a larger share of its income in the tax than a wealthy household does.","use":"Tests the policy on fairness and points to a condition, returning the revenue to those who pay it."},
+{"angle":"Substitution","example":"Shoppers who switch from taxed cola to untaxed fruit juice or sweets may end up consuming nearly as much sugar as before.","use":"Tests effectiveness and argues for defining the tax by sugar content rather than by product type."},
+{"angle":"A signal beyond the price","example":"The public debate around the tax leads parents to read labels and a school board to remove sugary drinks from its vending machines.","use":"Supports the policy with a cultural consequence that can outlast the price change itself."}
+],
+"counter":{"objection":"The tax is paternalistic and regressive: adults should be free to choose what they drink, and the poor pay the most for a policy designed by the comfortable.","response":"Concede that liberty and fairness are real costs; answer that the tax bans nothing and only prices in health costs that everyone shares, and that earmarking revenue for those who pay most turns a regressive tax into a transfer toward their health."},
+"outline":[
+"Intro: frame the question as one of consequences; support the tax only in a tiered, revenue-returning form.",
+"Body 1: the most promising consequence: producers reformulating to escape the tax.",
+"Body 2: the cultural consequence: labels read, vending machines changed, attitudes shifted.",
+"Body 3 (counter): regressive burden, substitution and cross-border shopping; concede and answer with design.",
+"Conclusion: a modest but genuine gain if the government designs for the dangers; a cash grab from the poor if it ignores them."
+],
+"pitfalls":[
+"Arguing about whether sugar is unhealthy instead of weighing what the tax will actually cause, which is what the policy directions require.",
+"Listing only the intended consequences and ignoring side effects such as the regressive burden, substitution or cross-border shopping.",
+"Treating the policy as all-or-nothing instead of letting the consequences shape conditions such as a tiered design or earmarked revenue."
+],
+"samples":[
+{
+"score":6,
+"essay":[
+"A tax on sugary drinks is easy to defend in principle and easy to mock in practice. Whether it improves public health depends less on the intention behind it than on what actually follows once prices rise. Weighing those consequences, I support the policy, but only in a form that is tiered by sugar content and whose revenue visibly returns to the households that pay most of it; without those features, its costs could outweigh its benefits.",
+"The most promising consequence is not that consumers drink less, but that producers change what they sell. If the tax applies only above a certain sugar level, manufacturers have a strong incentive to reformulate their products to fall below it. A buyer who never notices the price change may still consume less sugar simply because the recipe of a favourite soda has quietly changed. This effect reaches precisely the people least likely to respond to health campaigns, and it costs them nothing at the till.",
+"A second consequence is cultural. A visible tax, debated in newspapers and at kitchen tables, signals that a familiar product carries a real cost. Parents may begin reading labels; school boards may reconsider which drinks fill their vending machines. Such shifts are hard to measure, but they can outlast the policy itself, much as warnings on cigarette packets helped change attitudes well beyond the price of a pack.",
+"The strongest case against the tax rests on its less welcome consequences. Because poorer households spend a larger share of their income on food and drink, they would pay a larger share of the tax, which makes it regressive. Shoppers might also switch to untaxed sweets or fruit juices, or cross a nearby border to buy cheaper drinks, leaving their sugar intake almost unchanged. These are serious objections, and a crude flat tax would deserve them. But they argue for better design rather than abandonment. Revenue earmarked for school meals, drinking fountains or local clinics would return the money to those who bear the burden, and a tax defined by sugar content rather than by product category is harder to evade by switching drinks. Cross-border shopping, meanwhile, is a real problem mainly in towns near a frontier, not for a nation as a whole.",
+"The tax, then, is neither a cure nor a mere cash grab. Its value lies in the incentives it creates for producers and the conversation it starts among consumers, and its dangers lie in who pays and how easily it can be dodged. A government that designs for those dangers can reasonably expect a modest but genuine gain in public health; one that ignores them will mainly raise money from the poor."
+],
+"annotations":[
+{"quote":"depends less on the intention behind it than on what actually follows once prices rise","note":"Frames the whole essay around consequences, exactly as the policy directions ask, instead of debating whether sugar is bad."},
+{"quote":"but only in a form that is tiered by sugar content and whose revenue visibly returns","note":"The position is shaped by the consequences the essay will weigh, a hallmark of a qualified, insightful thesis."},
+{"quote":"The most promising consequence is not that consumers drink less, but that producers change what they sell.","note":"An unexpected but well-reasoned angle; raters reward analysis that goes beyond the obvious price effect."},
+{"quote":"Such shifts are hard to measure","note":"An honest qualification that keeps the argument credible without inventing figures."},
+{"quote":"But they argue for better design rather than abandonment.","note":"A concise pivot that answers the strongest objections by turning them into conditions of the policy."},
+{"quote":"Cross-border shopping, meanwhile, is a real problem mainly in towns near a frontier, not for a nation as a whole.","note":"Weighs an objection by its scale instead of dismissing it, showing proportionate judgement."},
+{"quote":"one that ignores them will mainly raise money from the poor","note":"The conclusion ends on a sharp, balanced contrast that restates the condition, not merely the stance."}
+],
+"whyThisScore":"The essay takes an insightful, conditional position that follows the policy directions by weighing likely consequences on both sides and letting them shape its view. Each body paragraph develops one consequence with a concrete, plausible scenario, and the counter paragraph addresses the strongest objections in proportion before answering them with specific design choices. Focus and organisation are sustained throughout, and the language is fluent and precise with no meaningful errors.",
+"toReachNext":[
+"Merge the first two sentences of the introduction so the thesis arrives one sentence sooner.",
+"Add one sentence on what happens if producers refuse to reformulate, to show the policy still works through price in that case.",
+"Make the tobacco comparison more exact by saying which feature of packet warnings the sugar tax resembles.",
+"Shorten the counter paragraph's list of objections slightly so the reply has more room."
+]
+},
+{
+"score":4,
+"essay":[
+"I think a tax on sugary drinks is a good policy for improving public health. Sugary drinks cause many health problems like obesity and diabetes, and a tax would make people buy less of them. There are some negative effects too, but overall the positive effects are bigger.",
+"The main consequence of the tax is that drinks will become more expensive. When something costs more, people usually buy less of it. For example, a student who buys a soda every day after school might decide to drink water instead if the price goes up. Over time this could lead to better health for many people, and fewer people would need to go to the doctor for problems caused by sugar. This would also save money for the health system.",
+"Another consequence is that the government will get money from the tax. This money could be used for good things, like sports programs for children or campaigns that teach people about healthy eating. In this way the tax helps twice, first by making people drink less soda and second by paying for health programs. However, the government must actually spend the money on health, otherwise people will think the tax is just a way to get more money.",
+"On the other hand, some people argue that the tax is unfair to poor people, since they will have to pay more. This is true, but poor people also suffer the most from health problems, so they will benefit the most when they drink less sugar. Others say people should be free to choose what they drink. But the tax does not ban anything, people can still buy soda if they want. In conclusion, the sugar tax has some disadvantages but it is a good way to improve public health and the government should introduce it."
+],
+"annotations":[
+{"quote":"a tax would make people buy less of them","note":"States the key consequence as a certainty; the essay never considers that people might switch to other sugary products."},
+{"quote":"For example, a student who buys a soda every day after school might decide to drink water instead","note":"A concrete, relevant example that makes the price effect easy to picture."},
+{"quote":"However, the government must actually spend the money on health","note":"A genuine insight, a condition that follows from weighing consequences, but it is mentioned once and never developed."},
+{"quote":"so they will benefit the most when they drink less sugar","note":"Answers the fairness objection with an assumption that poorer buyers will actually cut back, which the essay has not shown."},
+{"quote":"But the tax does not ban anything, people can still buy soda if they want.","note":"A fair point, but a one-line reply to a serious objection, and the comma splice is a small lapse in control."},
+{"quote":"the sugar tax has some disadvantages but it is a good way","note":"The conclusion is tacked onto the counter paragraph and repeats the thesis without the condition the essay found."}
+],
+"whyThisScore":"The essay takes a clear position and organises its body around consequences of the policy, with one well-chosen example and a sensible point about how revenue is spent. Its analysis stays at the surface: the price effect is assumed rather than examined, side effects like substitution are missing, and both objections are answered in a sentence. Language is clear with a few minor errors, which fits the competent but limited profile of a 4.",
+"toReachNext":[
+"Weigh at least one unintended consequence, such as switching to untaxed sweets, and explain how the policy could be designed to limit it.",
+"Develop the earmarking point into a full condition of your thesis, for example by naming what the revenue should fund and why that answers the fairness objection.",
+"Give the conclusion its own paragraph and let it state the conditional view rather than the bare stance.",
+"Replace the opening claim about health problems with a sentence that frames the essay around consequences of the tax."
+]
+},
+{
+"score":2,
+"essay":[
+"I agree with this policy because sugar is very bad for health. Many people drink to much soda and they get fat and sick. The goverment should do something about it and a tax is a good idea. When the drinks cost more people will stop buying them and they will be healthy. Some people will say it is not fair but health is more important than money. Also the goverment gets money from the tax which is good.",
+"Sugar is in a lot of things not only drinks, it is in candy and cakes and cereal too. So maybe the goverment should tax all of those things also. In conclusion the tax on sugary drinks is a good policy because sugar is bad and people need to be more healthy and the tax will help them."
+],
+"annotations":[
+{"quote":"because sugar is very bad for health","note":"Argues about sugar rather than about the policy; the directions ask what the tax will cause."},
+{"quote":"When the drinks cost more people will stop buying them and they will be healthy.","note":"An overstated consequence with no reasoning or example; nothing explains why people would stop entirely."},
+{"quote":"Some people will say it is not fair but health is more important than money.","note":"Raises an objection and dismisses it in a phrase; acknowledging it is a small credit, but there is no analysis."},
+{"quote":"Also the goverment gets money from the tax which is good.","note":"Names a real consequence but never says how the money would be used or why that matters."},
+{"quote":"So maybe the goverment should tax all of those things also.","note":"Drifts into a new proposal; the writer misses that candy and cakes show people could switch away from taxed drinks."},
+{"quote":"drink to much soda","note":"One of several recurring errors ('to much', 'goverment', a comma splice); the text stays readable, but control is weak."}
+],
+"whyThisScore":"The response states a position but largely disregards the directions: it argues that sugar is unhealthy instead of weighing the consequences of the tax. Its claims are unsupported, the one objection is dismissed, and the second paragraph drifts toward a different policy. Recurring spelling and punctuation errors weaken control, though meaning remains clear, which matches a 2.",
+"toReachNext":[
+"Refocus on consequences: choose two effects of the tax, one helpful and one harmful, and explain each with a short scenario.",
+"Turn the observation about candy and cereal into an argument: if people switch to untaxed sweets, what does that mean for the policy?",
+"Answer the fairness objection with a reason, for example by suggesting how the revenue could help the people who pay most.",
+"Proofread for the recurring errors ('too', 'government', run-on sentences) in the final minutes."
+]
+}
+]
+},
+{
+"promptId":"p22",
+"thesisOptions":[
+{"stance":"agree","thesis":"The requirement is worth adopting, because its likely consequences, students who recognise ethical questions in their own fields and a shared vocabulary across disciplines, outweigh the cost of one course."},
+{"stance":"qualified","thesis":"An ethics requirement can do real good, but its consequences depend on design: a course built on dilemmas from students' own disciplines is likely to stick, whereas a generic lecture may breed cynicism."},
+{"stance":"disagree","thesis":"The policy is likely to disappoint, because a mandatory course for first-year students, who have not yet met the dilemmas of their fields, may produce box-ticking rather than better judgement while taking a place from courses they need."}
+],
+"ideaBank":[
+{"angle":"Cases from one's own field","example":"In a section for engineering students, the class debates whether a junior engineer should report a supplier who falsified a safety test.","use":"Supports the policy: dilemmas tied to a student's future work make the course memorable and useful."},
+{"angle":"Box-ticking","example":"Students memorise the names of ethical theories for a multiple-choice exam and forget them within a term.","use":"Tests the policy: a requirement can produce compliance without reflection."},
+{"angle":"A crowded timetable","example":"A nursing student whose programme is already full must postpone a laboratory course to fit in the required ethics class.","use":"Weighs the opportunity cost that falls hardest on students in demanding programmes."},
+{"angle":"A shared vocabulary","example":"Years later, a computer science student and a philosophy student on the same project can discuss consent in data collection using terms they both learned.","use":"Supports the policy with a long-term consequence that reaches beyond the course itself."}
+],
+"counter":{"objection":"Ethics cannot be taught in a classroom: character is formed long before university, and adults resent being lectured on morality.","response":"Concede that a course will not make anyone good; answer that it can train the skill of recognising and reasoning through dilemmas, and that resentment depends on whether the course preaches answers or examines questions."},
+"outline":[
+"Intro: frame the policy by its likely consequences; support it if it is built around real dilemmas.",
+"Body 1: the main benefit: students who can spot ethical questions in their own future work.",
+"Body 2: the risks: box-ticking, cynicism and the cost to crowded first-year timetables.",
+"Body 3 (counter): ethics cannot be taught; concede character, answer with reasoning as a skill.",
+"Conclusion: the requirement is worthwhile when designed around disciplines and questions, not sermons."
+],
+"pitfalls":[
+"Arguing whether ethics matters in general instead of weighing what this particular requirement is likely to produce.",
+"Ignoring the details 'first-year' and 'all students', whose timing and universality drive many of the consequences.",
+"Assuming the course will work as intended without considering cynicism, box-ticking or lost course places."
+]
+},
+{
+"promptId":"p23",
+"thesisOptions":[
+{"stance":"agree","thesis":"The cap is a sensible policy, because protecting fragile streets and residents' daily lives preserves the very attraction tourism depends on, and a predictable limit spreads visits more evenly."},
+{"stance":"qualified","thesis":"A daily cap can save a historic centre, but its consequences, lost income for small businesses and access that may favour wealthier visitors, mean it works only when paired with a booking system that keeps entry fair."},
+{"stance":"disagree","thesis":"A hard cap is a blunt tool, because its likely consequences, shops losing trade, visitors pushed into nearby villages and a centre reserved for the few, may be worse than managing crowds through timing and pricing."}
+],
+"ideaBank":[
+{"angle":"Wear on old stone","example":"Centuries-old stone steps worn into hollows by daily crowds need expensive repairs every few years.","use":"Supports the cap: physical damage is a real and lasting cost of unlimited visits."},
+{"angle":"Residents moving out","example":"A baker who lived above her shop moves away because her street is impassable every afternoon, and the centre loses another piece of everyday life.","use":"Supports the cap: it protects a living town rather than a stage set."},
+{"angle":"A café's lost season","example":"A family café that depends on summer crowds sees its takings fall sharply once the cap is introduced.","use":"Tests the policy: the cap creates clear losers who must be weighed."},
+{"angle":"Displacement","example":"Tourists turned away from the centre crowd into a nearby village that has no parking, toilets or guides for them.","use":"Tests the policy with a consequence beyond the town and argues for regional planning."}
+],
+"counter":{"objection":"Tourism is the town's economic lifeline; a cap cuts income and jobs and limits people's access to a shared heritage.","response":"Concede that the economic cost is real, especially for small businesses; answer that unchecked crowds eventually destroy the attraction itself, that fewer visitors staying longer can spend more, and that free reserved places can protect fair access."},
+"outline":[
+"Intro: weigh the cap by its consequences; support it with conditions on how places are allocated.",
+"Body 1: what the cap protects: fragile buildings and the residents who keep the centre alive.",
+"Body 2: what it costs: lost trade, unequal access and displacement to nearby places.",
+"Body 3 (counter): tourism as lifeline; concede the income loss, answer with long-term preservation and fair booking.",
+"Conclusion: a cap is justified when it is designed to spread visits and keep access fair."
+],
+"pitfalls":[
+"Discussing tourism in general instead of the specific consequences of a daily numerical limit.",
+"Weighing only the town's benefits while ignoring who is excluded and where the turned-away visitors go.",
+"Failing to let consequences shape conditions, such as how places are allocated, priced and enforced."
+]
+},
+{
+"promptId":"p24",
+"thesisOptions":[
+{"stance":"agree","thesis":"A maximum age is a reasonable safeguard, because its consequences, a lower risk of a leader declining in office and more regular renewal of leadership, outweigh the loss of a few capable older candidates."},
+{"stance":"qualified","thesis":"An age limit addresses a real risk, but its consequences are mixed: it excludes some able leaders while missing decline that comes earlier, so it is defensible only if set high and paired with less arbitrary safeguards."},
+{"stance":"disagree","thesis":"The policy should be rejected, because it overrides voters' judgement on the basis of a crude proxy, excluding experienced candidates while doing nothing about incapacity that can strike at any age."}
+],
+"ideaBank":[
+{"angle":"Voters lose a choice","example":"In a hypothetical election, the candidate whom most voters trust is barred from standing because she has passed the age limit by a few months.","use":"Tests the policy: its central cost is removing a choice from citizens."},
+{"angle":"Hidden decline","example":"A leader's advisers conceal his growing confusion for months, and no rule forces anyone to disclose it.","use":"Supports concern about capacity but shows an age cap targets a symptom, which argues for capacity procedures as well."},
+{"angle":"Planned succession","example":"Knowing their leader must step aside at a fixed age, a party trains younger successors years in advance instead of relying on one dominant figure.","use":"Supports the policy with a structural consequence that goes beyond any single leader."},
+{"angle":"The minimum-age parallel","example":"Many constitutions already set a minimum age for high office, accepting age as a rough stand-in for maturity.","use":"Supports the policy by analogy, and also tests it: a minimum excludes the unproven, while a maximum excludes the proven."}
+],
+"counter":{"objection":"Age is a crude proxy for fitness; voters can judge capacity themselves, and experience grows with age.","response":"Concede that the line is arbitrary and will exclude some able people; answer that voters often lack reliable information about a leader's health, that parties tend to shield incumbents, and that a high limit affects few candidates while giving a clear, predictable rule."},
+"outline":[
+"Intro: weigh the policy by its consequences for leaders, parties and voters; state a conditional view.",
+"Body 1: the benefit: reduced risk of decline in office and planned succession.",
+"Body 2: the costs: excluded candidates, voters' lost choice and decline that comes earlier than any limit.",
+"Body 3 (counter): age as a crude proxy; concede, then answer with the limits of voters' information.",
+"Conclusion: defensible only if set high and combined with term limits or health disclosure."
+],
+"pitfalls":[
+"Debating whether older people are capable in general instead of weighing the policy's consequences for elections, parties and voters.",
+"Ignoring that the limit removes a choice from voters, its most important democratic cost.",
+"Offering no conditions, such as where the line sits or whether alternatives like term limits would achieve the same goal."
+]
+}
+]}

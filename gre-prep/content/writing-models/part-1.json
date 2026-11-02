@@ -1,0 +1,390 @@
+{
+ "models": [
+  {
+   "promptId": "p01",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "For the growing number of readers who own a device and a reliable connection, the public library's role as a place to obtain books is shrinking, and that core function is what made libraries indispensable in the first place."},
+    {"stance": "qualified", "thesis": "Screens have reduced the library's importance as a lending counter for well-connected readers, but they have not reduced, and in some ways have increased, its importance as a free public space and a point of access for people the digital shift leaves behind."},
+    {"stance": "disagree", "thesis": "The claim mistakes a library for a book warehouse; because libraries now matter chiefly as staffed public spaces, the spread of screen reading leaves their value intact and in some communities raises it."}
+   ],
+   "ideaBank": [
+    {"angle": "The digital access gap", "example": "A pensioner with an old phone but no laptop or home internet must submit a benefits form that is now available only online; the branch computer and a staff member's help are his only route.", "use": "Shows that moving reading and paperwork onto screens can make libraries more necessary for some groups, which tests the claim's premise against its conclusion."},
+    {"angle": "Space, not books", "example": "A teenager who shares a small flat with three siblings has every textbook on her phone but nowhere quiet to work until the library opens after school.", "use": "Separates the library's value as a place from its value as a collection, undercutting the idea that digital texts replace it."},
+    {"angle": "Not everything is digitised", "example": "A town's local newspapers from the mid-twentieth century survive only on microfilm in the central branch, and a family historian needs a librarian to locate the right reels.", "use": "Challenges the premise that almost any book can be read on a screen and shows a kind of material no download supplies."},
+    {"angle": "Where the claim holds", "example": "A commuter with an e-reader buys or borrows every novel digitally on the train and has not entered a library in years.", "use": "Gives the statement its strongest case, so the essay can concede that lending matters less for some readers before limiting the claim."}
+   ],
+   "counter": {
+    "objection": "If fewer people borrow physical books, cities cannot justify paying for large buildings and printed collections, so libraries really are becoming less important as public investments.",
+    "response": "Concede that a branch whose only function is lending print to readers who could read online is hard to defend, then argue that this supports redirecting library budgets toward computers, study space, training and local archives, not the conclusion that libraries matter less; the objection measures libraries by borrowing alone."
+   },
+   "outline": [
+    "Intro: Grant that screens weaken the library's lending role for connected readers; state a qualified thesis that its public-space and access roles matter as much or more.",
+    "Body 1: Where the claim holds: readers with devices and fast connections, and the declining weight of print lending.",
+    "Body 2: Where it fails: people without devices or skills, for whom online services make the library more necessary (pensioner example).",
+    "Body 3 (counter): The budget objection; concede that pure lending branches are hard to defend, answer that the right response is to change what libraries fund.",
+    "Conclusion: The claim is true for the library as a book source and false for the library as a public institution."
+   ],
+   "pitfalls": [
+    "Arguing only that books and reading are valuable, which defends reading rather than libraries and never engages the screen-reading premise.",
+    "Ignoring the statement instructions by giving no situation where the claim holds; a strong essay names the readers for whom lending really matters less.",
+    "Treating the because-clause as settled fact without asking whether almost any book truly is available on a screen, or available to everyone."
+   ],
+   "samples": [
+    {
+     "score": 6,
+     "essay": [
+      "The claim treats a public library as a warehouse of books, and on that narrow view it has a point: if the only reason to visit a library were to borrow a text, a tablet that can download that text in seconds would make the trip unnecessary. But the premise that almost any book can be read on a screen is weaker than it sounds, and the conclusion rests on a picture of libraries that has been out of date for decades. I agree that libraries matter less as lending counters for readers who already own devices and fast connections; I disagree that they matter less overall, because their most important work is serving the people and purposes that screens leave out.",
+      "Consider first who actually has the screen. A retired bus driver living on a pension may own an old phone but no laptop, no printer and no home internet plan. When a government office moves its forms online, his library's public computers and the staff member who shows him how to upload a scanned document are not a convenience but the only route to a service he is entitled to. For people like him, the move of reading and paperwork onto screens has made the library more necessary, not less. The same digital shift the claim celebrates creates a group of people who depend on a free, staffed point of access.",
+      "Second, a library offers something that a download cannot: a quiet, heated, public room that asks nothing of the people who use it. A teenager sharing a crowded flat with three siblings may have every textbook on her phone and still have nowhere to concentrate. A parent who brings a toddler to a weekly story hour is not there for the book, which could be read at home, but for the company of other parents and for a child's first experience of a shared space with rules. These uses do not appear in borrowing figures, which is why a library can look less important on paper while it remains central to a neighbourhood.",
+      "The strongest objection is financial. If fewer people borrow physical books, a city may reasonably ask why it should pay for large buildings and printed collections, and a library that refuses to change does risk becoming a costly monument. That point deserves to be conceded: a branch whose only function is lending print to readers who could easily read online is hard to defend. Yet the conclusion this supports is that libraries should shift their spending toward computers, study space, training and local archives, not that they matter less. The objection measures libraries by the wrong output.",
+      "The claim is therefore true in a limited sense and false in the sense that counts. Screens have reduced the importance of the library as a place to obtain a text, especially for affluent, well-connected readers. They have not reduced, and have in some ways increased, its importance as a public space and as a bridge for those whom a screen-based world tends to leave behind."
+     ],
+     "annotations": [
+      {"quote": "I agree that libraries matter less as lending counters for readers who already own devices and fast connections; I disagree that they matter less overall", "note": "A qualified thesis that names exactly where the statement holds and where it fails, which is what the statement instructions ask for; raters reward a position shaped by both kinds of situation."},
+      {"quote": "the premise that almost any book can be read on a screen is weaker than it sounds", "note": "Tests the reason given in the prompt instead of accepting it, a sign of the insightful analysis described at the 6 level."},
+      {"quote": "his library's public computers and the staff member who shows him how to upload a scanned document", "note": "A concrete, believable scenario with specific details; it persuades without any invented statistic."},
+      {"quote": "The same digital shift the claim celebrates creates a group of people who depend on a free, staffed point of access.", "note": "Turns the prompt's own premise against its conclusion; this is the kind of compelling reasoning that separates a 6 from a 5."},
+      {"quote": "These uses do not appear in borrowing figures", "note": "Explains why the claim seems true (it looks only at lending), which deepens the analysis rather than merely contradicting it."},
+      {"quote": "That point deserves to be conceded", "note": "Gives the strongest objection real weight before answering it, showing a thoughtful, fair-minded position."},
+      {"quote": "The objection measures libraries by the wrong output.", "note": "A short, precise sentence that sums up the reply; varied sentence length and exact wording are part of the fluency raters reward."}
+     ],
+     "whyThisScore": "The essay takes an insightful, qualified position that follows the statement instructions by showing both where the claim holds and where it fails. Each body paragraph develops one reason with a specific, plausible example, and the counter paragraph concedes a real cost before answering it. Organisation is sustained from the thesis to a conclusion that restates the distinction rather than repeating sentences. Language is fluent and precise, with varied syntax and no errors that distract.",
+     "toReachNext": [
+      "Cut the first sentence of the introduction by half; the warehouse image already makes the point, so the tablet clause can be shortened.",
+      "Sharpen the counter-reply with one specific example of a redirected budget, such as a branch that replaced shelving with study desks and a digital help desk.",
+      "In the second body paragraph, tie the story-hour example more explicitly to the thesis so that each example visibly serves the same distinction.",
+      "Replace the general phrase in the sense that counts with a word that names the sense, such as as a public institution."
+     ]
+    },
+    {
+     "score": 4,
+     "essay": [
+      "Some people say that public libraries matter less every year because people can read almost any book on a screen. I partly agree with this, but I think libraries are still important for many people, so overall I disagree with the statement.",
+      "It is true that e-books have changed how people read. Many students today read books on their phones or tablets, and they can get a book instantly without going anywhere. For example my cousin reads all of her novels on an e-reader and has not visited a library in years. For people like her, the library does not matter as much as it used to, and this is the situation where the statement is right.",
+      "However, not everyone has a device or internet at home. Older people and low income families often depend on the library to use computers, print documents or apply for jobs. Libraries also give students a quiet place to study, which is hard to find in a busy home. In addition libraries organize events like reading groups for children, which help children enjoy reading. These things can not be replaced by a screen, so libraries still matter to the community and they are maybe even more important than before for these groups.",
+      "In conclusion, the statement is correct for people who have devices and prefer reading online, but it is wrong for many others. Libraries are changing, and they are becoming more like community centers than just places to borrow books. Because of this, I believe that public libraries are still important and they will continue to be important in the future, even if fewer people go there to borrow books."
+     ],
+     "annotations": [
+      {"quote": "I partly agree with this, but I think libraries are still important for many people, so overall I disagree with the statement.", "note": "The position is clear and on topic, but it is stated loosely; partly agree and overall disagree are never reconciled into one precise thesis."},
+      {"quote": "For example my cousin reads all of her novels on an e-reader", "note": "A relevant example that shows where the claim holds, which follows the instructions; a missing comma after For example is a minor slip."},
+      {"quote": "this is the situation where the statement is right", "note": "Good: the essay explicitly marks a case where the claim holds, as the statement instructions require."},
+      {"quote": "Older people and low income families often depend on the library to use computers, print documents or apply for jobs.", "note": "A sound reason, but it is a list of general groups rather than a developed example; one specific case would make it persuasive."},
+      {"quote": "These things can not be replaced by a screen", "note": "Asserts the key point instead of explaining it, and can not should be cannot; this is where the analysis stays competent rather than thoughtful."},
+      {"quote": "they are becoming more like community centers than just places to borrow books", "note": "The most interesting idea in the essay appears only in the conclusion; developed in a body paragraph it could have lifted the score."}
+     ],
+     "whyThisScore": "The essay presents a clear position and supports it with relevant reasons and an example on each side, so it meets the competent profile of a 4. Organisation is adequate, with one paragraph for where the claim holds and one for where it fails. Development is uneven: the second body paragraph lists groups and services without explaining why a screen cannot replace them, and the strongest objection (cost) is never addressed. Language is generally clear, with minor errors such as can not and missing commas.",
+     "toReachNext": [
+      "Merge the two halves of the thesis into one qualified sentence, for example: screens make libraries less important for lending but not as public spaces.",
+      "Replace the list of groups with one developed scenario that shows a specific person who needs the library because services moved online.",
+      "Add a paragraph that states the cost objection and answers it, which would show the thoughtful engagement expected at a 5.",
+      "Move the community-centre idea from the conclusion into the body and develop it with reasons."
+     ]
+    },
+    {
+     "score": 2,
+     "essay": [
+      "Libraries are not as important now because of technology. Everybody have a phone and you can read any book on the phone so why go to the library. Libraries are also very old fashioned and it is too quiet there. Many people dont go anymore. But libraries are still good for some people who like books. Books are important for education and education is important for everyone. Libraries help education. So libraries are important but less important than before because of the screens. In the future maybe there will be no libraries because everything will be on the internet and screens. I think this is true but also libraries are good. Technology is changing everything in the world and libraries have to change too or they will disappear."
+     ],
+     "annotations": [
+      {"quote": "Everybody have a phone and you can read any book on the phone so why go to the library.", "note": "Repeats the prompt's premise as fact with an overgeneralisation and a subject-verb error; there is no reason or example behind it."},
+      {"quote": "it is too quiet there", "note": "A personal preference offered as an argument; it does not address whether libraries matter to a community."},
+      {"quote": "But libraries are still good for some people who like books.", "note": "Gestures at a case where the claim fails, which is the right instinct, but never says who these people are or why the library matters to them."},
+      {"quote": "Books are important for education and education is important for everyone. Libraries help education.", "note": "Circular, repetitive sentences that fill space without adding analysis, a hallmark of the 2 level."},
+      {"quote": "I think this is true but also libraries are good.", "note": "The position shifts back and forth, so the reader cannot tell what the writer believes; the essay lacks a controlling thesis."},
+      {"quote": "libraries have to change too or they will disappear", "note": "A potentially useful idea that arrives in the last sentence with no development or connection to the rest."}
+     ],
+     "whyThisScore": "The response is on topic but shows serious weaknesses in analysis and organisation. It has no consistent position, no developed reason and no example, and it largely ignores the instruction to examine situations where the statement does and does not hold. Ideas are repeated in a single unbroken paragraph, and errors such as Everybody have and dont recur, although the meaning remains readable.",
+     "toReachNext": [
+      "Choose one position and state it in the first sentence, for example: libraries matter less for borrowing but still matter as public spaces.",
+      "Split the response into paragraphs, each with one reason and one specific example of a person or situation.",
+      "Name one situation where the statement is true and one where it is false, as the instructions require.",
+      "Delete the circular sentences about education and use the space to explain a single reason fully."
+     ]
+    }
+   ]
+  },
+  {
+   "promptId": "p02",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "Failure usually teaches more than success because it forces a person to diagnose what went wrong, whereas success tempts people to credit their method without checking whether luck or circumstance played the larger part."},
+    {"stance": "qualified", "thesis": "Failure teaches more than success only when its cause is visible and its cost survivable; when feedback is absent or the setback is crushing, success is the better teacher because it shows a method worth repeating."},
+    {"stance": "disagree", "thesis": "Success teaches at least as much as failure, because it reveals what works and builds the confidence needed to keep practising, while failure without clear feedback often teaches nothing but discouragement."}
+   ],
+   "ideaBank": [
+    {"angle": "Failure forces diagnosis", "example": "A home baker whose loaf collapses three weekends running starts timing the rise and measuring the oven temperature, and discovers she has been under-proofing the dough.", "use": "Illustrates the mechanism behind the claim: a visible failure prompts the careful analysis that a lucky success never triggers."},
+    {"angle": "Success reveals a repeatable method", "example": "A junior lawyer wins her first hearing and then reviews her notes to see which line of questioning moved the judge, turning that approach into a habit.", "use": "Tests the claim by showing that reflection on success can be just as instructive when the person bothers to examine it."},
+    {"angle": "Failure without feedback", "example": "A graduate rejected by many employers with no explanation learns only that something is wrong, not what, and gradually stops applying.", "use": "Shows a condition under which the claim fails: failure teaches only when its cause can be identified."},
+    {"angle": "Engineering lessons from collapse", "example": "The 1940 collapse of the Tacoma Narrows Bridge, which twisted apart in moderate wind, pushed engineers to test bridge designs for aerodynamic stability.", "use": "A historical case where a public failure produced knowledge that many earlier successful bridges had not, supporting the claim in high-stakes technical fields."}
+   ],
+   "counter": {
+    "objection": "Failure is memorable and painful, so it naturally prompts reflection, while success is easily taken for granted; that is why people really do learn more from what goes wrong.",
+    "response": "Concede that failure grabs attention more reliably than success, then argue that attention is not the same as learning: unless the cause is identifiable and the person can afford to try again, a failure may produce fear or avoidance rather than insight, and a deliberately examined success can teach just as much."
+   },
+   "outline": [
+    "Intro: Acknowledge why the claim feels true; state that failure teaches more only under specific conditions.",
+    "Body 1: Where the claim holds: visible, survivable failures that force diagnosis (baker; bridge engineering).",
+    "Body 2: Where it fails: failures with no feedback or crushing costs, which teach discouragement rather than skill.",
+    "Body 3 (counter): The memorability argument; concede the attention point, answer that examined successes also teach and that attention is not learning.",
+    "Conclusion: What matters is not whether an outcome is good or bad but whether it is examined and its cause visible."
+   ],
+   "pitfalls": [
+    "Writing a motivational essay about never giving up instead of analysing when and why failure actually produces learning.",
+    "Using only personal anecdotes about one exam or match; the statement instructions reward a range of situations in which the claim holds and fails.",
+    "Treating more as all and arguing that success teaches nothing, which sets up an easy target instead of the comparison the claim makes."
+   ]
+  },
+  {
+   "promptId": "p03",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "A city's most important buildings should generally be preserved even at some cost in capacity, because a demolished landmark is gone for good, while the needs it blocks can usually be met on another site."},
+    {"stance": "qualified", "thesis": "Important buildings deserve preservation when the city has realistic alternative sites or can adapt them to new uses, but when the need is urgent and no other land exists, serving more people should take priority."},
+    {"stance": "disagree", "thesis": "When new construction would meet a pressing need such as housing or healthcare, a city should not let even an important building stand in the way, since buildings exist to serve residents rather than the reverse."}
+   ],
+   "ideaBank": [
+    {"angle": "Irreversibility", "example": "The 1963 demolition of New York's original Pennsylvania Station, replaced by a far plainer complex, was widely regretted and helped spur the city's landmark-protection law.", "use": "Supports preservation by showing that the loss is permanent and that later generations may value what the present undervalues."},
+    {"angle": "Adaptive reuse", "example": "A disused nineteenth-century textile mill is converted into flats and workshops, keeping its brick shell while housing more people than a vacant landmark could.", "use": "Shows that the choice between preservation and serving people is often a false one, which lets a qualified thesis keep both values."},
+    {"angle": "Urgent need with no alternative", "example": "A city's only hospital needs a new emergency wing, and the sole adjoining plot holds a handsome but little-used former court building.", "use": "Tests the claim where it is hardest to defend: lives and access to care weighed against architectural value."},
+    {"angle": "Who decides what is important", "example": "A modest terrace of workers' cottages matters deeply to the neighbourhood that grew up there but appears on no official list, while a grand bank building is protected.", "use": "Complicates the claim by asking whose sense of importance counts, refining the thesis beyond a simple yes or no."}
+   ],
+   "counter": {
+    "objection": "Cities exist for their living residents, so refusing to build homes or services for many people in order to keep a building is putting stones before people.",
+    "response": "Concede that a building cannot outrank a basic human need when no alternative exists, then argue that such cases are rarer than they seem: other sites, taller construction nearby or conversion often serve the same number of people, while demolition cannot be undone if the judgement proves wrong."
+   },
+   "outline": [
+    "Intro: Frame the tension between irreplaceable heritage and present need; state a qualified thesis.",
+    "Body 1: Where the claim holds: landmarks whose loss is permanent and widely regretted, and needs that can be met elsewhere.",
+    "Body 2: Where it fails: urgent needs with no alternative site (hospital wing example).",
+    "Body 3 (counter): The people-before-buildings objection; concede the extreme case, answer with adaptive reuse and the irreversibility of demolition.",
+    "Conclusion: Preserve by default, but require the default to yield when need is urgent and alternatives are exhausted."
+   ],
+   "pitfalls": [
+    "Discussing only beauty or history and ignoring the condition in the claim that new construction would serve more people.",
+    "Defining most important buildings so vaguely that every old building counts, which makes the claim impossible to test.",
+    "Taking a one-sided stance without naming any situation where the opposite choice would be right, contrary to the statement instructions."
+   ]
+  },
+  {
+   "promptId": "p04",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "Beyond a modest number of options, more choice tends to lower satisfaction, because comparing many alternatives raises expectations, consumes time and leaves people wondering whether they picked the wrong one."},
+    {"stance": "qualified", "thesis": "More choice lowers satisfaction for trivial or unfamiliar decisions, but for important decisions people understand well, a wider range of options increases satisfaction by letting them find what truly fits."},
+    {"stance": "disagree", "thesis": "Having more choices generally makes people more satisfied, since the frustration of an overwhelming menu is minor compared with the harm of being stuck with an option that does not suit one's needs."}
+   ],
+   "ideaBank": [
+    {"angle": "Regret after comparison", "example": "A customer spends an evening comparing dozens of nearly identical mobile phone plans, signs up for one, and then keeps noticing cheaper offers he might have chosen.", "use": "Illustrates how many options raise the chance of regret, supporting the claim for low-stakes, hard-to-compare decisions."},
+    {"angle": "Choice paralysis in leisure", "example": "A couple scroll through a streaming catalogue for forty minutes looking for the perfect film and end up going to bed without watching anything.", "use": "A familiar scenario showing that abundant options can reduce enjoyment of the activity itself."},
+    {"angle": "Lack of choice is worse", "example": "A worker in a town with a single large employer has no alternative when conditions worsen, while a worker in a city with many firms can leave a bad job.", "use": "Tests the claim in an important domain where more options clearly protect well-being."},
+    {"angle": "Expertise changes the effect", "example": "An experienced cyclist enjoys weighing frames and gears across many models, while a beginner in the same shop feels lost and leaves with nothing.", "use": "Shows that knowledge moderates the effect of choice, supporting a qualified thesis about when the claim holds."}
+   ],
+   "counter": {
+    "objection": "Freedom to choose is a basic good; people who have no options are clearly worse off than those who must sort through many, so more choice cannot generally reduce satisfaction.",
+    "response": "Concede that having some meaningful choice is far better than having none, especially in jobs, healthcare or housing, then argue that the claim is about the margin: once a few good options exist, adding many more in everyday decisions often adds cost and regret without adding value."
+   },
+   "outline": [
+    "Intro: Distinguish having some choice from having very many; state that the claim holds for some kinds of decisions and not others.",
+    "Body 1: Where the claim holds: low-stakes, hard-to-compare choices that breed regret (phone plans, streaming).",
+    "Body 2: Where it fails: high-stakes choices where options protect people (single-employer town) and choices made by people with expertise.",
+    "Body 3 (counter): The freedom objection; concede that zero choice is worse, answer that the claim concerns abundance beyond a sufficient set.",
+    "Conclusion: Satisfaction depends on the stakes of the decision and the chooser's knowledge, not on the number of options alone."
+   ],
+   "pitfalls": [
+    "Agreeing or disagreeing absolutely, when the claim invites a distinction between a few options and an overwhelming number.",
+    "Relying on a vague sense that modern life is stressful instead of specific decisions where choice raised or lowered satisfaction.",
+    "Confusing satisfaction with the quality of the outcome; a person can pick a better product and still feel less satisfied, and the essay should keep the two apart."
+   ]
+  },
+  {
+   "promptId": "p05",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "Cities should ban private cars from their central districts, phasing the ban in with exemptions for disabled residents and deliveries, because car-free centres are cleaner, safer and more welcoming wherever people can reach them by other means."},
+    {"stance": "qualified", "thesis": "A ban on private cars makes sense in dense centres already served by frequent public transport, but as a blanket rule it would harm sprawling cities where many workers have no realistic alternative to driving."},
+    {"stance": "disagree", "thesis": "Cities should not ban private cars outright from their centres, because targeted measures such as congestion charges and pedestrian streets capture most of the benefits without cutting off residents who depend on driving."}
+   ],
+   "ideaBank": [
+    {"angle": "Compact historic core", "example": "An old city centre of narrow streets, built for carts and walkers and crossed by several tram lines, is clogged by parked cars that block pavements and crossings.", "use": "A circumstance where the ban removes a cost without removing anyone's access, supporting the recommendation."},
+    {"angle": "Sprawl and thin transit", "example": "A nurse who finishes a night shift at a downtown hospital lives in an outer suburb served by one bus an hour and none after midnight.", "use": "A circumstance where the ban would push essential workers out of jobs or into costly workarounds, arguing against a universal rule."},
+    {"angle": "Staged trial", "example": "A city closes its main shopping street to cars on Sundays for a summer, and shopkeepers who opposed the plan find their weekend trade holding steady or growing.", "use": "Shows how a gradual introduction can test the policy and win support, refining a qualified or conditional thesis."},
+    {"angle": "Small business access", "example": "A family-run hardware shop in the centre depends on customers who load heavy items into their cars, and fears losing them to an out-of-town store with free parking.", "use": "Raises an economic cost of the ban and the need for loading zones or delivery services if the recommendation is adopted."}
+   ],
+   "counter": {
+    "objection": "Public transport improves only when demand exists, so cities should ban cars first and let better buses and trams follow; waiting for perfect transit means waiting forever.",
+    "response": "Concede that car-free schemes have often become popular once residents experience them, then argue that the people inconvenienced during the gap are often those least able to wait, so the better sequence is to expand transit and introduce the ban in stages with permits for disabled drivers, deliveries and emergency services."
+   },
+   "outline": [
+    "Intro: Grant the ban's benefits; state support for it where transit is strong and opposition to it as a universal rule.",
+    "Body 1: Circumstance where it helps: a dense historic core with trams and buses.",
+    "Body 2: Circumstance where it harms: a sprawling city with thin transit (night-shift nurse, centre shops).",
+    "Body 3 (counter): The ban-first argument; concede that support often grows after opening, answer with staging and exemptions.",
+    "Conclusion: Adopt the ban where residents can reach the centre another way; elsewhere build that access first."
+   ],
+   "pitfalls": [
+    "Listing general benefits of fewer cars (pollution, noise) without describing specific circumstances where the ban would and would not work, which the recommendation instructions require.",
+    "Ignoring the word private: an essay that assumes buses, deliveries and emergency vehicles would also be banned argues against a policy no one proposed.",
+    "Treating all cities as alike; the strongest essays show how city layout and transit quality change the answer."
+   ],
+   "samples": [
+    {
+     "score": 6,
+     "essay": [
+      "Banning private cars from a city centre promises cleaner air, safer streets and space returned to pedestrians, and in many places those benefits are real. But a recommendation addressed to all cities ignores how differently cities are built. I support the ban where a dense centre is already served by frequent public transport and where exemptions protect those who cannot walk or ride a bus; I oppose it as a blanket rule, because in a sprawling city with thin transit it would mainly punish the people least able to adapt.",
+      "The case for the ban is strongest in an old, compact centre. Picture a city whose historic core grew up around narrow streets designed for carts and foot traffic, with tram lines and buses converging on it from every district. There, private cars contribute little that transit cannot, while they take up most of the street space as parked metal. Closing the core to them would let cafes spread onto pavements, make crossings safe for children and older residents, and cut the noise that drives families out of central flats. In such a setting the ban removes a cost without removing anyone's access.",
+      "The same rule would work very differently in a city that grew around the motorway. Imagine a regional centre where offices and the main hospital sit downtown but most workers live in outer suburbs served by one bus an hour. A nurse finishing a night shift at two in the morning has no train to catch; banning her car from the centre does not move her onto public transport, it moves her job out of reach or forces her to pay for a parking space at the edge and a taxi for the last stretch. Shops in such a centre might also lose customers to out-of-town malls that offer free parking, hollowing out the very district the ban was meant to revive.",
+      "Supporters may answer that transit improves only once demand exists, so cities should ban cars first and let buses follow. There is some truth in this: car-free zones have often been controversial before opening and popular afterwards, once residents experience the quieter streets. Yet the argument assumes that the people inconvenienced in the meantime have the means to wait. A better sequence is to expand transit, introduce the ban in stages, and keep permits for disabled drivers, deliveries and emergency services, so that the transition does not fall on those with the fewest alternatives.",
+      "The recommendation is therefore sound as a goal but flawed as a universal instruction. Whether a city should ban private cars from its centre depends on whether its residents can reach that centre another way. Where they can, the ban is among the most effective improvements a city can make; where they cannot, it should wait until they can."
+     ],
+     "annotations": [
+      {"quote": "But a recommendation addressed to all cities ignores how differently cities are built.", "note": "Identifies the hidden assumption in the recommendation, that one rule fits every city, which sets up an insightful rather than merely pro or con essay."},
+      {"quote": "I support the ban where a dense centre is already served by frequent public transport", "note": "The thesis states the circumstances that decide the answer, exactly what the recommendation instructions ask writers to consider."},
+      {"quote": "In such a setting the ban removes a cost without removing anyone's access.", "note": "A crisp topic-closing sentence that states the principle the example illustrates, keeping the paragraph tied to the thesis."},
+      {"quote": "A nurse finishing a night shift at two in the morning has no train to catch", "note": "A specific, plausible case that makes the cost of the ban concrete; persuasive examples are a defining feature of the 6 level."},
+      {"quote": "hollowing out the very district the ban was meant to revive", "note": "Shows a consequence that undermines the policy's own goal, a sign of sophisticated reasoning."},
+      {"quote": "There is some truth in this", "note": "A genuine concession to the strongest opposing argument before the reply, which raters read as a thoughtful, balanced position."},
+      {"quote": "Whether a city should ban private cars from its centre depends on whether its residents can reach that centre another way.", "note": "The conclusion distils the essay into a single test the reader can apply, rather than repeating the introduction."}
+     ],
+     "whyThisScore": "The essay takes a clear, qualified position and builds it from the circumstances the recommendation instructions ask writers to examine: one where the ban helps and one where it harms. Both examples are specific and plausible, and each paragraph ends by stating what the example shows. The counter paragraph concedes a real point and replies with a concrete alternative sequence. Language is precise and varied, and organisation is sustained throughout.",
+     "toReachNext": [
+      "Trim the introduction's second sentence or merge it into the thesis so the position arrives a line sooner.",
+      "In the counter paragraph, say briefly why staged introduction still preserves the benefit supporters want, so the reply answers their goal and not only their timing.",
+      "Replace the general phrase among the most effective improvements a city can make with a more exact claim tied to the benefits named in the introduction.",
+      "Consider one sentence on how a city would judge whether transit is good enough, which would make the conditional thesis even more usable."
+     ]
+    },
+    {
+     "score": 4,
+     "essay": [
+      "The recommendation says cities should ban private cars from their central districts. I agree with this recommendation in most cases, because it would make city centres cleaner and safer, but there are some situations where it would not be a good idea.",
+      "The main advantage of banning cars is less pollution. Cars produce a lot of exhaust and in a busy city center the air can be very unhealthy, especially for children and people with asthma. If cars were not allowed, people would walk, cycle or take the bus, and the air would be cleaner. Also, the streets would be safer because there would be fewer accidents between cars and pedestrians. For example, in a city with a pedestrian main street, families can walk around and children can play without worrying about traffic.",
+      "On the other hand, a ban could cause problems for some people. People with disabilities may need their car to get to the center, and so do people who live far away where there is not good public transport. Businesses in the center could also loose customers if people cannot drive there easily. A plumber who carries heavy tools to his jobs would also find it hard to work in the center. The city would need to give these people another option, for example special permits or better buses that run more often.",
+      "In conclusion, banning private cars from the central district is a good idea because it reduces pollution and accidents. However, the city should think about people who need cars and make exceptions for them. If cities do this, the ban will help most people and the city center will become a better place to live, work and visit for everyone."
+     ],
+     "annotations": [
+      {"quote": "I agree with this recommendation in most cases, because it would make city centres cleaner and safer, but there are some situations where it would not be a good idea.", "note": "A clear position with reasons, but some situations is vague; naming the circumstances in the thesis would show the control expected at a 5."},
+      {"quote": "If cars were not allowed, people would walk, cycle or take the bus", "note": "A reasonable link between the policy and its benefit, though it assumes that alternatives exist, which is the very point in question."},
+      {"quote": "For example, in a city with a pedestrian main street, families can walk around and children can play without worrying about traffic.", "note": "A relevant example, but it is generic; a more specific scenario would make the benefit persuasive rather than merely plausible."},
+      {"quote": "People with disabilities may need their car to get to the center, and so do people who live far away where there is not good public transport.", "note": "Good: identifies circumstances where the ban would not help, as the instructions require, although each group gets only one clause."},
+      {"quote": "could also loose customers", "note": "Loose should be lose; an occasional error like this does not lower the score much, but it signals less precise control."},
+      {"quote": "If cities do this, the ban will help most people", "note": "The conclusion asserts the outcome rather than showing how exemptions would preserve the benefits; the counter-argument is never really answered."}
+     ],
+     "whyThisScore": "The essay states a clear position and supports it with relevant reasons on both sides, which fits the competent profile of a 4. Organisation is adequate and easy to follow. Development is thin: the benefits are general, the circumstances where the ban fails are listed rather than explored, and the essay never addresses why one city might need a different answer from another. Language is clear with occasional errors, such as loose for lose and not good public transport.",
+     "toReachNext": [
+      "Name the deciding circumstance in the thesis, for example the quality of public transport, so the whole essay is organised around it.",
+      "Develop one concrete scenario in each body paragraph instead of listing groups of people.",
+      "Add a short counter paragraph that states the strongest argument for or against a ban and replies to it directly.",
+      "Proofread for usage errors such as loose and lose, and vary sentence openings beyond Also and For example."
+     ]
+    },
+    {
+     "score": 2,
+     "essay": [
+      "I think cities should ban cars from the center because cars are bad. There is to much traffic and pollution in the center of every city and its very noisy. If there is no cars people will be more happy and healthy. People can take the bus or walk, walking is good for health. Some people will not like it because they like there car but they will get used to it. The city will be more beautifull and more tourists will come. Cars cause many problem in the world like global warming and accidents. That is why the government must ban them. In conclusion cities should ban cars from the center because it is better for everyone and for the planet."
+     ],
+     "annotations": [
+      {"quote": "because cars are bad", "note": "The position is clear, but the reason is a bare value judgement with no explanation of what harm cars do in a city centre."},
+      {"quote": "There is to much traffic and pollution in the center of every city", "note": "An overgeneralisation (every city) plus a spelling error; the essay never considers that cities differ, which the recommendation instructions ask writers to do."},
+      {"quote": "Some people will not like it because they like there car but they will get used to it.", "note": "The only nod to the other side reduces it to preference and dismisses it in one clause; real objections such as access for disabled people or night workers are missing."},
+      {"quote": "The city will be more beautifull and more tourists will come.", "note": "A possible benefit, but asserted without any example or reason, and with a spelling slip."},
+      {"quote": "Cars cause many problem in the world like global warming and accidents.", "note": "Drifts from city centres to cars in general, weakening focus on the actual recommendation."},
+      {"quote": "In conclusion cities should ban cars from the center because it is better for everyone", "note": "The conclusion simply repeats the opening claim; nothing has been developed in between."}
+     ],
+     "whyThisScore": "The response takes a position but offers almost no analysis: its reasons are assertions, there is no specific example, and it ignores the instruction to consider circumstances where the recommendation would or would not be advantageous. The single paragraph lacks organisation, and the argument drifts from city centres to cars in general. Frequent errors such as to much, there car and beautifull weaken control, although the meaning stays readable.",
+     "toReachNext": [
+      "Replace cars are bad with one specific reason tied to city centres, such as street space or safety for pedestrians, and explain it.",
+      "Add one circumstance where a ban would cause real problems, such as residents with no bus service, and say what the city should do about it.",
+      "Organise the response into an introduction, two body paragraphs and a conclusion.",
+      "Proofread for common errors: too, their, it's and beautiful."
+     ]
+    }
+   ]
+  },
+  {
+   "promptId": "p06",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "Schools should require every student to learn a second language, because the skill opens jobs and friendships across borders and trains a habit of seeing that one's own language is not the only way to divide up the world."},
+    {"stance": "qualified", "thesis": "A second-language requirement makes sense where schools can staff it well and where students have the basic literacy to benefit, but forcing it everywhere risks producing token courses and taking hours from students who most need help in their first language."},
+    {"stance": "disagree", "thesis": "Second-language study should be strongly encouraged but not required, because the hours a mandate demands are better spent, for many students, on literacy, mathematics or a skill they actually want to pursue."}
+   ],
+   "ideaBank": [
+    {"angle": "Border-region opportunity", "example": "A student in a town near a linguistic border finds that most local jobs, from retail to nursing, require serving customers in both languages.", "use": "A circumstance where the requirement directly improves life chances, supporting the recommendation."},
+    {"angle": "A new way of seeing", "example": "A learner of a language with separate formal and informal forms of you starts noticing how her own language signals respect in other ways.", "use": "Supports a deeper benefit beyond utility: language study builds awareness of how thought and culture are shaped by words."},
+    {"angle": "Opportunity cost", "example": "A fourteen-year-old who still reads well below his grade level spends three hours a week in a language class he is failing instead of in extra reading support.", "use": "A circumstance where the requirement harms the student it is meant to help, testing a universal rule."},
+    {"angle": "Staffing and token courses", "example": "A small rural school with no qualified language teacher meets a new mandate by playing recorded lessons in an unsupervised room.", "use": "Shows that a requirement without resources may satisfy the rule while teaching little, supporting a conditional thesis."}
+   ],
+   "counter": {
+    "objection": "Making a subject optional means the students who would gain most, often those with fewest opportunities at home, are least likely to choose it, so only a requirement ensures fair access.",
+    "response": "Concede that optional courses are often taken mainly by already advantaged students, then argue that fairness also requires that weak readers not lose core support; a requirement with exemptions for students below a literacy threshold, and with credit for languages already spoken at home, keeps access broad without imposing harm."
+   },
+   "outline": [
+    "Intro: State the appeal of the requirement; take a position conditioned on staffing and students' basic literacy.",
+    "Body 1: Circumstance where it helps: border-region jobs and the habit of seeing language as one of many systems.",
+    "Body 2: Circumstance where it harms: weak readers losing support hours; schools that can only offer token courses.",
+    "Body 3 (counter): The fairness argument for compulsion; concede it, answer with targeted exemptions and credit for home languages.",
+    "Conclusion: Require the language where it can be taught well; otherwise invest first in the conditions that make it worthwhile."
+   ],
+   "pitfalls": [
+    "Praising bilingualism in general instead of evaluating the specific recommendation that every student be required to learn a language.",
+    "Ignoring the costs of compulsion, such as teacher shortages and lost class time, which are exactly the circumstances the recommendation instructions ask writers to weigh.",
+    "Forgetting students who already speak two languages at home, an obvious case the requirement must account for."
+   ]
+  },
+  {
+   "promptId": "p07",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "Companies should publish all employees' salaries, because secrecy hides unjustified pay gaps that only open figures can expose, and the discomfort of transparency is a fair price for pay that can be defended."},
+    {"stance": "qualified", "thesis": "Companies should publish pay ranges for every role and the criteria for moving within them, but naming each individual's salary would expose personal circumstances and create friction without adding much further fairness."},
+    {"stance": "disagree", "thesis": "Companies should not be required to publish every salary, because the privacy costs and workplace resentment it creates outweigh its benefits, which can be achieved through independent pay audits instead."}
+   ],
+   "ideaBank": [
+    {"angle": "Hidden pay gaps", "example": "Two engineers hired for the same role in the same year discover, only when one leaves a payslip on a shared printer, that one earns noticeably less than the other.", "use": "A circumstance where secrecy shelters unfair pay that publication would expose, supporting the recommendation."},
+    {"angle": "Privacy in small settings", "example": "In a twelve-person family firm where staff are also neighbours, publishing names and salaries reveals that the owner's nephew is paid more than a longer-serving colleague, and the office splits into camps.", "use": "Shows a circumstance where full transparency creates conflict and personal exposure, testing the universal rule."},
+    {"angle": "Pay compression", "example": "After a firm publishes all salaries, managers hesitate to reward an exceptional analyst with a large raise, and she accepts a better offer from a competitor.", "use": "Raises a consequence that could reduce rewards for performance, a cost a strong essay should weigh."},
+    {"angle": "Bands as a middle path", "example": "A company posts the salary range for every job title along with the skills required to advance, while keeping individual figures private.", "use": "Offers a concrete alternative that captures most of the fairness benefit, supporting a qualified thesis."}
+   ],
+   "counter": {
+    "objection": "Anything short of full disclosure lets companies hide discrimination inside wide ranges; only named salaries make unfair treatment of individuals visible.",
+    "response": "Concede that broad bands can conceal inequities, then argue that narrow published bands, combined with each employee's right to see where they sit and an independent audit, expose discrimination without making every worker's finances public, which matters most for low earners and in small firms."
+   },
+   "outline": [
+    "Intro: Acknowledge the fairness case for transparency; state a position on how much should be published.",
+    "Body 1: Circumstance where publication helps: hidden gaps between people doing the same job.",
+    "Body 2: Circumstance where it harms: small firms, personal exposure and pressure that discourages rewarding performance.",
+    "Body 3 (counter): The argument that only names expose discrimination; concede the weakness of wide bands, answer with narrow bands and audits.",
+    "Conclusion: Publish what makes pay accountable, protect what is merely personal."
+   ],
+   "pitfalls": [
+    "Treating the recommendation as about equal pay in general and arguing that everyone should earn the same, which is a different proposal.",
+    "Discussing only benefits to employees and never the circumstances (small firms, competitive hiring) where publishing salaries could backfire, contrary to the instructions.",
+    "Missing the difference between publishing individual salaries and publishing pay ranges, the distinction that gives the best essays their nuance."
+   ]
+  },
+  {
+   "promptId": "p08",
+   "thesisOptions": [
+    {"stance": "agree", "thesis": "National museums should be free and fully tax-funded, because collections held in the nation's name belong to every citizen, and a ticket price shuts out precisely the visitors for whom a first visit can matter most."},
+    {"stance": "qualified", "thesis": "National museums should offer free entry to their permanent collections, but relying entirely on taxes is unwise, since mixed funding from special exhibitions and donations protects museums from sudden budget cuts."},
+    {"stance": "disagree", "thesis": "National museums should not be funded entirely by taxes, because it makes citizens far from the capital pay for attractions they rarely use, while modest charges for those able to pay would keep museums accessible and stable."}
+   ],
+   "ideaBank": [
+    {"angle": "Priced-out families", "example": "A parent on a low income plans a school-holiday outing, sees that tickets for herself and three children would cost a day's wages, and takes the family to a shopping centre instead.", "use": "A circumstance where admission charges block access, supporting free entry."},
+    {"angle": "Regional fairness", "example": "Taxpayers in a farming region several hours from the capital help fund a museum used mostly by city residents and foreign tourists.", "use": "Questions whether funding entirely through taxes is fair, a circumstance where the recommendation's funding model looks weak."},
+    {"angle": "Budget vulnerability", "example": "During a recession the culture ministry cuts every grant by a fifth, and a museum with no other income closes two galleries and cancels its school programme.", "use": "Shows a consequence of total dependence on taxes, supporting a qualified thesis about mixed funding."},
+    {"angle": "Free core, paid extras", "example": "A museum keeps its permanent galleries free but charges for a touring exhibition of borrowed works, using the revenue to keep longer opening hours.", "use": "A concrete middle path that preserves access while diversifying income."}
+   ],
+   "counter": {
+    "objection": "If museums depend on ticket sales or sponsors, they will chase crowd-pleasing exhibitions and corporate approval; only full public funding protects their independence and scholarly mission.",
+    "response": "Concede that commercial pressure can distort programming, then argue that sole dependence on government brings its own pressure, from budget cuts to political interference, and that a mix of public funding, modest charges for special exhibitions and donations spreads that risk across several sources."
+   },
+   "outline": [
+    "Intro: Accept the access argument for free entry; state a position on the funding model.",
+    "Body 1: Circumstance where the recommendation helps: families and students priced out by tickets.",
+    "Body 2: Circumstance where it falls short: distant taxpayers subsidising capital-city visitors and museums exposed to budget cuts.",
+    "Body 3 (counter): The independence argument for full public funding; concede commercial risks, answer that a single funder is also a risk.",
+    "Conclusion: Keep the doors free, diversify the money behind them."
+   ],
+   "pitfalls": [
+    "Addressing only the free-entry half and ignoring funded entirely by taxes, which is the part of the recommendation most open to challenge.",
+    "Arguing that museums are culturally important, which no one disputes, instead of weighing who pays and who benefits under this specific model.",
+    "Giving no concrete circumstance where the recommendation would or would not work, so the essay reads as a general opinion rather than the evaluation the instructions require."
+   ]
+  }
+ ]
+}
