@@ -1,0 +1,589 @@
+[
+ {
+  "id": "v3-09-long-passages-01",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 1,
+  "stem": "Which of the following best describes the primary purpose of the passage?",
+  "explanation": "The last paragraph states the point outright: the choice of tree and site determines whether planting pays. The first two paragraphs set up that conclusion.",
+  "choiceExplanations": {
+   "A": "The author grants the skeptics' costs and then refines the question; the passage does not claim they misread the evidence.",
+   "B": "Benefits are only the first paragraph's material, not the passage's point.",
+   "D": "The author never recommends cutting maintenance; failed programs are attributed to poor species choice.",
+   "E": "The shift in attitudes is background in paragraph 1, not the purpose of the whole passage."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "To show that skeptics of street-tree programs have misread the evidence"
+    },
+    {
+     "id": "B",
+     "text": "To catalog the environmental benefits of mature street trees"
+    },
+    {
+     "id": "C",
+     "text": "To argue that the value of a street-tree program depends on which trees are planted and where"
+    },
+    {
+     "id": "D",
+     "text": "To recommend that cities reduce spending on street-tree maintenance"
+    },
+    {
+     "id": "E",
+     "text": "To trace how planners' attitudes toward street trees have changed over several decades"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-02",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 2,
+  "stem": "Consider the second paragraph. Select the sentence that explains why some heavily planted cities saw maintenance costs exceed projected savings.",
+  "explanation": "Only the last sentence of the paragraph gives a reason; the sentence before it reports the outcome that the reason explains.",
+  "estSeconds": 70,
+  "skills": [
+   "rc-structure",
+   "rc-sentences-in-context"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "Such cases, however, involved species poorly matched to local soil and climate, which die young and must be replanted."
+  }
+ },
+ {
+  "id": "v3-09-long-passages-03",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 3,
+  "stem": "The passage suggests which of the following about street-tree programs?",
+  "explanation": "A: paragraph 3 credits large planting pits, with hardy species, for the savings. B: paragraph 1 says trees shade pavement that would otherwise radiate heat into the evening. C overgeneralizes from the 'few' cases in paragraph 2.",
+  "choiceExplanations": {
+   "C": "The passage reports only a few cases of this and attributes them to badly matched species, so it does not say heavy planting leads to higher costs."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-inference",
+   "rc-support"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The size of a tree's planting pit can affect whether a program is cost-effective."
+    },
+    {
+     "id": "B",
+     "text": "Mature canopy trees reduce the heat that pavement gives off in the evening."
+    },
+    {
+     "id": "C",
+     "text": "Cities that plant large numbers of trees will see maintenance costs exceed savings."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-04",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the function of the second paragraph in the passage as a whole?",
+  "explanation": "The skeptics' costs challenge the first paragraph's case for trees, and the paragraph's last sentence starts to answer them by blaming poorly matched species.",
+  "choiceExplanations": {
+   "A": "Nothing is replaced; the third paragraph refines the discussion rather than discarding the second.",
+   "C": "The second paragraph is about costs, not further benefits.",
+   "D": "The history of planners' views is in paragraph 1.",
+   "E": "The cities described in paragraph 2 are cautionary examples, not models."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-structure"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "It introduces a theory that the third paragraph goes on to replace"
+    },
+    {
+     "id": "B",
+     "text": "It presents an objection to the view described in the first paragraph and begins to answer it"
+    },
+    {
+     "id": "C",
+     "text": "It supplies additional evidence for the benefits described in the first paragraph"
+    },
+    {
+     "id": "D",
+     "text": "It describes a historical development that the third paragraph brings up to date"
+    },
+    {
+     "id": "E",
+     "text": "It gives a detailed example of a program that the author regards as a model"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-05",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 2,
+  "stem": "In the second paragraph, the word \"stretched\" most nearly means",
+  "explanation": "Crews described as \"already stretched\" while taking on more work are short of capacity: pushed close to their limit.",
+  "choiceExplanations": {
+   "A": "Literal lengthening does not fit crews.",
+   "B": "Nothing in the sentence concerns exaggeration.",
+   "D": "Flexibility would not make the added work a burden.",
+   "E": "The sentence is about workload, not duration."
+  },
+  "estSeconds": 55,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "made longer"
+    },
+    {
+     "id": "B",
+     "text": "exaggerated"
+    },
+    {
+     "id": "C",
+     "text": "pushed close to the limit of their resources"
+    },
+    {
+     "id": "D",
+     "text": "made more flexible"
+    },
+    {
+     "id": "E",
+     "text": "prolonged in time"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-06",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 4,
+  "stem": "The author would most likely agree with which of the following?",
+  "explanation": "Paragraph 2 reports cities whose plantings of poorly matched species cost more than projected, and paragraph 3 draws exactly this lesson.",
+  "choiceExplanations": {
+   "B": "The author accepts that roots, branches and upkeep are real costs.",
+   "C": "\"Guarantees\" is too strong: the author says only that careful selection and siting made savings exceed costs in the studied cases.",
+   "D": "Stormwater savings are described as sufficient in the studied cases (\"alone\"), not as the only benefit that matters.",
+   "E": "The author says the decision, not city size, determines the result."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-inference",
+   "rc-perspective"
+  ],
+  "topics": [],
+  "passageId": "v3-street-trees",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A city that plants many trees may still fail to recoup its costs if it chooses unsuitable species."
+    },
+    {
+     "id": "B",
+     "text": "The skeptics are mistaken in thinking that street trees impose any costs on cities."
+    },
+    {
+     "id": "C",
+     "text": "Planting native species guarantees that a street-tree program will save money."
+    },
+    {
+     "id": "D",
+     "text": "Stormwater savings are the only benefit of street trees that matters to city budgets."
+    },
+    {
+     "id": "E",
+     "text": "Street-tree programs are rarely worth their cost in large cities."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-07",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 3,
+  "stem": "Which of the following best describes the organization of the passage?",
+  "explanation": "Paragraph 1 states the problem, paragraph 2 gives two responses with their weaknesses, and paragraph 3 introduces a third approach.",
+  "choiceExplanations": {
+   "B": "No theory is tested against evidence or objections.",
+   "C": "Three approaches are described, not two, and none is shown to be more accurate.",
+   "D": "No historical development is traced.",
+   "E": "The opening claim is not undercut by counterexamples."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-structure"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A problem is stated, two familiar responses and their drawbacks are described, and a third approach is introduced"
+    },
+    {
+     "id": "B",
+     "text": "A theory is presented, evidence for it is given, and objections to it are answered"
+    },
+    {
+     "id": "C",
+     "text": "Two competing methods are compared, and the one that has proved more accurate is endorsed"
+    },
+    {
+     "id": "D",
+     "text": "A historical development is traced and its consequences for current practice are assessed"
+    },
+    {
+     "id": "E",
+     "text": "A claim is made and then qualified by a series of counterexamples"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-08",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 2,
+  "stem": "The passage states which of the following about translations that preserve sense at the expense of sound?",
+  "explanation": "Both A and B are stated in the second paragraph's second sentence. C describes the opposite approach, the one that reproduces rhyme scheme and meter.",
+  "choiceExplanations": {
+   "C": "Reproducing the meter belongs to the second approach, which keeps the form at the cost of padding."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "rc-detail"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "They are useful to readers who want to know what a poem claims."
+    },
+    {
+     "id": "B",
+     "text": "Critics say they read more like paraphrase than like poetry."
+    },
+    {
+     "id": "C",
+     "text": "They reproduce the meter of the original."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-09",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 3,
+  "stem": "Consider the second paragraph. Select the sentence that explains why reproducing the form of a poem can pull a translator away from the poet's own words.",
+  "explanation": "The explanation is the sentence about the form-preserving response, which says it forces padding because matching rhyme pairs are rare. The other sentences are about the sense-preserving response.",
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure",
+   "rc-support"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 1
+  },
+  "answer": {
+   "sentence": "The opposite response, reproducing the rhyme scheme and meter, tends to force the translator to pad lines with words the poet never chose, since two languages rarely offer matching pairs of rhymes."
+  }
+ },
+ {
+  "id": "v3-09-long-passages-10",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 4,
+  "stem": "The author's attitude toward the third approach can best be described as",
+  "explanation": "The author credits it with avoiding the two familiar failures but notes that whether it captures the poet's intent is hard to judge: approval with a reservation.",
+  "choiceExplanations": {
+   "A": "The admitted difficulty of judging its success rules out unreserved enthusiasm.",
+   "C": "Saying that it \"at least avoids\" the failures is a point in its favor, not neutrality.",
+   "D": "Nothing in the passage faults the approach.",
+   "E": "Nothing in the passage is hostile."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-perspective",
+   "rc-hedges"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "unreserved enthusiasm"
+    },
+    {
+     "id": "B",
+     "text": "qualified approval"
+    },
+    {
+     "id": "C",
+     "text": "studied neutrality"
+    },
+    {
+     "id": "D",
+     "text": "mild disapproval"
+    },
+    {
+     "id": "E",
+     "text": "open hostility"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-11",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 5,
+  "stem": "It can be inferred that judging whether the third approach captures what the poet intended is hard because",
+  "explanation": "The passage gives the reason directly: the judgment requires fluency in both languages. Choice B restates that and ties it to comparing the substitute device with the original's effect.",
+  "choiceExplanations": {
+   "A": "Nothing is said about translators' explanations.",
+   "C": "The passage says translators ask what effect the rhyme had; it does not say that effect cannot be described.",
+   "D": "The approach seeks a comparable effect and does not discard meaning.",
+   "E": "Disagreement among translators is not mentioned."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-inference"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "translators using this approach rarely explain their choices"
+    },
+    {
+     "id": "B",
+     "text": "assessing a substitute device against the original effect requires reading both languages well"
+    },
+    {
+     "id": "C",
+     "text": "readers of the original have no way of describing the effect of its rhymes"
+    },
+    {
+     "id": "D",
+     "text": "the third approach discards the meaning of the original poem"
+    },
+    {
+     "id": "E",
+     "text": "recent translators disagree about which devices to use"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-09-long-passages-12",
+  "lessonId": "v3-09-long-passages",
+  "difficulty": 5,
+  "stem": "The reference to \"an internal echo or a recurring vowel\" serves to",
+  "explanation": "The phrase follows 'a different device ... that produces a comparable effect', so these are illustrations of such substitute devices.",
+  "choiceExplanations": {
+   "A": "No comparison of quality is offered.",
+   "C": "The scarcity of rhyme pairs is explained in the second paragraph, not here.",
+   "D": "The passage never downplays the role of sound; it insists on it.",
+   "E": "Padding belongs to the form-preserving response and is not illustrated by these devices."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-structure"
+  ],
+  "topics": [],
+  "passageId": "v3-poetry-translation",
+  "review": {
+   "status": "draft",
+   "solvedBy": [],
+   "sourceChecked": false
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "show that the third approach has produced translations superior to those of the second approach"
+    },
+    {
+     "id": "B",
+     "text": "illustrate devices that might create in the new language an effect comparable to the original's rhyme"
+    },
+    {
+     "id": "C",
+     "text": "explain why two languages seldom share matching pairs of rhymes"
+    },
+    {
+     "id": "D",
+     "text": "suggest that sound is less important to poetry than the first paragraph claims"
+    },
+    {
+     "id": "E",
+     "text": "give examples of padding that the second approach requires"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ }
+]

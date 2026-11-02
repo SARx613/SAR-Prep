@@ -1,0 +1,108 @@
+{
+ "id": "v3-09-long-passages",
+ "status": "draft",
+ "why": "ETS says a few passages are several paragraphs long and carry up to six questions, so you need a way to read them as a whole and to find the right paragraph quickly.",
+ "rule": "**Map as you read.** After each paragraph, write a few words for its job: *problem*, *objection*, *example*, *a new approach*, *conclusion*. The last sentence of a paragraph often shows where it is going.\n\n**Answer from the map.** Purpose and organization questions are answered from the job of each paragraph, detail questions by going back to the paragraph you mapped.\n\n**Respect the arrow.** A select-in-passage question may name one paragraph. Sentences outside it cannot be correct, so do not weigh them.\n\n**Read the author's stance in the last paragraph and in hedges** (*at least*, *seems*, *hard to judge*): they show how far the author commits.",
+ "examples": [
+  {
+   "prompt": "A passage's first paragraph reports a theory, its second gives two objections, and its third says, \"These objections do not, however, undermine the theory's core claim.\" What is the job of each paragraph, and what is the passage's main point?",
+   "steps": [
+    "Paragraph 1: presents the theory. Paragraph 2: objections to it. Paragraph 3: reply that defends the core claim.",
+    "The turn word *however* and the verb *do not undermine* show the author sides with the theory."
+   ],
+   "answer": "Theory, objections, defense. The main point is that the theory's core claim survives the objections."
+  },
+  {
+   "prompt": "A select-in-passage question says, \"Consider the second paragraph. Select the sentence that gives a cause.\" The first paragraph contains a perfect candidate. Which sentence do you choose?",
+   "steps": [
+    "Only sentences inside the second paragraph are eligible.",
+    "Judge each sentence there against the description and ignore the better-looking one in paragraph 1."
+   ],
+   "answer": "The best-fitting sentence within the second paragraph."
+  }
+ ],
+ "trap": "Treating a long passage like a block of facts and re-reading it for every question, or picking the best sentence in the whole passage when the question names a single paragraph.",
+ "checks": [
+  {
+   "id": "v3-09-long-passages-c1",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 1,
+   "stem": "In the last sentence of the second paragraph, the word \"however\" signals that the sentence",
+   "explanation": "After reporting the costly cases, the sentence turns with 'however' to say what they had in common: poorly matched species. That is a reply, not a repetition or concession.",
+   "choiceExplanations": {
+    "A": "The turn word moves away from the objection rather than repeating it.",
+    "C": "The sentence is about the same cases as the one before it.",
+    "D": "It explains the cases away; it does not grant the skeptics' point.",
+    "E": "The first paragraph is about the benefits of trees, not these cases."
+   },
+   "estSeconds": 60,
+   "skills": [
+    "rc-transitions"
+   ],
+   "topics": [],
+   "passageId": "v3-street-trees",
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "repeats the skeptics' objection"
+     },
+     {
+      "id": "B",
+      "text": "answers the cases just described by pointing to their cause"
+     },
+     {
+      "id": "C",
+      "text": "introduces a topic unrelated to the paragraph"
+     },
+     {
+      "id": "D",
+      "text": "concedes that the skeptics' objection is correct"
+     },
+     {
+      "id": "E",
+      "text": "summarizes the first paragraph"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "v3-09-long-passages-c2",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 1,
+   "stem": "Consider the first paragraph. Select the sentence that says what researchers did.",
+   "explanation": "Only this sentence reports the researchers' action: they measured what a mature tree does.",
+   "estSeconds": 55,
+   "skills": [
+    "rc-detail"
+   ],
+   "topics": [],
+   "passageId": "v3-street-trees",
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "RC",
+   "content": {
+    "format": "select_in_passage",
+    "paragraphIndex": 0
+   },
+   "answer": {
+    "sentence": "That view began to shift when researchers in several cities measured what a mature tree actually does."
+   }
+  }
+ ]
+}

@@ -71,3 +71,12 @@ taught by an existing lesson and practised by its question set.
 ## Not in scope (ETS says so)
 
 Trigonometry, calculus, proofs, inferential statistics, anything beyond a second algebra course.
+
+## Verbal audit against the Official Guide
+
+The Official Guide's Verbal chapter was read against Learn (v0–v4). Every format and tip it lists is already taught — the three RC
+formats (select one / select all / select in passage with the paragraph arrow), main vs minor points, reported vs advanced ideas,
+hedges, transitions, inference, assumptions and perspective, strengths/weaknesses and alternative explanations, TC with one to three
+blanks, SE. The one gap was reading **multi-paragraph passages** (ETS: "one or two are several paragraphs long", up to six questions),
+now covered by the draft lesson `v3-09-long-passages` (two original three-paragraph passages, 12 questions, 2 checks). Drafts need the
+blind-solve pipeline (`content:blind` → solvers → `content:solved`) before they can be published.
