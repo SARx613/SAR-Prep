@@ -5,11 +5,11 @@ import { loadParts } from '@/lib/mathreview-data';
 
 export const metadata: Metadata = { title: 'Math Review exercises' };
 
-// Private study material: absent from public deployments, so read it per request.
+// Private study material: only for allowed users, so read it per request.
 export const dynamic = 'force-dynamic';
 
-export default function MathReviewPage() {
-  const parts = loadParts();
+export default async function MathReviewPage() {
+  const parts = await loadParts();
   if (!parts.length) notFound();
   return <MathReviewHub parts={parts} />;
 }

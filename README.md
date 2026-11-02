@@ -40,8 +40,10 @@ npm run dev
 ## Private study mode (ETS material, never shipped)
 
 The repository contains the **code** for two features that use ETS's own copyrighted material, but **not the material**. It lives in
-`gre-prep/private/` and `gre-prep/public/{official-tests,math-review}/`, all git-ignored, and is read at request time. On a public build
-(the folder is absent) the routes return 404 and the nav entries stay hidden; set `NEXT_PUBLIC_PRIVATE_STUDY=1` locally to show them.
+`gre-prep/private/` (data in `official-tests/` and `math-review.json`, figures in `media/`), which is git-ignored, and is read at request
+time. Access is closed by default: the pages, the server actions and the figure route (`/private-media/…`) answer 404 unless
+`PRIVATE_STUDY_OPEN=1` is set (owner mode, for a local server) or the signed-in Google account is listed in `PRIVATE_STUDY_EMAILS`
+(comma-separated). The nav entries appear only for allowed users. A public build has no `private/` folder and shows nothing.
 
 | Route | What it is |
 |---|---|
@@ -51,6 +53,6 @@ The repository contains the **code** for two features that use ETS's own copyrig
 The public product stays original: the bank in `content/` is authored from the official *skills and formats*, never from ETS text. To
 rebuild the private data from your own copies of the PDFs (not committed): `python3 -I scripts/content/build_exams.py <Official Guide PDF>`
 and `python3 -I scripts/content/build_math_course.py <Math Review PDF>` (needs poppler, Pillow with WebP, PyMuPDF, and the transcription
-modules in `gre-prep/private/scripts/`).
+modules in `gre-prep/private/scripts/`; figures go to `private/media/`).
 
 GRE® is a registered trademark of ETS. SAR Prep is not affiliated with or endorsed by ETS.

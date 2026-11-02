@@ -3,6 +3,7 @@
 import { gradeExam, type ExamKey } from '@/lib/official-grading';
 import type { ExamContent, ExamMeta, ExamResponses, ExamResult } from '@/types/official';
 import { readPrivateJson } from '@/lib/private-content';
+import { hasPrivateAccess } from '@/lib/private-access';
 
 /**
  * Official full-length tests (private study material, see private-content.ts).
@@ -16,9 +17,10 @@ import { readPrivateJson } from '@/lib/private-content';
 
 const IDS = ['test-1', 'test-2'];
 
-/** The tests installed in gre-prep/private/official-tests (none on a public build). */
-function loadExams(): Record<string, { content: ExamContent; key: ExamKey }> {
+/** The tests installed in gre-prep/private/official-tests, for allowed users only. */
+async function loadExams(): Promise<Record<string, { content: ExamContent; key: ExamKey }>> {
   const out: Record<string, { content: ExamContent; key: ExamKey }> = {};
+  if (!(await hasPrivateAccess())) return out;
   for (const id of IDS) {
     const content = readPrivateJson<ExamContent>(`official-tests/${id}.json`);
     const key = readPrivateJson<ExamKey>(`official-tests/${id}.key.json`);
@@ -30,7 +32,7 @@ function loadExams(): Record<string, { content: ExamContent; key: ExamKey }> {
 const MAX_ESSAY_CHARS = 20_000;
 
 export async function listExams(): Promise<ExamMeta[]> {
-  return Object.values(loadExams()).map(({ content }) => ({
+  return Object.values(await loadExams()).map(({ content }) => ({
     id: content.id,
     number: content.number,
     title: content.title,
@@ -45,7 +47,7 @@ export async function listExams(): Promise<ExamMeta[]> {
 }
 
 export async function getExam(id: string): Promise<ExamContent | null> {
-  return loadExams()[id]?.content ?? null;
+  return (await loadExams())[id]?.content ?? null;
 }
 
 /** Keeps a hostile or corrupted payload from reaching the grader. */
@@ -80,7 +82,7 @@ export async function finishExam(
   responses: ExamResponses,
   timeMs: Record<string, Record<number, number>>,
 ): Promise<ExamResult> {
-  const exam = loadExams()[id];
+  const exam = (await loadExams())[id];
   if (!exam) throw new Error('Unknown test');
   const graded = gradeExam(exam.content, exam.key, sanitize(responses), timeMs);
   return { examId: id, completedAt: new Date().toISOString(), ...graded };

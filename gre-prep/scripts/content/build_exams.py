@@ -6,7 +6,7 @@ Writes, per test:
     private/official-tests/test-N.json       what the browser may see (no answers)
     private/official-tests/test-N.key.json   answers, explanations, score tables —
                                      imported by server code only
-    public/official-tests/test-N/...          cropped quant stems, choices, exhibits
+    private/media/official-tests/test-N/...          cropped quant stems, choices, exhibits
                                      and explanations (WebP)
 
 The structure follows the book's own tests: two writing tasks, two verbal
@@ -32,7 +32,7 @@ from exam_text import (El, elements, parse_verbal, reflow, section_elements,  # 
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "private" / "official-tests"
-PUBLIC = ROOT / "public" / "official-tests"
+PUBLIC = ROOT / "private" / "media" / "official-tests"
 
 # 1-based page ranges inside the Official Guide PDF.
 TESTS = {
@@ -223,7 +223,7 @@ def build_verbal(doc, test: int, section: int, pages: range, key: dict, expl_pag
 
 def build_quant(doc, test: int, section: int, pages: range, key: dict, expl_pages: range) -> tuple[dict, dict]:
     out_dir = PUBLIC / f"test-{test}" / f"s{section}"
-    prefix = f"/official-tests/test-{test}/s{section}"
+    prefix = f"/private-media/official-tests/test-{test}/s{section}"
     shells = render_figures(doc, pages, out_dir, prefix)
     qs, _, info = analyse(doc, pages)
     expl = render_explanations(doc, expl_pages, qs, info["nums"], out_dir / "e", f"{prefix}/e")

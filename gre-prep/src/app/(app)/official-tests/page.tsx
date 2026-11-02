@@ -4,7 +4,7 @@ import { ExamsIndex } from '@/components/official/ExamsIndex';
 
 export const metadata = { title: 'Official tests' };
 
-// Private study material: absent from public deployments, so read it per request.
+// Private study material: only for allowed users, so read it per request.
 export const dynamic = 'force-dynamic';
 
 export default async function ExamsPage() {

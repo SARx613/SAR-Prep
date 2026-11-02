@@ -4,7 +4,7 @@
 
 The 69 exercises are typed text (math_text.py; formulas in KaTeX). The only
 pictures are the figures some exercises refer to, cropped from the page and
-written under public/math-review/. The lessons themselves are not reproduced:
+written under private/media/math-review/. The lessons themselves are not reproduced:
 the app's own Learn course covers the Math Review section by section (see
 docs/COVERAGE.md for the audit).
 
@@ -23,7 +23,7 @@ from math_text import E as EXERCISE_TEXT  # noqa: E402
 from pdfkit import Pdf, region, save_webp, stack  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT_DIR = ROOT / "public" / "math-review"
+OUT_DIR = ROOT / "private" / "media" / "math-review"
 MANIFEST = ROOT / "private" / "math-review.json"
 
 X0, X1 = 60, 552  # content column, in points
@@ -133,7 +133,7 @@ def main(pdf_path: str) -> None:
                 x0, y0, x1, y1 = fig["box"]
                 im = pdf.crop(fig["page"], y0, y1, x0, x1)
                 w, h = save_webp(im, OUT_DIR / "exercises" / pid / f"fig{n}.webp", 900)
-                item["figure"] = {"src": f"/math-review/exercises/{pid}/fig{n}.webp", "w": w, "h": h}
+                item["figure"] = {"src": f"/private-media/math-review/exercises/{pid}/fig{n}.webp", "w": w, "h": h}
             exercises.append(item)
         print(f"exercises {pid}: {len(exercises)}")
         manifest["parts"].append({

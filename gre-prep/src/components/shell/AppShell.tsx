@@ -4,13 +4,23 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { CloudSync } from '@/components/CloudSync';
 import { Logo } from '@/components/Logo';
-import { MORE_TAB, NAV, isActive } from './nav';
+import { useEffect, useState } from 'react';
+import { MORE_TAB, NAV as BASE_NAV, PRIVATE_NAV, isActive } from './nav';
 
 /* Sidebar from 1024px, bottom tab bar below. The content column owns the
  * safe-area padding; the tab bar owns the home-indicator inset. */
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const [priv, setPriv] = useState(false);
+  useEffect(() => {
+    fetch('/api/private-access')
+      .then((r) => r.json())
+      .then((d: { ok?: boolean }) => setPriv(Boolean(d.ok)))
+      .catch(() => {});
+  }, []);
+  const at = BASE_NAV.findIndex((n) => n.href === '/plan');
+  const NAV = priv ? [...BASE_NAV.slice(0, at), ...PRIVATE_NAV, ...BASE_NAV.slice(at)] : BASE_NAV;
   const tabs = [...NAV.filter((n) => n.tab), MORE_TAB];
   const moreActive = !NAV.filter((n) => n.tab).some((n) => isActive(pathname, n.href)) && pathname !== '/more' ? true : pathname === '/more';
 

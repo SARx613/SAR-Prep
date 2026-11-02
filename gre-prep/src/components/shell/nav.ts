@@ -21,15 +21,11 @@ export const NAV: NavItem[] = [
   { href: '/settings', label: 'Settings', icon: Settings },
 ];
 
-/** Private study mode (ETS's own tests and exercises, never shipped): set NEXT_PUBLIC_PRIVATE_STUDY=1 locally. */
-const PRIVATE_STUDY = process.env.NEXT_PUBLIC_PRIVATE_STUDY === '1';
-if (PRIVATE_STUDY) {
-  const at = NAV.findIndex((n) => n.href === '/plan');
-  NAV.splice(at, 0,
-    { href: '/official-tests', label: 'Official tests', icon: ClipboardCheck },
-    { href: '/math-review', label: 'Math Review', icon: PencilRuler },
-  );
-}
+/** Shown only to users allowed by /api/private-access (ETS's own tests and exercises; see private-access.ts). */
+export const PRIVATE_NAV: NavItem[] = [
+  { href: '/official-tests', label: 'Official tests', icon: ClipboardCheck },
+  { href: '/math-review', label: 'Math Review', icon: PencilRuler },
+];
 
 export const MORE_TAB: NavItem = { href: '/more', label: 'More', icon: MoreHorizontal, tab: true };
 
