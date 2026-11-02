@@ -1,8 +1,8 @@
 {
  "id": "q1-27-associative-identity-laws",
- "status": "draft",
+ "status": "published",
  "why": "Regrouping a sum or product is the quickest way to simplify many calculations, but only addition and multiplication allow it.",
- "rule": "For real numbers $r$, $s$, $t$:\n\n- **Associative:** $(r+s)+t=r+(s+t)$ and $(rs)t=r(st)$. Grouping does not matter, so regroup into friendly numbers: $(7+3)+8=7+(3+8)=18$.\n- **Identity:** $r+0=r$ and $r\\cdot1=r$.\n\nTogether with the commutative law you may reorder and regroup any sum or product freely. **Subtraction and division are neither commutative nor associative:** $8-(5-2)=5$ but $(8-5)-2=1$.",
+ "rule": "For real numbers $r$, $s$, $t$:\n\n- **Associative:** $(r+s)+t=r+(s+t)$ and $(rs)t=r(st)$. Grouping does not matter, so regroup into friendly numbers: $(6+4)+9=6+(4+9)=19$.\n- **Identity:** $r+0=r$ and $r\\cdot1=r$.\n\nTogether with the commutative law you may reorder and regroup any sum or product freely. **Subtraction and division are neither commutative nor associative:** $8-(5-2)=5$ but $(8-5)-2=1$. A minus sign before a bracket flips every sign inside: $a-(b-c)=a-b+c$.",
  "examples": [
   {
    "prompt": "Evaluate $(4\\cdot19)\\cdot25$.",
@@ -35,9 +35,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -59,9 +63,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -89,9 +97,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {

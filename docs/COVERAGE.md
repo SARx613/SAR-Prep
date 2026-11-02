@@ -78,5 +78,6 @@ The Official Guide's Verbal chapter was read against Learn (v0–v4). Every form
 formats (select one / select all / select in passage with the paragraph arrow), main vs minor points, reported vs advanced ideas,
 hedges, transitions, inference, assumptions and perspective, strengths/weaknesses and alternative explanations, TC with one to three
 blanks, SE. The one gap was reading **multi-paragraph passages** (ETS: "one or two are several paragraphs long", up to six questions),
-now covered by the draft lesson `v3-09-long-passages` (two original three-paragraph passages, 12 questions, 2 checks). Drafts need the
-blind-solve pipeline (`content:blind` → solvers → `content:solved`) before they can be published.
+now covered by the lesson `v3-09-long-passages` (two original three-paragraph passages, 12 questions, 2 checks). It and the two Quant gap
+lessons (`q1-27`, `q2-27`) went through the full pipeline — two blind solvers (40/40 agreement each), then a source and pedagogy review —
+and are published.

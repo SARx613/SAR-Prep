@@ -1,8 +1,8 @@
 {
  "id": "v3-09-long-passages",
- "status": "draft",
- "why": "ETS says a few passages are several paragraphs long and carry up to six questions, so you need a way to read them as a whole and to find the right paragraph quickly.",
- "rule": "**Map as you read.** After each paragraph, write a few words for its job: *problem*, *objection*, *example*, *a new approach*, *conclusion*. The last sentence of a paragraph often shows where it is going.\n\n**Answer from the map.** Purpose and organization questions are answered from the job of each paragraph, detail questions by going back to the paragraph you mapped.\n\n**Respect the arrow.** A select-in-passage question may name one paragraph. Sentences outside it cannot be correct, so do not weigh them.\n\n**Read the author's stance in the last paragraph and in hedges** (*at least*, *seems*, *hard to judge*): they show how far the author commits.",
+ "status": "published",
+ "why": "ETS says only one or two passages are several paragraphs long and a passage can carry up to six questions, so you need a way to read such a passage as a whole and to find the right paragraph quickly.",
+ "rule": "**Map as you read.** After each paragraph, jot a few words for its job: *problem*, *objection*, *example*, *new approach*, *conclusion*. A paragraph's last sentence often shows where it is heading.\n\n**Answer from the map.** Purpose, organization and \"function of this paragraph\" questions come from the jobs; detail questions send you back to the one paragraph you mapped. A phrase after *such as* or *for example* illustrates the idea just before it.\n\n**Respect the arrow.** A select-in-passage question names one or two paragraphs. Sentences outside them cannot be correct, so do not weigh them.\n\n**Read the author's stance in the last paragraph and in hedges** (*at least*, *seems*, *hard to judge*): they show how far the author commits.",
  "examples": [
   {
    "prompt": "A passage's first paragraph reports a theory, its second gives two objections, and its third says, \"These objections do not, however, undermine the theory's core claim.\" What is the job of each paragraph, and what is the passage's main point?",
@@ -21,7 +21,7 @@
    "answer": "The best-fitting sentence within the second paragraph."
   }
  ],
- "trap": "Treating a long passage like a block of facts and re-reading it for every question, or picking the best sentence in the whole passage when the question names a single paragraph.",
+ "trap": "Treating a long passage like a block of facts and re-reading it for every question, or picking the best sentence in the whole passage when the question names particular paragraphs.",
  "checks": [
   {
    "id": "v3-09-long-passages-c1",
@@ -42,9 +42,13 @@
    "topics": [],
    "passageId": "v3-street-trees",
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {
@@ -91,9 +95,13 @@
    "topics": [],
    "passageId": "v3-street-trees",
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "RC",
    "content": {

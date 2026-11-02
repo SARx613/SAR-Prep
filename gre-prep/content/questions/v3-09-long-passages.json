@@ -18,9 +18,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -68,9 +72,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -85,7 +93,7 @@
   "id": "v3-09-long-passages-03",
   "lessonId": "v3-09-long-passages",
   "difficulty": 3,
-  "stem": "The passage suggests which of the following about street-tree programs?",
+  "stem": "Consider each of the three choices separately and select all that apply.\n\nThe passage suggests which of the following about street-tree programs?",
   "explanation": "A: paragraph 3 credits large planting pits, with hardy species, for the savings. B: paragraph 1 says trees shade pavement that would otherwise radiate heat into the evening. C overgeneralizes from the 'few' cases in paragraph 2.",
   "choiceExplanations": {
    "C": "The passage reports only a few cases of this and attributes them to badly matched species, so it does not say heavy planting leads to higher costs."
@@ -98,9 +106,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -146,9 +158,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -187,10 +203,10 @@
   "lessonId": "v3-09-long-passages",
   "difficulty": 2,
   "stem": "In the second paragraph, the word \"stretched\" most nearly means",
-  "explanation": "Crews described as \"already stretched\" while taking on more work are short of capacity: pushed close to their limit.",
+  "explanation": "Crews described as \"already stretched\" while taking on more work are short of capacity: overburdened.",
   "choiceExplanations": {
    "A": "Literal lengthening does not fit crews.",
-   "B": "Nothing in the sentence concerns exaggeration.",
+   "B": "Nothing in the sentence concerns overstatement.",
    "D": "Flexibility would not make the added work a burden.",
    "E": "The sentence is about workload, not duration."
   },
@@ -201,9 +217,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -211,23 +231,23 @@
    "choices": [
     {
      "id": "A",
-     "text": "made longer"
+     "text": "lengthened"
     },
     {
      "id": "B",
-     "text": "exaggerated"
+     "text": "overstated"
     },
     {
      "id": "C",
-     "text": "pushed close to the limit of their resources"
+     "text": "overburdened"
     },
     {
      "id": "D",
-     "text": "made more flexible"
+     "text": "made flexible"
     },
     {
      "id": "E",
-     "text": "prolonged in time"
+     "text": "prolonged"
     }
    ]
   },
@@ -257,9 +277,13 @@
   "topics": [],
   "passageId": "v3-street-trees",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -312,9 +336,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -352,7 +380,7 @@
   "id": "v3-09-long-passages-08",
   "lessonId": "v3-09-long-passages",
   "difficulty": 2,
-  "stem": "The passage states which of the following about translations that preserve sense at the expense of sound?",
+  "stem": "Consider each of the three choices separately and select all that apply.\n\nThe passage states which of the following about translations that preserve sense at the expense of sound?",
   "explanation": "Both A and B are stated in the second paragraph's second sentence. C describes the opposite approach, the one that reproduces rhyme scheme and meter.",
   "choiceExplanations": {
    "C": "Reproducing the meter belongs to the second approach, which keeps the form at the cost of padding."
@@ -364,9 +392,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -407,9 +439,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -440,9 +476,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -479,7 +519,7 @@
  {
   "id": "v3-09-long-passages-11",
   "lessonId": "v3-09-long-passages",
-  "difficulty": 5,
+  "difficulty": 3,
   "stem": "It can be inferred that judging whether the third approach captures what the poet intended is hard because",
   "explanation": "The passage gives the reason directly: the judgment requires fluency in both languages. Choice B restates that and ties it to comparing the substitute device with the original's effect.",
   "choiceExplanations": {
@@ -495,9 +535,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {
@@ -534,7 +578,7 @@
  {
   "id": "v3-09-long-passages-12",
   "lessonId": "v3-09-long-passages",
-  "difficulty": 5,
+  "difficulty": 3,
   "stem": "The reference to \"an internal echo or a recurring vowel\" serves to",
   "explanation": "The phrase follows 'a different device ... that produces a comparable effect', so these are illustrations of such substitute devices.",
   "choiceExplanations": {
@@ -550,9 +594,13 @@
   "topics": [],
   "passageId": "v3-poetry-translation",
   "review": {
-   "status": "draft",
-   "solvedBy": [],
-   "sourceChecked": false
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
   },
   "type": "RC",
   "content": {

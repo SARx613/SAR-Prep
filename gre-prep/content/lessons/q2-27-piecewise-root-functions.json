@@ -1,8 +1,8 @@
 {
  "id": "q2-27-piecewise-root-functions",
- "status": "draft",
- "why": "Section 2.9 of the Math Review includes functions defined by cases and the square-root function; both appear in graph-reading and function-evaluation questions.",
- "rule": "A **piecewise-defined** function uses a different formula on each part of its domain, for example $f(x)=\\begin{cases}2x, & x\\ge 0\\\\ 0, & x<0\\end{cases}$. To evaluate it, first find which condition the input satisfies, then use that formula. Its graph is the pieces drawn side by side.\n\nThe absolute-value function is piecewise: $|x|=x$ for $x\\ge0$ and $|x|=-x$ for $x<0$.\n\n$g(x)=\\sqrt{x}$ is defined only for $x\\ge0$; its graph is the upper half of a parabola lying on its side, starting at the origin. $-\\sqrt{x}$ is the lower half. The shifts of the previous lesson apply: $\\sqrt{x}+c$ moves it up $c$, and $\\sqrt{x+c}$ starts at $x=-c$.",
+ "status": "published",
+ "why": "Function-evaluation and graph questions on the GRE can use a function defined by cases, an absolute value or a square root.",
+ "rule": "A **piecewise-defined** function uses a different formula on each part of its domain, for example $f(x)=\\begin{cases}2x, & x\\ge 0\\\\ 0, & x<0\\end{cases}$. To evaluate it, first find which condition the input satisfies, then use that formula. For $f(f(a))$, finish the inner value first, then pick the piece for that new input. To solve $f(x)=k$, solve each piece's equation and keep only solutions that satisfy that piece's condition.\n\nThe absolute-value function is piecewise: $|t|=t$ for $t\\ge0$ and $|t|=-t$ for $t<0$, where $t$ can be an expression (for $x<2$, $|x-2|=-(x-2)=2-x$).\n\n$g(x)=\\sqrt{x}$ is defined only for $x\\ge0$; its graph is the top branch of a sideways parabola starting at the origin. $-\\sqrt{x}$ is the bottom branch. The shifts from the function-graphs lesson apply: $\\sqrt{x}+c$ moves it up $c$, and $\\sqrt{x+c}$ starts at $x=-c$.",
  "examples": [
   {
    "prompt": "With $f(x)=\\begin{cases}x^2, & x<1\\\\ 3x-1, & x\\ge 1\\end{cases}$, find $f(-2)+f(3)$.",
@@ -37,9 +37,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -61,9 +65,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "NE",
    "content": {
@@ -91,9 +99,13 @@
    ],
    "topics": [],
    "review": {
-    "status": "draft",
-    "solvedBy": [],
-    "sourceChecked": false
+    "status": "published",
+    "solvedBy": [
+     "solver-a",
+     "solver-b"
+    ],
+    "sourceChecked": true,
+    "approvedBy": "CTO (Sonnet) after solver+review pipeline"
    },
    "type": "PS",
    "content": {
