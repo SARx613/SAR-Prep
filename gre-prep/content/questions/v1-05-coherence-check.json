@@ -15,6 +15,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -397,6 +403,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -471,6 +478,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -561,6 +569,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -635,6 +644,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -725,6 +735,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -799,6 +810,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -889,6 +901,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -951,6 +964,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1013,6 +1027,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1075,6 +1090,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1147,6 +1163,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1219,6 +1236,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1281,6 +1299,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1355,6 +1374,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1445,6 +1465,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1519,6 +1540,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1609,6 +1631,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1683,6 +1706,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1753,6 +1777,464 @@
    "blanks": [
     "1B",
     "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-25",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Logic:** *Although* sets the gentle tone against the substance, and *so that her opponents ... found little to welcome* shows the substance sides with the chair. **Predict:** in agreement. **Grammar:** the word must take *with*. *Consonant with* passes both checks; *inimical*, *conducive* and *tantamount* all need *to*.",
+  "choiceExplanations": {
+   "A": "Wrong in two ways: it takes *to*, not *with*, and recommendations hostile to the chair would please her opponents.",
+   "B": "Takes *to*, not *with*, and means *helping to bring about*, which is not a relation between positions.",
+   "C": "Takes *to*, and *equivalent* overstates a report that merely agrees with her.",
+   "E": "Fits *with*, but if the report opposed the chair, her opponents would have much to welcome."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the committee's final report adopts a conciliatory tone, its recommendations are {{1}} with the positions the chair defended throughout the hearings, so that her opponents, who had hoped for compromise, have found little in it to welcome.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "inimical"
+      },
+      {
+       "id": "B",
+       "text": "conducive"
+      },
+      {
+       "id": "C",
+       "text": "tantamount"
+      },
+      {
+       "id": "D",
+       "text": "consonant"
+      },
+      {
+       "id": "E",
+       "text": "at odds"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-26",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Blank 1:** the parenthesis defines her manner as *offhand* and casual: *nonchalant*. **Blank 2:** *yet* reverses that impression, *anything but* flips again, and *for each observation proves to bear weight* explains why. So the effect is not lightweight: *slight*. **Coherence check:** reading the whole sentence with *cumulative* shows the redundancy.",
+  "choiceExplanations": {
+   "1A": "Self-important solemnity is the opposite of *the offhand aside*.",
+   "1C": "Loud insistence does not fit offhand asides and deflating anecdotes.",
+   "2A": "Misses the negation: *anything but weighty* contradicts observations that *bear weight*.",
+   "2B": "Repeats *cumulative effect*, so the completed sentence says nothing."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The essayist's manner is {{1}} (she favors the offhand aside and the deflating anecdote over sustained argument), yet the cumulative effect of her pieces is anything but {{2}}, for each casual observation proves, on reflection, to bear weight.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "portentous"
+      },
+      {
+       "id": "1B",
+       "text": "nonchalant"
+      },
+      {
+       "id": "1C",
+       "text": "strident"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "weighty"
+      },
+      {
+       "id": "2B",
+       "text": "cumulative"
+      },
+      {
+       "id": "2C",
+       "text": "slight"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-27",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Blank 1:** *in correcting them* tells you the edition fixed the old errors: *rectifies*. **Blank 2:** *but ... of their own* means a new fault: *distortion*. **Blank 3:** normalizing spelling wipes out the poet's quirks, the features scholars valued: *effacing*. **Final read:** the tone of *silently* and *thereby* confirms the edition did damage.",
+  "choiceExplanations": {
+   "1A": "Contradicts *in correcting them* later in the sentence.",
+   "1B": "Making the old errors worse contradicts *in correcting them*.",
+   "2B": "The tone fails: *silently* and *thereby ___ the very features* scholars valued present the change as a harm.",
+   "2C": "Changing the poet's spelling is the opposite of faithfulness.",
+   "3A": "Normalizing spelling hides the quirks; it does not draw attention to them.",
+   "3B": "Normalizing means changing them, not keeping them."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The new edition {{1}} the errors that had marred its predecessor, but in correcting them the editors introduced a {{2}} of their own, silently normalizing the poet's idiosyncratic spelling and thereby {{3}} the very features that scholars had found most revealing.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "perpetuates"
+      },
+      {
+       "id": "1B",
+       "text": "compounds"
+      },
+      {
+       "id": "1C",
+       "text": "rectifies"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "distortion"
+      },
+      {
+       "id": "2B",
+       "text": "refinement"
+      },
+      {
+       "id": "2C",
+       "text": "fidelity"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "highlighting"
+      },
+      {
+       "id": "3B",
+       "text": "preserving"
+      },
+      {
+       "id": "3C",
+       "text": "effacing"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-28",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 5,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Logic:** *rather than enthusiastic* and the colon describe support with limits: she concedes the objections yet still backs the policy as the lesser cost. **Predict:** limited, with reservations. *Qualified* passes. **Check the near misses:** *equivocal* would mean she never committed, but she did; *perfunctory* would mean little effort, but she engaged every objection.",
+  "choiceExplanations": {
+   "A": "A synonym of *enthusiastic*, the word the blank is set against.",
+   "B": "Perfunctory means careless or token; answering nearly every objection is not careless.",
+   "C": "Equivocal means ambiguous, but she took a clear position: the alternatives are worse.",
+   "D": "Nothing suggests insincerity; conceding objections is, if anything, candid."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Her defense of the policy was {{1}} rather than enthusiastic: she conceded nearly every objection her critics raised, maintaining only that the alternatives they proposed were, on balance, likely to prove still more costly.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "ardent"
+      },
+      {
+       "id": "B",
+       "text": "perfunctory"
+      },
+      {
+       "id": "C",
+       "text": "equivocal"
+      },
+      {
+       "id": "D",
+       "text": "disingenuous"
+      },
+      {
+       "id": "E",
+       "text": "qualified"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-29",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Blank 1:** *So ... that* makes the refusal the result of his attitude, and *a scruple* names it: extreme care over details: *punctilious*. **Blank 2:** *more ___* contrasts the successors with him, and the apposition defines them: *eager to fill gaps with plausible conjecture*: *speculative*. **Check:** *dogmatic* sounds like strictness, but it means certainty without evidence, which reverses the logic.",
+  "choiceExplanations": {
+   "1A": "Dogmatism means asserting without evidence; demanding three sources is the opposite.",
+   "1C": "A careless attitude contradicts refusing any derivation without three sources.",
+   "2A": "Contradicts *eager to fill gaps with plausible conjecture*, and *more* would make them stricter than him.",
+   "2B": "Respectful successors would not dismiss his scruple as pedantic."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "So {{1}} was the lexicographer about etymology that he refused to include any derivation he could not trace through at least three independent sources, a scruple that his more {{2}} successors, eager to fill gaps with plausible conjecture, regarded as pedantic.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "dogmatic"
+      },
+      {
+       "id": "1B",
+       "text": "punctilious"
+      },
+      {
+       "id": "1C",
+       "text": "cavalier"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "rigorous"
+      },
+      {
+       "id": "2B",
+       "text": "deferential"
+      },
+      {
+       "id": "2C",
+       "text": "speculative"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-05-coherence-check-30",
+  "lessonId": "v1-05-coherence-check",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with the colon:** blame is spread *so ___ among* others *that the author herself emerges almost blameless*, so it is spread freely: *liberally*. That makes the book one that clears its author: *self-exculpatory*. **Blank 1:** *yet* and *for all its talk of guilt* mean the confessional tone is only put on: *affects*. Only the full reading shows that *self-lacerating* fits the tone, not the substance.",
+  "choiceExplanations": {
+   "1A": "If she avoided the confessional tone, *for all its talk of guilt* would make no sense and *yet* would set up no contrast.",
+   "1C": "Running down the confessional tone does not fit a book full of *talk of guilt*.",
+   "2A": "Fits the surface of a confession, but the colon shows she spares herself.",
+   "2B": "Rambling is not what the colon explains.",
+   "3A": "Blaming others sparingly would leave blame with her, not make her *almost blameless*.",
+   "3B": "Reluctance to blame others would not leave her blameless."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The memoirist {{1}} the tone of a confession, yet her book is curiously {{2}}: for all its talk of guilt, it apportions blame so {{3}} among parents, teachers and former lovers that the author herself emerges almost blameless.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "eschews"
+      },
+      {
+       "id": "1B",
+       "text": "affects"
+      },
+      {
+       "id": "1C",
+       "text": "disparages"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "self-lacerating"
+      },
+      {
+       "id": "2B",
+       "text": "discursive"
+      },
+      {
+       "id": "2C",
+       "text": "self-exculpatory"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "sparingly"
+      },
+      {
+       "id": "3B",
+       "text": "grudgingly"
+      },
+      {
+       "id": "3C",
+       "text": "liberally"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
     "3C"
    ]
   }

@@ -15,6 +15,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -87,6 +88,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -159,6 +161,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -231,6 +234,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -303,6 +307,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -375,6 +380,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -449,6 +455,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -541,6 +548,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -633,6 +641,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -723,6 +732,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -797,6 +807,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -889,6 +900,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -979,6 +991,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1051,6 +1064,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1123,6 +1137,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1195,6 +1210,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1267,6 +1283,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1339,6 +1356,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1411,6 +1429,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1485,6 +1504,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1575,6 +1595,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1649,6 +1670,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1739,6 +1761,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1814,6 +1837,7 @@
    "multi-blank",
    "logic"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1885,6 +1909,678 @@
     "1A",
     "2B",
     "3A"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-25",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *given her reputation for overlooking minor irregularities* fixes what they expected: a lenient report: *indulgent*. **Blank 2 depends on it:** the report instead listed *every misplaced receipt*, so the members ended up not reassured but rattled: *unnerved*.",
+  "choiceExplanations": {
+   "1A": "If they had expected harshness, a harsh report would not have been a surprise.",
+   "1B": "Lateness is not what a reputation for *overlooking minor irregularities* predicts.",
+   "2A": "Close to *reassured*, so *less reassured than* sets up no contrast.",
+   "2C": "Nothing suggests the members had predicted a harsh audit."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The committee had expected the auditor's report to be {{1}}, given her reputation for overlooking minor irregularities, so its relentless enumeration of every misplaced receipt left members feeling less reassured than {{2}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "scathing"
+      },
+      {
+       "id": "1B",
+       "text": "belated"
+      },
+      {
+       "id": "1C",
+       "text": "indulgent"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "complacent"
+      },
+      {
+       "id": "2B",
+       "text": "unnerved"
+      },
+      {
+       "id": "2C",
+       "text": "vindicated"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-26",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with the parenthesis:** *a handful of cases, none confirmed* defines blank 1: scarcity: *paucity*; *Despite* then makes sense, since they acted anyway. **Blank 2:** the *risk* of acting on thin evidence is that the hypothesis turns out false: *unfounded*.",
+  "choiceExplanations": {
+   "1A": "A mass of evidence contradicts *a handful of cases, none confirmed* and leaves *Despite* with nothing to oppose.",
+   "1C": "Origin is not described by the parenthesis, which counts and rates the evidence.",
+   "2B": "A hypothesis proving prescient would be no *risk* of acting.",
+   "2C": "Intractable describes problems, not whether a hypothesis turns out true."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Despite the {{1}} of evidence linking the toxin to the outbreak (a handful of cases, none confirmed by laboratory tests), regulators moved to ban it, judging that the cost of waiting outweighed the risk of acting on a hypothesis that might later prove {{2}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "preponderance"
+      },
+      {
+       "id": "1B",
+       "text": "paucity"
+      },
+      {
+       "id": "1C",
+       "text": "provenance"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "unfounded"
+      },
+      {
+       "id": "2B",
+       "text": "prescient"
+      },
+      {
+       "id": "2C",
+       "text": "intractable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2A"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-27",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** the apposition defines it: praise *hedged with qualifications that withdrew nearly everything it granted* is given unwillingly: *grudging*. **Blank 2 follows from *so ... that*:** such praise leaves almost nothing usable on a jacket: *serviceable*.",
+  "choiceExplanations": {
+   "1A": "Gushing praise would supply plenty of jacket quotations; *hedged with qualifications* says the opposite.",
+   "1C": "Timing has nothing to do with qualifications withdrawing what the praise granted.",
+   "2A": "The publisher is looking for usable praise, not for sentences to object to.",
+   "2B": "Fits talk of a long review, but the publisher's search is for a usable sentence, not a redundant one."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The critic's praise was so {{1}}, hedged with qualifications that withdrew nearly everything it granted, that the novelist's publisher could find in a two-thousand-word review scarcely a sentence {{2}} for quotation on the jacket.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "effusive"
+      },
+      {
+       "id": "1B",
+       "text": "grudging"
+      },
+      {
+       "id": "1C",
+       "text": "belated"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "objectionable"
+      },
+      {
+       "id": "2B",
+       "text": "superfluous"
+      },
+      {
+       "id": "2C",
+       "text": "serviceable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-28",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 2:** the colon explains it: the larger power *had already resolved to abandon* the land, so its concessions were concessions in name only: *nominal*. **Blank 1 must contrast with that** (*but*): the old view saw a victory earned through hard bargaining: *hard-won*. Neither blank is safe alone: *hollow* and *foreordained* look fine until you test them against the colon.",
+  "choiceExplanations": {
+   "1A": "A hollow victory is what the archives reveal; the *but* clause needs an old view that the nominal concessions overturn, not one they confirm.",
+   "1B": "This matches the revised view, so the *but* clause would not contrast with it.",
+   "2A": "The larger power wanted to look generous, but the colon shows it gave nothing it meant to keep.",
+   "2C": "Whether the concessions could be undone is not the point of the colon."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Historians long regarded the treaty as a {{1}} triumph for the smaller state, but recently opened archives suggest that its apparent concessions were {{2}}: the larger power had already resolved to abandon the disputed territory and merely contrived to extract gratitude for doing so.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "hollow"
+      },
+      {
+       "id": "1B",
+       "text": "foreordained"
+      },
+      {
+       "id": "1C",
+       "text": "hard-won"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "magnanimous"
+      },
+      {
+       "id": "2B",
+       "text": "nominal"
+      },
+      {
+       "id": "2C",
+       "text": "irrevocable"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-29",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with the colon:** she *assembles letters, diaries and ledgers* but does not interpret, so the method is based on documents rather than synthesis: *documentary*, assembled with great care: *painstaking*. **Blank 3:** *praised as tact and others dismissed as* sets up a negative reading of the same abstention: *evasion*.",
+  "choiceExplanations": {
+   "1A": "A speculative method would offer conclusions; she *leaves the reader to infer*.",
+   "1C": "Arguing a case contradicts her refusal to draw conclusions.",
+   "2A": "*Cursory care* is self-contradictory: a method that consists entirely of assembling documents, an abstention some reviewers call tact, is not hasty.",
+   "2B": "Bias is not a degree of care.",
+   "3B": "Frankness is not a charge one would *dismiss* an abstention as.",
+   "3C": "Overreach means claiming too much; she claims nothing."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The biographer's method is {{1}} rather than synthetic: she assembles letters, diaries and ledgers with {{2}} care but leaves the reader to infer what, if anything, they reveal about her subject, an abstention some reviewers have praised as tact and others dismissed as {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "speculative"
+      },
+      {
+       "id": "1B",
+       "text": "documentary"
+      },
+      {
+       "id": "1C",
+       "text": "polemical"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "cursory"
+      },
+      {
+       "id": "2B",
+       "text": "partisan"
+      },
+      {
+       "id": "2C",
+       "text": "painstaking"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "evasion"
+      },
+      {
+       "id": "3B",
+       "text": "candor"
+      },
+      {
+       "id": "3C",
+       "text": "overreach"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3A"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-30",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 3,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Blank 1:** *once-ridiculed* later in the sentence confirms what *too fanciful to merit testing* implies: *derided*. **Blank 2:** *paper after paper over three decades* means persistence: *tenacity*. **Blank 3:** *not merely respectable but* escalates beyond respectable: accepted as standard: *orthodox*.",
+  "choiceExplanations": {
+   "1A": "Colleagues who thought the idea *too fanciful to merit testing* did not praise it.",
+   "1C": "No one copies an idea they consider too fanciful to test.",
+   "2A": "Shyness contradicts *paper after paper over three decades*.",
+   "2B": "Lightheartedness is not the quality of thirty years of persistence.",
+   "3A": "*Not merely respectable but* needs a step beyond respectable, not back toward dispute.",
+   "3C": "The data vindicated the idea; it did not make it outdated."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Initially {{1}} by colleagues who considered the hypothesis too fanciful to merit testing, the geologist pursued it with {{2}}, publishing paper after paper over three decades until the accumulated data rendered the once-ridiculed idea not merely respectable but {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "lauded"
+      },
+      {
+       "id": "1B",
+       "text": "derided"
+      },
+      {
+       "id": "1C",
+       "text": "plagiarized"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "diffidence"
+      },
+      {
+       "id": "2B",
+       "text": "levity"
+      },
+      {
+       "id": "2C",
+       "text": "tenacity"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "contentious"
+      },
+      {
+       "id": "3B",
+       "text": "orthodox"
+      },
+      {
+       "id": "3C",
+       "text": "obsolete"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C",
+    "3B"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-31",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with blank 1:** *reliance on stock phrases and borrowed cadences* means unoriginal: *derivative*. **Blank 2 must restate it** (*their very ___*): their *conventionality* is what makes them a good mirror of shared assumptions. **Blank 3:** assumptions that need no defense are thought obvious: *self-evident*. The trap pair *idiosyncratic / eccentricity* agrees internally but fails the clue.",
+  "choiceExplanations": {
+   "1B": "*Stock phrases and borrowed cadences* are the opposite of personal quirks.",
+   "1C": "Inflammatory tone is not defined by stock phrases.",
+   "2A": "Pairs with *idiosyncratic*, but both contradict *stock phrases*.",
+   "2C": "An obscure text would not be an *unusually clear index*.",
+   "3A": "Assumptions thought contentious would require defense.",
+   "3B": "Arcane assumptions would need explaining, not be taken for granted."
+  },
+  "estSeconds": 150,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The minister's speeches, {{1}} in their reliance on stock phrases and borrowed cadences, would hardly repay close study were it not that their very {{2}} makes them an unusually clear index of the assumptions her party considered too {{3}} to require defense.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "derivative"
+      },
+      {
+       "id": "1B",
+       "text": "idiosyncratic"
+      },
+      {
+       "id": "1C",
+       "text": "incendiary"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "eccentricity"
+      },
+      {
+       "id": "2B",
+       "text": "conventionality"
+      },
+      {
+       "id": "2C",
+       "text": "obscurity"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "contentious"
+      },
+      {
+       "id": "3B",
+       "text": "arcane"
+      },
+      {
+       "id": "3C",
+       "text": "self-evident"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1A",
+    "2B",
+    "3C"
+   ]
+  }
+ },
+ {
+  "id": "v1-04-multi-blank-32",
+  "lessonId": "v1-04-multi-blank",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Start with the end:** *not carelessness but ___* mirrors the dismissal at the start, so blank 1 restates *carelessness*: *inadvertence*, and blank 3 is its opposite: intention: *design*. **Blank 2:** the pattern favors the patron, so rivals' lands are shrunk: *diminishes*. *Consistency* rules out *caprice*.",
+  "choiceExplanations": {
+   "1A": "Fabrication is deliberate, so it is not what one would *dismiss* errors as, and it does not match *not carelessness*.",
+   "1B": "Decoration is deliberate too; the dismissal being rejected is the charge of carelessness.",
+   "2A": "Enlarging rivals' lands would break the pattern of favoring the patron.",
+   "2C": "Merely outlining is not a distortion in the patron's favor.",
+   "3A": "Whim is unpredictable; the sentence stresses *consistency*.",
+   "3B": "Thrift has nothing to do with the pattern of distortions."
+  },
+  "estSeconds": 135,
+  "skills": [
+   "multi-blank",
+   "logic"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "To dismiss the cartographer's errors as mere {{1}} is to miss their pattern: nearly every distortion enlarges the territories of his patron and {{2}} those of rival principalities, a consistency that suggests not carelessness but {{3}}.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "fabrication"
+      },
+      {
+       "id": "1B",
+       "text": "embellishment"
+      },
+      {
+       "id": "1C",
+       "text": "inadvertence"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "magnifies"
+      },
+      {
+       "id": "2B",
+       "text": "diminishes"
+      },
+      {
+       "id": "2C",
+       "text": "delineates"
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "choices": [
+      {
+       "id": "3A",
+       "text": "caprice"
+      },
+      {
+       "id": "3B",
+       "text": "parsimony"
+      },
+      {
+       "id": "3C",
+       "text": "design"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2B",
+    "3C"
    ]
   }
  }

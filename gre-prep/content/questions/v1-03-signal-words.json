@@ -15,6 +15,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -397,6 +403,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -469,6 +476,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -541,6 +549,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -615,6 +624,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -707,6 +717,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -799,6 +810,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -889,6 +901,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -951,6 +964,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1013,6 +1027,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1075,6 +1090,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1147,6 +1163,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1219,6 +1236,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1281,6 +1299,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1355,6 +1374,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1445,6 +1465,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1519,6 +1540,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1609,6 +1631,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1683,6 +1706,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1754,6 +1778,414 @@
     "1B",
     "2C",
     "3A"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-25",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal word:** *Whereas* sets the earlier biographers against the present author, who reads the journals *as performances, crafted*. So the earlier view is the opposite: honest, uncrafted. *Transcribing them with reverent fidelity* confirms it. **Predict:** plain, truthful. *Unvarnished* matches.",
+  "choiceExplanations": {
+   "B": "That is the present author's reading; *Whereas* requires the earlier biographers' opposite view.",
+   "C": "Fits the topic of journals but not the contrast between plain record and performance.",
+   "D": "A synonym of *performances*, the view the earlier biographers are contrasted with.",
+   "E": "Spurious records would not be transcribed *with reverent fidelity*."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Whereas earlier biographers of the explorer had treated his journals as {{1}} records, transcribing them with reverent fidelity, the present author reads them as performances, crafted for a public eager for peril and tactfully silent about the porters who carried him.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "unvarnished"
+      },
+      {
+       "id": "B",
+       "text": "self-serving"
+      },
+      {
+       "id": "C",
+       "text": "fragmentary"
+      },
+      {
+       "id": "D",
+       "text": "theatrical"
+      },
+      {
+       "id": "E",
+       "text": "apocryphal"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-26",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 4,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Signal words:** *even* says the revelation should have destroyed the reputation, and *since* explains why it did not: voters saw the gifts as perks, not *lapses of principle*. So the reputation was for the principle that taking gifts violates. **Predict:** honesty, integrity. *Probity* matches. Other virtues fail because the gifts do not threaten them.",
+  "choiceExplanations": {
+   "A": "Accepting gifts does not threaten a reputation for friendliness, so *survived even* has no force.",
+   "B": "A reputation for greed would be confirmed by the gifts, not threatened by them.",
+   "C": "A reputation for wasteful spending is not what taking gifts endangers.",
+   "E": "Wisdom is a virtue, but taking gifts from regulated firms does not call it into question."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The senator's reputation for {{1}} survived even the revelation that he had quietly accepted gifts from the firms he regulated, since his constituents, inured to venality in their representatives, regarded such favors as perquisites of office rather than lapses of principle.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "affability"
+      },
+      {
+       "id": "B",
+       "text": "cupidity"
+      },
+      {
+       "id": "C",
+       "text": "profligacy"
+      },
+      {
+       "id": "D",
+       "text": "probity"
+      },
+      {
+       "id": "E",
+       "text": "sagacity"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-27",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal words:** *Though* and *less by caution than by* both oppose her reputation to her record. **Blank 2 first:** the examples (opening restricted collections, selling holdings) show her throwing out old rules: *jettison*. **Blank 1:** *less by caution* tells you the reputation was for caution: *circumspect*.",
+  "choiceExplanations": {
+   "1A": "This is what her tenure shows; *Though* needs a description that the record contradicts.",
+   "1C": "Sociability is not set against *caution*, so the contrast fails.",
+   "2A": "Formalizing the old policies is the opposite of opening collections and selling holdings.",
+   "2B": "Revering the old policies contradicts the changes listed."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Though the archive's new director is often described as {{1}}, her tenure has been marked less by caution than by a willingness to {{2}} long-standing policies, opening restricted collections to undergraduates and selling duplicate holdings to fund digitization.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "iconoclastic"
+      },
+      {
+       "id": "1B",
+       "text": "circumspect"
+      },
+      {
+       "id": "1C",
+       "text": "gregarious"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "codify"
+      },
+      {
+       "id": "2B",
+       "text": "venerate"
+      },
+      {
+       "id": "2C",
+       "text": "jettison"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-28",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 4,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal words:** *so ... that* makes blank 1 the cause of audiences missing the artifice: it must sound natural, *unstudied*. *Only on the page ... does one see* sets up the contrast for blank 2, and the last phrase defines it: every digression lays groundwork. **Predict:** carefully planned: *calculated*.",
+  "choiceExplanations": {
+   "1A": "Mannered dialogue displays its artifice, so audiences would notice it.",
+   "1C": "Terseness fits talk about dialogue but would not explain why audiences miss the artifice.",
+   "2A": "*Every apparent digression laying groundwork* shows the opposite of random.",
+   "2B": "Colloquial is how it sounds on stage; *only on the page* reveals something hidden, the planning."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The playwright's dialogue is so {{1}} that audiences rarely notice its artifice; only on the page, stripped of the actors' hesitations, does one see how {{2}} each exchange is, every apparent digression laying groundwork for a revelation two acts later.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "mannered"
+      },
+      {
+       "id": "1B",
+       "text": "unstudied"
+      },
+      {
+       "id": "1C",
+       "text": "laconic"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "haphazard"
+      },
+      {
+       "id": "2B",
+       "text": "colloquial"
+      },
+      {
+       "id": "2C",
+       "text": "calculated"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1B",
+    "2C"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-29",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 5,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Hidden signal:** *If X, her later writings are ...* is a contrast frame, like *Whereas X*. The apposition defines X: *quick to impute bad faith to anyone who doubted*, the opposite of the later *generosity toward opponents*. **Predict:** harshly fault-finding. *Censorious* matches.",
+  "choiceExplanations": {
+   "A": "This describes the later writings; the *If ...* clause is set against them.",
+   "C": "A synonym of *timidity*, which belongs to the admirers' misreading of the later work.",
+   "D": "Difficulty is not defined by *quick to impute bad faith*.",
+   "E": "Cheerful optimism does not mean attacking doubters' motives."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "If the reformer's early pamphlets were {{1}}, quick to impute bad faith to anyone who doubted her program, her later writings are notable for a generosity toward opponents that some admirers, nostalgic for her old fire, have mistaken for timidity.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "conciliatory"
+      },
+      {
+       "id": "B",
+       "text": "censorious"
+      },
+      {
+       "id": "C",
+       "text": "diffident"
+      },
+      {
+       "id": "D",
+       "text": "abstruse"
+      },
+      {
+       "id": "E",
+       "text": "sanguine"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v1-03-signal-words-30",
+  "lessonId": "v1-03-signal-words",
+  "difficulty": 5,
+  "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+  "explanation": "**Signal words:** *Precisely because* links blank 1 to the later betrayal, and the apposition defines it: predictions that state in advance what would refute them are precise and demanding: *exacting*. **Blank 2:** *not merely awkward but* escalates, and *a betrayal of the very virtue that had recommended it* explains how: explaining away anomalies destroys the theory's own strength: *self-defeating*.",
+  "choiceExplanations": {
+   "1A": "Equivocal predictions could not specify *which observations would refute* the theory.",
+   "1B": "Modesty of scope is not defined by stating in advance what would refute it.",
+   "2B": "*Not merely ... but* needs a stronger charge than *awkward*, not a weaker one.",
+   "2C": "Praise; the phrase *a betrayal* demands a condemnation."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Precisely because the theory's predictions were so {{1}}, specifying in advance which observations would refute it, its proponents' later habit of reinterpreting every anomaly as confirmation struck philosophers of science as not merely awkward but {{2}}, a betrayal of the very virtue that had recommended it.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "1A",
+       "text": "equivocal"
+      },
+      {
+       "id": "1B",
+       "text": "modest"
+      },
+      {
+       "id": "1C",
+       "text": "exacting"
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "choices": [
+      {
+       "id": "2A",
+       "text": "self-defeating"
+      },
+      {
+       "id": "2B",
+       "text": "inconsequential"
+      },
+      {
+       "id": "2C",
+       "text": "prescient"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "1C",
+    "2A"
    ]
   }
  }

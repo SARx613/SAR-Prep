@@ -15,6 +15,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-concrete",
   "review": {
    "status": "published",
@@ -67,6 +68,7 @@
   "skills": [
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-concrete",
   "review": {
    "status": "published",
@@ -101,6 +103,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-painter",
   "review": {
    "status": "published",
@@ -159,6 +162,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-tree-rings",
   "review": {
    "status": "published",
@@ -211,6 +215,7 @@
   "skills": [
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-early-music",
   "review": {
    "status": "published",
@@ -245,6 +250,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-painter",
   "review": {
    "status": "published",
@@ -303,6 +309,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-sunk-cost",
   "review": {
    "status": "published",
@@ -361,6 +368,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3-white-lies",
   "review": {
    "status": "published",
@@ -420,6 +428,7 @@
    "rc-vocab-in-context",
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-tree-rings",
   "review": {
    "status": "published",
@@ -475,6 +484,7 @@
   "skills": [
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-white-lies",
   "review": {
    "status": "published",
@@ -523,6 +533,7 @@
   "skills": [
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-sunk-cost",
   "review": {
    "status": "published",
@@ -574,6 +585,7 @@
   "skills": [
    "rc-sentences-in-context"
   ],
+  "topics": [],
   "passageId": "v3-early-music",
   "review": {
    "status": "published",
@@ -632,6 +644,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-reflective-roofs",
   "review": {
    "status": "published",
@@ -690,6 +703,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-poll-nonresponse",
   "review": {
    "status": "published",
@@ -742,6 +756,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-camera-and-brush",
   "review": {
    "status": "published",
@@ -776,6 +791,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-cleaner-fish",
   "review": {
    "status": "published",
@@ -834,6 +850,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-open-plan",
   "review": {
    "status": "published",
@@ -892,6 +909,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-savings-circles",
   "review": {
    "status": "published",
@@ -948,6 +966,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-poetry-translation",
   "review": {
    "status": "published",
@@ -998,6 +1017,7 @@
   "skills": [
    "rc-vocab-in-context"
   ],
+  "topics": [],
   "passageId": "v3w2-tool-library",
   "review": {
    "status": "published",
@@ -1037,6 +1057,183 @@
   "answer": {
    "choices": [
     "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-21",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 3,
+  "stem": "In the context in which it appears, 'nominal' most nearly means",
+  "explanation": "The writers composed for 'audiences beyond the nominal recipient': the person named on the letter was its recipient in name, but not its only real reader. 'Ostensible' (apparent, so designated) fits. The common sense 'very small' (as in 'a nominal fee') does not.",
+  "choiceExplanations": {
+   "A": "The common sense of 'nominal' ('a nominal fee'), but the recipient is not small in amount; he or she is the recipient in name only.",
+   "C": "A real sense of 'nominal' (relating to nouns) that has nothing to do with the sentence.",
+   "D": "Nothing is being estimated.",
+   "E": "Nothing suggests the recipient was reluctant."
+  },
+  "estSeconds": 70,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "negligible"
+    },
+    {
+     "id": "B",
+     "text": "ostensible"
+    },
+    {
+     "id": "C",
+     "text": "grammatical"
+    },
+    {
+     "id": "D",
+     "text": "approximate"
+    },
+    {
+     "id": "E",
+     "text": "unwilling"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-22",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "In the context in which it appears, 'lumpy' most nearly means",
+  "explanation": "The examples are a roof and a sewing machine, and the point is that members get them 'sooner' by pooling. These goods cannot be bought a little at a time; a saver needs the whole sum at once. That is the economist's sense of 'lumpy', not the physical one.",
+  "choiceExplanations": {
+   "A": "The everyday physical meaning, which does not fit a roof or a sewing machine as purchases.",
+   "B": "A roof is not carried, and weight is not the point; the point is the size of the single payment.",
+   "C": "Distribution among members is a different issue (the rotation of the pot).",
+   "E": "Quality is never discussed."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "coarse in texture"
+    },
+    {
+     "id": "B",
+     "text": "heavy and awkward to carry"
+    },
+    {
+     "id": "C",
+     "text": "unevenly distributed among members"
+    },
+    {
+     "id": "D",
+     "text": "obtainable only through a single large outlay"
+    },
+    {
+     "id": "E",
+     "text": "of inferior manufacture"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-04-meaning-in-context-23",
+  "lessonId": "v3-04-meaning-in-context",
+  "difficulty": 4,
+  "stem": "In the context in which it appears, 'embarrassment' most nearly means",
+  "explanation": "The personal equation was 'not a curiosity about the mind but a practical embarrassment': it meant every observer added errors. 'Practical' and the colon's explanation point to a difficulty that hampers the work, not to a feeling.",
+  "choiceExplanations": {
+   "A": "The common meaning, but the passage describes a problem for the work, not anyone's feelings.",
+   "B": "No social misstep is involved.",
+   "D": "Taken from the idiom 'an embarrassment of riches'; nothing here is too plentiful.",
+   "E": "Nothing suggests public outrage; the problem was internal to the observatories' work."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "rc-vocab-in-context"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "a feeling of shame"
+    },
+    {
+     "id": "B",
+     "text": "a social blunder"
+    },
+    {
+     "id": "C",
+     "text": "an impediment to the work at hand"
+    },
+    {
+     "id": "D",
+     "text": "an overabundance"
+    },
+    {
+     "id": "E",
+     "text": "a public scandal"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
    ]
   }
  }

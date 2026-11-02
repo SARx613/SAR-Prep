@@ -13,6 +13,7 @@
    "rc-reported-vs-advanced",
    "rc-hedges"
   ],
+  "topics": [],
   "passageId": "v3-libraries",
   "review": {
    "status": "published",
@@ -58,6 +59,7 @@
   "skills": [
    "rc-hedges"
   ],
+  "topics": [],
   "passageId": "v3-green-space",
   "review": {
    "status": "published",
@@ -86,6 +88,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-libraries",
   "review": {
    "status": "published",
@@ -118,6 +121,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-painter",
   "review": {
    "status": "published",
@@ -162,6 +166,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-school-start",
   "review": {
    "status": "published",
@@ -197,6 +202,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-green-space",
   "review": {
    "status": "published",
@@ -255,6 +261,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-reversals",
   "review": {
    "status": "published",
@@ -307,6 +314,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-reversals",
   "review": {
    "status": "published",
@@ -343,6 +351,7 @@
    "rc-hedges",
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-painter",
   "review": {
    "status": "published",
@@ -402,6 +411,7 @@
    "rc-hedges",
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-bird-dialects",
   "review": {
    "status": "published",
@@ -461,6 +471,7 @@
    "rc-hedges",
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-school-start",
   "review": {
    "status": "published",
@@ -517,6 +528,7 @@
    "rc-hedges",
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3-bird-dialects",
   "review": {
    "status": "published",
@@ -565,6 +577,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-open-plan",
   "review": {
    "status": "published",
@@ -610,6 +623,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-permafrost-footings",
   "review": {
    "status": "published",
@@ -644,6 +658,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-note-taking",
   "review": {
    "status": "published",
@@ -696,6 +711,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-moth-clicks",
   "review": {
    "status": "published",
@@ -727,6 +743,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-poetry-translation",
   "review": {
    "status": "published",
@@ -778,6 +795,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-fungal-networks",
   "review": {
    "status": "published",
@@ -833,6 +851,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-immersion-schooling",
   "review": {
    "status": "published",
@@ -884,6 +903,7 @@
   "skills": [
    "rc-reported-vs-advanced"
   ],
+  "topics": [],
   "passageId": "v3w2-free-evenings",
   "review": {
    "status": "published",
@@ -923,6 +943,154 @@
   "answer": {
    "choices": [
     "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-21",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 5,
+  "stem": "Consider each of the three choices separately and select all that apply. Which of the following positions can be attributed to the author?",
+  "explanation": "A restates 'None of this renders the letters worthless to the biographer.' C matches the last sentence, which is hedged ('may tell us less', 'perhaps'), and C keeps that hedge with 'may be easier'. B turns a cautious claim about what a letter can show into a claim about what writers felt.",
+  "choiceExplanations": {
+   "B": "Overstates the hedge: the author says a letter 'may tell us less' about the intensity of sorrow, not that the writers felt little."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-hedges",
+   "rc-reported-vs-advanced"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Letters of the period can still be of use to biographers."
+    },
+    {
+     "id": "B",
+     "text": "Letters professing grief were usually written by people who felt little sorrow."
+    },
+    {
+     "id": "C",
+     "text": "The conventions by which grief was displayed may be easier to establish from letters than the grief itself."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-22",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 5,
+  "stem": "Consider each of the three choices separately and select all that apply. Which of the following does the author put forward tentatively rather than as established?",
+  "explanation": "B rests on a conditional and a modal ('If such reports are representative', 'may lie'); C is marked by 'presumably varies'. A is stated flatly in paragraph 1 as a feature of how the association works.",
+  "choiceExplanations": {
+   "A": "Asserted without qualification: 'Except for the member who happens to draw the final turn, every participant receives the pot sooner...'"
+  },
+  "estSeconds": 110,
+  "skills": [
+   "rc-hedges"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Every member except the one with the final turn receives the pot sooner than saving alone would allow."
+    },
+    {
+     "id": "B",
+     "text": "The association's principal value lies in turning a private intention to save into a public obligation."
+    },
+    {
+     "id": "C",
+     "text": "The relative importance of the two explanations differs from one region to another."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-03-major-minor-23",
+  "lessonId": "v3-03-major-minor",
+  "difficulty": 4,
+  "stem": "Consider each of the three choices separately and select all that apply. Which of the following does the passage attribute to others rather than advance as the author's own view?",
+  "explanation": "B is what 'Histories of psychology' present. C is the assumption the astronomers had long held (the observer 'long treated as a transparent window onto the heavens'), which the personal equation overturned; the author reports it but does not hold it. A is the author's own concession ('The lineage is real').",
+  "choiceExplanations": {
+   "A": "The author grants this in their own voice: 'The lineage is real.'"
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-reported-vs-advanced"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The line of descent from the personal equation to reaction-time experiments is genuine."
+    },
+    {
+     "id": "B",
+     "text": "The personal equation was the first measurement of the speed of mental processes."
+    },
+    {
+     "id": "C",
+     "text": "An observer could be relied on as a transparent window onto the heavens, contributing no error of his own."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
    ]
   }
  }

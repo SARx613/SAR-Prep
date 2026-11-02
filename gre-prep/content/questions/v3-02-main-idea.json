@@ -15,6 +15,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-ant-seeds",
   "review": {
    "status": "published",
@@ -67,6 +68,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-platforms",
   "review": {
    "status": "published",
@@ -95,6 +97,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-ant-seeds",
   "review": {
    "status": "published",
@@ -129,6 +132,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-libraries",
   "review": {
    "status": "published",
@@ -187,6 +191,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-platforms",
   "review": {
    "status": "published",
@@ -245,6 +250,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-adaptation",
   "review": {
    "status": "published",
@@ -301,6 +307,7 @@
    "rc-main-idea",
    "rc-support"
   ],
+  "topics": [],
   "passageId": "v3-oral-epic",
   "review": {
    "status": "published",
@@ -347,6 +354,7 @@
    "rc-main-idea",
    "rc-support"
   ],
+  "topics": [],
   "passageId": "v3-soil-carbon",
   "review": {
    "status": "published",
@@ -379,6 +387,7 @@
    "rc-main-idea",
    "rc-support"
   ],
+  "topics": [],
   "passageId": "v3-adaptation",
   "review": {
    "status": "published",
@@ -430,6 +439,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-oral-epic",
   "review": {
    "status": "published",
@@ -489,6 +499,7 @@
    "rc-main-idea",
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-libraries",
   "review": {
    "status": "published",
@@ -547,6 +558,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3-soil-carbon",
   "review": {
    "status": "published",
@@ -605,6 +617,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-camera-and-brush",
   "review": {
    "status": "published",
@@ -657,6 +670,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-cleaner-fish",
   "review": {
    "status": "published",
@@ -691,6 +705,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-tool-library",
   "review": {
    "status": "published",
@@ -749,6 +764,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-ocean-noise",
   "review": {
    "status": "published",
@@ -807,6 +823,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-immersion-schooling",
   "review": {
    "status": "published",
@@ -865,6 +882,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-fungal-networks",
   "review": {
    "status": "published",
@@ -920,6 +938,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-subscription-pricing",
   "review": {
    "status": "published",
@@ -971,6 +990,7 @@
   "skills": [
    "rc-main-idea"
   ],
+  "topics": [],
   "passageId": "v3w2-archive-silences",
   "review": {
    "status": "published",
@@ -1010,6 +1030,184 @@
   "answer": {
    "choices": [
     "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-21",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 4,
+  "stem": "The primary purpose of the passage is to",
+  "explanation": "The passage reports an old way of reading letters (as windows onto private feeling), explains why that confidence is 'harder to sustain', and then says the letters are not worthless but show something else: the conventions of display. That is a revision of what the evidence shows, not a rejection of it.",
+  "choiceExplanations": {
+   "A": "Reverses the passage: the author sides with the recent scholarship that undercuts the traditional reading.",
+   "B": "Too strong and off target: the author never calls the writers insincere; the point is that letters were composed for an audience and shaped by convention.",
+   "C": "The manuals are one piece of supporting evidence, not the subject of the passage.",
+   "E": "Too extreme: the author says explicitly that this does not render the letters 'worthless to the biographer'."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "defend biographers' traditional reliance on letters against the objections of recent scholars"
+    },
+    {
+     "id": "B",
+     "text": "show that eighteenth-century writers concealed their true feelings when they wrote letters"
+    },
+    {
+     "id": "C",
+     "text": "trace the development and popularity of manuals of epistolary style"
+    },
+    {
+     "id": "D",
+     "text": "argue that a familiar body of evidence supports conclusions different from those it was once used to support"
+    },
+    {
+     "id": "E",
+     "text": "contend that letters of the period should no longer be used as biographical sources"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-22",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 5,
+  "stem": "The primary purpose of the passage is to",
+  "explanation": "Paragraph 1 sets up the puzzle and the standard (timing) answer; paragraph 2 says that answer 'is not wrong, but it may be incomplete' and proposes a second source of value. Supplementing, not overturning, a sound explanation is the purpose.",
+  "choiceExplanations": {
+   "A": "Too narrow: the mechanics in paragraph 1 only set up the puzzle the passage is about.",
+   "C": "Too strong: the author says the timing explanation 'is not wrong' and that the two accounts are 'compatible'.",
+   "D": "Outside the scope: the passage recommends nothing to banks.",
+   "E": "The passage mentions the risk of non-payment by those who have 'already collected', not by the final recipient, and makes no such comparison."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-main-idea",
+   "rc-structure"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "describe how rotating savings associations operate and the risks their members bear"
+    },
+    {
+     "id": "B",
+     "text": "propose that a standard explanation of an enduring institution, while sound, leaves part of its appeal unaccounted for"
+    },
+    {
+     "id": "C",
+     "text": "refute the claim that rotating savings associations help members acquire costly goods"
+    },
+    {
+     "id": "D",
+     "text": "argue that banks should adopt the forms of social enforcement that such associations rely on"
+    },
+    {
+     "id": "E",
+     "text": "explain why members who draw the final turn are the most likely to stop paying"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-02-main-idea-23",
+  "lessonId": "v3-02-main-idea",
+  "difficulty": 3,
+  "stem": "The passage is primarily concerned with",
+  "explanation": "After the narrative of paragraph 1, the author sets aside the psychologists' reading ('it can obscure what the discovery meant to the astronomers themselves') and reinterprets the episode from the astronomers' side. That is a reinterpretation based on the participants' own view.",
+  "choiceExplanations": {
+   "A": "This is the reading the author qualifies; the passage does not trace psychology's development.",
+   "B": "The dismissal is narrated, not judged.",
+   "C": "The devices are mentioned briefly as part of the astronomers' response; how they worked is not explained.",
+   "D": "Too extreme: the author grants that 'the lineage is real' and claims only that the episode 'may belong less' to psychology."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-main-idea"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tracing how experimental psychology emerged from the practices of nineteenth-century astronomy"
+    },
+    {
+     "id": "B",
+     "text": "arguing that the Astronomer Royal treated his assistant unjustly"
+    },
+    {
+     "id": "C",
+     "text": "describing how electrical and photographic devices for recording transits worked"
+    },
+    {
+     "id": "D",
+     "text": "showing that the personal equation has no place in the history of psychology"
+    },
+    {
+     "id": "E",
+     "text": "reconsidering the significance of a scientific episode by attending to how its original participants understood it"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
    ]
   }
  }

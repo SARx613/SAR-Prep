@@ -15,6 +15,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -387,6 +393,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -449,6 +456,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -511,6 +519,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -573,6 +582,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -635,6 +645,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -697,6 +708,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -759,6 +771,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -821,6 +834,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -883,6 +897,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -945,6 +960,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1007,6 +1023,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1069,6 +1086,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1131,6 +1149,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1193,6 +1212,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1255,6 +1275,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1317,6 +1338,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1379,6 +1401,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1441,6 +1464,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1484,6 +1508,510 @@
    "choices": [
     "B",
     "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-25",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** the old verdict (*epigone*, *incapable of an idea of her own*) is overturned by a work that *seemed to owe nothing to any predecessor*. Predict *new, without precedent*: *unprecedented* and *innovative*. *Imitative* and *derivative* are a decoy pair that restate the discarded verdict.",
+  "choiceExplanations": {
+   "A": "Restates the discarded verdict (*epigone*); the symphony owed nothing to any predecessor.",
+   "D": "Synonym of *imitative* (decoy pair), contradicted by the clue.",
+   "C": "A topical music word meaning harsh-sounding; harshness does not show independence from predecessors, and it has no partner.",
+   "F": "Praises skill, not newness: an epigone can be accomplished, so it misses the *owe nothing* clue."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Those who had written off the young composer as a gifted epigone, fluent in her teacher's idiom but incapable of an idea of her own, were obliged to reconsider when her third symphony appeared, a work so {{1}} in its harmonic language that it seemed to owe nothing to any predecessor.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "imitative"
+    },
+    {
+     "id": "B",
+     "text": "unprecedented"
+    },
+    {
+     "id": "C",
+     "text": "dissonant"
+    },
+    {
+     "id": "D",
+     "text": "derivative"
+    },
+    {
+     "id": "E",
+     "text": "innovative"
+    },
+    {
+     "id": "F",
+     "text": "accomplished"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-26",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** the *for* clause: not a single gift from a lobbyist in twenty years. The reputation is for incorruptible integrity: *probity* and *rectitude*. *Venality* and *corruption* are a decoy pair that the evidence refutes. *Candor* is the near-synonym trap: honesty, but in speech, which the records do not address.",
+  "choiceExplanations": {
+   "B": "Honesty of speech; refusing gifts proves incorruptibility, not frankness, and *candor* has no partner.",
+   "C": "Means willingness to be bribed, the opposite of what investigators found.",
+   "F": "Synonym of *venality* (decoy pair), contradicted by the clean records.",
+   "E": "Topical trap: refusing a free lunch might look thrifty, but the scandal is about influence-buying, not spending."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Alone among the ministers implicated in the procurement scandal, the deputy emerged with her reputation for {{1}} intact, for investigators combing through two decades of records found not a single instance in which she had accepted so much as a lunch from a lobbyist.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "probity"
+    },
+    {
+     "id": "B",
+     "text": "candor"
+    },
+    {
+     "id": "C",
+     "text": "venality"
+    },
+    {
+     "id": "D",
+     "text": "rectitude"
+    },
+    {
+     "id": "E",
+     "text": "frugality"
+    },
+    {
+     "id": "F",
+     "text": "corruption"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-27",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *Far from being ___ ... were substantial* makes the blank the opposite of *substantial*: minimal, token. *Perfunctory* and *nominal* both say the concessions were slight. *Sweeping* and *extensive* are a decoy pair that agree with *substantial*, which *far from* forbids. *Insincere* shares *perfunctory*'s hint of half-heartedness but changes the claim to dishonesty.",
+  "choiceExplanations": {
+   "A": "Agrees with *substantial*; *far from* needs the contrast.",
+   "D": "Synonym of *sweeping* (decoy pair), also matching rather than opposing *substantial*.",
+   "B": "Near *perfunctory* in tone but about sincerity, not size; the colon lists the scale of the changes, and the word has no partner.",
+   "E": "Timing is not opposed to *substantial*; the colon is about scale."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Far from being {{1}}, the historian's concessions to her critics in the revised edition were substantial: she withdrew two chapters outright, rewrote her central thesis, and recalculated every figure in the statistical appendix.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "sweeping"
+    },
+    {
+     "id": "B",
+     "text": "insincere"
+    },
+    {
+     "id": "C",
+     "text": "perfunctory"
+    },
+    {
+     "id": "D",
+     "text": "extensive"
+    },
+    {
+     "id": "E",
+     "text": "belated"
+    },
+    {
+     "id": "F",
+     "text": "nominal"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-28",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *barely a page* on the summit and *as if ... one she preferred not to revisit*. The memoir holds back on that subject: *reticent* and *reserved*. *Forthcoming* and *candid* are a decoy pair meaning open, the reverse. *Modest* is the near-synonym trap: it implies humility about her achievement, but the sentence gives reluctance, not self-effacement, as the motive.",
+  "choiceExplanations": {
+   "B": "Means freely sharing information, the opposite of a single page.",
+   "D": "Synonym of *forthcoming*: a decoy pair contradicted by *preferred not to revisit*.",
+   "F": "Close to *reserved* but means humble about one's merits; the clue gives reluctance as the motive, and the word has no partner.",
+   "C": "Topical trap: the chapters on childhood suggest nostalgia, but the blank describes how she treats the negotiations."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The diplomat's memoir is curiously {{1}} about the negotiations that made her famous, devoting barely a page to the summit itself while lavishing whole chapters on her childhood, as if the episode readers most wanted described were one she preferred not to revisit.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "reticent"
+    },
+    {
+     "id": "B",
+     "text": "forthcoming"
+    },
+    {
+     "id": "C",
+     "text": "nostalgic"
+    },
+    {
+     "id": "D",
+     "text": "candid"
+    },
+    {
+     "id": "E",
+     "text": "reserved"
+    },
+    {
+     "id": "F",
+     "text": "modest"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-29",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *Whereas* sets the editors against the *falling-off* view, and the closing phrase defines the blank: *bare diction*, *clipped lines*, *renunciation of ornament*. *Austerity* and *spareness* both name that deliberate plainness. *Floridity* and *ornateness* are a decoy pair meaning the reverse; *decline* is the earlier scholars' word, which *whereas* rejects.",
+  "choiceExplanations": {
+   "A": "Means flowery ornament, the opposite of *renunciation of ornament*.",
+   "E": "Synonym of *floridity* (decoy pair), contradicted by *bare diction*.",
+   "B": "Echoes the rejected *falling-off* reading; the editors argue the style was a choice, not a decline.",
+   "C": "Fits *clipped lines* but not *bare diction* or *renunciation of ornament*; it names brokenness rather than plainness and has no partner."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Whereas earlier scholars had treated the poet's late style as a falling-off, a symptom of failing powers, the new edition's editors argue persuasively that its {{1}} was deliberate, the poems' bare diction and clipped lines representing a hard-won renunciation of ornament.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "floridity"
+    },
+    {
+     "id": "B",
+     "text": "decline"
+    },
+    {
+     "id": "C",
+     "text": "fragmentation"
+    },
+    {
+     "id": "D",
+     "text": "austerity"
+    },
+    {
+     "id": "E",
+     "text": "ornateness"
+    },
+    {
+     "id": "F",
+     "text": "spareness"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-30",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *hailed ... as a sweeping reform* against *in practice*, then a colon: no enforcement money and *trivial* penalties. The rules lacked force: *toothless* and *ineffectual*. *Draconian* and *stringent* are a decoy pair that fit the sponsors' boast, not the colon's evidence.",
+  "choiceExplanations": {
+   "A": "Means harshly severe, contradicted by penalties *so small as to be trivial*.",
+   "E": "Synonym of *draconian*: the decoy pair, also refuted by the colon.",
+   "F": "Means short-lived; the colon describes weakness, not brevity.",
+   "D": "Topical trap: the colon reports weak enforcement, not public opinion."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The new regulations, hailed by their sponsors as a sweeping reform, turned out in practice to be largely {{1}}: agencies were given no additional funding to enforce them, and violators faced penalties so small as to be trivial.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "draconian"
+    },
+    {
+     "id": "B",
+     "text": "toothless"
+    },
+    {
+     "id": "C",
+     "text": "ineffectual"
+    },
+    {
+     "id": "D",
+     "text": "unpopular"
+    },
+    {
+     "id": "E",
+     "text": "stringent"
+    },
+    {
+     "id": "F",
+     "text": "ephemeral"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-31",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** *Although* sets what the director hoped for against what the critic delivered: scorn heaped on everyone. The blank is therefore the opposite of scorn, a restrained and fair-minded appraisal: *measured* and *temperate*. *Scathing* and *vitriolic* are the decoy pair: they describe what the critic actually wrote, not what the director pleaded for. *Ornate* and *verbose* are topical review words about style, not tone.",
+  "choiceExplanations": {
+   "A": "Describes the review actually delivered; the director would not plead for it, and *although* needs the opposite.",
+   "D": "Synonym of *scathing* (decoy pair): it fits the outcome, not the hope.",
+   "B": "A word about style; it does not contrast with *heaped scorn*.",
+   "C": "A word about length; it does not contrast with *heaped scorn*."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the director had pleaded for a {{1}} appraisal, the critic did not merely find fault with the production but heaped scorn on every actor, the director, and even the audience that had been so undiscerning as to applaud.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "scathing"
+    },
+    {
+     "id": "B",
+     "text": "ornate"
+    },
+    {
+     "id": "C",
+     "text": "verbose"
+    },
+    {
+     "id": "D",
+     "text": "vitriolic"
+    },
+    {
+     "id": "E",
+     "text": "measured"
+    },
+    {
+     "id": "F",
+     "text": "temperate"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-02-same-meaning-32",
+  "lessonId": "v2-02-same-meaning",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Clue:** she reversed unpopular decisions *quietly*, *without ever criticizing him publicly*, winning the staff *while avoiding a quarrel*. Skill at handling people without giving offense: *diplomatic* and *tactful*. *Brusque* and *abrupt* are a decoy pair meaning the reverse.",
+  "choiceExplanations": {
+   "A": "Means curt and blunt, the opposite of avoiding public criticism.",
+   "E": "Synonym of *brusque*: a decoy pair contradicted by *quietly*.",
+   "B": "Quietness might suggest timidity, but reversing her predecessor's decisions took nerve.",
+   "F": "Near *diplomatic* in effect but connotes servile flattery; she won the staff by changing policy, not by fawning, and the word has no partner."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The museum's new director proved remarkably {{1}}, quietly reversing her predecessor's most unpopular decisions without ever criticizing him publicly, and thereby winning over a demoralized staff while avoiding a quarrel with the trustees who had appointed him.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "brusque"
+    },
+    {
+     "id": "B",
+     "text": "timid"
+    },
+    {
+     "id": "C",
+     "text": "diplomatic"
+    },
+    {
+     "id": "D",
+     "text": "tactful"
+    },
+    {
+     "id": "E",
+     "text": "abrupt"
+    },
+    {
+     "id": "F",
+     "text": "ingratiating"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "D"
    ]
   }
  }

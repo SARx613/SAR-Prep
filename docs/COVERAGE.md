@@ -81,3 +81,11 @@ blanks, SE. The one gap was reading **multi-paragraph passages** (ETS: "one or t
 now covered by the lesson `v3-09-long-passages` (two original three-paragraph passages, 12 questions, 2 checks). It and the two Quant gap
 lessons (`q1-27`, `q2-27`) went through the full pipeline — two blind solvers (40/40 agreement each), then a source and pedagogy review —
 and are published.
+
+### Realism pass (Verbal)
+
+The existing Text Completion sentences averaged 24 words against about 39 in the real tests, with plainer vocabulary and blatant clues. 82 new
+original items were added at test-like difficulty: 28 Text Completion (1–3 blanks), 21 Sentence Equivalence (decoy pairs, near-synonym
+traps), 15 argument-style Reading Comprehension items (weaken / strengthen / explain / assumption) on five short passages, and 18 items on
+four longer passages (one to three paragraphs) with select-all and select-in-passage formats. Each went through the originality script, an
+editor review for single-answer and distractor quality (10 items revised, 2 rewritten), and two independent blind solvers.

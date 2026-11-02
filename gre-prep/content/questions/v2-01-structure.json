@@ -15,6 +15,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -387,6 +393,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -449,6 +456,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -511,6 +519,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -573,6 +582,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -635,6 +645,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -697,6 +708,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -759,6 +771,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -821,6 +834,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -883,6 +897,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -945,6 +960,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1007,6 +1023,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1069,6 +1086,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1131,6 +1149,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1193,6 +1212,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1255,6 +1275,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1317,6 +1338,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1379,6 +1401,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1441,6 +1464,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1484,6 +1508,321 @@
    "choices": [
     "B",
     "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-25",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** *Although ... professed ... without preconceptions* sets up a contrast, and the *so ... that* clause defines the blank: a book written to prove a verdict fixed in advance. *Tendentious* and *slanted* both mean written to promote a particular view. *Evenhanded* and *dispassionate* are a decoy pair that match what she *professed*, not what the book was. *Hagiographic* is biased too, but only in the subject's favor, and nothing says the verdict was flattering.",
+  "choiceExplanations": {
+   "B": "Means fair to all sides: what she professed, which the *although* clause sets against the result.",
+   "E": "Pairs with *evenhanded* as a decoy: both describe the impartiality she claimed, not the book reviewers read.",
+   "C": "Near-synonym trap: it means worshipfully flattering, a narrower bias the sentence never specifies (the verdict could be hostile), and it has no partner.",
+   "F": "A topical word for a biography, but thoroughness is not the complaint; assembling evidence to suit a verdict is bias, not completeness."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although the biographer professed to have approached her subject without preconceptions, the finished volume proved so {{1}} that reviewers wondered whether she had begun writing with her verdict already in hand, merely assembling the evidence to suit it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "tendentious"
+    },
+    {
+     "id": "B",
+     "text": "evenhanded"
+    },
+    {
+     "id": "C",
+     "text": "hagiographic"
+    },
+    {
+     "id": "D",
+     "text": "slanted"
+    },
+    {
+     "id": "E",
+     "text": "dispassionate"
+    },
+    {
+     "id": "F",
+     "text": "exhaustive"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-26",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** a *not X but Y* frame plus a colon. The endorsement came *not* from enthusiasm *but* from exhaustion: members *no longer had the stamina to keep opposing*. The blank is giving in without conviction: *acquiescence* and *capitulation*. *Ardor* and *zeal* are a decoy pair restating the *genuine enthusiasm* the sentence denies; *consensus* implies real agreement on the merits.",
+  "choiceExplanations": {
+   "A": "Means passionate enthusiasm, exactly what *not any genuine enthusiasm* rules out.",
+   "D": "Synonym of *ardor*: the decoy pair that restates the enthusiasm the sentence denies.",
+   "B": "Implies members genuinely came to agree; the colon says they merely stopped resisting, so *weary consensus* changes the claim, and it has no partner.",
+   "F": "Stubborn refusal is the opposite of finally endorsing the proposal."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The committee's eventual endorsement of the proposal reflected not any genuine enthusiasm for its aims but a weary {{1}}: after two years of acrimonious debate, members simply no longer had the stamina to keep opposing it.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "ardor"
+    },
+    {
+     "id": "B",
+     "text": "consensus"
+    },
+    {
+     "id": "C",
+     "text": "acquiescence"
+    },
+    {
+     "id": "D",
+     "text": "zeal"
+    },
+    {
+     "id": "E",
+     "text": "capitulation"
+    },
+    {
+     "id": "F",
+     "text": "obstinacy"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-27",
+  "lessonId": "v2-01-structure",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** *Because* gives the cause: compiled *haphazardly* by many hands *with no shared system*. The example confirms it: one letter under three headings. Predict *irregular*; *erratic* and *inconsistent* match. *Terse* and *laconic* are a decoy pair (both mean brief) that the clue never mentions.",
+  "choiceExplanations": {
+   "A": "Means carefully precise, the opposite of a haphazard catalog.",
+   "C": "Means brief; length is not the problem the cause describes.",
+   "E": "Synonym of *terse*, forming a decoy pair; brevity does not explain one letter filed three ways.",
+   "D": "Means obscure to all but specialists; a topical archive word, but the trouble is lack of system, not esoteric content."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Because the archive's catalog had been compiled haphazardly over a century by dozens of volunteers with no shared system, even seasoned researchers found its entries frustratingly {{1}}, often listing the same letter under three different headings.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "meticulous"
+    },
+    {
+     "id": "B",
+     "text": "erratic"
+    },
+    {
+     "id": "C",
+     "text": "terse"
+    },
+    {
+     "id": "D",
+     "text": "arcane"
+    },
+    {
+     "id": "E",
+     "text": "laconic"
+    },
+    {
+     "id": "F",
+     "text": "inconsistent"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-28",
+  "lessonId": "v2-01-structure",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** *Ironically* reverses the fiction's *spontaneity and abandon*, and the closing phrase describes her: redrafting letters and planning days in fifteen-minute blocks. Predict *orderly and careful*; *meticulous* and *methodical* match. *Impulsive* and *capricious* are a decoy pair describing the fiction, which the irony says she was not. *Pedantic* is a near-synonym trap: it means fussy display of learning or petty rules, a different and pejorative claim.",
+  "choiceExplanations": {
+   "A": "Describes the fiction's values; *ironically* requires the novelist to be the opposite.",
+   "C": "Synonym of *impulsive* (the decoy pair); a whimsical person does not schedule fifteen-minute intervals.",
+   "B": "Close to *meticulous* but means showy fussiness about learning or minor rules; nothing suggests showing off knowledge, and it has no partner.",
+   "F": "A topical writer's word meaning productive; redrafting letters shows care, not output."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Ironically, the novelist whose fiction celebrated spontaneity and abandon was, by every account of those who knew her, the most {{1}} of personalities, drafting even her letters several times and planning each day in fifteen-minute intervals.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "impulsive"
+    },
+    {
+     "id": "B",
+     "text": "pedantic"
+    },
+    {
+     "id": "C",
+     "text": "capricious"
+    },
+    {
+     "id": "D",
+     "text": "meticulous"
+    },
+    {
+     "id": "E",
+     "text": "methodical"
+    },
+    {
+     "id": "F",
+     "text": "prolific"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-01-structure-29",
+  "lessonId": "v2-01-structure",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Structure:** the appositive (*a quality its drafters regarded as a virtue*) and the *since* clause define the blank: phrasing *each signatory could construe in its own favor*, that is, open to more than one reading. *Equivocal* and *ambiguous* match. *Pellucid* and *lucid* are a decoy pair meaning perfectly clear, the opposite. *Evasive* is the near-synonym trap: it means dodging the point, not admitting two readings, and it names the kind of defect the drafters denied.",
+  "choiceExplanations": {
+   "D": "Means transparently clear; clear language could not be read two favorable ways.",
+   "F": "Synonym of *pellucid*: a decoy pair, both contradicting the *since* clause.",
+   "E": "Near *equivocal* in connotation but means avoiding the point; the clue requires language that supports rival readings, and *evasive* has no partner.",
+   "B": "A topical diplomatic word for a soothing tone; a conciliatory text can still be unambiguous, so it misses the *construe in its own favor* clue."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The treaty's language was deliberately {{1}}, a quality its drafters regarded as a virtue rather than a defect, since only phrasing that each signatory could construe in its own favor had any hope of securing ratification in both capitals.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "equivocal"
+    },
+    {
+     "id": "B",
+     "text": "conciliatory"
+    },
+    {
+     "id": "C",
+     "text": "ambiguous"
+    },
+    {
+     "id": "D",
+     "text": "pellucid"
+    },
+    {
+     "id": "E",
+     "text": "evasive"
+    },
+    {
+     "id": "F",
+     "text": "lucid"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
    ]
   }
  }

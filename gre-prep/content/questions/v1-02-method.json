@@ -15,6 +15,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -397,6 +403,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -469,6 +476,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -541,6 +549,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -615,6 +624,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -707,6 +717,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -799,6 +810,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -889,6 +901,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -951,6 +964,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1013,6 +1027,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1075,6 +1090,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1147,6 +1163,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1219,6 +1236,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1281,6 +1299,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1355,6 +1374,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1445,6 +1465,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1519,6 +1540,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1609,6 +1631,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1683,6 +1706,7 @@
   "skills": [
    "text-completion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1754,6 +1778,510 @@
     "1B",
     "2C",
     "3A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-25",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Read and mark:** *Far from being the dry compendium* tells you the blank names the opposite of dry. The list after the comma then defines it: *wandering into anecdote*, gossip, side quarrels. **Predict:** rambling, digressive. *Discursive* (moving from topic to topic) matches.",
+  "choiceExplanations": {
+   "A": "Fits the word *compendium*, but completeness is not wandering into anecdote; it describes the dry book the sentence denies.",
+   "B": "Pedantry is the dryness that *Far from* rules out, not the gossipy wandering the list describes.",
+   "D": "Lapidary means concise and polished, the reverse of entries that wander off into anecdote.",
+   "E": "Settling old scores with rivals is the opposite of impartial."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Far from being the dry compendium its title suggests, the encyclopedia's entries are frequently {{1}}, wandering into anecdote, settling old scores with rival scholars, and indulging the compiler's evident delight in gossip about the court.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "exhaustive"
+      },
+      {
+       "id": "B",
+       "text": "pedantic"
+      },
+      {
+       "id": "C",
+       "text": "discursive"
+      },
+      {
+       "id": "D",
+       "text": "lapidary"
+      },
+      {
+       "id": "E",
+       "text": "impartial"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-26",
+  "lessonId": "v1-02-method",
+  "difficulty": 3,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Read and mark:** the colon means the second half explains *a model of ___*. *Two sentences*, *no explanation*, and the contrast with her *expansive speeches* all point to extreme brevity. **Predict:** brevity. *Terseness* matches. Check the rest: it is the brevity, not any feeling, that leaves journalists speculating.",
+  "choiceExplanations": {
+   "A": "Candor means telling everything frankly; the letter *offered no explanation*.",
+   "B": "Pompous, lofty language is what her *expansive speeches* had; the letter, in *two sentences*, is the contrast.",
+   "C": "Nothing in the letter expresses regret; it does not even explain.",
+   "D": "Thanking no one is a breach of the usual courtesies, not a model of decorum."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "The minister's resignation letter was a model of {{1}}: in two sentences it announced her departure, thanked no one and offered no explanation, leaving journalists accustomed to her expansive speeches to speculate about all that she had chosen not to say.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "candor"
+      },
+      {
+       "id": "B",
+       "text": "grandiloquence"
+      },
+      {
+       "id": "C",
+       "text": "contrition"
+      },
+      {
+       "id": "D",
+       "text": "decorum"
+      },
+      {
+       "id": "E",
+       "text": "terseness"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-27",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Find the clue that does the work:** the reviewers *were obliged to revise their verdict* because of one fact, that he *labored over each movement for years*. So the blank must be the exact charge that such labor disproves. **Predict:** careless, done with little effort. *Perfunctory* matches. The other negative words fit *talent in decline* but are not refuted by evidence of care.",
+  "choiceExplanations": {
+   "A": "Fits *talent in decline*, but years of labor would not refute a charge of imitation; a work can be labored over and still derivative.",
+   "C": "Years of revision would not show that the music is easy to follow; the evidence does not answer this charge.",
+   "D": "Showy but hollow is a different charge, and careful drafting does not disprove it.",
+   "E": "Exuberant is praise, not a dismissal of *mere exercises*."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Reviewers who had dismissed the composer's late quartets as {{1}}, the mere exercises of a talent in decline, were obliged to revise their verdict when the manuscripts revealed that he had labored over each movement for years, discarding draft after draft.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "derivative"
+      },
+      {
+       "id": "B",
+       "text": "perfunctory"
+      },
+      {
+       "id": "C",
+       "text": "abstruse"
+      },
+      {
+       "id": "D",
+       "text": "meretricious"
+      },
+      {
+       "id": "E",
+       "text": "ebullient"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-28",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Two signals, two flips:** *Although* sets the claims against the *modest* prose, so the claims are bold; then *anything but* flips again, so the blank names what the claims are *not*. They are not modest. **Predict:** cautious, provisional. *Tentative* matches. Choosing *audacious* or *sweeping* means missing the second flip.",
+  "choiceExplanations": {
+   "A": "Her claims *are* audacious; *anything but audacious* would contradict *nothing less than a wholesale revision*.",
+   "B": "Fits the topic of economics but not the logic; nothing says her claims avoid numbers.",
+   "C": "Her proposal is sweeping, so *anything but sweeping* reverses the sentence.",
+   "E": "The sentence judges how bold the claims are, not whether they are justified."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Although the economist's prose is unfailingly modest, larded with qualifications and apologies for the provisional nature of her findings, the claims themselves are anything but {{1}}; she proposes nothing less than a wholesale revision of how national wealth is measured.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "audacious"
+      },
+      {
+       "id": "B",
+       "text": "quantitative"
+      },
+      {
+       "id": "C",
+       "text": "sweeping"
+      },
+      {
+       "id": "D",
+       "text": "tentative"
+      },
+      {
+       "id": "E",
+       "text": "unfounded"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-29",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Decode the frame:** *To call it X would be generous* means the truth is worse than X. The colon tells you what X is and what is worse: *does not merely omit ... but recasts*. X is the milder fault, omission. **Predict:** leaving things out. *Selective* matches. *Mendacious* (lying) describes the worse fault, so it cannot be the generous label.",
+  "choiceExplanations": {
+   "B": "Too strong: *would be generous* needs the milder charge that the truth goes beyond, and the sentence itself names that milder charge as omitting.",
+   "C": "Wordiness is a real flaw in memoirs but has nothing to do with omitting or recasting episodes.",
+   "D": "Heaviness of style is not what the colon explains.",
+   "E": "A mournful tone fits the subject of memoir but not the charge of omission."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "To call the diplomat's memoir {{1}} would be generous: it does not merely omit the episodes that embarrassed him but recasts them, with an advocate's ingenuity, as triumphs of foresight that his colleagues were too timid to appreciate.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "selective"
+      },
+      {
+       "id": "B",
+       "text": "mendacious"
+      },
+      {
+       "id": "C",
+       "text": "prolix"
+      },
+      {
+       "id": "D",
+       "text": "ponderous"
+      },
+      {
+       "id": "E",
+       "text": "elegiac"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-30",
+  "lessonId": "v1-02-method",
+  "difficulty": 4,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Find the definition:** the colon explains what the critics praise: *her refusal to explain her characters' motives*. The critics call it trust in the reader; the author calls it incapacity. Either way the quality is a holding back. **Predict:** restraint, holding back. *Reticence* matches. *Insight* is a trap: it sounds like praise for a novelist but does not name the refusal.",
+  "choiceExplanations": {
+   "A": "The colon says the praised quality is a *refusal to explain*; insight is not a refusal, and the sentence denies she has it.",
+   "B": "Lecturing the reader is the opposite of refusing to explain motives.",
+   "D": "Frankness is the opposite of withholding the characters' motives.",
+   "E": "High spirits have nothing to do with the refusal the colon describes."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "Critics who praise the novelist's {{1}} mistake a limitation for a virtue: her refusal to explain her characters' motives reflects not a principled trust in the reader but an incapacity to imagine any inner life more intricate than appetite.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "insight"
+      },
+      {
+       "id": "B",
+       "text": "didacticism"
+      },
+      {
+       "id": "C",
+       "text": "reticence"
+      },
+      {
+       "id": "D",
+       "text": "candor"
+      },
+      {
+       "id": "E",
+       "text": "exuberance"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-31",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Read the whole sentence first:** *absorbed by the very agencies it targeted* signals an ironic reversal, and the final phrase defines the blank: *burying the few damning documents beneath millions of innocuous ones*. **Predict:** hiding by confusing. *Obfuscation* matches. *Censorship* is the near miss: it hides by removing, while here nothing is removed.",
+  "choiceExplanations": {
+   "A": "Publishing is literally disclosure, but the sentence says the archives *bury* the damning papers; the irony requires the opposite.",
+   "B": "Censorship removes or forbids material; here everything is published and the damning papers are hidden in plain sight.",
+   "C": "This is what transparency was meant to deliver; *burying the few damning documents* shows the reverse.",
+   "D": "Remedy for a wrong does not fit hiding damning papers."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "So thoroughly had the reformers' rhetoric of transparency been absorbed by the very agencies it targeted that, within a decade, the publication of vast, unindexed archives had become a means of {{1}}, burying the few damning documents beneath millions of innocuous ones.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "disclosure"
+      },
+      {
+       "id": "B",
+       "text": "censorship"
+      },
+      {
+       "id": "C",
+       "text": "accountability"
+      },
+      {
+       "id": "D",
+       "text": "redress"
+      },
+      {
+       "id": "E",
+       "text": "obfuscation"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v1-02-method-32",
+  "lessonId": "v1-02-method",
+  "difficulty": 5,
+  "stem": "Select one entry from the choices that best completes the text.",
+  "explanation": "**Decode the frame:** *testifies less to X than to Y* means X is what the sales would seem to prove but do not. The colon gives the evidence against X: *its arguments were as tangled as its prose was florid*. **Predict:** soundness, clarity of argument. *Cogency* (convincing force) matches.",
+  "choiceExplanations": {
+   "A": "Being widely known is shown by eleven editions, not denied by the evidence after the colon.",
+   "C": "Eleven editions could not testify to obscurity in the first place.",
+   "D": "Wordiness is not something sales would normally prove, so *testifies less to* has nothing to deny.",
+   "E": "Fits a treatise but not the evidence; nothing after the colon concerns whether its views were conventional."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "text-completion"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "TC",
+  "content": {
+   "text": "That the treatise went through eleven editions in its author's lifetime testifies less to its {{1}} than to the period's appetite for systems: readers who bought it seldom finished it, and those who did complained that its arguments were as tangled as its prose was florid.",
+   "blanks": [
+    {
+     "index": 1,
+     "choices": [
+      {
+       "id": "A",
+       "text": "notoriety"
+      },
+      {
+       "id": "B",
+       "text": "cogency"
+      },
+      {
+       "id": "C",
+       "text": "obscurity"
+      },
+      {
+       "id": "D",
+       "text": "prolixity"
+      },
+      {
+       "id": "E",
+       "text": "orthodoxy"
+      }
+     ]
+    }
+   ]
+  },
+  "answer": {
+   "blanks": [
+    "B"
    ]
   }
  }

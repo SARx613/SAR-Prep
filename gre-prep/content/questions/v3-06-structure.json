@@ -10,6 +10,7 @@
    "rc-structure",
    "rc-transitions"
   ],
+  "topics": [],
   "passageId": "v3-bike-lanes",
   "review": {
    "status": "published",
@@ -40,6 +41,7 @@
    "rc-structure",
    "rc-transitions"
   ],
+  "topics": [],
   "passageId": "v3-school-start",
   "review": {
    "status": "published",
@@ -75,6 +77,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-loyalty-card",
   "review": {
    "status": "published",
@@ -134,6 +137,7 @@
    "rc-structure",
    "rc-transitions"
   ],
+  "topics": [],
   "passageId": "v3-bike-lanes",
   "review": {
    "status": "published",
@@ -187,6 +191,7 @@
    "rc-structure",
    "rc-transitions"
   ],
+  "topics": [],
   "passageId": "v3-antibiotics",
   "review": {
    "status": "published",
@@ -222,6 +227,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-antibiotics",
   "review": {
    "status": "published",
@@ -280,6 +286,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-reversals",
   "review": {
    "status": "published",
@@ -332,6 +339,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-reversals",
   "review": {
    "status": "published",
@@ -364,6 +372,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-school-start",
   "review": {
    "status": "published",
@@ -415,6 +424,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-nav-apps",
   "review": {
    "status": "published",
@@ -474,6 +484,7 @@
    "rc-structure",
    "rc-transitions"
   ],
+  "topics": [],
   "passageId": "v3-loyalty-card",
   "review": {
    "status": "published",
@@ -529,6 +540,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3-nav-apps",
   "review": {
    "status": "published",
@@ -574,6 +586,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-permafrost-footings",
   "review": {
    "status": "published",
@@ -602,6 +615,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-cleaner-fish",
   "review": {
    "status": "published",
@@ -636,6 +650,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-savings-circles",
   "review": {
    "status": "published",
@@ -694,6 +709,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-fungal-networks",
   "review": {
    "status": "published",
@@ -752,6 +768,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-family-firms",
   "review": {
    "status": "published",
@@ -807,6 +824,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-immersion-schooling",
   "review": {
    "status": "published",
@@ -852,6 +870,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-archive-silences",
   "review": {
    "status": "published",
@@ -887,6 +906,7 @@
   "skills": [
    "rc-structure"
   ],
+  "topics": [],
   "passageId": "v3w2-free-evenings",
   "review": {
    "status": "published",
@@ -927,6 +947,127 @@
    "choices": [
     "D"
    ]
+  }
+ },
+ {
+  "id": "v3-06-structure-21",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "The final sentence of the passage functions primarily to",
+  "explanation": "'The evidence is not decisive' grants a confound (fit animals may both stot more and escape more), and '; but the finding is at least what the signaling account predicts' keeps the finding as support. This is a concession followed by a limited reassertion.",
+  "choiceExplanations": {
+   "A": "The author still calls the signaling account 'more persuasive' and does not go back to the warning explanation.",
+   "B": "No new data are introduced, and the sentence denies that causation has been shown.",
+   "D": "Lone stotting is dealt with in the second sentence, not the last.",
+   "E": "Gets the relation backward: the sentence suggests health may produce stotting, not that stotting improves health."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "reject the signaling account in favor of the explanation described earlier as older"
+    },
+    {
+     "id": "B",
+     "text": "introduce new field data showing that stotting causes predators to abandon pursuits"
+    },
+    {
+     "id": "C",
+     "text": "acknowledge that a finding cited for an account admits another explanation, while maintaining that the finding is consistent with that account"
+    },
+    {
+     "id": "D",
+     "text": "explain why gazelles stot even when no other members of the herd are nearby"
+    },
+    {
+     "id": "E",
+     "text": "argue that healthy gazelles stot more often because stotting improves their condition"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-06-structure-22",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "In the first paragraph, select the sentence that explains why the persistence of the associations is puzzling.",
+  "explanation": "The first sentence only says there is a puzzle; this sentence gives the reasons (the last turn gains nothing, and everyone risks non-payment). The question 'Why, then...' restates the puzzle without explaining it, and the final sentence gives the standard answer to it.",
+  "estSeconds": 80,
+  "skills": [
+   "rc-structure"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 0
+  },
+  "answer": {
+   "sentence": "Except for the member who happens to draw the final turn, every participant receives the pot sooner than she could have accumulated it alone, but the last recipient gains nothing she could not have achieved by saving at home, and all members bear the risk that someone who has already collected will stop paying."
+  }
+ },
+ {
+  "id": "v3-06-structure-23",
+  "lessonId": "v3-06-structure",
+  "difficulty": 4,
+  "stem": "In the third paragraph, select the sentence that most directly states the author's alternative to the interpretation described in the second paragraph.",
+  "explanation": "Paragraph 2 reports the psychologists' reading of the episode. 'Seen in this light' marks the author's conclusion, which sets 'a longer campaign' against 'the prehistory of psychology'. The earlier sentences of paragraph 3 describe what the astronomers did, the evidence for that conclusion.",
+  "estSeconds": 80,
+  "skills": [
+   "rc-structure",
+   "rc-transitions"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage",
+   "paragraphIndex": 2
+  },
+  "answer": {
+   "sentence": "Seen in this light, the episode may belong less to the prehistory of psychology than to a longer campaign, conducted across the sciences, to make observation independent of the particular person observing."
   }
  }
 ]

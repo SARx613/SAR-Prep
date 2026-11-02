@@ -15,6 +15,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -77,6 +78,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -139,6 +141,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -201,6 +204,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -263,6 +267,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -325,6 +330,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -387,6 +393,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -449,6 +456,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -511,6 +519,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -573,6 +582,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -635,6 +645,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -697,6 +708,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -759,6 +771,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -821,6 +834,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -883,6 +897,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -945,6 +960,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1007,6 +1023,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1069,6 +1086,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1131,6 +1149,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1193,6 +1212,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1255,6 +1275,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1317,6 +1338,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1379,6 +1401,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1441,6 +1464,7 @@
   "skills": [
    "sentence-equivalence"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1484,6 +1508,510 @@
    "choices": [
     "B",
     "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-25",
+  "lessonId": "v2-03-method",
+  "difficulty": 3,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** predict before reading the choices. *Anything but ___* negates the blank, and the economists predict the cuts will *persist for at least a decade*, so the blank must mean *short-lived*, the minister's *temporary*. *Transient* and *ephemeral* match. *Enduring* and *permanent* are the decoy pair: they describe what the economists believe, but *anything but* flips them.",
+  "choiceExplanations": {
+   "A": "Describes what economists expect, but *anything but enduring* would mean short-lived, the opposite of their prediction.",
+   "E": "Synonym of *enduring*; the decoy pair falls to the same double negative.",
+   "C": "Means occurring irregularly; it confuses intermittent with short-lived.",
+   "F": "A topical austerity word meaning harsh; severity is not what *temporary* and *persist* contrast."
+  },
+  "estSeconds": 60,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Despite the minister's insistence that the austerity measures would be temporary, many economists regarded the cuts as anything but {{1}}, predicting that the reduced services would persist for at least a decade after the crisis had passed.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "enduring"
+    },
+    {
+     "id": "B",
+     "text": "transient"
+    },
+    {
+     "id": "C",
+     "text": "sporadic"
+    },
+    {
+     "id": "D",
+     "text": "ephemeral"
+    },
+    {
+     "id": "E",
+     "text": "permanent"
+    },
+    {
+     "id": "F",
+     "text": "draconian"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-26",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** the colon says her journals *bear this out*: shortages and desertions recorded in *flat, unhurried* prose. Predict *calm under pressure*; *imperturbable* and *unflappable* match. *Excitable* and *volatile* are a decoy pair meaning the reverse. *Sanguine* is a trap: it means optimistic, and flat prose shows composure, not hope.",
+  "choiceExplanations": {
+   "B": "The opposite of recording setbacks in unhurried prose.",
+   "E": "Synonym of *excitable*: a decoy pair contradicted by the colon.",
+   "C": "Means hopeful; calm description of setbacks shows composure, not confidence in the outcome.",
+   "D": "Looks calm on the surface but means indifferent; a leader who kept careful journals through every setback was not unconcerned, and the word has no partner."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The expedition's leader was by temperament {{1}}, and her journals bear this out: even when supplies ran short and two guides deserted, she recorded the setbacks in the same flat, unhurried prose she used to describe the weather.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "imperturbable"
+    },
+    {
+     "id": "B",
+     "text": "excitable"
+    },
+    {
+     "id": "C",
+     "text": "sanguine"
+    },
+    {
+     "id": "D",
+     "text": "apathetic"
+    },
+    {
+     "id": "E",
+     "text": "volatile"
+    },
+    {
+     "id": "F",
+     "text": "unflappable"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-27",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** *pleasantly surprised* means the expectation is wrong for the late essays, and the colon says what they are instead: direct and *accessible*. So the early treatises were hard to penetrate: *recondite* and *abstruse*. *Lucid* and *transparent* are a decoy pair describing the late essays, not the expectation the surprise overturns. *Rigorous* fails because even the late arguments remain *demanding*.",
+  "choiceExplanations": {
+   "A": "Describes the late essays; readers expecting lucidity would not be *surprised* by directness.",
+   "F": "Synonym of *lucid*: a decoy pair with the same flaw.",
+   "B": "The late arguments are still *most demanding*, so rigor is not what readers lose; the contrast is with accessibility.",
+   "C": "Means combative; the colon contrasts difficulty with accessibility, not aggression with calm."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Readers who expect the philosopher's late essays to be as {{1}} as her early treatises will be pleasantly surprised: freed from the obligation to address specialists, she writes with a directness that makes even her most demanding arguments accessible.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "lucid"
+    },
+    {
+     "id": "B",
+     "text": "rigorous"
+    },
+    {
+     "id": "C",
+     "text": "polemical"
+    },
+    {
+     "id": "D",
+     "text": "recondite"
+    },
+    {
+     "id": "E",
+     "text": "abstruse"
+    },
+    {
+     "id": "F",
+     "text": "transparent"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-28",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** *more ___ than real* calls for a word meaning *seeming but not actual*, and the colon confirms it: agreement on little but opposition, then quarrels within weeks. *Apparent* and *ostensible* match. *Genuine* and *authentic* are a decoy pair that would make the phrase say *more real than real*. *Fragile* is the trap: a fragile unity is still real, so it cannot be set against *real*.",
+  "choiceExplanations": {
+   "A": "Means real; *more genuine than real* is nonsense, and the colon shows the unity was not genuine.",
+   "E": "Synonym of *genuine*: the same decoy.",
+   "D": "Topical: the coalition did break, but *fragile* describes a weak real unity, not one that only seemed to exist.",
+   "F": "Contradicted by the disputes *within weeks*."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "The coalition's unity was more {{1}} than real: its members agreed on little beyond their opposition to the incumbent, and within weeks of taking office they had fallen into bitter disputes over nearly every item on the legislative agenda.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "genuine"
+    },
+    {
+     "id": "B",
+     "text": "apparent"
+    },
+    {
+     "id": "C",
+     "text": "ostensible"
+    },
+    {
+     "id": "D",
+     "text": "fragile"
+    },
+    {
+     "id": "E",
+     "text": "authentic"
+    },
+    {
+     "id": "F",
+     "text": "durable"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-29",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** *So ___ ... that colleagues mistook her reticence for incomprehension*: her manner was quiet and modest enough to hide her ability. *Diffident* and *self-effacing* match. *Assertive* and *forthright* are a decoy pair: a bold manner would not be taken for incomprehension. *Obtuse* is what colleagues wrongly thought she was, and *aloof* suggests haughty distance, which is not mistaken for failing to understand.",
+  "choiceExplanations": {
+   "B": "A confident manner would not be read as incomprehension.",
+   "F": "Synonym of *assertive*: the decoy pair fails the same way.",
+   "C": "Means slow to understand: the colleagues' mistaken impression, which her papers disproved, not her actual manner.",
+   "D": "Near *reticent* but implies cool superiority; that reads as arrogance, not incomprehension, and the word has no partner."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "So {{1}} was the young physicist's manner at conferences that many senior colleagues mistook her reticence for incomprehension, discovering only when her papers appeared how thoroughly she had grasped, and in several cases anticipated, their own arguments.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "diffident"
+    },
+    {
+     "id": "B",
+     "text": "assertive"
+    },
+    {
+     "id": "C",
+     "text": "obtuse"
+    },
+    {
+     "id": "D",
+     "text": "aloof"
+    },
+    {
+     "id": "E",
+     "text": "self-effacing"
+    },
+    {
+     "id": "F",
+     "text": "forthright"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-30",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** *Far from hastening the decline* reverses the expected effect, and the *since* clause supplies the actual one: telegrams *prompted longer letters*. So the telegraph boosted correspondence: *invigorated* and *stimulated*. *Supplanted* and *superseded* are a decoy pair naming the replacement that *far from* rules out.",
+  "choiceExplanations": {
+   "A": "Means replaced, which would hasten the decline; *far from* denies that.",
+   "E": "Synonym of *supplanted*: the same decoy.",
+   "B": "Means cut short, also the decline the sentence rejects.",
+   "D": "Means foreshadowed; it sounds learned but describes timing, not the telegraph's effect on letters."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Far from hastening the decline of handwritten correspondence, the telegraph seems initially to have {{1}} it, since the brief, costly messages it carried tended to prompt longer letters in which the sender explained what the wire could only announce.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "supplanted"
+    },
+    {
+     "id": "B",
+     "text": "curtailed"
+    },
+    {
+     "id": "C",
+     "text": "invigorated"
+    },
+    {
+     "id": "D",
+     "text": "presaged"
+    },
+    {
+     "id": "E",
+     "text": "superseded"
+    },
+    {
+     "id": "F",
+     "text": "stimulated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-31",
+  "lessonId": "v2-03-method",
+  "difficulty": 5,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** *Although* separates what the report had (forty pages, every procedure) from what it lacked (any question about whether the procedures worked). It stayed on the surface and never went deeper: *superficial* and *shallow*. *Exhaustive* and *comprehensive* are a decoy pair matching the conceded length, which *although* sets aside. *Cursory* is the near-synonym trap: it means hasty and brief, which forty pages contradict.",
+  "choiceExplanations": {
+   "A": "Matches the conceded forty pages, but the main clause names a failing, so the blank must be critical.",
+   "E": "Synonym of *exhaustive*: the same decoy.",
+   "B": "Close to *superficial* but means hurried and brief; a forty-page report listing every procedure was not brief, and *cursory* has no partner.",
+   "C": "Means biased; nothing suggests the report pushed a view, only that it missed the key question."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Although it ran to forty pages and listed every procedure the plant had followed, the inspector's report was {{1}}, never once asking whether those procedures had actually prevented the leaks it was commissioned to investigate.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "exhaustive"
+    },
+    {
+     "id": "B",
+     "text": "cursory"
+    },
+    {
+     "id": "C",
+     "text": "tendentious"
+    },
+    {
+     "id": "D",
+     "text": "superficial"
+    },
+    {
+     "id": "E",
+     "text": "comprehensive"
+    },
+    {
+     "id": "F",
+     "text": "shallow"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "v2-03-method-32",
+  "lessonId": "v2-03-method",
+  "difficulty": 4,
+  "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+  "explanation": "**Method:** the semicolon explains the blank: in a larger trial the pilot's *striking improvements* *all but vanished*. The early reports claimed more than the drug delivered: *exaggerated* and *overstated*. *Conclusive* and *definitive* are a decoy pair the expanded trial refutes. *Fraudulent* goes too far: nothing says anyone lied.",
+  "choiceExplanations": {
+   "B": "Conclusive reports would have held up in the larger trial.",
+   "E": "Synonym of *conclusive*: the decoy pair, refuted by the vanishing improvements.",
+   "D": "Too strong: a small, selected sample explains the gap without deceit, and the word has no partner.",
+   "F": "Means disputed; the semicolon reports a failed replication, not a debate."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "sentence-equivalence"
+  ],
+  "topics": [],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "SE",
+  "content": {
+   "text": "Initial reports of the drug's efficacy proved {{1}}; once the trial was expanded beyond a few hundred carefully selected patients, the striking improvements observed in the pilot study all but vanished, and regulators withdrew their provisional approval.",
+   "choices": [
+    {
+     "id": "A",
+     "text": "exaggerated"
+    },
+    {
+     "id": "B",
+     "text": "conclusive"
+    },
+    {
+     "id": "C",
+     "text": "overstated"
+    },
+    {
+     "id": "D",
+     "text": "fraudulent"
+    },
+    {
+     "id": "E",
+     "text": "definitive"
+    },
+    {
+     "id": "F",
+     "text": "controversial"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
    ]
   }
  }

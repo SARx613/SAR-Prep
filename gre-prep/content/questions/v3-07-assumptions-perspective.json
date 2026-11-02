@@ -15,6 +15,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-sunk-cost",
   "review": {
    "status": "published",
@@ -73,6 +74,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-soil-carbon",
   "review": {
    "status": "published",
@@ -129,6 +131,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-bike-lanes",
   "review": {
    "status": "published",
@@ -179,6 +182,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-reef-ban",
   "review": {
    "status": "published",
@@ -232,6 +236,7 @@
    "rc-perspective",
    "rc-support"
   ],
+  "topics": [],
   "passageId": "v3-sunk-cost",
   "review": {
    "status": "published",
@@ -263,6 +268,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-oral-epic",
   "review": {
    "status": "published",
@@ -312,6 +318,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3-soil-carbon",
   "review": {
    "status": "published",
@@ -362,6 +369,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-white-lies",
   "review": {
    "status": "published",
@@ -418,6 +426,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3-reef-ban",
   "review": {
    "status": "published",
@@ -468,6 +477,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3-oral-epic",
   "review": {
    "status": "published",
@@ -526,6 +536,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3-bike-lanes",
   "review": {
    "status": "published",
@@ -578,6 +589,7 @@
   "skills": [
    "rc-perspective"
   ],
+  "topics": [],
   "passageId": "v3-white-lies",
   "review": {
    "status": "published",
@@ -612,6 +624,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-poll-nonresponse",
   "review": {
    "status": "published",
@@ -670,6 +683,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-ocean-noise",
   "review": {
    "status": "published",
@@ -722,6 +736,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-tool-library",
   "review": {
    "status": "published",
@@ -753,6 +768,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-moth-clicks",
   "review": {
    "status": "published",
@@ -804,6 +820,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-note-taking",
   "review": {
    "status": "published",
@@ -862,6 +879,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-subscription-pricing",
   "review": {
    "status": "published",
@@ -920,6 +938,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-poetry-translation",
   "review": {
    "status": "published",
@@ -978,6 +997,7 @@
   "skills": [
    "rc-assumptions"
   ],
+  "topics": [],
   "passageId": "v3w2-family-firms",
   "review": {
    "status": "published",
@@ -1018,6 +1038,153 @@
    "choices": [
     "D"
    ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-21",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 3,
+  "stem": "The author's attitude toward the account that treats stotting as addressed to the predator is best described as",
+  "explanation": "The author calls the account 'more persuasive' but then grants that 'the evidence is not decisive'. Favoring it while admitting the doubt is a qualified endorsement.",
+  "choiceExplanations": {
+   "B": "The author says the evidence 'is not decisive'.",
+   "C": "The author raises an objection to the warning view and favors the predator-directed one.",
+   "D": "The author does judge, calling one account 'more persuasive'.",
+   "E": "The author never criticizes the account on grounds of cost."
+  },
+  "estSeconds": 80,
+  "skills": [
+   "rc-perspective"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "qualified endorsement: the author finds it more convincing than its rival without treating it as established"
+    },
+    {
+     "id": "B",
+     "text": "unreserved acceptance: the author regards the field studies as conclusive"
+    },
+    {
+     "id": "C",
+     "text": "skepticism: the author prefers the view that stotting warns the herd"
+    },
+    {
+     "id": "D",
+     "text": "strict neutrality: the author declines to judge between the two accounts"
+    },
+    {
+     "id": "E",
+     "text": "impatience: the author faults the account for ignoring the energy that stotting costs"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-22",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 5,
+  "stem": "The author's suggestion that the association converts a private intention to save into a public obligation depends on which of the following assumptions?",
+  "explanation": "The obligation is said to be 'enforced by the prospect of facing neighbors at the next meeting'. That enforcement works only if members mind what those neighbors think of them. Without that, a public pledge would have no force beyond a private one.",
+  "choiceExplanations": {
+   "B": "Contradicted: the surveys find that many members 'could easily use a bank'.",
+   "C": "The commitment argument does not depend on comparing who defaults.",
+   "D": "Not required: the author calls the two accounts 'compatible', so purchases can still matter.",
+   "E": "Too extreme: the argument needs only that saving alone is harder to stick to, not that it always fails."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-assumptions"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Members care how they are regarded by the people they meet at the association's gatherings."
+    },
+    {
+     "id": "B",
+     "text": "Banks in the surveyed regions are difficult for most members to reach."
+    },
+    {
+     "id": "C",
+     "text": "Members who receive the pot early are no more likely than others to stop paying."
+    },
+    {
+     "id": "D",
+     "text": "Acquiring costly goods matters little to most members."
+    },
+    {
+     "id": "E",
+     "text": "Members who save at home never manage to reach their savings goals."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-07-assumptions-perspective-23",
+  "lessonId": "v3-07-assumptions-perspective",
+  "difficulty": 3,
+  "stem": "Select the sentence that presents evidence the author takes to count against a rival explanation.",
+  "explanation": "'Yet' brings in an observation (stotting by lone gazelles) aimed at the warning explanation. The field studies in the fourth sentence support the author's preferred account rather than counting against its rival, and the last sentence weakens that support.",
+  "estSeconds": 65,
+  "skills": [
+   "rc-support"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_in_passage"
+  },
+  "answer": {
+   "sentence": "An older explanation held that stotting warns other members of the herd; yet gazelles have been observed stotting when no companions were nearby, a circumstance in which a warning would have no audience."
   }
  }
 ]

@@ -12,6 +12,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-exoplanets",
   "review": {
    "status": "published",
@@ -63,6 +64,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-gut-bacteria",
   "review": {
    "status": "published",
@@ -118,6 +120,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-adaptation",
   "review": {
    "status": "published",
@@ -169,6 +172,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-platforms",
   "review": {
    "status": "published",
@@ -221,6 +225,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-platforms",
   "review": {
    "status": "published",
@@ -252,6 +257,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-tree-rings",
   "review": {
    "status": "published",
@@ -303,6 +309,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-loyalty-card",
   "review": {
    "status": "published",
@@ -361,6 +368,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-exoplanets",
   "review": {
    "status": "published",
@@ -417,6 +425,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-tree-rings",
   "review": {
    "status": "published",
@@ -467,6 +476,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-adaptation",
   "review": {
    "status": "published",
@@ -522,6 +532,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-loyalty-card",
   "review": {
    "status": "published",
@@ -573,6 +584,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3-gut-bacteria",
   "review": {
    "status": "published",
@@ -628,6 +640,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-note-taking",
   "review": {
    "status": "published",
@@ -673,6 +686,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-reflective-roofs",
   "review": {
    "status": "published",
@@ -707,6 +721,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-camera-and-brush",
   "review": {
    "status": "published",
@@ -762,6 +777,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-ocean-noise",
   "review": {
    "status": "published",
@@ -813,6 +829,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-moth-clicks",
   "review": {
    "status": "published",
@@ -871,6 +888,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-immersion-schooling",
   "review": {
    "status": "published",
@@ -929,6 +947,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-subscription-pricing",
   "review": {
    "status": "published",
@@ -984,6 +1003,7 @@
   "skills": [
    "rc-inference"
   ],
+  "topics": [],
   "passageId": "v3w2-family-firms",
   "review": {
    "status": "published",
@@ -1015,6 +1035,173 @@
   "answer": {
    "choices": [
     "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-21",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "It can be inferred that the author regards the brisk sale of manuals teaching readers how to sound spontaneous as evidence that",
+  "explanation": "The author says learning to sound spontaneous 'presupposes that spontaneity was something to be achieved rather than simply expressed'. So a natural-seeming letter may be the product of craft, and the manuals' popularity suggests this was common.",
+  "choiceExplanations": {
+   "A": "Too strong: craft is not the same as insincerity, and the author never says most writers lied.",
+   "B": "Contradicts the passage: letters were read aloud, copied and passed around.",
+   "C": "The passage says nothing about what biographers knew of the manuals.",
+   "D": "Reverses the logic: people bought guides to sounding spontaneous because they valued it."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-inference"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "most eighteenth-century letter writers were insincere"
+    },
+    {
+     "id": "B",
+     "text": "letters of the period were rarely read by anyone other than their recipients"
+    },
+    {
+     "id": "C",
+     "text": "biographers of the period's writers were unaware that such manuals existed"
+    },
+    {
+     "id": "D",
+     "text": "readers of the period placed little value on spontaneity in letters"
+    },
+    {
+     "id": "E",
+     "text": "the appearance of naturalness in a letter was often an effect deliberately cultivated"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-22",
+  "lessonId": "v3-05-inference",
+  "difficulty": 4,
+  "stem": "Consider each of the three choices separately and select all that apply. It can be inferred from the passage that",
+  "explanation": "The author uses stotting by lone gazelles against the warning explanation, because a warning needs an audience. So stotting only in company would have fit that explanation better: C. A ignores the author's caution that 'the evidence is not decisive'. B speaks for the field, but the author gives only their own judgment ('more persuasive').",
+  "choiceExplanations": {
+   "A": "Claims more than the author: the author allows that fit animals may simply stot more and also escape more, so the stotting may not cause the predator to give up.",
+   "B": "The passage reports no consensus; 'more persuasive' is the author's own assessment."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-inference"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "predators that abandon pursuit of a vigorously stotting gazelle do so because they judge it too fit to catch"
+    },
+    {
+     "id": "B",
+     "text": "most ethologists now regard stotting as a signal directed at predators"
+    },
+    {
+     "id": "C",
+     "text": "if gazelles stotted only when companions were nearby, that pattern would fit the older explanation better than the behavior actually observed does"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-05-inference-23",
+  "lessonId": "v3-05-inference",
+  "difficulty": 5,
+  "stem": "It can be inferred from the passage that the discovery that observers' delays drifted with fatigue, mood, and the brightness of the star",
+  "explanation": "The first remedy was to 'measure each observer's delay and subtract it'. 'When the delays proved to drift', observatories 'turned instead' to machines. A drifting delay cannot be removed by subtracting one fixed number, so the first remedy failed.",
+  "choiceExplanations": {
+   "A": "The passage does not say who found the drift, and it places the Astronomer Royal before Bessel's work.",
+   "C": "Nothing is said about psychologists' response.",
+   "D": "Reverses the passage: electrical recording 'narrowed' the observer's part.",
+   "E": "Too extreme: day-to-day variation does not cancel the consistent differences between observers, and the passage never says Bessel was wrong."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "rc-inference"
+  ],
+  "topics": [],
+  "passageId": "v3-n-long-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "was made by the Astronomer Royal while assessing his assistant's work"
+    },
+    {
+     "id": "B",
+     "text": "made it impractical to correct observations simply by subtracting a fixed amount for each observer"
+    },
+    {
+     "id": "C",
+     "text": "led psychologists to abandon the study of reaction times"
+    },
+    {
+     "id": "D",
+     "text": "showed that electrical recording could not improve on the unaided observer"
+    },
+    {
+     "id": "E",
+     "text": "proved that Bessel had been mistaken in finding consistent differences among observers"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
     "B"
    ]
   }

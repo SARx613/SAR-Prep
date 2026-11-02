@@ -9,6 +9,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3-reef-ban",
   "review": {
    "status": "published",
@@ -43,6 +44,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3-four-day-week",
   "review": {
    "status": "published",
@@ -102,6 +104,7 @@
    "rc-evaluate",
    "rc-alternative-explanations"
   ],
+  "topics": [],
   "passageId": "v3-reef-ban",
   "review": {
    "status": "published",
@@ -160,6 +163,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3-bird-dialects",
   "review": {
    "status": "published",
@@ -212,6 +216,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3-bird-dialects",
   "review": {
    "status": "published",
@@ -245,6 +250,7 @@
    "rc-evaluate",
    "rc-generalization"
   ],
+  "topics": [],
   "passageId": "v3-four-day-week",
   "review": {
    "status": "published",
@@ -296,6 +302,7 @@
    "rc-evaluate",
    "rc-alternative-explanations"
   ],
+  "topics": [],
   "passageId": "v3-green-space",
   "review": {
    "status": "published",
@@ -352,6 +359,7 @@
    "rc-evaluate",
    "rc-alternative-explanations"
   ],
+  "topics": [],
   "passageId": "v3-gut-bacteria",
   "review": {
    "status": "published",
@@ -403,6 +411,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3-green-space",
   "review": {
    "status": "published",
@@ -456,6 +465,7 @@
    "rc-evaluate",
    "rc-alternative-explanations"
   ],
+  "topics": [],
   "passageId": "v3-gut-bacteria",
   "review": {
    "status": "published",
@@ -491,6 +501,7 @@
    "rc-evaluate",
    "rc-alternative-explanations"
   ],
+  "topics": [],
   "passageId": "v3-exoplanets",
   "review": {
    "status": "published",
@@ -548,6 +559,7 @@
    "rc-evaluate",
    "rc-sampling"
   ],
+  "topics": [],
   "passageId": "v3-exoplanets",
   "review": {
    "status": "published",
@@ -592,6 +604,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-open-plan",
   "review": {
    "status": "published",
@@ -626,6 +639,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-reflective-roofs",
   "review": {
    "status": "published",
@@ -684,6 +698,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-cleaner-fish",
   "review": {
    "status": "published",
@@ -739,6 +754,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-ocean-noise",
   "review": {
    "status": "published",
@@ -790,6 +806,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-savings-circles",
   "review": {
    "status": "published",
@@ -848,6 +865,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-fungal-networks",
   "review": {
    "status": "published",
@@ -903,6 +921,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-archive-silences",
   "review": {
    "status": "published",
@@ -954,6 +973,7 @@
   "skills": [
    "rc-evaluate"
   ],
+  "topics": [],
   "passageId": "v3w2-free-evenings",
   "review": {
    "status": "published",
@@ -987,6 +1007,880 @@
     {
      "id": "E",
      "text": "The free evening is held on the same weekday each week."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-21",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Which of the following, if true, most seriously weakens the council's conclusion that free parking revived the commerce of the central shopping street?",
+  "explanation": "The council infers cause from timing: receipts rose faster after the meters went. A new rail link opening in the same period offers another explanation for the extra shoppers, so the rise need not be due to free parking.",
+  "choiceExplanations": {
+   "A": "A decline at the malls fits the council's story that shoppers are returning to the street; it does not weaken it.",
+   "B": "What some owners thought beforehand says nothing about what caused the later rise in receipts.",
+   "D": "Lost meter revenue is a cost of the policy, not evidence about whether it revived commerce.",
+   "E": "This bears on the proposal for other districts, not on the conclusion drawn about the central street."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Over the past two years, sales tax receipts at the suburban malls have declined slightly."
+    },
+    {
+     "id": "B",
+     "text": "Several shop owners on the central street opposed the removal of the meters when it was first proposed."
+    },
+    {
+     "id": "C",
+     "text": "A few months after the meters were removed, a light-rail station opened at one end of the street, giving it its first direct rail link to the city's residential suburbs."
+    },
+    {
+     "id": "D",
+     "text": "Before their removal, the meters on the central street had produced a substantial share of the city's parking revenue."
+    },
+    {
+     "id": "E",
+     "text": "The three districts in which the council now proposes to remove meters contain fewer retail businesses than the central street does."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-22",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "The council's conclusion depends on which of the following assumptions?",
+  "explanation": "The argument treats the gap between 18 and 6 percent as the effect of free parking. That works only if the gap would not have appeared without the change; if it would have, the comparison shows nothing about the meters.",
+  "choiceExplanations": {
+   "A": "Free parking could matter even if only a minority of shoppers drive, so the argument does not need a majority.",
+   "B": "This concerns the proposal for other districts, and it is far stronger than anything the conclusion about the central street requires.",
+   "C": "The street's commerce could revive without any loss at the malls, so this is not required.",
+   "E": "The receipts have already risen; the argument does not need to rule out a deterrent effect that the figures suggest was outweighed."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Most of the shoppers who visit the central street arrive there by car."
+    },
+    {
+     "id": "B",
+     "text": "Removing the meters from the three other districts will raise their receipts by as much as the central street's rose."
+    },
+    {
+     "id": "C",
+     "text": "Since the meters were removed, sales tax receipts at the suburban malls have fallen."
+    },
+    {
+     "id": "D",
+     "text": "Had the meters remained, the street's receipts would not have grown substantially faster than those of the rest of the city anyway."
+    },
+    {
+     "id": "E",
+     "text": "Shoppers are not deterred by the commuters who now occupy the free spaces for most of the day."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-23",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 3,
+  "stem": "In the passage, the critics' objection about the occupied spaces functions primarily as",
+  "explanation": "The council does not deny that commuters fill the spaces; it replies that the sales figures speak for themselves, setting the objection aside rather than refuting it.",
+  "choiceExplanations": {
+   "A": "The council does not cite the objection; the critics raise it against the policy.",
+   "C": "All-day occupation by commuters is offered as a drawback of the policy, not as a cause of higher receipts.",
+   "D": "The passage reports the council's conclusion and the critics' objection; the objection is not its main point.",
+   "E": "The council concedes nothing about the figures; it relies on them."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-1",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "evidence the council cites in support of extending its policy to other districts"
+    },
+    {
+     "id": "B",
+     "text": "a concern that the council answers not by disputing it but by appealing to other evidence"
+    },
+    {
+     "id": "C",
+     "text": "an alternative explanation for the faster growth of the street's sales tax receipts"
+    },
+    {
+     "id": "D",
+     "text": "the main conclusion that the passage as a whole is meant to establish"
+    },
+    {
+     "id": "E",
+     "text": "a fact that the council concedes calls the reliability of the sales figures into question"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-24",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Which of the following, if true, most seriously weakens the managers' conclusion that predation by mink caused the declines in the tern colonies?",
+  "explanation": "The managers rely on a correlation between mink and declining colonies. If the islands the mink reached also lost their food supply at the same time, the declines can be explained without predation.",
+  "choiceExplanations": {
+   "A": "What else mink eat does not bear on whether they caused the tern declines.",
+   "B": "Physical evidence of mink attacks on nests supports the managers' conclusion.",
+   "C": "Results elsewhere concern how well trapping works, not what caused the declines.",
+   "D": "When the mink arrived in the region says nothing about whether they or something else reduced the colonies."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Mink also take the eggs of several species of duck that nest on the islands."
+    },
+    {
+     "id": "B",
+     "text": "On the islands the mink reached, many destroyed tern nests showed tooth marks characteristic of mink."
+    },
+    {
+     "id": "C",
+     "text": "Trapping programs on other coasts have reduced the number of mink without eliminating the animals."
+    },
+    {
+     "id": "D",
+     "text": "Mink were first brought to the region's fur farms several decades before they reached the islands."
+    },
+    {
+     "id": "E",
+     "text": "The islands the mink reached are those nearest the mainland, where in the 1990s commercial fishing sharply depleted the small fish that terns feed to their chicks."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-25",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "Which of the following, if true, most strongly supports the managers' explanation of why tern numbers have recovered only partially?",
+  "explanation": "If terns return to breed where they were raised, sites where some birds kept breeding would keep producing returning recruits, while sites abandoned entirely would draw few. Recovery that is fastest exactly where breeding never stopped fits that explanation.",
+  "choiceExplanations": {
+   "B": "Birds readily settling on islands where they were not raised would contradict the claimed habit, weakening the explanation.",
+   "C": "Surviving mink offer a rival explanation for the slow recovery, so this weakens the managers' account.",
+   "D": "Growth on islands the mink never reached does not show why the cleared islands recover slowly.",
+   "E": "Different removal dates might explain differences between islands, but they lend no support to the homing explanation in particular."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "On the cleared islands, the colonies that have recovered most fully are those at which a few pairs continued to breed throughout the years when mink were present."
+    },
+    {
+     "id": "B",
+     "text": "Young terns raised on islands the mink never reached frequently settle to breed on islands from which mink have been removed."
+    },
+    {
+     "id": "C",
+     "text": "A small number of mink have evaded trapping on several of the cleared islands and continue to raid nests."
+    },
+    {
+     "id": "D",
+     "text": "Tern colonies on islands the mink never reached have grown slightly since trapping began."
+    },
+    {
+     "id": "E",
+     "text": "Mink were removed from the different islands at different times over the course of the decade."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-26",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Consider each of the three choices separately and select all that apply. Which of the following can be properly inferred from the passage?",
+  "explanation": "Tern numbers on the islands cleared of mink have recovered only partially, so clearing alone has not restored them. The managers explain the shortfall by the terns' habit of returning to breed where they were raised, an explanation that involves no surviving mink.",
+  "choiceExplanations": {
+   "B": "The passage says these colonies held steady during the 1990s; it gives no information about any change since trapping began."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-2",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Removing mink from an island has not by itself been enough to bring tern numbers there back to their earlier levels."
+    },
+    {
+     "id": "B",
+     "text": "Tern colonies on the islands the mink never reached have grown since trapping began."
+    },
+    {
+     "id": "C",
+     "text": "The managers' explanation of the incomplete recovery does not depend on any mink remaining on the cleared islands."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-27",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Which of the following, if true, most seriously weakens the researchers' conclusion?",
+  "explanation": "The comparison is meant to isolate labeling as the only difference between the two sets of outlets. A new, heavily advertised low-calorie line offered only in the first province is a second difference that could explain the drop.",
+  "choiceExplanations": {
+   "A": "Outlet size has no evident bearing on the calorie content of what diners order.",
+   "C": "Similar starting points make the comparison fairer, so this strengthens rather than weakens the conclusion.",
+   "D": "The study used the chain's outlets, and slow compliance elsewhere would if anything hide an effect, not create one.",
+   "E": "This bears on how much the neighboring province might benefit, not on whether labeling caused the decline."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The chain's outlets in the neighboring province are, on average, larger than its outlets in the first province."
+    },
+    {
+     "id": "B",
+     "text": "During the year after the requirement took effect, the chain introduced a line of reduced-calorie dishes at its outlets in the first province only and advertised them heavily there."
+    },
+    {
+     "id": "C",
+     "text": "Before the requirement took effect, the average calorie content of meals ordered at the chain's outlets was about the same in the two provinces."
+    },
+    {
+     "id": "D",
+     "text": "Some independent restaurants in the first province were slow to comply with the requirement."
+    },
+    {
+     "id": "E",
+     "text": "Diet-related illness is more common in the neighboring province than in the first province."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-28",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "Consider each of the three choices separately and select all that apply. Which of the following, if true, would strengthen the researchers' conclusion?",
+  "explanation": "The first choice ties the decline to the information the labels supplied, which is just what the conclusion claims. The second rules out other differences between the two groups of outlets. The third places the decline before any labels appeared, so it weakens the conclusion.",
+  "choiceExplanations": {
+   "C": "A decline that came before the labels were printed cannot have been caused by them; it points to publicity instead."
+  },
+  "estSeconds": 115,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "In the first province, the decline was concentrated in dishes whose printed calorie counts were much higher than most diners had guessed."
+    },
+    {
+     "id": "B",
+     "text": "Throughout the study period, the chain's menus, prices and promotions were identical in the two provinces."
+    },
+    {
+     "id": "C",
+     "text": "Most of the decline in the first province occurred during the months of public debate before the requirement took effect."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-29",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 3,
+  "stem": "In the researchers' argument, the chain's outlets in the neighboring province serve primarily to",
+  "explanation": "Without the second group, a drop in the first province could reflect a chain-wide trend. Unchanged figures in the neighboring province suggest that the drop was specific to the province with labels.",
+  "choiceExplanations": {
+   "A": "The neighboring province had no labels at all, so its outlets cannot show anything about how labels work there.",
+   "B": "The effect is measured in the first province; the other outlets serve as a baseline, not an illustration.",
+   "C": "Nothing about the outlets bears on whether the province could adopt the rule.",
+   "D": "Calorie content was unchanged in the neighboring province; this says nothing about a preference for lighter meals."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-3",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "show that calorie labeling is ineffective where diners are unfamiliar with it"
+    },
+    {
+     "id": "B",
+     "text": "illustrate the effect that the labeling requirement had on diners in the first province"
+    },
+    {
+     "id": "C",
+     "text": "demonstrate that the neighboring province is able to adopt the same rule"
+    },
+    {
+     "id": "D",
+     "text": "establish that diners in both provinces prefer lighter meals"
+    },
+    {
+     "id": "E",
+     "text": "indicate whether the decline in the first province reflected a change occurring throughout the chain"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-30",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "Which of the following, if true, most seriously weakens the inference that the settlement carried on regular trade with the southern workshops?",
+  "explanation": "The trade inference assumes the pottery was made in the south. Local clay means the pieces were made near the hilltop, which removes the reason to posit trade with the southern workshops.",
+  "choiceExplanations": {
+   "B": "Northern pottery at the southern workshops points to contact between the two places, which supports trade.",
+   "C": "A kiln built after the pottery first appears weakens the case for local manufacture, which if anything helps the trade view.",
+   "D": "Finds along the route between the regions fit the idea that goods moved from south to north.",
+   "E": "What else the southern workshops made does not bear on where the hilltop's painted ware came from."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Chemical analysis shows that the clay of the painted fragments comes from a deposit a few kilometers from the hilltop and matches no clay source in the south."
+    },
+    {
+     "id": "B",
+     "text": "Fragments of pottery made at the hilltop settlement have been found at the southern workshops."
+    },
+    {
+     "id": "C",
+     "text": "The kiln at the settlement was built several generations after painted pottery first appears there."
+    },
+    {
+     "id": "D",
+     "text": "Pottery in the southern style has been found at a number of sites along the river between the two regions."
+    },
+    {
+     "id": "E",
+     "text": "The southern workshops produced coarse cooking ware as well as painted pottery."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-31",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "Which of the following would it be most useful to know in order to evaluate the claim that the painted pottery was made at the settlement?",
+  "explanation": "Wasters are discarded where firing fails, so finding them among the painted fragments would point to firing on site, and their absence would favor import. The answer bears directly on the claim of local manufacture.",
+  "choiceExplanations": {
+   "A": "Exports to other places say nothing about whether this settlement's painted ware was imported or made there.",
+   "B": "Population size does not indicate where the painted pottery was made.",
+   "C": "The size of the southern workshops does not bear on whether this pottery came from them.",
+   "E": "The use of the coarse ware does not tell us whether the painted ware was produced locally."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Whether the southern workshops also sent pottery to settlements east of them"
+    },
+    {
+     "id": "B",
+     "text": "Approximately how many people lived at the hilltop settlement"
+    },
+    {
+     "id": "C",
+     "text": "Whether the southern workshops were larger than workshops in other regions of the period"
+    },
+    {
+     "id": "D",
+     "text": "Whether the painted fragments include wasters, pieces cracked or warped in firing that were seldom carried far from where they were fired"
+    },
+    {
+     "id": "E",
+     "text": "Whether the coarse ware from the kiln was used for cooking or for storage"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-32",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "The final sentence of the passage primarily serves to",
+  "explanation": "The local-production view rests on the southern-style kiln. The last sentence notes that the kiln yielded only coarse ware and that no painting tools were found, which weakens the link between that kiln and the painted pottery.",
+  "choiceExplanations": {
+   "A": "The sentence works against local production, not for it.",
+   "B": "Weakening one piece of evidence for local production does not prove the trade view; 'conclusively' overstates the sentence's role.",
+   "D": "The sentence does not dispute the kiln's design, only what was fired in it.",
+   "E": "Coarse cooking ware was apparently fired in the kiln, so some pottery was made at the settlement."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-4",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "support the view that the painted pottery was made at the settlement"
+    },
+    {
+     "id": "B",
+     "text": "establish conclusively that the painted pottery reached the settlement through trade"
+    },
+    {
+     "id": "C",
+     "text": "cast doubt on the relevance of the evidence offered by those who hold that the painted pottery was made on site"
+    },
+    {
+     "id": "D",
+     "text": "suggest that the kiln was not, in fact, built to a southern design"
+    },
+    {
+     "id": "E",
+     "text": "indicate that no pottery of any kind was produced at the settlement"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-33",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 5,
+  "stem": "Which of the following, if true, most seriously weakens the climatologists' interpretation of the increase in lightning strikes?",
+  "explanation": "The climatologists read more strikes as a sign of more unstable air. If more particles make each storm produce more lightning, the count could rise even if the air is no more unstable than before.",
+  "choiceExplanations": {
+   "A": "Rising temperatures fit the claim that warming is at work, so this supports rather than weakens it.",
+   "B": "More lightning fires confirm that lightning increased; they do not challenge the explanation for the increase.",
+   "C": "The climatologists already rely on counts from the original sensors alone, so where the new ones stand does not undercut that reply.",
+   "D": "Similar increases elsewhere are consistent with a broad warming effect and do not count against it."
+  },
+  "estSeconds": 105,
+  "skills": [
+   "rc-evaluate",
+   "rc-alternative-explanations"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-5",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Average summer temperatures in the region rose by more than a degree between 1990 and 2020."
+    },
+    {
+     "id": "B",
+     "text": "Forest fires started by lightning have become more frequent in the region since 1990."
+    },
+    {
+     "id": "C",
+     "text": "Most of the newer sensors were installed in remote areas far from the original ones."
+    },
+    {
+     "id": "D",
+     "text": "Several regions farther south have recorded comparable increases in lightning over the same period."
+    },
+    {
+     "id": "E",
+     "text": "Since 1990, smoke and industrial particles carried into the region each summer have increased sharply, and such particles are known to multiply the strikes a storm produces without making storms more frequent."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-34",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 4,
+  "stem": "The climatologists' reply in the final sentence depends on which of the following assumptions?",
+  "explanation": "The reply uses the original sensors as a constant instrument. If those sensors had themselves become more sensitive, their rising counts could reflect better detection rather than more lightning.",
+  "choiceExplanations": {
+   "A": "The reply concerns only the original sensors; how many strikes the newer ones recorded is beside the point.",
+   "C": "The reply needs only that the increase is real, not that warming is the sole possible cause; 'only' is far too strong.",
+   "D": "An uneven spread of strikes would not matter as long as the same sensors detected them in the same way over time.",
+   "E": "Future expansion has no bearing on whether the past counts are comparable."
+  },
+  "estSeconds": 95,
+  "skills": [
+   "rc-evaluate",
+   "rc-sampling"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-5",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The newer sensors recorded more strikes in total than the original sensors did."
+    },
+    {
+     "id": "B",
+     "text": "The original sensors did not become more sensitive to faint or distant strikes over the period."
+    },
+    {
+     "id": "C",
+     "text": "Warming is the only factor that can make the region's summer air more unstable."
+    },
+    {
+     "id": "D",
+     "text": "Lightning strikes were evenly distributed across the area that the original sensors cover."
+    },
+    {
+     "id": "E",
+     "text": "The sensor network will not be expanded again in the coming decades."
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "v3-08-evaluate-arguments-35",
+  "lessonId": "v3-08-evaluate-arguments",
+  "difficulty": 3,
+  "stem": "It can be inferred from the passage that",
+  "explanation": "The climatologists concede that the increase is smaller when only the original sensors are counted. So some of the full increase comes from the added sensors detecting strikes the original ones missed.",
+  "choiceExplanations": {
+   "B": "The climatologists say the increase persists among the original sensors, so this contradicts the passage.",
+   "C": "The passage reports the climatologists' view and an objection to it; nothing establishes warming as the sole cause.",
+   "D": "The newer sensors detect strikes the older ones missed, which is not a sign of lower reliability.",
+   "E": "The passage gives no information about the intensity of storms."
+  },
+  "estSeconds": 85,
+  "skills": [
+   "rc-evaluate"
+  ],
+  "topics": [],
+  "passageId": "v3-n-arg-5",
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "RC",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "at least part of the recorded increase in lightning strikes reflects additions to the sensor network rather than a change in the weather"
+    },
+    {
+     "id": "B",
+     "text": "the original sensors recorded no increase in lightning strikes between 1990 and 2020"
+    },
+    {
+     "id": "C",
+     "text": "warming is the sole cause of the increase in lightning strikes in the region"
+    },
+    {
+     "id": "D",
+     "text": "the newer sensors are less reliable than the original ones"
+    },
+    {
+     "id": "E",
+     "text": "thunderstorms in the region have become less intense since 1990"
     }
    ]
   },
