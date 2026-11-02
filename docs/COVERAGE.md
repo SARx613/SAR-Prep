@@ -43,8 +43,8 @@ concept by a lesson rule or a topic that cites the section rather than the examp
 
 | Math Review item | Finding | Action |
 |---|---|---|
-| 1.5 Property 2 (associative law) | Not stated in `q1-10-real-properties` (the other properties are) | New lesson `q1-27-associative-identity-laws` (draft) |
-| 2.9 Examples 2.9.3–2.9.4, 2.9.7 (piecewise-defined and square-root functions) | `q2-16-function-graphs` teaches shifts and stretches only | New lesson `q2-27-piecewise-root-functions` (draft) |
+| 1.5 Property 2 (associative law) | Not stated in `q1-10-real-properties` (the other properties are) | New lesson `q1-27-associative-identity-laws` (published) |
+| 2.9 Examples 2.9.3–2.9.4, 2.9.7 (piecewise-defined and square-root functions) | `q2-16-function-graphs` teaches shifts and stretches only | New lesson `q2-27-piecewise-root-functions` (published) |
 | 2.9, 4.5 | Lessons `q2-16` and `q4-10` are published but host no checklist topic | Open item: add topics (needs published questions tagged with them) |
 
 Everything else in the Math Review — terms, like terms, degree and polynomials (2.1), intervals and absolute value (1.5), terminating
