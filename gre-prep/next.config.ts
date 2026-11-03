@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
     "/math-review/exercises/[part]": ["./private/**/*"],
     "/official-test/[id]": ["./private/**/*"],
     "/private-media/[...path]": ["./private/media/**/*"],
+    "/api/private-access": ["./private/allowed-emails.json"],
   },
 };
 
