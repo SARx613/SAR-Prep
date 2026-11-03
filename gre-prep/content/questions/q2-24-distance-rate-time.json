@@ -582,5 +582,68 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "q2-24-distance-rate-time-13",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 5,
+  "stem": "A train travels 240 miles at a constant speed. If its speed had been 20 miles per hour greater, the trip would have taken 1 hour less. What was the train's speed, in miles per hour?",
+  "explanation": "Let $v$ be the speed. Times: $\\frac{240}{v}$ and $\\frac{240}{v+20}$, which differ by 1: $\\frac{240}{v}-\\frac{240}{v+20}=1$. Clearing denominators: $240(v+20)-240v=v(v+20)$, so $v^2+20v-4800=0$, i.e. $(v+80)(v-60)=0$ and $v=60$. Check: 4 hours at 60 and 3 hours at 80. Traps: setting up the difference the wrong way round, or reporting the faster speed of 80.",
+  "estSeconds": 120,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.hypothetical-speed-change"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "miles per hour"
+  },
+  "answer": {
+   "value": 60
+  }
+ },
+ {
+  "id": "q2-24-distance-rate-time-14",
+  "lessonId": "q2-24-distance-rate-time",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Call the one-way distance $d$. Total time: $\\frac{d}{12}+\\frac{d}{18}=\\frac{5d}{36}$. Average speed: $\\frac{2d}{5d/36}=\\frac{72}{5}=14.4$ miles per hour, so Quantity B is greater. Trap: averaging the two speeds to 15; more time is spent at the slower speed, so the average is pulled below 15.",
+  "estSeconds": 75,
+  "skills": [
+   "distance-rate-time"
+  ],
+  "topics": [
+   "q2.round-trip"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The cyclist's average speed for the whole round trip, in miles per hour",
+   "quantityB": "$15$",
+   "common": "A cyclist rides from town X to town Y at 12 miles per hour and returns along the same road at 18 miles per hour."
+  },
+  "answer": {
+   "choice": "B"
+  }
  }
 ]

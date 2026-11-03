@@ -1016,5 +1016,39 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-03-centre-spread-basic-22",
+  "lessonId": "q4-03-centre-spread-basic",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Sum of S is $9 \\cdot 40 = 360$; the changes add $-9 + 4 \\cdot 9 = 27$, so the mean of T is $\\frac{387}{9} = 43$. The middle (5th) number is untouched and stays in the middle: the lowered number is still the least and the raised numbers are still above it. So the median of T is still 36 and Quantity A is $43 - 36 = 7 > 6$. Trap: assuming the median moves with the mean (giving $3 + 36 = 39$, a difference of 4), or thinking the $-9$ and $+9$ changes cancel so the mean stays 40 (difference 4).",
+  "estSeconds": 90,
+  "skills": [
+   "mean",
+   "median"
+  ],
+  "topics": [
+   "q4.mean-after-change",
+   "q4.median"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The mean of T minus the median of T",
+   "quantityB": "$6$",
+   "common": "List S consists of 9 numbers with mean 40 and median 36. List T is formed from S by decreasing the least number in S by 9 and increasing each of the 4 greatest numbers in S by 9."
+  },
+  "answer": {
+   "choice": "A"
+  }
  }
 ]

@@ -1066,5 +1066,65 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q4-05-std-dev-22",
+  "lessonId": "q4-05-std-dev",
+  "difficulty": 5,
+  "stem": "List L consists of the numbers 4, 8, 10, 12 and 16. Which of the following numbers, if added to L as a sixth number, would decrease the standard deviation of the list? Indicate all such numbers.",
+  "explanation": "The mean of L is 10, the squared deviations are 36, 4, 0, 4, 36 (sum 80), and the standard deviation is $\\sqrt{80/5}=4$. Compute each new standard deviation (use the calculator). Adding 10 keeps the mean at 10 and the sum of squares at 80, now divided by 6: $\\sqrt{80/6}\\approx3.65$, lower. Adding 6 gives mean $\\frac{56}{6}\\approx9.33$; the squared deviations add to about 93.3, so the standard deviation is $\\sqrt{93.3/6}\\approx3.94$, lower. Adding 5 gives mean $\\frac{55}{6}\\approx9.17$; the squared deviations add to about 100.8, so the standard deviation is $\\sqrt{100.8/6}\\approx4.10$, higher. The list is symmetric about 10, so 14 behaves like 6 and 15 like 5. Trap: thinking that any number inside the range 4 to 16 lowers the spread; the new value must be close enough to the mean.",
+  "choiceExplanations": {
+   "A": "5 lies inside the range of L, but the new list has mean about 9.17 and standard deviation about 4.10, which is above 4.",
+   "E": "15 mirrors 5 (5 above the mean instead of 5 below), so the standard deviation also rises to about 4.10."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "std-dev"
+  ],
+  "topics": [
+   "q4.sd-meaning"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$6$"
+    },
+    {
+     "id": "C",
+     "text": "$10$"
+    },
+    {
+     "id": "D",
+     "text": "$14$"
+    },
+    {
+     "id": "E",
+     "text": "$15$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
  }
 ]

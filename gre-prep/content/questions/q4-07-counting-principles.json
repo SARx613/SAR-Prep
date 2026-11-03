@@ -823,5 +823,67 @@
   "answer": {
    "value": 720
   }
+ },
+ {
+  "id": "q4-07-counting-principles-22",
+  "lessonId": "q4-07-counting-principles",
+  "difficulty": 4,
+  "stem": "A locker code consists of two letters followed by two digits. The letters are chosen from A, B, C, D and E, and the digits from 0 through 9. The two letters must be different, the two digits must be different, and at least one of the two digits must be odd. How many different codes are possible?",
+  "explanation": "Letters: $5 \\cdot 4 = 20$ ordered pairs. Digits: $10 \\cdot 9 = 90$ ordered pairs of different digits, minus the $5 \\cdot 4 = 20$ in which both are even, leaves 70. Codes: $20 \\cdot 70 = 1{,}400$. Trap: counting \"at least one odd\" directly as \"exactly one odd\" and missing the both-odd case; the complement avoids that.",
+  "choiceExplanations": {
+   "A": "$20 \\cdot 50 = 1{,}000$ counts only codes with exactly one odd digit ($5 \\cdot 5 \\cdot 2 = 50$) and misses the ones with two different odd digits.",
+   "C": "$20 \\cdot 75 = 1{,}500$ allows the two digits to repeat ($100 - 25 = 75$).",
+   "D": "$25 \\cdot 70 = 1{,}750$ allows the two letters to repeat.",
+   "E": "$20 \\cdot 90 = 1{,}800$ ignores the odd-digit condition."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "multiplication-principle",
+   "complement"
+  ],
+  "topics": [
+   "q4.codes",
+   "q4.counting-principle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$1{,}000$"
+    },
+    {
+     "id": "B",
+     "text": "$1{,}400$"
+    },
+    {
+     "id": "C",
+     "text": "$1{,}500$"
+    },
+    {
+     "id": "D",
+     "text": "$1{,}750$"
+    },
+    {
+     "id": "E",
+     "text": "$1{,}800$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  }
 ]

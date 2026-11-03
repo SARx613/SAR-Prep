@@ -566,5 +566,100 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-13",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$x^4>x^2$ means $x^2(x^2-1)>0$, so $x^2>1$: either $x>1$ or $x<-1$. If $x=2$, A is $8$ and B is $2$, so A is greater. If $x=-2$, A is $-8$ and B is $-2$, so B is greater. The relationship cannot be determined. Trap: the even powers in the condition hide the sign of $x$; reading it as $x>1$ alone gives A.",
+  "estSeconds": 100,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.even-power-hides-sign",
+   "q1.powers-and-roots-by-range"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x^3$",
+   "quantityB": "$x$",
+   "common": "$x^4>x^2$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-20-powers-roots-size-sign-14",
+  "lessonId": "q1-20-powers-roots-size-sign",
+  "difficulty": 4,
+  "stem": "If $-1<x<0$, which of the following lists the numbers $x$, $x^2$, $x^3$, and $\\frac{1}{x}$ in increasing order?",
+  "explanation": "Test $x=-\\frac12$: $\\frac1x=-2$, $x=-0.5$, $x^3=-0.125$, $x^2=0.25$. In general, $\\frac1x$ is negative with absolute value greater than 1, so it is smallest; $x^3$ is negative but closer to 0 than $x$ (its absolute value $|x|^3$ is smaller); $x^2$ is the only positive one. So $\\frac1x<x<x^3<x^2$. Trap: for a number between $-1$ and $0$, raising to an odd power moves it toward 0, not further below it.",
+  "choiceExplanations": {
+   "A": "Puts $x^3$ below $x$ and $\\frac1x$ at the top; but $\\frac1x$ is negative, and $x^3$ is closer to 0 than $x$.",
+   "B": "Gets $x<x^3<x^2$ right but treats $\\frac1x$ as positive; it has the same sign as $x$.",
+   "C": "Reverses $x$ and $x^3$: with $x=-\\frac12$, $x^3=-0.125$ is greater than $-0.5$.",
+   "D": "Treats the reciprocal as closer to 0 than $x$; for $|x|<1$, $|\\frac1x|>1$, so $\\frac1x$ is the smallest."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "roots",
+   "exponents"
+  ],
+  "topics": [
+   "q1.powers-and-roots-by-range"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$x^3<x<x^2<\\frac{1}{x}$"
+    },
+    {
+     "id": "B",
+     "text": "$x<x^3<x^2<\\frac{1}{x}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{1}{x}<x^3<x<x^2$"
+    },
+    {
+     "id": "D",
+     "text": "$x<\\frac{1}{x}<x^3<x^2$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{1}{x}<x<x^3<x^2$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
+   ]
+  }
  }
 ]

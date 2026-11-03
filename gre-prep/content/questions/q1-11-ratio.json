@@ -912,5 +912,66 @@
     "A"
    ]
   }
+ },
+ {
+  "id": "q1-11-ratio-22",
+  "lessonId": "q1-11-ratio",
+  "difficulty": 5,
+  "stem": "A mortar mix uses sand, cement, and lime by weight in the ratio $5:2:3$, respectively. A worker has 600 kilograms of sand, 300 kilograms of cement, and 300 kilograms of lime. If the worker makes as much mix as possible in this ratio, how many kilograms of sand will be used?",
+  "explanation": "Write the amounts as $5k$, $2k$, $3k$. Each supply limits $k$: sand $600\\div5=120$, cement $300\\div2=150$, lime $300\\div3=100$. The smallest, $k=100$, is the most that can be made, so sand used is $5\\cdot100=500$ kilograms (the batch weighs $1{,}000$ kilograms). Trap: the ingredient with the smallest ratio number (cement) is not necessarily the one that runs out; compare supply divided by ratio part.",
+  "choiceExplanations": {
+   "A": "Inverting the ratio, $300\\cdot\\frac35=180$, makes sand smaller than lime when the ratio says sand is $\\frac53$ of lime.",
+   "C": "$600$ assumes all the sand is used, but that would need $360$ kilograms of lime.",
+   "D": "Taking cement as the limiting ingredient gives $k=150$ and sand $750$, which would need $450$ kilograms of lime.",
+   "E": "$1{,}000$ is the weight of the whole batch, not of the sand in it."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.find-multiplier",
+   "q1.ratio-multiplier"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$180$"
+    },
+    {
+     "id": "B",
+     "text": "$500$"
+    },
+    {
+     "id": "C",
+     "text": "$600$"
+    },
+    {
+     "id": "D",
+     "text": "$750$"
+    },
+    {
+     "id": "E",
+     "text": "$1{,}000$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  }
 ]

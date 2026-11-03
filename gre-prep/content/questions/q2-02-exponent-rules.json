@@ -15,6 +15,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -72,6 +73,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -129,6 +131,10 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [
+   "q2.power-of-a-power",
+   "q2.same-exponent-different-bases"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -168,11 +174,7 @@
    "choices": [
     "E"
    ]
-  },
-  "topics": [
-   "q2.power-of-a-power",
-   "q2.same-exponent-different-bases"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-04",
@@ -183,6 +185,9 @@
   "estSeconds": 60,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.equal-bases-equal-exponents"
   ],
   "review": {
    "status": "published",
@@ -199,10 +204,7 @@
   },
   "answer": {
    "value": 4
-  },
-  "topics": [
-   "q2.equal-bases-equal-exponents"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-05",
@@ -214,6 +216,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -246,6 +249,9 @@
   "estSeconds": 75,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.sum-of-powers-trap"
   ],
   "review": {
    "status": "published",
@@ -288,10 +294,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q2.sum-of-powers-trap"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-07",
@@ -302,6 +305,9 @@
   "estSeconds": 75,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.rewrite-to-common-base"
   ],
   "review": {
    "status": "published",
@@ -319,10 +325,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.rewrite-to-common-base"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-08",
@@ -334,6 +337,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -370,6 +374,9 @@
   "estSeconds": 100,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.factor-out-powers"
   ],
   "review": {
    "status": "published",
@@ -410,10 +417,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.factor-out-powers"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-10",
@@ -424,6 +428,9 @@
   "estSeconds": 90,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.power-of-a-power"
   ],
   "review": {
    "status": "published",
@@ -440,10 +447,7 @@
   },
   "answer": {
    "value": 48
-  },
-  "topics": [
-   "q2.power-of-a-power"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-11",
@@ -454,6 +458,9 @@
   "estSeconds": 120,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.equal-bases-equal-exponents"
   ],
   "review": {
    "status": "published",
@@ -470,10 +477,7 @@
   },
   "answer": {
    "value": 3
-  },
-  "topics": [
-   "q2.equal-bases-equal-exponents"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-12",
@@ -490,6 +494,9 @@
   "estSeconds": 150,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.factor-out-powers"
   ],
   "review": {
    "status": "published",
@@ -530,10 +537,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.factor-out-powers"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-13",
@@ -550,6 +554,9 @@
   "estSeconds": 45,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.multiply-divide-same-base"
   ],
   "review": {
    "status": "published",
@@ -590,10 +597,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.multiply-divide-same-base"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-14",
@@ -610,6 +614,9 @@
   "estSeconds": 70,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.rewrite-to-common-base"
   ],
   "review": {
    "status": "published",
@@ -650,10 +657,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q2.rewrite-to-common-base"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-15",
@@ -665,6 +669,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -700,6 +705,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -755,6 +761,9 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [
+   "q2.sum-of-powers-trap"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -796,10 +805,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q2.sum-of-powers-trap"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-18",
@@ -816,6 +822,10 @@
   "estSeconds": 100,
   "skills": [
    "exponent-rules"
+  ],
+  "topics": [
+   "q2.equal-bases-equal-exponents",
+   "q2.rewrite-to-common-base"
   ],
   "review": {
    "status": "published",
@@ -856,11 +866,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.equal-bases-equal-exponents",
-   "q2.rewrite-to-common-base"
-  ]
+  }
  },
  {
   "id": "q2-02-exponent-rules-19",
@@ -872,6 +878,7 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -903,6 +910,10 @@
   "skills": [
    "exponent-rules"
   ],
+  "topics": [
+   "q2.prime-bases-in-fractions",
+   "q2.same-exponent-different-bases"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -918,10 +929,39 @@
   },
   "answer": {
    "value": 4
-  },
+  }
+ },
+ {
+  "id": "q2-02-exponent-rules-21",
+  "lessonId": "q2-02-exponent-rules",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Factor the smaller power out of the numerator: $2^{n+3}+2^{n+1}=2^{n+1}(2^2+1)=5\\cdot2^{n+1}$, so Quantity A is $2^{n+1}$. For Quantity B, $\\sqrt{2}=2^{1/2}$, so $\\left(2^{1/2}\\right)^{2n+2}=2^{n+1}$. The two quantities are equal for every integer $n$, negative ones included. Trap: adding the exponents of a sum ($2^{n+3}+2^{n+1}=2^{2n+4}$) makes A look far larger; exponents add only when powers are multiplied.",
+  "estSeconds": 90,
+  "skills": [
+   "exponent-rules"
+  ],
   "topics": [
-   "q2.prime-bases-in-fractions",
-   "q2.same-exponent-different-bases"
-  ]
+   "q2.multiply-divide-same-base",
+   "q2.power-of-a-power"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{2^{n+3}+2^{n+1}}{5}$",
+   "quantityB": "$\\left(\\sqrt{2}\\right)^{2n+2}$",
+   "common": "$n$ is an integer."
+  },
+  "answer": {
+   "choice": "C"
+  }
  }
 ]

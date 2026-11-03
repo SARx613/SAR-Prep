@@ -583,5 +583,100 @@
     "E"
    ]
   }
+ },
+ {
+  "id": "q4-15-overlapping-sets-13",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 5,
+  "stem": "Each of the 100 students in a program studies at least one of three languages: 60 study Spanish, 45 study French and 30 study German. Which of the following could be the number of students who study all three languages? Indicate all such numbers.",
+  "explanation": "The three counts add to $60 + 45 + 30 = 135$, which counts each student in exactly two languages once extra and each student in all three twice extra: $(\\text{exactly two}) + 2(\\text{all three}) = 135 - 100 = 35$. So all three is at most $17$ (17.5 rounded down), and any whole number from 0 to 17 can be arranged (for example, with 17 in all three, 1 in Spanish and French only and the rest in one language each). Trap: forgetting that the all-three students are over-counted twice, not once.",
+  "choiceExplanations": {
+   "C": "18 rounds $\\frac{35}{2}$ up; it would need $2 \\cdot 18 = 36 > 35$ extra counts.",
+   "D": "30 is the size of the smallest group, a bound that ignores the total of 100 students.",
+   "E": "35 treats every extra count as a student in all three, forgetting that each such student is over-counted twice."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
+  "topics": [
+   "q4.set-overlap-extremes",
+   "q4.exactly-vs-at-least-two"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$5$"
+    },
+    {
+     "id": "B",
+     "text": "$17$"
+    },
+    {
+     "id": "C",
+     "text": "$18$"
+    },
+    {
+     "id": "D",
+     "text": "$30$"
+    },
+    {
+     "id": "E",
+     "text": "$35$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-15-overlapping-sets-14",
+  "lessonId": "q4-15-overlapping-sets",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "With $b$ owning both, $120 + 90 - b = 210 - b$ own at least one, so neither $= 200 - (210 - b) = b - 10$. Quantity B is $(b - 10) + 10 = b$, equal to Quantity A for every possible $b$. Trap: since neither count is given, it is tempting to choose that the relationship cannot be determined.",
+  "estSeconds": 75,
+  "skills": [
+   "inclusion-exclusion",
+   "algebra"
+  ],
+  "topics": [
+   "q4.two-set-algebra"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of people surveyed who own both a car and a bicycle",
+   "quantityB": "10 more than the number of people surveyed who own neither a car nor a bicycle",
+   "common": "In a survey of 200 people, 120 own a car and 90 own a bicycle."
+  },
+  "answer": {
+   "choice": "C"
+  }
  }
 ]

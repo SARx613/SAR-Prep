@@ -9,6 +9,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -42,6 +43,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -99,6 +101,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -150,6 +153,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -177,6 +181,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -210,6 +215,9 @@
   "estSeconds": 100,
   "skills": [
    "quadratic-formula"
+  ],
+  "topics": [
+   "q2.quadratic-formula"
   ],
   "review": {
    "status": "published",
@@ -250,10 +258,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.quadratic-formula"
-  ]
+  }
  },
  {
   "id": "q2-06-quadratic-formula-07",
@@ -269,6 +274,9 @@
   "estSeconds": 90,
   "skills": [
    "quadratic-formula"
+  ],
+  "topics": [
+   "q2.number-of-roots"
   ],
   "review": {
    "status": "published",
@@ -310,10 +318,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q2.number-of-roots"
-  ]
+  }
  },
  {
   "id": "q2-06-quadratic-formula-08",
@@ -325,6 +330,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -357,6 +363,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -416,6 +423,9 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [
+   "q2.quadratic-formula"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -455,10 +465,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.quadratic-formula"
-  ]
+  }
  },
  {
   "id": "q2-06-quadratic-formula-11",
@@ -469,6 +476,10 @@
   "estSeconds": 120,
   "skills": [
    "quadratic-formula"
+  ],
+  "topics": [
+   "q2.number-of-roots",
+   "q2.squared-inequalities"
   ],
   "review": {
    "status": "published",
@@ -485,11 +496,7 @@
   },
   "answer": {
    "value": 11
-  },
-  "topics": [
-   "q2.number-of-roots",
-   "q2.squared-inequalities"
-  ]
+  }
  },
  {
   "id": "q2-06-quadratic-formula-12",
@@ -501,6 +508,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -530,6 +538,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -563,6 +572,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -614,6 +624,9 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [
+   "q2.squared-inequalities"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -631,10 +644,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q2.squared-inequalities"
-  ]
+  }
  },
  {
   "id": "q2-06-quadratic-formula-16",
@@ -646,6 +656,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -678,6 +689,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -737,6 +749,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -794,6 +807,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -845,6 +859,7 @@
   "skills": [
    "quadratic-formula"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -860,6 +875,66 @@
   },
   "answer": {
    "value": 5
+  }
+ },
+ {
+  "id": "q2-06-quadratic-formula-21",
+  "lessonId": "q2-06-quadratic-formula",
+  "difficulty": 4,
+  "stem": "What is the positive difference between the two solutions of $3x^2-4x-2=0$?",
+  "explanation": "The solutions are $\\dfrac{4\\pm\\sqrt{b^2-4ac}}{2\\cdot3}$ with $b^2-4ac=16-4(3)(-2)=40$. Their difference is $\\dfrac{2\\sqrt{40}}{6}=\\dfrac{\\sqrt{40}}{3}=\\dfrac{2\\sqrt{10}}{3}$. Shortcut: the two roots differ by $\\dfrac{\\sqrt{b^2-4ac}}{|a|}$. Traps: dropping the minus sign of $c$ in $-4ac$, or keeping only the $\\pm$ part over $2a$, which is half the gap.",
+  "choiceExplanations": {
+   "A": "Uses $16-24=-8$ and then $\\sqrt{8}$: the sign of $c=-2$ was lost, so $-4ac$ became $-24$ instead of $+24$.",
+   "B": "This is $\\frac{\\sqrt{40}}{6}$, the distance from each root to their midpoint, which is half the difference.",
+   "C": "This is the sum of the roots, $-\\frac{b}{a}$, not their difference.",
+   "E": "Forgets to divide by $a=3$: $\\sqrt{40}=2\\sqrt{10}$ is the gap for $x^2$ with coefficient 1."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-formula"
+  ],
+  "topics": [
+   "q2.quadratic-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{2\\sqrt{2}}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{\\sqrt{10}}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{4}{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{2\\sqrt{10}}{3}$"
+    },
+    {
+     "id": "E",
+     "text": "$2\\sqrt{10}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
   }
  }
 ]

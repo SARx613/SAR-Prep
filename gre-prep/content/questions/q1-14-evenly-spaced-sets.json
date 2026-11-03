@@ -522,5 +522,37 @@
   "answer": {
    "choice": "D"
   }
+ },
+ {
+  "id": "q1-14-evenly-spaced-sets-13",
+  "lessonId": "q1-14-evenly-spaced-sets",
+  "difficulty": 5,
+  "stem": "How many integers between 100 and 400 are multiples of 6 but not multiples of 9?",
+  "explanation": "Multiples of 6 between 100 and 400 run from 102 to 396: $\\frac{396-102}{6}+1=50$. A multiple of 6 that is also a multiple of 9 is a multiple of their least common multiple, 18; these run from 108 to 396: $\\frac{396-108}{18}+1=17$. Remove them: $50-17=33$. Traps: subtracting the multiples of 9 (there are 33 of them, giving the wrong count 17), using $6\\cdot9=54$ instead of the least common multiple (giving 44), and forgetting the $+1$ when counting terms.",
+  "estSeconds": 120,
+  "skills": [
+   "evenly-spaced-sets",
+   "inclusion-exclusion"
+  ],
+  "topics": [
+   "q1.count-multiples-in-range",
+   "q1.count-multiples-a-or-b"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 33
+  }
  }
 ]

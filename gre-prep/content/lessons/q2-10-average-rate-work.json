@@ -35,6 +35,9 @@
    "skills": [
     "average-rate-work"
    ],
+   "topics": [
+    "q2.distance-rate-time"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -51,10 +54,7 @@
    },
    "answer": {
     "value": 54
-   },
-   "topics": [
-    "q2.distance-rate-time"
-   ]
+   }
   },
   {
    "id": "q2-10-average-rate-work-c2",
@@ -66,6 +66,7 @@
    "skills": [
     "average-rate-work"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -93,6 +94,10 @@
    "skills": [
     "average-rate-work"
    ],
+   "topics": [
+    "q2.combined-workers",
+    "q2.work-equation"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -109,11 +114,7 @@
    },
    "answer": {
     "value": 6
-   },
-   "topics": [
-    "q2.combined-workers",
-    "q2.work-equation"
-   ]
+   }
   }
  ]
 }

@@ -575,5 +575,98 @@
     "B"
    ]
   }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-13",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 5,
+  "stem": "If $n$ is a positive integer and $n^2$ is divisible by 360, what is the greatest integer that must be a divisor of $n$?",
+  "explanation": "$360=2^3\\cdot3^2\\cdot5$. Every prime exponent in $n^2$ is even, and it must be at least the exponent in 360, so $n^2$ needs at least $2^4\\cdot3^2\\cdot5^2$. Then $n$ needs at least $2^2\\cdot3\\cdot5=60$. The smallest such $n$ is $60$ ($60^2=3{,}600=360\\cdot10$), so no integer larger than 60 must divide $n$, and 60 divides every such $n$. Trap: halving each exponent of 360 and rounding down; $2^3$ in $n^2$ forces $2^2$ in $n$, not $2^1$.",
+  "choiceExplanations": {
+   "A": "$30=2\\cdot3\\cdot5$ rounds the half of the exponent 3 down to 1; then $30^2=900$ is not divisible by 360.",
+   "C": "$90=2\\cdot3^2\\cdot5$ keeps $3^2$ in $n$, but $3^1$ in $n$ already gives $3^2$ in $n^2$; $n=60$ is not a multiple of 90.",
+   "D": "$120=2^3\\cdot3\\cdot5$ keeps $2^3$ in $n$; $n=60$ works and is not a multiple of 120.",
+   "E": "360 divides $n^2$, not necessarily $n$; $n=60$ is a counterexample."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.divisibility-of-powers"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$30$"
+    },
+    {
+     "id": "B",
+     "text": "$60$"
+    },
+    {
+     "id": "C",
+     "text": "$90$"
+    },
+    {
+     "id": "D",
+     "text": "$120$"
+    },
+    {
+     "id": "E",
+     "text": "$360$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q1-17-divisibility-reasoning-14",
+  "lessonId": "q1-17-divisibility-reasoning",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Factor instead of testing: $n^3-n=(n-1)n(n+1)$ is a product of three consecutive integers, so it is divisible by 2 and by 3, hence by 6. So A is always the remainder of 4 divided by 6, which is $4$. Also $n^2+n=n(n+1)$ is a product of two consecutive integers, so it is even, and $n^2+n+1$ is odd: B is always $1$. A is greater. Trap: assuming the remainders change with $n$ and choosing D after one or two values.",
+  "estSeconds": 90,
+  "skills": [
+   "divisibility-primes"
+  ],
+  "topics": [
+   "q1.consecutive-products-in-algebra",
+   "q1.consecutive-product-divisibility"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $n^3-n+4$ is divided by 6",
+   "quantityB": "The remainder when $n^2+n+1$ is divided by 2",
+   "common": "$n$ is an integer greater than 1."
+  },
+  "answer": {
+   "choice": "A"
+  }
  }
 ]

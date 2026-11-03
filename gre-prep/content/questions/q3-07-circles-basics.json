@@ -16,6 +16,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -68,6 +69,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -96,6 +98,9 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [
+   "q3.circle-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -111,10 +116,7 @@
   },
   "answer": {
    "value": 16
-  },
-  "topics": [
-   "q3.circle-basics"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-04",
@@ -132,6 +134,9 @@
   "skills": [
    "circles",
    "arcs-sectors"
+  ],
+  "topics": [
+   "q3.sectors"
   ],
   "figure": {
    "kind": "svg",
@@ -180,10 +185,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.sectors"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-05",
@@ -196,6 +198,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -225,6 +228,9 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [
+   "q3.arcs"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -240,10 +246,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q3.arcs"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-07",
@@ -261,6 +264,10 @@
   "skills": [
    "circles",
    "arcs-sectors"
+  ],
+  "topics": [
+   "q3.ring-area",
+   "q3.shaded-regions"
   ],
   "figure": {
    "kind": "svg",
@@ -309,11 +316,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.ring-area",
-   "q3.shaded-regions"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-08",
@@ -330,6 +333,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -384,6 +388,9 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [
+   "q3.arcs"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -399,10 +406,7 @@
   },
   "answer": {
    "value": 15
-  },
-  "topics": [
-   "q3.arcs"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-10",
@@ -421,6 +425,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -481,6 +486,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -511,6 +517,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -539,6 +546,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -572,6 +580,9 @@
   "skills": [
    "circles",
    "arcs-sectors"
+  ],
+  "topics": [
+   "q3.sectors"
   ],
   "review": {
    "status": "published",
@@ -612,10 +623,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.sectors"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-15",
@@ -628,6 +636,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -663,6 +672,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -723,6 +733,9 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [
+   "q3.ring-area"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -738,10 +751,7 @@
   },
   "answer": {
    "value": 44
-  },
-  "topics": [
-   "q3.ring-area"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-18",
@@ -758,6 +768,7 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -812,6 +823,9 @@
    "circles",
    "arcs-sectors"
   ],
+  "topics": [
+   "q3.ring-area"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -828,10 +842,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q3.ring-area"
-  ]
+  }
  },
  {
   "id": "q3-07-circles-basics-20",
@@ -843,6 +854,9 @@
   "skills": [
    "circles",
    "arcs-sectors"
+  ],
+  "topics": [
+   "q3.sectors"
   ],
   "review": {
    "status": "published",
@@ -859,9 +873,106 @@
   },
   "answer": {
    "value": 12
+  }
+ },
+ {
+  "id": "q3-07-circles-basics-21",
+  "lessonId": "q3-07-circles-basics",
+  "difficulty": 3,
+  "stem": "In the figure, $O$ is the center of the circle, the radius is 9, and angle $AOB$ measures $40^\\circ$. What is the length of the major arc $AB$ (the longer of the two arcs from $A$ to $B$)?",
+  "explanation": "The major arc corresponds to $360^\\circ-40^\\circ=320^\\circ$. Its length is $\\frac{320}{360}\\cdot2\\pi\\cdot9=\\frac89\\cdot18\\pi=16\\pi$. The traps are computing the minor arc, or mixing up the arc-length and sector-area formulas.",
+  "choiceExplanations": {
+   "A": "That is the minor arc, $\\frac{40}{360}\\cdot18\\pi$.",
+   "B": "That is the minor arc computed with radius 18 (the diameter used as the radius).",
+   "C": "That uses circumference $\\pi r=9\\pi$ instead of $2\\pi r$: $\\frac{320}{360}\\cdot9\\pi$.",
+   "E": "That is the area of the major sector, $\\frac{320}{360}\\cdot81\\pi$, not an arc length."
   },
+  "estSeconds": 70,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
+  "topics": [
+   "q3.arcs"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 200 170\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"156.38\" y2=\"69.48\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"90\" x2=\"156.38\" y2=\"110.52\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"90\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"92\" y=\"94\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"163.38\" y=\"66.48\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"163.38\" y=\"119.52\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"118\" y=\"94\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">40°</text><text x=\"126\" y=\"72\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">9</text></svg>",
+    "alt": "A circle with center O. Radii OA and OB go to the right, forming a 40 degree angle at O. Radius OA is labeled 9."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$2\\pi$"
+    },
+    {
+     "id": "B",
+     "text": "$4\\pi$"
+    },
+    {
+     "id": "C",
+     "text": "$8\\pi$"
+    },
+    {
+     "id": "D",
+     "text": "$16\\pi$"
+    },
+    {
+     "id": "E",
+     "text": "$72\\pi$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q3-07-circles-basics-22",
+  "lessonId": "q3-07-circles-basics",
+  "difficulty": 4,
+  "stem": "A sector of a circle has area $30\\pi$, and the arc of the sector has length $5\\pi$. What is the measure, in degrees, of the central angle of the sector?",
+  "explanation": "If the central angle is $\\theta$, the arc is $\\frac{\\theta}{360}\\cdot2\\pi r$ and the area is $\\frac{\\theta}{360}\\cdot\\pi r^2$, so area $=\\frac r2\\cdot$arc: $30\\pi=\\frac r2\\cdot5\\pi$ gives $r=12$. The full circumference is $24\\pi$, and the arc is $\\frac{5\\pi}{24\\pi}=\\frac{5}{24}$ of it, so $\\theta=\\frac{5}{24}\\cdot360=75^\\circ$. The trap is treating arc divided by area ($\\frac16$, giving $60^\\circ$) as the fraction of the circle; the fraction must compare the arc with the circumference, which needs $r$ first.",
+  "estSeconds": 95,
+  "skills": [
+   "circles",
+   "arcs-sectors"
+  ],
   "topics": [
    "q3.sectors"
-  ]
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 75
+  }
  }
 ]

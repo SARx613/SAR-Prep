@@ -14,6 +14,7 @@
   "skills": [
    "variables"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -66,6 +67,9 @@
   "skills": [
    "relative-frequency"
   ],
+  "topics": [
+   "q4.relative-frequency"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -81,10 +85,7 @@
   },
   "answer": {
    "value": 36
-  },
-  "topics": [
-   "q4.relative-frequency"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-03",
@@ -103,6 +104,7 @@
    "tables",
    "relative-frequency"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Pets per household (40 households surveyed)",
@@ -200,6 +202,9 @@
   "skills": [
    "tables"
   ],
+  "topics": [
+   "q4.frequency-tables"
+  ],
   "figure": {
    "kind": "table",
    "title": "Pets per household (40 households surveyed)",
@@ -279,10 +284,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.frequency-tables"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-05",
@@ -293,6 +295,9 @@
   "estSeconds": 70,
   "skills": [
    "relative-frequency"
+  ],
+  "topics": [
+   "q4.relative-frequency"
   ],
   "review": {
    "status": "published",
@@ -310,10 +315,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q4.relative-frequency"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-06",
@@ -324,6 +326,9 @@
   "estSeconds": 90,
   "skills": [
    "tables"
+  ],
+  "topics": [
+   "q4.frequency-tables"
   ],
   "figure": {
    "kind": "table",
@@ -383,10 +388,7 @@
   },
   "answer": {
    "value": 73
-  },
-  "topics": [
-   "q4.frequency-tables"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-07",
@@ -403,6 +405,11 @@
   "estSeconds": 75,
   "skills": [
    "bar-graphs"
+  ],
+  "topics": [
+   "q0.di-titles-legends",
+   "q4.clustered-columns",
+   "q4.column-charts"
   ],
   "figure": {
    "kind": "bar",
@@ -480,12 +487,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q0.di-titles-legends",
-   "q4.clustered-columns",
-   "q4.column-charts"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-08",
@@ -503,6 +505,7 @@
   "skills": [
    "percent-of-total"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -560,6 +563,9 @@
   "skills": [
    "bar-graphs",
    "percent-of-total"
+  ],
+  "topics": [
+   "q0.estimation"
   ],
   "figure": {
    "kind": "bar",
@@ -637,10 +643,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q0.estimation"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-10",
@@ -653,6 +656,7 @@
    "bar-graphs",
    "percent-of-total"
   ],
+  "topics": [],
   "figure": {
    "kind": "bar",
    "title": "Enrollment at five schools",
@@ -728,6 +732,7 @@
    "tables",
    "percent-of-total"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Support tickets by type",
@@ -820,6 +825,7 @@
    "tables",
    "percent-of-total"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Support tickets by type",
@@ -894,6 +900,9 @@
   "skills": [
    "relative-frequency"
   ],
+  "topics": [
+   "q4.relative-frequency"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -909,10 +918,7 @@
   },
   "answer": {
    "value": 28
-  },
-  "topics": [
-   "q4.relative-frequency"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-14",
@@ -929,6 +935,9 @@
   "estSeconds": 60,
   "skills": [
    "tables"
+  ],
+  "topics": [
+   "q4.frequency-tables"
   ],
   "figure": {
    "kind": "table",
@@ -1005,10 +1014,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.frequency-tables"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-15",
@@ -1020,6 +1026,7 @@
   "skills": [
    "relative-frequency"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -1053,6 +1060,9 @@
   "estSeconds": 90,
   "skills": [
    "bar-graphs"
+  ],
+  "topics": [
+   "q4.clustered-columns"
   ],
   "figure": {
    "kind": "bar",
@@ -1130,10 +1140,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.clustered-columns"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-17",
@@ -1150,6 +1157,9 @@
   "estSeconds": 90,
   "skills": [
    "bar-graphs"
+  ],
+  "topics": [
+   "q4.stacked-columns"
   ],
   "figure": {
    "kind": "svg",
@@ -1199,10 +1209,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.stacked-columns"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-18",
@@ -1215,6 +1222,7 @@
    "tables",
    "percent-of-total"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Main way of travelling to work, by city",
@@ -1289,6 +1297,9 @@
    "tables",
    "percent-of-total"
   ],
+  "topics": [
+   "q4.weighted-average-percents"
+  ],
   "figure": {
    "kind": "table",
    "title": "Main way of travelling to work, by city",
@@ -1353,10 +1364,7 @@
   "answer": {
    "value": 26.3,
    "tolerance": 0.05
-  },
-  "topics": [
-   "q4.weighted-average-percents"
-  ]
+  }
  },
  {
   "id": "q4-01-tables-bars-20",
@@ -1372,6 +1380,7 @@
    "tables",
    "percent-of-total"
   ],
+  "topics": [],
   "figure": {
    "kind": "table",
    "title": "Main way of travelling to work, by city",
@@ -1451,6 +1460,293 @@
     "A",
     "B",
     "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-21",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "In the program with the greatest total enrollment, how many more undergraduate students than graduate students are enrolled?",
+  "explanation": "The greatest total is Economics, with 600 students. There, $420 - 180 = 240$. Trap: answering with a single cell (420, 180 or the total 600) instead of the difference, or identifying the program from the wrong column.",
+  "estSeconds": 60,
+  "skills": [
+   "tables"
+  ],
+  "topics": [
+   "q4.frequency-tables"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Students enrolled in four programs at a college, by level",
+   "data": {
+    "columns": [
+     "Program",
+     "Undergraduate",
+     "Graduate",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Biology",
+      340,
+      60,
+      400
+     ],
+     [
+      "Chemistry",
+      150,
+      90,
+      240
+     ],
+     [
+      "Economics",
+      420,
+      180,
+      600
+     ],
+     [
+      "History",
+      210,
+      50,
+      260
+     ],
+     [
+      "Total",
+      1120,
+      380,
+      1500
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "numeric_entry",
+   "numeric": {
+    "format": "integer"
+   }
+  },
+  "answer": {
+   "value": 240
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-22",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 4,
+  "stem": "If the number of graduate students in Biology increased by 50 percent and all other numbers of students stayed the same, approximately what percent of all graduate students in the four programs would be enrolled in Biology?",
+  "explanation": "Biology graduates become $60 \\cdot 1.5 = 90$, so the graduate total becomes $380 + 30 = 410$. The share is $\\frac{90}{410} \\approx 22\\%$. Trap: the 30 new students also enlarge the total, so the old total of 380 is no longer the base.",
+  "choiceExplanations": {
+   "A": "$\\frac{90}{1530} \\approx 6\\%$ uses all students in the four programs (graduate and undergraduate) as the base.",
+   "B": "$\\frac{60}{380} \\approx 16\\%$ is the share before the increase.",
+   "D": "$\\frac{90}{380} \\approx 24\\%$ raises Biology but forgets to raise the graduate total to 410.",
+   "E": "$\\frac{110}{430} \\approx 26\\%$ adds 50 students instead of 50 percent."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "topics": [
+   "q4.relative-frequency"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Students enrolled in four programs at a college, by level",
+   "data": {
+    "columns": [
+     "Program",
+     "Undergraduate",
+     "Graduate",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Biology",
+      340,
+      60,
+      400
+     ],
+     [
+      "Chemistry",
+      150,
+      90,
+      240
+     ],
+     [
+      "Economics",
+      420,
+      180,
+      600
+     ],
+     [
+      "History",
+      210,
+      50,
+      260
+     ],
+     [
+      "Total",
+      1120,
+      380,
+      1500
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$6\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$16\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$22\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$24\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$26\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q4-01-tables-bars-23",
+  "lessonId": "q4-01-tables-bars",
+  "difficulty": 3,
+  "stem": "The graduate students enrolled in Economics or History make up approximately what percent of all graduate students in the four programs?",
+  "explanation": "Part: $180 + 50 = 230$ graduate students. Whole: all graduate students, 380. $\\frac{230}{380} \\approx 61\\%$. Trap: the base is the Graduate column total, not the enrollment of the two programs and not the whole college.",
+  "choiceExplanations": {
+   "A": "$\\frac{230}{1500} \\approx 15\\%$ divides by all 1,500 students instead of the 380 graduate students.",
+   "B": "About $25\\%$ averages the two programs' graduate rates ($30\\%$ and about $19\\%$), which answers a different question and ignores the unequal sizes.",
+   "C": "$\\frac{230}{860} \\approx 27\\%$ is the graduate share of the Economics and History enrollment, a different base.",
+   "D": "$\\frac{860}{1500} \\approx 57\\%$ is the share of all students who are in Economics or History."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "tables",
+   "percent-of-total"
+  ],
+  "topics": [
+   "q4.relative-frequency"
+  ],
+  "figure": {
+   "kind": "table",
+   "title": "Students enrolled in four programs at a college, by level",
+   "data": {
+    "columns": [
+     "Program",
+     "Undergraduate",
+     "Graduate",
+     "Total"
+    ],
+    "rows": [
+     [
+      "Biology",
+      340,
+      60,
+      400
+     ],
+     [
+      "Chemistry",
+      150,
+      90,
+      240
+     ],
+     [
+      "Economics",
+      420,
+      180,
+      600
+     ],
+     [
+      "History",
+      210,
+      50,
+      260
+     ],
+     [
+      "Total",
+      1120,
+      380,
+      1500
+     ]
+    ]
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$15\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$25\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$27\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$57\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$61\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "E"
    ]
   }
  }

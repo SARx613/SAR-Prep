@@ -9,6 +9,9 @@
   "skills": [
    "average-rate-work"
   ],
+  "topics": [
+   "q4.mean-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 13
-  },
-  "topics": [
-   "q4.mean-basics"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-02",
@@ -44,6 +44,10 @@
   "estSeconds": 60,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q1.conversion-factors",
+   "q2.distance-rate-time"
   ],
   "review": {
    "status": "published",
@@ -84,11 +88,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q1.conversion-factors",
-   "q2.distance-rate-time"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-03",
@@ -99,6 +99,9 @@
   "estSeconds": 75,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q4.missing-value-from-mean"
   ],
   "review": {
    "status": "published",
@@ -115,10 +118,7 @@
   },
   "answer": {
    "value": 78
-  },
-  "topics": [
-   "q4.missing-value-from-mean"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-04",
@@ -136,6 +136,7 @@
   "skills": [
    "average-rate-work"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -187,6 +188,9 @@
   "skills": [
    "average-rate-work"
   ],
+  "topics": [
+   "q2.single-trip-rate"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -203,10 +207,7 @@
   },
   "answer": {
    "value": 60
-  },
-  "topics": [
-   "q2.single-trip-rate"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-06",
@@ -217,6 +218,10 @@
   "estSeconds": 100,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.average-speed",
+   "q2.round-trip"
   ],
   "review": {
    "status": "published",
@@ -235,11 +240,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.average-speed",
-   "q2.round-trip"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-07",
@@ -256,6 +257,10 @@
   "estSeconds": 75,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.combined-workers",
+   "q2.work-equation"
   ],
   "review": {
    "status": "published",
@@ -296,11 +301,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.combined-workers",
-   "q2.work-equation"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-08",
@@ -311,6 +312,9 @@
   "estSeconds": 90,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q4.weighted-average"
   ],
   "review": {
    "status": "published",
@@ -327,10 +331,7 @@
   },
   "answer": {
    "value": 78
-  },
-  "topics": [
-   "q4.weighted-average"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-09",
@@ -347,6 +348,9 @@
   "estSeconds": 90,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.opposing-workers"
   ],
   "review": {
    "status": "published",
@@ -387,10 +391,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.opposing-workers"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-10",
@@ -401,6 +402,9 @@
   "estSeconds": 100,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.two-worker-shortcut"
   ],
   "review": {
    "status": "published",
@@ -419,10 +423,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.two-worker-shortcut"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-11",
@@ -433,6 +434,11 @@
   "estSeconds": 120,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.work-equation",
+   "q2.work-table",
+   "q2.worker-leaves-early"
   ],
   "review": {
    "status": "published",
@@ -450,12 +456,7 @@
   },
   "answer": {
    "value": 7.5
-  },
-  "topics": [
-   "q2.work-equation",
-   "q2.work-table",
-   "q2.worker-leaves-early"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-12",
@@ -472,6 +473,9 @@
   "estSeconds": 120,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q4.sum-from-mean"
   ],
   "review": {
    "status": "published",
@@ -512,10 +516,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.sum-from-mean"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-13",
@@ -532,6 +533,11 @@
   "estSeconds": 60,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q1.conversion-factors",
+   "q2.distance-rate-time",
+   "q2.single-trip-rate"
   ],
   "review": {
    "status": "published",
@@ -572,12 +578,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q1.conversion-factors",
-   "q2.distance-rate-time",
-   "q2.single-trip-rate"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-14",
@@ -588,6 +589,9 @@
   "estSeconds": 75,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q4.sum-from-mean"
   ],
   "review": {
    "status": "published",
@@ -604,10 +608,7 @@
   },
   "answer": {
    "value": 35
-  },
-  "topics": [
-   "q4.sum-from-mean"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-15",
@@ -624,6 +625,9 @@
   "estSeconds": 75,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.average-speed"
   ],
   "review": {
    "status": "published",
@@ -664,10 +668,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q2.average-speed"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-16",
@@ -678,6 +679,9 @@
   "estSeconds": 75,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q4.mean-after-change"
   ],
   "review": {
    "status": "published",
@@ -696,10 +700,7 @@
   },
   "answer": {
    "choice": "C"
-  },
-  "topics": [
-   "q4.mean-after-change"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-17",
@@ -716,6 +717,9 @@
   "estSeconds": 100,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.combined-workers"
   ],
   "review": {
    "status": "published",
@@ -756,10 +760,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q2.combined-workers"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-18",
@@ -770,6 +771,9 @@
   "estSeconds": 100,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.average-speed"
   ],
   "review": {
    "status": "published",
@@ -787,10 +791,7 @@
   },
   "answer": {
    "value": 15
-  },
-  "topics": [
-   "q2.average-speed"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-19",
@@ -807,6 +808,11 @@
   "estSeconds": 120,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.catch-up",
+   "q2.quantities-become-equal",
+   "q2.rate-table"
   ],
   "review": {
    "status": "published",
@@ -847,12 +853,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.catch-up",
-   "q2.quantities-become-equal",
-   "q2.rate-table"
-  ]
+  }
  },
  {
   "id": "q2-10-average-rate-work-20",
@@ -863,6 +864,9 @@
   "estSeconds": 130,
   "skills": [
    "average-rate-work"
+  ],
+  "topics": [
+   "q2.rate-table"
   ],
   "review": {
    "status": "published",
@@ -880,9 +884,38 @@
   },
   "answer": {
    "value": 60
-  },
+  }
+ },
+ {
+  "id": "q2-10-average-rate-work-21",
+  "lessonId": "q2-10-average-rate-work",
+  "difficulty": 3,
+  "stem": "An empty tank can be filled by pipe P alone in 6 hours or by pipe Q alone in 9 hours, and a full tank can be emptied by drain R alone in 18 hours. Pipes P and Q are opened at noon with the drain closed. At 2:00 p.m. drain R is also opened, and all three stay open until the tank is full. How many hours after noon is the tank full?",
+  "explanation": "P and Q together fill $\\frac{1}{6}+\\frac{1}{9}=\\frac{5}{18}$ of the tank per hour, so by 2:00 p.m. the tank is $\\frac{10}{18}=\\frac{5}{9}$ full. With the drain open the net rate is $\\frac{5}{18}-\\frac{1}{18}=\\frac{4}{18}=\\frac{2}{9}$ per hour, so the remaining $\\frac{4}{9}$ takes 2 more hours. Total: $2+2=4$ hours. Trap: reporting the 2 hours after the drain opens instead of the time measured from noon, or adding the drain's rate instead of subtracting it.",
+  "estSeconds": 90,
+  "skills": [
+   "average-rate-work"
+  ],
   "topics": [
-   "q2.rate-table"
-  ]
+   "q2.opposing-workers",
+   "q2.combined-workers"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer",
+   "unit": "hours"
+  },
+  "answer": {
+   "value": 4
+  }
  }
 ]

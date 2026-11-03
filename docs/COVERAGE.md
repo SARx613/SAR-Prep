@@ -89,3 +89,19 @@ original items were added at test-like difficulty: 28 Text Completion (1–3 bla
 traps), 15 argument-style Reading Comprehension items (weaken / strengthen / explain / assumption) on five short passages, and 18 items on
 four longer passages (one to three paragraphs) with select-all and select-in-passage formats. Each went through the originality script, an
 editor review for single-answer and distractor quality (10 items revised, 2 rewritten), and two independent blind solvers.
+
+### Realism pass (Quant)
+
+Against the two official practice tests (about 54% Problem Solving, 36% Quantitative Comparison, 10% Numeric Entry) our bank was
+Numeric-Entry-heavy (28%) and Quantitative-Comparison-light (13%). 70 new original items were added at test-like difficulty, weighted
+toward Quantitative Comparison with a hidden case split ("cannot be determined"), multi-step Problem Solving with distractors built from
+real slips, select-all items, geometry with figures, and two data-interpretation sets. Each key was verified with code by its author, then
+by two independent blind solvers (a third settled one disagreement); an editor review fixed 8 items and moved one to its proper lesson.
+
+### Writing coaching
+
+Every practice prompt now has a model page (`/writing/models/<id>`): three ways to take a position, an idea bank, the strongest objection
+with a reply, an outline and the classic mistakes for that prompt; six prompts also have annotated sample essays at levels 6, 4 and 2 with
+a "why this score" note and what to change to move up. After each essay the learner gets automatic text checks (length, structure,
+examples, engagement with the other side, connections, sentence variety, qualification, repetition, opening) and level-specific advice for
+each rubric criterion they rate. The real Issue topics stay linked from ETS's public pool, not copied.

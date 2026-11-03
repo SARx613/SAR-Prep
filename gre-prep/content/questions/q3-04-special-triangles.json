@@ -16,6 +16,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -68,6 +69,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -101,6 +103,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.thirty-sixty-ninety"
   ],
   "review": {
    "status": "published",
@@ -141,10 +146,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.thirty-sixty-ninety"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-04",
@@ -157,6 +159,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -186,6 +189,9 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [
+   "q3.triangle-area"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -209,10 +215,7 @@
   },
   "answer": {
    "value": 30
-  },
-  "topics": [
-   "q3.triangle-area"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-06",
@@ -230,6 +233,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.isosceles-right"
   ],
   "review": {
    "status": "published",
@@ -270,10 +276,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.isosceles-right"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-07",
@@ -285,6 +288,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.equilateral-triangle"
   ],
   "review": {
    "status": "published",
@@ -301,10 +307,7 @@
   },
   "answer": {
    "value": 25
-  },
-  "topics": [
-   "q3.equilateral-triangle"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-08",
@@ -316,6 +319,10 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.equilateral-halves",
+   "q3.equilateral-triangle"
   ],
   "review": {
    "status": "published",
@@ -333,11 +340,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q3.equilateral-halves",
-   "q3.equilateral-triangle"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-09",
@@ -355,6 +358,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.thirty-sixty-ninety"
   ],
   "figure": {
    "kind": "svg",
@@ -403,10 +409,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.thirty-sixty-ninety"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-10",
@@ -418,6 +421,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.triangle-area"
   ],
   "review": {
    "status": "published",
@@ -438,10 +444,7 @@
     "numerator": 60,
     "denominator": 13
    }
-  },
-  "topics": [
-   "q3.triangle-area"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-11",
@@ -453,6 +456,9 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q3.equilateral-triangle"
   ],
   "review": {
    "status": "published",
@@ -469,10 +475,7 @@
   },
   "answer": {
    "value": 36
-  },
-  "topics": [
-   "q3.equilateral-triangle"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-12",
@@ -491,6 +494,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -551,6 +555,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -584,6 +589,11 @@
   "skills": [
    "special-triangles",
    "triangle-area"
+  ],
+  "topics": [
+   "q1.rationalize-monomial",
+   "q3.isosceles-right",
+   "q3.square-properties"
   ],
   "review": {
    "status": "published",
@@ -624,12 +634,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q1.rationalize-monomial",
-   "q3.isosceles-right",
-   "q3.square-properties"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-15",
@@ -642,6 +647,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -672,6 +678,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -700,6 +707,9 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [
+   "q3.equilateral-halves"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -716,10 +726,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q3.equilateral-halves"
-  ]
+  }
  },
  {
   "id": "q3-04-special-triangles-18",
@@ -736,6 +743,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -796,6 +804,7 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -856,6 +865,9 @@
    "special-triangles",
    "triangle-area"
   ],
+  "topics": [
+   "q3.equilateral-halves"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -871,9 +883,109 @@
   },
   "answer": {
    "value": 18
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-21",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 4,
+  "stem": "In the figure, triangle $ABC$ is equilateral with side length 8, $D$ is the midpoint of $BC$, and $DE$ is perpendicular to $AC$. What is the length of $DE$?",
+  "explanation": "$DC=4$ and angle $C=60^\\circ$, so triangle $DEC$ is a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with hypotenuse $DC=4$. The side opposite $30^\\circ$ is $EC=2$ and the side opposite $60^\\circ$ is $DE=2\\sqrt3$. The trap is giving the short leg $EC$ instead of $DE$, which is opposite the $60^\\circ$ angle.",
+  "choiceExplanations": {
+   "A": "$\\sqrt3$ is the long leg of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle whose hypotenuse is 2, as if $DC$ were halved before the ratios were applied. With hypotenuse $DC=4$, the long leg $DE$ is $2\\sqrt3$.",
+   "B": "That is $EC$, the leg opposite the $30^\\circ$ angle at $D$, not $DE$.",
+   "D": "That is the hypotenuse $DC$ itself.",
+   "E": "That is the altitude $AD$ of the whole triangle ($\\frac{8\\sqrt3}{2}$), not the segment from $D$ to $AC$."
   },
+  "estSeconds": 85,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
   "topics": [
-   "q3.equilateral-halves"
-  ]
+   "q3.equilateral-triangle",
+   "q3.thirty-sixty-ninety"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 210\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"110,51.44 30,190 190,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"190\" x2=\"170\" y2=\"155.36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polyline points=\"174,162.29 167.07,166.29 163.07,159.36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"110\" y=\"43.44\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"22\" y=\"202\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"198\" y=\"202\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"110\" y=\"205\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"178\" y=\"153.36\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"60\" y=\"118\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">8</text></svg>",
+    "alt": "Equilateral triangle ABC with A at the top and BC horizontal. Side AB is labeled 8. D is the midpoint of BC. A segment from D meets side AC at E, with a right angle marked at E; E is closer to C than to A."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\sqrt3$"
+    },
+    {
+     "id": "B",
+     "text": "$2$"
+    },
+    {
+     "id": "C",
+     "text": "$2\\sqrt3$"
+    },
+    {
+     "id": "D",
+     "text": "$4$"
+    },
+    {
+     "id": "E",
+     "text": "$4\\sqrt3$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q3-04-special-triangles-22",
+  "lessonId": "q3-04-special-triangles",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Take $PQ=6$ as the base. The height is the perpendicular distance from $R$ to line $PQ$, and that distance is at most $QR=10$, with equality only when angle $Q$ is a right angle. So the area is at most $\\frac{6\\cdot10}{2}=30$: it equals 30 when angle $Q=90^\\circ$ and is smaller otherwise (for example, nearly 0 when angle $Q$ is nearly $180^\\circ$). The relationship cannot be determined. The trap is computing $\\frac12\\cdot6\\cdot10$ as if the two given sides were always base and height.",
+  "estSeconds": 100,
+  "skills": [
+   "special-triangles",
+   "triangle-area"
+  ],
+  "topics": [
+   "q3.triangle-area"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The area of triangle $PQR$",
+   "quantityB": "30",
+   "common": "In triangle $PQR$, $PQ=6$ and $QR=10$."
+  },
+  "answer": {
+   "choice": "D"
+  }
  }
 ]

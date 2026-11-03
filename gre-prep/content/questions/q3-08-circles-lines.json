@@ -10,6 +10,9 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [
+   "q3.tangents"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -33,10 +36,7 @@
   },
   "answer": {
    "value": 10
-  },
-  "topics": [
-   "q3.tangents"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-02",
@@ -54,6 +54,9 @@
   "skills": [
    "circle-tangent",
    "inscribed-triangle"
+  ],
+  "topics": [
+   "q3.diameter-right-angle"
   ],
   "figure": {
    "kind": "svg",
@@ -102,10 +105,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q3.diameter-right-angle"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-03",
@@ -124,6 +124,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -176,6 +177,9 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [
+   "q3.tangents"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -199,10 +203,7 @@
   },
   "answer": {
    "value": 5
-  },
-  "topics": [
-   "q3.tangents"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-05",
@@ -218,6 +219,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -274,6 +276,9 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [
+   "q3.rectangle-in-circle"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -321,10 +326,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.rectangle-in-circle"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-07",
@@ -337,6 +339,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -373,6 +376,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -403,6 +407,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -437,6 +442,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -497,6 +503,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -531,6 +538,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -591,6 +599,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -624,6 +633,9 @@
   "skills": [
    "circle-tangent",
    "inscribed-triangle"
+  ],
+  "topics": [
+   "q3.tangents"
   ],
   "figure": {
    "kind": "svg",
@@ -672,10 +684,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q3.tangents"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-15",
@@ -688,6 +697,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -718,6 +728,9 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [
+   "q3.rectangle-in-circle"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -733,10 +746,7 @@
   },
   "answer": {
    "value": 240
-  },
-  "topics": [
-   "q3.rectangle-in-circle"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-17",
@@ -752,6 +762,9 @@
   "skills": [
    "circle-tangent",
    "inscribed-triangle"
+  ],
+  "topics": [
+   "q3.diameter-right-angle"
   ],
   "review": {
    "status": "published",
@@ -794,10 +807,7 @@
     "C",
     "E"
    ]
-  },
-  "topics": [
-   "q3.diameter-right-angle"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-18",
@@ -810,6 +820,7 @@
    "circle-tangent",
    "inscribed-triangle"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -851,6 +862,9 @@
   "skills": [
    "circle-tangent",
    "inscribed-triangle"
+  ],
+  "topics": [
+   "q3.shaded-regions"
   ],
   "figure": {
    "kind": "svg",
@@ -899,10 +913,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.shaded-regions"
-  ]
+  }
  },
  {
   "id": "q3-08-circles-lines-20",
@@ -914,6 +925,9 @@
   "skills": [
    "circle-tangent",
    "inscribed-triangle"
+  ],
+  "topics": [
+   "q3.radii-isosceles"
   ],
   "figure": {
    "kind": "svg",
@@ -938,9 +952,47 @@
   },
   "answer": {
    "value": 60
-  },
+  }
+ },
+ {
+  "id": "q3-08-circles-lines-21",
+  "lessonId": "q3-08-circles-lines",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Radius $OA$ is perpendicular to tangent $PA$, and by symmetry $OP$ bisects angle $APB$, so triangle $OAP$ is a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with the $30^\\circ$ angle at $P$. The side opposite $30^\\circ$ is $OA=5$, so $PA=5\\sqrt3\\approx8.66<9$. Quantity B is greater. The trap is taking $OP=10$ (the hypotenuse) for $PA$, or using the full $60^\\circ$ in triangle $OAP$.",
+  "estSeconds": 85,
+  "skills": [
+   "circle-tangent",
+   "inscribed-triangle"
+  ],
   "topics": [
-   "q3.radii-isosceles"
-  ]
+   "q3.tangents"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 190 160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"70\" cy=\"80\" r=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"80\" x2=\"90\" y2=\"45.36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"80\" x2=\"90\" y2=\"114.64\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"80\" x2=\"90\" y2=\"45.36\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"80\" x2=\"90\" y2=\"114.64\" stroke=\"currentColor\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"80\" r=\"2.2\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1\"/><polyline points=\"86,52.29 92.93,56.29 96.93,49.36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><polyline points=\"86,107.71 92.93,103.71 96.93,110.64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"63\" y=\"84\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"90\" y=\"38.36\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"90\" y=\"129.64\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"157\" y=\"84\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"141\" y=\"84\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">60°</text><text x=\"74\" y=\"60\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text></svg>",
+    "alt": "A circle with center O. Point P lies outside the circle to the right. Segments PA and PB touch the circle at A (upper) and B (lower), and radii OA and OB are drawn with right angles marked at A and B. The angle at P is labeled 60 degrees and OA is labeled 5."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$PA$",
+   "quantityB": "9",
+   "common": "In the figure, $PA$ and $PB$ are tangent to the circle with center $O$ at $A$ and $B$, angle $APB$ measures $60^\\circ$, and $OA=5$."
+  },
+  "answer": {
+   "choice": "B"
+  }
  }
 ]

@@ -590,5 +590,75 @@
   "answer": {
    "value": 2
   }
+ },
+ {
+  "id": "q3-11-composite-quadrilaterals-13",
+  "lessonId": "q3-11-composite-quadrilaterals",
+  "difficulty": 5,
+  "stem": "In the figure, square $ABCD$ has side length 10. Points $E$, $F$, $G$ and $H$ lie on sides $AB$, $BC$, $CD$ and $DA$, none of them at a vertex of $ABCD$, and $AE=BF=CG=DH=x$, so $EFGH$ is a square. Which of the following could be the area of square $EFGH$? Indicate all such areas.",
+  "explanation": "Each corner triangle has legs $x$ and $10-x$, so by the Pythagorean theorem the area of $EFGH$ is $x^2+(10-x)^2$ with $0<x<10$. This equals $2(x-5)^2+50$: its least value is 50 (at $x=5$), and it gets close to 100 but never reaches it because $x$ cannot be 0 or 10. So the possible areas are $50\\le$ area $<100$: 50 ($x=5$), 58 ($x=3$) and 96 ($x=5-\\sqrt{23}\\approx0.2$) all work. Traps: forgetting that $x$ need not be an integer, and the boundary 100.",
+  "choiceExplanations": {
+   "A": "The inner square is smallest when $x=5$, with area $25+25=50$; nothing smaller is possible.",
+   "D": "This one is correct even though $x$ is not an integer: $x^2+(10-x)^2=96$ gives $x=5\\pm\\sqrt{23}$, about 0.2 or 9.8, both strictly between 0 and 10.",
+   "E": "Area 100 would need $x=0$ or $x=10$, putting the points at vertices of $ABCD$, which the stem forbids."
+  },
+  "estSeconds": 130,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.square-in-square"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 220 215\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,30 190,30 190,190 30,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"78,30 190,78 142,190 30,142\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"22\" y=\"26\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"198\" y=\"26\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"198\" y=\"202\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"22\" y=\"202\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"78\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"198\" y=\"82\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">F</text><text x=\"142\" y=\"206\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">G</text><text x=\"22\" y=\"146\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">H</text><text x=\"54\" y=\"22\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"22\" y=\"112\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text></svg>",
+    "alt": "Square ABCD with A at top left, B at top right, C at bottom right and D at bottom left; side AD is labeled 10. Points E on AB, F on BC, G on CD and H on DA form a tilted square EFGH inside ABCD. The segment AE is labeled x."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$40$"
+    },
+    {
+     "id": "B",
+     "text": "$50$"
+    },
+    {
+     "id": "C",
+     "text": "$58$"
+    },
+    {
+     "id": "D",
+     "text": "$96$"
+    },
+    {
+     "id": "E",
+     "text": "$100$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "C",
+    "D"
+   ]
+  }
  }
 ]

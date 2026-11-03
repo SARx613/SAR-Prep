@@ -9,6 +9,9 @@
   "skills": [
    "sets"
   ],
+  "topics": [
+   "q4.either-set-count"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 5
-  },
-  "topics": [
-   "q4.either-set-count"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-02",
@@ -45,6 +45,7 @@
   "skills": [
    "sets"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -102,6 +103,9 @@
   "skills": [
    "venn"
   ],
+  "topics": [
+   "q4.venn-displays"
+  ],
   "figure": {
    "kind": "svg",
    "title": "Facilities used by 200 residents surveyed",
@@ -149,10 +153,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.venn-displays"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-04",
@@ -163,6 +164,9 @@
   "estSeconds": 75,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.two-set-counts"
   ],
   "review": {
    "status": "published",
@@ -179,10 +183,7 @@
   },
   "answer": {
    "value": 5
-  },
-  "topics": [
-   "q4.two-set-counts"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-05",
@@ -193,6 +194,9 @@
   "estSeconds": 60,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.either-set-count"
   ],
   "review": {
    "status": "published",
@@ -211,10 +215,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q4.either-set-count"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-06",
@@ -231,6 +232,9 @@
   "estSeconds": 100,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.two-set-counts"
   ],
   "review": {
    "status": "published",
@@ -271,10 +275,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.two-set-counts"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-07",
@@ -285,6 +286,9 @@
   "estSeconds": 75,
   "skills": [
    "venn"
+  ],
+  "topics": [
+   "q4.venn-displays"
   ],
   "figure": {
    "kind": "svg",
@@ -312,10 +316,7 @@
   },
   "answer": {
    "value": 60
-  },
-  "topics": [
-   "q4.venn-displays"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-08",
@@ -331,6 +332,7 @@
   "skills": [
    "sets"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -380,6 +382,10 @@
    "venn",
    "inclusion-exclusion"
   ],
+  "topics": [
+   "q4.two-set-combined-cells",
+   "q4.two-set-counts"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -395,11 +401,7 @@
   },
   "answer": {
    "value": 55
-  },
-  "topics": [
-   "q4.two-set-combined-cells",
-   "q4.two-set-counts"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-10",
@@ -411,6 +413,7 @@
   "skills": [
    "venn"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "title": "Facilities used by 200 residents surveyed",
@@ -450,6 +453,9 @@
   "skills": [
    "inclusion-exclusion"
   ],
+  "topics": [
+   "q4.set-overlap-extremes"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -465,10 +471,7 @@
   },
   "answer": {
    "value": 10
-  },
-  "topics": [
-   "q4.set-overlap-extremes"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-12",
@@ -482,6 +485,9 @@
   "estSeconds": 150,
   "skills": [
    "inclusion-exclusion"
+  ],
+  "topics": [
+   "q4.set-overlap-extremes"
   ],
   "review": {
    "status": "published",
@@ -525,10 +531,7 @@
     "D",
     "E"
    ]
-  },
-  "topics": [
-   "q4.set-overlap-extremes"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-13",
@@ -540,6 +543,7 @@
   "skills": [
    "sets"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -573,6 +577,7 @@
   "skills": [
    "venn"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "title": "Clubs joined by 200 students surveyed",
@@ -633,6 +638,7 @@
    "sets",
    "inclusion-exclusion"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -663,6 +669,7 @@
    "venn",
    "inclusion-exclusion"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "title": "Clubs joined by 200 students surveyed",
@@ -707,6 +714,9 @@
    "sets",
    "inclusion-exclusion"
   ],
+  "topics": [
+   "q1.count-multiples-a-or-b"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -748,10 +758,7 @@
     "C",
     "D"
    ]
-  },
-  "topics": [
-   "q1.count-multiples-a-or-b"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-18",
@@ -763,6 +770,9 @@
   "skills": [
    "inclusion-exclusion",
    "venn"
+  ],
+  "topics": [
+   "q4.two-set-algebra"
   ],
   "review": {
    "status": "published",
@@ -779,10 +789,7 @@
   },
   "answer": {
    "value": 9
-  },
-  "topics": [
-   "q4.two-set-algebra"
-  ]
+  }
  },
  {
   "id": "q4-06-sets-venn-19",
@@ -795,6 +802,7 @@
    "venn",
    "inclusion-exclusion"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "title": "Clubs joined by 200 students surveyed",
@@ -838,6 +846,10 @@
    "inclusion-exclusion",
    "venn"
   ],
+  "topics": [
+   "q4.set-overlap-extremes",
+   "q4.two-set-combined-cells"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -853,10 +865,40 @@
   },
   "answer": {
    "value": 9
-  },
+  }
+ },
+ {
+  "id": "q4-06-sets-venn-21",
+  "lessonId": "q4-06-sets-venn",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let $b$ speak both. Then $35 + 28 - b = 63 - b$ speak at least one, and neither $= 60 - (63 - b) = b - 3$. So Quantity A is always 3 less than Quantity B, whatever $b$ is (it can range from 3 to 28). Trap: since neither count is fixed, it is tempting to answer that the relationship cannot be determined; the inclusion-exclusion identity ties the two unknowns together.",
+  "estSeconds": 90,
+  "skills": [
+   "inclusion-exclusion",
+   "venn"
+  ],
   "topics": [
-   "q4.set-overlap-extremes",
-   "q4.two-set-combined-cells"
-  ]
+   "q4.two-set-counts",
+   "q4.either-set-count"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of people in the group who speak neither French nor German",
+   "quantityB": "The number of people in the group who speak both French and German",
+   "common": "In a group of 60 people, 35 speak French and 28 speak German."
+  },
+  "answer": {
+   "choice": "B"
+  }
  }
 ]

@@ -849,5 +849,37 @@
     "denominator": 25
    }
   }
+ },
+ {
+  "id": "q4-08-probability-basics-22",
+  "lessonId": "q4-08-probability-basics",
+  "difficulty": 3,
+  "stem": "A jar contains only red, white and blue chips. If one chip is drawn at random, the probability that it is red is $\\frac{2}{5}$, and the probability that it is white is 3 times the probability that it is blue. If the jar contains 9 blue chips, how many red chips does it contain?",
+  "explanation": "White and blue together have probability $1 - \\frac{2}{5} = \\frac{3}{5}$, split $3 : 1$, so blue has probability $\\frac{3}{20}$. Then 9 blue chips are $\\frac{3}{20}$ of the jar: total $= 60$, and red $= \\frac{2}{5} \\cdot 60 = 24$. Trap: taking blue as $\\frac{1}{3}$ of the remaining $\\frac{3}{5}$ (the ratio is $3:1$, so blue is $\\frac{1}{4}$ of it), which gives 45 chips in all and 18 red chips.",
+  "estSeconds": 80,
+  "skills": [
+   "probability",
+   "complement"
+  ],
+  "topics": [
+   "q4.probability-formula",
+   "q4.complement"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 24
+  }
  }
 ]

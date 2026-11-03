@@ -949,5 +949,98 @@
   "answer": {
    "value": 58
   }
+ },
+ {
+  "id": "q1-03-remainders-parity-23",
+  "lessonId": "q1-03-remainders-parity",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Write $n=6k+4$. Then $2n=12k+8=6(2k+1)+2$, so A is always $2$. B changes with $k$: $n=4$ gives remainder $0$, but $n=10$ gives remainder $2$. B can be less than or equal to A, so the relationship cannot be determined. Traps: doubling the remainder to $8$ without reducing it below 6, and checking only $n=4$.",
+  "estSeconds": 100,
+  "skills": [
+   "remainders-parity"
+  ],
+  "topics": [
+   "q1.remainder-basics"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The remainder when $2n$ is divided by 6",
+   "quantityB": "The remainder when $n$ is divided by 4",
+   "common": "When the positive integer $n$ is divided by 6, the remainder is 4."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q1-03-remainders-parity-24",
+  "lessonId": "q1-03-remainders-parity",
+  "difficulty": 5,
+  "stem": "If $a$ and $b$ are integers and $ab+a$ is odd, which of the following must be even? Indicate all such expressions.",
+  "explanation": "Factor: $ab+a=a(b+1)$. A product is odd only when every factor is odd, so $a$ is odd and $b+1$ is odd, which makes $b$ even. Then $b$ is even; $a^2b$ is even because it has the even factor $b$; and $a-1$ is odd minus odd, which is even. But $a+b$ is odd plus even, which is odd, and $ab+b+1$ is even plus even plus 1, which is odd. Trap: concluding only that \"one of them is odd\"; factoring pins down both parities.",
+  "choiceExplanations": {
+   "B": "$a$ is odd and $b$ is even, so $a+b$ is odd.",
+   "E": "$ab$ and $b$ are both even, so $ab+b+1$ is odd."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "remainders-parity"
+  ],
+  "topics": [
+   "q1.parity-multiply",
+   "q1.parity-add-subtract"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$b$"
+    },
+    {
+     "id": "B",
+     "text": "$a+b$"
+    },
+    {
+     "id": "C",
+     "text": "$a^2b$"
+    },
+    {
+     "id": "D",
+     "text": "$a-1$"
+    },
+    {
+     "id": "E",
+     "text": "$ab+b+1$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "C",
+    "D"
+   ]
+  }
  }
 ]

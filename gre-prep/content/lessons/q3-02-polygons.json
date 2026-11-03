@@ -34,6 +34,9 @@
    "skills": [
     "polygon-angles"
    ],
+   "topics": [
+    "q3.interior-angle-sum"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 1080
-   },
-   "topics": [
-    "q3.interior-angle-sum"
-   ]
+   }
   },
   {
    "id": "q3-02-polygons-c2",
@@ -69,6 +69,9 @@
    "estSeconds": 60,
    "skills": [
     "polygon-angles"
+   ],
+   "topics": [
+    "q3.regular-polygon-angle"
    ],
    "review": {
     "status": "published",
@@ -109,10 +112,7 @@
     "choices": [
      "D"
     ]
-   },
-   "topics": [
-    "q3.regular-polygon-angle"
-   ]
+   }
   },
   {
    "id": "q3-02-polygons-c3",
@@ -124,6 +124,7 @@
    "skills": [
     "polygon-angles"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

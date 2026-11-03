@@ -35,6 +35,7 @@
    "skills": [
     "mixtures"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -63,6 +64,10 @@
    "skills": [
     "mixtures"
    ],
+   "topics": [
+    "q2.liquid-mixtures",
+    "q4.weighted-average-percents"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -79,11 +84,7 @@
    },
    "answer": {
     "value": 26
-   },
-   "topics": [
-    "q2.liquid-mixtures",
-    "q4.weighted-average-percents"
-   ]
+   }
   },
   {
    "id": "q2-11-mixtures-c3",
@@ -94,6 +95,9 @@
    "estSeconds": 75,
    "skills": [
     "mixtures"
+   ],
+   "topics": [
+    "q2.mixture-unknowns"
    ],
    "review": {
     "status": "published",
@@ -111,10 +115,7 @@
    },
    "answer": {
     "value": 2
-   },
-   "topics": [
-    "q2.mixture-unknowns"
-   ]
+   }
   }
  ]
 }

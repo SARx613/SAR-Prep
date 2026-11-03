@@ -1018,5 +1018,66 @@
     "C"
    ]
   }
+ },
+ {
+  "id": "q2-09-word-problems-23",
+  "lessonId": "q2-09-word-problems",
+  "difficulty": 4,
+  "stem": "A store buys a jacket for \\$60 and sets its regular price 25 percent above that cost. During a sale the regular price is reduced by 20 percent, and a customer then uses a coupon worth \\$6 off the sale price. On this jacket, what is the store's profit or loss?",
+  "explanation": "Regular price: $60\\times1.25=75$ dollars. Sale price: $75\\times0.80=60$ dollars. After the coupon the customer pays 54 dollars, so the store loses \\$6 on a \\$60 cost. Trap: 25 percent up and 20 percent down do not combine to 5 percent up, because the 20 percent is taken of the larger price.",
+  "choiceExplanations": {
+   "B": "Applies the coupon before the discount: $(75-6)\\times0.80=55.20$, a loss of \\$4.80.",
+   "C": "Nets the percents to a 5 percent markup: $63-6=57$, a loss of \\$3.",
+   "D": "Stops at the sale price of \\$60 and forgets the coupon.",
+   "E": "Ignores the 20 percent sale: $75-6=69$, a profit of \\$9."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "word-problems"
+  ],
+  "topics": [
+   "q2.money-problems",
+   "q2.translating-words"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A loss of \\$6.00"
+    },
+    {
+     "id": "B",
+     "text": "A loss of \\$4.80"
+    },
+    {
+     "id": "C",
+     "text": "A loss of \\$3.00"
+    },
+    {
+     "id": "D",
+     "text": "Neither a profit nor a loss"
+    },
+    {
+     "id": "E",
+     "text": "A profit of \\$9.00"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  }
 ]

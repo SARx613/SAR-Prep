@@ -913,5 +913,66 @@
   "answer": {
    "choice": "B"
   }
+ },
+ {
+  "id": "q2-08-functions-22",
+  "lessonId": "q2-08-functions",
+  "difficulty": 5,
+  "stem": "The function $f$ is defined by $f(x)=x^2-6x$ for all numbers $x$. If $f(t+1)=f(2t)$ and $t\\ne1$, what is the value of $t$?",
+  "explanation": "Substitute the whole expressions: $f(t+1)=(t+1)^2-6(t+1)=t^2-4t-5$ and $f(2t)=4t^2-12t$. Setting them equal gives $3t^2-8t+5=0$, so $(3t-5)(t-1)=0$. Since $t\\ne1$, $t=\\frac{5}{3}$. Faster: $f(x)=x(x-6)$ is symmetric about $x=3$, so two different inputs with the same output add to 6: $(t+1)+2t=6$. Trap: $f(2t)$ is $4t^2-12t$, not $2t^2-12t$.",
+  "choiceExplanations": {
+   "A": "Takes the sum of the inputs to be $-6$ (sign of $b$ kept): $3t+1=-6$.",
+   "B": "Uses the axis value 3 as the sum of the inputs: $3t+1=3$.",
+   "D": "Drops the 1 in $t+1$: $3t=6$.",
+   "E": "Sign slip: solves $3t-1=6$ instead of $3t+1=6$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "functions"
+  ],
+  "topics": [
+   "q2.function-of-expression",
+   "q2.function-notation"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-\\frac{7}{3}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{2}{3}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{5}{3}$"
+    },
+    {
+     "id": "D",
+     "text": "$2$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{7}{3}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  }
 ]

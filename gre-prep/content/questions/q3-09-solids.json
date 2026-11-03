@@ -10,6 +10,9 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [
+   "q3.box-volume"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -25,10 +28,7 @@
   },
   "answer": {
    "value": 125
-  },
-  "topics": [
-   "q3.box-volume"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-02",
@@ -47,6 +47,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -99,6 +100,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -127,6 +129,9 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [
+   "q3.box-volume"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -143,10 +148,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q3.box-volume"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-05",
@@ -164,6 +166,9 @@
   "skills": [
    "solids",
    "volume-surface-area"
+  ],
+  "topics": [
+   "q3.box-surface-area"
   ],
   "figure": {
    "kind": "svg",
@@ -212,10 +217,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q3.box-surface-area"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-06",
@@ -227,6 +229,9 @@
   "skills": [
    "solids",
    "volume-surface-area"
+  ],
+  "topics": [
+   "q3.box-surface-area"
   ],
   "review": {
    "status": "published",
@@ -243,10 +248,7 @@
   },
   "answer": {
    "value": 312
-  },
-  "topics": [
-   "q3.box-surface-area"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-07",
@@ -264,6 +266,9 @@
   "skills": [
    "solids",
    "volume-surface-area"
+  ],
+  "topics": [
+   "q3.cylinders"
   ],
   "figure": {
    "kind": "svg",
@@ -312,10 +317,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.cylinders"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-08",
@@ -328,6 +330,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -357,6 +360,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -391,6 +395,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -443,6 +448,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -471,6 +477,10 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [
+   "q2.formula-factor-change",
+   "q2.formula-percent-change"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -486,11 +496,7 @@
   },
   "answer": {
    "value": 80
-  },
-  "topics": [
-   "q2.formula-factor-change",
-   "q2.formula-percent-change"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-13",
@@ -503,6 +509,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -537,6 +544,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -589,6 +597,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -618,6 +627,9 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [
+   "q3.box-surface-area"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -641,10 +653,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q3.box-surface-area"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-17",
@@ -662,6 +671,9 @@
   "skills": [
    "solids",
    "volume-surface-area"
+  ],
+  "topics": [
+   "q3.cylinders"
   ],
   "review": {
    "status": "published",
@@ -702,10 +714,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q3.cylinders"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-18",
@@ -717,6 +726,10 @@
   "skills": [
    "solids",
    "volume-surface-area"
+  ],
+  "topics": [
+   "q2.formula-percent-change",
+   "q3.similar-figure-ratios"
   ],
   "review": {
    "status": "published",
@@ -733,11 +746,7 @@
   },
   "answer": {
    "value": 125
-  },
-  "topics": [
-   "q2.formula-percent-change",
-   "q3.similar-figure-ratios"
-  ]
+  }
  },
  {
   "id": "q3-09-solids-19",
@@ -754,6 +763,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -808,6 +818,7 @@
    "solids",
    "volume-surface-area"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -823,6 +834,73 @@
   },
   "answer": {
    "value": 500
+  }
+ },
+ {
+  "id": "q3-09-solids-21",
+  "lessonId": "q3-09-solids",
+  "difficulty": 4,
+  "stem": "A right circular cylindrical tank with radius 5 inches and height 15 inches holds water to a depth of 8 inches. A solid cube with edges of 5 inches is placed in the tank and sinks to the bottom, where it is completely covered by water. By how many inches does the water level rise? Round your answer to the nearest tenth.",
+  "explanation": "The water rises by the cube's volume spread over the circular base: $\\frac{5^3}{\\pi\\cdot5^2}=\\frac{125}{25\\pi}=\\frac5\\pi\\approx1.59$, which rounds to 1.6. (The new depth, about 9.6 inches, is above the cube's top at 5 inches, so the cube is indeed covered, and below the tank's 15 inches.) Traps: using the diameter 10 as the radius ($\\approx0.4$), or reporting the new depth 9.6 instead of the rise.",
+  "estSeconds": 100,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q3.cylinders",
+   "q3.box-volume"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "decimal",
+   "unit": "inches",
+   "round": 1
+  },
+  "answer": {
+   "value": 1.6
+  }
+ },
+ {
+  "id": "q3-09-solids-22",
+  "lessonId": "q3-09-solids",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "The edge lengths are positive integers whose product is 60. List every possible box (edges in increasing order) with its surface area $2(ab+bc+ca)$: $1\\times1\\times60$: 242; $1\\times2\\times30$: 184; $1\\times3\\times20$: 166; $1\\times4\\times15$: 158; $1\\times5\\times12$: 154; $1\\times6\\times10$: 152; $2\\times2\\times15$: 128; $2\\times3\\times10$: 112; $2\\times5\\times6$: 104; $3\\times4\\times5$: 94. The least surface area is 94 and $94>90$, so Quantity A is greater for every possible box. The trap is answering (D) because the box is not unique: every possible box gives the same comparison.",
+  "estSeconds": 110,
+  "skills": [
+   "solids",
+   "volume-surface-area"
+  ],
+  "topics": [
+   "q3.box-surface-area"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The total surface area of the box",
+   "quantityB": "90",
+   "common": "A closed rectangular box has volume 60, and each of its edge lengths is an integer."
+  },
+  "answer": {
+   "choice": "A"
   }
  }
 ]

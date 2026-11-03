@@ -613,5 +613,39 @@
   "answer": {
    "choice": "D"
   }
+ },
+ {
+  "id": "q4-14-centre-spread-reasoning-14",
+  "lessonId": "q4-14-centre-spread-reasoning",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Whether $x$ is 8, 9 or at least 10, the third number in order is 7, so the median is always 7. The mean is $\\frac{27 + x}{5}$, which equals 7 when $x = 8$ and exceeds 7 when $x \\ge 9$. Since the quantities can be equal or B can be greater, the relationship cannot be determined. Trap: noticing that a large $x$ pulls the mean above the median and answering B without testing the smallest allowed value of $x$.",
+  "estSeconds": 90,
+  "skills": [
+   "mean",
+   "median"
+  ],
+  "topics": [
+   "q4.mean-equals-median",
+   "q4.median-unknown-values"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-b",
+    "solver-c"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The median of the list",
+   "quantityB": "The mean of the list",
+   "common": "The list 3, 7, 7, 10, $x$ consists of five numbers, where $x$ is an integer greater than 7."
+  },
+  "answer": {
+   "choice": "D"
+  }
  }
 ]

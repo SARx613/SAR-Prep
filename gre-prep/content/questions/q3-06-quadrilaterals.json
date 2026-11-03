@@ -919,5 +919,46 @@
   "answer": {
    "value": 20
   }
+ },
+ {
+  "id": "q3-06-quadrilaterals-22",
+  "lessonId": "q3-06-quadrilaterals",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let the diagonals cross at $O$. In triangle $AOB$, $AO+OB>AB=10$; in triangle $COD$, $CO+OD>CD=10$ (opposite sides of a parallelogram are equal). Adding, $AC+BD>20$, whatever the angles of the parallelogram. Quantity A is greater. The trap is answering (D) because the angle at $A$ is unknown and the figure is not to scale; the triangle inequality settles the comparison without any angle.",
+  "estSeconds": 110,
+  "skills": [
+   "quadrilaterals",
+   "area"
+  ],
+  "topics": [
+   "q3.parallelograms"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 250 142\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,120 170,120 212,47.25 72,47.25\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"120\" x2=\"212\" y2=\"47.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"120\" x2=\"72\" y2=\"47.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"22\" y=\"128\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"172\" y=\"136\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"220\" y=\"45.25\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"68\" y=\"41.25\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"100\" y=\"136\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">10</text><text x=\"44\" y=\"82\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "Parallelogram ABCD with AB along the bottom, labeled 10, and AD slanting up to the right from A, labeled 6. Both diagonals AC and BD are drawn and cross inside the parallelogram."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$AC+BD$",
+   "quantityB": "20",
+   "common": "In parallelogram $ABCD$ shown, $AB=10$ and $AD=6$."
+  },
+  "answer": {
+   "choice": "A"
+  }
  }
 ]

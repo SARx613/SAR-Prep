@@ -15,6 +15,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.zero-product-property"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -54,10 +57,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.zero-product-property"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-02",
@@ -69,6 +69,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -102,6 +103,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -159,6 +161,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.assume-nonzero-trap"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -198,10 +203,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.assume-nonzero-trap"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-05",
@@ -213,6 +215,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -242,6 +245,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.factoring-trinomials"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -257,10 +263,7 @@
   },
   "answer": {
    "value": 3
-  },
-  "topics": [
-   "q2.factoring-trinomials"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-07",
@@ -276,6 +279,9 @@
   "estSeconds": 100,
   "skills": [
    "quadratic-factoring"
+  ],
+  "topics": [
+   "q2.factoring-trinomials"
   ],
   "review": {
    "status": "published",
@@ -317,10 +323,7 @@
     "B",
     "D"
    ]
-  },
-  "topics": [
-   "q2.factoring-trinomials"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-08",
@@ -337,6 +340,9 @@
   "estSeconds": 100,
   "skills": [
    "quadratic-factoring"
+  ],
+  "topics": [
+   "q2.zero-product-needs-zero"
   ],
   "review": {
    "status": "published",
@@ -377,10 +383,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.zero-product-needs-zero"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-09",
@@ -392,6 +395,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -424,6 +428,11 @@
   "skills": [
    "quadratic-factoring",
    "factoring"
+  ],
+  "topics": [
+   "q1.even-power-hides-sign",
+   "q1.root-vs-squared-equation",
+   "q2.hidden-quadratic"
   ],
   "review": {
    "status": "published",
@@ -465,12 +474,7 @@
     "B",
     "D"
    ]
-  },
-  "topics": [
-   "q1.even-power-hides-sign",
-   "q1.root-vs-squared-equation",
-   "q2.hidden-quadratic"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-11",
@@ -482,6 +486,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -509,6 +514,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.hidden-quadratic"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -526,10 +534,7 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q2.hidden-quadratic"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-13",
@@ -541,6 +546,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -574,6 +580,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -625,6 +632,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.hidden-quadratic"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -642,10 +652,7 @@
   },
   "answer": {
    "choice": "D"
-  },
-  "topics": [
-   "q2.hidden-quadratic"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-16",
@@ -664,6 +671,7 @@
    "quadratic-factoring",
    "factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -720,6 +728,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.zero-product-needs-zero"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -760,10 +771,7 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q2.zero-product-needs-zero"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-18",
@@ -781,6 +789,7 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -832,6 +841,9 @@
   "skills": [
    "quadratic-factoring"
   ],
+  "topics": [
+   "q2.quadratic-from-fractions"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -847,10 +859,7 @@
   },
   "answer": {
    "value": 1
-  },
-  "topics": [
-   "q2.quadratic-from-fractions"
-  ]
+  }
  },
  {
   "id": "q2-05-quadratic-factoring-20",
@@ -862,6 +871,10 @@
   "skills": [
    "quadratic-factoring",
    "factoring"
+  ],
+  "topics": [
+   "q2.factor-common-factor",
+   "q2.one-equation-enough"
   ],
   "review": {
    "status": "published",
@@ -878,10 +891,100 @@
   },
   "answer": {
    "value": 4
-  },
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-21",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Do not divide by $x-3$: it may be zero. Move everything to one side and factor: $x(x-3)-2(x-3)=(x-3)(x-2)=0$, so $x=3$ or $x=2$. If $x=2$ the quantities are equal; if $x=3$ Quantity A is greater. The relationship cannot be determined. Trap: cancelling $x-3$ leaves only $x=2$ and leads to answer C.",
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-factoring"
+  ],
   "topics": [
-   "q2.factor-common-factor",
-   "q2.one-equation-enough"
-  ]
+   "q2.assume-nonzero-trap",
+   "q2.zero-product-property"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$x$",
+   "quantityB": "$2$",
+   "common": "$x(x-3)=2(x-3)$"
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-05-quadratic-factoring-22",
+  "lessonId": "q2-05-quadratic-factoring",
+  "difficulty": 5,
+  "stem": "If $(x-2)(x+3)=6$, which of the following could be the value of $x$? Indicate all such values.",
+  "explanation": "The zero-product rule needs a product equal to 0, so first expand: $x^2+x-6=6$, then $x^2+x-12=0$, which factors as $(x+4)(x-3)=0$. So $x=-4$ or $x=3$. Check: $(-6)(-1)=6$ and $(1)(6)=6$. Trap: setting each factor equal to 0 (giving 2 and $-3$) or equal to 6 (giving 8) treats 6 as if it were 0.",
+  "choiceExplanations": {
+   "B": "Sets $x+3=0$ as if the product were 0; then $(x-2)(x+3)=0$, not 6.",
+   "C": "Sets $x-2=0$ as if the product were 0; then the product is 0, not 6.",
+   "E": "Sets $x-2=6$; then $(x-2)(x+3)=6\\cdot11=66$, not 6."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "quadratic-factoring"
+  ],
+  "topics": [
+   "q2.zero-product-needs-zero",
+   "q2.factoring-trinomials"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$-4$"
+    },
+    {
+     "id": "B",
+     "text": "$-3$"
+    },
+    {
+     "id": "C",
+     "text": "$2$"
+    },
+    {
+     "id": "D",
+     "text": "$3$"
+    },
+    {
+     "id": "E",
+     "text": "$8$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A",
+    "D"
+   ]
+  }
  }
 ]

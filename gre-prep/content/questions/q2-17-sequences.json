@@ -551,5 +551,98 @@
     "B"
    ]
   }
+ },
+ {
+  "id": "q2-17-sequences-13",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 3,
+  "stem": "In an arithmetic sequence, the 4th term is 17 and the 11th term is 45. What is the sum of the first 20 terms?",
+  "explanation": "From the 4th to the 11th term there are 7 steps: $d=\\frac{45-17}{7}=4$. Then $a_1=17-3\\cdot4=5$ and $a_{20}=5+19\\cdot4=81$. Sum: $\\frac{20(5+81)}{2}=860$. Trap: off-by-one errors in the number of steps (the $n$th term is $a_1+(n-1)d$).",
+  "choiceExplanations": {
+   "A": "Averages the 4th and 11th terms and multiplies by 20: $20\\times31=620$; those are not the first and last terms.",
+   "B": "Takes 4 steps back from the 4th term: $a_1=1$, $a_{20}=77$, sum $10\\times78=780$.",
+   "D": "Uses $a_{20}=a_1+20d=85$: sum $10\\times90=900$.",
+   "E": "Forgets to halve: $20\\times86=1{,}720$."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.arithmetic-sequences",
+   "q2.arithmetic-sums"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$620$"
+    },
+    {
+     "id": "B",
+     "text": "$780$"
+    },
+    {
+     "id": "C",
+     "text": "$860$"
+    },
+    {
+     "id": "D",
+     "text": "$900$"
+    },
+    {
+     "id": "E",
+     "text": "$1{,}720$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
+ },
+ {
+  "id": "q2-17-sequences-14",
+  "lessonId": "q2-17-sequences",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "$3r^2=12$ gives $r^2=4$, so $r=2$ or $r=-2$. The 5th term is $3r^4=3(r^2)^2=3\\cdot16=48$ either way, so the quantities are equal. Trap: the ratio's sign is unknown, which tempts answer D, but an even power of $r$ removes the sign. (The 4th term, $3r^3=\\pm24$, would depend on it.)",
+  "estSeconds": 75,
+  "skills": [
+   "sequences"
+  ],
+  "topics": [
+   "q2.geometric-sequences"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The 5th term of the sequence",
+   "quantityB": "$48$",
+   "common": "In a geometric sequence, the 1st term is 3 and the 3rd term is 12."
+  },
+  "answer": {
+   "choice": "C"
+  }
  }
 ]

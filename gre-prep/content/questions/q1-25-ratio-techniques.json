@@ -518,5 +518,36 @@
   "answer": {
    "value": 24
   }
+ },
+ {
+  "id": "q1-25-ratio-techniques-13",
+  "lessonId": "q1-25-ratio-techniques",
+  "difficulty": 4,
+  "stem": "In a collection of coins, the ratio of nickels to dimes is $3:4$, and the ratio of dimes to quarters is $6:5$. If the collection contains 186 coins of these three kinds and no others, how many quarters are in the collection?",
+  "explanation": "Make the shared term (dimes) the same in both ratios. The least common multiple of 4 and 6 is 12, so nickels : dimes $=9:12$ and dimes : quarters $=12:10$. Then nickels : dimes : quarters $=9:12:10$, a total of 31 parts. Each part is $186\\div31=6$ coins, so there are $10\\cdot6=60$ quarters. Trap: chaining the ratios as $3:4:5$ (or $3:6:5$) without rescaling the dimes; $186$ is not even a multiple of 12, a sign that the setup is wrong.",
+  "estSeconds": 90,
+  "skills": [
+   "ratio"
+  ],
+  "topics": [
+   "q1.ratio-common-variable",
+   "q1.multipart-ratios"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "integer"
+  },
+  "answer": {
+   "value": 60
+  }
  }
 ]

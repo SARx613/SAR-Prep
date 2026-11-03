@@ -9,6 +9,9 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [
+   "q2.slope-formula"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -24,10 +27,7 @@
   },
   "answer": {
    "value": 2
-  },
-  "topics": [
-   "q2.slope-formula"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-02",
@@ -44,6 +44,10 @@
   "estSeconds": 60,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.intercepts",
+   "q2.standard-form"
   ],
   "review": {
    "status": "published",
@@ -84,11 +88,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.intercepts",
-   "q2.standard-form"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-03",
@@ -99,6 +99,9 @@
   "estSeconds": 75,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.point-on-line"
   ],
   "review": {
    "status": "published",
@@ -115,10 +118,7 @@
   },
   "answer": {
    "value": 1
-  },
-  "topics": [
-   "q2.point-on-line"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-04",
@@ -135,6 +135,10 @@
   "estSeconds": 60,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.graphing-lines",
+   "q2.slope-intercept-form"
   ],
   "figure": {
    "kind": "svg",
@@ -183,11 +187,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.graphing-lines",
-   "q2.slope-intercept-form"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-05",
@@ -198,6 +198,9 @@
   "estSeconds": 60,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.slope-formula"
   ],
   "review": {
    "status": "published",
@@ -215,10 +218,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q2.slope-formula"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-06",
@@ -229,6 +229,9 @@
   "estSeconds": 90,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.intercepts"
   ],
   "review": {
    "status": "published",
@@ -245,10 +248,7 @@
   },
   "answer": {
    "value": -6
-  },
-  "topics": [
-   "q2.intercepts"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-07",
@@ -265,6 +265,9 @@
   "estSeconds": 90,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.parallel-slopes"
   ],
   "review": {
    "status": "published",
@@ -305,10 +308,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q2.parallel-slopes"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-08",
@@ -323,6 +323,9 @@
   "estSeconds": 90,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.point-on-line"
   ],
   "review": {
    "status": "published",
@@ -365,10 +368,7 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q2.point-on-line"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-09",
@@ -380,6 +380,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -407,6 +408,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -436,6 +438,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -468,6 +471,9 @@
   "estSeconds": 120,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.perpendicular-slopes"
   ],
   "review": {
    "status": "published",
@@ -508,10 +514,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.perpendicular-slopes"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-13",
@@ -528,6 +531,10 @@
   "estSeconds": 45,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.slope-intercept-form",
+   "q2.standard-form"
   ],
   "review": {
    "status": "published",
@@ -568,11 +575,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q2.slope-intercept-form",
-   "q2.standard-form"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-14",
@@ -583,6 +586,10 @@
   "estSeconds": 60,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.point-on-line",
+   "q2.slope-intercept-form"
   ],
   "review": {
    "status": "published",
@@ -599,11 +606,7 @@
   },
   "answer": {
    "value": 7
-  },
-  "topics": [
-   "q2.point-on-line",
-   "q2.slope-intercept-form"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-15",
@@ -620,6 +623,9 @@
   "estSeconds": 75,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.graphing-lines"
   ],
   "figure": {
    "kind": "svg",
@@ -668,10 +674,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.graphing-lines"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-16",
@@ -682,6 +685,9 @@
   "estSeconds": 90,
   "skills": [
    "lines-slope"
+  ],
+  "topics": [
+   "q2.standard-form"
   ],
   "review": {
    "status": "published",
@@ -699,10 +705,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.standard-form"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-17",
@@ -720,6 +723,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -775,6 +779,9 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [
+   "q2.perpendicular-slopes"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -816,10 +823,7 @@
     "C",
     "E"
    ]
-  },
-  "topics": [
-   "q2.perpendicular-slopes"
-  ]
+  }
  },
  {
   "id": "q2-14-lines-19",
@@ -831,6 +835,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -858,6 +863,7 @@
   "skills": [
    "lines-slope"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -873,6 +879,74 @@
   },
   "answer": {
    "value": -16
+  }
+ },
+ {
+  "id": "q2-14-lines-21",
+  "lessonId": "q2-14-lines",
+  "difficulty": 5,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Let the slope be $m>0$: $y-3=m(x-2)$. Then the $y$-intercept is $3-2m$ and the $x$-intercept is $2-\\frac{3}{m}$. With $m=1$: $x$-intercept $-1$, $y$-intercept $1$ (B greater). With $m=3$: $x$-intercept $1$, $y$-intercept $-3$ (A greater). With $m=\\frac{3}{2}$ the line passes through the origin and they are equal. Trap: sketching a single line through $(2,3)$ and answering from that one picture.",
+  "estSeconds": 120,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.intercepts",
+   "q2.slope-intercept-form"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The $x$-intercept of line $\\ell$",
+   "quantityB": "The $y$-intercept of line $\\ell$",
+   "common": "Line $\\ell$ has a positive slope and passes through the point $(2,3)$."
+  },
+  "answer": {
+   "choice": "D"
+  }
+ },
+ {
+  "id": "q2-14-lines-22",
+  "lessonId": "q2-14-lines",
+  "difficulty": 4,
+  "stem": "Line $k$ passes through the point $(-2,5)$ and is perpendicular to the line with equation $3x-4y=12$. What is the $y$-intercept of line $k$?",
+  "explanation": "Rewrite $3x-4y=12$ as $y=\\frac{3}{4}x-3$: slope $\\frac{3}{4}$. A perpendicular line has slope $-\\frac{4}{3}$. Through $(-2,5)$: $y-5=-\\frac{4}{3}(x+2)$, so at $x=0$, $y=5-\\frac{8}{3}=\\frac{7}{3}$. Traps: reading the slope as $3$ or $-\\frac{3}{4}$ from the standard form, or using the reciprocal without changing its sign.",
+  "estSeconds": 90,
+  "skills": [
+   "lines-slope"
+  ],
+  "topics": [
+   "q2.perpendicular-slopes",
+   "q2.standard-form"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "NE",
+  "content": {
+   "format": "fraction"
+  },
+  "answer": {
+   "value": 2.3333333333333335,
+   "fraction": {
+    "numerator": 7,
+    "denominator": 3
+   }
   }
  }
 ]

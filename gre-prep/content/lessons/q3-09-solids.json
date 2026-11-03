@@ -34,6 +34,9 @@
     "solids",
     "volume-surface-area"
    ],
+   "topics": [
+    "q3.box-volume"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 120
-   },
-   "topics": [
-    "q3.box-volume"
-   ]
+   }
   },
   {
    "id": "q3-09-solids-c2",
@@ -70,6 +70,9 @@
    "skills": [
     "solids",
     "volume-surface-area"
+   ],
+   "topics": [
+    "q3.cylinders"
    ],
    "review": {
     "status": "published",
@@ -110,10 +113,7 @@
     "choices": [
      "B"
     ]
-   },
-   "topics": [
-    "q3.cylinders"
-   ]
+   }
   },
   {
    "id": "q3-09-solids-c3",
@@ -126,6 +126,7 @@
     "solids",
     "volume-surface-area"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

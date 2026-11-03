@@ -526,5 +526,38 @@
     "D"
    ]
   }
+ },
+ {
+  "id": "q4-16-arrangements-13",
+  "lessonId": "q4-16-arrangements",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Adjacent: the pair can occupy 6 positions (chairs 1-2 through 6-7), times 2 orders, times $5!$ for the others: $6 \\cdot 2 \\cdot 120 = 1{,}440$. Exactly one between: Ana and Ben occupy chairs $(1,3), (2,4), \\dots, (5,7)$, only 5 positions, so $5 \\cdot 2 \\cdot 120 = 1{,}200$. The factors $2 \\cdot 5!$ are common, so compare 5 with 6. Trap: assuming the two counts are equal because both describe Ana and Ben sitting close together; the one-gap pattern fits in only 5 positions, one fewer than the adjacent pattern.",
+  "estSeconds": 100,
+  "skills": [
+   "permutations",
+   "multiplication-principle"
+  ],
+  "topics": [
+   "q4.items-apart"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of seatings in which exactly one person sits between Ana and Ben",
+   "quantityB": "The number of seatings in which Ana and Ben sit next to each other",
+   "common": "Seven people, including Ana and Ben, are to be seated in a row of seven chairs."
+  },
+  "answer": {
+   "choice": "B"
+  }
  }
 ]

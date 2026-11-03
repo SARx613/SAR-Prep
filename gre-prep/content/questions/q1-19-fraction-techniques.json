@@ -560,5 +560,38 @@
   "answer": {
    "value": 4
   }
+ },
+ {
+  "id": "q1-19-fraction-techniques-13",
+  "lessonId": "q1-19-fraction-techniques",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "For $x>0$, $\\frac{x}{x+1}$ is a positive fraction less than 1, and Quantity B adds 1 to both its numerator and its denominator. Adding the same positive amount to the top and the bottom of a positive fraction moves it toward 1, so a fraction below 1 gets larger: B is greater for every allowed $x$. Trap: treating $\\frac{x+1}{x+2}$ as equivalent to $\\frac{x}{x+1}$ (answer C). Adding to top and bottom is not multiplying them by the same number. One test value such as $x=1$ ($\\frac12$ vs $\\frac23$) only suggests the answer; the rule proves it.",
+  "estSeconds": 90,
+  "skills": [
+   "fraction-operations"
+  ],
+  "topics": [
+   "q1.add-same-to-top-and-bottom",
+   "q1.compare-fractions-common-terms"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "$\\dfrac{x}{x+1}$",
+   "quantityB": "$\\dfrac{x+1}{x+2}$",
+   "common": "$x>0$"
+  },
+  "answer": {
+   "choice": "B"
+  }
  }
 ]

@@ -878,5 +878,75 @@
   "answer": {
    "value": 96
   }
+ },
+ {
+  "id": "q3-05-congruent-similar-22",
+  "lessonId": "q3-05-congruent-similar",
+  "difficulty": 5,
+  "stem": "In the figure, $D$ is on side $AB$ and $E$ is on side $AC$ of triangle $ABC$, and angle $AED$ has the same measure as angle $ABC$. If $AD=5$, $DB=7$ and $AE=6$, what is the length of $EC$?",
+  "explanation": "Triangles $AED$ and $ABC$ share angle $A$ and have angle $AED$ equal to angle $ABC$, so they are similar with $A\\leftrightarrow A$, $E\\leftrightarrow B$, $D\\leftrightarrow C$. Then $\\frac{AE}{AB}=\\frac{AD}{AC}$: $\\frac{6}{12}=\\frac{5}{AC}$, so $AC=10$ and $EC=10-6=4$. The trap is treating $DE$ as parallel to $BC$ (pairing $D$ with $B$), which the angle condition does not say; $DE$ is not parallel to $BC$ here.",
+  "choiceExplanations": {
+   "B": "Uses $DB=7$ in place of $AB=12$: $\\frac{AE}{DB}=\\frac{AD}{AC}$ gives $\\frac{6}{7}=\\frac{5}{AC}$ and $AC=\\frac{35}{6}$, which is even shorter than $AE=6$, so it cannot be right.",
+   "C": "That assumes $DE\\parallel BC$, so $\\frac{AD}{DB}=\\frac{AE}{EC}$ and $EC=\\frac{6\\cdot7}{5}$; the correspondence is wrong.",
+   "D": "That is $AC$; $EC=AC-AE$.",
+   "E": "That is $AC$ under the wrong parallel assumption, $\\frac{AD}{AB}=\\frac{AE}{AC}$, which gives $AC=\\frac{6\\cdot12}{5}$."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "congruence",
+   "similarity"
+  ],
+  "topics": [
+   "q3.spot-similar-triangles",
+   "q3.similar-triangles"
+  ],
+  "figure": {
+   "kind": "svg",
+   "data": {
+    "svg": "<svg viewBox=\"0 0 240 200\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"125,22 45.12,156 180.35,139.63\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"91.72\" y1=\"77.83\" x2=\"158.21\" y2=\"92.58\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"125\" y=\"15\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"37.12\" y=\"160\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"188.35\" y=\"143.63\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"83.72\" y=\"79.83\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"166.21\" y=\"94.58\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"100.36\" y=\"49.92\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">5</text><text x=\"60.42\" y=\"116.92\" text-anchor=\"end\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">7</text><text x=\"149.61\" y=\"57.29\" text-anchor=\"start\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" stroke=\"none\">6</text></svg>",
+    "alt": "Triangle ABC with A at the top, B at lower left and C at lower right. Point D is on side AB and point E is on side AC, and segment DE is drawn; DE is not parallel to BC. AD is labeled 5, DB is labeled 7 and AE is labeled 6."
+   },
+   "notes": "Note: Figure not drawn to scale."
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$4$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{35}{6}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{42}{5}$"
+    },
+    {
+     "id": "D",
+     "text": "$10$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{72}{5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "A"
+   ]
+  }
  }
 ]

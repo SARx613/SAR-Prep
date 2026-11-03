@@ -559,5 +559,65 @@
     "denominator": 99
    }
   }
+ },
+ {
+  "id": "q4-17-selections-13",
+  "lessonId": "q4-17-selections",
+  "difficulty": 3,
+  "stem": "A committee of 4 people is to be chosen from 9 people, including Dana and Eli. If the committee must include Dana or Eli, but not both, how many different committees are possible?",
+  "explanation": "Choose which of the two is in (2 ways); then the other must be out, so the remaining 3 members come from the other 7 people: $2 \\cdot \\binom{7}{3} = 2 \\cdot 35 = 70$. Trap: after putting Dana in, choosing the other 3 from 8 people still lets Eli in.",
+  "choiceExplanations": {
+   "A": "$\\binom{7}{2} = 21$ is the number of committees that include both Dana and Eli.",
+   "B": "$\\binom{8}{3} = 56$ counts committees that include Dana, with Eli allowed; it also misses the Eli-only committees.",
+   "D": "$\\binom{9}{4} - \\binom{7}{4} = 91$ counts committees with at least one of them, including the 21 with both.",
+   "E": "$2 \\cdot \\binom{8}{3} = 112$ forgets to exclude the other person, so committees with both are counted twice."
+  },
+  "estSeconds": 75,
+  "skills": [
+   "combinations"
+  ],
+  "topics": [
+   "q4.include-and-exclude"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$21$"
+    },
+    {
+     "id": "B",
+     "text": "$56$"
+    },
+    {
+     "id": "C",
+     "text": "$70$"
+    },
+    {
+     "id": "D",
+     "text": "$91$"
+    },
+    {
+     "id": "E",
+     "text": "$112$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  }
 ]

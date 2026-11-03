@@ -34,6 +34,7 @@
    "skills": [
     "quadratic-formula"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -66,6 +67,9 @@
    "estSeconds": 60,
    "skills": [
     "quadratic-formula"
+   ],
+   "topics": [
+    "q2.number-of-roots"
    ],
    "review": {
     "status": "published",
@@ -106,10 +110,7 @@
     "choices": [
      "A"
     ]
-   },
-   "topics": [
-    "q2.number-of-roots"
-   ]
+   }
   },
   {
    "id": "q2-06-quadratic-formula-c3",
@@ -126,6 +127,9 @@
    "estSeconds": 90,
    "skills": [
     "quadratic-formula"
+   ],
+   "topics": [
+    "q2.quadratic-formula"
    ],
    "review": {
     "status": "published",
@@ -166,10 +170,7 @@
     "choices": [
      "A"
     ]
-   },
-   "topics": [
-    "q2.quadratic-formula"
-   ]
+   }
   }
  ]
 }

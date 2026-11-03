@@ -9,6 +9,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -41,6 +42,9 @@
   "estSeconds": 60,
   "skills": [
    "polygon-angles"
+  ],
+  "topics": [
+   "q3.regular-polygon-angle"
   ],
   "review": {
    "status": "published",
@@ -81,10 +85,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q3.regular-polygon-angle"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-03",
@@ -95,6 +96,9 @@
   "estSeconds": 60,
   "skills": [
    "polygon-angles"
+  ],
+  "topics": [
+   "q3.interior-angle-sum"
   ],
   "review": {
    "status": "published",
@@ -111,10 +115,7 @@
   },
   "answer": {
    "value": 12
-  },
-  "topics": [
-   "q3.interior-angle-sum"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-04",
@@ -126,6 +127,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -154,6 +156,9 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [
+   "q3.interior-angle-sum"
+  ],
   "figure": {
    "kind": "svg",
    "data": {
@@ -177,10 +182,7 @@
   },
   "answer": {
    "value": 110
-  },
-  "topics": [
-   "q3.interior-angle-sum"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-06",
@@ -198,6 +200,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -249,6 +252,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -282,6 +286,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -334,6 +339,9 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [
+   "q3.regular-polygon-angle"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -349,10 +357,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q3.regular-polygon-angle"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-10",
@@ -370,6 +375,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -421,6 +427,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -448,6 +455,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -475,6 +483,9 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [
+   "q3.polygon-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -490,10 +501,7 @@
   },
   "answer": {
    "value": 7
-  },
-  "topics": [
-   "q3.polygon-basics"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-14",
@@ -511,6 +519,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -562,6 +571,10 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [
+   "q3.compare-polygons",
+   "q3.polygon-basics"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -578,11 +591,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q3.compare-polygons",
-   "q3.polygon-basics"
-  ]
+  }
  },
  {
   "id": "q3-02-polygons-16",
@@ -598,6 +607,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -657,6 +667,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -708,6 +719,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -742,6 +754,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "figure": {
    "kind": "svg",
    "data": {
@@ -777,6 +790,7 @@
   "skills": [
    "polygon-angles"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -792,6 +806,103 @@
   },
   "answer": {
    "value": 12
+  }
+ },
+ {
+  "id": "q3-02-polygons-21",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 5,
+  "stem": "Each interior angle of a regular polygon measures more than $150^\\circ$, and its measure in degrees is an integer. Which of the following could be the number of sides of the polygon? Indicate all such numbers.",
+  "explanation": "Each interior angle is $\\frac{(n-2)180}{n}=180-\\frac{360}{n}$. It is an integer exactly when $n$ divides 360, and it exceeds 150 exactly when $\\frac{360}{n}<30$, that is $n>12$. Of the choices, 15, 18 and 40 divide 360 and exceed 12 (angles $156^\\circ$, $160^\\circ$, $171^\\circ$). The traps are the boundary case $n=12$ and the non-divisors 16 and 25.",
+  "choiceExplanations": {
+   "A": "A regular 12-gon has angles of exactly $180-30=150^\\circ$, which is not more than $150^\\circ$; the strict inequality excludes it.",
+   "C": "$180-\\frac{360}{16}=157.5^\\circ$ is more than $150^\\circ$ but is not an integer, because 16 does not divide 360.",
+   "E": "$180-\\frac{360}{25}=165.6^\\circ$ is not an integer, because 25 does not divide 360."
+  },
+  "estSeconds": 110,
+  "skills": [
+   "polygon-angles"
+  ],
+  "topics": [
+   "q3.regular-polygon-angle"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_all",
+   "choices": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "15"
+    },
+    {
+     "id": "C",
+     "text": "16"
+    },
+    {
+     "id": "D",
+     "text": "18"
+    },
+    {
+     "id": "E",
+     "text": "25"
+    },
+    {
+     "id": "F",
+     "text": "40"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B",
+    "D",
+    "F"
+   ]
+  }
+ },
+ {
+  "id": "q3-02-polygons-22",
+  "lessonId": "q3-02-polygons",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "With $n$ sides the angles add to $(n-2)\\cdot180$, and each is at least 140, so $(n-2)\\cdot180\\ge140n$, which gives $40n\\ge360$, $n\\ge9$. A regular nonagon (each angle $140^\\circ$) gives $n=9$, equal to Quantity B; a regular decagon (each angle $144^\\circ$) also qualifies and gives $n=10$, greater. The relationship cannot be determined. The trap is answering (C) from the case $n=9$ alone: \"at least\" allows larger angles and more sides.",
+  "estSeconds": 95,
+  "skills": [
+   "polygon-angles"
+  ],
+  "topics": [
+   "q3.interior-angle-sum"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The number of sides of the polygon",
+   "quantityB": "9",
+   "common": "Each interior angle of a certain polygon measures at least $140^\\circ$."
+  },
+  "answer": {
+   "choice": "D"
   }
  }
 ]

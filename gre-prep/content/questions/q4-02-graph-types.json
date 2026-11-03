@@ -15,6 +15,9 @@
   "skills": [
    "circle-graphs"
   ],
+  "topics": [
+   "q4.pie-charts"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -54,10 +57,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.pie-charts"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-02",
@@ -69,6 +69,7 @@
   "skills": [
    "circle-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -101,6 +102,9 @@
   "estSeconds": 60,
   "skills": [
    "histograms"
+  ],
+  "topics": [
+   "q4.histograms"
   ],
   "figure": {
    "kind": "svg",
@@ -150,10 +154,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.histograms"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-04",
@@ -170,6 +171,9 @@
   "estSeconds": 60,
   "skills": [
    "circle-graphs"
+  ],
+  "topics": [
+   "q4.pie-charts"
   ],
   "figure": {
    "kind": "pie",
@@ -239,10 +243,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.pie-charts"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-05",
@@ -254,6 +255,7 @@
   "skills": [
    "circle-graphs"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -281,6 +283,9 @@
   "estSeconds": 90,
   "skills": [
    "scatterplots"
+  ],
+  "topics": [
+   "q4.trend-lines"
   ],
   "figure": {
    "kind": "scatter",
@@ -351,10 +356,7 @@
   },
   "answer": {
    "value": 11.5
-  },
-  "topics": [
-   "q4.trend-lines"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-07",
@@ -371,6 +373,9 @@
   "estSeconds": 75,
   "skills": [
    "histograms"
+  ],
+  "topics": [
+   "q4.histograms"
   ],
   "figure": {
    "kind": "svg",
@@ -420,10 +425,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q4.histograms"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-08",
@@ -440,6 +442,10 @@
   "estSeconds": 60,
   "skills": [
    "line-graphs"
+  ],
+  "topics": [
+   "q4.greatest-change",
+   "q4.line-graphs"
   ],
   "figure": {
    "kind": "line",
@@ -511,11 +517,7 @@
    "choices": [
     "E"
    ]
-  },
-  "topics": [
-   "q4.greatest-change",
-   "q4.line-graphs"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-09",
@@ -532,6 +534,9 @@
   "estSeconds": 90,
   "skills": [
    "scatterplots"
+  ],
+  "topics": [
+   "q4.trend-lines"
   ],
   "figure": {
    "kind": "scatter",
@@ -623,10 +628,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q4.trend-lines"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-10",
@@ -639,6 +641,7 @@
    "circle-graphs",
    "percent-change"
   ],
+  "topics": [],
   "figure": {
    "kind": "pie",
    "title": "City budget by category",
@@ -704,6 +707,9 @@
   "skills": [
    "line-graphs",
    "percent-change"
+  ],
+  "topics": [
+   "q4.greatest-change"
   ],
   "figure": {
    "kind": "line",
@@ -775,10 +781,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.greatest-change"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-12",
@@ -793,6 +796,9 @@
   "estSeconds": 120,
   "skills": [
    "scatterplots"
+  ],
+  "topics": [
+   "q4.scatterplots"
   ],
   "figure": {
    "kind": "scatter",
@@ -881,10 +887,7 @@
     "B",
     "C"
    ]
-  },
-  "topics": [
-   "q4.scatterplots"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-13",
@@ -895,6 +898,9 @@
   "estSeconds": 60,
   "skills": [
    "circle-graphs"
+  ],
+  "topics": [
+   "q4.pie-charts"
   ],
   "review": {
    "status": "published",
@@ -911,10 +917,7 @@
   },
   "answer": {
    "value": 120
-  },
-  "topics": [
-   "q4.pie-charts"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-14",
@@ -931,6 +934,9 @@
   "estSeconds": 60,
   "skills": [
    "histograms"
+  ],
+  "topics": [
+   "q4.histograms"
   ],
   "figure": {
    "kind": "svg",
@@ -980,10 +986,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.histograms"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-15",
@@ -995,6 +998,7 @@
   "skills": [
    "circle-graphs"
   ],
+  "topics": [],
   "figure": {
    "kind": "pie",
    "title": "Electricity generated in a region, by source",
@@ -1055,6 +1059,9 @@
   "estSeconds": 80,
   "skills": [
    "scatterplots"
+  ],
+  "topics": [
+   "q4.trend-lines"
   ],
   "figure": {
    "kind": "scatter",
@@ -1125,10 +1132,7 @@
   },
   "answer": {
    "value": 10
-  },
-  "topics": [
-   "q4.trend-lines"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-17",
@@ -1145,6 +1149,9 @@
   "estSeconds": 70,
   "skills": [
    "line-graphs"
+  ],
+  "topics": [
+   "q4.line-graphs"
   ],
   "figure": {
    "kind": "line",
@@ -1214,10 +1221,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q4.line-graphs"
-  ]
+  }
  },
  {
   "id": "q4-02-graph-types-18",
@@ -1229,6 +1233,7 @@
   "skills": [
    "circle-graphs"
   ],
+  "topics": [],
   "figure": {
    "kind": "pie",
    "title": "Electricity generated in a region, by source",
@@ -1295,6 +1300,7 @@
   "skills": [
    "scatterplots"
   ],
+  "topics": [],
   "figure": {
    "kind": "scatter",
    "title": "Practice time and test score",
@@ -1399,6 +1405,9 @@
    "line-graphs",
    "percent-change"
   ],
+  "topics": [
+   "q4.line-graphs"
+  ],
   "figure": {
    "kind": "line",
    "title": "Monthly subscribers",
@@ -1464,9 +1473,309 @@
     "A",
     "B"
    ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-21",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 3,
+  "stem": "In which month did the total number of subscribers to the two plans first exceed 70 thousand?",
+  "explanation": "Add the two lines month by month: $50, 56, 65, 66, 75, 84$ thousand. The first total above 70 is May's 75 thousand. Trap: reading only the Basic line, which never exceeds 70.",
+  "choiceExplanations": {
+   "A": "February's total is $44 + 12 = 56$ thousand.",
+   "B": "March's total is $50 + 15 = 65$ thousand.",
+   "C": "April's total is $48 + 18 = 66$ thousand.",
+   "E": "June's total (84 thousand) exceeds 70, but May's already did."
   },
+  "estSeconds": 60,
+  "skills": [
+   "line-graphs"
+  ],
   "topics": [
    "q4.line-graphs"
-  ]
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Subscribers to two streaming plans, January to June",
+   "data": {
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Basic",
+      "values": [
+       40,
+       44,
+       50,
+       48,
+       55,
+       60
+      ]
+     },
+     {
+      "name": "Premium",
+      "values": [
+       10,
+       12,
+       15,
+       18,
+       20,
+       24
+      ]
+     }
+    ],
+    "xLabel": "Month",
+    "yLabel": "Subscribers (thousands)"
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "February"
+    },
+    {
+     "id": "B",
+     "text": "March"
+    },
+    {
+     "id": "C",
+     "text": "April"
+    },
+    {
+     "id": "D",
+     "text": "May"
+    },
+    {
+     "id": "E",
+     "text": "June"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-22",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 4,
+  "stem": "For how many of the months from February through June was the number of Basic subscribers more than 10 percent greater than in the previous month?",
+  "explanation": "Ten percent of the previous month is the threshold: Feb $44$ vs $40 + 4 = 44$ (exactly $10\\%$, not more); Mar $50 > 44 + 4.4$; Apr is a decrease; May $55 > 48 + 4.8$; Jun $60 < 55 + 5.5$. Only March and May qualify. Trap: counting February, where the increase is exactly 10 percent, or judging by the raw rise: June's rise of 5 thousand is close to May's 7 thousand but sits on a larger base, so it is under 10 percent.",
+  "choiceExplanations": {
+   "A": "Only one month would result from missing either March ($13.6\\%$) or May ($14.6\\%$).",
+   "C": "Three counts February, whose increase is exactly $10\\%$, not more than $10\\%$.",
+   "D": "Four counts every month with an increase, including February ($10\\%$) and June (about $9\\%$).",
+   "E": "Five counts every month, including April, when Basic subscribers fell."
+  },
+  "estSeconds": 90,
+  "skills": [
+   "line-graphs",
+   "percent-change"
+  ],
+  "topics": [
+   "q4.greatest-change",
+   "q4.line-graphs"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Subscribers to two streaming plans, January to June",
+   "data": {
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Basic",
+      "values": [
+       40,
+       44,
+       50,
+       48,
+       55,
+       60
+      ]
+     },
+     {
+      "name": "Premium",
+      "values": [
+       10,
+       12,
+       15,
+       18,
+       20,
+       24
+      ]
+     }
+    ],
+    "xLabel": "Month",
+    "yLabel": "Subscribers (thousands)"
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "One"
+    },
+    {
+     "id": "B",
+     "text": "Two"
+    },
+    {
+     "id": "C",
+     "text": "Three"
+    },
+    {
+     "id": "D",
+     "text": "Four"
+    },
+    {
+     "id": "E",
+     "text": "Five"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
+ },
+ {
+  "id": "q4-02-graph-types-23",
+  "lessonId": "q4-02-graph-types",
+  "difficulty": 5,
+  "stem": "From January to June, the increase in the number of Premium subscribers was approximately what percent of the increase in the total number of subscribers to the two plans?",
+  "explanation": "Premium rose by $24 - 10 = 14$ thousand; the total rose from $50$ to $84$, by $34$ thousand. $\\frac{14}{34} \\approx 41\\%$. Trap: the base is the increase in the total, not a level of either line and not the increase in Basic alone.",
+  "choiceExplanations": {
+   "A": "$\\frac{14}{84} \\approx 17\\%$ divides by June's total level instead of the increase in the total.",
+   "B": "$\\frac{24}{84} \\approx 29\\%$ is Premium's share of June's subscribers, not a share of the increase.",
+   "D": "$\\frac{14}{24} \\approx 58\\%$ divides by June's Premium count.",
+   "E": "$\\frac{14}{20} = 70\\%$ divides by the increase in Basic subscribers instead of the increase in the total."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "line-graphs",
+   "percent-change"
+  ],
+  "topics": [
+   "q4.line-graphs"
+  ],
+  "figure": {
+   "kind": "line",
+   "title": "Subscribers to two streaming plans, January to June",
+   "data": {
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Basic",
+      "values": [
+       40,
+       44,
+       50,
+       48,
+       55,
+       60
+      ]
+     },
+     {
+      "name": "Premium",
+      "values": [
+       10,
+       12,
+       15,
+       18,
+       20,
+       24
+      ]
+     }
+    ],
+    "xLabel": "Month",
+    "yLabel": "Subscribers (thousands)"
+   }
+  },
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "DI",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$17\\%$"
+    },
+    {
+     "id": "B",
+     "text": "$29\\%$"
+    },
+    {
+     "id": "C",
+     "text": "$41\\%$"
+    },
+    {
+     "id": "D",
+     "text": "$58\\%$"
+    },
+    {
+     "id": "E",
+     "text": "$70\\%$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "C"
+   ]
+  }
  }
 ]

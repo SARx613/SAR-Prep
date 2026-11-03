@@ -34,6 +34,9 @@
     "circle-tangent",
     "inscribed-triangle"
    ],
+   "topics": [
+    "q3.pythagorean-triples"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -49,10 +52,7 @@
    },
    "answer": {
     "value": 25
-   },
-   "topics": [
-    "q3.pythagorean-triples"
-   ]
+   }
   },
   {
    "id": "q3-08-circles-lines-c2",
@@ -64,6 +64,9 @@
    "skills": [
     "circle-tangent",
     "inscribed-triangle"
+   ],
+   "topics": [
+    "q3.diameter-right-angle"
    ],
    "review": {
     "status": "published",
@@ -80,10 +83,7 @@
    },
    "answer": {
     "value": 13
-   },
-   "topics": [
-    "q3.diameter-right-angle"
-   ]
+   }
   },
   {
    "id": "q3-08-circles-lines-c3",
@@ -96,6 +96,7 @@
     "circle-tangent",
     "inscribed-triangle"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [

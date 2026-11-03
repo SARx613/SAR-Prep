@@ -920,5 +920,38 @@
   "answer": {
    "value": 6.7
   }
+ },
+ {
+  "id": "q2-12-interest-23",
+  "lessonId": "q2-12-interest",
+  "difficulty": 4,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Y earns $4{,}000\\times0.05=200$ dollars a year, so after 10 years it is worth \\$6,000. X is worth $4{,}000(1.05)^{10}\\approx4{,}000\\times1.62889\\approx6{,}515.58$ dollars. The difference is about \\$515.58, so Quantity A is greater. Trap: assuming the compounding bonus is small over 10 years; interest earned on earlier interest adds up to more than \\$500 here.",
+  "estSeconds": 90,
+  "skills": [
+   "interest"
+  ],
+  "topics": [
+   "q2.compound-interest",
+   "q2.simple-interest"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The value of account X at the end of 10 years minus the value of account Y at the end of 10 years",
+   "quantityB": "\\$500",
+   "common": "Account X: \\$4,000 deposited at 5 percent annual interest, compounded annually. Account Y: \\$4,000 deposited at 5 percent simple annual interest. Nothing else is deposited or withdrawn."
+  },
+  "answer": {
+   "choice": "A"
+  }
  }
 ]

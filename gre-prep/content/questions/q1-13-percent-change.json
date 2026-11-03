@@ -9,6 +9,9 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [
+   "q1.percent-change-formula"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -25,10 +28,7 @@
   },
   "answer": {
    "value": 15
-  },
-  "topics": [
-   "q1.percent-change-formula"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-02",
@@ -45,6 +45,9 @@
   "estSeconds": 45,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-greater-than"
   ],
   "review": {
    "status": "published",
@@ -85,10 +88,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q1.percent-greater-than"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-03",
@@ -105,6 +105,9 @@
   "estSeconds": 60,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-change-formula"
   ],
   "review": {
    "status": "published",
@@ -145,10 +148,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q1.percent-change-formula"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-04",
@@ -159,6 +159,9 @@
   "estSeconds": 75,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-change-asymmetry"
   ],
   "review": {
    "status": "published",
@@ -176,10 +179,7 @@
   },
   "answer": {
    "choice": "A"
-  },
-  "topics": [
-   "q1.percent-change-asymmetry"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-05",
@@ -194,6 +194,9 @@
   "estSeconds": 60,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-greater-than"
   ],
   "review": {
    "status": "published",
@@ -236,10 +239,7 @@
     "C",
     "E"
    ]
-  },
-  "topics": [
-   "q1.percent-greater-than"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-06",
@@ -250,6 +250,10 @@
   "estSeconds": 75,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.less-than-as-of",
+   "q1.original-value"
   ],
   "review": {
    "status": "published",
@@ -266,11 +270,7 @@
   },
   "answer": {
    "value": 60
-  },
-  "topics": [
-   "q1.less-than-as-of",
-   "q1.original-value"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-07",
@@ -287,6 +287,9 @@
   "estSeconds": 90,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.start-with-100"
   ],
   "review": {
    "status": "published",
@@ -327,10 +330,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q1.start-with-100"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-08",
@@ -341,6 +341,9 @@
   "estSeconds": 75,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-change-asymmetry"
   ],
   "review": {
    "status": "published",
@@ -359,10 +362,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q1.percent-change-asymmetry"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-09",
@@ -373,6 +373,9 @@
   "estSeconds": 100,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.original-value"
   ],
   "review": {
    "status": "published",
@@ -389,10 +392,7 @@
   },
   "answer": {
    "value": 150
-  },
-  "topics": [
-   "q1.original-value"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-10",
@@ -409,6 +409,9 @@
   "estSeconds": 90,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.successive-percent-changes"
   ],
   "review": {
    "status": "published",
@@ -449,10 +452,7 @@
    "choices": [
     "D"
    ]
-  },
-  "topics": [
-   "q1.successive-percent-changes"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-11",
@@ -463,6 +463,10 @@
   "estSeconds": 120,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.start-with-100",
+   "q1.successive-percent-changes"
   ],
   "review": {
    "status": "published",
@@ -479,11 +483,7 @@
   },
   "answer": {
    "value": 1
-  },
-  "topics": [
-   "q1.start-with-100",
-   "q1.successive-percent-changes"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-12",
@@ -494,6 +494,9 @@
   "estSeconds": 120,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-change-asymmetry"
   ],
   "review": {
    "status": "published",
@@ -510,10 +513,7 @@
   },
   "answer": {
    "value": 25
-  },
-  "topics": [
-   "q1.percent-change-asymmetry"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-13",
@@ -530,6 +530,9 @@
   "estSeconds": 45,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.percent-less-than"
   ],
   "review": {
    "status": "published",
@@ -570,10 +573,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q1.percent-less-than"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-14",
@@ -585,6 +585,7 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -613,6 +614,9 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [
+   "q1.percent-less-than"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -629,10 +633,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q1.percent-less-than"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-16",
@@ -644,6 +645,7 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -672,6 +674,7 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -703,6 +706,7 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -762,6 +766,10 @@
   "skills": [
    "percent-change"
   ],
+  "topics": [
+   "q1.percent-less-than",
+   "q1.start-with-100"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -801,11 +809,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q1.percent-less-than",
-   "q1.start-with-100"
-  ]
+  }
  },
  {
   "id": "q1-13-percent-change-20",
@@ -816,6 +820,9 @@
   "estSeconds": 120,
   "skills": [
    "percent-change"
+  ],
+  "topics": [
+   "q1.variable-percent-change"
   ],
   "review": {
    "status": "published",
@@ -832,9 +839,38 @@
   },
   "answer": {
    "value": 20
-  },
+  }
+ },
+ {
+  "id": "q1-13-percent-change-21",
+  "lessonId": "q1-13-percent-change",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "A percent change says nothing about size until you know the starting value. If both clubs began with 100 members, P gained 20 and Q gained 10, so A is greater. If P began with 100 and Q with 500, P gained 20 and Q gained 50, so B is greater. The relationship cannot be determined. Trap: comparing the percents ($20\\%>10\\%$) as if they were the actual increases.",
+  "estSeconds": 60,
+  "skills": [
+   "percent-change"
+  ],
   "topics": [
-   "q1.variable-percent-change"
-  ]
+   "q1.percent-change-formula"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The increase in the number of members of Club P",
+   "quantityB": "The increase in the number of members of Club Q",
+   "common": "From 2023 to 2024, the number of members of Club P increased by $20\\%$, and the number of members of Club Q increased by $10\\%$."
+  },
+  "answer": {
+   "choice": "D"
+  }
  }
 ]

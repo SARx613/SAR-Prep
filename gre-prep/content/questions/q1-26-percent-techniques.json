@@ -571,5 +571,99 @@
   "answer": {
    "choice": "A"
   }
+ },
+ {
+  "id": "q1-26-percent-techniques-13",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 5,
+  "stem": "A retailer marks up the cost of a jacket by $60\\%$ and later sells the jacket at $25\\%$ off the marked price. The retailer's profit on the sale is \\$36. What is the selling price of the jacket?",
+  "explanation": "Start with a cost of 100: the marked price is 160, and $25\\%$ off gives $160\\cdot0.75=120$. The profit is $20$ per 100 of cost, i.e. $20\\%$ of cost. So $0.2C=36$, the cost is \\$180, and the selling price is $1.2\\cdot180=$ \\$216. Check: $216-180=36$. Traps: the discount is $25\\%$ of the marked price, not of the cost, so the net change is not $60\\%-25\\%=35\\%$; and the question asks for the selling price, not the cost.",
+  "choiceExplanations": {
+   "A": "Ignores the discount: \\$36 as a $60\\%$ markup gives a cost of \\$60 and a price of \\$96.",
+   "B": "Treats the \\$36 as the discount: a marked price of \\$144 and a sale price of \\$108.",
+   "C": "\\$180 is the cost of the jacket, not its selling price.",
+   "E": "\\$288 is the marked price before the $25\\%$ discount."
+  },
+  "estSeconds": 120,
+  "skills": [
+   "percent-change",
+   "word-problems"
+  ],
+  "topics": [
+   "q2.profit-and-loss",
+   "q1.start-with-100"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "\\$96"
+    },
+    {
+     "id": "B",
+     "text": "\\$108"
+    },
+    {
+     "id": "C",
+     "text": "\\$180"
+    },
+    {
+     "id": "D",
+     "text": "\\$216"
+    },
+    {
+     "id": "E",
+     "text": "\\$288"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
+ },
+ {
+  "id": "q1-26-percent-techniques-14",
+  "lessonId": "q1-26-percent-techniques",
+  "difficulty": 3,
+  "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+  "explanation": "Successive percent changes multiply: A is $x\\cdot1.2\\cdot0.8=0.96x$ and B is $x\\cdot0.8\\cdot1.2=0.96x$. Multiplication is commutative, so the order of the changes does not matter and the quantities are equal. Traps: thinking the order matters, or that either sequence returns to $x$ (each ends $4\\%$ below it).",
+  "estSeconds": 60,
+  "skills": [
+   "percent-change"
+  ],
+  "topics": [
+   "q1.percent-operation-order"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "QC",
+  "content": {
+   "quantityA": "The result of increasing $x$ by $20\\%$ and then decreasing that result by $20\\%$",
+   "quantityB": "The result of decreasing $x$ by $20\\%$ and then increasing that result by $20\\%$",
+   "common": "$x>0$"
+  },
+  "answer": {
+   "choice": "C"
+  }
  }
 ]

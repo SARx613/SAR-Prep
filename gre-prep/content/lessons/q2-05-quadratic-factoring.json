@@ -35,6 +35,9 @@
    "skills": [
     "quadratic-factoring"
    ],
+   "topics": [
+    "q2.factoring-trinomials"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -50,10 +53,7 @@
    },
    "answer": {
     "value": 5
-   },
-   "topics": [
-    "q2.factoring-trinomials"
-   ]
+   }
   },
   {
    "id": "q2-05-quadratic-factoring-c2",
@@ -70,6 +70,7 @@
    "skills": [
     "quadratic-factoring"
    ],
+   "topics": [],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -128,6 +129,10 @@
    "skills": [
     "quadratic-factoring"
    ],
+   "topics": [
+    "q2.assume-nonzero-trap",
+    "q2.zero-product-property"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -167,11 +172,7 @@
     "choices": [
      "C"
     ]
-   },
-   "topics": [
-    "q2.assume-nonzero-trap",
-    "q2.zero-product-property"
-   ]
+   }
   }
  ]
 }

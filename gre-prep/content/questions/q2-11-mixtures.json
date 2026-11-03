@@ -9,6 +9,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -43,6 +44,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -94,6 +96,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -127,6 +130,9 @@
   "estSeconds": 75,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.dry-mixtures"
   ],
   "review": {
    "status": "published",
@@ -167,10 +173,7 @@
    "choices": [
     "A"
    ]
-  },
-  "topics": [
-   "q2.dry-mixtures"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-05",
@@ -181,6 +184,9 @@
   "estSeconds": 75,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.liquid-mixtures"
   ],
   "review": {
    "status": "published",
@@ -199,10 +205,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q2.liquid-mixtures"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-06",
@@ -214,6 +217,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -247,6 +251,9 @@
   "estSeconds": 100,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.liquid-mixtures"
   ],
   "review": {
    "status": "published",
@@ -287,10 +294,7 @@
    "choices": [
     "B"
    ]
-  },
-  "topics": [
-   "q2.liquid-mixtures"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-08",
@@ -307,6 +311,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -365,6 +370,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -416,6 +422,9 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [
+   "q4.weighting-pull"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -433,10 +442,7 @@
   },
   "answer": {
    "choice": "B"
-  },
-  "topics": [
-   "q4.weighting-pull"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-11",
@@ -447,6 +453,9 @@
   "estSeconds": 120,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.mixture-unknowns"
   ],
   "review": {
    "status": "published",
@@ -464,10 +473,7 @@
   },
   "answer": {
    "value": 6
-  },
-  "topics": [
-   "q2.mixture-unknowns"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-12",
@@ -479,6 +485,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -513,6 +520,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -564,6 +572,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -597,6 +606,10 @@
   "estSeconds": 90,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.dry-mixtures",
+   "q4.weighted-average-ratio"
   ],
   "review": {
    "status": "published",
@@ -637,11 +650,7 @@
    "choices": [
     "C"
    ]
-  },
-  "topics": [
-   "q2.dry-mixtures",
-   "q4.weighted-average-ratio"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-16",
@@ -653,6 +662,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -682,6 +692,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -716,6 +727,7 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -767,6 +779,10 @@
   "skills": [
    "mixtures"
   ],
+  "topics": [
+   "q2.mixture-unknowns",
+   "q4.weighted-average-ratio"
+  ],
   "review": {
    "status": "published",
    "solvedBy": [
@@ -783,11 +799,7 @@
   },
   "answer": {
    "value": 8
-  },
-  "topics": [
-   "q2.mixture-unknowns",
-   "q4.weighted-average-ratio"
-  ]
+  }
  },
  {
   "id": "q2-11-mixtures-20",
@@ -798,6 +810,9 @@
   "estSeconds": 130,
   "skills": [
    "mixtures"
+  ],
+  "topics": [
+   "q2.dry-mixtures"
   ],
   "review": {
    "status": "published",
@@ -815,9 +830,67 @@
   },
   "answer": {
    "value": 60
+  }
+ },
+ {
+  "id": "q2-11-mixtures-21",
+  "lessonId": "q2-11-mixtures",
+  "difficulty": 5,
+  "stem": "A tank holds 40 liters of a solution that is 30 percent acid. Some of the solution is drained, and the same volume of a 70 percent acid solution is added, so the tank again holds 40 liters, now 45 percent acid. How many liters were drained?",
+  "explanation": "Track pure acid. After draining $x$ liters, $0.30(40-x)$ liters of acid remain; the added solution brings $0.70x$. The final 40 liters must hold $0.45\\times40=18$ liters: $12-0.30x+0.70x=18$, so $0.40x=6$ and $x=15$. Check by weighted average: 45 is $\\frac{15}{40}$ of the way from 30 to 70, so $\\frac{15}{40}$ of the tank is new solution. Trap: forgetting that the drained liquid takes acid with it, or treating the new solution as added to the full 40 liters.",
+  "choiceExplanations": {
+   "A": "Forgets that draining removes acid: $12+0.70x=18$ gives $x=\\frac{60}{7}$.",
+   "C": "Reports the 18 liters of acid the final mixture must contain, not the volume drained.",
+   "D": "Adds the 70 percent solution without draining: $12+0.70x=0.45(40+x)$ gives $x=24$.",
+   "E": "Inverts the weighted-average ratio: uses $\\frac{25}{40}$ of the tank instead of $\\frac{15}{40}$."
   },
+  "estSeconds": 120,
+  "skills": [
+   "mixtures"
+  ],
   "topics": [
-   "q2.dry-mixtures"
-  ]
+   "q2.liquid-mixtures",
+   "q2.mixture-unknowns"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{60}{7}$"
+    },
+    {
+     "id": "B",
+     "text": "$15$"
+    },
+    {
+     "id": "C",
+     "text": "$18$"
+    },
+    {
+     "id": "D",
+     "text": "$24$"
+    },
+    {
+     "id": "E",
+     "text": "$25$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "B"
+   ]
+  }
  }
 ]

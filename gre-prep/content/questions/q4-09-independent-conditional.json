@@ -1052,5 +1052,66 @@
     "denominator": 49
    }
   }
+ },
+ {
+  "id": "q4-09-independent-conditional-22",
+  "lessonId": "q4-09-independent-conditional",
+  "difficulty": 4,
+  "stem": "Of the patients at a clinic, 30 percent are smokers. A certain condition is found in 20 percent of the smokers and in 5 percent of the nonsmokers. If a patient who has the condition is chosen at random, what is the probability that the patient is a smoker?",
+  "explanation": "Picture 1,000 patients: 300 smokers, of whom 60 have the condition; 700 nonsmokers, of whom 35 have it. Among the 95 with the condition, 60 smoke: $\\frac{60}{95} = \\frac{12}{19}$. Trap: the question conditions on having the condition, so the base is the 95 patients with it, not the smokers and not all patients.",
+  "choiceExplanations": {
+   "A": "$\\frac{3}{50}$ is the probability that a randomly chosen patient both smokes and has the condition (60 of 1,000).",
+   "B": "$\\frac{1}{5}$ is the probability of the condition given smoking, the reverse conditional.",
+   "C": "$\\frac{3}{10}$ is the share of all patients who smoke; it ignores the information about the condition.",
+   "E": "$\\frac{0.20}{0.20 + 0.05} = \\frac{4}{5}$ compares the two rates without weighting them by the 300 smokers and 700 nonsmokers."
+  },
+  "estSeconds": 100,
+  "skills": [
+   "conditional",
+   "tables"
+  ],
+  "topics": [
+   "q4.two-way-conditional"
+  ],
+  "review": {
+   "status": "published",
+   "solvedBy": [
+    "solver-a",
+    "solver-b"
+   ],
+   "sourceChecked": true,
+   "approvedBy": "CTO (Sonnet) after solver+review pipeline"
+  },
+  "type": "PS",
+  "content": {
+   "format": "select_one",
+   "choices": [
+    {
+     "id": "A",
+     "text": "$\\frac{3}{50}$"
+    },
+    {
+     "id": "B",
+     "text": "$\\frac{1}{5}$"
+    },
+    {
+     "id": "C",
+     "text": "$\\frac{3}{10}$"
+    },
+    {
+     "id": "D",
+     "text": "$\\frac{12}{19}$"
+    },
+    {
+     "id": "E",
+     "text": "$\\frac{4}{5}$"
+    }
+   ]
+  },
+  "answer": {
+   "choices": [
+    "D"
+   ]
+  }
  }
 ]

@@ -35,6 +35,9 @@
    "skills": [
     "lines-slope"
    ],
+   "topics": [
+    "q2.slope-formula"
+   ],
    "review": {
     "status": "published",
     "solvedBy": [
@@ -50,10 +53,7 @@
    },
    "answer": {
     "value": 2
-   },
-   "topics": [
-    "q2.slope-formula"
-   ]
+   }
   },
   {
    "id": "q2-14-lines-c2",
@@ -64,6 +64,9 @@
    "estSeconds": 75,
    "skills": [
     "lines-slope"
+   ],
+   "topics": [
+    "q2.intercepts"
    ],
    "review": {
     "status": "published",
@@ -80,10 +83,7 @@
    },
    "answer": {
     "value": 6
-   },
-   "topics": [
-    "q2.intercepts"
-   ]
+   }
   },
   {
    "id": "q2-14-lines-c3",
@@ -100,6 +100,9 @@
    "estSeconds": 60,
    "skills": [
     "lines-slope"
+   ],
+   "topics": [
+    "q2.perpendicular-slopes"
    ],
    "review": {
     "status": "published",
@@ -140,10 +143,7 @@
     "choices": [
      "D"
     ]
-   },
-   "topics": [
-    "q2.perpendicular-slopes"
-   ]
+   }
   }
  ]
 }
