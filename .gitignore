@@ -6,6 +6,6 @@ gre-prep/screenshots/
 GRE_Practice_Tests_1-2.txt
 __pycache__/
 # ETS-derived study material: private, never shipped (see README "Private study mode")
-gre-prep/private/
+# gre-prep/private is a git submodule (private repository SARx613/SAR-Prep-private)
 gre-prep/public/official-tests/
 gre-prep/public/math-review/
