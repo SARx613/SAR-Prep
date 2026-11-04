@@ -17,7 +17,7 @@
     "content:approve": "tsx scripts/content-approve.ts",
     "content:originality": "tsx scripts/content-originality.ts",
     "a11y": "node scripts/qa/a11y.mjs",
-    "prebuild": "node scripts/build-info.mjs"
+    "prebuild": "node scripts/fetch-private.mjs && node scripts/build-info.mjs"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.3",

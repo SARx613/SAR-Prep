@@ -50,10 +50,11 @@ request time. Access is closed by default: the pages, the server actions and the
 | `/official-tests` | The two full-length tests of the *Official Guide to the GRE General Test* (3rd ed.), run like the computer-delivered exam: a clock per section, Mark / Review, calculator, optional break, 130–170 score, official explanations. Answers stay on the server (`src/app/actions/official.ts`); results are kept in the browser. |
 | `/math-review` | The exercises of the ETS *GRE Math Review*, typed as text with their official answers, self-assessed. |
 
-**Online, for the owner only.** `gre-prep/private` is a Git submodule pointing at the private repository `SARx613/SAR-Prep-private`, so a
-normal `git push` makes Vercel clone it and ship it with the app (the Vercel GitHub app must have access to that repository). Access is
-limited to the accounts in `private/allowed-emails.json` (kept in the private repository) and `PRIVATE_STUDY_EMAILS`; everyone else gets a
-404. Clone with `git clone --recurse-submodules`, or run `git submodule update --init` after a plain clone. Never make the private
+**Online, for the owner only.** `gre-prep/private` is a Git submodule of the private repository `SARx613/SAR-Prep-private` (clone with
+`--recurse-submodules`). Vercel cannot read private submodules, so its build fetches the repository itself with `scripts/fetch-private.mjs`:
+set `PRIVATE_REPO_TOKEN` (a fine-grained GitHub token with read-only "Contents" access to that one repository) in the Vercel project's
+environment variables. Access is then limited to the accounts in `private/allowed-emails.json` (kept in the private repository) and
+`PRIVATE_STUDY_EMAILS`; everyone else gets a 404. `/build-info.json` tells whether the build found the material. Never make the private
 repository public.
 
 The public product stays original: the bank in `content/` is authored from the official *skills and formats*, never from ETS text. To
