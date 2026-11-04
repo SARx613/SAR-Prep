@@ -40,8 +40,7 @@ export default function manifest(): MetadataRoute.Manifest {
       },
     ],
     shortcuts: [
-      { name: 'Train', short_name: 'Train', url: '/games' },
-      { name: 'Flashcards', short_name: 'Cards', url: '/flashcards' },
+      { name: 'Vocabulary', short_name: 'Words', url: '/flashcards' },
     ],
   };
 }

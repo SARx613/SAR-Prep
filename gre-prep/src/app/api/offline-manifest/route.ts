@@ -10,8 +10,8 @@ export const dynamic = 'force-dynamic';
 
 export function GET() {
   const c = content();
-  const urls: string[] = ['/', '/learn', '/practice', '/review', '/stats', '/plan', '/mock', '/settings', '/more', '/games', '/flashcards', '/writing'];
-  for (const s of SERIES) urls.push(`/games/${s.id}`, `/flashcards/${s.id}`);
+  const urls: string[] = ['/', '/learn', '/practice', '/review', '/stats', '/plan', '/mock', '/settings', '/more', '/flashcards', '/flashcards/daily', '/writing'];
+  for (const s of SERIES) urls.push(`/flashcards/${s.id}`);
   for (const p of writing.prompts) urls.push(`/writing/session?prompt=${p.id}`);
   // Mock tests: every section, and every difficulty of the adaptive second part.
   urls.push('/mock/run/diag/diag/1');

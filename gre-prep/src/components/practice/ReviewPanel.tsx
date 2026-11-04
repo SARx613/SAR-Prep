@@ -46,7 +46,7 @@ export function ReviewPanel({ titles }: { titles: Record<string, string> }) {
       <section aria-labelledby="vocab" className="rounded-[var(--radius)] border border-line bg-surface p-5">
         <h2 id="vocab" className="text-lg font-bold">Vocabulary</h2>
         <p className="mt-1 text-sm text-muted">{words > 0 ? `${words} word${words > 1 ? 's' : ''} waiting for a repeat.` : 'No missed words right now.'}</p>
-        {words > 0 && <Link href="/games/review" className="mt-4 inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong px-5 text-sm font-semibold">Review words</Link>}
+        {words > 0 && <Link href="/flashcards/review" className="mt-4 inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong px-5 text-sm font-semibold">Review words</Link>}
       </section>
 
       <section aria-labelledby="log">

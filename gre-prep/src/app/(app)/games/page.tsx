@@ -1,16 +1,6 @@
-'use client';
+import { redirect } from 'next/navigation';
 
-import { BrainCircuit } from 'lucide-react';
-import { SeriesPicker } from '@/components/series/SeriesPicker';
-
+// The practice modes now live inside every vocabulary session.
 export default function GamesPage() {
-  return (
-    <SeriesPicker
-      basePath="/games"
-      title="Train"
-      icon={<BrainCircuit size={22} color="var(--emerald)" style={{ flexShrink: 0 }} />}
-      accent="var(--emerald)"
-      subtitle="Same series, as multiple choice or typing. Replay a series you saw as flashcards to check the words are really known."
-    />
-  );
+  redirect('/flashcards');
 }
