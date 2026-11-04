@@ -63,6 +63,19 @@ export function getRandomOptions(words: Word[], correct: Word, count = 4): Word[
   return shuffleArray([correct, ...distractors]);
 }
 
+/** Options for a sentence-completion question: the word plus distractors that
+ *  could not also fit, i.e. never one of its synonyms (or a word listing it as
+ *  one), so exactly one choice completes the sentence. */
+export function getClozeOptions(words: Word[], correct: Word, count = 5): Word[] {
+  const key = correct.word.toLowerCase();
+  const syn = new Set((correct.synonyms ?? []).map(x => x.toLowerCase()));
+  const others = words.filter(w =>
+    w.id !== correct.id &&
+    !syn.has(w.word.toLowerCase()) &&
+    !(w.synonyms ?? []).some(x => x.toLowerCase() === key));
+  return shuffleArray([correct, ...shuffleArray(others).slice(0, count - 1)]);
+}
+
 export function normalizeAnswer(s: string): string {
   return s.trim().toLowerCase().replace(/[-\s]+/g, ' ');
 }

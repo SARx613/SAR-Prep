@@ -3,14 +3,15 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Check, RotateCcw, Target } from 'lucide-react';
+import { ArrowLeft, CalendarClock, Check, RotateCcw, Target } from 'lucide-react';
 import { WordSeries } from '@/types';
 import { defaultProgress, parseProgress, PROGRESS_KEY } from '@/lib/storage';
 import { useLocalValue } from '@/hooks/useLocalValue';
 import {
-  SERIES, masteredCount, reviewSeries, parseSeriesStats,
+  SERIES, dailyCounts, dailySeries, masteredCount, reviewSeries, parseSeriesStats,
   SERIES_STATS_KEY, NO_SERIES_STATS,
 } from '@/lib/series';
+import { NO_SRS, SRS_KEY, parseSrs } from '@/lib/word-srs';
 
 type Filter = 'all' | 'todo' | 'ongoing' | 'done';
 
@@ -42,6 +43,10 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
   const stats = useLocalValue(SERIES_STATS_KEY, parseSeriesStats, NO_SERIES_STATS);
   const [filter, setFilter] = useState<Filter>('all');
 
+  const srs = useLocalValue(SRS_KEY, parseSrs, NO_SRS);
+  const [now] = useState(() => Date.now());
+  const daily = dailySeries(srs, now);
+  const counts = dailyCounts(srs, now);
   const review = reviewSeries(progress);
 
   const shown = useMemo(() => {
@@ -92,6 +97,28 @@ export function SeriesPicker({ basePath, title, icon, accent, subtitle }: Props)
         <Link href="/exam/v4-01-words-in-context?mode=tutor" style={{ display: 'block', textDecoration: 'none', marginBottom: '1.5rem', padding: '0.8rem 1.1rem', borderRadius: 16, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.03)', color: 'var(--text-secondary)', fontSize: '0.85rem', lineHeight: 1.5 }}>
           <strong style={{ color: '#fff' }}>Practice these words in context →</strong> On the GRE, vocabulary is tested inside Text Completion and Sentence Equivalence questions.
         </Link>
+
+        {/* Spaced repetition — reviews that are due, then a few new words */}
+        {daily && (
+          <Link href={`${basePath}/daily`} style={{ textDecoration: 'none' }}>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="glass card-depth"
+              style={{ borderRadius: 20, padding: '1rem 1.25rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.9rem', background: 'rgba(16,185,129,0.08)', borderColor: 'rgba(16,185,129,0.3)' }}
+            >
+              <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 38, height: 38, borderRadius: 12, background: 'rgba(16,185,129,0.15)', border: '1px solid rgba(16,185,129,0.3)', flexShrink: 0 }}>
+                <CalendarClock size={19} color="var(--emerald)" />
+              </span>
+              <span style={{ minWidth: 0 }}>
+                <span style={{ display: 'block', fontWeight: 800, color: '#fff', fontSize: '0.98rem' }}>Today&apos;s session</span>
+                <span style={{ display: 'block', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                  {counts.due} review{counts.due === 1 ? '' : 's'} + {counts.fresh} new word{counts.fresh === 1 ? '' : 's'}, about {Math.max(5, Math.round(daily.wordIds.length * 0.7))} minutes. Short daily sessions beat long ones.
+                </span>
+              </span>
+            </motion.div>
+          </Link>
+        )}
 
         {/* Review series — only when something is actually waiting */}
         {review && (

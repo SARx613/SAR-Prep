@@ -1,9 +1,34 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Word, GameState, UserProgress, GameMode, SeriesResult } from '../types';
-import { loadProgress, saveProgress, getQueue, getRandomOptions, normalizeAnswer, shuffleArray } from '../lib/storage';
+import { loadProgress, saveProgress, getQueue, getRandomOptions, getClozeOptions, normalizeAnswer, shuffleArray } from '../lib/storage';
+import { loadSrs, recordReview } from '../lib/word-srs';
 import { saveProgress as saveCloudProgress } from '../app/actions/progress';
 
-export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'mix';
+export type PlayMode = 'mcq' | 'typing' | 'flashcard' | 'cloze' | 'mix' | 'adaptive';
+
+/** The question type for a word. Sentence completion needs the word's example
+ *  sentence; without one it falls back to multiple choice. */
+function pickMode(word: Word, playMode: PlayMode): GameMode {
+  const canCloze = Boolean(word.example);
+  if (playMode === 'cloze') return canCloze ? 'cloze' : 'mcq';
+  if (playMode === 'adaptive') {
+    // Retrieval gets harder as the word settles: recognise it first, then
+    // place it in a sentence, then produce it from memory.
+    const box = loadSrs()[word.id]?.box ?? 0;
+    if (box <= 0) return 'mcq';
+    if (box <= 2) return canCloze ? 'cloze' : 'mcq';
+    return Math.random() < 0.5 ? 'typing' : canCloze ? 'cloze' : 'typing';
+  }
+  if (playMode === 'mix') {
+    const r = Math.random();
+    if (canCloze && r < 0.45) return 'cloze';
+    return r < 0.75 ? 'mcq' : 'typing';
+  }
+  return playMode as GameMode;
+}
+
+const optionsFor = (mode: GameMode, words: Word[], word: Word): Word[] =>
+  mode === 'mcq' ? getRandomOptions(words, word) : mode === 'cloze' ? getClozeOptions(words, word) : [];
 
 export function useGameLoop(
   words: Word[],
@@ -55,16 +80,11 @@ export function useGameLoop(
   const nextQuestion = useCallback((currentQueue: Word[]) => {
     if (currentQueue.length === 0) return;
     const word = currentQueue[0];
-    let mode: GameMode;
-    if (playMode === 'mix') {
-      mode = Math.random() > 0.4 ? 'mcq' : 'typing';
-    } else {
-      mode = playMode as GameMode;
-    }
+    const mode = pickMode(word, playMode);
     setState(prev => ({
       ...prev,
       currentWord: word,
-      options: mode === 'mcq' ? getRandomOptions(words, word) : [],
+      options: optionsFor(mode, words, word),
       mode,
       answered: false,
       isCorrect: null,
@@ -120,7 +140,7 @@ export function useGameLoop(
     if (!state.currentWord || state.answered || !progress) return;
 
     let isCorrect = false;
-    if (state.mode === 'mcq' || state.mode === 'typing') {
+    if (state.mode === 'mcq' || state.mode === 'typing' || state.mode === 'cloze') {
       if (typeof answer === 'string') {
         isCorrect = normalizeAnswer(answer) === normalizeAnswer(state.currentWord.word);
       }
@@ -133,6 +153,7 @@ export function useGameLoop(
     if (!firstTry.current.has(state.currentWord.id)) {
       firstTry.current.set(state.currentWord.id, isCorrect);
       setAnsweredCount(firstTry.current.size);
+      recordReview(state.currentWord.id, isCorrect);
     }
 
     setState(prev => ({
@@ -196,20 +217,14 @@ export function useGameLoop(
     nextQuestion(refilled);
   }, [progress, queue, state.answered, state.isCorrect, words, nextQuestion, isSession]);
 
-  /** Switches the card on screen to another mode. Tapping "QCM" should
+  /** Switches the card on screen to another mode. Tapping a mode should
    *  change the question in front of you, not only the one after it — as
    *  long as it has not been answered yet. */
   const setQuestionMode = useCallback((next: PlayMode) => {
     setState(prev => {
       if (!prev.currentWord || prev.answered) return prev;
-      const mode: GameMode = next === 'mix'
-        ? (Math.random() > 0.4 ? 'mcq' : 'typing')
-        : (next as GameMode);
-      return {
-        ...prev,
-        mode,
-        options: mode === 'mcq' ? getRandomOptions(words, prev.currentWord) : [],
-      };
+      const mode = pickMode(prev.currentWord, next);
+      return { ...prev, mode, options: optionsFor(mode, words, prev.currentWord) };
     });
   }, [words]);
 

@@ -9,11 +9,14 @@ import { useGameLoop, PlayMode } from '@/hooks/useGameLoop';
 import { useLocalValue } from '@/hooks/useLocalValue';
 import { GameCard } from '@/components/GameCard';
 import { defaultProgress, parseProgress, PROGRESS_KEY } from '@/lib/storage';
-import { getSeries, nextSeries, recordSeriesRun, reviewSeries } from '@/lib/series';
+import { dailySeries, getSeries, nextSeries, recordSeriesRun, reviewSeries } from '@/lib/series';
+import { NO_SRS, SRS_KEY, parseSrs } from '@/lib/word-srs';
 
 const PLAY_MODES: { id: PlayMode; label: string }[] = [
-  { id: 'mcq', label: 'QCM' },
-  { id: 'typing', label: 'Frappe' },
+  { id: 'adaptive', label: 'Adaptive' },
+  { id: 'cloze', label: 'Sentences' },
+  { id: 'mcq', label: 'Definitions' },
+  { id: 'typing', label: 'Typing' },
   { id: 'mix', label: 'Mix' },
 ];
 
@@ -31,7 +34,7 @@ interface Props {
   basePath: string;
   accent: string;
   icon: React.ReactNode;
-  /** Practice offers QCM / Frappe / Mix; flashcards are always flashcards. */
+  /** Practice offers Sentences / Definitions / Typing / Mix; flashcards are always flashcards. */
   modeToggle?: boolean;
 }
 
@@ -43,15 +46,21 @@ export function SeriesSession({ seriesId, playMode, basePath, accent, icon, mode
   // wins over what was stored.
   const savedMode = useLocalValue(MODE_KEY, parseMode, null);
   const [pickedMode, setPickedMode] = useState<PlayMode | null>(null);
-  const mode = modeToggle ? (pickedMode ?? savedMode ?? playMode) : playMode;
+  const mode = seriesId === 'daily' && !pickedMode ? 'adaptive' : modeToggle ? (pickedMode ?? savedMode ?? playMode) : playMode;
 
   // "review" is not a stored series but a view of the words currently
   // flagged wrong. It reads progress from storage, which nothing in this
   // session re-broadcasts, so the queue stays put while the run is on.
   const progressSnapshot = useLocalValue(PROGRESS_KEY, parseProgress, defaultProgress);
+  // "due" is a view of the spaced-repetition schedule, snapshotted when the
+  // session opens so answering does not reshuffle the queue under the learner.
+  const srsSnapshot = useLocalValue(SRS_KEY, parseSrs, NO_SRS);
+  const [openedAt] = useState(() => Date.now());
   const series = useMemo(
-    () => (seriesId === 'review' ? reviewSeries(progressSnapshot) : getSeries(seriesId) ?? null),
-    [seriesId, progressSnapshot],
+    () => seriesId === 'review' ? reviewSeries(progressSnapshot)
+      : seriesId === 'daily' ? dailySeries(srsSnapshot, openedAt)
+      : getSeries(seriesId) ?? null,
+    [seriesId, progressSnapshot, srsSnapshot, openedAt],
   );
 
   useEffect(() => {
@@ -72,7 +81,7 @@ export function SeriesSession({ seriesId, playMode, basePath, accent, icon, mode
   // series, so replaying just the misses does not inflate the count.
   const recorded = useRef(false);
   useEffect(() => {
-    if (!done || !result || !series || series.id === 'review') return;
+    if (!done || !result || !series || series.id === 'review' || series.id === 'daily') return;
     if (result.total !== series.wordIds.length) return;
     if (recorded.current) return;
     recorded.current = true;
@@ -109,11 +118,13 @@ export function SeriesSession({ seriesId, playMode, basePath, accent, icon, mode
       <main className="page">
         <div className="page-container" style={{ textAlign: 'center', paddingTop: '4rem' }}>
           <h1 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#fff', marginBottom: '0.75rem' }}>
-            {seriesId === 'review' ? 'Nothing to review' : 'Series not found'}
+            {seriesId === 'review' ? 'Nothing to review' : seriesId === 'daily' ? 'Nothing for today' : 'Series not found'}
           </h1>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
             {seriesId === 'review'
               ? 'No missed words yet. Play a series and this list will fill up.'
+              : seriesId === 'daily'
+              ? 'No reviews are due and every word has been started. Come back tomorrow.'
               : 'This series does not exist (any more).'}
           </p>
           <Link href={basePath} className="back-link">

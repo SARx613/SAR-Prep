@@ -13,6 +13,23 @@ interface GameCardProps {
   onFlip: () => void;
 }
 
+/** The sentence with the target word blanked out; once answered, the word is shown in place. */
+function renderCloze(sentence: string, word: string, revealed: boolean) {
+  const at = sentence.toLowerCase().indexOf(word.toLowerCase());
+  if (at < 0) return sentence;
+  const before = sentence.slice(0, at);
+  const after = sentence.slice(at + word.length);
+  return (
+    <>
+      {before}
+      {revealed
+        ? <mark style={{ background: 'rgba(16,185,129,0.2)', color: '#6ee7b7', borderRadius: 6, padding: '0 0.3rem', fontWeight: 800 }}>{sentence.slice(at, at + word.length)}</mark>
+        : <span aria-label="blank" style={{ display: 'inline-block', minWidth: '5.5ch', borderBottom: '2px solid var(--emerald)', margin: '0 0.15rem' }}>&nbsp;</span>}
+      {after}
+    </>
+  );
+}
+
 export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps) {
   const { currentWord, mode, answered, isCorrect, options, flipped } = state;
   const [inputValue, setInputValue] = useState('');
@@ -50,8 +67,9 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
 
   const getModeLabel = () => {
     switch (mode) {
-      case 'mcq': return 'Choix multiple';
-      case 'typing': return 'Frappe';
+      case 'mcq': return 'Multiple choice';
+      case 'typing': return 'Typing';
+      case 'cloze': return 'Sentence completion';
       case 'flashcard': return 'Flashcard';
       default: return '';
     }
@@ -80,16 +98,34 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--emerald)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em' }} className="pulse-dot">
                 <Lightbulb size={16} />
-                <span>Definition</span>
+                <span>{mode === 'cloze' ? 'Complete the sentence' : 'Definition'}</span>
               </div>
               <div style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--text-muted)', background: 'rgba(255,255,255,0.03)', padding: '0.4rem 0.8rem', borderRadius: 99, border: '1px solid var(--border)' }}>
                 {getModeLabel()}
               </div>
             </div>
 
-            <h2 style={{ fontSize: 'clamp(1.25rem, 5.5vw, 1.75rem)', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem', overflowWrap: 'anywhere' }}>
-              {currentWord.definition}
-            </h2>
+            {mode === 'cloze' && currentWord.example ? (
+              <>
+                <h2 style={{ fontSize: 'clamp(1.1rem, 4.6vw, 1.5rem)', fontWeight: 600, color: '#fff', lineHeight: 1.5, marginBottom: answered ? '1rem' : '2rem', overflowWrap: 'anywhere' }}>
+                  {renderCloze(currentWord.example, currentWord.word, answered)}
+                </h2>
+                {answered && (
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: 1.5, marginBottom: '1.5rem' }}>
+                    <strong style={{ color: '#fff' }}>{currentWord.word}</strong>: {currentWord.definition}
+                  </p>
+                )}
+              </>
+            ) : (
+              <h2 style={{ fontSize: 'clamp(1.25rem, 5.5vw, 1.75rem)', fontWeight: 800, color: '#fff', lineHeight: 1.3, marginBottom: '2rem', overflowWrap: 'anywhere' }}>
+                {currentWord.definition}
+              </h2>
+            )}
+            {answered && currentWord.trap && (
+              <p style={{ margin: '0 0 1.25rem', padding: '0.75rem 1rem', borderRadius: 14, background: 'rgba(245,158,11,0.08)', border: '1px solid rgba(245,158,11,0.25)', color: '#fcd34d', fontSize: '0.88rem', lineHeight: 1.5 }}>
+                <strong>Watch out:</strong> {currentWord.trap}
+              </p>
+            )}
 
             {/* Synonyms & Translation — blur reveal */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
@@ -99,7 +135,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                 <div style={{ flex: '1 1 200px', background: 'rgba(139,92,246,0.05)', border: '1px solid rgba(139,92,246,0.1)', borderRadius: 20, padding: '1rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
                     <div style={{ color: 'var(--violet)', fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                      Synonymes
+                      Synonyms
                     </div>
                     <AnimatePresence>
                       {!showSynonyms && (
@@ -177,9 +213,9 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
           {/* Interaction Area */}
           <div style={{ padding: 'clamp(1.1rem, 4vw, 2.5rem) clamp(0.9rem, 3vw, 2.5rem)', background: 'rgba(0,0,0,0.2)' }}>
 
-            {/* Multiple Choice Mode */}
-            {mode === 'mcq' && (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+            {/* Multiple Choice and Sentence Completion */}
+            {(mode === 'mcq' || mode === 'cloze') && (
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem' }}>
                 {options.map((option, i) => {
                   let className = "glass-hover answer-neutral";
 
@@ -323,7 +359,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.2)'}
                           onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(244,63,94,0.1)'}
                         >
-                          Je savais pas
+                          Didn’t know
                         </button>
                         <button
                           onClick={() => onAnswer(true)}
@@ -336,7 +372,7 @@ export function GameCard({ state, onAnswer, onNextTurn, onFlip }: GameCardProps)
                           onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-2px)')}
                           onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
                         >
-                          Je savais !
+                          Knew it
                         </button>
                       </div>
                     )}

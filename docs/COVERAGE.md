@@ -105,3 +105,17 @@ with a reply, an outline and the classic mistakes for that prompt; six prompts a
 a "why this score" note and what to change to move up. After each essay the learner gets automatic text checks (length, structure,
 examples, engagement with the other side, connections, sentence variety, qualification, repetition, opening) and level-specific advice for
 each rubric criterion they rate. The real Issue topics stay linked from ETS's public pool, not copied.
+
+### Vocabulary
+
+**Coverage of the books.** Every lowercase word of the Official Guide and its two practice tests was checked against the deck: words rarer than
+Zipf 3.2 (wordfreq) that were not in the deck, nor an inflection of a deck word, gave 1,097 candidates. After removing mathematics and
+statistics terms, single-passage topic nouns, misspellings and words easy for a French speaker, 135 general advanced words were added. The deck
+is now 1,132 words, each with a definition, synonyms, a French gloss and an original GRE-style example sentence.
+
+**French-aware.** 112 words that a French first-year student already knows (a common French word with the same meaning) are out of the themed
+series and sit in "Quick skim" sets; about 130 false friends carry a "Watch out" note after the answer and stay in the drills.
+
+**How words are learned** (see `docs/VOCAB-RESEARCH.md`): a daily session of due reviews plus 10 new words from mixed themes, spaced repetition
+(1, 3, 7, 14, 30 days; a miss drops two boxes), questions that get harder as a word settles (definition choice, then sentence completion, then
+typing), and sentence completion with distractors that cannot also fit. The themed series remain for browsing.

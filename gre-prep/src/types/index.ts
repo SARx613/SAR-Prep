@@ -4,9 +4,15 @@ export interface Word {
   definition: string;
   synonyms?: string[];
   french: string;
+  /** An original GRE-style sentence using the word (sentence-completion practice). */
+  example?: string;
+  /** Same word, same meaning in French: skimmed, not drilled. */
+  easy?: boolean;
+  /** Note when the word looks like a French word but differs in meaning. */
+  trap?: string | null;
 }
 
-export type GameMode = 'mcq' | 'typing' | 'flashcard';
+export type GameMode = 'mcq' | 'typing' | 'flashcard' | 'cloze';
 
 /** A short, fixed set of deck words — one study session.
  *
