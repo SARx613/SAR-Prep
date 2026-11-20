@@ -64,6 +64,8 @@ interface Props {
   runKind?: RunKind;
   /** Frozen historical results to view directly without re-running or re-recording attempts. */
   initialResults?: PlayerResult[];
+  /** Previous section results prepended on finish (e.g. mock section 1 + section 2). */
+  priorResults?: PlayerResult[];
   completedAt?: number;
   onRetakeAll?: () => void;
 }
@@ -75,7 +77,7 @@ const fmtClock = (s: number) => {
 
 interface Saved { idx: number; sels: Record<string, Selection>; marked: string[]; elapsed: number; graded: Record<string, { grade: Grade; ms: number }> }
 
-export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered, onNewTest, difficultyRange, mockSummary, setId, runKind, initialResults, completedAt, onRetakeAll }: Props) {
+export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered, onNewTest, difficultyRange, mockSummary, setId, runKind, initialResults, priorResults, completedAt, onRetakeAll }: Props) {
   const router = useRouter();
   const cloudSync = useCloudSyncStatus();
   const [idx, setIdx] = useState(0);
@@ -107,11 +109,15 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
   /** Questions already written to the attempt log, so finishing never counts one twice. */
   const recorded = useRef<Set<string>>(new Set());
 
-  const q = questions[idx];
   const done = results !== null;
+  const activeQuestions = useMemo(
+    () => (done && results ? results.map((r) => r.q) : questions),
+    [done, results, questions],
+  );
+  const q = activeQuestions[idx] ?? questions[0];
   const activeResult = done ? results.find((r) => r.q.id === q.id) : undefined;
   const sel = (done && activeResult ? activeResult.sel : sels[q.id]) ?? emptySelection(q);
-  const calcAllowed = calculator ?? questions.some((x) => x.section === 'quant');
+  const calcAllowed = calculator ?? activeQuestions.some((x) => x.section === 'quant');
   const isQuant = q.section === 'quant';
   const tutorGraded = mode === 'tutor' ? graded[q.id] : undefined;
   const locked = !!tutorGraded || done;
@@ -123,11 +129,12 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
   }, [idx, view]);
 
   const bank = useCallback(() => {
-    const id = questions[idx].id;
+    const id = activeQuestions[idx]?.id;
+    if (!id) return;
     const now = Date.now();
     if (view === 'question' && !done) spent.current[id] = (spent.current[id] ?? 0) + (now - enteredAt.current);
     enteredAt.current = now;
-  }, [idx, questions, view, done]);
+  }, [idx, activeQuestions, view, done]);
 
   useEffect(() => {
     if (done) return;
@@ -194,12 +201,12 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
 
   const go = useCallback((to: number) => {
     bank();
-    const target = Math.max(0, Math.min(questions.length - 1, to));
+    const target = Math.max(0, Math.min(activeQuestions.length - 1, to));
     setIdx(target);
     setView('question');
-    const nq = questions[target];
-    setTab(nq.type === 'RC' && formatOf(nq) === 'select_in_passage' ? 'stim' : 'q');
-  }, [bank, questions]);
+    const nq = activeQuestions[target];
+    if (nq) setTab(nq.type === 'RC' && formatOf(nq) === 'select_in_passage' ? 'stim' : 'q');
+  }, [bank, activeQuestions]);
 
   const finish = useCallback(() => {
     bank();
@@ -215,9 +222,10 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
     const next = afterFinish?.(out) ?? null;
     if (next) { router.push(next); return; }
 
+    const fullResults = priorResults && priorResults.length > 0 ? [...priorResults, ...out] : out;
     const now = Date.now();
-    const totalMs = out.reduce((a, r) => a + r.ms, 0);
-    const scoredItems = out.map((r) => ({
+    const totalMs = fullResults.reduce((a, r) => a + r.ms, 0);
+    const scoredItems = fullResults.map((r) => ({
       id: r.q.id,
       section: r.q.section,
       difficulty: r.q.difficulty,
@@ -225,22 +233,27 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
     }));
     const verbalEst = estimateSetScore(scoredItems, 'verbal');
     const quantEst = estimateSetScore(scoredItems, 'quant');
-    const correctCount = out.filter((r) => r.grade.isCorrect).length;
+    const correctCount = fullResults.filter((r) => r.grade.isCorrect).length;
+    const part2CorrectCount = out.filter((r) => r.grade.isCorrect).length;
     const mEst = mockSummary
       ? estimateScore(
           mockSummary.part1Correct,
           mockSummary.part1Total,
-          correctCount,
+          part2CorrectCount,
           out.length,
           mockSummary.level,
           mockSummary.section,
         )
       : null;
+    const savedTitle =
+      mockSummary && priorResults && priorResults.length > 0
+        ? `${title.replace(/\s+2(\s+\(Hard\))?$/, '')} (Sections 1 & 2)`
+        : title;
     if (!initialResults) {
       const inferredChapter =
         setId?.startsWith('chapter-')
           ? setId.slice(8)
-          : out[0]?.q.lessonId.split('-')[0];
+          : fullResults[0]?.q.lessonId.split('-')[0];
       const inferredKind: RunKind =
         runKind ??
         (setId?.startsWith('chapter-')
@@ -252,7 +265,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
               : 'custom');
       recordRun({
         id: `${now.toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
-        title,
+        title: savedTitle,
         kind: inferredKind,
         setId,
         chapterId: inferredChapter,
@@ -261,7 +274,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
         completedAt: now,
         totalMs,
         correct: correctCount,
-        total: out.length,
+        total: fullResults.length,
         estimates: { verbal: verbalEst, quant: quantEst },
         mockScore:
           mockSummary && mEst
@@ -274,7 +287,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
                 level: mockSummary.level,
               }
             : null,
-        items: out.map((r) => ({
+        items: fullResults.map((r) => ({
           qid: r.q.id,
           sel: r.sel,
           correct: r.grade.isCorrect,
@@ -285,12 +298,12 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       setSavedAt(now);
     }
 
-    setExpandedIds(new Set(out.filter((r) => !r.grade.isCorrect).map((r) => r.q.id)));
+    setExpandedIds(new Set(fullResults.filter((r) => !r.grade.isCorrect).map((r) => r.q.id)));
     setFilter('all');
-    setResults(out);
+    setResults(fullResults);
     setView('results');
     setReviewing(false);
-  }, [bank, questions, sels, graded, record, storageKey, onComplete, afterFinish, router, mockSummary, initialResults, setId, runKind, title, backHref, mode]);
+  }, [bank, questions, sels, graded, record, storageKey, onComplete, afterFinish, router, priorResults, mockSummary, initialResults, setId, runKind, title, backHref, mode]);
 
   // Time's up in timed mode ends the section, as on the real test.
   const remaining = mode === 'timed' && timeLimitSec ? timeLimitSec - elapsed : null;
@@ -344,13 +357,21 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
 
   const answeredCount = useMemo(() => questions.filter((x) => sels[x.id] && hasAnswer(x, sels[x.id])).length, [questions, sels]);
   const stimulus = q.passage ? 'passage' : q.figureSpec ? 'figure' : null;
-  const last = idx === questions.length - 1;
+  const last = idx === activeQuestions.length - 1;
+  const hasCombinedParts = Boolean(mockSummary && results && results.length > mockSummary.part1Total);
+  const resultsHeading =
+    mockSummary && hasCombinedParts
+      ? `${title.replace(/\s+2(\s+\(Hard\))?$/, '')} (Sections 1 & 2)`
+      : title;
 
   /* ── Results screen ───────────────────────────────────────────────────── */
   if (done && !reviewing && results) {
     const correct = results.filter((r) => r.grade.isCorrect).length;
     const missed = results.filter((r) => !r.grade.isCorrect);
     const totalMs = results.reduce((a, r) => a + r.ms, 0);
+    const part2Slice = hasCombinedParts ? results.slice(mockSummary!.part1Total) : results;
+    const part2Correct = part2Slice.filter((r) => r.grade.isCorrect).length;
+    const part2Total = part2Slice.length;
     const scoredItems = results.map((r) => ({
       id: r.q.id,
       section: r.q.section,
@@ -365,8 +386,8 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       ? estimateScore(
           mockSummary.part1Correct,
           mockSummary.part1Total,
-          correct,
-          results.length,
+          part2Correct,
+          part2Total,
           mockSummary.level,
           mockSummary.section,
         )
@@ -393,7 +414,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
         <div className="mx-auto max-w-3xl px-4 pb-16 pt-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
           <div className="flex flex-wrap items-start justify-between gap-2">
             <div>
-              <h1 className="text-2xl font-bold">{title} — results</h1>
+              <h1 className="text-2xl font-bold">{resultsHeading} — results</h1>
               {savedAt && (
                 <p className="mt-1 text-xs text-muted">
                   Completed {new Date(savedAt).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })}
@@ -458,7 +479,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
               <p className="mt-1 text-xs text-muted">
                 Section 1 ({mockSummary.part1Correct}/{mockSummary.part1Total}) + Section 2{' '}
                 {mockSummary.level === 'hard' ? 'Hard' : mockSummary.level === 'medium' ? 'Medium' : 'Easy'}{' '}
-                ({correct}/{results.length}) = {mockEst.raw}/{mockEst.total} correct · exact PDF-calibrated scale.
+                ({part2Correct}/{part2Total}) = {mockEst.raw}/{mockEst.total} correct · exact PDF-calibrated scale.
               </p>
             </section>
           ) : estimates.length > 0 ? (
@@ -545,6 +566,13 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
                       {r.grade.isCorrect ? <Check size={14} /> : <X size={14} />}
                     </span>
                     <span className="min-w-0 flex-1 text-sm">
+                      {hasCombinedParts && mockSummary && (
+                        <span className="mr-2 inline-block rounded bg-surface-2 px-1.5 py-0.5 text-[11px] font-bold text-muted">
+                          {i < mockSummary.part1Total
+                            ? `Sec 1 · Q${i + 1}`
+                            : `Sec 2 (${mockSummary.level === 'hard' ? 'Hard' : mockSummary.level === 'medium' ? 'Med' : 'Easy'}) · Q${i - mockSummary.part1Total + 1}`}
+                        </span>
+                      )}
                       {r.q.type} · difficulty {r.q.difficulty} · P+ ≈ {questionPPlus(r.q)}%{r.grade.incomplete ? ' · unanswered' : ''}
                     </span>
                     <span className="text-xs tabular-nums text-muted">{Math.round(r.ms / 1000)}s / {r.q.estSeconds}s</span>
@@ -739,8 +767,8 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
             <Link href={backHref} className={btn} aria-label="Exit"><ArrowLeft size={16} aria-hidden /><span className="hidden sm:inline">Exit</span></Link>
           )}
           <div className="min-w-0 flex-1">
-            <p className="truncate text-sm font-bold">{title}</p>
-            <p className="whitespace-nowrap text-xs text-muted">Question {idx + 1} of {questions.length}{done ? ' · review' : ''}</p>
+            <p className="truncate text-sm font-bold">{done ? resultsHeading : title}</p>
+            <p className="whitespace-nowrap text-xs text-muted">Question {idx + 1} of {activeQuestions.length}{done ? ' · review' : ''}</p>
           </div>
 
           {!done && (
@@ -778,7 +806,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
           </div>
         </div>
         {/* Progress rail */}
-        <div className="h-1 bg-surface-2"><div className="h-full bg-accent transition-all" style={{ width: `${((idx + 1) / questions.length) * 100}%` }} /></div>
+        <div className="h-1 bg-surface-2"><div className="h-full bg-accent transition-all" style={{ width: `${((idx + 1) / activeQuestions.length) * 100}%` }} /></div>
       </header>
 
       {confirmExit && (

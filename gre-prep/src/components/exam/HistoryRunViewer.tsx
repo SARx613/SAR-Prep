@@ -4,14 +4,15 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, Loader2 } from 'lucide-react';
-import { fetchQuestionsByIds } from '@/app/actions/questions';
+import { fetchMockSectionQuestions, fetchQuestionsByIds } from '@/app/actions/questions';
 import { useCloudSyncStatus } from '@/components/CloudSync';
 import type { ClientQuestion } from '@/content/types';
+import { useAttempts } from '@/hooks/useAttempts';
 import { useLocalValue } from '@/hooks/useLocalValue';
-import { grade as gradeQuestion } from '@/lib/grading';
+import { MOCKS_KEY, NO_MOCKS, parseMocks, type Section } from '@/lib/mock';
+import { reconstructPartResults } from '@/lib/mock-review';
 import { NO_RUNS, RUN_HISTORY_KEY, parseRuns } from '@/lib/run-history';
 import { ExamPlayer, type PlayerResult } from './ExamPlayer';
-import { toResponse } from './selection';
 
 export function HistoryRunViewer({
   runId,
@@ -23,8 +24,17 @@ export function HistoryRunViewer({
   const router = useRouter();
   const cloudSync = useCloudSyncStatus();
   const runs = useLocalValue(RUN_HISTORY_KEY, parseRuns, NO_RUNS);
+  const mocks = useLocalValue(MOCKS_KEY, parseMocks, NO_MOCKS);
+  const attempts = useAttempts();
   const run = useMemo(() => runs.find((r) => r.id === runId), [runs, runId]);
   const [fetched, setFetched] = useState<ClientQuestion[]>([]);
+  const [mockPart1, setMockPart1] = useState<{ forRunId: string; qs: ClientQuestion[] } | null>(null);
+
+  const mockMatch = useMemo(() => {
+    if (!run || run.items.length > 15) return null;
+    const m = /^mock:(m[1-9]):(verbal|quant):2$/.exec(run.setId ?? '');
+    return m ? { kind: m[1], section: m[2] as Section } : null;
+  }, [run]);
 
   const knownIds = useMemo(() => new Set(initialQuestions.map((q) => q.id)), [initialQuestions]);
   const missingIds = useMemo(() => {
@@ -33,9 +43,9 @@ export function HistoryRunViewer({
   }, [run, knownIds]);
 
   useEffect(() => {
-    if (missingIds.length === 0) return;
+    if (missingIds.length === 0 || !run) return;
     let cancelled = false;
-    fetchQuestionsByIds(run!.items.map((i) => i.qid))
+    fetchQuestionsByIds(run.items.map((i) => i.qid))
       .then((qs) => {
         if (!cancelled) setFetched(qs);
       })
@@ -44,6 +54,21 @@ export function HistoryRunViewer({
       cancelled = true;
     };
   }, [missingIds.length, run]);
+
+  useEffect(() => {
+    if (!mockMatch || !run) return;
+    let cancelled = false;
+    fetchMockSectionQuestions(mockMatch.kind, mockMatch.section, run.mockScore?.level ?? 'hard')
+      .then(({ part1 }) => {
+        if (!cancelled) setMockPart1({ forRunId: run.id, qs: part1 });
+      })
+      .catch(() => {
+        if (!cancelled) setMockPart1({ forRunId: run.id, qs: [] });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [mockMatch, run]);
 
   const questions = useMemo(() => {
     const map = new Map<string, ClientQuestion>();
@@ -54,13 +79,18 @@ export function HistoryRunViewer({
 
   const reconstructed: PlayerResult[] = useMemo(() => {
     if (!run) return [];
-    return run.items.flatMap((it) => {
+    const runQs = run.items.flatMap((it) => {
       const q = questions.get(it.qid);
-      if (!q) return [];
-      const grade = gradeQuestion(q, toResponse(q, it.sel));
-      return [{ q, sel: it.sel, grade, ms: it.ms }];
+      return q ? [q] : [];
     });
-  }, [run, questions]);
+    const part2OrRun = reconstructPartResults(runQs, run.items, attempts);
+    if (mockMatch && mockPart1 && mockPart1.forRunId === run.id && mockPart1.qs.length > 0) {
+      const p1Record = mocks[mockMatch.kind]?.[`${mockMatch.section}1`];
+      const part1Results = reconstructPartResults(mockPart1.qs, p1Record?.items, attempts);
+      return [...part1Results, ...part2OrRun];
+    }
+    return part2OrRun;
+  }, [run, questions, attempts, mockMatch, mockPart1, mocks]);
 
   if (!run) {
     const syncing = cloudSync.authenticated && cloudSync.state === 'syncing';
@@ -91,7 +121,8 @@ export function HistoryRunViewer({
     );
   }
 
-  if (reconstructed.length === 0) {
+  const waitingMockPart1 = Boolean(mockMatch && (!mockPart1 || mockPart1.forRunId !== run.id));
+  if (reconstructed.length === 0 || waitingMockPart1) {
     return (
       <div className="exam min-h-dvh">
         <div className="mx-auto max-w-2xl px-4 py-16 text-center">
@@ -104,7 +135,7 @@ export function HistoryRunViewer({
 
   return (
     <ExamPlayer
-      key={run.id}
+      key={`${run.id}:${reconstructed.length}`}
       title={run.title}
       questions={reconstructed.map((r) => r.q)}
       mode={run.mode}
@@ -124,7 +155,7 @@ export function HistoryRunViewer({
       initialResults={reconstructed}
       completedAt={run.completedAt}
       onRetryMissed={(missedIds) => router.push(`/exam/custom?ids=${missedIds.join(',')}&mode=tutor`)}
-      onRetakeAll={() => router.push(`/exam/custom?ids=${run.items.map((i) => i.qid).join(',')}&mode=${run.mode}`)}
+      onRetakeAll={() => router.push(`/exam/custom?ids=${reconstructed.map((r) => r.q.id).join(',')}&mode=${run.mode}`)}
     />
   );
 }

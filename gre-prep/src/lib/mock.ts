@@ -9,6 +9,7 @@
 
 import { Rng, hashSeed } from './generators/rng';
 import { mockScaledScore, type GreScoreEstimate } from './gre-score';
+import type { SavedRunItem } from './run-history';
 import type { QIndexItem } from '@/content/qindex';
 
 export type Section = 'verbal' | 'quant';
@@ -131,7 +132,13 @@ export function estimateScore(
 
 export const MOCKS_KEY = 'sar-mocks-v1';
 
-export interface PartResult { correct: number; total: number; level?: Level; ts: number }
+export interface PartResult {
+  correct: number;
+  total: number;
+  level?: Level;
+  ts: number;
+  items?: SavedRunItem[];
+}
 export type MockRecord = Partial<Record<`${Section}${1 | 2}`, PartResult>> & {
   byChapter?: Record<string, { c: number; n: number }>;
   diagScore?: { verbal: GreScoreEstimate | null; quant: GreScoreEstimate | null };

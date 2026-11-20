@@ -3,13 +3,16 @@
 import { useCallback, useMemo } from 'react';
 import { ExamPlayer, type PlayerResult } from '@/components/exam/ExamPlayer';
 import type { ClientQuestion } from '@/content/types';
+import { useAttempts } from '@/hooks/useAttempts';
 import { useLocalValue } from '@/hooks/useLocalValue';
 import { estimateSetScore } from '@/lib/gre-score';
+import { reconstructPartResults } from '@/lib/mock-review';
 import { MOCKS_KEY, NO_MOCKS, levelFor, parseMocks, recordMockPart, type Level, type Section } from '@/lib/mock';
 
 /* One timed mock section. Section 1 goes straight on to section 2 (Hard,
  * difficulty 4–5) without showing answers — as on the real test. Section 2
- * and the diagnostic end on the results screen with exact scores. */
+ * ends on the combined results screen with exact scores and full corrections
+ * for all 27 questions (Section 1 + Section 2). */
 
 interface Props {
   kind: string;
@@ -18,11 +21,13 @@ interface Props {
   level?: Level;
   title: string;
   questions: ClientQuestion[];
+  part1Questions?: ClientQuestion[];
   seconds: number;
 }
 
-export function MockRunner({ kind, section, part, level, title, questions, seconds }: Props) {
+export function MockRunner({ kind, section, part, level, title, questions, part1Questions, seconds }: Props) {
   const store = useLocalValue(MOCKS_KEY, parseMocks, NO_MOCKS);
+  const attempts = useAttempts();
   const part1 = part === 2 && section !== 'diag' ? store[kind]?.[`${section}1`] ?? null : null;
 
   const mockSummary = useMemo(
@@ -38,11 +43,19 @@ export function MockRunner({ kind, section, part, level, title, questions, secon
     [part1, section, level],
   );
 
+  const priorResults = useMemo(() => {
+    if (part !== 2 || section === 'diag' || !part1Questions || part1Questions.length === 0) return undefined;
+    return reconstructPartResults(part1Questions, part1?.items, attempts);
+  }, [part, section, part1Questions, part1?.items, attempts]);
+
   const onComplete = useCallback(
     (results: PlayerResult[]) => {
-      const correct = results.filter((r) => r.grade.isCorrect).length;
+      const ownIds = new Set(questions.map((q) => q.id));
+      const own = results.filter((r) => ownIds.has(r.q.id));
+      const itemsToSave = own.length > 0 ? own : results;
+      const correct = itemsToSave.filter((r) => r.grade.isCorrect).length;
       const byChapter: Record<string, { c: number; n: number }> = {};
-      for (const r of results) {
+      for (const r of itemsToSave) {
         const ch = r.q.lessonId.split('-')[0];
         byChapter[ch] = { c: (byChapter[ch]?.c ?? 0) + (r.grade.isCorrect ? 1 : 0), n: (byChapter[ch]?.n ?? 0) + 1 };
       }
@@ -50,18 +63,32 @@ export function MockRunner({ kind, section, part, level, title, questions, secon
         section === 'diag'
           ? {
               verbal: estimateSetScore(
-                results.map((r) => ({ id: r.q.id, section: r.q.section, difficulty: r.q.difficulty, correct: r.grade.isCorrect })),
+                itemsToSave.map((r) => ({ id: r.q.id, section: r.q.section, difficulty: r.q.difficulty, correct: r.grade.isCorrect })),
                 'verbal',
               ),
               quant: estimateSetScore(
-                results.map((r) => ({ id: r.q.id, section: r.q.section, difficulty: r.q.difficulty, correct: r.grade.isCorrect })),
+                itemsToSave.map((r) => ({ id: r.q.id, section: r.q.section, difficulty: r.q.difficulty, correct: r.grade.isCorrect })),
                 'quant',
               ),
             }
           : undefined;
-      recordMockPart(kind, section, part, { correct, total: results.length, level, ts: Date.now() }, byChapter, diagScore);
+      const savedItems = itemsToSave.map((r) => ({
+        qid: r.q.id,
+        sel: r.sel,
+        correct: r.grade.isCorrect,
+        incomplete: r.grade.incomplete || undefined,
+        ms: r.ms,
+      }));
+      recordMockPart(
+        kind,
+        section,
+        part,
+        { correct, total: itemsToSave.length, level, ts: Date.now(), items: savedItems },
+        byChapter,
+        diagScore,
+      );
     },
-    [kind, section, part, level],
+    [kind, section, part, level, questions],
   );
 
   const afterFinish = useCallback(
@@ -86,6 +113,7 @@ export function MockRunner({ kind, section, part, level, title, questions, secon
       setId={`mock:${kind}:${section}:${part}`}
       runKind={section === 'diag' ? 'diag' : 'mock'}
       mockSummary={mockSummary}
+      priorResults={priorResults}
       onComplete={onComplete}
       afterFinish={afterFinish}
     />

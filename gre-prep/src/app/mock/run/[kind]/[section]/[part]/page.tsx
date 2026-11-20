@@ -36,6 +36,7 @@ export default async function MockRunPage({
   const ids = p === 1 ? first : buildPart(index, sec, 2, level, seed, new Set(first));
   const questions = getByIds(ids);
   if (questions.length === 0) notFound();
+  const part1Questions = p === 2 ? getByIds(first) : undefined;
 
   return (
     <MockRunner
@@ -45,6 +46,7 @@ export default async function MockRunPage({
       level={p === 2 ? level : undefined}
       title={`Mock ${m[1]} · ${sec === 'verbal' ? 'Verbal' : 'Quant'} ${p}${p === 2 && level === 'hard' ? ' (Hard)' : ''}`}
       questions={questions}
+      part1Questions={part1Questions}
       seconds={SECTION_MINUTES[sec][p] * 60}
     />
   );

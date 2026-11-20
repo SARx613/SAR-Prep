@@ -35,6 +35,9 @@ function SectionRow({ kind, section, rec }: { kind: string; section: Section; re
               <Check size={14} aria-hidden />
               {est.scaled} / 170 · {ordinal(est.percentile)} percentile
             </span>
+            <Link href={`/mock/review/${kind}/${section}?level=${b.level ?? 'hard'}`} className={`${btn} border border-line-strong hover:border-accent`}>
+              View corrections
+            </Link>
             <Link href={`/mock/run/${kind}/${section}/1`} className={`${btn} border border-line-strong text-muted hover:text-fg`}>
               <RotateCcw size={14} aria-hidden />
               Retake
