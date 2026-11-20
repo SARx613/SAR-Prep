@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { pickChapterTest } from '@/lib/chapter-test';
+import { mergeRuns, parseRuns, recordRun, type SavedRun } from '@/lib/run-history';
+import { mergeState } from '@/lib/sync';
 import {
   MOCK_CONVERSION_27,
   estimateSetScore,
@@ -141,5 +143,66 @@ describe('GRE score & percentile estimation', () => {
     expect(ordinal(3)).toBe('3rd');
     expect(ordinal(11)).toBe('11th');
     expect(ordinal(68)).toBe('68th');
+  });
+});
+
+describe('frozen run history & cloud merge', () => {
+  const mkRun = (id: string, completedAt: number, correct = 1): SavedRun => ({
+    id,
+    title: `Run ${id}`,
+    kind: 'chapter',
+    setId: 'chapter-q2',
+    chapterId: 'q2',
+    backHref: '/learn/q2',
+    mode: 'timed',
+    completedAt,
+    totalMs: 60_000,
+    correct,
+    total: 2,
+    items: [
+      { qid: 'q1', sel: { ids: ['A'], blanks: [], numeric: '', numerator: '', denominator: '', sentence: '' }, correct: true, ms: 30_000 },
+      { qid: 'q2', sel: { ids: ['B'], blanks: [], numeric: '', numerator: '', denominator: '', sentence: '' }, correct: correct > 1, ms: 30_000 },
+    ],
+  });
+
+  it('parses runs safely and deduplicates/sorts on merge', () => {
+    expect(parseRuns(null)).toEqual([]);
+    expect(parseRuns('{bad json')).toEqual([]);
+
+    const r1 = mkRun('r1', 1000, 1);
+    const r1Newer = mkRun('r1', 1500, 2);
+    const r2 = mkRun('r2', 2000, 2);
+
+    const merged = mergeRuns([r1Newer], [r1, r2]);
+    expect(merged.map((r) => r.id)).toEqual(['r2', 'r1']);
+    expect(merged[1].correct).toBe(2);
+  });
+
+  it('merges frozen runs inside sync state without losing local or remote runs', () => {
+    const localRun = mkRun('local-1', 2000);
+    const remoteRun = mkRun('remote-1', 1000);
+    const mergedState = mergeState({ runs: [localRun] }, { runs: [remoteRun] });
+    expect(mergedState.runs?.map((r) => r.id)).toEqual(['local-1', 'remote-1']);
+  });
+
+  it('records runs in memory storage when localStorage is available', () => {
+    const store = new Map<string, string>();
+    (globalThis as { localStorage?: unknown }).localStorage = {
+      getItem: (k: string) => store.get(k) ?? null,
+      setItem: (k: string, v: string) => { store.set(k, v); },
+      removeItem: (k: string) => { store.delete(k); },
+    };
+    (globalThis as { window?: unknown }).window = { dispatchEvent: () => true };
+    try {
+      const r1 = mkRun('a', 100);
+      const r2 = mkRun('b', 200);
+      recordRun(r1);
+      const out = recordRun(r2);
+      expect(out.map((r) => r.id)).toEqual(['b', 'a']);
+      expect(parseRuns(store.get('sar-run-history-v1') ?? null)).toHaveLength(2);
+    } finally {
+      delete (globalThis as { localStorage?: unknown }).localStorage;
+      delete (globalThis as { window?: unknown }).window;
+    }
   });
 });

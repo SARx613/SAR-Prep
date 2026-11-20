@@ -4,6 +4,7 @@
 import type { Attempt } from './attempts';
 import type { ErrorReason } from './prefs';
 import type { MockStore } from './mock';
+import { mergeRuns, type SavedRun } from './run-history';
 
 const key = (a: Attempt) => `${a.qid}|${a.ts}`;
 
@@ -21,9 +22,10 @@ export interface SyncState {
   weeklyHours?: number;
   reasons?: Record<string, ErrorReason>;
   mocks?: MockStore;
+  runs?: SavedRun[];
 }
 
-/** Local values win for scalars it has set; reasons and mocks are unions (newest mock part wins). */
+/** Local values win for scalars it has set; reasons, mocks, and frozen runs are unions. */
 export function mergeState(local: SyncState, remote: SyncState | null): SyncState {
   if (!remote) return local;
   const mocks: MockStore = { ...(remote.mocks ?? {}) };
@@ -41,5 +43,6 @@ export function mergeState(local: SyncState, remote: SyncState | null): SyncStat
     weeklyHours: local.weeklyHours || remote.weeklyHours,
     reasons: { ...(remote.reasons ?? {}), ...(local.reasons ?? {}) },
     mocks,
+    runs: mergeRuns(local.runs ?? [], remote.runs ?? []),
   };
 }

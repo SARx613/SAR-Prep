@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SessionProvider } from "next-auth/react";
+import { CloudSync } from "@/components/CloudSync";
 import PWAProvider from "@/components/PWAProvider";
 import "katex/dist/katex.min.css";
 import "./globals.css";
@@ -49,6 +50,7 @@ export default function RootLayout({
       </head>
       <body>
         <SessionProvider refetchOnWindowFocus={false} refetchWhenOffline={false}>
+          <CloudSync />
           <PWAProvider />
           {children}
         </SessionProvider>

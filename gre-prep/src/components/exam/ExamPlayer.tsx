@@ -3,11 +3,13 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, Clock, Eye, EyeOff, LayoutGrid, Shuffle, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, ChevronDown, ChevronUp, Clock, Cloud, Eye, EyeOff, LayoutGrid, Maximize2, RotateCcw, Shuffle, X } from 'lucide-react';
+import { useCloudSyncStatus } from '@/components/CloudSync';
 import { grade as gradeQuestion, type Grade } from '@/lib/grading';
 import { answeredBefore, readAttempts, recordAttempts, type Attempt } from '@/lib/attempts';
 import { estimateSetScore, ordinal, questionPPlus } from '@/lib/gre-score';
 import { estimateScore } from '@/lib/mock';
+import { recordRun, type RunKind } from '@/lib/run-history';
 import { SESSION_TTL, clearSession, loadSession, pruneSessions, saveSession } from '@/lib/session';
 import type { ClientQuestion } from '@/content/types';
 import { Calculator } from './Calculator';
@@ -57,6 +59,13 @@ interface Props {
   difficultyRange?: { dMin: number; dMax: number };
   /** Mock section 2: carries section 1 results to show the exact combined 130–170 score. */
   mockSummary?: { section: 'verbal' | 'quant'; part1Correct: number; part1Total: number; level: 'easy' | 'medium' | 'hard' } | null;
+  /** Identifier and kind for frozen run history. */
+  setId?: string;
+  runKind?: RunKind;
+  /** Frozen historical results to view directly without re-running or re-recording attempts. */
+  initialResults?: PlayerResult[];
+  completedAt?: number;
+  onRetakeAll?: () => void;
 }
 
 const fmtClock = (s: number) => {
@@ -66,22 +75,28 @@ const fmtClock = (s: number) => {
 
 interface Saved { idx: number; sels: Record<string, Selection>; marked: string[]; elapsed: number; graded: Record<string, { grade: Grade; ms: number }> }
 
-export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered, onNewTest, difficultyRange, mockSummary }: Props) {
+export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered, onNewTest, difficultyRange, mockSummary, setId, runKind, initialResults, completedAt, onRetakeAll }: Props) {
   const router = useRouter();
+  const cloudSync = useCloudSyncStatus();
   const [idx, setIdx] = useState(0);
   const [nextMin, setNextMin] = useState(difficultyRange?.dMin ?? 1);
   const [nextMax, setNextMax] = useState(difficultyRange?.dMax ?? 5);
   const [sels, setSels] = useState<Record<string, Selection>>({});
   const [marked, setMarked] = useState<Set<string>>(new Set());
   const [graded, setGraded] = useState<Record<string, { grade: Grade; ms: number }>>({});
-  const [view, setView] = useState<'question' | 'review' | 'results'>('question');
+  const [view, setView] = useState<'question' | 'review' | 'results'>(() => (initialResults ? 'results' : 'question'));
   const [reviewing, setReviewing] = useState(false);
   const [calcOpen, setCalcOpen] = useState(false);
   const [showTimer, setShowTimer] = useState(true);
   const [elapsed, setElapsed] = useState(0);
   const [tab, setTab] = useState<'stim' | 'q'>('q');
   const [confirmExit, setConfirmExit] = useState(false);
-  const [results, setResults] = useState<PlayerResult[] | null>(null);
+  const [results, setResults] = useState<PlayerResult[] | null>(() => initialResults ?? null);
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(() =>
+    new Set(initialResults ? initialResults.filter((r) => !r.grade.isCorrect).map((r) => r.q.id) : []),
+  );
+  const [filter, setFilter] = useState<'all' | 'missed' | 'correct'>('all');
+  const [savedAt, setSavedAt] = useState<number | null>(() => completedAt ?? null);
   const [resumeNote, setResumeNote] = useState<string | null>(null);
 
   const spent = useRef<Record<string, number>>({});
@@ -93,13 +108,14 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
   const recorded = useRef<Set<string>>(new Set());
 
   const q = questions[idx];
-  const sel = sels[q.id] ?? emptySelection(q);
+  const done = results !== null;
+  const activeResult = done ? results.find((r) => r.q.id === q.id) : undefined;
+  const sel = (done && activeResult ? activeResult.sel : sels[q.id]) ?? emptySelection(q);
   const calcAllowed = calculator ?? questions.some((x) => x.section === 'quant');
   const isQuant = q.section === 'quant';
-  const done = view === 'results';
   const tutorGraded = mode === 'tutor' ? graded[q.id] : undefined;
-  const locked = !!tutorGraded || (done && reviewing);
-  const shownGrade: Grade | null = done ? results?.find((r) => r.q.id === q.id)?.grade ?? null : tutorGraded?.grade ?? null;
+  const locked = !!tutorGraded || done;
+  const shownGrade: Grade | null = done ? activeResult?.grade ?? null : tutorGraded?.grade ?? null;
 
   /* ── Timing ───────────────────────────────────────────────────────────── */
   useEffect(() => {
@@ -121,7 +137,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
 
   /* ── Reload survival ──────────────────────────────────────────────────── */
   useEffect(() => {
-    if (!storageKey || restored.current) return;
+    if (!storageKey || restored.current || initialResults) return;
     restored.current = true;
     pruneSessions();
     /* eslint-disable react-hooks/set-state-in-effect */
@@ -159,7 +175,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       }
     } catch { /* corrupt or blocked: start fresh */ }
     /* eslint-enable react-hooks/set-state-in-effect */
-  }, [storageKey, questions, mode, skipAnswered]);
+  }, [storageKey, questions, mode, skipAnswered, initialResults]);
 
   useEffect(() => {
     if (!storageKey || !restored.current || done || leaving.current) return;
@@ -198,15 +214,90 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
     onComplete?.(out);
     const next = afterFinish?.(out) ?? null;
     if (next) { router.push(next); return; }
+
+    const now = Date.now();
+    const totalMs = out.reduce((a, r) => a + r.ms, 0);
+    const scoredItems = out.map((r) => ({
+      id: r.q.id,
+      section: r.q.section,
+      difficulty: r.q.difficulty,
+      correct: r.grade.isCorrect,
+    }));
+    const verbalEst = estimateSetScore(scoredItems, 'verbal');
+    const quantEst = estimateSetScore(scoredItems, 'quant');
+    const correctCount = out.filter((r) => r.grade.isCorrect).length;
+    const mEst = mockSummary
+      ? estimateScore(
+          mockSummary.part1Correct,
+          mockSummary.part1Total,
+          correctCount,
+          out.length,
+          mockSummary.level,
+          mockSummary.section,
+        )
+      : null;
+    if (!initialResults) {
+      const inferredChapter =
+        setId?.startsWith('chapter-')
+          ? setId.slice(8)
+          : out[0]?.q.lessonId.split('-')[0];
+      const inferredKind: RunKind =
+        runKind ??
+        (setId?.startsWith('chapter-')
+          ? 'chapter'
+          : setId === 'custom'
+            ? 'custom'
+            : setId
+              ? 'lesson'
+              : 'custom');
+      recordRun({
+        id: `${now.toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+        title,
+        kind: inferredKind,
+        setId,
+        chapterId: inferredChapter,
+        backHref,
+        mode,
+        completedAt: now,
+        totalMs,
+        correct: correctCount,
+        total: out.length,
+        estimates: { verbal: verbalEst, quant: quantEst },
+        mockScore:
+          mockSummary && mEst
+            ? {
+                section: mockSummary.section,
+                scaled: mEst.scaled,
+                percentile: mEst.percentile,
+                part1Correct: mockSummary.part1Correct,
+                part1Total: mockSummary.part1Total,
+                level: mockSummary.level,
+              }
+            : null,
+        items: out.map((r) => ({
+          qid: r.q.id,
+          sel: r.sel,
+          correct: r.grade.isCorrect,
+          incomplete: r.grade.incomplete || undefined,
+          ms: r.ms,
+        })),
+      });
+      setSavedAt(now);
+    }
+
+    setExpandedIds(new Set(out.filter((r) => !r.grade.isCorrect).map((r) => r.q.id)));
+    setFilter('all');
     setResults(out);
     setView('results');
     setReviewing(false);
-  }, [bank, questions, sels, graded, record, storageKey, onComplete, afterFinish, router]);
+  }, [bank, questions, sels, graded, record, storageKey, onComplete, afterFinish, router, mockSummary, initialResults, setId, runKind, title, backHref, mode]);
 
   // Time's up in timed mode ends the section, as on the real test.
   const remaining = mode === 'timed' && timeLimitSec ? timeLimitSec - elapsed : null;
   useEffect(() => {
-    if (remaining !== null && remaining <= 0 && !done) finish();
+    if (remaining === null || remaining > 0 || done) return;
+    const t = setTimeout(finish, 0);
+    return () => clearTimeout(t);
   }, [remaining, done, finish]);
 
   const check = () => {
@@ -281,10 +372,63 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
         )
       : null;
 
+    const indexedResults = results.map((r, i) => ({ r, i }));
+    const visibleResults = indexedResults.filter(({ r }) =>
+      filter === 'all' ? true : filter === 'missed' ? !r.grade.isCorrect : r.grade.isCorrect,
+    );
+    const toggleExpand = (id: string) =>
+      setExpandedIds((prev) => {
+        const next = new Set(prev);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        return next;
+      });
+    const filterChip = (on: boolean) =>
+      `min-h-[36px] rounded-full border px-3 text-xs font-semibold transition-colors ${
+        on ? 'border-accent bg-accent text-accent-fg' : 'border-line-strong bg-surface text-muted hover:text-fg'
+      }`;
+
     return (
       <div className="exam min-h-dvh">
         <div className="mx-auto max-w-3xl px-4 pb-16 pt-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
-          <h1 className="text-2xl font-bold">{title} — results</h1>
+          <div className="flex flex-wrap items-start justify-between gap-2">
+            <div>
+              <h1 className="text-2xl font-bold">{title} — results</h1>
+              {savedAt && (
+                <p className="mt-1 text-xs text-muted">
+                  Completed {new Date(savedAt).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })}
+                </p>
+              )}
+            </div>
+            <Link href={backHref} className="inline-flex h-10 items-center gap-1.5 rounded-[var(--radius)] border border-line-strong bg-surface px-3.5 text-sm font-semibold hover:bg-surface-2">
+              <ArrowLeft size={15} aria-hidden /> Exit
+            </Link>
+          </div>
+
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 rounded-[var(--radius)] border border-line bg-surface px-3.5 py-2.5 text-xs">
+            <span className="flex items-center gap-2 text-muted">
+              <Cloud size={15} className={cloudSync.authenticated ? 'text-good' : 'text-faint'} aria-hidden />
+              {cloudSync.authenticated ? (
+                cloudSync.state === 'syncing'
+                  ? 'Saving frozen series to your Google account…'
+                  : cloudSync.state === 'error'
+                    ? 'Saved on this device · Cloud sync will retry automatically'
+                    : 'Frozen & saved to your Google account'
+              ) : (
+                <>
+                  Frozen &amp; saved on this device ·{' '}
+                  <Link href="/settings" className="font-semibold text-accent-ink hover:underline">
+                    Sign in with Google
+                  </Link>{' '}
+                  to sync across devices
+                </>
+              )}
+            </span>
+            <Link href="/review#history" className="font-semibold text-accent-ink hover:underline">
+              View all saved series
+            </Link>
+          </div>
+
           <div className="mt-4 grid grid-cols-3 gap-3 text-center">
             {[
               ['Correct', `${correct}/${results.length}`],
@@ -346,25 +490,118 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
             </section>
           ) : null}
 
-          <ol className="mt-6 divide-y divide-line rounded-[var(--radius)] border border-line bg-surface">
-            {results.map((r, i) => (
-              <li key={r.q.id}>
-                <button
-                  type="button"
-                  onClick={() => { setIdx(i); setReviewing(true); setView('question'); setTab('q'); }}
-                  className="flex min-h-[52px] w-full items-center gap-3 px-4 py-3 text-left hover:bg-surface-2"
-                >
-                  <span className="w-7 text-sm font-semibold text-muted">{i + 1}</span>
-                  <span className={`grid h-6 w-6 place-items-center rounded-full text-white ${r.grade.isCorrect ? 'bg-good' : r.grade.incomplete ? 'bg-faint' : 'bg-bad'}`}>
-                    {r.grade.isCorrect ? <Check size={14} /> : <X size={14} />}
-                  </span>
-                  <span className="flex-1 text-sm">
-                    {r.q.type} · difficulty {r.q.difficulty} · P+ ≈ {questionPPlus(r.q)}%{r.grade.incomplete ? ' · unanswered' : ''}
-                  </span>
-                  <span className="text-xs tabular-nums text-muted">{Math.round(r.ms / 1000)}s / {r.q.estSeconds}s</span>
-                </button>
-              </li>
-            ))}
+          <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-wrap gap-1.5" role="group" aria-label="Filter questions">
+              <button type="button" onClick={() => setFilter('all')} className={filterChip(filter === 'all')}>
+                All ({results.length})
+              </button>
+              <button type="button" onClick={() => setFilter('missed')} className={filterChip(filter === 'missed')}>
+                Missed ({missed.length})
+              </button>
+              <button type="button" onClick={() => setFilter('correct')} className={filterChip(filter === 'correct')}>
+                Correct ({correct})
+              </button>
+            </div>
+            <div className="flex flex-wrap gap-2 text-xs">
+              <button
+                type="button"
+                onClick={() => setExpandedIds(new Set(results.map((r) => r.q.id)))}
+                className="font-semibold text-accent-ink hover:underline"
+              >
+                Expand all corrections
+              </button>
+              <span className="text-faint" aria-hidden>·</span>
+              <button
+                type="button"
+                onClick={() => setExpandedIds(new Set(missed.map((r) => r.q.id)))}
+                className="font-semibold text-accent-ink hover:underline"
+              >
+                Expand missed
+              </button>
+              <span className="text-faint" aria-hidden>·</span>
+              <button
+                type="button"
+                onClick={() => setExpandedIds(new Set())}
+                className="font-semibold text-muted hover:text-fg hover:underline"
+              >
+                Collapse all
+              </button>
+            </div>
+          </div>
+
+          <ol className="mt-3 divide-y divide-line rounded-[var(--radius)] border border-line bg-surface">
+            {visibleResults.map(({ r, i }) => {
+              const isOpen = expandedIds.has(r.q.id);
+              return (
+                <li key={r.q.id}>
+                  <button
+                    type="button"
+                    aria-expanded={isOpen}
+                    onClick={() => toggleExpand(r.q.id)}
+                    className="flex min-h-[52px] w-full items-center gap-3 px-4 py-3 text-left hover:bg-surface-2"
+                  >
+                    <span className="w-7 text-sm font-semibold text-muted">{i + 1}</span>
+                    <span className={`grid h-6 w-6 shrink-0 place-items-center rounded-full text-white ${r.grade.isCorrect ? 'bg-good' : r.grade.incomplete ? 'bg-faint' : 'bg-bad'}`}>
+                      {r.grade.isCorrect ? <Check size={14} /> : <X size={14} />}
+                    </span>
+                    <span className="min-w-0 flex-1 text-sm">
+                      {r.q.type} · difficulty {r.q.difficulty} · P+ ≈ {questionPPlus(r.q)}%{r.grade.incomplete ? ' · unanswered' : ''}
+                    </span>
+                    <span className="text-xs tabular-nums text-muted">{Math.round(r.ms / 1000)}s / {r.q.estSeconds}s</span>
+                    <span className="inline-flex items-center gap-1 text-xs font-semibold text-accent-ink">
+                      <span className="hidden sm:inline">{isOpen ? 'Hide' : 'Correction'}</span>
+                      {isOpen ? <ChevronUp size={16} aria-hidden /> : <ChevronDown size={16} aria-hidden />}
+                    </span>
+                  </button>
+                  {isOpen && (
+                    <div className="space-y-4 border-t border-line bg-surface-2/40 px-4 py-4 sm:px-5">
+                      {r.q.passage && (
+                        <div className="max-h-72 overflow-y-auto rounded-[var(--radius)] border border-line bg-surface p-3.5">
+                          <PassagePane
+                            passage={r.q.passage}
+                            selectable={r.q.type === 'RC' && formatOf(r.q) === 'select_in_passage'}
+                            paragraphIndex={(r.q.content as { paragraphIndex?: number }).paragraphIndex}
+                            selected={r.sel.sentence}
+                            onPick={() => {}}
+                            locked={true}
+                            correctSentence={!r.grade.isCorrect ? r.grade.expected[0] : r.sel.sentence}
+                          />
+                        </div>
+                      )}
+                      {r.q.figureSpec && (
+                        <div className="rounded-[var(--radius)] border border-line bg-surface p-3.5">
+                          <Figure spec={r.q.figureSpec} />
+                        </div>
+                      )}
+                      <QuestionPane
+                        q={r.q}
+                        sel={r.sel}
+                        onChange={() => {}}
+                        locked={true}
+                        grade={r.grade}
+                        showLetters={true}
+                      />
+                      <Feedback q={r.q} grade={r.grade} ms={r.ms} />
+                      <div className="flex justify-end">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIdx(i);
+                            setReviewing(true);
+                            setView('question');
+                            setTab(r.q.type === 'RC' && formatOf(r.q) === 'select_in_passage' ? 'stim' : 'q');
+                          }}
+                          className="inline-flex h-9 items-center gap-1.5 rounded-[var(--radius)] border border-line-strong bg-surface px-3 text-xs font-semibold hover:bg-surface-2"
+                        >
+                          <Maximize2 size={13} aria-hidden />
+                          Open in full-screen view
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
           </ol>
 
           <div className="mt-6 flex flex-wrap items-center gap-3">
@@ -372,6 +609,12 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
             {missed.length > 0 && onRetryMissed && (
               <button type="button" onClick={() => onRetryMissed(missed.map((r) => r.q.id))} className="h-11 rounded-[var(--radius)] bg-accent px-5 text-sm font-semibold text-accent-fg">
                 Retry {missed.length} missed
+              </button>
+            )}
+            {onRetakeAll && (
+              <button type="button" onClick={onRetakeAll} className="inline-flex h-11 items-center gap-1.5 rounded-[var(--radius)] border border-line-strong bg-surface px-5 text-sm font-semibold hover:bg-surface-2">
+                <RotateCcw size={15} aria-hidden />
+                Retake full set
               </button>
             )}
           </div>
@@ -530,7 +773,7 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
               </button>
             )}
             {done && (
-              <button type="button" onClick={() => setReviewing(false)} className={btn}>All results</button>
+              <button type="button" onClick={() => { setReviewing(false); setView('results'); }} className={btn}>All results</button>
             )}
           </div>
         </div>
@@ -596,7 +839,15 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
       <footer className="shrink-0 border-t border-line-strong bg-surface" style={{ paddingBottom: 'var(--sab)', paddingLeft: 'var(--sal)', paddingRight: 'var(--sar)' }}>
         <div className="mx-auto flex max-w-5xl items-center gap-2 px-3 py-2.5">
           <button type="button" onClick={() => go(idx - 1)} disabled={idx === 0} className={btn}><ArrowLeft size={16} aria-hidden /> Back</button>
-          <div className="flex-1 text-center text-xs text-muted tabular-nums">{answeredCount}/{questions.length} answered</div>
+          <div className="flex-1 text-center text-xs text-muted tabular-nums">
+            {done ? (
+              <button type="button" onClick={() => { setReviewing(false); setView('results'); }} className="font-semibold text-accent-ink hover:underline">
+                All results
+              </button>
+            ) : (
+              `${answeredCount}/${questions.length} answered`
+            )}
+          </div>
           {mode === 'tutor' && !done && !tutorGraded ? (
             <button type="button" onClick={check} disabled={!hasAnswer(q, sel)} className="inline-flex h-10 items-center gap-1.5 rounded-[var(--radius)] bg-accent px-5 text-sm font-bold text-accent-fg disabled:opacity-40">
               Check answer

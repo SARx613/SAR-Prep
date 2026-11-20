@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { CloudSync } from '@/components/CloudSync';
 import { Logo } from '@/components/Logo';
 import { useEffect, useState } from 'react';
 import { MORE_TAB, NAV as BASE_NAV, PRIVATE_NAV, isActive } from './nav';
@@ -26,7 +25,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen lg:flex">
-      <CloudSync />
       <aside
         className="hidden lg:flex lg:flex-col lg:w-60 lg:shrink-0 lg:sticky lg:top-0 lg:h-screen border-r border-line bg-surface/60 px-3 py-5"
         aria-label="Primary"

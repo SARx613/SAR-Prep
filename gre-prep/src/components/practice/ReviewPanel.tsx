@@ -2,16 +2,22 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { Repeat } from 'lucide-react';
+import { Cloud, History, Repeat } from 'lucide-react';
+import { useCloudSyncStatus } from '@/components/CloudSync';
+import { RunHistoryList } from '@/components/exam/RunHistoryList';
 import { useAttempts } from '@/hooks/useAttempts';
+import { useLocalValue } from '@/hooks/useLocalValue';
 import { useReasons } from '@/hooks/usePrefs';
 import { REASON_LABEL } from '@/lib/prefs';
+import { NO_RUNS, RUN_HISTORY_KEY, parseRuns } from '@/lib/run-history';
 import { buildQueue } from '@/lib/srs';
 import { loadProgress } from '@/lib/storage';
 
 export function ReviewPanel({ titles }: { titles: Record<string, string> }) {
   const attempts = useAttempts();
   const reasons = useReasons();
+  const runs = useLocalValue(RUN_HISTORY_KEY, parseRuns, NO_RUNS);
+  const cloudSync = useCloudSyncStatus();
   const [now] = useState(() => Date.now());
   const q = useMemo(() => buildQueue(attempts, now), [attempts, now]);
   const words = typeof window !== 'undefined' ? loadProgress().reviewIds.length : 0;
@@ -47,6 +53,23 @@ export function ReviewPanel({ titles }: { titles: Record<string, string> }) {
         <h2 id="vocab" className="text-lg font-bold">Vocabulary</h2>
         <p className="mt-1 text-sm text-muted">{words > 0 ? `${words} word${words > 1 ? 's' : ''} waiting for a repeat.` : 'No missed words right now.'}</p>
         {words > 0 && <Link href="/flashcards/review" className="mt-4 inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong px-5 text-sm font-semibold">Review words</Link>}
+      </section>
+
+      <section id="history" aria-labelledby="history-heading">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="history-heading" className="flex items-center gap-2 text-lg font-bold">
+            <History size={18} aria-hidden /> Completed series &amp; tests
+          </h2>
+          <span className="inline-flex items-center gap-1.5 text-xs text-muted">
+            <Cloud size={14} className={cloudSync.authenticated ? 'text-good' : 'text-faint'} aria-hidden />
+            {cloudSync.authenticated
+              ? cloudSync.state === 'syncing'
+                ? 'Syncing with Google…'
+                : 'Synced with your Google account'
+              : 'Saved locally · Sign in with Google in Settings to sync'}
+          </span>
+        </div>
+        <RunHistoryList runs={runs} />
       </section>
 
       <section aria-labelledby="log">

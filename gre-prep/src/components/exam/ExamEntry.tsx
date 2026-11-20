@@ -95,6 +95,8 @@ export function ExamEntry({
       storageKey={storageKey}
       skipAnswered={!timed && !chapterTest}
       difficultyRange={chapterTest ? range : undefined}
+      setId={setId}
+      runKind={chapterTest ? 'chapter' : 'lesson'}
       onNewTest={
         chapterTest
           ? (nextMin, nextMax) => {

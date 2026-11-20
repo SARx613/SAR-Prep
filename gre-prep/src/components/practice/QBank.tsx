@@ -3,7 +3,10 @@
 import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Play } from 'lucide-react';
+import { RunHistoryList } from '@/components/exam/RunHistoryList';
 import { useAttempts } from '@/hooks/useAttempts';
+import { useLocalValue } from '@/hooks/useLocalValue';
+import { NO_RUNS, RUN_HISTORY_KEY, parseRuns } from '@/lib/run-history';
 import { buildQueue } from '@/lib/srs';
 import type { QIndexItem } from '@/content/qindex';
 
@@ -35,6 +38,7 @@ function shuffle<T>(xs: T[]): T[] {
 export function QBank({ index, chapters }: { index: QIndexItem[]; chapters: { id: string; title: string; track: string }[] }) {
   const router = useRouter();
   const attempts = useAttempts();
+  const runs = useLocalValue(RUN_HISTORY_KEY, parseRuns, NO_RUNS);
   const [now] = useState(() => Date.now());
   const [section, setSection] = useState<(typeof SECTIONS)[number][0]>('all');
   const [types, setTypes] = useState<string[]>([]);
@@ -105,6 +109,13 @@ export function QBank({ index, chapters }: { index: QIndexItem[]; chapters: { id
         <p className="mb-2 text-sm text-muted" aria-live="polite">{pool.length} matching question{pool.length === 1 ? '' : 's'}{pool.length > 0 ? ` · you’ll get ${n}` : ''}.</p>
         <button disabled={pool.length === 0} onClick={start} className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-[var(--radius)] bg-accent px-6 font-bold text-accent-fg disabled:opacity-40 sm:w-auto"><Play size={18} aria-hidden />Start</button>
       </div>
+
+      {runs.length > 0 && (
+        <section className="pt-2" aria-labelledby="recent-series">
+          <h2 id="recent-series" className="text-xs font-bold uppercase tracking-wide text-faint">Recent completed series</h2>
+          <RunHistoryList runs={runs} limit={5} />
+        </section>
+      )}
     </div>
   );
 }

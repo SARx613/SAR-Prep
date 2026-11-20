@@ -3,6 +3,9 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Play, Shuffle } from 'lucide-react';
+import { RunHistoryList } from '@/components/exam/RunHistoryList';
+import { useLocalValue } from '@/hooks/useLocalValue';
+import { NO_RUNS, RUN_HISTORY_KEY, parseRuns } from '@/lib/run-history';
 
 interface Props {
   chapterId: string;
@@ -22,6 +25,12 @@ export function ChapterTestCard({ chapterId, chapterTitle, countsByDifficulty }:
   const router = useRouter();
   const [dMin, setDMin] = useState(1);
   const [dMax, setDMax] = useState(5);
+  const runs = useLocalValue(RUN_HISTORY_KEY, parseRuns, NO_RUNS);
+  const chapterRuns = runs.filter(
+    (r) =>
+      r.setId === `chapter-${chapterId}` ||
+      r.title.startsWith(`Chapter test: ${chapterTitle}`),
+  );
 
   const matchingCount = [1, 2, 3, 4, 5]
     .filter((d) => d >= dMin && d <= dMax)
@@ -139,6 +148,13 @@ export function ChapterTestCard({ chapterId, chapterTitle, countsByDifficulty }:
           Take chapter test
         </button>
       </div>
+
+      {chapterRuns.length > 0 && (
+        <div className="mt-4 border-t border-line pt-4">
+          <p className="text-xs font-bold uppercase tracking-wide text-faint">Past chapter tests</p>
+          <RunHistoryList runs={chapterRuns} limit={5} />
+        </div>
+      )}
     </section>
   );
 }

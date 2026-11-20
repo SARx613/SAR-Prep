@@ -21,6 +21,8 @@ export default async function CustomExamPage({ searchParams }: { searchParams: P
       timeLimitSec={timed ? limit : undefined}
       backHref="/practice"
       storageKey={`exam:${(ids ?? '').slice(0, 80)}:${timed ? 't' : 'u'}`}
+      setId="custom"
+      runKind="custom"
     />
   );
 }

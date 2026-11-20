@@ -2,12 +2,13 @@
 
 import { useState } from 'react';
 import type { ClientQuestion } from '@/content/types';
+import type { RunKind } from '@/lib/run-history';
 import { ExamPlayer } from './ExamPlayer';
 
 /* Runs a set and lets the learner go straight back at the questions they missed. */
 
 export function SetRunner({
-  title, questions, mode, timeLimitSec, backHref, storageKey, skipAnswered, onNewTest, difficultyRange,
+  title, questions, mode, timeLimitSec, backHref, storageKey, skipAnswered, onNewTest, difficultyRange, setId, runKind,
 }: {
   title: string;
   questions: ClientQuestion[];
@@ -18,6 +19,8 @@ export function SetRunner({
   skipAnswered?: boolean;
   onNewTest?: (dMin: number, dMax: number) => void;
   difficultyRange?: { dMin: number; dMax: number };
+  setId?: string;
+  runKind?: RunKind;
 }) {
   const [round, setRound] = useState(0);
   const [subset, setSubset] = useState<string[] | null>(null);
@@ -35,6 +38,8 @@ export function SetRunner({
       onRetryMissed={(ids) => { setSubset(ids); setRound((r) => r + 1); }}
       onNewTest={onNewTest}
       difficultyRange={difficultyRange}
+      setId={setId}
+      runKind={runKind}
     />
   );
 }

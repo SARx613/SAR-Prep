@@ -83,6 +83,8 @@ export function MockRunner({ kind, section, part, level, title, questions, secon
       backHref="/mock"
       attemptMode="mock"
       storageKey={`mock:${kind}:${section}:${part}`}
+      setId={`mock:${kind}:${section}:${part}`}
+      runKind={section === 'diag' ? 'diag' : 'mock'}
       mockSummary={mockSummary}
       onComplete={onComplete}
       afterFinish={afterFinish}
