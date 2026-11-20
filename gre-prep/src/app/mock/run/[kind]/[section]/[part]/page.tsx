@@ -30,7 +30,7 @@ export default async function MockRunPage({
   if (!m || Number(m[1]) > MOCK_COUNT || (section !== 'verbal' && section !== 'quant') || (part !== '1' && part !== '2')) notFound();
   const sec = section as Section;
   const p = Number(part) as 1 | 2;
-  const level: Level = lv === 'easy' || lv === 'hard' ? lv : 'medium';
+  const level: Level = lv === 'easy' || lv === 'medium' ? lv : 'hard';
   const seed = mockSeed(kind);
   const first = buildPart(index, sec, 1, 'avg', seed);
   const ids = p === 1 ? first : buildPart(index, sec, 2, level, seed, new Set(first));
@@ -43,7 +43,7 @@ export default async function MockRunPage({
       section={sec}
       part={p}
       level={p === 2 ? level : undefined}
-      title={`Mock ${m[1]} · ${sec === 'verbal' ? 'Verbal' : 'Quant'} ${p}`}
+      title={`Mock ${m[1]} · ${sec === 'verbal' ? 'Verbal' : 'Quant'} ${p}${p === 2 && level === 'hard' ? ' (Hard)' : ''}`}
       questions={questions}
       seconds={SECTION_MINUTES[sec][p] * 60}
     />

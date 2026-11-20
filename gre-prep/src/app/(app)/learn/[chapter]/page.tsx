@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Clock, Lock } from 'lucide-react';
-import { getChapter, getChapters } from '@/content';
+import { getChapter, getChapterQuestions, getChapters } from '@/content';
 import { LessonProgress } from '@/components/learn/Progress';
+import { ChapterTestCard } from '@/components/learn/ChapterTestCard';
 
 
 export async function generateMetadata({ params }: { params: Promise<{ chapter: string }> }): Promise<Metadata> {
@@ -19,6 +20,14 @@ export default async function ChapterPage({ params }: { params: Promise<{ chapte
   const ch = getChapter((await params).chapter);
   if (!ch) notFound();
 
+  const totalPractice = ch.lessons.reduce((n, l) => n + l.practiceCount, 0);
+  const countsByDifficulty: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+  if (totalPractice >= 10) {
+    for (const q of getChapterQuestions(ch.id)) {
+      countsByDifficulty[q.difficulty] = (countsByDifficulty[q.difficulty] ?? 0) + 1;
+    }
+  }
+
   return (
     <div className="mx-auto max-w-3xl px-4 pb-10 sm:px-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
       <Link href="/learn" className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted hover:text-fg">
@@ -27,10 +36,12 @@ export default async function ChapterPage({ params }: { params: Promise<{ chapte
       <h1 className="mt-3 text-3xl font-extrabold tracking-tight">{ch.title}</h1>
       <p className="mt-1 max-w-prose text-muted">{ch.summary}</p>
 
-      {ch.lessons.reduce((n, l) => n + l.practiceCount, 0) >= 10 && (
-        <Link href={`/exam/chapter-${ch.id}`} className="mt-5 inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong bg-surface px-5 text-sm font-semibold hover:border-accent">
-          Take the chapter test · timed, up to 20 questions
-        </Link>
+      {totalPractice >= 10 && (
+        <ChapterTestCard
+          chapterId={ch.id}
+          chapterTitle={ch.title}
+          countsByDifficulty={countsByDifficulty}
+        />
       )}
 
       <ol className="mt-6 divide-y divide-line overflow-hidden rounded-[var(--radius)] border border-line bg-surface">

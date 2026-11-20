@@ -9,6 +9,7 @@ import type {
   Answer, ExamContent, ExamResult, ItemResult, QuantSection, SampleEssay, SectionResult, VerbalSection,
 } from '@/types/official';
 import type { FigureTheme } from '@/lib/figure-theme';
+import { etsPercentile, ordinal } from '@/lib/gre-score';
 import { ExamImg, Paper } from './ExamImage';
 import { Markup } from './Markup';
 import { QuestionLayout } from './QuestionLayout';
@@ -25,20 +26,22 @@ function minutes(ms?: number): string | null {
 }
 
 function ScoreCard({
-  label, scaled, raw, total, tone,
+  label, kind, scaled, raw, total, tone,
 }: {
   label: string;
+  kind: 'verbal' | 'quant';
   scaled: number;
   raw: number;
   total: number;
   tone: string;
 }) {
+  const pct = etsPercentile(kind, scaled);
   return (
     <div className={cx('rounded-2xl border p-5', tone)}>
       <p className="text-xs uppercase tracking-wide text-muted">{label}</p>
       <p className="mt-1 text-5xl font-black tabular-nums">{scaled}</p>
       <p className="mt-1 text-sm text-muted">
-        {raw} / {total} correct · 130–170 scale
+        {raw} / {total} correct · 130–170 scale · {ordinal(pct)} percentile
       </p>
     </div>
   );
@@ -229,6 +232,7 @@ export function ExamResults({
         <div className="grid gap-4 sm:grid-cols-2">
           <ScoreCard
             label="Verbal Reasoning"
+            kind="verbal"
             scaled={result.verbal.scaled}
             raw={result.verbal.raw}
             total={result.verbal.total}
@@ -236,6 +240,7 @@ export function ExamResults({
           />
           <ScoreCard
             label="Quantitative Reasoning"
+            kind="quant"
             scaled={result.quant.scaled}
             raw={result.quant.raw}
             total={result.quant.total}

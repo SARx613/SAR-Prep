@@ -3,9 +3,11 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, Clock, Eye, EyeOff, LayoutGrid, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, Calculator as CalcIcon, Check, Clock, Eye, EyeOff, LayoutGrid, Shuffle, X } from 'lucide-react';
 import { grade as gradeQuestion, type Grade } from '@/lib/grading';
 import { answeredBefore, readAttempts, recordAttempts, type Attempt } from '@/lib/attempts';
+import { estimateSetScore, ordinal, questionPPlus } from '@/lib/gre-score';
+import { estimateScore } from '@/lib/mock';
 import { SESSION_TTL, clearSession, loadSession, pruneSessions, saveSession } from '@/lib/session';
 import type { ClientQuestion } from '@/content/types';
 import { Calculator } from './Calculator';
@@ -50,6 +52,11 @@ interface Props {
   skipAnswered?: boolean;
   /** If it returns a URL the player navigates there instead of showing results (mock section 1 → 2). */
   afterFinish?: (results: PlayerResult[]) => string | null;
+  /** Chapter tests: draw a fresh randomized set with an optional difficulty range. */
+  onNewTest?: (dMin: number, dMax: number) => void;
+  difficultyRange?: { dMin: number; dMax: number };
+  /** Mock section 2: carries section 1 results to show the exact combined 130–170 score. */
+  mockSummary?: { section: 'verbal' | 'quant'; part1Correct: number; part1Total: number; level: 'easy' | 'medium' | 'hard' } | null;
 }
 
 const fmtClock = (s: number) => {
@@ -59,9 +66,11 @@ const fmtClock = (s: number) => {
 
 interface Saved { idx: number; sels: Record<string, Selection>; marked: string[]; elapsed: number; graded: Record<string, { grade: Grade; ms: number }> }
 
-export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered }: Props) {
+export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, calculator, onRetryMissed, onComplete, attemptMode, storageKey, afterFinish, skipAnswered, onNewTest, difficultyRange, mockSummary }: Props) {
   const router = useRouter();
   const [idx, setIdx] = useState(0);
+  const [nextMin, setNextMin] = useState(difficultyRange?.dMin ?? 1);
+  const [nextMax, setNextMax] = useState(difficultyRange?.dMax ?? 5);
   const [sels, setSels] = useState<Record<string, Selection>>({});
   const [marked, setMarked] = useState<Set<string>>(new Set());
   const [graded, setGraded] = useState<Record<string, { grade: Grade; ms: number }>>({});
@@ -251,6 +260,27 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
     const correct = results.filter((r) => r.grade.isCorrect).length;
     const missed = results.filter((r) => !r.grade.isCorrect);
     const totalMs = results.reduce((a, r) => a + r.ms, 0);
+    const scoredItems = results.map((r) => ({
+      id: r.q.id,
+      section: r.q.section,
+      difficulty: r.q.difficulty,
+      correct: r.grade.isCorrect,
+    }));
+    const estimates = [
+      estimateSetScore(scoredItems, 'verbal'),
+      estimateSetScore(scoredItems, 'quant'),
+    ].filter((e): e is NonNullable<typeof e> => e !== null);
+    const mockEst = mockSummary
+      ? estimateScore(
+          mockSummary.part1Correct,
+          mockSummary.part1Total,
+          correct,
+          results.length,
+          mockSummary.level,
+          mockSummary.section,
+        )
+      : null;
+
     return (
       <div className="exam min-h-dvh">
         <div className="mx-auto max-w-3xl px-4 pb-16 pt-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
@@ -268,6 +298,54 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
             ))}
           </div>
 
+          {mockEst && mockSummary ? (
+            <section className="mt-4 rounded-[var(--radius)] border border-accent bg-accent-soft p-4" aria-label="Mock test score">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <p className="text-xs font-bold uppercase tracking-wide text-accent-ink">
+                  Mock {mockSummary.section === 'verbal' ? 'Verbal Reasoning' : 'Quantitative Reasoning'} Score
+                </p>
+                <span className="rounded-full bg-surface px-2.5 py-0.5 text-xs font-bold text-accent-ink">
+                  {ordinal(mockEst.percentile)} percentile
+                </span>
+              </div>
+              <p className="mt-1 text-3xl font-black tabular-nums">
+                {mockEst.scaled} <span className="text-base font-semibold text-muted">/ 170</span>
+              </p>
+              <p className="mt-1 text-xs text-muted">
+                Section 1 ({mockSummary.part1Correct}/{mockSummary.part1Total}) + Section 2{' '}
+                {mockSummary.level === 'hard' ? 'Hard' : mockSummary.level === 'medium' ? 'Medium' : 'Easy'}{' '}
+                ({correct}/{results.length}) = {mockEst.raw}/{mockEst.total} correct · exact PDF-calibrated scale.
+              </p>
+            </section>
+          ) : estimates.length > 0 ? (
+            <section className="mt-4 space-y-2" aria-label="Indicative GRE score estimate">
+              <div className={`grid gap-3 ${estimates.length > 1 ? 'sm:grid-cols-2' : ''}`}>
+                {estimates.map((est) => (
+                  <div key={est.section} className="rounded-[var(--radius)] border border-line-strong bg-surface p-4">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <p className="text-xs font-bold uppercase tracking-wide text-muted">
+                        {est.section === 'verbal' ? 'Verbal Reasoning Estimate' : 'Quantitative Reasoning Estimate'}
+                      </p>
+                      <span className="rounded-full bg-accent-soft px-2.5 py-0.5 text-xs font-bold text-accent-ink">
+                        {ordinal(est.percentile)} percentile
+                      </span>
+                    </div>
+                    <p className="mt-1 text-3xl font-black tabular-nums">
+                      {est.scaled} <span className="text-base font-semibold text-muted">/ 170</span>
+                      <span className="ml-2 text-xs font-medium text-muted">({est.low}–{est.high})</span>
+                    </p>
+                    <p className="mt-1 text-xs text-muted">
+                      {est.correct}/{est.total} correct · Avg difficulty {est.avgDifficulty.toFixed(1)}/5 · Avg ETS P+ ≈ {est.avgPPlus}%
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-muted">
+                Indicative GRE estimate calibrated against ETS Official Guide P+ item difficulties and score conversion tables.
+              </p>
+            </section>
+          ) : null}
+
           <ol className="mt-6 divide-y divide-line rounded-[var(--radius)] border border-line bg-surface">
             {results.map((r, i) => (
               <li key={r.q.id}>
@@ -280,14 +358,16 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
                   <span className={`grid h-6 w-6 place-items-center rounded-full text-white ${r.grade.isCorrect ? 'bg-good' : r.grade.incomplete ? 'bg-faint' : 'bg-bad'}`}>
                     {r.grade.isCorrect ? <Check size={14} /> : <X size={14} />}
                   </span>
-                  <span className="flex-1 text-sm">{r.q.type} · difficulty {r.q.difficulty}{r.grade.incomplete ? ' · unanswered' : ''}</span>
+                  <span className="flex-1 text-sm">
+                    {r.q.type} · difficulty {r.q.difficulty} · P+ ≈ {questionPPlus(r.q)}%{r.grade.incomplete ? ' · unanswered' : ''}
+                  </span>
                   <span className="text-xs tabular-nums text-muted">{Math.round(r.ms / 1000)}s / {r.q.estSeconds}s</span>
                 </button>
               </li>
             ))}
           </ol>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <Link href={backHref} className="inline-flex h-11 items-center rounded-[var(--radius)] border border-line-strong bg-surface px-5 text-sm font-semibold">Done</Link>
             {missed.length > 0 && onRetryMissed && (
               <button type="button" onClick={() => onRetryMissed(missed.map((r) => r.q.id))} className="h-11 rounded-[var(--radius)] bg-accent px-5 text-sm font-semibold text-accent-fg">
@@ -295,6 +375,52 @@ export function ExamPlayer({ title, questions, mode, timeLimitSec, backHref, cal
               </button>
             )}
           </div>
+
+          {onNewTest && (
+            <div className="mt-4 flex flex-wrap items-center gap-3 rounded-[var(--radius)] border border-line bg-surface p-4">
+              <div className="flex flex-wrap items-center gap-2 text-sm">
+                <span className="font-semibold">Levels:</span>
+                <label className="flex items-center gap-1.5">
+                  From
+                  <select
+                    aria-label="Minimum difficulty for new chapter test"
+                    value={nextMin}
+                    onChange={(e) => {
+                      const v = Number(e.target.value);
+                      setNextMin(v);
+                      if (v > nextMax) setNextMax(v);
+                    }}
+                    className="h-10 rounded-[var(--radius)] border border-line-strong bg-surface px-2 font-semibold"
+                  >
+                    {[1, 2, 3, 4, 5].map((d) => <option key={d} value={d}>{d}</option>)}
+                  </select>
+                </label>
+                <label className="flex items-center gap-1.5">
+                  to
+                  <select
+                    aria-label="Maximum difficulty for new chapter test"
+                    value={nextMax}
+                    onChange={(e) => {
+                      const v = Number(e.target.value);
+                      setNextMax(v);
+                      if (v < nextMin) setNextMin(v);
+                    }}
+                    className="h-10 rounded-[var(--radius)] border border-line-strong bg-surface px-2 font-semibold"
+                  >
+                    {[1, 2, 3, 4, 5].map((d) => <option key={d} value={d}>{d}</option>)}
+                  </select>
+                </label>
+              </div>
+              <button
+                type="button"
+                onClick={() => onNewTest(nextMin, nextMax)}
+                className="inline-flex h-11 items-center gap-2 rounded-[var(--radius)] border border-accent bg-accent-soft px-4 text-sm font-bold text-accent-ink hover:bg-surface-2"
+              >
+                <Shuffle size={15} aria-hidden />
+                New chapter test
+              </button>
+            </div>
+          )}
         </div>
       </div>
     );

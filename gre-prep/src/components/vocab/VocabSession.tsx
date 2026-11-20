@@ -8,6 +8,7 @@ import { useGameLoop, type PlayMode } from '@/hooks/useGameLoop';
 import { useLocalValue } from '@/hooks/useLocalValue';
 import { useShowTranslation } from '@/hooks/usePrefs';
 import { defaultProgress, parseProgress, PROGRESS_KEY } from '@/lib/storage';
+import { estimateVocabSeriesScore, ordinal } from '@/lib/gre-score';
 import { dailySeries, getSeries, nextSeries, recordSeriesRun, reviewSeries } from '@/lib/series';
 import { NO_SRS, SRS_KEY, parseSrs } from '@/lib/word-srs';
 
@@ -159,7 +160,7 @@ export function VocabSession({ seriesId }: { seriesId: string }) {
 
       <main className="mt-5">
         {done && result ? (
-          <Recap result={result} showFrench={showFrench} onReplay={() => replay()} onReplayMissed={() => replay(result.missed.map((w) => w.id))}
+          <Recap result={result} showFrench={showFrench} isEasyTheme={series.themeId === 'easy'} onReplay={() => replay()} onReplayMissed={() => replay(result.missed.map((w) => w.id))}
             next={upcoming && series.id !== 'review' && series.id !== 'daily' ? { href: `/flashcards/${upcoming.id}`, title: upcoming.title } : null} />
         ) : progress && currentWord ? (
           <Question key={`${currentWord.id}-${qMode}`} state={state} showFrench={showFrench} picked={picked}
@@ -276,12 +277,13 @@ function Question({ state, showFrench, picked, onAnswer, onNext, onFlip }: {
   );
 }
 
-function Recap({ result, showFrench, onReplay, onReplayMissed, next }: {
-  result: { total: number; correct: number; missed: Word[] }; showFrench: boolean;
+function Recap({ result, showFrench, isEasyTheme, onReplay, onReplayMissed, next }: {
+  result: { total: number; correct: number; missed: Word[] }; showFrench: boolean; isEasyTheme?: boolean;
   onReplay: () => void; onReplayMissed: () => void; next: { href: string; title: string } | null;
 }) {
   const pct = result.total ? Math.round((result.correct / result.total) * 100) : 0;
   const perfect = result.missed.length === 0;
+  const est = estimateVocabSeriesScore(result.correct, result.total, isEasyTheme);
   const r = 44, c = 2 * Math.PI * r;
   return (
     <div className={`${card} p-5 sm:p-7`}>
@@ -296,6 +298,18 @@ function Recap({ result, showFrench, onReplay, onReplayMissed, next }: {
           <h2 className="text-2xl font-extrabold tracking-tight">{perfect ? 'Perfect run' : 'Session complete'}</h2>
           <p className="mt-1 text-muted">{result.correct} of {result.total} right on the first try</p>
         </div>
+      </div>
+
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-[var(--radius)] border border-line-strong bg-surface-2 px-4 py-3">
+        <div>
+          <p className="text-xs font-bold uppercase tracking-wide text-muted">Indicative GRE Verbal Estimate</p>
+          <p className="text-sm font-semibold">
+            Verbal vocab estimate: <span className="font-extrabold text-accent-ink">{est.scaled} / 170</span>
+          </p>
+        </div>
+        <span className="rounded-full bg-accent-soft px-3 py-1 text-xs font-bold text-accent-ink">
+          {ordinal(est.percentile)} percentile
+        </span>
       </div>
 
       {result.missed.length > 0 && (

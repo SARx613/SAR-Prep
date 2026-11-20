@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildPart, estimateScore, levelFor, sectionEstimate } from '@/lib/mock';
+import { adaptiveLevelFor, buildPart, estimateScore, levelFor, sectionEstimate } from '@/lib/mock';
 import { buildPlan } from '@/lib/plan';
 import type { QIndexItem } from '@/content/qindex';
 
@@ -25,10 +25,10 @@ describe('mock sections', () => {
     expect(a).toEqual(b);
     expect(new Set(a).size).toBe(a.length);
   });
-  it('second section follows its level band', () => {
+  it('second section follows its level band (hard uses 4–5)', () => {
     const byId = new Map(pool.map((q) => [q.id, q]));
     const hard = buildPart(pool, 'quant', 2, 'hard', 'm2', new Set(buildPart(pool, 'quant', 1, 'avg', 'm2')));
-    expect(hard.every((id) => byId.get(id)!.difficulty >= 3)).toBe(true);
+    expect(hard.every((id) => byId.get(id)!.difficulty >= 4)).toBe(true);
     const easy = buildPart(pool, 'quant', 2, 'easy', 'm2');
     expect(easy.every((id) => byId.get(id)!.difficulty <= 3)).toBe(true);
   });
@@ -47,18 +47,26 @@ describe('mock sections', () => {
 });
 
 describe('adaptive level and estimate', () => {
-  it('routes by first-section score', () => {
+  it('always routes mock section 2 to hard while preserving adaptive thresholds', () => {
     expect(levelFor(10, 12)).toBe('hard');
-    expect(levelFor(6, 12)).toBe('medium');
-    expect(levelFor(3, 12)).toBe('easy');
+    expect(levelFor(6, 12)).toBe('hard');
+    expect(levelFor(3, 12)).toBe('hard');
+    expect(adaptiveLevelFor(10, 12)).toBe('hard');
+    expect(adaptiveLevelFor(6, 12)).toBe('medium');
+    expect(adaptiveLevelFor(3, 12)).toBe('easy');
   });
   it('a harder second section is worth more for the same raw score', () => {
-    const hard = estimateScore(8, 12, 9, 15, 'hard').mid, easy = estimateScore(8, 12, 9, 15, 'easy').mid;
+    const hard = estimateScore(8, 12, 9, 15, 'hard', 'quant').scaled;
+    const easy = estimateScore(8, 12, 9, 15, 'easy', 'quant').scaled;
     expect(hard).toBeGreaterThan(easy);
   });
-  it('stays within 130–170', () => {
-    expect(estimateScore(0, 12, 0, 15, 'easy').low).toBe(130);
-    expect(estimateScore(12, 12, 15, 15, 'hard').high).toBe(170);
+  it('stays within 130–170 with exact defined scaled score and percentile', () => {
+    expect(estimateScore(0, 12, 0, 15, 'easy', 'quant').low).toBe(130);
+    expect(estimateScore(0, 12, 0, 15, 'hard', 'verbal').scaled).toBe(130);
+    const maxQuant = estimateScore(12, 12, 15, 15, 'hard', 'quant');
+    expect(maxQuant.scaled).toBe(170);
+    expect(maxQuant.high).toBe(170);
+    expect(maxQuant.percentile).toBe(92);
   });
   it('needs both parts', () => {
     expect(sectionEstimate({ verbal1: { correct: 5, total: 12, ts: 1 } }, 'verbal')).toBeNull();

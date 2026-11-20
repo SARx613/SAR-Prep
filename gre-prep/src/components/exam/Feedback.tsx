@@ -3,6 +3,7 @@
 import { CheckCircle2, XCircle } from 'lucide-react';
 import { RichText } from '@/components/RichText';
 import type { Grade } from '@/lib/grading';
+import { questionPPlus } from '@/lib/gre-score';
 import type { ClientQuestion } from '@/content/types';
 import { choicesOf } from './selection';
 import { ReasonPicker } from './ReasonPicker';
@@ -17,17 +18,19 @@ export function Feedback({ q, grade, ms }: { q: ClientQuestion; grade: Grade; ms
 
   const wrong = Object.entries(q.choiceExplanations ?? {});
   const secs = ms !== undefined ? Math.round(ms / 1000) : null;
+  const pPlus = questionPPlus(q);
 
   return (
     <section aria-live="polite" className={`rounded-[var(--radius)] border p-4 ${grade.isCorrect ? 'border-good/50 bg-good-soft' : 'border-bad/50 bg-bad-soft'}`}>
-      <p className={`flex items-center gap-2 text-sm font-bold ${grade.isCorrect ? 'text-good' : 'text-bad'}`}>
-        {grade.isCorrect ? <CheckCircle2 size={18} aria-hidden /> : <XCircle size={18} aria-hidden />}
-        {grade.incomplete ? 'No answer' : grade.isCorrect ? 'Correct' : 'Not quite'}
-        {secs !== null && (
-          <span className="ml-auto text-xs font-medium text-muted">
-            {secs}s · target {q.estSeconds}s
-          </span>
-        )}
+      <p className={`flex flex-wrap items-center gap-x-2 gap-y-1 text-sm font-bold ${grade.isCorrect ? 'text-good' : 'text-bad'}`}>
+        <span className="inline-flex items-center gap-2">
+          {grade.isCorrect ? <CheckCircle2 size={18} aria-hidden /> : <XCircle size={18} aria-hidden />}
+          {grade.incomplete ? 'No answer' : grade.isCorrect ? 'Correct' : 'Not quite'}
+        </span>
+        <span className="ml-auto text-xs font-medium text-muted">
+          Difficulty {q.difficulty}/5 · ETS P+ ≈ {pPlus}%
+          {secs !== null ? ` · ${secs}s / target ${q.estSeconds}s` : ''}
+        </span>
       </p>
       <div className="mt-2 text-sm text-fg">
         <RichText>{q.explanation ?? ""}</RichText>

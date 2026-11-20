@@ -7,9 +7,17 @@ import { ExamPlayer } from './ExamPlayer';
 /* Runs a set and lets the learner go straight back at the questions they missed. */
 
 export function SetRunner({
-  title, questions, mode, timeLimitSec, backHref, storageKey, skipAnswered,
+  title, questions, mode, timeLimitSec, backHref, storageKey, skipAnswered, onNewTest, difficultyRange,
 }: {
-  title: string; questions: ClientQuestion[]; mode: 'tutor' | 'timed'; timeLimitSec?: number; backHref: string; storageKey: string; skipAnswered?: boolean;
+  title: string;
+  questions: ClientQuestion[];
+  mode: 'tutor' | 'timed';
+  timeLimitSec?: number;
+  backHref: string;
+  storageKey: string;
+  skipAnswered?: boolean;
+  onNewTest?: (dMin: number, dMax: number) => void;
+  difficultyRange?: { dMin: number; dMax: number };
 }) {
   const [round, setRound] = useState(0);
   const [subset, setSubset] = useState<string[] | null>(null);
@@ -25,6 +33,8 @@ export function SetRunner({
       storageKey={`${storageKey}:${round}`}
       skipAnswered={skipAnswered && round === 0 && !subset}
       onRetryMissed={(ids) => { setSubset(ids); setRound((r) => r + 1); }}
+      onNewTest={onNewTest}
+      difficultyRange={difficultyRange}
     />
   );
 }

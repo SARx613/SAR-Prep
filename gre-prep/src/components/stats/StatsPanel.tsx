@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 import { useAttempts } from '@/hooks/useAttempts';
 import { useReasons } from '@/hooks/usePrefs';
 import { REASON_LABEL } from '@/lib/prefs';
+import { estimateSetScore, ordinal } from '@/lib/gre-score';
 import { activityByDay, latestByQuestion } from '@/lib/stats';
 
 interface Props {
@@ -46,7 +47,16 @@ export function StatsPanel({ lessons, est }: Props) {
     const timed = real.filter((a) => est[a.qid]);
     const avg = timed.length ? timed.reduce((t, a) => t + a.ms / 1000, 0) / timed.length : null;
     const target = timed.length ? timed.reduce((t, a) => t + est[a.qid], 0) / timed.length : null;
-    return { n: real.length, acc: acc(real), byType, byDiff, byChapter, weakest, avg, target, mastered: [...latestByQuestion(attempts).values()].filter((a) => a.correct).length, activity: activityByDay(attempts, now) };
+    const latest = [...latestByQuestion(attempts).values()];
+    const quantEst = estimateSetScore(
+      latest.filter((a) => a.lessonId.startsWith('q')).map((a) => ({ id: a.qid, section: 'quant' as const, difficulty: a.difficulty, correct: a.correct })),
+      'quant',
+    );
+    const verbalEst = estimateSetScore(
+      latest.filter((a) => a.lessonId.startsWith('v')).map((a) => ({ id: a.qid, section: 'verbal' as const, difficulty: a.difficulty, correct: a.correct })),
+      'verbal',
+    );
+    return { n: real.length, acc: acc(real), byType, byDiff, byChapter, weakest, avg, target, mastered: latest.filter((a) => a.correct).length, activity: activityByDay(attempts, now), quantEst, verbalEst };
   }, [attempts, est, now]);
 
   const title = (id: string) => lessons.find((l) => l.id === id)?.title ?? id;
@@ -67,6 +77,44 @@ export function StatsPanel({ lessons, est }: Props) {
           <div key={k} className={card}><p className="text-2xl font-extrabold tabular-nums">{v}</p><p className="text-xs font-semibold uppercase tracking-wide text-muted">{k}</p></div>
         ))}
       </div>
+
+      {(s.verbalEst || s.quantEst) && (
+        <section className={card} aria-labelledby="gre-est">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 id="gre-est" className="font-bold">Indicative GRE Score Estimate</h2>
+            <span className="text-xs text-muted">130–170 scale · ETS percentiles</span>
+          </div>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2">
+            {[
+              { label: 'Verbal Reasoning', est: s.verbalEst },
+              { label: 'Quantitative Reasoning', est: s.quantEst },
+            ].map(({ label, est }) => (
+              <div key={label} className="rounded-[var(--radius)] border border-line bg-surface-2 p-3.5">
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-xs font-bold uppercase tracking-wide text-muted">{label}</p>
+                  {est && (
+                    <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-bold text-accent-ink">
+                      {ordinal(est.percentile)} %ile
+                    </span>
+                  )}
+                </div>
+                {est ? (
+                  <>
+                    <p className="mt-1 text-2xl font-extrabold tabular-nums">
+                      {est.scaled} <span className="text-sm font-medium text-muted">({est.low}–{est.high})</span>
+                    </p>
+                    <p className="mt-0.5 text-xs text-muted">
+                      {est.correct}/{est.total} questions · Avg difficulty {est.avgDifficulty.toFixed(1)}/5
+                    </p>
+                  </>
+                ) : (
+                  <p className="mt-1 text-sm text-muted">No questions answered yet</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {s.avg !== null && s.target !== null && (
         <section className={card}><h2 className="font-bold">Pace</h2>

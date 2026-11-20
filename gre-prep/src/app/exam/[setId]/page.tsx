@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
-import { content, getChapter, getChapterTest, getChapters, getSet } from '@/content';
+import { content, getChapter, getChapterQuestions, getChapters, getSet } from '@/content';
 import { ExamEntry } from '@/components/exam/ExamEntry';
 import { ExamSkeleton } from '@/components/exam/ExamSkeleton';
 
@@ -20,7 +20,7 @@ export function generateStaticParams() {
 export default async function ExamSetPage({ params }: { params: Promise<{ setId: string }> }) {
   const { setId } = await params;
   const chapterId = setId.startsWith('chapter-') ? setId.slice(8) : null;
-  const questions = chapterId ? getChapterTest(chapterId) : getSet(setId);
+  const questions = chapterId ? getChapterQuestions(chapterId) : getSet(setId);
   if (questions.length === 0) notFound();
 
   const lesson = content().syllabus.lessons.find((l) => l.id === setId);

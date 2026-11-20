@@ -6,7 +6,8 @@ import { ArrowRight, Flame, Layers, PenLine, Repeat, Timer } from 'lucide-react'
 import { useAttempts } from '@/hooks/useAttempts';
 import { useExamDate } from '@/hooks/usePrefs';
 import { Bar } from '@/components/learn/Progress';
-import { coverage, streak } from '@/lib/stats';
+import { estimateSetScore, ordinal } from '@/lib/gre-score';
+import { coverage, latestByQuestion, streak } from '@/lib/stats';
 import { buildQueue } from '@/lib/srs';
 import { loadProgress } from '@/lib/storage';
 
@@ -22,10 +23,23 @@ export function HomePanel({ lessons, wordTotal }: { lessons: HomeLesson[]; wordT
   const data = useMemo(() => {
     const quant = lessons.filter((l) => l.section === 'quant').flatMap((l) => l.qids);
     const verbal = lessons.filter((l) => l.section === 'verbal').flatMap((l) => l.qids);
+    const qSet = new Set(quant);
+    const vSet = new Set(verbal);
+    const latest = [...latestByQuestion(attempts).values()];
+    const quantEst = estimateSetScore(
+      latest.filter((a) => qSet.has(a.qid)).map((a) => ({ id: a.qid, section: 'quant' as const, difficulty: a.difficulty, correct: a.correct })),
+      'quant',
+    );
+    const verbalEst = estimateSetScore(
+      latest.filter((a) => vSet.has(a.qid)).map((a) => ({ id: a.qid, section: 'verbal' as const, difficulty: a.difficulty, correct: a.correct })),
+      'verbal',
+    );
     const next = lessons.find((l) => l.qids.length > 0 && coverage(attempts, l.qids).done < l.qids.length) ?? null;
     return {
       quant: coverage(attempts, quant),
       verbal: coverage(attempts, verbal),
+      quantEst,
+      verbalEst,
       next,
       nextDone: next ? coverage(attempts, next.qids).done : 0,
       due: buildQueue(attempts, now).due.length,
@@ -65,9 +79,19 @@ export function HomePanel({ lessons, wordTotal }: { lessons: HomeLesson[]; wordT
       <section className={card} aria-labelledby="cov">
         <h2 id="cov" className="text-xs font-bold uppercase tracking-wide text-faint">Questions mastered</h2>
         <div className="mt-3 space-y-4">
-          {([['Quantitative', data.quant], ['Verbal', data.verbal]] as const).map(([label, c]) => (
+          {([['Quantitative', data.quant, data.quantEst], ['Verbal', data.verbal, data.verbalEst]] as const).map(([label, c, est]) => (
             <div key={label}>
-              <div className="mb-1 flex justify-between text-sm"><span className="font-semibold">{label}</span><span className="text-muted">{c.accuracy === null ? '—' : `${Math.round(c.accuracy * 100)}% accuracy`}</span></div>
+              <div className="mb-1 flex flex-wrap items-center justify-between gap-2 text-sm">
+                <span className="font-semibold">{label}</span>
+                <span className="flex items-center gap-2 text-muted">
+                  <span>{c.accuracy === null ? '—' : `${Math.round(c.accuracy * 100)}% accuracy`}</span>
+                  {est && (
+                    <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-bold text-accent-ink">
+                      Est. {est.scaled} ({ordinal(est.percentile)} %ile)
+                    </span>
+                  )}
+                </span>
+              </div>
               <Bar value={c.done} max={c.total} label={`${label} questions mastered`} />
             </div>
           ))}

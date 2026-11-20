@@ -1,16 +1,14 @@
-/* Mock tests, the diagnostic, and the score estimate (PLAN §7).
+/* Mock tests, the diagnostic, and the exact defined mock score table.
  *
  * Mirrors the real structure: Verbal 12 + 15, Quant 12 + 15. The first
- * section of each measure is of average difficulty; the second is easier,
- * average or harder depending on how the first went (ETS: "section-level
- * adaptive"). Everything is deterministic from the mock number so a mock can
- * be resumed or re-opened and always shows the same questions.
- *
- * The score is OUR estimate from our own question calibration. It is not an
- * ETS score and the UI says so.
- */
+ * section of each measure is of average difficulty (levels 2–4); the second
+ * section always routes to the Hard module (levels 4–5) so every mock trains
+ * against top-tier difficulty and uses the exact 0–27 -> 130–170 scale.
+ * Everything is deterministic from the mock number so a mock can be resumed
+ * or re-opened and always shows the same questions. */
 
 import { Rng, hashSeed } from './generators/rng';
+import { mockScaledScore, type GreScoreEstimate } from './gre-score';
 import type { QIndexItem } from '@/content/qindex';
 
 export type Section = 'verbal' | 'quant';
@@ -18,10 +16,12 @@ export type Level = 'easy' | 'medium' | 'hard';
 
 export const MOCK_COUNT = 6;
 export const SECTION_SIZE = { 1: 12, 2: 15 } as const;
+/** Section 2 always uses the hard module (difficulty 4–5). */
+export const MOCK_SECTION2_LEVEL: Level = 'hard';
 /** Minutes allotted by ETS for each section part. */
 export const SECTION_MINUTES: Record<Section, { 1: number; 2: number }> = { verbal: { 1: 18, 2: 23 }, quant: { 1: 21, 2: 26 } };
 
-const BAND: Record<Level | 'avg', [number, number]> = { easy: [1, 3], medium: [2, 4], hard: [3, 5], avg: [2, 4] };
+const BAND: Record<Level | 'avg', [number, number]> = { easy: [1, 3], medium: [2, 4], hard: [4, 5], avg: [2, 4] };
 
 type Quotas = Record<string, number>;
 const QUOTAS: Record<Section, Record<1 | 2, Quotas>> = {
@@ -74,8 +74,11 @@ export function buildPart(index: QIndexItem[], section: Section, part: 1 | 2, le
   for (const [type, n] of Object.entries(QUOTAS[section][part])) {
     for (const id of pickType(inBand, type, n, rng, taken)) { ids.push(id); taken.add(id); }
   }
-  // Top up from the band, then from the whole section, if a type ran short.
-  for (const pool of [inBand, base]) {
+  // Top up from the band, then >= 3 (for hard section 2), then the whole section, if a type ran short.
+  const pools = part === 2 && level === 'hard'
+    ? [inBand, base.filter((q) => q.difficulty >= 3), base]
+    : [inBand, base];
+  for (const pool of pools) {
     for (const q of shuffled(pool, rng)) {
       if (ids.length >= size) break;
       if (!taken.has(q.id)) { ids.push(q.id); taken.add(q.id); }
@@ -86,22 +89,42 @@ export function buildPart(index: QIndexItem[], section: Section, part: 1 | 2, le
 
 export const mockSeed = (kind: string) => `mock:${kind}`;
 
-/** The second section's level from the first section's result. */
-export function levelFor(correct: number, total: number): Level {
+/** Reference adaptive thresholds on the real GRE (0.7+ -> hard, 0.4+ -> medium). */
+export function adaptiveLevelFor(correct: number, total: number): Level {
   const f = total ? correct / total : 0;
   return f >= 0.7 ? 'hard' : f >= 0.4 ? 'medium' : 'easy';
 }
 
-/** Raw accuracy is nudged by the level of the second section: the same raw score on a harder section means more. */
-const LEVEL_SHIFT: Record<Level, number> = { easy: -0.07, medium: 0, hard: 0.07 };
+/** In this app, section 2 always routes to the Hard module (difficulty 4–5). */
+export function levelFor(_correct?: number, _total?: number): Level {
+  void _correct;
+  void _total;
+  return MOCK_SECTION2_LEVEL;
+}
 
-export interface Estimate { low: number; mid: number; high: number }
+export interface Estimate {
+  scaled: number;
+  low: number;
+  mid: number;
+  high: number;
+  percentile: number;
+  raw: number;
+  total: number;
+}
 
-/** Rough 130–170 estimate. */
-export function estimateScore(s1: number, n1: number, s2: number, n2: number, level: Level): Estimate {
-  const f = (s1 + s2) / (n1 + n2) + LEVEL_SHIFT[level];
-  const mid = Math.round(130 + 40 * Math.min(1, Math.max(0, f)));
-  return { low: Math.max(130, mid - 3), mid, high: Math.min(170, mid + 3) };
+/** Exact defined 130–170 score & ETS percentile for a mock measure. */
+export function estimateScore(
+  s1: number,
+  n1: number,
+  s2: number,
+  n2: number,
+  level: Level = MOCK_SECTION2_LEVEL,
+  section: Section = 'quant',
+): Estimate {
+  const raw = s1 + s2;
+  const total = n1 + n2;
+  const res = mockScaledScore(section, raw, total, level);
+  return { ...res, raw, total };
 }
 
 /* ── Stored results (localStorage) ────────────────────────────────────── */
@@ -109,7 +132,10 @@ export function estimateScore(s1: number, n1: number, s2: number, n2: number, le
 export const MOCKS_KEY = 'sar-mocks-v1';
 
 export interface PartResult { correct: number; total: number; level?: Level; ts: number }
-export type MockRecord = Partial<Record<`${Section}${1 | 2}`, PartResult>> & { byChapter?: Record<string, { c: number; n: number }> };
+export type MockRecord = Partial<Record<`${Section}${1 | 2}`, PartResult>> & {
+  byChapter?: Record<string, { c: number; n: number }>;
+  diagScore?: { verbal: GreScoreEstimate | null; quant: GreScoreEstimate | null };
+};
 export type MockStore = Record<string, MockRecord>;
 
 export const NO_MOCKS: MockStore = {};
@@ -121,7 +147,7 @@ export const parseMocks = (raw: string | null): MockStore => {
 export function sectionEstimate(r: MockRecord | undefined, section: Section): Estimate | null {
   const a = r?.[`${section}1`], b = r?.[`${section}2`];
   if (!a || !b) return null;
-  return estimateScore(a.correct, a.total, b.correct, b.total, b.level ?? 'medium');
+  return estimateScore(a.correct, a.total, b.correct, b.total, b.level ?? MOCK_SECTION2_LEVEL, section);
 }
 
 /* ── Diagnostic: one question from each core chapter ──────────────────── */
@@ -140,12 +166,23 @@ export function buildDiagnostic(index: QIndexItem[]): { verbal: string[]; quant:
   };
 }
 
-export function recordMockPart(kind: string, section: Section | 'diag', part: 1 | 2, result: PartResult, byChapter?: Record<string, { c: number; n: number }>): void {
+export function recordMockPart(
+  kind: string,
+  section: Section | 'diag',
+  part: 1 | 2,
+  result: PartResult,
+  byChapter?: Record<string, { c: number; n: number }>,
+  diagScore?: { verbal: GreScoreEstimate | null; quant: GreScoreEstimate | null },
+): void {
   try {
     const store = parseMocks(localStorage.getItem(MOCKS_KEY));
     const rec: MockRecord = { ...(store[kind] ?? {}) };
-    if (section === 'diag') rec.byChapter = byChapter;
-    else rec[`${section}${part}`] = result;
+    if (section === 'diag') {
+      rec.byChapter = byChapter;
+      if (diagScore) rec.diagScore = diagScore;
+    } else {
+      rec[`${section}${part}`] = result;
+    }
     localStorage.setItem(MOCKS_KEY, JSON.stringify({ ...store, [kind]: rec }));
     window.dispatchEvent(new Event('gre-prep:storage'));
   } catch { /* storage blocked: the test still ran, it just isn't remembered */ }
