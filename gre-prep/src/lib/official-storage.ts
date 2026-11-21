@@ -1,5 +1,7 @@
-import type { Answer, ExamResult } from '@/types/official';
+import type { Answer, ExamResponses, ExamResult } from '@/types/official';
 import { writeLocal } from '@/lib/local-store';
+import { pendingErrata, remapAnswers } from '@/lib/official-errata';
+import { rescoreExam } from '@/app/actions/official';
 
 /* A test in progress lives in localStorage, so closing the tab or hitting
  * reload does not throw away three and a half hours. The clock is stored as
@@ -23,6 +25,8 @@ export interface RunState {
   sectionEndsAt: number | null;
   breakEndsAt: number | null;
   result: ExamResult | null;
+  /** Errata (official-errata.ts) already applied to these answers and this result. */
+  errata?: string[];
 }
 
 export const runKey = (examId: string) => `sar-exam-run:${examId}`;
@@ -111,4 +115,44 @@ export function pushLocalHistory(result: ExamResult): void {
   } catch {
     /* ignore */
   }
+}
+
+/* ── Errata ────────────────────────────────────────────────────────────── */
+
+/**
+ * Brings a saved run up to date with the errata published since it started:
+ * answers given on a wrongly displayed question are translated into the
+ * corrected question and, for a finished test, the score is computed again
+ * (the result and its history entry keep their original date). Returns the
+ * run as saved; an unchanged run when nothing applies or the server cannot be
+ * reached (the errata then stay pending for the next visit).
+ */
+export async function applyErrata(examId: string): Promise<RunState | null> {
+  const run = loadRun(examId);
+  if (!run || run.phase === 'submitting') return run;
+  const errata = pendingErrata(examId, run.startedAt, run.errata);
+  if (!errata.length) return run;
+  const answers = remapAnswers(run.answers, errata);
+  const applied = [...(run.errata ?? []), ...errata.map((e) => e.id)];
+  let result = run.result;
+  if (run.phase === 'done' && result) {
+    const ids = new Set([...Object.keys(answers), ...Object.keys(run.essays), ...Object.keys(result.sections)]);
+    const responses: ExamResponses = {};
+    for (const id of ids) responses[id] = { answers: answers[id] ?? {}, essay: run.essays[id] };
+    const old = result;
+    try {
+      result = await rescoreExam(examId, responses, run.timeMs, old.completedAt);
+    } catch {
+      return run;
+    }
+    const list = loadLocalHistory();
+    const i = list.findIndex((h) => h.examId === examId && h.completedAt === old.completedAt);
+    if (i >= 0) {
+      list[i] = { ...list[i], verbal: result.verbal.scaled, quant: result.quant.scaled };
+      writeLocal(HISTORY_KEY, JSON.stringify(list));
+    }
+  }
+  const next: RunState = { ...run, answers, result, errata: applied };
+  saveRun(next);
+  return next;
 }

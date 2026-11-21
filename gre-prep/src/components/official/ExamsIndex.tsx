@@ -1,10 +1,10 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ChevronRight, ClipboardCheck, Clock, History } from 'lucide-react';
 import type { ExamHistoryEntry, ExamMeta } from '@/types/official';
-import { HISTORY_KEY, parseLocalHistory, runKey } from '@/lib/official-storage';
+import { HISTORY_KEY, applyErrata, parseLocalHistory, runKey } from '@/lib/official-storage';
 import { useLocalString } from '@/lib/local-store';
 
 /* The list of full-length tests, with the scores of past attempts.
@@ -20,6 +20,10 @@ export function ExamsIndex({ exams }: { exams: ExamMeta[] }) {
     () => parseLocalHistory(rawLocal).map((h, i) => ({ id: `local-${i}`, ...h })),
     [rawLocal],
   );
+  // Rescore saved results affected by a question corrected since (official-errata.ts).
+  useEffect(() => {
+    for (const e of exams) void applyErrata(e.id);
+  }, [exams]);
 
   return (
     <div className="mx-auto max-w-3xl space-y-8 px-4 pb-10 sm:px-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>

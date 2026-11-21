@@ -87,3 +87,17 @@ export async function finishExam(
   const graded = gradeExam(exam.content, exam.key, sanitize(responses), timeMs);
   return { examId: id, completedAt: new Date().toISOString(), ...graded };
 }
+
+/** Scores a finished test again (after an erratum), keeping the date it was taken. */
+export async function rescoreExam(
+  id: string,
+  responses: ExamResponses,
+  timeMs: Record<string, Record<number, number>>,
+  completedAt: string,
+): Promise<ExamResult> {
+  const exam = (await loadExams())[id];
+  if (!exam) throw new Error('Unknown test');
+  const graded = gradeExam(exam.content, exam.key, sanitize(responses), timeMs);
+  const when = Number.isNaN(Date.parse(completedAt)) ? new Date().toISOString() : completedAt;
+  return { examId: id, completedAt: when, ...graded };
+}

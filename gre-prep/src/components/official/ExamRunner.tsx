@@ -14,7 +14,7 @@ import type {
 import { hasItems, isWriting } from '@/types/official';
 import type { FigureTheme } from '@/lib/figure-theme';
 import {
-  clearRun, loadRun, newRun, pushLocalHistory, saveRun, type RunState,
+  applyErrata, clearRun, loadRun, newRun, pushLocalHistory, saveRun, type RunState,
 } from '@/lib/official-storage';
 import { Calculator } from '@/components/exam/Calculator';
 import { QuestionLayout } from './QuestionLayout';
@@ -100,9 +100,18 @@ function Runner({ exam }: { exam: ExamContent }) {
   useEffect(() => {
     // localStorage only exists in the browser, so the saved run can only be read after mount.
     /* eslint-disable react-hooks/set-state-in-effect */
-    setRun(loadRun(exam.id));
+    const saved = loadRun(exam.id);
+    setRun(saved);
     setLoaded(true);
     /* eslint-enable react-hooks/set-state-in-effect */
+    // A question corrected since this run started: translate the old answers and rescore.
+    let live = true;
+    void applyErrata(exam.id).then((r) => {
+      if (live && r && r !== saved && r.errata?.length !== saved?.errata?.length) setRun(r);
+    });
+    return () => {
+      live = false;
+    };
   }, [exam.id]);
 
   useEffect(() => {
