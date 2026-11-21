@@ -69,10 +69,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Changes 'without explanation' are the opposite of transparent.",
-    "B": "Nothing suggests she consulted employees.",
+    "C": "Changes 'without explanation' are the opposite of transparent.",
+    "A": "Nothing suggests she consulted employees.",
     "D": "Constantly changing shifts is the opposite of inflexible.",
-    "E": "Stinginess is not described."
+    "B": "Stinginess is not described."
    },
    "type": "TC",
    "content": {
@@ -83,15 +83,15 @@
       "choices": [
        {
         "id": "A",
-        "text": "transparent"
-       },
-       {
-        "id": "B",
         "text": "collaborative"
        },
        {
+        "id": "B",
+        "text": "parsimonious"
+       },
+       {
         "id": "C",
-        "text": "capricious"
+        "text": "transparent"
        },
        {
         "id": "D",
@@ -99,7 +99,7 @@
        },
        {
         "id": "E",
-        "text": "parsimonious"
+        "text": "capricious"
        }
       ]
      }
@@ -107,7 +107,7 @@
    },
    "answer": {
     "blanks": [
-     "C"
+     "E"
     ]
    }
   },
@@ -128,10 +128,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Inconclusive findings would not be the reason to fund a larger trial 'although' the sample was small.",
-    "1C": "Predictability is not what prompts a follow-up trial.",
-    "2B": "Trials do not publicize findings; the issue is confirmation.",
-    "2C": "A trial does not 'fail to obscure' findings in any meaningful sense."
+    "1C": "Inconclusive findings would not be the reason to fund a larger trial 'although' the sample was small.",
+    "1B": "Predictability is not what prompts a follow-up trial.",
+    "2A": "Trials do not publicize findings; the issue is confirmation.",
+    "2B": "A trial does not 'fail to obscure' findings in any meaningful sense."
    },
    "type": "TC",
    "content": {
@@ -142,15 +142,15 @@
       "choices": [
        {
         "id": "1A",
-        "text": "inconclusive"
-       },
-       {
-        "id": "1B",
         "text": "suggestive"
        },
        {
-        "id": "1C",
+        "id": "1B",
         "text": "predictable"
+       },
+       {
+        "id": "1C",
+        "text": "inconclusive"
        }
       ]
      },
@@ -159,15 +159,15 @@
       "choices": [
        {
         "id": "2A",
-        "text": "replicate"
-       },
-       {
-        "id": "2B",
         "text": "publicize"
        },
        {
-        "id": "2C",
+        "id": "2B",
         "text": "obscure"
+       },
+       {
+        "id": "2C",
+        "text": "replicate"
        }
       ]
      }
@@ -175,8 +175,8 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2A"
+     "1A",
+     "2C"
     ]
    }
   },
@@ -197,10 +197,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Completeness would not make documents hard to find.",
-    "1C": "A catalogue built over generations is not short-lived.",
+    "1C": "Completeness would not make documents hard to find.",
+    "1A": "A catalogue built over generations is not short-lived.",
     "2A": "An older system would not be faster.",
-    "2B": "Elaborateness is not what makes a catalogue quick to use; it is the problem here."
+    "2C": "Elaborateness is not what makes a catalogue quick to use; it is the problem here."
    },
    "type": "TC",
    "content": {
@@ -211,7 +211,7 @@
       "choices": [
        {
         "id": "1A",
-        "text": "exhaustive"
+        "text": "ephemeral"
        },
        {
         "id": "1B",
@@ -219,7 +219,7 @@
        },
        {
         "id": "1C",
-        "text": "ephemeral"
+        "text": "exhaustive"
        }
       ]
      },
@@ -232,11 +232,11 @@
        },
        {
         "id": "2B",
-        "text": "elaborate"
+        "text": "rational"
        },
        {
         "id": "2C",
-        "text": "rational"
+        "text": "elaborate"
        }
       ]
      }
@@ -245,7 +245,7 @@
    "answer": {
     "blanks": [
      "1B",
-     "2C"
+     "2B"
     ]
    }
   },
@@ -266,12 +266,12 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Leaders who magnify discoveries are not modest about them.",
-    "1C": "The accounts are slanted, not unclear.",
-    "2A": "Sensational writing would not be tedious.",
+    "1B": "Leaders who magnify discoveries are not modest about them.",
+    "1A": "The accounts are slanted, not unclear.",
+    "2C": "Sensational writing would not be tedious.",
     "2B": "Lists of weather and rations are not mysterious.",
-    "3A": "Selectivity belongs to the leaders' accounts, not to diaries that record everything.",
-    "3C": "'Approximate precision' contradicts itself."
+    "3C": "Selectivity belongs to the leaders' accounts, not to diaries that record everything.",
+    "3B": "'Approximate precision' contradicts itself."
    },
    "type": "TC",
    "content": {
@@ -282,15 +282,15 @@
       "choices": [
        {
         "id": "1A",
-        "text": "self-effacing"
+        "text": "ambiguous"
        },
        {
         "id": "1B",
-        "text": "self-serving"
+        "text": "self-effacing"
        },
        {
         "id": "1C",
-        "text": "ambiguous"
+        "text": "self-serving"
        }
       ]
      },
@@ -299,7 +299,7 @@
       "choices": [
        {
         "id": "2A",
-        "text": "lurid"
+        "text": "prosaic"
        },
        {
         "id": "2B",
@@ -307,7 +307,7 @@
        },
        {
         "id": "2C",
-        "text": "prosaic"
+        "text": "lurid"
        }
       ]
      },
@@ -316,15 +316,15 @@
       "choices": [
        {
         "id": "3A",
-        "text": "selective"
-       },
-       {
-        "id": "3B",
         "text": "unvarying"
        },
        {
-        "id": "3C",
+        "id": "3B",
         "text": "approximate"
+       },
+       {
+        "id": "3C",
+        "text": "selective"
        }
       ]
      }
@@ -332,9 +332,9 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2C",
-     "3B"
+     "1C",
+     "2A",
+     "3A"
     ]
    }
   },
@@ -355,10 +355,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "Change over time is not discussed.",
-    "C": "Women are mentioned only in the last clause.",
-    "D": "The registers are accurate records of signatures; the issue is what signatures measure.",
-    "E": "Church teaching is a supporting detail."
+    "D": "Change over time is not discussed.",
+    "A": "Women are mentioned only in the last clause.",
+    "B": "The registers are accurate records of signatures; the issue is what signatures measure.",
+    "C": "Church teaching is a supporting detail."
    },
    "passageId": "x3-signatures",
    "type": "RC",
@@ -367,29 +367,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "evaluating a method that historians use to estimate a historical quantity"
-     },
-     {
-      "id": "B",
-      "text": "explaining why literacy increased in early modern Europe"
-     },
-     {
-      "id": "C",
       "text": "contrasting the education of men and women in early modern Europe"
      },
      {
-      "id": "D",
+      "id": "B",
       "text": "arguing that marriage registers are unreliable historical sources"
      },
      {
-      "id": "E",
+      "id": "C",
       "text": "describing how reading was taught in early modern churches"
+     },
+     {
+      "id": "D",
+      "text": "explaining why literacy increased in early modern Europe"
+     },
+     {
+      "id": "E",
+      "text": "evaluating a method that historians use to estimate a historical quantity"
      }
     ]
    },
    "answer": {
     "choices": [
-     "A"
+     "E"
     ]
    }
   },
@@ -412,8 +412,8 @@
    "choiceExplanations": {
     "A": "Better record keeping would not close the gap between reading and signing.",
     "C": "More signers would not fix the fact that readers could not sign.",
-    "D": "Costlier writing materials would widen the gap.",
-    "E": "Shorter schooling for girls would widen the gap."
+    "E": "Costlier writing materials would widen the gap.",
+    "D": "Shorter schooling for girls would widen the gap."
    },
    "passageId": "x3-signatures",
    "type": "RC",
@@ -434,11 +434,11 @@
      },
      {
       "id": "D",
-      "text": "paper and ink were more expensive"
+      "text": "girls' schooling was cut short more often"
      },
      {
       "id": "E",
-      "text": "girls' schooling was cut short more often"
+      "text": "paper and ink were more expensive"
      }
     ]
    },
@@ -453,7 +453,7 @@
    "lessonId": "v3-05-inference",
    "difficulty": 3,
    "stem": "Consider each of the three answer choices separately and select all that apply.\n\nThe passage mentions which of the following as advantages of using signatures as evidence of literacy?",
-   "explanation": "'Such documents survive in large numbers' (A) and 'span every social class' (B). Nothing is said about print versus handwriting.",
+   "explanation": "'Such documents survive in large numbers' (B) and 'span every social class' (A). Nothing is said about print versus handwriting.",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -474,11 +474,11 @@
     "choices": [
      {
       "id": "A",
-      "text": "The documents that contain them survive in large numbers."
+      "text": "They come from people of every social class."
      },
      {
       "id": "B",
-      "text": "They come from people of every social class."
+      "text": "The documents that contain them survive in large numbers."
      },
      {
       "id": "C",
@@ -510,10 +510,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "An obvious decision being seen as wise is no contrast.",
-    "C": "Unanimity does not contrast with later approval.",
-    "E": "Lateness is not opposed to wisdom in the way the sentence needs.",
-    "F": "Secrecy does not contrast with being seen as wise."
+    "C": "Prudent pairs with judicious and matches 'wise', but 'though' needs a judgment at the time that clashes with the later praise.",
+    "D": "Unanimity does not contrast with later approval.",
+    "B": "Lateness is not opposed to wisdom in the way the sentence needs.",
+    "F": "Judicious pairs with prudent; a decision thought wise then and wise now leaves 'though' with nothing to contrast."
    },
    "type": "SE",
    "content": {
@@ -521,34 +521,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "obvious"
-     },
-     {
-      "id": "B",
       "text": "controversial"
      },
      {
-      "id": "C",
-      "text": "unanimous"
-     },
-     {
-      "id": "D",
-      "text": "contentious"
-     },
-     {
-      "id": "E",
+      "id": "B",
       "text": "belated"
      },
      {
+      "id": "C",
+      "text": "prudent"
+     },
+     {
+      "id": "D",
+      "text": "unanimous"
+     },
+     {
+      "id": "E",
+      "text": "contentious"
+     },
+     {
       "id": "F",
-      "text": "secret"
+      "text": "judicious"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "A",
+     "E"
     ]
    }
   },
@@ -569,10 +569,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Reluctant praise does not suggest irony.",
-    "C": "Restrained praise is the opposite of suspicious excess.",
-    "E": "Precision does not make praise seem ironic.",
-    "F": "Anonymity does not make praise ironic."
+    "D": "Reluctant praise does not suggest irony.",
+    "A": "Restrained praise is the opposite of suspicious excess.",
+    "F": "Restrained pairs with measured, but modest praise would not make the novelist suspect irony.",
+    "B": "Anonymity does not make praise ironic."
    },
    "type": "SE",
    "content": {
@@ -580,34 +580,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "grudging"
-     },
-     {
-      "id": "B",
-      "text": "effusive"
-     },
-     {
-      "id": "C",
       "text": "measured"
      },
      {
+      "id": "B",
+      "text": "anonymous"
+     },
+     {
+      "id": "C",
+      "text": "effusive"
+     },
+     {
       "id": "D",
-      "text": "fulsome"
+      "text": "grudging"
      },
      {
       "id": "E",
-      "text": "precise"
+      "text": "fulsome"
      },
      {
       "id": "F",
-      "text": "anonymous"
+      "text": "restrained"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "C",
+     "E"
     ]
    }
   },
@@ -628,10 +628,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "'Hardly a conformist… nonetheless willing to defy' has no contrast: a nonconformist would be expected to defy.",
-    "C": "Rabble-rousing is not the contrast with defying one's party.",
-    "D": "Hardly a flatterer, she defies her party: no contrast.",
-    "F": "Hardly a partisan, she defies her party: no contrast."
+    "D": "'Hardly a conformist… nonetheless willing to defy' has no contrast: a nonconformist would be expected to defy.",
+    "E": "Loyalist pairs with conformist; 'hardly ... nonetheless' calls for a temperament that would make defiance expected.",
+    "A": "Hardly a flatterer, she defies her party: no contrast.",
+    "B": "Hardly a partisan, she defies her party: no contrast."
    },
    "type": "SE",
    "content": {
@@ -639,34 +639,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "conformist"
-     },
-     {
-      "id": "B",
-      "text": "maverick"
-     },
-     {
-      "id": "C",
-      "text": "demagogue"
-     },
-     {
-      "id": "D",
       "text": "sycophant"
      },
      {
+      "id": "B",
+      "text": "partisan"
+     },
+     {
+      "id": "C",
+      "text": "maverick"
+     },
+     {
+      "id": "D",
+      "text": "conformist"
+     },
+     {
       "id": "E",
-      "text": "renegade"
+      "text": "loyalist"
      },
      {
       "id": "F",
-      "text": "partisan"
+      "text": "renegade"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "E"
+     "C",
+     "F"
     ]
    }
   },
@@ -687,10 +687,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "This weakens the proposal: something else may be driving the decline.",
-    "C": "Other birds' diets do not bear on this species' decline.",
-    "D": "Where it winters is not evidence for or against the shrub hypothesis.",
-    "E": "This suggests another cause of food shortage, which if anything weakens the proposal."
+    "D": "This weakens the proposal: something else may be driving the decline.",
+    "E": "Other birds' diets do not bear on this species' decline.",
+    "C": "Where it winters is not evidence for or against the shrub hypothesis.",
+    "B": "This suggests another cause of food shortage, which if anything weakens the proposal."
    },
    "passageId": "x3-shrub",
    "type": "RC",
@@ -699,29 +699,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "The songbird has also declined in forests that the shrub has not reached."
-     },
-     {
-      "id": "B",
       "text": "In parts of Westmoor Forest from which the shrub has been removed, the songbird's numbers have recovered."
      },
      {
-      "id": "C",
-      "text": "Several other bird species eat the berries of the invasive shrub."
+      "id": "B",
+      "text": "The native plants in Westmoor Forest produce fewer berries in unusually dry years."
      },
      {
-      "id": "D",
+      "id": "C",
       "text": "The songbird spends the winter in regions far from Westmoor Forest."
      },
      {
+      "id": "D",
+      "text": "The songbird has also declined in forests that the shrub has not reached."
+     },
+     {
       "id": "E",
-      "text": "The native plants in Westmoor Forest produce fewer berries in unusually dry years."
+      "text": "Several other bird species eat the berries of the invasive shrub."
      }
     ]
    },
    "answer": {
     "choices": [
-     "B"
+     "A"
     ]
    }
   },
@@ -742,9 +742,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "The author does not rank the buildings' merits.",
-    "C": "Tours and exhibitions belong to the campaigns for concrete buildings.",
-    "D": "The successful campaigns aim to change taste.",
+    "D": "The author does not rank the buildings' merits.",
+    "B": "Tours and exhibitions belong to the campaigns for concrete buildings.",
+    "A": "The successful campaigns aim to change taste.",
     "E": "No such criticism is made."
    },
    "passageId": "x3-preservation",
@@ -754,19 +754,19 @@
     "choices": [
      {
       "id": "A",
-      "text": "highlight, by contrast, a difficulty faced by those who seek to preserve mid-twentieth-century buildings"
+      "text": "suggest that public taste in architecture rarely changes"
      },
      {
       "id": "B",
-      "text": "argue that Victorian buildings deserve preservation more than concrete buildings do"
-     },
-     {
-      "id": "C",
       "text": "give an example of a campaign that began with tours and exhibitions"
      },
      {
+      "id": "C",
+      "text": "highlight, by contrast, a difficulty faced by those who seek to preserve mid-twentieth-century buildings"
+     },
+     {
       "id": "D",
-      "text": "suggest that public taste in architecture rarely changes"
+      "text": "argue that Victorian buildings deserve preservation more than concrete buildings do"
      },
      {
       "id": "E",
@@ -776,7 +776,7 @@
    },
    "answer": {
     "choices": [
-     "A"
+     "C"
     ]
    }
   }
@@ -799,10 +799,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Crystal-clear prose would leave no room to claim misunderstanding.",
-    "B": "Informal language is not especially open to multiple readings.",
-    "D": "Ornate is not the same as ambiguous.",
-    "E": "Brevity alone does not make a text ambiguous; the key idea is deliberate obscurity."
+    "C": "Crystal-clear prose would leave no room to claim misunderstanding.",
+    "D": "Informal language is not especially open to multiple readings.",
+    "E": "Ornate is not the same as ambiguous.",
+    "B": "Brevity alone does not make a text ambiguous; the key idea is deliberate obscurity."
    },
    "type": "TC",
    "content": {
@@ -813,23 +813,23 @@
       "choices": [
        {
         "id": "A",
-        "text": "pellucid"
-       },
-       {
-        "id": "B",
-        "text": "colloquial"
-       },
-       {
-        "id": "C",
         "text": "oracular"
        },
        {
+        "id": "B",
+        "text": "laconic"
+       },
+       {
+        "id": "C",
+        "text": "pellucid"
+       },
+       {
         "id": "D",
-        "text": "florid"
+        "text": "colloquial"
        },
        {
         "id": "E",
-        "text": "laconic"
+        "text": "florid"
        }
       ]
      }
@@ -837,7 +837,7 @@
    },
    "answer": {
     "blanks": [
-     "C"
+     "A"
     ]
    }
   },
@@ -860,8 +860,8 @@
    "choiceExplanations": {
     "1A": "'Need not inspire' would not fit 'indeed', which strengthens the defense of admiring the poems.",
     "1C": "Petty letters were never a reason to admire the poems.",
-    "2A": "A man consumed by grievances is not serene.",
-    "2B": "The length of his life is not at issue."
+    "2B": "A man consumed by grievances is not serene.",
+    "2A": "The length of his life is not at issue."
    },
    "type": "TC",
    "content": {
@@ -889,11 +889,11 @@
       "choices": [
        {
         "id": "2A",
-        "text": "serenity"
+        "text": "brevity"
        },
        {
         "id": "2B",
-        "text": "brevity"
+        "text": "serenity"
        },
        {
         "id": "2C",
@@ -996,12 +996,12 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "'Despite' needs plentiful evidence; 'steady paucity' also makes little sense.",
+    "1B": "'Despite' needs plentiful evidence; 'steady paucity' also makes little sense.",
     "1C": "Ambiguous evidence would make their persistence unsurprising.",
-    "2A": "Dismissing every anomaly is not chastened.",
+    "2C": "Dismissing every anomaly is not chastened.",
     "2B": "They acted together in dismissing anomalies.",
     "3B": "'Rather than any flawed experiment' gives the wrong contrast.",
-    "3C": "Cost has nothing to do with changing minds."
+    "3A": "Cost has nothing to do with changing minds."
    },
    "type": "TC",
    "content": {
@@ -1012,11 +1012,11 @@
       "choices": [
        {
         "id": "1A",
-        "text": "paucity"
+        "text": "accumulation"
        },
        {
         "id": "1B",
-        "text": "accumulation"
+        "text": "paucity"
        },
        {
         "id": "1C",
@@ -1029,7 +1029,7 @@
       "choices": [
        {
         "id": "2A",
-        "text": "chastened"
+        "text": "unshaken"
        },
        {
         "id": "2B",
@@ -1037,7 +1037,7 @@
        },
        {
         "id": "2C",
-        "text": "unshaken"
+        "text": "chastened"
        }
       ]
      },
@@ -1046,7 +1046,7 @@
       "choices": [
        {
         "id": "3A",
-        "text": "decisive"
+        "text": "inexpensive"
        },
        {
         "id": "3B",
@@ -1054,7 +1054,7 @@
        },
        {
         "id": "3C",
-        "text": "inexpensive"
+        "text": "decisive"
        }
       ]
      }
@@ -1062,19 +1062,19 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2C",
-     "3A"
+     "1A",
+     "2A",
+     "3C"
     ]
    }
   },
   {
    "id": "x3-v2-05",
-   "lessonId": "v3-09-long-passages",
+   "lessonId": "v3-04-meaning-in-context",
    "difficulty": 4,
-   "stem": "The primary purpose of the passage is to",
-   "explanation": "The passage states the paradox, lists explanations, develops the electrification analogy at length, and ends with 'Yet the analogy's explanatory value is easy to overstate'.",
-   "estSeconds": 100,
+   "stem": "In the context in which it appears, “accommodated” (paragraph 3) most nearly means",
+   "explanation": "Because the analogy predicted a lag without saying how long, 'almost any delay between investment and payoff could be accommodated': the account could allow for, or make room for, any delay — which is why it 'explains less'.",
+   "estSeconds": 60,
    "skills": [
     "reading-comprehension"
    ],
@@ -1085,10 +1085,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "That is one explanation mentioned in paragraph 1.",
-    "C": "Electrification is used as an analogy, not compared in detail.",
-    "D": "The author warns that the late-1990s acceleration only 'seemed to bear it out'.",
-    "E": "Factory owners adopted motors; the issue is why gains were slow."
+    "E": "The literal sense (to provide lodging) does not apply to delays.",
+    "B": "To accommodate a person is to do them a favour; a delay is not being obliged.",
+    "C": "Nothing is changed to fit the delay; the analogy already fits it as it stands.",
+    "A": "Accommodate can mean to settle a dispute, but no dispute is being resolved."
    },
    "passageId": "x3-productivity",
    "type": "RC",
@@ -1097,29 +1097,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "present an influential explanation for an economic puzzle and point out a limitation of that explanation"
+      "text": "settled"
      },
      {
       "id": "B",
-      "text": "argue that productivity statistics systematically understate the benefits of new technologies"
+      "text": "obliged"
      },
      {
       "id": "C",
-      "text": "compare in detail the economic effects of electrification and of computerization"
+      "text": "adapted"
      },
      {
       "id": "D",
-      "text": "demonstrate that the productivity paradox was resolved by the faster growth of the late 1990s"
+      "text": "allowed for"
      },
      {
       "id": "E",
-      "text": "explain why factory owners were slow to adopt electric motors"
+      "text": "housed"
      }
     ]
    },
    "answer": {
     "choices": [
-     "A"
+     "D"
     ]
    }
   },
@@ -1141,9 +1141,9 @@
    },
    "choiceExplanations": {
     "A": "The events 'seemed to bear it out'; the author doubts the analogy's explanatory value.",
-    "C": "Adoption rates are not discussed.",
-    "D": "The author does not rank the explanations.",
-    "E": "The analogy appealed because it was reassuring, not because of distrust of statistics."
+    "B": "Adoption rates are not discussed.",
+    "E": "The author does not rank the explanations.",
+    "D": "The analogy appealed because it was reassuring, not because of distrust of statistics."
    },
    "passageId": "x3-productivity",
    "type": "RC",
@@ -1156,25 +1156,25 @@
      },
      {
       "id": "B",
-      "text": "It would have more explanatory value if it had specified how long the lag between investment and payoff would last."
-     },
-     {
-      "id": "C",
       "text": "It wrongly assumes that computers and electric motors were adopted at similar rates."
      },
      {
+      "id": "C",
+      "text": "It would have more explanatory value if it had specified how long the lag between investment and payoff would last."
+     },
+     {
       "id": "D",
-      "text": "It is less plausible than the claim that statistics fail to capture the benefits of computing."
+      "text": "It appealed chiefly to economists who distrusted productivity statistics."
      },
      {
       "id": "E",
-      "text": "It appealed chiefly to economists who distrusted productivity statistics."
+      "text": "It is less plausible than the claim that statistics fail to capture the benefits of computing."
      }
     ]
    },
    "answer": {
     "choices": [
-     "B"
+     "C"
     ]
    }
   },
@@ -1209,7 +1209,7 @@
    "lessonId": "v3-09-long-passages",
    "difficulty": 4,
    "stem": "Consider each of the three answer choices separately and select all that apply.\n\nAccording to the passage, which of the following was proposed as an explanation for the lack of measured productivity gains from computers?",
-   "explanation": "Paragraph 1 gives (A) and (B); paragraph 3 gives (C), the analogy-based explanation. All three were proposed.",
+   "explanation": "Paragraph 1 gives (B) and (A); paragraph 3 gives (C), the analogy-based explanation. All three were proposed.",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -1227,11 +1227,11 @@
     "choices": [
      {
       "id": "A",
-      "text": "Some benefits of computing are not easily recorded as increases in output."
+      "text": "Investment in computers was too small, relative to the economy, to have a measurable effect."
      },
      {
       "id": "B",
-      "text": "Investment in computers was too small, relative to the economy, to have a measurable effect."
+      "text": "Some benefits of computing are not easily recorded as increases in output."
      },
      {
       "id": "C",
@@ -1264,10 +1264,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "An aggressive manner would put opponents on guard.",
-    "C": "Unpredictable moods would draw attention.",
-    "E": "A loud, harsh manner would draw attention.",
-    "F": "Fussiness over details would not lull opponents."
+    "E": "An aggressive manner would put opponents on guard.",
+    "F": "Unpredictable moods would draw attention.",
+    "D": "A loud, harsh manner would draw attention.",
+    "C": "Fussiness over details would not lull opponents."
    },
    "type": "SE",
    "content": {
@@ -1275,34 +1275,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "truculent"
-     },
-     {
-      "id": "B",
       "text": "unassuming"
      },
      {
-      "id": "C",
-      "text": "mercurial"
-     },
-     {
-      "id": "D",
+      "id": "B",
       "text": "unobtrusive"
      },
      {
-      "id": "E",
+      "id": "C",
+      "text": "pedantic"
+     },
+     {
+      "id": "D",
       "text": "strident"
      },
      {
+      "id": "E",
+      "text": "truculent"
+     },
+     {
       "id": "F",
-      "text": "pedantic"
+      "text": "mercurial"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "A",
+     "B"
     ]
    }
   },
@@ -1324,9 +1324,9 @@
    },
    "choiceExplanations": {
     "A": "Withholding documents shows it was not genuine.",
-    "C": "Unwavering is praise; the colon shows hypocrisy.",
-    "E": "Nothing about spreading to others.",
-    "F": "Lateness is not what the colon describes."
+    "B": "Unwavering is praise; the colon shows hypocrisy.",
+    "F": "Heartfelt pairs with genuine, but withholding documents shows the commitment was not sincere.",
+    "E": "Lateness is not what the colon describes."
    },
    "type": "SE",
    "content": {
@@ -1338,11 +1338,11 @@
      },
      {
       "id": "B",
-      "text": "nominal"
+      "text": "unwavering"
      },
      {
       "id": "C",
-      "text": "unwavering"
+      "text": "nominal"
      },
      {
       "id": "D",
@@ -1350,17 +1350,17 @@
      },
      {
       "id": "E",
-      "text": "contagious"
+      "text": "belated"
      },
      {
       "id": "F",
-      "text": "belated"
+      "text": "heartfelt"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
+     "C",
      "D"
     ]
    }
@@ -1382,10 +1382,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Inflaming is what actually happened; 'rather than' needs the opposite.",
-    "C": "The remarks were meant to calm, not to take advantage.",
-    "E": "Recording the controversy is not the intended calming.",
-    "F": "Prolonging is close to what happened, not the intention."
+    "F": "Inflaming is what actually happened; 'rather than' needs the opposite.",
+    "E": "The remarks were meant to calm, not to take advantage.",
+    "C": "Exacerbating pairs with inflaming — what the remarks actually did, not what they were meant to do.",
+    "B": "Prolonging is close to what happened, not the intention."
    },
    "type": "SE",
    "content": {
@@ -1393,15 +1393,15 @@
     "choices": [
      {
       "id": "A",
-      "text": "inflaming"
-     },
-     {
-      "id": "B",
       "text": "defusing"
      },
      {
+      "id": "B",
+      "text": "prolonging"
+     },
+     {
       "id": "C",
-      "text": "exploiting"
+      "text": "exacerbating"
      },
      {
       "id": "D",
@@ -1409,17 +1409,17 @@
      },
      {
       "id": "E",
-      "text": "documenting"
+      "text": "exploiting"
      },
      {
       "id": "F",
-      "text": "prolonging"
+      "text": "inflaming"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
+     "A",
      "D"
     ]
    }
@@ -1441,10 +1441,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Eliding (passing over) is close to ignoring.",
-    "C": "Distorting objections would not earn credit.",
-    "E": "Adding objections to her own position is not the contrast with ignoring them.",
-    "F": "Inventing objections is not the contrast with ignoring them."
+    "D": "Eliding (passing over) is close to ignoring.",
+    "E": "Distorting objections would not earn credit.",
+    "F": "Adding objections to her own position is not the contrast with ignoring them.",
+    "B": "Sidestepping pairs with eliding; both mean avoiding, which 'rather than ignoring them' excludes."
    },
    "type": "SE",
    "content": {
@@ -1452,34 +1452,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "eliding"
-     },
-     {
-      "id": "B",
       "text": "confronting"
      },
      {
-      "id": "C",
-      "text": "caricaturing"
+      "id": "B",
+      "text": "sidestepping"
      },
      {
-      "id": "D",
+      "id": "C",
       "text": "addressing"
      },
      {
+      "id": "D",
+      "text": "eliding"
+     },
+     {
       "id": "E",
-      "text": "multiplying"
+      "text": "caricaturing"
      },
      {
       "id": "F",
-      "text": "inventing"
+      "text": "multiplying"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "A",
+     "C"
     ]
    }
   },
@@ -1500,10 +1500,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "Heat-tolerant algae are linked to some corals that survive bleaching, not to variable reefs.",
+    "E": "Heat-tolerant algae are linked to some corals that survive bleaching, not to variable reefs.",
     "C": "The comparison is explicitly within the same species.",
-    "D": "Too strong: they bleach less readily, and the author warns against assuming indefinite tolerance.",
-    "E": "Recovery speed is not compared."
+    "A": "Too strong: they bleach less readily, and the author warns against assuming indefinite tolerance.",
+    "D": "Recovery speed is not compared."
    },
    "passageId": "x3-coral",
    "type": "RC",
@@ -1512,11 +1512,11 @@
     "choices": [
      {
       "id": "A",
-      "text": "are less likely to bleach than corals of the same species on thermally stable reefs"
+      "text": "are unaffected by rising ocean temperatures"
      },
      {
       "id": "B",
-      "text": "host only heat-tolerant types of algae"
+      "text": "are less likely to bleach than corals of the same species on thermally stable reefs"
      },
      {
       "id": "C",
@@ -1524,17 +1524,17 @@
      },
      {
       "id": "D",
-      "text": "are unaffected by rising ocean temperatures"
+      "text": "recover more quickly from bleaching than other corals do"
      },
      {
       "id": "E",
-      "text": "recover more quickly from bleaching than other corals do"
+      "text": "host only heat-tolerant types of algae"
      }
     ]
    },
    "answer": {
     "choices": [
-     "A"
+     "B"
     ]
    }
   },
@@ -1555,10 +1555,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "The author accepts the findings and draws a conclusion from them.",
-    "C": "Bleaching is defined in the first sentence, not here.",
-    "D": "No new evidence is offered.",
-    "E": "The author suggests warming may outpace adjustment, not that it will slow."
+    "C": "The author accepts the findings and draws a conclusion from them.",
+    "B": "Bleaching is defined in the first sentence, not here.",
+    "E": "No new evidence is offered.",
+    "A": "The author suggests warming may outpace adjustment, not that it will slow."
    },
    "passageId": "x3-coral",
    "type": "RC",
@@ -1567,29 +1567,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "guard against an overly optimistic interpretation of the findings just described"
+      "text": "predict that the rate of ocean warming will slow"
      },
      {
       "id": "B",
-      "text": "reject the findings as unreliable"
-     },
-     {
-      "id": "C",
       "text": "explain the mechanism by which corals bleach"
      },
      {
+      "id": "C",
+      "text": "reject the findings as unreliable"
+     },
+     {
       "id": "D",
-      "text": "introduce evidence that contradicts the findings"
+      "text": "guard against an overly optimistic interpretation of the findings just described"
      },
      {
       "id": "E",
-      "text": "predict that the rate of ocean warming will slow"
+      "text": "introduce evidence that contradicts the findings"
      }
     ]
    },
    "answer": {
     "choices": [
-     "A"
+     "D"
     ]
    }
   },
@@ -1610,10 +1610,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "Certification might matter to quality, but the decisive question is whether the program caused the gap.",
-    "C": "Other schools are irrelevant to the plan's effect at Halvorsen.",
-    "D": "Cost bears on affordability, not on whether grades will rise.",
-    "E": "The location of sessions does not bear on the program's effect."
+    "D": "Certification might matter to quality, but the decisive question is whether the program caused the gap.",
+    "B": "Other schools are irrelevant to the plan's effect at Halvorsen.",
+    "E": "Cost bears on affordability, not on whether grades will rise.",
+    "C": "The location of sessions does not bear on the program's effect."
    },
    "passageId": "x3-tutoring",
    "type": "RC",
@@ -1626,19 +1626,19 @@
      },
      {
       "id": "B",
-      "text": "Whether the tutors in the program are certified teachers"
-     },
-     {
-      "id": "C",
       "text": "Whether students at other schools have access to similar programs"
      },
      {
+      "id": "C",
+      "text": "Whether the program's sessions are held in the school library"
+     },
+     {
       "id": "D",
-      "text": "Whether the program costs more than the school's other after-school activities"
+      "text": "Whether the tutors in the program are certified teachers"
      },
      {
       "id": "E",
-      "text": "Whether the program's sessions are held in the school library"
+      "text": "Whether the program costs more than the school's other after-school activities"
      }
     ]
    },

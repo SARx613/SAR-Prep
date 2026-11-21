@@ -1166,11 +1166,11 @@
   },
   {
    "id": "x1-q2-13",
-   "lessonId": "q2-26-coordinate-plane-skills",
-   "difficulty": 4,
-   "stem": "In the $xy$-plane, a circle has center $(-2,4)$ and passes through the point $(2,1)$. Which of the following points also lies on the circle?",
-   "explanation": "Radius: $\\sqrt{(2+2)^2+(1-4)^2}=\\sqrt{16+9}=5$. For $(1,8)$: $\\sqrt{3^2+4^2}=5$. The others are at distances $6$, $\\sqrt{32}$, $\\sqrt{20}$ and $\\sqrt{26}$.",
-   "estSeconds": 100,
+   "lessonId": "q1-22-decimal-expansions",
+   "difficulty": 5,
+   "stem": "When $\\dfrac{1}{(2^9)(5^6)}$ is written as a decimal, how many zeros are there between the decimal point and the first nonzero digit?",
+   "explanation": "Pair each 5 with a 2: $(2^9)(5^6)=(2^3)(10^6)$, so the number is $\\dfrac{1}{8}\\times10^{-6}=0.125\\times10^{-6}=0.000000125$. There are **6** zeros before the 1.",
+   "estSeconds": 120,
    "skills": [
     "problem-solving"
    ],
@@ -1181,10 +1181,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Distance $6$ (straight down from the center).",
-    "B": "Distance $\\sqrt{4^2+4^2}=\\sqrt{32}$.",
-    "C": "Distance $\\sqrt{2^2+4^2}=\\sqrt{20}$.",
-    "E": "Distance $\\sqrt{5^2+1^2}=\\sqrt{26}$."
+    "A": "Five zeros is the count for $10^{-6}=0.000001$; multiplying by $\\frac18=0.125$ moves the first nonzero digit one place further right.",
+    "C": "One too many: $0.125\\times10^{-6}=1.25\\times10^{-7}$, whose first nonzero digit is the 7th after the point, so 6 zeros precede it.",
+    "D": "This treats $\\frac18$ as if it were $0.00125$; in fact $\\frac18=0.125$.",
+    "E": "Using the exponent of 2 is the trap; only the six 2–5 pairs make powers of ten."
    },
    "type": "PS",
    "content": {
@@ -1192,29 +1192,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "$(-2,-2)$"
+      "text": "$5$"
      },
      {
       "id": "B",
-      "text": "$(-6,0)$"
+      "text": "$6$"
      },
      {
       "id": "C",
-      "text": "$(0,0)$"
+      "text": "$7$"
      },
      {
       "id": "D",
-      "text": "$(1,8)$"
+      "text": "$8$"
      },
      {
       "id": "E",
-      "text": "$(3,5)$"
+      "text": "$9$"
      }
     ]
    },
    "answer": {
     "choices": [
-     "D"
+     "B"
     ]
    }
   },

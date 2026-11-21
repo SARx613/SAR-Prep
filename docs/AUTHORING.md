@@ -16,6 +16,11 @@ gre-prep/content/
 ```
 
 Exam-style tests keep the real order inside a section (Verbal: TC, RC, SE, RC; Quant: QC first, then PS/NE, one DI set of 3).
+They are calibrated on the two official ETS practice tests (private repository): every SE item has a "trap pair" of
+synonyms that fit a misreading; each exam has one vocabulary-in-context RC question ("most nearly means"); answer
+positions are spread across all letters (official keys use D and E as often as A); hard Quant sections include the
+official signature types (an "individually sufficient" select-all, number properties such as decimal expansions or
+prime factors of a factorial, QC that turns on an unstated condition like "different primes").
 `content:check` enforces 12 + 15 questions, the right formats per measure, passages defined in the same file with their
 questions consecutive, and no duplicate of a practice-bank item. Never reuse a practice-bank scenario in an exam.
 

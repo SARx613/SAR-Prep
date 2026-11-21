@@ -1282,10 +1282,10 @@
   },
   {
    "id": "x2-q2-14",
-   "lessonId": "q2-17-sequences",
+   "lessonId": "q1-16-prime-factorization-tools",
    "difficulty": 5,
-   "stem": "In a sequence, $a_1=2$ and $a_n=3a_{n-1}-2$ for every integer $n\\ge2$. What is the value of $a_6$?",
-   "explanation": "Compute: $2, 4, 10, 28, 82, 244$. (Pattern: $a_n=3^{n-1}+1$, so $a_6=243+1$.)",
+   "stem": "What is the greatest integer $k$ for which $6^k$ is a factor of $20!$?",
+   "explanation": "$6^k=2^k3^k$, so $k$ is limited by the scarcer prime. Factors of 3 in $20!$: $\\lfloor 20/3\\rfloor+\\lfloor 20/9\\rfloor=6+2=8$. Factors of 2: $10+5+2+1=18$. The 3s run out first, so $k=8$.",
    "estSeconds": 110,
    "skills": [
     "numeric-entry"
@@ -1301,7 +1301,7 @@
     "format": "integer"
    },
    "answer": {
-    "value": 244
+    "value": 8
    }
   },
   {

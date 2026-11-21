@@ -70,9 +70,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Scathing describes what the portrait *is*; 'anything but' needs the opposite.",
-    "B": "Unsparing, like scathing, describes what the portrait *is*; 'anything but' needs the opposite.",
-    "D": "She is not torn; she refuses to excuse him.",
+    "B": "Scathing describes what the portrait *is*; 'anything but' needs the opposite.",
+    "D": "Unsparing, like scathing, describes what the portrait *is*; 'anything but' needs the opposite.",
+    "C": "She is not torn; she refuses to excuse him.",
     "E": "Nothing concerns guesswork or evidence."
    },
    "type": "TC",
@@ -84,19 +84,19 @@
       "choices": [
        {
         "id": "A",
-        "text": "scathing"
-       },
-       {
-        "id": "B",
-        "text": "unsparing"
-       },
-       {
-        "id": "C",
         "text": "hagiographic"
        },
        {
-        "id": "D",
+        "id": "B",
+        "text": "scathing"
+       },
+       {
+        "id": "C",
         "text": "ambivalent"
+       },
+       {
+        "id": "D",
+        "text": "unsparing"
        },
        {
         "id": "E",
@@ -108,7 +108,7 @@
    },
    "answer": {
     "blanks": [
-     "C"
+     "A"
     ]
    }
   },
@@ -131,7 +131,7 @@
    "choiceExplanations": {
     "1A": "Preserving specimens is not 'cataloguing their features'.",
     "1C": "Discarding specimens contradicts cataloguing them.",
-    "2A": "That is the naturalists' view, which Okafor opposed.",
+    "2C": "That is the naturalists' view, which Okafor opposed.",
     "2B": "Fashion is beside the point; the issue is the value of description without explanation."
    },
    "type": "TC",
@@ -160,7 +160,7 @@
       "choices": [
        {
         "id": "2A",
-        "text": "sufficient"
+        "text": "sterile"
        },
        {
         "id": "2B",
@@ -168,7 +168,7 @@
        },
        {
         "id": "2C",
-        "text": "sterile"
+        "text": "sufficient"
        }
       ]
      }
@@ -177,7 +177,7 @@
    "answer": {
     "blanks": [
      "1B",
-     "2C"
+     "2A"
     ]
    }
   },
@@ -199,9 +199,9 @@
    },
    "choiceExplanations": {
     "1A": "The recession did arrive, so the forecast was not unfounded.",
-    "1C": "It arrived within months, as predicted.",
-    "2A": "The onset came as predicted; 'milder' describes intensity.",
-    "2B": "'Milder' describes intensity, not length."
+    "1B": "It arrived within months, as predicted.",
+    "2B": "The onset came as predicted; 'milder' describes intensity.",
+    "2C": "'Milder' describes intensity, not length."
    },
    "type": "TC",
    "content": {
@@ -216,11 +216,11 @@
        },
        {
         "id": "1B",
-        "text": "prescient"
+        "text": "premature"
        },
        {
         "id": "1C",
-        "text": "premature"
+        "text": "prescient"
        }
       ]
      },
@@ -229,15 +229,15 @@
       "choices": [
        {
         "id": "2A",
-        "text": "onset"
+        "text": "severity"
        },
        {
         "id": "2B",
-        "text": "duration"
+        "text": "onset"
        },
        {
         "id": "2C",
-        "text": "severity"
+        "text": "duration"
        }
       ]
      }
@@ -245,8 +245,8 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2C"
+     "1C",
+     "2A"
     ]
    }
   },
@@ -267,11 +267,11 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Wealth is not what 'sealed off' restates.",
-    "1C": "Quarrelsomeness is not what 'sealed off' restates.",
-    "2A": "One does not 'conflate' an image with records; the point is that they conflict.",
-    "2B": "'Difficult to dismiss with' is not idiomatic and reverses the logic.",
-    "3B": "A negligible trade would not contradict the image of isolation.",
+    "1B": "Wealth is not what 'sealed off' restates.",
+    "1A": "Quarrelsomeness is not what 'sealed off' restates.",
+    "2C": "One does not 'conflate' an image with records; the point is that they conflict.",
+    "2A": "'Difficult to dismiss with' is not idiomatic and reverses the logic.",
+    "3A": "A negligible trade would not contradict the image of isolation.",
     "3C": "Records of open trade with merchants across the region do not suggest secrecy."
    },
    "type": "TC",
@@ -283,15 +283,15 @@
       "choices": [
        {
         "id": "1A",
-        "text": "prosperous"
+        "text": "contentious"
        },
        {
         "id": "1B",
-        "text": "insular"
+        "text": "prosperous"
        },
        {
         "id": "1C",
-        "text": "contentious"
+        "text": "insular"
        }
       ]
      },
@@ -300,15 +300,15 @@
       "choices": [
        {
         "id": "2A",
-        "text": "conflate"
-       },
-       {
-        "id": "2B",
         "text": "dismiss"
        },
        {
-        "id": "2C",
+        "id": "2B",
         "text": "reconcile"
+       },
+       {
+        "id": "2C",
+        "text": "conflate"
        }
       ]
      },
@@ -317,11 +317,11 @@
       "choices": [
        {
         "id": "3A",
-        "text": "brisk"
+        "text": "negligible"
        },
        {
         "id": "3B",
-        "text": "negligible"
+        "text": "brisk"
        },
        {
         "id": "3C",
@@ -333,9 +333,9 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2C",
-     "3A"
+     "1C",
+     "2B",
+     "3B"
     ]
    }
   },
@@ -356,9 +356,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "The training claim is made in paragraph 1 and is unrelated to the time limit.",
-    "C": "Conservatories are mentioned only to show modern taste.",
-    "D": "The exaggeration point concerns the horn, and it is reported as some scholars' suspicion, not shown.",
+    "C": "The training claim is made in paragraph 1 and is unrelated to the time limit.",
+    "A": "Conservatories are mentioned only to show modern taste.",
+    "B": "The exaggeration point concerns the horn, and it is reported as some scholars' suspicion, not shown.",
     "E": "The author argues the reverse: the recordings may be even better evidence than supposed."
    },
    "passageId": "x2-recordings",
@@ -368,19 +368,19 @@
     "choices": [
      {
       "id": "A",
-      "text": "support the claim that early performers had trained with musicians active in the mid-nineteenth century"
-     },
-     {
-      "id": "B",
-      "text": "identify a condition that, in the author's view, weakens rather than supports one reason for distrusting the recordings"
-     },
-     {
-      "id": "C",
       "text": "explain why present-day conservatories discourage audible sliding between notes"
      },
      {
-      "id": "D",
+      "id": "B",
       "text": "show that early performers deliberately exaggerated their effects for the recording horn"
+     },
+     {
+      "id": "C",
+      "text": "support the claim that early performers had trained with musicians active in the mid-nineteenth century"
+     },
+     {
+      "id": "D",
+      "text": "identify a condition that, in the author's view, weakens rather than supports one reason for distrusting the recordings"
      },
      {
       "id": "E",
@@ -390,7 +390,7 @@
    },
    "answer": {
     "choices": [
-     "B"
+     "D"
     ]
    }
   },
@@ -399,7 +399,7 @@
    "lessonId": "v3-05-inference",
    "difficulty": 4,
    "stem": "Consider each of the three answer choices separately and select all that apply.\n\nIt can be inferred from the passage that the scholars who hesitate to treat the recordings as evidence",
-   "explanation": "They argue that recording 'distorted performance' (A); calling the result a distortion presupposes that it departs from how the musicians normally played (C). The training of the performers is stated by the author and never questioned (B).",
+   "explanation": "They argue that recording 'distorted performance' (C); calling the result a distortion presupposes that it departs from how the musicians normally played (A). The training of the performers is stated by the author and never questioned (B).",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -420,7 +420,7 @@
     "choices": [
      {
       "id": "A",
-      "text": "believe that the recording process may have affected the way the performers played"
+      "text": "assume that any distortions caused by recording would make the recorded performances differ from the performers' usual playing"
      },
      {
       "id": "B",
@@ -428,7 +428,7 @@
      },
      {
       "id": "C",
-      "text": "assume that any distortions caused by recording would make the recorded performances differ from the performers' usual playing"
+      "text": "believe that the recording process may have affected the way the performers played"
      }
     ]
    },
@@ -456,10 +456,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "The author argues against the objection.",
-    "C": "The tone is measured, not scornful.",
-    "D": "The author does not accept the objection.",
-    "E": "The author engages the objection directly."
+    "D": "The author argues against the objection.",
+    "B": "The tone is measured, not scornful.",
+    "E": "The author does not accept the objection.",
+    "A": "The author engages the objection directly."
    },
    "passageId": "x2-recordings",
    "type": "RC",
@@ -468,29 +468,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "wholehearted endorsement"
+      "text": "studied indifference"
      },
      {
       "id": "B",
-      "text": "reasoned skepticism"
-     },
-     {
-      "id": "C",
       "text": "contemptuous dismissal"
      },
      {
+      "id": "C",
+      "text": "reasoned skepticism"
+     },
+     {
       "id": "D",
-      "text": "reluctant acceptance"
+      "text": "wholehearted endorsement"
      },
      {
       "id": "E",
-      "text": "studied indifference"
+      "text": "reluctant acceptance"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B"
+     "C"
     ]
    }
   },
@@ -512,9 +512,9 @@
    },
    "choiceExplanations": {
     "A": "Wordiness is not the opposite of disorganization.",
-    "C": "Engaging is not the opposite of hard to follow.",
-    "E": "Popularity is not the contrast drawn.",
-    "F": "Nothing concerns disagreement."
+    "E": "Engaging is not the opposite of hard to follow.",
+    "C": "Captivating pairs with engaging, but appeal is not organization; the contrast with 'disorganized' calls for clarity.",
+    "B": "Nothing concerns disagreement."
    },
    "type": "SE",
    "content": {
@@ -526,30 +526,30 @@
      },
      {
       "id": "B",
-      "text": "lucid"
+      "text": "controversial"
      },
      {
       "id": "C",
-      "text": "engaging"
+      "text": "captivating"
      },
      {
       "id": "D",
-      "text": "coherent"
+      "text": "lucid"
      },
      {
       "id": "E",
-      "text": "popular"
+      "text": "engaging"
      },
      {
       "id": "F",
-      "text": "controversial"
+      "text": "coherent"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "D",
+     "F"
     ]
    }
   },
@@ -570,10 +570,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Enthusiasts would not need to be won over.",
-    "C": "Secrecy does not contrast with being won over.",
-    "E": "Being informed does not contrast with being persuaded.",
-    "F": "Unanimity says nothing about their attitude."
+    "F": "Enthusiasts would not need to be won over.",
+    "A": "Secrecy does not contrast with being won over.",
+    "C": "Sanguine (optimistic) pairs with enthusiastic, but board members who were already hopeful would not need to be 'won over'.",
+    "B": "Unanimity says nothing about their attitude."
    },
    "type": "SE",
    "content": {
@@ -581,34 +581,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "enthusiastic"
-     },
-     {
-      "id": "B",
-      "text": "skeptical"
-     },
-     {
-      "id": "C",
       "text": "secretive"
      },
      {
+      "id": "B",
+      "text": "unanimous"
+     },
+     {
+      "id": "C",
+      "text": "sanguine"
+     },
+     {
       "id": "D",
-      "text": "dubious"
+      "text": "skeptical"
      },
      {
       "id": "E",
-      "text": "informed"
+      "text": "dubious"
      },
      {
       "id": "F",
-      "text": "unanimous"
+      "text": "enthusiastic"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "D",
+     "E"
     ]
    }
   },
@@ -629,9 +629,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Measured describes the proposals, not the rhetoric.",
-    "C": "Practical describes the mild proposals, not the radical talk.",
-    "E": "Fussiness over detail is not the contrast.",
+    "C": "Measured describes the proposals, not the rhetoric.",
+    "E": "Practical describes the mild proposals, not the radical talk.",
+    "B": "Temperate pairs with measured, but mild rhetoric would not contrast with proposals that changed little.",
     "F": "Vagueness is not opposed to leaving institutions intact."
    },
    "type": "SE",
@@ -640,15 +640,15 @@
     "choices": [
      {
       "id": "A",
-      "text": "measured"
-     },
-     {
-      "id": "B",
       "text": "incendiary"
      },
      {
+      "id": "B",
+      "text": "temperate"
+     },
+     {
       "id": "C",
-      "text": "pragmatic"
+      "text": "measured"
      },
      {
       "id": "D",
@@ -656,7 +656,7 @@
      },
      {
       "id": "E",
-      "text": "pedantic"
+      "text": "pragmatic"
      },
      {
       "id": "F",
@@ -666,7 +666,7 @@
    },
    "answer": {
     "choices": [
-     "B",
+     "A",
      "D"
     ]
    }
@@ -676,7 +676,7 @@
    "lessonId": "v3-08-evaluate-arguments",
    "difficulty": 3,
    "stem": "Which of the following, if true, most helps to explain why the total number of scooter-related injuries also fell?",
-   "explanation": "Helmets prevent head injuries only, so why did *all* injuries fall? If the rule drove many riders away (C), there were fewer rides and so fewer injuries of every kind.",
+   "explanation": "Helmets prevent head injuries only, so why did *all* injuries fall? If the rule drove many riders away (E), there were fewer rides and so fewer injuries of every kind.",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -688,10 +688,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "This deepens the puzzle: helmets should not reduce other injuries.",
+    "C": "This deepens the puzzle: helmets should not reduce other injuries.",
     "B": "Severity does not explain a fall in the number of all injuries.",
-    "D": "Prior helmet use would make the fall in head injuries smaller, and says nothing about other injuries.",
-    "E": "Bicycle injuries are outside the comparison."
+    "A": "Prior helmet use would make the fall in head injuries smaller, and says nothing about other injuries.",
+    "D": "Bicycle injuries are outside the comparison."
    },
    "passageId": "x2-helmets",
    "type": "RC",
@@ -700,7 +700,7 @@
     "choices": [
      {
       "id": "A",
-      "text": "Helmets protect riders against head injuries but not against injuries to the arms and legs."
+      "text": "Before the requirement, some riders already wore helmets voluntarily."
      },
      {
       "id": "B",
@@ -708,21 +708,21 @@
      },
      {
       "id": "C",
-      "text": "Many people who did not want to wear helmets stopped renting scooters once the requirement took effect."
+      "text": "Helmets protect riders against head injuries but not against injuries to the arms and legs."
      },
      {
       "id": "D",
-      "text": "Before the requirement, some riders already wore helmets voluntarily."
+      "text": "The city's hospitals treated more bicycle-related injuries during the same period."
      },
      {
       "id": "E",
-      "text": "The city's hospitals treated more bicycle-related injuries during the same period."
+      "text": "Many people who did not want to wear helmets stopped renting scooters once the requirement took effect."
      }
     ]
    },
    "answer": {
     "choices": [
-     "C"
+     "E"
     ]
    }
   },
@@ -770,10 +770,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "A gradual, signalled shift is not the opposite of a principled one.",
-    "C": "Calculation is not opposed to gradualness; the sentence contrasts speed.",
-    "D": "Lateness is not the opposite of a gradual change.",
-    "E": "Whether it can be undone is beside the point."
+    "C": "A gradual, signalled shift is not the opposite of a principled one.",
+    "E": "Calculation is not opposed to gradualness; the sentence contrasts speed.",
+    "B": "Lateness is not the opposite of a gradual change.",
+    "A": "Whether it can be undone is beside the point."
    },
    "type": "TC",
    "content": {
@@ -784,23 +784,23 @@
       "choices": [
        {
         "id": "A",
-        "text": "principled"
+        "text": "irrevocable"
        },
        {
         "id": "B",
-        "text": "precipitate"
-       },
-       {
-        "id": "C",
-        "text": "calculated"
-       },
-       {
-        "id": "D",
         "text": "belated"
        },
        {
+        "id": "C",
+        "text": "principled"
+       },
+       {
+        "id": "D",
+        "text": "precipitate"
+       },
+       {
         "id": "E",
-        "text": "irrevocable"
+        "text": "calculated"
        }
       ]
      }
@@ -808,7 +808,7 @@
    },
    "answer": {
     "blanks": [
-     "B"
+     "D"
     ]
    }
   },
@@ -829,10 +829,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Exuberance is the opposite of economy.",
-    "1B": "'This economy' restates the praised quality; ambiguity is not economy.",
+    "1B": "Exuberance is the opposite of economy.",
+    "1C": "'This economy' restates the praised quality; ambiguity is not economy.",
     "2A": "Characters who reveal little would not seem extraordinarily gifted.",
-    "2C": "Nothing suggests rabble-rousing; the problem is that they reveal too little."
+    "2B": "Nothing suggests rabble-rousing; the problem is that they reveal too little."
    },
    "type": "TC",
    "content": {
@@ -843,15 +843,15 @@
       "choices": [
        {
         "id": "1A",
-        "text": "exuberance"
+        "text": "concision"
        },
        {
         "id": "1B",
-        "text": "ambiguity"
+        "text": "exuberance"
        },
        {
         "id": "1C",
-        "text": "concision"
+        "text": "ambiguity"
        }
       ]
      },
@@ -864,11 +864,11 @@
        },
        {
         "id": "2B",
-        "text": "ciphers"
+        "text": "demagogues"
        },
        {
         "id": "2C",
-        "text": "demagogues"
+        "text": "ciphers"
        }
       ]
      }
@@ -876,8 +876,8 @@
    },
    "answer": {
     "blanks": [
-     "1C",
-     "2B"
+     "1A",
+     "2C"
     ]
    }
   },
@@ -899,9 +899,9 @@
    },
    "choiceExplanations": {
     "1A": "Abundant evidence would justify confidence, not undercut it.",
-    "1B": "Consistent evidence would also justify confidence.",
-    "2A": "Diligence is a virtue; 'less a mark of insight than of…' needs a fault.",
-    "2C": "Learning is a virtue; the sentence needs a fault."
+    "1C": "Consistent evidence would also justify confidence.",
+    "2B": "Diligence is a virtue; 'less a mark of insight than of…' needs a fault.",
+    "2A": "Learning is a virtue; the sentence needs a fault."
    },
    "type": "TC",
    "content": {
@@ -916,11 +916,11 @@
        },
        {
         "id": "1B",
-        "text": "consistent"
+        "text": "fragmentary"
        },
        {
         "id": "1C",
-        "text": "fragmentary"
+        "text": "consistent"
        }
       ]
      },
@@ -929,15 +929,15 @@
       "choices": [
        {
         "id": "2A",
-        "text": "diligence"
+        "text": "erudition"
        },
        {
         "id": "2B",
-        "text": "presumption"
+        "text": "diligence"
        },
        {
         "id": "2C",
-        "text": "erudition"
+        "text": "presumption"
        }
       ]
      }
@@ -945,8 +945,8 @@
    },
    "answer": {
     "blanks": [
-     "1C",
-     "2B"
+     "1B",
+     "2C"
     ]
    }
   },
@@ -967,12 +967,12 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "1A": "Tempering judgments makes one more deferential, so she would not fear seeming so.",
+    "1B": "Tempering judgments makes one more deferential, so she would not fear seeming so.",
     "1C": "Qualifications make one seem more indecisive, the opposite of what she feared.",
-    "2A": "Boldness is not what tempering judgments aims at.",
-    "2B": "Fame or infamy is not what qualifications aim at.",
+    "2B": "Boldness is not what tempering judgments aims at.",
+    "2C": "Fame or infamy is not what qualifications aim at.",
     "3A": "Overconfidence is close to 'forthright error', the thing readers forgive.",
-    "3C": "Fussiness over details is not the contrast with forthrightness."
+    "3B": "Fussiness over details is not the contrast with forthrightness."
    },
    "type": "TC",
    "content": {
@@ -983,11 +983,11 @@
       "choices": [
        {
         "id": "1A",
-        "text": "deferential"
+        "text": "presumptuous"
        },
        {
         "id": "1B",
-        "text": "presumptuous"
+        "text": "deferential"
        },
        {
         "id": "1C",
@@ -1000,15 +1000,15 @@
       "choices": [
        {
         "id": "2A",
-        "text": "audacity"
+        "text": "judiciousness"
        },
        {
         "id": "2B",
-        "text": "notoriety"
+        "text": "audacity"
        },
        {
         "id": "2C",
-        "text": "judiciousness"
+        "text": "notoriety"
        }
       ]
      },
@@ -1021,11 +1021,11 @@
        },
        {
         "id": "3B",
-        "text": "evasiveness"
+        "text": "pedantry"
        },
        {
         "id": "3C",
-        "text": "pedantry"
+        "text": "evasiveness"
        }
       ]
      }
@@ -1033,9 +1033,9 @@
    },
    "answer": {
     "blanks": [
-     "1B",
-     "2C",
-     "3B"
+     "1A",
+     "2A",
+     "3C"
     ]
    }
   },
@@ -1056,9 +1056,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "That is one part of paragraph 1.",
+    "D": "That is one part of paragraph 1.",
     "C": "The author reports the defense and ends by questioning it.",
-    "D": "Too broad; only one generalization is discussed.",
+    "A": "Too broad; only one generalization is discussed.",
     "E": "No other animals are discussed."
    },
    "passageId": "x2-island-rule",
@@ -1068,11 +1068,11 @@
     "choices": [
      {
       "id": "A",
-      "text": "describing a biological generalization, presenting challenges to it, and presenting a response to those challenges"
+      "text": "arguing that generalizations in biogeography are inherently unreliable"
      },
      {
       "id": "B",
-      "text": "explaining why large mammals evolve smaller bodies after colonizing islands"
+      "text": "describing a biological generalization, presenting challenges to it, and presenting a response to those challenges"
      },
      {
       "id": "C",
@@ -1080,7 +1080,7 @@
      },
      {
       "id": "D",
-      "text": "arguing that generalizations in biogeography are inherently unreliable"
+      "text": "explaining why large mammals evolve smaller bodies after colonizing islands"
      },
      {
       "id": "E",
@@ -1090,7 +1090,7 @@
    },
    "answer": {
     "choices": [
-     "A"
+     "B"
     ]
    }
   },
@@ -1111,10 +1111,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "The closing doubt shows the author is not fully persuaded.",
-    "B": "Too strong: the author raises a question, not a verdict.",
-    "D": "The author does not dispute these factors.",
-    "E": "The author does not rank the methods."
+    "D": "The closing doubt shows the author is not fully persuaded.",
+    "E": "Too strong: the author raises a question, not a verdict.",
+    "C": "The author does not dispute these factors.",
+    "B": "The author does not rank the methods."
    },
    "passageId": "x2-island-rule",
    "type": "RC",
@@ -1123,29 +1123,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "considers the defenders' reply to have conclusively refuted the critics"
-     },
-     {
-      "id": "B",
-      "text": "believes that the island rule should be abandoned entirely"
-     },
-     {
-      "id": "C",
       "text": "suspects that the defenders' reformulation may preserve the rule only at the cost of what made it valuable"
      },
      {
-      "id": "D",
+      "id": "B",
+      "text": "regards the global analyses as methodologically superior to studies of individual islands"
+     },
+     {
+      "id": "C",
       "text": "doubts that island size and isolation influence the evolution of body size"
      },
      {
+      "id": "D",
+      "text": "considers the defenders' reply to have conclusively refuted the critics"
+     },
+     {
       "id": "E",
-      "text": "regards the global analyses as methodologically superior to studies of individual islands"
+      "text": "believes that the island rule should be abandoned entirely"
      }
     ]
    },
    "answer": {
     "choices": [
-     "C"
+     "A"
     ]
    }
   },
@@ -1196,11 +1196,11 @@
   },
   {
    "id": "x2-v2-08",
-   "lessonId": "v3-06-structure",
+   "lessonId": "v3-04-meaning-in-context",
    "difficulty": 4,
-   "stem": "The reference to \"the need to hide in narrow burrows\" (paragraph 1) serves primarily to",
-   "explanation": "It follows 'the pressures that kept them small' and illustrates one such pressure, which islands with few predators are thought to remove.",
-   "estSeconds": 90,
+   "stem": "In the context in which it appears, “crudely” (paragraph 3) most nearly means",
+   "explanation": "The defenders say critics 'tested it too crudely': the analyses pooled very different islands, so the test lacked fine distinctions — it was done roughly, without refinement.",
+   "estSeconds": 60,
    "skills": [
     "reading-comprehension"
    ],
@@ -1211,10 +1211,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "It illustrates a pressure that islands remove, not the scarcity itself.",
-    "C": "Burrows concern small mammals, not large herbivores.",
-    "D": "It is part of the explanation of the rule.",
-    "E": "The passage suggests the opposite: islands release them from such pressures."
+    "D": "Crude can mean tasteless, which has nothing to do with a statistical test.",
+    "B": "Crude manners are not at issue; the complaint is about method.",
+    "C": "The defenders fault the tests for lumping islands together, not for being quick.",
+    "E": "Cost is never mentioned."
    },
    "passageId": "x2-island-rule",
    "type": "RC",
@@ -1223,23 +1223,23 @@
     "choices": [
      {
       "id": "A",
-      "text": "give an example of a pressure thought to keep small mammals small where predators are common"
+      "text": "roughly"
      },
      {
       "id": "B",
-      "text": "illustrate how scarce predators are on islands"
+      "text": "rudely"
      },
      {
       "id": "C",
-      "text": "explain why large herbivores become dwarfed on islands"
+      "text": "hastily"
      },
      {
       "id": "D",
-      "text": "present evidence that contradicts the island rule"
+      "text": "vulgarly"
      },
      {
       "id": "E",
-      "text": "suggest that small mammals on islands become more vulnerable to predators"
+      "text": "inexpensively"
      }
     ]
    },
@@ -1266,10 +1266,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Lenient fits the lax enforcement, so there is no contrast.",
-    "C": "Unclear rules are not the opposite of sporadic enforcement.",
-    "E": "Outdated rules being loosely enforced is no contrast.",
-    "F": "Voluntary rules being loosely enforced is no contrast."
+    "E": "Lenient fits the lax enforcement, so there is no contrast.",
+    "D": "Unclear rules are not the opposite of sporadic enforcement.",
+    "B": "Permissive pairs with lenient, but lax guidelines that are laxly enforced give no 'although' contrast.",
+    "A": "Voluntary rules being loosely enforced is no contrast."
    },
    "type": "SE",
    "content": {
@@ -1277,34 +1277,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "lenient"
+      "text": "voluntary"
      },
      {
       "id": "B",
-      "text": "stringent"
+      "text": "permissive"
      },
      {
       "id": "C",
-      "text": "ambiguous"
+      "text": "stringent"
      },
      {
       "id": "D",
-      "text": "exacting"
+      "text": "ambiguous"
      },
      {
       "id": "E",
-      "text": "obsolete"
+      "text": "lenient"
      },
      {
       "id": "F",
-      "text": "voluntary"
+      "text": "exacting"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "C",
+     "F"
     ]
    }
   },
@@ -1325,10 +1325,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Crudity is a fault; 'for all' concedes a merit.",
-    "C": "Verve means energy and spirit, which would contradict the lack of urgency.",
-    "D": "A fault, and not 'technical'.",
-    "F": "Timidity is not a technical merit."
+    "D": "Crudity is a fault; 'for all' concedes a merit.",
+    "F": "Verve means energy and spirit, which would contradict the lack of urgency.",
+    "C": "A fault, and not 'technical'.",
+    "E": "Clumsiness pairs with crudity; both contradict 'one admires the craftsmanship'."
    },
    "type": "SE",
    "content": {
@@ -1336,34 +1336,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "crudity"
-     },
-     {
-      "id": "B",
       "text": "virtuosity"
      },
      {
-      "id": "C",
-      "text": "verve"
-     },
-     {
-      "id": "D",
-      "text": "sentimentality"
-     },
-     {
-      "id": "E",
+      "id": "B",
       "text": "accomplishment"
      },
      {
+      "id": "C",
+      "text": "sentimentality"
+     },
+     {
+      "id": "D",
+      "text": "crudity"
+     },
+     {
+      "id": "E",
+      "text": "clumsiness"
+     },
+     {
       "id": "F",
-      "text": "diffidence"
+      "text": "verve"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "E"
+     "A",
+     "B"
     ]
    }
   },
@@ -1384,9 +1384,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Enrichment is not a criticism.",
-    "C": "Nothing concerns recording the mission.",
-    "E": "Vindication is praise, not a charge.",
+    "D": "Enrichment is not a criticism.",
+    "A": "Enhanced pairs with enriched, but critics would not complain that spectacle improved the mission.",
+    "B": "Vindication is praise, not a charge.",
     "F": "Underwritten (financially supported) would not be a criticism."
    },
    "type": "SE",
@@ -1395,23 +1395,23 @@
     "choices": [
      {
       "id": "A",
-      "text": "enriched"
+      "text": "enhanced"
      },
      {
       "id": "B",
-      "text": "supplanted"
+      "text": "vindicated"
      },
      {
       "id": "C",
-      "text": "documented"
+      "text": "supplanted"
      },
      {
       "id": "D",
-      "text": "eclipsed"
+      "text": "enriched"
      },
      {
       "id": "E",
-      "text": "vindicated"
+      "text": "eclipsed"
      },
      {
       "id": "F",
@@ -1421,8 +1421,8 @@
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "C",
+     "E"
     ]
    }
   },
@@ -1443,10 +1443,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "Pellucid means very clear, the opposite of a difficulty.",
-    "C": "Sweet-sounding is not a difficulty.",
-    "E": "Tempting, since her style is called plain, but the sentence is about difficulty; ornate prose is not necessarily hard to understand.",
-    "F": "Bias is not a difficulty of understanding."
+    "C": "Pellucid means very clear, the opposite of a difficulty.",
+    "D": "Limpid (clear) pairs with pellucid and describes the style as it really is; the readers in question find the prose hard.",
+    "F": "Tempting, since her style is called plain, but the sentence is about difficulty; ornate prose is not necessarily hard to understand.",
+    "B": "Bias is not a difficulty of understanding."
    },
    "type": "SE",
    "content": {
@@ -1454,34 +1454,34 @@
     "choices": [
      {
       "id": "A",
-      "text": "pellucid"
-     },
-     {
-      "id": "B",
       "text": "abstruse"
      },
      {
+      "id": "B",
+      "text": "tendentious"
+     },
+     {
       "id": "C",
-      "text": "mellifluous"
+      "text": "pellucid"
      },
      {
       "id": "D",
-      "text": "impenetrable"
+      "text": "limpid"
      },
      {
       "id": "E",
-      "text": "ornate"
+      "text": "impenetrable"
      },
      {
       "id": "F",
-      "text": "tendentious"
+      "text": "ornate"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B",
-     "D"
+     "A",
+     "E"
     ]
    }
   },
@@ -1490,7 +1490,7 @@
    "lessonId": "v3-08-evaluate-arguments",
    "difficulty": 4,
    "stem": "Which of the following, if true, would most strengthen the usual explanation described in the passage?",
-   "explanation": "The skeptics' worry is that other menu changes, not the expensive dish, caused the rise. (A) holds everything else constant and still finds the effect, supporting the explanation that diners judge prices relative to one another.",
+   "explanation": "The skeptics' worry is that other menu changes, not the expensive dish, caused the rise. (B) holds everything else constant and still finds the effect, supporting the explanation that diners judge prices relative to one another.",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -1502,9 +1502,9 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "Location does not show that the expensive dish changes other orders.",
-    "C": "Memory of past prices is irrelevant to comparing prices in view.",
-    "D": "Ingredient cost does not bear on diners' judgments of other dishes.",
+    "D": "Location does not show that the expensive dish changes other orders.",
+    "A": "Memory of past prices is irrelevant to comparing prices in view.",
+    "C": "Ingredient cost does not bear on diners' judgments of other dishes.",
     "E": "Removal says nothing about whether the dish raised other sales."
    },
    "passageId": "x2-decoy-dish",
@@ -1514,19 +1514,19 @@
     "choices": [
      {
       "id": "A",
-      "text": "In an experiment, diners shown otherwise identical menus ordered the second most expensive entrée more often when the menu also listed a much more expensive entrée."
-     },
-     {
-      "id": "B",
-      "text": "Restaurants that add extravagantly priced dishes tend to be located in affluent neighborhoods."
-     },
-     {
-      "id": "C",
       "text": "Most diners do not remember the prices of the dishes they ordered on previous visits."
      },
      {
-      "id": "D",
+      "id": "B",
+      "text": "In an experiment, diners shown otherwise identical menus ordered the second most expensive entrée more often when the menu also listed a much more expensive entrée."
+     },
+     {
+      "id": "C",
       "text": "Extravagantly priced dishes are usually made with costly ingredients."
+     },
+     {
+      "id": "D",
+      "text": "Restaurants that add extravagantly priced dishes tend to be located in affluent neighborhoods."
      },
      {
       "id": "E",
@@ -1536,7 +1536,7 @@
    },
    "answer": {
     "choices": [
-     "A"
+     "B"
     ]
    }
   },
@@ -1557,10 +1557,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "A": "The passage already says such dishes sell little; the skeptics do not dispute it.",
-    "C": "They do not challenge the psychology directly; they challenge the evidence.",
-    "D": "Qualifications are not discussed.",
-    "E": "They accept the reported rise but doubt its cause."
+    "E": "The passage already says such dishes sell little; the skeptics do not dispute it.",
+    "B": "They do not challenge the psychology directly; they challenge the evidence.",
+    "A": "Qualifications are not discussed.",
+    "D": "They accept the reported rise but doubt its cause."
    },
    "passageId": "x2-decoy-dish",
    "type": "RC",
@@ -1569,29 +1569,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "diners ever order the extravagantly priced dishes"
-     },
-     {
-      "id": "B",
-      "text": "the rise in sales of other items was caused by the addition of the expensive dish"
-     },
-     {
-      "id": "C",
-      "text": "diners judge prices relative to one another"
-     },
-     {
-      "id": "D",
       "text": "restaurant consultants are qualified to give advice"
      },
      {
-      "id": "E",
+      "id": "B",
+      "text": "diners judge prices relative to one another"
+     },
+     {
+      "id": "C",
+      "text": "the rise in sales of other items was caused by the addition of the expensive dish"
+     },
+     {
+      "id": "D",
       "text": "sales of the next most expensive items rose at all"
+     },
+     {
+      "id": "E",
+      "text": "diners ever order the extravagantly priced dishes"
      }
     ]
    },
    "answer": {
     "choices": [
-     "B"
+     "C"
     ]
    }
   },
@@ -1600,7 +1600,7 @@
    "lessonId": "v3-08-evaluate-arguments",
    "difficulty": 4,
    "stem": "Which of the following identifies a flaw in the newsletter's reasoning?",
-   "explanation": "The newsletter infers that hiking causes health from a correlation. The causation could run the other way: healthier people can hike more (A).",
+   "explanation": "The newsletter infers that hiking causes health from a correlation. The causation could run the other way: healthier people can hike more (D).",
    "estSeconds": 90,
    "skills": [
     "reading-comprehension"
@@ -1612,10 +1612,10 @@
     "sourceChecked": false
    },
    "choiceExplanations": {
-    "B": "The newsletter's advice is addressed to members, so it does not generalize beyond them.",
-    "C": "The argument does not need this assumption.",
-    "D": "Sample size could matter, but the decisive gap is the direction of causation.",
-    "E": "The newsletter says nothing about productivity."
+    "E": "The newsletter's advice is addressed to members, so it does not generalize beyond them.",
+    "B": "The argument does not need this assumption.",
+    "C": "Sample size could matter, but the decisive gap is the direction of causation.",
+    "A": "The newsletter says nothing about productivity."
    },
    "passageId": "x2-hiking",
    "type": "RC",
@@ -1624,29 +1624,29 @@
     "choices": [
      {
       "id": "A",
-      "text": "It overlooks the possibility that people who are seldom ill are better able to hike frequently."
+      "text": "It treats a reduction in sick days as evidence of greater productivity at work."
      },
      {
       "id": "B",
-      "text": "It draws a conclusion about the general population from a survey of club members only."
-     },
-     {
-      "id": "C",
       "text": "It assumes that all members of the club hike at least occasionally."
      },
      {
-      "id": "D",
+      "id": "C",
       "text": "It fails to state how many members responded to the survey."
      },
      {
+      "id": "D",
+      "text": "It overlooks the possibility that people who are seldom ill are better able to hike frequently."
+     },
+     {
       "id": "E",
-      "text": "It treats a reduction in sick days as evidence of greater productivity at work."
+      "text": "It draws a conclusion about the general population from a survey of club members only."
      }
     ]
    },
    "answer": {
     "choices": [
-     "A"
+     "D"
     ]
    }
   }

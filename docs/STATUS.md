@@ -14,7 +14,7 @@ What exists, how it is checked, and what is still open. Updated with the code.
 | Review: spaced repetition of missed questions (1 and 3 days, two spaced successes) + error log with reasons | done |
 | Stats: accuracy by chapter / type / difficulty, pace, weakest lessons, miss reasons | done |
 | Mock tests ×6 + diagnostic: Verbal 12+15, Quant 12+15, section 2 adapts to section 1, estimated 130–170 score (clearly labelled as an estimate) | done |
-| Exam-style tests ×3 (`content/exams/x1…x3`): 162 questions written only for these tests (never in practice, chapter tests, topics or the Qbank), real section structure and order (Verbal: TC → RC → SE → RC with a long passage and paragraph arguments in section 2; Quant: QC first, a DI set of 3), section 1 average and section 2 hard, same 130–170 scale and corrections as the other mocks | done |
+| Exam-style tests ×3 (`content/exams/x1…x3`): 162 questions written only for these tests (never in practice, chapter tests, topics or the Qbank), real section structure and order (Verbal: TC → RC → SE → RC with a long passage and paragraph arguments in section 2; Quant: QC first, a DI set of 3), section 1 average and section 2 hard, same 130–170 scale and corrections as the other mocks; calibrated on the two official ETS tests (SE trap pairs, vocabulary-in-context, balanced answer positions, official-style hard Quant types) | done |
 | Study plan from exam date and weekly hours | done |
 | Writing: 30-minute editor without spell-check, scoring-guide self-check, optional AI estimate (needs `ANTHROPIC_API_KEY`, signed-in users, daily cap) | done |
 | Vocabulary (flashcards, series, games) kept as a TC/SE study aid; French translation off by default | done |
@@ -46,6 +46,7 @@ format at phone / tablet / desktop widths).
 
 - Scores in mocks are our own estimate; there is no official conversion table.
 - The six generated mocks draw from the practice pool; the three exam-style tests use their own questions.
+- Official tests: Practice Test 1, section 6, question 3 had Quantity A and Quantity B swapped (fixed in the private repository); results saved before the fix are rescored on the next visit (`src/lib/official-errata.ts`).
 - Exam-style test questions have not been through the blind double-solve pipeline: Quant keys were checked by script (every key recomputed), Verbal keys by the author's review. They are shown in production regardless of `review.status` (`getExamPart`). Run them through `content:blind` before treating them as published.
 - Practice prompts for Writing are original; the real topics are in the ETS pool (linked, not copied).
 - Wording of the six Issue instruction sets is paraphrased from the ETS page.
