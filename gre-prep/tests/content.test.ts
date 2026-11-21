@@ -64,6 +64,27 @@ describe('content check — GRE format rules', () => {
     expect(checkContent(c).errors.map((e) => e.message).join()).toMatch(/not in sources.json/);
   });
 
+  it('exam-style mocks: real section sizes, own questions, never in the practice bank', () => {
+    const c = loadContent();
+    expect(c.exams.size).toBeGreaterThanOrEqual(3);
+    const bankIds = new Set([...c.questionSets.values()].flat().map((q) => q.id));
+    for (const [, exam] of c.exams) {
+      for (const m of [exam.verbal!, exam.quant!]) {
+        expect([m.s1.length, m.s2.length]).toEqual([12, 15]);
+        for (const q of [...m.s1, ...m.s2]) expect(bankIds.has(q.id)).toBe(false);
+      }
+      expect(exam.verbal!.s1.every((q) => ['TC', 'SE', 'RC'].includes(q.type))).toBe(true);
+      expect(exam.quant!.s2.every((q) => ['QC', 'PS', 'NE', 'DI'].includes(q.type))).toBe(true);
+    }
+  });
+
+  it('exam-style mocks: a wrong section size is an error', () => {
+    const c = loadContent();
+    const x1 = c.exams.get('x1')!;
+    c.exams.set('x1', { ...x1, verbal: { ...x1.verbal!, s1: x1.verbal!.s1.slice(0, 11) } });
+    expect(checkContent(c).errors.map((e) => e.message).join()).toMatch(/s1 has 11 questions/);
+  });
+
   it('word budget ignores math', () => {
     expect(wordCount('The value $a + b + c + d$ is **big**.')).toBe(4);
   });

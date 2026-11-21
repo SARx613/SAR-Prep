@@ -1,9 +1,9 @@
 'use server';
 
-import { getByIds } from '@/content';
+import { getByIds, getExamPart } from '@/content';
 import { questionIndex } from '@/content/qindex';
 import type { ClientQuestion } from '@/content/types';
-import { MOCK_COUNT, MOCK_SECTION2_LEVEL, buildPart, mockSeed, type Level, type Section } from '@/lib/mock';
+import { MOCK_SECTION2_LEVEL, buildPart, isBankMockKind, isExamKind, mockSeed, type Level, type Section } from '@/lib/mock';
 
 export async function fetchQuestionsByIds(ids: string[]): Promise<ClientQuestion[]> {
   return getByIds(ids.slice(0, 80));
@@ -14,8 +14,9 @@ export async function fetchMockSectionQuestions(
   section: Section,
   level: Level = MOCK_SECTION2_LEVEL,
 ): Promise<{ part1: ClientQuestion[]; part2: ClientQuestion[] }> {
-  const m = /^m([1-9])$/.exec(kind);
-  if (!m || Number(m[1]) > MOCK_COUNT) return { part1: [], part2: [] };
+  if (section !== 'verbal' && section !== 'quant') return { part1: [], part2: [] };
+  if (isExamKind(kind)) return { part1: getExamPart(kind, section, 1), part2: getExamPart(kind, section, 2) };
+  if (!isBankMockKind(kind)) return { part1: [], part2: [] };
   const index = questionIndex();
   const seed = mockSeed(kind);
   const first = buildPart(index, section, 1, 'avg', seed);

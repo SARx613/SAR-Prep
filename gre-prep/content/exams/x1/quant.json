@@ -1,0 +1,1304 @@
+{
+ "passages": [],
+ "s1": [
+  {
+   "id": "x1-q1-01",
+   "lessonId": "q1-03-remainders-parity",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Write $x=6k+4$. Since $6k$ is a multiple of 3 and $4=3+1$, $x=3(2k+1)+1$: the remainder is always 1. Check: $x=4, 10, 16$ all leave remainder 1.",
+   "estSeconds": 60,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The remainder when $x$ is divided by $3$",
+    "quantityB": "$1$",
+    "common": "When the positive integer $x$ is divided by $6$, the remainder is $4$."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x1-q1-02",
+   "lessonId": "q1-13-percent-change",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Let the price be 100. After +20%: 120. After −20% of 120: 96. The final price is 4% lower, whatever the starting price. Trap: thinking +20% and −20% cancel.",
+   "estSeconds": 60,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The price of the jacket after both changes",
+    "quantityB": "The price of the jacket before both changes",
+    "common": "The price of a jacket was increased by $20\\%$, and the new price was then decreased by $20\\%$."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x1-q1-03",
+   "lessonId": "q3-03-triangles-pythagoras",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Triangle inequality: the third side is less than the sum of the other two, $x<7+10=17$ (and greater than $10-7=3$). So $x$ is always less than 17.",
+   "estSeconds": 60,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$x$",
+    "quantityB": "$17$",
+    "common": "A triangle has sides of lengths $7$, $10$, and $x$."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x1-q1-04",
+   "lessonId": "q1-24-operations-and-signs",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$n^2+n=n(n+1)$, the product of two consecutive integers. For $n=1$ it is $2$ (A greater), but for $n=-1$ it is $(-1)(0)=0$ (equal). Since the two quantities can be equal or A can be greater, the relationship cannot be determined. Trap: testing only positive values and answering A.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$n^2+n$",
+    "quantityB": "$0$",
+    "common": "$n$ is a nonzero integer."
+   },
+   "answer": {
+    "choice": "D"
+   }
+  },
+  {
+   "id": "x1-q1-05",
+   "lessonId": "q4-03-centre-spread-basic",
+   "difficulty": 2,
+   "stem": "The average (arithmetic mean) of five numbers is $18$. When one of the numbers is removed, the average of the remaining four numbers is $16$. What number was removed?",
+   "explanation": "Sum of five: $5\\times18=90$. Sum of four: $4\\times16=64$. Removed number: $90-64=26$.",
+   "estSeconds": 75,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is the difference of the averages, $18-16$, not of the sums.",
+    "B": "This is the new average.",
+    "C": "This is the old average.",
+    "D": "Arithmetic slip: $90-64=26$, not 24."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$16$"
+     },
+     {
+      "id": "C",
+      "text": "$18$"
+     },
+     {
+      "id": "D",
+      "text": "$24$"
+     },
+     {
+      "id": "E",
+      "text": "$26$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-q1-06",
+   "lessonId": "q1-11-ratio",
+   "difficulty": 3,
+   "stem": "A baker mixes flour and sugar in the ratio $5$ to $2$ by weight. If the mixture weighs $1.75$ kilograms in all, how many grams of sugar does it contain? ($1$ kilogram $=1{,}000$ grams)",
+   "explanation": "The mixture has $5+2=7$ equal parts, so sugar is $\\frac27$ of it: $\\frac27\\times1{,}750=500$ grams.",
+   "estSeconds": 90,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "grams"
+   },
+   "answer": {
+    "value": 500
+   }
+  },
+  {
+   "id": "x1-q1-07",
+   "lessonId": "q1-23-absolute-value-equations",
+   "difficulty": 4,
+   "stem": "If $|2x-3|<5$, which of the following could be the value of $x$? Indicate **all** such values.",
+   "explanation": "$|2x-3|<5$ means $-5<2x-3<5$, so $-2<2x<8$ and $-1<x<4$. Of the choices, $0$, $1.5$ and $3.9$ lie strictly between $-1$ and $4$. The endpoints $-1$ and $4$ give $|2x-3|=5$, which is not less than 5.",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "At $x=-1$, $|2x-3|=5$, and the inequality is strict.",
+    "F": "At $x=4$, $|2x-3|=5$, and the inequality is strict.",
+    "A": "At $x=-2$, $|2x-3|=7$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-2$"
+     },
+     {
+      "id": "B",
+      "text": "$-1$"
+     },
+     {
+      "id": "C",
+      "text": "$0$"
+     },
+     {
+      "id": "D",
+      "text": "$1.5$"
+     },
+     {
+      "id": "E",
+      "text": "$3.9$"
+     },
+     {
+      "id": "F",
+      "text": "$4$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C",
+     "D",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-q1-08",
+   "lessonId": "q2-14-lines",
+   "difficulty": 3,
+   "stem": "In the $xy$-plane, line $k$ passes through the points $(-2,5)$ and $(4,-1)$. What is the $x$-intercept of line $k$?",
+   "explanation": "Slope: $\\frac{-1-5}{4-(-2)}=-1$. Then $y-5=-(x+2)$, so $y=-x+3$. Setting $y=0$ gives $x=3$.",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Sign error when solving $0=-x+3$.",
+    "B": "This is the $x$-coordinate of the midpoint of the two points.",
+    "C": "This is the $y$-coordinate of the midpoint.",
+    "E": "This mixes up the intercept with the given $y$-value 5."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-3$"
+     },
+     {
+      "id": "B",
+      "text": "$1$"
+     },
+     {
+      "id": "C",
+      "text": "$2$"
+     },
+     {
+      "id": "D",
+      "text": "$3$"
+     },
+     {
+      "id": "E",
+      "text": "$5$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x1-q1-09",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 2,
+   "stem": "In 2023, Footwear accounted for approximately what percent of the total revenue of the four divisions?",
+   "explanation": "2023 total: $60+36+25+27=148$. Footwear: $\\frac{36}{148}\\approx0.243$, about $24\\%$.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is Accessories' 2023 share, $\\frac{25}{148}\\approx17\\%$.",
+    "B": "Too small: $20\\%$ of 148 is about 30, but Footwear earned 36.",
+    "D": "This is Footwear's 2021 share, $\\frac{32}{115}\\approx28\\%$ — wrong year.",
+    "E": "Too large: $31\\%$ of 148 is about 46."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Annual revenue of the four divisions of Company R (in millions of dollars)",
+    "data": {
+     "columns": [
+      "Division",
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": [
+      [
+       "Apparel",
+       48,
+       54,
+       60
+      ],
+      [
+       "Footwear",
+       32,
+       30,
+       36
+      ],
+      [
+       "Accessories",
+       20,
+       26,
+       25
+      ],
+      [
+       "Home",
+       15,
+       18,
+       27
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$17\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$20\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$24\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$28\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$31\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-q1-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 3,
+   "stem": "For which of the divisions did revenue increase by more than $20$ percent from 2021 to 2023? Indicate **all** such divisions.",
+   "explanation": "Compare each 2023 value with $1.2\\times$ its 2021 value: Apparel $60>57.6$ (yes), Footwear $36<38.4$ (no), Accessories $25>24$ (yes), Home $27>18$ (yes).",
+   "estSeconds": 100,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Footwear rose from 32 to 36, only $12.5\\%$."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Annual revenue of the four divisions of Company R (in millions of dollars)",
+    "data": {
+     "columns": [
+      "Division",
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": [
+      [
+       "Apparel",
+       48,
+       54,
+       60
+      ],
+      [
+       "Footwear",
+       32,
+       30,
+       36
+      ],
+      [
+       "Accessories",
+       20,
+       26,
+       25
+      ],
+      [
+       "Home",
+       15,
+       18,
+       27
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Apparel"
+     },
+     {
+      "id": "B",
+      "text": "Footwear"
+     },
+     {
+      "id": "C",
+      "text": "Accessories"
+     },
+     {
+      "id": "D",
+      "text": "Home"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "C",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x1-q1-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "By what percent did the total revenue of the four divisions increase from 2022 to 2023? (Round your answer to the nearest whole percent.)",
+   "explanation": "Totals: 2022 $54+30+26+18=128$, 2023 $148$. Increase: $\\frac{148-128}{128}=\\frac{20}{128}=0.15625$, about $16\\%$. Trap: dividing by the new total, $\\frac{20}{148}\\approx14\\%$.",
+   "estSeconds": 110,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Annual revenue of the four divisions of Company R (in millions of dollars)",
+    "data": {
+     "columns": [
+      "Division",
+      "2021",
+      "2022",
+      "2023"
+     ],
+     "rows": [
+      [
+       "Apparel",
+       48,
+       54,
+       60
+      ],
+      [
+       "Footwear",
+       32,
+       30,
+       36
+      ],
+      [
+       "Accessories",
+       20,
+       26,
+       25
+      ],
+      [
+       "Home",
+       15,
+       18,
+       27
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "integer"
+    }
+   },
+   "answer": {
+    "value": 16
+   }
+  },
+  {
+   "id": "x1-q1-12",
+   "lessonId": "q2-25-work-rates",
+   "difficulty": 4,
+   "stem": "Working alone at its constant rate, pipe A can fill a tank in $6$ hours; working alone at its constant rate, pipe B can fill the same tank in $9$ hours. Pipe B begins filling the empty tank alone, and after $3$ hours pipe A is also turned on. How many more hours will it take the two pipes, working together, to finish filling the tank?",
+   "explanation": "In 3 hours B fills $\\frac39=\\frac13$ of the tank. Together the pipes fill $\\frac16+\\frac19=\\frac5{18}$ per hour, so the remaining $\\frac23$ takes $\\frac23\\div\\frac5{18}=\\frac{12}5=2\\frac25$ hours.",
+   "estSeconds": 120,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This rounds the answer down to whole hours.",
+    "C": "This is how long the pipes together would need for the whole tank, $\\frac{18}5$ hours.",
+    "D": "This finishes the remaining $\\frac23$ with pipe A alone.",
+    "E": "This finishes the remaining $\\frac23$ with pipe B alone."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$2\\frac25$"
+     },
+     {
+      "id": "C",
+      "text": "$3\\frac35$"
+     },
+     {
+      "id": "D",
+      "text": "$4$"
+     },
+     {
+      "id": "E",
+      "text": "$6$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ],
+ "s2": [
+  {
+   "id": "x1-q2-01",
+   "lessonId": "q1-01-factors-multiples",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Factor pairs of 36 with $a>b$: $(36,1),(18,2),(12,3),(9,4)$ — note $(6,6)$ is excluded because $a>b$. So $a-b$ is $35,16,9$ or $5$: it can be greater than 5 or equal to 5. Trap: stopping at the first pair and answering A.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$a-b$",
+    "quantityB": "$5$",
+    "common": "$a$ and $b$ are positive integers, $a>b$, and $ab=36$."
+   },
+   "answer": {
+    "choice": "D"
+   }
+  },
+  {
+   "id": "x1-q2-02",
+   "lessonId": "q4-05-std-dev",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Both lists have mean 18. The second list adds a value equal to the mean: the total of squared deviations is unchanged, but it is shared by more values, so the spread shrinks and the standard deviation is smaller. No computation is needed.",
+   "estSeconds": 75,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The standard deviation of the numbers $12$, $15$, $18$, $21$, $24$",
+    "quantityB": "The standard deviation of the numbers $12$, $15$, $18$, $18$, $21$, $24$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x1-q2-03",
+   "lessonId": "q1-19-fraction-techniques",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\frac{x+1}{y+1}-\\frac xy=\\frac{y(x+1)-x(y+1)}{y(y+1)}=\\frac{y-x}{y(y+1)}>0$ because $y>x$ and $y>0$. Adding the same positive number to the top and bottom of a fraction less than 1 moves it toward 1. Example: $\\frac12<\\frac23$.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\dfrac{x}{y}$",
+    "quantityB": "$\\dfrac{x+1}{y+1}$",
+    "common": "$0<x<y<1$"
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x1-q2-04",
+   "lessonId": "q3-03-triangles-pythagoras",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "With two sides 6 and 8, the area is $\\frac12\\cdot6\\cdot8\\cdot(\\text{height factor})$; it is largest, $24$, when the angle between them is a right angle, and can be made as small as we like by flattening the angle. So the area can equal 24 or be less: the relationship cannot be determined. Trap: assuming a 6-8-10 right triangle.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The area of triangle $T$",
+    "quantityB": "$24$",
+    "common": "Triangle $T$ has two sides of lengths $6$ and $8$."
+   },
+   "answer": {
+    "choice": "D"
+   }
+  },
+  {
+   "id": "x1-q2-05",
+   "lessonId": "q4-17-selections",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "There are $2^5=32$ equally likely sequences, and $\\binom52=10$ of them have exactly 2 heads: $\\frac{10}{32}=\\frac5{16}=0.3125$, less than $\\frac13\\approx0.333$. Trap: treating 0, 1, …, 5 heads as six equally likely outcomes, or guessing that 2 heads out of 5 has probability about $\\frac25$.",
+   "estSeconds": 100,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The probability of getting exactly $2$ heads",
+    "quantityB": "$\\dfrac13$",
+    "common": "A fair coin is tossed $5$ times."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x1-q2-06",
+   "lessonId": "q1-06-exponents",
+   "difficulty": 4,
+   "stem": "If $3^x+3^x+3^x=9^6$, what is the value of $x$?",
+   "explanation": "The left side is $3\\cdot3^x=3^{x+1}$; the right side is $(3^2)^6=3^{12}$. So $x+1=12$ and $x=11$.",
+   "estSeconds": 80,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This divides 6 by 3, mixing up the operations.",
+    "B": "Treats the left side as $3^{3x}$ and solves $3x=12$.",
+    "D": "Forgets that $3\\cdot3^x$ is $3^{x+1}$, not $3^x$.",
+    "E": "Multiplies 3 by 6 instead of rewriting $9^6$ as $3^{12}$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$4$"
+     },
+     {
+      "id": "C",
+      "text": "$11$"
+     },
+     {
+      "id": "D",
+      "text": "$12$"
+     },
+     {
+      "id": "E",
+      "text": "$18$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-07",
+   "lessonId": "q1-17-divisibility-reasoning",
+   "difficulty": 5,
+   "stem": "How many positive integers less than $200$ are divisible by $6$ but not divisible by $9$?",
+   "explanation": "Multiples of 6 below 200: $\\lfloor199/6\\rfloor=33$. A number divisible by both 6 and 9 is a multiple of their LCM, 18: $\\lfloor199/18\\rfloor=11$. Answer: $33-11=22$. Trap: subtracting multiples of $54=6\\times9$ instead of the LCM.",
+   "estSeconds": 120,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 22
+   }
+  },
+  {
+   "id": "x1-q2-08",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 5,
+   "stem": "If $n$ is a positive integer and $n^2$ is divisible by $72$, which of the following must be divisors of $n$? Indicate **all** such integers.",
+   "explanation": "$72=2^3\\cdot3^2$. In $n^2$ every prime appears an even number of times, so $2^3\\mid n^2$ forces $2^4\\mid n^2$, i.e. $2^2\\mid n$; and $3^2\\mid n^2$ forces $3\\mid n$. So $n$ is a multiple of 12, and the smallest case $n=12$ ($n^2=144=2\\cdot72$) shows 8, 9 and 24 need not divide $n$. Hence 4, 6 and 12 must.",
+   "estSeconds": 130,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "$n=12$ works and is not divisible by 8.",
+    "D": "$n=12$ works and is not divisible by 9.",
+    "F": "$n=12$ works and is not divisible by 24."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$4$"
+     },
+     {
+      "id": "B",
+      "text": "$6$"
+     },
+     {
+      "id": "C",
+      "text": "$8$"
+     },
+     {
+      "id": "D",
+      "text": "$9$"
+     },
+     {
+      "id": "E",
+      "text": "$12$"
+     },
+     {
+      "id": "F",
+      "text": "$24$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-09",
+   "lessonId": "q2-24-distance-rate-time",
+   "difficulty": 4,
+   "stem": "A driver travels for $2$ hours at an average speed of $60$ miles per hour and then travels another $120$ miles at an average speed of $40$ miles per hour. What is the driver's average speed, in miles per hour, for the entire trip?",
+   "explanation": "First part: $2\\times60=120$ miles. Second part: $\\frac{120}{40}=3$ hours. Total: $240$ miles in $5$ hours, so $48$ mph. The driver spends more time at the slower speed, so the answer is below the simple average of 50.",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Below 48 would weight the slow part even more than its share of the time.",
+    "C": "The simple average of the speeds ignores that the slower part takes longer.",
+    "D": "This weights the faster part more heavily, the wrong way round.",
+    "E": "Closer to the faster speed, though more time is spent at the slower one."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$45$"
+     },
+     {
+      "id": "B",
+      "text": "$48$"
+     },
+     {
+      "id": "C",
+      "text": "$50$"
+     },
+     {
+      "id": "D",
+      "text": "$52$"
+     },
+     {
+      "id": "E",
+      "text": "$55$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "How many female students are enrolled in the College of Engineering?",
+   "explanation": "Engineering has $25\\%$ of 12,000, i.e. 3,000 students, and $20\\%$ of them are female: $600$.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Enrollment at University U by college (total enrollment: 12,000 students)",
+    "data": {
+     "columns": [
+      "College",
+      "Percent of all students",
+      "Percent of the college's students who are female"
+     ],
+     "rows": [
+      [
+       "Arts",
+       "30%",
+       "60%"
+      ],
+      [
+       "Engineering",
+       "25%",
+       "20%"
+      ],
+      [
+       "Business",
+       "20%",
+       "45%"
+      ],
+      [
+       "Sciences",
+       "15%",
+       "50%"
+      ],
+      [
+       "Education",
+       "10%",
+       "80%"
+      ]
+     ]
+    },
+    "notes": "Each student is enrolled in exactly one college."
+   },
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "integer"
+    }
+   },
+   "answer": {
+    "value": 600
+   }
+  },
+  {
+   "id": "x1-q2-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 5,
+   "stem": "Approximately what percent of all the female students at University U are enrolled in the College of Arts?",
+   "explanation": "Female students: Arts $0.30\\times0.60=0.18$, Engineering $0.05$, Business $0.09$, Sciences $0.075$, Education $0.08$ — in all $0.475$ of 12,000, i.e. 5,700. Arts: $0.18\\times12{,}000=2{,}160$. $\\frac{2{,}160}{5{,}700}\\approx0.379$, about $38\\%$.",
+   "estSeconds": 130,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "$18\\%$ is the share of *all students* who are female Arts students.",
+    "B": "$30\\%$ is Arts' share of all students.",
+    "D": "$45\\%$ is the percent of Business students who are female, not the share asked for.",
+    "E": "$60\\%$ is the percent of Arts students who are female, the reverse of what is asked."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Enrollment at University U by college (total enrollment: 12,000 students)",
+    "data": {
+     "columns": [
+      "College",
+      "Percent of all students",
+      "Percent of the college's students who are female"
+     ],
+     "rows": [
+      [
+       "Arts",
+       "30%",
+       "60%"
+      ],
+      [
+       "Engineering",
+       "25%",
+       "20%"
+      ],
+      [
+       "Business",
+       "20%",
+       "45%"
+      ],
+      [
+       "Sciences",
+       "15%",
+       "50%"
+      ],
+      [
+       "Education",
+       "10%",
+       "80%"
+      ]
+     ]
+    },
+    "notes": "Each student is enrolled in exactly one college."
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$18\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$30\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$38\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$45\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$60\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-12",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 5,
+   "stem": "Which of the following statements must be true? Indicate **all** such statements.",
+   "explanation": "In shares of all students: female total $0.475<0.5$ (A false). Business female $0.09$ vs Sciences $0.075$ (B true). Education $0.08$ vs Engineering $0.05$ (C true). Male Arts $0.30\\times0.40=0.12$ vs male Engineering $0.25\\times0.80=0.20$ (D false). Trap: comparing the female *percentages* (50% > 45%) instead of the counts.",
+   "estSeconds": 140,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Female students are $47.5\\%$ of the total.",
+    "D": "Male Arts students are $12\\%$ of all students, male Engineering students $20\\%$."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Enrollment at University U by college (total enrollment: 12,000 students)",
+    "data": {
+     "columns": [
+      "College",
+      "Percent of all students",
+      "Percent of the college's students who are female"
+     ],
+     "rows": [
+      [
+       "Arts",
+       "30%",
+       "60%"
+      ],
+      [
+       "Engineering",
+       "25%",
+       "20%"
+      ],
+      [
+       "Business",
+       "20%",
+       "45%"
+      ],
+      [
+       "Sciences",
+       "15%",
+       "50%"
+      ],
+      [
+       "Education",
+       "10%",
+       "80%"
+      ]
+     ]
+    },
+    "notes": "Each student is enrolled in exactly one college."
+   },
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "More than half of the students at University U are female."
+     },
+     {
+      "id": "B",
+      "text": "More female students are enrolled in Business than in Sciences."
+     },
+     {
+      "id": "C",
+      "text": "More female students are enrolled in Education than in Engineering."
+     },
+     {
+      "id": "D",
+      "text": "More male students are enrolled in Arts than in Engineering."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-13",
+   "lessonId": "q2-26-coordinate-plane-skills",
+   "difficulty": 4,
+   "stem": "In the $xy$-plane, a circle has center $(-2,4)$ and passes through the point $(2,1)$. Which of the following points also lies on the circle?",
+   "explanation": "Radius: $\\sqrt{(2+2)^2+(1-4)^2}=\\sqrt{16+9}=5$. For $(1,8)$: $\\sqrt{3^2+4^2}=5$. The others are at distances $6$, $\\sqrt{32}$, $\\sqrt{20}$ and $\\sqrt{26}$.",
+   "estSeconds": 100,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Distance $6$ (straight down from the center).",
+    "B": "Distance $\\sqrt{4^2+4^2}=\\sqrt{32}$.",
+    "C": "Distance $\\sqrt{2^2+4^2}=\\sqrt{20}$.",
+    "E": "Distance $\\sqrt{5^2+1^2}=\\sqrt{26}$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$(-2,-2)$"
+     },
+     {
+      "id": "B",
+      "text": "$(-6,0)$"
+     },
+     {
+      "id": "C",
+      "text": "$(0,0)$"
+     },
+     {
+      "id": "D",
+      "text": "$(1,8)$"
+     },
+     {
+      "id": "E",
+      "text": "$(3,5)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x1-q2-14",
+   "lessonId": "q4-18-probability-rules",
+   "difficulty": 5,
+   "stem": "Two different integers are chosen at random from the integers $1$ through $9$. What is the probability that their sum is even? Give your answer as a fraction.",
+   "explanation": "The sum is even when both are even or both are odd. There are $\\binom92=36$ pairs; both even: $\\binom42=6$; both odd: $\\binom52=10$. Probability $\\frac{16}{36}=\\frac49$. Trap: answering $\\frac12$ because 'half of all sums are even' — there are more odd numbers than even ones, and the two must differ.",
+   "estSeconds": 120,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.4444444444444444,
+    "fraction": {
+     "numerator": 4,
+     "denominator": 9
+    }
+   }
+  },
+  {
+   "id": "x1-q2-15",
+   "lessonId": "q4-17-selections",
+   "difficulty": 5,
+   "stem": "A committee of $4$ people is to be chosen from a group of $6$ women and $4$ men. How many different committees include at least one man?",
+   "explanation": "All committees: $\\binom{10}4=210$. Committees with no man: $\\binom64=15$. At least one man: $210-15=195$. Trap: choosing one man first and then any 3 others counts many committees more than once.",
+   "estSeconds": 110,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This counts committees with exactly one man: $4\\cdot\\binom63=80$.",
+    "B": "This counts one or two men ($80+90$) but forgets three or four men.",
+    "D": "This subtracts the single all-male committee instead of the 15 all-female ones.",
+    "E": "This is every committee, including the 15 with no men."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$80$"
+     },
+     {
+      "id": "B",
+      "text": "$170$"
+     },
+     {
+      "id": "C",
+      "text": "$195$"
+     },
+     {
+      "id": "D",
+      "text": "$209$"
+     },
+     {
+      "id": "E",
+      "text": "$210$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}

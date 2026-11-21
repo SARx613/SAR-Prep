@@ -90,6 +90,16 @@ export function buildPart(index: QIndexItem[], section: Section, part: 1 | 2, le
 
 export const mockSeed = (kind: string) => `mock:${kind}`;
 
+/** Exam-style mocks (x1, x2…) are hand-built tests whose questions exist only in that mock. */
+export const isExamKind = (kind: string) => /^x[1-9]\d?$/.test(kind);
+/** Generated mocks drawn from the practice bank: m1…m{MOCK_COUNT}. */
+export const isBankMockKind = (kind: string) => {
+  const m = /^m([1-9])$/.exec(kind);
+  return !!m && Number(m[1]) <= MOCK_COUNT;
+};
+/** "Exam-style test 2" or "Mock 3". */
+export const mockLabel = (kind: string) => (isExamKind(kind) ? `Exam-style test ${kind.slice(1)}` : `Mock ${kind.slice(1)}`);
+
 /** Reference adaptive thresholds on the real GRE (0.7+ -> hard, 0.4+ -> medium). */
 export function adaptiveLevelFor(correct: number, total: number): Level {
   const f = total ? correct / total : 0;

@@ -11,7 +11,13 @@ gre-prep/content/
   lessons/<lessonId>.json      lesson body (template enforced by src/content/schema.ts)
   questions/<lessonId>.json    practice set for that lesson: array of questions
   passages/<passageId>.json    RC passages
+  exams/<xN>/verbal.json       exam-style test: { passages, s1 (12), s2 (15) } — questions that exist only in that test
+  exams/<xN>/quant.json
 ```
+
+Exam-style tests keep the real order inside a section (Verbal: TC, RC, SE, RC; Quant: QC first, then PS/NE, one DI set of 3).
+`content:check` enforces 12 + 15 questions, the right formats per measure, passages defined in the same file with their
+questions consecutive, and no duplicate of a practice-bank item. Never reuse a practice-bank scenario in an exam.
 
 Validate often: `cd gre-prep && npm run content:check -- --only <prefix>` (e.g. `--only q2-`).
 Exemplar to copy: `content/lessons/q1-01-factors-multiples.json` and `content/questions/q1-01-factors-multiples.json`.

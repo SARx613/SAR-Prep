@@ -198,14 +198,14 @@ export function checkContent(c: RawContent): CheckResult {
   const seenBody = new Map<string, string>();
   let questions = 0;
   let questionsPublished = 0;
-  const checkSet = (file: string, qs: ContentQuestionInput[]) => {
+  const checkSet = (file: string, qs: ContentQuestionInput[], passages: RawContent['passages'] = c.passages) => {
     for (const q of qs) {
       questions++;
       if (q.review.status === 'published') questionsPublished++;
       if (seenQ.has(q.id)) err(file, `duplicate question id ${q.id}`);
       seenQ.add(q.id);
-      if (q.passageId && !c.passages.has(q.passageId)) err(file, `${q.id}: passage ${q.passageId} missing`);
-      for (const m of checkQuestion(q, c.passages)) err(file, `${q.id}: ${m}`);
+      if (q.passageId && !passages.has(q.passageId)) err(file, `${q.id}: passage ${q.passageId} missing`);
+      for (const m of checkQuestion(q, passages)) err(file, `${q.id}: ${m}`);
       // The same item twice (even under a different id) wastes a learner's time and inflates counts.
       const body = JSON.stringify([q.type, q.stem, q.content, q.passageId ?? '']).toLowerCase().replace(/\s+/g, ' ');
       const twin = seenBody.get(body);
@@ -234,6 +234,36 @@ export function checkContent(c: RawContent): CheckResult {
     if (!lessonIds.has(setId) && !/^[qvwt]\d-(test|pool)/.test(setId)) err(file, 'question set id is neither a syllabus lesson nor a chapter pool (e.g. q1-test)');
     for (const q of qs) if (q.lessonId !== setId) err(file, `${q.id}: lessonId "${q.lessonId}" != file set "${setId}"`);
     checkSet(file, qs);
+  }
+
+  // Exam-style mocks: the real structure (12 + 15 per measure), the right formats per measure,
+  // RC questions next to their passage, and nothing shared with (or copied from) the practice bank.
+  for (const [examId, exam] of c.exams) {
+    for (const measure of ['verbal', 'quant'] as const) {
+      const m = exam[measure];
+      const file = `exams/${examId}/${measure}.json`;
+      if (!m) { err(file, 'missing measure file'); continue; }
+      const own = new Map(c.passages);
+      for (const p of m.passages) {
+        if (own.has(p.id)) err(file, `passage id ${p.id} already used`);
+        own.set(p.id, p);
+      }
+      const allowed = measure === 'verbal' ? ['TC', 'SE', 'RC'] : ['QC', 'PS', 'NE', 'DI'];
+      for (const [part, want] of [['s1', 12], ['s2', 15]] as const) {
+        const qs = m[part];
+        if (qs.length !== want) err(file, `${part} has ${qs.length} questions, the GRE section has ${want}`);
+        const seenPassages: string[] = [];
+        qs.forEach((q, i) => {
+          if (!allowed.includes(q.type)) err(file, `${q.id}: ${q.type} does not belong in ${measure}`);
+          if (q.passageId && !m.passages.some((p) => p.id === q.passageId)) err(file, `${q.id}: passage ${q.passageId} must be defined in this exam`);
+          if (q.passageId && q.passageId !== qs[i - 1]?.passageId) {
+            if (seenPassages.includes(q.passageId)) err(file, `${q.id}: questions on passage ${q.passageId} must be consecutive`);
+            seenPassages.push(q.passageId);
+          }
+        });
+        if (qs.length) checkSet(file, qs, own);
+      }
+    }
   }
 
   for (const [id, p] of c.passages) {

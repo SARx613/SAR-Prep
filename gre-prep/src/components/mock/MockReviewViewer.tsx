@@ -15,14 +15,14 @@ import { NO_RUNS, RUN_HISTORY_KEY, parseRuns } from '@/lib/run-history';
 
 export function MockReviewViewer({
   kind,
-  mockNum,
+  label,
   section,
   level,
   part1Questions,
   part2Questions,
 }: {
   kind: string;
-  mockNum: number;
+  label: string;
   section: Section;
   level: Level;
   part1Questions: ClientQuestion[];
@@ -61,7 +61,7 @@ export function MockReviewViewer({
           ) : (
             <div className="space-y-4">
               <h1 className="text-xl font-bold">
-                Mock {mockNum} · {section === 'verbal' ? 'Verbal' : 'Quant'} not completed yet
+                {label} · {section === 'verbal' ? 'Verbal' : 'Quant'} not completed yet
               </h1>
               <p className="text-sm text-muted">
                 Complete this mock section first to review all 27 questions and explanations.
@@ -90,7 +90,7 @@ export function MockReviewViewer({
   return (
     <ExamPlayer
       key={`${kind}-${section}-${allResults.length}`}
-      title={`Mock ${mockNum} · ${section === 'verbal' ? 'Verbal' : 'Quant'} (Sections 1 & 2)`}
+      title={`${label} · ${section === 'verbal' ? 'Verbal' : 'Quant'}`}
       questions={allResults.map((r) => r.q)}
       mode="timed"
       backHref="/mock"

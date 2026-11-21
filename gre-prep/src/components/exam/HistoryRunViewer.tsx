@@ -32,7 +32,7 @@ export function HistoryRunViewer({
 
   const mockMatch = useMemo(() => {
     if (!run || run.items.length > 15) return null;
-    const m = /^mock:(m[1-9]):(verbal|quant):2$/.exec(run.setId ?? '');
+    const m = /^mock:(m[1-9]|x[1-9]\d?):(verbal|quant):2$/.exec(run.setId ?? '');
     return m ? { kind: m[1], section: m[2] as Section } : null;
   }, [run]);
 

@@ -1,0 +1,1280 @@
+{
+ "passages": [],
+ "s1": [
+  {
+   "id": "x3-q1-01",
+   "lessonId": "q1-08-decimals",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\frac1{0.3}=3.\\overline{3}$, while $0.3+3=3.3$. Since $3.333\\ldots>3.3$, A is greater.",
+   "estSeconds": 50,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\dfrac1x$",
+    "quantityB": "$x+3$",
+    "common": "$x=0.3$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x3-q1-02",
+   "lessonId": "q3-09-solids",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "The longest segment is the space diagonal: $\\sqrt{3^2+4^2+12^2}=\\sqrt{169}=13$. (Face diagonal of the $3\\times4$ face is 5, then $\\sqrt{5^2+12^2}=13$.)",
+   "estSeconds": 80,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The length of the longest line segment that can be drawn inside the box",
+    "quantityB": "$13$",
+    "common": "A rectangular box has edges of lengths $3$, $4$, and $12$."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x3-q1-03",
+   "lessonId": "q2-10-average-rate-work",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "M's rate: $\\frac{240}3=80$ per hour, so 400 bolts take 5 hours. N's rate: $\\frac{150}2=75$ per hour, so 375 bolts take 5 hours.",
+   "estSeconds": 80,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of hours machine $M$ needs to produce $400$ bolts",
+    "quantityB": "The number of hours machine $N$ needs to produce $375$ bolts",
+    "common": "Working at a constant rate, machine $M$ produces $240$ bolts in $3$ hours. Working at a constant rate, machine $N$ produces $150$ bolts in $2$ hours."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x3-q1-04",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "A divisor of $p^2q$ is $p^aq^b$ with $a\\in\\{0,1,2\\}$ and $b\\in\\{0,1\\}$: $3\\times2=6$ divisors whatever the distinct primes are (e.g. $12=2^2\\cdot3$ has 1, 2, 3, 4, 6, 12).",
+   "estSeconds": 80,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of positive divisors of $p^2q$",
+    "quantityB": "$6$",
+    "common": "$p$ and $q$ are different prime numbers."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x3-q1-05",
+   "lessonId": "q2-03-linear-one-var",
+   "difficulty": 2,
+   "stem": "If $\\dfrac{2x}5=8$, what is the value of $\\dfrac x4$?",
+   "explanation": "$2x=40$, so $x=20$ and $\\frac x4=5$.",
+   "estSeconds": 50,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is $\\frac8 4$, skipping the solve.",
+    "B": "This is $\\frac{20}5$, dividing by the wrong number.",
+    "D": "This is $\\frac{20}2$.",
+    "E": "This is $x$, not $\\frac x4$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$4$"
+     },
+     {
+      "id": "C",
+      "text": "$5$"
+     },
+     {
+      "id": "D",
+      "text": "$10$"
+     },
+     {
+      "id": "E",
+      "text": "$20$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x3-q1-06",
+   "lessonId": "q4-03-centre-spread-basic",
+   "difficulty": 3,
+   "stem": "A class consists of $12$ boys and $18$ girls. The average (arithmetic mean) height of the boys is $160$ centimeters and that of the girls is $150$ centimeters. What is the average height, in centimeters, of all the students in the class?",
+   "explanation": "Weighted mean: $\\frac{12(160)+18(150)}{30}=\\frac{1{,}920+2{,}700}{30}=\\frac{4{,}620}{30}=154$. Trap: averaging 160 and 150 to get 155 although there are more girls.",
+   "estSeconds": 90,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer",
+    "unit": "centimeters"
+   },
+   "answer": {
+    "value": 154
+   }
+  },
+  {
+   "id": "x3-q1-07",
+   "lessonId": "q1-18-remainders-units-digits",
+   "difficulty": 3,
+   "stem": "If $n$ is a positive integer, which of the following could be the units digit of $7^n$? Indicate **all** such digits.",
+   "explanation": "The units digits of $7^1,7^2,7^3,7^4,\\ldots$ cycle $7, 9, 3, 1$ and repeat. So 1, 3, 7 and 9 are possible; 0 and 5 never occur (a power of 7 is odd and not a multiple of 5).",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "A power of 7 is never a multiple of 10.",
+    "D": "A power of 7 is never a multiple of 5."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$0$"
+     },
+     {
+      "id": "B",
+      "text": "$1$"
+     },
+     {
+      "id": "C",
+      "text": "$3$"
+     },
+     {
+      "id": "D",
+      "text": "$5$"
+     },
+     {
+      "id": "E",
+      "text": "$7$"
+     },
+     {
+      "id": "F",
+      "text": "$9$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "C",
+     "E",
+     "F"
+    ]
+   }
+  },
+  {
+   "id": "x3-q1-08",
+   "lessonId": "q2-14-lines",
+   "difficulty": 3,
+   "stem": "In the $xy$-plane, a line with slope $\\frac23$ passes through the point $(6,1)$. At which point does the line cross the $y$-axis?",
+   "explanation": "Moving from $x=6$ back to $x=0$ changes $y$ by $\\frac23\\times(-6)=-4$: $1-4=-3$.",
+   "estSeconds": 80,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This subtracts 6 from 1, ignoring the slope.",
+    "C": "This uses a run of 3 instead of 6.",
+    "D": "This is the denominator of the slope, not the intercept.",
+    "E": "Sign error: adds 4 instead of subtracting it."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$(0,-5)$"
+     },
+     {
+      "id": "B",
+      "text": "$(0,-3)$"
+     },
+     {
+      "id": "C",
+      "text": "$(0,-1)$"
+     },
+     {
+      "id": "D",
+      "text": "$(0,3)$"
+     },
+     {
+      "id": "E",
+      "text": "$(0,5)$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x3-q1-09",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 2,
+   "stem": "How much did Company Q spend on marketing in 2023?",
+   "explanation": "$18\\%$ of \\$2.4 million: $0.18\\times2{,}400{,}000=432{,}000$.",
+   "estSeconds": 70,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is $7.5\\%$ of the total.",
+    "B": "This is Equipment ($12\\%$).",
+    "C": "This is Rent ($15\\%$).",
+    "E": "This is $20\\%$ of the total."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "pie",
+    "title": "Operating expenses of Company Q in 2023, by category (total: $2.4 million)",
+    "data": {
+     "slices": [
+      {
+       "label": "Salaries",
+       "value": 45
+      },
+      {
+       "label": "Marketing",
+       "value": 18
+      },
+      {
+       "label": "Rent",
+       "value": 15
+      },
+      {
+       "label": "Equipment",
+       "value": 12
+      },
+      {
+       "label": "Other",
+       "value": 10
+      }
+     ],
+     "unit": "%"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "\\$180,000"
+     },
+     {
+      "id": "B",
+      "text": "\\$288,000"
+     },
+     {
+      "id": "C",
+      "text": "\\$360,000"
+     },
+     {
+      "id": "D",
+      "text": "\\$432,000"
+     },
+     {
+      "id": "E",
+      "text": "\\$480,000"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x3-q1-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "If spending on rent had been $40$ percent greater and spending in every other category had been unchanged, rent would have accounted for approximately what percent of total operating expenses?",
+   "explanation": "Work in percentage points of the old total: rent becomes $15\\times1.4=21$, and the total becomes $100+6=106$. New share $\\frac{21}{106}\\approx19.8\\%$, about $20\\%$. Trap: forgetting that the total grows too and answering $21\\%$.",
+   "estSeconds": 110,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is the old share.",
+    "B": "This adds only 2 points to rent.",
+    "D": "This forgets that the total also grows by 6 points.",
+    "E": "Too large: rent cannot gain 9 points from a 6-point increase."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "pie",
+    "title": "Operating expenses of Company Q in 2023, by category (total: $2.4 million)",
+    "data": {
+     "slices": [
+      {
+       "label": "Salaries",
+       "value": 45
+      },
+      {
+       "label": "Marketing",
+       "value": 18
+      },
+      {
+       "label": "Rent",
+       "value": 15
+      },
+      {
+       "label": "Equipment",
+       "value": 12
+      },
+      {
+       "label": "Other",
+       "value": 10
+      }
+     ],
+     "unit": "%"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$15\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$17\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$20\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$21\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$24\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x3-q1-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "In the circle graph, what is the measure, in degrees, of the central angle of the sector that represents Equipment?",
+   "explanation": "A full circle is $360^\\circ$; Equipment is $12\\%$: $0.12\\times360=43.2$ degrees.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "pie",
+    "title": "Operating expenses of Company Q in 2023, by category (total: $2.4 million)",
+    "data": {
+     "slices": [
+      {
+       "label": "Salaries",
+       "value": 45
+      },
+      {
+       "label": "Marketing",
+       "value": 18
+      },
+      {
+       "label": "Rent",
+       "value": 15
+      },
+      {
+       "label": "Equipment",
+       "value": 12
+      },
+      {
+       "label": "Other",
+       "value": 10
+      }
+     ],
+     "unit": "%"
+    }
+   },
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "decimal"
+    }
+   },
+   "answer": {
+    "value": 43.2
+   }
+  },
+  {
+   "id": "x3-q1-12",
+   "lessonId": "q2-24-distance-rate-time",
+   "difficulty": 3,
+   "stem": "Two trains leave stations that are $300$ miles apart at the same time and travel toward each other on parallel tracks, one at $70$ miles per hour and the other at $50$ miles per hour. How far from the slower train's station will the trains pass each other?",
+   "explanation": "The gap closes at $70+50=120$ mph, so they meet after $\\frac{300}{120}=2.5$ hours. The slower train has then gone $50\\times2.5=125$ miles.",
+   "estSeconds": 100,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This uses 2 hours.",
+    "B": "This is the closing speed, not a distance.",
+    "D": "This is half the distance, as if the speeds were equal.",
+    "E": "This is the faster train's distance."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$100$ miles"
+     },
+     {
+      "id": "B",
+      "text": "$120$ miles"
+     },
+     {
+      "id": "C",
+      "text": "$125$ miles"
+     },
+     {
+      "id": "D",
+      "text": "$150$ miles"
+     },
+     {
+      "id": "E",
+      "text": "$175$ miles"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ],
+ "s2": [
+  {
+   "id": "x3-q2-01",
+   "lessonId": "q2-01-expressions",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$(x-y)^2-(x^2-y^2)=x^2-2xy+y^2-x^2+y^2=2y^2-2xy=2y(y-x)$. Since $y>0$ and $y-x>0$, this is positive.",
+   "estSeconds": 100,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$(x-y)^2$",
+    "quantityB": "$x^2-y^2$",
+    "common": "$x<0<y$"
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x3-q2-02",
+   "lessonId": "q4-14-centre-spread-reasoning",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Call them $a<10<c$. Their sum is $3\\times12=36$, so $a+c=26$. Since $a$ is a positive integer less than 10, $a\\le9$ and $c=26-a\\ge17$. So the greatest is always more than 16.",
+   "estSeconds": 110,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The greatest of the three integers",
+    "quantityB": "$16$",
+    "common": "Three different positive integers have a median of $10$ and an average (arithmetic mean) of $12$."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x3-q2-03",
+   "lessonId": "q4-08-probability-basics",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Of 36 equally likely outcomes: sum 9: 4, sum 10: 3, sum 11: 2, sum 12: 1 — total 10. Both greater than 3: $3\\times3=9$. $\\frac{10}{36}>\\frac9{36}$. Trap: treating the two events as the same — $(4,4)$ sums to 8 and counts only in B, while $(3,6)$ and $(6,3)$ count only in A.",
+   "estSeconds": 140,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The probability that the sum of the two numbers rolled is at least $9$",
+    "quantityB": "The probability that both numbers rolled are greater than $3$",
+    "common": "Two fair six-sided dice, each with faces numbered $1$ through $6$, are rolled once."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x3-q2-04",
+   "lessonId": "q3-12-circles-inscribed-figures",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "The square's diagonal is the circle's diameter, 2, so the square's side is $\\sqrt2$ and its area 2. The circle's area is $\\pi\\cdot1^2=\\pi$. Region: $\\pi-2\\approx1.14>1$.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The area of the region inside the circle but outside the square",
+    "quantityB": "$1$",
+    "common": "A square is inscribed in a circle of radius $1$."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x3-q2-05",
+   "lessonId": "q4-16-arrangements",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Five letters with L twice and E twice: $\\frac{5!}{2!\\,2!}=\\frac{120}4=30$. Trap: $5!=120$ ignores that swapping identical letters gives the same word.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The number of different arrangements of the five letters in the word LEVEL",
+    "quantityB": "$30$"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x3-q2-06",
+   "lessonId": "q1-06-exponents",
+   "difficulty": 4,
+   "stem": "If $4^x=32$, what is the value of $8^x$?",
+   "explanation": "$4^x=2^{2x}=2^5$, so $x=\\frac52$. Then $8^x=2^{3x}=2^{7.5}=2^7\\cdot2^{0.5}=128\\sqrt2$.",
+   "estSeconds": 100,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This assumes $x=2$.",
+    "B": "This drops the half power: $2^7$.",
+    "D": "This assumes $x$ makes $8^x=2^8$.",
+    "E": "This squares 32."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$64$"
+     },
+     {
+      "id": "B",
+      "text": "$128$"
+     },
+     {
+      "id": "C",
+      "text": "$128\\sqrt2$"
+     },
+     {
+      "id": "D",
+      "text": "$256$"
+     },
+     {
+      "id": "E",
+      "text": "$1{,}024$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-07",
+   "lessonId": "q2-17-sequences",
+   "difficulty": 5,
+   "stem": "What is the value of $\\dfrac1{1\\cdot2}+\\dfrac1{2\\cdot3}+\\dfrac1{3\\cdot4}+\\cdots+\\dfrac1{9\\cdot10}$? Give your answer as a fraction.",
+   "explanation": "Each term splits: $\\frac1{k(k+1)}=\\frac1k-\\frac1{k+1}$. The sum telescopes: $(1-\\frac12)+(\\frac12-\\frac13)+\\cdots+(\\frac19-\\frac1{10})=1-\\frac1{10}=\\frac9{10}$.",
+   "estSeconds": 140,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "fraction"
+   },
+   "answer": {
+    "value": 0.9,
+    "fraction": {
+     "numerator": 9,
+     "denominator": 10
+    }
+   }
+  },
+  {
+   "id": "x3-q2-08",
+   "lessonId": "q1-24-operations-and-signs",
+   "difficulty": 5,
+   "stem": "If $x$ and $y$ are integers and $x^2y$ is a negative odd integer, which of the following must be true? Indicate **all** such statements.",
+   "explanation": "$x^2>0$ (it cannot be 0), so $x^2y<0$ forces $y<0$ (A). An odd product needs odd factors: $x$ and $y$ are both odd, so $x+y$ is even (C) and $xy$ is odd (D). $x$ can be positive ($x=1, y=-1$), and $x-y$ can be negative ($x=-5$, $y=-1$).",
+   "estSeconds": 130,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "$x=1$, $y=-3$ works: $x^2y=-3$.",
+    "E": "$x=-5$, $y=-1$ gives $x^2y=-25$ and $x-y=-4$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$y<0$"
+     },
+     {
+      "id": "B",
+      "text": "$x<0$"
+     },
+     {
+      "id": "C",
+      "text": "$x+y$ is even."
+     },
+     {
+      "id": "D",
+      "text": "$xy$ is odd."
+     },
+     {
+      "id": "E",
+      "text": "$x-y>0$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "C",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-09",
+   "lessonId": "q1-26-percent-techniques",
+   "difficulty": 4,
+   "stem": "The length of a rectangle is increased by $30$ percent and its width is decreased by $20$ percent. What is the effect on the area of the rectangle?",
+   "explanation": "New area $=1.3\\times0.8=1.04$ times the old: a $4\\%$ increase. Trap: $30-20=10\\%$.",
+   "estSeconds": 80,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Sign error: $1.04>1$.",
+    "B": "The changes do not cancel.",
+    "D": "Subtracting percents ignores that they multiply.",
+    "E": "Adding the percents."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It decreases by $4\\%$."
+     },
+     {
+      "id": "B",
+      "text": "It does not change."
+     },
+     {
+      "id": "C",
+      "text": "It increases by $4\\%$."
+     },
+     {
+      "id": "D",
+      "text": "It increases by $10\\%$."
+     },
+     {
+      "id": "E",
+      "text": "It increases by $50\\%$."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "What is the median number of books read by the $40$ members?",
+   "explanation": "The median of 40 values is the average of the 20th and 21st. Cumulative counts: 0 books — 3, 1 — 8, 2 — 16, 3 — 26. The 20th and 21st members both read 3 books.",
+   "estSeconds": 100,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Only 16 members read 2 or fewer books.",
+    "B": "Both middle values are 3; there is nothing to average.",
+    "D": "This is the middle of the scale 0–6 plus a half.",
+    "E": "Too high: 26 members read 3 or fewer."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Number of books read last year by the 40 members of a book club",
+    "data": {
+     "columns": [
+      "Number of books",
+      "Number of members"
+     ],
+     "rows": [
+      [
+       0,
+       3
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       8
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       5,
+       5
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$2.5$"
+     },
+     {
+      "id": "C",
+      "text": "$3$"
+     },
+     {
+      "id": "D",
+      "text": "$3.5$"
+     },
+     {
+      "id": "E",
+      "text": "$4$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 5,
+   "stem": "What is the average (arithmetic mean) number of books read by the $40$ members?",
+   "explanation": "Total books: $0(3)+1(5)+2(8)+3(10)+4(6)+5(5)+6(3)=0+5+16+30+24+25+18=118$. Mean $\\frac{118}{40}=2.95$. Trap: averaging the numbers 0–6 to get 3.",
+   "estSeconds": 120,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Number of books read last year by the 40 members of a book club",
+    "data": {
+     "columns": [
+      "Number of books",
+      "Number of members"
+     ],
+     "rows": [
+      [
+       0,
+       3
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       8
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       5,
+       5
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "decimal"
+    }
+   },
+   "answer": {
+    "value": 2.95
+   }
+  },
+  {
+   "id": "x3-q2-12",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 5,
+   "stem": "Which of the following statements are true? Indicate **all** such statements.",
+   "explanation": "At least 3 books: $10+6+5+3=24$ of 40 (A true). Range $6-0=6$ (B true). Mode 3 equals the median 3 (C false). 5 or more: $5+3=8$, exactly $20\\%$, not fewer (D false).",
+   "estSeconds": 140,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "The mode (3) equals the median (3).",
+    "D": "$\\frac8{40}$ is exactly $20\\%$."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "table",
+    "title": "Number of books read last year by the 40 members of a book club",
+    "data": {
+     "columns": [
+      "Number of books",
+      "Number of members"
+     ],
+     "rows": [
+      [
+       0,
+       3
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       8
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       5,
+       5
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    }
+   },
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "More than half of the members read at least $3$ books."
+     },
+     {
+      "id": "B",
+      "text": "The range of the numbers of books read is $6$."
+     },
+     {
+      "id": "C",
+      "text": "The mode of the numbers of books read is greater than the median."
+     },
+     {
+      "id": "D",
+      "text": "Fewer than $20$ percent of the members read $5$ or more books."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-13",
+   "lessonId": "q2-26-coordinate-plane-skills",
+   "difficulty": 5,
+   "stem": "In the $xy$-plane, what is the distance from the origin to the line $3x+4y=24$?",
+   "explanation": "The line meets the axes at $(8,0)$ and $(0,6)$, forming a right triangle with legs 8 and 6, hypotenuse 10, and area 24. The distance from the origin to the line is the height to the hypotenuse: $\\frac12\\cdot10\\cdot h=24$, so $h=4.8$.",
+   "estSeconds": 130,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Too short: the closest point is farther than 4.",
+    "C": "This is half the hypotenuse.",
+    "D": "This is the $y$-intercept, the distance along the $y$-axis, not the shortest distance.",
+    "E": "This is the $x$-intercept."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$4$"
+     },
+     {
+      "id": "B",
+      "text": "$4.8$"
+     },
+     {
+      "id": "C",
+      "text": "$5$"
+     },
+     {
+      "id": "D",
+      "text": "$6$"
+     },
+     {
+      "id": "E",
+      "text": "$8$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x3-q2-14",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 4,
+   "stem": "How many of the positive divisors of $360$ are odd?",
+   "explanation": "$360=2^3\\cdot3^2\\cdot5$. An odd divisor uses no factor of 2: $3^a5^b$ with $a\\in\\{0,1,2\\}$, $b\\in\\{0,1\\}$ — $3\\times2=6$ (1, 3, 5, 9, 15, 45).",
+   "estSeconds": 100,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 6
+   }
+  },
+  {
+   "id": "x3-q2-15",
+   "lessonId": "q1-25-ratio-techniques",
+   "difficulty": 4,
+   "stem": "A bag contains only red, white, and blue marbles. The ratio of red marbles to white marbles is $2$ to $3$, and blue marbles make up $\\frac16$ of the marbles in the bag. If there are $20$ blue marbles in the bag, how many white marbles are there?",
+   "explanation": "Total: $20\\div\\frac16=120$. Red and white together: $120-20=100$, split $2:3$, so white $=\\frac35\\times100=60$ (and red 40).",
+   "estSeconds": 100,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This applies the ratio to 50, half of the red and white marbles, instead of to all 100.",
+    "B": "This is the number of red marbles.",
+    "C": "This splits the 100 equally, ignoring the ratio.",
+    "E": "This adds the 20 blue marbles to the 60 white ones."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$30$"
+     },
+     {
+      "id": "B",
+      "text": "$40$"
+     },
+     {
+      "id": "C",
+      "text": "$50$"
+     },
+     {
+      "id": "D",
+      "text": "$60$"
+     },
+     {
+      "id": "E",
+      "text": "$80$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  }
+ ]
+}

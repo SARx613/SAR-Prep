@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { adaptiveLevelFor, buildPart, estimateScore, levelFor, sectionEstimate } from '@/lib/mock';
+import { adaptiveLevelFor, buildPart, estimateScore, isBankMockKind, isExamKind, levelFor, mockLabel, sectionEstimate } from '@/lib/mock';
 import { buildPlan } from '@/lib/plan';
 import type { QIndexItem } from '@/content/qindex';
 
@@ -43,6 +43,19 @@ describe('mock sections', () => {
   it('excluded ids are not reused', () => {
     const s1 = new Set(buildPart(pool, 'verbal', 1, 'avg', 'm4'));
     expect(buildPart(pool, 'verbal', 2, 'medium', 'm4', s1).some((id) => s1.has(id))).toBe(false);
+  });
+});
+
+describe('mock kinds', () => {
+  it('tells exam-style mocks from bank mocks', () => {
+    expect(isExamKind('x1')).toBe(true);
+    expect(isExamKind('x12')).toBe(true);
+    expect(isExamKind('m1')).toBe(false);
+    expect(isBankMockKind('m6')).toBe(true);
+    expect(isBankMockKind('m7')).toBe(false);
+    expect(isBankMockKind('x1')).toBe(false);
+    expect(mockLabel('x2')).toBe('Exam-style test 2');
+    expect(mockLabel('m3')).toBe('Mock 3');
   });
 });
 

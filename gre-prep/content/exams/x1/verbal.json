@@ -1,0 +1,1655 @@
+{
+ "passages": [
+  {
+   "id": "x1-robbing",
+   "field": "biological-sciences",
+   "paragraphs": [
+    "Nectar robbing—the practice, common among certain bumblebees, of biting a hole in the base of a flower and extracting nectar without contacting its reproductive structures—has traditionally been classified as a straightforward case of exploitation. The robber obtains a reward while providing no pollination service, and the plant, deprived of nectar that would otherwise attract legitimate pollinators, presumably suffers reduced seed set. Field studies have confirmed this expectation for some species, but the effect is far from universal. In several populations of larkspur, for instance, robbed plants set as much seed as unrobbed ones, and in a few cases more.",
+    "One explanation for this unexpected result turns on the behavior of the legitimate pollinators themselves. A hummingbird that finds little nectar in the first few flowers of a plant tends to abandon that plant sooner and to fly farther before feeding again. Because many plants produce more viable seed when fertilized with pollen from distant, genetically dissimilar individuals than with pollen from near neighbors, this restlessness may partly offset the loss of visits. Robbing, in other words, may alter not merely how often a plant is pollinated but by whom—and with whose pollen."
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "x1-library-hours",
+   "field": "business",
+   "paragraphs": [
+    "Last year the Ferris County library system extended its weekday closing time from 6 p.m. to 9 p.m. at every branch. In the twelve months that followed, the total number of items checked out from the system rose by 14 percent over the previous twelve months. Library administrators have concluded that the longer hours were responsible for the increase, and they now propose extending weekend hours as well."
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "x1-tooth-marks",
+   "field": "biological-sciences",
+   "paragraphs": [
+    "Paleontologists have often taken the absence of tooth marks on fossilized bones from a site as evidence that predators did not scavenge the carcasses buried there. Modern crocodiles, however, swallow small prey whole and dismember large prey by twisting rather than chewing, and the bones of animals they have eaten frequently bear no marks at all. At sites where crocodilian fossils are abundant, therefore, unmarked bones are weak evidence that scavenging did not occur."
+   ],
+   "difficulty": 3
+  },
+  {
+   "id": "x1-heights",
+   "field": "social-sciences",
+   "paragraphs": [
+    "For much of the twentieth century, the debate over whether the early decades of British industrialization improved or worsened the lives of ordinary workers was conducted largely in the currency of wages. Optimists assembled series of money wages, deflated them by price indices, and found that real earnings rose, if slowly, from about 1820 onward; pessimists countered that the price indices omitted rents and other urban costs, that the wage series overrepresented skilled trades, and that averages concealed the long spells of unemployment that punctuated many working lives. Because each side could plausibly contest the other's data, the debate settled into a stalemate in which the choice of index seemed to determine the conclusion.",
+    "The introduction of anthropometric evidence in the 1980s promised a way out. Average adult height, which depends heavily on nutrition and exposure to disease during childhood and adolescence, offers a measure of well-being that is independent of prices altogether, and military recruitment records supplied measurements for hundreds of thousands of men born across the period. The results were striking: the average height of recruits appears to have declined for cohorts born in the second quarter of the nineteenth century, precisely when the optimists' wage series show real earnings improving. To many historians, the finding suggested that the gains captured by wages were offset by the crowding, polluted water, and epidemic disease that accompanied rapid urban growth.",
+    "Yet the height data have vulnerabilities of their own. Armies imposed minimum height requirements, and they lowered or raised those minimums as their need for men fluctuated; a sample of recruits is therefore truncated in ways that can manufacture apparent trends. Moreover, the men who volunteered for service were disproportionately drawn from those with poor civilian prospects, so that a decline in measured height might reflect a change in who enlisted rather than in the population at large. Statistical techniques have been devised to correct for truncation, but the correction for self-selection depends on assumptions about the civilian population that the records themselves cannot test. Anthropometric history has thus not so much resolved the old controversy as relocated it, from disputes about which prices belong in an index to disputes about who stood in line to be measured."
+   ],
+   "difficulty": 5
+  },
+  {
+   "id": "x1-craters",
+   "field": "physical-sciences",
+   "paragraphs": [
+    "Planetary scientists commonly estimate the age of a planetary surface by counting the craters on it: the more densely cratered a surface, the longer it has presumably been exposed to impacts. The method's calibration rests on lunar rock samples whose ages have been determined radiometrically, which allow crater densities on the Moon to be converted into absolute ages. Applying that calibration to Mars or Mercury, however, requires assuming that the rate of impacts at those planets has borne a known relation to the rate at the Moon throughout their histories—an assumption that recent models of how the giant planets' orbits shifted early in the solar system's history have called into question. If those shifts sent waves of debris through the inner solar system at different times for different planets, then two surfaces with identical crater densities could differ considerably in age."
+   ],
+   "difficulty": 4
+  },
+  {
+   "id": "x1-displays",
+   "field": "everyday",
+   "paragraphs": [
+    "Two years ago a city transit agency installed real-time arrival displays at the stops along some of its bus routes. Since then, ridership on those routes has grown by 9 percent, compared with 2 percent on routes without displays. The agency's planners argue that installing displays along all remaining routes would raise ridership on those routes by a similar margin."
+   ],
+   "difficulty": 4
+  }
+ ],
+ "s1": [
+  {
+   "id": "x1-v1-01",
+   "lessonId": "v1-02-method",
+   "difficulty": 2,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "The report was meant to *settle* the dispute, yet *each faction* read it as support: its conclusions must have been open to more than one reading — **equivocal**.",
+   "estSeconds": 80,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Sharp, decisive conclusions would favour one side, not let every side claim victory.",
+    "C": "Lateness does not explain why both sides could read it as support.",
+    "D": "Thoroughness says nothing about being open to opposite readings.",
+    "E": "A partisan report would vindicate one faction only."
+   },
+   "type": "TC",
+   "content": {
+    "text": "Although the committee's report was intended to settle the dispute, its conclusions were so {{1}} that each faction claimed the document vindicated its own position.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "equivocal"
+       },
+       {
+        "id": "B",
+        "text": "incisive"
+       },
+       {
+        "id": "C",
+        "text": "belated"
+       },
+       {
+        "id": "D",
+        "text": "exhaustive"
+       },
+       {
+        "id": "E",
+        "text": "partisan"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-02",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "Blank 1: the style is set against *ornate* prose and later called *plainness* — **spare**. Blank 2: plainness that was *hard-won* came from labour on the text — relentless **revision**.",
+   "estSeconds": 115,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1B": "Florid means ornate, the opposite of the plainness described.",
+    "1C": "Nothing suggests old-fashioned language; the clue is plainness.",
+    "2B": "Improvising is the opposite of 'hard-won'.",
+    "2C": "Imitating others would not make her plainness her own achievement, and contradicts her contrast with contemporaries."
+   },
+   "type": "TC",
+   "content": {
+    "text": "The novelist's early reviewers, accustomed to the ornate prose of her contemporaries, mistook her {{1}} style for a lack of ambition; only later did critics recognize that its plainness was hard-won, the product of relentless {{2}}.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "spare"
+       },
+       {
+        "id": "1B",
+        "text": "florid"
+       },
+       {
+        "id": "1C",
+        "text": "archaic"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "revision"
+       },
+       {
+        "id": "2B",
+        "text": "improvisation"
+       },
+       {
+        "id": "2C",
+        "text": "imitation"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-03",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 3,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "Blank 1: events that *degraded the habitat* were seen as **catastrophic**. Blank 2: *however* reverses that view, and the fires do essential work (clearing invasive shrubs) — **integral**.",
+   "estSeconds": 115,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1B": "'Routine' does not match 'degraded the habitat'.",
+    "1C": "Fortuitous (lucky or by chance) clashes with 'degraded the habitat'.",
+    "2B": "Inimical (harmful) repeats the old view that 'however' rejects.",
+    "2C": "The fires do essential work, so they are not incidental."
+   },
+   "type": "TC",
+   "content": {
+    "text": "For decades, ecologists regarded the marsh's periodic fires as {{1}} events that degraded the habitat; recent studies, however, suggest that the fires are {{2}} to the ecosystem, clearing out invasive shrubs that would otherwise crowd out the native grasses.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "catastrophic"
+       },
+       {
+        "id": "1B",
+        "text": "routine"
+       },
+       {
+        "id": "1C",
+        "text": "fortuitous"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "integral"
+       },
+       {
+        "id": "2B",
+        "text": "inimical"
+       },
+       {
+        "id": "2C",
+        "text": "incidental"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-04",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 4,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "*Less to foresight than to…* tells you blank 1 is foresight (**prescience**) and blank 2 its opposite, chance (**happenstance**). The colon explains: the lasting clauses were *inserted at the last minute* to meet an *unanticipated* deadlock — **improvised**.",
+   "estSeconds": 150,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1B": "Stubbornness is not what 'foresight' restates.",
+    "1C": "Naïveté would not be cited as the reason a treaty lasted.",
+    "2B": "Deliberation is close to foresight, which the sentence sets aside.",
+    "2C": "Nothing in the colon clause mentions force.",
+    "3B": "Last-minute clauses are not meticulous.",
+    "3C": "Compromises that broke a deadlock are not described as punishing anyone."
+   },
+   "type": "TC",
+   "content": {
+    "text": "That the treaty endured for half a century is often cited as evidence of its negotiators' {{1}}. Yet the archival record suggests that its longevity owed less to foresight than to {{2}}: the provisions that proved most durable were {{3}} compromises, inserted at the last minute to break a deadlock that neither side had anticipated.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "prescience"
+       },
+       {
+        "id": "1B",
+        "text": "intransigence"
+       },
+       {
+        "id": "1C",
+        "text": "naïveté"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "happenstance"
+       },
+       {
+        "id": "2B",
+        "text": "deliberation"
+       },
+       {
+        "id": "2C",
+        "text": "coercion"
+       }
+      ]
+     },
+     {
+      "index": 3,
+      "choices": [
+       {
+        "id": "3A",
+        "text": "improvised"
+       },
+       {
+        "id": "3B",
+        "text": "meticulous"
+       },
+       {
+        "id": "3C",
+        "text": "punitive"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1A",
+     "2A",
+     "3A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-05",
+   "lessonId": "v3-02-main-idea",
+   "difficulty": 3,
+   "stem": "The primary purpose of the passage is to",
+   "explanation": "Paragraph 1 says the expected harm is 'far from universal' and gives the larkspur exception; paragraph 2 offers 'one explanation' — the pollinators' restlessness. That is (A).",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Too strong: robbed plants set 'as much seed' and only 'in a few cases more'.",
+    "C": "The method of robbing is defined in one clause; it is not the point.",
+    "D": "Hummingbird behaviour is used to explain an effect, not compared with bumblebees.",
+    "E": "This fact supports the explanation; it is not the passage's purpose."
+   },
+   "passageId": "x1-robbing",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "challenge the view that nectar robbing is invariably harmful to plants and propose a mechanism that could account for exceptions"
+     },
+     {
+      "id": "B",
+      "text": "argue that nectar robbing benefits plants more than legitimate pollination does"
+     },
+     {
+      "id": "C",
+      "text": "describe the techniques by which bumblebees extract nectar from flowers"
+     },
+     {
+      "id": "D",
+      "text": "compare the foraging strategies of bumblebees and hummingbirds"
+     },
+     {
+      "id": "E",
+      "text": "explain why plants produce more viable seed when fertilized with pollen from distant individuals"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-06",
+   "lessonId": "v3-05-inference",
+   "difficulty": 4,
+   "stem": "Consider each of the three answer choices separately and select all that apply.\n\nThe passage suggests which of the following about a hummingbird foraging on a plant whose flowers have been heavily robbed?",
+   "explanation": "A bird that finds little nectar 'tends to abandon that plant sooner' (A) 'and to fly farther before feeding again' (B). Nothing says the pollen it carries is less viable; the passage says seed is *more* viable when pollen comes from distant plants.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "The passage discusses the viability of seed produced with distant pollen, not any loss of pollen quality on robbed plants."
+   },
+   "passageId": "x1-robbing",
+   "type": "RC",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It is likely to visit fewer of that plant's flowers than it would visit on an unrobbed plant."
+     },
+     {
+      "id": "B",
+      "text": "It is likely to fly farther before its next feeding than it would after leaving an unrobbed plant."
+     },
+     {
+      "id": "C",
+      "text": "It is likely to carry pollen of lower viability than pollen picked up from an unrobbed plant."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-07",
+   "lessonId": "v3-06-structure",
+   "difficulty": 3,
+   "stem": "The final sentence of the passage (\"Robbing, in other words… whose pollen\") primarily serves to",
+   "explanation": "'In other words' signals a restatement: the explanation is recast as a change in *who* pollinates and *whose pollen* arrives, not merely *how often*.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "It supports, rather than limits, the larkspur finding.",
+    "C": "'In other words' restates; it does not add a rival account.",
+    "D": "Nothing is said about measurement.",
+    "E": "The passage says the harm is 'far from universal', not that the classification is wholly wrong."
+   },
+   "passageId": "x1-robbing",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "qualify the earlier claim that robbed plants sometimes set more seed than unrobbed ones"
+     },
+     {
+      "id": "B",
+      "text": "restate the proposed explanation in terms that emphasize a change in the source of pollen and not only in the number of visits"
+     },
+     {
+      "id": "C",
+      "text": "introduce a second explanation that competes with the one just offered"
+     },
+     {
+      "id": "D",
+      "text": "concede that the effect of robbing on seed set cannot be measured reliably"
+     },
+     {
+      "id": "E",
+      "text": "suggest that the traditional classification of nectar robbing as exploitation was entirely mistaken"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-08",
+   "lessonId": "v2-03-method",
+   "difficulty": 2,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "*Despite* sets the reputation against being *willing to accept suggestions*: she was thought unbending — **inflexibility**, **rigidity**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Generosity fits openness; 'despite' needs the opposite.",
+    "D": "Speaking well is unrelated to accepting suggestions.",
+    "E": "A shy, unassertive director would be expected to accept suggestions, so there is no contrast.",
+    "F": "Cleverness does not contrast with openness to ideas."
+   },
+   "type": "SE",
+   "content": {
+    "text": "Despite her reputation for {{1}}, the director proved remarkably willing to accept suggestions from the cast during rehearsals.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "inflexibility"
+     },
+     {
+      "id": "B",
+      "text": "generosity"
+     },
+     {
+      "id": "C",
+      "text": "rigidity"
+     },
+     {
+      "id": "D",
+      "text": "eloquence"
+     },
+     {
+      "id": "E",
+      "text": "diffidence"
+     },
+     {
+      "id": "F",
+      "text": "ingenuity"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-09",
+   "lessonId": "v2-03-method",
+   "difficulty": 3,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "The colon explains the tone: *detachment*, like a clerk listing items — without visible emotion: **dispassionate**, **impassive**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Grief is emotion; the clue is detachment.",
+    "C": "Anger is emotion; the clue is detachment.",
+    "D": "A lyrical tone is expressive, the opposite of an inventory.",
+    "F": "Wry means dryly humorous; the clue says nothing about humour."
+   },
+   "type": "SE",
+   "content": {
+    "text": "The memoir's tone is curiously {{1}}: the author recounts the most harrowing episodes of her childhood with the detachment of a clerk itemizing an inventory.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "mournful"
+     },
+     {
+      "id": "B",
+      "text": "dispassionate"
+     },
+     {
+      "id": "C",
+      "text": "indignant"
+     },
+     {
+      "id": "D",
+      "text": "lyrical"
+     },
+     {
+      "id": "E",
+      "text": "impassive"
+     },
+     {
+      "id": "F",
+      "text": "wry"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-10",
+   "lessonId": "v2-03-method",
+   "difficulty": 4,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "*Far from* sets the legend against the facts: a *cautious planner*. The legend must be the opposite of cautious — **rash**, **foolhardy**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Circumspect means cautious — what he actually was, not the legend.",
+    "D": "Being quiet is not the opposite of being cautious.",
+    "E": "A venerated figure could also be cautious; there is no contrast.",
+    "F": "A figure of popular legend is by definition not obscure."
+   },
+   "type": "SE",
+   "content": {
+    "text": "Far from being the {{1}} figure of popular legend, the explorer was by most contemporary accounts a cautious planner who abandoned more than one expedition rather than risk his crew.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "rash"
+     },
+     {
+      "id": "B",
+      "text": "circumspect"
+     },
+     {
+      "id": "C",
+      "text": "foolhardy"
+     },
+     {
+      "id": "D",
+      "text": "taciturn"
+     },
+     {
+      "id": "E",
+      "text": "venerated"
+     },
+     {
+      "id": "F",
+      "text": "obscure"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-11",
+   "lessonId": "v3-08-evaluate-arguments",
+   "difficulty": 3,
+   "stem": "Which of the following, if true, most seriously weakens the administrators' conclusion?",
+   "explanation": "The conclusion is causal: longer hours caused the rise. (B) gives another cause that accounts for 'nearly all' of the increase — e-books, which can be borrowed online at any hour.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "It does not show that the evening hours failed to add checkouts; those patrons may have borrowed more overall.",
+    "C": "What other counties did says nothing about the cause of Ferris County's increase.",
+    "D": "Cost bears on whether to extend hours, not on what caused the increase.",
+    "E": "A wish for morning hours does not undermine the role of the evening hours."
+   },
+   "passageId": "x1-library-hours",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Most of the items checked out during the extended evening hours were borrowed by patrons who had also visited the library during the day."
+     },
+     {
+      "id": "B",
+      "text": "During the same twelve months, the system began lending e-books through its website, and e-book loans, which are included in the system's checkout totals, accounted for nearly all of the increase."
+     },
+     {
+      "id": "C",
+      "text": "Several neighboring counties also extended the hours of their libraries last year."
+     },
+     {
+      "id": "D",
+      "text": "The cost of staffing the branches during the extended hours was higher than administrators had projected."
+     },
+     {
+      "id": "E",
+      "text": "Surveys indicate that many patrons would like the branches to open earlier on weekday mornings."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v1-12",
+   "lessonId": "v3-08-evaluate-arguments",
+   "difficulty": 3,
+   "stem": "In the argument, the statement about modern crocodiles plays which of the following roles?",
+   "explanation": "Paleontologists infer 'no tooth marks → no scavenging'. The crocodile fact shows that scavenging can leave no marks, which supports the conclusion that unmarked bones are 'weak evidence' — it undermines the usual inference.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "The conclusion is the last sentence ('therefore…').",
+    "C": "The crocodile fact cuts against the paleontologists' inference; it is not assumed by it.",
+    "D": "The argument relies on the crocodile fact; it never dismisses it.",
+    "E": "The argument never explains why such fossils are abundant."
+   },
+   "passageId": "x1-tooth-marks",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "It is the conclusion that the argument as a whole seeks to establish."
+     },
+     {
+      "id": "B",
+      "text": "It is evidence offered to undermine the reliability of an inference that paleontologists have commonly drawn."
+     },
+     {
+      "id": "C",
+      "text": "It is an assumption on which the paleontologists' inference depends."
+     },
+     {
+      "id": "D",
+      "text": "It is a counterexample that the argument raises and then dismisses."
+     },
+     {
+      "id": "E",
+      "text": "It explains why crocodilian fossils are abundant at certain sites."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  }
+ ],
+ "s2": [
+  {
+   "id": "x1-v2-01",
+   "lessonId": "v1-02-method",
+   "difficulty": 4,
+   "stem": "Select one entry from the choices that best completes the text.",
+   "explanation": "Speeches *laden with qualifications and hedges* yield only half-commitments: every position turns out to be **tentative**.",
+   "estSeconds": 60,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "Categorical (absolute, unqualified) is the opposite of hedged.",
+    "C": "Hedging says nothing about originality.",
+    "D": "Quixotic means idealistic and impractical; hedges make claims cautious, not visionary.",
+    "E": "Heavily qualified speech is the opposite of inflammatory."
+   },
+   "type": "TC",
+   "content": {
+    "text": "The minister's speeches were so laden with qualifications and hedges that even her allies found it difficult to extract from them any position that was not, on closer inspection, merely {{1}}.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "A",
+        "text": "tentative"
+       },
+       {
+        "id": "B",
+        "text": "categorical"
+       },
+       {
+        "id": "C",
+        "text": "novel"
+       },
+       {
+        "id": "D",
+        "text": "quixotic"
+       },
+       {
+        "id": "E",
+        "text": "incendiary"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-02",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 4,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "Blank 1: the critics react to *apparent disorder* — they call the works **incoherent**. Blank 2: *not a failure of craft but…* needs the opposite of an accident — a **deliberate** rejection.",
+   "estSeconds": 115,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1A": "Derivative means imitative; the critics' complaint concerns disorder, and works that reject convention are hardly imitative.",
+    "1C": "Sickly sweet does not describe abrupt shifts and the lack of a focal point.",
+    "2A": "A reluctant rejection would not answer the charge that the disorder is a failure.",
+    "2B": "Timing is beside the point; the contrast is accident versus intention."
+   },
+   "type": "TC",
+   "content": {
+    "text": "Critics who dismiss the painter's final canvases as {{1}} miss the point: the works' apparent disorder, their abrupt shifts of scale and their refusal to settle on a single focal point, reflects not a failure of craft but a {{2}} rejection of the conventions he had spent a lifetime mastering.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "derivative"
+       },
+       {
+        "id": "1B",
+        "text": "incoherent"
+       },
+       {
+        "id": "1C",
+        "text": "saccharine"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "reluctant"
+       },
+       {
+        "id": "2B",
+        "text": "belated"
+       },
+       {
+        "id": "2C",
+        "text": "deliberate"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2C"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-03",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 5,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "*Though* sets praise of the prose against a weakness in the argument, so blank 1 is praise — **lucid**. Blank 2: *accepting at face value* means she treats the sources as **authoritative**.",
+   "estSeconds": 115,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1A": "Turgid (bloated) is a fault; 'though… never less than' needs praise.",
+    "1C": "Tendentious (biased) is a fault, not praise.",
+    "2B": "Treating sources as false is the opposite of accepting them at face value.",
+    "2C": "She accepts the accounts; she does not find them unclear."
+   },
+   "type": "TC",
+   "content": {
+    "text": "Though the historian's prose is never less than {{1}}, her argument is undercut by a tendency to treat the testimony of her sources as {{2}}, accepting at face value accounts that a more skeptical scholar would have interrogated.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "turgid"
+       },
+       {
+        "id": "1B",
+        "text": "lucid"
+       },
+       {
+        "id": "1C",
+        "text": "tendentious"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "authoritative"
+       },
+       {
+        "id": "2B",
+        "text": "spurious"
+       },
+       {
+        "id": "2C",
+        "text": "opaque"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-04",
+   "lessonId": "v1-04-multi-blank",
+   "difficulty": 5,
+   "stem": "For each blank select one entry from the corresponding column of choices. Fill all blanks in the way that best completes the text.",
+   "explanation": "Colleagues were *surprised* because they expected her to defend old positions; so she abandoned them — **repudiation**, against an expected **dogged** defense. Loyalty to a hypothesis *however* **cherished** is still no substitute for the data.",
+   "estSeconds": 150,
+   "skills": [
+    "text-completion"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "1A": "Proving her findings right would not surprise colleagues who expected her to defend them.",
+    "1C": "Repeating her findings is what colleagues expected, not a surprise.",
+    "2A": "A halfhearted defense contradicts 'positions she had once staked out' being defended as expected.",
+    "2B": "'Impartial defense' is self-contradictory here.",
+    "3A": "'Loyalty… however discredited' would make her point trivial; 'however' needs a quality that makes loyalty tempting.",
+    "3C": "Modesty is not what makes loyalty to a hypothesis tempting."
+   },
+   "type": "TC",
+   "content": {
+    "text": "The scientist's {{1}} of her own earlier findings surprised colleagues, who had come to expect from her the {{2}} defense of positions she had once staked out; but she insisted that loyalty to a hypothesis, however {{3}}, was no substitute for fidelity to the data.",
+    "blanks": [
+     {
+      "index": 1,
+      "choices": [
+       {
+        "id": "1A",
+        "text": "vindication"
+       },
+       {
+        "id": "1B",
+        "text": "repudiation"
+       },
+       {
+        "id": "1C",
+        "text": "reiteration"
+       }
+      ]
+     },
+     {
+      "index": 2,
+      "choices": [
+       {
+        "id": "2A",
+        "text": "halfhearted"
+       },
+       {
+        "id": "2B",
+        "text": "impartial"
+       },
+       {
+        "id": "2C",
+        "text": "dogged"
+       }
+      ]
+     },
+     {
+      "index": 3,
+      "choices": [
+       {
+        "id": "3A",
+        "text": "discredited"
+       },
+       {
+        "id": "3B",
+        "text": "cherished"
+       },
+       {
+        "id": "3C",
+        "text": "modest"
+       }
+      ]
+     }
+    ]
+   },
+   "answer": {
+    "blanks": [
+     "1B",
+     "2C",
+     "3B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-05",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 4,
+   "stem": "Which of the following best describes the organization of the passage?",
+   "explanation": "Paragraph 1: the wage debate and its stalemate. Paragraph 2: heights 'promised a way out'. Paragraph 3: 'Yet the height data have vulnerabilities of their own'.",
+   "estSeconds": 100,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "The author says the controversy was 'relocated', not resolved.",
+    "C": "No other disciplines are surveyed.",
+    "D": "No single claim is reformulated; a debate is traced.",
+    "E": "The author never says either kind of evidence should be abandoned."
+   },
+   "passageId": "x1-heights",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "A long-standing debate is described, a new kind of evidence that seemed to promise a resolution is introduced, and limitations of that evidence are then examined."
+     },
+     {
+      "id": "B",
+      "text": "Two opposing interpretations are presented, and the author argues that one of them has been decisively confirmed by new evidence."
+     },
+     {
+      "id": "C",
+      "text": "A methodological innovation is described, its origins are traced, and its applications in other disciplines are surveyed."
+     },
+     {
+      "id": "D",
+      "text": "A historical claim is stated, evidence against it is presented, and the claim is then reformulated in a more limited form."
+     },
+     {
+      "id": "E",
+      "text": "The shortcomings of two kinds of evidence are compared, and the author concludes that both should be abandoned."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-06",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 5,
+   "stem": "It can be inferred from the passage that if an army had raised its minimum height requirement for recruits born in a particular decade, then",
+   "explanation": "A higher minimum excludes the shortest men from the sample, so the recruits' average is pushed up relative to the whole cohort: this is the truncation that 'can manufacture apparent trends'.",
+   "estSeconds": 110,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "An army rule changes who is measured, not how tall the population is.",
+    "C": "The passage links volunteering to civilian prospects, not to height rules.",
+    "D": "Too extreme: the passage notes that techniques exist to correct for truncation.",
+    "E": "The passage never ranks the two kinds of data for any decade."
+   },
+   "passageId": "x1-heights",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "the average height of all men born in that decade would have risen"
+     },
+     {
+      "id": "B",
+      "text": "the measured average height of recruits born in that decade could overstate the average height of all men born in that decade"
+     },
+     {
+      "id": "C",
+      "text": "fewer men with poor civilian prospects would have volunteered for service in that decade"
+     },
+     {
+      "id": "D",
+      "text": "historians could make no use of recruitment records for that decade"
+     },
+     {
+      "id": "E",
+      "text": "wage data for that decade would be more reliable than height data"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-07",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 4,
+   "stem": "Consider each of the three answer choices separately and select all that apply.\n\nAccording to the passage, pessimists objected to the optimists' wage evidence on which of the following grounds?",
+   "explanation": "Paragraph 1: the indices 'omitted rents and other urban costs' (A) and the series 'overrepresented skilled trades' (B). Military records belong to the height evidence, not to the wage debate.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "Recruitment records are the source of the height data in paragraph 2, not the wage data."
+   },
+   "passageId": "x1-heights",
+   "type": "RC",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "The price indices used left out certain costs of living in cities."
+     },
+     {
+      "id": "B",
+      "text": "The wage series gave disproportionate weight to workers in skilled trades."
+     },
+     {
+      "id": "C",
+      "text": "The wage records were drawn largely from men who had enlisted in the army."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-08",
+   "lessonId": "v3-09-long-passages",
+   "difficulty": 5,
+   "stem": "Select the sentence in the third paragraph that identifies a limitation of the height evidence that, according to the author, available methods cannot fully overcome.",
+   "explanation": "Truncation can be corrected 'by statistical techniques', but the self-selection correction rests on assumptions 'the records themselves cannot test' — a limitation that methods do not fully remove. The earlier sentences describe the problems without saying whether they can be overcome.",
+   "estSeconds": 80,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "passageId": "x1-heights",
+   "type": "RC",
+   "content": {
+    "format": "select_in_passage",
+    "paragraphIndex": 2
+   },
+   "answer": {
+    "sentence": "Statistical techniques have been devised to correct for truncation, but the correction for self-selection depends on assumptions about the civilian population that the records themselves cannot test."
+   }
+  },
+  {
+   "id": "x1-v2-09",
+   "lessonId": "v2-03-method",
+   "difficulty": 4,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "Reversing a position three times in a year is wavering: **inconstancy**, **vacillation**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Stubbornness is the opposite of repeated reversals.",
+    "C": "Venality (being open to bribes) is not shown by reversals alone.",
+    "D": "Frankness is not an accusation supported by changing positions.",
+    "F": "Pedantry is fussiness over small details, unrelated to reversals."
+   },
+   "type": "SE",
+   "content": {
+    "text": "The senator's critics accused him of {{1}}, noting that he had reversed his position on trade three times in a single year.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "obstinacy"
+     },
+     {
+      "id": "B",
+      "text": "inconstancy"
+     },
+     {
+      "id": "C",
+      "text": "venality"
+     },
+     {
+      "id": "D",
+      "text": "candor"
+     },
+     {
+      "id": "E",
+      "text": "vacillation"
+     },
+     {
+      "id": "F",
+      "text": "pedantry"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-10",
+   "lessonId": "v2-03-method",
+   "difficulty": 4,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "*Although… radical departure* sets up the opposite, and the last clause confirms it: *familiar ideas* in new words — **derivative**, **imitative**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Iconoclastic means breaking with tradition — what the proponents claim, not what the reading reveals.",
+    "C": "Hard to understand is not the same as recycled.",
+    "D": "Specious means plausible but false; the sentence says the ideas are familiar, not false.",
+    "F": "Seminal means highly original and influential, the opposite of the clue."
+   },
+   "type": "SE",
+   "content": {
+    "text": "Although the theory's proponents present it as a radical departure from earlier models, a careful reading reveals that its central claims are largely {{1}}, recasting familiar ideas in novel terminology.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "iconoclastic"
+     },
+     {
+      "id": "B",
+      "text": "derivative"
+     },
+     {
+      "id": "C",
+      "text": "abstruse"
+     },
+     {
+      "id": "D",
+      "text": "specious"
+     },
+     {
+      "id": "E",
+      "text": "imitative"
+     },
+     {
+      "id": "F",
+      "text": "seminal"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-11",
+   "lessonId": "v2-03-method",
+   "difficulty": 5,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "The colon explains the habit: she never commits without *qualifying*, so the reader is *unsure of what she believes* — **equivocation**, **hedging**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Bombast is pompous, overconfident language, the opposite of constant qualification.",
+    "C": "A dogmatic writer commits firmly; this one never does.",
+    "D": "Wordiness is a tempting trap, but the clue is her refusal to commit, not the length of her prose.",
+    "F": "Levity (lack of seriousness) is not described."
+   },
+   "type": "SE",
+   "content": {
+    "text": "The essayist's habitual {{1}} can be exasperating: she so rarely commits herself to a claim without immediately qualifying it that the reader often finishes a paragraph unsure of what she believes.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "bombast"
+     },
+     {
+      "id": "B",
+      "text": "equivocation"
+     },
+     {
+      "id": "C",
+      "text": "dogmatism"
+     },
+     {
+      "id": "D",
+      "text": "prolixity"
+     },
+     {
+      "id": "E",
+      "text": "hedging"
+     },
+     {
+      "id": "F",
+      "text": "levity"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-12",
+   "lessonId": "v2-03-method",
+   "difficulty": 5,
+   "stem": "Select the **two** answer choices that, when used to complete the sentence, fit the meaning of the sentence as a whole and produce completed sentences that are alike in meaning.",
+   "explanation": "*Not so much refute… as* calls for a weaker action, and the last clause defines it: the mechanism works under a *narrower range of conditions* — the evidence limits it: **circumscribe**, **delimit**.",
+   "estSeconds": 75,
+   "skills": [
+    "sentence-equivalence"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Corroborate means confirm; narrowing a hypothesis is not confirming it.",
+    "C": "Overturn is a synonym of refute, which the sentence rules out.",
+    "D": "The evidence clarifies the scope; it does not obscure it.",
+    "F": "Extend is the opposite of narrowing the range of conditions."
+   },
+   "type": "SE",
+   "content": {
+    "text": "The new evidence does not so much refute the prevailing hypothesis as {{1}} it, showing that the mechanism it proposes operates only under a narrower range of conditions than its originators supposed.",
+    "choices": [
+     {
+      "id": "A",
+      "text": "corroborate"
+     },
+     {
+      "id": "B",
+      "text": "circumscribe"
+     },
+     {
+      "id": "C",
+      "text": "overturn"
+     },
+     {
+      "id": "D",
+      "text": "obfuscate"
+     },
+     {
+      "id": "E",
+      "text": "delimit"
+     },
+     {
+      "id": "F",
+      "text": "extend"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-13",
+   "lessonId": "v3-02-main-idea",
+   "difficulty": 4,
+   "stem": "The passage is primarily concerned with",
+   "explanation": "The passage explains how crater counting is calibrated, names the assumption needed to apply it beyond the Moon, and explains why new models cast doubt on it.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "The author questions one application of the method; no replacement is proposed.",
+    "C": "The orbital shifts are mentioned only as the reason for doubt.",
+    "D": "No comparison of crater densities is made.",
+    "E": "No ages are compared."
+   },
+   "passageId": "x1-craters",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "identifying an assumption on which a dating method depends and explaining why that assumption may not hold"
+     },
+     {
+      "id": "B",
+      "text": "arguing that crater counting should be abandoned in favor of radiometric dating"
+     },
+     {
+      "id": "C",
+      "text": "describing how the orbits of the giant planets changed early in the solar system's history"
+     },
+     {
+      "id": "D",
+      "text": "explaining why Mars and Mercury are more densely cratered than the Moon"
+     },
+     {
+      "id": "E",
+      "text": "comparing the ages of the surfaces of Mars, Mercury, and the Moon"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-14",
+   "lessonId": "v3-05-inference",
+   "difficulty": 4,
+   "stem": "The passage implies that the calibration derived from lunar samples could be applied reliably to the surface of another planet if",
+   "explanation": "The calibration transfers only on the assumption that the impact rate 'has borne a known relation to the rate at the Moon'. If that relation were known, the obstacle would disappear.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Crater density is what is measured; it does not solve the calibration problem.",
+    "C": "That is already true and is the basis of the lunar calibration, not of its transfer.",
+    "D": "Those shifts are what create doubt, not what removes it.",
+    "E": "Distance from the Sun is not discussed."
+   },
+   "passageId": "x1-craters",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "that surface were more densely cratered than any region of the Moon"
+     },
+     {
+      "id": "B",
+      "text": "the history of the impact rate at that planet relative to the rate at the Moon were known"
+     },
+     {
+      "id": "C",
+      "text": "radiometric ages had been determined for some lunar rock samples"
+     },
+     {
+      "id": "D",
+      "text": "the orbits of the giant planets had shifted early in the solar system's history"
+     },
+     {
+      "id": "E",
+      "text": "the planet were closer to the Sun than the Moon is"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x1-v2-15",
+   "lessonId": "v3-07-assumptions-perspective",
+   "difficulty": 5,
+   "stem": "The planners' argument depends on which of the following assumptions?",
+   "explanation": "The planners treat the displays as the cause of the faster growth. If the agency had picked routes that were already growing faster (negate C), the gap would not come from the displays, and the prediction would collapse.",
+   "estSeconds": 90,
+   "skills": [
+    "reading-comprehension"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Cost bears on whether the plan is worth it, not on whether ridership would rise.",
+    "B": "Displays could raise ridership even if riders consult them only sometimes.",
+    "D": "The argument predicts growth; it need not assume decline otherwise.",
+    "E": "A general preference is not required; only the effect on ridership matters."
+   },
+   "passageId": "x1-displays",
+   "type": "RC",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "Installing real-time displays costs less than the fares collected from the additional riders."
+     },
+     {
+      "id": "B",
+      "text": "Most riders on routes with displays consult the displays every time they ride."
+     },
+     {
+      "id": "C",
+      "text": "The routes that received displays were not chosen because ridership on them was already growing faster than on other routes."
+     },
+     {
+      "id": "D",
+      "text": "Ridership on routes without displays will decline unless displays are installed."
+     },
+     {
+      "id": "E",
+      "text": "Riders generally prefer real-time displays to printed schedules."
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Check, ChevronDown, Play, RotateCcw } from 'lucide-react';
 import { useLocalValue } from '@/hooks/useLocalValue';
 import { MOCK_CONVERSION_27, etsPercentile, ordinal } from '@/lib/gre-score';
-import { MOCKS_KEY, MOCK_COUNT, NO_MOCKS, SECTION_MINUTES, parseMocks, sectionEstimate, type MockRecord, type Section } from '@/lib/mock';
+import { MOCKS_KEY, MOCK_COUNT, NO_MOCKS, SECTION_MINUTES, mockLabel, parseMocks, sectionEstimate, type MockRecord, type MockStore, type Section } from '@/lib/mock';
 
 const card = 'rounded-[var(--radius)] border border-line bg-surface p-4';
 const btn = 'inline-flex h-10 items-center gap-1.5 rounded-[var(--radius)] px-4 text-sm font-semibold';
@@ -62,7 +62,31 @@ function SectionRow({ kind, section, rec }: { kind: string; section: Section; re
   );
 }
 
-export function MockHub() {
+function MockCard({ kind, store, badge }: { kind: string; store: MockStore; badge?: string }) {
+  const rec = store[kind];
+  const v = sectionEstimate(rec, 'verbal'), q = sectionEstimate(rec, 'quant');
+  return (
+    <section className={card} aria-labelledby={kind}>
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id={kind} className="flex flex-wrap items-center gap-2 text-lg font-bold">
+          {mockLabel(kind)}
+          {badge && <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-bold text-accent-ink">{badge}</span>}
+        </h2>
+        {v && q && (
+          <span className="text-sm font-bold text-accent-ink">
+            Total: {v.scaled + q.scaled} / 340 <span className="font-medium text-muted">(V {v.scaled} · Q {q.scaled})</span>
+          </span>
+        )}
+      </div>
+      <div className="mt-1 divide-y divide-line">
+        <SectionRow kind={kind} section="verbal" rec={rec} />
+        <SectionRow kind={kind} section="quant" rec={rec} />
+      </div>
+    </section>
+  );
+}
+
+export function MockHub({ examIds = [] }: { examIds?: string[] }) {
   const store = useLocalValue(MOCKS_KEY, parseMocks, NO_MOCKS);
   const diag = store.diag;
   const diagTotalCorrect = diag?.byChapter ? Object.values(diag.byChapter).reduce((a, x) => a + x.c, 0) : 0;
@@ -105,27 +129,23 @@ export function MockHub() {
         Section 2 always routes to the <strong>Hard module (levels 4–5)</strong> across all mock tests. Scores are exact on our PDF-calibrated 0–27 → 130–170 scale (indicative of ETS scoring, not an official ETS score report).
       </p>
 
-      {Array.from({ length: MOCK_COUNT }, (_, i) => {
-        const kind = `m${i + 1}`;
-        const rec = store[kind];
-        const v = sectionEstimate(rec, 'verbal'), q = sectionEstimate(rec, 'quant');
-        return (
-          <section key={kind} className={card} aria-labelledby={kind}>
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h2 id={kind} className="text-lg font-bold">Mock test {i + 1}</h2>
-              {v && q && (
-                <span className="text-sm font-bold text-accent-ink">
-                  Total: {v.scaled + q.scaled} / 340 <span className="font-medium text-muted">(V {v.scaled} · Q {q.scaled})</span>
-                </span>
-              )}
-            </div>
-            <div className="mt-1 divide-y divide-line">
-              <SectionRow kind={kind} section="verbal" rec={rec} />
-              <SectionRow kind={kind} section="quant" rec={rec} />
-            </div>
-          </section>
-        );
-      })}
+      {examIds.length > 0 && (
+        <>
+          <div>
+            <h2 className="text-xl font-extrabold tracking-tight">Exam-style tests</h2>
+            <p className="mt-1 max-w-prose text-sm text-muted">
+              Built like the real test, with questions written only for these tests: you will not find them in practice, chapter tests or the question bank.
+              Real question order (Text Completion, then Reading, Sentence Equivalence, more Reading; Quantitative Comparison first in Quant), real timing,
+              section 1 of average difficulty and a hard section 2.
+            </p>
+          </div>
+          {examIds.map((kind) => <MockCard key={kind} kind={kind} store={store} badge="New questions" />)}
+          <h2 className="pt-2 text-xl font-extrabold tracking-tight">Practice-bank mocks</h2>
+          <p className="-mt-4 max-w-prose text-sm text-muted">Generated from the practice bank, so you may have seen some of these questions already.</p>
+        </>
+      )}
+
+      {Array.from({ length: MOCK_COUNT }, (_, i) => <MockCard key={`m${i + 1}`} kind={`m${i + 1}`} store={store} />)}
 
       <details className={card}>
         <summary className="flex cursor-pointer list-none items-center justify-between gap-2 font-semibold">

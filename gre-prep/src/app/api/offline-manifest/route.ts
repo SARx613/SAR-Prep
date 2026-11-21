@@ -1,4 +1,4 @@
-import { content, getChapters } from '@/content';
+import { content, examIds, getChapters } from '@/content';
 import { SERIES } from '@/lib/series-data';
 import { MOCK_COUNT } from '@/lib/mock';
 import writing from '../../../../content/writing-prompts.json';
@@ -20,6 +20,9 @@ export function GET() {
       urls.push(`/mock/run/m${i}/${sec}/1`);
       for (const lv of ['easy', 'medium', 'hard']) urls.push(`/mock/run/m${i}/${sec}/2?level=${lv}`);
     }
+  }
+  for (const id of examIds()) {
+    for (const sec of ['verbal', 'quant']) urls.push(`/mock/run/${id}/${sec}/1`, `/mock/run/${id}/${sec}/2?level=hard`, `/mock/review/${id}/${sec}`);
   }
   for (const ch of getChapters()) {
     urls.push(`/learn/${ch.id}`, `/exam/chapter-${ch.id}`);

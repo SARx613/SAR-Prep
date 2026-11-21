@@ -225,6 +225,17 @@ export const PassageSchema = z.object({
 });
 export type PassageSpec = z.infer<typeof PassageSchema>;
 
+/* ── Exam-style mocks (questions that exist only inside a mock) ──────────── */
+
+/** One measure of an exam-style mock: section 1 (12, average) and section 2 (15, hard), with its own passages.
+ * These questions are never part of the practice bank, chapter tests or topic lists. */
+export const ExamMeasureSchema = z.object({
+  passages: z.array(PassageSchema).default([]),
+  s1: z.array(QuestionSchema),
+  s2: z.array(QuestionSchema),
+});
+export type ExamMeasure = z.infer<typeof ExamMeasureSchema>;
+
 /* ── Lessons (the template) ───────────────────────────────────────────── */
 
 export const RULE_WORD_BUDGET = 120;

@@ -1,0 +1,1362 @@
+{
+ "passages": [],
+ "s1": [
+  {
+   "id": "x2-q1-01",
+   "lessonId": "q1-04-fraction-operations",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$\\frac38\\cdot64=24$ and $\\frac5{12}\\cdot60=25$.",
+   "estSeconds": 50,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$\\frac38$ of $64$",
+    "quantityB": "$\\frac5{12}$ of $60$"
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x2-q1-02",
+   "lessonId": "q1-07-roots",
+   "difficulty": 2,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$x^2=16$ has two solutions, $x=4$ and $x=-4$. If $x=4$ the quantities are equal; if $x=-4$, B is greater. Trap: forgetting the negative root.",
+   "estSeconds": 50,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$x$",
+    "quantityB": "$4$",
+    "common": "$x^2=16$"
+   },
+   "answer": {
+    "choice": "D"
+   }
+  },
+  {
+   "id": "x2-q1-03",
+   "lessonId": "q3-10-angle-and-side-facts",
+   "difficulty": 3,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "If angle $Q$ were $90^\\circ$, then $PR=\\sqrt{6^2+8^2}=10$. Opening the angle beyond $90^\\circ$ pushes $P$ and $R$ farther apart, so $PR>10$ (indeed $PR^2>PQ^2+QR^2$ in an obtuse triangle).",
+   "estSeconds": 80,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$PR$",
+    "quantityB": "$10$",
+    "common": "In triangle $PQR$, $PQ=6$, $QR=8$, and angle $Q$ is greater than $90^\\circ$."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x2-q1-04",
+   "lessonId": "q4-14-centre-spread-reasoning",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Wherever $x$ falls, the middle value of the five numbers is 11, so the median condition holds for every integer $x$. The mean is $\\frac{41+x}5$: it equals 11 when $x=14$ and exceeds 11 when $x=20$. Trap: assuming the median condition forces $x$ to be small.",
+   "estSeconds": 100,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The average (arithmetic mean) of the numbers in list $M$",
+    "quantityB": "$11$",
+    "common": "List $M$ consists of the numbers $5$, $11$, $11$, $14$, and $x$, where $x$ is an integer. The median of the numbers in $M$ is $11$."
+   },
+   "answer": {
+    "choice": "D"
+   }
+  },
+  {
+   "id": "x2-q1-05",
+   "lessonId": "q1-12-percent",
+   "difficulty": 2,
+   "stem": "After a $25$ percent discount, the price of a shirt is \\$36. What was the price of the shirt before the discount?",
+   "explanation": "The sale price is $75\\%$ of the original: $0.75p=36$, so $p=48$. Trap: adding $25\\%$ of 36 to get \\$45.",
+   "estSeconds": 60,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This takes $25\\%$ off \\$36 instead of finding the original price.",
+    "B": "This adds $25\\%$ of the *sale* price, $36+9$.",
+    "D": "This treats \\$36 as two-thirds of the original price, a $33\\frac13\\%$ discount.",
+    "E": "This treats the discount as $40\\%$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "\\$27"
+     },
+     {
+      "id": "B",
+      "text": "\\$45"
+     },
+     {
+      "id": "C",
+      "text": "\\$48"
+     },
+     {
+      "id": "D",
+      "text": "\\$54"
+     },
+     {
+      "id": "E",
+      "text": "\\$60"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x2-q1-06",
+   "lessonId": "q2-04-linear-two-var",
+   "difficulty": 3,
+   "stem": "If $3x-2y=14$ and $x+2y=2$, what is the value of $x-y$?",
+   "explanation": "Add the equations: $4x=16$, so $x=4$; then $4+2y=2$ gives $y=-1$. So $x-y=5$.",
+   "estSeconds": 80,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 5
+   }
+  },
+  {
+   "id": "x2-q1-07",
+   "lessonId": "q1-16-prime-factorization-tools",
+   "difficulty": 4,
+   "stem": "Which of the following integers are divisors of $2^4\\cdot3^2\\cdot5$ but are **not** divisors of $2^2\\cdot3^3$? Indicate **all** such integers.",
+   "explanation": "A divisor of $2^4\\cdot3^2\\cdot5$ has at most $2^4$, $3^2$, $5^1$; a divisor of $2^2\\cdot3^3$ has at most $2^2$, $3^3$ and no 5. $8=2^3$ divides the first but needs too many 2s for the second. $10=2\\cdot5$ divides the first but the second has no 5. $9$, $12$ and $18$ divide both; $27=3^3$ does not divide the first.",
+   "estSeconds": 110,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "B": "$9=3^2$ divides both numbers.",
+    "D": "$12=2^2\\cdot3$ divides both numbers.",
+    "E": "$18=2\\cdot3^2$ divides both numbers.",
+    "F": "$27=3^3$ does not divide $2^4\\cdot3^2\\cdot5$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$8$"
+     },
+     {
+      "id": "B",
+      "text": "$9$"
+     },
+     {
+      "id": "C",
+      "text": "$10$"
+     },
+     {
+      "id": "D",
+      "text": "$12$"
+     },
+     {
+      "id": "E",
+      "text": "$18$"
+     },
+     {
+      "id": "F",
+      "text": "$27$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x2-q1-08",
+   "lessonId": "q2-08-functions",
+   "difficulty": 3,
+   "stem": "The function $f$ is defined by $f(x)=2x^2-3x$. For what value of $k$, other than $k=3$, does $f(k)=f(3)$?",
+   "explanation": "$f(3)=18-9=9$. Solve $2k^2-3k-9=0$: $(2k+3)(k-3)=0$, so $k=-\\frac32$ (the other root is 3).",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "$f(-3)=18+9=27$.",
+    "C": "$f(-\\frac12)=\\frac12+\\frac32=2$.",
+    "D": "Sign error in the factor $(2k+3)$.",
+    "E": "$f(\\frac92)=\\frac{81}2-\\frac{27}2=27$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-3$"
+     },
+     {
+      "id": "B",
+      "text": "$-\\frac32$"
+     },
+     {
+      "id": "C",
+      "text": "$-\\frac12$"
+     },
+     {
+      "id": "D",
+      "text": "$\\frac32$"
+     },
+     {
+      "id": "E",
+      "text": "$\\frac92$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x2-q1-09",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 3,
+   "stem": "From 2020 to 2021, the number of visitors to Park A increased by what percent?",
+   "explanation": "Park A: 25 thousand in 2020, 36 thousand in 2021. Increase $\\frac{36-25}{25}=\\frac{11}{25}=44\\%$.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "11 is the increase in thousands, not a percent.",
+    "B": "This divides the increase by 36, the new value: $\\frac{11}{36}\\approx31\\%$.",
+    "C": "36 is the 2021 value.",
+    "E": "This is $100-44$, the complement of the correct percent."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "bar",
+    "title": "Annual number of visitors to three parks, 2019–2022",
+    "data": {
+     "categories": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+     ],
+     "series": [
+      {
+       "name": "Park A",
+       "values": [
+        40,
+        25,
+        36,
+        48
+       ]
+      },
+      {
+       "name": "Park B",
+       "values": [
+        30,
+        18,
+        27,
+        33
+       ]
+      },
+      {
+       "name": "Park C",
+       "values": [
+        20,
+        15,
+        18,
+        24
+       ]
+      }
+     ],
+     "yLabel": "Visitors (thousands)",
+     "unit": "thousands"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$11\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$30\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$36\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$44\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$56\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x2-q1-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 3,
+   "stem": "What was the average (arithmetic mean) annual number of visitors to Park C, in thousands, for the four years shown?",
+   "explanation": "$\\frac{20+15+18+24}{4}=\\frac{77}4=19.25$ thousand.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "bar",
+    "title": "Annual number of visitors to three parks, 2019–2022",
+    "data": {
+     "categories": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+     ],
+     "series": [
+      {
+       "name": "Park A",
+       "values": [
+        40,
+        25,
+        36,
+        48
+       ]
+      },
+      {
+       "name": "Park B",
+       "values": [
+        30,
+        18,
+        27,
+        33
+       ]
+      },
+      {
+       "name": "Park C",
+       "values": [
+        20,
+        15,
+        18,
+        24
+       ]
+      }
+     ],
+     "yLabel": "Visitors (thousands)",
+     "unit": "thousands"
+    }
+   },
+   "content": {
+    "format": "numeric_entry",
+    "numeric": {
+     "format": "decimal"
+    }
+   },
+   "answer": {
+    "value": 19.25
+   }
+  },
+  {
+   "id": "x2-q1-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "For which of the parks was the number of visitors in 2022 at least $20$ percent greater than the number in 2019?",
+   "explanation": "Compare 2022 with $1.2\\times$2019: Park A $48\\ge48$ (yes, exactly 20%), Park B $33<36$ (no), Park C $24\\ge24$ (yes, exactly 20%). 'At least' includes exactly 20%.",
+   "estSeconds": 100,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "Both A and C rose by exactly 20%, which counts as 'at least'.",
+    "B": "Park C also rose by exactly 20%.",
+    "C": "Park A also rose by exactly 20%.",
+    "E": "Park B rose only 10%."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "bar",
+    "title": "Annual number of visitors to three parks, 2019–2022",
+    "data": {
+     "categories": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+     ],
+     "series": [
+      {
+       "name": "Park A",
+       "values": [
+        40,
+        25,
+        36,
+        48
+       ]
+      },
+      {
+       "name": "Park B",
+       "values": [
+        30,
+        18,
+        27,
+        33
+       ]
+      },
+      {
+       "name": "Park C",
+       "values": [
+        20,
+        15,
+        18,
+        24
+       ]
+      }
+     ],
+     "yLabel": "Visitors (thousands)",
+     "unit": "thousands"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "None of the parks"
+     },
+     {
+      "id": "B",
+      "text": "Park A only"
+     },
+     {
+      "id": "C",
+      "text": "Park C only"
+     },
+     {
+      "id": "D",
+      "text": "Parks A and C only"
+     },
+     {
+      "id": "E",
+      "text": "Parks A, B, and C"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x2-q1-12",
+   "lessonId": "q2-11-mixtures",
+   "difficulty": 4,
+   "stem": "A chemist has $40$ liters of a solution that is $30$ percent acid. How many liters of pure water must be added to produce a solution that is $24$ percent acid?",
+   "explanation": "The acid stays at $0.30\\times40=12$ liters. It must be $24\\%$ of the new volume: $12=0.24(40+w)$, so $40+w=50$ and $w=10$.",
+   "estSeconds": 110,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is the drop in percentage points, $30-24$.",
+    "B": "This takes $20\\%$ of 40 because the concentration falls to $\\frac{24}{30}=80\\%$ of its value; the volume must instead grow to $\\frac{30}{24}$ of 40.",
+    "D": "This is the number of liters of acid.",
+    "E": "This is the final volume, not the water added."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$6$"
+     },
+     {
+      "id": "B",
+      "text": "$8$"
+     },
+     {
+      "id": "C",
+      "text": "$10$"
+     },
+     {
+      "id": "D",
+      "text": "$12$"
+     },
+     {
+      "id": "E",
+      "text": "$50$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ],
+ "s2": [
+  {
+   "id": "x2-q2-01",
+   "lessonId": "q1-06-exponents",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$4\\cdot2^{30}=2^2\\cdot2^{30}=2^{32}$ and $4^{16}=(2^2)^{16}=2^{32}$. Trap: thinking that adding powers multiplies the exponent, or that $4^{16}$ is much larger.",
+   "estSeconds": 70,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "$2^{30}+2^{30}+2^{30}+2^{30}$",
+    "quantityB": "$4^{16}$"
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x2-q2-02",
+   "lessonId": "q1-13-percent-change",
+   "difficulty": 4,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Successive increases multiply: $1.2\\times1.2=1.44$, a $44\\%$ increase. The second $20\\%$ applies to a larger base. Trap: adding the percents.",
+   "estSeconds": 70,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The percent increase in the population of town $T$ from 2021 to 2023",
+    "quantityB": "$40\\%$",
+    "common": "The population of town $T$ in 2022 was $20$ percent greater than in 2021, and its population in 2023 was $20$ percent greater than in 2022."
+   },
+   "answer": {
+    "choice": "A"
+   }
+  },
+  {
+   "id": "x2-q2-03",
+   "lessonId": "q3-07-circles-basics",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Let the circle's radius be $r$: circumference $2\\pi r$, so the square's side is $\\frac{\\pi r}2$ and its area $\\frac{\\pi^2r^2}4\\approx2.47r^2$, less than the circle's $\\pi r^2\\approx3.14r^2$. For a fixed perimeter, the circle encloses the most area.",
+   "estSeconds": 110,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The area of the square",
+    "quantityB": "The area of the circle",
+    "common": "The perimeter of a square is equal to the circumference of a circle."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x2-q2-04",
+   "lessonId": "q1-18-remainders-units-digits",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "Remainder 3 on division by 5: $k\\in\\{3,8,13,18\\}$ modulo 20. Remainder 1 on division by 4 leaves only 13 ($13=3\\cdot4+1$). So every such $k$ is $20m+13$, and the remainder is always 13.",
+   "estSeconds": 110,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The remainder when $k$ is divided by $20$",
+    "quantityB": "$13$",
+    "common": "$k$ is a positive integer. When $k$ is divided by $5$ the remainder is $3$, and when $k$ is divided by $4$ the remainder is $1$."
+   },
+   "answer": {
+    "choice": "C"
+   }
+  },
+  {
+   "id": "x2-q2-05",
+   "lessonId": "q4-11-normal",
+   "difficulty": 5,
+   "stem": "Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given.",
+   "explanation": "$700=500+2\\times100$ is 2 standard deviations above the mean. In a normal distribution about $2.5\\%$ (more precisely about $2.3\\%$) of values lie more than 2 standard deviations above the mean, which is less than $5\\%$. Trap: using the 95% rule without splitting the remaining 5% between the two tails.",
+   "estSeconds": 90,
+   "skills": [
+    "quantitative-comparison"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "QC",
+   "content": {
+    "quantityA": "The fraction of the scores that are greater than $700$",
+    "quantityB": "$0.05$",
+    "common": "The scores on a certain test are normally distributed with a mean of $500$ and a standard deviation of $100$."
+   },
+   "answer": {
+    "choice": "B"
+   }
+  },
+  {
+   "id": "x2-q2-06",
+   "lessonId": "q2-20-sums-of-powers",
+   "difficulty": 4,
+   "stem": "If $x^2-y^2=48$ and $x+y=12$, what is the value of $x$?",
+   "explanation": "$x^2-y^2=(x+y)(x-y)$, so $12(x-y)=48$ and $x-y=4$. Adding $x+y=12$: $2x=16$, $x=8$.",
+   "estSeconds": 80,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is half of $x-y=4$.",
+    "B": "This is $y$ (and also $x-y$), not $x$.",
+    "C": "Half of 12, ignoring the first equation.",
+    "E": "This is $x+y$, not $x$."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$2$"
+     },
+     {
+      "id": "B",
+      "text": "$4$"
+     },
+     {
+      "id": "C",
+      "text": "$6$"
+     },
+     {
+      "id": "D",
+      "text": "$8$"
+     },
+     {
+      "id": "E",
+      "text": "$12$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-07",
+   "lessonId": "q1-23-absolute-value-equations",
+   "difficulty": 5,
+   "stem": "How many integers $n$ satisfy both $|n-3|\\le7$ and $n^2>10$?",
+   "explanation": "$|n-3|\\le7$ gives $-4\\le n\\le10$: 15 integers. $n^2>10$ removes those with $|n|\\le3$, i.e. $-3,\\dots,3$ (7 integers). Remaining: $-4$ and $4$ through $10$, which is $8$ integers.",
+   "estSeconds": 120,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 8
+   }
+  },
+  {
+   "id": "x2-q2-08",
+   "lessonId": "q2-22-inequality-reasoning",
+   "difficulty": 5,
+   "stem": "If $\\frac1x<x$, which of the following could be the value of $x$? Indicate **all** such values.",
+   "explanation": "Test each value (or solve by cases). For $x>0$: $1<x^2$, so $x>1$ — this gives 2 and 3. For $x<0$, multiplying by $x$ flips the sign: $1>x^2$, so $-1<x<0$ — this gives $-\\frac12$ ($\\frac1x=-2<-\\frac12$). For $x=-2$: $-\\frac12<-2$ is false.",
+   "estSeconds": 130,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "$\\frac1{-2}=-\\frac12$, which is greater than $-2$.",
+    "C": "$\\frac1{1/2}=2$, which is greater than $\\frac12$.",
+    "D": "$\\frac11=1$, equal, not less."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$-2$"
+     },
+     {
+      "id": "B",
+      "text": "$-\\frac12$"
+     },
+     {
+      "id": "C",
+      "text": "$\\frac12$"
+     },
+     {
+      "id": "D",
+      "text": "$1$"
+     },
+     {
+      "id": "E",
+      "text": "$2$"
+     },
+     {
+      "id": "F",
+      "text": "$3$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B",
+     "E",
+     "F"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-09",
+   "lessonId": "q2-12-interest",
+   "difficulty": 4,
+   "stem": "An investment of \\$5,000 earns interest at an annual rate of $4$ percent, compounded annually. To the nearest dollar, what is the value of the investment after $3$ years?",
+   "explanation": "$5{,}000(1.04)^3=5{,}000\\times1.124864=5{,}624.32$, about \\$5,624. Trap: simple interest, $5{,}000+3\\times200=5{,}600$.",
+   "estSeconds": 90,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is simple interest, ignoring compounding.",
+    "C": "This is $4\\%$ simple interest for 4 years.",
+    "D": "This adds $20\\%$.",
+    "E": "This compounds for 5 years instead of 3."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "\\$5,600"
+     },
+     {
+      "id": "B",
+      "text": "\\$5,624"
+     },
+     {
+      "id": "C",
+      "text": "\\$5,800"
+     },
+     {
+      "id": "D",
+      "text": "\\$6,000"
+     },
+     {
+      "id": "E",
+      "text": "\\$6,083"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "B"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-10",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "In how many of the months from February through June was the average price of Product X greater than in the previous month?",
+   "explanation": "X rose in February (4.0→4.4), March (→4.8), May (4.2→5.0) and June (→5.5); it fell in April. That is 4 months.",
+   "estSeconds": 80,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "April was a decrease, but every other month was an increase: 4, not 3.",
+    "E": "April's price (4.2) was below March's (4.8)."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "line",
+    "title": "Average price per kilogram of products X and Y, January–June",
+    "data": {
+     "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+     ],
+     "series": [
+      {
+       "name": "Product X",
+       "values": [
+        4.0,
+        4.4,
+        4.8,
+        4.2,
+        5.0,
+        5.5
+       ]
+      },
+      {
+       "name": "Product Y",
+       "values": [
+        6.0,
+        5.7,
+        5.4,
+        5.6,
+        5.1,
+        4.8
+       ]
+      }
+     ],
+     "yLabel": "Dollars per kilogram"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$1$"
+     },
+     {
+      "id": "B",
+      "text": "$2$"
+     },
+     {
+      "id": "C",
+      "text": "$3$"
+     },
+     {
+      "id": "D",
+      "text": "$4$"
+     },
+     {
+      "id": "E",
+      "text": "$5$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-11",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 4,
+   "stem": "By approximately what percent did the average price of Product Y decrease from January to June?",
+   "explanation": "$\\frac{6.0-4.8}{6.0}=\\frac{1.2}{6.0}=20\\%$. Trap: dividing by the June price, $\\frac{1.2}{4.8}=25\\%$.",
+   "estSeconds": 90,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "1.2 is the dollar decrease, not a percent.",
+    "D": "Divides by the June price instead of the January price.",
+    "B": "Too small: 15% of \\$6.00 is only \\$0.90.",
+    "E": "Too large: 30% of \\$6.00 is \\$1.80."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "line",
+    "title": "Average price per kilogram of products X and Y, January–June",
+    "data": {
+     "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+     ],
+     "series": [
+      {
+       "name": "Product X",
+       "values": [
+        4.0,
+        4.4,
+        4.8,
+        4.2,
+        5.0,
+        5.5
+       ]
+      },
+      {
+       "name": "Product Y",
+       "values": [
+        6.0,
+        5.7,
+        5.4,
+        5.6,
+        5.1,
+        4.8
+       ]
+      }
+     ],
+     "yLabel": "Dollars per kilogram"
+    }
+   },
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$12\\%$"
+     },
+     {
+      "id": "B",
+      "text": "$15\\%$"
+     },
+     {
+      "id": "C",
+      "text": "$20\\%$"
+     },
+     {
+      "id": "D",
+      "text": "$25\\%$"
+     },
+     {
+      "id": "E",
+      "text": "$30\\%$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-12",
+   "lessonId": "q4-12-di-examples",
+   "difficulty": 5,
+   "stem": "In which of the months was the average price of Product Y more than $20$ percent greater than the average price of Product X? Indicate **all** such months.",
+   "explanation": "Compare Y with $1.2\\times$X: Jan $6.0>4.8$ (yes); Feb $5.7>5.28$ (yes); Mar $5.4<5.76$ (no); Apr $5.6>5.04$ (yes); May $5.1<6.0$ (no); Jun Y is below X (no).",
+   "estSeconds": 140,
+   "skills": [
+    "data-interpretation"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "C": "$1.2\\times4.8=5.76$, more than Y's 5.4.",
+    "E": "$1.2\\times5.0=6.0$, more than Y's 5.1.",
+    "F": "In June Y (4.8) is below X (5.5)."
+   },
+   "type": "DI",
+   "figure": {
+    "kind": "line",
+    "title": "Average price per kilogram of products X and Y, January–June",
+    "data": {
+     "categories": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun"
+     ],
+     "series": [
+      {
+       "name": "Product X",
+       "values": [
+        4.0,
+        4.4,
+        4.8,
+        4.2,
+        5.0,
+        5.5
+       ]
+      },
+      {
+       "name": "Product Y",
+       "values": [
+        6.0,
+        5.7,
+        5.4,
+        5.6,
+        5.1,
+        4.8
+       ]
+      }
+     ],
+     "yLabel": "Dollars per kilogram"
+    }
+   },
+   "content": {
+    "format": "select_all",
+    "choices": [
+     {
+      "id": "A",
+      "text": "January"
+     },
+     {
+      "id": "B",
+      "text": "February"
+     },
+     {
+      "id": "C",
+      "text": "March"
+     },
+     {
+      "id": "D",
+      "text": "April"
+     },
+     {
+      "id": "E",
+      "text": "May"
+     },
+     {
+      "id": "F",
+      "text": "June"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "A",
+     "B",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": "x2-q2-13",
+   "lessonId": "q3-11-composite-quadrilaterals",
+   "difficulty": 4,
+   "stem": "In the figure, $ABCD$ is a rectangle and point $E$ lies on side $CD$. If $AB=12$ and the area of triangle $ABE$ is $30$, what is the length of diagonal $AC$?",
+   "explanation": "Wherever $E$ is on $CD$, triangle $ABE$ has base $AB=12$ and height equal to the rectangle's height $BC$. $\\frac12\\cdot12\\cdot BC=30$ gives $BC=5$, so $AC=\\sqrt{12^2+5^2}=13$.",
+   "estSeconds": 100,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This uses $BC=10$, forgetting the $\\frac12$ in the triangle's area.",
+    "B": "This is $AB$, not the diagonal.",
+    "D": "This is $\\sqrt{12^2+9^2}$, from a wrong height.",
+    "E": "This adds $12+5$ instead of using the Pythagorean theorem."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$10$"
+     },
+     {
+      "id": "B",
+      "text": "$12$"
+     },
+     {
+      "id": "C",
+      "text": "$13$"
+     },
+     {
+      "id": "D",
+      "text": "$15$"
+     },
+     {
+      "id": "E",
+      "text": "$17$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   },
+   "figure": {
+    "kind": "svg",
+    "title": "",
+    "data": {
+     "alt": "Rectangle ABCD with A at the bottom left, B bottom right, C top right, D top left; point E on the top side CD is joined to A and B, forming triangle ABE.",
+     "svg": "<svg viewBox=\"0 0 300 170\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"14\"><polygon points=\"30,140 270,140 270,40 30,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"30,140 190,40 270,140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"16\" y=\"158\">A</text><text x=\"274\" y=\"158\">B</text><text x=\"274\" y=\"36\">C</text><text x=\"16\" y=\"36\">D</text><text x=\"185\" y=\"32\">E</text></svg>"
+    },
+    "notes": "Note: Figure not drawn to scale."
+   }
+  },
+  {
+   "id": "x2-q2-14",
+   "lessonId": "q2-17-sequences",
+   "difficulty": 5,
+   "stem": "In a sequence, $a_1=2$ and $a_n=3a_{n-1}-2$ for every integer $n\\ge2$. What is the value of $a_6$?",
+   "explanation": "Compute: $2, 4, 10, 28, 82, 244$. (Pattern: $a_n=3^{n-1}+1$, so $a_6=243+1$.)",
+   "estSeconds": 110,
+   "skills": [
+    "numeric-entry"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "type": "NE",
+   "content": {
+    "format": "integer"
+   },
+   "answer": {
+    "value": 244
+   }
+  },
+  {
+   "id": "x2-q2-15",
+   "lessonId": "q4-15-overlapping-sets",
+   "difficulty": 5,
+   "stem": "Each of the $80$ students in a program takes biology, chemistry, or both. Exactly $50$ of the students take biology, and the number of students who take both subjects is one-fourth of the number who take chemistry. How many of the students take chemistry but not biology?",
+   "explanation": "Let $c$ be the number taking chemistry; both $=\\frac c4$. Total: $50+c-\\frac c4=80$, so $\\frac34c=30$ and $c=40$. Both: 10. Chemistry only: $40-10=30$.",
+   "estSeconds": 130,
+   "skills": [
+    "problem-solving"
+   ],
+   "topics": [],
+   "review": {
+    "status": "draft",
+    "solvedBy": [],
+    "sourceChecked": false
+   },
+   "choiceExplanations": {
+    "A": "This is the number taking both.",
+    "B": "Chemistry only would be 20 if both were 20, which breaks the one-fourth condition.",
+    "D": "This is everyone taking chemistry, including the 10 who also take biology.",
+    "E": "This is the number taking biology."
+   },
+   "type": "PS",
+   "content": {
+    "format": "select_one",
+    "choices": [
+     {
+      "id": "A",
+      "text": "$10$"
+     },
+     {
+      "id": "B",
+      "text": "$20$"
+     },
+     {
+      "id": "C",
+      "text": "$30$"
+     },
+     {
+      "id": "D",
+      "text": "$40$"
+     },
+     {
+      "id": "E",
+      "text": "$50$"
+     }
+    ]
+   },
+   "answer": {
+    "choices": [
+     "C"
+    ]
+   }
+  }
+ ]
+}

@@ -7,18 +7,22 @@
  *   content/questions/<set>.json    array of questions; <set> is a lesson id or a pool id
  *   content/passages/<id>.json      one RC passage per file
  *   content/topics.json             master topic checklist (coverage target)
+ *   content/exams/<id>/<measure>.json  exam-style mocks (x1, x2…): verbal.json and quant.json,
+ *                                   questions that appear only in that mock
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { z } from 'zod';
 import {
+  ExamMeasureSchema,
   LessonSchema,
   PassageSchema,
   QuestionSchema,
   SourceSchema,
   SyllabusSchema,
   TopicsFileSchema,
+  type ExamMeasure,
   type LessonContent,
   type Topic,
   type PassageSpec,
@@ -39,6 +43,8 @@ export interface RawContent {
   questionSets: Map<string, z.infer<typeof QuestionSchema>[]>;
   passages: Map<string, PassageSpec>;
   topics: Topic[];
+  /** Exam-style mocks by id (x1, x2…). Kept apart from questionSets so they never leak into practice. */
+  exams: Map<string, { verbal?: ExamMeasure; quant?: ExamMeasure }>;
   /** Schema failures; semantic checks live in check.ts. */
   issues: LoadIssue[];
 }
@@ -98,5 +104,20 @@ export function loadContent(dir: string = CONTENT_DIR): RawContent {
   const topicsFile = path.join(dir, 'topics.json');
   const topics = fs.existsSync(topicsFile) ? (parse(topicsFile, TopicsFileSchema)?.topics ?? []) : [];
 
-  return { sources, syllabus, lessons, questionSets, passages, topics, issues };
+  const exams = new Map<string, { verbal?: ExamMeasure; quant?: ExamMeasure }>();
+  const examsDir = path.join(dir, 'exams');
+  if (fs.existsSync(examsDir)) {
+    for (const id of fs.readdirSync(examsDir).filter((d) => /^x\d+$/.test(d)).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))) {
+      const exam: { verbal?: ExamMeasure; quant?: ExamMeasure } = {};
+      for (const measure of ['verbal', 'quant'] as const) {
+        const file = path.join(examsDir, id, `${measure}.json`);
+        if (!fs.existsSync(file)) continue;
+        const m = parse(file, ExamMeasureSchema);
+        if (m) exam[measure] = m;
+      }
+      exams.set(id, exam);
+    }
+  }
+
+  return { sources, syllabus, lessons, questionSets, passages, topics, exams, issues };
 }
