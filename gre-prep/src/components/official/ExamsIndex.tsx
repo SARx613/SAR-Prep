@@ -25,6 +25,14 @@ export function ExamsIndex({ exams }: { exams: ExamMeta[] }) {
     for (const e of exams) void applyErrata(e.id);
   }, [exams]);
 
+  const tests = exams.filter((e) => e.kind === 'test');
+  const sets = exams.filter((e) => e.kind === 'set');
+  const groups = sets.reduce<Record<string, ExamMeta[]>>((acc, e) => {
+    (acc[e.group ?? 'Practice sets'] ??= []).push(e);
+    return acc;
+  }, {});
+  const title = (id: string) => exams.find((e) => e.id === id)?.title ?? id;
+
   return (
     <div className="mx-auto max-w-3xl space-y-8 px-4 pb-10 sm:px-6" style={{ paddingTop: 'calc(1.5rem + var(--sat))' }}>
         <div>
@@ -39,12 +47,13 @@ export function ExamsIndex({ exams }: { exams: ExamMeta[] }) {
             Official tests
           </h1>
           <p className="mt-2 text-muted">
-            The two full-length tests of the ETS Official Guide, run like the computer-delivered exam: a clock per section, Mark and Review, calculator, break, then a 130–170 score with a full answer review.
+            ETS’s own questions, run like the computer-delivered exam: a clock per section, Mark and Review, calculator, then a full answer review with the official explanations.
           </p>
         </div>
 
-        <div className="space-y-4">
-          {exams.map((e) => {
+        <section className="space-y-4">
+          <h2 className="text-sm uppercase tracking-wide text-faint">Full-length tests</h2>
+          {tests.map((e) => {
             const minutes = e.sections.reduce((a, s) => a + s.minutes, 0);
             const questions = e.sections.reduce((a, s) => a + (s.kind === 'verbal' || s.kind === 'quant' ? s.questions : 0), 0);
             const last = history.find((h) => h.examId === e.id);
@@ -52,7 +61,18 @@ export function ExamsIndex({ exams }: { exams: ExamMeta[] }) {
               <ExamCard key={e.id} exam={e} minutes={minutes} questions={questions} last={last} />
             );
           })}
-        </div>
+        </section>
+
+        {Object.entries(groups).map(([group, list]) => (
+          <section key={group} className="space-y-3">
+            <h2 className="text-sm uppercase tracking-wide text-faint">{group}</h2>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {list.map((e) => (
+                <SetCard key={e.id} exam={e} last={history.find((h) => h.examId === e.id)} />
+              ))}
+            </div>
+          </section>
+        ))}
 
         {history.length > 0 && (
           <section className="space-y-3">
@@ -65,21 +85,78 @@ export function ExamsIndex({ exams }: { exams: ExamMeta[] }) {
                   key={h.id}
                   className="flex items-center justify-between gap-3 border-b border-line px-4 py-2.5 text-sm last:border-0"
                 >
-                  <span>
-                    {exams.find((e) => e.id === h.examId)?.title ?? h.examId}
+                  <span className="min-w-0">
+                    {title(h.examId)}
                     <span className="ml-2 text-faint">{dateFmt.format(new Date(h.completedAt))}</span>
                   </span>
-                  <span className="tabular-nums">
-                    <span className="text-accent-ink">V {h.verbal}</span>
-                    <span className="mx-2 text-faint">·</span>
-                    <span className="text-good">Q {h.quant}</span>
-                  </span>
+                  <ScoreText entry={h} />
                 </div>
               ))}
             </div>
           </section>
         )}
     </div>
+  );
+}
+
+const LEVEL = { easy: 'Easy', medium: 'Medium', hard: 'Hard' } as const;
+
+function ScoreText({ entry }: { entry: ExamHistoryEntry }) {
+  if (entry.verbal === null && entry.quant === null) {
+    return (
+      <span className="shrink-0 tabular-nums">
+        {entry.correct ?? 0} / {entry.total ?? 0}
+      </span>
+    );
+  }
+  return (
+    <span className="shrink-0 tabular-nums">
+      {entry.verbal !== null && <span className="text-accent-ink">V {entry.verbal}</span>}
+      {entry.verbal !== null && entry.quant !== null && <span className="mx-2 text-faint">·</span>}
+      {entry.quant !== null && <span className="text-good">Q {entry.quant}</span>}
+    </span>
+  );
+}
+
+function useInProgress(id: string): boolean {
+  const raw = useLocalString(runKey(id));
+  return useMemo(() => {
+    try {
+      return !!raw && (JSON.parse(raw) as { phase?: string }).phase !== 'done';
+    } catch {
+      return false;
+    }
+  }, [raw]);
+}
+
+function SetCard({ exam, last }: { exam: ExamMeta; last?: ExamHistoryEntry }) {
+  const inProgress = useInProgress(exam.id);
+  const s = exam.sections[0];
+  return (
+    <Link
+      href={`/official-test/${exam.id}`}
+      className="group flex items-start justify-between gap-3 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:bg-surface-2"
+    >
+      <div className="min-w-0 space-y-1">
+        <h3 className="font-semibold">{exam.title}</h3>
+        <p className="flex flex-wrap gap-x-3 text-sm text-muted">
+          <span>{s?.kind === 'quant' ? 'Quant' : 'Verbal'}</span>
+          <span>{s?.questions ?? 0} q.</span>
+          <span className="inline-flex items-center gap-1">
+            <Clock className="h-3.5 w-3.5" /> {s?.minutes ?? 0} min
+          </span>
+          {exam.level && <span>{LEVEL[exam.level]}</span>}
+        </p>
+        {inProgress && <span className="text-xs text-warn">In progress — resume</span>}
+        {last && !inProgress && (
+          <p className="text-sm">
+            Last: <span className="font-semibold">{last.correct ?? 0} / {last.total ?? 0}</span>
+            <span className="ml-1.5 text-faint">{dateFmt.format(new Date(last.completedAt))}</span>
+          </p>
+        )}
+      </div>
+      <ChevronRight className="mt-1 h-5 w-5 shrink-0 text-faint transition group-hover:translate-x-0.5 group-hover:text-fg" />
+    </Link>
   );
 }
 
@@ -91,14 +168,7 @@ function ExamCard({
   questions: number;
   last?: ExamHistoryEntry;
 }) {
-  const raw = useLocalString(runKey(exam.id));
-  const inProgress = useMemo(() => {
-    try {
-      return !!raw && (JSON.parse(raw) as { phase?: string }).phase !== 'done';
-    } catch {
-      return false;
-    }
-  }, [raw]);
+  const inProgress = useInProgress(exam.id);
 
   return (
     <Link
@@ -122,9 +192,7 @@ function ExamCard({
           )}
           {last && (
             <p className="text-sm">
-              Last attempt ({dateFmt.format(new Date(last.completedAt))}): 
-              <span className="font-semibold text-accent-ink">Verbal {last.verbal}</span> ·{' '}
-              <span className="font-semibold text-good">Quant {last.quant}</span>
+              Last attempt ({dateFmt.format(new Date(last.completedAt))}): <ScoreText entry={last} />
             </p>
           )}
         </div>

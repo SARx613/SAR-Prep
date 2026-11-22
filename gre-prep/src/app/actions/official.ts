@@ -1,8 +1,8 @@
 'use server';
 
 import { gradeExam, type ExamKey } from '@/lib/official-grading';
-import type { ExamContent, ExamMeta, ExamResponses, ExamResult } from '@/types/official';
-import { readPrivateJson } from '@/lib/private-content';
+import type { BookLevel, ExamContent, ExamMeta, ExamResponses, ExamResult } from '@/types/official';
+import { listPrivateDir, readPrivateJson } from '@/lib/private-content';
 import { hasPrivateAccess } from '@/lib/private-access';
 
 /**
@@ -15,16 +15,38 @@ import { hasPrivateAccess } from '@/lib/private-access';
  * official-storage.ts); nothing is written to the database.
  */
 
-const IDS = ['test-1', 'test-2'];
+interface SetIndexEntry {
+  id: string;
+  title: string;
+  group: string;
+  level?: BookLevel;
+}
 
-/** The tests installed in gre-prep/private/official-tests, for allowed users only. */
-async function loadExams(): Promise<Record<string, { content: ExamContent; key: ExamKey }>> {
-  const out: Record<string, { content: ExamContent; key: ExamKey }> = {};
+interface Loaded {
+  content: ExamContent;
+  key: ExamKey;
+  meta: { group?: string; level?: BookLevel };
+}
+
+/** Full-length tests (official-tests/test-N.json) then practice sets
+ * (official-sets/index.json, in book order), for allowed users only. */
+async function loadExams(): Promise<Record<string, Loaded>> {
+  const out: Record<string, Loaded> = {};
   if (!(await hasPrivateAccess())) return out;
-  for (const id of IDS) {
+  const tests = listPrivateDir('official-tests')
+    .map((f) => f.match(/^(test-\d+)\.json$/)?.[1])
+    .filter((x): x is string => !!x)
+    .sort((a, b) => Number(a.slice(5)) - Number(b.slice(5)));
+  for (const id of tests) {
     const content = readPrivateJson<ExamContent>(`official-tests/${id}.json`);
     const key = readPrivateJson<ExamKey>(`official-tests/${id}.key.json`);
-    if (content && key) out[id] = { content, key };
+    if (content && key) out[id] = { content: { ...content, kind: 'test' }, key, meta: {} };
+  }
+  for (const s of readPrivateJson<SetIndexEntry[]>('official-sets/index.json') ?? []) {
+    if (!/^[a-z0-9-]+$/.test(s.id)) continue;
+    const content = readPrivateJson<ExamContent>(`official-sets/${s.id}.json`);
+    const key = readPrivateJson<ExamKey>(`official-sets/${s.id}.key.json`);
+    if (content && key) out[s.id] = { content: { ...content, kind: 'set' }, key, meta: { group: s.group, level: s.level } };
   }
   return out;
 }
@@ -32,10 +54,13 @@ async function loadExams(): Promise<Record<string, { content: ExamContent; key: 
 const MAX_ESSAY_CHARS = 20_000;
 
 export async function listExams(): Promise<ExamMeta[]> {
-  return Object.values(await loadExams()).map(({ content }) => ({
+  return Object.values(await loadExams()).map(({ content, meta }) => ({
     id: content.id,
     number: content.number,
     title: content.title,
+    kind: content.kind ?? 'test',
+    source: content.source,
+    ...meta,
     sections: content.sections.map((s) => ({
       id: s.id,
       kind: s.kind,

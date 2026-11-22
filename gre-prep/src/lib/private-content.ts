@@ -20,3 +20,12 @@ export function readPrivateJson<T>(rel: string): T | null {
   cache.set(rel, value);
   return value;
 }
+
+/** File names in a private folder (empty when the folder is absent). */
+export function listPrivateDir(rel: string): string[] {
+  try {
+    return fs.readdirSync(path.join(ROOT, rel)).sort();
+  } catch {
+    return [];
+  }
+}

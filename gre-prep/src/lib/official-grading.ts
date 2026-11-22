@@ -9,6 +9,7 @@
 import { isWriting } from '@/types/official';
 import type {
   Answer,
+  BookLevel,
   ExamContent,
   ExamResponses,
   ExamResult,
@@ -31,13 +32,16 @@ export type KeyAnswer =
 
 export interface KeyEntry {
   answer: KeyAnswer;
-  p: number;
+  p: number | null;
+  difficulty?: BookLevel;
   explanation: string[] | Img | null;
 }
 
 export interface ExamKey {
   sections: Record<string, Record<string, KeyEntry> | { samples: SampleEssay[] }>;
   conversion: { verbal: Record<string, number>; quant: Record<string, number> };
+  /** Conversion tables derived from the official ones rather than printed for this material. */
+  estimated?: boolean;
 }
 
 const sameSet = (a: string[], b: string[]) =>
@@ -137,7 +141,8 @@ export function gradeExam(
         correct: gradeItem(item, entry.answer, answer),
         skipped: !isAnswered(answer),
         expected: expectedOf(entry.answer),
-        p: entry.p,
+        p: entry.p ?? null,
+        ...(entry.difficulty ? { difficulty: entry.difficulty } : {}),
         explanation: entry.explanation,
         timeMs: timeMs[section.id]?.[item.n],
       };
@@ -149,9 +154,13 @@ export function gradeExam(
     bucket.total += items.length;
   }
 
+  // A measure without a table (or without questions) has no 130–170 score.
+  const scale = (table: Record<string, number>, t: { raw: number; total: number }) =>
+    t.total && Object.keys(table).length ? (table[String(t.raw)] ?? 130) : null;
   return {
-    verbal: { ...tally.verbal, scaled: key.conversion.verbal[String(tally.verbal.raw)] ?? 130 },
-    quant: { ...tally.quant, scaled: key.conversion.quant[String(tally.quant.raw)] ?? 130 },
+    verbal: { ...tally.verbal, scaled: scale(key.conversion.verbal, tally.verbal) },
+    quant: { ...tally.quant, scaled: scale(key.conversion.quant, tally.quant) },
+    ...(key.estimated ? { estimated: true } : {}),
     sections,
   };
 }

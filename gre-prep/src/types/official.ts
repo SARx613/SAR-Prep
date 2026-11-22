@@ -133,11 +133,16 @@ export const isWriting = (s: ExamSection): s is WritingSection => s.kind === 'is
 export const hasItems = (s: ExamSection): s is VerbalSection | QuantSection =>
   s.kind === 'verbal' || s.kind === 'quant';
 
+/** The book's own difficulty label for a question or a set (no P+ is published for these). */
+export type BookLevel = 'easy' | 'medium' | 'hard';
+
 export interface ExamContent {
   id: string;
   number: number;
   title: string;
   source: string;
+  /** `test`: a full-length test (writing + both measures). `set`: an official practice set. */
+  kind?: 'test' | 'set';
   sections: ExamSection[];
 }
 
@@ -145,6 +150,11 @@ export interface ExamMeta {
   id: string;
   number: number;
   title: string;
+  kind: 'test' | 'set';
+  source: string;
+  /** Practice sets: the book and chapter they come from, and their printed difficulty. */
+  group?: string;
+  level?: BookLevel;
   sections: { id: string; kind: ExamSection['kind']; title: string; minutes: number; questions: number }[];
 }
 
@@ -186,8 +196,10 @@ export interface ItemResult {
   correct: boolean;
   skipped: boolean;
   expected: Expected;
-  /** Share of real test takers who got this question right. */
-  p: number;
+  /** Share of real test takers who got this question right, when ETS published it. */
+  p: number | null;
+  /** The book's difficulty label, when it prints one. */
+  difficulty?: BookLevel;
   /** Verbal: paragraphs. Quantitative: an image. */
   explanation: string[] | Img | null;
   timeMs?: number;
@@ -212,8 +224,11 @@ export interface SectionResult {
 export interface ExamResult {
   examId: string;
   completedAt: string;
-  verbal: { raw: number; total: number; scaled: number };
-  quant: { raw: number; total: number; scaled: number };
+  /** `scaled` is null when the material has no score table for that measure (practice sets). */
+  verbal: { raw: number; total: number; scaled: number | null };
+  quant: { raw: number; total: number; scaled: number | null };
+  /** The 130–170 scores are estimates (no official conversion table for this material). */
+  estimated?: boolean;
   sections: Record<string, SectionResult>;
 }
 
@@ -221,6 +236,8 @@ export interface ExamHistoryEntry {
   id: string;
   examId: string;
   completedAt: string;
-  verbal: number;
-  quant: number;
+  verbal: number | null;
+  quant: number | null;
+  correct?: number;
+  total?: number;
 }

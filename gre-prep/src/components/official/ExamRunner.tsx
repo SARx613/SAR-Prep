@@ -756,6 +756,7 @@ function Gate({
   onResume: () => void;
 }) {
   const total = exam.sections.reduce((a, s) => a + s.minutes, 0);
+  const isSet = exam.kind === 'set';
   const inProgress = saved && saved.phase !== 'done';
   const sec = saved ? exam.sections[saved.sectionIndex] : undefined;
 
@@ -767,11 +768,13 @@ function Gate({
             href="/official-tests"
             className="mb-6 inline-flex items-center gap-2 text-sm text-muted transition hover:text-fg"
           >
-            <ArrowLeft className="h-4 w-4" /> Official tests
+            <ArrowLeft className="h-4 w-4" /> Official material
           </Link>
           <h1 className="text-3xl font-bold">{exam.title}</h1>
           <p className="mt-2 text-muted">
-            A full-length ETS test, taken under computer-delivered exam conditions.
+            {isSet
+              ? `An official ETS practice set, from ${exam.source}. Timed and scored at the end, like a test section.`
+              : 'A full-length ETS test, taken under computer-delivered exam conditions.'}
           </p>
         </div>
 
@@ -814,20 +817,36 @@ function Gate({
           ))}
         </ol>
 
-        <ul className="space-y-2 text-[15px] text-muted">
-          <li>Length: {Math.floor(total / 60)} h {total % 60 ? `${total % 60} min` : ''}, plus an optional 10-minute break after section 3.</li>
-          <li>One clock per section; you can mark questions, review the section and move freely inside it, but not return after leaving it.</li>
-          <li>In the Quant sections an on-screen calculator is available.</li>
-          <li>Answers and the 130–170 score are shown only at the end, as on the real test.</li>
-          <li>The sections follow the book’s structure (2 writing tasks, 2 Verbal and 2 Quant sections of 25 questions), which differs from the current, shorter online exam.</li>
-        </ul>
+        {isSet ? (
+          <ul className="space-y-2 text-[15px] text-muted">
+            <li>
+              {total} minutes on the clock — the book sets no time limit; this is the paper test’s pace (
+              {exam.sections[0]?.kind === 'quant' ? '1.6' : '1.4'} min per question).
+            </li>
+            <li>You can mark questions, review the set and change answers until the clock stops.</li>
+            {exam.sections[0]?.kind === 'quant' && <li>An on-screen calculator is available.</li>}
+            <li>Answers, the ETS explanations and your share of correct answers are shown at the end. ETS prints no score table for practice sets, so there is no 130–170 score.</li>
+          </ul>
+        ) : (
+          <ul className="space-y-2 text-[15px] text-muted">
+            <li>Length: {Math.floor(total / 60)} h {total % 60 ? `${total % 60} min` : ''}{exam.sections.length > 3 ? ', plus an optional 10-minute break after section 3' : ''}.</li>
+            <li>One clock per section; you can mark questions, review the section and move freely inside it, but not return after leaving it.</li>
+            <li>In the Quant sections an on-screen calculator is available.</li>
+            <li>Answers and the 130–170 score are shown only at the end, as on the real test.</li>
+            {exam.number <= 2 ? (
+              <li>The sections follow the book’s structure (2 writing tasks, 2 Verbal and 2 Quant sections of 25 questions), which differs from the current, shorter online exam.</li>
+            ) : (
+              <li>Built from the mixed practice sets of the ETS Verbal and Quantitative practice books (one 25-question section of each, with an Issue and an Argument task from the Verbal book). ETS prints no score table for these, so the 130–170 scores are estimates from the official tables.</li>
+            )}
+          </ul>
+        )}
 
         {!inProgress && (
           <button
             onClick={onStart}
             className="inline-flex items-center gap-2 rounded-xl border border-good bg-good-soft px-6 py-3.5 text-lg font-semibold transition hover:bg-good-soft"
           >
-            <Play className="h-5 w-5" /> Start the test
+            <Play className="h-5 w-5" /> {isSet ? 'Start the set' : 'Start the test'}
           </button>
         )}
       </div>

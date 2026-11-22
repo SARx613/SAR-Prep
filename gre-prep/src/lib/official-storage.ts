@@ -82,8 +82,10 @@ export function clearRun(examId: string): void {
 export interface LocalHistoryEntry {
   examId: string;
   completedAt: string;
-  verbal: number;
-  quant: number;
+  verbal: number | null;
+  quant: number | null;
+  correct?: number;
+  total?: number;
 }
 
 export function parseLocalHistory(raw: string | null): LocalHistoryEntry[] {
@@ -110,6 +112,8 @@ export function pushLocalHistory(result: ExamResult): void {
       completedAt: result.completedAt,
       verbal: result.verbal.scaled,
       quant: result.quant.scaled,
+      correct: result.verbal.raw + result.quant.raw,
+      total: result.verbal.total + result.quant.total,
     });
     writeLocal(HISTORY_KEY, JSON.stringify(list.slice(0, 30)));
   } catch {

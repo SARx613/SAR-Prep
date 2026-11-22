@@ -79,3 +79,57 @@ describe('parseNumber', () => {
     expect(parseNumber('1/0')).toBeNull();
   });
 });
+
+/* Practice sets and Tests 3–5 (built by scripts/content/build_official_sets.py).
+ * Each must be fully consistent with its key: every keyed choice exists, a
+ * perfect sheet scores 100 %, and only the full tests carry (estimated) scores. */
+const SETS_DIR = path.join(process.cwd(), 'private', 'official-sets');
+const readJson = (p: string): unknown => {
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch {
+    return null;
+  }
+};
+const setIndex = (readJson(path.join(SETS_DIR, 'index.json')) as { id: string }[] | null) ?? [];
+const extra: [string, ExamContent, ExamKey][] = [
+  ...setIndex.map((s) => [s.id, readJson(path.join(SETS_DIR, `${s.id}.json`)), readJson(path.join(SETS_DIR, `${s.id}.key.json`))]),
+  ...[3, 4, 5].map((t) => [`test-${t}`, load(`test-${t}.json`), load(`test-${t}.key.json`)]),
+].filter((x) => x[1] && x[2]) as [string, ExamContent, ExamKey][];
+
+describe.skipIf(!extra.length).each(extra)('official material %s', (id, content, key) => {
+  it('keys only choices that exist', () => {
+    for (const s of content.sections) {
+      if (!('items' in s)) continue;
+      for (const it of s.items) {
+        const k = (key.sections[s.id] as Record<string, { answer: KeyAnswer }>)[String(it.n)]?.answer;
+        expect(k, `${id} ${s.id} Q${it.n}`).toBeTruthy();
+        const ids = new Set<string>([
+          ...('choices' in it && it.choices ? it.choices.map((c) => c.id) : []),
+          ...('blanks' in it ? it.blanks.flatMap((b) => b.choices.map((c) => c.id)) : []),
+          ...(it.type === 'QC' ? ['A', 'B', 'C', 'D'] : []),
+        ]);
+        const keyed = 'blanks' in k ? k.blanks : 'choices' in k ? k.choices : 'choice' in k ? [k.choice] : [];
+        for (const c of keyed) expect(ids.has(c), `${id} ${s.id} Q${it.n} keyed ${c}`).toBe(true);
+        if ('blanks' in k && 'blanks' in it) {
+          k.blanks.forEach((c, i) => expect(it.blanks[i].choices.some((x) => x.id === c)).toBe(true));
+        }
+      }
+    }
+  });
+
+  it('scores a perfect sheet 100 %', () => {
+    const r = gradeExam(content, key, perfect(content, key));
+    expect(r.verbal.raw).toBe(r.verbal.total);
+    expect(r.quant.raw).toBe(r.quant.total);
+    if (content.kind === 'set') {
+      expect(r.verbal.scaled).toBeNull();
+      expect(r.quant.scaled).toBeNull();
+    } else {
+      expect(r.estimated).toBe(true);
+      expect(r.verbal.scaled).toBe(170);
+      const blank = gradeExam(content, key, {});
+      expect(blank.verbal.scaled).toBe(130);
+    }
+  });
+});

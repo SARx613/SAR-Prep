@@ -48,6 +48,8 @@ request time. Access is closed by default: the pages, the server actions and the
 | Route | What it is |
 |---|---|
 | `/official-tests` | The two full-length tests of the *Official Guide to the GRE General Test* (3rd ed.), run like the computer-delivered exam: a clock per section, Mark / Review, calculator, optional break, 130–170 score, official explanations. Answers stay on the server (`src/app/actions/official.ts`); results are kept in the browser. |
+| `/official-tests` (practice sets) | 25 official practice sets from the *Official Guide* (ch. 4 and 6) and the ETS *Verbal* and *Quantitative Reasoning Practice Questions* books (2nd ed.), timed and reviewed in the same runner, with each question's ETS difficulty label. |
+| `/official-tests` (Tests 3–5) | Built from the two practice books' mixed sets: an Issue and an Argument task with six scored samples each, one 25-question Verbal and one 25-question Quant section. Scores are estimates: ETS prints no table for these, so a raw score *r*/25 is read on the two official 50-question tables at 2*r* (averaged). |
 | `/math-review` | The exercises of the ETS *GRE Math Review*, typed as text with their official answers, self-assessed. |
 
 **Online, for the owner only.** `gre-prep/private` is a Git submodule of the private repository `SARx613/SAR-Prep-private` (clone with
@@ -59,6 +61,7 @@ repository public.
 
 The public product stays original: the bank in `content/` is authored from the official *skills and formats*, never from ETS text. To
 rebuild the private data from your own copies of the PDFs (not committed): `python3 -I scripts/content/build_exams.py <Official Guide PDF>`
+, `python3 -I scripts/content/build_official_sets.py --guide <Official Guide PDF> --verbal <Verbal book PDF> --quant <Quant book PDF>`
 and `python3 -I scripts/content/build_math_course.py <Math Review PDF>` (needs poppler, Pillow with WebP, PyMuPDF, and the transcription
 modules in `gre-prep/private/scripts/`; figures go to `private/media/`).
 

@@ -49,7 +49,7 @@ export function ExamImg({ img, className = '' }: { img: Img; className?: string 
  *  2 px per printed point; 0.75 maps that to a readable size). */
 export function FigureCard({ img, theme }: { img: Img; theme: FigureTheme }) {
   return (
-    <div className="max-w-full overflow-x-auto">
+    <div className="max-w-full">
       <div className={`exam-figure ${theme === 'dark' ? 'exam-figure-dark' : ''}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -59,7 +59,8 @@ export function FigureCard({ img, theme }: { img: Img; theme: FigureTheme }) {
           height={img.h}
           draggable={false}
           className="block"
-          style={{ width: img.w * 0.75, maxWidth: 'none', height: 'auto' }}
+          // Shrinks to the panel when a wide graph would not fit, rather than clipping it.
+          style={{ width: img.w * 0.75, maxWidth: '100%', height: 'auto' }}
         />
       </div>
     </div>

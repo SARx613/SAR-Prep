@@ -26,26 +26,53 @@ function minutes(ms?: number): string | null {
 }
 
 function ScoreCard({
-  label, kind, scaled, raw, total, tone,
+  label, kind, scaled, raw, total, tone, estimated,
 }: {
   label: string;
   kind: 'verbal' | 'quant';
-  scaled: number;
+  scaled: number | null;
   raw: number;
   total: number;
   tone: string;
+  estimated?: boolean;
 }) {
+  // Practice sets have no score table: report the share of questions right.
+  if (scaled === null) {
+    return (
+      <div className={cx('rounded-2xl border p-5', tone)}>
+        <p className="text-xs uppercase tracking-wide text-muted">{label}</p>
+        <p className="mt-1 text-5xl font-black tabular-nums">{total ? Math.round((raw / total) * 100) : 0}%</p>
+        <p className="mt-1 text-sm text-muted">{raw} / {total} correct</p>
+      </div>
+    );
+  }
   const pct = etsPercentile(kind, scaled);
   return (
     <div className={cx('rounded-2xl border p-5', tone)}>
-      <p className="text-xs uppercase tracking-wide text-muted">{label}</p>
-      <p className="mt-1 text-5xl font-black tabular-nums">{scaled}</p>
+      <p className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted">
+        {label}
+        {estimated && (
+          <span className="rounded-md border border-line-strong px-1.5 py-0.5 text-[10px] normal-case tracking-normal text-faint">
+            estimate
+          </span>
+        )}
+      </p>
+      <p className="mt-1 text-5xl font-black tabular-nums">
+        {scaled}
+        {estimated && (
+          <span className="ml-2 text-lg font-semibold text-faint">
+            {Math.max(130, scaled - 3)}–{Math.min(170, scaled + 3)}
+          </span>
+        )}
+      </p>
       <p className="mt-1 text-sm text-muted">
         {raw} / {total} correct · 130–170 scale · {ordinal(pct)} percentile
       </p>
     </div>
   );
 }
+
+const LEVEL_LABEL = { easy: 'Easy', medium: 'Medium', hard: 'Hard' } as const;
 
 function ExplanationBlock({ item, theme }: { item: ItemResult; theme: FigureTheme }) {
   const ex = item.explanation;
@@ -136,7 +163,11 @@ function SectionReview({
                 </>
               )}
             </span>
-            <span className="text-muted">{current.p}% of test takers answered this question correctly</span>
+            {current.p !== null ? (
+              <span className="text-muted">{current.p}% of test takers answered this question correctly</span>
+            ) : current.difficulty ? (
+              <span className="text-muted">ETS difficulty: {LEVEL_LABEL[current.difficulty]}</span>
+            ) : null}
             {minutes(current.timeMs) && (
               <span className="text-muted">Time spent: {minutes(current.timeMs)}</span>
             )}
@@ -210,7 +241,7 @@ export function ExamResults({
               href="/official-tests"
               className="mb-5 inline-flex items-center gap-2 text-sm text-muted transition hover:text-fg"
             >
-              <ArrowLeft className="h-4 w-4" /> Official tests
+              <ArrowLeft className="h-4 w-4" /> Official material
             </Link>
             <h1 className="flex items-center gap-2.5 text-3xl font-bold">
               <BookOpenCheck className="h-7 w-7 text-good" />
@@ -220,7 +251,7 @@ export function ExamResults({
           <div className="flex gap-2">
             <button
               onClick={() => {
-                if (confirm('Erase these answers and retake the test?')) onRetake();
+                if (confirm(`Erase these answers and retake ${exam.kind === 'set' ? 'this set' : 'the test'}?`)) onRetake();
               }}
               className="inline-flex items-center gap-2 rounded-xl border border-accent bg-accent-soft px-4 py-2.5 text-sm font-medium transition hover:bg-accent-soft"
             >
@@ -229,24 +260,37 @@ export function ExamResults({
           </div>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2">
-          <ScoreCard
-            label="Verbal Reasoning"
-            kind="verbal"
-            scaled={result.verbal.scaled}
-            raw={result.verbal.raw}
-            total={result.verbal.total}
-            tone="border-accent bg-violet-500/[0.07]"
-          />
-          <ScoreCard
-            label="Quantitative Reasoning"
-            kind="quant"
-            scaled={result.quant.scaled}
-            raw={result.quant.raw}
-            total={result.quant.total}
-            tone="border-good bg-emerald-500/[0.07]"
-          />
+        <div className={cx('grid gap-4', result.verbal.total > 0 && result.quant.total > 0 && 'sm:grid-cols-2')}>
+          {result.verbal.total > 0 && (
+            <ScoreCard
+              label="Verbal Reasoning"
+              kind="verbal"
+              scaled={result.verbal.scaled}
+              raw={result.verbal.raw}
+              total={result.verbal.total}
+              estimated={result.estimated}
+              tone="border-accent bg-violet-500/[0.07]"
+            />
+          )}
+          {result.quant.total > 0 && (
+            <ScoreCard
+              label="Quantitative Reasoning"
+              kind="quant"
+              scaled={result.quant.scaled}
+              raw={result.quant.raw}
+              total={result.quant.total}
+              estimated={result.estimated}
+              tone="border-good bg-emerald-500/[0.07]"
+            />
+          )}
         </div>
+        {result.estimated && (
+          <p className="-mt-4 text-sm text-faint">
+            ETS prints no score table for this material. Each 25-question section is placed on the official
+            conversion tables of the Official Guide’s two practice tests (raw score doubled, tables averaged), so read
+            the score as a band of about ±3 points.
+          </p>
+        )}
 
         {exam.sections.map((s) => {
           const r = result.sections[s.id];
